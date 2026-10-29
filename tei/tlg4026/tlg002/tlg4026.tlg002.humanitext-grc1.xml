@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt><title>Anonymus, Fragmentum commentarii in Aristotelis rhetorica (CAG 21.2)</title><respStmt><resp>Responsible for the edition</resp><persName xml:id="NI" xml:lang="en">Naoya Iwata</persName></respStmt><respStmt><resp>Structuring of the text (division into chapters, sections and lemmata) and its review</resp><persName xml:id="TN" xml:lang="en">Tomomi Nakayama</persName></respStmt></titleStmt>
+      <publicationStmt>
+        <publisher>Humanitext</publisher>
+        <availability><licence target="https://creativecommons.org/licenses/by/4.0/">Public domain source; transcription CC BY 4.0 (Humanitext)</licence></availability>
+      </publicationStmt>
+      <sourceDesc><bibl>Anonymus, Fragmentum commentarii in Aristotelis rhetorica. Commentaria in Aristotelem Graeca XXI.2, ed. H. Rabe, Berlin: Reimer 1896, pp. 323–329. Scan: Internet Archive commentariaina21pt12akaduoft (University of Toronto). Transcription: Humanitext OCR v2 (Gemini), 2026; structure: humanitext-cag-structuring.</bibl></sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <refsDecl n="CTS">
+        <cRefPattern n="section" matchPattern="(.+)\.(.+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='chapter' and @n='$1']/tei:div[@subtype='section' and @n='$2'])"/>
+        <cRefPattern n="chapter" matchPattern="(.+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='chapter' and @n='$1'])"/>
+      </refsDecl><refsDecl n="page-line"><cRefPattern n="page.line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(//tei:pb[@n='$1']/following::tei:lb[@n='$2'][1])"><p>Citation by the page and line of the printed edition (CAG page.line, e.g. 105.17): the line with that number after the page break with that page number.</p></cRefPattern></refsDecl>
+      <editorialDecl>
+        <p>Text transcribed by OCR (Humanitext OCR v2, Gemini models) from the scans named in the source description. Structure (div, quote, head): assigned automatically from printed cues (Bekker references before lemmata, section numbers, headings, book titles, lecture headings; in the paraphrases, Aristotle's chapters located from the running heads) and reviewed by the editors at every boundary that was not certain. In works divided into lectures (Πρᾶξις, Θεωρία) the lectures are divs; topic headings that run across lectures (e.g. Περὶ οὐσίας) are marked milestone[@unit='topic'] and kept as text. Text: OCR of the page images (gemini-3-flash-preview; gemini-3.7-flash where it failed), not collated with another transcription (no First1KGreek file was used for this work); practically every line was therefore read again from images of the single lines by a second model (gemini-3.8-flash); words still undecided were read line by line by a third model (gemini-3.1-pro-preview). A reading was adopted when the re-reading of the image agreed with it; the remaining words were decided on the page image by student assistants or by AI-assisted checking under the editor's supervision. Spelling, accents and breathings follow the printed page: the models were instructed to transcribe exactly as printed and the checkers chose the printed form, but a normalised accentuation adopted by a model may occasionally remain. Later checks against the page images (line numbers, marginal references, signs and apparatus, omitted lines) are listed in the revision description. Headings inside a div (sub-headings, closing formulas, labels of tables) are ab[@type='head']. The words of diagrams and tables are not body text: each diagram or table is given once as figure after the last body line printed before it (labels, trees and tables transcribed; pure geometry described in figDesc); where the edition counts the rows of a diagram or table as lines, those line numbers are not used by any lb. Evident misprints of the printed edition, identified on the page image, are kept and given with the correct form as choice/sic/corr; mere variants of spelling or accentuation are left as printed. Misprinted numbers in milestones (Bekker references, old-edition page, folio, column and line numbers), which cannot carry choice/sic/corr, are given with the corrected value where the sequence of the numbers determines it. Line breaks: one lb per printed line; @n is the line count of the CAG page (headings included), resynchronised on the printed marginal numbers of the left margin; lines the edition does not count carry lb without @n. Words hyphenated across lines are joined and the lb is placed at the following word boundary. pb/@facs points to the image of the page in the Internet Archive item named in the source description (BookReader page image; for pages supplied from another copy, that copy). Critical-apparatus entries are attached to the line(s) they cite as note[@type='apparatus'] with @target on the lb (line level; the lemma words of an entry are not linked); entries that cannot be resolved remain as note[@type='footnote'] at the page end. References in the margins to older editions or manuscripts are milestone[@type='alt-edition'] with @unit and @ed (the edition identified from the preface of the volume); CAG's repetition of the current old-edition page or folio beside the first line of each page is not encoded. Bekker references printed before lemmata are milestone[@unit='bekker']. Marginal digits fused into the text by OCR have been removed.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc><change when="2026-09-15" who="#NI">OCR of the page images in text mode (gemini-3-flash-preview; gemini-3.7-flash where it failed); body lines aligned to the physical lines of the page image; physical lines left without an OCR line read again (31 lines recovered in the corpus).</change><change when="2026-09-24" who="#NI">Line numbers anchored on the printed marginal numerals; 75 doubtful pages of the corpus checked by eye.</change><change when="2026-09-25" who="#NI">Automatic division into chapters, sections and lemmata; 459 uncertain boundaries of the corpus reviewed (273 removed, 119 added).</change><change from="2026-09-26" to="2026-09-29" who="#NI">Line numbers verified against the printed marginal numerals of every page (67,352 of 70,149 numerals agreed); page-wide shifts corrected automatically (322 pages on 2026-09-26, 129 on 2026-09-28); 227 pages reviewed by student assistants (176 corrected).</change><change from="2026-09-30" to="2026-10-02" who="#NI">Text collated with First1KGreek where a First1KGreek file could be aligned by page and line, and re-read (Gemini Batch API): 156,504 lines of the corpus by gemini-3.8-flash, 21,570 lines by gemini-3.1-pro-preview; remaining words put on review sheets.</change><change from="2026-09-30" to="2026-10-12" who="#NI">Review sheets of the re-read words answered by student assistants; the remaining words decided on the page images.</change><change from="2026-10-01" to="2026-10-08" who="#TN">All uncertain structural boundaries reviewed; conventions of the pilot works applied (lectures, book titles, topic headings).</change><change when="2026-10-02" who="#NI">Evident misprints given as choice/sic/corr; headings inside divs as ab[@type='head'].</change><change when="2026-10-13" who="#NI">Margin references to older editions and manuscripts encoded as milestone[@type='alt-edition'][@ed], the editions identified from the prefaces; irregular sequences checked on the page images.</change><change from="2026-10-13" to="2026-10-14" who="#NI">Body text lost to the footnote and figure areas found by collation from the First1KGreek side and restored (about 2,300 lines in the corpus); passages missed by the OCR read again and inserted; restored and inserted lines checked again against the images.</change><change when="2026-10-14" who="#NI">Text of diagrams encoded as figure, and lemma Bekker references whose numbers the OCR had lost read from the images (where the work has them).</change><change when="2026-10-16" who="#NI">Line numbers of the 875 pages left by the verification checked on the images (248 of them also answered by student assistants), followed by a continuity check of every page; margin references to older editions checked on 2,237 page images (944 corrections).</change><change when="2026-10-17" who="#NI">Pages whose line numbering still had gaps or repeats checked on the images (355 pages); signs (〈 〉 [ ] † * — ( )) compared with First1KGreek and 445 pages checked on the images (313 corrections in the text, 523 in the apparatus); words hyphenated across lines joined; punctuation normalised.</change><change when="2026-10-20" who="#NI">Header revised (title, source description, editorial declaration, revision description); misprinted old-edition line numbers given with the corrected value where the sequence determines them; breathings and accents written as separate signs before capitals composed with the letter; missing elision marks after ἀλλ, κατ, καθ, ἐπ, δι etc. supplied in the text; numbers left at line starts removed or encoded as old-edition milestones (image checked); working row identifiers left in 37 lines removed (one line restored from the page image); words divided at a line end that had been joined to a word two lines down corrected; every body line without a line number checked on the page images (margin labels and folio marks read as lines dropped, duplicated rows removed, numbers given to lines the edition counts); numeral signs unified as ʹ (U+0374, stored in its NFC form U+02B9); line-number jumps, old-edition milestones without an edition name and notes suspected to hold body text checked on the page images; citation by printed page and line declared (refsDecl); line coordinates of the working files realigned on the marginal numerals; printers' signatures at the foot of the page removed from the apparatus; apparatus entries for two lines joined by et kept as one note pointing at both lines; page images linked from pb/@facs.</change><change when="2026-10-21" who="#NI">Old-edition line numbers checked on the page images where the sequence skipped a number (2,100 places in the corpus) and, page by page, where it was irregular (542 pages): numbers missed by the OCR added (549), milestones not printed on the page dropped (190; mostly the CAG's own left-margin numbers or line references of the apparatus taken for old-edition numbers), misplaced ones moved (69), misread values corrected (31), page numbers taken for line numbers made page milestones (8); the edition's own skips and out-of-order numbers left as printed, the line count printed beside the repeated page or folio at the head of a page not encoded (like the repetition).</change><change when="2026-10-23" who="#NI">Quotation marks made uniform: opening single and double quotation marks, printed in the edition in the reversed (high-reversed-9) form, are encoded as ‘ and “, closing ones as ’ and ”, single and double kept as printed; opening marks read by the OCR as straight quotes, low quotes or spacing breathings, and spacing breathings or quotation marks doubled before a capital that already bears its breathing, corrected.</change></revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="edition" n="urn:cts:greekLit:tlg4026.tlg002.humanitext-grc1" xml:lang="grc">
+        <pb n="323" facs="https://archive.org/download/commentariaina21pt12akaduoft/page/n660.jpg"/>
+        <div type="textpart" subtype="chapter" n="1">
+          <head><lb xml:id="p323-0"/>FRAGMENTVM COMMENTARII IN ARISTOTELIS RHETORICA</head>
+          <div type="textpart" subtype="section" n="0">
+            <head><lb xml:id="p323-1"/>ed. Spengelii
+<lb xml:id="p323-2"/>(Arist. Ars rhet., vol. I)</head>
+          </div>
+          <div type="textpart" subtype="section" n="15">
+            <p>
+              <lb n="1" xml:id="p323-3"/>15. [1416a 28] Ὁ Εὐριπίδης τὸν Ὑγιαίνοντα ἠνάγκασε δοῦναι ἀντίδοσιν.
+              <lb n="2" xml:id="p323-4"/>ἡ δὲ ἀντίδοσις λειτούργημα ἦν ὑπὲρ τῆς πόλεως εἰς τριηραρχίας,
+              <lb n="3" xml:id="p323-5"/>εἰς σιτίσεις, εἰς ἐκστρατείας, εἰς πλωίμους, ἵνα ἀνθ’ ἑαυτοῦ δώσει τις
+              <lb n="4" xml:id="p323-6"/>τόσους ἢ τόσους. διὰ τοῦτο τοίνυν κατηγόρησε τοῦ Εὐριπίδου οὗτος ὁ<milestone type="alt-edition" unit="line" ed="Spengel 1867" n="5"/>
+              <lb n="5" xml:id="p323-7"/>Ὑγιαίνων ὡς ἀσεβοῦς γράψαντος ἐν τῷ δράματι Ἱππολύτου τὸ “ἡ γλῶσσ’
+              <lb n="6" xml:id="p323-8"/>ὀμώμοχ’, ἡ δὲ φρήν”. καὶ γὰρ ἡ θεράπαινα ἡ τροφὸς τῆς Φαίδρας περὶ
+              <lb n="7" xml:id="p323-9"/>τοῦ τῆς δεσποίνης μὲν αὑτῆς μητρυιᾶς δὲ τοῦ νεανίσκου μέλλουσα εἰπεῖν
+              <lb n="8" xml:id="p323-10"/>αὐτῷ περὶ ἔρωτος ὅρκοις αὐτὸν προεκράτησε, μὴ πρός τινα εἰπεῖν τὸ λαληθησόμενον·<milestone type="alt-edition" unit="line" ed="Spengel 1867" n="10"/>
+              <lb n="9" xml:id="p323-11"/>ὁ δὲ ὑπέσχετο ὁρκώσας· εἶτα ὡς ὕστερον εἶπεν ἐκείνη τὸν
+              <lb n="10" xml:id="p323-12"/>ἔρωτα πρὸς Ἱππόλυτον, ὁ δὲ ἠγανάκτησεν, ἀνέμνησεν ἐκείνη περὶ τοῦ
+              <lb n="11" xml:id="p323-13"/>ὅρκου· ὁ δ’ εἶπεν “ἡ γλῶσσ’ ὀμώμοχ’, ἡ δὲ φρὴν” ἤτοι ‘οὐκ ἐπιώρκησα,<note type="apparatus" n="11" target="#p323-13">ἡ γλῶσσ’ κτλ.] Eurip. Hipp. 612 8 fort. περὶ delendum</note>
+              <lb n="12" xml:id="p323-14"/>ὦ τροφέ· τότε γὰρ γίνεται ἐπιορκία, ὅταν ὁ νοῦς συμφωνήσῃ καὶ ἡ γλῶττα·<milestone type="alt-edition" unit="line" ed="Spengel 1867" n="15"/>
+              <lb n="13" xml:id="p323-15"/>ἐγὼ δὲ πρὸ τοῦ μαθεῖν τὴν φρένα μου τὸ λαληθησόμενον συνηρπάγην
+              <lb n="14" xml:id="p323-16"/>κατὰ μόνην τὴν γλῶτταν ὀμόσας· καὶ λοιπὸν οὔτε ὤμοσα, εἰ δὲ καὶ ὤμοσα,<note type="apparatus" n="14" target="#p323-16">οὔτε V: οὐκ cod. Paris. gr. 1951: οὔτι s</note>
+              <lb n="15" xml:id="p323-17"/>οὐκ ἐπιώρκησα’. ‘ἀσεβὴς ἄρα ἐστὶν ὁ Εὐριπίδης’, φησὶν ὁ Ὑγιαίνων,
+              <lb n="16" xml:id="p323-18"/>‘διδάξας ἀπὸ τούτου τοῦ ἰαμβείου ὁρκωμοτεῖν τοὺς ἀνθρώπους’. πάλιν δὲ<milestone type="alt-edition" unit="line" ed="Spengel 1867" n="20"/>
+              <lb n="17" xml:id="p323-19"/>καὶ οὗτος ὁ Εὐριπίδης οἷον ἀσεβῆ αὐτὸν λέγει, ‘διότι’, φησίν, ‘εἰ καὶ ἠδίκησά
+              <lb n="18" xml:id="p323-20"/>τι, ἐν Διονυσίοις ἐκρίθην ἂν παρ’ αὐτοῖς τοῖς ἐξάρχοις τῆς ἑορτῆς.<note type="apparatus" n="18" target="#p323-20">ἂν scripsi: ἀλλὰ Vs (“ἀλλὰ abundat, fort. post φησὶν ponendum” s); cf. etiam Anon. in Rhet. p. 238,18</note>
+              <lb n="19" xml:id="p323-21"/>νῦν δὲ κακῶς ποιεῖς, ὦ Ὑγιαίνων, κατηγορῶν μου ἐν τοῖς δημοσίοις δικαστηρίοις·
+              <lb n="20" xml:id="p323-22"/>τὰ γὰρ ἐν τῇ τελετῇ τοῦ θεοῦ Διονύσου παρ’ αὐτοῖς τοῖς τελετάρχαις<milestone type="alt-edition" unit="line" ed="Spengel 1867" n="25"/>
+              <lb n="21" xml:id="p323-23"/>δικάζονται’.
+            </p>
+          </div>
+          <div type="textpart" subtype="section" n="16">
+            <p>
+              <lb n="22" xml:id="p323-24"/>16. [1417 a 6] Φησὶν Ἡρόδοτος περὶ Αἰγυπτίων ἐν τῷ λόγῳ τῆς<note type="apparatus" n="22" target="#p323-24">Ἡρόδοτος] II 30 21*</note>
+              <lb n="23" xml:id="p323-25"/>μούσης Εὐτέρπης, ὅτι τὸν Ψαμμήτιχον ἀπεδίδρασκον τὸν βασιλέα αὐτῶν
+              <lb n="24" xml:id="p323-26"/>τινὲς Αἰγύπτιοι· οὗτοι δὲ καὶ παρ’ αὐτοῦ <milestone type="alt-edition" unit="page" ed="Spengel 1867" n="156"/> πάλιν ἐκαλοῦντο ἀναμνήσαντος
+            </p>
+            <note type="footnote">
+              et
+            </note>
+            <pb n="324" facs="https://archive.org/download/commentariaina21pt12akaduoft/page/n661.jpg"/>
+            <p>
+              <lb n="1" xml:id="p324-0"/>αὐτοὺς παίδων καὶ γυναικῶν· τῶν δέ τινα λέγεται δείξαντα τὸ αἰδοῖον
+              <lb n="2" xml:id="p324-1"/>εἰπεῖν, ἔνθα ἂν τοῦτο ᾖ, ἔσεσθαι αὐτοῖς καὶ γυναῖκας καὶ τέκνα.<note type="apparatus" n="2" target="#p324-1">ἔσεσθαι scripsi ex Herodoto: ἔσται V: ἔσται s καὶ τέκνα καὶ γυναῖκας Herod.</note>
+              <lb n="3" xml:id="p324-2"/>[1417 a 12] Ὅσα μὴ πραττόμενα ἢ οἶκτον ἢ. ἐὰν γὰρ πράξῃς<note type="apparatus" n="3" target="#p324-2">ἢ οἶκτον ἢ δείνωσιν φέρει Arist.</note>
+              <lb n="4" xml:id="p324-3"/>τινὰ εἰς οἶκτον κινοῦντα τοὺς δικαστάς, πάντως ἐκεῖνα κακά εἰσιν, οἷον εἰ<milestone type="alt-edition" unit="line" ed="Spengel 1867" n="5"/>
+              <lb n="5" xml:id="p324-4"/>πέπρακταί σοι φόνος ἤ τι ἕτερον τῶν ἀπειρημένων, τότε οἰκτίζονται ἐπὶ
+              <lb n="6" xml:id="p324-5"/>σοὶ οἱ ἀκροαταί. σίγα οὖν περὶ τῶν τοιούτων. ἀλλὰ καὶ περὶ τῶν, ὅσα
+              <lb n="7" xml:id="p324-6"/>δείνωσιν φέρει ἢ ἀγανάκτησιν ἢ δεικνύουσί σε δεινὸν ῥήτορα· δεινὸς
+              <lb n="8" xml:id="p324-7"/>γὰρ οὐχ ὁ φρόνιμος καὶ ἀγαθός, ἀλλ’ ὁ πονηρὸς ἄνθρωπος καὶ εὐφυὴς τὰ<milestone type="alt-edition" unit="line" ed="Spengel 1867" n="10"/>
+              <lb n="9" xml:id="p324-8"/>πράγματα μεταχειρίσασθαι καὶ τοιῶσδε καὶ τοιῶσδε· οἷος ἦν τὰ πολλὰ ὁ
+              <lb n="10" xml:id="p324-9"/>Ὀδυσσεύς, περὶ οὗ Κύκλωψ εἶπε πρὸς τοὺς Κύκλωπας ‘Οὔτις με βιάζεται<note type="apparatus" n="10" target="#p324-9">Οὖτις κτλ.] Hom. ι 408 βιάζεται Vs: κτείνει Hom. ἠδὲ Vs: οὐδὲ Hom.</note>
+              <lb n="11" xml:id="p324-10"/>δόλῳ ἠδὲ βίηφι’ καὶ εὐθὺς ἀκούσαντες ἐκεῖνοι ἀπηλλάγησαν.<milestone type="alt-edition" unit="line" ed="Spengel 1867" n="15"/>
+              <lb n="12" xml:id="p324-11"/>[1417 a 13] Ἡ Ἀλκίνου παραδιήγησις. μέμνηται τούτου ὁ Πλάτων<note type="apparatus" n="12" target="#p324-11">Πλάτων] Reip. X 614 B. 615 E</note>
+              <lb n="13" xml:id="p324-12"/>ἐν τῷ ῑ λόγῳ τῶν Πολιτειῶν, ἔνθα περί τε τοῦ Ἀρμενίου Ἠρὸς λέγει
+              <lb n="14" xml:id="p324-13"/>ἀλλὰ καὶ περὶ τοῦ Ἀριδαίου τοῦ ἐπὶ ἀσπαλάθων κναμπτομένου, περὶ οὗ<note type="apparatus" n="14" target="#p324-13">Ἀρδιαῖον — εἷλκον παρὰ τὴν ὁδὸν ἐκτὸς ἐπ’ ἀσπαλάθων κνάπτοντες Plat.</note>
+              <lb n="15" xml:id="p324-14"/>ὁδῷ προϊόντες ἐροῦμεν.
+            </p>
+          </div>
+          <div type="textpart" subtype="section" n="17">
+            <p>
+              <lb n="16" xml:id="p324-15"/>17. [1418 b 29] ‘Χρημάτων ἃ ἔλιπον οὐδὲν ἔτι.’ τί γάρ, ὅτι<note type="apparatus" n="16" target="#p324-15">χρημάτων κτλ.] Archiloch. fr. 74 Bergk. ἃ ἔλιπον Vs Arist. A: δ’ ἄελπτον Arist. vulg. οὐθέν ἐστιν Arist.</note><milestone type="alt-edition" unit="line" ed="Spengel 1867" n="20"/>
+              <lb n="17" xml:id="p324-16"/>ἴσως ὁ πατὴρ ταύτης ἦν ἐν τῇ οἰκείᾳ πατρίδι πλούσιος, ἐπεὶ δὲ πολιορκουμένης
+              <lb n="18" xml:id="p324-17"/>τῆς αὑτοῦ πόλεως ἔφυγεν, ‘ἃ ἔλιπον’, φησίν, ‘ἐκεῖ χρήματα,
+              <lb n="19" xml:id="p324-18"/>νῦν οὐδέν εἰσι. καὶ μή μοι ἀπιστήσητε· οὐδὲ γὰρ ἀπώμοτόν ἐστιν ὃ
+              <lb n="20" xml:id="p324-19"/>λέγω καὶ ἀνέλπιστον, ἀλλ’ οἱ σωφρονέστεροι πιστεύουσί μοι.’<milestone type="alt-edition" unit="line" ed="Spengel 1867" n="25"/>
+            </p>
+          </div>
+          <div type="textpart" subtype="section" n="18">
+            <p>
+              <lb n="21" xml:id="p324-20"/>18. [1418 b 39] Περὶ δὲ ἐρωτήσεως. τότε ποίει τὴν ἐρώτησίν
+              <lb n="22" xml:id="p324-21"/>σου, ὦ ῥῆτορ, ὅτε εἰς ἀτοπίαν εὐφυῶς κατακυλίσεις τὸν ἐρωτώμενον, ἐκ<note type="apparatus" n="22" target="#p324-21">κατακυλίσης s 27—29 schema sic dedit s: οἶδε τὰ μυστήρια ὁ λάμπων</note>
+              <lb n="23" xml:id="p324-22"/>μιᾶς ἠρωτημένης προτάσεως καὶ ἑτέρας ἢ ὁμολογουμένης ἢ δοθείσης·
+              <lb n="24" xml:id="p324-23"/>ὁμολογουμένου γὰρ εἰλημμένου ὡς παρὰ πάντων γινωσκομένου τοῦ ὅτι ὁ<milestone type="alt-edition" unit="line" ed="Spengel 1867" n="30"/>
+              <lb n="25" xml:id="p324-24"/>Λάμπων ἀτέλεστος ἦν ἢ δοθέντος παρ’ αὐτοῦ τοῦ Λάμπωνος ἐρωτηθέντος
+              <lb n="26" xml:id="p324-25"/>οὕτω συλλόγισαι·
+              <lb n="27" xml:id="p324-26"/>οἶδε τὰ μυστήρια ὁ Λάμπων καὶ πάλιν<milestone type="alt-edition" unit="page" ed="Spengel 1867" n="157"/>
+              <lb n="28" xml:id="p324-27"/>ἐξ ἀνάγκης τετελεσμένος ἀτέλεστος
+              <lb n="29" xml:id="p324-28"/>τὸ συμπέρασμα ἄρα ἄτοπον.
+            </p>
+            <note type="footnote">
+              σεται
+            </note>
+            <pb n="325" facs="https://archive.org/download/commentariaina21pt12akaduoft/page/n662.jpg"/>
+            <p>
+              <lb n="1" xml:id="p325-0"/>καὶ πάλιν ὡς ὡμολογημένου εἰλημμένου τοῦ ‘οἱ δαίμονες ἢ θεοὶ ἢ παῖδες<note type="apparatus" n="1" target="#p325-0">ὁμολογουμένου s cf. Plat. Apol. 27 C</note>
+              <lb n="2" xml:id="p325-1"/>θεῶν’ πλέκε τὸν συλλογισμὸν<milestone type="alt-edition" unit="line" ed="Spengel 1867" n="5"/>
+              <lb n="3" xml:id="p325-2"/>θεοὺς εἶναι δοξάζει δαιμόνια δοξάζει, ὡς ὁ Σωκράτης.
+              <lb n="4" xml:id="p325-3"/>κατὰ ἀλήθειαν ὁ Μέλητος εἶπεν<note type="apparatus" n="4" target="#p325-3">μέλιτος Vs</note>
+              <lb n="5" xml:id="p325-4"/>κατηγορήθη δὲ ὅτι τὰ δαιμόνια σέβεται Σωκράτης, ἐπεὶ πολλάκις ἔλεγεν,
+              <lb n="6" xml:id="p325-5"/>ὅτι σύνεστιν αὐτῷ τὸ δαιμόνιον θείᾳ μοίρᾳ παραπεμπόμενον ἐκ παιδὸς<note type="apparatus" n="6-7" target="#p325-5 #p325-6">ἔστι γάρ τι θείᾳ μοίρᾳ παρεπόμενον ἐμοὶ ἐκ παιδὸς ἀρξάμενον δαιμόνιον· ἔστι δὲ κτλ. Plat.</note>
+              <lb n="7" xml:id="p325-6"/>αὐτῷ. “ἔστι δὲ τοῦτο φωνή, ἣ ὅταν γένηται αἰεί μοι σημαίνει, ὃ ἂν<milestone type="alt-edition" unit="line" ed="Spengel 1867" n="10"/>
+              <lb n="8" xml:id="p325-7"/>μέλλω πράττειν, τοῦτο ἀποτρέπειν, προτρέπει δὲ οὐδέποτε. καὶ ἐάν τίς<note type="apparatus" n="8" target="#p325-7">τούτου ἀποτροπὴν Plat.</note>
+              <lb n="9" xml:id="p325-8"/>μοι τῶν φίλων ἀνακοινῶται καὶ γένηται ἡ φωνή, ἀποτρέπει.” ταῦτα καὶ<note type="apparatus" n="9" target="#p325-8">φωνή, ταὐτὸν τοῦτο ἀποτρέπει Plat.</note>
+              <lb n="10" xml:id="p325-9"/>Πλάτων ἐν Θεάγει. τρίτον εἶδος ἐρωτήσεως τὸ εἰς ἐναντία ἄγον, ὡς<note type="apparatus" n="10" target="#p325-9">Πλάτων ἐν Θεάγει] γ p. 128 D</note>
+              <lb n="11" xml:id="p325-10"/>τοῦτο· ὁμολογουμένου γὰρ τοῦ τὴν ἀνδρίαν ἀρετὴν εἶναι συνάγεται ἡ ἀνδρία<note type="apparatus" n="11" target="#p325-10">ἀνδρείαν et ἀνδρεία s (per comp. V)</note><milestone type="alt-edition" unit="line" ed="Spengel 1867" n="15"/>
+              <lb n="12" xml:id="p325-11"/>κακία. ἀλλὰ καὶ τὸ εἰς παραδοξολογίαν, ὃ παρὰ τὰς διαφόρους γίνεται<note type="apparatus" n="12" target="#p325-11">παραδοξολο V: παραδοξολόγον s: λέγοντα — παράδοξον (A; παράδοξα vulg.) Arist.</note>
+              <lb n="13" xml:id="p325-12"/>αἱρέσεις, ὡς καὶ ἐν τοῖς πολιτικοῖς ἔμαθες. οἱ Στωικοὶ εὐδαίμονα λέγουσι
+              <lb n="14" xml:id="p325-13"/>τὸν τὰς Πριαμικὰς συμφορὰς ὑπομένοντα, οἱ δὲ Περιπατητικοὶ τὸν μηδ’
+              <lb n="15" xml:id="p325-14"/>ὅλως συμφοραῖς περιπίπτοντα. συλλόγισαι οὖν<milestone type="alt-edition" unit="line" ed="Spengel 1867" n="20"/>
+              <lb n="16" xml:id="p325-15"/>δυσδαίμων Πριαμικαῖς συμφοραῖς ὁ εὐδαίμων
+              <lb n="17" xml:id="p325-16"/>περιπεσὼν καὶ ὑπομείνας<note type="apparatus" n="17" target="#p325-16">καὶ V: ἢ s</note>
+              <lb n="18" xml:id="p325-17"/>αὐτάς
+              <lb n="19" xml:id="p325-18"/>17. [1418 b 27] Ἀνώτερον εἴρηται τὸ ὅπερ Ἰσοκράτης ποιεῖ
+              <lb n="20" xml:id="p325-19"/>ἐν τῷ Φιλίππῳ καὶ ἐν τῇ Ἀντιδόσει· ἔγραψε γὰρ μετὰ τὴν γεγονυῖαν<milestone type="alt-edition" unit="line" ed="Spengel 1867" n="25"/>
+              <lb n="21" xml:id="p325-20"/>εἰρήνην μεταξὺ τοῦ Φιλίππου καὶ τῶν Ἀθηναίων παρ’ Αἰσχίνου καὶ Δημοσθένους
+              <lb n="22" xml:id="p325-21"/>τῷ Φιλίππῳ ὡς φίλῳ καὶ παραινεῖ αὐτῷ ἀπὸ τοῦ νῦν διαλλάξαντα
+              <lb n="23" xml:id="p325-22"/>τὰς Ἑλληνικὰς πόλεις τὰς μεγάλως στασιαζούσας πρὸς ἑαυτὰς στρατεῦσαι<note type="apparatus" n="23" target="#p325-22">μεγλ’ γάλως cod. Paris. gr. 1951: με V: μέγα s</note>
+              <lb n="24" xml:id="p325-23"/>κατὰ Περσῶν. εἰ καὶ ὁ Φίλιππος οὐκ ἐπείσθη αὐτῷ, ἀλλ’ ὕστερον<milestone type="alt-edition" unit="line" ed="Spengel 1867" n="30"/>
+              <lb n="25" xml:id="p325-24"/>ὁ υἱὸς αὐτοῦ Ἀλέξανδρος ἀναγνοὺς τὸν λόγον· ἐστράτευσε γὰρ οὗτος κατὰ
+              <lb n="26" xml:id="p325-25"/>Δαρείου τοῦ καὶ Ὤχου λεγομένου. ἡ στάσις τοῦ λόγου πραγματικὴ καὶ<milestone type="alt-edition" unit="page" ed="Spengel 1867" n="158"/>
+              <lb n="27" xml:id="p325-26"/>ἐν τῇ Ἀντιδόσει. περὶ τριηραρχίας ἔμελλε γενέσθαι ἀντίδοσις πρὸς τοὺς
+              <lb n="28" xml:id="p325-27"/>συγγενεῖς τοῦ Ἰσοκράτους. ὁ γοῦν ἐχθρὸς τοῦ Ἰσοκράτους ὁ Λυσίμαχος
+              <lb n="29" xml:id="p325-28"/>ἔπεισε τοὺς Ἀθηναίους ἀντιδοῦναι παρὰ τοὺς ἄλλους αὐτοῦ συγγενεῖς αὐτὸν<milestone type="alt-edition" unit="line" ed="Spengel 1867" n="5"/>
+              <lb n="30" xml:id="p325-29"/>τὸν Ἰσοκράτην ὡς πλούσιον κατὰ πολὺ γεγονότα ἀπὸ τῶν μαθητῶν αὐτοῦ
+              <lb n="31" xml:id="p325-30"/>καὶ ἐντεῦθεν δυνατὸν εὑρισκόμενον εἰς τὸ λειτούργημα· τοὺς γὰρ ἥττους
+              <lb n="32" xml:id="p325-31"/>λόγους ἐδίδαξε τοὺς μαθητὰς κρείττους ποιεῖν· δεινοπαθήσας οὖν ἐφ’ οἷς
+            </p>
+            <pb n="326" facs="https://archive.org/download/commentariaina21pt12akaduoft/page/n663.jpg"/>
+            <p>
+              <lb n="1" xml:id="p326-0"/>τε κατ’ αὐτοῦ εἶπεν ὁ ἀντίδικος καὶ ἐπὶ τῇ τριηραρχίᾳ (πολλὰ γὰρ δαπανήματα
+              <lb n="2" xml:id="p326-1"/>ἀντεδίδου ἐν τῇ ἐπιζημίῳ ταύτῃ ἀρχῇ) τὸν παρόντα γέγραφεν πβʹ<note type="apparatus" n="2" target="#p326-1">ἐπιζημί V: ἐπιζημίᾳ s ἀρχῇ ex ἑορτῇ corr. V</note><milestone type="alt-edition" unit="line" ed="Spengel 1867" n="12"/>
+              <lb n="3" xml:id="p326-2"/>γεγονὼς ἐτῶν λόγον.
+            </p>
+            <p>
+              <lb n="4" xml:id="p326-3"/>18. [1419 a 25] Καὶ συμπεραινόμενον. ἐὰν ἐρωτήσῃ τις τὸ
+              <lb n="5" xml:id="p326-4"/>συμπέρασμα, μὴ ἀποκρίνου τηνικαῦτα ‘ναί’, ἀλλὰ λέγε μὲν καὶ τὸ ‘ναί’,
+              <lb n="6" xml:id="p326-5"/>προστίθει δὲ συνάμα καὶ τὴν αἰτίαν, ἵνα μὴ μεγάλως βλαβῇς. καὶ πλέκε<milestone type="alt-edition" unit="line" ed="Spengel 1867" n="15"/>
+              <lb n="7" xml:id="p326-6"/>τὸν συλλογισμὸν μετὰ τοῦ συμπεράσματος καὶ τῆς αἰτίας οὕτως<note type="apparatus" n="7" target="#p326-6">τῆς V: τὰς s</note>
+              <lb n="8" xml:id="p326-7"/>πονηρὰ ἔπραξας ἀπεδέξω τοὺς τετρακοσίους καὶ σύ, Σοφόκλεις;<note type="apparatus" n="8" target="#p326-7">Σοφοκλῆς s</note>
+              <lb n="9" xml:id="p326-8"/>‘ναί· οὐ γὰρ ἦν ἄλλα βελτίω.’ ὁρᾷς, πῶς εὐθὺς ἐτέθη ἐν τῷ συμπεράσματι
+              <lb n="10" xml:id="p326-9"/>ἡ αἰτία, ἵνα μὴ καὶ αὐτὸς τιμωρηθῇ, εἰ ταύτην ἐσίγησεν.<milestone type="alt-edition" unit="line" ed="Spengel 1867" n="20"/>
+              <lb n="11" xml:id="p326-10"/>[1419 a 31] Καὶ ὡς ὁ Λάκων. ἴδε καὶ τὸν τοῦ Λάκωνος
+              <lb n="12" xml:id="p326-11"/>συλλογισμόν, ὅπως ἀφορῶντος τοῦ συμπεράσματος εἰς βλάβην αὐτοῦ ὁ δὲ
+              <lb n="13" xml:id="p326-12"/>ἀπέφησεν αὐτὸ θεὶς τὴν αἰτίαν
+              <lb n="14" xml:id="p326-13"/>δικαίως ἀπώλοντο τούτοις τοῖς ἀποσφαγεῖσιν καὶ σὺ *<note type="apparatus" n="14" target="#p326-13">post σὺ in fine versus λέ non certo legitur, tum quaedam litterae prorsus evanuerunt, V: σὺ λέγεις s</note><milestone type="alt-edition" unit="line" ed="Spengel 1867" n="25"/>
+              <lb n="15" xml:id="p326-14"/>ἐφόροις συνέπραξας ἔφορος ὤν;
+              <lb n="16" xml:id="p326-15"/>‘οὐ δῆτα· γνώμῃ γὰρ οἰκείᾳ ἔπραξα καὶ οὐ χρήμασιν, ὡς οὗτοι.’
+              <lb n="17" xml:id="p326-16"/>[1419 a 28] Πρόβουλοι δὲ παρ’ Ἀθηναίοις ἦσαν ὥσπερ οἱ παρὰ
+              <lb n="18" xml:id="p326-17"/>Ῥωμαίοις λεγόμενοι ὕπατοι.
+              <lb n="19" xml:id="p326-18"/>[1419 b 1] Ἐὰν μὴ πολὺ περιῇ τοῦ ἀληθοῦς· ὅταν γὰρ ἀληθέστερον<note type="apparatus" n="19" target="#p326-18">μὴ τὸ πολὺ Arist.</note>
+              <lb n="20" xml:id="p326-19"/>ᾖ τὸ συμπέρασμα, τότε καὶ χωρὶς αἰτίας τίθει.<milestone type="alt-edition" unit="line" ed="Spengel 1867" n="30"/>
+              <lb n="21" xml:id="p326-20"/>[1419 b 2] Περὶ δὲ γελοίων. δεῖ πονηρεύεσθαί σε, ὦ ῥῆτορ· καὶ<note type="apparatus" n="21" target="#p326-20">δὲ τῶν γελοίων Arist.</note>
+              <lb n="22" xml:id="p326-21"/>ἐὰν μὲν ὁρᾷς τὸν ἀντίδικόν σου κατὰ σοῦ λέγοντα καὶ γενναῖα καὶ πιθανὰ<milestone type="alt-edition" unit="page" ed="Spengel 1867" n="159"/>
+              <lb n="23" xml:id="p326-22"/>καὶ ὑπὸ τῶν ἀκροατῶν προσεκτικῶς ἀκουόμενον, τότε κίνησον γέλωτας,
+              <lb n="24" xml:id="p326-23"/>ἵνα συγχεθεῖεν καὶ ὁ λέγων ἅμα καὶ οἱ ἀκούοντες, ὡς ὁ Δημοσθένης<note type="apparatus" n="24" target="#p326-23">συγχεθεῖεν (vix συγχηθεῖεν) V: συγχυθεῖεν s Δημοσθένης] 18,52; cf. schol. (Anon. in Rhet. p. 232, 14. 260,4)</note>
+              <lb n="25" xml:id="p326-24"/>ἐποίησε κατ’ Αἰσχίνου· εἶπε γὰρ ‘ὁ Αἰσχίνης μισθωτός ἐστι καὶ προδότης’,<milestone type="alt-edition" unit="line" ed="Spengel 1867" n="5"/>
+              <lb n="26" xml:id="p326-25"/>οἷον βαρβαρίσας τάχα ἀπὸ περιπετείας τῆς γλώττης, καὶ ὁ δῆμος ἅπας
+              <lb n="27" xml:id="p326-26"/>διωρθώσατο ὥσπερ τὸν λόγον ἀνακαγχάσας καὶ ἀναβοήσας ‘ὁ Αἰσχίνης
+              <lb n="28" xml:id="p326-27"/>μισθωτός ἐστι καὶ προδότης’, τότε ἀνθυποστρέψας ὁ Δημοσθένης τὸν λόγον
+              <lb n="29" xml:id="p326-28"/>πρὸς Αἰσχίνην εἶπεν ‘ἀκούεις, Αἰσχίνη, πῶς ὁ δῆμος ἅπας βοᾷ, ὡς ὁ<milestone type="alt-edition" unit="line" ed="Spengel 1867" n="10"/>
+              <lb n="30" xml:id="p326-29"/>Αἰσχίνης προδότης ἐστὶ καὶ μισθωτός;’ εἶτα δὲ πάλιν, εἰ ὁ ἀντίδικός σου
+              <lb n="31" xml:id="p326-30"/>κατὰ σοῦ ἐκίνησε γέλωτα, ἔνδειξαι σὺ σπουδὴν εἰπὼν ‘οὐκ ἔστι νῦν καιρὸς
+              <lb n="32" xml:id="p326-31"/>γέλωτος· περὶ σπουδαίων γάρ μοι ὁ λόγος καὶ ἀναγκαίων τῇ πόλει’.
+            </p>
+            <note type="footnote">
+              ὡς
+            </note>
+            <pb n="327" facs="https://archive.org/download/commentariaina21pt12akaduoft/page/n664.jpg"/>
+            <p>
+              <lb n="1" xml:id="p327-0"/>[1419 b 5] Εἴρηται δὲ καὶ ἐν τοῖς Περὶ ποιητικῆς, πόσα εἴδη
+              <lb n="2" xml:id="p327-1"/>γελοῖα, ἀλλὰ καὶ ἐν τοῖς Νικομαχείοις Ἠθικοῖς περὶ τὸ τέλος που τοῦ<milestone type="alt-edition" unit="line" ed="Spengel 1867" n="16"/>
+              <lb n="3" xml:id="p327-2"/>Δ, ἔνθα λέγει περὶ τῆς ἀληθευτικῆς ἕξεως καὶ τῶν ἄκρων αὐτῆς, ἀλαζονείας
+              <lb n="4" xml:id="p327-3"/>καὶ εἰρωνείας· ἀληθὴς μὲν γάρ ἐστιν ὁ τὰ ἀληθῆ καὶ οἰκεῖα αὑτῷ
+              <lb n="5" xml:id="p327-4"/>ἐπιμαρτυρῶν, ὡς εἰ ὁ πολλοῦ ἄξιος πολλῶν ἑαυτὸν ἀξιοῖ καὶ μεγάλων,<milestone type="alt-edition" unit="line" ed="Spengel 1867" n="20"/>
+              <lb n="6" xml:id="p327-5"/>ἀλαζὼν δὲ ὁ, εἰ μικρῶν ἄξιος εἴη, μεγάλων ἑαυτὸν ἀξιῶν, εἴρων δὲ ὁ ἀνάπαλιν
+              <lb n="7" xml:id="p327-6"/>ὁ, εἰ μεγάλων ἄξιος εἴη, μικρῶν ἢ οὐδενὸς ἑαυτὸν ἀξιῶν. λέγει δὲ
+              <lb n="8" xml:id="p327-7"/>ἐκεῖ ὁ Ἀριστοτέλης, ὅτι ἔστι καὶ δι’ ἀνάπαυσιν ἡμῶν εὑρημένη οἷον
+              <lb n="9" xml:id="p327-8"/>μεσότης, ἡ οὕτως ὀνομαζομένη εὐτραπελία καὶ ἐπιδεξιότης, ἄκρα δὲ αὐτῆς<milestone type="alt-edition" unit="line" ed="Spengel 1867" n="25"/>
+              <lb n="10" xml:id="p327-9"/>τὸ ἄγριον, ἀλλὰ καὶ τὸ βωμολόχον, οἷοι οἱ θυμελικοὶ καὶ ἑαυτοὺς κατὰ
+              <lb n="11" xml:id="p327-10"/>παρειῶν βάλλοντες ἢ κατὰ τῆς ἑαυτῶν πυγῆς λακτίζοντες καὶ ἄσεμνα
+              <lb n="12" xml:id="p327-11"/>πολλὰ καὶ καθ’ ἑαυτῶν καὶ κατ’ ἄλλων πραγματευόμενοι, ἵνα κινήσωσι
+              <lb n="13" xml:id="p327-12"/>γέλωτα διὰ τῶν τοιῶνδε ψόφων ἢ παροινήσεων ἢ σκωμμάτων. μεσότης<note type="apparatus" n="13" target="#p327-12">p. 1127 a</note><note type="apparatus" n="13" target="#p327-12">sq. 8 ἐκεῖ] Eth. Nic. Δ</note><milestone type="alt-edition" unit="line" ed="Spengel 1867" n="30"/>
+              <lb n="14" xml:id="p327-13"/>δ’ ἐν τούτοις ἡ ἐπιδεξιότης, ᾗ χρᾶται καὶ ἡ παλαιὰ κωμῳδία καὶ ὁ ἐλεύθεριος<note type="apparatus" n="14" target="#p327-13">p. 1127 b 33 sq.</note><note type="apparatus" n="14" target="#p327-13">χρᾶται V: χρῆται s</note>
+              <lb n="15" xml:id="p327-14"/>καὶ πεπαιδευμένος.
+              <lb n="16" xml:id="p327-15"/>[1419 b 7] Ἔστι δὲ εἰρωνεία. <milestone type="alt-edition" unit="page" ed="Spengel 1867" n="160"/> ἄλλως μεσότητος ἄκρον ἡ εἰρωνεία<note type="apparatus" n="16" target="#p327-15">δὲ Vs: δ’ ἡ Arist.</note>
+              <lb n="17" xml:id="p327-16"/>κακία τις οὖσα καὶ ἄλλως ἡ βωμολοχία. ἀλλὰ καὶ τὰ τάχα ἀστεῖα,
+              <lb n="18" xml:id="p327-17"/>ὧν μνήμην ποιεῖται ἐν τῇ Περὶ παίδων ἀναγωγῆς ὁ Χαιρωνεὺς Πλούταρχος,<note type="apparatus" n="18" target="#p327-17">ἀναγωγῆς scripsi: ἀναγωγῇ Vs: ἀγωγῆς Plut.: ἀγωγῇ cod. Paris. gr. 1951</note><note type="apparatus" n="18-19" target="#p327-17 #p327-18">Πλούταρχος] De lib. educ. p. 10 F sq. 6 C sq.</note>
+              <lb n="19" xml:id="p327-18"/>βωμολοχίας ἄντικρύς εἰσιν, οὐκ εὐτραπελίας· ἅπαντες γὰρ οἱ<milestone type="alt-edition" unit="line" ed="Spengel 1867" n="5"/>
+              <lb n="20" xml:id="p327-19"/>ταῦτα εἰπόντες καὶ τοῖς, δι’ οὓς εἶπον, λύπην προὐξένουν καὶ καθ’ ἑαυτῶν
+              <lb n="21" xml:id="p327-20"/>φθόνους.
+            </p>
+          </div>
+          <div type="textpart" subtype="section" n="19">
+            <p>
+              <lb n="22" xml:id="p327-21"/>19. [1419 b 33] Ἀρχὴ μὲν τοῦ ἐπιλόγου ὀφείλει εἶναι τοιαύτη
+              <lb n="23" xml:id="p327-22"/>ὅτι ‘ἃ ὑπεσχόμην ἢ ἐν τῷ προοιμίῳ ἢ ἐν τῇ διηγήσει εἰπεῖν κατὰ τοῦδε,
+              <lb n="24" xml:id="p327-23"/>ἀπέδειξα ἐν τοῖς ἀγῶσι διὰ τῶνδε καὶ τῶνδε τῶν ἐπιχειρημάτων’.<milestone type="alt-edition" unit="line" ed="Spengel 1867" n="10"/>
+              <lb n="25" xml:id="p327-24"/>[1419 b 33] καὶ δι’ ὅ· ‘ταῦτα δὲ εἶπον διὰ τὸ δεῖξαι τὸν Αἰσχίνην
+              <lb n="26" xml:id="p327-25"/>δύσνουν εἶναι κατὰ τῆς πόλεως καὶ μὴ θαρρεῖν αὐτῷ ὑμᾶς’· [1420 a 1]
+              <lb n="27" xml:id="p327-26"/>ἢ ἐξ εἰρωνείας, οἷον ‘οὗτος μὲν ὁ ἀντίδικός μου εἶπε τὰ μεγάλα ἐκεῖνα
+              <lb n="28" xml:id="p327-27"/>καὶ θαυμαστὰ οὐδὲν ὄντα, ἐγὼ δὲ τὰ μικρὰ ἐκεῖνα καὶ ἀγεννῆ ἐξ ἐναντίας
+              <lb n="29" xml:id="p327-28"/>τοῖς λαληθεῖσι’. [1420 a 2] καὶ τί ἂν ἐποίει· ‘πάντως ἐκενοδόξει καὶ<note type="apparatus" n="29" target="#p327-28">τί V Arist.: τίς s ἐκενοδόξει δ’ ex corr. cod. Ambros. B 3 inf.: ἐκαινοδόξει Vc</note><milestone type="alt-edition" unit="line" ed="Spengel 1867" n="15"/>
+              <lb n="30" xml:id="p327-29"/>ἐβρενθύετο καὶ ἐνεκαυχᾶτο ταῖς ἀποδείξεσιν, εἰ καλῶς εἶπε’· τοῦτο ἕτερος
+              <lb n="31" xml:id="p327-30"/>τόπος τοῦ ἐξ εἰρωνείας ἐπιχειρῆσαι. [1420 b 2] τέλος δὲ τοῦ ἐπιλόγου
+              <lb n="32" xml:id="p327-31"/>τοιοῦτον αὖθις ὀφείλει ὡς ἐπὶ τοῖς ἄνω λόγοις εἰρημένον ‘εἴρηκα, παρακατέχετε,
+              <lb n="33" xml:id="p327-32"/>μιμνήσκεσθε, φυλάττετε’.<milestone type="alt-edition" unit="line" ed="Spengel 1867" n="20"/>
+            </p>
+            <note type="footnote">
+              14. [1415 a 4] Ὄπισθεν πρὸ δύο ἴσως τετραδίων περὶ ἐπιδεικτικῶν 35 προοιμίων λέγων ἐμνήσθη ὁ Ἀριστοτέλης ἔπους τοῦ Χοιρίλλου. ἡ δὲ ὑπόθεσις τούτου τοιάδε· δάκνεται ἐπὶ τοῖς ποιητικοῖς ἀνδράσι τοῖς ἀκμά2 γελοίων Arist. ἐν τοῖς Νικομαχείοις Ἠθικοῖς] Δ
+              34 πρόδυο s τετρα V: τετράδια s
+              35 Χοιρίλου s (cf. Arist.)
+            </note>
+            <pb n="328" facs="https://archive.org/download/commentariaina21pt12akaduoft/page/n665.jpg"/>
+            <p>
+              <lb n="1" xml:id="p328-0"/>ζουσιν ὡς ἔοικεν ἐπὶ τῶν ἡμερῶν αὐτοῦ καὶ οὕτω χαλεπαίνων ἀποφθέγγεται
+              <lb n="2" xml:id="p328-1"/>ταῦτα τὰ ἔπη
+              <lb n="3" xml:id="p328-2"/>“ ὦ μάκαρ, ὅστις ἔην κεῖνον χρόνον ἴδρις ἀοιδῆς,<note type="apparatus" n="3" target="#p328-2">κεῖνον Victorius: ἐκεῖνον Vs</note>
+              <lb n="4" xml:id="p328-3"/>μουσάων θεράπων, ὅτ’ ἀκήρατος ἦν ἔτι λειμών·
+              <lb n="5" xml:id="p328-4"/>νῦν δ’ ὅτε πάντα δέδασται, ἔχουσι δὲ πείρατα τέχναι,
+              <lb n="6" xml:id="p328-5"/>ὕστατοι ὥστε δρόμου καταλειπόμεθ’ οὐδέ πῃ ἔστι
+              <lb n="7" xml:id="p328-6"/>πάντη παπταίνοντα νεοζυγὲς ἅρμα πελάσσαι”
+              <lb n="8" xml:id="p328-7"/>καὶ τὰ ἑξῆς. αἰτιᾶται οὖν τὴν σύγχυσιν τῶν ποιητῶν καὶ ἀποδύρεται διὰ
+              <lb n="9" xml:id="p328-8"/>τὴν ποιητικὴν κοινωθεῖσαν καὶ συγχυθεῖσαν καὶ ὡσανεὶ μοιρασθεῖσαν παρὰ
+              <lb n="10" xml:id="p328-9"/>συγκλύδων καὶ ἀγελαίων καὶ βωμολόχων ἀνδρῶν, οἳ ὡς ἔοικεν ἐθρασύνοντο<note type="apparatus" n="10" target="#p328-9">οἳ V: οἷον s</note>
+              <lb n="11" xml:id="p328-10"/>κατὰ τοῦ ἀνδρός. <milestone type="alt-edition" unit="page" ed="Spengel 1867" n="161"/>
+              <lb n="12" xml:id="p328-11"/>[1415 b 20] “ Ἄναξ, ἐρῶ μὲν οὐχ ὅπως τάχους ὕπο<note type="apparatus" n="12" target="#p328-11">ἄναξ κτλ.] Soph. Ant. 223 τάχους Vs Soph.: σπουδῆς Arist.</note>
+              <lb n="13" xml:id="p328-12"/>δύσπνους ἱκάνω κοῦφον ἐξάρας πόδα.”
+              <lb n="14" xml:id="p328-13"/>ὁ Κρέων ἐπεὶ ἔπεμψέ τινα ὥστε ἰδεῖν, εἰ ἄθαπτος ὁ Πολυνείκης, ὁ δὲ
+              <lb n="15" xml:id="p328-14"/>εὗρεν ἐκεῖνον τεθαμμένον, ἀνεπτερωμένος τὴν ἀκοὴν ἵστατο. ἔρχεται οὖν
+              <lb n="16" xml:id="p328-15"/>ὁ ἄγγελος καὶ ταῦτα τὰ ἰαμβεῖά φησιν ‘οὐ τοσοῦτον εἴπω σοι τὸ πῶς ὀλίγα
+              <lb n="17" xml:id="p328-16"/>— ὁ δὲ ἐλθὼν δύσπνους εἰμὶ διὰ τὸ πολὺ τάχος —, ἀλλ’ ὅτι οὐδέν σοι<note type="apparatus" n="17" target="#p328-16">haec vix sana sunt</note>
+              <lb n="18" xml:id="p328-17"/>μέλλω εἰπεῖν ἤτοι οὐχ ὃ ἀποδεκτόν σοι μέλλω ἐρεῖν, ἀλλ’ ὃ εἰς λύπην
+              <lb n="19" xml:id="p328-18"/>μᾶλλόν σοί ἐστιν, τὸ μαθεῖν σε δηλαδή, ὅτι παρά του τέθαπται Πολυνείκης’.
+              <lb n="20" xml:id="p328-19"/>ἐν τῷ μεταξὺ δὲ τίθησι καὶ τὴν αἰτίαν τοῦ βραχεῖαν μὲν εἶναι
+              <lb n="21" xml:id="p328-20"/>τὴν μεταξὺ ὁδόν, δύσπιστον δὲ αὐτὸν φαίνεσθαι διὰ τὸ ἀργεῖν κατὰ τὴν
+              <lb n="22" xml:id="p328-21"/>ὁδὸν καὶ βουλεύεσθαί με καθ’ ἑαυτὸν ὑποχωρῆσαι καὶ φυγεῖν, ἵνα μή σοι
+              <lb n="23" xml:id="p328-22"/>ἄγγελος γένωμαι τοῦ λυπηροῦ· εἶτά φησι ‘χοὕτως ὁδὸς βραχεῖα γίνεται<note type="apparatus" n="23" target="#p328-22">χοὔτως κτλ.] Soph. Ant. 232</note>
+              <lb n="24" xml:id="p328-23"/>μακρά· τέλος δὲ ἐνίκησέ με ὁ λογισμὸς τὸ ἐλθεῖν εἰς σὲ καὶ παθεῖν με
+              <lb n="25" xml:id="p328-24"/>τὸ μόρσιμον. διὰ γοῦν τὸ βραδύνειν με πολλὰ διὰ τὴν ἀνέλιξιν τῶν λογισμῶν
+              <lb n="26" xml:id="p328-25"/>ὕστερον ὀξέως ἐβάδισα καὶ διὰ τοῦτο πλήρης ἱδρώτων γέγονα’. τὸ
+              <lb n="27" xml:id="p328-26"/>δὲ ‘τί φροιμιάζῃ’ τοῦ Κρέοντός ἐστι λέγοντος ‘τί προφέρεις τὰ κύκλῳ<note type="apparatus" n="27" target="#p328-26">τί φροιμιάζει Eurip. Iphig. Taur. 1162</note>
+              <lb n="28" xml:id="p328-27"/>καὶ τὰ ἔξω τῆς ἀποστολῆς; τάχιον οὖν εἰπὲ τά, ἐφ’ οἷς ἀπεστάλης, καὶ
+              <lb n="29" xml:id="p328-28"/>μὴ φοβοῦ.’
+              <lb n="30" xml:id="p328-29"/>16. [1417 a 13] Φησὶν ὁ Πλάτων ἐν τῷ δεκάτῳ τῶν Πολιτειῶν<note type="apparatus" n="30" target="#p328-29">Πλάτων] Reip. X 614 B</note>
+              <lb n="31" xml:id="p328-30"/>“ἀλλ’ οὐ μέντοι σοι, ἦν δ’ ἐγώ, Ἀλκίνου γε ἀπόλογον ἐρῶ, ἀλλ’ ἀλκίμου<note type="apparatus" n="31" target="#p328-30">μέντοι V Plat.: μήν τι s ἀλκίμου scripsi ex Platone: ἀλκίνου Vs</note>
+              <lb n="32" xml:id="p328-31"/>μὲν ἀνδρός, Ἠρὸς τοῦ Ἀρμενίου, τὸ γένος Παμφύλου, ὅς ποτε ἐν πολέμῳ
+              <lb n="33" xml:id="p328-32"/>τελευτήσας ἀναιρεθέντων δεκαταίων τῶν νεκρῶν ἤδη διεφθαρμένων ὑγιὴς<note type="apparatus" n="33 et 34" target="#p328-32 #p328-33">utrum V praebeat ἀναιρεθέντων et 34 ἀνηρέθη an ἀναιρηθέντων et ἀνηρήθη, dubium est νεκρῶν V Plat.: ἀνδρῶν s</note>
+              <lb n="34" xml:id="p328-33"/>μὲν ἀνῃρέθη, κομισθεὶς δ’ οἴκαδε μέλλων θάπτεσθαι δωδεκαταῖος ἐπὶ τῇ
+              <lb n="35" xml:id="p328-34"/>πυρᾷ κείμενος ἀνεβίω.” οὕτως ὡς παροιμίᾳ τινὶ ὁ Πλάτων χρῆται τῷ
+              <lb n="36" xml:id="p328-35"/>ἀπολόγῳ Ἀλκίνου. <milestone type="alt-edition" unit="page" ed="Spengel 1867" n="162"/>
+            </p>
+            <pb n="329" facs="https://archive.org/download/commentariaina21pt12akaduoft/page/n666.jpg"/>
+            <p>
+              <lb n="1" xml:id="p329-0"/>14. [1415 b 21] Τὸ δὲ ‘τί φροιμιάζῃ’ ἐν τισὶ τῶν ἀντιγράφων<note type="apparatus" n="1" target="#p329-0">v. supra p. 328,27</note>
+              <lb n="2" xml:id="p329-1"/>οὐ κεῖται.
+              <lb n="3" xml:id="p329-2"/>16. [1417 a 19] Ἐν οἷς ἀνώτερον περὶ προδιηγήσεως ἔλεγε καὶ
+              <lb n="4" xml:id="p329-3"/>ἤθους, εἶπεν, ὅτι οὐκ ἔχουσι τὰ μαθηματικὰ ἦθος, ὅτι οὐδὲ προαίρεσιν<note type="apparatus" n="4" target="#p329-3">οἱ μαθηματικοὶ λόγοι ἤθη Arist.</note>
+              <lb n="5" xml:id="p329-4"/>οὐδὲ τὸ προαιρετὸν τέλος. φησὶν ἐν τῷ τρίτῳ τῶν Ἠθικῶν, ὅτι<note type="apparatus" n="5" target="#p329-4">ἐν τῷ τρίτῳ τῶν Ἠθικῶν] Eth. Nic. Γ 4—5</note><milestone type="alt-edition" unit="line" ed="Spengel 1867" n="5"/>
+              <lb n="6" xml:id="p329-5"/>τὸ προαιρετὸν βουλευτόν ἐστι καὶ ἐφ’ ἡμῖν, οὐδεὶς δὲ βουλεύεται περὶ διαμέτρου<note type="apparatus" n="6" target="#p329-5">καὶ ἐφ’ V: παρ’ s οὐδεὶς κτλ.] Eth. Nic. Γ 5 p. 1112 a 21 sq.</note>
+              <lb n="7" xml:id="p329-6"/>ἢ κύκλου οὐδὲ περὶ τῶν καθ’ εἱρμὸν γινομένων οἷον τροπῆς ἰσημερίας,
+              <lb n="8" xml:id="p329-7"/>ἀλλὰ περὶ τῶν ἐφ’ ἡμῖν πρακτῶν. “ὄντος δὲ τοῦ προαιρετοῦ<note type="apparatus" n="8" target="#p329-7">ὄντος κτλ.] Eth. Nic. Γ 5 p. 1113 a 9</note>
+              <lb n="9" xml:id="p329-8"/>βουλευτοῦ ὀρεκτοῦ τῶν ἐφ’ ἡμῖν, καὶ ἡ προαίρεσις ἂν εἴη βουλευτικὴ<note type="apparatus" n="9" target="#p329-8">τῶν scripsi ex Aristotele: τοῦ Vs</note><milestone type="alt-edition" unit="line" ed="Spengel 1867" n="10"/>
+              <lb n="10" xml:id="p329-9"/>ὄρεξις τῶν ἐφ’ ἡμῖν.” ἡ δὲ μαθηματικὴ ζήτησιν μὲν ἔχει, οὐ μὴν βούλευσιν·<note type="apparatus" n="10" target="#p329-9">μαθηματικὴ] cf. Eth. Nic. Γ 5 p. 1112 b 22</note>
+              <lb n="11" xml:id="p329-10"/>πᾶσα μὲν γὰρ βούλευσις ζήτησις, οὐ μὴν δὲ πᾶσα ζήτησις βούλευσις·
+              <lb n="12" xml:id="p329-11"/>καθολικωτέρα γὰρ ἡ ζήτησις.
+              <lb n="13" xml:id="p329-12"/>[1417 a 13] Ὃν ὁ Πλάτων λέγει ἐν τῷ μύθῳ τῆς νεκυίας αὐτοῦ<note type="apparatus" n="13" target="#p329-12">Πλάτων] Reip. X 614 B (v. supra p. 324,12. 328,30)</note>
+              <lb n="14" xml:id="p329-13"/>περὶ τῆς ἀναβιώσεως τοῦ Ἠρὸς καὶ περὶ τῶν ἐν Ἅιδου κολαστηρίων ἀπόλογον<milestone type="alt-edition" unit="line" ed="Spengel 1867" n="15"/>
+              <lb n="15" xml:id="p329-14"/>τοῦ Ὀδυσσέως πρὸς Ἀλκίνοον τὸν Φαίακα, τοῦτον ὧδε ὁ Ἀριστοτέλης
+              <lb n="16" xml:id="p329-15"/>λέγει παραδιήγησιν· ἠρώτα γὰρ ἐν Ἅιδου ὁ Ὀδυσσεὺς τὸν Τειρεσίαν<note type="apparatus" n="16" target="#p329-15">ἠρώτα κτλ.] cf. Hom. λ 90 sq.</note>
+              <lb n="17" xml:id="p329-16"/>περὶ τῶν οἴκοι καὶ τὴν ἑαυτοῦ μητέρα περὶ Πηνελόπης καὶ τοῦ υἱοῦ καὶ<milestone type="alt-edition" unit="line" ed="Spengel 1867" n="20"/>
+              <lb n="18" xml:id="p329-17"/>εἰ ἔγημέ τις αὐτοῦ τὴν γυναῖκα ἢ οὔ, καὶ ἐν ὀλίγοις ἔπεσιν Ὅμηρος τὴν<note type="apparatus" n="18" target="#p329-17">Ὅμηρος] ψ 310—341</note>
+              <lb n="19" xml:id="p329-18"/>τοιαύτην παραδιήγησιν γράφει. φησὶν ὁ Πρόκλος ‘κατὰ δή τινα ζῆλον τῶν<note type="apparatus" n="19" target="#p329-18">Πρόκλος] similis locus est Procl. in Plat. Remp. p. 61,5 sq. Schoell. (p. 16,9 sq. Pitra) ὁ μὲν οὖν Ἀλκίνου ἀπόλογος δηλοῖ τὴν ἐν Ἀλκίνου τοῦ Ὀδυσσέως νέκυιαν, οὗ δὴ τὰ ἐν Ἅιδου διηγεῖται θεάματα καὶ ὅσα εἶδεν κτλ.</note>
+              <lb n="20" xml:id="p329-19"/>παρ’ Ὁμήρῳ νεκυιῶν μετάγεται καὶ ὁ Πλάτων ἐπὶ μύθους, ἐν οἷς ὁ
+              <lb n="21" xml:id="p329-20"/>ποιητὴς ἀφηγούμενον ποιεῖ τὸν Ὀδυσσέα 〈τὰ〉 ἐν Ἅιδου θεάματα πρὸς τὸν<note type="apparatus" n="21" target="#p329-20">τὰ inserui, cf. Procl. θεάματα s Paris. gr. 1869: τα deletum (an casu?) V</note><milestone type="alt-edition" unit="line" ed="Spengel 1867" n="25"/>
+              <lb n="22" xml:id="p329-21"/>Ἀλκίνουν’.
+            </p>
+          </div>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

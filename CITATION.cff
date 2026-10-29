@@ -1,0 +1,26 @@
+# Pre-release (2026-10-29): date, DOI and the paper reference to be filled in at release.
+cff-version: 1.2.0
+message: "If you use this dataset, please cite it as below (and the data paper)."
+title: "CAG-TEI: the Commentaria in Aristotelem Graeca in TEI"
+type: dataset
+authors:
+  - family-names: Nakayama
+    given-names: Tomomi
+  - family-names: Iwata
+    given-names: Naoya
+contact:
+  - family-names: Iwata
+    given-names: Naoya
+    affiliation: "Graduate School of Humanities, Nagoya University"
+    # email: (to be added if wanted)
+license: CC-BY-4.0
+version: "1.0.0"
+# doi: 10.5281/zenodo.XXXXXXX
+# date-released: 2026-XX-XX
+keywords:
+  - Aristotle
+  - Greek commentators
+  - Commentaria in Aristotelem Graeca
+  - TEI
+  - critical apparatus
+  - OCR

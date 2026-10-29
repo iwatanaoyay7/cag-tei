@@ -1,0 +1,719 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt><title>Porphyrius, Isagoge Sive Quinque Voces (CAG 04.1)</title><respStmt><resp>Responsible for the edition</resp><persName xml:id="NI" xml:lang="en">Naoya Iwata</persName></respStmt><respStmt><resp>Structuring of the text (division into chapters, sections and lemmata) and its review</resp><persName xml:id="TN" xml:lang="en">Tomomi Nakayama</persName></respStmt></titleStmt>
+      <publicationStmt>
+        <publisher>Humanitext</publisher>
+        <availability><licence target="https://creativecommons.org/licenses/by/4.0/">Public domain source; transcription CC BY 4.0 (Humanitext)</licence></availability>
+      </publicationStmt>
+      <sourceDesc><bibl>Porphyrius, Isagoge Sive Quinque Voces. Commentaria in Aristotelem Graeca IV.1, ed. A. Busse, Berlin: Reimer 1887, pp. 1–22. Scan: Internet Archive p1porphyriiisago04porp (University of Toronto). Transcription: Humanitext OCR v2 (Gemini), 2026; structure: humanitext-cag-structuring.</bibl><bibl type="collation">First1KGreek tlg2034.tlg006.opp-grc1 (Open Greek and Latin Project, University of Leipzig; CC BY-SA 4.0), used only as a collation witness.</bibl></sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <refsDecl n="CTS">
+        <cRefPattern n="section" matchPattern="(.+)\.(.+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='chapter' and @n='$1']/tei:div[@subtype='section' and @n='$2'])"/>
+        <cRefPattern n="chapter" matchPattern="(.+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='chapter' and @n='$1'])"/>
+      </refsDecl><refsDecl n="page-line"><cRefPattern n="page.line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(//tei:pb[@n='$1']/following::tei:lb[@n='$2'][1])"><p>Citation by the page and line of the printed edition (CAG page.line, e.g. 105.17): the line with that number after the page break with that page number.</p></cRefPattern></refsDecl>
+      <editorialDecl>
+        <p>Text transcribed by OCR (Humanitext OCR v2, Gemini models) from the scans named in the source description. Structure (div, quote, head): transferred from a manual division of this work into chapters, sections and lemmata made by Tomomi Nakayama on a TEI file of the work derived from First1KGreek; only the positions of the divisions, the extent of the lemma quotations and the Bekker references were taken over and aligned to the OCR lines by page and opening words, and the result was reviewed in four rounds (2026-08-28 to 2026-09-29). Text: OCR of the page images with line coordinates (gemini-3-flash-preview; gemini-3.7-flash where it failed; damaged pages transcribed again). The review rounds concerned the structure, the line numbers and the placement of the apparatus, not the wording. In October 2026 the text was not collated with another transcription at this stage (the First1KGreek file of this work, named differently, was not picked up by the alignment); practically every line was therefore read again from images of the single lines by gemini-3.8-flash, undecided words line by line by gemini-3.1-pro-preview, and the remaining words were decided on the page image by student assistants or by AI-assisted checking under the editor's supervision. After the re-reading (2026-10-20) the text was collated word by word with the First1KGreek transcription of the same edition (tlg2034.tlg006.opp-grc1); the differences not already settled by the re-readings (32 places) were checked on the page images (12 corrections). No text was copied from First1KGreek (Open Greek and Latin Project, University of Leipzig; CC BY-SA 4.0): it served only as a collation witness, and every disagreement was decided from the page image of this edition. Spelling follows the printed page. Later checks are listed in the revision description. Headings inside a div (sub-headings, closing formulas, labels of tables) are ab[@type='head']. The words of diagrams and tables are not body text: each diagram or table is given once as figure after the last body line printed before it (labels, trees and tables transcribed; pure geometry described in figDesc); where the edition counts the rows of a diagram or table as lines, those line numbers are not used by any lb. Evident misprints of the printed edition, identified on the page image, are kept and given with the correct form as choice/sic/corr; mere variants of spelling or accentuation are left as printed. Misprinted numbers in milestones (Bekker references, old-edition page, folio, column and line numbers), which cannot carry choice/sic/corr, are given with the corrected value where the sequence of the numbers determines it. Line breaks: one lb per printed line; @n is the line count of the CAG page (headings included), resynchronised on the printed marginal numbers of the left margin; lines the edition does not count carry lb without @n. Words hyphenated across lines are joined and the lb is placed at the following word boundary. pb/@facs points to the image of the page in the Internet Archive item named in the source description (BookReader page image; for pages supplied from another copy, that copy). Critical-apparatus entries are attached to the line(s) they cite as note[@type='apparatus'] with @target on the lb (line level; the lemma words of an entry are not linked); entries that cannot be resolved remain as note[@type='footnote'] at the page end. References in the margins to older editions or manuscripts are milestone[@type='alt-edition'] with @unit and @ed (the edition identified from the preface of the volume); CAG's repetition of the current old-edition page or folio beside the first line of each page is not encoded. Bekker references printed before lemmata are milestone[@unit='bekker']. Marginal digits fused into the text by OCR have been removed.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc><change when="2026-08-27" who="#NI">OCR of the page images with line coordinates (gemini-3-flash-preview; gemini-3.7-flash where it failed); division of the text transferred onto the OCR lines.</change><change from="2026-08-28" to="2026-09-29" who="#TN">Four review rounds of the structure, line numbers and apparatus placement; damaged pages transcribed again; lines dropped by the OCR inserted.</change><change when="2026-09-24" who="#NI">Line numbers recounted from the printed marginal numerals in OCR reading order.</change><change from="2026-10-08" to="2026-10-12" who="#NI">Text re-read like the other CAG works, collated with First1KGreek where a First1KGreek file could be aligned (32,001 lines of the Greek pilot works by gemini-3.8-flash, 4,222 by gemini-3.1-pro-preview); remaining words decided on the page images.</change><change when="2026-10-13" who="#NI">Margin references to older editions encoded as milestone[@type='alt-edition'][@ed] and checked on the images.</change><change when="2026-10-17" who="#NI">Words hyphenated across lines joined; punctuation normalised; review closed.</change><change when="2026-10-20" who="#NI">Header revised (title, source description, editorial declaration, revision description); supplement brackets normalised to 〈 〉; breathings and accents written as separate signs before capitals composed with the letter; missing elision marks after ἀλλ, κατ, καθ, ἐπ, δι etc. supplied in the text; numbers left at line starts removed or encoded as old-edition milestones (image checked); words divided at a line end that had been joined to a word two lines down corrected; every body line without a line number checked on the page images (margin labels and folio marks read as lines dropped, duplicated rows removed, a missing line restored, numbers given to lines the edition counts); numeral signs unified as ʹ (U+0374, stored in its NFC form U+02B9); line-number jumps, old-edition milestones without an edition name and notes suspected to hold body text checked on the page images; citation by printed page and line declared (refsDecl); raised dots read as apostrophes corrected (checked on the page images); line coordinates of the working files realigned on the marginal numerals; printers' signatures at the foot of the page removed from the apparatus; apparatus entries for two lines joined by et kept as one note pointing at both lines; text of diagrams and tables encoded as figure (18 pages checked on the images); page images linked from pb/@facs.</change><change when="2026-10-20" who="#NI">Collated with First1KGreek after the re-reading; 32 places checked on the page images, 12 corrections.</change><change when="2026-10-21" who="#NI">Old-edition line numbers checked on the page images where the sequence skipped a number (2,100 places in the corpus) and, page by page, where it was irregular (542 pages): numbers missed by the OCR added (549), milestones not printed on the page dropped (190; mostly the CAG's own left-margin numbers or line references of the apparatus taken for old-edition numbers), misplaced ones moved (69), misread values corrected (31), page numbers taken for line numbers made page milestones (8); the edition's own skips and out-of-order numbers left as printed, the line count printed beside the repeated page or folio at the head of a page not encoded (like the repetition).</change><change when="2026-10-23" who="#NI">Quotation marks made uniform: opening single and double quotation marks, printed in the edition in the reversed (high-reversed-9) form, are encoded as ‘ and “, closing ones as ’ and ”, single and double kept as printed; opening marks read by the OCR as straight quotes, low quotes or spacing breathings, and spacing breathings or quotation marks doubled before a capital that already bears its breathing, corrected.</change></revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="edition" n="urn:cts:greekLit:tlg2034.tlg006.humanitext-grc1" xml:lang="grc">
+        <pb n="1" facs="https://archive.org/download/p1porphyriiisago04porp/page/n60.jpg"/>
+        <div type="textpart" subtype="chapter" n="1">
+          <head><lb n="1" xml:id="p1-0"/>ΠΟΡΦΥΡΙΟΥ ΕΙΣΑΓΩΓΗ ΤΟΥ ΦΟΙΝΙΚΟΣ<note type="apparatus" n="1" target="#p1-0">Titulum totum exhibent ABL, comprobat David in prolegomenis Brand. 18 a 43: Πορφυρίου εἰσαγωγή (ceteris om.) CMa: ad titulum add Χριστὲ ὁ Θεὸς ἡμῶν σύμπραττε Α</note>
+<lb n="2" xml:id="p1-1"/>ΤΟΥ ΜΑΘΗΤΟΥ ΠΛΩΤΙΝΟΥ ΤΟΥ ΛΥΚΟΠΟΛΙΤΟΥ</head>
+          <div type="textpart" subtype="section" n="0">
+            <p>
+              <lb n="3" xml:id="p1-2"/>Ὄντος ἀναγκαίου, Χρυσαόριε, καὶ εἰς τὴν τῶν παρὰ Ἀριστοτέλει κατηγοριῶν<milestone type="alt-edition" unit="column" ed="Brandis 1836" n="1a"/>
+              <lb n="4" xml:id="p1-3"/>διδασκαλίαν τοῦ γνῶναι τί γένος καὶ τί διαφορὰ τί τε εἶδος καὶ τί<note type="apparatus" n="4" target="#p1-3">τί τε εἶδος ABLMa Amm.: καὶ τί εἶδος C Dav.</note>
+              <lb n="5" xml:id="p1-4"/>ἴδιον καὶ τί συμβεβηκός, εἴς τε τὴν τῶν ὁρισμῶν ἀπόδοσιν καὶ ὅλως εἰς
+              <lb n="6" xml:id="p1-5"/>τὰ περὶ διαιρέσεως καὶ ἀποδείξεως χρησίμης οὔσης τῆς τούτων θεωρίας,<milestone type="alt-edition" unit="line" ed="Brandis 1836" n="5"/>
+              <lb n="7" xml:id="p1-6"/>σύντομόν σοι παράδοσιν ποιούμενος πειράσομαι διὰ βραχέων ὥσπερ ἐν
+              <lb n="8" xml:id="p1-7"/>εἰσαγωγῆς τρόπῳ τὰ παρὰ τοῖς πρεσβυτέροις ἐπελθεῖν, τῶν μὲν βαθυτέρων<note type="apparatus" n="8" target="#p1-7">πρεσβυτέροις iter. B</note>
+              <lb n="9" xml:id="p1-8"/>ἀπεχόμενος ζητημάτων, τῶν δ’ ἁπλουστέρων συμμέτρως στοχαζόμενος. αὐτίκα
+              <lb n="10" xml:id="p1-9"/>περὶ τῶν γενῶν τε καὶ εἰδῶν τὸ μὲν εἴτε ὑφέστηκεν εἴτε καὶ ἐν μόναις<note type="apparatus" n="10" target="#p1-9">περὶ τῶν γενῶν codd.: περὶ γενῶν a</note>
+              <lb n="11" xml:id="p1-10"/>ψιλαῖς ἐπινοίαις κεῖται εἴτε καὶ ὑφεστηκότα σώματά ἐστιν ἢ ἀσώματα καὶ<milestone type="alt-edition" unit="line" ed="Brandis 1836" n="10"/>
+              <lb n="12" xml:id="p1-11"/>πότερον χωριστὰ ἢ ἐν τοῖς αἰσθητοῖς καὶ περὶ ταῦτα ὑφεστῶτα, παραιτήσομαι
+              <lb n="13" xml:id="p1-12"/>λέγειν βαθυτάτης οὔσης τῆς τοιαύτης πραγματείας καὶ ἄλλης μείζονος
+              <lb n="14" xml:id="p1-13"/>δεομένης ἐξετάσεως· τὸ δ’ ὅπως περὶ αὐτῶν καὶ τῶν προκειμένων<note type="apparatus" n="14" target="#p1-13">post αὐτῶν add. τε Ca: om. ABLM Amm.</note>
+              <lb n="15" xml:id="p1-14"/>λογικώτερον οἱ παλαιοὶ διέλαβον καὶ τούτων μάλιστα οἱ ἐκ τοῦ περιπάτου,<milestone type="alt-edition" unit="line" ed="Brandis 1836" n="15"/><note type="apparatus" n="15" target="#p1-14">λογικώτερον] probabiliter Boeth.</note>
+              <lb n="16" xml:id="p1-15"/>νῦν σοι πειράσομαι δεικνύναι.
+            </p>
+          </div>
+          <div type="textpart" subtype="section" n="1">
+            <head><lb n="17" xml:id="p1-16"/>Περὶ γένους.<note type="apparatus" n="17" target="#p1-16">tit. exhibent libri omnes</note></head>
+            <p>
+              <lb n="18" xml:id="p1-17"/>Ἔοικεν δὲ μήτε τὸ γένος μήτε τὸ εἶδος ἁπλῶς λέγεσθαι. γένος γὰρ
+              <lb n="19" xml:id="p1-18"/>λέγεται καὶ ἡ τινῶν ἐχόντων πως πρὸς ἕν τι καὶ πρὸς ἀλλήλους ἄθροισις,<note type="apparatus" n="19" target="#p1-18">ἡ in ras. alia m. B. τινῶν om. M (suppl. m.¹ in mrg.) ante πρὸς ἀλλήλους add. ἡ BM: om. ACLa</note>
+              <lb n="20" xml:id="p1-19"/>καθ’ ὃ σημαινόμενον τὸ Ἡρακλειδῶν λέγεται γένος ἐκ τῆς ἀφ’ ἑνὸς σχέσεως,
+              <lb n="21" xml:id="p1-20"/>λέγω δὴ τοῦ Ἡρακλέους, καὶ τοῦ πλήθους τῶν ἐχόντων πως πρὸς<milestone type="alt-edition" unit="line" ed="Brandis 1836" n="20"/><note type="apparatus" n="21" target="#p1-20">δὴ ACLMa: δὲ B Boeth.</note>
+              <lb n="22" xml:id="p1-21"/>ἀλλήλους τὴν ἀπ’ ἐκείνου οἰκειότητα, κατὰ ἀποτομὴν τὴν ἀπὸ τῶν ἄλλων<note type="apparatus" n="22" target="#p1-21">τὴν ἀπὸ (ante τῶν ἄλλων) om. El.</note>
+              <lb n="23" xml:id="p1-22"/>γενῶν κεκλημένου. λέγεται δὲ καὶ ἄλλως πάλιν γένος ἡ ἑκάστου τῆς γενέσεως<note type="apparatus" n="23" target="#p1-22">κεκλημένου AB Amm. Dav. (lemm. et comment.) Boeth.: κεκλημένον CLMa</note>
+            </p>
+            <pb n="2" facs="https://archive.org/download/p1porphyriiisago04porp/page/n61.jpg"/>
+            <p>
+              <lb n="1" xml:id="p2-0"/>ἀρχὴ εἴτε ἀπὸ τοῦ τεκόντος εἴτε ἀπὸ τοῦ τόπου ἐν ᾧ τις γέγονεν.<note type="apparatus" n="1" target="#p2-0">εἴτε (utrobique) BCMa Boeth.: ἤ τε AL: ἤτοι — ἤ Dav.</note>
+              <lb n="2" xml:id="p2-1"/>οὕτως γὰρ Ὀρέστην μὲν ἀπὸ Ταντάλου φαμὲν ἔχειν τὸ γένος, Ὕλλον δὲ<note type="apparatus" n="2" target="#p2-1">ante Ταντάλου add. τοῦ C: om. ABLMa Dav. ὕλον Ma</note>
+              <lb n="3" xml:id="p2-2"/>ἀφ’ Ἡρακλέους, καὶ πάλιν Πίνδαρον μὲν Θηβαῖον εἶναι τὸ γένος, Πλάτωνα<milestone type="alt-edition" unit="line" ed="Brandis 1836" n="25"/><note type="apparatus" n="3" target="#p2-2">μὲν supra scr. m.2 M</note>
+              <lb n="4" xml:id="p2-3"/>δὲ Ἀθηναῖον· καὶ γὰρ ἡ πατρὶς ἀρχή τίς ἐστι τῆς ἑκάστου γενέσεως,
+              <lb n="5" xml:id="p2-4"/>ὥσπερ καὶ ὁ πατήρ. τοῦτο δὲ ἔοικε πρόχειρον εἶναι τὸ σημαινόμενον·<note type="apparatus" n="5" target="#p2-4">καὶ om. A1BL Boeth.: exhib. A2CMa Dav. comment.</note>
+              <lb n="6" xml:id="p2-5"/>Ἡρακλεῖδαι γὰρ λέγονται οἱ ἐκ γένους κατάγοντες Ἡρακλέους καὶ Κεκροπίδαι<note type="apparatus" n="6" target="#p2-5">κατάγοντες ABLM: καταγόμενοι a: om. C: qui descendunt Boeth.</note>
+              <lb n="7" xml:id="p2-6"/>οἱ ἀπὸ Κέκροπος καὶ οἱ τούτων ἀγχιστεῖς. καὶ πρότερόν γε ὠνομάσθη<note type="apparatus" n="7" target="#p2-6">post Κέκροπος add. τὸ γένος κατάγοντες C: om. ABLMa Boeth.</note>
+              <lb n="8" xml:id="p2-7"/>γένος ἡ ἑκάστου τῆς γενέσεως ἀρχή, μετὰ δὲ ταῦτα καὶ τὸ πλῆθος τῶν<milestone type="alt-edition" unit="line" ed="Brandis 1836" n="30"/>
+              <lb n="9" xml:id="p2-8"/>ἀπὸ μιᾶς ἀρχῆς οἷον Ἡρακλέους, ὃ ἀφορίζοντες καὶ ἀπὸ τῶν ἄλλων χωρίζοντες
+              <lb n="10" xml:id="p2-9"/>ἔφαμεν τὸ ὅλον ἄθροισμα Ἡρακλειδῶν γένος. ἄλλως δὲ πάλιν γένος<note type="apparatus" n="10" target="#p2-9">ἔφαμεν BCLMa Boeth.: φαμὲν A</note>
+              <lb n="11" xml:id="p2-10"/>λέγεται, ᾧ ὑποτάσσεται τὸ εἶδος, καθ’ ὁμοιότητα ἴσως τούτων εἰρημένον·<note type="apparatus" n="11" target="#p2-10">ἴσως post τούτων colloc. C</note>
+              <lb n="12" xml:id="p2-11"/>καὶ γὰρ ἀρχή τίς ἐστι τὸ τοιοῦτο γένος τῶν ὑφ’ ἑαυτὸ καὶ δοκεῖ καὶ τὸ<milestone type="alt-edition" unit="line" ed="Brandis 1836" n="35"/><note type="apparatus" n="12" target="#p2-11">τοιοῦτον Ca</note><note type="apparatus" n="12-13" target="#p2-11 #p2-12">ὑπ’ αὐτὸ (utrobique) B (sed π m.2): ὑπ’ αὐτὸ pr. M καὶ (post δοκεῖ) om. a</note>
+              <lb n="13" xml:id="p2-12"/>πλῆθος περιέχειν πᾶν τὸ ὑφ’ ἑαυτό.
+              <lb n="14" xml:id="p2-13"/>Τριχῶς οὖν τοῦ γένους λεγομένου περὶ τοῦ τρίτου παρὰ τοῖς φιλοσόφοις<note type="apparatus" n="14" target="#p2-13">παρὰ om. BL1 (supra scr. L3)</note>
+              <lb n="15" xml:id="p2-14"/>ὁ λόγος· ὃ καὶ ὑπογράφοντες ἀποδεδώκασι γένος εἶναι λέγοντες τὸ<note type="apparatus" n="15" target="#p2-14">λέγοντες erasum B</note>
+              <lb n="16" xml:id="p2-15"/>κατὰ πλειόνων καὶ διαφερόντων τῷ εἴδει ἐν τῷ τί ἐστι κατηγορούμενον
+              <lb n="17" xml:id="p2-16"/>οἷον τὸ ζῷον. τῶν γὰρ κατηγορουμένων τὰ μὲν καθ’ ἑνὸς λέγεται μόνου,<milestone type="alt-edition" unit="line" ed="Brandis 1836" n="40"/>
+              <lb n="18" xml:id="p2-17"/>ὡς τὰ ἄτομα οἷον Σωκράτης καὶ τὸ οὗτος καὶ τὸ τοῦτο, τὰ δὲ κατὰ πλειόνων,<note type="apparatus" n="18" target="#p2-17">τὸ (utrobique) exhibent BCLMa Amm. El.: om. A: καὶ τὸ οὗτος καὶ τοῦτο Dav. comm.</note>
+              <lb n="19" xml:id="p2-18"/>ὡς τὰ γένη καὶ τὰ εἴδη καὶ αἱ διαφοραὶ καὶ τὰ <milestone type="alt-edition" unit="column" ed="Brandis 1836" n="1b"/> ἴδια καὶ τὰ συμβεβηκότα
+              <lb n="20" xml:id="p2-19"/>κοινῶς ἀλλὰ μὴ ἰδίως τινί. ἔστι δὲ γένος μὲν οἷον τὸ ζῷον, εἶδος δὲ οἷον<note type="apparatus" n="20" target="#p2-19">ἔστι δὲ—εἶδος om. B (suppl. m.1 in mrg.) τὸ (ante ζῷον) supra scr. m.1 M</note>
+              <lb n="21" xml:id="p2-20"/>ὁ ἄνθρωπος, διαφορὰ δὲ οἷον τὸ λογικόν, ἴδιον δὲ οἷον τὸ γελαστικόν, συμβεβηκὸς
+              <lb n="22" xml:id="p2-21"/>δὲ οἷον τὸ λευκόν, τὸ μέλαν, τὸ καθέζεσθαι. τῶν μὲν οὖν καθ’<note type="apparatus" n="22" target="#p2-21">τὸ λευκὸν om. C: exhib. ABLMa Boeth. post καθέζεσθαι add. τὸ καθεστάναι L: om. ABCMa El. Boeth.</note>
+              <lb n="23" xml:id="p2-22"/>ἑνὸς μόνου κατηγορουμένων διαφέρει τὰ γένη τῷ ταῦτα κατὰ πλειόνων<milestone type="alt-edition" unit="line" ed="Brandis 1836" n="5"/><note type="apparatus" n="23" target="#p2-22">μόνου om. Dav. ταῦτα ACLM: ταὐτὰ B: om. Dav. Boeth.</note>
+              <lb n="24" xml:id="p2-23"/>ἀποδοθέντα κατηγορεῖσθαι, τῶν δὲ αὖ κατὰ πλειόνων τῶν μὲν εἰδῶν, ὅτι<note type="apparatus" n="24" target="#p2-23">ἀποδοθέντα κατηγορεῖσθαι BC et in rasura VIII litter. L3, Boeth. et (ut videtur) M1, nam ante κατηγ. litura: κατηγορεῖσθαι ἀποδοθέντα Dav.: καθηγορεῖσθαι a: λέγεσθαι A et (ut videtur) L1 αὖ om. A Boeth.: exhib. BCMa et in ras. L3</note>
+              <lb n="25" xml:id="p2-24"/>τὰ μὲν εἴδη εἰ καὶ κατὰ πλειόνων κατηγορεῖται ἀλλ’ οὐ διαφερόντων τῷ εἴδει<note type="apparatus" n="25" target="#p2-24">εἰ om. a: add. ABCLM Boeth.</note>
+              <lb n="26" xml:id="p2-25"/>ἀλλὰ τῷ ἀριθμῷ· ὁ γὰρ ἄνθρωπος εἶδος ὢν Σωκράτους καὶ Πλάτωνος<note type="apparatus" n="26" target="#p2-25">post ἀριθμῷ add. μόνον c. Flor. Bad. 192 Paris. 2051 ante Σωκράτους add. κατὰ Ma et in mrg. L3: om. ABCL1</note>
+              <lb n="27" xml:id="p2-26"/>κατηγορεῖται, οἳ οὐ τῷ εἴδει διαφέρουσιν ἀλλήλων ἀλλὰ τῷ ἀριθμῷ, τὸ δὲ<note type="apparatus" n="27" target="#p2-26">ἀλλήλων om. ABLa: add. CM Boeth.</note>
+              <lb n="28" xml:id="p2-27"/>ζῷον γένος ὂν ἀνθρώπου καὶ βοὸς καὶ ἵππου κατηγορεῖται, οἳ διαφέρουσι<milestone type="alt-edition" unit="line" ed="Brandis 1836" n="10"/><note type="apparatus" n="28" target="#p2-27">καὶ ἵππου καὶ βοὸς colloc. C</note>
+            </p>
+            <pb n="3" facs="https://archive.org/download/p1porphyriiisago04porp/page/n62.jpg"/>
+            <p>
+              <lb n="1" xml:id="p3-0"/>καὶ τῷ εἴδει ἀλλήλων ἀλλ’ οὐχὶ τῷ ἀριθμῷ μόνον. τοῦ δ’ αὖ ἰδίου διαφέρει<note type="apparatus" n="1" target="#p3-0">καὶ τῷ εἴδει post ἀλλήλων transp. C οὐχὶ ABLMa El.: οὐ C</note>
+              <lb n="2" xml:id="p3-1"/>τὸ γένος, ὅτι τὸ μὲν ἴδιον καθ’ ἑνὸς μόνου εἴδους, οὗ ἐστιν ἴδιον,<note type="apparatus" n="2" target="#p3-1">οὗ ἐστιν ἴδιον post κατηγορεῖται transp. M</note>
+              <lb n="3" xml:id="p3-2"/>κατηγορεῖται καὶ τῶν ὑπὸ τὸ εἶδος ἀτόμων, ὡς τὸ γελαστικὸν ἀνθρώπου
+              <lb n="4" xml:id="p3-3"/>μόνου καὶ τῶν κατὰ μέρος ἀνθρώπων, τὸ δὲ γένος οὐχ ἑνὸς εἴδους κατηγορεῖται<note type="apparatus" n="4" target="#p3-3">μόνου om. M: ex μόνον (?) corr. A²</note>
+              <lb n="5" xml:id="p3-4"/>ἀλλὰ πλειόνων τε καὶ διαφερόντων. τῆς δ’ αὖ διαφορᾶς καὶ τῶν<milestone type="alt-edition" unit="line" ed="Brandis 1836" n="15"/><note type="apparatus" n="5" target="#p3-4">post διαφερόντων add. τῷ εἴδει c. Paris. 2051, supra scr. M²A³: om. ceteri omnes et Boeth. (?)</note>
+              <lb n="6" xml:id="p3-5"/>κοινῇ συμβεβηκότων διαφέρει τὸ γένος, ὅτι εἰ καὶ κατὰ πλειόνων καὶ διαφερόντων<note type="apparatus" n="6" target="#p3-5">κοινῇ A et (ut videtur) L¹ cf. v. 18: κοινῶς BCL³Ma post πλειόνων add. τε A: om. BCLMa</note>
+              <lb n="7" xml:id="p3-6"/>τῷ εἴδει κατηγοροῦνται αἱ διαφοραὶ καὶ τὰ κοινῶς συμβεβηκότα,
+              <lb n="8" xml:id="p3-7"/>ἀλλ’ οὐκ ἐν τῷ τί ἐστι κατηγοροῦνται. ἐρωτησάντων γὰρ ἡμῶν ἐκεῖνο<note type="apparatus" n="8" target="#p3-7">κατηγοροῦνται BCL³M Dav.: κατηγορεῖται AL¹a post κατηγοροῦνται add. ἀλλ’ ἐν τῷ ὁποῖόν τί ἐστιν L²M²a Boeth.: ἀλλὰ μᾶλλον ἐν τῷ ὁποῖόν τί ἐστιν ἢ πῶς ἔχον ἐστὶν C: om. ABL¹M¹ γὰρ om. A (suppl. m.³) ἡμῶν ABL¹ Boeth. et (ut videtur) M¹: τινῶν CL³M²a post ἡμῶν add. τί ἐστιν A²CL³Ma: om. A¹BL¹ Boeth.</note>
+              <lb n="9" xml:id="p3-8"/>καθ’ οὗ κατηγορεῖται ταῦτα, οὐκ ἐν τῷ τί ἐστιν, φαμέν, κατηγορεῖται,<milestone type="alt-edition" unit="line" ed="Brandis 1836" n="20"/><note type="apparatus" n="9" target="#p3-8">κατηγοροῦνται L³ post ταῦτα add. τὸ γένος ἀποκρινόμεθα, τὰς δὲ διαφορὰς καὶ τὰ συμβεβηκότα οὐκ ἀποκρινόμεθα C: τὸ γένος ἀποκρινόμεθα, τὰς δὲ διαφορὰς καὶ τὰ συμβ. οὐκ ἀποκρινούμεθα a: om. ABM Boeth. et haud dubie L¹, nam τὸ γένος ἀποκρινόμεθα (sic), τὰς δὲ διαφορὰς καὶ τὰ κοινῶς συμβεβηκότα οὐκ ἔτι· οὐ γὰρ ἐν τῷ τί ἐστιν κατηγοροῦνται in rasura XL fere litter. L³ οὐκ — κατηγορεῖται om. A οὐκ BM Boeth. et (ut videtur) L¹: οὐ γὰρ CL³a φαμὲν om. CL³a: exhib. BM Boeth. et fort. L¹ κατηγορεῖται BM¹L¹(?)a: κατηγοροῦνται CL³ et supra scr. M²</note><note type="apparatus" n="9" target="#p3-8">ante κατηγορεῖται (alterum) add. τοῦ ὑποκειμένου C: post κατηγορεῖται a: om. BML³ Boeth.</note>
+              <lb n="10" xml:id="p3-9"/>ἀλλὰ μᾶλλον ἐν τῷ ποῖόν τί ἐστιν. ἐν γὰρ τῷ ἐρωτᾶν ποῖόν τί ἐστιν<note type="apparatus" n="10" target="#p3-9">—ὰ μᾶλλον ἐν τῷ in ras. VI fere litter. L³ ποιόν] ὁποῖόν Ca (ubique) ἐστιν om. B: exhib. ACLMa</note>
+              <lb n="11" xml:id="p3-10"/>ὁ ἄνθρωπός φαμεν ὅτι λογικόν, καὶ ἐν τῷ ποῖόν τι ὁ κόραξ φαμὲν<note type="apparatus" n="11" target="#p3-10">ὁ (ante ἄνθρωπος) om. M ὅτι om. BCL¹ Boeth.: exhib. AL³Ma ἐν τῷ om. B: exhib. ACLMa Boeth. ante ὁ κόραξ add. ἐστὶν CMa: om. ABL ὁ (ante κόραξ) om. CLM: exhib. ABa</note>
+              <lb n="12" xml:id="p3-11"/>ὅτι μέλαν· ἔστιν δὲ τὸ μὲν λογικὸν διαφορά, τὸ δὲ μέλαν συμβεβηκός·<milestone type="alt-edition" unit="line" ed="Brandis 1836" n="25"/><note type="apparatus" n="12" target="#p3-11">ὅτι om. B: exhib. ACLMa Boeth. μὲν om. C: exhib. ceteri</note>
+              <lb n="13" xml:id="p3-12"/>ὅταν δὲ τί ἐστιν ἄνθρωπος ἐρωτηθῶμεν, ζῷον ἀποκρινόμεθα· ἦν δὲ ἀνθρώπου<note type="apparatus" n="13" target="#p3-12">ἀποκρινούμεθα C</note>
+              <lb n="14" xml:id="p3-13"/>γένος τὸ ζῷον. ὥστε τὸ μὲν κατὰ πλειόνων λέγεσθαι τὸ γένος
+              <lb n="15" xml:id="p3-14"/>διαστέλλει αὐτὸ ἀπὸ τῶν καθ’ ἑνὸς μόνου τῶν ἀτόμων κατηγορουμένων,<note type="apparatus" n="15" target="#p3-14">αὐτὸ om. Boeth.</note>
+              <lb n="16" xml:id="p3-15"/>τὸ δὲ διαφερόντων τῷ εἴδει διαστέλλει ἀπὸ τῶν ὡς εἰδῶν κατηγορουμένων<note type="apparatus" n="16-17" target="#p3-15 #p3-16">post διαστέλλει et χωρίζει add. αὐτὸ C: post διαστέλλει A²: om. A¹BLMa Boeth.</note>
+              <lb n="17" xml:id="p3-16"/>ἢ ὡς ἰδίων, τὸ δὲ ἐν τῷ τί ἐστι κατηγορεῖσθαι χωρίζει ἀπὸ τῶν διαφορῶν<milestone type="alt-edition" unit="line" ed="Brandis 1836" n="30"/>
+              <lb n="18" xml:id="p3-17"/>καὶ τῶν κοινῇ συμβεβηκότων, ἃ οὐκ ἐν τῷ τί ἐστιν ἀλλ’ ἐν τῷ ποῖόν τί
+              <lb n="19" xml:id="p3-18"/>ἐστιν ἢ πῶς ἔχον ἐστὶν κατηγορεῖται ἕκαστον ὧν κατηγορεῖται. οὐδὲν ἄρα<note type="apparatus" n="19" target="#p3-18">κατηγορεῖται post τί ἐστιν (18) transp. El.</note>
+              <lb n="20" xml:id="p3-19"/>περιττὸν οὐδὲ ἔλλειπον περιέχει ἡ τοῦ γένους ῥηθεῖσα ὑπογραφὴ τῆς ἐννοίας.<note type="apparatus" n="20" target="#p3-19">τῆς ἐννοίας om. Boeth.</note>
+            </p>
+          </div>
+          <div type="textpart" subtype="section" n="2">
+            <head><lb n="21" xml:id="p3-20"/>Περὶ εἴδους.<note type="apparatus" n="21" target="#p3-20">tit. exhib. libri omnes</note></head>
+            <p>
+              <lb n="22" xml:id="p3-21"/>Τὸ δὲ εἶδος λέγεται μὲν καὶ ἐπὶ τῆς ἑκάστου μορφῆς, καθὸ εἴρηται<milestone type="alt-edition" unit="line" ed="Brandis 1836" n="35"/>
+            </p>
+            <pb n="4" facs="https://archive.org/download/p1porphyriiisago04porp/page/n63.jpg"/>
+            <p>
+              <lb n="1" xml:id="p4-0"/>πρῶτον μὲν εἶδος ἄξιον τυραννίδος.<note type="apparatus" n="1" target="#p4-0">πρῶτον μὲν εἶδος] Eurip. Aeolus 15,2 (Nauck Tragicorum Graec. fragm. p. 292) πρῶτον] Priami Boeth. (?)</note>
+              <lb n="2" xml:id="p4-1"/>λέγεται δὲ εἶδος καὶ τὸ ὑπὸ τὸ ἀποδοθὲν γένος, καθὸ εἰώθαμεν λέγειν τὸν<note type="apparatus" n="2" target="#p4-1">λέγεται δὲ εἶδος] — αι δὲ εἶδ— in ras. L3 καθὸ] —ὸ in ras. L3</note>
+              <lb n="3" xml:id="p4-2"/>μὲν ἄνθρωπον εἶδος τοῦ ζῴου γένους ὄντος τοῦ ζῴου, τὸ δὲ λευκὸν τοῦ
+              <lb n="4" xml:id="p4-3"/>χρώματος εἶδος, τὸ δὲ τρίγωνον τοῦ σχήματος εἶδος. εἰ δὲ καὶ τὸ γένος
+              <lb n="5" xml:id="p4-4"/>ἀποδιδόντες τοῦ εἴδους ἐμεμνήμεθα εἰπόντες τὸ κατὰ πλειόνων καὶ διαφερόντων
+              <lb n="6" xml:id="p4-5"/>τῷ εἴδει ἐν τῷ τί ἐστι κατηγορούμενον, καὶ τὸ εἶδός φαμεν τὸ<note type="apparatus" n="6" target="#p4-5">εἴδει] —εῖ in ras. L3</note><milestone type="alt-edition" unit="line" ed="Brandis 1836" n="40"/>
+              <lb n="7" xml:id="p4-6"/>ὑπὸ τὸ ἀποδοθὲν γένος, εἰδέναι χρὴ ὅτι, ἐπεὶ καὶ τὸ γένος τινός ἐστιν γένος<note type="apparatus" n="7" target="#p4-6">καὶ om. B: exhib. ACLMa Boeth. καὶ (post ἀνάγκη) om. Brand.: exhib. libri omnes</note>
+              <lb n="8" xml:id="p4-7"/>καὶ τὸ εἶδος τινός ἐστιν εἶδος ἑκάτερον ἑκατέρου, ἀνάγκη καὶ ἐν τοῖς ἀμφοτέρων
+              <lb n="9" xml:id="p4-8"/>λόγοις κεχρῆσθαι ἀμφοτέροις. ἀποδιδόασιν οὖν τὸ εἶδος καὶ οὕτως·<note type="apparatus" n="9" target="#p4-8">καὶ om. C</note>
+              <lb n="10" xml:id="p4-9"/>εἶδός ἐστι τὸ ταττόμενον ὑπὸ τὸ γένος καὶ οὗ τὸ γένος <milestone type="alt-edition" unit="column" ed="Brandis 1836" n="2a"/> ἐν τῷ τί ἐστι
+              <lb n="11" xml:id="p4-10"/>κατηγορεῖται. ἔτι δὲ καὶ οὕτως· εἶδός ἐστι τὸ κατὰ πλειόνων καὶ διαφερόντων
+              <lb n="12" xml:id="p4-11"/>τῷ ἀριθμῷ ἐν τῷ τί ἐστι κατηγορούμενον. ἀλλ’ αὕτη μὲν ἡ ἀπόδοσις
+              <lb n="13" xml:id="p4-12"/>τοῦ εἰδικωτάτου ἂν εἴη καὶ ὃ ἔστι μόνον εἶδος, αἱ δὲ ἄλλαι εἶεν ἂν καὶ<note type="apparatus" n="13" target="#p4-12">ἰδικωτάτου semper A1 post εἶδος add. οὐκέτι δὲ καὶ γένος a: om. ABCLM Boeth.</note>
+              <lb n="14" xml:id="p4-13"/>τῶν μὴ εἰδικωτάτων. σαφὲς δ’ ἂν εἴη τὸ λεγόμενον τοῦτον τὸν τρόπον.<milestone type="alt-edition" unit="line" ed="Brandis 1836" n="5"/>
+              <lb n="15" xml:id="p4-14"/>καθ’ ἑκάστην κατηγορίαν ἐστίν τινα γενικώτατα καὶ πάλιν ἄλλα εἰδικώτατα
+              <lb n="16" xml:id="p4-15"/>καὶ μεταξὺ τῶν γενικωτάτων καὶ τῶν εἰδικωτάτων ἄλλα. ἔστιν δὲ γενικώτατον<note type="apparatus" n="16" target="#p4-15">post ἄλλα add. ἃ καὶ γένη καὶ εἴδη λέγεται τὰ αὐτά AC et in mrg. L3M2: ἃ γένη καὶ εἴδη λέγ. τὰ αὐτά a: om. BL1M1 Boeth. ἔστι δὲ ABLMa Boeth.: καὶ ἔστι C</note>
+              <lb n="17" xml:id="p4-16"/>μέν, ὑπὲρ ὃ οὐκ ἂν εἴη ἄλλο ἐπαναβεβηκὸς γένος, εἰδικώτατον δέ,<note type="apparatus" n="17" target="#p4-16">post ἄλλο add. τι C: om. ABLMa Boeth. ἐπαναβεβαβεβηκὸς B</note>
+              <lb n="18" xml:id="p4-17"/>μεθ’ ὃ οὐκ ἂν εἴη ἄλλο ὑποβεβηκὸς εἶδος, μεταξὺ δὲ τοῦ γενικωτάτου καὶ<note type="apparatus" n="18" target="#p4-17">ἄλλο — μεταξὺ δὲ τοῦ om. B (suppl. m.2 in mrg.)</note><milestone type="alt-edition" unit="line" ed="Brandis 1836" n="10"/>
+              <lb n="19" xml:id="p4-18"/>τοῦ εἰδικωτάτου ἄλλα, ἃ καὶ γένη καὶ εἴδη ἐστὶ τὰ αὐτά, πρὸς ἄλλο μέντοι<note type="apparatus" n="19" target="#p4-18">τοῦ om. BLa: exhib. ACM ἄλλα, ἃ om. Boeth. ἐστὶ om. M</note>
+              <lb n="20" xml:id="p4-19"/>καὶ ἄλλο λαμβανόμενα.
+              <lb n="21" xml:id="p4-20"/>Γινέσθω δὲ ἐπὶ μιᾶς κατηγορίας σαφὲς τὸ λεγόμενον. ἡ οὐσία ἔστι<note type="apparatus" n="21" target="#p4-20">γινέσθω ALM El.: γενέσθω BCA Amm.</note>
+              <lb n="22" xml:id="p4-21"/>μὲν καὶ αὐτὴ γένος, ὑπὸ δὲ ταύτην ἐστὶν σῶμα, καὶ ὑπὸ τὸ σῶμα<note type="apparatus" n="22" target="#p4-21">ante σῶμα (prius) add. τὸ Brand.</note><note type="apparatus" n="22-23" target="#p4-21 #p4-22">ἔμψυχον σῶμα CMa Boeth.: τὸ σῶμα ἔμψυχον B: ἐστὶν ἔμψυχον σῶμα AL</note>
+              <lb n="23" xml:id="p4-22"/>ἔμψυχον σῶμα, ὑφ’ ὃ τὸ ζῷον, ὑπὸ δὲ τὸ ζῷον λογικὸν ζῷον, ὑφ’ ὃ ὁ<milestone type="alt-edition" unit="line" ed="Brandis 1836" n="15"/>
+              <lb n="24" xml:id="p4-23"/>ἄνθρωπος, ὑπὸ δὲ τὸν ἄνθρωπον Σωκράτης καὶ Πλάτων καὶ οἱ κατὰ μέρος
+              <lb n="25" xml:id="p4-24"/>ἄνθρωποι. ἀλλὰ τούτων ἡ μὲν οὐσία τὸ γενικώτατον καὶ ὃ μόνον γένος,
+              <lb n="26" xml:id="p4-25"/>ὁ δὲ ἄνθρωπος τὸ εἰδικώτατον καὶ ὃ μόνον εἶδος, τὸ δὲ σῶμα εἶδος μὲν
+              <lb n="27" xml:id="p4-26"/>τῆς οὐσίας, γένος δὲ τοῦ ἐμψύχου σώματος. ἀλλὰ καὶ τὸ ἔμψυχον σῶμα<note type="apparatus" n="27" target="#p4-26">ἀλλὰ om. Boeth.</note>
+              <lb n="28" xml:id="p4-27"/>εἶδος μὲν τοῦ σώματος, γένος δὲ τοῦ ζῴου, πάλιν δὲ τὸ ζῷον εἶδος μὲν<note type="apparatus" n="28" target="#p4-27">πάλιν om. Boeth. δὲ (post πάλιν) om. Ca: exhib. ABLM Boeth.</note><milestone type="alt-edition" unit="line" ed="Brandis 1836" n="20"/>
+              <lb n="29" xml:id="p4-28"/>τοῦ ἐμψύχου σώματος, γένος δὲ τοῦ λογικοῦ ζῴου. τὸ δὲ λογικὸν ζῷον
+              <lb n="30" xml:id="p4-29"/>εἶδος μὲν τοῦ ζῴου, γένος δὲ τοῦ ἀνθρώπου, ὁ δὲ ἄνθρωπος εἶδος μὲν
+              <lb n="31" xml:id="p4-30"/>τοῦ λογικοῦ ζῴου, οὐκέτι δὲ καὶ γένος τῶν κατὰ μέρος ἀνθρώπων, ἀλλὰ
+              <lb n="32" xml:id="p4-31"/>μόνον εἶδος· καὶ πᾶν τὸ πρὸ τῶν ἀτόμων προσεχῶς κατηγορούμενον εἶδος<note type="apparatus" n="32" target="#p4-31">προσεχῶς κατηγορούμενον] προσεχὲς Dav.: quod proximum est Boeth.</note>
+            </p>
+            <pb n="5" facs="https://archive.org/download/p1porphyriiisago04porp/page/n64.jpg"/>
+            <p>
+              <lb n="1" xml:id="p5-0"/>ἂν εἴη μόνον, οὐκέτι δὲ καὶ γένος. ὥσπερ οὖν ἡ οὐσία ἀνωτάτω οὖσα τῷ<note type="apparatus" n="1" target="#p5-0">ἀνωτάτω BCLMa: ἀνωτάτη A</note>
+              <lb n="2" xml:id="p5-1"/>μηδὲν εἶναι πρὸ αὐτῆς γένος ἦν τὸ γενικώτατον, οὕτως καὶ ὁ ἄνθρωπος
+              <lb n="3" xml:id="p5-2"/>εἶδος ὤν, μεθ’ ὃ οὐκ ἔστιν εἶδος οὐδέ τι τῶν τέμνεσθαι δυναμένων εἰς εἴδη,<note type="apparatus" n="3" target="#p5-2">ante εἶδος alterum add. ἄλλο a: om. ABCLM: alia inferior species Boeth., unde ἄλλο fort. recipiendum est εἰς εἴδη] ὡς εἴδη L: om. Boeth. (?)</note>
+              <lb n="4" xml:id="p5-3"/>ἀλλὰ τῶν ἀτόμων (ἄτομον γὰρ Σωκράτης καὶ Πλάτων καὶ τουτὶ τὸ λευκόν)<note type="apparatus" n="4" target="#p5-3">post γὰρ add. λέγεται Ba: om. ACLM Boeth. Σωκράτης καὶ Πλάτων ABLMa Boeth. comprobant Amm. et Dav. comment.: Σωκράτης καὶ Ἀλκιβιάδης C: Σωκράτης καὶ Πλάτων καὶ Ἀλκιβιάδης L³ καὶ τουτὶ τὸ λευκὸν om. Boeth.</note>
+              <lb n="5" xml:id="p5-4"/>μόνον ἂν εἴη εἶδος καὶ τὸ ἔσχατον εἶδος καὶ ὡς ἔφαμεν τὸ εἰδικώτατον·<milestone type="alt-edition" unit="line" ed="Brandis 1836" n="30"/><note type="apparatus" n="5" target="#p5-4">καὶ (ante ὡς) om. M</note>
+              <lb n="6" xml:id="p5-5"/>τὰ δὲ μέσα τῶν μὲν πρὸ αὐτῶν εἴη ἂν εἴδη, τῶν δὲ μετ’ αὐτὰ γένη.<note type="apparatus" n="6" target="#p5-5">εἴδη ἂν εἴη colloc. C</note><note type="apparatus" n="6 et 8" target="#p5-5 #p5-7">μετ’ αὐτὰ A³CL³Ma Boeth.: μετὰ ταῦτα A¹BL 7 ταῦτα ACLMa Boeth.: αὐτὰ B</note>
+              <lb n="7" xml:id="p5-6"/>ὥστε ταῦτα μὲν ἔχει δύο σχέσεις, τήν τε πρὸς τὰ πρὸ αὐτῶν, καθ’ ἣν
+              <lb n="8" xml:id="p5-7"/>εἴδη αὐτῶν εἶναι λέγεται, τήν τε πρὸς τὰ μετ’ αὐτά, καθ’ ἣν γένη αὐτῶν
+              <lb n="9" xml:id="p5-8"/>εἶναι λέγεται· τὰ δὲ ἄκρα μίαν ἔχει σχέσιν· τό τε γὰρ γενικώτατον τὴν
+              <lb n="10" xml:id="p5-9"/>μὲν ὡς πρὸς τὰ ὑφ’ ἑαυτὸ ἔχει σχέσιν, γένος ὂν πάντων τὸ ἀνωτάτω,<milestone type="alt-edition" unit="line" ed="Brandis 1836" n="35"/><note type="apparatus" n="10" target="#p5-9">ὑπ’ αὐτὸ C Dav. comm. τῷ ἀνωτάτω B: τὸ ἀνώτατον ACLa: τὸ ἀνωτατω M</note>
+              <lb n="11" xml:id="p5-10"/>τὴν δὲ ὡς πρὸς τὰ πρὸ ἑαυτοῦ οὐκέτι ἔχει, ἀνωτάτω ὂν καὶ ὡς πρώτη<note type="apparatus" n="11" target="#p5-10">ἑαυτοῦ A²CM: αὐτοῦ A¹BLa Dav. comm. ἀνωτάτω ABL¹M: ἀνώτατον CL³a ὡς (ante πρώτη) om. BCLa Boeth.: exhibent AM ἡ πρώτη C</note>
+              <lb n="12" xml:id="p5-11"/>ἀρχὴ καί, ὡς ἔφαμεν, ὑπὲρ ὃ οὐκ ἂν εἴη ἄλλο ἐπαναβεβηκὸς γένος· καὶ<note type="apparatus" n="12" target="#p5-11">γένος ἐπαναβεβηκός colloc. a</note>
+              <lb n="13" xml:id="p5-12"/>τὸ εἰδικώτατον δὲ μίαν ἔχει σχέσιν τὴν μὲν ὡς πρὸς τὰ πρὸ αὐτοῦ, ὧν<note type="apparatus" n="13" target="#p5-12">τὸ δὲ εἰδικώτατον μίαν ἔχει καὶ αὐτὸ σχέσιν a μὲν om. AC Boeth.: exhibent BLMa</note>
+              <lb n="14" xml:id="p5-13"/>ἐστιν εἶδος, τὴν δὲ ὡς πρὸς τὰ μετ’ αὐτὸ οὐκ ἀλλοίαν ἔχει, ἀλλὰ καὶ τῶν<milestone type="alt-edition" unit="line" ed="Brandis 1836" n="40"/><note type="apparatus" n="14" target="#p5-13">ἀλλοίαν om. Boeth. post ἔχει add. σχέσιν a</note>
+              <lb n="15" xml:id="p5-14"/>ἀτόμων εἶδος λέγεται. ἀλλ’ εἶδος μὲν λέγεται τῶν ἀτόμων ὡς περιέχον<note type="apparatus" n="15" target="#p5-14">λέγεται (ante τῶν ἀτόμων) om. BCM Boeth.: exhibent ALa</note>
+              <lb n="16" xml:id="p5-15"/>αὐτά, εἶδος δὲ πάλιν τῶν πρὸ αὐτοῦ ὡς περιεχόμενον ὑπ’ αὐτῶν.<note type="apparatus" n="16" target="#p5-15">πάλιν om. M Boeth. exhib. ABCLA</note>
+              <lb n="17" xml:id="p5-16"/>Ἀφορίζονται τοίνυν τὸ μὲν γενικώτατον οὕτως, ὃ γένος ὂν οὐκ ἔστιν<note type="apparatus" n="17" target="#p5-16">post γενικώτατον add. γένος Cạ Amm.: om. ABLM Boeth. οὕτως om. BL¹: exhib. ACL²Ma Amm. Boeth.</note>
+              <lb n="18" xml:id="p5-17"/>εἶδος, καὶ πάλιν, ὑπὲρ ὃ οὐκ ἂν εἴη ἄλλο ἐπαναβεβηκὸς γένος· τὸ δὲ εἰδικώτατον,<note type="apparatus" n="18" target="#p5-17">ἄλλο om. BL¹M: exhib. ACL² Boeth.</note><note type="apparatus" n="18-19" target="#p5-17 #p5-18">post εἰδικώτατον add. εἶδος οὕτως a: om. ABCLM Boeth.</note>
+              <lb n="19" xml:id="p5-18"/>ὃ εἶδος ὂν οὐκ ἔστιν γένος καὶ ὃ εἶδος ὂν οὐκ ἂν διελοίμεθα<milestone type="alt-edition" unit="line" ed="Brandis 1836" n="45"/><note type="apparatus" n="19-20" target="#p5-18 #p5-19">οὐκ ἂν διελοίμεθα ἔτι εἰς εἴδη καὶ AL: numquam dividitur in species et Boeth.: οὐκ ἂν εἰς εἴδη διελοίμεθα ἔτι δὲ καὶ BM: οὐκ ἂν διελοίμεθα εἰς εἴδη ἔτι δὲ καὶ οὕτως C et οὕτως omisso a</note>
+              <lb n="20" xml:id="p5-19"/>ἔτι εἰς εἴδη καὶ ὃ κατὰ πλειόνων καὶ διαφερόντων τῷ ἀριθμῷ ἐν τῷ τί<note type="apparatus" n="20-21" target="#p5-19 #p5-20">ὃ—κατηγορεῖται ABLMa Boeth.: τὸ—κατηγορούμενον C</note>
+              <lb n="21" xml:id="p5-20"/>ἐστι κατηγορεῖται. τὰ δὲ μέσα τῶν ἄκρων ὑπάλληλά τε καλοῦσι γένη<note type="apparatus" n="21-22" target="#p5-20 #p5-21">εἴδη καὶ γένη colloc. a; post γένη inserendum est καὶ γένη (cf. p. 6,1) quod Amm. El. Boeth. legisse videntur, ὑπάλληλα εἴδη repudiantes; David autem haec praebet: τὸ ζῷον γὰρ καὶ τὸ ἔμψυχον ὑπάλληλα γένη καλοῦσιν, ἔτι δὲ καὶ ὑπάλληλα εἴδη, καθὸ μέσα ὄντα δύναται καὶ γένη εἶναι καὶ εἴδη post εἴδη add. τὰ αὐτά C: om. ABLMa Boeth.</note>
+              <lb n="22" xml:id="p5-21"/>καὶ εἴδη, καὶ ἕκαστον αὐτῶν εἶδος εἶναι καὶ γένος τίθενται, πρὸς
+              <lb n="23" xml:id="p5-22"/>ἄλλο μέντοι καὶ ἄλλο λαμβανόμενον. τὰ δὴ πρὸ τῶν εἰδικωτάτων ἄχρι<milestone type="alt-edition" unit="column" ed="Brandis 1836" n="2b"/><note type="apparatus" n="23" target="#p5-22">λαμβανόμενον BL¹Ma: λαμβανόμενα BCL³ δὴ scripsi sec. El.: δὲ ALM Boeth. Dav.: γὰρ BCa</note>
+            </p>
+            <pb n="6" facs="https://archive.org/download/p1porphyriiisago04porp/page/n65.jpg"/>
+            <p>
+              <lb n="1" xml:id="p6-0"/>τοῦ γενικωτάτου ἀνιόντα γένη τε λέγεται καὶ εἴδη καὶ ὑπάλληλα γένη ὡς<note type="apparatus" n="1" target="#p6-0">τοῦ γενικωτάτου ALMa Boeth. El. Dav. τῶν γενικωτάτων BC τε om. C Dav. εἴδη καὶ ὑπάλληλα γένη ABCLM Boeth. El. Dav.: εἴδη ὑπάλληλα a</note>
+              <lb n="2" xml:id="p6-1"/>ὁ Ἀγαμέμνων Ἀτρείδης καὶ Πελοπίδης καὶ Τανταλίδης καὶ τὸ τελευταῖον<note type="apparatus" n="2" target="#p6-1">ὁ erasum L Πελοπίδης L</note>
+              <lb n="3" xml:id="p6-2"/>Διός. ἀλλ’ ἐπὶ μὲν τῶν γενεαλογιῶν εἰς ἕνα ἀνάγουσι, φέρε εἰπεῖν τὸν
+              <lb n="4" xml:id="p6-3"/>Δία, τὴν ἀρχὴν ὡς ἐπὶ τὸ πλεῖστον, ἐπὶ δὲ τῶν γενῶν καὶ τῶν εἰδῶν οὐχ<milestone type="alt-edition" unit="line" ed="Brandis 1836" n="5"/><note type="apparatus" n="4" target="#p6-3">post γενῶν rasura 12 litter. L τῶν (ante εἰδῶν) om. a</note>
+              <lb n="5" xml:id="p6-4"/>οὕτως ἔχει· οὐ γάρ ἐστι κοινὸν ἓν γένος πάντων τὸ ὂν οὐδὲ πάντα ὁμογενῆ<note type="apparatus" n="5" target="#p6-4">ἓν om. a: add. ABCLM Boeth. ἁπάντων C</note><note type="apparatus" n="5-6" target="#p6-4 #p6-5">ὁμονογενῆ B</note>
+              <lb n="6" xml:id="p6-5"/>καθ’ ἓν τὸ ἀνωτάτω γένος, ὥς φησιν ὁ Ἀριστοτέλης. ἀλλὰ κείσθω,<note type="apparatus" n="6" target="#p6-5">ἀνώτατον C ὥς φησιν ὁ Ἀριστ.] Metaph. II, 3 p. 998 b 22 ὁ om. a</note>
+              <lb n="7" xml:id="p6-6"/>ὥσπερ ἐν ταῖς Κατηγορίαις, τὰ πρῶτα δέκα γένη οἷον ἀρχαὶ δέκα πρῶται·<note type="apparatus" n="7" target="#p6-6">δέκα post γένη transp. M</note>
+              <lb n="8" xml:id="p6-7"/>κἂν δὴ πάντα τις ὄντα καλῇ, ὁμωνύμως, φησί, καλέσει, ἀλλ’ οὐ συνωνύμως.<note type="apparatus" n="8" target="#p6-7">ante ὄντα add. ὡς M: om. ABCLMA Boeth. καλῇ] καλέσῃ B φησί, — συνωνύμως om. B (suppl. mrg.²) ἀλλ’ om. A: exhib. BCLMa Boeth.</note>
+              <lb n="9" xml:id="p6-8"/>εἰ μὲν γὰρ ἓν ἦν κοινὸν πάντων γένος τὸ ὄν, συνωνύμως ἂν πάντα<milestone type="alt-edition" unit="line" ed="Brandis 1836" n="10"/><note type="apparatus" n="9" target="#p6-8">ἓν om. A: ἓν ἦν κοι— in ras. IV litt. L³ κοινὸν] καλὸν B ἦν post κοινὸν transp. a γένος πάντων colloc. CMa</note>
+              <lb n="10" xml:id="p6-9"/>ὄντα ἐλέγετο· δέκα δὲ ὄντων τῶν πρώτων ἡ κοινωνία κατὰ τοὔνομα μόνον,<note type="apparatus" n="10" target="#p6-9">τὴν κοινωνίαν B</note><note type="apparatus" n="10-11" target="#p6-9 #p6-10">κατοὔνομα utrobique A: priore loco L: altero B</note>
+              <lb n="11" xml:id="p6-10"/>οὐκέτι μὴν καὶ κατὰ τὸν λόγον τὸν κατὰ τοὔνομα. δέκα μὲν οὖν τὰ γενικώτατα,<note type="apparatus" n="11" target="#p6-10">οὐκέτι] οὐ a</note>
+              <lb n="12" xml:id="p6-11"/>τὰ δὲ εἰδικώτατα ἐν ἀριθμῷ μέν τινι, οὐ μὴν ἀπείρῳ· τὰ δὲ<note type="apparatus" n="12" target="#p6-11">post τινι add. ἐστὶν M: εἰσὶν a: om. ABCL El. μὴν CLMA El.: μὴν δ’ A: μὴν δι’ B: an μήν γ’ ?</note>
+              <lb n="13" xml:id="p6-12"/>ἄτομα, ἅπερ ἐστὶ τὰ μετὰ τὰ εἰδικώτατα, ἄπειρα. διὸ ἄχρι τῶν εἰδικωτάτων<milestone type="alt-edition" unit="line" ed="Brandis 1836" n="15"/><note type="apparatus" n="13" target="#p6-12">ἐστὶ τὰ LMa: ἦν BC: ἐστὶ A El. ἄχρι ABCL El. Dav.: μέχρι Ma</note>
+              <lb n="14" xml:id="p6-13"/>ἀπὸ τῶν γενικωτάτων κατιόντας παρεκελεύετο ὁ Πλάτων παύεσθαι,<note type="apparatus" n="14" target="#p6-13">κατιόντας ACLMa: κατιόντα B Boeth. El. παρεκελεύετο ABLMa Dav.: παρακελεύεται B Boeth. ὁ om. C ὁ Πλάτων] cf. Phileb. p. 16 C, Polit. p. 262 A. B. C, Sophist. p. 266 A. B</note>
+              <lb n="15" xml:id="p6-14"/>κατιέναι δὲ διὰ τῶν διὰ μέσου διαιροῦντας ταῖς εἰδοποιοῖς διαφοραῖς·<note type="apparatus" n="15" target="#p6-14">διαιροῦντας ACLMa El. Dav.: διαιροῦντα B Boeth.</note>
+              <lb n="16" xml:id="p6-15"/>τὰ δὲ ἄπειρα φησὶν ἐᾶν, μὴ γὰρ ἂν γενέσθαι τούτων ἐπιστήμην. κατιόντων<note type="apparatus" n="16" target="#p6-15">μὴ ACLM Dav.: μηδὲ Ba post ἂν add. ποτε C: om. ABLMa Boeth.</note><note type="apparatus" n="16 et 18" target="#p6-15 #p6-17">κατιόντων — ἀνιόντων ABCLM El. Dav.: κατιόντας — ἀνιόντας a Amm.</note>
+              <lb n="17" xml:id="p6-16"/>μὲν οὖν εἰς τὰ εἰδικώτατα ἀνάγκη διαιροῦντας διὰ πλήθους ἰέναι,
+              <lb n="18" xml:id="p6-17"/>ἀνιόντων δὲ εἰς τὰ γενικώτατα ἀνάγκη συναιρεῖν τὸ πλῆθος εἰς ἕν· συναγωγὸν<milestone type="alt-edition" unit="line" ed="Brandis 1836" n="20"/><note type="apparatus" n="18" target="#p6-17">συναιρεῖν] διαιρεῖν Dav. (?) εἰς ἕν om. El. Dav. Boeth. (?)</note>
+              <lb n="19" xml:id="p6-18"/>γὰρ τῶν πολλῶν εἰς μίαν φύσιν τὸ εἶδος καὶ ἔτι μᾶλλον τὸ γένος,
+              <lb n="20" xml:id="p6-19"/>τὰ δὲ κατὰ μέρος καὶ καθ’ ἕκαστα τοὐναντίον εἰς πλῆθος ἀεὶ διαιρεῖ τὸ<note type="apparatus" n="20" target="#p6-19">καθ’ ἕκαστα ABCL a: καθ’ ἕκαστον M Dav. διαιρεῖται B</note>
+              <lb n="21" xml:id="p6-20"/>ἕν· τῇ μὲν γὰρ τοῦ εἴδους μετουσίᾳ οἱ πολλοὶ ἄνθρωποι εἷς, τοῖς δὲ κατὰ<note type="apparatus" n="21" target="#p6-20">κατὰ γὰρ τὸ εἶδος οἱ πολλοὶ ἄνθρωποι εἷς εἰσιν, κατὰ δὲ τὰ ἄτομα ὁ εἷς πλειόνές εἰσιν Dav.</note>
+              <lb n="22" xml:id="p6-21"/>μέρος ὁ εἷς καὶ κοινὸς πλείους· διαιρετικὸν μὲν γὰρ ἀεὶ τὸ καθ’ ἕκαστον,<note type="apparatus" n="22" target="#p6-21">post μέρος add. καὶ καθ’ ἕκαστα a: om. ABCLM Boeth. κοινῶς B ἀεὶ om. a</note><milestone type="alt-edition" unit="line" ed="Brandis 1836" n="25"/>
+              <lb n="23" xml:id="p6-22"/>συλληπτικὸν δὲ καὶ ἑνοποιὸν τὸ κοινόν.
+              <lb n="24" xml:id="p6-23"/>Ἀποδεδομένου δὲ τοῦ γένους καὶ τοῦ εἴδους τί ἐστιν ἑκάτερον αὐτῶν,<note type="apparatus" n="24" target="#p6-23">δὲ ABLMa Amm. Dav. Boeth.: τοίνυν C ἐστὶν ἑκάτερον αὐτῶν om. B ἐστὶν om. CL: exhib. AMa αὐτῶν om. CM Boeth. exhib. ALa</note>
+            </p>
+            <pb n="7" facs="https://archive.org/download/p1porphyriiisago04porp/page/n66.jpg"/>
+            <p>
+              <lb n="1" xml:id="p7-0"/>καὶ τοῦ μὲν γένους ἑνὸς ὄντος τῶν δὲ εἰδῶν πλειόνων (ἀεὶ γὰρ εἰς πλείω
+              <lb n="2" xml:id="p7-1"/>εἴδη ἡ τομὴ τοῦ γένους) τὸ μὲν γένος ἀεὶ τοῦ εἴδους κατηγορεῖται καὶ<note type="apparatus" n="2" target="#p7-1">post εἴδη add. διαιρεῖται L3 post μὲν add. γὰρ M: om. ABCLMa Boeth. ante εἴδους ras. V fere litt. L</note>
+              <lb n="3" xml:id="p7-2"/>πάντα τὰ ἐπάνω τῶν ὑποκάτω, τὸ δὲ εἶδος οὔτε τοῦ προσεχοῦς αὑτοῦ γένους<note type="apparatus" n="3" target="#p7-2">προσεχῶς a</note>
+              <lb n="4" xml:id="p7-3"/>οὔτε τῶν ἐπάνω· οὐδὲ γὰρ ἀντιστρέφει. δεῖ γὰρ ἢ τὰ ἴσα τῶν ἴσων<note type="apparatus" n="4" target="#p7-3">οὔτε BCLMa: οὐδὲ A post ἀντιστρέφει add. τὰ εἴδη L: om. ABCMa Boeth.</note><note type="apparatus" n="4-5" target="#p7-3 #p7-4">δεῖ γὰρ — κατηγορεῖσθαι ABLMa Boeth.: ἀεὶ δὲ — κατηγορεῖται C</note><note type="apparatus" n="4" target="#p7-3">ἢ om. M Boeth.</note><milestone type="alt-edition" unit="line" ed="Brandis 1836" n="30"/>
+              <lb n="5" xml:id="p7-4"/>κατηγορεῖσθαι ὡς τὸ χρεμετιστικὸν τοῦ ἵππου ἢ τὰ μείζω τῶν ἐλαττόνων<note type="apparatus" n="5" target="#p7-4">τοῦ om. AL: add. BCMa</note>
+              <lb n="6" xml:id="p7-5"/>ὡς τὸ ζῷον τοῦ ἀνθρώπου, τὰ δὲ ἐλάττω τῶν μειζόνων οὐκέτι· οὐκέτι
+              <lb n="7" xml:id="p7-6"/>γὰρ τὸ ζῷον εἴποις ἂν εἶναι ἄνθρωπον, ὥσπερ τὸν ἄνθρωπον εἴποις ἂν εἶναι<note type="apparatus" n="7" target="#p7-6">τὸ om. M εἴποι M1</note>
+              <lb n="8" xml:id="p7-7"/>ζῷον. καθ’ ὧν δ’ ἂν τὸ εἶδος κατηγορῆται, κατ’ ἐκείνων ἐξ ἀνάγκης καὶ<note type="apparatus" n="8" target="#p7-7">δ’ ἂν libri: γὰρ Amm. κατηγορῆται A3BCM2a: κατηγορεῖται A1LM1 Amm.</note><note type="apparatus" n="8-9" target="#p7-7 #p7-8">ἐξ ἀνάγκης post γένος transp. a</note><milestone type="alt-edition" unit="line" ed="Brandis 1836" n="35"/>
+              <lb n="9" xml:id="p7-8"/>τὸ τοῦ εἴδους γένος κατηγορηθήσεται καὶ τὸ τοῦ γένους γένος ἄχρι τοῦ<note type="apparatus" n="9" target="#p7-8">τὸ (ante τοῦ γένους) iter. M</note>
+              <lb n="10" xml:id="p7-9"/>γενικωτάτου· εἰ γὰρ ἀληθὲς τὸ τὸν Σωκράτην εἰπεῖν ἄνθρωπον, τὸν δὲ<note type="apparatus" n="10" target="#p7-9">εἰπεῖν post ἄνθρωπον transp. CM</note>
+              <lb n="11" xml:id="p7-10"/>ἄνθρωπον ζῷον, τὸ δὲ ζῷον οὐσίαν· ἀληθὲς καὶ τὸν Σωκράτην ζῷον εἰπεῖν
+              <lb n="12" xml:id="p7-11"/>καὶ οὐσίαν. ἀεὶ οὖν τῶν ἐπάνω κατηγορουμένων τῶν ὑποκάτω τὸ μὲν εἶδος<note type="apparatus" n="12" target="#p7-11">οὖν codd. Boeth.: γὰρ a post εἶδος add. κατὰ Ma: om. ABCL</note>
+              <lb n="13" xml:id="p7-12"/>τοῦ ἀτόμου κατηγορηθήσεται, τὸ δὲ γένος καὶ κατὰ τοῦ εἴδους καὶ κατὰ<milestone type="alt-edition" unit="line" ed="Brandis 1836" n="40"/>
+              <lb n="14" xml:id="p7-13"/>τοῦ ἀτόμου, τὸ δὲ γενικώτατον καὶ κατὰ τοῦ γένους ἢ τῶν γενῶν, εἰ πλείω<note type="apparatus" n="14" target="#p7-13">καὶ iter. B εἰ] ἢ B</note>
+              <lb n="15" xml:id="p7-14"/>εἴη τὰ μέσα καὶ ὑπάλληλα, καὶ κατὰ τοῦ εἴδους καὶ κατὰ τοῦ ἀτόμου.<note type="apparatus" n="15" target="#p7-14">post ἀτόμου add. κατηγορηθήσεται C: om. ABLMa Boeth.</note>
+              <lb n="16" xml:id="p7-15"/>λέγεται γὰρ τὸ μὲν γενικώτατον κατὰ πάντων τῶν ὑφ’ ἑαυτὸ γενῶν τε
+              <lb n="17" xml:id="p7-16"/>καὶ εἰδῶν καὶ ἀτόμων, τὸ δὲ γένος τὸ πρὸ τοῦ εἰδικωτάτου κατὰ πάντων
+              <lb n="18" xml:id="p7-17"/>τῶν εἰδικωτάτων καὶ τῶν ἀτόμων, τὸ δὲ μόνον εἶδος κατὰ πάντων τῶν<note type="apparatus" n="18" target="#p7-17">τῶν (ante ἀτόμων) om. ACa: exhib. BLM</note><milestone type="alt-edition" unit="line" ed="Brandis 1836" n="45"/>
+              <lb n="19" xml:id="p7-18"/>ἀτόμων, τὸ δὲ ἄτομον ἐφ’ ἑνὸς μόνου τῶν κατὰ μέρος. ἄτομον δὲ λέγεται<note type="apparatus" n="19" target="#p7-18">post ἀτόμων add. οἷον ἄνθρωπος C: om. ABLMa Boeth. post μέρος add. ἀτόμων C: om. ABLMa Boeth.</note>
+              <lb n="20" xml:id="p7-19"/>ὁ Σωκράτης καὶ τουτὶ τὸ λευκὸν καὶ οὑτοσὶ ὁ προσιὼν Σωφρονίσκου<note type="apparatus" n="20" target="#p7-19">ante Σωφρονίσκου add. ὁ B: om. ACLMa</note>
+              <lb n="21" xml:id="p7-20"/>υἱός, εἰ μόνος αὐτῷ εἴη Σωκράτης υἱός. ἄτομα οὖν λέγεται τὰ τοιαῦτα,<note type="apparatus" n="21" target="#p7-20">μόνος CL3Ma Boeth.: μόνῳ AB Dav. et fort. L1 οὖν codd. Boeth.: δὲ a</note>
+              <lb n="22" xml:id="p7-21"/>ὅτι ἐξ ἰδιοτήτων συνέστηκεν <milestone type="alt-edition" unit="column" ed="Brandis 1836" n="3a"/> ἕκαστον, ὧν τὸ ἄθροισμα οὐκ ἂν ἐπ’<note type="apparatus" n="22" target="#p7-21">ἐξ om. C (suppl. m.2) post ἄλλου add. τινὸς ACM: om. BLa Boeth.</note>
+              <lb n="23" xml:id="p7-22"/>ἄλλου ποτὲ τὸ αὐτὸ γένοιτο· αἱ γὰρ Σωκράτους ἰδιότητες οὐκ ἂν ἐπ’<note type="apparatus" n="23" target="#p7-22">τὸ om. B post γένοιτο add. τῶν κατὰ μέρος AC: om. BLMa Boeth.</note><note type="apparatus" n="23-24" target="#p7-22 #p7-23">ἐπ’ ἄλλου γένοιντο τῶν κατὰ μέρος (τινὸς om.) colloc. M</note>
+              <lb n="24" xml:id="p7-23"/>ἄλλου τινὸς τῶν κατὰ μέρος γένοιντο ἂν αἱ αὐταί, αἱ μέντοι τοῦ ἀνθρώπου,<note type="apparatus" n="24" target="#p7-23">ἂν αἱ αὐταὶ om. M Boeth.: exhib. ABCLa Amm. comm.</note>
+              <lb n="25" xml:id="p7-24"/>λέγω δὴ τοῦ κοινοῦ, ἰδιότητες γένοιντ’ ἂν αἱ αὐταὶ ἐπὶ πλειόνων,<note type="apparatus" n="25-26" target="#p7-24 #p7-25">αἱ αὐταὶ post πλειόνων transpos. M</note>
+              <lb n="26" xml:id="p7-25"/>μᾶλλον δὲ ἐπὶ πάντων τῶν κατὰ μέρος ἀνθρώπων, καθὸ ἄνθρωποι.<milestone type="alt-edition" unit="line" ed="Brandis 1836" n="5"/>
+              <lb n="27" xml:id="p7-26"/>περιέχεται οὖν τὸ μὲν ἄτομον ὑπὸ τοῦ εἴδους, τὸ δὲ εἶδος ὑπὸ τοῦ<note type="apparatus" n="27" target="#p7-26">ante οὖν add. μὲν B: om. ACLMa</note>
+            </p>
+            <pb n="8" facs="https://archive.org/download/p1porphyriiisago04porp/page/n67.jpg"/>
+            <p>
+              <lb n="1" xml:id="p8-0"/>γένους· ὅλον γάρ τι τὸ γένος, τὸ δὲ ἄτομον μέρος, τὸ δὲ εἶδος καὶ ὅλον<note type="apparatus" n="1" target="#p8-0">τὸ δὲ ἄτομον BCLMa Boeth.: καὶ τὸ μὲν ἄτομον A καὶ τὸ εἶδος δὲ Dav.</note>
+              <lb n="2" xml:id="p8-1"/>καὶ μέρος, ἀλλὰ μέρος μὲν ἄλλου, ὅλον δὲ οὐκ ἄλλου ἀλλ’ ἐν ἄλλοις· ἐν<note type="apparatus" n="2" target="#p8-1">ἐν (ante ἄλλοις) om. M (suppl. in mrg. m.)</note><note type="apparatus" n="2-3" target="#p8-1 #p8-2">ἐν γὰρ τοῖς ACMa: ἐν τοῖς γὰρ BL Dav.</note>
+              <lb n="3" xml:id="p8-2"/>γὰρ τοῖς μέρεσι τὸ ὅλον.
+              <lb n="4" xml:id="p8-3"/>Περὶ μὲν οὖν γένους καὶ εἴδους καὶ τί τὸ γενικώτατον καὶ τί τὸ εἰδικώτατον<milestone type="alt-edition" unit="line" ed="Brandis 1836" n="10"/>
+              <lb n="5" xml:id="p8-4"/>καὶ τίνα καὶ γένη τὰ αὐτὰ καὶ εἴδη τίνα τε τὰ ἄτομα καὶ ποσαχῶς<note type="apparatus" n="5" target="#p8-4">καὶ (ante γένη) om. CMa Boeth.: exhib. ABL τὰ αὐτὰ] τὰ τοιαῦτα a γένη καὶ εἴδη τὰ αὐτὰ colloc. M τίνα τε] καὶ τίνα C τὰ (ante ἄτομα) om. a</note>
+              <lb n="6" xml:id="p8-5"/>τὸ γένος καὶ τὸ εἶδος, εἴρηται.<note type="apparatus" n="6" target="#p8-5">ante εἴρηται add. λέγεται C Boeth.: om. ABLMa</note>
+            </p>
+          </div>
+          <div type="textpart" subtype="section" n="3">
+            <head><lb n="7" xml:id="p8-6"/>Περὶ διαφορᾶς.<note type="apparatus" n="7" target="#p8-6">tit. Περὶ διαφορᾶς om. C: exhib. ABLMa</note></head>
+            <p>
+              <lb n="8" xml:id="p8-7"/>Διαφορὰ δὲ κοινῶς τε καὶ ἰδίως καὶ ἰδιαίτατα λεγέσθω. κοινῶς μὲν<note type="apparatus" n="8" target="#p8-7">ante διαφορὰ add. Ἡ a</note>
+              <lb n="9" xml:id="p8-8"/>γὰρ διαφέρειν ἕτερον ἑτέρου λέγεται τὸ ἑτερότητι διαλλάττον ὁπωσοῦν ἢ<note type="apparatus" n="9" target="#p8-8">διαλλάττον ABCL a: διαφέρον M</note>
+              <lb n="10" xml:id="p8-9"/>πρὸς αὑτὸ ἢ πρὸς ἄλλο· διαφέρει γὰρ Σωκράτης Πλάτωνος τῇ ἑτερότητι<milestone type="alt-edition" unit="line" ed="Brandis 1836" n="15"/><note type="apparatus" n="10" target="#p8-9">αὐτὸ B</note>
+              <lb n="11" xml:id="p8-10"/>καὶ αὐτός γε ἑαυτοῦ παιδός τε ὄντος καὶ ἀνδρωθέντος καὶ ἐνεργοῦντός τι<note type="apparatus" n="11" target="#p8-10">αὐτός γε BL: αὐτὸς ACMa Boeth. καὶ ἀνδρωθέντος om. B: exhib. ACLMa Boeth. Dav. ἐνεργοῦντος ἢ καὶ παυσαμένου Dav.</note>
+              <lb n="12" xml:id="p8-11"/>ἢ παυσαμένου καὶ ἀεί γε ἐν ταῖς τοῦ πῶς ἔχειν ἑτερότησιν. ἰδίως δὲ διαφέρειν<note type="apparatus" n="12" target="#p8-11">καὶ ἀεί γε supra lit. M ἔχειν ALMa: ἔχει BC post ἑτερότησιν add. θεωρεῖται a: om. codd. Boeth.</note>
+              <lb n="13" xml:id="p8-12"/>λέγεται ἕτερον ἑτέρου, ὅταν ἀχωρίστῳ συμβεβηκότι τὸ ἕτερον τοῦ<note type="apparatus" n="13" target="#p8-12">λέγεται post ἑτέρου colloc. a ἀχωρίστῳ ACLMa: ἀχωρίστως B</note><note type="apparatus" n="13-14" target="#p8-12 #p8-13">τοῦ ἑτέρου διαφέρῃ τὸ ἕτερον colloc. C</note>
+              <lb n="14" xml:id="p8-13"/>ἑτέρου διαφέρῃ· ἀχώριστον δὲ συμβεβηκὸς οἷον γλαυκότης ἢ γρυπότης ἢ<note type="apparatus" n="14" target="#p8-13">οἷον om. ABL: exhib. CMa Boeth. γλαυκότης ἢ γρυπότης BLa: ἡ γλαυκότης καὶ ἡ γρυπότης A: γρυπότης γλαυκότης (sic colloc.) CM Boeth.</note><note type="apparatus" n="14-15" target="#p8-13 #p8-14">ἢ καὶ οὐλὴ BL: καὶ οὐλὴ A: ἢ οὐλὴ Ca: οὐλὴ M Boeth.</note>
+              <lb n="15" xml:id="p8-14"/>καὶ οὐλὴ ἐκ τραύματος ἐνσκιρωθεῖσα. ἰδιαίτατα δὲ διαφέρειν ἕτερον ἑτέρου<milestone type="alt-edition" unit="line" ed="Brandis 1836" n="20"/><note type="apparatus" n="15" target="#p8-14">ἐνσκιρωθεῖσθα ACLM: ἐνσκιρρωθεῖσα ABLa</note>
+              <lb n="16" xml:id="p8-15"/>λέγεται, ὅταν εἰδοποιῷ διαφορᾷ διαλλάττῃ, ὥσπερ ἄνθρωπος ἵππου εἰδοποιῷ<note type="apparatus" n="16" target="#p8-15">διαλλάττῃ ACa: διαλάττῃ LM: παραλλάξῃ B Dav.: distiterit Boeth. ante ἄνθρωπος add. ὁ C: om. ABLMa</note>
+              <lb n="17" xml:id="p8-16"/>διαφορᾷ διενήνοχε τῇ τοῦ λογικοῦ ποιότητι. καθόλου μὲν οὖν πᾶσα
+              <lb n="18" xml:id="p8-17"/>διαφορὰ ἑτεροῖον ποιεῖ προσγινομένη τινί· ἀλλ’ αἱ μὲν κοινῶς καὶ ἰδίως<note type="apparatus" n="18" target="#p8-17">ἑτεροῖον ποιεῖ post τινί transp. Ma προσγενομένη AM</note><note type="apparatus" n="18-19" target="#p8-17 #p8-18">αἱ—ποιοῦσιν] ea— facit Boeth., unde conicias ἡ μὲν—ποιεῖ</note><note type="apparatus" n="18" target="#p8-17">post μὲν add. οὖν C: om. ABLMa Boeth. post κοινῶς add. τε La: om. ABCLM</note>
+              <lb n="19" xml:id="p8-18"/>ἀλλοῖον ποιοῦσιν, αἱ δὲ ἰδιαίτατα ἄλλο. τῶν γὰρ διαφορῶν αἱ μὲν ἀλλοῖον<milestone type="alt-edition" unit="line" ed="Brandis 1836" n="25"/><note type="apparatus" n="19-20" target="#p8-18 #p8-19">αἱ δὲ ἰδιαίτατα—ποιοῦσιν om. a</note><note type="apparatus" n="19" target="#p8-18">αἱ δὲ BCLM Dav.: ἡ δὲ A Boeth. (fort. recte)</note><note type="apparatus" n="19-20" target="#p8-18 #p8-19">τῶν γὰρ διαφορῶν—ἄλλο om. M (suppl. in mrg. m.)</note>
+              <lb n="20" xml:id="p8-19"/>ποιοῦσιν, αἱ δὲ ἄλλο. αἱ μὲν οὖν ποιοῦσαι ἄλλο εἰδοποιοὶ κέκληνται, αἱ δὲ<note type="apparatus" n="20" target="#p8-19">αἱ μὲν οὖν ACMa: καὶ αἱ μὲν BL: αἱ μὲν Boeth. ποιοῦσαι post ἄλλο transp. M</note>
+              <lb n="21" xml:id="p8-20"/>ἀλλοῖον ἁπλῶς διαφοραί. τῷ γὰρ ζῴῳ διαφορὰ προσελθοῦσα ἡ τοῦ λογικοῦ<note type="apparatus" n="21" target="#p8-20">διαφορὰ post προσελθοῦσα transp. C: post λογικοῦ a</note>
+            </p>
+            <pb n="9" facs="https://archive.org/download/p1porphyriiisago04porp/page/n68.jpg"/>
+            <p>
+              <lb n="1" xml:id="p9-0"/>ἄλλο ἐποίησεν, ἡ δὲ τοῦ κινεῖσθαι ἀλλοῖον μόνον παρὰ τὸ ἠρεμοῦν<note type="apparatus" n="1" target="#p9-0">post ἐποίησεν add. ζῶον L: om. ABCMa Boeth. post ἐποίησεν add. καὶ εἶδος τοῦ ζῴου ἐποίησεν BCLM² Boethii lemma: om. AM¹a: neque vero Ammonium neque Davidem ac ne Boethium quidem illa legisse ex commentariis eorum apparere mihi videtur</note>
+              <lb n="2" xml:id="p9-1"/>ἐποίησεν, ὥστε ἡ μὲν ἄλλο, ἡ δὲ ἀλλοῖον μόνον ἐποίησεν. κατὰ μὲν
+              <lb n="3" xml:id="p9-2"/>οὖν τὰς ἄλλο ποιούσας διαφορὰς αἵ τε διαιρέσεις γίνονται τῶν γενῶν εἰς τὰ<note type="apparatus" n="3" target="#p9-2">διαφορὰς om. C Dav. Boeth. γίνονται post γενῶν transpos. BLa</note>
+              <lb n="4" xml:id="p9-3"/>εἴδη, οἵ τε ὅροι ἀποδίδονται ἐκ γένους ὄντες καὶ τῶν τοιούτων διαφορῶν,<note type="apparatus" n="4" target="#p9-3">ante τῶν add. ἐκ Dav.</note>
+              <lb n="5" xml:id="p9-4"/>κατὰ δὲ τὰς μόνον ἀλλοῖον ποιούσας αἱ ἑτερότητες μόνον συνίστανται καὶ<note type="apparatus" n="5" target="#p9-4">μόνον ἀλλοῖον ποιούσας BL²Ma Boeth. quod tuentur commentatores: μόνον ἀλλοιούσας L¹: ἀλλοιούσας (μόνον om.) A: ἀλλοῖον μόνον ποιούσας C αἱ om. AL: exhib. BCMa ἑτερότητες — συνίστανται] alteratio — consistit Boeth. μόνον (alterum) ABLMa: μόναι (ante ἑτερότητες transpos.) C</note>
+              <lb n="6" xml:id="p9-5"/>αἱ τοῦ πῶς ἔχοντος μεταβολαί.<note type="apparatus" n="6" target="#p9-5">αἱ om. L: exhib. ABCMa ἔχοντες M</note>
+              <lb n="7" xml:id="p9-6"/>Ἄνωθεν οὖν πάλιν ἀρχομένῳ ῥητέον τῶν διαφορῶν τὰς μὲν χωριστὰς<note type="apparatus" n="7" target="#p9-6">πάλιν om. Amm. ἀρχομένοις Amm. χωριστὰς post εἶναι transp. CM</note>
+              <lb n="8" xml:id="p9-7"/>εἶναι, τὰς δὲ ἀχωρίστους· τὸ μὲν γὰρ κινεῖσθαι καὶ τὸ ἠρεμεῖν καὶ τὸ<note type="apparatus" n="8-9" target="#p9-7 #p9-8">καὶ τὸ νοσεῖν καὶ τὸ ὑγιαίνειν colloc. a</note>
+              <lb n="9" xml:id="p9-8"/>ὑγιαίνειν καὶ τὸ νοσεῖν καὶ ὅσα τούτοις παραπλήσια χωριστά ἐστιν, τὸ δὲ<note type="apparatus" n="9" target="#p9-8">ἐστὶν] εἰσὶν B</note>
+              <lb n="10" xml:id="p9-9"/>γρυπὸν εἶναι ἢ σιμὸν ἢ λογικὸν ἢ ἄλογον ἀχώριστα. τῶν δὲ ἀχωρίστων<note type="apparatus" n="10" target="#p9-9">γρυπὸν C ἢ λογικὸν AMa Boeth.: ἢ γλαυκὸν L: ἢ γλαυκὸν ἢ λογικὸν BC</note>
+              <lb n="11" xml:id="p9-10"/>αἱ μὲν ὑπάρχουσι καθ’ αὑτάς, αἱ δὲ κατὰ συμβεβηκός· τὸ μὲν γὰρ λογικὸν<note type="apparatus" n="11" target="#p9-10">καθ’ αὑτὰς codd.: καθ’ αὑτὸ a</note>
+              <lb n="12" xml:id="p9-11"/>καθ’ αὑτὸ ὑπάρχει τῷ ἀνθρώπῳ καὶ τὸ θνητὸν καὶ τὸ ἐπιστήμης<note type="apparatus" n="12" target="#p9-11">ante ὑπάρχει add. καὶ a: om. codd. Boeth.</note>
+              <lb n="13" xml:id="p9-12"/>εἶναι δεκτικόν, τὸ δὲ γρυπὸν ἢ σιμὸν εἶναι κατὰ συμβεβηκὸς καὶ οὐ καθ’<note type="apparatus" n="13" target="#p9-12">γρυπὸν εἶναι ἢ σιμὸν colloc. Ma</note>
+              <lb n="14" xml:id="p9-13"/>αὑτό. αἱ μὲν οὖν καθ’ αὑτὰς προσοῦσαι ἐν τῷ τῆς οὐσίας λαμβάνονται<note type="apparatus" n="14" target="#p9-13">καθ’ αὑτὰς scripsi: καθ’ αὑτὸ libri</note><note type="apparatus" n="14-15" target="#p9-13 #p9-14">λόγῳ λαμβάνονται colloc. a</note>
+              <lb n="15" xml:id="p9-14"/>λόγῳ καὶ ποιοῦσιν ἄλλο, αἱ δὲ κατὰ συμβεβηκὸς οὔτε ἐν τῷ τῆς οὐσίας<note type="apparatus" n="15" target="#p9-14">post συμβεβηκὸς rasura xLV fere litter. L</note>
+              <lb n="16" xml:id="p9-15"/>λόγῳ λαμβάνονται οὔτε ποιοῦσιν ἄλλο ἀλλὰ ἀλλοῖον. καὶ αἱ μὲν καθ’<note type="apparatus" n="16" target="#p9-15">λόγῳ post λαμβάνονται transp. CM λαμβάνονται BCLa: παραλαμβάνονται AM: λέγονται Dav. Boeth. (fort. recte)</note><note type="apparatus" n="16-17" target="#p9-15 #p9-16">καθ’ αὑτὰς Dav.: καθ’ αὑτὸ libri</note>
+              <lb n="17" xml:id="p9-16"/>αὑτὰς οὐκ ἐπιδέχονται τὸ μᾶλλον καὶ τὸ ἧττον, αἱ δὲ κατὰ συμβεβηκός,
+              <lb n="18" xml:id="p9-17"/>κἂν ἀχώριστοι ὦσιν, ἐπίτασιν λαμβάνουσι καὶ ἄνεσιν· οὔτε γὰρ τὸ γένος<note type="apparatus" n="18" target="#p9-17">λαμβάνουσι post ἄνεσιν transp. Ma</note>
+              <lb n="19" xml:id="p9-18"/>μᾶλλον καὶ ἧττον κατηγορεῖται οὗ ἂν ᾖ γένος οὔτε αἱ τοῦ γένους διαφοραί,<note type="apparatus" n="19" target="#p9-18">καὶ ἧττον ABCLa Dav.: ἢ ἧττον M Boeth. ἢ ACL Dav.: εἴη BMa</note>
+              <lb n="20" xml:id="p9-19"/>καθ’ ἃς διαιρεῖται· αὗται μὲν γάρ εἰσιν αἱ τὸν ἑκάστου λόγον συμπληροῦσαι,<note type="apparatus" n="20" target="#p9-19">ante διαιρεῖται add. καὶ M: om. ABCLa Boeth. post διαιρεῖται add. τὸ γένος εἰς τὰ εἴδη C: om. ABLMa Boeth.</note>
+              <lb n="21" xml:id="p9-20"/>τὸ δὲ εἶναι ἑκάστῳ ἓν καὶ τὸ αὐτὸ οὔτε ἄνεσιν οὔτε ἐπίτασιν ἐπιδεχόμενόν<note type="apparatus" n="21" target="#p9-20">οὔτε ἐπίτασιν οὔτε ἄνεσιν colloc. M</note>
+              <lb n="22" xml:id="p9-21"/>ἐστιν, <milestone type="alt-edition" unit="column" ed="Brandis 1836" n="3b"/> τὸ δὲ γρυπὸν ἢ σιμὸν εἶναι ἢ κεχρῶσθαί πως καὶ ἐπιτείνεται καὶ<note type="apparatus" n="22" target="#p9-21">εἶναι post γρυπὸν transp. M</note>
+              <lb n="23" xml:id="p9-22"/>ἀνίεται.
+              <lb n="24" xml:id="p9-23"/>Τριῶν οὖν εἰδῶν τῆς διαφορᾶς θεωρουμένων καὶ τῶν μὲν οὐσῶν χωριστῶν
+              <lb n="25" xml:id="p9-24"/>τῶν δὲ ἀχωρίστων καὶ πάλιν τῶν ἀχωρίστων τῶν μὲν οὐσῶν καθ’
+            </p>
+            <pb n="10" facs="https://archive.org/download/p1porphyriiisago04porp/page/n69.jpg"/>
+            <p>
+              <lb n="1" xml:id="p10-0"/>αὑτὰς τῶν δὲ κατὰ συμβεβηκός, πάλιν τῶν καθ’ αὑτὰς διαφορῶν αἱ μέν
+              <lb n="2" xml:id="p10-1"/>εἰσι καθ’ ἃς διαιρούμεθα τὰ γένη εἰς τὰ εἴδη, αἱ δὲ καθ’ ἃς τὰ διαιρεθέντα<milestone type="alt-edition" unit="line" ed="Brandis 1836" n="5"/><note type="apparatus" n="2" target="#p10-1">διαιρούμεθα ABCL: διαιροῦμεν Ma</note>
+              <lb n="3" xml:id="p10-2"/>εἰδοποιεῖται. οἷον τῶν καθ’ αὑτὰς διαφορῶν πασῶν τῶν τοιούτων<note type="apparatus" n="3" target="#p10-2">εἰδιοποιεῖται B καθ’ αὑτὰς codd.: καθ’ αὐτὸ a</note>
+              <lb n="4" xml:id="p10-3"/>τοῦ ζῴου οὐσῶν ἐμψύχου καὶ αἰσθητικοῦ, λογικοῦ καὶ ἀλόγου, θνητοῦ καὶ<note type="apparatus" n="4" target="#p10-3">ἐμψύχου καὶ αἰσθητιτοῦ ABCLM: ἐμψύχου τε καὶ αἰσθητιτοῦ a: animati et inanimati, sensibilis et iinsensibilis Boeth.</note><note type="apparatus" n="4-5" target="#p10-3 #p10-4">λογικοῦ καὶ ἀλόγου, θνητοῦ καὶ ἀθανάτου AB Boeth.: λογικοῦ τε καὶ ἀλόγου, θνητοῦ τε καὶ ἀθανάτου a: καὶ λογικοῦ καὶ ἀλόγου καὶ θνητοῦ καὶ ἀθανάτου C: καὶ θνητοῦ καὶ ἀθανάτου (λογ. καὶ ἀλόγ. om.) L: καὶ θνητοῦ καὶ ἀθανάτου καὶ λογικοῦ καὶ ἀλόγου M</note>
+              <lb n="5" xml:id="p10-4"/>ἀθανάτου, ἡ μὲν τοῦ ἐμψύχου καὶ αἰσθητικοῦ διαφορὰ συστατική ἐστι τῆς<note type="apparatus" n="5" target="#p10-4">αἱ — διαφοραὶ Dav. post μὲν add. οὖν B: om. ACLMa Dav. Boeth. συστατική ἐστι ABCL a Boeth.: ὑποστατική ἐστι M: ὑποστατικαί εἰσιν Dav.</note>
+              <lb n="6" xml:id="p10-5"/>τοῦ ζῴου οὐσίας, ἔστι γὰρ τὸ ζῷον οὐσία ἔμψυχος αἰσθητική, ἡ δὲ τοῦ<milestone type="alt-edition" unit="line" ed="Brandis 1836" n="10"/>
+              <lb n="7" xml:id="p10-6"/>θνητοῦ καὶ ἀθανάτου διαφορὰ καὶ ἡ τοῦ λογικοῦ τε καὶ ἀλόγου διαιρετικαί<note type="apparatus" n="7" target="#p10-6">τε om. B fort. recte: exhib. ACLMa</note>
+              <lb n="8" xml:id="p10-7"/>εἰσι τοῦ ζῴου διαφοραί· δι’ αὐτῶν γὰρ τὰ γένη εἰς τὰ εἴδη διαιρούμεθα.
+              <lb n="9" xml:id="p10-8"/>ἀλλ’ αὗταί γε αἱ διαιρετικαὶ διαφοραὶ τῶν γενῶν συμπληρωτικαὶ γίνονται<note type="apparatus" n="9" target="#p10-8">γε om. a</note>
+              <lb n="10" xml:id="p10-9"/>καὶ συστατικαὶ τῶν εἰδῶν· τέμνεται γὰρ τὸ ζῷον τῇ τε τοῦ λογικοῦ καὶ<note type="apparatus" n="10" target="#p10-9">ante τέμνεται VII litter. eras. C post τέμνεται add. μὲν M: om. ABCLMa Boeth. τε (ante τοῦ λογικοῦ) om. A: exhib. BCLMa</note>
+              <lb n="11" xml:id="p10-10"/>τῇ τοῦ ἀλόγου διαφορᾷ καὶ πάλιν τῇ τε τοῦ θνητοῦ καὶ τοῦ ἀθανάτου<milestone type="alt-edition" unit="line" ed="Brandis 1836" n="15"/><note type="apparatus" n="11" target="#p10-10">τῇ (ante τοῦ ἀλόγου) om. Ba: exhib. ACLM τῇ τε τοῦ θνητοῦ ACLMa: τῇ τοῦ θνητοῦ B τοῦ ἀθαν. CMa: ἀθαν. ABL: an τῇ τοῦ ἀθαν.?</note>
+              <lb n="12" xml:id="p10-11"/>διαφορᾷ. ἀλλ’ αἱ μὲν τοῦ θνητοῦ καὶ τοῦ λογικοῦ διαφοραὶ συστατικαὶ γίνονται<note type="apparatus" n="12" target="#p10-11">τοῦ λογικοῦ καὶ τοῦ θνητοῦ colloc. Ma Boeth. τοῦ (ante λογικοῦ) om. C: exhib. ABLMa</note>
+              <lb n="13" xml:id="p10-12"/>τοῦ ἀνθρώπου, αἱ δὲ τοῦ λογικοῦ καὶ τοῦ ἀθανάτου τοῦ θεοῦ, αἱ<note type="apparatus" n="13" target="#p10-12">τοῦ (ante ἀθανάτου) om. a θεοῦ AB Boeth. et (ut videtur) L¹M¹: ἀγγέλου Ca et in lit. L³M²</note>
+              <lb n="14" xml:id="p10-13"/>δὲ τοῦ ἀλόγου καὶ τοῦ θνητοῦ τῶν ἀλόγων ζῴων. οὕτω δὲ καὶ τῆς ἀνωτάτω<note type="apparatus" n="14" target="#p10-13">τοῦ ἀλόγου καὶ τοῦ θνητοῦ ABCL Boeth.: τοῦ θνητοῦ καὶ ἀλόγου (alt. τοῦ om.) colloc. Ma καὶ (ante τῆς) om. M (suppl. m.²)</note>
+              <lb n="15" xml:id="p10-14"/>οὐσίας διαιρετικῶν οὐσῶν τῆς τε ἐμψύχου καὶ ἀψύχου διαφορᾶς καὶ<note type="apparatus" n="15" target="#p10-14">διαιρετικῶν οὐσιῶν AL¹: διαιρετικῆς οὔσης BCL³M Boeth.</note>
+              <lb n="16" xml:id="p10-15"/>τῆς αἰσθητικῆς καὶ ἀναισθήτου ἡ μὲν ἔμψυχος καὶ αἰσθητικὴ συλληφθεῖσαι<milestone type="alt-edition" unit="line" ed="Brandis 1836" n="20"/><note type="apparatus" n="16" target="#p10-15">αἰσθητικῆς — ἔμψυχος mutilata suppl. m.² M post αἰσθητικῆς add. τε AM²a: om. BCL ante ἀναισθήτου add. τῆς C: om. ABLMa μὲν om. CL: exhib. ABMa post ἔμψυχος add. τε A: om. BCLMa συλληφθεῖσαι CM Boeth.: συλληφθεῖσα ABL: προσληφθεῖσαι a</note>
+              <lb n="17" xml:id="p10-16"/>τῇ οὐσίᾳ ἀπετέλεσαν τὸ ζῷον, ἡ δὲ ἔμψυχος καὶ ἀναίσθητος ἀπετέλεσαν τὸ<note type="apparatus" n="17" target="#p10-16">ἀπετέλεσαν BCLMa Boeth.: ἀπετέλεσεν A</note><note type="apparatus" n="17-18" target="#p10-16 #p10-17">ἡ δὲ ἔμψυχος— τὸ φυτόν om. Boeth.</note><note type="apparatus" n="17" target="#p10-16">ἀπετέλεσαν BCMa: ἀπετέλεσεν L et iterat A</note>
+              <lb n="18" xml:id="p10-17"/>φυτόν. ἐπεὶ οὖν αἱ αὐταὶ πὼς μὲν ληφθεῖσαι γίνονται συστατικαί, πὼς δὲ<note type="apparatus" n="18" target="#p10-17">μὲν om. C ante alterum πὼς add. καὶ B: om. ACLMa Boeth.</note>
+              <lb n="19" xml:id="p10-18"/>διαιρετικαί, εἰδοποιοὶ πᾶσαι κέκληνται. καὶ τούτων γε μάλιστα χρεία εἴς<note type="apparatus" n="19" target="#p10-18">καὶ om. a</note><note type="apparatus" n="19-20" target="#p10-18 #p10-19">γε et τε om. Amm.</note>
+              <lb n="20" xml:id="p10-19"/>τε τὰς διαιρέσεις τῶν γενῶν καὶ εἰς τοὺς ὁρισμούς, ἀλλ’ οὐ τῶν κατὰ συμβεβηκὸς<note type="apparatus" n="20" target="#p10-19">εἰς om. CM Boeth.: exhib. ABLa</note>
+              <lb n="21" xml:id="p10-20"/>ἀχωρίστων οὐδ’ ἔτι μᾶλλον τῶν χωριστῶν.<milestone type="alt-edition" unit="line" ed="Brandis 1836" n="25"/>
+              <lb n="22" xml:id="p10-21"/>Ἃς δὴ καὶ ὁριζόμενοί φασιν· διαφορά ἐστιν ᾗ περισσεύει τὸ εἶδος τοῦ<note type="apparatus" n="22" target="#p10-21">δὴ] δὲ a 22. p. 11,1 τὸ γένος τοῦ εἴδους Dav. in lemmat., sed in comment. recte τὸ εἶδος τοῦ γένους legitur</note>
+            </p>
+            <pb n="11" facs="https://archive.org/download/p1porphyriiisago04porp/page/n70.jpg"/>
+            <p>
+              <lb n="1" xml:id="p11-0"/>γένους. ὁ γὰρ ἄνθρωπος τοῦ ζῴου πλέον ἔχει τὸ λογικὸν καὶ τὸ θνητόν·<note type="apparatus" n="1" target="#p11-0">τοῦ ζῴου post ἔχει transpos. Ma ante θνητὸν ras. V litt. B</note>
+              <lb n="2" xml:id="p11-1"/>τὸ γὰρ ζῷον οὔτε οὐδὲν τούτων ἐστίν, ἐπεὶ πόθεν ἂν τὰ εἴδη σχοῖεν διαφοράς;<note type="apparatus" n="2" target="#p11-1">post ἐστίν ras. V litt. C σχοῖεν ABCM: σχοίη La</note><note type="apparatus" n="2-3" target="#p11-1 #p11-2">ante διαφορὰς add. τὰς Aa: om. BCLM</note>
+              <lb n="3" xml:id="p11-2"/>οὔτε δὲ πάσας τὰς ἀντικειμένας ἔχει, ἐπεὶ τὸ αὐτὸ ἅμα ἕξει τὰ<note type="apparatus" n="3" target="#p11-2">post ἔχει add. οὐκ ἐνεργείᾳ ἀλλὰ δυνάμει (punctis circumscript.) C</note>
+              <lb n="4" xml:id="p11-3"/>ἀντικείμενα, ἀλλ’ ὡς ἀξιοῦσι, δυνάμει μὲν πάσας ἔχει τὰς τῶν ὑφ’ αὑτὸ<note type="apparatus" n="4" target="#p11-3">post ἀντικείμενα add. εἴδη a: om. codd. Boeth. τῶν om. B: in litura M ὑφ’ αὑτὸ ABa: ὑπ’ αὐτὸ CLM</note>
+              <lb n="5" xml:id="p11-4"/>διαφοράς, ἐνεργείᾳ δὲ οὐδεμίαν. καὶ οὕτως οὔτε ἐξ οὐκ ὄντων τι γίνεται<note type="apparatus" n="5" target="#p11-4">οὐδὲ μίαν ALa οὔτε BCMa: in ras. A²: οὐδὲ L</note>
+              <lb n="6" xml:id="p11-5"/>οὔτε τὰ ἀντικείμενα ἅμα περὶ τὸ αὐτὸ ἔσται.<note type="apparatus" n="6" target="#p11-5">post ἀντικείμενα add. εἴδη BCMa: om. AL Boeth. ἅμα om. a: add. codd. Boeth.</note>
+              <lb n="7" xml:id="p11-6"/>Ὁρίζονται δὲ αὐτὴν καὶ οὕτως· διαφορά ἐστι τὸ κατὰ πλειόνων καὶ<note type="apparatus" n="7" target="#p11-6">δὲ αὐτὴν om. Amm.</note>
+              <lb n="8" xml:id="p11-7"/>διαφερόντων τῷ εἴδει ἐν τῷ ποῖόν τί ἐστι κατηγορούμενον· τὸ γὰρ λογικὸν<note type="apparatus" n="8" target="#p11-7">ὁποῖόν C</note>
+              <lb n="9" xml:id="p11-8"/>καὶ τὸ θνητὸν τοῦ ἀνθρώπου κατηγορούμενον ἐν τῷ ποῖόν τί ἐστιν ὁ ἄνθρωπος<note type="apparatus" n="9" target="#p11-8">κατηγορούμενα (sed α in ras. 2 litter. m.³) L ὁποῖον B</note>
+              <lb n="10" xml:id="p11-9"/>λέγεται ἀλλ’ οὐκ ἐν τῷ τί ἐστιν. τί μὲν γάρ ἐστιν ὁ ἄνθρωπος<note type="apparatus" n="10" target="#p11-9">ὁ om. C: exhib. ABLMa</note>
+              <lb n="11" xml:id="p11-10"/>ἐρωτωμένων ἡμῶν οἰκεῖον εἰπεῖν ζῷον, ποῖον δὲ ζῷον πυνθανομένων λογικὸν<note type="apparatus" n="11" target="#p11-10">ἐρωτωμένων ACMa Boeth.: ἐπερωτωμένῳ B: ἐρωτώμενῳ L (sed ante ἐρωτ. ras. II litt., unde ἐπερωτωμένῳ conicere licet) ἡμῶν om. A¹BL: exhib. A²CMa Boeth. εἰπεῖν in mrg. A¹ πυνθανομένων ACMa: πυνθανομένῳ BL: inquisiiti Boeth. ante λογικὸν add. φαμὲν ὅτι M: ὅτι CL³a Boeth.: om. ABL¹</note>
+              <lb n="12" xml:id="p11-11"/>καὶ θνητὸν οἰκείως ἀποδώσομεν. τῶν γὰρ πραγμάτων ἐξ ὕλης καὶ εἴδους<note type="apparatus" n="12" target="#p11-11">ἀποδώσωμεν L¹</note>
+              <lb n="13" xml:id="p11-12"/>συνεστώτων ἢ ἀνάλογόν γε ὕλῃ καὶ εἴδει τὴν σύστασιν ἐχόντων, ὥσπερ ὁ<note type="apparatus" n="13" target="#p11-12">ἀνάλογον ACLMa Dav. Boeth.: ἀναγωγὸν B γε om. BL: exhib. ACMa</note>
+              <lb n="14" xml:id="p11-13"/>ἀνδριὰς ἐξ ὕλης μὲν τοῦ χαλκοῦ, εἴδους δὲ τοῦ σχήματος, οὕτως καὶ ὁ ἄνθρωπος
+              <lb n="15" xml:id="p11-14"/>ὁ κοινός τε καὶ εἰδικὸς ἐξ ὕλης μὲν ἀναλόγου συνέστηκεν τοῦ γένους,<note type="apparatus" n="15" target="#p11-14">ἰδικὸς BC ἀναλόγου] ἀλόγου L¹</note>
+              <lb n="16" xml:id="p11-15"/>ἐκ μορφῆς δὲ τῆς διαφορᾶς, τὸ δὲ ὅλον τοῦτο, ζῷον λογικὸν θνητόν,<note type="apparatus" n="16" target="#p11-15">θνητὸν] θητὸν B: om. L¹</note>
+              <lb n="17" xml:id="p11-16"/>ὁ ἄνθρωπος, ὡς ἐκεῖ ὁ ἀνδριάς.<note type="apparatus" n="17" target="#p11-16">ἐκεῖ ALMa Boeth.: ἔχει BC Dav. comment.</note>
+              <lb n="18" xml:id="p11-17"/>Ὑπογράφουσι δὲ τὰς τοιαύτας διαφορὰς καὶ οὕτως· διαφορά ἐστιν τὸ<note type="apparatus" n="18" target="#p11-17">post δὲ add. καὶ B τὰς τοιαύτας διαφορὰς om. a: exhib. ABCLM Dav. Boeth.</note>
+              <lb n="19" xml:id="p11-18"/>χωρίζειν πεφυκὸς τὰ ὑπὸ τὸ αὐτὸ γένος· τὸ λογικὸν γὰρ καὶ τὸ ἄλογον<note type="apparatus" n="19" target="#p11-18">λογικὸν post γὰρ transpos. M post ἄλογον add. τοῦτ’ ἔστι B: om. ACLMa Boeth.</note>
+              <lb n="20" xml:id="p11-19"/>τὸν ἄνθρωπον καὶ τὸν ἵππον ὄντα ὑπὸ τὸ αὐτὸ γένος τὸ ζῷον χωρίζει.<note type="apparatus" n="20" target="#p11-19">ὄντα post αὐτὸ transpos. B ἕκαστα ABC El. comment. Boeth.: ἕκαστον LMa</note>
+              <lb n="21" xml:id="p11-20"/>ἀποδιδόασι δὲ καὶ οὕτως· διαφορὰ ἐστιν ὅτῳ διαφέρει ἕκαστα. ἄνθρωπος<note type="apparatus" n="21-22" target="#p11-20 #p11-21">ἄνθρωπος γὰρ καὶ ἵππος om. Boeth. (?)</note><note type="apparatus" n="21" target="#p11-20">ἄνθρωπος γὰρ ABL¹a: ὁ γὰρ ἄνθρωπος CM: ὁ ἄνθρωπος γὰρ L³</note>
+              <lb n="22" xml:id="p11-21"/>γὰρ καὶ ἵππος κατὰ μὲν τὸ γένος οὐ διενήνοχεν· θνητὰ γὰρ ζῷα καὶ<note type="apparatus" n="22" target="#p11-21">ὁ ἵππος CML³a: ἵππος ABL¹ μὲν ACa et in ras. L³: γοῦν B: om. M τὸ om. M οὐ] οὐδὲν M θνητὰ γὰρ ζῷα ABCLM Boeth.: ζῷα γὰρ a</note>
+              <lb n="23" xml:id="p11-22"/>ἡμεῖς καὶ τὰ ἄλογα, <milestone type="alt-edition" unit="column" ed="Brandis 1836" n="4a"/> ἀλλὰ τὸ λογικὸν προστεθὲν διέστησεν ἡμᾶς ἀπ’<note type="apparatus" n="23" target="#p11-22">τὰ ἄλογα ABCM Boeth.: τὰ ἄλλα L: οἱ ἵπποι a</note>
+              <lb n="24" xml:id="p11-23"/>ἐκείνων· καὶ λογικά ἐσμεν καὶ ἡμεῖς καὶ οἱ θεοί, ἀλλὰ τὸ θνητὸν προστεθὲν<note type="apparatus" n="24" target="#p11-23">λογικά AL: λογικοί BC¹Ma Boeth. θεοί A²M¹ Boeth.: ἄγγελοι BCLM²a</note>
+            </p>
+            <pb n="12" facs="https://archive.org/download/p1porphyriiisago04porp/page/n71.jpg"/>
+            <p>
+              <lb n="1" xml:id="p12-0"/>διέστησεν ἡμᾶς ἀπ’ ἐκείνων. προσεξεργαζόμενοι δὲ τὰ περὶ τῆς διαφορᾶς<note type="apparatus" n="1" target="#p12-0">τὰ] τὸ B</note>
+              <lb n="2" xml:id="p12-1"/>μὴ τὸ τυχόν φασι τῶν χωριζόντων τὰ ὑπὸ τὸ αὐτὸ γένος εἶναι τὴν
+              <lb n="3" xml:id="p12-2"/>διαφοράν, ἀλλ’ ὅπερ εἰς τὸ εἶναι συμβάλλεται καὶ ὃ τοῦ τί ἦν εἶναι<milestone type="alt-edition" unit="line" ed="Brandis 1836" n="5"/><note type="apparatus" n="3-4" target="#p12-2 #p12-3">ὃ τοῦ τί ἦν εἶναι τοῦ πράγματος Boeth., comprob. Amm. et Dav. comm. ὃ τοῦ] τοῦ B: τὸ post ras. I litt. LM: τὸ ante ras. I litt. A: τὸ C: εἰς τὸ a post εἶναι add. καὶ ὃ ABCLa supra scr. M²: om. M¹ Boeth. post διαφορὰ add. ἐστίν a: om. codd.</note>
+              <lb n="4" xml:id="p12-3"/>τοῦ πράγματός ἐστι μέρος. οὐ γὰρ τὸ πεφυκέναι πλεῖν διαφορὰ ἀνθρώπου,
+              <lb n="5" xml:id="p12-4"/>εἰ καὶ ἴδιον ἀνθρώπου· εἴποιμεν γὰρ ἂν τῶν ζῴων τὰ μὲν πλεῖν<note type="apparatus" n="5" target="#p12-4">ἂν om. A</note>
+              <lb n="6" xml:id="p12-5"/>πεφυκέναι τὰ δὲ μὴ χωρίζοντες ἀπὸ τῶν ἄλλων, ἀλλὰ τὸ πεφυκέναι<note type="apparatus" n="6" target="#p12-5">post χωρίζοντες add. τὸν ἄνθρωπον BCLa: om. AM Boeth.</note>
+              <lb n="7" xml:id="p12-6"/>πλεῖν οὐκ ἦν συμπληρωτικὸν τῆς οὐσίας οὐδὲ μέρος αὐτῆς, ἀλλ’ ἐπιτηδειότης<milestone type="alt-edition" unit="line" ed="Brandis 1836" n="10"/>
+              <lb n="8" xml:id="p12-7"/>μόνον αὐτῆς διὰ τὸ μὴ εἶναι οἷαι αἱ ἰδίως εἰδοποιοὶ λεγόμεναι διαφοραί.<note type="apparatus" n="8" target="#p12-7">post εἶναι add. διαφορὰν L³a: om. ABCL¹M Boeth. οἷαι] αι in lit. M²</note>
+              <lb n="9" xml:id="p12-8"/>εἶεν ἂν οὖν εἰδοποιοὶ διαφοραί, ὅσαι ἕτερον εἶδος ποιοῦσιν, καὶ ὅσαι<note type="apparatus" n="9" target="#p12-8">ἂν om. C ἂν οὖν BLMa: οὖν ἂν A</note>
+              <lb n="10" xml:id="p12-9"/>ἐν τῷ τί ἦν εἶναι παραλαμβάνονται.
+              <lb n="11" xml:id="p12-10"/>Καὶ περὶ μὲν διαφορᾶς ἀρκεῖ τοσαῦτα.
+            </p>
+          </div>
+          <div type="textpart" subtype="section" n="4">
+            <head><lb n="12" xml:id="p12-11"/>Περὶ ἰδίου.<note type="apparatus" n="12" target="#p12-11">tit. exhib. libri omnes</note></head>
+            <p>
+              <lb n="13" xml:id="p12-12"/>Τὸ δὲ ἴδιον διαιροῦσι τετραχῶς· καὶ γὰρ ὃ μόνῳ τινὶ εἴδει συμβέβηκεν,<milestone type="alt-edition" unit="line" ed="Brandis 1836" n="15"/>
+              <lb n="14" xml:id="p12-13"/>εἰ καὶ μὴ παντί, ὡς ἀνθρώπῳ τὸ ἰατρεύειν ἢ τὸ γεωμετρεῖν· καὶ ὃ παντὶ<note type="apparatus" n="14" target="#p12-13">τὸ (ante γεωμετρεῖν) om. M</note>
+              <lb n="15" xml:id="p12-14"/>συμβέβηκεν τῷ εἴδει, εἰ καὶ μὴ μόνῳ, ὡς τῷ ἀνθρώπῳ τὸ εἶναι δίποδι·
+              <lb n="16" xml:id="p12-15"/>καὶ ὃ μόνῳ καὶ παντὶ καὶ ποτέ, ὡς ἀνθρώπῳ παντὶ τὸ ἐν γήρᾳ πολιοῦσθαι.<note type="apparatus" n="16" target="#p12-15">καὶ ὃ] et quod Boeth.: καὶ τὸ ABCa: καὶ ὃ τὸ L: καὶ τῷ M παντὶ om. Boeth. (?) ante τὸ ἐν γήρᾳ add. καὶ C: om. ABLMa Boeth.</note>
+              <lb n="17" xml:id="p12-16"/>τέταρτον δέ, ἐφ’ οὗ συνδεδράμηκεν τὸ μόνῳ καὶ παντὶ καὶ ἀεί, ὡς τῷ<note type="apparatus" n="17" target="#p12-16">ante τὸ μόνῳ add. καὶ BCa: om. ALM Boeth. τῷ μόνῳ BL¹</note>
+              <lb n="18" xml:id="p12-17"/>ἀνθρώπῳ τὸ γελαστικόν· κἂν γὰρ μὴ γελᾷ ἀεί, ἀλλὰ γελαστικὸν λέγεται<milestone type="alt-edition" unit="line" ed="Brandis 1836" n="20"/><note type="apparatus" n="18" target="#p12-17">ἀλλὰ om. C: exhib. ABLMa Boeth. post ἀλλὰ add. δυνάμει A: om. BCLMa Boeth. γελαστικὸν AMa Boeth.: γελαστικὸς BCL ἀεὶ ABCla: ἤδη in lit. M² Boeth. (fort. recte) ἀεὶ post γελᾶν transpos a</note>
+              <lb n="19" xml:id="p12-18"/>οὐ τῷ ἀεὶ γελᾶν ἀλλὰ τῷ πεφυκέναι· τοῦτο δὲ ἀεὶ αὐτῷ σύμφυτον ὑπάρχει,<note type="apparatus" n="19" target="#p12-18">ante πεφυκέναι add. ἀεί a: om. codd. Boeth. αὐτῷ ἀεὶ colloc. C</note>
+              <lb n="20" xml:id="p12-19"/>ὡς καὶ τῷ ἵππῳ τὸ χρεμετιστικόν. ταῦτα δὲ καὶ κυρίως ἴδιά φασιν,<note type="apparatus" n="20" target="#p12-19">ὡς om. A: exhib. BCLMa Boeth. καὶ (ante κυρίως) om. A Boeth.: exhib. BCLMa</note>
+              <lb n="21" xml:id="p12-20"/>ὅτι καὶ ἀντιστρέφει· εἰ γὰρ ἵππος, χρεμετιστικόν, καὶ εἰ χρεμετιστικόν,<note type="apparatus" n="21" target="#p12-20">post εἰ utrobique add. τι a: om. codd.: quidquid Boeth.</note>
+              <lb n="22" xml:id="p12-21"/>ἵππος.
+            </p>
+          </div>
+          <div type="textpart" subtype="section" n="5">
+            <head><lb n="23" xml:id="p12-22"/>Περὶ συμβεβηκότος.<note type="apparatus" n="23" target="#p12-22">tit. Περὶ συμβεβηκότος ACMa mrg. L: Περὶ τοῦ συμβ. B</note></head>
+            <p>
+              <lb n="24" xml:id="p12-23"/>Συμβεβηκὸς δέ ἐστιν ὃ γίνεται καὶ ἀπογίνεται χωρὶς τῆς τοῦ ὑποκειμένου<milestone type="alt-edition" unit="line" ed="Brandis 1836" n="25"/><note type="apparatus" n="24" target="#p12-23">δὲ om. B Dav.: exhib. ACLMa Boeth.</note>
+              <lb n="25" xml:id="p12-24"/>φθορᾶς. διαιρεῖται δὲ εἰς δύο· τὸ μὲν γὰρ αὐτοῦ χωριστόν ἐστιν, τὸ
+              <lb n="26" xml:id="p12-25"/>δὲ ἀχώριστον. τὸ μὲν οὖν καθεύδειν χωριστὸν συμβεβηκός, τὸ δὲ μέλαν<note type="apparatus" n="26" target="#p12-25">μὲν οὖν] nam Boeth. post χωριστὸν add. ἐστι a: om. codd.</note>
+            </p>
+            <pb n="13" facs="https://archive.org/download/p1porphyriiisago04porp/page/n72.jpg"/>
+            <p>
+              <lb n="1" xml:id="p13-0"/>εἶναι ἀχωρίστως τῷ κόρακι καὶ τῷ Αἰθίοπι συμβέβηκεν, δύναται δὲ ἐπινοηθῆναι<note type="apparatus" n="1" target="#p13-0">τῷ (utrobique) om. C: exhib. ABLMa</note><note type="apparatus" n="1-2" target="#p13-0 #p13-1">ἐπινοηθεῖναι B</note>
+              <lb n="2" xml:id="p13-1"/>καὶ κόραξ λευκὸς καὶ Αἰθίοψ ἀποβαλὼν τὴν χροιὰν χωρὶς φθορᾶς<note type="apparatus" n="2" target="#p13-1">καὶ prius om. Dav. χροιὰν ABL"Ma Dav.: χρόαν CL! φθορᾶς τοῦ ὑποκειμένου ABLM: τῆς τοῦ ὑποκειμένου φθορᾶς C Dav.: τῆς φθορᾶς τοῦ ὑποκειμένου a</note>
+              <lb n="3" xml:id="p13-2"/>τοῦ ὑποκειμένου. ὁρίζονται δὲ καὶ οὕτως· συμβεβηκός ἐστιν ὃ ἐνδέχεται<milestone type="alt-edition" unit="line" ed="Brandis 1836" n="30"/><note type="apparatus" n="3" target="#p13-2">post δὲ add. αὐτὸ Aa: om. BCLM (definitur Boeth.)</note>
+              <lb n="4" xml:id="p13-3"/>τῷ αὐτῷ ὑπάρχειν ἢ μὴ ὑπάρχειν, ἢ ὃ οὔτε γένος ἐστὶν οὔτε διαφορὰ<note type="apparatus" n="4" target="#p13-3">τῷ αὐτῷ suppl. in mrg. L! ἢ (ante μὴ) ABLa Dav.: καὶ CM Boeth.</note>
+              <lb n="5" xml:id="p13-4"/>οὔτε εἶδος οὔτε ἴδιον, ἀεὶ δέ ἐστιν ἐν ὑποκειμένῳ ὑφιστάμενον.
+              <lb n="6" xml:id="p13-5"/>Ἀφορισθέντων δὲ πάντων τῶν προτεθέντων, λέγω δὴ γένους, εἴδους,<note type="apparatus" n="6" target="#p13-5">ante Ἀφορισθέντων superscr. titulum Περὶ κοινῶν καὶ διαφόρων τῶν πέντε φωνῶν B: om. ACLMa Boeth. δὲ] igitur Boeth. unde corrigas δὴ</note>
+              <lb n="7" xml:id="p13-6"/>διαφορᾶς, ἰδίου, συμβεβηκότος, ῥητέον τίνα τε κοινὰ πρόσεστιν αὐτοῖς καὶ<milestone type="alt-edition" unit="line" ed="Brandis 1836" n="35"/>
+              <lb n="8" xml:id="p13-7"/>τίνα ἴδια.
+            </p>
+          </div>
+          <div type="textpart" subtype="section" n="6">
+            <head><lb n="9" xml:id="p13-8"/>Περὶ τῆς κοινωνίας τῶν πέντε φωνῶν.<note type="apparatus" n="9" target="#p13-8">titulum om. B: Περὶ τῆς κοινωνίας τῶν πέντε φωνῶν AL: Περὶ τῆς κοινωνίας τῶν π. φ. περὶ τῶν προσόντων κοινῶν καὶ ἰδίων C: Περὶ τῶν κοινῶν καὶ ἰδίων τῶν π. φ. M: Περὶ κοινωνιῶν καὶ διαφορῶν τῶν π. φ. a: De communibus generis, speciei, differentiae, proprii et accidentis Boeth.</note></head>
+            <p>
+              <lb n="10" xml:id="p13-9"/>Κοινὸν μὲν δὴ πάντων τὸ κατὰ πλειόνων κατηγορεῖσθαι. ἀλλὰ τὸ μὲν<note type="apparatus" n="10" target="#p13-9">δὴ codd.: οὖν a: om. Boeth. ἁπάντων a post κατηγορεῖσθαι add. ὡς εἴρηται a om. codd. Boeth.</note>
+              <lb n="11" xml:id="p13-10"/>γένος τῶν εἰδῶν τε καὶ τῶν ἀτόμων, καὶ ἡ διαφορὰ ὡσαύτως, τὸ δὲ εἶδος<note type="apparatus" n="11" target="#p13-10">ante εἰδῶν add. ὑπ’ αὐτὸ Aa: om. BCLM Boeth. τε (post εἰδῶν) et τῶν (ante ἀτόμων) om. a</note>
+              <lb n="12" xml:id="p13-11"/>τῶν ὑπ’ αὐτὸ ἀτόμων, τὸ δὲ ἴδιον τοῦ τε εἴδους, οὗ ἐστιν ἴδιον, καὶ τῶν
+              <lb n="13" xml:id="p13-12"/>ὑπὸ τὸ εἶδος ἀτόμων, τὸ δὲ συμβεβηκὸς καὶ εἰδῶν καὶ ἀτόμων. τό τε
+              <lb n="14" xml:id="p13-13"/>γὰρ ζῷον ἵππων τε καὶ βοῶν κατηγορεῖται εἰδῶν ὄντων καὶ τοῦδε τοῦ ἵππου<milestone type="alt-edition" unit="line" ed="Brandis 1836" n="40"/><note type="apparatus" n="14" target="#p13-13">ἵππων τε καὶ βοῶν codd. Boeth.: ἵππου τε καὶ βοὸς a</note>
+              <lb n="15" xml:id="p13-14"/>καὶ τοῦδε τοῦ βοὸς ἀτόμων ὄντων, τὸ δὲ ἄλογον ἵππων καὶ βοῶν κατηγορεῖται<note type="apparatus" n="15" target="#p13-14">τοῦ (ante βοὸς) om. M ἄλλογον B τὸ δὲ] καὶ τὸ in ras. L3 ἵππων καὶ βοῶν codd. Boeth.: ἵππου καὶ βοὸς a</note>
+              <lb n="16" xml:id="p13-15"/>καὶ τῶν κατὰ μέρος, τὸ μέντοι εἶδος οἷον ὁ ἄνθρωπος τῶν κατὰ<note type="apparatus" n="16" target="#p13-15">ὁ om. A!: exhib. A"BCLMa</note>
+              <lb n="17" xml:id="p13-16"/>μέρος μόνον, τὸ δὲ ἴδιον οἷον τὸ γελαστικὸν καὶ τοῦ ἀνθρώπου καὶ τῶν<note type="apparatus" n="17" target="#p13-16">μόνον codd. Boeth.: μόνων a post μόνον add. κατηγορεῖται a: om. codd. Boeth. post ἴδιον add. τοῦ τε εἴδους οὗ ἐστιν ἴδιον καὶ τῶν ὑπ’ αὐτὸ ἀτόμων A: τοῦ τε εἴδους οὗ ἐστιν ἴδιον καὶ τῶν ὑπὸ τὸ εἶδος ἀτόμων a: om. BCLM Boeth. καὶ (post γελαστικὸν) om. Aa: exhib BCLM Boeth. τὰ supra scr. M"</note>
+              <lb n="18" xml:id="p13-17"/>κατὰ μέρος, τὸ δὲ μέλαν τοῦ τε εἴδους τῶν κοράκων καὶ τῶν κατὰ μέρος<milestone type="alt-edition" unit="line" ed="Brandis 1836" n="45"/>
+              <lb n="19" xml:id="p13-18"/>συμβεβηκὸς ὂν ἀχώριστον, καὶ τὸ κινεῖσθαι ἀνθρώπου τε καὶ ἵππου χωριστὸν
+              <lb n="20" xml:id="p13-19"/>ὂν συμβεβηκός, ἀλλὰ προηγουμένως μὲν τῶν ἀτόμων, κατὰ δεύτερον
+              <lb n="21" xml:id="p13-20"/>δὲ λόγον καὶ τῶν περιεχόντων τὰ ἄτομα.
+            </p>
+          </div>
+          <div type="textpart" subtype="section" n="7">
+            <head><lb n="22" xml:id="p13-21"/>Περὶ τῆς κοινωνίας γένους καὶ διαφορᾶς.<milestone type="alt-edition" unit="column" ed="Brandis 1836" n="4b"/><note type="apparatus" n="22" target="#p13-21">tit. Περὶ τῆς κοινωνίας γ. καὶ δ. ABL: Περὶ κοινωνιῶν γ. καὶ δ. a: Περὶ τῶν κοινῶν γ. καὶ δ. καὶ τίσιν ἀλλήλων διαφέρουσιν M: κοινὰ γ. καὶ δ. C: De communibus generis et differentiae Boeth.</note></head>
+            <p>
+              <lb n="23" xml:id="p13-22"/>Κοινὸν δὲ γένους καὶ διαφορᾶς τὸ περιεκτικὸν εἰδῶν· περιέχει γὰρ καὶ<note type="apparatus" n="23" target="#p13-22">Κοινὸν BCLa in lit. M": Κοινὰ A et fort. M! δὲ] τε B ante εἰδῶν add. τῶν a γὰρ] δὲ M!</note>
+            </p>
+            <pb n="14" facs="https://archive.org/download/p1porphyriiisago04porp/page/n73.jpg"/>
+            <p>
+              <lb n="1" xml:id="p14-0"/>ἡ διαφορὰ εἴδη, εἰ καὶ μὴ πάντα ὅσα τὰ γένη. τὸ γὰρ λογικὸν εἰ καὶ<note type="apparatus" n="1" target="#p14-0">γὰρ] δὲ M¹</note>
+              <lb n="2" xml:id="p14-1"/>μὴ περιέχει τὰ ἄλογα ὥσπερ τὸ ζῷον, ἀλλὰ περιέχει ἄνθρωπον καὶ θεόν,<note type="apparatus" n="2" target="#p14-1">περιέχει (ante τὰ ἄλογα) ACL³Ma: περιέχῃ L¹: ἔχῃ B θεὸν in ras. A¹ Boeth.: ἄγγελον BCLMa ἄγγελον καὶ ἄνθρωπον colloc. Ca</note>
+              <lb n="3" xml:id="p14-2"/>ἅπερ ἐστὶν εἴδη. ὅσα τε κατηγορεῖται τοῦ γένους ὡς γένους, καὶ τῶν ὑπ’<milestone type="alt-edition" unit="line" ed="Brandis 1836" n="5"/><note type="apparatus" n="3" target="#p14-2">ante ὅσα add. ἔτι C: om. ABLMa: et quaecunque Boeth., unde καὶ recipias</note><note type="apparatus" n="3-4" target="#p14-2 #p14-3">ὡς γένους et ὡς διαφορᾶς] cf. Boeth. ὑπ’ αὐτὸ ABCL a: ὑπ’ αὐτὰ M</note>
+              <lb n="4" xml:id="p14-3"/>αὐτὸ εἰδῶν κατηγορεῖται, ὅσα τε τῆς διαφορᾶς ὡς διαφορᾶς, καὶ τοῦ ἐξ
+              <lb n="5" xml:id="p14-4"/>αὐτῆς εἴδους κατηγορηθήσεται. γένους τε γὰρ τοῦ ζῴου ὄντος ὡς γένους<note type="apparatus" n="5" target="#p14-4">αὐτῆς ex αὐτοῦ corr. A³ τοῦ ζῴου post ὄντος transpos. Ca</note>
+              <lb n="6" xml:id="p14-5"/>κατηγορεῖται ἡ οὐσία καὶ τὸ ἔμψυχον, ἀλλὰ καὶ τῶν ὑπὸ τὸ ζῷον εἰδῶν<note type="apparatus" n="6" target="#p14-5">post ἔμψυχον add. καὶ τὸ αἰσθητικόν A mrg. B²a El. et Dav. comment.: om. B¹CLM Boeth. lemma et comment. τῶν et τὸ om. B¹</note>
+              <lb n="7" xml:id="p14-6"/>πάντων κατηγορεῖται ταῦτα ἄχρι καὶ τῶν ἀτόμων· διαφορᾶς τε οὔσης τῆς<note type="apparatus" n="7" target="#p14-6">πάντων codd. Boeth.: ὄντων a τῆς om. Ba: exhib. ACLM</note>
+              <lb n="8" xml:id="p14-7"/>τοῦ λογικοῦ κατηγορεῖται ὡς διαφορᾶς τὸ λόγῳ χρῆσθαι, οὐ μόνον δὲ τοῦ<milestone type="alt-edition" unit="line" ed="Brandis 1836" n="10"/><note type="apparatus" n="8" target="#p14-7">τὸ ACa corr. L¹ Boeth.: τῷ BM</note>
+              <lb n="9" xml:id="p14-8"/>λογικοῦ ἀλλὰ καὶ τῶν ὑπὸ τὸ λογικὸν εἰδῶν κατηγορηθήσεται τὸ χρῆσθαι<note type="apparatus" n="9-10" target="#p14-8 #p14-9">λόγῳ χρῆσθαι colloc. a</note>
+              <lb n="10" xml:id="p14-9"/>λόγῳ. κοινὸν δὲ καὶ τὸ ἀναιρεθέντος ἢ τοῦ γένους ἢ τῆς διαφορᾶς ἀναιρεῖσθαι<note type="apparatus" n="10" target="#p14-9">ἢ (ante τοῦ γένους) om. Ma Boeth.: exhib. ABCL</note><note type="apparatus" n="10-11" target="#p14-9 #p14-10">ἀναιρεῖσθαι ALM Dav. comment.: συναναιρεῖσθαι BC Boeth.</note>
+              <lb n="11" xml:id="p14-10"/>τὰ ὑπ’ αὐτά· ὡς γὰρ μὴ ὄντος ζῴου οὐκ ἔστιν ἵππος οὐδὲ ἄνθρωπος,<note type="apparatus" n="11" target="#p14-10">ante τὰ ὑπ’ αὐτὰ add. καὶ a Dav. comment.: om. ABCLM Boeth.</note>
+              <lb n="12" xml:id="p14-11"/>οὕτως μὴ ὄντος λογικοῦ οὐδὲν ἔσται ζῷον τὸ χρώμενον λόγῳ.<note type="apparatus" n="12" target="#p14-11">οὐδὲν] οὐδὲ ἓν M τὸ om. M: exhib. ABCLa λόγῳ χρώμενον colloc. a</note>
+            </p>
+          </div>
+          <div type="textpart" subtype="section" n="8">
+            <head><lb n="13" xml:id="p14-12"/>Περὶ τῆς διαφορᾶς τοῦ γένους καὶ τῆς διαφορᾶς.<note type="apparatus" n="13" target="#p14-12">tit. Περὶ τῆς διαφορᾶς τοῦ γένους καὶ τῆς διαφορᾶς ACL: Περὶ τῶν ἰδίων τοῦ γ. καὶ τῆς δ. B Boeth.: Περὶ τῶν ἰδίων γένους καὶ διαφορᾶς M: Περὶ διαφορᾶς γένους καὶ διαφορᾶς a</note></head>
+            <p>
+              <lb n="14" xml:id="p14-13"/>Ἴδιον δὲ τοῦ γένους τὸ ἐπὶ πλειόνων κατηγορεῖσθαι, ἤπερ ἡ διαφορὰ<milestone type="alt-edition" unit="line" ed="Brandis 1836" n="15"/>
+              <lb n="15" xml:id="p14-14"/>καὶ τὸ εἶδος καὶ τὸ ἴδιον καὶ τὸ συμβεβηκός· τὸ μὲν γὰρ ζῷον ἐπ’ ἀνθρώπου<note type="apparatus" n="15" target="#p14-14">γὰρ om. B: exhib. ACLMa Boeth.</note>
+              <lb n="16" xml:id="p14-15"/>καὶ ἵππου καὶ ὀρνέου καὶ ὄφεως, τὸ δὲ τετράπουν ἐπὶ μόνων τῶν<note type="apparatus" n="16" target="#p14-15">μόνων ACLMa Boeth.: μόνον B</note>
+              <lb n="17" xml:id="p14-16"/>τέσσαρας πόδας ἐχόντων, ὁ δὲ ἄνθρωπος ἐπὶ μόνων τῶν ἀτόμων, καὶ τὸ<note type="apparatus" n="17" target="#p14-16">μόνων ACLa Boeth.: μόνον BM</note>
+              <lb n="18" xml:id="p14-17"/>χρεμετιστικὸν ἐπὶ τοῦ ἵππου μόνον καὶ τῶν κατὰ μέρος, καὶ τὸ συμβεβηκὸς<milestone type="alt-edition" unit="line" ed="Brandis 1836" n="20"/><note type="apparatus" n="18" target="#p14-17">τοῦ ἵππου post μόνον transpos. M μόνον ABCL: μόνου Ma: om. Boeth.</note>
+              <lb n="19" xml:id="p14-18"/>ὁμοίως ἐπ’ ἐλαττόνων. δεῖ δὲ διαφορὰς λαμβάνειν, αἷς τέμνεται τὸ γένος,<note type="apparatus" n="19" target="#p14-18">post ἐλαττόνων add. μόνον τῶν ἀτόμων C: om. ABLMa Boeth.</note>
+              <lb n="20" xml:id="p14-19"/>οὐ τὰς συμπληρωτικὰς τῆς οὐσίας τοῦ γένους. ἔτι τὸ γένος περιέχει τὴν<note type="apparatus" n="20" target="#p14-19">post συμπληρωτικὰς add. οὔσας BL: om. ACMa post γένους add. ἀλλὰ τὰς διαιρετικάς BM²a: om. ACLM¹ Boeth. post τὸ add. μὲν M: om. ABCLa Amm. Boeth.</note>
+              <lb n="21" xml:id="p14-20"/>διαφορὰν δυνάμει· τοῦ γὰρ ζῴου τὸ μὲν λογικὸν τὸ δὲ ἄλογον. ἔτι τὰ<note type="apparatus" n="21" target="#p14-20">post ἄλογον add. αἱ δὲ διαφοραὶ οὐ περιέχουσι τὰ γένη BCM²a: om. ALM¹ Boeth.</note>
+              <lb n="22" xml:id="p14-21"/>μὲν γένη πρότερα τῶν ὑπ’ αὐτὰ διαφορῶν, διὸ συναναιρεῖ μὲν αὐτάς, οὐ<milestone type="alt-edition" unit="line" ed="Brandis 1836" n="25"/><note type="apparatus" n="22" target="#p14-21">ὑπ’ αὐτὰ BCLa: ὑφ’ αὐτὰ AM</note>
+              <lb n="23" xml:id="p14-22"/>συναναιρεῖται δέ· ἀναιρεθέντος γὰρ τοῦ ζῴου συναναιρεῖται τὸ λογικὸν καὶ<note type="apparatus" n="23" target="#p14-22">post ἀναιρεῖται δέ add. ὑπ’ αὐτῶν a: om. codd. Boeth. συναναιρεῖται] aufertur (ἀναιρεῖται) Boeth.</note>
+            </p>
+            <pb n="15" facs="https://archive.org/download/p1porphyriiisago04porp/page/n74.jpg"/>
+            <p>
+              <lb n="1" xml:id="p15-0"/>τὸ ἄλογον. αἱ δὲ διαφοραὶ οὐκέτι συναναιροῦσι τὸ γένος· κἂν γὰρ πᾶσαι<note type="apparatus" n="1" target="#p15-0">οὐκέτι συναναιροῦσι Aa: οὐκέτι ἀναιροῦσι B: οὐκ ἀναιροῦσι LM Boeth.: οὐκ ἀνταναιροῦσι C γὰρ om. C</note>
+              <lb n="2" xml:id="p15-1"/>ἀναιρεθῶσιν, οὐσία ἔμψυχος αἰσθητικὴ ἐπινοεῖται, ἥτις ἦν τὸ ζῷον. ἔτι τὸ<note type="apparatus" n="2" target="#p15-1">ἐπινοεῖται BCLMa: ἐπινενόηται A: subintellegi potest Boeth.</note>
+              <lb n="3" xml:id="p15-2"/>μὲν γένος ἐν τῷ τί ἐστιν, ἡ δὲ διαφορὰ ἐν τῷ ποῖόν τί ἐστιν, ὡς εἴρηται,<note type="apparatus" n="3" target="#p15-2">μὲν om. B: exhib. ACLMa Boeth.</note>
+              <lb n="4" xml:id="p15-3"/>κατηγορεῖται. ἔτι γένος μὲν ἓν καθ’ ἕκαστον εἶδος οἷον ἀνθρώπου τὸ<milestone type="alt-edition" unit="line" ed="Brandis 1836" n="30"/><note type="apparatus" n="4" target="#p15-3">ante γένος add. τὸ L³ μὲν in lit. L³ ἐν om. M: exhib. ABCL a Boeth. post ἀνθρώπου add. γένος a: om. codd. Boeth.</note>
+              <lb n="5" xml:id="p15-4"/>ζῷον, διαφοραὶ δὲ πλείους οἷον λογικόν, θνητόν, νοῦ καὶ ἐπιστήμης δεκτικόν,<note type="apparatus" n="5" target="#p15-4">πλείους] plurimae Boeth.</note>
+              <lb n="6" xml:id="p15-5"/>αἷς τῶν ἄλλων ζῴων διαφέρει. καὶ τὸ μὲν γένος ἔοικεν ὕλῃ, μορφῇ<note type="apparatus" n="6" target="#p15-5">supra αἷς add. διαφοραῖς L³ ἄλλων ABLMa Boeth.: ἀλόγων C</note>
+              <lb n="7" xml:id="p15-6"/>δὲ ἡ διαφορά. προσόντων δὲ καὶ ἄλλων κοινῶν τε καὶ ἰδίων τῷ γένει καὶ<note type="apparatus" n="7" target="#p15-6">δὲ (ante καὶ) om. C</note><note type="apparatus" n="7-8" target="#p15-6 #p15-7">τῷ γένει καὶ τῇ διαφορᾷ ACLMa: γένει τε καὶ διαφορᾷ B</note>
+              <lb n="8" xml:id="p15-7"/>τῇ διαφορᾷ ἀρκείτω ταῦτα.<note type="apparatus" n="8" target="#p15-7">ἀρκείτω ταῦτα ACLM: ἀρκεῖ τοσαῦτα Ba: nunc ista sufficiant Boeth.</note>
+            </p>
+          </div>
+          <div type="textpart" subtype="section" n="9">
+            <head><lb n="9" xml:id="p15-8"/>Περὶ τῆς κοινωνίας τοῦ γένους καὶ τοῦ εἴδους.<note type="apparatus" n="9" target="#p15-8">tit. om. M: Περὶ τῆς κοινωνίας τοῦ γ. καὶ τοῦ εἰδ. ABL: κοινὰ γένους καὶ εἴδους C: Περὶ κοινωνίας γένους καὶ εἴδους a: De communibus generis et speciei Boeth.</note></head>
+            <p>
+              <lb n="10" xml:id="p15-9"/>Γένος δὲ καὶ εἶδος κοινὸν μὲν ἔχουσι τὸ κατὰ πλειόνων, ὡς εἴρηται,<milestone type="alt-edition" unit="line" ed="Brandis 1836" n="35"/>
+              <lb n="11" xml:id="p15-10"/>κατηγορεῖσθαι· εἰλήφθω δὲ τὸ εἶδος ὡς εἶδος, ἀλλ’ οὐχὶ καὶ ὡς γένος, ἄνπερ
+              <lb n="12" xml:id="p15-11"/>ᾖ τὸ αὐτὸ καὶ εἶδος καὶ γένος. κοινὸν δὲ αὐτοῖς καὶ τὸ προτέροις<note type="apparatus" n="12" target="#p15-11">post εἶδος add. μόνον BCM²a: om ALM¹ Dav. comment. Boeth. προτέροις CL Amm.: πρότερα ABa: πρότερ M</note>
+              <lb n="13" xml:id="p15-12"/>εἶναι ὧν κατηγορεῖται καὶ τὸ ὅλον τι εἶναι ἑκάτερον.<note type="apparatus" n="13" target="#p15-12">κατηγοροῦνται M</note>
+            </p>
+          </div>
+          <div type="textpart" subtype="section" n="10">
+            <head><lb n="14" xml:id="p15-13"/>Περὶ τῆς διαφορᾶς τοῦ γένους καὶ τοῦ εἴδους.<note type="apparatus" n="14" target="#p15-13">tit. om. M: Περὶ τῆς (τῆς om. A) διαφορᾶς τοῦ γ. καὶ τοῦ εἰδ. ABCL: Περὶ διαφορᾶς αὐτῶν a: De propriis generis et speciei Boeth.</note></head>
+            <p>
+              <lb n="15" xml:id="p15-14"/>Διαφέρει δὲ ᾗ τὸ μὲν γένος περιέχει τὰ εἴδη, τὰ δὲ εἴδη περιέχεται<note type="apparatus" n="15" target="#p15-14">ᾗ] ὅτι a περιέχει] continet sub se Boeth.</note>
+              <lb n="16" xml:id="p15-15"/>καὶ οὐ περιέχει τὰ γένη· ἐπὶ πλεῖον γὰρ τὸ γένος τοῦ εἴδους. ἔτι τὰ γένη<note type="apparatus" n="16" target="#p15-15">post εἴδους add. κατηγορεῖται BCa: om. ALM Boeth.</note><milestone type="alt-edition" unit="line" ed="Brandis 1836" n="40"/>
+              <lb n="17" xml:id="p15-16"/>προϋποκεῖσθαι δεῖ καὶ διαμορφωθέντα ταῖς εἰδοποιοῖς διαφοραῖς ἀποτελεῖν<note type="apparatus" n="17" target="#p15-16">post δεῖ add. ἃ a: om. codd. Boeth. εἰδοποιοῖς om. M¹ (suppl. m.²)</note>
+              <lb n="18" xml:id="p15-17"/>τὰ εἴδη, ὅθεν καὶ πρότερα τῇ φύσει τὰ γένη. καὶ συναναιροῦντα, ἀλλ’ οὐ
+              <lb n="19" xml:id="p15-18"/>συναναιρούμενα, καὶ εἴδους μὲν ὄντος πάντως ἐστὶ καὶ γένος, γένους δὲ<note type="apparatus" n="19-20" target="#p15-18 #p15-19">καὶ εἴδους μὲν ὄντος— ἐστὶ καὶ τὸ εἶδος] γένους μὲν γὰρ ὄντος πάντως ἐστὶ καὶ εἶδος, γένους δὲ μὴ ὄντος οὐ πάντως ἐστὶν εἶδος a, sed codicum et Boethii lectio comprobatur etiam commentariis Ammonii et Eliae</note><note type="apparatus" n="19 et 20" target="#p15-18 #p15-19">ἔστι] ἔσται B</note>
+              <lb n="20" xml:id="p15-19"/>ὄντος οὐ πάντως ἔστι καὶ τὸ εἶδος. καὶ τὰ μὲν γένη συνωνύμως κατηγορεῖται<note type="apparatus" n="20" target="#p15-19">τὸ om. C: καὶ τὸ om. El.</note><milestone type="alt-edition" unit="line" ed="Brandis 1836" n="45"/>
+              <lb n="21" xml:id="p15-20"/>τῶν ὑφ’ ἑαυτὰ εἰδῶν, τὰ δὲ εἴδη τῶν γενῶν οὐκέτι. ἔτι τὰ μὲν
+              <lb n="22" xml:id="p15-21"/>γένη πλεονάζει τῇ τῶν ὑπ’ αὐτὰ εἰδῶν περιοχῇ, τὰ δὲ εἴδη τῶν γενῶν
+              <lb n="23" xml:id="p15-22"/>πλεονάζει ταῖς οἰκείαις διαφοραῖς. ἔτι οὔτε τὸ εἶδος γένοιτ’ ἂν γενικώτατον
+              <lb n="24" xml:id="p15-23"/>οὔτε τὸ γένος εἰδικώτατον.
+            </p>
+            </div>
+          <pb n="16" facs="https://archive.org/download/p1porphyriiisago04porp/page/n75.jpg"/>
+          <div type="textpart" subtype="section" n="11">
+            <head><lb n="1" xml:id="p16-0"/>Περὶ τῆς κοινωνίας τοῦ γένους καὶ τοῦ ἰδίου.<milestone type="alt-edition" unit="column" ed="Brandis 1836" n="5a"/><note type="apparatus" n="1" target="#p16-0">tit. Περὶ τῆς κοινωνίας τοῦ γ. καὶ τοῦ ἰδ. ABL: κοινὰ γένους καὶ ἰδίου C: Περὶ τῶν κοινῶν γένους καὶ ἰδίου M Boeth.: Περὶ κοινωνιῶν γένους καὶ ἰδίου a</note></head>
+            <p>
+              <lb n="2" xml:id="p16-1"/>Γένους δὲ καὶ ἰδίου κοινὸν μὲν τὸ ἕπεσθαι τοῖς εἴδεσιν· εἰ γὰρ ἄνθρωπος,<note type="apparatus" n="2-3" target="#p16-1 #p16-2">post εἰ add. utrobique τι a: om. codd. Boeth.</note>
+              <lb n="3" xml:id="p16-2"/>ζῷον, καὶ εἰ ἄνθρωπος, γελαστικόν. καὶ τὸ ἐπίσης κατηγορεῖσθαι<note type="apparatus" n="3" target="#p16-2">εἰ (ante ἄνθρ.) om. M</note><note type="apparatus" n="3-4" target="#p16-2 #p16-3">κατηγορεῖσθαι post γένος transpos. M</note>
+              <lb n="4" xml:id="p16-3"/>τὸ γένος τῶν εἰδῶν καὶ τὸ ἴδιον τῶν αὑτοῦ μετεχόντων ἀτόμων·<note type="apparatus" n="4" target="#p16-3">ἀτόμων om. BC Boeth. (?): exhib. ABLMa</note>
+              <lb n="5" xml:id="p16-4"/>ἐπίσης γὰρ καὶ ὁ ἄνθρωπος καὶ ὁ βοῦς ζῷον καὶ Ἄνυτος καὶ Μέλητος γελαστικόν.<note type="apparatus" n="5" target="#p16-4">καὶ (ante ὁ ἄνθρωπος) om. a: exhib. codd. Boeth. Μέλητος ABLa: Μέλιτος CML</note>
+              <lb n="6" xml:id="p16-5"/>κοινὸν δὲ καὶ τὸ συνωνύμως κατηγορεῖσθαι τὸ γένος τῶν οἰκείων<milestone type="alt-edition" unit="line" ed="Brandis 1836" n="5"/>
+              <lb n="7" xml:id="p16-6"/>εἰδῶν καὶ τὸ ἴδιον ὧν ἂν ᾖ ἴδιον.<note type="apparatus" n="7" target="#p16-6">ᾖ BL: εἴη ACMa</note>
+            </p>
+          </div>
+          <div type="textpart" subtype="section" n="12">
+            <head><lb n="8" xml:id="p16-7"/>Περὶ τῆς διαφορᾶς τοῦ γένους καὶ τοῦ ἰδίου.<note type="apparatus" n="8" target="#p16-7">tit. Περὶ τῆς διαφορᾶς τοῦ γ. καὶ τοῦ ἰδ. ABCL: Περὶ τῆς διαφορᾶς αὐτῶν M: Περὶ διαφορᾶς γένους καὶ ἰδίου a: De propriis generis et proprii Boeth.</note></head>
+            <p>
+              <lb n="9" xml:id="p16-8"/>Διαφέρει δὲ ὅτι τὸ μὲν γένος πρότερον, ὕστερον δὲ τὸ ἴδιον· δεῖ γὰρ<note type="apparatus" n="9" target="#p16-8">post διαφέρει add. τὸ γένος τοῦ ἰδίου Amm.</note>
+              <lb n="10" xml:id="p16-9"/>εἶναι ζῷον, εἶτα διαιρεῖσθαι διαφοραῖς καὶ ἰδίοις. καὶ τὸ μὲν γένος κατὰ
+              <lb n="11" xml:id="p16-10"/>πλειόνων εἰδῶν κατηγορεῖται, τὸ δὲ ἴδιον ἑνὸς εἴδους, οὗ ἐστιν ἴδιον. καὶ<note type="apparatus" n="11" target="#p16-10">post κατηγορεῖται add. ὧν ἐστι γένος AB: om. CLMa Boeth. ante ἑνὸς add. καθ’ BM: om. ACLa post ἑνὸς add. μόνου C: om. ABLMa Boeth. post εἴδους add. τινός a: om. codd. Boeth. καὶ codd. Boeth.: ἔτι a</note>
+              <lb n="12" xml:id="p16-11"/>τὸ μὲν ἴδιον ἀντικατηγορεῖται οὗ ἐστιν ἴδιον, τὸ δὲ γένος οὐδενὸς ἀντικατηγορεῖται·<note type="apparatus" n="12" target="#p16-11">οὐδενὸς BCLMa Boeth.: οὐκ A</note><milestone type="alt-edition" unit="line" ed="Brandis 1836" n="10"/>
+              <lb n="13" xml:id="p16-12"/>οὔτε γὰρ εἰ ζῷον, ἄνθρωπος, οὔτε εἰ ζῷον, γελαστικόν· εἰ δὲ<note type="apparatus" n="13" target="#p16-12">ante ζῷον add. utrobique τι a supra scr. B: om. ACLM Boeth. ἄνθρωπος οὔτε εἰ ζῷον om. L</note><note type="apparatus" n="13-14" target="#p16-12 #p16-13">εἰ δὲ ἀνθρ. codd. Boeth.: ὁ δὲ ἀνθρ. a</note>
+              <lb n="14" xml:id="p16-13"/>ἄνθρωπος, γελαστικόν, καὶ ἔμπαλιν. ἔτι τὸ μὲν ἴδιον παντὶ τῷ εἴδει ὑπάρχει,<note type="apparatus" n="14" target="#p16-13">post ἔμπαλιν add. εἰ γελαστικόν, ἄνθρωπος C: om. ABLMa Boeth. ἔτι om. M (suppl. in mrg. m.)</note>
+              <lb n="15" xml:id="p16-14"/>οὗ ἐστιν ἴδιον, καὶ μόνῳ καὶ ἀεί, τὸ δὲ γένος παντὶ μὲν τῷ εἴδει, οὗ
+              <lb n="16" xml:id="p16-15"/>ἂν ᾖ γένος, καὶ ἀεί, οὐ μέντοι καὶ μόνῳ. ἔτι τὰ μὲν ἴδια ἀναιρούμενα οὐ<note type="apparatus" n="16" target="#p16-15">ᾖ ABCL a: εἴη M τὰ μὲν ἴδια] species quidem Boeth.</note>
+              <lb n="17" xml:id="p16-16"/>συναναιρεῖ τὰ γένη, τὰ δὲ γένη ἀναιρούμενα συναναιρεῖ τὰ εἴδη, ὧν ἐστιν<note type="apparatus" n="17" target="#p16-16">τὰ δὲ γένη] propria vero Boeth. (?) τὰ εἴδη om. Boeth.</note><milestone type="alt-edition" unit="line" ed="Brandis 1836" n="15"/>
+              <lb n="18" xml:id="p16-17"/>ἴδια, ὥστε καὶ ὧν ἐστιν ἴδια ἀναιρουμένων καὶ αὐτὰ συναναιρεῖται.<note type="apparatus" n="18" target="#p16-17">ὥστε— ἀναιρούμενων om. (ὧν ἀναιρουμένων superscr. m.) B αὐτὰ ACLMa Boeth.: ταῦτα B</note>
+            </p>
+          </div>
+          <div type="textpart" subtype="section" n="13">
+            <head><lb n="19" xml:id="p16-18"/>Περὶ τῆς κοινωνίας τοῦ γένους καὶ τοῦ συμβεβηκότος.<note type="apparatus" n="19" target="#p16-18">tit. Περὶ τῆς κοινωνίας τοῦ γένους καὶ τοῦ συμβεβηκότος ABCL: Περὶ τῶν κοινῶν γένους καὶ συμβεβηκότων M: Περὶ κοινωνίας γένους καὶ συμβεβηκότος a: De communibus generis et accidentis Boeth.</note></head>
+            <p>
+              <lb n="20" xml:id="p16-19"/>Γένους δὲ καὶ συμβεβηκότος κοινὸν τὸ κατὰ πλειόνων, ὡς εἴρηται,
+              <lb n="21" xml:id="p16-20"/>κατηγορεῖσθαι, ἄν τε τῶν χωριστῶν ᾖ ἄν τε τῶν ἀχωρίστων· καὶ γὰρ τὸ<note type="apparatus" n="21" target="#p16-20">ᾖ ACLMa: εἴη B post γὰρ add. καὶ a: om. codd. Boeth.</note>
+            </p>
+            <pb n="17" facs="https://archive.org/download/p1porphyriiisago04porp/page/n76.jpg"/>
+            <p>
+              <lb n="1" xml:id="p17-0"/>κινεῖσθαι κατὰ πλειόνων καὶ τὸ μέλαν κατὰ κοράκων καὶ Αἰθιόπων καί
+              <lb n="2" xml:id="p17-1"/>τινων ἀψύχων.<milestone type="alt-edition" unit="line" ed="Brandis 1836" n="20"/>
+            </p>
+          </div>
+          <div type="textpart" subtype="section" n="14">
+            <head><lb xml:id="p17-2"/>Περὶ τῆς διαφορᾶς τοῦ γένους καὶ τοῦ συμβεβηκότος.</head>
+            <p>
+              <lb n="3" xml:id="p17-3"/>Διαφέρει δὲ τὸ γένος τοῦ συμβεβηκότος, ὅτι τὸ μὲν γένος πρὸ τῶν<note type="apparatus" n="3" target="#p17-3">Περὶ τῆς διαφορᾶς τοῦ γ. καὶ τοῦ σ. ABL: Περὶ διαφορᾶς γένους καὶ σ. Ca: Περὶ διαφορᾶς αὐτῶν M: De propriis generis et accidentis Boeth.</note>
+              <lb n="4" xml:id="p17-4"/>εἰδῶν, τὰ δὲ συμβεβηκότα τῶν εἰδῶν ὕστερα· κἂν γὰρ ἀχώριστον λαμβάνηται<note type="apparatus" n="4-5" target="#p17-4 #p17-5">λαμβάνηται ACLMa Boeth.: λάβῃς B</note>
+              <lb n="5" xml:id="p17-5"/>συμβεβηκός, ἀλλ’ οὖν πρότερόν ἐστι τὸ ᾧ συμβέβηκε τοῦ συμβεβηκότος.<note type="apparatus" n="5" target="#p17-5">post οὖν add. γε B post πρότερόν ἐστι add. τῇ φύσει AB: om. CLMa Boeth. El. et Dav. comment.</note><note type="apparatus" n="5-6" target="#p17-5 #p17-6">τοῦ συμβεβηκότος ex τὸ συμβεβηκός corr. A¹</note>
+              <lb n="6" xml:id="p17-6"/>καὶ τοῦ μὲν γένους ἐπίσης τὰ μετέχοντα μετέχει, τοῦ δὲ συμβεβηκότος<note type="apparatus" n="6" target="#p17-6">post μετέχοντα add. ἀεὶ A: om. BCLMa Boeth. El. comment.</note>
+              <lb n="7" xml:id="p17-7"/>οὐκ ἐπίσης· ἐπίτασιν γὰρ καὶ ἄνεσιν ἐπιδέχεται ἡ τῶν συμβεβηκότων<note type="apparatus" n="7" target="#p17-7">ἐπιδέχεται ABLMa: δέχεται a</note><milestone type="alt-edition" unit="line" ed="Brandis 1836" n="25"/>
+              <lb n="8" xml:id="p17-8"/>μέθεξις, ἡ δὲ τῶν γενῶν οὐκέτι. καὶ τὰ μὲν συμβεβηκότα
+              <lb n="9" xml:id="p17-9"/>ἐπὶ τῶν ἀτόμων προηγουμένως ὑφίσταται, τὰ δὲ γένη καὶ τὰ εἴδη φύσει
+              <lb n="10" xml:id="p17-10"/>πρότερα τῶν ἀτόμων οὐσιῶν. καὶ τὰ μὲν γένη ἐν τῷ τί ἐστι κατηγορεῖται
+              <lb n="11" xml:id="p17-11"/>τῶν ὑπ’ αὐτά, τὰ δὲ συμβεβηκότα ἐν τῷ ποῖόν τι ἢ πῶς ἔχον ἕκαστον·<note type="apparatus" n="11" target="#p17-11">τι om. M¹: eras. A post τι add. ἐστιν Ca Boeth.: om. ABLM ἔχον AM El. comment.: ἔχει CL Boeth.: ἔχον ἐστὶν C</note>
+              <lb n="12" xml:id="p17-12"/>ποῖος γὰρ Αἰθίοψ ἐρωτηθεὶς ἐρεῖς μέλας, καὶ πῶς ἔχει Σωκράτης ἐρεῖς ὅτι<note type="apparatus" n="12" target="#p17-12">ante Αἰθίοψ add. ὁ AM: om. BCLa El. et Dav. comment. ante μέλας add. ὅτι a: om. codd. Boeth. El. et Dav. comment. καὶ ACLM Boeth. El. et Dav. comment.: ἢ Ba ὅτι om. El. et Dav. comment.</note><milestone type="alt-edition" unit="line" ed="Brandis 1836" n="30"/>
+              <lb n="13" xml:id="p17-13"/>κάθηται ἢ περιπατεῖ.<note type="apparatus" n="13" target="#p17-13">κάθηται ἢ περιπατεῖ codd. Boeth. El. comment.: νοσεῖ ἢ ὑγιαίνει a</note>
+              <lb n="14" xml:id="p17-14"/>Τὸ μὲν οὖν γένος ᾗ τῶν ἄλλων τεττάρων διαφέρει εἴρηται, συμβέβηκεν
+              <lb n="15" xml:id="p17-15"/>δὲ καὶ τῶν ἄλλων ἕκαστον διαφέρειν τῶν τεττάρων, ὥστε πέντε μὲν<note type="apparatus" n="15" target="#p17-15">τῶν τεττάρων] ab aliis quattuor Boeth.</note>
+              <lb n="16" xml:id="p17-16"/>ὄντων, ἑνὸς δὲ ἑκάστου τῶν τεττάρων διαφέροντος, τετράκι τὰ πέντε, εἴκοσι<note type="apparatus" n="16" target="#p17-16">ante τεττάρων add. ἄλλων C Boeth. ante τετράκι add. ὡς B² τετράκι ALM¹: τετράκις BCM²a τὰ om. B</note><note type="apparatus" n="16" target="#p17-16">γίνεσθαι BCLMa: γενέσθαι A διαφορὰς τὰς πάσας colloc. La ἀλλ’ οὐχ οὕτως ἔχει om. Boeth.</note><milestone type="alt-edition" unit="line" ed="Brandis 1836" n="35"/>
+              <lb n="17" xml:id="p17-17"/>γίνεσθαι τὰς πάσας διαφοράς. ἀλλ’ οὐχ οὕτως ἔχει, ἀλλ’ ἀεὶ τῶν ἐφεξῆς
+              <lb n="18" xml:id="p17-18"/>καταριθμουμένων καὶ τῶν μὲν δύο μιᾷ λειπομένων διαφορᾷ διὰ τὸ ἤδη<note type="apparatus" n="18" target="#p17-18">καταριθμουμένων ACLMa Boeth.: κατηγορουμένων B δύο in ras. V fere litter. A¹L³: δεύτερον M¹ λειπομένων CLa: ἀπολειπ. (sed ἀπὸ in ras.) A¹: καταλειπ. BM</note>
+              <lb n="19" xml:id="p17-19"/>εἰλῆφθαι, τῶν δὲ τριῶν δυσίν, τῶν δὲ τεττάρων τρισί, τῶν δὲ πέντε<note type="apparatus" n="19" target="#p17-19">δυσίν BCLMa: δύο A</note>
+              <lb n="20" xml:id="p17-20"/>τέτρασι, δέκα αἱ πᾶσαι γίνονται διαφοραί, τέσσαρες, τρεῖς, δύο, μία. τὸ
+              <lb n="21" xml:id="p17-21"/>μὲν γὰρ γένος διαφέρει τῆς διαφορᾶς καὶ τοῦ εἴδους καὶ τοῦ ἰδίου καὶ τοῦ<note type="apparatus" n="21" target="#p17-21">ᾗ (ante διαφέρει) et εἴρηται (post συμβεβηκότος) add. a: om. codd. Boeth.</note><milestone type="alt-edition" unit="line" ed="Brandis 1836" n="40"/>
+              <lb n="22" xml:id="p17-22"/>συμβεβηκότος· τέσσαρες οὖν αἱ διαφοραί. ἡ διαφορὰ δὲ πῇ μὲν διενήνοχεν<note type="apparatus" n="22" target="#p17-22">δὲ ante διαφορὰ trahspos. BM</note>
+              <lb n="23" xml:id="p17-23"/>τοῦ γένους εἴρηται. ὅτε πῇ διαφέρει τὸ γένος αὐτῆς ἐρρέθη· λοιπὸν δὲ<note type="apparatus" n="23" target="#p17-23">ἐρέθη M¹ δὲ] igitur Boeth., unde corrigas δὴ</note>
+              <lb n="24" xml:id="p17-24"/>πῇ διαφέρει τοῦ εἴδους καὶ τοῦ ἰδίου καὶ τοῦ συμβεβηκότος ῥηθήσεται,
+              <lb n="25" xml:id="p17-25"/>καὶ γίνονται τρεῖς. πάλιν τὸ εἶδος πῇ μὲν διαφέρει τῆς διαφορᾶς ἐρρέθη,<note type="apparatus" n="25" target="#p17-25">post πάλιν add. δὲ Ba: om. ACLM Boeth.</note>
+              <lb n="26" xml:id="p17-26"/>ὅτε πῇ διαφέρει ἡ διαφορὰ τοῦ εἴδους ἐλέγετο· πῇ δὲ διαφέρει τὸ εἶδος<note type="apparatus" n="26" target="#p17-26">τὸ εἶδος post γένους transpos. B</note><milestone type="alt-edition" unit="line" ed="Brandis 1836" n="45"/>
+            </p>
+            <pb n="18" facs="https://archive.org/download/p1porphyriiisago04porp/page/n77.jpg"/>
+            <p>
+              <lb n="1" xml:id="p18-0"/>τοῦ γένους ἐρρέθη, ὅτε πῇ διαφέρει τὸ γένος τοῦ εἴδους ἐλέγετο· λοιπὸν<note type="apparatus" n="1" target="#p18-0">ὅτε — ἐλέγετο om. B</note>
+              <lb n="2" xml:id="p18-1"/>οὖν πῇ διαφέρει τοῦ ἰδίου καὶ τοῦ συμβεβηκότος ῥηθήσεται· δύο οὖν καὶ<note type="apparatus" n="2" target="#p18-1">post διαφέρει add. τὸ εἶδος a : om. codd. Boeth.</note>
+              <lb n="3" xml:id="p18-2"/>αὗται αἱ διαφοραί. τὸ δὲ ἴδιον πῇ διαφέρει τοῦ συμβεβηκότος καταλειφθήσεται·<note type="apparatus" n="3" target="#p18-2">αἱ om. AM : add. BCLa</note><note type="apparatus" n="3-4" target="#p18-2 #p18-3">καταλειφθήσεται] καταληφθήσεται A¹: relinquitur Boeth.</note>
+              <lb n="4" xml:id="p18-3"/>πῇ γὰρ <milestone type="alt-edition" unit="column" ed="Brandis 1836" n="5b"/> τοῦ εἴδους καὶ τῆς διαφορᾶς καὶ τοῦ γένους διαφέρει,<note type="apparatus" n="4" target="#p18-3">πῇ γὰρ om. B</note>
+              <lb n="5" xml:id="p18-4"/>προειρημένον ἐστὶν ἐν τῇ ἐκείνων πρὸς αὐτὸ διαφορᾷ· τεσσάρων οὖν λαμβανομένων<note type="apparatus" n="5" target="#p18-4">πρὸς] πρὸ M αὐτὸ ABCL Boeth: αὐτὸ ex αὐτὰ corr. M²: αὐτὰ a</note>
+              <lb n="6" xml:id="p18-5"/>τοῦ γένους πρὸς τὰ ἄλλα διαφορῶν, τριῶν δὲ τῆς διαφορᾶς, δύο
+              <lb n="7" xml:id="p18-6"/>δὲ τοῦ εἴδους, μιᾶς δὲ τοῦ ἰδίου πρὸς τὸ συμβεβηκός, δέκα ἔσονται αἱ<note type="apparatus" n="7-8" target="#p18-6 #p18-7">αἱ πᾶσαι ABCMa: ἁπάσαι L</note>
+              <lb n="8" xml:id="p18-7"/>πᾶσαι, ὧν τὰς τέσσαρας, αἳ ἦσαν τοῦ γένους πρὸς τὰ ἄλλα, φθάσαντες<milestone type="alt-edition" unit="line" ed="Brandis 1836" n="5"/><note type="apparatus" n="8" target="#p18-7">τὰς om. M</note>
+              <lb n="9" xml:id="p18-8"/>ἀπεδείξαμεν.
+            </p>
+          </div>
+          <div type="textpart" subtype="section" n="15">
+            <head><lb n="10" xml:id="p18-9"/>Περὶ τῆς κοινωνίας τῆς διαφορᾶς καὶ τοῦ εἴδους.<note type="apparatus" n="10" target="#p18-9">tit. om. C: Περὶ τῆς κοινωνίας τῆς δ. καὶ τοῦ εἰδ. ABL: Περὶ κοινῶν εἴδους καὶ διαφορᾶς M: Περὶ κοινωνίας καὶ διαφορᾶς εἴδους καὶ διαφορᾶς a: De communibus differentiae et speciei Boeth.</note></head>
+            <p>
+              <lb n="11" xml:id="p18-10"/>Κοινὸν τοίνυν διαφορᾶς καὶ εἴδους τὸ ἐπίσης μετέχεσθαι· ἀνθρώπου<note type="apparatus" n="11" target="#p18-10">Κοινὸν BLa Boeth.: κοινὰ ACM τῆς διαφορᾶς καὶ τοῦ εἴδους a</note>
+              <lb n="12" xml:id="p18-11"/>τε γὰρ ἐπίσης μετέχουσιν οἱ κατὰ μέρος ἄνθρωποι καὶ τῆς τοῦ λογικοῦ<note type="apparatus" n="12" target="#p18-11">γὰρ om. M: exhib. ABCLa Boeth.</note>
+              <lb n="13" xml:id="p18-12"/>διαφορᾶς. κοινὸν δὲ καὶ τὸ ἀεὶ παρεῖναι τοῖς μετέχουσιν· ἀεὶ γὰρ Σωκράτης<milestone type="alt-edition" unit="line" ed="Brandis 1836" n="10"/>
+              <lb n="14" xml:id="p18-13"/>λογικός, καὶ ἀεὶ Σωκράτης ἄνθρωπος.
+            </p>
+          </div>
+          <div type="textpart" subtype="section" n="16">
+            <head><lb n="15" xml:id="p18-14"/>Περὶ τῆς διαφορᾶς τοῦ εἴδους καὶ τῆς διαφορᾶς.<note type="apparatus" n="15" target="#p18-14">tit. om. Ba: Περὶ τῆς διαφορᾶς τοῦ εἰδ. καὶ τῆς δ. ACL: Περὶ τῶν ἰδίων εἴδους καὶ διαφορᾶς M: De propriis differentiae et speciei Boeth.</note></head>
+            <p>
+              <lb n="16" xml:id="p18-15"/>Ἴδιον δὲ διαφορᾶς μὲν τὸ ἐν τῷ ποιόν τί ἐστι κατηγορεῖσθαι, εἴδους<note type="apparatus" n="16" target="#p18-15">ἐστι om. AM El. comm. (?): exhib. BCLa Boeth.</note>
+              <lb n="17" xml:id="p18-16"/>δὲ τὸ ἐν τῷ τί ἐστιν· κἂν γὰρ ὁ ἄνθρωπος ὡς ποιὸν λαμβάνηται, οὐχ<note type="apparatus" n="17" target="#p18-16">ἐν τῷ iter. B post ποιὸν add. τι a: om. codd. Boeth. ante οὐχ add. ἀλλ’ B: om. ACLMa Boeth.</note>
+              <lb n="18" xml:id="p18-17"/>ἁπλῶς ἂν εἴη ποιόν, ἀλλὰ καθὸ τῷ γένει προσελθοῦσαι αἱ διαφοραὶ ὑπέστησαν
+              <lb n="19" xml:id="p18-18"/>αὐτό. ἔτι ἡ μὲν διαφορὰ ἐπὶ πλειόνων πολλάκις εἰδῶν θεωρεῖται,<milestone type="alt-edition" unit="line" ed="Brandis 1836" n="15"/><note type="apparatus" n="19" target="#p18-18">αὐτὸ codd. Boeth.: αὐτόν a</note>
+              <lb n="20" xml:id="p18-19"/>ὡς τὸ τετράπουν ἐπὶ πλείστων ζῴων τῷ εἴδει διαφερόντων, τὸ δὲ εἶδος ἐπὶ<note type="apparatus" n="20" target="#p18-19">πλείστων ACLMa: πλειόνων B Boeth. διαφερόντων τῷ εἴδει colloc. a</note>
+              <lb n="21" xml:id="p18-20"/>μόνων τῶν ὑπὸ τὸ εἶδος ἀτόμων ἐστίν. ἔτι ἡ διαφορὰ προτέρα τοῦ κατ’<note type="apparatus" n="21" target="#p18-20">μόνων L¹ ὑπὸ τὸ εἶδος ABCLa Boeth.: ὑπ’ αὐτὸ M ἀτόμων om. B (suppl. in mrg. m. ²) ἐστίν om. M ante διαφορὰ add. μὲν a: om. codd. Boeth.</note>
+              <lb n="22" xml:id="p18-21"/>αὐτὴν εἴδους· συναναιρεῖ γὰρ τὸ λογικὸν ἀναιρεθὲν τὸν ἄνθρωπον, ὁ δὲ<note type="apparatus" n="22" target="#p18-21">αὐτὴν BCLMa Boeth. El. comm.: αὐτῆς A</note>
+              <lb n="23" xml:id="p18-22"/>ἄνθρωπος ἀναιρεθεὶς οὐκ ἀνῄρηκεν τὸ λογικόν, ὄντος θεοῦ. ἔτι διαφορὰ<note type="apparatus" n="23" target="#p18-22">θεοῦ Boeth.: ἀγγέλου καὶ θεοῦ B: ἀγγέλου ACLMa: θεοῦ ἀγγέλου El. comment.</note>
+              <lb n="24" xml:id="p18-23"/>μὲν συντίθεται μετὰ ἄλλης διαφορᾶς· τὸ λογικὸν γὰρ καὶ τὸ θνητὸν συνετέθη<milestone type="alt-edition" unit="line" ed="Brandis 1836" n="20"/><note type="apparatus" n="24" target="#p18-23">τὸ om. LMa: add. ABC El. comm. τὸ (ante θνητὸν) om. ALMa: exhib. BC El. comm.</note>
+            </p>
+            <pb n="19" facs="https://archive.org/download/p1porphyriiisago04porp/page/n78.jpg"/>
+            <p>
+              <lb n="1" xml:id="p19-0"/>εἰς ὑπόστασιν ἀνθρώπου· εἶδος δὲ εἴδει οὐ συντίθεται, ὥστε ἀπογεννῆσαι<note type="apparatus" n="1" target="#p19-0">ante ἀνθρώπου add. τοῦ Brand.: om. libri omnes</note>
+              <lb n="2" xml:id="p19-1"/>ἄλλο τι εἶδος· τίς μὲν γὰρ ἵππος τινὶ ὄνῳ σύνεισιν εἰς ἡμιόνου γένεσιν,<note type="apparatus" n="2" target="#p19-1">τι om. AL: add. BCMa Boeth. γένεσιν AB¹CL El.: γέννησιν B²Ma</note>
+              <lb n="3" xml:id="p19-2"/>ἵππος δὲ ἁπλῶς ὄνῳ οὐκ ἂν συντεθεὶς ἀποτελέσειεν ἡμίονον.<note type="apparatus" n="3" target="#p19-2">ὄνῳ et συντεθεὶς eras. et in mrg. suppl B² οὐκ ἂν post συντεθεὶς transpos. a</note>
+            </p>
+          </div>
+          <div type="textpart" subtype="section" n="17">
+            <head><lb n="4" xml:id="p19-3"/>Περὶ τῆς κοινωνίας τῆς διαφορᾶς καὶ τοῦ ἰδίου.<note type="apparatus" n="4" target="#p19-3">tit. Περὶ τῆς κοινωνίας τῆς δ. καὶ τοῦ ἰδ. ABCL: Περὶ τῶν κοινῶν διαφορᾶς καὶ ἰδίου M Boeth.: Περὶ κοινωνίας καὶ διαφορᾶς ἰδίου καὶ διαφορᾶς a</note></head>
+            <p>
+              <lb n="5" xml:id="p19-4"/>Διαφορὰ δὲ καὶ ἴδιον κοινὸν μὲν ἔχουσι τὸ ἐπίσης μετέχεσθαι
+              <lb n="6" xml:id="p19-5"/>ὑπὸ τῶν μετεχόντων· ἐπίσης γὰρ τὰ λογικὰ λογικὰ καὶ τὰ γελαστικὰ<milestone type="alt-edition" unit="line" ed="Brandis 1836" n="25"/>
+              <lb n="7" xml:id="p19-6"/>γελαστικά. καὶ τὸ ἀεὶ καὶ παντὶ παρεῖναι κοινὸν ἀμφοῖν· κἂν γὰρ κολοβωθῇ
+              <lb n="8" xml:id="p19-7"/>ὁ δίπους, ἀλλὰ πρὸς τὸ πεφυκέναι τὸ ἀεὶ λέγεται, ἐπεὶ καὶ τὸ γελαστικὸν<note type="apparatus" n="8" target="#p19-7">post δίπους add. non substantiam perimit Boeth. (?) τὸ (ante ἀεὶ) om. M: supra scr. L¹ καὶ τὸ supra scr. M¹</note>
+              <lb n="9" xml:id="p19-8"/>τῷ πεφυκέναι ἔχει τὸ ἀεί, ἀλλ’ οὐχὶ τῷ γελᾶν ἀεί.<note type="apparatus" n="9" target="#p19-8">τῷ (ante πεφυκέναι) om. BL¹: add. ACL³Ma</note>
+            </p>
+          </div>
+          <div type="textpart" subtype="section" n="18">
+            <head><lb n="10" xml:id="p19-9"/>Περὶ τῆς διαφορᾶς τοῦ ἰδίου καὶ τῆς διαφορᾶς.<note type="apparatus" n="10" target="#p19-9">tit. om. a: Περὶ τῆς διαφορᾶς τοῦ ἰδ. καὶ τῆς δ. ABL: Περὶ διαφορᾶς τοῦ ἰδ. καὶ τῆς δ. C: Περὶ τῶν κοινῶν διαφορᾶς καὶ ἰδίου M Boeth.</note></head>
+            <p>
+              <lb n="11" xml:id="p19-10"/>Ἴδιον δὲ διαφορᾶς ὅτι αὕτη μὲν ἐπὶ πλειόνων εἰδῶν λέγεται πολλάκις,<milestone type="alt-edition" unit="line" ed="Brandis 1836" n="30"/><note type="apparatus" n="11" target="#p19-10">post πολλάκις add. ὡς εἴρηται C: om. ABLMa Boeth.</note>
+              <lb n="12" xml:id="p19-11"/>οἷον τὸ λογικὸν καὶ ἐπὶ θεοῦ καὶ ἐπὶ ἀνθρώπου, τὸ δὲ ἴδιον ἐφ’ ἑνὸς<note type="apparatus" n="12" target="#p19-11">καὶ (post λογικὸν) om. Ma Boeth.: add. ABCL ἐπὶ θεοῦ καὶ ἐπὶ ἀνθρώπου scripsi: de homine et de deo Boeth.: ἐπὶ ἀγγέλου καὶ ἐπὶ ἀνθρώπου ABLMa: ἐπὶ ἀγγέλου καὶ ἀνθρώπου C: ἐπὶ θεοῦ καὶ ἀγγέλου καὶ ἀνθρώπου El. comment. ἑνὸς] una sola Boeth.</note>
+              <lb n="13" xml:id="p19-12"/>εἴδους, οὗ ἐστιν ἴδιον. καὶ ἡ μὲν διαφορὰ ἕπεται ἐκείνοις, ὧν ἦν διαφορά,<note type="apparatus" n="13" target="#p19-12">ἦν ABLM: ἐστι a Boeth.: ἡ C: εἴη El. comm. corrigas ἂν ᾖ</note>
+              <lb n="14" xml:id="p19-13"/>οὐ μὴν καὶ ἀντιστρέφει· τὰ δὲ ἴδια ἀντικατηγορεῖται ὧν ἂν ᾖ ἴδια διὰ<note type="apparatus" n="14" target="#p19-13">post μὴν add. δὲ B καὶ om. M Boeth.: exhib. ABCLa El. comm. ἀντικατηγορεῖται ACMa Boeth. El. comm.: κατηγορεῖται BL ἂν ᾖ scripsi: ἂν ἦν BL: ἂν εἴη C: ἦν Aa: ἔστιν M El. comm.</note>
+              <lb n="15" xml:id="p19-14"/>τὸ ἀντιστρέφειν.
+            </p>
+          </div>
+          <div type="textpart" subtype="section" n="19">
+            <head><lb n="16" xml:id="p19-15"/>Περὶ τῆς κοινωνίας τῆς διαφορᾶς καὶ τοῦ συμβεβηκότος.<note type="apparatus" n="16" target="#p19-15">tit. Περὶ τῆς κοινωνίας τῆς δ. καὶ τοῦ σ. ABCL: Περὶ κοινῶν διαφορᾶς καὶ συμβεβηκότος M Boeth.: Περὶ κοινωνίας καὶ διαφορᾶς συμβεβηκότος καὶ διαφορᾶς a</note></head>
+            <p>
+              <lb n="17" xml:id="p19-16"/>Διαφορᾷ δὲ καὶ συμβεβηκότι κοινὸν μὲν τὸ ἐπὶ πλειόνων λέγεσθαι,<milestone type="alt-edition" unit="line" ed="Brandis 1836" n="35"/><note type="apparatus" n="17" target="#p19-16">post δὲ add. καὶ a: om. codd. Boeth.</note>
+              <lb n="18" xml:id="p19-17"/>κοινὸν δὲ πρὸς τὰ ἀχώριστα συμβεβηκότα τὸ ἀεὶ καὶ παντὶ προσεῖναι· τὸ
+              <lb n="19" xml:id="p19-18"/>τε γὰρ δίπουν ἀεὶ πρόσεστι πᾶσι κόραξι τό τε μέλαν ὁμοίως.<note type="apparatus" n="19" target="#p19-18">ante πᾶσι supra scr. καὶ M²: add. τῷ ἀνθρώπῳ καὶ a: om. ABCL Boeth. post πᾶσι add. τοῖς C: om. ABLMa μέλαν AB¹CL: μέλαν εἶναι M: μέλασιν εἶναι B²a</note>
+            </p>
+          </div>
+          <div type="textpart" subtype="section" n="20">
+            <head><lb n="20" xml:id="p19-19"/>Περὶ τῶν ἰδίων διαφορᾶς καὶ συμβεβηκότος.<note type="apparatus" n="20" target="#p19-19">tit. om. A¹BCLa: exhib. M Boeth.: Περὶ διαφορᾶς τῶν αὐτῶν in mrg. A³</note></head>
+            <p>
+              <lb n="21" xml:id="p19-20"/>Διαφέρουσι δὲ, ὅτι ἡ μὲν διαφορὰ περιέχει, οὐ περιέχεται δέ·<note type="apparatus" n="21" target="#p19-20">διαφέρει a ἡ μὲν] εἰ μὲν B post περιέχει add. τὰ εἴδη ABCLa: om. M Boeth. El. comm.</note>
+            </p>
+            <pb n="20" facs="https://archive.org/download/p1porphyriiisago04porp/page/n79.jpg"/>
+            <p>
+              <lb n="1" xml:id="p20-0"/>περιέχει γὰρ τὸ λογικὸν τὸν ἄνθρωπον· τὰ δὲ συμβεβηκότα τρόπον μέν τινα<note type="apparatus" n="1" target="#p20-0">ante τὸν ἄνθρωπον add. τὸν ἄγγελον καὶ Ca: post τὸν ἄνθρωπον add. καὶ τὸν ἄγγελον ABLM²: om. M¹ Boeth. Amm. et El. comment. τὰ δὲ συμβεβηκότα BCLMa Boeth. El. comment.: τὸ δὲ συμβεβηκὸς A</note>
+              <lb n="2" xml:id="p20-1"/>περιέχει τῷ ἐν πλείοσιν εἶναι, τρόπον δέ τινα περιέχεται τῷ μὴ ἑνὸς συμβεβηκότος<milestone type="alt-edition" unit="line" ed="Brandis 1836" n="40"/><note type="apparatus" n="2" target="#p20-1">τῷ utrobique ex τὸ corr. A¹ ἐμπεριέχεται C</note>
+              <lb n="3" xml:id="p20-2"/>εἶναι δεκτικὰ τὰ ὑποκείμενα, ἀλλὰ πλειόνων. καὶ ἡ μὲν διαφορὰ<note type="apparatus" n="3" target="#p20-2">εἶναι post δεκτικὰ transpos. M</note>
+              <lb n="4" xml:id="p20-3"/>ἀνεπίτατος καὶ ἀνάνετος, τὰ δὲ συμβεβηκότα τὸ μᾶλλον καὶ τὸ ἧττον<note type="apparatus" n="4" target="#p20-3">post ἀνεπίτατος add. τε a καὶ ἀνάνετος, τὰ δὲ συμβ. τὸ om. B¹ (suppl. m.² in mrg.) τὸ (ante ἧττον) om. a: exhib. ABCLM El. comment.</note>
+              <lb n="5" xml:id="p20-4"/>ἐπιδέχεται. καὶ ἀμιγεῖς μὲν αἱ ἐναντίαι διαφοραί, μιγείη δ’ ἂν τὰ ἐναντία<note type="apparatus" n="5" target="#p20-4">post ἂν add. ποτε ABa: om. CLM Boeth. El. comment. οὖν om. a ante κοινότητες et ante διαφορᾶς add. τε B² καὶ αἱ ἰδιότητες A: καὶ ἰδιότητες B²CMa: om. B¹L</note>
+              <lb n="6" xml:id="p20-5"/>συμβεβηκότα.
+              <lb n="7" xml:id="p20-6"/>Τοιαῦται μὲν οὖν αἱ κοινότητες καὶ αἱ ἰδιότητες τῆς διαφορᾶς καὶ τῶν<milestone type="alt-edition" unit="line" ed="Brandis 1836" n="45"/>
+              <lb n="8" xml:id="p20-7"/>ἄλλων. τὸ δὲ εἶδος πῇ μὲν διαφέρει γένους καὶ διαφορᾶς, εἴρηται ἐν ᾧ ἐλέγομεν,
+              <lb n="9" xml:id="p20-8"/>πῇ τὸ γένος διαφέρει τῶν ἄλλων καὶ πῇ ἡ διαφορὰ διαφέρει τῶν<note type="apparatus" n="9" target="#p20-8">γένος—διαφορὰ] διαφέρει τῶν ἄλλων om., καὶ πῇ ἡ διαφορὰ del. et καὶ ἡ διαφορὰ superscr. B¹</note>
+              <lb n="10" xml:id="p20-9"/>ἄλλων.<note type="apparatus" n="10" target="#p20-9">post ἄλλων add. λοιπόν, πῇ διαφέρει τοῦ ἰδίου καὶ τοῦ συμβεβηκότος, ῥηθήσεται a: om. codd. Boeth.</note>
+            </p>
+          </div>
+          <div type="textpart" subtype="section" n="21">
+            <head><lb n="11" xml:id="p20-10"/>Περὶ τῆς κοινωνίας τοῦ εἴδους καὶ τοῦ ἰδίου.<milestone type="alt-edition" unit="column" ed="Brandis 1836" n="6a"/><note type="apparatus" n="11" target="#p20-10">tit. Περὶ τῆς κοινωνίας τοῦ εἴδ. καὶ τοῦ ἰδ. ABCL: Περὶ κοινῶν εἴδους καὶ ἰδίου M Boeth.: Περὶ κοινωνίας καὶ διαφορᾶς εἴδους καὶ ἰδίου a</note></head>
+            <p>
+              <lb n="12" xml:id="p20-11"/>Εἴδους δὲ καὶ ἰδίου κοινὸν τὸ ἀλλήλων ἀντικατηγορεῖσθαι· εἰ γὰρ<note type="apparatus" n="12" target="#p20-11">post κοινὸν add. μὲν Ba: om. ACLM Boeth. post εἰ add. utrobique τι a om. codd. Boeth. El. comment.</note>
+              <lb n="13" xml:id="p20-12"/>ἄνθρωπος, γελαστικόν, καὶ εἰ γελαστικόν, ἄνθρωπος· τὸ γελαστικὸν δὲ ὅτι<note type="apparatus" n="13" target="#p20-12">ὅτι] quoniam et Boeth.</note>
+              <lb n="14" xml:id="p20-13"/>κατὰ τὸ πεφυκέναι γελᾶν ληπτέον, πολλάκις εἴρηται· ἐπίσης τε γάρ ἐστι<note type="apparatus" n="14" target="#p20-13">post εἴρηται add. κοινὸν δὲ καὶ τὸ ἐπ’ ἴσης εἶναι a: om. codd. Boeth. γάρ ἐστι AB Boeth. (cf. p. 22,8): πάρεστι CL: γὰρ πάρεστι Ma</note>
+              <lb n="15" xml:id="p20-14"/>τὰ εἴδη τοῖς μετέχουσι καὶ τὰ ἴδια ὧν ἐστιν ἴδια.<milestone type="alt-edition" unit="line" ed="Brandis 1836" n="5"/>
+            </p>
+          </div>
+          <div type="textpart" subtype="section" n="22">
+            <head><lb n="16" xml:id="p20-15"/>Περὶ τῆς διαφορᾶς τοῦ εἴδους καὶ τοῦ ἰδίου.<note type="apparatus" n="16" target="#p20-15">tit. om. a: Περὶ τῆς διαφορᾶς τοῦ εἴδ. καὶ τοῦ ἰδ. ABL: Περὶ διαφορᾶς τοῦ εἴδ. καὶ ἰδ. C: Περὶ τῶν ἰδίων εἴδους καὶ ἰδίου M Boeth.</note></head>
+            <p>
+              <lb n="17" xml:id="p20-16"/>Διαφέρει δὲ τὸ εἶδος τοῦ ἰδίου, ὅτι τὸ μὲν εἶδος δύναται ἄλλων γένος<note type="apparatus" n="17" target="#p20-16">post δύναται add. καὶ BM Boeth.: om. ACLa El. comm.</note>
+              <lb n="18" xml:id="p20-17"/>εἶναι, τὸ δὲ ἴδιον εἶναι ἄλλων ἴδιον ἀδύνατον. καὶ τὸ μὲν εἶδος προϋφέστηκεν<note type="apparatus" n="18" target="#p20-17">εἶναι post ἄλλων transpos. BMa: post ἴδιον (alterum) A</note><note type="apparatus" n="18-19" target="#p20-17 #p20-18">προϋφέστηκεν] ν m.² A</note>
+              <lb n="19" xml:id="p20-18"/>τοῦ ἰδίου, τὸ δὲ ἴδιον ἐπιγίνεται τῷ εἴδει· δεῖ γὰρ ἄνθρωπον εἶναι,
+              <lb n="20" xml:id="p20-19"/>ἵνα καὶ γελαστικὸν ᾖ. ἔτι τὸ μὲν εἶδος ἀεὶ ἐνεργείᾳ πάρεστι τῷ ὑποκειμένῳ,<note type="apparatus" n="20" target="#p20-19">καὶ om. Ma Boeth.</note>
+              <lb n="21" xml:id="p20-20"/>τὸ δὲ ἴδιόν ποτε καὶ δυνάμει· ἄνθρωπος μὲν γὰρ ἀεὶ ἐνεργείᾳ ὁ<milestone type="alt-edition" unit="line" ed="Brandis 1836" n="10"/><note type="apparatus" n="21" target="#p20-20">ἐνεργείᾳ post Σωκράτης transpos. BC</note>
+              <lb n="22" xml:id="p20-21"/>Σωκράτης ἐστίν, γελᾷ δὲ οὐκ ἀεί, καίπερ ἀεὶ πεφυκὼς εἶναι γελαστικός.
+              <lb n="23" xml:id="p20-22"/>ἔτι ὧν οἱ ὅροι διάφοροι, καὶ αὐτὰ διάφορά ἐστιν· ἔστιν δὲ εἴδους μὲν τὸ<note type="apparatus" n="23" target="#p20-22">ἔστιν (post διαφορὰ) om. BMa: exhib. ACL Boeth. εἴδους μὲν] speciei semper et Boeth. (?)</note>
+            </p>
+            <pb n="21" facs="https://archive.org/download/p1porphyriiisago04porp/page/n80.jpg"/>
+            <p>
+              <lb n="1" xml:id="p21-0"/>ὑπὸ τὸ γένος εἶναι καὶ τὸ κατὰ πλειόνων καὶ διαφερόντων τῷ ἀριθμῷ ἐν<note type="apparatus" n="1" target="#p21-0">τὸ (ante γένος) om. B¹</note>
+              <lb n="2" xml:id="p21-1"/>τῷ τί ἐστιν κατηγορούμενον εἶναι καὶ ὅσα τοιαῦτα, ἰδίου δὲ τὸ μόνῳ καὶ<note type="apparatus" n="2" target="#p21-1">εἶναι om. A: exhib. BCLMa: praedicari Boeth.</note><note type="apparatus" n="2-3" target="#p21-1 #p21-2">καὶ παντὶ καὶ ἀεὶ colloc. Ma</note>
+              <lb n="3" xml:id="p21-2"/>ἀεὶ καὶ παντὶ προσεῖναι.
+            </p>
+          </div>
+          <div type="textpart" subtype="section" n="23">
+            <head><lb n="4" xml:id="p21-3"/>Περὶ τῆς κοινωνίας τοῦ εἴδους καὶ τοῦ συμβεβηκότος.<note type="apparatus" n="4" target="#p21-3">tit. Περὶ τῆς κοινωνίας τοῦ εἴδ. καὶ τοῦ συμβ. ABCL: Περὶ τῶν κοινῶν εἴδους καὶ συμβ. Μ Boeth.: Περὶ κοινωνίας καὶ διαφορᾶς εἴδους καὶ συμβ. a</note></head>
+            <p>
+              <lb n="5" xml:id="p21-4"/>Εἴδους δὲ καὶ συμβεβηκότος κοινὸν μὲν τὸ ἐπὶ πολλῶν κατηγορεῖσθαι,<milestone type="alt-edition" unit="line" ed="Brandis 1836" n="15"/><note type="apparatus" n="5" target="#p21-4">πολλῶν ACL El. comment.: πλειόνων BMa Boeth.</note>
+              <lb n="6" xml:id="p21-5"/>σπάνιοι δὲ αἱ ἄλλαι κοινότητες διὰ τὸ πλεῖστον ἀλλήλων διεστάναι τό τε
+              <lb n="7" xml:id="p21-6"/>συμβεβηκὸς καὶ τὸ ᾧ συμβέβηκεν.
+            </p>
+          </div>
+          <div type="textpart" subtype="section" n="24">
+            <head><lb n="8" xml:id="p21-7"/>Περὶ τῆς διαφορᾶς τῶν αὐτῶν.<note type="apparatus" n="8" target="#p21-7">tit. om. a: Περὶ τῆς διαφορᾶς τῶν αὐτῶν ACL: Περὶ τῆς διαφορᾶς τοῦ εἴδους καὶ τοῦ συμβεβηκότος Β: Περὶ τῶν ἰδίων εἴδους καὶ συμβ. M Boeth.</note></head>
+            <p>
+              <lb n="9" xml:id="p21-8"/>Ἴδια δὲ ἑκατέρου, τοῦ μὲν εἴδους τὸ ἐν τῷ τί ἐστι κατηγορεῖσθαι ὧν
+              <lb n="10" xml:id="p21-9"/>ἐστιν εἶδος, τοῦ δὲ συμβεβηκότος τὸ ἐν τῷ ποῖον ἢ πῶς ἔχον. καὶ τὸ<note type="apparatus" n="10" target="#p21-9">post ποῖον add. τι El. comment.: τί ἐστιν BCa Boeth.: om. ALM post ἔχον add. ἐστιν a</note>
+              <lb n="11" xml:id="p21-10"/>ἑκάστην οὐσίαν ἑνὸς μὲν εἴδους μετέχειν, συμβεβηκότων δὲ πλειόνων, τῶν<milestone type="alt-edition" unit="line" ed="Brandis 1836" n="20"/>
+              <lb n="12" xml:id="p21-11"/>τε χωριστῶν καὶ τῶν ἀχωρίστων. καὶ τὰ μὲν εἴδη προεπινοεῖται τῶν συμβεβηκότων,<note type="apparatus" n="12" target="#p21-11">τῶν (ante ἀχωρίστων) om. M εἶναι om. M¹ (suppl. m.² in mrg.)</note>
+              <lb n="13" xml:id="p21-12"/><milestone type="alt-edition" unit="column" ed="Brandis 1836" n="6b"/> κἂν ἀχώριστα ᾖ (δεῖ γὰρ εἶναι τὸ ὑποκείμενον, ἵνα ἐκείνῳ
+              <lb n="14" xml:id="p21-13"/>τι συμβῇ)· τὰ δὲ συμβεβηκότα ὑστερογενῆ πέφυκεν καὶ ἐπεισοδιώδη τὴν φύσιν<note type="apparatus" n="14" target="#p21-13">post ὑστερογενῆ add. εἶναι B post καὶ add. ἐν B πέφυκεν] v m.² A ἐπεισοδιώδη AB²L Boeth. (adventiciae naturae): ἐπουσιώδη B¹Ca supra litura M²</note>
+              <lb n="15" xml:id="p21-14"/>ἔχει. καὶ τοῦ μὲν εἴδους ἡ μετοχὴ ἐπίσης, τοῦ δὲ συμβεβηκότος, κἂν ἀχώριστον<note type="apparatus" n="15" target="#p21-14">ἔχει om. CM Boeth.: exhib. ABLa</note>
+              <lb n="16" xml:id="p21-15"/>ᾖ, οὐκ ἐπίσης· καὶ γὰρ Αἰθίοψ Αἰθίοπος ἔχοι ἂν τὴν χροιὰν ἢ<milestone type="alt-edition" unit="line" ed="Brandis 1836" n="5"/><note type="apparatus" n="16" target="#p21-15">ante Αἰθίοψ add. ὁ AB²M: om. B¹CLa Αἰθίοπος] alio Aethiope Boeth. ἄν eras. B: ante ἔχοι transpos. C χροιὰν ABMa: χρόαν CL ἢ om. B</note>
+              <lb n="17" xml:id="p21-16"/>ἀνειμένην ἢ ἐπιτεταμένην κατὰ μελανίαν.
+              <lb n="18" xml:id="p21-17"/>Λείπεται δὴ περὶ ἰδίου καὶ συμβεβηκότος εἰπεῖν· πῇ γὰρ τὸ ἴδιον τοῦ<note type="apparatus" n="18" target="#p21-17">δὴ A²BCL Boeth.: δὲ A¹Ma ante ἰδίου add. τοῦ A: om. BCLMa πῇ ex corr. B²</note>
+              <lb n="19" xml:id="p21-18"/>τε εἴδους καὶ τῆς διαφορᾶς καὶ τοῦ γένους διενήνοχεν, εἴρηται.<note type="apparatus" n="19" target="#p21-18">τε om. B καὶ τοῦ γένους om. BL: exhib. ACMa Boeth.</note>
+            </p>
+          </div>
+          <div type="textpart" subtype="section" n="25">
+            <head><lb n="20" xml:id="p21-19"/>Περὶ τῆς κοινωνίας τοῦ ἰδίου καὶ τοῦ ἀχωρίστου συμβεβηκότος.<note type="apparatus" n="20" target="#p21-19">tit. Περὶ τῆς κοινωνίας τοῦ ἰδ. καὶ τοῦ ἀχ. συμβ. ABL: Περὶ κοινωνίας τοῦ ἰδ. καὶ τοῦ ἀχ. συμβ. C: Περὶ τῶν κοινῶν ἰδίου καὶ συμβ. M Boeth.: Περὶ κοινωνίας καὶ διαφορᾶς ἰδίου καὶ συμβ. a</note></head>
+            <p>
+              <lb n="21" xml:id="p21-20"/>Κοινὸν δὴ τῷ ἰδίῳ καὶ τῷ ἀχωρίστῳ συμβεβηκότι τὸ ἄνευ αὐτῶν
+              <lb n="22" xml:id="p21-21"/>μὴ ὑποστῆναι ἐκεῖνα, ἐφ’ ὧν θεωρεῖται· ὡς γὰρ ἄνευ τοῦ γελαστικοῦ οὐχ<milestone type="alt-edition" unit="line" ed="Brandis 1836" n="10"/><note type="apparatus" n="22" target="#p21-21">post μὴ add. ἂν B: om. ACLMa</note>
+            </p>
+            <pb n="22" facs="https://archive.org/download/p1porphyriiisago04porp/page/n81.jpg"/>
+            <p>
+              <lb n="1" xml:id="p22-0"/>ὑφίσταται ἄνθρωπος, οὕτως οὐδὲ ἄνευ τοῦ μέλανος ὑποσταίη ἂν Αἰθίοψ.<note type="apparatus" n="1" target="#p22-0">ἄνευ τοῦ μέλανος οὐκ ἂν ὑποσταίη Αἰθίοψ (οὐκ ἂν superscr. et ante Αἰθίοψ II litter ras.) B ante Αἰθίοψ add. ὁ A: om. BCLMa El. comment.</note>
+              <lb n="2" xml:id="p22-1"/>καὶ ὥσπερ παντὶ καὶ ἀεὶ πάρεστι τὸ ἴδιον, οὕτως καὶ τὸ ἀχώριστον συμβεβηκός.<note type="apparatus" n="2" target="#p22-1">ante παντὶ add. καὶ A: om. BCLMa Boeth. El. comment. semper et omni colloc. Boeth.</note>
+              <lb n="3" xml:id="p22-2"/>
+            </p>
+          </div>
+          <div type="textpart" subtype="section" n="26">
+            <head><lb n="4" xml:id="p22-3"/>Περὶ τῆς διαφορᾶς τῶν αὐτῶν.<note type="apparatus" n="4" target="#p22-3">tit. Περὶ τῆς διαφορᾶς τῶν αὐτῶν A: Περὶ διαφορᾶς τῶν αὐτῶν CLa: Περὶ διαφορᾶς τοῦ ἰδίου καὶ τοῦ ἀχωρίστου συμβεβηκότος B: Περὶ τῶν ἰδίων ἰδίου καὶ συμβεβηκότος M Boeth.</note></head>
+            <p>
+              <lb n="5" xml:id="p22-4"/>Διενήνοχεν δὲ ὅτι τὸ μὲν ἴδιον μόνῳ ἑνὶ εἴδει πάρεστιν ὡς τὸ γελαστικὸν<note type="apparatus" n="5" target="#p22-4">ἑνὶ μόνῳ πάρεστιν εἴδει colloc. α πάρεστιν BCLMa: πρόσεστιν A</note>
+              <lb n="6" xml:id="p22-5"/>ἀνθρώπῳ, τὸ δὲ ἀχώριστον συμβεβηκὸς οἷον τὸ μέλαν οὐκ Αἰθίοπι
+              <lb n="7" xml:id="p22-6"/>μόνον ἀλλὰ καὶ κόρακι πρόσεστι καὶ ἄνθρακι καὶ ἐβένῳ καὶ ἄλλοις τισίν.<milestone type="alt-edition" unit="line" ed="Brandis 1836" n="15"/>
+              <lb n="8" xml:id="p22-7"/>διὸ τὸ μὲν ἴδιον ἀντικατηγορεῖται οὗ ἐστιν ἴδιον καὶ ἔστιν ἐπίσης, τὸ δὲ<note type="apparatus" n="8" target="#p22-7">διὸ A Boeth.: ἔτι CMa: καὶ ὅτι in ras. B²L³</note>
+              <lb n="9" xml:id="p22-8"/>ἀχώριστον συμβεβηκὸς οὐκ ἀντικατηγορεῖται. καὶ τῶν μὲν ἰδίων ἐπίσης
+              <lb n="10" xml:id="p22-9"/>ἡ μετοχή, τῶν δὲ συμβεβηκότων ἡ μὲν μᾶλλον ἡ δὲ ἧττον.
+              <lb n="11" xml:id="p22-10"/>Εἰσὶν μὲν οὖν καὶ ἄλλαι κοινότητές τε καὶ ἰδιότητες τῶν εἰρημένων,<note type="apparatus" n="11" target="#p22-10">Εἰσὶν] ν m.² A</note>
+              <lb n="12" xml:id="p22-11"/>ἀλλ’ ἐξαρκοῦσι καὶ αὗται εἰς διάκρισίν τε αὐτῶν καὶ τῆς κοινωνίας παράστασιν.<milestone type="alt-edition" unit="line" ed="Brandis 1836" n="20"/><note type="apparatus" n="12-13" target="#p22-11 #p22-12">ante παράστασιν add. τὴν B²M</note>
+              <lb n="13" xml:id="p22-12"/><note type="apparatus" n="13" target="#p22-12">post παράστασιν add. τέλος τῆς πορφυρίου εἰσαγωγῆς ἥτις παραδίδωσιν ἡμῖν τί ποτέ ἐστι γένος καὶ τί εἶδος καὶ τί ἴδιον καὶ τί συμβεβηκὸς καὶ τί τὸ ἐν αὐτοῖς κοινὸν τί τε τὸ διάφορον AL</note>
+            </p>
+          </div>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,1188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt><title>Michael, In libros de animalium motione commentarium (CAG 22.2)</title><respStmt><resp>Responsible for the edition</resp><persName xml:id="NI" xml:lang="en">Naoya Iwata</persName></respStmt><respStmt><resp>Structuring of the text (division into chapters, sections and lemmata) and its review</resp><persName xml:id="TN" xml:lang="en">Tomomi Nakayama</persName></respStmt></titleStmt>
+      <publicationStmt>
+        <publisher>Humanitext</publisher>
+        <availability><licence target="https://creativecommons.org/licenses/by/4.0/">Public domain source; transcription CC BY 4.0 (Humanitext)</licence></availability>
+      </publicationStmt>
+      <sourceDesc><bibl>Michael, In libros de animalium motione commentarium. Commentaria in Aristotelem Graeca XXII.2, ed. M. Hayduck, Berlin: Reimer 1904, pp. 103–131. Scan: Internet Archive p1commentariaina22akaduoft (University of Toronto). Transcription: Humanitext OCR v2 (Gemini), 2026; structure: humanitext-cag-structuring.</bibl><bibl type="collation">First1KGreek tlg4034.tlg004.1st1K-grc1 (Open Greek and Latin Project, University of Leipzig; CC BY-SA 4.0), used only as a collation witness.</bibl></sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <refsDecl n="CTS">
+        <cRefPattern n="lemma" matchPattern="(.+)\.(.+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='chapter' and @n='$1']/tei:div[@subtype='lemma' and @n='$2'])"/>
+        <cRefPattern n="chapter" matchPattern="(.+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='chapter' and @n='$1'])"/>
+      </refsDecl><refsDecl n="page-line"><cRefPattern n="page.line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(//tei:pb[@n='$1']/following::tei:lb[@n='$2'][1])"><p>Citation by the page and line of the printed edition (CAG page.line, e.g. 105.17): the line with that number after the page break with that page number.</p></cRefPattern></refsDecl>
+      <editorialDecl>
+        <p>Text transcribed by OCR (Humanitext OCR v2, Gemini models) from the scans named in the source description. Structure (div, quote, head): assigned automatically from printed cues (Bekker references before lemmata, section numbers, headings, book titles, lecture headings; in the paraphrases, Aristotle's chapters located from the running heads) and reviewed by the editors at every boundary that was not certain. In works divided into lectures (Πρᾶξις, Θεωρία) the lectures are divs; topic headings that run across lectures (e.g. Περὶ οὐσίας) are marked milestone[@unit='topic'] and kept as text. Text: OCR of the page images (gemini-3-flash-preview; gemini-3.7-flash where it failed), collated word by word, page by page and in five-line blocks, with the First1KGreek transcription of the same edition (tlg4034.tlg004.1st1K-grc1). Lines on which the two disagreed, lines without a First1KGreek counterpart and lines containing a word form not attested in a Greek form lexicon (about two fifths of the lines) were read again from images of the single lines by a second model (gemini-3.8-flash); words still undecided were read line by line by a third model (gemini-3.1-pro-preview). A reading was adopted when the re-reading of the image agreed with it; the remaining words were decided on the page image by student assistants or by AI-assisted checking under the editor's supervision. Lines on which the OCR agreed word for word with First1KGreek and whose words are all attested were not re-read. No text was copied from First1KGreek (Open Greek and Latin Project, University of Leipzig; CC BY-SA 4.0): it served only as a collation witness, and every disagreement was decided from the page image of this edition. Spelling, accents and breathings follow the printed page: the models were instructed to transcribe exactly as printed and the checkers chose the printed form, but a normalised accentuation adopted by a model may occasionally remain. Later checks against the page images (line numbers, marginal references, signs and apparatus, omitted lines) are listed in the revision description. Headings inside a div (sub-headings, closing formulas, labels of tables) are ab[@type='head']. The words of diagrams and tables are not body text: each diagram or table is given once as figure after the last body line printed before it (labels, trees and tables transcribed; pure geometry described in figDesc); where the edition counts the rows of a diagram or table as lines, those line numbers are not used by any lb. Evident misprints of the printed edition, identified on the page image, are kept and given with the correct form as choice/sic/corr; mere variants of spelling or accentuation are left as printed. Misprinted numbers in milestones (Bekker references, old-edition page, folio, column and line numbers), which cannot carry choice/sic/corr, are given with the corrected value where the sequence of the numbers determines it. Line breaks: one lb per printed line; @n is the line count of the CAG page (headings included), resynchronised on the printed marginal numbers of the left margin; lines the edition does not count carry lb without @n. Words hyphenated across lines are joined and the lb is placed at the following word boundary. pb/@facs points to the image of the page in the Internet Archive item named in the source description (BookReader page image; for pages supplied from another copy, that copy). Critical-apparatus entries are attached to the line(s) they cite as note[@type='apparatus'] with @target on the lb (line level; the lemma words of an entry are not linked); entries that cannot be resolved remain as note[@type='footnote'] at the page end. References in the margins to older editions or manuscripts are milestone[@type='alt-edition'] with @unit and @ed (the edition identified from the preface of the volume); CAG's repetition of the current old-edition page or folio beside the first line of each page is not encoded. Bekker references printed before lemmata are milestone[@unit='bekker']. Marginal digits fused into the text by OCR have been removed.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc><change when="2026-09-15" who="#NI">OCR of the page images in text mode (gemini-3-flash-preview; gemini-3.7-flash where it failed); body lines aligned to the physical lines of the page image; physical lines left without an OCR line read again (31 lines recovered in the corpus).</change><change when="2026-09-24" who="#NI">Line numbers anchored on the printed marginal numerals; 75 doubtful pages of the corpus checked by eye.</change><change when="2026-09-25" who="#NI">Automatic division into chapters, sections and lemmata; 459 uncertain boundaries of the corpus reviewed (273 removed, 119 added).</change><change from="2026-09-26" to="2026-09-29" who="#NI">Line numbers verified against the printed marginal numerals of every page (67,352 of 70,149 numerals agreed); page-wide shifts corrected automatically (322 pages on 2026-09-26, 129 on 2026-09-28); 227 pages reviewed by student assistants (176 corrected).</change><change from="2026-09-30" to="2026-10-02" who="#NI">Text collated with First1KGreek where a First1KGreek file could be aligned by page and line, and re-read (Gemini Batch API): 156,504 lines of the corpus by gemini-3.8-flash, 21,570 lines by gemini-3.1-pro-preview; remaining words put on review sheets.</change><change from="2026-09-30" to="2026-10-12" who="#NI">Review sheets of the re-read words answered by student assistants; the remaining words decided on the page images.</change><change from="2026-10-01" to="2026-10-08" who="#TN">All uncertain structural boundaries reviewed; conventions of the pilot works applied (lectures, book titles, topic headings).</change><change when="2026-10-02" who="#NI">Evident misprints given as choice/sic/corr; headings inside divs as ab[@type='head'].</change><change when="2026-10-13" who="#NI">Margin references to older editions and manuscripts encoded as milestone[@type='alt-edition'][@ed], the editions identified from the prefaces; irregular sequences checked on the page images.</change><change from="2026-10-13" to="2026-10-14" who="#NI">Body text lost to the footnote and figure areas found by collation from the First1KGreek side and restored (about 2,300 lines in the corpus); passages missed by the OCR read again and inserted; restored and inserted lines checked again against the images.</change><change when="2026-10-14" who="#NI">Text of diagrams encoded as figure, and lemma Bekker references whose numbers the OCR had lost read from the images (where the work has them).</change><change when="2026-10-16" who="#NI">Line numbers of the 875 pages left by the verification checked on the images (248 of them also answered by student assistants), followed by a continuity check of every page; margin references to older editions checked on 2,237 page images (944 corrections).</change><change when="2026-10-17" who="#NI">Pages whose line numbering still had gaps or repeats checked on the images (355 pages); signs (〈 〉 [ ] † * — ( )) compared with First1KGreek and 445 pages checked on the images (313 corrections in the text, 523 in the apparatus); words hyphenated across lines joined; punctuation normalised.</change><change when="2026-10-20" who="#NI">Header revised (title, source description, editorial declaration, revision description); misprinted old-edition line numbers given with the corrected value where the sequence determines them; breathings and accents written as separate signs before capitals composed with the letter; missing elision marks after ἀλλ, κατ, καθ, ἐπ, δι etc. supplied in the text; numbers left at line starts removed or encoded as old-edition milestones (image checked); working row identifiers left in 37 lines removed (one line restored from the page image); words divided at a line end that had been joined to a word two lines down corrected; every body line without a line number checked on the page images (margin labels and folio marks read as lines dropped, duplicated rows removed, numbers given to lines the edition counts); numeral signs unified as ʹ (U+0374, stored in its NFC form U+02B9); line-number jumps, old-edition milestones without an edition name and notes suspected to hold body text checked on the page images; citation by printed page and line declared (refsDecl); line coordinates of the working files realigned on the marginal numerals; printers' signatures at the foot of the page removed from the apparatus; apparatus entries for two lines joined by et kept as one note pointing at both lines; page images linked from pb/@facs.</change><change when="2026-10-21" who="#NI">Old-edition line numbers checked on the page images where the sequence skipped a number (2,100 places in the corpus) and, page by page, where it was irregular (542 pages): numbers missed by the OCR added (549), milestones not printed on the page dropped (190; mostly the CAG's own left-margin numbers or line references of the apparatus taken for old-edition numbers), misplaced ones moved (69), misread values corrected (31), page numbers taken for line numbers made page milestones (8); the edition's own skips and out-of-order numbers left as printed, the line count printed beside the repeated page or folio at the head of a page not encoded (like the repetition).</change><change when="2026-10-23" who="#NI">Quotation marks made uniform: opening single and double quotation marks, printed in the edition in the reversed (high-reversed-9) form, are encoded as ‘ and “, closing ones as ’ and ”, single and double kept as printed; opening marks read by the OCR as straight quotes, low quotes or spacing breathings, and spacing breathings or quotation marks doubled before a capital that already bears its breathing, corrected.</change><change when="2026-10-23" who="#NI">Errors found by the accuracy evaluation (sample checked against the page images by student assistants, readings confirmed by the editor) corrected: 1 in the apparatus.</change></revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="edition" n="urn:cts:greekLit:tlg4034.tlg004.humanitext-grc1" xml:lang="grc">
+        <pb n="103" facs="https://archive.org/download/p1commentariaina22akaduoft/page/n314.jpg"/>
+        <div type="textpart" subtype="chapter" n="1">
+          <head><lb n="1" xml:id="p103-0"/>ΣΧΟΛΙΑ ΕΙΣ ΤΟ ΠΕΡΙ ΖΩΩΝ ΚΙΝΗΣΕΩΣ.<note type="apparatus" n="1" target="#p103-0">Tit. Σχόλια—κινήσεως SCa: ante σχόλια add. τοῦ αὐτοῦ PR</note></head>
+          <div type="textpart" subtype="lemma" n="0">
+            <p>
+              <lb n="2" xml:id="p103-1"/>Ἐπειδὴ ἡ ὀρεκτική τε καὶ ὁρμητικὴ τῆς ψυχῆς δύναμις συνεζευγμέναι<note type="apparatus" n="2" target="#p103-1">τε om. CPR δύναμις καὶ ὁρμητικὴ τῆς ψυχῆς coll. CPR</note>
+              <lb n="3" xml:id="p103-2"/>οὖσαι ἀλλήλαις (ὁρμὴ γάρ τις καὶ ἡ ὄρεξις) αἰτίαι εἰσὶ τῆς κατὰ τόπον
+              <lb n="4" xml:id="p103-3"/>κινήσεως τῶν ζῴων (ἢ γὰρ ὀρεγόμενά τινος ἐπὶ τὸ λαβεῖν αὐτὸ ὁρμᾷ καὶ<note type="apparatus" n="4" target="#p103-3">τοῖς ζῴοις CPR αὐτὰ S</note>
+              <lb n="5" xml:id="p103-4"/>κινεῖται ἢ ἀποστρεφόμενα ἐπὶ τὸ ἐκκλῖναί τε καὶ φυγεῖν), ἔχουσι δὲ τὴν
+              <lb n="6" xml:id="p103-5"/>τάξιν μετὰ τὴν φανταστικὴν τῆς ψυχῆς δύναμιν (δοκεῖ γὰρ ἕπεσθαι μετὰ<milestone type="alt-edition" unit="line" ed="Aldina 1527" n="5"/>
+              <lb n="7" xml:id="p103-6"/>τὴν ἐπὶ ταῖς φαντασίαις συγκατάθεσιν ὁρμή, ὥσπερ οὖσα τέλος αὐτῆς,
+              <lb n="8" xml:id="p103-7"/>οὐκέτ’ οὖσα ἡ ὁρμητική τε καὶ ὀρεκτικὴ κριτική, ἀλλὰ τοῦ ἑτέρου μέρους<note type="apparatus" n="8" target="#p103-7">ἑτέρου] ἡμετέρου CSa</note>
+              <lb n="9" xml:id="p103-8"/>τῆς ψυχῆς τοῦ πρακτικοῦ· εἰς δύο γὰρ ἡ τῶν ζῴων διαιρουμένη ψυχή,
+              <lb n="10" xml:id="p103-9"/>εἰς τε τὸ κριτικὸν καὶ τὸ πρακτικόν, τοῦ πρακτικοῦ ἐστιν ἡ ὁρμητική τε<note type="apparatus" n="10" target="#p103-9">πρακτικὸν καὶ τὸ κριτικὸν coll. C et omisso τὸ PR</note>
+              <lb n="11" xml:id="p103-10"/>καὶ ὀρεκτική) ἐπεὶ οὖν ἡ ὀρεκτική τε καὶ ὁρμητικὴ αἰτίαι οὖσαι τῆς κατὰ
+              <lb n="12" xml:id="p103-11"/>τόπον κινήσεως μετὰ τὴν φαντασίαν εἰσίν, ἡ δὲ μνήμη ἐστὶν ἕξις φαντάσματος<milestone type="alt-edition" unit="line" ed="Aldina 1527" n="10"/>
+              <lb n="13" xml:id="p103-12"/>ὡς εἰκόνος οὗ φάντασμα, εἰκότως μετὰ τὸ Περὶ μνήμης τάττεται
+              <lb n="14" xml:id="p103-13"/>τὸ Περὶ ζῴων κινήσεως. ζητεῖ δὲ ἐν αὐτῷ τίς ἡ αἰτία τοῦ κινεῖσθαι τὰ<note type="apparatus" n="14" target="#p103-13">ἐν αὐτῷ om. Sa</note>
+              <lb n="15" xml:id="p103-14"/>ζῷα κίνησιν ὁποιανοῦν, καὶ ὅτι τὸ κινούμενον ὑφ’ ἑαυτοῦ δεῖ τι ἔχειν ἐν
+              <lb n="16" xml:id="p103-15"/>αὐτῷ ἀκίνητον δείκνυσι καὶ ὅτι καὶ ἐκτός, ἕτερόν γε ὂν αὐτοῦ. μετὰ ταῦτα
+              <lb n="17" xml:id="p103-16"/>ζητεῖ τί ἐστι τὸ κινοῦν τὸν οὐρανόν, εἶτα ἐνίσταται πρὸς τοὺς λέγοντας<note type="apparatus" n="17" target="#p103-16">οὐρανόν] ἄνθρωπον CPR</note>
+              <lb n="18" xml:id="p103-17"/>τὸν Ἄτλαντα ὀχεῖν τὸν οὐρανόν. εἶτα ζητεῖ εἰ ἐνδέχεται φθαρῆναι ὁ κόσμος,
+              <lb n="19" xml:id="p103-18"/>εἶτα λέγει διὰ τί δεῖ ἀκίνητον εἶναι, ἵνα κινῆται ὁ κόσμος. εἶτα ἐφιστάνει<note type="apparatus" n="19" target="#p103-18">τὸν κόσμον CPR</note><milestone type="alt-edition" unit="line" ed="Aldina 1527" n="15"/>
+              <lb n="20" xml:id="p103-19"/>εἰ τοῖς ἀψύχοις τοῖς κινουμένοις δεῖ τι καὶ ἐντὸς καὶ ἐκτὸς εἶναι ἀκίνητον.
+              <lb n="21" xml:id="p103-20"/>εἶτα ζητεῖ πότερον τῶν κατὰ τόπον κινουμένων δεῖ τι ἐκτὸς ἠρεμεῖν ἢ καὶ
+              <lb n="22" xml:id="p103-21"/>τῶν αὐξανομένων καὶ ἀλλοιουμένων. εἶτα πῶς ἡ ψυχὴ κινεῖ τὰ σώματα,
+              <lb n="23" xml:id="p103-22"/>καὶ τίς ἀρχὴ τῶν ζῴων τῆς ἑκουσίου κινήσεως, καὶ πῶς ἐνίοτε νοοῦντες<note type="apparatus" n="23" target="#p103-22">post τίς add. ἡ a νοοῦντες] κινοῦντα CPR</note>
+              <lb n="24" xml:id="p103-23"/>οὐ πράττουσιν. εἶτα λέγει ὅτι τὸ πρῶτον κινοῦν τὸ ζῷον σὺν τῇ ἀρχῇ
+              <lb n="25" xml:id="p103-24"/>ἔστιν, εἶτα ὅτι τῷ πνεύματι κινουμένῳ τὰ ζῷα κινεῖται, καὶ πῶς κινεῖται<note type="apparatus" n="25" target="#p103-24">post εἶτα add. λέγει CPR κινούμενα CPR</note>
+            </p>
+            <pb n="104" facs="https://archive.org/download/p1commentariaina22akaduoft/page/n315.jpg"/>
+            <p>
+              <lb n="1" xml:id="p104-0"/>τὰ ζῷα τὰς οὐχ ἑκουσίους κινήσεις καὶ τὰς ἑκουσίους, καὶ διὰ τί μάλιστα<milestone type="alt-edition" unit="folio" ed="Aldina 1527" n="149r"/>
+              <lb n="2" xml:id="p104-1"/>καρδία καὶ αἰδοῖον οὕτω κινοῦνται, καὶ πῶς ἡ μὲν ἀρχὴ ἀπὸ τῶν μορίων,<note type="apparatus" n="2" target="#p104-1">κινεῖται CPR</note><milestone type="alt-edition" unit="line" ed="Aldina 1527" n="21"/>
+              <lb n="3" xml:id="p104-2"/>τὰ δὲ μόρια πάλιν ἀπὸ τῆς ἀρχῆς κινεῖται. φροιμίων μὲν ἅλις, ἐπὶ δὲ
+              <lb n="4" xml:id="p104-3"/>τὴν τῶν λεγομένων σαφήνειαν ἴωμεν εὐχόμενοι τῷ τῶν λόγων ἐφόρῳ θεῷ
+              <lb n="5" xml:id="p104-4"/>ἀκριβῆ τούτων δοῦναι ἡμῖν κατανόησιν.<note type="apparatus" n="5" target="#p104-4">ἀκριβῶς C ἡμῖν δοῦναι τὴν κατανόησιν CPR</note>
+            </p>
+          </div>
+          <div type="textpart" subtype="lemma" n="1">
+            <milestone unit="bekker" n="698a1"/>
+            <quote type="lemma">
+              <lb n="6" xml:id="p104-5"/>Περὶ δὲ κινήσεως τῆς τῶν ζῴων, ὅσα μὲν περὶ ἕκαστον<note type="apparatus" n="6" target="#p104-5">τῆς τῶν om. CPR</note><note type="apparatus" n="6-7" target="#p104-5 #p104-6">ἑκάτερον γένος αὐτῶν ὑπάρχει S</note>
+            </quote>
+            <p>
+              <lb n="7" xml:id="p104-6"/>αὐτῶν ὑπάρχει γένος καὶ τίνες διαφοραί.<milestone type="alt-edition" unit="line" ed="Aldina 1527" n="25"/>
+              <lb n="8" xml:id="p104-7"/>Εἴρηκεν ἐν τῇ Περὶ ζῴων πορείας περὶ ἁπάντων τῶν ὑπαρχόντων
+              <lb n="9" xml:id="p104-8"/>ἑκάστῳ γένει ἢ εἴδει τῶν ζῴων <milestone type="alt-edition" unit="folio" ed="Aldina 1527" n="149v"/> καὶ περὶ τῆς διαφορᾶς αὐτῶν· εἶπε<note type="apparatus" n="9" target="#p104-8">γένη ἢ εἴδη a</note>
+              <lb n="10" xml:id="p104-9"/>γὰρ ἐκεῖ διὰ τί τὰ μὲν αὐτῶν τέτρασι σημείοις κινεῖται τὰ δὲ πλείοσι,<note type="apparatus" n="10-11" target="#p104-9 #p104-10">αὐτῶν — μέν ἐστιν om. CPR</note>
+              <lb n="11" xml:id="p104-10"/>καὶ διὰ τί τὰ μέν ἐστιν αὐτῶν ἄποδα τὰ δ’ ὑπόποδα, καὶ ὅλως περί τε
+              <lb n="12" xml:id="p104-11"/>τῆς διαφορᾶς αὐτῶν περί τε τῶν ὑπαρχόντων αὐτοῖς χρησίμων πρὸς τὴν<note type="apparatus" n="12" target="#p104-11">πρὸς] εἰς CPR</note>
+              <lb n="13" xml:id="p104-12"/>πορείαν εἶπεν ἐν ἐκείνῳ τῷ βιβλίῳ. ἐνταῦθα δὲ ζητήσει τί τὸ κοινὸν αἴτιον<note type="apparatus" n="13" target="#p104-12">ante ἐνταῦθα add. τὰ PR ζητεῖ C</note><milestone type="alt-edition" unit="line" ed="Aldina 1527" n="5"/>
+              <lb n="14" xml:id="p104-13"/>τοῦ κινεῖσθαι ἕκαστον ὡς πέφυκε κινεῖσθαι· καὶ γὰρ τὰ μὲν πτήσει τὰ δὲ
+              <lb n="15" xml:id="p104-14"/>ἕρψει τὰ δὲ ἄλλως πέφυκε κινεῖσθαι. δέδεικται δὲ καὶ ἐν τῷ Θ τῆς Φυσικῆς<note type="apparatus" n="15" target="#p104-14">ἕψει a δὲ καὶ om. CPR</note><note type="apparatus" n="15-16" target="#p104-14 #p104-15">et 20. 21 ἐν τῷ Θ τῆς Φυσικῆς ἀκρ.] c. 5</note>
+              <lb n="16" xml:id="p104-15"/>ἀκροάσεως ὅτι τοῦ αὐτοκινήτου τὸ ἀκίνητον, τοῦτο δ’ ἐστὶν ἡ ψυχή,
+              <lb n="17" xml:id="p104-16"/>ἀρχὴ τῶν ἄλλων ἐστὶ κινήσεων. πρῶτον δὲ κινοῦν λέγει τὸν πρῶτον θεόν.<note type="apparatus" n="17" target="#p104-16">ἐστὶ om. S post τὸν add. παρ’ ἐκείνῳ CPR</note>
+            </p>
+          </div>
+          <div type="textpart" subtype="lemma" n="2">
+            <milestone unit="bekker" n="698a11"/>
+            <quote type="lemma">
+              <lb n="18" xml:id="p104-17"/>Δεῖ δὲ τοῦτο μὴ μόνον τῷ λόγῳ λαβεῖν.<note type="apparatus" n="18" target="#p104-17">λόγῳ καθόλου λαβεῖν a Arist. vulg.</note>
+            </quote>
+            <p>
+              <lb n="19" xml:id="p104-18"/>Τὸ 〈τῷ〉 λόγῳ ἀντὶ τοῦ καθόλου. εἰπὼν ὅτι δὲ τῶν ἄλλων πασῶν<note type="apparatus" n="19" target="#p104-18">Τὸ — καθόλου om. a: Τὸ — λόγῳ om. S τῷ addidi εἰπὼν om. R</note>
+              <lb n="20" xml:id="p104-19"/>κινήσεων ἀρχή ἐστι τὸ ἀκίνητον, δέδεικται καθόλου (ἐδείχθη γὰρ ἐν τῷ
+              <lb n="21" xml:id="p104-20"/>Θ τῆς Φυσικῆς ἀκροάσεως) λέγει ὅτι δεῖ δὲ τοῦτο, τουτέστι τὸ λέγειν<note type="apparatus" n="21" target="#p104-20">λέγει] λέγει δὲ S: λόγῳ CR δεῖ δὲ ὅτι coll. a</note><milestone type="alt-edition" unit="line" ed="Aldina 1527" n="25"/>
+              <lb n="22" xml:id="p104-21"/>ὡς ἀνάγκη εἶναί τι ἀκίνητον, εἰ μέλλει εἶναι κίνησις, μὴ μόνον τῷ λόγῳ<note type="apparatus" n="22" target="#p104-21">εἶναί τι] θεῖναί τι a μέλλοι a</note>
+              <lb n="23" xml:id="p104-22"/>καὶ καθόλου λαβεῖν, μηδὲ ἀρκεῖσθαι τῇ ἐν τῷ Θ καθόλου δείξει, ἀλλὰ<note type="apparatus" n="23" target="#p104-22">τῇ θῆτα a</note>
+              <lb n="24" xml:id="p104-23"/>καὶ ἐπὶ τῶν καθ’ ἕκαστα βασανίσαι τὸν λόγον. διὰ γὰρ τῶν καθ’
+              <lb n="25" xml:id="p104-24"/>ἕκαστα ζητοῦμεν καὶ τοὺς καθόλου λόγους· οὓς εἰ μὲν εὑρήσομεν ἐφαρμόζοντας
+              <lb n="26" xml:id="p104-25"/>τοῖς μερικοῖς, πιστεύομεν, εἰ δὲ μή, ἀποσειόμεθα. ὅτι δ’ ἠρεμοῦσιν<note type="apparatus" n="26" target="#p104-25">ἀποσειώμεθα a</note>
+              <lb n="27" xml:id="p104-26"/>ἐν ἡμῖν αἱ καμπαί, εἴρηται ἐν τῷ Περὶ πορείας ζῴων· τοῦ γὰρ βραχίονος<note type="apparatus" n="27" target="#p104-26">ἐν τῷ Περὶ πορείας ζῴων] c. 3. 9</note><milestone type="alt-edition" unit="line" ed="Aldina 1527" n="30"/>
+              <lb n="28" xml:id="p104-27"/>κινουμένου ἠρεμεῖ τὸ ὠλέκρανον καὶ τῆς κνήμης τὸ γόνυ· ἐκτὸς δ’ ἡμῶν
+            </p>
+            <pb n="105" facs="https://archive.org/download/p1commentariaina22akaduoft/page/n316.jpg"/>
+            <p>
+              <lb n="1" xml:id="p105-0"/>x8<note type="apparatus" n="1" target="#p105-0">ἂν εἴη Sa</note>
+              <lb n="2" xml:id="p105-1"/>κῶλον ἓν μέν ἐστι δυνάμει ἐνεργείᾳ δὲ δύο ἐν τῇ κάμψει, ἓν δὲ ἐνεργείᾳ
+              <lb n="3" xml:id="p105-2"/>δυνάμει δὲ δύο ἐν τῇ ἐκτάσει, ὥσπερ, φησίν, ἂν ἐπὶ τῆς διαμέτρου ἡ μὲν<note type="apparatus" n="3" target="#p105-2">ἐκστάσει R2a φησίν, ἂν] φησὶ καὶ a</note>
+              <lb n="4" xml:id="p105-3"/>Α καὶ Δ μένοι, τουτέστιν ἡ ΑΔ μένοι, ἡ δὲ Β κινοῖτο, τουτέστιν ἡ δὲ<note type="apparatus" n="4" target="#p105-3">μένοι ante τουτέστιν ex μένει corr. S1: μένει PRa ἡ αδ μένει CRa δὲ ante ΑΒ om. Ca</note><note type="apparatus" n="4-5" target="#p105-3 #p105-4">κινεῖται utrobique a</note>
+              <lb n="5" xml:id="p105-4"/>ΑΒ κινοῖτο, καὶ γίνοιτο ἡ ΑΓ κίνησις. ἔστω δὲ ΑΔ τὸ ἀπὸ τοῦ ὤμου<note type="apparatus" n="5" target="#p105-4">βα PR γίνεται CSa: γίνῆ R</note><milestone type="alt-edition" unit="line" ed="Aldina 1527" n="35"/>
+              <lb n="6" xml:id="p105-5"/>ἕως τοῦ ὠλεκράνου, ΑΒ δὲ ὁ βραχίων. ἀλλ’<note type="apparatus" n="6" target="#p105-5">ΑΒ scripsi: β libri</note>
+              <lb n="7" xml:id="p105-6"/>ἐπὶ μὲν τῆς διαμέτρου τοῦ κύκλου δοκεῖ κατὰ
+              <lb n="8" xml:id="p105-7"/>πάντα ἀδιαίρετον εἶναι τὸ κέντρον, τὰ δὲ ἐν ταῖς<note type="apparatus" n="8" target="#p105-7">εἶναι ἀδιαίρετον coll. CPR</note>
+              <lb n="9" xml:id="p105-8"/>καμπαῖς ὁτὲ μὲν γίνεται ἕν, ὁτὲ δὲ διαιρετά,
+              <lb n="10" xml:id="p105-9"/>τουτέστιν ὁτὲ δὲ δύο. καὶ εἴρηται πότε
+              <lb n="11" xml:id="p105-10"/>ἓν καὶ πότε δύο δυνάμει καὶ ἐνεργείᾳ. σαφῶς<note type="apparatus" n="11" target="#p105-10">πότε om. Sa</note>
+              <lb n="12" xml:id="p105-11"/>δὲ τὰ λοιπὰ ἀπαγγέλλει. ὅλον δὲ ἀθρόον κινεῖται
+              <lb n="13" xml:id="p105-12"/>τὸ ἁλλόμενον. τὸ δὲ ἀλλὰ πᾶσα ἡ ἐν<note type="apparatus" n="13-14" target="#p105-12 #p105-13">ἡ ἐν αὑτῷ om. PR: ἐν αὐτῷ om. C</note>
+              <lb n="14" xml:id="p105-13"/>αὐτῷ ἠρεμία τοιοῦτόν ἐστι δυνάμει ‘κἂν μέρη<note type="apparatus" n="14" target="#p105-13">post μέρη add. αὐτοῦ CPR</note>
+              <lb n="15" xml:id="p105-14"/>τινὰ ἠρεμῇ κἂν ἅπαντα, εἰ μὴ ᾖ τι ἔξωθεν ἁπλῶς ἠρεμοῦν καὶ κυρίως,<note type="apparatus" n="15" target="#p105-14">εἰ μὴ εἴη τὸ ἔξωθεν CPR ἠρεμοῦν ἁπλῶς coll. CPR</note><milestone type="alt-edition" unit="line" ed="Aldina 1527" n="41"/>
+              <lb n="16" xml:id="p105-15"/>οὐδ’ ὅλως ἂν γένοιτο κίνησις’.<note type="apparatus" n="16" target="#p105-15">οὐδὲν ἂν ὅλως CPR γένηται libri</note>
+            </p>
+          </div>
+          <div type="textpart" subtype="lemma" n="3">
+            <milestone unit="bekker" n="698b10"/>
+            <quote type="lemma">
+              <lb n="17" xml:id="p105-16"/>Ἔχει γὰρ τὴν θεωρίαν οὐ μόνον ὅσον ἐπὶ τὰ ζῷα
+            </quote>
+            <p>
+              <lb n="18" xml:id="p105-17"/>συντείνουσαν.
+              <lb n="19" xml:id="p105-18"/>Τὸ δεικνύναι, φησίν, ὡς εἰ μὴ εἴη τι ἔξωθεν ἁπλῶς ἀκίνητον, οὐκ<note type="apparatus" n="19" target="#p105-18">εἰ om. PR</note>
+              <lb n="20" xml:id="p105-19"/>ἂν γένοιτο κίνησις, οὐ μόνον ἐπὶ τὰ ζῷα συντείνει, ἀλλὰ καὶ πρὸς τὸν<milestone type="alt-edition" unit="line" ed="Aldina 1527" n="50"/>
+              <lb n="21" xml:id="p105-20"/>σύμπαντα κόσμον· ἀνάγκη γὰρ καὶ ἐν τούτῳ εἶναί τι πάντως ἀκίνητον, εἰ<note type="apparatus" n="21" target="#p105-20">τούτοις PR τι πάντη πάντως CPR</note>
+              <lb n="22" xml:id="p105-21"/>μέλλει κινεῖσθαι ὁ οὐρανός. πάντῃ δὲ ἀκίνητόν ἐστιν ὅπερ αὐτὸς ἐν τῇ<note type="apparatus" n="22" target="#p105-21">μέλλοι PRa</note><note type="apparatus" n="22-23" target="#p105-21 #p105-22">ἐν τῇ Μετὰ τὰ φυσικὰ] Λ 7</note>
+              <lb n="23" xml:id="p105-22"/>Μετὰ τὰ φυσικὰ ζῷον ἀίδιον ἄριστον εἶπεν· τοιαῦτα γὰρ περὶ τούτου ἐν
+              <lb n="24" xml:id="p105-23"/>τῷ Λ τῆς πραγματείας ἐκείνης μεγαληγορεῖ. ταῦτα εἰπὼν λέγει ‘εἰ γὰρ<note type="apparatus" n="24" target="#p105-23">τῆς] τῶν C πραγματείας ἐκείνης] μετὰ τὰ φυσικὰ CPR εἰ] τῇ PR</note>
+              <lb n="25" xml:id="p105-24"/>ὑποδώσει καὶ ὑπείξει ἀεὶ ἡ γῆ τοῖς ἐν τῇ γῇ πορευομένοις μυσίν (ἔστω<note type="apparatus" n="25" target="#p105-24">ὑποδήσει PR</note>
+              <lb n="26" xml:id="p105-25"/>γὰρ λόγου ἕνεκεν τὰ πορευόμενα μῦς), οὐκ ἔσται πορεία’. ἀνάγκη δὲ τὸ<note type="apparatus" n="26" target="#p105-25">μῦς (sic) CPRS: μύες a</note>
+              <lb n="27" xml:id="p105-26"/>κυρίως μένον ἕτερον <milestone type="alt-edition" unit="folio" ed="Aldina 1527" n="150r"/> εἶναι τοῦ κινουμένου, καὶ ὅλον ὅλου. δεῖ γὰρ<note type="apparatus" n="27-28" target="#p105-26 #p105-27">τοῦ κινουμένου — ἕτερον εἶναι om. P</note>
+              <lb n="28" xml:id="p105-27"/>ὅλον τὸ μένον ἕτερον εἶναι ὅλου τοῦ κινουμένου, καὶ μηδὲν εἶναι μόριον<note type="apparatus" n="28" target="#p105-27">post μόριον add. αὐτοῦ CPR</note>
+              <lb n="29" xml:id="p105-28"/>τοῦ κινουμένου τὸ οὕτως ἀκίνητον, τουτέστι τὸ κυρίως ἀκίνητον.
+              <lb n="30" xml:id="p105-29"/>προσέθηκε δὲ τοῦτο, διότι ὁ ἐν τῷ πλοίῳ ὤν, ὡς ἐρεῖ μετ’ ὀλίγον, καὶ<note type="apparatus" n="30" target="#p105-29">ὁ om. PRS</note>
+            </p>
+            <pb n="106" facs="https://archive.org/download/p1commentariaina22akaduoft/page/n317.jpg"/>
+            <p>
+              <lb n="1" xml:id="p106-0"/>ὠθῶν τὸν ἱστὸν τῷ κοντῷ μόριόν ἐστι τοῦ πλοίου καὶ ἐπὶ τούτῳ οὐ κινεῖται<note type="apparatus" n="1" target="#p106-0">ἐστὶ τοῦ—μόριον (2) in marg. P</note>
+              <lb n="2" xml:id="p106-1"/>τὸ πλοῖον· καὶ γὰρ ὁ ἐν τῷ πλοίῳ ὢν τρόπον τινὰ μόριόν ἐστι τοῦ πλοίου.<note type="apparatus" n="2" target="#p106-1">καὶ γὰρ—πλοίου om. a</note>
+            </p>
+          </div>
+          <div type="textpart" subtype="lemma" n="4">
+            <milestone unit="bekker" n="698b21"/>
+            <quote type="lemma">
+              <lb n="3" xml:id="p106-2"/>Μαρτύριον δὲ τούτου τὸ ἀπορούμενον, διὰ τί ποτε τὸ<note type="apparatus" n="3" target="#p106-2">τοῦ τ R ποτε om. S</note><milestone type="alt-edition" unit="line" ed="Aldina 1527" n="5"/>
+            </quote>
+            <p>
+              <lb n="4" xml:id="p106-3"/>πλοῖον ἔξωθεν μὲν ἄν τις ὠθῇ τῷ κοντῷ τὸν ἱστόν.<note type="apparatus" n="4" target="#p106-3">μὲν ἔξωθεν coll. a</note>
+              <lb n="5" xml:id="p106-4"/>Τὸ ἑξῆς τῆς λέξεως τοιοῦτον ‘διὰ τί ποτε τὸ πλοῖον κινεῖται ῥᾳδίως,<milestone type="alt-edition" unit="line" ed="Aldina 1527" n="15"/>
+              <lb n="6" xml:id="p106-5"/>ἄν τις ἔξωθεν τοῦ πλοίου ὢν ὠθῇ τὸ πλοῖον προσβάλλων τῷ ἱστῷ τὸν<note type="apparatus" n="6-7" target="#p106-5 #p106-6">τὸν ἱστὸν τῷ κοντῷ Sa</note>
+              <lb n="7" xml:id="p106-6"/>κοντόν’; τὸ δὲ λεγόμενον ‘μαρτύριον δὲ καὶ πίστις ἐναργὴς τοῦ δεῖν εἶναί<note type="apparatus" n="7" target="#p106-6">post πίστις add. ἱκανὴ καὶ CPR</note>
+              <lb n="8" xml:id="p106-7"/>τι ἀκίνητον, εἰ μέλλει γενέσθαι κίνησις, τὸ συμβαῖνον ἐπὶ τοῦ πλοίου· τὸ<note type="apparatus" n="8" target="#p106-7">μέλλοι libri γίνεσθαι Ca ἐπὶ τὸ πλοῖον PR</note>
+              <lb n="9" xml:id="p106-8"/>γὰρ πλοῖον ἄν τις ἐν τῇ γῇ ἱστάμενος ὠθῇ μετὰ ῥάβδου ἢ κοντοῦ προσβάλλων<note type="apparatus" n="9" target="#p106-8">ἐν τῇ γῇ ὠθῇ ἱστάμενον PR</note>
+              <lb n="10" xml:id="p106-9"/>καὶ ἀπερείδων τὸν κοντὸν τῷ ἱστῷ ἢ ἄλλῳ τινὶ μέρει τοῦ πλοίου,<note type="apparatus" n="10" target="#p106-9">τὸν κοντὸν ex τῷ κοντῷ corr. S</note>
+              <lb n="11" xml:id="p106-10"/>οἷον τῇ πρύμνῃ, κινεῖται ῥᾳδίως· ἂν δ’ ἐν αὐτῇ τῇ πρύμνῃ καθήμενος
+              <lb n="12" xml:id="p106-11"/>προσβάλλῃ τὸν κοντὸν τῷ ἱστῷ καὶ πειρᾶται κινῆσαι, οὐκ ἂν δυνήσεται<note type="apparatus" n="12" target="#p106-11">τὸν ἱστὸν τῷ κοντῷ S δυνήσηται R: δύνηται SCa</note><milestone type="alt-edition" unit="line" ed="Aldina 1527" n="20"/>
+              <lb n="13" xml:id="p106-12"/>τοῦτο ποιῆσαι, οὔτε ἂν ὁ Τιτυὸς ᾖ ὁ κινῶν οὔτε ἂν ὁ Βορέας ἦν ἐν αὐτῷ<note type="apparatus" n="13" target="#p106-12">ἂν prius] ἐξ a βορρέας S: βορρέως a</note>
+              <lb n="14" xml:id="p106-13"/>τῷ πλοίῳ καὶ ἔπνει ἀπ’ αὐτοῦ, ἐκίνησεν ἂν αὐτό. ἀλλὰ πῶς κινοῦσιν οἱ
+              <lb n="15" xml:id="p106-14"/>ἄνεμοι τὰ πλοῖα; ἢ ὅτι ἐκτὸς ὄντες τοῦ πλοίου πνέουσιν· εἰ δ’ ἀπ’ αὐτοῦ
+              <lb n="16" xml:id="p106-15"/>ἔπνεον, οὐκ ἂν ἐκίνησαν αὐτό. πῶς οὖν ταῦτα συμβαίνει; ἢ ὁ μὲν ἐν τῷ<note type="apparatus" n="16" target="#p106-15">ἢ ὅτι ὁ μὲν CPR</note>
+              <lb n="17" xml:id="p106-16"/>αἰγιαλῷ ἢ πέτρᾳ ἢ ὅλως γῇ ἑστὼς διὰ τὸ ἐν ἀκινήτῳ ἵστασθαι καὶ μὴ<note type="apparatus" n="17" target="#p106-16">πέτρα ὅλως ἑστὼς ἢ γῇ διὰ Sa</note>
+              <lb n="18" xml:id="p106-17"/>μέρος εἶναι τοῦ πλοίου κινεῖν αὐτὸ δύναται, ὁ δ’ ἐν αὐτῷ τῷ πλοίῳ ὢν<note type="apparatus" n="18" target="#p106-17">τῷ πλοίῳ om. CPR</note>
+              <lb n="19" xml:id="p106-18"/>κινεῖν οὐ δύναται διὰ τὸ δεῖν εἶναί τι ἀκίνητον, εἰ μέλλει γενέσθαι κίνησις.<note type="apparatus" n="19" target="#p106-18">μελλ S: μέλλοι CPRa γίνεσθαι a itemque 25</note><milestone type="alt-edition" unit="line" ed="Aldina 1527" n="25"/>
+              <lb n="20" xml:id="p106-19"/>εἰ δ’ ἐκινήθη τὸ πλοῖον ὑπὸ τοῦ ἐν αὐτῷ ὄντος, ἦν ἄρα καὶ ἠρεμοῦν<note type="apparatus" n="20" target="#p106-19">post ἄρα add. ἅμα a</note>
+              <lb n="21" xml:id="p106-20"/>καὶ κινούμενον, ὅπερ ἀδύνατον, ἠρεμοῦν μὲν διὰ τὸ δεῖν τὸν μέλλοντα
+              <lb n="22" xml:id="p106-21"/>κινήσειν πρὸς ἠρεμοῦν τι ἀπερείδεσθαι, ἵν’ ὠθήσῃ, κινούμενον δὲ διὰ τὸ<note type="apparatus" n="22" target="#p106-21">κινῆσαι CPR</note>
+              <lb n="23" xml:id="p106-22"/>ὑποκεῖσθαι ὅτι κινεῖται ὑπὸ τοῦ ὄντος ἐν αὐτῷ. εἰ οὖν μήθ’ ὁ Τιτυὸς<note type="apparatus" n="23" target="#p106-22">Τιτυὸς] τινὸς a</note>
+              <lb n="24" xml:id="p106-23"/>μήθ’ ὁ Βορέας δύνανται κινεῖν τὸ πλοῖον ἐν αὐτῷ ὄντες, φανερὸν ἄρα ὅτι<note type="apparatus" n="24" target="#p106-23">δύναται PR ἄρα om. CPR</note>
+              <lb n="25" xml:id="p106-24"/>ἀνάγκη εἶναί τι ἀκίνητον, εἰ μέλλει γενέσθαι κίνησις, καὶ τοῦτο ἐκτὸς καὶ<note type="apparatus" n="25" target="#p106-24">μέλλοι CPRa</note>
+              <lb n="26" xml:id="p106-25"/>μηδὲν εἶναι τοῦ κινουμένου μόριον’. ἡ μὲν τῶν λεγομένων διάνοια αὕτη.<note type="apparatus" n="26" target="#p106-25">μόριον τοῦ κινουμένου coll. PR post μὲν add. οὖν a</note><milestone type="alt-edition" unit="line" ed="Aldina 1527" n="30"/>
+              <lb n="27" xml:id="p106-26"/>τοὺς δὲ ἀνέμους ὅτι ὡς ἀνθρώπους γράφουσιν οἱ γραφεῖς ἐκ τοῦ στόματος
+              <lb n="28" xml:id="p106-27"/>αὐτῶν πέμποντας τὸ πνεῦμα, δῆλον παντί. τὸ δὲ ἀνάγκη πρῶτον μὲν
+              <lb n="29" xml:id="p106-28"/>πρὸς ἠρεμοῦν τι τῶν αὑτοῦ μορίων ἀπερειδόμενον ὠθεῖν τοιοῦτόν
+              <lb n="30" xml:id="p106-29"/>ἐστιν· ὁ κυβερνήτης ὠθῶν τὸ πλοῖον πρῶτον μὲν φέρε εἰπεῖν ἀπερείδει<note type="apparatus" n="30" target="#p106-29">ὠθῶν ὁ κυβερνήτης coll. CPR πρῶτον om. S: πρότερον C</note>
+            </p>
+            <pb n="107" facs="https://archive.org/download/p1commentariaina22akaduoft/page/n318.jpg"/>
+            <p>
+              <lb n="1" xml:id="p107-0"/>τὸν βραχίονα εἰς τὸ ὠλέκρανον, εἶτα ἢ αὐτὸ τὸ ὠλέκρανον ἀποστηρίζεται<note type="apparatus" n="1" target="#p107-0">εἶτα—ὠλέκρανον om. C ἢ om. a</note>
+              <lb n="2" xml:id="p107-1"/>πρός τι τῶν ἔξωθεν, οἷον πρὸς πέτραν ἢ ἄλλο τι, ἢ οὖν αὐτὸ ἀποστηρίζεται<note type="apparatus" n="2" target="#p107-1">post αὐτὸ add. τὸ C</note>
+              <lb n="3" xml:id="p107-2"/>ἢ ὁ κυβερνήτης, οὗ τινος κυβερνήτου μέρος ἐστὶ τὸ ὠλέκρανον. τὸ<milestone type="alt-edition" unit="line" ed="Aldina 1527" n="35"/>
+              <lb n="4" xml:id="p107-3"/>δὲ συμβαίνει δὲ αὐτῷ τὸ αὐτὸ ὅ τε κινεῖται καὶ πρὸς ὃ ἀποστηρίζεται<note type="apparatus" n="4" target="#p107-3">τὸ αὐτὸ αὐτῷ coll. CPR</note>
+              <lb n="5" xml:id="p107-4"/>ἴσον ἐστὶ τῷ συμβέβηκε δὲ αὐτῷ τῷ πλοίῳ ἅμα εἶναι καὶ κινούμενον
+              <lb n="6" xml:id="p107-5"/>καὶ μένον· πρὸς ὃ γὰρ ἀποστηριζόμεθα μένειν ἀνάγκη.<note type="apparatus" n="6" target="#p107-5">μένον] κινούμενον S</note>
+            </p>
+          </div>
+          <div type="textpart" subtype="lemma" n="5">
+            <milestone unit="bekker" n="699a12"/>
+            <quote type="lemma">
+              <lb n="7" xml:id="p107-6"/>Ἀπορήσειε δ’ ἄν τις, ἆρ’ εἴ τι κινεῖ τὸν ὅλον οὐρανόν,
+            </quote>
+            <p>
+              <lb n="8" xml:id="p107-7"/>εἶναι θέλει ἀκίνητον.<note type="apparatus" n="8" target="#p107-7">θέλει CPRS Arist. PS: τε δεῖ a Arist. vulg.</note>
+              <lb n="9" xml:id="p107-8"/>Ὅπερ ἀπορεῖ τοιοῦτόν ἐστι· πότερον τὸ κινοῦν τὸν οὐρανὸν ἀκίνητόν
+              <lb n="10" xml:id="p107-9"/>ἐστι, καὶ πότερον ἔστιν αὐτοῦ μόριον ἢ οὔ; καὶ γὰρ ἡ ψυχὴ κινεῖ τὸ
+              <lb n="11" xml:id="p107-10"/>ζῷον ἀκίνητος οὖσα, καὶ ὅμως μόριόν ἐστι τοῦ ὅλου ζῴου. ἆρ’ οὖν καὶ
+              <lb n="12" xml:id="p107-11"/>τὸ κινοῦν τὸν οὐρανὸν μόριόν ἐστι τοῦ οὐρανοῦ, ὡς καὶ ἡ ψυχὴ τοῦ ζῴου,<note type="apparatus" n="12" target="#p107-11">ὡς καὶ—οὐρανοῦ (14) om. CPR</note><milestone type="alt-edition" unit="line" ed="Aldina 1527" n="50"/>
+              <lb n="13" xml:id="p107-12"/>ἢ οὔ; εἰσὶ δὲ τὰ ζητούμενα τρία, ἓν μὲν εἰ κινεῖται τὸ κινοῦν τὸν οὐρανόν,
+              <lb n="14" xml:id="p107-13"/>δεύτερον δὲ εἰ ἔστι μόριον τοῦ οὐρανοῦ, καὶ τρίτον εἰ ἐν τῷ οὐρανῷ ἐστιν
+              <lb n="15" xml:id="p107-14"/>ὥσπερ καὶ ὁ κυβερνήτης ἐν τῷ πλοίῳ ἢ ὡς ἡ ψυχὴ ἐν τῷ ζῴῳ. θεὶς
+              <lb n="16" xml:id="p107-15"/>οὖν τὸ πρόβλημα δείκνυσι τέως πρῶτον ὅτι οὐ κινεῖται λέγων ‘εἴτε γὰρ<note type="apparatus" n="16" target="#p107-15">οὖν om. PR: δὲ Ca post γὰρ add. τὸ S</note>
+              <lb n="17" xml:id="p107-16"/>κινούμενον τὸ πρώτως κινοῦν τὸν οὐρανόν, ἀνάγκη εἶναί τι ἀκίνητον, ὡς
+              <lb n="18" xml:id="p107-17"/>δέδεικται, οὗ θιγγάνον κινήσει, καὶ τοῦτο, ἐν ᾧ ἀπερείδεται καὶ οὗ θιγγάνει,<note type="apparatus" n="18" target="#p107-17">θιγγάνον κινήσει] θιγγάνει κινούμενον PR</note>
+              <lb n="19" xml:id="p107-18"/>μηδὲν εἶναι μόριον τοῦ κινοῦντος. εἰ γάρ ἐστι μόριον αὐτοῦ ὥσπερ τῆς<note type="apparatus" n="19" target="#p107-18">μόριον μηδὲν εἶναι coll. CPR κινοῦντος] κινητοῦ S</note><milestone type="alt-edition" unit="folio" ed="Aldina 1527" n="150v"/>
+              <lb n="20" xml:id="p107-19"/>χειρὸς τὸ ὠλέκρανον, δεήσει πάλιν ἄλλου, ἐν ᾧ ἀπερείσεται. ἀλλὰ μὴν<note type="apparatus" n="20" target="#p107-19">post ᾧ add. πάλιν CPR ἀπερείδεται P</note>
+              <lb n="21" xml:id="p107-20"/>ἀδύνατον τὸ πρώτως κινοῦν θιγγάνειν τινὸς καὶ πρός τι ἀπερείδεσθαι
+              <lb n="22" xml:id="p107-21"/>ἀμερὲς ὂν καὶ ἀσώματον, ὡς ἐν τῷ τέλει τῆς Φυσικῆς ἀκροάσεως δέδεικται·<note type="apparatus" n="22" target="#p107-21">ὡς om. CPR ἐν τῷ τέλει τῆς Φυσικῆς ἀκροάσεως] θ 10 post τέλει add. τοῦ θ CPR</note>
+              <lb n="23" xml:id="p107-22"/>ὥστε οὐδὲ κινεῖται’. εἰ γὰρ ἀνάγκη τὸ κινοῦν κινούμενον πρός τι ἀπερείδεσθαι<note type="apparatus" n="23" target="#p107-22">post οὐδὲ add. ὡς δέδεικται CPR ante κινούμενον add. τὸ Sa</note>
+              <lb n="24" xml:id="p107-23"/>καὶ οὕτω κινούμενον κινεῖν, μὴ οἷόν τε δὲ ἀπερείδεσθαι πρός τι τὸ<milestone type="alt-edition" unit="line" ed="Aldina 1527" n="5"/>
+              <lb n="25" xml:id="p107-24"/>πρώτως κινοῦν, οὐδὲ κινεῖται ὅλως, ἀλλ’ ἔστιν ἀκίνητον. εἰ δὲ ἔστιν ἀκίνητον,
+              <lb n="26" xml:id="p107-25"/>ἀνάγκη μηδὲν εἶναι μόριον τοῦ κινουμένου· εἰ γὰρ εἴη μόριον τοῦ
+              <lb n="27" xml:id="p107-26"/>οὐρανοῦ, ἐπειδὴ δεῖ ἀκίνητον εἶναι, ἢ καὶ πᾶς ὁ οὐρανὸς μενεῖ ἢ εἰ κινεῖται,<note type="apparatus" n="27" target="#p107-26">ἢ εἰ] ἢ ἡ a</note>
+              <lb n="28" xml:id="p107-27"/>μένοντος τοῦ μέρους διασπασθήσεται. διὰ ταύτην οὖν τὴν αἰτίαν
+              <lb n="29" xml:id="p107-28"/>ὀρθῶς εἶπον οἱ λέγοντες ὅτι κύκλῳ φερομένης τῆς σφαίρας οὐδ’
+              <lb n="30" xml:id="p107-29"/>ὁτιοῦν μένει μόριον, ὅπερ ταὐτόν ἐστι τῷ κινοῦν οὐκ ἔστι μόριον.<note type="apparatus" n="30" target="#p107-29">μενεῖ P post τῷ add. τὸ a</note>
+              <lb n="31" xml:id="p107-30"/>καὶ τοῦτο μὲν λέγουσι καλῶς· σφάλλονται δὲ ᾗ φασιν ὡς οἱ πόλοι κινοῦσι<note type="apparatus" n="31" target="#p107-30">καλῶς λέγουσι coll. CP</note>
+            </p>
+            <pb n="108" facs="https://archive.org/download/p1commentariaina22akaduoft/page/n319.jpg"/>
+            <p>
+              <lb n="1" xml:id="p108-0"/>τὸν οὐρανόν. οἱ γὰρ πόλοι οὐδέν εἰσιν· ἐπινοίᾳ γὰρ ἡμετέρᾳ τὸ εἶναι
+              <lb n="2" xml:id="p108-1"/>ἔχουσι. καὶ ἔτι πρὸς τῷ μηδεμίαν οὐσίαν καὶ φύσιν εἶναι τῶν πόλων,<note type="apparatus" n="2" target="#p108-1">τῷ] τὸ P: ex τὸ corr. R τὸν πόλον Sa</note><milestone type="alt-edition" unit="line" ed="Aldina 1527" n="11"/>
+              <lb n="3" xml:id="p108-2"/>ἀδύνατον καὶ τὸ τὴν μίαν κινεῖσθαι κίνησιν ὑπὸ δυοῖν· ἡ γὰρ μία τῷ<note type="apparatus" n="3" target="#p108-2">κίνησιν κινεῖσθαι coll. CPR δυεῖν R</note>
+              <lb n="4" xml:id="p108-3"/>ἀριθμῷ κίνησις ὑπὸ ἑνὸς τῷ ἀριθμῷ κινουμένου, ὁμοίως δὲ κινοῦντος<note type="apparatus" n="4" target="#p108-3">κινουμένη PR</note>
+              <lb n="5" xml:id="p108-4"/>γίνεται, ὡς ἐν τοῖς Φυσικοῖς δέδεικται, οἱ δὲ πόλοι οὐχ εἷς, ἀλλὰ δύο·<note type="apparatus" n="5" target="#p108-4">ἐν τοῖς Φυσικοῖς] Θ</note>
+              <lb n="6" xml:id="p108-5"/>πῶς οὖν δυνατὸν τὴν μίαν κίνησιν τὴν ἀπὸ ἀνατολῆς ἐπὶ δύσιν ὑπὸ δύο<note type="apparatus" n="6" target="#p108-5">p. 259 a 18</note>
+              <lb n="7" xml:id="p108-6"/>κινούντων γίνεσθαι; ὅτι μὲν οὖν ἔστι τι καὶ ἐν ὅλῃ τῇ φύσει ἀκίνητον,<note type="apparatus" n="7" target="#p108-6">ἀκίνητον] ἀδύνατον C</note>
+              <lb n="8" xml:id="p108-7"/>ὑφ’ οὗ τὸ πᾶν κινεῖται, καὶ ἐκ τῶν τοιούτων διαπορημάτων ἄν τις πιστεύσειεν·<milestone type="alt-edition" unit="line" ed="Aldina 1527" n="20"/>
+              <lb n="9" xml:id="p108-8"/>τούτου γὰρ οἶμαι δηλωτικόν ἐστι τὸ ἐκ τῶν τοιούτων ἄν τις
+              <lb n="10" xml:id="p108-9"/>διαπορήσειεν.
+            </p>
+          </div>
+          <div type="textpart" subtype="lemma" n="6">
+            <milestone unit="bekker" n="699a27"/>
+            <quote type="lemma">
+              <lb n="11" xml:id="p108-10"/>Οἱ δὲ μυθικῶς τὸν Ἄτλαντα ποιοῦντες ἐπὶ τῆς γῆς<note type="apparatus" n="11" target="#p108-10">μυθικοί a</note>
+            </quote>
+            <p>
+              <lb n="12" xml:id="p108-11"/>ἔχοντα τοὺς πόδας.
+              <lb n="13" xml:id="p108-12"/>Ἡ μὲν περὶ τὸν Ἄτλαντα ἱστορία δήλη πᾶσιν· ποιοῦσι γὰρ αὐτὸν<note type="apparatus" n="13" target="#p108-12">τοῦ Ἄτλαντος CPR πᾶσι δήλη coll. CPR</note>
+              <lb n="14" xml:id="p108-13"/>κίονας βαστάζοντα καὶ ἐπὶ τῆς γῆς ἱστάμενον κινεῖν τὸν οὐρανόν, ἀνάλογον
+              <lb n="15" xml:id="p108-14"/>ὄντα τῇ ἡμισείᾳ τοῦ κύκλου διαμέτρῳ τῇ ἀπὸ τοῦ κέντρου πρὸς τὴν περιφέρειαν<note type="apparatus" n="15" target="#p108-14">post ἡμισείᾳ add. τῇ ἐκ PR, τῆς C</note>
+              <lb n="16" xml:id="p108-15"/>προσπιπτούσῃ. ὡς γὰρ ἐκείνη ἀπὸ τοῦ κέντρου πρὸς τὴν περιφέρειαν,
+              <lb n="17" xml:id="p108-16"/>οὕτως ὁ Ἄτλας ἀπὸ τῆς γῆς κέντρου οὔσης πρὸς τὸν οὐρανόν.<note type="apparatus" n="17" target="#p108-16">κέντρον CSa, fort. recte</note>
+              <lb n="18" xml:id="p108-17"/>λέγει δὲ τοὺς ταῦτα λέγοντας ἀπὸ διανοίας λέγειν, καὶ εἶναι πλάσματα τῶν<note type="apparatus" n="18" target="#p108-17">δὲ om. R</note><note type="apparatus" n="18-19" target="#p108-17 #p108-18">τῶν λεγόντων CPR</note><milestone type="alt-edition" unit="line" ed="Aldina 1527" n="25"/>
+              <lb n="19" xml:id="p108-18"/>εἰπόντων, ἀλλ’ οὐκ ἀληθῆ. ὅμως, φησίν, εἰ καὶ δῶμεν εἶναι τοῦτο ἀληθές,<note type="apparatus" n="19" target="#p108-18">οὐκ ἀληθές CPR</note>
+              <lb n="20" xml:id="p108-19"/>μαρτύριον ἂν εἴη τοῖς ὑφ’ ἡμῶν λεγομένοις ὅτι εἰ μέλλει εἶναι κίνησις,<note type="apparatus" n="20" target="#p108-19">μέλλοι CRa</note>
+              <lb n="21" xml:id="p108-20"/>ἀνάγκη εἶναί τι ἀκίνητον. διὰ γὰρ τὸ καὶ ἐκείνους ὑπολαμβάνειν τὴν γῆν<note type="apparatus" n="21" target="#p108-20">καὶ om. PRa</note>
+              <lb n="22" xml:id="p108-21"/>μένειν, τὸν Ἄτλαντα ἐπὶ ταύτης ἱστῶσι. θεὶς δὲ ταῦτα ἐνίσταται πρὸς
+              <lb n="23" xml:id="p108-22"/>τὴν δόξαν δεικνύων αὐτὴν ψευδῆ, καί φησιν ἀλλὰ τοῖς ταῦτα λέγουσιν
+              <lb n="24" xml:id="p108-23"/>ἀναγκαῖον φάναι μηδὲν εἶναι μόριον αὐτὴν τοῦ παντός. ἔστι δὲ
+              <lb n="25" xml:id="p108-24"/>τὸ λεγόμενον ‘εἰ μὲν μὴ ἦν ἡ γῆ μόριον τοῦ παντός, εἰκότως ταῦτα λέγουσιν,<milestone type="alt-edition" unit="line" ed="Aldina 1527" n="30"/>
+              <lb n="26" xml:id="p108-25"/>εἰ δὲ μή, μάτην· ὥσπερ γὰρ ὁ ἐν τῇ πρύμνῃ καθήμενος οὐκ ἂν κινήσειε<note type="apparatus" n="26" target="#p108-25">κινήσειε scripsi: κινήσει P: κινήση CSa et fort. R</note>
+              <lb n="27" xml:id="p108-26"/>τὸ πλοῖον, διὰ τὸ εἶναι τὴν πρύμναν μόριον τοῦ πλοίου, οὕτως οὐδ’ ὁ ἐν
+              <lb n="28" xml:id="p108-27"/>τῇ γῇ ἱστάμενος κινήσειε τὸ πᾶν· μέρος γὰρ ἡ γῆ τοῦ παντός’.
+            </p>
+          </div>
+          <div type="textpart" subtype="lemma" n="7">
+            <milestone unit="bekker" n="699a32"/>
+            <quote type="lemma">
+              <lb n="29" xml:id="p108-28"/>Πρὸς δὲ τούτοις δεῖ τὴν ἰσχὺν ἰσάζειν τοῦ κινοῦντος
+            </quote>
+            <p>
+              <lb n="30" xml:id="p108-29"/>καὶ τὴν τοῦ μένοντος.<note type="apparatus" n="30" target="#p108-29">τὴν om. C</note>
+              <lb n="31" xml:id="p108-30"/>Καὶ τοῦτο κατὰ τῆς περὶ τὸν Ἄτλαντα δόξης ἐστί. τὸ δὲ λεγόμενον<milestone type="alt-edition" unit="line" ed="Aldina 1527" n="40"/>
+              <lb n="32" xml:id="p108-31"/>τοιοῦτον· ὥσπερ ἔστιν ἰσχύς τις, καθ’ ἣν κινεῖ τὸ κινοῦν, οὕτω καὶ καθ’
+            </p>
+            <pb n="109" facs="https://archive.org/download/p1commentariaina22akaduoft/page/n320.jpg"/>
+            <p>
+              <lb n="1" xml:id="p109-0"/>ἣν μένει τὸ μένον, ἀνάλογον ἐξ ἀνάγκης οὖσαι. ὡς γὰρ ἡ κίνησις πρὸς
+              <lb n="2" xml:id="p109-1"/>τὴν κίνησιν, οὕτω καὶ ἡ ἠρεμία πρὸς τὴν ἠρεμίαν, καὶ ἐναλλὰξ ὡς ἡ<note type="apparatus" n="2" target="#p109-1">ὡς in lit. R</note><note type="apparatus" n="2-3" target="#p109-1 #p109-2">ὡς ἡ ἠρεμία πρὸς τὴν κίνησιν οὕτω πάλιν καὶ κίνησις πρὸς ἠρεμίαν SPRa</note>
+              <lb n="3" xml:id="p109-2"/>κίνησις πρὸς τὴν ἠρεμίαν, οὕτω πάλιν ἡ κίνησις πρὸς τὴν ἠρεμίαν. καὶ
+              <lb n="4" xml:id="p109-3"/>αἱ μὲν ἴσαι κινήσεις ἢ δυνάμεις ἀπαθεῖς ὑπ’ ἀλλήλων, κινοῦνται δὲ κατὰ
+              <lb n="5" xml:id="p109-4"/>τὴν ὑπεροχήν. ὥστε εἰ μὴ ἔστιν ἡ τῆς γῆς ἰσχύς, καθ’ ἣν ἠρεμεῖ, ἴση<note type="apparatus" n="5" target="#p109-4">ἰσχὺς τῆς γῆς coll. et post γῆς add. ἐξ ἀνάγκης CPR ἴση om. a</note>
+              <lb n="6" xml:id="p109-5"/>πρὸς τὴν τοῦ ἐν αὐτῇ ἀπερειδομένου καὶ κινοῦντος, κινηθήσεται ἀπὸ τοῦ<milestone type="alt-edition" unit="line" ed="Aldina 1527" n="45"/>
+              <lb n="7" xml:id="p109-6"/>μέσου καὶ τοῦ κατὰ φύσιν αὐτῇ τόπου.<note type="apparatus" n="7" target="#p109-6">τοῦ supr. vers. S αὐτῆς PR: αὐτοῦ C</note>
+            </p>
+          </div>
+          <div type="textpart" subtype="lemma" n="8">
+            <milestone unit="bekker" n="699b6"/>
+            <quote type="lemma">
+              <lb n="8" xml:id="p109-7"/>Κινεῖ δὲ τὸ ἠρεμοῦν πρῶτον.
+            </quote>
+            <p>
+              <lb n="9" xml:id="p109-8"/>Ἠρεμοῦν πρῶτον λέγει τὸν Ἄτλαντα· αὐτὸς γὰρ ἐπὶ τῆς γῆς ἠρεμῶν<note type="apparatus" n="9" target="#p109-8">λέγοι a</note>
+              <lb n="10" xml:id="p109-9"/>κινεῖ τὸν οὐρανὸν μετὰ τῶν κιόνων, κινουμένων τῶν κιόνων. καὶ
+              <lb n="11" xml:id="p109-10"/>ἐπεὶ τὴν τῆς γῆς ἰσχὺν οὐ μόνον πρὸς τὴν τοῦ Ἄτλαντος ἰσχύν, ἀλλὰ καὶ<note type="apparatus" n="11" target="#p109-10">τὴν τῆς ex τῆς γῆς corr. P1</note>
+              <lb n="12" xml:id="p109-11"/>πρὸς τὴν τοῦ ὑπὸ Ἄτλαντος κινουμένου οὐρανοῦ ἰσχὺν ἀντιμάχεσθαί ἐστιν<note type="apparatus" n="12" target="#p109-11">τοῦ om. S post ὑπὸ add. τοῦ PR</note>
+              <lb n="13" xml:id="p109-12"/>ἀναγκαῖον, δῆλον ὅτι χωρὶς ἑκάστης ἰσχύος μείζων ἐστὶν ἡ τῆς γῆς, τῆς<note type="apparatus" n="13" target="#p109-12">ἑκάστου P</note><note type="apparatus" n="13-14" target="#p109-12 #p109-13">μείζων ἐστὶν—ἀδύνατον iterat a</note>
+              <lb n="14" xml:id="p109-13"/>τε τοῦ οὐρανοῦ καὶ τῆς τοῦ Ἄτλαντος. <milestone type="alt-edition" unit="folio" ed="Aldina 1527" n="151r"/> ἀλλὰ μὴν ἀδύνατον λόγον ἔχουσαν<note type="apparatus" n="14" target="#p109-13">τε om. PR τοῦ prius om. S ἔχουσα CPRa</note>
+              <lb n="15" xml:id="p109-14"/>σημείου πρὸς τὸ πᾶν ἴσην εἶναι τὴν δύναμιν αὐτῆς τῇ τε τοῦ παντὸς καὶ
+              <lb n="16" xml:id="p109-15"/>τῇ τοῦ Ἄτλαντος.
+            </p>
+          </div>
+          <div type="textpart" subtype="lemma" n="9">
+            <milestone unit="bekker" n="699b12"/>
+            <quote type="lemma">
+              <lb n="17" xml:id="p109-16"/>Ἔστι δέ τις ἀπορία περὶ τὰς κινήσεις τῶν τοῦ οὐρανοῦ
+            </quote>
+            <p>
+              <lb n="18" xml:id="p109-17"/>μορίων.
+              <lb n="19" xml:id="p109-18"/>Δείξας ὅτι ἀδύνατόν ἐστι κινεῖσθαι τὸν οὐρανὸν ὑπὸ τοῦ Ἄτλαντος
+              <lb n="20" xml:id="p109-19"/>διὰ τοῦ δεῖξαι ὅτι ἀδύνατόν ἐστι τὴν τῆς γῆς ἰσχὺν ἴσην εἶναι τῇ τε τοῦ<note type="apparatus" n="20" target="#p109-19">τοῦ ante οὐρανοῦ om. a</note>
+              <lb n="21" xml:id="p109-20"/>οὐρανοῦ καὶ τῇ τοῦ Ἄτλαντος, ἐπάγει ἔστι δέ τις ἀπορία περὶ τὰς κινήσεις<note type="apparatus" n="21-22" target="#p109-20 #p109-21">τῶν μορίων τοῦ οὐρανοῦ κινήσεις coll. a</note>
+              <lb n="22" xml:id="p109-21"/>τῶν τοῦ οὐρανοῦ μορίων, λέγων νῦν οὐρανὸν τὸν σύμπαντα κόσμον,<note type="apparatus" n="22" target="#p109-21">τοῦ om. PR</note>
+              <lb n="23" xml:id="p109-22"/>μόρια δὲ αὐτοῦ γῆν πῦρ καὶ τὰ θεῖα καὶ κυκλοφορητικὰ σώματα, κινήσεις<note type="apparatus" n="23" target="#p109-22">γῆν καὶ πῦρ CPR καὶ τὰ κυκλοφορητικὰ CPR</note>
+              <lb n="24" xml:id="p109-23"/>δὲ τὰς ἀπὸ τῶν κατὰ φύσιν ἑκάστου τόπων μεταστάσεις. ἔστι δὲ τὸ ἀπορούμενον,<note type="apparatus" n="24" target="#p109-23">τόπου PR καταστάσεις S</note><milestone type="alt-edition" unit="line" ed="Aldina 1527" n="20"/>
+              <lb n="25" xml:id="p109-24"/>ἆρά γε εἴ τις εὑρεθείη δύναμις μείζων οὖσα τῆς τῆς γῆς δυνάμεως,<note type="apparatus" n="25" target="#p109-24">ἆρά τε C</note>
+              <lb n="26" xml:id="p109-25"/>καθ’ ἣν ἠρεμεῖ, κινήσει αὐτὴν ἢ οὔ. ὅτι δὲ ἐνδέχεται εὑρεθῆναι<note type="apparatus" n="26" target="#p109-25">post εὑρεθῆναι add. δύναμιν CPR</note>
+              <lb n="27" xml:id="p109-26"/>μείζονα τῆς δυνάμεως τῆς γῆς, δῆλον. εἰ μὲν γὰρ ἦν ἡ γῆ ἄπειρος (τούτου
+              <lb n="28" xml:id="p109-27"/>γάρ ἐστι δηλωτικὸν τὸ καὶ ἡ ἰσχὺς δὲ ἀφ’ ἧς αὕτη ἡ δύναμις ὅτι οὐκ<note type="apparatus" n="28" target="#p109-27">δηλωτικόν ἐστι coll. CPR ἡ ante ἰσχὺς om. PR</note>
+              <lb n="29" xml:id="p109-28"/>ἄπειρος) εἰ μὲν οὖν ἦν ἡ γῆ ἄπειρος, ἦν ἂν καὶ ἡ ἰσχὺς αὐτῆς ἡ βαρύτης,
+              <lb n="30" xml:id="p109-29"/>δι’ ἣν οὐ κινεῖται, ἄπειρος, ἀπείρου δὲ οὔσης οὐκ ἂν εὑρέθη μείζων·<note type="apparatus" n="30" target="#p109-29">μείζων] μεῖζον P</note><milestone type="alt-edition" unit="line" ed="Aldina 1527" n="25"/>
+            </p>
+            <pb n="110" facs="https://archive.org/download/p1commentariaina22akaduoft/page/n321.jpg"/>
+            <p>
+              <lb n="1" xml:id="p110-0"/>τῆς γὰρ ἀπείρου οὐδέν ἐστι μεῖζον· ἐπεὶ δὲ πεπέρασται (οὐδὲν γάρ<note type="apparatus" n="1" target="#p110-0">τῆς — μεῖζον om. PR</note>
+              <lb n="2" xml:id="p110-1"/>ἐστιν ἐνεργείᾳ ἄπειρον, ὡς ἐν τῇ Φυσικῇ ἀκροάσει δέδεικται), τοῦ<note type="apparatus" n="2" target="#p110-1">ἐν τῇ Φυσικῇ ἀκροάσει] Γ 5</note>
+              <lb n="3" xml:id="p110-2"/>πεπερασμένου μεῖζον εὑρεθῆναι οὐδὲν κωλύει. ὥστε εἰ ταύτης, καὶ
+              <lb n="4" xml:id="p110-3"/>τῆς τῶν θείων καὶ κυκλοφορητικῶν σωμάτων δυνάμεως εὑρεθήσεταί
+              <lb n="5" xml:id="p110-4"/>τις δύναμις μείζων· πεπερασμένα γὰρ καὶ ταῦτα, ὡς ἐν τῇ Περὶ οὐρανοῦ<note type="apparatus" n="5-6" target="#p110-4 #p110-5">ἐν τῇ Περὶ οὐρανοῦ] Α 5</note>
+              <lb n="6" xml:id="p110-5"/>δέδεικται. ταῦτα εἰπὼν ἐπάγει ‘τὸν δ’ οὐρανὸν οἰόμεθα ἐξ ἀνάγκης
+              <lb n="7" xml:id="p110-6"/>ἄφθαρτον εἶναι, ὥσπερ καὶ τὴν φωνὴν ἀόρατον· συμβαίνει δὲ εἶναι αὐτὸν<note type="apparatus" n="7" target="#p110-6">ὥσπερ καὶ in lit. P αὐτὸν εἶναι coll. CPR</note><milestone type="alt-edition" unit="line" ed="Aldina 1527" n="30"/>
+              <lb n="8" xml:id="p110-7"/>φθαρτόν, διὰ τὸ ἐνδέχεσθαι μείζω δύναμιν εὑρεθῆναι τῶν δυνάμεων, ἀφ’
+              <lb n="9" xml:id="p110-8"/>ὧν αὐτός τε κινεῖται καὶ τὸ πῦρ, καὶ ἡ γῆ ἠρεμεῖ’. ἐπεὶ δέ τις ἤμελλε<note type="apparatus" n="9" target="#p110-8">ἔμελλε CPa</note>
+              <lb n="10" xml:id="p110-9"/>λέγειν ὅτι ἄδηλόν ἐστιν, εἴπερ τις ὅλως ἐστὶ μείζων δύναμις τῶν δυνάμεων
+              <lb n="11" xml:id="p110-10"/>τοῦ οὐρανοῦ καὶ τῆς γῆς καὶ τῶν λοιπῶν, ἐπήγαγεν εἰ μὲν οὖν εἰσιν<note type="apparatus" n="11" target="#p110-10">καὶ τῆς γῆς om. C</note>
+              <lb n="12" xml:id="p110-11"/>ὑπερέχουσαι κινήσεις, τουτέστιν εἰ μὲν οὖν εἰσιν ὑπερέχουσαι δυνάμεις.<note type="apparatus" n="12" target="#p110-11">κινήσεις] δυνάμεις C</note>
+              <lb n="13" xml:id="p110-12"/>ἔστι δὲ τὸ λεγόμενον ‘εἰ μὲν οὖν εἰσιν ἐκ τῶν ὄντων καὶ ὕπαρξιν ἐχόντων<note type="apparatus" n="13" target="#p110-12">ἔστι — λεγόμενον] ὡς εἶναι CPR post εἰσιν add. ὑπερέχουσαι δυνάμεις CPR καὶ om. S</note>
+              <lb n="14" xml:id="p110-13"/>δυνάμεις τινὲς μείζους τῶν τοῦ οὐρανοῦ καὶ τῆς γῆς δυνάμεων, κινήσουσι<note type="apparatus" n="14" target="#p110-13">δυνάμεις τινὲς] ἤγουν CPR</note><milestone type="alt-edition" unit="line" ed="Aldina 1527" n="35"/>
+              <lb n="15" xml:id="p110-14"/>νῦν ἢ αὔριον ἢ ὅλως ποτὲ καὶ φθεροῦσι τὸν κόσμον’ (τὸ γὰρ ὑπ’ ἀλλήλων
+              <lb n="16" xml:id="p110-15"/>ἴσον ἐστὶ τῷ ἡ μὲν γῆ ὑπὸ τῆς μείζονος ἰσχύος τῆς ἑαυτῆς δυνάμεως,<note type="apparatus" n="16" target="#p110-15">ἡ μὲν γῆ] ἡμᾶς μὴ S ἑαυτῆς] ἑαυτοῦ S: αὐτῆς C</note>
+              <lb n="17" xml:id="p110-16"/>καὶ ὁ οὐρανὸς ὑπὸ τῆς μείζονος τῆς ἑαυτοῦ)· ‘εἰ δὲ μή εἰσιν ὄντα αἱ
+              <lb n="18" xml:id="p110-17"/>μείζονες δυνάμεις, δύνανται δ’ ὅμως ποτὲ γενέσθαι’ (ἄπειρον γὰρ οὐκ<note type="apparatus" n="18" target="#p110-17">δύναται PR</note>
+              <lb n="19" xml:id="p110-18"/>ἐνδέχεται, τουτέστιν οὐ γάρ εἰσιν ἄπειρα τὰ σώματα, ἵνα καὶ αἱ δυνάμεις
+              <lb n="20" xml:id="p110-19"/>αὐτῶν ἄπειροι ὦσιν, ἢ τὸ ἄπειρον γὰρ οὐκ ἐνδέχεται ἴσον ἐστὶ τῷ<milestone type="alt-edition" unit="line" ed="Aldina 1527" n="40"/>
+              <lb n="21" xml:id="p110-20"/>οὐδὲν γὰρ ἐνδεχόμενον γενέσθαι εἰς ἄπειρον ἔχει τὴν δύναμιν, ἀλλ’ ἔρχεταί
+              <lb n="22" xml:id="p110-21"/>ποτε εἰς ἐνέργειαν, ὡς ἐν τῇ Περὶ οὐρανοῦ δέδεικται· εἰ γὰρ ἐνδέχεται<note type="apparatus" n="22" target="#p110-21">ἐν τῇ Περὶ οὐρανοῦ] Α 12</note>
+              <lb n="23" xml:id="p110-22"/>τὸ ὕδωρ γενέσθαι ἀέρα, κἂν γενήσεταί ποτε) ‘εἰ οὖν μή εἰσι μείζονες<note type="apparatus" n="23" target="#p110-22">ἀέρα] ὕδωρ S</note>
+              <lb n="24" xml:id="p110-23"/>δυνάμεις τῶν τῆς γῆς καὶ τοῦ οὐρανοῦ δυνάμεων, δύνανται δ’ ὅμως γενέσθαι,
+              <lb n="25" xml:id="p110-24"/>ἐνδέχοιτ’ ἂν διαλυθῆναι τὸν οὐρανόν. τί γὰρ κωλύει φθαρῆναι,
+              <lb n="26" xml:id="p110-25"/>εἴπερ μὴ ἀδύνατον ἀλλ’ ἐνδεχόμενόν ἐστι φθαρῆναι τὸν οὐρανόν; οὐκ ἔστι<note type="apparatus" n="26" target="#p110-25">post ἀδύνατον add. ἐστὶν CPR ἐστι om. CPR</note>
+              <lb n="27" xml:id="p110-26"/>δὲ ἀδύνατον, εἰ μὴ τὸ ἀντικείμενον ἀναγκαῖον. ὅταν γάρ ἐστι τόδε τι<note type="apparatus" n="27" target="#p110-26">post ἀναγκαῖον add. εἴη a ἐστι PRS: ᾖ Ca, sed cf. 30</note><milestone type="alt-edition" unit="line" ed="Aldina 1527" n="45"/>
+              <lb n="28" xml:id="p110-27"/>ἀναγκαῖον, τότε τὸ ἀντικείμενον αὐτῷ ἀδύνατόν ἐστι γενέσθαι, οἷον ἀναγκαῖόν
+              <lb n="29" xml:id="p110-28"/>ἐστιν εἶναι τὸν ἄνθρωπον ζῷον, ἀδύνατον ἄρα εἶναι αὐτὸν μὴ ζῷον·<note type="apparatus" n="29" target="#p110-28">ἐστιν τὸ τὸν ἄνθρωπον εἶναι ζῷον C</note>
+              <lb n="30" xml:id="p110-29"/>ἀντίκειται δὲ τῷ μὴ ζῷον τὸ ζῷον. ὅταν δέ ἐστι τὸ ἀντικείμενον ἐνδεχόμενον<note type="apparatus" n="30" target="#p110-29">τὸ μὴ ζῷον R¹: τῷ μὴ ζῴῳ CPR² ἐστι] CPRS: ᾖ a ante ἐνδεχόμενον add. μὴ PR</note>
+              <lb n="31" xml:id="p110-30"/>ἤτοι μὴ ἀναγκαῖον, καὶ τὸ ἀντικείμενον οὐκ ἀδύνατον ἀλλὰ δυνατόν,<note type="apparatus" n="31" target="#p110-30">οὐκ ἐναντίον ἀλλὰ PR</note>
+              <lb n="32" xml:id="p110-31"/>οἷον οὐκ ἔστιν ἀναγκαῖον βαδίζειν τὸν Σωκράτην, ὥστε τὸ μὴ βαδίζειν οὐκ<note type="apparatus" n="32" target="#p110-31">ἔστιν ἐναντίον βαδίζειν CR μὴ om. CPRa</note>
+              <lb n="33" xml:id="p110-32"/>ἀδύνατον, ἀλλὰ δυνατόν· ἀντίκεινται γὰρ πάλιν τὸ βαδίζειν καὶ μὴ βαδίζειν.
+            </p>
+            <pb n="111" facs="https://archive.org/download/p1commentariaina22akaduoft/page/n322.jpg"/>
+            <p>
+              <lb n="1" xml:id="p111-0"/>ὥστε ἂν οὐκ ἔστιν ἀναγκαῖον μὴ φθαρῆναι τὸν οὐρανόν, ἀλλ’ ἐνδεχόμενον,<note type="apparatus" n="1" target="#p111-0">ἂν] εἰ a μὴ om. CPR</note>
+              <lb n="2" xml:id="p111-1"/>οὐδὲ τὸ φθαρῆναι ἀδύνατον ἔσται, ἀλλὰ δυνατόν’. τὰ μὲν οὖν λεγόμενα<milestone type="alt-edition" unit="line" ed="Aldina 1527" n="51"/>
+              <lb n="3" xml:id="p111-2"/>τοιαῦτα. τὴν δ’ ἀπορίαν αὐτὸς μετ’ ὀλίγον ἐπιλύσεται. ὅτι δὲ οἰκεία ἐστὶ
+              <lb n="4" xml:id="p111-3"/>τοῖς εἰρημένοις, ὡς εἴρηται, ἐντεῦθεν δῆλον· ἐζήτει γὰρ ὅτι εἰ κινεῖ τὸν
+              <lb n="5" xml:id="p111-4"/>οὐρανὸν ὁ Ἄτλας, ἔσται ἡ τῆς γῆς δύναμις χωρὶς μείζων τῆς τοῦ Ἄτλαντος
+              <lb n="6" xml:id="p111-5"/>καὶ μείζων τῆς τοῦ οὐρανοῦ δυνάμεως· εἰ δὲ τοῦτο, τί κωλύει εἶναι καὶ<note type="apparatus" n="6" target="#p111-5">καὶ post εἶναι om. CPR</note>
+              <lb n="7" xml:id="p111-6"/>μείζονα δύναμιν τῆς δυνάμεως τῆς γῆς. <milestone type="alt-edition" unit="folio" ed="Aldina 1527" n="151v"/>
+            </p>
+          </div>
+          <div type="textpart" subtype="lemma" n="10">
+            <milestone unit="bekker" n="699b32"/>
+            <quote type="lemma">
+              <lb n="8" xml:id="p111-7"/>Ἆρα δὲ δεῖ τι ἀκίνητον εἶναι καὶ ἠρεμοῦν ἔξω τοῦ<note type="apparatus" n="8" target="#p111-7">ἀκίνητόν τι coll. a</note>
+            </quote>
+            <p>
+              <lb n="9" xml:id="p111-8"/>κινουμένου.
+              <lb n="10" xml:id="p111-9"/>Δείξας ὅτι εἰ μέλλει γίνεσθαι κίνησις, ἀνάγκη εἶναί τι ἠρεμοῦν, καὶ<note type="apparatus" n="10" target="#p111-9">et 21 μέλλοι CPRa</note><milestone type="alt-edition" unit="line" ed="Aldina 1527" n="20"/>
+              <lb n="11" xml:id="p111-10"/>τοῦτο μηδὲν εἶναι μόριον τοῦ κινουμένου, καὶ μέλλων ζητεῖν, εἰ ἐνδέχεται
+              <lb n="12" xml:id="p111-11"/>καὶ ἐπὶ τῆς τοῦ οὐρανοῦ κινήσεως εἶναί τι ἀκίνητον, ἵνα κινῆται ὁ οὐρανός,
+              <lb n="13" xml:id="p111-12"/>πάλιν ἐπανέλαβε τὸν λόγον, καὶ ἐρωτήσας ἐπὶ τῶν ζῴων μεταβαίνει ἀπὸ
+              <lb n="14" xml:id="p111-13"/>τῶν ζῴων ἐπὶ τὸν οὐρανόν, καὶ κατὰ τὸ σιωπώμενον δοὺς ἡμῖν ἐννοεῖν ὅτι
+              <lb n="15" xml:id="p111-14"/>ἔστι τι ἐκτὸς τοῦ οὐρανοῦ πάντῃ πάντως ἀκίνητον ἐπήγαγεν ἴσως γὰρ ἂν<note type="apparatus" n="15" target="#p111-14">ἐντὸς PR</note>
+              <lb n="16" xml:id="p111-15"/>δόξειεν ἄτοπον εἶναι, εἰ ἡ ἀρχὴ τῆς κινήσεως ἐντός. ὥσπερ γὰρ ἀδύνατόν<milestone type="alt-edition" unit="line" ed="Aldina 1527" n="25"/>
+              <lb n="17" xml:id="p111-16"/>ἐστι τὸ πλοῖον κινηθῆναι ὑπὸ τοῦ καθημένου εἰς τὴν πρύμναν, διὰ τὸ<note type="apparatus" n="17" target="#p111-16">ὑπὸ τοῦ — κινηθῆναι (18. 19) om. CPR</note>
+              <lb n="18" xml:id="p111-17"/>μέρος γίνεσθαι τὸν καθήμενον τοῦ πλοίου, οὕτω καὶ τὸν οὐρανὸν ἀδύνατον κινηθῆναι
+              <lb n="19" xml:id="p111-18"/>ἐντὸς ὄντος τοῦ τῆς κινήσεως αἰτίου· μέρος γὰρ ἂν καὶ τοῦτο εἴη τοῦ<note type="apparatus" n="19" target="#p111-18">εἴη καὶ τοῦτο coll. CPR</note>
+              <lb n="20" xml:id="p111-19"/>παντὸς ἐντὸς ὂν αὐτοῦ. διὸ τοῖς ὑπολαμβάνουσι καὶ ἀποδεχομένοις ὅτι εἰ<note type="apparatus" n="20" target="#p111-19">ἐντὸς ὢν C</note>
+              <lb n="21" xml:id="p111-20"/>μέλλει κινεῖσθαι ὁ οὐρανός, ἀνάγκη πάντῃ πάντως εἶναί τι ἀκίνητον καὶ<note type="apparatus" n="21" target="#p111-20">καὶ om. a</note>
+              <lb n="22" xml:id="p111-21"/>ἐκτὸς τοῦ οὐρανοῦ, δόξει καλῶς εἰρῆσθαι Ὁμήρῳ “ἀλλ’ οὐκ ἂν ἐρύσαιτ’<note type="apparatus" n="22" target="#p111-21">Ὁμήρῳ] Il. Θ 21 sqq. post Ὁμήρῳ add. γὰρ S: III litt. eras. R ἐρύσετε CS: ἐρύσητ’ a</note>
+              <lb n="23" xml:id="p111-22"/>ἐξ οὐρανόθεν πεδίονδε”. ἔοικε γὰρ καὶ Ὅμηρος διὰ τὸ νομίζειν δεῖν εἶναί τι<note type="apparatus" n="23" target="#p111-22">ἐξ οὐνοῦ PRS post νομίζειν add. ἔξω τοῦ οὐνοῦ CPR</note><milestone type="alt-edition" unit="line" ed="Aldina 1527" n="30"/>
+              <lb n="24" xml:id="p111-23"/>ἀκίνητον καὶ ἐκτὸς τοῦ οὐρανοῦ πεποιηκέναι τὸν Δία ταῦτα λέγοντα πρὸς<note type="apparatus" n="24" target="#p111-23">καὶ ἐκτὸς τοῦ οὐρανοῦ om. CPR</note>
+              <lb n="25" xml:id="p111-24"/>τοὺς ἄλλους θεοὺς ὅτι “οὐκ ἂν δυνήσεσθέ ποτε πάντες οἱ θεοὶ καὶ πᾶσαι<note type="apparatus" n="25" target="#p111-24">δυνήσησθε a</note>
+              <lb n="26" xml:id="p111-25"/>αἱ θέαιναι κατασπάσαι καὶ καταγαγεῖν με ἐξ οὐρανοῦ εἰς τὴν γῆν”. τὸ γὰρ
+              <lb n="27" xml:id="p111-26"/>πρῶτον κινητικόν, δι’ οὗ κινεῖται ἡ ἀπλανής, πάντῃ ἀκίνητον ὂν οὐδεὶς ἂν
+              <lb n="28" xml:id="p111-27"/>κινήσειεν. ὥστε διὰ μὲν τοῦ εἰπεῖν “ἀλλ’ οὐκ ἂν ἐρύσαιτε” ἐδήλωσεν ὅτι<note type="apparatus" n="28" target="#p111-27">κινήσαιεν PR ἐρύσετε S: ἐρύση τε CPRa</note>
+              <lb n="29" xml:id="p111-28"/>πάντῃ ἐστὶν ἀκίνητον, διὰ δὲ τοῦ ἐπενεγκεῖν ὅτι “ἐξ οὐρανοῦ” ᾐνίξατο ὅτι<note type="apparatus" n="29" target="#p111-28">ἐστὶν om. P</note><milestone type="alt-edition" unit="line" ed="Aldina 1527" n="35"/>
+              <lb n="30" xml:id="p111-29"/>ἐκτὸς τοῦ οὐρανοῦ. εἰ δ’ ἔστιν ἀκίνητον τὸ πρώτως κινοῦν, λύεται καὶ ἡ<note type="apparatus" n="30" target="#p111-29">post ἐκτὸς add. ἐστὶ CPR</note>
+              <lb n="31" xml:id="p111-30"/>προσεχῶς ῥηθεῖσα ἀπορία, ἣν αὐτὸς πάλαι εἶπεν, ἡ λέγουσα πότερον<note type="apparatus" n="31" target="#p111-30">exspectas πάλαι λεχθεῖσαν εἶπεν (cf. Arist. p. 700a4)</note>
+              <lb n="32" xml:id="p111-31"/>ἐνδέχεται φθαρῆναι τὸν οὐρανὸν ἢ οὔ; τὸ γὰρ ὑπ’ ἀκινήτου κινούμενον
+              <lb n="33" xml:id="p111-32"/>αἰτίου οὐδέποτε φθαρήσεται, ἕως ἂν μένῃ τὸ κινοῦν. τὸ δὲ τῆς λέξεως<note type="apparatus" n="33" target="#p111-32">μένει a</note>
+            </p>
+            <pb n="112" facs="https://archive.org/download/p1commentariaina22akaduoft/page/n323.jpg"/>
+            <p>
+              <lb n="1" xml:id="p112-0"/>συνεχὲς τοιοῦτόν ἐστιν· ὅθεν, εἰ ἐξ ἀκινήτου ἤρτηται ἀρχῆς, λύεται καὶ ἡ<note type="apparatus" n="1" target="#p112-0">καὶ om. a</note>
+              <lb n="2" xml:id="p112-1"/>πάλαι λεχθεῖσα ἀπορία, πότερον ἐνδέχεται’ καὶ τὰ ἑξῆς. φέρεται καὶ ἄλλη<note type="apparatus" n="2" target="#p112-1">post πότερον add. εἰ CPR post φέρεται add. δὲ CPR</note>
+              <lb n="3" xml:id="p112-2"/>γραφὴ ἡ διὰ τοῦ Δ ἔχουσα οὕτως ‘ὅθεν δύεται καὶ ἡ πάλαι λεχθεῖσα<note type="apparatus" n="3" target="#p112-2">ἡ διὰ om. P λύεται S καὶ om. a</note><milestone type="alt-edition" unit="line" ed="Aldina 1527" n="40"/>
+              <lb n="4" xml:id="p112-3"/>ἀπορία’. καὶ εἴη ἂν τὸ λεγόμενον ‘ὅθεν, τουτέστι διὰ τὸ εἶναι ἄδηλον,<note type="apparatus" n="4" target="#p112-3">ἂν om. CPR</note>
+              <lb n="5" xml:id="p112-4"/>εἴτε ἔστιν ἐκτὸς τοῦ οὐρανοῦ τι ἀκίνητον εἴτε μή, δύεται καὶ χώραν ἔχει<note type="apparatus" n="5" target="#p112-4">δέεται S</note><note type="apparatus" n="5-6" target="#p112-4 #p112-5">ἔχει καὶ om. CPR</note>
+              <lb n="6" xml:id="p112-5"/>καὶ εὑρίσκει τὸ ἀπορεῖν, πότερον ἐνδέχεται φθαρῆναι τὸν οὐρανὸν ἢ οὔ.
+              <lb n="7" xml:id="p112-6"/>εἰ δὲ ἦν δῆλον ὡς ἔστι τι ἐκτὸς τοῦ οὐρανοῦ ἀκίνητον, οὐκ ἂν εἰσεδύετο<note type="apparatus" n="7" target="#p112-6">ἔστιν ἐκτὸς CPR</note>
+              <lb n="8" xml:id="p112-7"/>καὶ εἰσήρχετο καὶ χώραν εὕρισκεν ἡ τοιαύτη ἀπορία’. σαφῶς δὲ τὰ ἑξῆς
+              <lb n="9" xml:id="p112-8"/>καταλέγει. τὸ δὲ ἀλλ’ ὑφ’ ὧν ταῦτα κινεῖται τοιοῦτόν ἐστιν· ‘ἢ ἐν μὲν<note type="apparatus" n="9" target="#p112-8">ἀλλ’ ὑφ’ ὧν libri; cf. Arist. P: ἀλλ’ ὑφ’ ὧν Arist. vulg.</note>
+              <lb n="10" xml:id="p112-9"/>τοῖς ἀψύχοις εἶναι καὶ ἐκτὸς καὶ ἐν αὐτοῖς ἠρεμοῦν οὐκ ἐνδέχεται ἀλλ’ ἐν<milestone type="alt-edition" unit="line" ed="Aldina 1527" n="45"/>
+              <lb n="11" xml:id="p112-10"/>τοῖς ζῴοις, ὑφ’ ὧν τὰ ἄψυχα κινεῖται· ὑπὸ γὰρ τῶν ζῴων τὰ ἄψυχα κινεῖται’.<note type="apparatus" n="11-12" target="#p112-10 #p112-11">ὑπὸ — κινεῖται om. C</note>
+              <lb n="12" xml:id="p112-11"/>ἐν δὲ τῇ λέξει τῇ τῶν δὲ τοιούτων περὶ μὲν τῶν ζῴων εἴρηται<note type="apparatus" n="12" target="#p112-11">τῶν ante δὲ ex τὸ corr. PS: τὸ CR τοιούτων] τούτων R: ex τούτων corr. P</note>
+              <lb n="13" xml:id="p112-12"/>τὸ τοιούτων περὶ πάντων ἁπλῶς τῶν κινουμένων εἴρηται καὶ ἐμψύχων<note type="apparatus" n="13" target="#p112-12">τοιούτων ex τοιοῦτον corr. P εἴρηται om. CPR</note>
+              <lb n="14" xml:id="p112-13"/>καὶ ἀψύχων. ὅτι δὲ καὶ τὰ ζῷα καὶ εἰσπνέοντα καὶ ἐκπνέοντα πρὸς
+              <lb n="15" xml:id="p112-14"/>τὸ ἔξω ἀπερειδόμενα τοῦτο ποιεῖ, δῆλον τοῖς προσέχουσιν· ὅταν μὲν γὰρ<note type="apparatus" n="15" target="#p112-14">ἀπερειδόμενον P1R</note>
+              <lb n="16" xml:id="p112-15"/>ἠρεμῶμεν, καὶ πάντῃ προδήλως, ἀλλὰ καὶ ὅταν βαδίζωμεν, εἴπερ ἐξ ἠρεμίας<milestone type="alt-edition" unit="line" ed="Aldina 1527" n="50"/>
+              <lb n="17" xml:id="p112-16"/>καὶ κινήσεως ἡ βάδισις γίνεται καὶ πᾶσα ἡ κατὰ τόπον μεταβολή, ὡς
+              <lb n="18" xml:id="p112-17"/>ἐν τῷ Περὶ ζῴων μορίων δέδεικται. κἄν τις δὲ προσέχῃ, γνώσεται ἑαυτὸν<note type="apparatus" n="18" target="#p112-17">ἐν τῷ Περὶ ζῴων μορίων] immo ἐν τῷ Περὶ ζ. πορείας c. 3 προσέχοι S: προσέχων PR γνώσηται PR</note>
+              <lb n="19" xml:id="p112-18"/>ἐν ταῖς ἐκπνοαῖς καὶ εἰσπνοαῖς ἀπερειδόμενον ὡς πέφυκε τότε γίνεσθαι<note type="apparatus" n="19" target="#p112-18">ἀπερειδόμενος PR</note>
+              <lb n="20" xml:id="p112-19"/>ἡ ἀπέρεισις. δῆλον δὲ καὶ ὅτι ὅταν μέγα βάρος ῥῖψαι βουληθῶμεν, ἀπερειδόμεθα,<note type="apparatus" n="20" target="#p112-19">τὴν ἀπέρεισιν CPR: ἀπερίεισις a post βουληθῶμεν add. ὡς a</note>
+              <lb n="21" xml:id="p112-20"/>ἀλλὰ καὶ ὅταν πτύσαι καὶ βῆξαι. <milestone type="alt-edition" unit="folio" ed="Aldina 1527" n="152r"/>
+            </p>
+          </div>
+          <div type="textpart" subtype="lemma" n="11">
+            <milestone unit="bekker" n="700a26"/>
+            <quote type="lemma">
+              <lb n="22" xml:id="p112-21"/>Πότερον δὲ ἐν τῷ αὐτὸ κινοῦντι κατὰ τόπον μόνῳ δεῖ<note type="apparatus" n="22" target="#p112-21">αὐτὸ Arist. vulg.: αὐτὸ αὐτό PS Arist. EP: αὐτὸ αὐτὸ ex corr. R: αὐτὸ αὐτὸ C: αὐτὸ (semel) a Arist. SY μόνῳ om. SC Arist. P</note>
+            </quote>
+            <p>
+              <lb n="23" xml:id="p112-22"/>τι μένειν, ἢ καὶ ἐν τῷ ἀλλοιουμένῳ αὐτῷ ὑφ’ αὑτοῦ καὶ αὐξανομένῳ;
+              <lb n="24" xml:id="p112-23"/>
+              <lb n="25" xml:id="p112-24"/>Οὐκ ἀλλοιοῦται οὐδ’ αὔξεται ὑφ’ αὑτῶν τὰ κατὰ γαστρὸς ὄντα· ὑπὸ<note type="apparatus" n="25" target="#p112-24">ὑφ’ αὑτῶν] ὑπ’ αὐτοῦ S</note><milestone type="alt-edition" unit="line" ed="Aldina 1527" n="25"/>
+              <lb n="26" xml:id="p112-25"/>τῆς μητρὸς γὰρ ὡς μέρη αὐτῆς τότε καὶ αὔξεται καὶ ἀλλοιοῦται τὰ ἔμβρυα·<note type="apparatus" n="26" target="#p112-25">τότε post ἀλλοιοῦται ponunt CPR</note>
+              <lb n="27" xml:id="p112-26"/>ὑφ’ αὑτῶν δὲ ἀλλοιοῦται καὶ αὔξεται ἐκτός. ἀλλοίωσιν δὲ νῦν ἀκουστέον<note type="apparatus" n="27" target="#p112-26">ἀλλοιοῦται καὶ αὔξεται om. CPR</note><note type="apparatus" n="27-28" target="#p112-26 #p112-27">ἀκουστέον οὐ τὴν CPR</note>
+              <lb n="28" xml:id="p112-27"/>καὶ τὴν ἡδονὴν καὶ τὸν θυμὸν καὶ τὰς ἄλλας ἁπάσας· ἀλλοιούμεθα γὰρ
+              <lb n="29" xml:id="p112-28"/>καὶ ὑπὸ τοῦ περιέχοντος, ἀλλὰ καὶ ὑφ’ αὑτῶν, τινὸς ἐντὸς γινομένης κινήσεως.
+              <lb n="30" xml:id="p112-29"/>γένεσιν δὲ ἐξ ἀρχῆς λέγει καὶ φθορὰν τὴν ἐξ ἀρχῆς ἐν τῇ μήτρᾳ<note type="apparatus" n="30" target="#p112-29">ante ἐν add. ἡμῶν CPR</note>
+            </p>
+            <pb n="113" facs="https://archive.org/download/p1commentariaina22akaduoft/page/n324.jpg"/>
+            <p>
+              <lb n="1" xml:id="p113-0"/>σύστασιν· περὶ γὰρ ταύτης νῦν παραιτεῖται ζητεῖν. ἀπορήσας οὖν εἰ ἐνδέχεται
+              <lb n="2" xml:id="p113-1"/>εἶναί τι καὶ ἐπὶ τῶν αὐξανομένων καὶ ἐπὶ τῶν ἀλλοιουμένων ἠρεμοῦν<note type="apparatus" n="2" target="#p113-1">καὶ ἐπὶ τῶν ἀλλοιουμένων om. CPR</note><milestone type="alt-edition" unit="line" ed="Aldina 1527" n="30"/>
+              <lb n="3" xml:id="p113-2"/>ὥσπερ καὶ ἐπὶ τῶν κινουμένων κατὰ τόπον, ἐπάγει εἰ γάρ ἐστιν
+              <lb n="4" xml:id="p113-3"/>ἥνπερ φαμὲν πρώτην κίνησιν γενέσεως καὶ φθορᾶς, πρώτην κίνησιν<note type="apparatus" n="4" target="#p113-3">πρώτην κίνησιν (post φαμὲν) libri et Arist. P: πρώτη κίνησις Arist. vulg.</note>
+              <lb n="5" xml:id="p113-4"/>λέγων τὴν κατὰ τόπον μεταβολήν· αὕτη γὰρ ἐν τῷ Θ τῆς Φυσικῆς ἀκροάσεως<note type="apparatus" n="5-6" target="#p113-4 #p113-5">ἐν τῷ Θ τῆς Φυσικῆς ἀκροάσεως] c. 7. 9</note>
+              <lb n="6" xml:id="p113-5"/>δέδεικται πρώτη τῶν ἄλλων, καὶ ταύτης ἡ κύκλῳ. ἔστι δὲ τὸ λεγόμενον
+              <lb n="7" xml:id="p113-6"/>‘εἰ μὲν οὖν ἔστιν ἡ κατὰ τόπον κίνησις προτέρα γενέσεως καὶ ἀλλοιώσεως,
+              <lb n="8" xml:id="p113-7"/>αὗται δὲ αὐξήσεως, καὶ χωρὶς τῆς κατὰ τόπον κινήσεως οὐκ ἐνδέχεται<milestone type="alt-edition" unit="line" ed="Aldina 1527" n="35"/>
+              <lb n="9" xml:id="p113-8"/>οὔτε γένεσιν οὔτε ἄλλην τινὰ γενέσθαι μεταβολήν, ἡ δὲ κατὰ τόπον<note type="apparatus" n="9" target="#p113-8">γένεσιν οὔτε om. CPR γίνεσθαι a μεταβολήν om. PRS</note>
+              <lb n="10" xml:id="p113-9"/>κίνησις χωρὶς ἠρεμοῦντός τινος γενέσθαι οὐ δύναται, οὐδὲ αὗται χωρὶς
+              <lb n="11" xml:id="p113-10"/>ἠρεμοῦντος γενήσονται’. εἰ δὲ μή, οὐκ ἀνάγκη, τουτέστιν εἰ δὲ μὴ
+              <lb n="12" xml:id="p113-11"/>ἔστιν ἡ κατὰ τόπον μεταβολὴ προτέρα τῶν ἄλλων, οὐκ ἀνάγκη εἶναί τι<note type="apparatus" n="12" target="#p113-11">post τι add. ἐπὶ CPR</note>
+              <lb n="13" xml:id="p113-12"/>τῶν ἀλλοιουμένων καὶ αὐξανομένων ὑφ’ αὑτῶν ἠρεμοῦν. ἀλλὰ μήν, ὡς
+              <lb n="14" xml:id="p113-13"/>δέδεικται, ἔστι προτέρα· ἔστιν ἄρα καὶ ἐπὶ τούτων ἠρεμοῦν τι. ὅτι δὲ ἡ<milestone type="alt-edition" unit="line" ed="Aldina 1527" n="40"/>
+              <lb n="15" xml:id="p113-14"/>κατὰ τόπον, ἥτις εἰς τὴν κύκλῳ καὶ εἰς τὴν ἐπ’ εὐθείας διαιρεῖται, πρώτη
+              <lb n="16" xml:id="p113-15"/>καὶ ἐν τῷ παντὶ καὶ ἐν τοῖς ζῴοις, δέδεικται. τελειωθέντα γὰρ τὰ ζῷα
+              <lb n="17" xml:id="p113-16"/>πρῶτον μεταβάλλει κατὰ τόπον καὶ οὕτως ὀχεύει· ἀλλὰ καὶ ὅτε θηλάζει
+              <lb n="18" xml:id="p113-17"/>προηγεῖται ἡ κατὰ τόπον κίνησις. ἀλλὰ καὶ τοῦ αἵματος πρῶτον ἄνω καὶ<note type="apparatus" n="18" target="#p113-17">τὸ αἷμα CPR</note>
+              <lb n="19" xml:id="p113-18"/>κάτω κινηθέντος οὕτως ἕπεται ἡ πρόσκρισις, καὶ οὕτως ἡ αὔξησις. ὅταν<note type="apparatus" n="19" target="#p113-18">κινηθὲν PR οὕτως (prius)—αὔξησις] προσκρίνεται καὶ οὕτως αὔξει τὸ αὐξανόμενον CPR</note>
+              <lb n="20" xml:id="p113-19"/>δὲ λέγῃ ὅτι πρότερόν ἐστι τὸ κινοῦν τοῦ κινουμένου, οὐκ ἐπὶ παντὸς κινοῦντος<note type="apparatus" n="20" target="#p113-19">ὅτι om. PR</note>
+              <lb n="21" xml:id="p113-20"/>καὶ κινουμένου ἀκούειν δεῖ, ἀλλ’ ἐπί τινων. τί δὲ διαφέρει φαντασία<milestone type="alt-edition" unit="line" ed="Aldina 1527" n="45"/>
+              <lb n="22" xml:id="p113-21"/>καὶ νοῦς καὶ ὄρεξις, εἴρηται ἐν τῷ Περὶ ψυχῆς. καὶ ἐπεὶ ἡ προαίρεσις<note type="apparatus" n="22" target="#p113-21">ἐν τῷ Περὶ ψυχῆς] Γ 7 sqq. ἐν τοῖς a</note>
+              <lb n="23" xml:id="p113-22"/>κίνησις διανοίας καὶ ὀρέξεως, ἔσται καί τι διανοητὸν προαιρετόν· οὐ γὰρ
+              <lb n="24" xml:id="p113-23"/>πᾶν διανοητόν. τὰ γὰρ μαθήματα διανοητὰ μέν, οὐ προαιρετὰ δέ, ἀλλ’<note type="apparatus" n="24" target="#p113-23">post διανοητὸν add. προαιρετὸν C</note>
+              <lb n="25" xml:id="p113-24"/>ὅσων διανοητῶν ἐστι τὸ τέλος πρακτόν, ὡς ἐπὶ τῶν τεχναστῶν καὶ ἄλλων<note type="apparatus" n="25" target="#p113-24">πρακτικόν CPR</note>
+              <lb n="26" xml:id="p113-25"/>τινῶν, τούτων καὶ τὸ τέλος προαιρετόν. τοῦτο γὰρ τὸ τῶν πρακτῶν τέλος<note type="apparatus" n="26" target="#p113-25">τὸ ante τέλος om. PR</note>
+              <lb n="27" xml:id="p113-26"/>ἀπὸ πάντων τῶν ἀγαθῶν ἐστι τὸ κινοῦν τὸ ζῷον, ἀλλ’ οὐ πᾶν τὸ καλόν.<milestone type="alt-edition" unit="line" ed="Aldina 1527" n="50"/>
+              <lb n="28" xml:id="p113-27"/>ἡ γὰρ γνῶσις τῶν ὄντων ᾗ ὄντα, καλὸν οὖσα, ἠρεμίας μᾶλλον ἀλλ’ οὐ
+              <lb n="29" xml:id="p113-28"/>κινήσεώς ἐστιν αἰτία, ὡς ἐν τῷ δευτέρῳ Περὶ ψυχῆς εἴρηται, ὅτε τὸν<note type="apparatus" n="29" target="#p113-28">αἰτία in lit. R¹ ἐν τῷ δευτέρῳ Περὶ ψυχῆς] immo ἐν τῷ πρώτῳ, cf. A 3 p. 407 a 32 ante περὶ add. τῶν CPRa</note>
+              <lb n="30" xml:id="p113-29"/>Πλάτωνα ἤλεγχε λέγοντα τὴν ψυχὴν αὐτοκίνητον. κινεῖ οὖν τὸ ὡς πρακτὸν<note type="apparatus" n="30" target="#p113-29">Πλάτωνα] πλάτωνος λόγον a ὡς om. CPR πρακτικὸν R</note>
+              <lb n="31" xml:id="p113-30"/>ἀγαθὸν τὸ ζῷον, ᾗ ἐστιν ἄλλα τούτου ἕνεκεν, καὶ ᾗ τέλος ἐστὶ τῶν ἄλλου<note type="apparatus" n="31" target="#p113-30">ἄλλα] ἄλλο PR: ἀλλὰ καὶ S ἕνεκα CPRa ἄλλου ex ἄλλων corr. S</note>
+              <lb n="32" xml:id="p113-31"/>τινὸς ἕνεκα ὄντων. πάντα γὰρ τὰ πρὸ τοῦ τέλους ἕνεκα τοῦ τέλους ἐστίν.<note type="apparatus" n="32" target="#p113-31">ἕνεκεν a πάντα — ἐστίν om. C τοῦ post πρὸ om. PR, supr. vers. scr. S</note>
+            </p>
+            </div>
+          <pb n="114" facs="https://archive.org/download/p1commentariaina22akaduoft/page/n325.jpg"/>
+          <div type="textpart" subtype="lemma" n="12">
+            <milestone unit="bekker" n="700b29"/>
+            <quote type="lemma">
+              <lb n="1" xml:id="p114-0"/>Ὥστε δῆλον ὡς ἔστι μὲν ᾗ ὁμοίως κινεῖται τὸ ἀεὶ<note type="apparatus" n="1" target="#p114-0">ὡς] ὅτι a: om. CPR</note><milestone type="alt-edition" unit="folio" ed="Aldina 1527" n="152v"/>
+            </quote>
+            <p>
+              <lb n="2" xml:id="p114-1"/>κινούμενον.
+              <lb n="3" xml:id="p114-2"/>Τὸ ἔστι μὲν ᾗ ὁμοίως κινεῖται ἴσον ἐστὶ τῷ τρόπον μέν τινα
+              <lb n="4" xml:id="p114-3"/>ὁμοίως κινεῖται ὁ οὐρανὸς ὑπὸ τοῦ πρώτου κινητικοῦ καὶ τὰ ζῷα ὑπὸ<note type="apparatus" n="4" target="#p114-3">κινητικοῦ] κινεῖται PR</note>
+              <lb n="5" xml:id="p114-4"/>τοῦ ὀρεκτοῦ· τοῦτο γὰρ κινεῖ τὴν ὀρεκτικὴν καὶ ὁρμητικὴν τῆς ψυχῆς<note type="apparatus" n="5" target="#p114-4">ὀρεκτικοῦ a</note>
+              <lb n="6" xml:id="p114-5"/>δύναμιν, ἥτις κινεῖ τὰ ζῷα· ἔστι δ’ ᾗ ἄλλως, τουτέστι τρόπον δέ τινα<note type="apparatus" n="6" target="#p114-5">τινα om. CPR</note><milestone type="alt-edition" unit="line" ed="Aldina 1527" n="10"/>
+              <lb n="7" xml:id="p114-6"/>ἀνομοίως, ὁμοίως μὲν διότι καὶ τὸ κινοῦν τὸν οὐρανὸν καὶ τὸ κινοῦν τὰ<note type="apparatus" n="7" target="#p114-6">μὲν] δὲ CPR</note>
+              <lb n="8" xml:id="p114-7"/>ζῷα ὡς ἐφετὰ κινοῦσιν, ἀνομοίως δὲ διότι τὸ μὲν ἀεὶ κινεῖ τὸν οὐρανόν,<note type="apparatus" n="8" target="#p114-7">κινεῖ om. CPR</note>
+              <lb n="9" xml:id="p114-8"/>τὸ δὲ οὐκ ἀεὶ τὰ ζῷα. τὸ δὲ ἀίδιον καλὸν καὶ τὸ ἀληθῶς καὶ τὸ<note type="apparatus" n="9" target="#p114-8">τὸ ὡς ἀληθῶς a</note><note type="apparatus" n="9-10" target="#p114-8 #p114-9">καὶ τὸ πρώτως libri et Arist. P: τὸ om. Arist. vulg.</note>
+              <lb n="10" xml:id="p114-9"/>πρώτως ἀγαθόν. τὸ δέ ἀντὶ τοῦ γάρ, ἵν’ ᾖ ‘τὸ γὰρ ἀίδιον καλόν’· εἰπὼν<note type="apparatus" n="10" target="#p114-9">τὸ δέ—ἀγαθὸν (12) om. Sa</note>
+              <lb n="11" xml:id="p114-10"/>γὰρ ὅτι τὸ πρώτως κινοῦν ἀεὶ κινεῖ, ἐπήγαγε τὸ γὰρ ἀίδιον καλὸν καὶ τὸ
+              <lb n="12" xml:id="p114-11"/>πρώτως καὶ ἀληθῶς ἀγαθὸν καὶ μὴ ποτὲ μὲν ποτὲ δ’ οὔ, ὥσπερ τὰ<note type="apparatus" n="12" target="#p114-11">ποτὲ δὲ μὴ CPRa</note>
+              <lb n="13" xml:id="p114-12"/>παρ’ ἡμῖν ἀγαθά (ταῦτα γὰρ οὐκ ἀεὶ ἀγαθά) θειότερον καὶ τιμιώτερον ἢ<note type="apparatus" n="13" target="#p114-12">θειότερα καὶ τιμιώτερα S</note>
+              <lb n="14" xml:id="p114-13"/>ὥστ’ εἶναι πρότερον· τουτέστιν οὕτως ἐστὶ θειότερον, ὥστε μὴ ἔχειν αὐτοῦ<note type="apparatus" n="14" target="#p114-13">ὥστ’ εἶναι a Arist. vulg.: ὥστε CPRS πρότερον libri et Arist. ESY: πρὸς ἕτερον Arist. vulg.</note>
+              <lb n="15" xml:id="p114-14"/>πρότερόν τι κατὰ τὸ τίμιον· πάντων γὰρ τιμιώτερον τὸ τοιοῦτον. ὥστε<milestone type="alt-edition" unit="line" ed="Aldina 1527" n="15"/>
+              <lb n="16" xml:id="p114-15"/>τὰ μὲν παρ’ ἡμῖν, διὰ τὸ ποτὲ μὲν εἶναι ἀγαθὰ ποτὲ δὲ μή, καὶ ποτὲ μὲν<note type="apparatus" n="16" target="#p114-15">μὲν post τὰ om. CPR μὲν tertium om. Sa</note><note type="apparatus" n="16-17" target="#p114-15 #p114-16">μὲν κινεῖν P</note>
+              <lb n="17" xml:id="p114-16"/>κινεῖ ποτὲ δὲ οὐ κινεῖ, ἐκεῖνο δὲ ἀεὶ ὂν ἀγαθὸν ἀεὶ κινήσει. τελευταῖον<note type="apparatus" n="17" target="#p114-16">κινεῖ post οὐ om. CPR ἀεὶ ante ὂν om. S ἀεὶ κινεῖ a</note>
+              <lb n="18" xml:id="p114-17"/>δὲ τῶν κινουμένων λέγει τὸ ζῷον, ὅπερ κινεῖ ἡ ὄρεξις καὶ αὐτὴ κινουμένη,
+              <lb n="19" xml:id="p114-18"/>κινουμένη δὲ οὐ κατὰ τόπον (δέδεικται γὰρ ὅτι ἡ ψυχὴ πάντῃ ἀκίνητός<note type="apparatus" n="19" target="#p114-18">δέδεικται] de an. A 3</note>
+              <lb n="20" xml:id="p114-19"/>ἐστιν) ἀλλ’ ὡς ἀγομένη ἀπὸ ἀνενεργησίας εἰς ἐνέργειαν. εὐλόγως<note type="apparatus" n="20" target="#p114-19">ἀπὸ] ὑπὸ P</note>
+              <lb n="21" xml:id="p114-20"/>δ’ ἐστὶ φορὰ ὑστέρα τῆς ὀρέξεως· προτέρα γὰρ ἡ ὄρεξις κινεῖται, καὶ<note type="apparatus" n="21" target="#p114-20">προτέρα] πρῶτον CPR</note>
+              <lb n="22" xml:id="p114-21"/>οὕτω τὸ ζῷον φέρεται. ἀλλὰ ταῦτα μὲν οὕτως. τίσι δὲ ὀργάνοις χρωμένη<milestone type="alt-edition" unit="line" ed="Aldina 1527" n="20"/>
+              <lb n="23" xml:id="p114-22"/>κινεῖ τὸ ζῷον ἡ ψυχή, καὶ ὅλως πῶς κινεῖ οὐ κινουμένη, εἴρηται
+              <lb n="24" xml:id="p114-23"/>ὅτε περὶ ὁρμῆς καὶ τῆς ὁρμητικῆς δυνάμεως ὁ λόγος ἦν. διὸ ἐξ ἐκείνου<note type="apparatus" n="24-25" target="#p114-23 #p114-24">ἐξ ἐκείνου τοῦ βιβλίου] suum aliquem Περὶ ὁρμῆς librum dicere videtur (cf. p. 116, 10. 13 117, 16. 17); ceterum cf. Arist. de an. Γ 9. 10</note>
+              <lb n="25" xml:id="p114-24"/>τοῦ βιβλίου τὴν πᾶσαν τοῦ Ἀριστοτέλους διάνοιαν ἀναλέγεσθαι χρὴ τῷ
+              <lb n="26" xml:id="p114-25"/>βουλομένῳ τῆς ἀληθείας ἐπιτυγχάνειν· ὅμως καὶ νῦν ὀλίγα τῶν ἐκεῖσε
+              <lb n="27" xml:id="p114-26"/>παραγράψομεν. εἴρηται πρῶτον ὅτι τοῦ ὀρεκτικοῦ τε καὶ ὁρμητικοῦ<note type="apparatus" n="27" target="#p114-26">παραγράψομαι CPR</note>
+              <lb n="28" xml:id="p114-27"/>αἱ δυνάμεις πλείους εἰσί, τελευταῖον δὲ ὅτι καὶ τῶν γνωστικῶν τε<note type="apparatus" n="28" target="#p114-27">πλείους αἱ δυνάμεις coll. CPR</note>
+              <lb n="29" xml:id="p114-28"/>καὶ κριτικῶν δυνάμεων ἐστι διαφορά. ἡ μὲν γάρ τίς ἐστι δύναμις<note type="apparatus" n="29" target="#p114-28">καὶ τῶν κριτικῶν a</note>
+              <lb n="30" xml:id="p114-29"/>ὑπηρετικὴ κριτική (τοιαύτη γὰρ ἥ τε αἴσθησις καὶ ἡ φαντασία), τὸ δέ<note type="apparatus" n="30" target="#p114-29">post ὑπηρετικὴ add. καὶ CP ἡ ante φαντασία om. CSa</note><milestone type="alt-edition" unit="line" ed="Aldina 1527" n="25"/>
+              <lb n="31" xml:id="p114-30"/>τι τῆς ψυχῆς ἡγεμονικόν ἐστι κριτικόν· τοιοῦτον γὰρ τὸ λογιστικόν, ὃ<note type="apparatus" n="31" target="#p114-30">ante κριτικόν add. καὶ a</note>
+            </p>
+            <pb n="115" facs="https://archive.org/download/p1commentariaina22akaduoft/page/n326.jpg"/>
+            <p>
+              <lb n="1" xml:id="p115-0"/>διανοητικόν τέ ἐστι καὶ νοητικόν. τὸ γὰρ αἰσθητικὸν ἐπὶ τὸ διανοητικὸν<note type="apparatus" n="1" target="#p115-0">ἐστι om. CPR</note>
+              <lb n="2" xml:id="p115-1"/>ἔχει τὴν ἀναφορὰν ἐν ὅσοις ἐστὶν ἄμφω, ὅπως εἰσαγγέλλῃ καὶ μηνύῃ τὰς<note type="apparatus" n="2" target="#p115-1">post ὅπως add. γὰρ CPR</note>
+              <lb n="3" xml:id="p115-2"/>τῶν αἰσθητῶν αὐτῷ διαφοράς. ὡς δὲ ἐν τῷ κριτικῷ τὸ μέν ἐστιν ἡγεμονικόν,
+              <lb n="4" xml:id="p115-3"/>τὸ δὲ ὑπηρετικόν, οὕτως ἐστὶ καὶ ἐν τῷ πρακτικῷ τὸ μὲν ἡγεμονικόν,<note type="apparatus" n="4" target="#p115-3">καὶ om. a</note>
+              <lb n="5" xml:id="p115-4"/>ὃ ὁρμητικόν τε καὶ ὀρεκτικὸν καλοῦμεν, τὸ δέ τί ἐστιν ἐν τοῖς νεύροις ὡς ὑπηρετικόν,<note type="apparatus" n="5" target="#p115-4">ὃ] ὅπερ a τί om. a</note><milestone type="alt-edition" unit="line" ed="Aldina 1527" n="30"/>
+              <lb n="6" xml:id="p115-5"/>ὃ καὶ νευροσπαστικὸν καλοῦμεν. δύναμις γάρ ἐστι καὶ ἐν τοῖς νεύροις,
+              <lb n="7" xml:id="p115-6"/>καθ’ ἣν ὑπηρετεῖται τὸ σῶμα ταῖς καθ’ ὁρμὴν ἐνεργείαις. ἐπεὶ γὰρ τὰ
+              <lb n="8" xml:id="p115-7"/>κατ’ ὄρεξιν πραττόμενα πάθους τινὸς ἐγγινομένου πράττεται, ὧν παθῶν τὰ
+              <lb n="9" xml:id="p115-8"/>μὲν ἀνίησί τε τὸ σῶμα καὶ αὔξην αὐτοῖς ἐμποιεῖ διὰ θερμότητα εὔκρατον,<note type="apparatus" n="9" target="#p115-8">αὔξησιν CPR αὐτοῖς] fort. αὐτῷ</note>
+              <lb n="10" xml:id="p115-9"/>τὰ δὲ καταψύχει τε καὶ συστέλλει (αἱ γὰρ φαντασίαι καὶ αἱ αἰσθήσεις καὶ<note type="apparatus" n="10-11" target="#p115-9 #p115-10">καὶ αἰσθήσεις καὶ ἔννοιαι PR</note>
+              <lb n="11" xml:id="p115-10"/>αἱ ἔννοιαι τῶν πραγμάτων καθ’ ὁμοίωσιν αὐτῶν γινόμεναι ὡς ἐπὶ παροῦσιν
+              <lb n="12" xml:id="p115-11"/>ἐκείνοις ἢ ἀνιᾶσι τὸ σῶμα ἢ συστέλλεσθαί τε καὶ φρίττειν ποιοῦσιν) ὧν<note type="apparatus" n="12" target="#p115-11">ἀνίησι S: ἀνιοῦσι C: ἀνιεῖσι a</note><note type="apparatus" n="12-13" target="#p115-11 #p115-12">ὧν γινομένων] exspectas γινομένων οὖν τῶν</note><milestone type="alt-edition" unit="line" ed="Aldina 1527" n="35"/>
+              <lb n="13" xml:id="p115-12"/>γινομένων συστολῶν τε καὶ ἐκτάσεων περὶ τὸ σύμφυτον πνεῦμα, καὶ ἀπὸ<note type="apparatus" n="13-14" target="#p115-12 #p115-13">ἀπὸ τούτων PSa</note>
+              <lb n="14" xml:id="p115-13"/>τούτου διαδιδομένων ἐπὶ τὰ νεῦρα, κινεῖσθαι ταῦτα δύναται τὰς καθ’ ὁρμὴν
+              <lb n="15" xml:id="p115-14"/>ἐνεργείας, τὴν ἀρχὴν τῆς κινήσεως ἀπὸ τῆς ὀρέξεως λαμβάνοντα. μικρὰ
+              <lb n="16" xml:id="p115-15"/>γὰρ μεταβολὴ περὶ τὴν ἀρχὴν γινομένη μεγάλων καὶ πολλῶν διαφορῶν
+              <lb n="17" xml:id="p115-16"/>αἰτία γίνεται. τοῦ γὰρ οἴακος ἀκαριαῖον μεθισταμένου πολλὴ ἡ τῆς πρῴρας
+              <lb n="18" xml:id="p115-17"/>γίνεται μετάστασις· καὶ περὶ τὴν καρδίαν ἤδη καὶ τὸ πνεῦμα τὸ ἐν αὐτῇ<note type="apparatus" n="18" target="#p115-17">περὶ] παρὰ PR</note>
+              <lb n="19" xml:id="p115-18"/>ὅταν ἀλλοίωσίς τις γένηται δι’ αἰσθήσεις τινῶν ἢ νοήσεις, αἷς ἕπεταί τις<note type="apparatus" n="19-20" target="#p115-18 #p115-19">κίνησίς τις CPRa</note><milestone type="alt-edition" unit="line" ed="Aldina 1527" n="40"/>
+              <lb n="20" xml:id="p115-19"/>κίνησις καὶ πάθος, εἰ καὶ ἐν ἀναισθήτῳ μορίῳ γένοιτο ἡ τοιαύτη τροπή, τῷ<note type="apparatus" n="20" target="#p115-19">ἢ πάθος PR γένηται CPR</note>
+              <lb n="21" xml:id="p115-20"/>ἀρχὴν τοῦ ζῴου τὴν καρδίαν εἶναι πολλὴν ποιεῖται τοῦ σώματος παντὸς
+              <lb n="22" xml:id="p115-21"/>διαφορὰν ἐρυθήμασιν, ὠχρότησι, θερμότησιν, ψύχεσι, φρίκαις τε καὶ τρόμοις.<note type="apparatus" n="22" target="#p115-21">ψύξεσι CPRa</note>
+              <lb n="23" xml:id="p115-22"/>ἀρχὴ μὲν οὖν τῆς κινήσεως τὸ ἐν τῷ πρακτῷ διωκτόν τε καὶ φευκτόν.
+              <lb n="24" xml:id="p115-23"/>ἔστι γὰρ ὁρμὴ κίνησις ἐμψύχοις γινομένη κατὰ φαντασίαν διωκτοῦ ἢ φευκτοῦ.<note type="apparatus" n="24" target="#p115-23">post ἔστι add. μὲν P ἐμψύχοις ex ἐμψύχῳ corr. S: ἐμψύχου CPRa</note>
+              <lb n="25" xml:id="p115-24"/>κινεῖ δὲ ἡ ὁρμητική τε καὶ ὀρεκτικὴ ψυχὴ τὸ ζῷον οὐκ αὐτὴ<note type="apparatus" n="25" target="#p115-24">ὀρεκτικὴ scripsi: θρεπτικὴ libri</note><milestone type="alt-edition" unit="line" ed="Aldina 1527" n="45"/>
+              <lb n="26" xml:id="p115-25"/>κινουμένη, ὡς ἐν ἐκείνοις εἴρηται· ἀκίνητος γὰρ καθ’ αὑτὴν πᾶσα ἐντελέχεια,
+              <lb n="27" xml:id="p115-26"/>ἡ ψυχὴ δὲ ἐδείχθη οὖσα ἐντελέχεια. διὸ οὐδὲ κυρίως λέγεται κινεῖσθαι<note type="apparatus" n="27" target="#p115-26">aute ἡ add. καὶ CPRa ἐδείχθη] de an. B 1 οὖσα ἐντελεχείᾳ (sic) P</note><note type="apparatus" n="27-28" target="#p115-26 #p115-27">τὸ σῶμα κινεῖσθαι coll. C</note>
+              <lb n="28" xml:id="p115-27"/>τὸ σῶμα ὑπὸ τῆς ψυχῆς (τοῦτο γὰρ λέγεται ἐφ’ ὧν κεχώρισται τὸ<note type="apparatus" n="28" target="#p115-27">ἀφ’ ὧν C: ὑφ’ ὧν PR κεχώρισται] κεχαρακτήρισται P corr. R</note><note type="apparatus" n="28-29" target="#p115-27 #p115-28">τό τε κινοῦν CPR</note>
+              <lb n="29" xml:id="p115-28"/>κινοῦν καὶ τὸ κινούμενον, ὡς οἱ βοῦς οἱ κινοῦντες τὴν ἅμαξαν) ἀλλ’ ἐπεὶ<note type="apparatus" n="29" target="#p115-28">βόες C</note>
+              <lb n="30" xml:id="p115-29"/>κοινότερον λέγεται ὑπό τινος κινεῖσθαι καὶ τὸ κατ’ αὐτὸ κινούμενον (οὕτω<note type="apparatus" n="30" target="#p115-29">κοινοτέρως CPR τὸ καθ’ αὑτὸ PR</note>
+              <lb n="31" xml:id="p115-30"/>γὰρ ὁ τεχνίτης ὑπὸ τῆς τέχνης, ὅτι κατ’ αὐτήν, καὶ οὕτως ὑπὸ τῆς κουφότητος<note type="apparatus" n="31" target="#p115-30">ὅτι κατὰ ταύτην a</note><milestone type="alt-edition" unit="line" ed="Aldina 1527" n="50"/>
+              <lb n="32" xml:id="p115-31"/>τὸ πῦρ, ὅτι κατ’ αὐτήν) οὕτω λέγεται τὸ ζῷον ὑπὸ τῆς ψυχῆς κινεῖσθαι,
+              <lb n="33" xml:id="p115-32"/>ὅτι κατ’ αὐτήν· κατὰ γὰρ τὸ ἔμψυχον εἶναι ἡ τοιάδε αὐτῷ κίνησις<note type="apparatus" n="33" target="#p115-32">τοιάδε ex τοιαύτη corr. S 8*</note>
+            </p>
+            <pb n="116" facs="https://archive.org/download/p1commentariaina22akaduoft/page/n327.jpg"/>
+            <p>
+              <lb n="1" xml:id="p116-0"/>γίνεται, οὐ κατὰ τὸ βαρὺ ἢ κοῦφον, ἢ λευκὸν ἢ μέλαν, ἢ θερμὸν ἢ ψυχρόν.
+              <lb n="2" xml:id="p116-1"/>αἰσθάνεται μὲν οὖν τὸ ζῷον καὶ νοεῖ καὶ βαδίζει κατὰ τὴν ψυχήν, οὐ μὴν<note type="apparatus" n="2" target="#p116-1">τὴν om. CPR</note>
+              <lb n="3" xml:id="p116-2"/>τῆς ψυχῆς αὐτῆς καθ’ αὑτήν, ἵνα κινήσῃ, κινουμένης. ὥσπερ γὰρ κατὰ τὴν<note type="apparatus" n="3" target="#p116-2">ante τῆς add. ὑπὸ a κινουμένη a</note>
+              <lb n="4" xml:id="p116-3"/>ὀρχηστικὴν κινεῖται ὁ ὀρχηστὴς καὶ κατὰ τὰς τέχνας οἱ τεχνῖται, καί εἰσιν<note type="apparatus" n="4" target="#p116-3">κινοῦνται CPR ὁ ὀρχηστὴς—κινοῦνται (6) om. CPR</note>
+              <lb n="5" xml:id="p116-4"/>αὐτοῖς αὗται τῆς τοιᾶσδε κινήσεως αἴτιαι, αὐταὶ μὴ <milestone type="alt-edition" unit="folio" ed="Aldina 1527" n="153r"/> κινούμεναι (οὔτε γὰρ<note type="apparatus" n="5" target="#p116-4">αὐτοῖς om. a αὐταὶ scripsi: αὗται Sa</note>
+              <lb n="6" xml:id="p116-5"/>αἱ τέχναι οὔτε ἡ ὀρχηστικὴ κινοῦνται) οὕτω καὶ τὰ ἔμψυχα κατὰ τὴν
+              <lb n="7" xml:id="p116-6"/>ψυχὴν κινεῖται μὴ κινουμένης αὐτῆς. ἔστι δὲ ἡ ὁρμητικὴ καὶ ὀρεκτικὴ<note type="apparatus" n="7 et 8" target="#p116-6 #p116-7">κινοῦνται PR 7 post καὶ add. ἡ CPR</note>
+              <lb n="8" xml:id="p116-7"/>δύναμις τῆς ψυχῆς καθ’ ἣν τὰ ζῷα κινεῖται· αὕτη γὰρ τοῖς ζῴοις τῆς<note type="apparatus" n="8" target="#p116-7">τῆς ψυχῆς om. CPR</note>
+              <lb n="9" xml:id="p116-8"/>οἰκείας κινήσεως αἰτία. καὶ ἔστιν ἐν ἡμῖν ἡ ψυχὴ οὐχ ὡς ἐρέτης ἐν τῇ
+              <lb n="10" xml:id="p116-9"/>νηί, ἀλλ’ ὡς εἶδός τι καὶ τελειότης, ὡς ἐν τῷ Περὶ ὁρμῆς τε καὶ τῆς<note type="apparatus" n="10" target="#p116-9">τι] τε a</note>
+              <lb n="11" xml:id="p116-10"/>ὁρμητικῆς δυνάμεως λόγῳ εἴρηται. ἀλλὰ ταῦτα μὲν εἴληπται ἱκανῶς<note type="apparatus" n="11" target="#p116-10">εἴληπται] εἴρηται CPR</note><milestone type="alt-edition" unit="line" ed="Aldina 1527" n="5"/>
+              <lb n="12" xml:id="p116-11"/>πρὸς σαφήνειαν τῶν μελλόντων λέγεσθαι· τὰ δὲ πλείονα τούτων ὁ βουλόμενος<note type="apparatus" n="12" target="#p116-11">λέγεσθαι μελλόντων coll. CPR</note>
+              <lb n="13" xml:id="p116-12"/>θεωρεῖν ἐντυγχανέτω τῷ Περὶ ὁρμῆς λόγῳ. ἐπὶ δὲ τὰ ἑξῆς τοῦ
+              <lb n="14" xml:id="p116-13"/>Ἀριστοτέλους ἴωμεν.
+            </p>
+          </div>
+          <div type="textpart" subtype="lemma" n="13">
+            <milestone unit="bekker" n="701a7"/>
+            <quote type="lemma">
+              <lb n="15" xml:id="p116-14"/>Πῶς δὲ νοῶν ὁτὲ μὲν πράττει ὁτὲ δ’ οὐ πράττει, καὶ
+            </quote>
+            <p>
+              <lb n="16" xml:id="p116-15"/>κινεῖται, ποτὲ δ’ οὐ κινεῖται.<note type="apparatus" n="16" target="#p116-15">ποτὲ] ὁτὲ a Arist.</note>
+              <lb n="17" xml:id="p116-16"/>Ἐπειδὴ ποτὲ μὲν νοοῦντες κινούμεθα ἐπὶ πρᾶξιν, ποτὲ δὲ νοοῦμεν<note type="apparatus" n="17" target="#p116-16">πράξεις PR</note>
+              <lb n="18" xml:id="p116-17"/>μέν, οὐ κινούμεθα δέ, ἀλλὰ καὶ μάλιστα ἡ τοιαύτη νόησις αἰτία ἠρεμίας
+              <lb n="19" xml:id="p116-18"/>γίνεται, τὸ αἴτιον τοῦ ποτὲ μὲν κινεῖσθαι ποτὲ δὲ μὴ κινεῖσθαι διὰ τούτων<milestone type="alt-edition" unit="line" ed="Aldina 1527" n="30"/>
+              <lb n="20" xml:id="p116-19"/>ἐπάγει, καί φησιν ὅτι ὅταν τὸ νοηθὲν πρακτόν ἐστι κινούμεθα, ὅταν δὲ οὐ<note type="apparatus" n="20" target="#p116-19">ἐστὶ] ᾖ a</note>
+              <lb n="21" xml:id="p116-20"/>πρακτὸν ἀλλ’ ἐπιστημονικόν, καὶ ὅλως ἡ νόησις αὐτοῦ θεωρία μόνον, οὐ<note type="apparatus" n="21" target="#p116-20">μόνη CPR</note>
+              <lb n="22" xml:id="p116-21"/>κινούμεθα. ἀκίνητα δὲ λέγει τὰ μαθηματικά. ἀλλ’ ἐπὶ μὲν τῶν ἀκινήτων
+              <lb n="23" xml:id="p116-22"/>γνῶσις μόνον τὸ τέλος, καὶ διὰ τοῦτο οὐ κινούμεθα· ὅταν γὰρ νοήσῃ τὰς<note type="apparatus" n="23" target="#p116-22">μόνον ex μόνη corr. S¹</note>
+              <lb n="24" xml:id="p116-23"/>δύο προτάσεις, ἐπάγει τὸ συμπέρασμα καὶ πλέον οὐδέν· ἐνταῦθα δὲ ἐπὶ<note type="apparatus" n="24" target="#p116-23">ἐπάγῃ C</note>
+              <lb n="25" xml:id="p116-24"/>τῶν πρακτῶν τὸ συμπέρασμα γίνεται πρᾶξις. καὶ τίθησι τοῦ συλλογισμοῦ
+              <lb n="26" xml:id="p116-25"/>οὗ τὸ συμπέρασμα πρᾶξις, σαφῆ παραδείγματα λέγων ὅταν γὰρ νοήσῃ<note type="apparatus" n="26" target="#p116-25">post σαφῆ add. τὰ a ὅτε PR νοήσει P, ex νοήσῃ corr. R</note><milestone type="alt-edition" unit="line" ed="Aldina 1527" n="35"/>
+              <lb n="27" xml:id="p116-26"/>παντὶ βαδιστέον ἀνθρώπῳ’ καὶ τὰ ἑξῆς. τὸ δὲ ἂν μή τι κωλύῃ ἢ ἀναγκάζῃ,<note type="apparatus" n="27" target="#p116-26">τὸ δ’ ἐὰν S</note>
+              <lb n="28" xml:id="p116-27"/>ἐκ παραλλήλου κεῖται· τὸ γὰρ κωλῦον ἀναγκάζει ἡμᾶς μὴ ποιῆσαι
+              <lb n="29" xml:id="p116-28"/>ἐκεῖνο, οὗπέρ ἐστι κωλυτικόν. ἐπὶ δὲ τοῦ ἑτέρου συλλογισμοῦ ἐλάττων
+              <lb n="30" xml:id="p116-29"/>μέν ἐστι πρότασις τὸ σκεπάσματος δέομαι, μείζων δὲ τὸ τὸ δὲ ἱμάτιον
+              <lb n="31" xml:id="p116-30"/>σκέπασμα. τὸ δὲ πράττει δὲ ἀπ’ ἀρχῆς ἴσον ἐστὶ τῷ τῆς δὲ<note type="apparatus" n="31" target="#p116-30">ἐξαρχῆς PR</note>
+              <lb n="32" xml:id="p116-31"/>πράξεως ἀρχήν τινα ποιεῖται, ἐπὶ μὲν ἱματίου τὰ ἔρια ἢ τὸ νόμισμα, ἐπὶ<note type="apparatus" n="32" target="#p116-31">νόμισμα] ν~ S</note>
+              <lb n="33" xml:id="p116-32"/>δὲ οἰκίας λίθους. προτάσεις δὲ ποιητικὰς λέγει καθ’ ἃς συλλογιζόμενοι<milestone type="alt-edition" unit="line" ed="Aldina 1527" n="40"/>
+            </p>
+            <pb n="117" facs="https://archive.org/download/p1commentariaina22akaduoft/page/n328.jpg"/>
+            <p>
+              <lb n="1" xml:id="p117-0"/>πράττομέν τι. αὗται δὲ διὰ δύο εἰδῶν περαιοῦνται· ὅταν γὰρ ἀγαθὸν ἢ
+              <lb n="2" xml:id="p117-1"/>φαινόμενον ἀγαθὸν καὶ προσέτι δυνατὸν εἶναι συλλογισώμεθα, εὐθὺ πράττομεν.<note type="apparatus" n="2" target="#p117-1">συλλογιζώμεθα PR εὐθὺς a Arist.</note>
+              <lb n="3" xml:id="p117-2"/>καὶ ὥσπερ, φησίν, ἐπὶ τῶν ἐρωτώντων ἔνιοι τὴν μὲν δήλην πρότασιν<note type="apparatus" n="3" target="#p117-2">ἐρωτώντων ex ἐρώτων corr. RS</note>
+              <lb n="4" xml:id="p117-3"/>παραλιμπάνουσι, προτείνουσι δὲ τὴν λοιπήν, οὕτω καὶ ἐπὶ τῶν πρακτῶν,
+              <lb n="5" xml:id="p117-4"/>οἷον τὸ ὅτι μὲν βαδίζειν ἀγαθὸν προτείνει καὶ σκοπεῖ εἰ ἀγαθόν, τὴν<note type="apparatus" n="5" target="#p117-4">εἰ om. P τὴν] τὸ a</note>
+              <lb n="6" xml:id="p117-5"/>δὲ ὅτι ἐγὼ ἄνθρωπος οὐ προτείνει ὡς δήλην. διὸ καὶ ὅσα μὴ λογισάμενοι
+              <lb n="7" xml:id="p117-6"/>πράττομεν, ταχὺ πράττομεν· οὐ γὰρ συλλογιζόμεθα, ἵνα ἐνδιατρίψωμεν<note type="apparatus" n="7-8" target="#p117-6 #p117-7">ἵνα ἐμβραδύνωμεν καὶ ἐνδιατρίψωμεν συλλογιζόμενοι CPR</note><milestone type="alt-edition" unit="line" ed="Aldina 1527" n="45"/>
+              <lb n="8" xml:id="p117-7"/>καὶ ὅλως ἐμβραδύνωμεν συλλογιζόμενοι· ὅταν δὲ ἐνεργήσῃ τὰ ζῷα ἢ τῇ<note type="apparatus" n="8" target="#p117-7">δὲ om. CPRS: γὰρ Arist. ἢ] ἂν P</note>
+              <lb n="9" xml:id="p117-8"/>αἰσθήσει ἢ τῷ νῷ, εὐθὺς ἐπὶ τὴν πρᾶξιν ὁρμῶμεν οὗ ὀρεγόμεθα. ὅτι δὲ<note type="apparatus" n="9" target="#p117-8">ὁρῶμεν PR</note>
+              <lb n="10" xml:id="p117-9"/>ἡ ὄρεξις ἐσχάτη, δῆλον· πρῶτον μὲν γὰρ ἡ αἴσθησις ἢ ἡ φαντασία κινεῖται,<note type="apparatus" n="10" target="#p117-9">γὰρ om. CPR</note>
+              <lb n="11" xml:id="p117-10"/>καὶ οὕτως ἡ ὄρεξις. ἐν δὲ τῇ λέξει τῇ τῆς μὲν ἐσχάτης αἰτίας
+              <lb n="12" xml:id="p117-11"/>τοῦ κινεῖσθαι ὀρέξεως οὔσης τὸ ἐσχάτης ἀντὶ τοῦ κυρίας εἴληπται·
+              <lb n="13" xml:id="p117-12"/>οὐδὲν γὰρ ὄφελος πρὸς τὸ κινηθῆναι τὸ αἰσθέσθαι ἢ νοῆσαι, εἰ μὴ καὶ<note type="apparatus" n="13" target="#p117-12">post πρὸς add. δὲ S</note>
+              <lb n="14" xml:id="p117-13"/>ὄρεξις ἐπακολουθήσει. ὅτι δὲ τὰ πραττόμενα δι’ ὄρεξιν θυμοῦ καὶ ἐπιθυμίας<milestone type="alt-edition" unit="line" ed="Aldina 1527" n="50"/>
+              <lb n="15" xml:id="p117-14"/>καὶ βουλήσεως πράττεται, εἴρηται. ὁμοίως δὲ καὶ τί διαφέρει βούλησις
+              <lb n="16" xml:id="p117-15"/>θυμοῦ καὶ ἐπιθυμίας καὶ ὅλως ὀρέξεως, εἴρηται ταῦτα πάντα ἐν τῷ
+              <lb n="17" xml:id="p117-16"/>Περὶ ὁρμῆς.
+            </p>
+          </div>
+          <div type="textpart" subtype="lemma" n="14">
+            <milestone unit="bekker" n="701b1"/>
+            <quote type="lemma">
+              <lb n="18" xml:id="p117-17"/>Ὥσπερ δὲ τὰ αὐτόματα κινεῖται μικρᾶς κινήσεως γινομένης,<note type="apparatus" n="18" target="#p117-17">μικρᾶς a Arist.: μιᾶς S: μὲν CPR</note>
+            </quote>
+            <p>
+              <lb n="19" xml:id="p117-18"/>λυομένων τῶν στρεβλῶν.
+              <lb n="20" xml:id="p117-19"/>Αὐτόματα λέγει τὰ ὑπὸ τῶν θαυματοποιῶν ἐν τοῖς γάμοις καὶ ἐν<note type="apparatus" n="20" target="#p117-19">ἐν post καὶ om. CPR</note><milestone type="alt-edition" unit="folio" ed="Aldina 1527" n="153v"/>
+              <lb n="21" xml:id="p117-20"/>ἄλλοις τισὶ γινόμενα. λύσαντες γὰρ οὗτοι τὴν ἀρχὴν τῶν στρεβλῶν, εὐθὺς<note type="apparatus" n="21" target="#p117-20">τισὶ om. P γινομένοις S</note><milestone type="alt-edition" unit="line" ed="Aldina 1527" n="20"/>
+              <lb n="22" xml:id="p117-21"/>κρούσασα τὴν ἐφεξῆς λύει αὐτήν, καὶ αὕτη τὴν ἐφεξῆς, ἕως ἂν εἰς τὰ<note type="apparatus" n="22" target="#p117-21">post κρούσασα spat. II litt. P</note>
+              <lb n="23" xml:id="p117-22"/>ξύλινα εἴδωλα φθάσασα ἡ κίνησις κινήσῃ αὐτά, ὥστε δοκεῖν τοῖς μὴ εἰδόσι
+              <lb n="24" xml:id="p117-23"/>τὴν τῶν στρεβλῶν κατασκευὴν ὑφ’ αὑτῶν κινεῖσθαι. οὕτω καὶ τοῦ ἐν τῇ<note type="apparatus" n="24" target="#p117-23">post οὕτω add. δὲ a</note>
+              <lb n="25" xml:id="p117-24"/>καρδίᾳ πνεύματος κινηθέντος ὑπὸ τῆς ὀρέξεως, κινεῖ τὰ ἐχόμενα νεῦρα,
+              <lb n="26" xml:id="p117-25"/>καὶ ἐκεῖνα πάλιν τὰ ἐχόμενα, ἕως ἄν εἰς τὰ ὀργανικὰ μέρη χεῖρας καὶ
+              <lb n="27" xml:id="p117-26"/>πόδας φθάσασα ἡ κίνησις κινήσῃ τὸ ζῷον. ὅτι δὲ ἐν τοῖς ἁμαξίοις τοῖς
+              <lb n="28" xml:id="p117-27"/>τετρατρόχοις (ἐπὶ τούτων γὰρ τὸν λόγον ποιεῖται) ὁ ἐλάττων ὥσπερ κέντρον<milestone type="alt-edition" unit="line" ed="Aldina 1527" n="25"/>
+              <lb n="29" xml:id="p117-28"/>ἠρεμοῦν γίνεται, ἀνάλογος ὢν τῷ ἠρεμοῦντι ὠλεκράνῳ, δῆλον τοῖς
+              <lb n="30" xml:id="p117-29"/>ἀκριβῶς προσέχουσιν. ἐπειδὴ γὰρ μέγας ἐστίν, μᾶλλον δὲ μεγάλοι οἱ
+              <lb n="31" xml:id="p117-30"/>ὄπισθεν, οἱ δὲ ἔμπροσθεν οἱ πρὸς τοῖς βουσὶν ὄντες μικροί, ἀνάγκη ἵστασθαι
+              <lb n="32" xml:id="p117-31"/>τοὺς ἐλάττονας ἐν τῇ περιφορᾷ, ἵνα κινηθῶσιν οἱ μείζονες. ἐπεὶ γὰρ<note type="apparatus" n="32" target="#p117-31">ἐλάττους CPRa</note>
+              <lb n="33" xml:id="p117-32"/>ἐν τῷ αὐτῷ καὶ ἴσῳ χρόνῳ ἀπὸ τοῦ αὐτοῦ εἰς τὸ αὐτὸ ἀποκαθίστανται
+              <lb n="34" xml:id="p117-33"/>οἵ τε ἐλάττονες καὶ οἱ μείζονες, δῆλον ὅτι ἡ τοῦ μείζονος κίνησις μείζων
+            </p>
+            <pb n="118" facs="https://archive.org/download/p1commentariaina22akaduoft/page/n329.jpg"/>
+            <p>
+              <lb n="1" xml:id="p118-0"/>ἐστὶ καὶ ταχυτέρα, ἡ δὲ τοῦ ἐλάττονος βραδυτέρα. τὸ δὲ βραδύτερον τῇ
+              <lb n="2" xml:id="p118-1"/>τοῦ ἐναντίου μίξει ἐστὶ βραδύτερον, ἐναντία δὲ ἡ ἠρεμία τῇ κινήσει· ὥστε<milestone type="alt-edition" unit="line" ed="Aldina 1527" n="31"/>
+              <lb n="3" xml:id="p118-2"/>ἠρεμεῖ ὁ ἐλάττων βραδύτερον κινούμενος, εἰ καὶ λανθάνει ἡμᾶς μὴ βουλομένους<note type="apparatus" n="3" target="#p118-2">ἠρεμεῖ] ἠρεμαῖος CPR</note>
+              <lb n="4" xml:id="p118-3"/>διαπονεῖν περὶ τὸ τὰ τοιαῦτα βλέπειν. φέρε γὰρ λόγου χάριν (τὴν γὰρ
+              <lb n="5" xml:id="p118-4"/>ἀκρίβειαν ἐν τούτοις οὐ ζητητέον· σαφηνείας γὰρ μόνον τῶν λεγομένων,
+              <lb n="6" xml:id="p118-5"/>ἀλλ’ οὐχ ὁμοιότητος ἕνεκα τὸ ὑπόδειγμα παράγεται) φέρε οὖν λόγου χάριν<note type="apparatus" n="6" target="#p118-5">οὖν] γὰρ CPR</note>
+              <lb n="7" xml:id="p118-6"/>εἰπεῖν ὅτι ὥσπερ ὁ πόλος πρὸς τὸν ἰσημερινὸν ἢ καὶ ἁπλῶς πρὸς ἅπαντας<milestone type="alt-edition" unit="line" ed="Aldina 1527" n="35"/>
+              <lb n="8" xml:id="p118-7"/>τοὺς ὑπὸ τῶν ἀστέρων γραφομένους κύκλους ἔχει, οὕτω καὶ οἱ ἐλάττονες
+              <lb n="9" xml:id="p118-8"/>τροχοὶ πρὸς τοὺς μείζονας. ἀλλὰ ταῦτα μὲν οὕτως. ἡμᾶς δὲ καλῶς ἔχει<note type="apparatus" n="9" target="#p118-8">οὕτως ἡμᾶς δὲ in lit. R</note>
+              <lb n="10" xml:id="p118-9"/>εἰδέναι ὅτι τὸ τῶν αὐτομάτων ὑπόδειγμα εἴληπται ὡς ἀνάλογον τοῖς ἐν<note type="apparatus" n="10" target="#p118-9">post ὡς add. ὑπόδειγμα CPR</note>
+              <lb n="11" xml:id="p118-10"/>ἡμῖν νεύροις, τὸ δὲ τοῦ ἁμαξίου διὰ δύο λόγους μόνους καὶ οὐκέτι δι’
+              <lb n="12" xml:id="p118-11"/>ἄλλο τι, δι’ ἕνα μὲν λόγον ὡς ἀναλογίαν ἔχοντα τὰ ξύλα πρὸς τὰ ὀστᾶ, δι’<note type="apparatus" n="12" target="#p118-11">ἀναλογίαν] ἀναλόγως CR: ἀνάλογον P</note>
+              <lb n="13" xml:id="p118-12"/>ἄλλον δὲ ὅτι ὡς ἐνταῦθα οἱ ἐλάττονες τροχοὶ ὥσπερ κέντρον ἀκίνητον
+              <lb n="14" xml:id="p118-13"/>γίνονται, οὕτω καὶ ἐν τῷ ζῴῳ αἱ καμπαί· καὶ γὰρ ἐν ταῖς καμπαῖς, ὡς<note type="apparatus" n="14-15" target="#p118-13 #p118-14">ὥσπερ εἴρηται πολλάκις CRP</note><milestone type="alt-edition" unit="line" ed="Aldina 1527" n="40"/>
+              <lb n="15" xml:id="p118-14"/>πολλάκις εἴρηται, τὸ μὲν κινεῖται, τὸ δὲ ἠρεμεῖ. ἡ μὲν οὖν τῶν λεγομένων
+              <lb n="16" xml:id="p118-15"/>διάνοια, οἶμαι, τοιαύτη. ἐν δὲ τῇ λέξει τῇ καὶ τὸ ἁμάξιον ὅπερ<note type="apparatus" n="16" target="#p118-15">ὅπερ—ἁμάξιον (17) om. CPR ὅπερ S Arist. vulg.: ὥσπερ a Arist. PS</note>
+              <lb n="17" xml:id="p118-16"/>αὐτὸ ὀχούμενον κινεῖ εἰς εὐθὺ τοιοῦτόν ἐστι ‘τὸ ἁμάξιον εἰς εὐθὺ
+              <lb n="18" xml:id="p118-17"/>κινεῖ τὸ φερόμενον ὑπ’ αὐτοῦ’· ὀχούμενον γὰρ τὸ φερόμενον ὑπὸ τοῦ ἁμαξίου
+              <lb n="19" xml:id="p118-18"/>εἶπεν. εἰ γὰρ καὶ κύκλῳ κινοῦνται οἱ τροχοί, ἀλλ’ οὖν τὸ ὀχούμενον
+              <lb n="20" xml:id="p118-19"/>καὶ φερόμενον βάρος εἰς εὐθὺ κινοῦσιν. ἀλλὰ τοῦτο μέν, εἰ μὴ πλανῶμαι,
+              <lb n="21" xml:id="p118-20"/>οὐδεμίαν εἰκόνα τῆς ὑφ’ ἡμῶν γινομένης κινήσεως σώζει· τὸ δ’ ἐφεξῆς,<note type="apparatus" n="21" target="#p118-20">γενομένης PR</note><milestone type="alt-edition" unit="line" ed="Aldina 1527" n="45"/>
+              <lb n="22" xml:id="p118-21"/>τοῦτο δ’ ἐστὶ τὸ τῷ ἀνίσους ἔχειν τοὺς τροχούς· ὁ γὰρ ἐλάττων<note type="apparatus" n="22" target="#p118-21">τῷ om. CPR</note>
+              <lb n="23" xml:id="p118-22"/>ὥσπερ κέντρον γίνεται καὶ πάμπαν ἔχει πολλὴν ὁμοιότητα πρὸς τὴν
+              <lb n="24" xml:id="p118-23"/>ὑφ’ ἡμῶν γινομένην κίνησιν. ὡς γὰρ ἐν τούτοις ἱσταμένων τῶν ἐλαττόνων
+              <lb n="25" xml:id="p118-24"/>τροχῶν, ὡς πέφυκε γίνεσθαι ἡ στάσις, γίνεται ἡ τῶν μειζόνων περιαγωγὴ
+              <lb n="26" xml:id="p118-25"/>ἢ μᾶλλον ἡ κυκλικὴ κίνησις (ἡ γὰρ περιαγωγὴ κυρίως τῆς σφαίρας ἐστίν)
+              <lb n="27" xml:id="p118-26"/>οὕτω καὶ ἐφ’ ἡμῖν τὰ μὲν κινοῦνται ἐν τῇ κατὰ τόπον μεταβολῇ, τὰ δὲ
+              <lb n="28" xml:id="p118-27"/>ἵστανται. ἀνίσους δὲ ποιοῦσι τοὺς ἔμπροσθεν τροχούς, οὓς αὐτὸς ἐντὸς<milestone type="alt-edition" unit="line" ed="Aldina 1527" n="50"/>
+              <lb n="29" xml:id="p118-28"/>εἶπεν, ἵνα ὥσπερ ὑπερκειμένων τῶν ὄπισθεν καὶ ὠθούντων τοὺς πρόσθεν<note type="apparatus" n="29" target="#p118-28">ὑποκειμένων CRS</note>
+              <lb n="30" xml:id="p118-29"/>γίνηται ταχεῖα ἡ κίνησις. τὸ δὲ καθάπερ ἐν τοῖς κυλίνδροις εἶπε διὰ<note type="apparatus" n="30" target="#p118-29">γίνεται S</note>
+              <lb n="31" xml:id="p118-30"/>τὸ ὡς ἔοικε κἀκείνους τροχωτοὺς ποιεῖν, ὥσπερ καὶ νῦν τὰ ἐκ κυλίνδρων<note type="apparatus" n="31" target="#p118-30">ἔοικεν ἐκείνους CPR</note>
+              <lb n="32" xml:id="p118-31"/>ἁμαξίδια τὰ τετράτροχα, ἅπερ ἕλκουσιν οἱ παῖδες παίζοντες χαρίεντα ἰδεῖν<note type="apparatus" n="32" target="#p118-31">χαρίεντες P: χαρίεν R</note>
+              <lb n="33" xml:id="p118-32"/>διὰ τὸ περιτιθέμενον αὐτοῖς κάλλος ὑπὸ τῶν ζωγράφων. σίδηρον δὲ ἐν τῷ<note type="apparatus" n="33" target="#p118-32">περιτιθέναι CPR post ζωγράφων add. καλλύνουσι γὰρ αὐτὰ (γὰρ om. P) οἱ ζωγράφοι χρώμασι CPR δὲ] μὲν C</note><note type="apparatus" n="33-34" target="#p118-32 #p118-33">τοῖς τροχοῖς CPR</note>
+              <lb n="34" xml:id="p118-33"/>τροχῷ λέγει τὸν ἐν τῇ περιφερείᾳ τῶν τροχῶν περικείμενον, κύκλον καὶ
+            </p>
+            <pb n="119" facs="https://archive.org/download/p1commentariaina22akaduoft/page/n330.jpg"/>
+            <p>
+              <lb n="1" xml:id="p119-0"/>αὐτὸν ὄντα. ἀλλ’ ἐπεὶ ἐν τῷ περὶ τὴν <milestone type="alt-edition" unit="folio" ed="Aldina 1527" n="154r"/> καρδίαν πνεύματι καὶ τοῖς νεύροις
+              <lb n="2" xml:id="p119-1"/>συστολαί τινες γίνονται καὶ ἐκτάσεις καὶ ὅλως ἀλλοιώσεις, ἐν δὲ τοῖς
+              <lb n="3" xml:id="p119-2"/>ἁμαξίοις καὶ τοῖς αὐτομάτοις οὐ γίνονται, προσδιορίζεται καὶ περὶ τούτου<note type="apparatus" n="3" target="#p119-2">γίνεται CRS τούτου ex τούτων corr. P1: τούτων S</note>
+              <lb n="4" xml:id="p119-3"/>λέγων ἐν μὲν οὖν τοῖς αὐτομάτοις καὶ τοῖς ἁμαξίοις οὐκ ἔστιν<note type="apparatus" n="4" target="#p119-3">ἐν] εἰ R</note>
+              <lb n="5" xml:id="p119-4"/>ἀλλοίωσις, δυνάμει τοῦτο λέγων ὅτι κἂν καὶ ἐν τούτοις ἐγίνετο ἀλλοίωσις,<note type="apparatus" n="5" target="#p119-4">δυνάμεως CR ὅτι om. a post κἂν add. εἰ a καὶ om. CPR</note>
+              <lb n="6" xml:id="p119-5"/>ἡ αὐτὴ ἂν ἐπετελεῖτο κίνησις, ἥτις καὶ νῦν γίνεται μὴ ἀλλοιουμένων. ὅτι<note type="apparatus" n="6" target="#p119-5">ἀλλοιουμένω C</note>
+              <lb n="7" xml:id="p119-6"/>δὲ καὶ τὰ νεῦρα ἡμῶν καὶ τὰ μόρια αὔξονται ἤτοι ἐκτείνονται καὶ ὅλως<milestone type="alt-edition" unit="line" ed="Aldina 1527" n="5"/>
+              <lb n="8" xml:id="p119-7"/>μείζονα γίνονται ἐν ταῖς ἡδοναῖς ὑπὸ τῆς τότε γινομένης εὐκράτου θερμότητος,<note type="apparatus" n="8" target="#p119-7">ἐγγινομένης C</note>
+              <lb n="9" xml:id="p119-8"/>καὶ πάλιν συστέλλονται καὶ οἱονεὶ πιλοῦνται ἐν τοῖς φόβοις διὰ τὴν<note type="apparatus" n="9" target="#p119-8">συστέλλεται PR</note>
+              <lb n="10" xml:id="p119-9"/>κατάψυξιν (πήγνυσι γὰρ τὸ ψῦχος) εἴρηται καὶ πρότερον. σαφῆ δὲ τὰ
+              <lb n="11" xml:id="p119-10"/>ἑξῆς διὰ τὸ προειπεῖν ἡμᾶς ταῦτα πάντα πρὸ ὀλίγου. τὸ δὲ καὶ ἐν<note type="apparatus" n="11" target="#p119-10">προειπεῖν ex πρὸ ἡμῖν corr. R πρὸ ὀλίγου πάντα coll. CPR</note><note type="apparatus" n="11-12" target="#p119-10 #p119-11">ἐν ταύτῃ ex ἐνταῦθα corr. R</note>
+              <lb n="12" xml:id="p119-11"/>ταύτῃ κατὰ μέγεθος ἐν ἀναισθήτῳ μορίῳ ἴσον ἐστὶ τῷ κἂν ἐν μικροτάτῳ<note type="apparatus" n="12" target="#p119-11">ἐν post μέγεθος om. P τῷ om. CPR</note>
+              <lb n="13" xml:id="p119-12"/>καὶ πρὸς αἴσθησιν ἀναισθήτῳ μορίῳ αὐτῆς γένηται ἡ ἀλλοίωσις.<milestone type="alt-edition" unit="line" ed="Aldina 1527" n="10"/>
+            </p>
+          </div>
+          <div type="textpart" subtype="lemma" n="15">
+            <milestone unit="bekker" n="701b34"/>
+            <quote type="lemma">
+              <lb n="14" xml:id="p119-13"/>Ἐξ ἀνάγκης δὲ ἀκολουθεῖ τῇ νοήσει καὶ τῇ φαντασίᾳ
+            </quote>
+            <p>
+              <lb n="15" xml:id="p119-14"/>αὐτῶν θερμότης καὶ ψῦξις.
+              <lb n="16" xml:id="p119-15"/>Τὸ τῆς λέξεως συνεχὲς τοιοῦτον ‘ἐξ ἀνάγκης δὲ ἀκολουθεῖ τῇ νοήσει<note type="apparatus" n="16" target="#p119-15">Τὸ τῆς— ψῦξις (17) in marg. P1</note>
+              <lb n="17" xml:id="p119-16"/>καὶ τῇ φαντασίᾳ αὐτῶν θερμότης καὶ ψῦξις· ἔστι δὲ τὰ λυπηρὰ καὶ ἡδέα
+              <lb n="18" xml:id="p119-17"/>αὐτῶν σχεδὸν πάντα μετὰ ψύξεως καὶ θερμότητος’. τὰ δὲ ἄλλα μεταξύ.<note type="apparatus" n="18" target="#p119-17">ἀλλὰ a</note>
+              <lb n="19" xml:id="p119-18"/>ἦν δ’ ἂν κατάλληλος ἡ λέξις, εἰ εἶχεν ἀντὶ τοῦ δέ συνδέσμου τὸν γάρ, ἵν’<note type="apparatus" n="19-20" target="#p119-18 #p119-19">ἵν’ ἦ CPR</note>
+              <lb n="20" xml:id="p119-19"/>ἦν οὕτως ‘ἔστι γὰρ τὰ λυπηρὰ καὶ ἡδέα αὐτῶν’. λανθάνει δὲ ὅτι μετὰ
+              <lb n="21" xml:id="p119-20"/>θερμότητος καὶ ψύξεως γίνονται περὶ τὰ μικρὰ λυπηρὰ καὶ ἡδέα, περὶ δὲ<milestone type="alt-edition" unit="line" ed="Aldina 1527" n="20"/>
+              <lb n="22" xml:id="p119-21"/>τὰ μεγάλα πάμπαν εἰσὶ καταφανῆ. ὧν θερμοτήτων περὶ ἡμᾶς γινομένων<note type="apparatus" n="22" target="#p119-21">γινομένων περὶ ἡμᾶς coll. CPR</note>
+              <lb n="23" xml:id="p119-22"/>καὶ ψύξεων ὁρῶμεν ποτὲ μὲν μόριά τινα κινούμενα ἐν ἡμῖν, ὡς ἐν τοῖς<note type="apparatus" n="23" target="#p119-22">ὁρῶμεν] ὁρᾶται a</note>
+              <lb n="24" xml:id="p119-23"/>ὀνειρωγμοῖς τὸ αἰδοῖον, τὰ σκέλη, ποτὲ δὲ ὅλον τὸ σῶμα, ὅτε κατὰ τόπον<note type="apparatus" n="24" target="#p119-23">ὀνειρογμοῖς CPR ποτὲ] ὁτὲ CPR</note>
+              <lb n="25" xml:id="p119-24"/>μεταβάλλομεν. ἐν δὲ τῇ λέξει τῇ οἷον εἰδώλοις χρώμεναι τοῖς τοιούτοις<note type="apparatus" n="25" target="#p119-24">post τοῖς add. τούτων CR</note>
+              <lb n="26" xml:id="p119-25"/>περὶ τῶν ἀπὸ τῶν ἡδέων καὶ τῶν λυπηρῶν ἐγγινομένων ἡμῖν<note type="apparatus" n="26" target="#p119-25">ἐγγενομένων S</note>
+              <lb n="27" xml:id="p119-26"/>περὶ τὸ πρῶτον αἰσθητήριον τύπων καὶ ἀναζωγραφημάτων εἴρηται.<note type="apparatus" n="27" target="#p119-26">αἰσθητικὸν CPR</note><milestone type="alt-edition" unit="line" ed="Aldina 1527" n="25"/>
+            </p>
+          </div>
+          <div type="textpart" subtype="lemma" n="16">
+            <milestone unit="bekker" n="702a7"/>
+            <quote type="lemma">
+              <lb n="28" xml:id="p119-27"/>Ὥστ’ εὐλόγως ἤδη δημιουργεῖται τὰ ἐντὸς καὶ τὰ περὶ<note type="apparatus" n="28" target="#p119-27">τὰ post καὶ om. a</note>
+            </quote>
+            <p>
+              <lb n="29" xml:id="p119-28"/>τὰς ἀρχὰς τῶν ὀργανικῶν μορίων.
+              <lb n="30" xml:id="p119-29"/>Ἀρχὰς ὀργανικῶν μορίων λέγει τὰ νεῦρα, τοὺς μῦς, ὀργανικὰ δὲ
+            </p>
+            <pb n="120" facs="https://archive.org/download/p1commentariaina22akaduoft/page/n331.jpg"/>
+            <p>
+              <lb n="1" xml:id="p120-0"/>μόρια χεῖρας καὶ πόδας. γίνονται δὲ τὰ νεῦρα πεπηγότα καὶ οἱονεὶ ξηρὰ<note type="apparatus" n="1" target="#p120-0">καὶ prius om. CPR παραπεπηγότα C</note>
+              <lb n="2" xml:id="p120-1"/>καὶ ὡς αὐτὸς λέγει σκληρὰ ἐν τοῖς φόβοις, ὑγρὰ δὲ καὶ μαλακὰ καὶ ἀπολελυμένα<note type="apparatus" n="2" target="#p120-1">καὶ post ξηρὰ om. CPR σκληρὰ] ξηρὰ S</note><note type="apparatus" n="2-3" target="#p120-1 #p120-2">ἀπολελυμένα καὶ μαλακὰ coll. CPR</note><milestone type="alt-edition" unit="line" ed="Aldina 1527" n="30"/>
+              <lb n="3" xml:id="p120-2"/>ἐν ταῖς ἡδοναῖς. γινομένων γὰρ ὑπὸ ψύξεως καὶ θερμότητος τῶν
+              <lb n="4" xml:id="p120-3"/>τοιούτων περὶ τὰς ἀρχὰς τῶν ὀργανικῶν μορίων πρὸς τὰς ἐνεργείας αὐτὰς
+              <lb n="5" xml:id="p120-4"/>καὶ τὰς ὑπηρεσίας ἄγεται τῇ ὁρμητικῇ δυνάμει, ἀφ’ ἧς καὶ τὴν ἀρχὴν
+              <lb n="6" xml:id="p120-5"/>ἐγγίνεται· πᾶσαι γὰρ αἱ τοιαῦται πράξεις ἐνεργοῦνται διὰ τῆς τῶν σωματικῶν
+              <lb n="7" xml:id="p120-6"/>μορίων ἐνεργείας.
+            </p>
+          </div>
+          <div type="textpart" subtype="lemma" n="17">
+            <milestone unit="bekker" n="702a10"/>
+            <quote type="lemma">
+              <lb n="8" xml:id="p120-7"/>Τούτων δὲ συμβαινόντων τοῦτον τὸν τρόπον.<note type="apparatus" n="8" target="#p120-7">τὸν τρόπον τοῦτον coll. a</note>
+            </quote>
+            <p>
+              <lb n="9" xml:id="p120-8"/>Τουτέστι τούτων δὲ μεταβαλλόντων ἐξ ὑγρῶν εἰς ξηρὰ καὶ τὰ λοιπὰ<milestone type="alt-edition" unit="line" ed="Aldina 1527" n="41"/>
+              <lb n="10" xml:id="p120-9"/>ἅπερ εἴρηκε πασχόντων, καὶ ἐπὶ τοῦ παθητικοῦ καὶ ποιητικοῦ τοιαύτην<note type="apparatus" n="10" target="#p120-9">πασχόντων] πανθανόντων (sic) CPR ἐπὶ Sa Arist. S: ἔτι CPR Arist. vulg.</note>
+              <lb n="11" xml:id="p120-10"/>ἐχόντων φύσιν, ἵνα τὸ μὲν ποιῇ τὸ δὲ πάσχῃ, ἐπειδὴ ἀπὸ τῆς τοιαύτης
+              <lb n="12" xml:id="p120-11"/>ὀρέξεως τὰ τοιάδε γίνεται πάθη, ἀνάγκη ἅμα τῷ τὴν ὄρεξιν κινῆσαι γίνεσθαι<note type="apparatus" n="12" target="#p120-11">γίνονται PR</note><note type="apparatus" n="12-13" target="#p120-11 #p120-12">γίνεσθαι ex γενέσθαι corr. P1</note>
+              <lb n="13" xml:id="p120-12"/>τοῦ πνεύματος καὶ διὰ τούτου τῶν νεύρων κίνησιν, καὶ διὰ τούτων<note type="apparatus" n="13" target="#p120-12">κίνησιν post πνεύματος ponit P, item corr. R</note>
+              <lb n="14" xml:id="p120-13"/>τοῦ ζῴου. ἡ μὲν οὖν διάνοια αὕτη. τὸ δὲ τῆς λέξεως τῆς καὶ μηδὲν
+              <lb n="15" xml:id="p120-14"/>ἀπολείπει αὐτῶν ἑκάτερον τῶν ἐν τῷ λόγῳ τοιοῦτόν ἐστι ‘καὶ μηδὲν<note type="apparatus" n="15" target="#p120-14">ἀπολίπῃ CR αὐτῶν — ἀπολείπει (16) om. CPR ἑκατέρων a</note>
+              <lb n="16" xml:id="p120-15"/>ἀπολείπει τῶν εἰς τὸ τί ἦν εἶναι καὶ τὸ εἶδος ἑκάστου τούτων συντεινόντων’.<note type="apparatus" n="16" target="#p120-15">ἦν] ᾖ R</note>
+              <lb n="17" xml:id="p120-16"/>ὥσπερ γὰρ ἂν λείπῃ τι τῶν εἰς τὸν ὁρισμὸν τοῦ ἀνθρώπου ὑπαρχόντων,<note type="apparatus" n="17" target="#p120-16">λίπῃ C ἀνθρώπου — ὁρισμὸν τοῦ (18. 19) om. CPR</note>
+              <lb n="18" xml:id="p120-17"/>οὐκέτ’ ἐστὶν ἄνθρωπος, οὕτως ἂν λείπῃ τι τῶν εἰς τὸν ὁρισμὸν<note type="apparatus" n="18" target="#p120-17">οὐκ ἔστιν a</note>
+              <lb n="19" xml:id="p120-18"/>τοῦ ποιητικοῦ ᾗ ποιητικὸν λαμβανομένων, οὐκ ἔσται τὸ ποιητικὸν τοῦθ’<note type="apparatus" n="19" target="#p120-18">ποιητικὸν (post ἢ) scripsi: ποιητικῶν S: ποιητικοῦ Ca: ποιητικῶς PR οὐκ ἔστι a</note>
+              <lb n="20" xml:id="p120-19"/>ὅπερ λέγεται· ὁμοίως οὐδὲ τὸ παθητικὸν παθητικόν.<note type="apparatus" n="20" target="#p120-19">τὸ παθητικὸν] παθητὸν PR</note>
+            </p>
+          </div>
+          <div type="textpart" subtype="lemma" n="18">
+            <milestone unit="bekker" n="702a21"/>
+            <quote type="lemma">
+              <lb n="21" xml:id="p120-20"/>Τὸ δὲ κινοῦν πρῶτον τὸ ζῷον ἀνάγκη εἶναι ἔν τινι ἀρχῇ. <milestone type="alt-edition" unit="folio" ed="Aldina 1527" n="154v"/><note type="apparatus" n="21" target="#p120-20">post κινοῦν add. καὶ a τὸ om. a</note><milestone type="alt-edition" unit="line" ed="Aldina 1527" n="50"/>
+            </quote>
+            <p>
+              <lb n="22" xml:id="p120-21"/>Ὅτι μὲν οὖν τὸ κινοῦν πρῶτον τὸ ζῷον ἀνάγκη εἶναι ἔν τινι ἀρχῇ,<note type="apparatus" n="22" target="#p120-21">post οὖν add. εἰ S πρῶτον om. PR εἶναι post ἀρχῇ ponunt CPR</note>
+              <lb n="23" xml:id="p120-22"/>πάντες ὁμολογοῦσιν. ἐπειδὴ δὲ καὶ αἱ καμπαὶ ἀρχαί, ὡς πολλάκις εἴρηται,<note type="apparatus" n="23" target="#p120-22">ἐπεὶ PR καὶ om. a</note>
+              <lb n="24" xml:id="p120-23"/>δείκνυσιν ὅτι ἀδύνατον ἔν τινι τῶν καμπῶν εἶναι, ἀλλ’ ἐν τοιαύτῃ ἀρχῇ
+              <lb n="25" xml:id="p120-24"/>ἀναγκαῖον εἶναι τὸ πρῶτον κινοῦν τὸ ζῷον, ἥτις οὐκ ἔστιν ἄλλου μὲν ἀρχὴ<note type="apparatus" n="25" target="#p120-24">πρώτως PR τὸ ζῷον κινοῦν coll. CPR</note>
+              <lb n="26" xml:id="p120-25"/>ἄλλου δὲ τέλος, ἀλλ’ οὖσα αὐτὴ καθ’ αὑτήν· τοῦτο δ’ ἐστὶν ἡ καρδία.<note type="apparatus" n="26" target="#p120-25">τέλος] τινὸς τελευτὴ C</note>
+            </p>
+            <pb n="121" facs="https://archive.org/download/p1commentariaina22akaduoft/page/n332.jpg"/>
+            <p>
+              <lb n="1" xml:id="p121-0"/>fw8<note type="apparatus" n="1" target="#p121-0">δέδεικται CPRa τῷ ἀληθεστάτῳ-Ἀφροδισιεῖ] τῷ ἀφροδισιεῖ ἀλεξάνδρῳ CPR</note><note type="apparatus" n="1-2" target="#p121-0 #p121-1">ἐν τῷ-μέρος] Alex. de an. (Suppl. Arist. II 1) p. 97,16 sqq.</note>
+              <lb n="2" xml:id="p121-1"/>τῷ Περὶ τοῦ ποῦ τακτέον τὸ ἡγεμονικὸν τῆς ψυχῆς μέρος, ὅτι τὸ κινοῦν<milestone type="alt-edition" unit="line" ed="Aldina 1527" n="6"/>
+              <lb n="3" xml:id="p121-2"/>πρῶτον τὸ ζῷον (τοῦτο δ’ ἐστὶν ἡ ὀρεκτική τε καὶ ὁρμητικὴ δύναμις τῆς<note type="apparatus" n="3" target="#p121-2">ὁρμητική τε καὶ ὀρεκτικὴ coll. a</note>
+              <lb n="4" xml:id="p121-3"/>ψυχῆς, ὡς πολλάκις εἴρηται) δέδεικται οὖν ὅτι ἐν τῇ καρδίᾳ ἐστίν· αὕτη<note type="apparatus" n="4" target="#p121-3">οὖν ὅτι om. CPR ἐστίν] εἶναι CPR</note>
+              <lb n="5" xml:id="p121-4"/>γὰρ καὶ ἀρχὴ τῶν ζῴων, ὡς ἐκ τοῦ λόγου καὶ τῶν ἀνατομῶν δείκνυται.
+              <lb n="6" xml:id="p121-5"/>δείκνυσι δὲ ὅτι οὐκ ἔστιν ἐν ταῖς καμπαῖς, ἐπὶ τοῦ βραχίονος τὴν δεῖξιν<note type="apparatus" n="6" target="#p121-5">post δεῖξιν add. τοῦ λόγου PR</note>
+              <lb n="7" xml:id="p121-6"/>ποιούμενος· ὃ γὰρ ἂν ἐπὶ τούτου δειχθῇ, τοῦτο κατὰ πάντων ἁρμόσει.<note type="apparatus" n="7" target="#p121-6">ὃ γὰρ ἂν] ἐὰν γὰρ a: ἂν om. CPR post ἁρμόσει add. τῶν καμπῶν CPRa</note>
+              <lb n="8" xml:id="p121-7"/>ὅτι μὲν οὖν, φησίν, ἐστὶν ἡ καμπὴ τοῦ μὲν ἀρχὴ τοῦ δὲ τελευτή, εἴρηται·<note type="apparatus" n="8" target="#p121-7">οὖν om. C ἐστὶν om. a</note><milestone type="alt-edition" unit="line" ed="Aldina 1527" n="10"/>
+              <lb n="9" xml:id="p121-8"/>ὡς γὰρ τὸ νῦν τέλος μέν ἐστι τοῦ παρεληλυθότος, ἀρχὴ δὲ τοῦ μέλλοντος,<note type="apparatus" n="9" target="#p121-8">τὸ om. R</note>
+              <lb n="10" xml:id="p121-9"/>οὕτω καὶ ὁ καρπὸς ἀρχὴ μὲν τῆς χειρός, τελευτὴ δὲ τοῦ βραχίονος. καὶ
+              <lb n="11" xml:id="p121-10"/>χρῆται μὲν ὡς ἑνὶ ἅπαντι τῷ κώλῳ τῷ ἀπὸ τοῦ ὤμου ἄχρι τῆς χειρός
+              <lb n="12" xml:id="p121-11"/>(χεὶρ δέ ἐστι τὸ ὑπὸ τῶν δακτύλων καὶ τοῦ θέναρος συνεστηκός· εἴρηται<note type="apparatus" n="12-13" target="#p121-11 #p121-12">εἴρηται δὲ] ὡς εἴρηται CPR</note>
+              <lb n="13" xml:id="p121-12"/>δὲ ἐν ταῖς Περὶ ζῴων ἱστορίαις) χρῆται οὖν ἅπαντι τῷ κώλῳ ὡς ἑνὶ διὰ<note type="apparatus" n="13" target="#p121-12">ἐν ταῖς Περὶ ζῴων ἱστορίαις] A</note>
+              <lb n="14" xml:id="p121-13"/>τὴν συνέχειαν τῶν σαρκῶν καὶ νεύρων, χρῆται δ’ αὐτῷ καὶ ὡς δυσὶ διὰ τὸ
+              <lb n="15" xml:id="p121-14"/>κινουμένης τῆς χειρὸς ἠρεμεῖν τὸν καρπόν (τοῦτο γὰρ δέδεικται πρότερον)<note type="apparatus" n="15" target="#p121-14">p. 493 b 27 14 post συνέχειαν add. τοῦ παντὸς ἤτοι P, τ. π. ἤγουν CR χρῆται δ’ αὐτῷ om. Sa</note><milestone type="alt-edition" unit="line" ed="Aldina 1527" n="15"/>
+              <lb n="16" xml:id="p121-15"/>ὁμοίως δὲ καὶ τοῦ βραχίονος κινουμένου ἠρεμεῖν τὸ ὠλέκρανον. τὸ δὲ<note type="apparatus" n="16-17" target="#p121-15 #p121-16">τὸ δὲ ὅτε γὰρ κινεῖται PR</note>
+              <lb n="17" xml:id="p121-16"/>ὅταν γὰρ κινῆται ἐντεῦθεν ταὐτόν ἐστι τῷ ὅταν γὰρ κινῆται ἐκ τοῦδε
+              <lb n="18" xml:id="p121-17"/>τοῦ τόπου εἰς τόνδε. ὅτι δὲ ἐν τῇ κινήσει οὐ μόνον πρὸς ἠρεμοῦν ἐκτός
+              <lb n="19" xml:id="p121-18"/>τι δεῖ ἀπερείδεσθαι, ἀλλὰ καὶ πρός τι τῶν ἐν ἡμῖν, εἴρηκεν ἀρχόμενος<note type="apparatus" n="19" target="#p121-18">εἴρηκεν] c. 1 p. 698 a 14 sqq.</note>
+              <lb n="20" xml:id="p121-19"/>τοῦ λόγου.
+            </p>
+          </div>
+          <div type="textpart" subtype="lemma" n="19">
+            <milestone unit="bekker" n="702a28"/>
+            <quote type="lemma">
+              <lb n="21" xml:id="p121-20"/>Τῆς δ’ ἐν τῷ ὠλεκράνῳ κάμψεως τὸ μὲν κινεῖται τὸ
+            </quote>
+            <p>
+              <lb n="22" xml:id="p121-21"/>ἐν αὐτῷ τῷ ὅλῳ κινουμένῳ.<note type="apparatus" n="22" target="#p121-21">αὐτῷ om. S τῷ om. CPR ὅλον κινούμενον CPR</note>
+              <lb n="23" xml:id="p121-22"/>Ὃ λέγει τοιοῦτόν ἐστι· τὸ μέρος, τουτέστιν ἡ χείρ, συγκινεῖται τῷ<note type="apparatus" n="23" target="#p121-22">μέρος ex μὲν corr. S1: μὲν a</note>
+              <lb n="24" xml:id="p121-23"/>ὅλῳ βραχίονι. ἔστι γὰρ ἡ χεὶρ ἐν τῷ βραχίονι ὡς μέρος πρὸς ὅλον· τὸ<note type="apparatus" n="24" target="#p121-23">ἔστι γὰρ-βραχίονι om. CPR πρὸς ὅλον] σὺν ὅλῳ CPR</note>
+              <lb n="25" xml:id="p121-24"/>μέρος οὖν τὸ ἐν τῷ ὅλῳ συγκινεῖται τῷ ὅλῳ. ἐν τῇ κάμψει γὰρ τοῦ<note type="apparatus" n="25" target="#p121-24">τὸ ὂν ἐν τῷ CPR</note>
+              <lb n="26" xml:id="p121-25"/>βραχίονος, κινουμένου τοῦ βραχίονος ὅλου, συγκινεῖται καὶ ἡ χείρ. εἰπὼν<note type="apparatus" n="26" target="#p121-25">τοῦ βραχίονος ὅλου] ὅλου τούτου CPR χείρ] ἀρχή PR</note>
+              <lb n="27" xml:id="p121-26"/>δὲ τὸ μὲν κινεῖται, καὶ δέον ἐπενεγκεῖν ‘τὸ δ’ οὐ κινεῖται’, ἀντὶ τούτου
+              <lb n="28" xml:id="p121-27"/>ἐπήγαγεν ἀνάγκη δ’ εἶναί τι ἀκίνητον· δέδεικται δὲ τοῦτο πολλάκις.<note type="apparatus" n="28" target="#p121-27">τι ἀκίνητον-πρῶτον κινοῦν (29) om. C</note><milestone type="alt-edition" unit="line" ed="Aldina 1527" n="35"/>
+              <lb n="29" xml:id="p121-28"/>ταῦτα προλαβὼν δείκνυσιν ὅτι οὐκ ἔστι τὸ πρῶτον κινοῦν ἔν τινι τῶν<note type="apparatus" n="29" target="#p121-28">προλαβεῖν a</note>
+            </p>
+            <pb n="122" facs="https://archive.org/download/p1commentariaina22akaduoft/page/n333.jpg"/>
+            <p>
+              <lb n="1" xml:id="p122-0"/>καμπῶν, λέγων ‘ὥστε εἰ ἦν ὁ βραχίων ζῷον, ἦν ἂν ἐν τῷ ὠλεκράνῳ ἡ
+              <lb n="2" xml:id="p122-1"/>ψυχή. ἐπεὶ δὲ ὡς ἔχει ὁ βραχίων πρὸς τὸ ὠλέκρανον, ἐνδέχεται τι ἄλλο
+              <lb n="3" xml:id="p122-2"/>τῶν ἀψύχων, οἷον ἡ ῥάβδος, ἔχειν πρὸς τὴν χεῖρα (ἔστι γὰρ καὶ ἡ ῥάβδος<note type="apparatus" n="3" target="#p122-2">τὴν ῥάβδον CPR καὶ om. CPR</note>
+              <lb n="4" xml:id="p122-3"/>τέλος μὲν τῆς ἐχούσης αὐτὴν χειρός, ἀρχὴ δὲ ἑαυτῆς· τὸ γὰρ τῆς ῥάβδου<note type="apparatus" n="4" target="#p122-3">μὲν om. et post τῆς supr. vers. adscr. P1 ἑαυτῆς] αὐτῆς CPR</note><note type="apparatus" n="4-5" target="#p122-3 #p122-4">fort. τῆς ῥάβδου μέρος</note>
+              <lb n="5" xml:id="p122-4"/>τέλος, οὗπερ ἡ χεὶρ ἅπτεται, τέλος μέν ἐστι τῆς χειρός, ἀρχὴ δὲ τῆς
+              <lb n="6" xml:id="p122-5"/>ῥάβδου) ἐπεὶ οὖν ἐνδέχεται τι ἄλλο τῶν ἀψύχων ἔχειν πρὸς τὴν χεῖρα,<milestone type="alt-edition" unit="line" ed="Aldina 1527" n="40"/>
+              <lb n="7" xml:id="p122-6"/>ὡς ὁ βραχίων πρὸς τὸ ὠλέκρανον, μὴ ἔστι δὲ ἡ ψυχὴ μεταξὺ χειρὸς καὶ
+              <lb n="8" xml:id="p122-7"/>ῥάβδου, οὐδ’ ἂν ἐν τῷ καρπῷ εἴη οὔτε ἐν τῷ ὠλεκράνῳ οὔτε ἐν τῷ ὤμῳ
+              <lb n="9" xml:id="p122-8"/>οὔτε ἐν ἄλλῳ, οὗ τὸ μέν ἐστιν ἀρχὴ τὸ δὲ τέλος. διὰ τί γὰρ ἂν ἐν ταύτῃ
+              <lb n="10" xml:id="p122-9"/>τῇ καμπῇ εἴη, καὶ οὐκ ἐν ταύτῃ, ὁμοίως ἐν πάσαις ταῖς καμπαῖς θεωρουμένων<note type="apparatus" n="10" target="#p122-9">καὶ οὐκ] οὐχὶ καὶ PR ante ὁμοίως add. οἶμαι καὶ οὐκ ἐν ταύτῃ PR</note>
+              <lb n="11" xml:id="p122-10"/>καὶ τῆς ἀρχῆς καὶ τοῦ τέλους;’ ἡ μὲν οὖν διάνοια οἶμαι αὕτη.<note type="apparatus" n="11" target="#p122-10">αὕτη] τοιαύτη a</note>
+              <lb n="12" xml:id="p122-11"/>ἔσχατον δὲ κινούμενον λέγει τὴν χεῖρα, ἑτέραν δὲ ἀρχὴν τὴν ῥάβδον.
+              <lb n="13" xml:id="p122-12"/>ἀνάγκη οὖν, φησίν, ἐν μηδεμιᾷ εἶναι ἀρχῇ, ἥ ἐστιν ἄλλου τελευτή,<note type="apparatus" n="13" target="#p122-12">post ἄλλου add. ἀρχή PR</note><milestone type="alt-edition" unit="line" ed="Aldina 1527" n="45"/>
+              <lb n="14" xml:id="p122-13"/>μηδὲ εἴ τι ἐστὶν ἕτερον ἐκείνου ἐξωτέρω, λέγων ἐξωτέρω τὰ ἐφεξῆς.<note type="apparatus" n="14" target="#p122-13">τὸ ἐφεξῆς PR</note>
+              <lb n="15" xml:id="p122-14"/>ἔστι δὲ τοῦ μὲν καρποῦ ἐφεξῆς βραχίων, καὶ τούτου ἄλλο, κἀκείνου ἕτερον.
+              <lb n="16" xml:id="p122-15"/>οὐκ ἔστιν οὖν ἐν τῇ τοιαύτῃ ἀρχῇ ἡ ψυχή, ἥτις ἐστὶν ἐφεξῆς ἄλλης. τὸ δὲ<note type="apparatus" n="16" target="#p122-15">ἀρχῇ om. P ἄλλης scripsi: ἄλλη libri</note>
+              <lb n="17" xml:id="p122-16"/>ἔτι γὰρ τοῦ ὠλεκράνου μένοντος κινεῖται ἅπαν τὸ κάτω συνεχὲς<note type="apparatus" n="17" target="#p122-16">κάτω—κινεῖται ὁ (18) in marg. P</note>
+              <lb n="18" xml:id="p122-17"/>ἴσον ἔστι τῷ ‘ὥσπερ γὰρ τοῦ ὠλεκράνου μένοντος κινεῖται ὁ βραχίων
+              <lb n="19" xml:id="p122-18"/>(οὗτος γάρ ἐστι συνεχὴς τῷ ὠλεκράνῳ) οὕτω καὶ τοῦ ὠλεκράνου μένοντος
+              <lb n="20" xml:id="p122-19"/>κινηθήσεται τὸ ἀνώτερον αὐτοῦ, τοῦτο δ’ ἐστὶ τὸ μεταξὺ αὐτοῦ τοῦ ὠλεκράνου<note type="apparatus" n="20" target="#p122-19">ἀνωτέρω CPRa</note>
+              <lb n="21" xml:id="p122-20"/>καὶ τοῦ ὤμου· εἰ δὲ τοῦτο, οὔτε ὁ βραχίων ἔσται ἀρχὴ οὔτε τὸ ὠλέκρανον<note type="apparatus" n="21" target="#p122-20">τοῦτο] τούτου PR</note><milestone type="alt-edition" unit="line" ed="Aldina 1527" n="50"/>
+              <lb n="22" xml:id="p122-21"/>οὔτ’ ἄλλο οὐδὲν τῶν τοιούτων.
+            </p>
+          </div>
+          <div type="textpart" subtype="lemma" n="20">
+            <milestone unit="bekker" n="702b12"/>
+            <quote type="lemma">
+              <lb n="23" xml:id="p122-22"/>Ἐπεὶ δ’ ὁμοίως ἔχει ἀπὸ τῶν ἀριστερῶν καὶ τῶν<note type="apparatus" n="23" target="#p122-22">ἔχει om. CS καὶ ἀπὸ τῶν CPRa</note>
+            </quote>
+            <p>
+              <lb n="24" xml:id="p122-23"/>δεξιῶν, καὶ ἅμα τὰ ἐναντία κινεῖται. <milestone type="alt-edition" unit="folio" ed="Aldina 1527" n="155r"/>
+              <lb n="25" xml:id="p122-24"/>Τὸ ἅμα ἀντὶ τοῦ παρὰ μέρος εἴληπται· οὐ γὰρ ἀεὶ ἐν τῇ κατὰ
+              <lb n="26" xml:id="p122-25"/>τόπον μεταβολῇ τὸ μὲν ἀριστερὸν ἠρεμεῖ, τὸ δὲ δεξιὸν κινεῖται, ἢ ἔμπαλιν<milestone type="alt-edition" unit="line" ed="Aldina 1527" n="6"/>
+              <lb n="27" xml:id="p122-26"/>ἀεὶ τὸ δεξιὸν ἠρεμεῖ καὶ κινεῖται τὸ ἀριστερόν, ἀλλὰ παρὰ μέρος ἕως ἂν
+              <lb n="28" xml:id="p122-27"/>ἠρεμήσωμεν. ἐπεὶ οὖν, φησίν, ὁμοίως ἔχει ἀπὸ τῶν δεξιῶν καὶ τῶν<note type="apparatus" n="28" target="#p122-27">ἠρεμήσωσιν a φησίν om. CPR ἀπὸ τῶν δεξιῶν— ἔχει (29) om. CPR καὶ ἀπὸ τῶν a</note>
+              <lb n="29" xml:id="p122-28"/>ἀριστερῶν, τουτέστιν ἐπεὶ ὁμοίως ἔχει ἡ καρδία καὶ πρὸς τὰ δεξιὰ καὶ
+              <lb n="30" xml:id="p122-29"/>πρὸς τὰ ἀριστερά (ἐν αὐτῇ γὰρ παύομεν τὰ ἀριστερὰ καὶ δεξιὰ μέρη κινούμενα·<note type="apparatus" n="30" target="#p122-29">παυόμενα CPR</note>
+              <lb n="31" xml:id="p122-30"/>ἄχρι γὰρ αὐτῆς ἡ τῶν δεξιῶν καὶ ἀριστερῶν κίνησις ἀπέρχεται), καὶ<note type="apparatus" n="31" target="#p122-30">αὐτῆς γὰρ coll. C</note>
+            </p>
+            <pb n="123" facs="https://archive.org/download/p1commentariaina22akaduoft/page/n334.jpg"/>
+            <p>
+              <lb n="1" xml:id="p123-0"/>all0<note type="apparatus" n="1" target="#p123-0">ἐφ’ ὃ γὰρ—λαμβάνουσι (6)] cf. Alex. l. l. p. 97,18—22</note>
+              <lb n="2" xml:id="p123-1"/>δεξιῶν καὶ ἀριστερῶν κινήσεις τελευτῶσιν ὡς ἐπ’ ἀρχήν, ἀπὸ τούτου<milestone type="alt-edition" unit="line" ed="Aldina 1527" n="10"/>
+              <lb n="3" xml:id="p123-2"/>εὔλογον γίνεσθαι καὶ τὴν ἀρχὴν τῆς ἐπὶ τὸ ἔξω κινήσεως. οὕτω γὰρ
+              <lb n="4" xml:id="p123-3"/>γίνεται καὶ ἐν τῷ στρατοπέδῳ· ἐφ’ ὃν γὰρ αἱ τῶν ἔξωθεν προσαγγελίαι
+              <lb n="5" xml:id="p123-4"/>γίνονται, οὗτος δ’ ἐστὶν ὁ στρατηγός, ἀπὸ τούτου καὶ αἱ πρὸς τὰ ἔξω
+              <lb n="6" xml:id="p123-5"/>κινήσεις τὴν ἀρχὴν λαμβάνουσι. γίνονται δὲ πρὸς τὴν καρδίαν αἱ ἐκτὸς
+              <lb n="7" xml:id="p123-6"/>κινήσεις, ὡς ἐν τῷ Περὶ τοῦ ποῦ τακτέον τὸ ἡγεμονικὸν τῷ Ἀφροδισιεῖ Ἀλεξάνδρῳ<note type="apparatus" n="7" target="#p123-6">περὶ τοῦ om. CSa</note><note type="apparatus" n="7-8" target="#p123-6 #p123-7">Ἀλεξάνδρῳ δέδεικται] Alex. de an. p. 94,7 sqq.</note>
+              <lb n="8" xml:id="p123-7"/>δέδεικται, τὰ σποράδην πολλαχοῦ Ἀριστοτέλει περὶ τούτων λεχθέντα<note type="apparatus" n="8" target="#p123-7">εἴρηται CPR σποράδην ὑπ’ Ἀριστοτέλους πολλαχοῦ περὶ τούτου CPR</note><milestone type="alt-edition" unit="line" ed="Aldina 1527" n="15"/>
+              <lb n="9" xml:id="p123-8"/>ἐκεῖσε συλλεξαμένῳ, καὶ πρὸς τούτοις ἕτερα ἀναγκαιότατα οἰκεῖα προσεπιθέντι.<note type="apparatus" n="9" target="#p123-8">ἐκεῖ PR συλλεξαμένῳ] ω in lit. R: συλλεξαμένου C ἀναγκαῖα CR: ἀναγκαιοτέρα (sic) a</note><note type="apparatus" n="9-10" target="#p123-8 #p123-9">προσεπιθέντα C</note>
+              <lb n="10" xml:id="p123-9"/>ἀπὸ ταύτης ἄρα τῆς καρδίας καὶ ἡ ὁρμὴ καὶ ὄρεξις, αἵτινές εἰσιν<note type="apparatus" n="10" target="#p123-9">καὶ ἡ ὄρεξις CPRa</note>
+              <lb n="11" xml:id="p123-10"/>ἀρχαὶ τῆς κατὰ τόπον κινήσεως. διὸ καὶ τὰ πρὸς τὴν κίνησιν ὄργανα τὰ
+              <lb n="12" xml:id="p123-11"/>νεῦρα ἀπὸ τῆς καρδίας, ὡς ἐκ τῶν ἀνατομῶν δείκνυται, τὴν ἀρχὴν ἔχει.<note type="apparatus" n="12" target="#p123-11">ὡς supr. v. R δείκνυνται PR</note>
+              <lb n="13" xml:id="p123-12"/>ἀφ’ οὗ γὰρ τὴν ἀρχὴν ἔχει τὰ πρὸς τὴν κίνησιν ὄργανα, ἐν τούτῳ ἀναγκαῖον
+              <lb n="14" xml:id="p123-13"/>εἶναι καὶ τὸ διδὸν αὐτοῖς τὴν τοῦ κινεῖν καὶ κινεῖσθαι δύναμιν.<note type="apparatus" n="14" target="#p123-13">καὶ τοῦ κινεῖσθαι PR</note><milestone type="alt-edition" unit="line" ed="Aldina 1527" n="20"/>
+              <lb n="15" xml:id="p123-14"/>κινοῦνται μὲν γὰρ τὰ νεῦρα ὑπὸ τῆς ψυχῆς, κινοῦσι δὲ τὰ κῶλα. ἐπεὶ<note type="apparatus" n="15" target="#p123-14">ὑπὸ] ἀπὸ C</note>
+              <lb n="16" xml:id="p123-15"/>οὖν, ὡς εἴρηται, ὁμοίως ἔχει καὶ ἅμα καὶ παρὰ μέρος τὰ δεξιὰ καὶ ἀριστερά,
+              <lb n="17" xml:id="p123-16"/>ταῦτα γὰρ εἶπεν ἐναντία (οὐ γὰρ ἅμα κινεῖται τὸ δεξιὸν καὶ ἀριστερόν,<note type="apparatus" n="17-18" target="#p123-16 #p123-17">καὶ ἀριστερῶν om. CPR</note>
+              <lb n="18" xml:id="p123-17"/>ἀλλὰ παρὰ μέρος), ἀεὶ δ’ ἀμφοτέρων τῶν δεξιῶν καὶ ἀριστερῶν
+              <lb n="19" xml:id="p123-18"/>κώλων ἡ ἀρχὴ τῆς κινήσεως ἀνωτέρω καὶ οὐκ ἐν ταῖς καμπαῖς, ἀνάγκη
+              <lb n="20" xml:id="p123-19"/>ἐν τῷ μέσῳ τοῦ θώρακος, τουτέστιν ἐν τῇ καρδίᾳ εἶναι τὴν τῆς κινήσεως
+              <lb n="21" xml:id="p123-20"/>ἀρχήν. ἔσχατον γὰρ καὶ πέρας καὶ οἱονεὶ κέντρον τῶν ἄκρων τῶν δεξιῶν<milestone type="alt-edition" unit="line" ed="Aldina 1527" n="25"/>
+              <lb n="22" xml:id="p123-21"/>καὶ ἀριστερῶν τὸ μέσον ἐστίν. ἔτι δὲ καὶ καθ’ ὅσον ἐν μέσῳ οὖσα ἡ
+              <lb n="23" xml:id="p123-22"/>καρδία ὁμοίως ἔχοι ἂν πρὸς τὰ ἄνω καὶ κάτω καὶ ὁμοίως ἂν αὐτοῖς<note type="apparatus" n="23" target="#p123-22">καὶ πρὸς τὰ κάτω CPR καὶ post κάτω om. CPR</note>
+              <lb n="24" xml:id="p123-23"/>ἀμφοτέροις χορηγοίη τὴν κίνησιν, καὶ οὐ τοῖς μὲν μᾶλλον τοῖς δ’ ἧττον,<note type="apparatus" n="24" target="#p123-23">ἀμφοτέροις om. CPR χορηγήσῃ CPR οὐ om. PR</note>
+              <lb n="25" xml:id="p123-24"/>καὶ διὰ τοῦτο ἐν ταύτῃ εἴη ἂν τὸ κινοῦν. τὰς ἀπὸ τῆς ῥάχεως δὲ<note type="apparatus" n="25" target="#p123-24">ἂν εἴη coll. CPRa τὰς] τοῖς RS: τῆς P</note>
+              <lb n="26" xml:id="p123-25"/>λέγοι ἂν τὰ κῶλα, χεῖρας καὶ πόδας· τούτων γὰρ καὶ πάντων τῶν ὀστῶν<note type="apparatus" n="26" target="#p123-25">λέγοι ἂν] λέγει CPR</note>
+              <lb n="27" xml:id="p123-26"/>ἡ ῥάχις ἀρχή, ὡς ἐν τῷ Περὶ ζῴων μορίων καὶ ἐν ἄλλοις πλείοσιν εἴρηται.<note type="apparatus" n="27" target="#p123-26">ἐν τῷ Περὶ ζῴων μορίων] B 9 p. 654 b 11, cf. Hist. anim. Γ 7 p. 516 a 10 ἐν τῇ CR: ἐν τοῖς a</note>
+              <lb n="28" xml:id="p123-27"/>ὅτι δὲ ἐν ᾧ ἡ αἴσθησις ἐν τούτῳ ἡ ὁρμητική τε καὶ ὀρεκτικὴ<note type="apparatus" n="28" target="#p123-27">τούτῳ] ἐκείνῳ CPR ante ἡ add. καὶ CPRa ὀρεκτικὴ in lit. P1</note><milestone type="alt-edition" unit="line" ed="Aldina 1527" n="30"/>
+              <lb n="29" xml:id="p123-28"/>δύναμις, δέδεικται ἐν τῷ Περὶ τοῦ ποῦ τακτέον τὸ ἡγεμονικόν. ἐχόμενα<note type="apparatus" n="29" target="#p123-28">δέδεικται κτλ.] Alex. de an. p. 97,11 sqq.</note>
+              <lb n="30" xml:id="p123-29"/>δὲ τοῦ τόπου τοῦ περὶ τὴν ἀρχὴν λέγει τὰ νεῦρα. ἡ μὲν οὖν ξύμπασα
+              <lb n="31" xml:id="p123-30"/>διάνοια αὕτη. τὸ δὲ τῆς λέξεως τῆς ὥστε μὴ τῷ ἠρεμεῖν τὸ δεξιὸν<note type="apparatus" n="31" target="#p123-30">μὴ εἶναι τῷ ἠρεμεῖν a Arist.</note>
+              <lb n="32" xml:id="p123-31"/>κινεῖσθαι τὸ ἀριστερόν, μηδ’ αὖ τῷ τοῦτο ἐκεῖνο τοιοῦτόν ἐστιν·
+            </p>
+            <pb n="124" facs="https://archive.org/download/p1commentariaina22akaduoft/page/n335.jpg"/>
+            <p>
+              <lb n="1" xml:id="p124-0"/>‘οὐκ ἔστιν ἡ κίνησις τοῦ δεξιοῦ οὐδὲ κινεῖται τὸ δεξιὸν τῷ ἀεὶ ἠρεμεῖν τὸ<note type="apparatus" n="1" target="#p124-0">κινεῖται τοῦ δεξιοῦ τῷ S post δεξιὸν add. ἐν CRP</note>
+              <lb n="2" xml:id="p124-1"/>ἀριστερόν, οὐδ’ αὖ πάλιν ἐκεῖνο τὸ ἀριστερὸν κινεῖται [ἐν] τῷ τοῦτο τὸ<note type="apparatus" n="2" target="#p124-1">αὖ] ἂν a τὸ ἀριστερὸν κινεῖται om. CPR ἐν delevi τοῦτο om. CPR</note>
+              <lb n="3" xml:id="p124-2"/>δεξιὸν ἠρεμεῖν, ἀλλ’ ἐπίσης ἀμφότερα πεφύκασι καὶ ἠρεμεῖν καὶ κινεῖσθαι’.
+            </p>
+          </div>
+          <div type="textpart" subtype="lemma" n="21">
+            <milestone unit="bekker" n="702b25"/>
+            <quote type="lemma">
+              <lb n="4" xml:id="p124-3"/>Τὸ δὲ μέσον τοῦ σώματος μέρος δυνάμει μὲν ἕν, ἐνεργείᾳ<milestone type="alt-edition" unit="line" ed="Aldina 1527" n="35"/>
+            </quote>
+            <p>
+              <lb n="5" xml:id="p124-4"/>δὲ ἀνάγκη γίνεσθαι πλείω.
+              <lb n="6" xml:id="p124-5"/>Μέσον τοῦ σώματος λέγει τὴν καρδίαν καὶ τὸ ἐν αὐτῇ πνεῦμα.
+              <lb n="7" xml:id="p124-6"/>φησὶ δὲ ὅτι τὸ τῶν ζῴων μέσον δυνάμει μὲν ἕν, ἐνεργείᾳ δὲ δύο.<note type="apparatus" n="7" target="#p124-6">φησὶν οὖν PR τὸ—μέσον a: τῇ τῶν ζῴων κινήσει CPR: ἡ τῶν ζ. κίνησις S: res tale quid postulat ὅτι ἐν τῇ τῶν ζῴων κινήσει τὸ μέσον ἤτοι ἡ καρδία</note>
+              <lb n="8" xml:id="p124-7"/>ἐπειδὴ γὰρ ἀπ’ αὐτοῦ αἱ κινήσεις, ἀνάγκη ἐκτεινομένου τοῦ ἐν τῷ δεξιῷ<note type="apparatus" n="8" target="#p124-7">ἀπ’ αὐτῆς Sa, fort. recte (cf. not. ad v. 7) post ἐκτεινομένου add. τὸ ἀπὸ τῆς καρδίας νεῦρον ἢ νεῦρα, sed rursus del. P</note>
+              <lb n="9" xml:id="p124-8"/>μέρει τῆς καρδίας πνεύματος, καὶ συνεκτείνοντος ἑαυτῷ τὸ ἀπὸ τῆς καρδίας<note type="apparatus" n="9" target="#p124-8">συνεκτεῖνον PR</note>
+              <lb n="10" xml:id="p124-9"/>νεῦρον ἢ νεῦρα, συνεκτείνεσθαι καὶ τὸ τῆς καρδίας μέρος καὶ<note type="apparatus" n="10" target="#p124-9">ante μέρος add. δεξιὸν CPR</note><milestone type="alt-edition" unit="line" ed="Aldina 1527" n="40"/>
+              <lb n="11" xml:id="p124-10"/>κινεῖσθαι. ἀπὸ γὰρ αὐτῆς ὡς ἀπ’ ἀρχῆς τὰ νεῦρα τὴν ἀρχὴν ἔχει ὥσπερ
+              <lb n="12" xml:id="p124-11"/>καὶ αἱ φλέβες· ὥστε ὅταν τείνηται ὑπὸ τῆς τοῦ πνεύματος ἐκτάσεως τὸ<note type="apparatus" n="12" target="#p124-11">καὶ om. Ca</note>
+              <lb n="13" xml:id="p124-12"/>νεῦρον, ἀνάγκη συντείνεσθαι τὸ τῆς καρδίας μέρος, ἐν ᾧ τὸ τεινόμενον<note type="apparatus" n="13" target="#p124-12">συντείνεσθαι καὶ τὸ CPR ἐν ᾧ—καρδίας (16) om. CPR</note>
+              <lb n="14" xml:id="p124-13"/>νεῦρον ἐρρίζωται. ἐπεὶ δ’ ἠρεμούντων τῶν ἀριστερῶν κινεῖται τὰ δεξιά,
+              <lb n="15" xml:id="p124-14"/>ὥσπερ πάλιν τῶν δεξιῶν τὰ ἀριστερά, ἀνάγκη κινουμένων τῶν δεξιῶν καὶ
+              <lb n="16" xml:id="p124-15"/>ἠρεμούντων τῶν ἀριστερῶν ἠρεμεῖν καὶ τὸ ἀριστερὸν μέρος τῆς καρδίας
+              <lb n="17" xml:id="p124-16"/>καὶ τὸ ἐν τούτῳ πνεῦμα. οὐδὲν γὰρ κωλύει, καίπερ συνεχοῦς ὄντος ὅλου<note type="apparatus" n="17" target="#p124-16">ὅλου ὄντος coll. CPR ante ὅλου add. τοῦ a</note><milestone type="alt-edition" unit="line" ed="Aldina 1527" n="45"/>
+              <lb n="18" xml:id="p124-17"/>τοῦ ἐν τῇ καρδίᾳ πνεύματος, τὸ μὲν αὐτοῦ ἠρεμεῖν τὸ δὲ κινεῖσθαι· καὶ
+              <lb n="19" xml:id="p124-18"/>γὰρ καὶ τοῦ ἐν ταῖς σκάφαις ὕδατος ὁρῶμεν τὸ μὲν κινούμενον, ὅπερ ἐκίνησεν<note type="apparatus" n="19" target="#p124-18">γὰρ om. P καὶ τοῦ] ἐκ τοῦ PR post μὲν add. αὐτοῦ Sa</note>
+              <lb n="20" xml:id="p124-19"/>ἡ χείρ, τὸ δ’ ἠρεμοῦν. ἠρεμοῦντος οὖν τοῦ ἀριστεροῦ μέρους τῆς
+              <lb n="21" xml:id="p124-20"/>καρδίας καὶ τοῦ ἐν αὐτῇ πνεύματος δῆλον ὅτι καὶ τὸ ἐν τούτῳ τῷ μέρει<note type="apparatus" n="21" target="#p124-20">αὐτῇ] αὐτῷ Pa</note>
+              <lb n="22" xml:id="p124-21"/>νεῦρον ἢ νεῦρα ἠρεμεῖ. εἰ δὲ τοῦτο, δῆλον ὅτι ἠρεμούντων τῶν δεξιῶν<note type="apparatus" n="22" target="#p124-21">ἠρεμεῖν S</note>
+              <lb n="23" xml:id="p124-22"/>μερῶν τοῦ πνεύματος καὶ τῆς καρδίας κινεῖται τὰ ἀριστερά, καὶ ἠρεμούντων<milestone type="alt-edition" unit="line" ed="Aldina 1527" n="50"/>
+              <lb n="24" xml:id="p124-23"/>τῶν ἀριστερῶν κινεῖται τὰ δεξιά, ἀπερειδόμενα τὰ μὲν δεξιά, ὅτε κινεῖται,
+              <lb n="25" xml:id="p124-24"/>εἰς τὰ ἀριστερὰ ἠρεμοῦντα, καὶ ταῦτα εἰς τὰ δεξιά, ἐοικότα ὡς αὐτὸς
+              <lb n="26" xml:id="p124-25"/>ἐρεῖ προϊὼν τοῖς τὰ νῶτα ἀπερείδουσι καὶ κινοῦσι τὰ σκέλη. ὡς γὰρ ὁ<note type="apparatus" n="26" target="#p124-25">ἀντερείδουσι CPR</note>
+              <lb n="27" xml:id="p124-26"/>βραχίων ἀπερειδόμενος ὡς πρὸς ἠρεμοῦν τὸ ὠλέκρανον κινεῖται, οὕτως
+              <lb n="28" xml:id="p124-27"/>ἀνάγκη καὶ τὸ ἀριστερὸν τῆς καρδίας καὶ τοῦ πνεύματος ἀπερείδεσθαι
+              <lb n="29" xml:id="p124-28"/>πρὸς τὸ δεξιὸν ὡς πρὸς ἠρεμοῦν, καὶ τοῦτο πάλιν πρὸς τὸ ἀριστερόν, κινεῖσθαι<note type="apparatus" n="29" target="#p124-28">post πάλιν add. ὡς CPR</note>
+              <lb n="30" xml:id="p124-29"/>δὲ ἀμφότερα ὑπὸ τῆς ψυχῆς, ἀκινήτου οὔσης <milestone type="alt-edition" unit="folio" ed="Aldina 1527" n="155v"/> καθ’ ἑαυτήν.
+            </p>
+            <pb n="125" facs="https://archive.org/download/p1commentariaina22akaduoft/page/n336.jpg"/>
+            <p>
+              <lb n="1" xml:id="p125-0"/>τὰ γὰρ εἴδη καὶ αἱ ἕξεις ἀκίνητα καθ’ αὑτά· τοιοῦτον δὲ καὶ ἡ ψυχὴ δέδεικται<note type="apparatus" n="1-2" target="#p125-0 #p125-1">τὰ γὰρ—δέδεικται οὖσα] cf. Phys. Ε</note><note type="apparatus" n="1" target="#p125-0">p. 224 b 5. 11 sqq. de an. Β</note>
+              <lb n="2" xml:id="p125-1"/>οὖσα. κινουμένων δὲ τῶν δεξιῶν καὶ τῶν ἀριστερῶν κινεῖται καὶ τὰ<note type="apparatus" n="2" target="#p125-1">p. 414 a 4 sqq.</note><note type="apparatus" n="2" target="#p125-1">τῶν post καὶ om. CPR</note>
+              <lb n="3" xml:id="p125-2"/>ἐν τούτοις νεῦρα καὶ διὰ τῶν νεύρων τὰ κῶλα. ὥστε ἓν ὂν τὸ πνεῦμα<note type="apparatus" n="3" target="#p125-2">post ὥστε add. καὶ CPR</note>
+              <lb n="4" xml:id="p125-3"/>δυνάμει ἐν ταῖς κινήσεσιν ἐνεργείᾳ γίνεται δύο, ὁμοίως καὶ ἡ καρδία· ὡς<note type="apparatus" n="4" target="#p125-3">ἐνεργείᾳ] δυνάμει C: δυνᾶ PR</note>
+              <lb n="5" xml:id="p125-4"/>γὰρ τὸ πνεῦμα, καὶ ἡ καρδία, καὶ ὡς αὕτη, καὶ τὸ πνεῦμα. ἐπειδὴ γὰρ<note type="apparatus" n="5" target="#p125-4">αὐτή PR</note>
+              <lb n="6" xml:id="p125-5"/>τὸ μὲν κινεῖται τῆς καρδίας καὶ τοῦ πνεύματος τὸ δὲ ἠρεμεῖ, δῆλον ὡς<milestone type="alt-edition" unit="line" ed="Aldina 1527" n="5"/>
+              <lb n="7" xml:id="p125-6"/>δύο εἰσὶν ἐνεργείᾳ· ἓν δὲ ἐνεργείᾳ γίνεται ἐν ταῖς ἠρεμίαις. ἀλλὰ περὶ μὲν<note type="apparatus" n="7" target="#p125-6">εἰσὶν ἐνεργείᾳ scripsi: εἰσὶ δυνάμει libri</note>
+              <lb n="8" xml:id="p125-7"/>τούτων τοσαῦτα εἰρήσθω, ἐπὶ δὲ τὴν λέξιν λοιπόν ἐστι τραπῆναι. εἰπὼν
+              <lb n="9" xml:id="p125-8"/>ὅτι ἐνεργείᾳ δύο γίνεται, συντόμως τὴν αἰτίαν τούτου ἐπήγαγεν εἰπὼν καὶ<note type="apparatus" n="9" target="#p125-8">ἐπήνεγκεν CPR</note>
+              <lb n="10" xml:id="p125-9"/>γὰρ ἅμα τὰ κῶλα κινεῖται ἀπὸ τῆς ἀρχῆς· πάλιν τὸ ἅμα ἀντὶ τοῦ
+              <lb n="11" xml:id="p125-10"/>παρὰ μέρος. περὶ ὧν ἀκριβέστερον ἐν τῷ Περὶ ζῴων πορείας εἴρηται.<note type="apparatus" n="11" target="#p125-10">ἐν τῷ Περὶ ζῴων πορείας] c. 4 sqq.: περὶ ζῴων μορίων S</note>
+              <lb n="12" xml:id="p125-11"/>ἐπεὶ οὖν τὸ μὲν ἠρεμεῖ τῶν κώλων, τὸ δὲ κινεῖται, ἀνάγκη καὶ τοῦ πνεύματος<note type="apparatus" n="12" target="#p125-11">τὰ δὲ PR</note>
+              <lb n="13" xml:id="p125-12"/>καὶ τῆς καρδίας τὸ μὲν κινεῖσθαι, τὸ δὲ ἠρεμεῖν.<milestone type="alt-edition" unit="line" ed="Aldina 1527" n="10"/>
+            </p>
+          </div>
+          <div type="textpart" subtype="lemma" n="22">
+            <milestone unit="bekker" n="702b28"/>
+            <quote type="lemma">
+              <lb n="14" xml:id="p125-13"/>Λέγω δὲ οἷον ἐπὶ τῆς ΑΒΓ τὸ Β κινεῖται, κινεῖ
+            </quote>
+            <p>
+              <lb n="15" xml:id="p125-14"/>δὲ τὸ Α.
+              <lb n="16" xml:id="p125-15"/>Εἰπὼν ὅτι ἐνεργείᾳ γίνεται δύο δυνάμει ὄντα ἕν, δείκνυσι τοῦτο καὶ
+              <lb n="17" xml:id="p125-16"/>ἐπὶ καταγραφῆς, ὡς ἔθος αὐτῷ, ἅμα πρὸς τούτῳ δεικνύων ὅτι ἀνάγκη<milestone type="alt-edition" unit="line" ed="Aldina 1527" n="15"/>
+              <lb n="18" xml:id="p125-17"/>εἶναί τι ἀκίνητον, εἰ μέλλει κινήσεσθαι τὸ ζῷον. νενοήσθω δὴ Α ὅλη ἡ<note type="apparatus" n="18" target="#p125-17">μέλλοι CRSa δὴ om. CPR</note>
+              <lb n="19" xml:id="p125-18"/>καρδία καὶ ὅλον τὸ ἐν αὐτῇ πνεῦμα, Β δὲ τὸ ἐν τῷ δεξιῷ μέρει τῆς καρδίας<note type="apparatus" n="19" target="#p125-18">post πνεῦμα add. ἔστω οὖν Α ὅλη ἡ καρδία καὶ ὅλον τὸ ἐν αὐτῇ πνεῦμα Sa</note>
+              <lb n="20" xml:id="p125-19"/>νεῦρον ἢ νεῦρα, καὶ Γ ὁμοίως τὸ ἐν τῷ ἀριστερῷ μέρει αὐτῆς νεῦρον ἢ νεῦρα.<note type="apparatus" n="20" target="#p125-19">αὐτῆς μέρει coll. CPR ἢ νεῦρα om. CPR</note>
+              <lb n="21" xml:id="p125-20"/>κινεῖται οὖν τὸ Β τὸ νεῦρον, κινεῖ δὲ τὸ Α τὸ μέρος τοῦ πνεύματος καὶ
+              <lb n="22" xml:id="p125-21"/>τὸ μέρος τῆς καρδίας κινούμενα ὑπὸ τῆς ψυχῆς. ἀλλ’ ἐπεί, ὡς δέδεικται,
+              <lb n="23" xml:id="p125-22"/>ἀνάγκη εἶναί τι ἠρεμοῦν, εἰ μέλλει γενέσθαι κίνησις, ἀνάγκη τὸ λοιπὸν<note type="apparatus" n="23" target="#p125-22">ἠρεμοῦν τι coll. a εἴπερ CPR μέλλοι libri γίνεσθαι a ἀνάγκη om. Sa</note><milestone type="alt-edition" unit="line" ed="Aldina 1527" n="20"/>
+              <lb n="24" xml:id="p125-23"/>μέρος τοῦ Α ἤτοι τῆς καρδίας καὶ τοῦ πνεύματος ἠρεμεῖν. ἓν ἄρα δυνάμει<note type="apparatus" n="24" target="#p125-23">ἠρεμεῖ a</note>
+              <lb n="25" xml:id="p125-24"/>ὄντα τὰ ΑΕ ἐνεργείᾳ δύο ἔσται. ἐκάλεσε δὲ τὸ ἠρεμοῦν μέρος τοῦ πνεύματος<note type="apparatus" n="25" target="#p125-24">ὄντα τὸ CS: ὃν τὸ a ΑΕ] sic libri: AB Arist. S: A Arist. vulg.</note>
+              <lb n="26" xml:id="p125-25"/>καὶ τῆς καρδίας Ε, ἵνα τῇ διαφορᾷ τοῦ στοιχείου δηλώσῃ καὶ τὸ
+              <lb n="27" xml:id="p125-26"/>διαφέρον τοῦ πνεύματος καὶ τῆς καρδίας. διαφέρει γάρ, ὡς πολλάκις εἴρηται,
+              <lb n="28" xml:id="p125-27"/>τὸ ἠρεμοῦν τῆς καρδίας μέρος καὶ τοῦ πνεύματος πρὸς τὸ μὴ ἠρεμοῦν·<note type="apparatus" n="28" target="#p125-27">μὴ supr. vers. S¹</note>
+              <lb n="29" xml:id="p125-28"/>ᾗ γὰρ τὰ μὲν κινεῖται τὰ δὲ ἠρεμεῖ, διαφέρουσιν. ἓν ἄρα δυνάμει<note type="apparatus" n="29" target="#p125-28">διαφέρουσιν. τὸ οὖν ἓν ἄρα a</note>
+              <lb n="30" xml:id="p125-29"/>ὄντα τὰ ΑΕ τουτέστιν ἓν ἄρα δυνάμει οὖσα ὅλη ἡ καρδία καὶ ὅλον τὸ<note type="apparatus" n="30" target="#p125-29">τουτέστιν] ταὐτόν ἐστι τῷ a οὖσα δυνάμει coll. a: οὖσα om. CPR</note><milestone type="alt-edition" unit="line" ed="Aldina 1527" n="25"/>
+            </p>
+            <pb n="126" facs="https://archive.org/download/p1commentariaina22akaduoft/page/n337.jpg"/>
+            <p>
+              <lb n="1" xml:id="p126-0"/>πνεῦμα δύο εἰσὶν ἐνεργείᾳ. καὶ ἐπεὶ τὸ μὲν αὐτῆς ἠρεμεῖ τὸ δὲ κινεῖται,<note type="apparatus" n="1" target="#p126-0">αὐτοῦ CPR</note>
+              <lb n="2" xml:id="p126-1"/>ἀνάγκη μὴ στιγμὴν εἶναι. τοῦτο δὲ ταὐτόν ἐστι τῷ ἀνάγκη μὴ τοῦτο<note type="apparatus" n="2" target="#p126-1">μὴ ante στιγμὴν om. Ca μὴ ante τοῦτο om. a</note>
+              <lb n="3" xml:id="p126-2"/>εἶναι τὴν ψυχήν. εἰ γὰρ τῶν κινουμένων τὸ μὲν αὐτῶν κινεῖται τὸ δὲ<note type="apparatus" n="3" target="#p126-2">αὐτῶν fort. delendum: αὐτοῦ C</note>
+              <lb n="4" xml:id="p126-3"/>ἠρεμεῖ, ἡ δὲ ψυχὴ ἀμερὴς καὶ ἀσώματος, τῶν δ’ ἀμερῶν οὐ τὸ μὲν κινήσεται
+              <lb n="5" xml:id="p126-4"/>τὸ δὲ ἠρεμήσει (οὕτω γὰρ οὐκ ἂν ἦν ἀμερῆ) οὐκ ἂν εἴη οὔτε ἡ<note type="apparatus" n="5" target="#p126-4">ἀμερῆ scripsi: ἀμερής CRSa: ἀμερές P</note>
+              <lb n="6" xml:id="p126-5"/>καρδία οὔτε αὐτὸ τὸ πνεῦμα ἡ ψυχή, ἀλλ’ ἄλλο τι εἶδος οὖσα τούτων καὶ
+              <lb n="7" xml:id="p126-6"/>ἀκίνητος. εἰ γὰρ κινεῖται, πάλιν τὰ αὐτὰ ἐροῦμεν ὅτι ἀνάγκη τὸ μὲν<milestone type="alt-edition" unit="line" ed="Aldina 1527" n="30"/>
+              <lb n="8" xml:id="p126-7"/>αὐτῆς κινεῖσθαι τὸ δὲ ἠρεμεῖν· οὕτω δὲ πάλιν σῶμα ἂν εἴη καὶ οὐκ<note type="apparatus" n="8" target="#p126-7">καὶ om. Pa</note>
+              <lb n="9" xml:id="p126-8"/>ἀσώματον, καὶ οὐκ εἶδος, ἀλλ’ ὑποκείμενον καὶ ὕλη.<note type="apparatus" n="9" target="#p126-8">οὐκ om. CPR</note>
+            </p>
+          </div>
+          <div type="textpart" subtype="lemma" n="23">
+            <milestone unit="bekker" n="702b32"/>
+            <quote type="lemma">
+              <lb n="10" xml:id="p126-9"/>Ἀλλὰ μὴν ἐνδέχεται τὸ Γ τῷ Β ἅμα κινεῖσθαι.
+            </quote>
+            <p>
+              <lb n="11" xml:id="p126-10"/>Τὸ Γ ἐν θατέρῳ τῆς καρδίας μέρει νεῦρον ἔθεμεν. τὸ δὲ ἅμα<note type="apparatus" n="11" target="#p126-10">μέρει τῆς καρδίας coll. CPR</note>
+              <lb n="12" xml:id="p126-11"/>πάλιν ἀντὶ τοῦ παρὰ μέρος· ἐνδέχεται γὰρ μετὰ τὸ κινηθῆναι τὸ δεξιὸν
+              <lb n="13" xml:id="p126-12"/>κινηθῆναι τὸ ἀριστερόν. ὥστε καὶ τὸ μέρος τῆς καρδίας, ἐν ᾧ ἐρρίζωται<milestone type="alt-edition" unit="line" ed="Aldina 1527" n="35"/>
+              <lb n="14" xml:id="p126-13"/>τὸ ἀριστερὸν νεῦρον, κινηθήσεται.
+            </p>
+          </div>
+          <div type="textpart" subtype="lemma" n="24">
+            <milestone unit="bekker" n="702b32"/>
+            <quote type="lemma">
+              <lb n="15" xml:id="p126-14"/>Ὥστ’ ἀνάγκη ἀμφοτέρας τὰς ἀρχὰς τὰς ἐν τῷ Α κινουμένας<note type="apparatus" n="15" target="#p126-14">ἀρχὰς τῶν ἐν τῷ α</note>
+            </quote>
+            <p>
+              <lb n="16" xml:id="p126-15"/>κινεῖν.
+              <lb n="17" xml:id="p126-16"/>Ἀρχὰς λέγων τὰ δεξιὰ καὶ ἀριστερὰ μέρη τῆς καρδίας καὶ τοῦ πνεύματος.<note type="apparatus" n="17" target="#p126-16">λέγει CPR</note>
+              <lb n="18" xml:id="p126-17"/>ἦν δ’ ἄν καταλληλότερον, εἰ οὕτως εἶχεν ἡ γραφὴ ‘ὥστε ἀνάγκη<note type="apparatus" n="18" target="#p126-17">ἦν] εἴη CPR post ἂν add. καὶ a καταλληλοτέρα P εἶχεν] ἔχοι P: ἔχει CR</note>
+              <lb n="19" xml:id="p126-18"/>ἀμφότερα τὰ μέρη τοῦ Α κινούμενα κινεῖν’. οὐ γὰρ τὸ πνεῦμα μόνον
+              <lb n="20" xml:id="p126-19"/>κινεῖται, ἀλλὰ καὶ ἡ καρδία. δεῖ τι ἄρα εἶναι παρὰ ταύτας τὰς ἀρχὰς
+              <lb n="21" xml:id="p126-20"/>ἕτερόν τι, ὅπερ κινήσει μὴ κινούμενον. ὡς γὰρ οἱ ἀπερείδοντες τὰ νῶτα<note type="apparatus" n="21" target="#p126-20">ὥσπερ οἱ CPR</note>
+              <lb n="22" xml:id="p126-21"/>καὶ κινοῦντες τὰ σκέλη ἄλλο τι ἔχουσιν ἐν αὑτοῖς τὸ κινοῦν τὰ σκέλη,<note type="apparatus" n="22" target="#p126-21">ἄλλο τι—σκέλη om. S αὑτοῖς CPR</note><milestone type="alt-edition" unit="line" ed="Aldina 1527" n="45"/>
+              <lb n="23" xml:id="p126-22"/>οὕτω κἀνταῦθα εἶναι δεῖ τι ἄλλο παρὰ τὸ κινοῦν κινούμενον καὶ αὐτό.
+              <lb n="24" xml:id="p126-23"/>ἀναλογεῖ δὲ τοῖς μὲν νώτοις τὸ δεξιὸν καὶ ἀριστερὸν τῆς καρδίας καὶ τοῦ
+              <lb n="25" xml:id="p126-24"/>πνεύματος, τοῖς δὲ σκέλεσι τὰ ΒΓ νεῦρα.
+            </p>
+          </div>
+          <div type="textpart" subtype="lemma" n="25">
+            <milestone unit="bekker" n="703a4"/>
+            <quote type="lemma">
+              <lb n="26" xml:id="p126-25"/>Κατὰ μὲν οὖν τὸν λόγον τὸν λέγοντα τὴν αἰτίαν τῆς<note type="apparatus" n="26" target="#p126-25">οὖν om. PR τῆς] εἶναι S</note>
+            </quote>
+            <p>
+              <lb n="27" xml:id="p126-26"/>κινήσεώς ἐστιν ἡ ὄρεξις τὸ μέσον, ὃ κινεῖ κινούμενον.<note type="apparatus" n="27" target="#p126-26">ἐστὶν ἡ ὄρεξις—κινήσεως (29) om. CPR</note>
+              <lb n="28" xml:id="p126-27"/>Τὸ λεγόμενόν ἐστιν ὅτι κατὰ τὸν λόγον τὸν λέγοντα καὶ δεικνύντα τὸ<milestone type="alt-edition" unit="line" ed="Aldina 1527" n="50"/>
+              <lb n="29" xml:id="p126-28"/>αἴτιον τῆς κινήσεως φαίνεται ὅτι ἡ ὄρεξίς ἐστιν, ἥτις ἀκίνητος οὖσα, ἐπεὶ<note type="apparatus" n="29" target="#p126-28">ἡ om. CPR ἀκίνητον a</note>
+            </p>
+            <pb n="127" facs="https://archive.org/download/p1commentariaina22akaduoft/page/n338.jpg"/>
+            <p>
+              <lb n="1" xml:id="p127-0"/>καὶ πᾶσα ἡ ψυχὴ ἀκίνητος, ἧς αὕτη μέρος ἢ δύναμις οὖσα τυγχάνει,
+              <lb n="2" xml:id="p127-1"/>ἥτις δὴ ἀκίνητος οὖσα κινεῖ τὸ κινούμενον καὶ κινοῦν. τοῦτο γὰρ δεῖ
+              <lb n="3" xml:id="p127-2"/>προσυπακούειν· τὸ γὰρ πνεῦμα καὶ ἡ καρδία κινούμενα κινοῦσι. δύναταί<note type="apparatus" n="3" target="#p127-2">κινοῦσι] κινεῖ CPR</note>
+              <lb n="4" xml:id="p127-3"/>τις τοῦ ὃ κινεῖ κινούμενον καὶ ἐπὶ τῆς ὀρέξεως ἀκούειν. εἰ γὰρ καὶ
+              <lb n="5" xml:id="p127-4"/>μὴ κινεῖται ἡ ὄρεξις (τὰ γὰρ εἴδη ἀκίνητα) ἀλλ’ οὖν διεγείρεται ὑπὸ τῶν
+              <lb n="6" xml:id="p127-5"/>ὀρεκτῶν, <milestone type="alt-edition" unit="folio" ed="Aldina 1527" n="156r"/> ἵν’ ᾖ τὸ κινούμενον ἀντὶ τοῦ ‘διεγειρόμενον καὶ ἐπιτήδειον
+              <lb n="7" xml:id="p127-6"/>γινόμενον πρὸς τὸ κινῆσαι τὸ ζῷον’. ἢ τὸ λεγόμενόν ἐστι διὰ τοῦ ὃ
+              <lb n="8" xml:id="p127-7"/>κινεῖ κινούμενον ‘κατὰ τὸν τοιοῦτον λόγον δόξειεν ἂν τὸ κινοῦν καὶ<note type="apparatus" n="8-9" target="#p127-7 #p127-8">κατὰ—κινούμενον om. P</note>
+              <lb n="9" xml:id="p127-8"/>κινούμενον ὅτι ἡ ὄρεξίς ἐστιν· οὐκ ἔστι δὲ αὕτη, ἀλλὰ δεῖ εἶναι σῶμά τι,
+              <lb n="10" xml:id="p127-9"/>ὃ κινεῖ κινούμενον καὶ αὐτό’.
+            </p>
+          </div>
+          <div type="textpart" subtype="lemma" n="26">
+            <milestone unit="bekker" n="703a6"/>
+            <quote type="lemma">
+              <lb n="11" xml:id="p127-10"/>Τὸ μὲν οὖν κινούμενον, μὴ πεφυκὸς δὲ κινεῖν δύναται<note type="apparatus" n="11" target="#p127-10">post κινούμενον add. μὲν a Arist. PS</note>
+            </quote>
+            <p>
+              <lb n="12" xml:id="p127-11"/>πάσχειν κατὰ ἀλλοτρίαν δύναμιν.<note type="apparatus" n="12" target="#p127-11">πάσχειν ἀλλοτρίᾳ δυνάμει a κίνησιν P</note>
+              <lb n="13" xml:id="p127-12"/>Πανάληθες καὶ τοῦτο· πᾶν γὰρ ὃ κινεῖται μόνον, οὐ πέφυκε δὲ κινεῖν,<milestone type="alt-edition" unit="line" ed="Aldina 1527" n="15"/>
+              <lb n="14" xml:id="p127-13"/>πάσχει κατὰ τὴν τοῦ κινοῦντος δύναμιν καὶ ἄγεται ὡς ἂν ἐκεῖνο ἄγῃ.<note type="apparatus" n="14" target="#p127-13">ἄγοι CPRS</note>
+              <lb n="15" xml:id="p127-14"/>τοιοῦτον δέ τί ἐστι καὶ πᾶν σῶμα ζῴου· κατὰ γὰρ τὴν ψυχὴν καὶ αὐτὸ<note type="apparatus" n="15" target="#p127-14">τί om. P</note>
+              <lb n="16" xml:id="p127-15"/>κινεῖται, ὥσπερ ὁ ὀρχηστὴς κατὰ τὴν ὄρχησιν. σαφῆ δὲ τὰ ἑξῆς. περὶ
+              <lb n="17" xml:id="p127-16"/>δὲ τῆς τοῦ πνεύματος σωτηρίας οἰκεῖον ἦν εἰπεῖν ἐν τοῖς Περὶ τροφῆς.<note type="apparatus" n="17" target="#p127-16">ἐν τοῖς Περὶ τροφῆς] v. Bonitz Ind. Arist. p. 104 b 16</note>
+              <lb n="18" xml:id="p127-17"/>λέγει δ’ ἔχειν τὸ τοιοῦτον πνεῦμα πρὸς τὴν ψυχὴν ὥσπερ τὸ κινοῦν καὶ<note type="apparatus" n="18" target="#p127-17">λέγειν δ’ ἔχει S</note>
+              <lb n="19" xml:id="p127-18"/>κινούμενον μέρος ἐν ταῖς καμπαῖς πρὸς τὸ ἀκίνητον. ὥσπερ δὲ οὐ τὰ<milestone type="alt-edition" unit="line" ed="Aldina 1527" n="20"/>
+              <lb n="20" xml:id="p127-19"/>μέρη ἀεὶ τὰ αὐτά ἐστιν, ἀλλ’ ἐν κινήσει (ἐν ἐπιρροῇ γὰρ καὶ ἀπορροῇ),
+              <lb n="21" xml:id="p127-20"/>οὕτως καὶ τὸ σύμφυτον πνεῦμα.
+            </p>
+          </div>
+          <div type="textpart" subtype="lemma" n="27">
+            <milestone unit="bekker" n="703a24"/>
+            <quote type="lemma">
+              <lb n="22" xml:id="p127-21"/>Δεῖ δὲ τὸ μέλλον κινεῖν μὴ ἀλλοιώσει τοιοῦτον εἶναι.
+            </quote>
+            <p>
+              <lb n="23" xml:id="p127-22"/>Ὑποστικτέον εἰς τὸ ἀλλοιώσει, εἶθ’ οὕτως ἐπακτέον τὸ τοιοῦτον.<note type="apparatus" n="23" target="#p127-22">ὑποστατέον S post τοιοῦτον add. εἶναί a</note>
+              <lb n="24" xml:id="p127-23"/>ἔστι δὲ δηλωτικὸν τὸ τοιοῦτον τοῦ ἔχειν βάρος καὶ κουφότητα· τὸ γὰρ
+              <lb n="25" xml:id="p127-24"/>ἐν ἡμῖν θερμὸν καὶ βαρὺ καὶ κοῦφόν ἐστιν ὥσπερ ὁ ἀήρ. εἴη δ’ ἂν τὸ
+              <lb n="26" xml:id="p127-25"/>λεγόμενον ‘δεῖ τὸ μέλλον κινεῖν τὴν κατὰ τόπον κίνησιν, ἀλλὰ μὴ τὴν κατ’
+              <lb n="27" xml:id="p127-26"/>ἀλλοίωσιν βάρος ἔχειν καὶ κουφότητα. κινεῖ γὰρ τὸ πῦρ τὸ ὕδωρ καὶ<note type="apparatus" n="27" target="#p127-26">ἔχειν ἢ κουφότητα CPR</note><milestone type="alt-edition" unit="line" ed="Aldina 1527" n="35"/>
+              <lb n="28" xml:id="p127-27"/>ἄγει ἀπὸ τοῦ ψυχροῦ εἰς τὸ θερμόν, ἀλλ’ οὐ κατὰ τόπον αὕτη ἡ μεταβολή,
+              <lb n="29" xml:id="p127-28"/>ἀλλὰ κατ’ ἀλλοίωσιν· τὸ δ’ ἐν τῇ καρδίᾳ θερμὸν καὶ ἀλλοιοῖ ἡμᾶς καὶ τῆς
+              <lb n="30" xml:id="p127-29"/>κατὰ τόπον κινήσεως ἡμῖν ἐστιν αἴτιον. ἀλλ’ ὅμως ᾗ μὲν κοῦφον, ἀντέχει<note type="apparatus" n="30" target="#p127-29">ἔστιν ἡμῖν coll. CPR ὅμως] ἴσως a</note>
+              <lb n="31" xml:id="p127-30"/>πρὸς τὰ βαρέα τὰ ὠθοῦντα καὶ ἀποβιαζόμενα αὐτὸ κάτω, καὶ οὐκ ἐξίσταται
+              <lb n="32" xml:id="p127-31"/>τῆς οἰκείας ἕδρας, ᾗ δὲ πάλιν βαρύ ἐστιν, ἀντέχει πρὸς τὰ βαρέα τὰ<note type="apparatus" n="32" target="#p127-31">πρὸς τὰ κοῦφα τὰ CPR</note>
+            </p>
+            <pb n="128" facs="https://archive.org/download/p1commentariaina22akaduoft/page/n339.jpg"/>
+            <p>
+              <lb n="1" xml:id="p128-0"/>ἀνωθοῦντα καὶ ἀναρριπτοῦντα αὐτὸ ἄνω (ἀνάγκη γὰρ τὰ βαρέα πρὸς τὸ<note type="apparatus" n="1" target="#p128-0">καὶ] ἢ a γὰρ om. et τὰ βαρέα post φερόμενα (2) ponunt CPR</note><note type="apparatus" n="1-2" target="#p128-0 #p128-1">τὰ κάτω CPRa</note>
+              <lb n="2" xml:id="p128-1"/>κάτω φερόμενα ἀνωθεῖν αὐτὸ ἄνω)· ὥστ’ ἐπεὶ καὶ βαρὺ καὶ κοῦφόν ἐστιν,<milestone type="alt-edition" unit="line" ed="Aldina 1527" n="40"/>
+              <lb n="3" xml:id="p128-2"/>οὔτ’ ἂν ἄνω εἴη (ἦν γὰρ ἂν κοῦφον μόνως), οὔτε κάτω (ἦν γὰρ ἂν βαρὺ<note type="apparatus" n="3" target="#p128-2">εἴη scripsi: ἦ libri, ex ἦν corr. P1 γὰρ prius om. S κοῦφον μόνον CPR</note>
+              <lb n="4" xml:id="p128-3"/>μόνως) ἀλλὰ μέσον· ἐν ᾧ δὲ τοῦτο, ἐν τούτῳ καὶ ψυχή. ἐν τῷ μέσῳ
+              <lb n="5" xml:id="p128-4"/>ἄρα ἡ ψυχή’. ὅτι δὲ καὶ βαρὺ καὶ κοῦφόν ἐστι, δῆλον ἐντεῦθεν· συστέλλεται<note type="apparatus" n="5" target="#p128-4">ἐστὶν οὔτ’ ἂν ἄνω ἢ δῆλον PR</note>
+              <lb n="6" xml:id="p128-5"/>γὰρ καὶ ἐκτείνεται κατὰ φύσιν καὶ οὐ βίᾳ, τὸ δ’ ἐκτεινόμενον ἄνω<note type="apparatus" n="6" target="#p128-5">γὰρ om. CPR βίαν S ante ἄνω add. καὶ PR</note>
+              <lb n="7" xml:id="p128-6"/>καὶ κάτω κινεῖται, τὸ δὲ οὕτω κινούμενον βαρὺ καὶ κοῦφόν ἐστιν. τοιοῦτον<note type="apparatus" n="7-8" target="#p128-6 #p128-7">ἐστὶν—πνεῦμα] καὶ (supr. vers.) ἔστι τὸ τοιοῦτον πνεῦμα S</note>
+              <lb n="8" xml:id="p128-7"/>δὲ τὸ πνεῦμα, ἐν ᾧ κινουμένῳ κινεῖ τὰ ζῷα ἡ ψυχή. ἀπεικάζει δὲ τὸ<note type="apparatus" n="8" target="#p128-7">κινουμένον PR</note>
+              <lb n="9" xml:id="p128-8"/>ζῷον πόλει εὐνομουμένῃ. ὥσπερ γὰρ ἐπὶ ταύτης οὐ δεῖ παρεῖναι ἐφ’<milestone type="alt-edition" unit="line" ed="Aldina 1527" n="45"/>
+              <lb n="10" xml:id="p128-9"/>ἑκάστῃ πράξει τὸν βασιλέα, ἀλλ’ ἕκαστος τῶν ὑπ’ αὐτοῦ ταχθέντων πράττει<note type="apparatus" n="10" target="#p128-9">ὑπ’ αὐτῶ PR</note>
+              <lb n="11" xml:id="p128-10"/>τὸ οἰκεῖον ἔργον διὰ τὸ ἔθος, αὐτοῦ τοῦ βασιλέως μένοντος εἰς τὰ ἀνάκτορα,<note type="apparatus" n="11-12" target="#p128-10 #p128-11">τὸ ἀνάκτορον P</note>
+              <lb n="12" xml:id="p128-11"/>οὕτω καὶ ἐν τοῖς ζῴοις διὰ τὴν κινοῦσαν φύσιν ἕκαστον τῶν μερῶν
+              <lb n="13" xml:id="p128-12"/>πράττει τὸ οἰκεῖον μενούσης τῆς ψυχῆς ἐν τῇ καρδίᾳ ὥσπερ τινὸς βασιλέως<note type="apparatus" n="13" target="#p128-12">τὸ οἰκεῖον in marg. R</note>
+              <lb n="14" xml:id="p128-13"/>εἰς τὰ βασίλεια· ἀλλ’ ἐπὶ μὲν τῆς πόλεως πράττεται διὰ τὸ ἔθος
+              <lb n="15" xml:id="p128-14"/>(ὡς γὰρ ἔχουσιν ἔθος, οὕτω καὶ πράττουσι τάδε μετὰ τάδε), ἐν δὲ τοῖς
+              <lb n="16" xml:id="p128-15"/>ζῴοις διὰ τὴν φύσιν.<milestone type="alt-edition" unit="line" ed="Aldina 1527" n="50"/>
+            </p>
+          </div>
+          <div type="textpart" subtype="lemma" n="28">
+            <milestone unit="bekker" n="703b4"/>
+            <quote type="lemma">
+              <lb n="17" xml:id="p128-16"/>Κινεῖται δέ τινας καὶ ἀκουσίους ἔνια τῶν μορίων, τὰς<note type="apparatus" n="17" target="#p128-16">μερῶν Ra Arist.</note>
+            </quote>
+            <p>
+              <lb n="18" xml:id="p128-17"/>δὲ πλείστας οὐχ ἑκουσίους. <milestone type="alt-edition" unit="folio" ed="Aldina 1527" n="156v"/><note type="apparatus" n="18" target="#p128-17">πλείστους a</note>
+              <lb n="19" xml:id="p128-18"/>Τὸ οὐχ ἑκούσιον μεταξύ ἐστιν ἀκουσίου καὶ ἑκουσίου, ὡς ἐπεσημήνατο<note type="apparatus" n="19" target="#p128-18">ἑκουσίου καὶ ἀκουσίου PR ἐπεσημήνατο post Νικομαχείοις ponunt adduntque ἐν ᾧ περὶ ἑκουσίου καὶ ἀκουσίου ἔλεγεν CPR</note>
+              <lb n="20" xml:id="p128-19"/>καὶ ἐν τοῖς Ἠθικοῖς τοῖς ἐπιγραφομένοις Νικομαχείοις. ὅταν μὲν γὰρ<note type="apparatus" n="20" target="#p128-19">καὶ om. CPRa ἐν τοῖς Ἠθικοῖς—Νικομαχείοις] Γ 2</note>
+              <lb n="21" xml:id="p128-20"/>ἐξαίφνης ἐπιστῇ γυνὴ τὸ εἶδος παγκάλη ἢ πολέμιος μηδὲν ἡμῶν περὶ τούτων<note type="apparatus" n="21" target="#p128-20">πάγκαλος CPR πόλεμος S</note>
+              <lb n="22" xml:id="p128-21"/>ἀναλογιζομένων, καὶ ἐπὶ τῇ ἐπιστάσει αὐτῶν κινηθῇ διὰ μὲν τὴν<note type="apparatus" n="22" target="#p128-21">post ἐπὶ add. μὲν P κινηθῇ post γυναῖκα (23) ponunt CP: κινηθῆναι (pariter mutato verb. ordine) R μὲν διὰ coll. S</note>
+              <lb n="23" xml:id="p128-22"/>γυναῖκα τὸ αἰδοῖον, διὰ δὲ τὸν πολέμιον ἡ καρδία, ἡ τοιαύτη τούτων<note type="apparatus" n="23" target="#p128-22">πόλεμον RS</note>
+              <lb n="24" xml:id="p128-23"/>κίνησις ἀκούσιος· ὅταν δὲ ἀναπλάσηται τῇ διανοίᾳ γυναῖκα καὶ περιεργάσηται<note type="apparatus" n="24" target="#p128-23">ἀναπλάσσηται C</note><milestone type="alt-edition" unit="line" ed="Aldina 1527" n="10"/>
+              <lb n="25" xml:id="p128-24"/>τὸ εἶδος αὐτῆς ἕκαστόν τε τῶν μερῶν καὶ μελῶν, καὶ καλὴν εἶναι φήσῃ<note type="apparatus" n="25" target="#p128-24">μελῶν καὶ μερῶν coll. CPR</note>
+              <lb n="26" xml:id="p128-25"/>ἡδεῖάν τε πρὸς ὁμιλίαν, καὶ ἐκ τῆς τοιαύτης γε τῆς διανοίας καὶ περιεργασίας<note type="apparatus" n="26" target="#p128-25">γε] δὲ S: om. CPR</note><note type="apparatus" n="26-27" target="#p128-25 #p128-26">περιεργίας τῆς διανοίας PR</note>
+              <lb n="27" xml:id="p128-26"/>καὶ τῆς ἐπακολουθησάσης αὐτῇ συγκαταθέσεως κινηθῇ τὸ αἰδοῖον,
+              <lb n="28" xml:id="p128-27"/>πάλιν τὴν τοιαύτην τοῦ αἰδοίου κίνησίν φαμεν ἑκούσιον. οὐχ ἑκούσια δὲ<note type="apparatus" n="28" target="#p128-27">τὴν] δὲ R τοῦ αἰδοίου om. P</note>
+              <lb n="29" xml:id="p128-28"/>ὕπνος, ἐγρήγορσις, τὰ ὅμοια. ᾗ μὲν γὰρ οὐ συγκατέθετο ὁ νοῦς ὅτι ὑπνωτέον,
+            </p>
+            <pb n="129" facs="https://archive.org/download/p1commentariaina22akaduoft/page/n340.jpg"/>
+            <p>
+              <lb n="1" xml:id="p129-0"/>ἔοικε τῷ ἀκουσίῳ, ἡ δὲ ὅλως ἐν ἡμῖν ἡ ἀρχὴ τοῦ ὕπνου, ἔοικε τῷ
+              <lb n="2" xml:id="p129-1"/>ἑκουσίῳ. πῶς γὰρ ἂν ἑκούσιον εἴποι τις τὸν ὕπνον, οὗ οὐκ ἔστιν ἡ φαντασία<note type="apparatus" n="2" target="#p129-1">εἴπῃ S</note><note type="apparatus" n="2-3" target="#p129-1 #p129-2">ἡ φαντασία οὐκ ἔστιν coll. CPR</note><milestone type="alt-edition" unit="line" ed="Aldina 1527" n="15"/>
+              <lb n="3" xml:id="p129-2"/>ἢ ἡ διάνοια αἰτία; ἀλλὰ μὴν οὐδ’ ἀκούσιον· ἐν ἡμῖν γὰρ ἡ αἰτία<note type="apparatus" n="3" target="#p129-2">ἀκούσια PR</note>
+              <lb n="4" xml:id="p129-3"/>τοῦ ὕπνου, ὡς μεμαθήκαμεν ἐν τῷ πρὸ τούτου βιβλίῳ ἐν οἷς διελέγετο<note type="apparatus" n="4" target="#p129-3">ἐν τῷ πρὸ τούτου βιβλίῳ κτλ.] de somno et vig. 3 ἐν ante τῷ om. R διελέγετο] ἔλεγε τὸ PR</note>
+              <lb n="5" xml:id="p129-4"/>πῶς ὁ ὕπνος γίνεται. οὔτε οὖν ὁ νοῦς οὔθ’ ἡ φαντασία ἐστὶν αἰτία, ἀλλ’
+              <lb n="6" xml:id="p129-5"/>ἐπεὶ ἀναγκαῖον ἀλλοιοῦσθαι τὰ ζῷα φυσικήν τινα ἀλλοίωσιν, διὰ τοῦτο συμβαίνει<note type="apparatus" n="6" target="#p129-5">ἐπειδὴ CPR ἀνάγκη CPRa</note><note type="apparatus" n="6-7" target="#p129-5 #p129-6">post συμβαίνει add. ἀλλοιοῦσθαι ἤγουν CPR</note>
+              <lb n="7" xml:id="p129-6"/>κινεῖσθαι ἅμα τῷ φανέντι· τοῦτο γὰρ οἶμαι προσυπακούειν καὶ ὡς<note type="apparatus" n="7" target="#p129-6">φανέντι] φανῆναι CPR τούτου R</note><note type="apparatus" n="7-8" target="#p129-6 #p129-7">καὶ ὡς ἔοικε om. a</note>
+              <lb n="8" xml:id="p129-7"/>ἔοικε πρὸς τούτῳ δεῖ καὶ στίζειν τελείαν εἰς τὸ φυσικήν τινα ἀλλοίωσιν<note type="apparatus" n="8" target="#p129-7">πρὸ τούτου CP δεῖ post οἶμαι (7) ponit a τελείαν om. P</note>
+              <lb n="9" xml:id="p129-8"/>(φαίνεται γὰρ ἐν τούτῳ ἡ ἀπόδοσις οὖσα τοῦ λόγου) ἀναγινώσκειν δὲ ὡς ἀπ’<note type="apparatus" n="9" target="#p129-8">οὖσα ἡ ἀπόδοσις coll. CPR</note><milestone type="alt-edition" unit="line" ed="Aldina 1527" n="20"/>
+              <lb n="10" xml:id="p129-9"/>ἄλλης ἀρχῆς τὸ ἀλλοιουμένων δὲ τῶν μορίων τὰ μὲν αὔξεσθαι τὰ
+              <lb n="11" xml:id="p129-10"/>δὲ φθίνειν οὕτως ‘οὐ μόνον δὲ κατ’ ἀλλοίωσιν ἀθρόαν τὸ αἰδοῖον καὶ ἡ
+              <lb n="12" xml:id="p129-11"/>καρδία κινοῦνται, ἀλλὰ καὶ αἱ αὐξήσεις καὶ αἱ φθίσεις τῶν μορίων ἀλλοιουμένων<note type="apparatus" n="12" target="#p129-11">κινεῖται C</note>
+              <lb n="13" xml:id="p129-12"/>τῶν ζῴων συμβαίνουσι’. δύναταί τις μόρια σύμφυτα ἀκούειν ἐν τῇ<note type="apparatus" n="13" target="#p129-12">post δύναται add. δὲ a</note>
+              <lb n="14" xml:id="p129-13"/>καρδίᾳ τὸ πνεῦμα καὶ τὰ ὑπ’ αὐτοῦ κινούμενα νεῦρα· ᾧ σύμφωνον ἂν εἴη<note type="apparatus" n="14" target="#p129-13">τὸ om. PR, post ἀκούειν (13) ponit C</note>
+              <lb n="15" xml:id="p129-14"/>καὶ τὸ ἐπαχθὲν τὸ καὶ μεταβάλλειν τὰς πεφυκυίας ἔχεσθαι μεταβολὰς<note type="apparatus" n="15-16" target="#p129-14 #p129-15">μεταβολὰς] κινήσεις CPR</note>
+              <lb n="16" xml:id="p129-15"/>ἀλλήλων. παρὰ τὸν λόγον δὲ κινήσεις λέγει τὰς ἀκουσίους·<milestone type="alt-edition" unit="line" ed="Aldina 1527" n="25"/>
+              <lb n="17" xml:id="p129-16"/>καὶ γὰρ αὗται ἀλλοιουμένων τινῶν γίνονται, αἵτινες καὶ αὐταὶ γίνονται οὐ
+              <lb n="18" xml:id="p129-17"/>μόνον φανέντος τινὸς κατὰ τὴν αἴσθησιν, ἀλλὰ καὶ μὴ φανέντος τινός,<note type="apparatus" n="18" target="#p129-17">μὴ καὶ coll. C</note>
+              <lb n="19" xml:id="p129-18"/>ἡμῶν δ’ ἐξαίφνης φαντασθέντων τοῦ λόγου μὴ κελεύοντος πολλάκις κινεῖται<note type="apparatus" n="19" target="#p129-18">ἡμῶν γὰρ Ca, fort. recte</note>
+              <lb n="20" xml:id="p129-19"/>τὸ αἰδοῖον· ἡ γὰρ φαντασία τὸ εἶδος τῆς γυναικὸς προφέρει.<note type="apparatus" n="20" target="#p129-19">προσφέρει Ca cf. Arist.</note>
+            </p>
+          </div>
+          <div type="textpart" subtype="lemma" n="29">
+            <milestone unit="bekker" n="703b20"/>
+            <quote type="lemma">
+              <lb n="21" xml:id="p129-20"/>Μάλιστα δὲ τῶν μορίων ταῦτα ποιεῖ ἐπιδήλως.
+            </quote>
+            <p>
+              <lb n="22" xml:id="p129-21"/>Ταῦτα λέγει τὸ αἰδοῖον καὶ τὴν καρδίαν. ἀπὸ πάντων, φησί,
+              <lb n="23" xml:id="p129-22"/>τῶν μορίων ταῦτα μόνα, ἥ τε καρδία καὶ τὸ αἰδοῖον, ποιοῦσιν ἐπίδηλον ἣν
+              <lb n="24" xml:id="p129-23"/>κινοῦνται κίνησιν. ταῦτα οὖν ἐπιδήλως κινοῦνται διὰ τὸ ὥσπερ ζῷον εἶναι<note type="apparatus" n="24" target="#p129-23">οὖν—κινοῦνται] δὲ CPR</note><milestone type="alt-edition" unit="line" ed="Aldina 1527" n="35"/>
+              <lb n="25" xml:id="p129-24"/>ἑκάτερον αὐτῶν· ὥσπερ γὰρ τὰ ζῷα κινεῖται, οὕτω καὶ ταῦτα διὰ τὸ<note type="apparatus" n="25" target="#p129-24">γὰρ] δὲ PR</note>
+              <lb n="26" xml:id="p129-25"/>εἶναι αὐτὰ ὥσπερ ζῷα κεχωρισμένα καὶ καθ’ αὑτά. πῶς δὲ ἅλλεται ἡ<note type="apparatus" n="26" target="#p129-25">ὥσπερ ζῷα εἶναι αὐτὰ coll. PR: ὥσπερ ζ. εἶναι ταῦτα C</note>
+              <lb n="27" xml:id="p129-26"/>καρδία καὶ σφύζει, αὐτὸς ἐρεῖ ἀκριβέστερον ἐπὶ τέλει τοῦ Περὶ γήρως καὶ<note type="apparatus" n="27-28" target="#p129-26 #p129-27">ἐπὶ τέλει τοῦ Περὶ γήρως καὶ νεότητος] immo τοῦ Περὶ ἀναπνοῆς c. 20</note><note type="apparatus" n="27" target="#p129-26">ἐπὶ τῷ τέλει CR: ἐν τῷ τ. P</note>
+              <lb n="28" xml:id="p129-27"/>νεότητος. εἰπὼν δὲ διὰ τὸ ὥσπερ ζῷον εἶναι ἑκάτερον αὐτῶν<note type="apparatus" n="28" target="#p129-27">post νεότητος add. καὶ ζωῆς καὶ θανάτου CPR</note>
+              <lb n="29" xml:id="p129-28"/>ἐπήγαγε τούτου δ’ αἴτιον, τουτέστι τοῦ δὲ εἶναι ὥσπερ ζῷα αἴτιον τὸ
+            </p>
+            <pb n="130" facs="https://archive.org/download/p1commentariaina22akaduoft/page/n341.jpg"/>
+            <p>
+              <lb n="1" xml:id="p130-0"/>ἔχειν ὑγρότητα ζωτικήν· ἡ μὲν γὰρ καρδία διὰ τὸ ἔχειν τὴν ἀρχὴν<note type="apparatus" n="1" target="#p130-0">ante ὑγρότητα add. ὥσπερ CPR</note>
+              <lb n="2" xml:id="p130-1"/>τῶν αἰσθήσεων (τὸ δὲ ζῷον ἐν τῷ αἰσθάνεσθαι τὸ εἶναι ζῷον ἔχει· τῷ<milestone type="alt-edition" unit="line" ed="Aldina 1527" n="40"/>
+              <lb n="3" xml:id="p130-2"/>γὰρ ἔχειν αἴσθησιν διαφέρει τῶν μὴ ζῴων τὸ ζῷον), τὸ δὲ αἰδοῖον διὰ τὸ<note type="apparatus" n="3" target="#p130-2">τὸ ζῷον τῶν μὴ ζῴων coll. CPR</note>
+              <lb n="4" xml:id="p130-3"/>ὥσπερ ζῷον ἐξέρχεσθαι ἐξ αὐτοῦ τὸ σπέρμα, δυνάμει ὂν ζῷον· τὸ γὰρ<note type="apparatus" n="4" target="#p130-3">ἐξ] ἀπ’ Ca: τε S τὸ post αὐτοῦ om. PR</note>
+              <lb n="5" xml:id="p130-4"/>σπέρμα δυνάμει ἐστὶ ζῷον, ὡς ἐν τῷ Περὶ γενέσεως ζῴων δείκνυται.<note type="apparatus" n="5" target="#p130-4">ἐστὶ om. a ἐν τῷ Περὶ γενέσεως ζῴων] cf. A 18 sqq.: περὶ ζῴων γενέσεως coll. CPR</note>
+            </p>
+          </div>
+          <div type="textpart" subtype="lemma" n="30">
+            <milestone unit="bekker" n="703b26"/>
+            <quote type="lemma">
+              <lb n="6" xml:id="p130-5"/>Αἱ δὲ κινήσεις τῇ τε ἀρχῇ ἀπὸ τῶν μορίων, καὶ τοῖς<note type="apparatus" n="6" target="#p130-5">τῆς τε ἀρχῆς CRS</note><note type="apparatus" n="6-7" target="#p130-5 #p130-6">καὶ τῶν μορίων CR</note>
+            </quote>
+            <p>
+              <lb n="7" xml:id="p130-6"/>μορίοις ἀπὸ τῆς ἀρχῆς εὐλόγως συμβαίνουσι.
+              <lb n="8" xml:id="p130-7"/>Εἴρηται πρὸ ὀλίγου ὅτι τῶν νεύρων τεινομένων συντείνεται ἡ καρδία·<note type="apparatus" n="8" target="#p130-7">πρὸ ὀλίγου] p. 124,8</note>
+              <lb n="9" xml:id="p130-8"/>ὥστε τὰ μὲν μόρια κινοῦνται ἀπὸ τῆς ἀρχῆς καὶ ἡ ἀρχὴ πάλιν ἀπὸ τῶν<note type="apparatus" n="9" target="#p130-8">κινεῖται CPR post πάλιν add. κινεῖται PR</note><milestone type="alt-edition" unit="line" ed="Aldina 1527" n="50"/>
+              <lb n="10" xml:id="p130-9"/>μορίων. καὶ ὡς ἔθος τίθεται ἐπὶ στοιχείων τὴν ἀρχὴν καὶ τὰ μόρια,<note type="apparatus" n="10" target="#p130-9">τίθεται] τίθησιν a</note>
+              <lb n="11" xml:id="p130-10"/>ἔστω γὰρ ἀρχὴ’ λέγων ‘τὸ Α, μόρια δὲ τὰ ΒΓ’. ταῦτα λέγει ἐπιγεγραμμένα<note type="apparatus" n="11" target="#p130-10">τὸ βγ CPRa</note>
+              <lb n="12" xml:id="p130-11"/>στοιχεῖα. καὶ Β ἔστω πάλιν τὰ δεξιά, Γ δὲ τὰ ἀριστερά. αἱ δὲ κινήσεις
+              <lb n="13" xml:id="p130-12"/>τῶν δεξιῶν καὶ ἀριστερῶν ἐπὶ τὴν ἀρχὴν τὴν καρδίαν ἀφικνοῦνται (συγκινεῖται
+              <lb n="14" xml:id="p130-13"/>γὰρ αὐτοῖς) καὶ ἀπὸ ταύτης δὲ γίνονται· ταύτης γὰρ καὶ τοῦ ἐν<note type="apparatus" n="14" target="#p130-13">ταύτης γὰρ] ταύτης δὲ C</note>
+              <lb n="15" xml:id="p130-14"/>αὐτῇ πνεύματος κινουμένων κινεῖται τὰ δεξιὰ καὶ ἀριστερά. καὶ ἡ μὲν τοῦ<note type="apparatus" n="15" target="#p130-14">αὐτῇ] αὐτοῖς P¹a συγκινεῖται CPR</note>
+              <lb n="16" xml:id="p130-15"/>Β ἀρχὴ ἐπὶ τὸ Β· ἡ γὰρ <milestone type="alt-edition" unit="folio" ed="Aldina 1527" n="157r"/> ἀρχὴ καὶ αἰτία τῆς τῶν δεξιῶν κινήσεως ἐπὶ<note type="apparatus" n="16" target="#p130-15">ἐπὶ τὰ β CPRS</note>
+              <lb n="17" xml:id="p130-16"/>τὰ δεξιὰ διαδίδοται, ὥσπερ ἡ τῶν ἀριστερῶν ἐπὶ τὰ ἀριστερά. οὔτε γὰρ<note type="apparatus" n="17" target="#p130-16">δέδοται PR: δίδοται C</note>
+              <lb n="18" xml:id="p130-17"/>ἡ τῶν δεξιῶν ἐπὶ τὰ ἀριστερὰ ἀφικνεῖται ἢ διαδίδοται, οὔτε αὖ πάλιν ἡ<note type="apparatus" n="18" target="#p130-17">ἐπὶ τὰ ἀριστερὰ ἡ τῶν δεξιῶν coll. CPR δίδοται CPR αὖ om. PR</note><note type="apparatus" n="18-19" target="#p130-17 #p130-18">πάλιν ἀπὸ τῶν PR</note>
+              <lb n="19" xml:id="p130-18"/>τῶν ἀριστερῶν ἐπὶ τὰ δεξιά, ἀλλ’ ἑκάστη πρὸς τὸ οἰκεῖον μέρος ἀποτείνεται.<note type="apparatus" n="19" target="#p130-18">πρὸς] ἐπὶ CPR</note>
+              <lb n="20" xml:id="p130-19"/>ἡ δὲ τοῦ Γ πάλιν ἀρχὴ ἐπὶ τὸ Γ τὰ ἀριστερά, ἡ δ’ ἀμφοῖν ἐπ’ ἄμφω,<note type="apparatus" n="20" target="#p130-19">ἀμφοῖν] ἄμφω CPRS</note>
+              <lb n="21" xml:id="p130-20"/>τουτέστιν ἡ δὲ τοῦ Β καὶ Γ ἐπὶ τὸ Β καὶ Γ· ἡ γὰρ δεξιὰ καὶ ἀριστερὰ
+              <lb n="22" xml:id="p130-21"/>ἀρχὴ ἐπὶ τὰ δεξιὰ καὶ ἀριστερὰ περαιοῦνται. ἀπὸ δὲ τοῦ Β ἐπὶ τὸ Γ·<note type="apparatus" n="22" target="#p130-21">περαιούνται] κινοῦνται P: κινοῦνται καὶ περαιούνται CR</note><milestone type="alt-edition" unit="line" ed="Aldina 1527" n="5"/>
+              <lb n="23" xml:id="p130-22"/>λείπει τὸ οὐκέτι, ἵν’ ᾖ ‘ἀπὸ δὲ τοῦ Β ἐπὶ τὸ Γ οὐκέτι’. ἡ γὰρ τοῦ Β
+              <lb n="24" xml:id="p130-23"/>ἀρχή, ὥσπερ εἴρηται, ἐπὶ τὸ Γ οὐ διαδίδοται, οὐδ’ ἡ τοῦ Γ ἐπὶ τὸ Β.
+              <lb n="25" xml:id="p130-24"/>καὶ ἡ μὲν ἀπὸ τοῦ Β κίνησις ἐπὶ τὸ Α ὡς ἐπ’ ἀρχήν, ἡ δ’ ἀπὸ τοῦ Α
+              <lb n="26" xml:id="p130-25"/>ἐπὶ τὸ Β ὡς ἀπ’ ἀρχῆς.
+            </p>
+          </div>
+          <div type="textpart" subtype="lemma" n="31">
+            <milestone unit="bekker" n="703b36"/>
+            <quote type="lemma">
+              <lb n="27" xml:id="p130-26"/>Ὅτι δὲ ὁτὲ μὲν ταῦτα νοησάντων γίνεται κίνησις ἡ<note type="apparatus" n="27" target="#p130-26">Ὅτι] Ἔτι a Arist. EP ταῦτα om. CPR ante κίνησις add. ἡ a Arist.</note>
+            </quote>
+            <p>
+              <lb n="28" xml:id="p130-27"/>παρὰ τὸν λόγον.
+              <lb n="29" xml:id="p130-28"/>Ἐπειδὴ πολλάκις νοήσαντες γυναῖκα ἢ ἐχθρόν, κινεῖται τὸ αἰδοῖον καὶ<note type="apparatus" n="29" target="#p130-28">νοήσαντες] νοησάντων ἡμῶν CPR</note>
+            </p>
+            </div>
+        </div>
+      </div>
+    <pb n="131" facs="https://archive.org/download/p1commentariaina22akaduoft/page/n342.jpg"/>
+          </body>
+  </text>
+</TEI>

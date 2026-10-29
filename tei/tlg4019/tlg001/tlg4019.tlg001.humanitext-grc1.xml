@@ -1,0 +1,1062 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt><title>Olympiodorus, Prolegomena (CAG 12.1)</title><respStmt><resp>Responsible for the edition</resp><persName xml:id="NI" xml:lang="en">Naoya Iwata</persName></respStmt><respStmt><resp>Structuring of the text (division into chapters, sections and lemmata) and its review</resp><persName xml:id="TN" xml:lang="en">Tomomi Nakayama</persName></respStmt></titleStmt>
+      <publicationStmt>
+        <publisher>Humanitext</publisher>
+        <availability><licence target="https://creativecommons.org/licenses/by/4.0/">Public domain source; transcription CC BY 4.0 (Humanitext)</licence></availability>
+      </publicationStmt>
+      <sourceDesc><bibl>Olympiodorus, Prolegomena. Commentaria in Aristotelem Graeca XII.1, ed. A. Busse, Berlin: Reimer 1902, pp. 1–25. Scan: Internet Archive commentariaina12pt12akaduoft (University of Toronto). Transcription: Humanitext OCR v2 (Gemini), 2026; structure: humanitext-cag-structuring.</bibl><bibl type="collation">First1KGreek tlg4019.tlg001.1st1K-grc1 (Open Greek and Latin Project, University of Leipzig; CC BY-SA 4.0), used only as a collation witness.</bibl></sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <refsDecl n="CTS">
+        <cRefPattern n="section" matchPattern="(.+)\.(.+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='chapter' and @n='$1']/tei:div[@subtype='section' and @n='$2'])"/>
+        <cRefPattern n="chapter" matchPattern="(.+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='chapter' and @n='$1'])"/>
+      </refsDecl><refsDecl n="page-line"><cRefPattern n="page.line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(//tei:pb[@n='$1']/following::tei:lb[@n='$2'][1])"><p>Citation by the page and line of the printed edition (CAG page.line, e.g. 105.17): the line with that number after the page break with that page number.</p></cRefPattern></refsDecl>
+      <editorialDecl>
+        <p>Text transcribed by OCR (Humanitext OCR v2, Gemini models) from the scans named in the source description. Structure (div, quote, head): assigned automatically from printed cues (Bekker references before lemmata, section numbers, headings, book titles, lecture headings; in the paraphrases, Aristotle's chapters located from the running heads) and reviewed by the editors at every boundary that was not certain. In works divided into lectures (Πρᾶξις, Θεωρία) the lectures are divs; topic headings that run across lectures (e.g. Περὶ οὐσίας) are marked milestone[@unit='topic'] and kept as text. Text: OCR of the page images (gemini-3-flash-preview; gemini-3.7-flash where it failed), collated word by word, page by page and in five-line blocks, with the First1KGreek transcription of the same edition (tlg4019.tlg001.1st1K-grc1). Lines on which the two disagreed, lines without a First1KGreek counterpart and lines containing a word form not attested in a Greek form lexicon (about two fifths of the lines) were read again from images of the single lines by a second model (gemini-3.8-flash); words still undecided were read line by line by a third model (gemini-3.1-pro-preview). A reading was adopted when the re-reading of the image agreed with it; the remaining words were decided on the page image by student assistants or by AI-assisted checking under the editor's supervision. Lines on which the OCR agreed word for word with First1KGreek and whose words are all attested were not re-read. No text was copied from First1KGreek (Open Greek and Latin Project, University of Leipzig; CC BY-SA 4.0): it served only as a collation witness, and every disagreement was decided from the page image of this edition. Spelling, accents and breathings follow the printed page: the models were instructed to transcribe exactly as printed and the checkers chose the printed form, but a normalised accentuation adopted by a model may occasionally remain. Later checks against the page images (line numbers, marginal references, signs and apparatus, omitted lines) are listed in the revision description. Headings inside a div (sub-headings, closing formulas, labels of tables) are ab[@type='head']. The words of diagrams and tables are not body text: each diagram or table is given once as figure after the last body line printed before it (labels, trees and tables transcribed; pure geometry described in figDesc); where the edition counts the rows of a diagram or table as lines, those line numbers are not used by any lb. Evident misprints of the printed edition, identified on the page image, are kept and given with the correct form as choice/sic/corr; mere variants of spelling or accentuation are left as printed. Misprinted numbers in milestones (Bekker references, old-edition page, folio, column and line numbers), which cannot carry choice/sic/corr, are given with the corrected value where the sequence of the numbers determines it. Line breaks: one lb per printed line; @n is the line count of the CAG page (headings included), resynchronised on the printed marginal numbers of the left margin; lines the edition does not count carry lb without @n. Words hyphenated across lines are joined and the lb is placed at the following word boundary. pb/@facs points to the image of the page in the Internet Archive item named in the source description (BookReader page image; for pages supplied from another copy, that copy). Critical-apparatus entries are attached to the line(s) they cite as note[@type='apparatus'] with @target on the lb (line level; the lemma words of an entry are not linked); entries that cannot be resolved remain as note[@type='footnote'] at the page end. References in the margins to older editions or manuscripts are milestone[@type='alt-edition'] with @unit and @ed (the edition identified from the preface of the volume); CAG's repetition of the current old-edition page or folio beside the first line of each page is not encoded. Bekker references printed before lemmata are milestone[@unit='bekker']. Marginal digits fused into the text by OCR have been removed.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc><change when="2026-09-15" who="#NI">OCR of the page images in text mode (gemini-3-flash-preview; gemini-3.7-flash where it failed); body lines aligned to the physical lines of the page image; physical lines left without an OCR line read again (31 lines recovered in the corpus).</change><change when="2026-09-24" who="#NI">Line numbers anchored on the printed marginal numerals; 75 doubtful pages of the corpus checked by eye.</change><change when="2026-09-25" who="#NI">Automatic division into chapters, sections and lemmata; 459 uncertain boundaries of the corpus reviewed (273 removed, 119 added).</change><change from="2026-09-26" to="2026-09-29" who="#NI">Line numbers verified against the printed marginal numerals of every page (67,352 of 70,149 numerals agreed); page-wide shifts corrected automatically (322 pages on 2026-09-26, 129 on 2026-09-28); 227 pages reviewed by student assistants (176 corrected).</change><change from="2026-09-30" to="2026-10-02" who="#NI">Text collated with First1KGreek where a First1KGreek file could be aligned by page and line, and re-read (Gemini Batch API): 156,504 lines of the corpus by gemini-3.8-flash, 21,570 lines by gemini-3.1-pro-preview; remaining words put on review sheets.</change><change from="2026-09-30" to="2026-10-12" who="#NI">Review sheets of the re-read words answered by student assistants; the remaining words decided on the page images.</change><change from="2026-10-01" to="2026-10-08" who="#TN">All uncertain structural boundaries reviewed; conventions of the pilot works applied (lectures, book titles, topic headings).</change><change when="2026-10-02" who="#NI">Evident misprints given as choice/sic/corr; headings inside divs as ab[@type='head'].</change><change when="2026-10-13" who="#NI">Margin references to older editions and manuscripts encoded as milestone[@type='alt-edition'][@ed], the editions identified from the prefaces; irregular sequences checked on the page images.</change><change from="2026-10-13" to="2026-10-14" who="#NI">Body text lost to the footnote and figure areas found by collation from the First1KGreek side and restored (about 2,300 lines in the corpus); passages missed by the OCR read again and inserted; restored and inserted lines checked again against the images.</change><change when="2026-10-14" who="#NI">Text of diagrams encoded as figure, and lemma Bekker references whose numbers the OCR had lost read from the images (where the work has them).</change><change when="2026-10-16" who="#NI">Line numbers of the 875 pages left by the verification checked on the images (248 of them also answered by student assistants), followed by a continuity check of every page; margin references to older editions checked on 2,237 page images (944 corrections).</change><change when="2026-10-17" who="#NI">Pages whose line numbering still had gaps or repeats checked on the images (355 pages); signs (〈 〉 [ ] † * — ( )) compared with First1KGreek and 445 pages checked on the images (313 corrections in the text, 523 in the apparatus); words hyphenated across lines joined; punctuation normalised.</change><change when="2026-10-20" who="#NI">Header revised (title, source description, editorial declaration, revision description); misprinted old-edition line numbers given with the corrected value where the sequence determines them; breathings and accents written as separate signs before capitals composed with the letter; missing elision marks after ἀλλ, κατ, καθ, ἐπ, δι etc. supplied in the text; numbers left at line starts removed or encoded as old-edition milestones (image checked); working row identifiers left in 37 lines removed (one line restored from the page image); words divided at a line end that had been joined to a word two lines down corrected; every body line without a line number checked on the page images (margin labels and folio marks read as lines dropped, duplicated rows removed, numbers given to lines the edition counts); numeral signs unified as ʹ (U+0374, stored in its NFC form U+02B9); line-number jumps, old-edition milestones without an edition name and notes suspected to hold body text checked on the page images; citation by printed page and line declared (refsDecl); line coordinates of the working files realigned on the marginal numerals; printers' signatures at the foot of the page removed from the apparatus; apparatus entries for two lines joined by et kept as one note pointing at both lines; page images linked from pb/@facs.</change><change when="2026-10-21" who="#NI">Old-edition line numbers checked on the page images where the sequence skipped a number (2,100 places in the corpus) and, page by page, where it was irregular (542 pages): numbers missed by the OCR added (549), milestones not printed on the page dropped (190; mostly the CAG's own left-margin numbers or line references of the apparatus taken for old-edition numbers), misplaced ones moved (69), misread values corrected (31), page numbers taken for line numbers made page milestones (8); the edition's own skips and out-of-order numbers left as printed, the line count printed beside the repeated page or folio at the head of a page not encoded (like the repetition).</change><change when="2026-10-23" who="#NI">Quotation marks made uniform: opening single and double quotation marks, printed in the edition in the reversed (high-reversed-9) form, are encoded as ‘ and “, closing ones as ’ and ”, single and double kept as printed; opening marks read by the OCR as straight quotes, low quotes or spacing breathings, and spacing breathings or quotation marks doubled before a capital that already bears its breathing, corrected.</change></revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="edition" n="urn:cts:greekLit:tlg4019.tlg001.humanitext-grc1" xml:lang="grc">
+        <pb n="1" facs="https://archive.org/download/commentariaina12pt12akaduoft/page/n18.jpg"/>
+        <div type="textpart" subtype="chapter" n="1">
+          <head><lb n="1" xml:id="p1-0"/>ΟΛΥΜΠΙΟΔΩΡΟΥ ΦΙΛΟΣΟΦΟΥ ΕΙΣ ΤΑ ΠΡΟΛΕΓΟΜΕΝΑ ΤΗΣ ΛΟΓΙΚΗΣ.<note type="apparatus" n="1" target="#p1-0">in titulo εἰς τὰ eicias</note></head>
+          <div type="textpart" subtype="section" n="0">
+          </div>
+        </div>
+        <div type="textpart" subtype="chapter" n="2">
+          <head><lb n="2" xml:id="p1-1"/>〈Θεωρία αʹ.〉<note type="apparatus" n="2" target="#p1-1">θεωρία αʹ inserui (cf. p. 6,5 10,35 14,12)</note></head>
+          <div type="textpart" subtype="section" n="0">
+            <p>
+              <lb n="3" xml:id="p1-2"/>Ἐπειδὴ πηγῆς ἐθέλομεν ἀπολαύειν ἀγαθῶν, σπουδὴ παρὰ ἡμῖν τῆς
+              <lb n="4" xml:id="p1-3"/>Ἀριστοτέλους φιλοσοφίας ἀντέχεσθαι, τῇ τῶν ἀγαθῶν ἀρχῇ χορηγούσης<note type="apparatus" n="4" target="#p1-3">τῇ .. ἀρχῇ scripsi: τῆς .. ἀρχῆς Μ</note>
+              <lb n="5" xml:id="p1-4"/>τὸ ζῆν, οὐχ ἥκιστα δὲ καὶ φωτεινὴν διάνοιαν ποδηγούσης εἰς τὴν τῶν
+              <lb n="6" xml:id="p1-5"/>ζητουμένων ἀκρίβειαν· φέρε πρὸς κατόρθωσιν τοῦ ποθουμένου, τριῶν τινων
+              <lb n="7" xml:id="p1-6"/>ἅμα ἀρχόμενοι, τῶν Κατηγοριῶν, τῆς λογικῆς, τῆς Ἀριστοτέλους φιλοσοφίας,
+              <lb n="8" xml:id="p1-7"/>ἑκάστου τούτων τὰ προλαμβανόμενα ζητήσωμεν [τοῦ συγγράμματος],<note type="apparatus" n="8" target="#p1-7">τοῦ συγγράμματος delevi 18—20 scribas τέταρτον τί τὸ ἀναφαιν. ... φιλοσοφίας, πέμπτον τίς ὁ ταύτης (pro τούτων) βαθμὸς καὶ διὰ τίνων ἐπὶ τὸ .. πορευόμεθα (cf. p. 9,14. 31)</note>
+              <lb n="9" xml:id="p1-8"/>τοῦτ’ ἔστι τῶν Κατηγοριῶν καὶ τῆς μεθόδου, φημὶ δὲ τῆς λογικῆς, καὶ
+              <lb n="10" xml:id="p1-9"/>τῆς ἐπιστήμης, τοῦτ’ ἔστι τῆς Ἀριστοτέλους φιλοσοφίας. διὰ μὲν οὖν τὰς
+              <lb n="11" xml:id="p1-10"/>Κατηγορίας, τοῦτ’ ἔστι τὸ σύγγραμμα, ζητήσωμεν ἕξ τινα, πάντοτε εἰωθότα
+              <lb n="12" xml:id="p1-11"/>παντὸς βιβλίου προλέγεσθαι, τὸν σκοπόν φημι καὶ τὸ χρήσιμον καὶ
+              <lb n="13" xml:id="p1-12"/>τὴν τάξιν, τὴν ἐπιγραφήν, τὸν συγγραφέα, τὴν διασκευὴν τοῦ βιβλίου. διὰ
+              <lb n="14" xml:id="p1-13"/>δὲ τὴν μέθοδον, τοῦτ’ ἔστι τὴν λογικήν, ζητήσωμεν πότερον μέρος ἢ
+              <lb n="15" xml:id="p1-14"/>ὄργανον τῆς φιλοσοφίας ἡ λογική. διὰ δὲ πᾶσαν τὴν Ἀριστοτέλους φιλοσοφίαν
+              <lb n="16" xml:id="p1-15"/>δέκα τινά· πρῶτον μὲν πόθεν τὰ ὀνόματα τῶν αἱρέσεων, δεύτερον
+              <lb n="17" xml:id="p1-16"/>τίς ἡ διαίρεσις τῶν Ἀριστοτέλους συγγραμμάτων, τρίτον πόθεν δεῖ τῶν
+              <lb n="18" xml:id="p1-17"/>Ἀριστοτέλους βιβλίων ποιήσασθαι τὴν ἀρχήν, τέταρτον τίς ὁ τούτων βαθμὸς
+              <lb n="19" xml:id="p1-18"/>καὶ διὰ τίνων ἐπὶ τὸ ταύτης τέλος πορευόμεθα, πέμπτον τί τὸ ἀναφαινόμενον
+              <lb n="20" xml:id="p1-19"/>χρήσιμον ἐκ τοῦ τέλους τῆς φιλοσοφίας, ἕκτον ποῖον δεῖ εἶναι τὸν
+              <lb n="21" xml:id="p1-20"/>ἀκροώμενον τῶν Ἀριστοτελικῶν συγγραμμάτων, ἕβδομον ποῖον δεῖ εἶναι τὸν
+              <lb n="22" xml:id="p1-21"/>ἐξηγούμενον, ὄγδοον τίνος χάριν ἀσάφειαν ἐπετήδευσεν ὁ φιλόσοφος, ἔνατον
+              <lb n="23" xml:id="p1-22"/>τί τὸ εἶδος τῆς ἀπαγγελίας καθέστηκεν, δέκατον πόσα καὶ τίνα δεῖ ἑκάστου
+              <lb n="24" xml:id="p1-23"/>συγγράμματος προλέγεσθαι.
+              <lb n="25" xml:id="p1-24"/>Οὐκοῦν ἐπειδὴ τοῦτον 〈τὸν〉 σκοπὸν ἔχομεν, τῶν προτεθέντων τριῶν ζητῆσαι<note type="apparatus" n="25" target="#p1-24">τὸν inserui</note>
+              <lb n="26" xml:id="p1-25"/>τὰ προλαμβανόμενα, <milestone type="alt-edition" unit="folio" ed="cod. Mutinensis 69" n="2r"/> ζητητέον καὶ ἐν αὐτοῖς τούτοις πόθεν δεῖ τὴν ἀρχὴν
+            </p>
+            <pb n="2" facs="https://archive.org/download/commentariaina12pt12akaduoft/page/n19.jpg"/>
+            <p>
+              <lb n="1" xml:id="p2-0"/>ποιήσασθαι τῆς διδασκαλίας, ἆρα ἀπὸ προτέρων τῶν Κατηγοριῶν, ἆρα ἀπὸ
+              <lb n="2" xml:id="p2-1"/>τῆς μεθόδου, ἢ ἀπ’ οὐδετέρου, ἀλλὰ μᾶλλον ἀπὸ τῶν προλαμβανομένων
+              <lb n="3" xml:id="p2-2"/>τῆς Ἀριστοτέλους φιλοσοφίας. λέγω τοίνυν ὅτι δεῖ προηγεῖσθαι τὰ ζητούμενα
+              <lb n="4" xml:id="p2-3"/>κατὰ τῆς Ἀριστοτέλους φιλοσοφίας ἤπερ τὰ τῶν Κατηγοριῶν καὶ τῆς
+              <lb n="5" xml:id="p2-4"/>μεθόδου διὰ δύο αἰτίας τινάς, διὰ τὰς ἐπιστήμας καὶ τὰς τέχνας· ζηλωταὶ
+              <lb n="6" xml:id="p2-5"/>γὰρ τούτων γινόμεθα, τῶν μὲν ἐπιστημῶν, διότι φίλον αὐταῖς ἀπὸ τῶν
+              <lb n="7" xml:id="p2-6"/>καθολικωτέρων ποιεῖσθαι τὴν ἀρχήν, ὅπερ καὶ ἐπὶ τῆς φιλοσοφίας εὑρίσκομεν·
+              <lb n="8" xml:id="p2-7"/>καὶ γὰρ αὕτη καθολικωτέρα μέν ἐστι τῆς λογικῆς, ἡ δὲ λογικὴ τῶν Κατηγοριῶν.
+              <lb n="9" xml:id="p2-8"/>τῶν δὲ τεχνῶν ζηλωταὶ γινόμεθα ἀρχόμενοι ἀπὸ τῶν προλαμβανομένων
+              <lb n="10" xml:id="p2-9"/>τῆς Ἀριστοτέλους φιλοσοφίας, ἐπειδὴ ὃν τρόπον ἐκεῖναι τὸ τέλος
+              <lb n="11" xml:id="p2-10"/>τῆς θεωρίας ἀρχὴν ποιοῦσι τῆς πράξεως, ὡς ἔχει, εἰ τύχοι, ἐπὶ οἰκοδόμου
+              <lb n="12" xml:id="p2-11"/>οἰκοδομοῦντος οἶκον, οὕτω καὶ ἡμεῖς ἀπὸ τῶν Κατηγοριῶν τὴν ἀρχὴν ποιησάμενοι
+              <lb n="13" xml:id="p2-12"/>ἀνήλθομεν ἐπὶ τὴν λογικήν, ἀπὸ δὲ τῆς λογικῆς ἐπὶ τὴν Ἀριστοτέλους
+              <lb n="14" xml:id="p2-13"/>φιλοσοφίαν, ὅπερ τέλος μὲν γέγονε τῆς θεωρίας ἀρχὴ δὲ γενήσεται
+              <lb n="15" xml:id="p2-14"/>τῆς πράξεως. οὐκοῦν ἐπειδὴ ἔδοξεν ἡμῖν καὶ καλῶς ἔδοξεν τὴν ἀρχὴν
+              <lb n="16" xml:id="p2-15"/>ποιήσασθαι ἀπὸ τῶν προλαμβανομένων τῆς Ἀριστοτέλους φιλοσοφίας, δεῖ
+              <lb n="17" xml:id="p2-16"/>δὲ τὰ δέκα ἐκεῖνα πρῶτον φανερὰ γενέσθαι τὰ ἤδη εἰρημένα, πρῶτον μὲν<note type="apparatus" n="17" target="#p2-16">εἰρημένα] p. 1,16</note>
+              <lb n="18" xml:id="p2-17"/>τὸ πόθεν τὰ ὀνόματα τῶν αἱρέσεων, δεύτερον δὲ τίς ἡ διαίρεσις τῶν
+              <lb n="19" xml:id="p2-18"/>Ἀριστοτέλους συγγραμμάτων, καὶ τρίτον τίς ἡ ἀρχή, τέταρτον τίς ἡ ὁδός,<note type="apparatus" n="19-20" target="#p2-18 #p2-19">scribas τέταρτον τί τὸ τέλος, πέμπτον τίς ἡ ὁδός (cf. p. 1, 18. 19 not. Philop. p. 1,11 El. p. 107,15. 16)</note>
+              <lb n="20" xml:id="p2-19"/>πέμπτον τί τὸ τέλος, ἕκτον τὸ ποῖον δεῖ εἶναι τὸν ἀκροώμενον, ἕβδομον
+              <lb n="21" xml:id="p2-20"/>ποῖον δεῖ εἶναι τὸν ἐξηγούμενον, ὄγδοον τί τὸ εἶδος τῆς ἀπαγγελίας, ἔνατον
+              <lb n="22" xml:id="p2-21"/>διὰ τί ἀσάφειαν ἐπετήδευσεν, δέκατον πόσα καὶ ποῖα δεῖ προλαμβάνεσθαι
+              <lb n="23" xml:id="p2-22"/>ἑκάστου Ἀριστοτελικοῦ συγγράμματος, φέρε ζητήσωμεν εὐλόγως δι’ ἣν
+              <lb n="24" xml:id="p2-23"/>αἰτίαν μήτε πλείονα μήτε ἐλάττονα τῶν <milestone type="alt-edition" unit="folio" ed="cod. Mutinensis 69" n="2v"/> δέκα ὀφείλει ζητεῖσθαι. καὶ
+              <lb n="25" xml:id="p2-24"/>ἐπειδὴ τοῦτον ἔχομεν τὸν σκοπόν, διαιρετικῇ τινι μεθόδῳ ὑποβάλλωμεν
+              <lb n="26" xml:id="p2-25"/>τὸν λόγον δεικνύντες ἀναγκαῖα εἶναι πρὸς ζήτησιν ταῦτα μόνα τὰ δέκα,
+              <lb n="27" xml:id="p2-26"/>ἐκεῖνο ἐν νῷ ἔχοντες τὸ τοῦ θείου Πλάτωνος ἀπόφθεγμα τὸ λέγον ὅτι τὴν
+              <lb n="28" xml:id="p2-27"/>διαιρετικὴν μέθοδον οὐδὲν καυχήσεται φυγόν. ἡ φιλοσοφία τοίνυν καὶ ὀνομάζεται<note type="apparatus" n="28" target="#p2-27">Πλάτωνος ἀποφθ.] Soph. p. 235 C</note>
+              <lb n="29" xml:id="p2-28"/>καὶ ὑφέστηκεν. καὶ διότι μὲν ὀνομάζεται, ποιεῖ τὸ πρῶτον κεφάλαιον,
+              <lb n="30" xml:id="p2-29"/>ἐν ᾧ ζητοῦμεν πόθεν τὰ ὀνόματα τῶν αἱρέσεων. καθὸ δὲ ὑφέστηκεν,
+              <lb n="31" xml:id="p2-30"/>ἢ καθ’ αὑτὴν ἢ ἐν σχέσει θεωρεῖται. καὶ ἐν σχέσει τινὶ θεωρουμένη, ἢ
+              <lb n="32" xml:id="p2-31"/>πρὸς ἑαυτὴν ἢ πρὸς ἡμᾶς. καὶ πρὸς ἑαυτὴν ἢ κατὰ διαίρεσιν ἢ κατὰ
+              <lb n="33" xml:id="p2-32"/>συνέχειαν. καὶ διότι μὲν ἐν διαιρέσει ἐστίν, ζητοῦμεν τὸ δεύτερον κεφάλαιον,
+              <lb n="34" xml:id="p2-33"/>τίς ἡ διαίρεσις τῶν Ἀριστοτέλους συγγραμμάτων, διότι δὲ ἐν συνεχείᾳ
+              <lb n="35" xml:id="p2-34"/>ἐστί, ποιεῖ τὰ τρία κεφάλαια, τίς ἡ ἀρχή, τίς ἡ ὁδός, τί τὸ τέλος·
+              <lb n="36" xml:id="p2-35"/>καὶ εἰκότως τρία, διότι πᾶσα συνέχεια καὶ ἀρχὴν ἔχει καὶ μέσον καὶ τέλος.
+              <lb n="37" xml:id="p2-36"/>ὅτε δὲ πρὸς ἡμᾶς ἔχει τὴν σχέσιν, πάντως ἢ πρὸς τὸν μανθάνοντα ἔχει
+              <lb n="38" xml:id="p2-37"/>ἢ πρὸς τὸν διδάσκοντα, καὶ ποιεῖ δύο κεφάλαια, ἓν μὲν τὸ λέγον ποῖον δεῖ
+              <lb n="39" xml:id="p2-38"/>εἶναι τὸν ἀκροώμενον, δεύτερον δὲ τὸ ποῖον δεῖ εἶναι τὸν ἐξηγούμενον. εἰ
+              <lb n="40" xml:id="p2-39"/>δὲ καθ’ ἑαυτήν ἐστι, καὶ λέξιν ἔχει καὶ διάνοιαν· καθὸ μὲν οὖν λέξιν ἔχει,
+              <lb n="41" xml:id="p2-40"/>ποιεῖ ἄλλα δύο τινὰ κεφάλαια, ποῖόν τι τὸ εἶδος τῆς ἀπαγγελίας καὶ διὰ
+            </p>
+            <pb n="3" facs="https://archive.org/download/commentariaina12pt12akaduoft/page/n20.jpg"/>
+            <p>
+              <lb n="1" xml:id="p3-0"/>τί ἀσάφειαν ἐπετήδευσεν ὁ φιλόσοφος. καθὸ δὲ διάνοιαν ἔχει, ποιεῖ τὸ
+              <lb n="2" xml:id="p3-1"/>τελευταῖον κεφάλαιον, τὸ ζητοῦν πόσα καὶ ποῖα δεῖ προλαμβάνεσθαι ἐπὶ<note type="apparatus" n="2" target="#p3-1">προλαμβ. scripsi: παραλαμβ. M</note>
+              <lb n="3" xml:id="p3-2"/>τῆς Ἀριστοτέλους φιλοσοφίας ἑκάστου Ἀριστοτελικοῦ συγγράμματος. οὐκοῦν
+              <lb n="4" xml:id="p3-3"/>ἐπειδὴ ἐδείξαμεν ἀναγκαῖα δέκα μόνον ὄντα τὰ ζητούμενα τῇ διαιρετικῇ<note type="apparatus" n="4" target="#p3-3">ἀναγκαίως compend. M (cf. p. 2,26)</note>
+              <lb n="5" xml:id="p3-4"/>μεθόδῳ, φέρε ἐπεξέλθωμεν ἕκαστον <milestone type="alt-edition" unit="folio" ed="cod. Mutinensis 69" n="3r"/> τῶν εἰρημένων πολυπραγμονοῦντες
+              <lb n="6" xml:id="p3-5"/>τὴν φύσιν αὐτοῦ. καὶ τέως ἐπεξέλθωμεν τῷ πρώτῳ κεφαλαίῳ τῷ παραγγέλλοντι
+              <lb n="7" xml:id="p3-6"/>δεῖν ζητῆσαι πόθεν τὰ ὀνόματα τῶν αἱρέσεων τῶν φιλοσόφων.
+              <lb n="8" xml:id="p3-7"/>Λαμβάνονται τοίνυν ἑπταχῶς τὰ ὀνόματα τῶν φιλοσόφων αἱρέσεων·
+              <lb n="9" xml:id="p3-8"/>ἢ ἀπὸ τῶν αἱρεσιαρχῶν, ἢ ἀπὸ τῆς πατρίδος τοῦ αἱρεσιάρχου, ἢ ἐκ τοῦ
+              <lb n="10" xml:id="p3-9"/>τόπου ἔνθα ἐπαίδευον, ἢ ἐκ τοῦ εἴδους καὶ τοῦ τρόπου τῆς ζωῆς, ἢ ἐκ
+              <lb n="11" xml:id="p3-10"/>τοῦ τρόπου τῆς γνώσεως, τοῦτ’ ἔστιν ἀπὸ τῆς ἐν τῷ φιλοσοφεῖν κρίσεως,
+              <lb n="12" xml:id="p3-11"/>ἢ ἀπό τινος συμβεβηκότος, ἢ ἀπὸ τοῦ τέλους. ἀπὸ μὲν τῶν αἱρεσιαρχῶν,
+              <lb n="13" xml:id="p3-12"/>ὡς ὅταν εἴπωμεν Πυθαγορείους, Δημοκριτείους, Ἐπικουρείους ἔκ τε Πυθαγόρου<note type="apparatus" n="13" target="#p3-12">πυθαγορίους δημοκριτίους ἐπεκουρίους M</note>
+              <lb n="14" xml:id="p3-13"/>καὶ Δημοκρίτου καὶ Ἐπικούρου, οἵτινες τῆς τούτων προκατήρξαντο αἱρέσεως.<note type="apparatus" n="14" target="#p3-13">post αἱρέσεως add. ὁρισμὸς αἱρέσεως αἵρεσις γάρ ἐστι δόξα ἀνδρῶν σοφῶν πρὸς ἑαυτοὺς μὲν συμφωνούντων πρὸς ἑτέρους δὲ διαφωνούντων M (cf. El. p. 108,21)</note>
+              <lb n="15" xml:id="p3-14"/>ἀπὸ δὲ τῆς πατρίδος τῶν προκαταρξαμένων, ὡς ἡ Κυρηναϊκὴ λέγεται
+              <lb n="16" xml:id="p3-15"/>φιλοσοφία ἀπὸ Ἀριστίππου τοῦ Κυρηναϊκοῦ καὶ Ἐρετριακὴ ἀπὸ Μενεδήμου<note type="apparatus" n="16" target="#p3-15">κυρηνιακοῦ M</note>
+              <lb n="17" xml:id="p3-16"/>τοῦ Ἐρετριέως καὶ Μεγαρικὴ φιλοσοφία ἀπὸ Εὐκλείδου καὶ Τερψίωνος τῶν
+              <lb n="18" xml:id="p3-17"/>Μεγαρέων. ἀπὸ δὲ τοῦ τόπου ἔνθα ἐπαίδευον, ὡς Στωϊκοὶ ὀνομάζονται<note type="apparatus" n="18" target="#p3-17">στοϊκοὶ M</note>
+              <lb n="19" xml:id="p3-18"/>διὰ τὸ ἐν τῇ ποικίλῃ στοᾷ Ζήνωνα διατρίβοντα παιδεύειν, ἐκεῖσε ἔνθεν καὶ
+              <lb n="20" xml:id="p3-19"/>τὴν ἐπωνυμίαν ἡ τούτου λέληχεν αἵρεσις. ἀπὸ δὲ τοῦ εἴδους τῆς ζωῆς,
+              <lb n="21" xml:id="p3-20"/>ὥσπερ οἱ Κυνικοὶ φιλόσοφοι. Κυνικοὶ δὲ ἐκλήθησαν φιλόσοφοι διὰ δύο τινὰς
+              <lb n="22" xml:id="p3-21"/>αἰτίας· ἢ ὅτι ἁπλῶς καὶ ὡς ἔτυχεν ἔζων, δίκην κυνῶν <milestone type="alt-edition" unit="folio" ed="cod. Mutinensis 69" n="3v"/> ἐσθίοντες ἐπ’ ἀγορᾷ
+              <lb n="23" xml:id="p3-22"/>καὶ πίνοντες καὶ ἐν πίθοις καθεύδοντες καὶ ἁπλῶς εἰπεῖν τὰ ἄλλα ἀπροφύλακτον
+              <lb n="24" xml:id="p3-23"/>ποιοῦντες, ἀρνούμενοι κρεῖττον εἶναι τὸ θέσει καλὸν τοῦ φύσει καλοῦ,<note type="apparatus" n="24" target="#p3-23">ἀρνούμενοι scripsi: ὁρώμενοι M</note>
+              <lb n="25" xml:id="p3-24"/>ἢ διότι ὥσπερ κύνες ὑλακτοῦσιν μὲν πρὸς τοὺς ξένους σαίνουσι δὲ πρὸς
+              <lb n="26" xml:id="p3-25"/>τοὺς οἰκείους, οὕτω καὶ οὗτοι τοὺς μὲν ἀξίους φιλοσοφίας ἀπεδέχοντο καὶ
+              <lb n="27" xml:id="p3-26"/>προθύμως ἠγάπων τοὺς δὲ ἀναξίους φιλοσοφίας καὶ μὴ δυναμένους ἐντὸς
+              <lb n="28" xml:id="p3-27"/>γενέσθαι αὐτῆς λόγῳ ἀπωθοῦντο καὶ ἐδίωκον. τούτου οὖν χάριν διὰ τὸ
+              <lb n="29" xml:id="p3-28"/>παρρησιαστικὸν καὶ ἐλεγκτικὸν Κυνικοὶ ὠνομάσθησαν· ἀμέλει τοι καὶ ὁ
+              <lb n="30" xml:id="p3-29"/>Πλάτων φησὶ περὶ αὐτῶν ‘ἔχει δέ τι καὶ ὁ κύων φιλόσοφον’. ἀπὸ δὲ τοῦ<note type="apparatus" n="30" target="#p3-29">Πλάτων] Rei publ. II 15 p. 375 E</note>
+              <lb n="31" xml:id="p3-30"/>τρόπου τῆς γνώσεως, τοῦτ’ ἔστιν ἀπὸ τῆς ἐν τῷ φιλοσοφεῖν κρίσεως, ὠνομάσθησαν
+              <lb n="32" xml:id="p3-31"/>αἱρέσεις, ὥσπερ φαμὲν τοὺς Ἐφεκτικούς, οἵτινες περὶ τὴν τῶν<note type="apparatus" n="32" target="#p3-31">τὴν superscr. M¹</note>
+              <lb n="33" xml:id="p3-32"/>πραγμάτων φύσιν καταγιγνόμενοι καὶ ταύτην ζητοῦντες καὶ μὴ δυνηθέντες
+              <lb n="34" xml:id="p3-33"/>ταύτην κατορθῶσαι ἀκαταληψίαν ἐνόουν. πρὸς ἐπὶ ταύτῃ δὲ ἔλεγον καὶ
+              <lb n="35" xml:id="p3-34"/>ὅτι τὸ δοκοῦν ἑκάστῳ τοῦτο ἀληθές ἐστι. τούτων καὶ ἡ τρίπους ἡ καλουμένη
+              <lb n="36" xml:id="p3-35"/>Ἀπόλλωνος ἦν. τρίπους δὲ Ἀπόλλωνος ἐλέγετο, διότι περὶ παντὸς
+              <lb n="37" xml:id="p3-36"/>πράγματος ἐρωτώμενοι τὴν ἀπόκρισιν ἐποιοῦντο τριπλῆν, λέγοντες ἢ ἀμφότερα
+              <lb n="38" xml:id="p3-37"/>εἶναι ἢ οὐδέτερον ἢ τὸ ἕτερον, οἷον ὡς ἔχει ἐπὶ τῆς ψυχῆς· ἐρωτώμενοι<note type="apparatus" n="38" target="#p3-37">τὸ superscr. M¹ 1*</note>
+            </p>
+            <pb n="4" facs="https://archive.org/download/commentariaina12pt12akaduoft/page/n21.jpg"/>
+            <p>
+              <lb n="1" xml:id="p4-0"/>γάρ, εἰ τύχοι, τί ἐστιν ἡ ψυχή, θνητὴ ἢ ἀθάνατος, ἀποκρίνονται λέγοντες
+              <lb n="2" xml:id="p4-1"/>ὅτι ἢ ἀμφότερα, τοῦτ’ ἔστι θνητὴ καὶ ἀθάνατος, ἢ οὐδέτερον, οὐδὲ θνητὴ
+              <lb n="3" xml:id="p4-2"/>οὐδὲ ἀθάνατος, ἢ τὸ ἕτερον· καὶ τοῦτο διχῶς, ἢ θνητὴ ἢ ἀθάνατος. ταῦτα
+              <lb n="4" xml:id="p4-3"/>τοίνυν ἐκείνων λεγόντων ὁ θεῖος Πλάτων καὶ <milestone type="alt-edition" unit="folio" ed="cod. Mutinensis 69" n="4r"/> Ἀριστοτέλης ἐλέγχοις δυσωποῦσιν
+              <lb n="5" xml:id="p4-4"/>τὴν αἵρεσιν τούτων, ὁ μὲν Πλάτων λέγων οὕτως· ὑμεῖς οἱ πρεσβεύοντες<note type="apparatus" n="5" target="#p4-4">Πλάτων] cf. Philop. p. 2,20</note>
+              <lb n="6" xml:id="p4-5"/>ἀκαταληψίαν ἢ ἐπέγνωτε ὅτι ἔστιν ἀκαταληψία ἢ οὐκ ἔγνωτε· εἰ
+              <lb n="7" xml:id="p4-6"/>μὲν οὖν μὴ ἔγνωτε, πῶς ὑμῖν πιστεύσωμεν ἀπὸ γνάθων ἀποφαινομένοις;<note type="apparatus" n="7" target="#p4-6">ἀποφαινομένοις scripsi: ἀποφαινομένων compend. M</note>
+              <lb n="8" xml:id="p4-7"/>εἰ δὲ ἔγνωτε ὅτι ἀκαταληψία ἔστιν, ἰδοὺ πάλιν ἔστι κατάληψις· κατελάβετε
+              <lb n="9" xml:id="p4-8"/>γὰρ ὅτι ἔστιν ἀκαταληψία. ὁ δὲ Ἀριστοτέλης πρὸς Πρωταγόραν οἰόμενον, ὡς<note type="apparatus" n="9" target="#p4-8">Ἀριστ.] cf. El. p. 110,8</note>
+              <lb n="10" xml:id="p4-9"/>εἴρηται, τὸ δοκοῦν ἑκάστῳ τοῦτο ἀληθὲς εἶναι, ταυτί φησιν· εἴ τε ψεύδεται Πρωταγόρας,
+              <lb n="11" xml:id="p4-10"/>ψεύδεται, εἴ τε ἀληθεύει Πρωταγόρας, ψεύδεται· εἴ 〈τε〉 γὰρ ψεύδεται<note type="apparatus" n="11" target="#p4-10">alt. τε addidi</note>
+              <lb n="12" xml:id="p4-11"/>λέγων Πρωταγόρας ἀκαταληψίαν, ψεύδεται, εἴ τε ἀληθεύει Πρωταγόρας λέγων<note type="apparatus" n="12" target="#p4-11">ponas Πρωτ. λέγων</note>
+              <lb n="13" xml:id="p4-12"/>ὅτι πᾶς ὁστισοῦν πρεσβεύει τι περί τινος ἀληθεύει, δοξάζομεν δὲ ἡμεῖς<note type="apparatus" n="13" target="#p4-12">τινος] ος evan. M</note>
+              <lb n="14" xml:id="p4-13"/>ὅτι ἔστι κατάληψις, οὐκοῦν δῆλον ὅτι ἀληθῶς καὶ ἔστι κατάληψις· εἰ δὲ<note type="apparatus" n="14" target="#p4-13">ἀληθῶς] ὡς evan. M</note>
+              <lb n="15" xml:id="p4-14"/>ἔστι κατάληψις, ψεύδεται Πρωταγόρας. ὁ δὲ Γαληνὸς ἐλέγχει τούτους ἀπὸ<note type="apparatus" n="15" target="#p4-14">Γαληνὸς] cum a Galeno ἐνάργεια saepe laudetur (cf. Zelleri Ph. Gr. IV p. 825), haec verba non inveniuntur; fort. spectat Ol. perditum librum Περὶ ἀποδείξεως (cf. I p. 52 XIX p. 41 Kühn)</note>
+              <lb n="16" xml:id="p4-15"/>τῆς ἐναργείας, λέγων ὅτι ‘εἰ μὴ ἔστι κατάληψις καὶ ἔστι ὡρισμένη ἡ φύσις<note type="apparatus" n="16" target="#p4-15">ἐναργείας scripsi: ἐνεργείας M</note>
+              <lb n="17" xml:id="p4-16"/>τῶν πραγμάτων, τί δήποτε ὕδωρ μὲν ζητοῦντες οὐκ ἐπὶ κάμινον βαδιούμεθα,<note type="apparatus" n="17" target="#p4-16">τίς (sed ς del.) M</note>
+              <lb n="18" xml:id="p4-17"/>τροφὴν δὲ ὁμοίως ζητοῦντες οὐκ ἐπὶ θάλατταν βαδιούμεθα;’ ἀλλ’
+              <lb n="19" xml:id="p4-18"/>ἐπειδὴ ἱκανοὶ ἔλεγχοι εἴρηνται πρὸς αὐτούς, φέρε ζητήσωμεν ἀπὸ ποίας
+              <lb n="20" xml:id="p4-19"/>ἐννοίας ὁρμώμενοι ἐπρέσβευσαν ἀκαταληψίαν εἶναι. φαμὲν τοίνυν ὡς τοιούτων
+              <lb n="21" xml:id="p4-20"/>λόγων κεχρημένοι ἐπρέσβευον ἀκαταληψίαν· ἔλεγον γὰρ ὡς δεῖ τὸ
+              <lb n="22" xml:id="p4-21"/>γιγνῶσκον ἐφαρμόζειν τῷ γιγνωσκομένῳ· ἀλλ’ εἰ μέλλοι, φασίν, ἐφαρμόζειν<note type="apparatus" n="22" target="#p4-21">φησίν M</note>
+              <lb n="23" xml:id="p4-22"/>τὸ γιγνῶσκον τῷ γιγνωσκομένῳ, δεῖ στάσιμον εἶναι καὶ βέβαιον καὶ ἀεὶ
+              <lb n="24" xml:id="p4-23"/>ὡσαύτως ἔχον τὸ γιγνωσκόμενον· εἰ δὲ καὶ κινοῖτο, δεῖ συγκινεῖσθαι καὶ
+              <lb n="25" xml:id="p4-24"/>μεταβαίνειν τὸ γιγνῶσκον μετὰ τοῦ <milestone type="alt-edition" unit="folio" ed="cod. Mutinensis 69" n="4v"/> γιγνωσκομένου. ἀλλὰ μὴν τὰ μὲν
+              <lb n="26" xml:id="p4-25"/>γιγνωσκόμενα, τοῦτ’ ἔστι τὰ πράγματα, ῥευστὰ καὶ μεταβλητὰ καὶ οὐ μόνιμα<note type="apparatus" n="26" target="#p4-25">μόνιμα M</note>
+              <lb n="27" xml:id="p4-26"/>τυγχάνει, ἡ δὲ ψυχὴ ἡ ταῦτα γιγνώσκουσα οὔτε κινεῖται οὔτε συνακολουθεῖ
+              <lb n="28" xml:id="p4-27"/>τούτοις· δῆλον ἄρα ὅτι οὐκ ἔστι κατάληψις. ταύτης μὲν οὖν τῆς ἐννοίας
+              <lb n="29" xml:id="p4-28"/>ἐχόμενοι τοιούτῳ λόγῳ ἐκέχρηντο πρὸς πίστιν τῆς μοχθηρᾶς αὐτῶν αἱρέσεως.
+              <lb n="30" xml:id="p4-29"/>ἔστι δὲ εἰπεῖν πρὸς αὐτοὺς ὡς οὐκ ὀρθὰ πρεσβεύετε μὴ λέγοντες συγκινεῖσθαι<note type="apparatus" n="30" target="#p4-29">πρεσβεύεται M</note>
+              <lb n="31" xml:id="p4-30"/>τοῖς πράγμασι τὴν ψυχήν· ὅτι μὲν γὰρ οὐκ ἔχει στάσιν τὰ γεννητὰ καὶ
+              <lb n="32" xml:id="p4-31"/>φθαρτὰ δῆλον, ὡς καὶ αὐτὴ ἡ φύσις τῶν πραγμάτων μαρτυρεῖ καὶ ἔτι
+              <lb n="33" xml:id="p4-32"/>μέντοι γε τὸ ἀπόφθεγμά τινος ἀρχαίου τὸ λέγον ὅτι ὃν τρόπον ἀδυνατόν<note type="apparatus" n="33" target="#p4-32">τινος ἀρχαίου] cf. Heracliti frg. 41 Byw. 12 et 91 Diels</note><note type="apparatus" n="33" target="#p4-32">ἕτερος] Cratylus; cf. Arist. Metaph. Γ 5 p. 1010 a 14</note>
+              <lb n="34" xml:id="p4-33"/>ἐστιν ἐν τῷ αὐτῷ ποταμῷ δὶς ἐμβῆναι κατὰ τὸν αὐτὸν χρόνον κατὰ τὸ
+              <lb n="35" xml:id="p4-34"/>αὐτὸ ὑποκείμενον (καὶ τί λέγω, φησὶν ἕτερος, [εἶπεν] ὅτι οὐ δυνατὸν δὶς<note type="apparatus" n="35" target="#p4-34">εἶπεν delevi</note>
+              <lb n="36" xml:id="p4-35"/>ἐμβῆναι εἰς τὸ αὐτὸ ὕδωρ, ὅπου γε καὶ οὐδὲ ἅπαξ; ἄλλῳ γὰρ ὕδατι κλύζονται
+            </p>
+            <pb n="5" facs="https://archive.org/download/commentariaina12pt12akaduoft/page/n22.jpg"/>
+            <p>
+              <lb n="1" xml:id="p5-0"/>μέν, εἰ τύχοι, δάκτυλοι ἄλλῳ δὲ πούς), οὕτως οὐδὲ τὰ πράγματα
+              <lb n="2" xml:id="p5-1"/>δυνατὸν στάσιν ἔχειν, ἀλλὰ μεταβάλλεσθαι ἀεί. τὴν δὲ ψυχὴν εὑρίσκομεν
+              <lb n="3" xml:id="p5-2"/>ὅτι μὴ μόνον κατόπιν ἐρχομένην τῶν πραγμάτων ἀλλὰ καὶ τῇ ὀξύτητι τῆς
+              <lb n="4" xml:id="p5-3"/>κινήσεως ἔστιν ὅτε καὶ προλαμβάνουσαν, ὡς δηλοῦσιν αἱ μαντεῖαι καὶ αἱ<note type="apparatus" n="4" target="#p5-3">post ἔστιν additum προγιγν (sic) del. M</note>
+              <lb n="5" xml:id="p5-4"/>προρρήσεις τῶν ἡλιακῶν, εἰ τύχοι, ἐκλείψεων· ταῦτα γὰρ σημεῖά ἐστι προγιγνωσκούσης
+              <lb n="6" xml:id="p5-5"/>ψυχῆς τὰ πράγματα.
+              <lb n="7" xml:id="p5-6"/>Οὕτω μὲν οὖν ἀπὸ τοῦ τρόπου τῆς γνώσεως ὀνομάζονται αἱρέσεις.
+              <lb n="8" xml:id="p5-7"/>ἔστι δὲ ὅτι ἀπὸ τοῦ τέλους <milestone type="alt-edition" unit="folio" ed="cod. Mutinensis 69" n="5r"/> ἐκαλοῦντο αἱ αἱρέσεις, ὡς οἱ καλούμενοι Ἡδονικοί·
+              <lb n="9" xml:id="p5-8"/>οὗτοι γὰρ τέλος τιθέμενοι εἶναι τὴν ἡδονὴν τῆς φιλοσοφίας καὶ πάντων
+              <lb n="10" xml:id="p5-9"/>τῶν ὄντων, ἡδονὴν δὲ οὐ τὴν αἰσχρὰν οὔτε τὴν τοῖς πολλοῖς ἐγνωσμένην,<note type="apparatus" n="10" target="#p5-9">οὔτε] an οὐδὲ?</note>
+              <lb n="11" xml:id="p5-10"/>μετειλήφασι τοῦ ὀνόματος καὶ ἐκαλοῦντο Ἡδονικοί. ἀλλ’ ἰστέον ὅτι
+              <lb n="12" xml:id="p5-11"/>οὐ καλῶς τὴν ἡδονὴν ἐτίθεντο τέλος εἶναι· τέλος γάρ ἐστιν ἡ εὐδαιμονία.
+              <lb n="13" xml:id="p5-12"/>ἡ δὲ εὐδαιμονία τριχῶς θεωρεῖται· καὶ περὶ ψυχήν, ὅτι ἐπανθεῖ ταύτῃ ἡ
+              <lb n="14" xml:id="p5-13"/>ἀλήθεια καὶ ἡ δικαιοσύνη, καὶ περὶ σῶμα, ὅτι εὐεξίας μετέχει πρὸς τὸ
+              <lb n="15" xml:id="p5-14"/>ταῖς ψυχικαῖς ὑπουργεῖν ἀρεταῖς, καὶ πρὸς τὰ ἐκτός, ὅτι * * τις εὐδαίμων<note type="apparatus" n="15" target="#p5-14">post ὅτι lac. signavi; conicias ὅτι 〈τούτων μὴ παρόντων οὐ〉 τις</note>
+              <lb n="16" xml:id="p5-15"/>καθέστηκεν. ἡμεῖς δὲ τὴν ἡδονὴν οὐ τέλος φαμὲν ἀλλὰ τῷ τέλει ἑπομένην,
+              <lb n="17" xml:id="p5-16"/>ὥσπερ τὴν σκιὰν λέγομεν ἕπεσθαι τοῖς φωτιζομένοις σώμασιν, ὁπόταν
+              <lb n="18" xml:id="p5-17"/>μὴ κατὰ κορυφῆς ᾖ ὁ ἥλιος. ἀπὸ δὲ συμβεβηκότος φαμὲν ὀνομάζεσθαι
+              <lb n="19" xml:id="p5-18"/>τὰς αἱρέσεις, ὡς Περιπατητικούς φαμεν. Περιπατητικοὶ δὲ ὠνομάσθησαν
+              <lb n="20" xml:id="p5-19"/>ἀπό τινος αἰτίας τοιοῦτον ἐχούσης τὸν τρόπον· ὁ θεῖος Πλάτων οἰόμενος<note type="apparatus" n="20" target="#p5-19">οἰόμενος] an βουλόμενος?</note>
+              <lb n="21" xml:id="p5-20"/>ἔχειν τὸ σῶμα ὑγιὲς καὶ ἀνεμπόδιστον πρὸς τὰς τῆς ψυχῆς ἐνεργείας, κινούμενος
+              <lb n="22" xml:id="p5-21"/>τὴν πρὸς τοὺς ἑταίρους ἐποιεῖτο συνουσίαν. τελευτήσαντος δὲ τούτου<note type="apparatus" n="22" target="#p5-21">ἑταίρους scripsi: ἑτέρους M</note>
+              <lb n="23" xml:id="p5-22"/>διεδέξαντο τὴν διατριβὴν αὐτοῦ Ξενοκράτης καὶ Ἀριστοτέλης, [καὶ] οἱ τούτου<note type="apparatus" n="23" target="#p5-22">καὶ delevi</note>
+              <lb n="24" xml:id="p5-23"/>μαθηταί. καὶ ὁ μὲν Ξενοκράτης ἐπαίδευεν ἐν Ἀκαδημίᾳ καὶ ἐλέγετο
+              <lb n="25" xml:id="p5-24"/>μετὰ τῶν σὺν αὐτῷ Ἀκαδημαϊκὸς Περιπατητικός, ὁ δὲ Ἀριστοτέλης ἐν τῷ
+              <lb n="26" xml:id="p5-25"/>Λυκείῳ καὶ ἐλέγετο μετὰ τῶν σὺν αὐτῷ Λύκειος Περιπατητικός. ὕστερον<note type="apparatus" n="26" target="#p5-25">λυκίω et λύκιος M</note>
+              <lb n="27" xml:id="p5-26"/>τοῖς μὲν Ξενοκράτους ἔλειψεν ἡ ἐνέργεια καὶ ἐκλήθησαν μόνως Ἀκαδημαϊκοί,
+              <lb n="28" xml:id="p5-27"/>τοῖς δὲ Ἀριστοτέλους ὁ τόπος καὶ ἐκλήθησαν <milestone type="alt-edition" unit="folio" ed="cod. Mutinensis 69" n="5v"/> μόνως Περιπατητικοί. καὶ
+              <lb n="29" xml:id="p5-28"/>εἰκότως οὐκ ἔλειψεν ἡ ἐνέργεια τούτοις· ἔπρεπεν γὰρ Ἀριστοτέλει τῶν δογμάτων
+              <lb n="30" xml:id="p5-29"/>τοῦ διδασκάλου ἀνάπλεῳ ὄντι καὶ τῆς προσηγορίας αὐτοῦ τυχεῖν.
+              <lb n="31" xml:id="p5-30"/>καὶ ἐν τούτοις πληροῦται καὶ ἡ ἐπωνυμία τῶν φιλοσόφων αἱρέσεων ἑπταχῶς
+              <lb n="32" xml:id="p5-31"/>ληφθεῖσα. καὶ ἵνα δείξωμεν ὅτι οὐδὲ πλέον οὐδὲ ἔλαττον δύναται εἶναι ἡ
+              <lb n="33" xml:id="p5-32"/>ἐπωνυμία τῶν φιλοσόφων αἱρέσεων, προέλθωμεν ἐκ διαιρέσεως οὕτως· ἡ
+              <lb n="34" xml:id="p5-33"/>ἐπωνυμία τῶν φιλοσόφων αἱρέσεων λαμβάνεται ἢ ἀπὸ συμβεβηκότος ἢ ἀπὸ
+              <lb n="35" xml:id="p5-34"/>διανοίας. ἀπὸ συμβεβηκότος, ὥσπερ οἱ Περιπατητικοί, ἀπὸ δὲ διανοίας
+              <lb n="36" xml:id="p5-35"/>ἢ ἀπὸ προσώπου ἢ ἀπὸ πραγμάτων. καὶ ἀπὸ προσώπου ἢ ἀπὸ ὀνομάτων,<note type="apparatus" n="36-39" target="#p5-35 #p5-36 #p5-37 #p5-38">πραγμάτων scripsi: πάντων M</note>
+              <lb n="37" xml:id="p5-36"/>ὥσπερ λέγονται Πυθαγόρειοι, ἢ ἀπὸ τοῦ τόπου ἔνθα ἐπαίδευον, ὥσπερ οἱ
+              <lb n="38" xml:id="p5-37"/>Στωικοί, ἢ ὅθεν προῆλθον, ὥσπερ οἱ Κυρηναϊκοὶ καὶ Ἐρετριακοί. ἀπὸ δὲ<note type="apparatus" n="38" target="#p5-37">στοϊκοί M</note>
+              <lb n="39" xml:id="p5-38"/>πραγμάτων ἢ ἀπὸ τοῦ τρόπου τῆς ζωῆς, ὥσπερ οἱ Κυνικοί, ἢ ἀπὸ τοῦ
+            </p>
+            <pb n="6" facs="https://archive.org/download/commentariaina12pt12akaduoft/page/n23.jpg"/>
+            <p>
+              <lb n="1" xml:id="p6-0"/>τρόπου τῆς γνώσεως, ὥσπερ οἱ Ἐφεκτικοί, ἢ ἀπὸ τοῦ τέλους, ὥσπερ οἱ
+              <lb n="2" xml:id="p6-1"/>Ἡδονικοί. καὶ αὕτη ἐστὶν ἡ διαίρεσις ἡ δεικνύουσα ὅτι εἰκότως ἑπτά εἰσιν
+              <lb n="3" xml:id="p6-2"/>αἱ ἐπωνυμίαι τῶν φιλοσόφων αἱρέσεων. διὸ καὶ ἡμεῖς τοῦ συμμέτρου
+              <lb n="4" xml:id="p6-3"/>στοχαζόμενοι ἐπ’ αὐτῇ καταπαύσωμεν τὴν παροῦσαν θεωρίαν.
+            </p>
+          </div>
+        </div>
+        <div type="textpart" subtype="chapter" n="3">
+          <head><lb n="5" xml:id="p6-4"/>〈Θεωρία βʹ.〉<note type="apparatus" n="5" target="#p6-4">titulum inserui (cf. p. 1,2)</note></head>
+          <div type="textpart" subtype="section" n="0">
+            <p>
+              <lb n="6" xml:id="p6-5"/>Τῇ ἀπαριθμήσει τῶν προκατακληθέντων δέκα κεφαλαίων διανύσαντες<note type="apparatus" n="6" target="#p6-5">τῶν τῇ ἀπαρ. προκατάχλ. collocare malim</note>
+              <lb n="7" xml:id="p6-6"/>τὸ πρῶτον κεφάλαιον, ἐν ᾧ μεμαθήκαμεν πόθεν τὰ ὀνόματα τῶν αἱρέσεων
+              <lb n="8" xml:id="p6-7"/>λαμβάνεται, ὅτι ἑπταχῶς, φέρε καὶ <milestone type="alt-edition" unit="folio" ed="cod. Mutinensis 69" n="6r"/> ἐπὶ τὸ δεύτερον κεφάλαιον ὁδεύσωμεν,
+              <lb n="9" xml:id="p6-8"/>ἐπὶ τὴν διαίρεσιν τῶν Ἀριστοτέλους συγγραμμάτων φημί. τῶν τοίνυν συγγραμμάτων
+              <lb n="10" xml:id="p6-9"/>Ἀριστοτέλους τὰ μέν ἐστι μερικὰ τὰ δὲ καθόλου τὰ δὲ μεταξύ
+              <lb n="11" xml:id="p6-10"/>τῶν καθόλου καὶ τῶν κατὰ μέρος. καὶ ἔστι μερικὰ μὲν ὅσα πρός τινας
+              <lb n="12" xml:id="p6-11"/>ἰδίᾳ γέγραπται, οἷαί εἰσιν αἱ ἐπιστολαί, ἅστινας Ἀνδρόνικός τε καὶ Ἀρτέμων
+              <lb n="13" xml:id="p6-12"/>συνήγαγον. καθόλου δέ ἐστι συγγράμματα ἐν οἷς τὴν τῶν πραγμάτων φύσιν
+              <lb n="14" xml:id="p6-13"/>ζητεῖ. μεταξὺ δὲ οἷαί εἰσιν αἱ ἱστορίαι, οἵα ἐστὶν ἡ Περὶ ζῴων ἱστορία
+              <lb n="15" xml:id="p6-14"/>καὶ αἱ Πολιτεῖαι σνʹ οὖσαι τὸν ἀριθμόν, ἐν αἷς τὸν βίον Ἀθηναίων καὶ
+              <lb n="16" xml:id="p6-15"/>ἄλλων τινῶν διηγεῖται. καὶ μὴ λεγέτω τις πρὸς ἡμᾶς ἀπορῶν τί δήποτε
+              <lb n="17" xml:id="p6-16"/>γέγραπται τῷ φιλοσόφῳ τοιαῦτα συγγράμματα· ἐρῶ γὰρ πρὸς αὐτὸν ὅτι καὶ
+              <lb n="18" xml:id="p6-17"/>τοῦτο τῆς ἐκείνου φιλανθρωπίας σημεῖον καθέστηκεν· τὰς γὰρ πολιτείας τῶν
+              <lb n="19" xml:id="p6-18"/>προτέρων ἐξέθετο, ἵνα τῶν μεταγενεστέρων τινὲς ἐντυγχάνοντες καὶ κρίνοντες
+              <lb n="20" xml:id="p6-19"/>ἐν τίσι μὲν χρηστῶς ἐπολιτεύσαντο ἐν τίσι δὲ οὐ χρηστῶς, τὰ μὲν ἕλωνται
+              <lb n="21" xml:id="p6-20"/>τὰ δὲ φύγωσιν. ἀλλὰ τοῖς μεταξὺ καὶ τοῖς μερικοῖς χαίρειν εἰρηκότες,<note type="apparatus" n="21" target="#p6-20">φύγοσιν M</note>
+              <lb n="22" xml:id="p6-21"/>τραπώμεθα ἐπὶ τὰ καθόλου, τούτων τὴν διαίρεσιν πολυπραγμονοῦντες. τούτων
+              <lb n="23" xml:id="p6-22"/>τοίνυν τῶν καθόλου τὰ μέν ἐστι ὑπομνηματικὰ τὰ δὲ συνταγματικά.
+              <lb n="24" xml:id="p6-23"/>ὑπομνηματικὰ μέν ἐστι ὅσα κεφαλαιωδῶς καὶ μόνα εἰσὶν ἀπογεγραμμένα,<note type="apparatus" n="24" target="#p6-23">ὑπομνητικὰ M¹ καὶ μόνα] an κατὰ μόνας? (πρὸς οἰκείαν ὑπόμνησιν Philop. p. 3,28. 29 Simpl. f. 1v ed. Bat.)</note>
+              <lb n="25" xml:id="p6-24"/>ἀκαλλώπιστον δὲ τὴν φράσιν ἐκτήσαντο· ἰστέον γὰρ ὅτι οἱ παλαιοὶ συγγράψασθαί<note type="apparatus" n="25" target="#p6-24">παλλαιοὶ M</note>
+              <lb n="26" xml:id="p6-25"/>τι <milestone type="alt-edition" unit="folio" ed="cod. Mutinensis 69" n="6v"/> βουλόμενοι, ὅσα πρὸς ἀπόδειξιν ηὕρισκον τοῦ προκειμένου συγγράμματος
+              <lb n="27" xml:id="p6-26"/>συμβαλλόμενα, κεφαλαιωδῶς ἀπεγράφοντο. οὐ μὴν ἀλλὰ καὶ
+              <lb n="28" xml:id="p6-27"/>τοῖς τῶν παλαιοτέρων βιβλίοις ἐντυγχάνοντες πολλὰ τῶν νοημάτων ἐκεῖθεν<note type="apparatus" n="28" target="#p6-27">παλαιοτέρων in mrg.; παλαιῶν in contextu M (ἀρχαιοτέρων Amm. p. 4,8)</note>
+              <lb n="29" xml:id="p6-28"/>ἀφῃροῦντο, ὥστε τὰ μὲν ἀληθῆ κρατύνειν ἐξελέγχειν δὲ τὰ ψευδῆ. καὶ
+              <lb n="30" xml:id="p6-29"/>ἡ μὲν τῶν ὑπομνηματικῶν φύσις τοῦτον ἔχει τὸν τρόπον. συνταγματικὰ
+              <lb n="31" xml:id="p6-30"/>δὲ καλοῦμεν ὅσα μετὰ τῶν νοημάτων καὶ λέξιν ἔχει κεκοσμημένην καὶ
+              <lb n="32" xml:id="p6-31"/>φράσιν κεκαλλωπισμένην πρέπουσαν τοῖς συγγράμμασιν, ὥστε τούτῳ διαφέρει<note type="apparatus" n="32" target="#p6-31">τούτῳ ex τοῦτο corr. M</note>
+              <lb n="33" xml:id="p6-32"/>τὰ ὑπομνηματικὰ τῶν συνταγματικῶν τῷ τὰ μὲν ἀκαλλώπιστον τὴν φράσιν
+              <lb n="34" xml:id="p6-33"/>ἔχειν τὰ δὲ μετὰ τῶν ἐνθυμημάτων τῶν δεόντων κεκαλλωπισμένην τὴν
+              <lb n="35" xml:id="p6-34"/>φράσιν ἔχειν.
+            </p>
+            <pb n="7" facs="https://archive.org/download/commentariaina12pt12akaduoft/page/n24.jpg"/>
+            <p>
+              <lb n="1" xml:id="p7-0"/>Τούτων τοίνυν τῶν ὑπομνηματικῶν τὰ μέν ἐστι μονοειδῆ τὰ δὲ ποικίλα·
+              <lb n="2" xml:id="p7-1"/>μονοειδῆ μὲν ὅσα πρὸς ἓν πεποίηται πρόσωπον, ποικίλα δὲ ὅσα πρὸς πλείονα
+              <lb n="3" xml:id="p7-2"/>ἀποτείνεται πρόσωπα. τῶν δὲ συνταγματικῶν τὰ μέν ἐστιν αὐτοπρόσωπα
+              <lb n="4" xml:id="p7-3"/>τὰ δὲ διαλογικά. καὶ αὐτοπρόσωπα μὲν ὅσα ἀπὸ τοῦ ἰδίου προσώπου
+              <lb n="5" xml:id="p7-4"/>προήνεγκεν, διαλογικὰ δὲ ὅσα δραματιωδῶς ἐστι κατεσκευασμένα κατὰ
+              <lb n="6" xml:id="p7-5"/>πεῦσίν τε καὶ ἀπόκρισιν πλειόνων προσώπων. ἀλλ’ ἐπειδὴ τὰ διαλογικὰ
+              <lb n="7" xml:id="p7-6"/>καὶ ἐξωτερικὰ ὀνομάζεται τὰ δὲ αὐτοπρόσωπα καὶ ἀκροαματικά, φέρε εὐλόγως<note type="apparatus" n="7" target="#p7-6">εὐλόγως suppl. in mrg. M</note>
+              <lb n="8" xml:id="p7-7"/>ζητήσωμεν πόθεν τὴν τοιαύτην προσηγορίαν ἐκτήσαντο. τινὲς μὲν οὖν λέγουσιν
+              <lb n="9" xml:id="p7-8"/>ὅτι τὰ διαλογικὰ καὶ ἐξωτερικὰ <milestone type="alt-edition" unit="folio" ed="cod. Mutinensis 69" n="7r"/> ὠνομάσθη, διότι τὰ μὴ πρέποντα τῷ<note type="apparatus" n="9" target="#p7-8">ὠνομάσθη M</note>
+              <lb n="10" xml:id="p7-9"/>ἑαυτοῦ σκοπῷ ἐν τούτοις ἐκτίθεται. οὕτως ἔλεγε καὶ ὁ Ἀλέξανδρος διὰ
+              <lb n="11" xml:id="p7-10"/>τὸ μὴ βούλεσθαι αὐτὸν λέγειν τὴν ψυχὴν ἀθάνατον, καὶ ταῦτα Ἀριστοτέλους<note type="apparatus" n="11-12" target="#p7-10 #p7-11">ταῦτα ἀριστοτέλους ἐκ. βοῶντος scripsi: ταύτην ἀριστοτέλη (?) ἐκ. βοῶντα M</note>
+              <lb n="12" xml:id="p7-11"/>ἐκεῖσε βοῶντος τὴν ἀθανασίαν τῆς ψυχῆς. ὡς οὖν εἴρηται, ἵνα μὴ ἀναγκασθῇ
+              <lb n="13" xml:id="p7-12"/>Ἀλέξανδρος λέγειν τὴν ψυχὴν ἀθάνατον, πρεσβεύων αὐτὴν εἶναι θνητήν, ἐξωτερικὰ
+              <lb n="14" xml:id="p7-13"/>ἐκεῖνα ἔλεγεν ὀνομάζεσθαι, ἐν οἷς μὴ τὰ δοκοῦντα αὐτῷ λέγει ὁ
+              <lb n="15" xml:id="p7-14"/>Ἀριστοτέλης. καὶ ταῦτα μὲν ἐκεῖνοι. ἡμεῖς δὲ ἐλέγομεν ὅτι ἐξωτερικὰ<note type="apparatus" n="15" target="#p7-14">ἐλέγομεν] λέγομεν Littig (haud recte; cf. El. p. VII )</note>
+              <lb n="16" xml:id="p7-15"/>ταῦτα ὠνόμασται, ὅσα πρὸς τοὺς ἐπιπολαίως γέγραπται καὶ μὴ γνησίως<note type="apparatus" n="16" target="#p7-15">ὠνόμασται Amm. (p. 4,23): γέγραπται M</note>
+              <lb n="17" xml:id="p7-16"/>φιλοσοφοῦντας. τοιαῦτα δέ ἐστι τὰ ἔχοντα σαφεστέραν τὴν φράσιν,<note type="apparatus" n="17" target="#p7-16">φιλοσοφοῦντας scripsi: φιλοσοφοῦσι M</note>
+              <lb n="18" xml:id="p7-17"/>τὰ μὴ ἀποδεικτικῇ ἐπιστήμῃ ὑποβαλλόμενα, ἀλλὰ μᾶλλον πιθανοῖς λόγοις<note type="apparatus" n="18" target="#p7-17">πειθανοῖς M</note>
+              <lb n="19" xml:id="p7-18"/>κεκαλλωπισμένα, καὶ πρὸς ἐπὶ τούτοις τὴν ἀνάτασιν ἔχοντα πρὸς ἔνδοξα<note type="apparatus" n="19" target="#p7-18">ἔχοντα scripsi: ἔχοντες M</note>
+              <lb n="20" xml:id="p7-19"/>πρόσωπα. καὶ ταῦτα μὲν ἱκανὰ περὶ τῆς κλήσεως τῶν διαλογικῶν, διὰ
+              <lb n="21" xml:id="p7-20"/>τί ἐξωτερικὰ καλοῦνται. τὰ δὲ αὐτοπρόσωπα καλοῦνται καὶ ἀκροαματικά.
+              <lb n="22" xml:id="p7-21"/>τοιούτῳ δὲ ὀνόματι προσηγορεύθησαν, διότι μόνοις τοῖς ἐρασταῖς φιλοσόφοις<note type="apparatus" n="22" target="#p7-21">τοιούτῳ δὲ ὀνόματι Littig: τοιούτου δὲ ὀνόματος M μόνοις τοῖς Littig: τοῖς μόνοις M</note><note type="apparatus" n="22" target="#p7-21">an φιλοσοφίας?</note>
+              <lb n="23" xml:id="p7-22"/>καὶ πολλοὺς κατορθώσασιν λόγους πεποίηνται πρὸς ἀκρόασιν.
+              <lb n="24" xml:id="p7-23"/>Τούτων τῶν αὐτοπροσώπων τὰ μὲν συμβάλλονται πρὸς αἵρεσιν καὶ
+              <lb n="25" xml:id="p7-24"/>φυγήν, τοῦ μὲν ἀγαθοῦ αἵρεσιν τοῦ δὲ κακοῦ φυγήν, καὶ ποιοῦσιν τὰ πρακτικά,
+              <lb n="26" xml:id="p7-25"/>τὰ δὲ πρὸς ἀληθείας γνῶσιν καὶ ποιοῦσι <milestone type="alt-edition" unit="folio" ed="cod. Mutinensis 69" n="7v"/> τὰ θεωρητικά, τὰ δὲ πρὸς<note type="apparatus" n="26" target="#p7-25">ἀληθείας scripsi: ἀλήθειαν M</note>
+              <lb n="27" xml:id="p7-26"/>ἀμφότερα ταῦτα, πρὸς διάκρισιν ἀληθείας καὶ ψεύδους φημὶ καὶ ἀγαθοῦ
+              <lb n="28" xml:id="p7-27"/>καὶ κακοῦ, καὶ ποιοῦσι πάντα τὰ συγγράμματα τὰ λογικά. ἀπό τε οὖν τῶν<note type="apparatus" n="28" target="#p7-27">ἀπό τε] an ἐπὶ μὲν?</note>
+              <lb n="29" xml:id="p7-28"/>θεωρητικῶν τε καὶ τῶν πρακτικῶν τῇ διαιρέσει τῆς φιλοσοφίας κεχρήμεθα,
+              <lb n="30" xml:id="p7-29"/>λέγοντες ὅτι τῶν θεωρητικῶν τὰ μέν ἐστι φυσικὰ τὰ δὲ θεολογικὰ τὰ δὲ
+              <lb n="31" xml:id="p7-30"/>μαθηματικά. φυσικὰ μὲν οἷα ἐστὶν ἡ Φυσικὴ ἀκρόασις καὶ ἡ Περὶ γενέσεως
+              <lb n="32" xml:id="p7-31"/>καὶ φθορᾶς καὶ ἡ Περὶ οὐρανοῦ καὶ τὰ Μετέωρα καὶ ἡ Περὶ ψυχῆς
+              <lb n="33" xml:id="p7-32"/>ἡ καλουμένη. μαθηματικὰ δὲ οἷα τὰ Μηχανικὰ καὶ Ὀπτικὰ προβλήματα.<note type="apparatus" n="33" target="#p7-32">μαθητικὰ M (fere constanter) οἷον M (corr. Littig)</note>
+              <lb n="34" xml:id="p7-33"/>θεολογικὰ δὲ οἷά ἐστὶν ἡ Μετὰ τὰ φυσικά. τῶν δὲ πρακτικῶν τὰ μέν
+              <lb n="35" xml:id="p7-34"/>ἐστιν ἠθικὰ τὰ δὲ οἰκονομικὰ τὰ δὲ πολιτικά. ἠθικὰ μὲν ὡς τὰ Εὐδήμεια<note type="apparatus" n="35-36" target="#p7-34 #p7-35">εὐδημια et νικομάχια M</note>
+              <lb n="36" xml:id="p7-35"/>καὶ τὰ Νικομάχεια τὰ καλούμενα, οἰκονομικὰ δὲ ὥσπερ ὁ Οἰκονομικὸς αὐτοῦ
+            </p>
+            <pb n="8" facs="https://archive.org/download/commentariaina12pt12akaduoft/page/n25.jpg"/>
+            <p>
+              <lb n="1" xml:id="p8-0"/>(γέγραπται γὰρ αὐτῷ Οἰκονομικός), πολιτικὰ δὲ ὥσπερ ὁ Πολιτικὸς αὐτοῦ
+              <lb n="2" xml:id="p8-1"/>ἕτερος ὢν παρὰ τὰς σνʹ πολιτείας τὰς εἰρημένας· ἐκεῖναι γὰρ οὔκ εἰσιν<note type="apparatus" n="2" target="#p8-1">εἰρημένας] p. 6,15</note>
+              <lb n="3" xml:id="p8-2"/>καθόλου. καὶ ἡ μὲν τῶν θεωρητικῶν καὶ πρακτικῶν διαίρεσις τοῦτον
+              <lb n="4" xml:id="p8-3"/>ἔχει τὸν τρόπον. τῶν δὲ λογικῶν συγγραμμάτων τὰ μὲν αὐτὴν τὴν μέθοδον<note type="apparatus" n="4" target="#p8-3">ἔχει τὸν scripsi: ἔχειν M</note>
+              <lb n="5" xml:id="p8-4"/>διδάσκει τὰ δὲ τὰ συμβαλλόμενα πρὸς τὴν μέθοδον τὰ δὲ 〈τὰ〉 καθαίροντα<note type="apparatus" n="5" target="#p8-4">τὰ inserui</note>
+              <lb n="6" xml:id="p8-5"/>τὴν μέθοδον. καὶ ἔστιν αὐτὴ μὲν ἡ μέθοδος ἡ καλουμένη Ἀποδεικτική, τὰ
+              <lb n="7" xml:id="p8-6"/>Ὕστερα καλούμενα ἀναλυτικά, συμβαλλόμενα δὲ πρὸς τὴν μέθοδον αἱ<milestone type="alt-edition" unit="folio" ed="cod. Mutinensis 69" n="8r"/>
+              <lb n="8" xml:id="p8-7"/>Κατηγορίαι, τὸ Περὶ ἑρμηνείας καὶ τὰ Πρότερα ἀναλυτικά. ἐκκαθαίρουσι
+              <lb n="9" xml:id="p8-8"/>δὲ τὴν μέθοδον οἱ Σοφιστικοὶ ἔλεγχοι καὶ οἱ Τόποι καὶ αἱ Ῥητορικαὶ τέχναι
+              <lb n="10" xml:id="p8-9"/>καὶ τὸ Περὶ ποιητικῆς τὸ καλούμενον.
+              <lb n="11" xml:id="p8-10"/>Ἀλλ’ εἰ βούλεσθε, καὶ τὴν τάξιν μάθωμεν τῶν συμβαλλομένων εἰς
+              <lb n="12" xml:id="p8-11"/>τὴν ἀρχὴν τῆς μεθόδου. ἰστέον τοίνυν ὅτι σκοπὸν ἔχομεν ἐν τῇ λογικῇ
+              <lb n="13" xml:id="p8-12"/>τὰς ἀποδείξεις μαθεῖν. διὰ συλλογισμῶν δὲ ταύτας μανθάνομεν. ὁ δὲ
+              <lb n="14" xml:id="p8-13"/>συλλογισμὸς αὐτός, ὡς καὶ τὸ ὄνομα δηλοῖ, συλλογή τίς ἐστι λόγων. [ἃ]<note type="apparatus" n="14" target="#p8-13">λόγων Amm. (p. 5,11): λόγου M ἃ delevi</note>
+              <lb n="15" xml:id="p8-14"/>δεῖ οὖν πρὸ τῆς συλλογῆς μαθεῖν τὰ ἁπλᾶ, τοῦτ’ ἔστι τὰς προτάσεις, πρὸ
+              <lb n="16" xml:id="p8-15"/>δὲ τῶν προτάσεων τὰ ὀνόματα καὶ τὰ ῥήματα, ἐξ ὧν αἱ προτάσεις ἵστανται.<note type="apparatus" n="16" target="#p8-15">an συνίστανται?</note>
+              <lb n="17" xml:id="p8-16"/>μανθάνομεν οὖν ἐκ μὲν τῶν Κατηγοριῶν τὰ ὀνόματα καὶ τὰ ῥήματα, ἐκ
+              <lb n="18" xml:id="p8-17"/>δὲ τοῦ Περὶ ἑρμηνείας τὰς προτάσεις, ἐν δὲ τοῖς Ἀναλυτικοῖς τέλειον εἰσόμεθα
+              <lb n="19" xml:id="p8-18"/>τὸν συλλογισμόν. ἐζήτησαν δέ τινες πρὸς τί συμβάλλονται οἱ Σοφιστικοὶ
+              <lb n="20" xml:id="p8-19"/>ἔλεγχοι καὶ οἱ Τόποι καὶ αἱ Ῥητορικαὶ τέχναι καὶ τὸ Περὶ ποιητικῆς,
+              <lb n="21" xml:id="p8-20"/>καὶ διὰ τί ταῦτα ἐξέθετο ὁ φιλόσοφος. πρὸς οὕς φαμεν ὅτι καθάπερ
+              <lb n="22" xml:id="p8-21"/>οἱ τῶν Ἀσκληπιαδῶν παῖδες οὐ μόνον τὴν τῶν ὑγιεινῶν ἀλλὰ καὶ τὴν τῶν
+              <lb n="23" xml:id="p8-22"/>νοσερῶν παιδεύονται γνῶσιν ὑπὲρ τοῦ τὰ μὲν ἑλεῖν τὰ δὲ φυγεῖν, οὕτω
+              <lb n="24" xml:id="p8-23"/>καὶ ὁ φιλόσοφος γιγνώσκων ὅτι πεφύκασί τινες σοφιστικοὶ συλλογισμοὶ <milestone type="alt-edition" unit="folio" ed="cod. Mutinensis 69" n="8v"/><note type="apparatus" n="24" target="#p8-23">ὁ φιλόσοφος scripsi: οἱ φιλόσοφοι M</note>
+              <lb n="25" xml:id="p8-24"/>πειρώμενοι τὴν ἀλήθειαν περιτρέπειν καὶ ταύτην ἀφανίσαι, δεῖν ᾠήθη τούτους
+              <lb n="26" xml:id="p8-25"/>περιθέσθαι, οὐχ ἵνα χρησώμεθα τούτοις, ἀλλ’ ἵνα γιγνώσκοντες μὴ<note type="apparatus" n="26" target="#p8-25">an προθέσθαι?</note>
+              <lb n="27" xml:id="p8-26"/>περιπέσωμεν τοῖς αὐτοῖς. καὶ ἐν τούτοις καὶ τὸ δεύτερον κεφάλαιόν ἐστιν,
+              <lb n="28" xml:id="p8-27"/>ἐν ᾧ τὴν τῶν Ἀριστοτελικῶν συγγραμμάτων διαίρεσιν μεμαθήκαμεν.<note type="apparatus" n="28" target="#p8-27">τὴν suppl. in mrg. M</note>
+              <lb n="29" xml:id="p8-28"/>Τρίτον ἦν τῶν ζητουμένων, πόθεν ἀρκτέον τῶν Ἀριστοτελικῶν συγγραμμάτων.
+              <lb n="30" xml:id="p8-29"/>καὶ περὶ τούτου τέσσαρες δόξαι γεγόνασιν· καὶ οἱ μὲν τῆς πρώτης
+              <lb n="31" xml:id="p8-30"/>δόξης φασὶν ὅτι τῆς ἠθικῆς δεῖ ἄρξασθαι, οἱ δὲ τῆς δευτέρας τῆς φυσιολογικῆς,
+              <lb n="32" xml:id="p8-31"/>οἱ δὲ τῆς μαθηματικῆς, οἱ δὲ τῆς λογικῆς. καὶ οἱ μὲν τῆς ἠθικῆς
+              <lb n="33" xml:id="p8-32"/>λέγουσιν ὅτι δεῖ πρῶτον κατακοσμῆσαι τὰ ἑαυτῶν ἤθη καὶ οὕτως ἄρξασθαι
+              <lb n="34" xml:id="p8-33"/>καὶ ἑτέρων μαθημάτων· ὥσπερ γὰρ οἱ τὰ σκοτεινὰ ὄμματα ἔχοντες οὐ
+              <lb n="35" xml:id="p8-34"/>δύνανται πρὸς τὸν ἥλιον ἀποβλέψαι, οὕτως οὐδέ τις βαρυνόμενος πάθεσι
+              <lb n="36" xml:id="p8-35"/>ψυχῆς δύναται τούτων ἅψασθαι. καὶ ταῦτά ἐστι τὰ λεγόμενα ὑπὸ τῶν
+              <lb n="37" xml:id="p8-36"/>πρεσβευόντων δέον εἶναι προηγήσασθαι τὸ ἠθικὸν τῶν ἄλλων. οἱ δὲ τὴν<note type="apparatus" n="37" target="#p8-36">δέον scripsi: δεῖν M</note>
+              <lb n="38" xml:id="p8-37"/>φυσιολογικὴν λέγοντες προηγήσασθαί φασιν ὅτι δεῖ ἀπὸ τῶν φυσικῶν ἄρξασθαι,
+              <lb n="39" xml:id="p8-38"/>ἐπειδὴ ταῦτα σύντροφα ἡμῖν ἐστι καὶ συνήθη. οἱ δὲ λέγοντες τὴν
+              <lb n="40" xml:id="p8-39"/>μαθηματικὴν ἔφασαν διὰ τοῦτο δεῖν προηγήσασθαι τὰ μαθήματα διὰ τὸ
+            </p>
+            <pb n="9" facs="https://archive.org/download/commentariaina12pt12akaduoft/page/n26.jpg"/>
+            <p>
+              <lb n="1" xml:id="p9-0"/>ἐπιγεγράφθαι ἐν τῷ τοῦ Πλάτωνος μουσείῳ ‘ἀγεωμέτρητος μηδεὶς εἰσίτω’.<note type="apparatus" n="1" target="#p9-0">Πλάτωνος] cf. El. p. 118,18 ἀγεωμ. Μ εἰσιέτω Μ</note>
+              <lb n="2" xml:id="p9-1"/>ἕτεροι δὲ λέγουσιν ὅτι τὴν λογικὴν δεῖ προηγήσασθαι διὰ τὸ πάσας τὰς<milestone type="alt-edition" unit="folio" ed="cod. Mutinensis 69" n="9r"/>
+              <lb n="3" xml:id="p9-2"/>προειρημένας δεῖσθαι ταύτης, εἴ γε συλλογιστικῶς καὶ ἀποδεικτικῶς ἐν
+              <lb n="4" xml:id="p9-3"/>ἐκείνοις δείκνυται τὰ δεικνύμενα, ἡ δὲ λογική, ὡς εἴρηται, περὶ ταῦτα καταγίνεται.<note type="apparatus" n="4" target="#p9-3">an ἐκείναις? εἴρηται] p. 8,12</note>
+              <lb n="5" xml:id="p9-4"/>ταῦτα δὲ ἡμεῖς τιθέμεθα λέγοντες· ὅσον μὲν ἐπὶ τῇ τάξει τῶν
+              <lb n="6" xml:id="p9-5"/>πραγμάτων δεῖ προηγήσασθαι τὴν ἠθικὴν τῶν λοιπῶν διὰ τὸ ῥυθμίζεσθαι
+              <lb n="7" xml:id="p9-6"/>ἡμᾶς διὰ ταύτης καὶ κοσμεῖσθαι τὰ ἤθη. ἐπειδὴ δὲ οὐ δίκην ἀλόγων
+              <lb n="8" xml:id="p9-7"/>ζῴων καὶ ἰδιωτικῷ τρόπῳ κοσμοῦμεν καὶ καλλύνομεν τὰ ἤθη ἡμῶν, ἀλλὰ
+              <lb n="9" xml:id="p9-8"/>διὰ συλλογιστικῆς ἀγωγῆς καὶ ἀποδεικτικῆς μεθόδου, δίκαιον τὴν λογικὴν
+              <lb n="10" xml:id="p9-9"/>προηγήσασθαι τῆς τε ἠθικῆς 〈καὶ τῆς φυσικῆς〉 καὶ τῆς μαθηματικῆς καὶ τῆς<note type="apparatus" n="10" target="#p9-9">καὶ τῆς φυσικῆς inserui</note>
+              <lb n="11" xml:id="p9-10"/>θεολογικῆς. ἐν δὲ αὐταῖς ταύταις ταῖς τρισὶ δέον ἐστὶ προηγεῖσθαι τὴν<note type="apparatus" n="11" target="#p9-10">δέον scripsi: δεῖν Μ (cf. Philop. Ind. p. 213)</note>
+              <lb n="12" xml:id="p9-11"/>φυσικὴν τῆς μαθηματικῆς καὶ τὴν μαθηματικὴν τῆς θεολογικῆς. ἐν τούτοις
+              <lb n="13" xml:id="p9-12"/>συμπεραίνεται ἡμῖν καὶ τὸ τρίτον κεφάλαιον.
+              <lb n="14" xml:id="p9-13"/>Τέταρτον κεφάλαιον, ἐν ᾧ ζητοῦμεν τί τὸ τέλος τῆς Ἀριστοτελικῆς
+              <lb n="15" xml:id="p9-14"/>φιλοσοφίας καὶ τί τὸ ἀναφαινόμενον χρήσιμον ἐξ αὐτῆς. ἀναφαίνεται τοίνυν
+              <lb n="16" xml:id="p9-15"/>ἐξ αὐτῆς χρήσιμον τὸ γνῶναι ὡς μία τῶν πάντων ἐστὶν ἀρχή, ἀπειροδύναμος,
+              <lb n="17" xml:id="p9-16"/>ἀπεριόριστος, ἀσώματος, ἀπερίληπτος, ὀρεκτικὴ πᾶσι τοῖς κατὰ φύσιν,
+              <lb n="18" xml:id="p9-17"/>αὐτοαγαθότης· ἄλλο γάρ ἐστιν ἀγαθὸν καὶ ἄλλο ἀγαθότης, ὥσπερ καὶ ἄλλο
+              <lb n="19" xml:id="p9-18"/>λευκὸν καὶ ἄλλο λευκότης· λευκὸν μὲν τὸ δεδεγμένον αὐτὴν τὴν ποιότητα,<note type="apparatus" n="19" target="#p9-18">δεδεγμ. Amm. (p. 6,13): δεδειγμ. Μ</note>
+              <lb n="20" xml:id="p9-19"/>λευκότης δὲ αὐτὴ ἡ ποιότης. οὕτως ἀγαθὸν μὲν τὸ δεδεγμένον, ἀγαθότης
+              <lb n="21" xml:id="p9-20"/>δὲ αὐτὸ τὸ πρᾶγμα καὶ αὐτὴ ἡ ὕπαρξις καὶ ἡ οὐσία τοῦ ἀγαθοῦ. <milestone type="alt-edition" unit="folio" ed="cod. Mutinensis 69" n="9v"/> καὶ ὅτι
+              <lb n="22" xml:id="p9-21"/>οὐκ ἀγαθὸν πολυκοιρανίη· εἷς κοίρανος ἔστω,
+              <lb n="23" xml:id="p9-22"/>εἷς βασιλεύς,
+              <lb n="24" xml:id="p9-23"/>αὐτὸς Ἀριστοτέλης φησὶν ἐν τοῖς Μετὰ τὰ φυσικὰ θεολογῶν· ὅτι μία ἐστὶ<note type="apparatus" n="24" target="#p9-23">ἐν τοῖς Μετὰ τὰ φυσ.] Λ 10 p. 1075a 11 sq.</note>
+              <lb n="25" xml:id="p9-24"/>τῶν πάντων ἀρχή, ἔστι κατασκευάσαι τοῦτον τὸν τρόπον· τὰ ὄντα πάντα
+              <lb n="26" xml:id="p9-25"/>καλῶς πολιτεύεται, καὶ τοῦτο εἰκότως· οὐ γὰρ ἐνδέχεται κακῶς τὰ ὄντα
+              <lb n="27" xml:id="p9-26"/>πολιτεύεσθαι θεοῦ περιόντος. τὰ καλῶς πολιτευόμενα τέτακται, τὰ δὲ τεταγμένα<note type="apparatus" n="27" target="#p9-26">τὰ δὲ scripsi: τά τε Μ</note>
+              <lb n="28" xml:id="p9-27"/>ὑφ’ ἑνὸς τέτακται, τὰ ὄντα ἄρα πάντα ὑφ’ ἑνὸς τέτακται’. τοῦτο
+              <lb n="29" xml:id="p9-28"/>οὖν τὸ τάξαν καλοῦμεν πάντων ἀρχήν, ἧς ἡ γνῶσις τέλος ἐστὶ τῆς Ἀριστοτέλους
+              <lb n="30" xml:id="p9-29"/>φιλοσοφίας.
+              <lb n="31" xml:id="p9-30"/>Πέμπτον κεφάλαιον. τίς ὁ βαθμὸς καὶ τίνα τὰ ἄγοντα ἡμᾶς ἐπὶ τὸ
+              <lb n="32" xml:id="p9-31"/>ταύτης τέλος; φαμὲν τοίνυν ὅτι πέντε τινὰ καθέστηκεν τὰ πρὸς τὸ τέλος
+              <lb n="33" xml:id="p9-32"/>ἡμᾶς ἀπάγοντα τῆς φιλοσοφίας, οἷον λογική, φυσική, ἠθική, μαθηματική,<note type="apparatus" n="33" target="#p9-32">οἷον superscr. Μ</note>
+              <lb n="34" xml:id="p9-33"/>θεολογική. καὶ ἔστιν ἀρχὴ μὲν ἡ λογική, μετὰ δὲ ταύτην ἠθική, μετὰ δὲ
+              <lb n="35" xml:id="p9-34"/>τὴν ἠθικὴν ἡ φυσική, μετὰ δὲ ταύτην ἡ μαθηματική, μετὰ δὲ τὴν μαθηματικὴν
+              <lb n="36" xml:id="p9-35"/>ἡ θεολογία. καὶ τοῦτο εἰκότως· δεῖ γὰρ τὸ πάντων ἔνυλον προηγεῖσθαι
+              <lb n="37" xml:id="p9-36"/>τοῦ κατά τι μὲν ἐνύλου κατά τι δὲ ἀΰλου. μετὰ δὲ τοῦτο ἐπὶ
+              <lb n="38" xml:id="p9-37"/>τὸ πάντων ἄυλον δεῖ χωρῆσαι ἡμᾶς, ἑπομένους τῇ προστάξει τοῦ θεσπεσίου<note type="apparatus" n="38" target="#p9-37">ἑπομένους scripsi: ἑπόμενοι Μ</note>
+            </p>
+            <pb n="10" facs="https://archive.org/download/commentariaina12pt12akaduoft/page/n27.jpg"/>
+            <p>
+              <lb n="1" xml:id="p10-0"/>Πλωτίνου τῇ λεγούσῃ ὅτι δοτέον τοῖς νέοις τὰ μαθήματα πρὸς συνεθισμὸν<note type="apparatus" n="1" target="#p10-0">Πλωτίνου] Enn. I lib. III,</note>
+              <lb n="2" xml:id="p10-1"/>τῆς ἀσωμάτου φύσεως. καὶ ἐν τούτοις καὶ τὸ πέμπτον κεφάλαιον.
+              <lb n="3" xml:id="p10-2"/>Ἕκτον κεφάλαιον, ἐν ᾧ ζητοῦμεν <milestone type="alt-edition" unit="folio" ed="cod. Mutinensis 69" n="10r"/> ὁποῖον δεῖ εἶναι τὸν ἀκροώμενον<note type="apparatus" n="3" target="#p10-2">p. 20 πρὸς συνεθ.] προσυνηθισμὸν M</note>
+              <lb n="4" xml:id="p10-3"/>τῶν Ἀριστοτέλους συγγραμμάτων. λέγω τοίνυν ὅτι δεῖ αὐτὸν ἐχέφρονα εἶναι,
+              <lb n="5" xml:id="p10-4"/>δριμύν, κεκαλλωπισμένον τοῖς ἤθεσιν, κεκαθαρμένον τὴν ψυχήν (‘μὴ καθαρὸν<note type="apparatus" n="5" target="#p10-4">δρυμήν M</note>
+              <lb n="6" xml:id="p10-5"/>γὰρ καθαροῦ ἐφάπτεσθαι μὴ οὐχὶ θεμιτόν ἐστιν’, ὡς ὁ θεῖος Πλάτων<note type="apparatus" n="6" target="#p10-5">Πλάτων] Phaedo. p. 67 C</note>
+              <lb n="7" xml:id="p10-6"/>φησί, καὶ Ἱπποκράτης ‘τὰ μὴ καθαρὰ τῶν σωμάτων ὁκόσῳ ἂν θρέψῃς,<note type="apparatus" n="7" target="#p10-6">Ἱπποκρ.] Aphor. 2,10 θρέψῃς] τρέψαιο (ex θρέψαιο corr.) M</note>
+              <lb n="8" xml:id="p10-7"/>μᾶλλον βλάψεις’), καὶ συνεχῶς ἐπιλέγοντα αὑτῷ τὰς τοῦ Πλάτωνος φωνὰς<note type="apparatus" n="8" target="#p10-7">ἐπιλέγοντα scripsi: ἐπιλέγοντες M αὑτῷ M Πλάτωνος] Alc. I p. 114 E</note>
+              <lb n="9" xml:id="p10-8"/>ὅτι ‘εἰ μὴ σὺ σαυτοῦ λέγοντος ἀκούσῃς, μηδενὶ ἄλλῳ λέγοντι πιστεύσῃς’<note type="apparatus" n="9" target="#p10-8">πιστεύσῃς Elias: comp. incert. M</note>
+              <lb n="10" xml:id="p10-9"/>καὶ πάλιν ‘Σωκράτους μὲν ὀλίγον φροντιστέον, τῆς δὲ ἀληθείας πολύ’, σημαίνοντος<note type="apparatus" n="10" target="#p10-9">Σωκράτους . .] Plat. Phaedo. p. 91 C</note>
+              <lb n="11" xml:id="p10-10"/>διὰ πάντων τούτων ἡμῖν ὅτι δεῖ πάντων τὴν ἀλήθειαν προτιμᾶν
+              <lb n="12" xml:id="p10-11"/>καὶ πάντα ταύτης δεύτερα ποιεῖσθαι. ἀλλὰ μὴν καὶ ἐξομοιοῦν τὰ ἑαυτῶν<note type="apparatus" n="12" target="#p10-11">ἑαυτὸν M¹</note>
+              <lb n="13" xml:id="p10-12"/>τῷ μεγάλῳ κόσμῳ· ὥσπερ γὰρ ἐν τῷ μεγάλῳ κόσμῳ ἔστι μὲν βασιλεύς,
+              <lb n="14" xml:id="p10-13"/>ὑπόκεινται δὲ αὐτῷ στρατιῶται καὶ θῆτες, οὕτω δεῖ εἶναι καὶ τὸν ἀκροώμενον
+              <lb n="15" xml:id="p10-14"/>τῆς Ἀριστοτέλους φιλοσοφίας, καὶ ἔχειν μὲν ἐν τάξει τοῦ βασιλέως
+              <lb n="16" xml:id="p10-15"/>τὸν λογισμόν, ἐν δὲ τῇ τάξει τῶν στρατιωτῶν τὸν θυμόν, ἐν δὲ τῇ τάξει
+              <lb n="17" xml:id="p10-16"/>τῶν ὑπηρετούντων τὴν ἐπιθυμίαν· δεῖ γὰρ ἄρχειν μὲν τὸν λογισμόν, ἄρχεσθαι
+              <lb n="18" xml:id="p10-17"/>δὲ τὸν θυμόν, ἄρχεσθαι δὲ ὑπ’ ἀμφοτέρων τὴν ἐπιθυμίαν. ζητοῦσι δέ
+              <lb n="19" xml:id="p10-18"/>τινες διὰ τί τριμεροῦς οὔσης τῆς ψυχῆς τέσσαρές εἰσιν ἀρεταί, φρόνησις,
+              <lb n="20" xml:id="p10-19"/>ἀνδρία, σωφροσύνη καὶ δικαιοσύνη. πρὸς τούτους δὲ ἔστιν εἰπεῖν ὅτι εὐλόγως·
+              <lb n="21" xml:id="p10-20"/>ἡ μὲν γὰρ φρόνησις ἀρετῆς ἐστι γνώρισμα τοῦ λογισμοῦ, ἡ δὲ ἀνδρία τοῦ
+              <lb n="22" xml:id="p10-21"/>θυμοῦ, <milestone type="alt-edition" unit="folio" ed="cod. Mutinensis 69" n="10v"/> ἡ δὲ σωφροσύνη τῆς ἐπιθυμίας, ἡ δὲ δικαιοσύνη διὰ πασῶν
+              <lb n="23" xml:id="p10-22"/>πεφοίτηκεν καὶ ἐν πάσαις θεωρεῖται. καὶ ἐν τούτοις καὶ τὸ ἕκτον κεφάλαιον.<note type="apparatus" n="23" target="#p10-22">πεφύτηκεν M</note>
+              <lb n="24" xml:id="p10-23"/>Ἕβδομον κεφάλαιον, οἷον δεῖ εἶναι τὸν ἐξηγούμενον τὰ συγγράμματα Ἀριστοτέλους.
+              <lb n="25" xml:id="p10-24"/>καί φαμεν ὅτι τοιόνδε 〈δεῖ〉 εἶναι ἐξηγηματικὸν καὶ ἐπιστημονικόν·<note type="apparatus" n="25" target="#p10-24">δεῖ addidi</note>
+              <lb n="26" xml:id="p10-25"/>ἐξηγηματικὸν μὲν διὰ τὸ ἐξηγεῖσθαι σαφῶς τὴν ἀλήθειαν, ἐπιστημονικὸν δὲ
+              <lb n="27" xml:id="p10-26"/>ὡς διακρίνοντα τὴν ἀλήθειαν ἀπὸ τοῦ ψεύδους. δεῖ δὲ αὐτὸν μὴ δουλεύειν
+              <lb n="28" xml:id="p10-27"/>αἱρέσει καὶ ὥσπερ ἐκμεμισθωκέναι αὐτῇ τὰ ὦτα καὶ τὴν γλῶτταν, ὡς<note type="apparatus" n="28" target="#p10-27">αὐτῇ scripsi: αὐτὴν M</note>
+              <lb n="29" xml:id="p10-28"/>ἅπαντα ποιεῖν πρὸς τὰ ἐκείνῃ δοκοῦντα, καὶ ποιεῖν καὶ λέγειν καὶ ἀκούειν.<note type="apparatus" n="29" target="#p10-28">alt. ποιεῖν] an νοεῖν?</note>
+              <lb n="30" xml:id="p10-29"/>δεῖ δὲ αὐτὸν μὴ συμμεταβάλλεσθαι ταῖς αἱρέσεσιν, ἵνα μὴ ὥσπερ οἱ ἐν
+              <lb n="31" xml:id="p10-30"/>σκηνῇ διάφορα ὑποδύοντες πρόσωπα, οὕτω καὶ αὐτὸς ταύτῃ τι πάθῃ, ἀλλὰ τύπους<note type="apparatus" n="31" target="#p10-30">πάθει M</note>
+              <lb n="32" xml:id="p10-31"/>ἔχειν χρὴ καὶ κανόνας ἀληθεῖς, δι’ ὧν δύναται διακρῖναι τὸ ὀρθῶς ἔχον καὶ τὸ
+              <lb n="33" xml:id="p10-32"/>μὴ τοιοῦτον. ἐφ’ ᾧ καταπαύσωμεν τὴν παροῦσαν θεωρίαν. τέλος τῆς βʹ θεωρίας.
+            </p>
+          </div>
+        </div>
+        <div type="textpart" subtype="chapter" n="4">
+          <head><lb n="35" xml:id="p10-33"/>Ἀρχὴ τῆς γ’ θεωρίας.</head>
+          <div type="textpart" subtype="section" n="0">
+            <p>
+              <lb n="36" xml:id="p10-34"/>Ἐπειδὴ τὰς ἐπωνυμίας τῶν φιλοσόφων αἱρέσεων μεμαθήκαμεν καὶ
+              <lb n="37" xml:id="p10-35"/>τὴν διαίρεσιν τῶν Ἀριστοτελικῶν συγγραμμάτων καὶ πόθεν ἡμᾶς δεῖ ἀρκτέον<note type="apparatus" n="37" target="#p10-35">δεῖ eicias</note>
+            </p>
+            <pb n="11" facs="https://archive.org/download/commentariaina12pt12akaduoft/page/n28.jpg"/>
+            <p>
+              <lb n="1" xml:id="p11-0"/>καὶ διὰ ποίων μέσων ὁδευτέον καὶ τί τὸ ἐκδεχόμενον ἡμᾶς τέλος, καὶ πρὸς
+              <lb n="2" xml:id="p11-1"/>τούτοις οἷον δεῖ εἶναι τὸν ἀκροώμενον τούτων, εἶτα τὸν ἐξηγούμενον, φέρε
+              <lb n="3" xml:id="p11-2"/>πρὸς τοῖς εἰρημένοις ζητήσωμεν τί τὸ εἶδος τῆς ἀπαγγελίας τοῦ φιλοσόφου.
+              <lb n="4" xml:id="p11-3"/>οὐχ ἓν <milestone type="alt-edition" unit="folio" ed="cod. Mutinensis 69" n="11r"/> τοίνυν ἐπετήδευσεν εἶδος, διότι μηδὲ περὶ ἑνὸς πράγματος τὸν λόγον
+              <lb n="5" xml:id="p11-4"/>πεποίηται, ἀλλ’ ὥσπερ διαφόρων ἥψατο πραγμάτων, οὕτω καὶ παναρμόνιον<note type="apparatus" n="5" target="#p11-4">ἥψατο in mrg. m¹: ἤρξατο in contextu M</note>
+              <lb n="6" xml:id="p11-5"/>εἶδος ἐπετήδευσεν, πρόσφορον τὸν λόγον βουλόμενος τοῖς πράγμασιν εἶναι.
+              <lb n="7" xml:id="p11-6"/>ἐν μὲν οὖν ταῖς ἐπιστολαῖς πυκνός ἐστι καὶ σύντομος, κοινός τε ἅμα καὶ
+              <lb n="8" xml:id="p11-7"/>ἴδιος· τοιοῦτον γὰρ δεῖ εἶναι τὸν ἐπιστέλλοντα· κοινὸν μέν, διότι ἡ ἐπιστολὴ
+              <lb n="9" xml:id="p11-8"/>ἔντευξίς ἐστι πρὸς ἀπόντας, καὶ ὥσπερ 〈πρὸς〉 τοὺς παρόντας ταῖς<note type="apparatus" n="9" target="#p11-8">πρὸς inserui</note><note type="apparatus" n="9-10" target="#p11-8 #p11-9">ταῖς ἐντεύξεσι eicias</note>
+              <lb n="10" xml:id="p11-9"/>ἐντεύξεσιν κοινῶς διαλεγόμεθα, οὕτω δεῖ καὶ πρὸς τὰς ἐντεύξεις τῶν ἀπόντων,
+              <lb n="11" xml:id="p11-10"/>τοῦτ’ ἔστι τὰς ἐπιστολάς, κοινὴν ποιεῖσθαι τὴν ἔντευξιν. ἴδιον δὲ χρὴ
+              <lb n="12" xml:id="p11-11"/>πάλιν εἶναι τὸν ἐπιστέλλοντα, ἵνα μὴ λάθωμεν ἑαυτοὺς εἰς ἔννοιαν ἰδιωτικὴν
+              <lb n="13" xml:id="p11-12"/>ἐμπίπτοντες. ἐν δὲ ταῖς ἱστορίαις ἐστὶ σαφής, ὑφηγηματικός, διηρθρωμένος,
+              <lb n="14" xml:id="p11-13"/>ἐν δὲ τοῖς διαλογικοῖς ὡραῖος, μεστὸς χαρίτων, οὐκ ἐνδεής, ποικίλος ἐν ταῖς
+              <lb n="15" xml:id="p11-14"/>μιμήσεσιν, ἐν δὲ τοῖς αὐτοπροσώποις συνεστραμμένος, γοργός, πυκνὸς τοῖς
+              <lb n="16" xml:id="p11-15"/>νοήμασι, καθαρὸς τοῖς ὀνόμασι, μηδαμοῦ ποιητικαῖς δουλεύων μεταφοραῖς,
+              <lb n="17" xml:id="p11-16"/>ἀκαλλωπίστῳ εὐρυθμίᾳ κοσμούμενος (διὸ καὶ ἀζήλωτον ἑαυτὸν τοῖς μεταγενεστέροις
+              <lb n="18" xml:id="p11-17"/>κατέστησεν· τὸ γὰρ κρεῖττον ἢ κατὰ τέχνην συντεθὲν ἀμίμητόν
+              <lb n="19" xml:id="p11-18"/>ἐστι τῇ τέχνῃ), ἐν δὲ τοῖς ἐξωτερικοῖς κεκαλλωπισμένος ταῖς λέξεσιν. καὶ<note type="apparatus" n="19" target="#p11-18">κεκαλλωπισμένον M</note>
+              <lb n="20" xml:id="p11-19"/>ἐν τούτοις καὶ τὸ ὄγδοον κεφάλαιον.
+              <lb n="21" xml:id="p11-20"/>Ἔνατον κεφάλαιον, ἐν ᾧ ζητοῦμεν διὰ τί ἀσάφειαν ἐπετήδευσεν ὁ φιλόσοφος·
+              <lb n="22" xml:id="p11-21"/>ὅτι γὰρ οὐκ οἴκοθεν ἔχει τοῦτο, ἀλλ’ αὐτὸς ἐπετήδευσεν, δηλοῖ πολλαχοῦ
+              <lb n="23" xml:id="p11-22"/>σαφῶς ἑρμηνεύσας, ἐν μὲν τοῖς λογικοῖς ἐν τοῖς καλουμένοις <milestone type="alt-edition" unit="folio" ed="cod. Mutinensis 69" n="11v"/> Τόποις,
+              <lb n="24" xml:id="p11-23"/>ἐν δὲ τοῖς φυσικοῖς ἐν τοῖς Μετεωρολογικοῖς. ἀσάφειαν τοίνυν ἐπετήδευσεν
+              <lb n="25" xml:id="p11-24"/>πεῖραν καὶ δοκιμασίαν λαβεῖν βουλόμενος τῶν τε προθυμοτάτων νέων καὶ<note type="apparatus" n="25" target="#p11-24">δοκιμασείαν M</note>
+              <lb n="26" xml:id="p11-25"/>τῶν ῥᾳθύμων· ἀσαφεῖ γὰρ ἐντυγχάνων ὁ σπουδαῖος συγγράμματι συντείνει
+              <lb n="27" xml:id="p11-26"/>ἑαυτὸν καὶ προθυμότερος γίγνεται πρὸς τὴν τοῦ συγγράμματος κατάληψιν,
+              <lb n="28" xml:id="p11-27"/>ὁ δὲ ῥᾴθυμος ἐντυγχάνων τούτῳ φεύγει τὴν ἔντευξιν ὑπὸ τῆς ἀσαφείας<note type="apparatus" n="28" target="#p11-27">ῥᾴθυμος scripsi: ῥᾳθύμως M</note>
+              <lb n="29" xml:id="p11-28"/>ἀπελαυνόμενος. τοῦτο δὲ οὐ μόνον Ἀριστοτέλης πεποίηκεν, ἀλλὰ καὶ Πλάτων<note type="apparatus" n="29" target="#p11-28">Πλάτων] cf. El. p. 126,10</note>
+              <lb n="30" xml:id="p11-29"/>πρὸ αὐτοῦ· παρεκελεύετο γὰρ δοκιμασίαν καὶ πεῖραν τῶν νέων λαμβάνειν
+              <lb n="31" xml:id="p11-30"/>πρὸ τῆς τῶν μαθημάτων εἰσόδου· ἔλεγε γὰρ ὅτι δεῖ ἀπαγαγεῖν αὐτοὺς ἐν
+              <lb n="32" xml:id="p11-31"/>τοῖς συμποσίοις καὶ μεθύσκειν, ἵνα τὰ κεκρυμμένα ἐν τῇ αὐτῶν ψυχῇ<note type="apparatus" n="32" target="#p11-31">αὐτῶν M</note>
+              <lb n="33" xml:id="p11-32"/>δημοσιεύσωσι. τὰ αὐτὰ δὲ καὶ Πυθαγόρας ἐποίει· μεθ’ ἡμέραν γὰρ ἠρώτα
+              <lb n="34" xml:id="p11-33"/>τοὺς φοιτητὰς τὰ ἐν ταῖς νυξὶ γιγνόμενα ἐνύπνια, μαντεύεσθαι διὰ τούτων
+              <lb n="35" xml:id="p11-34"/>βουλόμενος τὴν κίνησιν τῶν ψυχῶν [εἰδέναι]. ἀλλ’ ἰστέον ὅτι ὁ Πλάτων<note type="apparatus" n="35" target="#p11-34">εἰδέναι delevi</note>
+              <lb n="36" xml:id="p11-35"/>κρεῖττον ἢ κατὰ Πυθαγόραν ἐποίει· ἐν μὲν γὰρ τοῖς ὀνείρασιν ἔστι πολλὰ
+              <lb n="37" xml:id="p11-36"/>καὶ προσθεῖναι καὶ ἀφελεῖν ψευδῶς, ἐν δὲ ταῖς μέθαις, ἅτε δὴ μὴ παρακολουθοῦντες<note type="apparatus" n="37" target="#p11-36">προσθῆναι M</note><note type="apparatus" n="37-38" target="#p11-36 #p11-37">παρακολουθέντες M</note>
+              <lb n="38" xml:id="p11-37"/>ἑαυτοῖς, ἀδεῶς τὰ ἐν ταῖς ψυχαῖς κεκρυμμένα ἐξήγγελλον.<note type="apparatus" n="38" target="#p11-37">ἐξήγγελον M</note>
+              <lb n="39" xml:id="p11-38"/>ἀλλὰ καὶ ποιηταί, μὴ πᾶσι βουλόμενοι σαφῆ καταστῆσαι τὰ περὶ τῶν
+            </p>
+            <pb n="12" facs="https://archive.org/download/commentariaina12pt12akaduoft/page/n29.jpg"/>
+            <p>
+              <lb n="1" xml:id="p12-0"/>θείων, μύθοις ἀπέκρυπτον τὰ περὶ τῶν θείων δογμάτων λεγόμενα· ἀνόητον
+              <lb n="2" xml:id="p12-1"/>γάρ ἐστι, καθὰ οἱ ποιηταί φασι Κρόνον καταπίνοντα <milestone type="alt-edition" unit="folio" ed="cod. Mutinensis 69" n="12r"/> τὰ τέκνα καὶ πάλιν<note type="apparatus" n="2" target="#p12-1">οἱ ποιηταὶ] cf. Hes. Theog. 459</note>
+              <lb n="3" xml:id="p12-2"/>ἐμοῦντα, Δία δὲ κύκνον γενόμενον· εἰ γὰρ τοὺς ταῦτα δρῶντας ἀνθρώπους
+              <lb n="4" xml:id="p12-3"/>κολάζομεν, πόσῳ μᾶλλον ἄτοπον ταῦτα προσάπτειν θεοῖς; διὸ καὶ δέος
+              <lb n="5" xml:id="p12-4"/>ἐστὶ μή ποτε αἱ τῶν νέων ψυχαὶ ἁπαλώταται οὖσαι παραδέξονται ὡς ἀληθῆ·
+              <lb n="6" xml:id="p12-5"/>δυσμετακινήτως γὰρ ἔχουσιν οἱ νέοι πρὸς ταῦτα. ὅθεν καὶ τοῖς τερατωδεστέροις
+              <lb n="7" xml:id="p12-6"/>τῶν ποιητῶν χάριν ὁμολογοῦμεν, ἵνα διὰ τῆς ὑπερβαλλούσης
+              <lb n="8" xml:id="p12-7"/>ἀπιστίας μηδεὶς τοῖς λεγομένοις πιστεύσειεν. ἀλλὰ μὴν καὶ τοῖς ἱερεῦσιν<note type="apparatus" n="8" target="#p12-7">ἀπιστείας M</note>
+              <lb n="9" xml:id="p12-8"/>τοῦτο βούλονται τὰ παραπετάσματα· ταῦτα γὰρ ἐπενόησαν πρὸς τὸ μὴ πᾶσι
+              <lb n="10" xml:id="p12-9"/>σαφῆ καὶ γνώριμα καταστῆσαι τὰ μυστήρια. ὅθεν ἔφησέν τις
+              <lb n="11" xml:id="p12-10"/>ἀείδω συνετοῖσιν, θύρας δ’ ἐπίθεσθε βεβήλοις.<note type="apparatus" n="11" target="#p12-10">ἀείδω] ἀεὶ δὸς M (cf. El. p. 125,3) δὲ πιθέσθαι M βεβήλοις M</note>
+              <lb n="12" xml:id="p12-11"/>ἀλλὰ μὴν καὶ πρὸ πάντων τούτων Ἀπόλλων μὴ πᾶσι προδήλους τὰς μαντείας
+              <lb n="13" xml:id="p12-12"/>καταστῆσαι βουλόμενος λοξῶς ἐμαντεύετο, οὐ μετρίαν ἀσάφειαν διὰ<note type="apparatus" n="13" target="#p12-12">μετρείαν M</note>
+              <lb n="14" xml:id="p12-13"/>τούτων ἐπιδεικνύμενος, ὅθεν καὶ Λοξίας ὠνόμασται. ὅπερ οὖν Ἀπόλλωνι
+              <lb n="15" xml:id="p12-14"/>μὲν τὸ λοξόν, ἱερεῦσι δὲ τὰ παραπετάσματα, ποιηταῖς δὲ οἱ μῦθοι, Πυθαγόρᾳ
+              <lb n="16" xml:id="p12-15"/>δὲ τὰ ὀνείρατα, Πλάτωνι δὲ αἱ μέθαι, τοῦτο Ἀριστοτέλει πέφυκεν ἡ
+              <lb n="17" xml:id="p12-16"/>ἀσάφεια. καὶ ἐν τούτοις τὸ ἔνατον κεφάλαιον.<note type="apparatus" n="17" target="#p12-16">ἐπιδεικν. scripsi: ἐπικνύμενος M 16 τούτω M</note>
+              <lb n="18" xml:id="p12-17"/>Δέκατον καὶ τελευταῖον κεφάλαιον, ἐν ᾧ ζητοῦμεν πόσα καὶ τίνα δεῖ
+              <lb n="19" xml:id="p12-18"/>προλαμβάνεσθαι ἑκάστου Ἀριστοτελικοῦ συγγράμματος. λέγω τοίνυν ὡς
+              <lb n="20" xml:id="p12-19"/>ἕξ τινα ὀφείλομεν προλαβεῖν, τὸν σκοπόν φημι καὶ τὸ χρήσιμον καὶ τὴν <milestone type="alt-edition" unit="folio" ed="cod. Mutinensis 69" n="12v"/><note type="apparatus" n="20" target="#p12-19">ὀφείλωμεν M</note>
+              <lb n="21" xml:id="p12-20"/>τάξιν καὶ τὴν ἐπιγραφὴν καὶ τὸν συγγραφέα καὶ τὴν διασκευήν. ὁ μὲν
+              <lb n="22" xml:id="p12-21"/>οὖν σκοπὸς ἐν τοῖς Πλατωνικοῖς πολλαχοῦ διαπεφώνηται, ἐν δὲ τοῖς Ἀριστοτελικοῖς
+              <lb n="23" xml:id="p12-22"/>οὐδαμοῦ. * * εἴ γε μιμητὴς ὢν τῆς φύσεως ὁ φιλόσοφος ἅπαντα ἕνεκά<note type="apparatus" n="23" target="#p12-22">ante εἴ γε lacunam signavi ἅπαντα scripsi: ἁπάντων M</note>
+              <lb n="24" xml:id="p12-23"/>του λέγει, ὡς δῆλον ἐντεῦθεν εἶναι τὸν σκοπὸν τῶν συγγραμμάτων, ὥσπερ<note type="apparatus" n="24-25" target="#p12-23 #p12-24">λέγει et πράττει scripsi: λέγειν et πράττειν M</note>
+              <lb n="25" xml:id="p12-24"/>κἀκείνη οὐδὲν ἁπλῶς ἀλλ’ ἕνεκά του πάντα πράττει. τὸ δὲ χρήσιμον τῶν
+              <lb n="26" xml:id="p12-25"/>συγγραμμάτων ζητοῦμεν, ὅτε δοκεῖ τὸ σύγγραμμα πρὸς κακοῦ ἐπινενοῆσθαι,<note type="apparatus" n="26" target="#p12-25">ἐπινενοεῖσθαι M</note><note type="apparatus" n="26-38" target="#p12-25 #p12-26 #p12-27 #p12-28 #p12-29 #p12-30 #p12-31 #p12-32 #p12-33 #p12-34 #p12-35 #p12-36 #p12-37">ὅτε scripsi: ὅτι M</note><note type="apparatus" n="26" target="#p12-25">an κακὸν?</note>
+              <lb n="27" xml:id="p12-26"/>ὡς ἐπὶ τῶν Σοφιστικῶν ἐλέγχων· νομίζεται γὰρ τοῦτο τὸ βιβλίον βλαπτικὸν
+              <lb n="28" xml:id="p12-27"/>ὑπάρχειν, διότι κανόνας τινὰς ἐκεῖ παραδίδωσι, δι’ ὧν δυνησόμεθα ἀπατᾶν.
+              <lb n="29" xml:id="p12-28"/>ἀλλ’ ἡμεῖς φαμεν ὅτι παραδίδοται ταῦτα οὐχ ἵνα ἀπατῶμεν, ἀλλ’ ἵνα μὴ
+              <lb n="30" xml:id="p12-29"/>ἀπατώμεθα, καὶ οὐχ ἵνα ποιῶμεν, ἀλλ’ ἵνα μὴ πάθωμεν, ὥσπερ καὶ τοῖς<note type="apparatus" n="30" target="#p12-29">ποιοῦμεν M</note>
+              <lb n="31" xml:id="p12-30"/>ἰατροῖς τὰ δηλητήρια οὐ πρὸς χρῆσιν, ἀλλὰ πρὸς φυγὴν παραδίδοται. τὴν
+              <lb n="32" xml:id="p12-31"/>δὲ τάξιν ζητοῦμεν οὐ τὴν καθολικήν (ἤδη γὰρ ταύτην μεμαθήκαμεν, ὅτε
+              <lb n="33" xml:id="p12-32"/>ἐλέγομεν τὴν μὲν λογικὴν προηγεῖσθαι, ἕπεσθαι δὲ τὴν ἠθικήν, μετὰ δὲ<note type="apparatus" n="33" target="#p12-32">ἐλέγομεν] p. 9,9</note>
+              <lb n="34" xml:id="p12-33"/>ταύτην τὴν φυσικήν, καὶ μετὰ τὴν φυσικὴν τὴν μαθηματικήν, μετὰ δὲ ταύτὴν
+              <lb n="35" xml:id="p12-34"/>τὴν θεολογίαν), ἀλλὰ τὴν μερικήν, οἷον τὴν ἐν τοῖς ὁμοστοίχοις· εἰ
+              <lb n="36" xml:id="p12-35"/>λογικὸν ὑπάρχοι τὸ σύγγραμμα, τὴν ἐν τοῖς λογικοῖς ὑπάρχουσαν τάξιν δῆλον
+              <lb n="37" xml:id="p12-36"/>ὅτι ζητοῦμεν, ὡσαύτως δὲ καὶ ἐπὶ τῶν φυσικῶν. τὴν δὲ αἰτίαν τῆς ἐπιγραφῆς
+              <lb n="38" xml:id="p12-37"/>πολυπραγμονοῦμεν, ὅτε μὴ σύμφωνος <milestone type="alt-edition" unit="folio" ed="cod. Mutinensis 69" n="13r"/> εἶναι δοκεῖ τῷ σκοπῷ, ὥσπερ
+            </p>
+            <pb n="13" facs="https://archive.org/download/commentariaina12pt12akaduoft/page/n30.jpg"/>
+            <p>
+              <lb n="1" xml:id="p13-0"/>ἐπὶ τῶν Τόπων· ἄλλη μὲν γάρ ἐστιν ἡ ἐπιγραφὴ τοῦ συγγράμματος, ἄλλα
+              <lb n="2" xml:id="p13-1"/>δὲ τὰ ἐν τούτῳ παραδιδόμενα. πολλάκις δὲ καὶ συναναφαίνεται ταῦτα τὰ<note type="apparatus" n="2" target="#p13-1">παραδιδόμενα scripsi: παραδιδόντα M</note>
+              <lb n="3" xml:id="p13-2"/>τρία, ὁ σκοπός, ἡ χρεία, ἡ ἐπιγραφή, ὡς ἐν τῷ Περὶ ψυχῆς συγγράμματι.
+              <lb n="4" xml:id="p13-3"/>περὶ δὲ τοῦ γνησίου δύο ταῦτα ζητήσωμεν· πρῶτον μὲν διὰ πόσους τρόπους
+              <lb n="5" xml:id="p13-4"/>ἐνοθεύοντο τὰ βιβλία καὶ ποῖά εἰσιν κριτήρια τὰ δυνάμενα διαχωρίζειν τὰ
+              <lb n="6" xml:id="p13-5"/>γνήσια ἀπὸ τῶν νόθων.
+              <lb n="7" xml:id="p13-6"/>Ἐνοθεύοντο τοίνυν τὰ βιβλία τὸ παλαιὸν κατὰ τρεῖς τρόπους· ἢ διὰ
+              <lb n="8" xml:id="p13-7"/>φιλοτιμίαν τῶν βασιλέων ἢ δι’ εὔνοιαν τῶν μαθητῶν ἢ διὰ ὁμωνυμίαν.<note type="apparatus" n="8" target="#p13-7">μαθητῶν scripsi: μαθημάτων M (cf. v. 35 p. 14,2)</note>
+              <lb n="9" xml:id="p13-8"/>καὶ δι’ ὁμωνυμίαν τριχῶς· ἢ συγγραφέως ἢ συγγραμμάτων ἢ ὑπομνημάτων.
+              <lb n="10" xml:id="p13-9"/>ἀλλ’, εἰ δοκεῖ, μάθωμεν πῶς τὸ τῶν βασιλέων φιλότιμον αἴτιον
+              <lb n="11" xml:id="p13-10"/>ἦν τοῦ τὰς βίβλους νοθεύεσθαι. ἰστέον τοίνυν ὅτι οἱ παλαιοὶ βασιλεῖς<note type="apparatus" n="11" target="#p13-10">τοῦ scripsi: τοὺς M</note>
+              <lb n="12" xml:id="p13-11"/>ἐρασταὶ ὄντες λόγων ἔσπευδον διὰ φιλοτιμίας συναγαγεῖν τὰ τῶν ἀρχαίων
+              <lb n="13" xml:id="p13-12"/>συγγράμματα. οὕτως οὖν Ἰοβάτης ὁ τῆς Λιβύης βασιλεὺς ἐραστὴς ἐγένετο
+              <lb n="14" xml:id="p13-13"/>τῶν Πυθαγορικῶν συγγραμμάτων καὶ Πτολεμαῖος ὁ ἐπίκλην Φιλάδελφος
+              <lb n="15" xml:id="p13-14"/>τῶν Ἀριστοτελικῶν καὶ Πεισίστρατος ὁ τῶν Ἀθηναίων τύραννος τῶν Ὁμηρικῶν
+              <lb n="16" xml:id="p13-15"/>〈καὶ〉 χρημάτων δωρεαῖς ἔσπευδον ταῦτα συναγαγεῖν. πολλοὶ οὖν χρημάτων<note type="apparatus" n="16" target="#p13-15">καὶ inserui πολλοὶ scripsi: πολὺ M</note>
+              <lb n="17" xml:id="p13-16"/>ὀρεγόμενοι ἔσπευδον ἢ συγγράψασθαι ἤγουν καὶ τὰ τυχόντα συναγαγεῖν καὶ
+              <lb n="18" xml:id="p13-17"/>ἐπιγράφειν τοῖς τῶν ἀρχαιοτέρων ὀνόμασι καὶ προσφέρειν καὶ καρποῦσθαι
+              <lb n="19" xml:id="p13-18"/>δωρεὰς διὰ τούτου μνηστευόμενοι. καὶ συνέβαινεν, ὡς προείπομεν, νοθεύεσθαι
+              <lb n="20" xml:id="p13-19"/>τὰ βιβλία 〈ἔσθ’ ὅτε〉 διὰ φιλοτιμίαν βασιλέων. <milestone type="alt-edition" unit="folio" ed="cod. Mutinensis 69" n="13v"/> διὰ δὲ ὁμωνυμίαν συγγραφέων<note type="apparatus" n="20" target="#p13-19">ἔσθ’ ὅτε scripsi: evan. M (cf. v. 21. 26)</note>
+              <lb n="21" xml:id="p13-20"/>ἐνοθεύοντο ἔσθ’ ὅτε τὰ βιβλία, διότι μὴ εἷς καὶ μόνος Ἀριστοτέλης
+              <lb n="22" xml:id="p13-21"/>ὁ Σταγειρίτης ἐγένετο, ἀλλὰ καὶ ὁ ἐπίκλην Μῦθος, ἀλλὰ δὴ καὶ ὁ καλούμενος
+              <lb n="23" xml:id="p13-22"/>Παιδοτρίβης. δι’ ὁμωνυμίαν δὲ συγγραμμάτων ἐνοθεύοντο τὰ βιβλία,
+              <lb n="24" xml:id="p13-23"/>διότι μὴ μόνος Ἀριστοτέλης ἔγραψε Κατηγορίας, ἀλλὰ καὶ Θεόφραστος καὶ
+              <lb n="25" xml:id="p13-24"/>Εὔδημος, οἱ τούτου μαθηταί. πολλάκις οὖν τις περιτυχὼν ταῖς Κατηγορίαις
+              <lb n="26" xml:id="p13-25"/>Θεοφράστου, εἰ τύχοι, ἐνόμισεν αὐτὰς εἶναι Ἀριστοτέλους. ἔσθ’ ὅτε δὲ<note type="apparatus" n="26" target="#p13-25">ἀριστοτέλης M¹</note>
+              <lb n="27" xml:id="p13-26"/>οὐδὲ διὰ ὁμωνυμίαν συγγραφέων ἐνοθεύοντο τὰ βιβλία οὐδὲ διὰ ὁμωνυμίαν
+              <lb n="28" xml:id="p13-27"/>συγγραμμάτων, ἀλλὰ διὰ ὁμωνυμίαν ὑπομνημάτων, διότι πολλάκις ὑπόμνημά
+              <lb n="29" xml:id="p13-28"/>τις ἐποίησεν εἰς ὁμώνυμον πραγματείαν καὶ ἐνομίσθη ἄλλης εἶναι· ὥσπερ
+              <lb n="30" xml:id="p13-29"/>οὖν καὶ Θεόφραστος ἐποίησεν ὑπόμνημα εἰς τὰς οἰκείας Κατηγορίας, καὶ
+              <lb n="31" xml:id="p13-30"/>πολλάκις τις ἀποπλανᾶται ὅτι τῶν Ἀριστοτέλους ἐστὶ τὸ ὑπόμνημα. ἢ
+              <lb n="32" xml:id="p13-31"/>πολλάκις ἐντυγχάνων τις τῷ ὑπομνήματι Ἀλεξάνδρου τοῦ Ἀφροδισιέως εἰς<note type="apparatus" n="32" target="#p13-31">ante εἰς add. ἐν (sic) M</note>
+              <lb n="33" xml:id="p13-32"/>τὰς Κατηγορίας ἐνόμιζεν αὐτὸ πάντως εἶναι τῶν Ἀριστοτέλους, λανθάνον
+              <lb n="34" xml:id="p13-33"/>ὅτι οὐ μόνον γέγραπται αὐτῷ εἰς τὰς Ἀριστοτέλους ἀλλὰ καὶ εἰς τὰς Θεοφράστου.
+              <lb n="35" xml:id="p13-34"/>ἔστι δὲ ὅτε δι’ εὐγνωμοσύνην μαθητῶν πρὸς διδάσκαλον ἐνοθεύοντο
+              <lb n="36" xml:id="p13-35"/>τὰ βιβλία, ὥσπερ πάντα τὰ συγγράμματα τὰ ἐπιγεγραμμένα Πυθαγόρου· ὁ
+              <lb n="37" xml:id="p13-36"/>γὰρ Πυθαγόρας οὐκ ἀπέλειψεν οἰκεῖον σύγγραμμα, λέγων ὅτι οὐ δεῖ ἄψυχα
+              <lb n="38" xml:id="p13-37"/>καταλιμπάνειν συγγράμματα, ἐπειδὴ μὴ δύναται ὑπὲρ ἑαυτῶν <milestone type="alt-edition" unit="folio" ed="cod. Mutinensis 69" n="14r"/> ἀπολογεῖσθαι,<note type="apparatus" n="38" target="#p13-37">ἐπειδὴ scripsi: εἰ ἤδη M</note>
+              <lb n="39" xml:id="p13-38"/>ἀλλὰ δὴ καταλιμπάνειν ἔμψυχα συγγράμματα, τοῦτ’ ἔστι μαθητάς, οἵτινες
+            </p>
+            <pb n="14" facs="https://archive.org/download/commentariaina12pt12akaduoft/page/n31.jpg"/>
+            <p>
+              <lb n="1" xml:id="p14-0"/>καὶ ὑπὲρ ἑαυτῶν καὶ τῶν ἰδίων διδασκάλων δύνανται συμμαχεῖν. οἱ οὖν
+              <lb n="2" xml:id="p14-1"/>μαθηταὶ αὐτοῦ δι’ εὔνοιαν ποιήσαντες συγγράμματα ἐπέγραψαν τὸ ὄνομα
+              <lb n="3" xml:id="p14-2"/>Πυθαγόρου. καὶ διὰ ταύτην τὴν αἰτίαν νόθα εἰσὶ πάντα τὰ ἐξ ὀνόματος
+              <lb n="4" xml:id="p14-3"/>Πυθαγόρου προσφερόμενα συγγράμματα.
+              <lb n="5" xml:id="p14-4"/>Ἡ δὲ εἰς τὰ μόρια διαίρεσις σαφής ἐστι περὶ Ἀριστοτέλους καὶ σύνοπτος
+              <lb n="6" xml:id="p14-5"/>κατὰ ζῆλον γεωμετρικῶν· ὥσπερ γὰρ ἐκεῖνοι πρῶτα παραλαμβάνουσι τὰ<note type="apparatus" n="6" target="#p14-5">γεωμετρικόν M</note>
+              <lb n="7" xml:id="p14-6"/>λήμματα καὶ τὰ αἰτήματα, καὶ εἶτα οὕτως ἐπιφέρουσι τὰ θεωρήματα, οὕτω
+              <lb n="8" xml:id="p14-7"/>καὶ Ἀριστοτέλης πρῶτα διδάσκει τὰ πρὸς τὴν χρείαν τοῦ συγγράμματος
+              <lb n="9" xml:id="p14-8"/>καὶ οὕτως αὐτὰ τὰ προκείμενα. ὡς ἐντεῦθεν σαφῆ γίνεσθαι τὰ κεφάλαια.
+              <lb n="10" xml:id="p14-9"/>καὶ ἐν τούτοις στήσωμεν τὴν παροῦσαν θεωρίαν, ἐπειδὴ καὶ πέρας εἴληφεν
+              <lb n="11" xml:id="p14-10"/>ἡ διδασκαλία τῶν προλαμβανομένων τῆς Ἀριστοτέλους φιλοσοφίας.
+            </p>
+          </div>
+        </div>
+        <div type="textpart" subtype="chapter" n="5">
+          <head><lb n="12" xml:id="p14-11"/>Θεωρία δʹ.</head>
+          <div type="textpart" subtype="section" n="0">
+            <p>
+              <lb n="13" xml:id="p14-12"/>Ἐπειδὴ τῶν προλεγομένων ἀρχόμενοι πρὸς τρία τινὰ τὴν διδασκαλίαν
+              <lb n="14" xml:id="p14-13"/>ὑπισχνούμεθα ποιήσασθαι, πρός τε πᾶσαν φιλοσοφίαν, τὴν ἐπιστήμην φημί,<note type="apparatus" n="14" target="#p14-13">ὑπισχν.] p. 1,8 an ποιήσεσθαι?</note>
+              <lb n="15" xml:id="p14-14"/>καὶ πρὸς τὴν μέθοδον, τοῦτ’ ἔστι τὴν λογικήν, καὶ πρὸς τὸ σύγγραμμα, τοῦτ’
+              <lb n="16" xml:id="p14-15"/>ἔστι τὰς Κατηγορίας, φέρε διανύσαντες τὸ πρῶτον τῶν προτεθέντων ἡμῖν
+              <lb n="17" xml:id="p14-16"/>εἰς ἐξέτασιν ἐπὶ τὸ δεύτερον εὐτάκτως χωρήσωμεν, ἐπὶ τὴν μέθοδόν φημι,
+              <lb n="18" xml:id="p14-17"/>ζητοῦντες εἰ μέρος ἢ ὄργανον ἡ λογικὴ τῆς φιλοσοφίας. δεῖ <milestone type="alt-edition" unit="folio" ed="cod. Mutinensis 69" n="14v"/> τοίνυν εἰδέναι
+              <lb n="19" xml:id="p14-18"/>ὅτι διάφοροι δόξαι γεγόνασι περὶ ταύτης, τῶν μὲν Στωϊκῶν μέρος αὐτὴν<note type="apparatus" n="19" target="#p14-18">στοϊκῶν (constanter) M</note><note type="apparatus" n="19-20" target="#p14-18 #p14-19">Στωϊκῶν .. Περιπατητικῶν] cf. Zelleri Ph. Gr. IIb p. 182,5 IIIa p. 60</note>
+              <lb n="20" xml:id="p14-19"/>εἶναι νομιζόντων, τῶν δὲ Περιπατητικῶν ὄργανον, τοῦ δὲ θείου Πλάτωνος<note type="apparatus" n="20" target="#p14-19">νομιζόντων scripsi: νομίζοντες M</note>
+              <lb n="21" xml:id="p14-20"/>μέρος ἅμα καὶ ὄργανον, μέρος μὲν αὐτὴν εἶναι λέγοντος ἐν Φαίδρῳ, ἔνθα<note type="apparatus" n="21" target="#p14-20">λέγοντος scripsi: λέγων M ἐν Φαίδρῳ] potius in Reipubl. VII 14 p. 534 E</note>
+              <lb n="22" xml:id="p14-21"/>λόγον ἐπέχειν φησὶν αὐτὴν τριγχοῦ πρὸς τὴν φιλοσοφίαν, ὄργανον δὲ ἐν<note type="apparatus" n="22" target="#p14-21">αὐτὴν scripsi: αὐτὸν M</note><note type="apparatus" n="22-23" target="#p14-21 #p14-22">ἐν Φαίδωνι] potius Parm. p. 135 D (cf. El. p. 119,5)</note>
+              <lb n="23" xml:id="p14-22"/>Φαίδωνι, ἔνθα φησὶν ‘ὦ παῖ, γύμναζε σεαυτὸν διὰ τῆς καλουμένης ἀδολεσχίας,
+              <lb n="24" xml:id="p14-23"/>ἕως ἔτι νέος εἶ, εἰ δὲ μή, ἐκφεύξεταί σε τὸ ἀληθές’, οὐδὲν ἄλλο<note type="apparatus" n="24" target="#p14-23">ἕως El.: ὡς M εἰ δὲ Plat.: ἵνα M ἐκφεύξηται M σε Plat. El.: σοι M</note>
+              <lb n="25" xml:id="p14-24"/>διὰ τούτων ἐνδεικνύμενος ὁ Πλάτων ἢ ὅτι ὄργανόν ἐστιν ἡ λογικὴ τῆς
+              <lb n="26" xml:id="p14-25"/>φιλοσοφίας· οὐ γὰρ εἶχέν ποτε τολμῆσαι καὶ εἰπεῖν ἀδολεσχίαν καὶ γυμνασίαν
+              <lb n="27" xml:id="p14-26"/>τὸ μέρος. ἀλλὰ ταῦτα μὲν ὁ Πλάτων.
+              <lb n="28" xml:id="p14-27"/>Οἱ δὲ Στωϊκοὶ διὰ δύο ἐπιχειρημάτων τὴν ἰδίαν δόξαν ἠβούλοντο
+              <lb n="29" xml:id="p14-28"/>πιστώσασθαι, ὧν τὸ πρῶτον τοιαύτην ἔχει τὴν ἀγωγήν: πᾶν, ᾧ κέχρηταί
+              <lb n="30" xml:id="p14-29"/>τις ἢ τέχνη ἢ ἐπιστήμη, ἐὰν μὴ ᾖ ἑτέρας τέχνης ἢ ἐπιστήμης 〈ἢ μέρος<note type="apparatus" n="30-31" target="#p14-29 #p14-30">ἢ μέρος— κεχρημ. ex p. 15,19 inserui</note>
+              <lb n="31" xml:id="p14-30"/>ἢ μόριον, αὐτῆς τῆς κεχρημένης〉 ἢ μέρος ἢ μόριόν ἐστιν. οἷον ὡς
+              <lb n="32" xml:id="p14-31"/>ἐπὶ παραδειγμάτων· τῆς ἰατρικῆς τέχνης μέρος ἐστὶ τὸ διαιτητικόν, καὶ
+              <lb n="33" xml:id="p14-32"/>οὐδαμῶς ἑτέρας τέχνης ἢ ἐπιστήμης μέρος ἢ μόριόν ἐστι· τῆς ἰατρικῆς
+              <lb n="34" xml:id="p14-33"/>ἄρα τέχνης τὸ διαιτητικὸν μέρος ἐστί, καὶ αὕτη μόνη κέχρηται
+            </p>
+            <pb n="15" facs="https://archive.org/download/commentariaina12pt12akaduoft/page/n32.jpg"/>
+            <p>
+              <lb n="1" xml:id="p15-0"/>αὐτῷ. εἰ τοίνυν καὶ ἡ φιλοσοφία κέχρηται τῇ λογικῇ, ἑτέρα δὲ τέχνη ἢ<note type="apparatus" n="1" target="#p15-0">αὐτό M</note>
+              <lb n="2" xml:id="p15-1"/>ἐπιστήμη ταύτῃ οὐ κέχρηται, τῆς ἄρα φιλοσοφίας μέρος ἢ μόριον ἡ λογική.
+              <lb n="3" xml:id="p15-2"/>ἀλλὰ μὴν οὐ μόριον· μέρος ἄρα. καλῶς δὲ πρόσκειται τῷ λόγῳ τὸ ‘ἐὰν<note type="apparatus" n="3" target="#p15-2">πρόκειται M</note>
+              <lb n="4" xml:id="p15-3"/>μὴ ᾖ ἑτέρας τέχνης ἢ ἐπιστήμης’ διὰ τὴν ἀστρονομίαν. ἐκινδύνευεν γὰρ<note type="apparatus" n="4" target="#p15-3">ᾖ] ἐστὶν M (cf. p. 14,30)</note>
+              <lb n="5" xml:id="p15-4"/>ἡ ἀστρονομία μέρος εἶναι τῆς κυβερνητικῆς, ἐπειδὴ κέχρηται αὐτῇ, ὡς
+              <lb n="6" xml:id="p15-5"/>δηλοῖ <milestone type="alt-edition" unit="folio" ed="cod. Mutinensis 69" n="15r"/> Ἄρατος λέγων περὶ τῆς ἄρκτου<note type="apparatus" n="6" target="#p15-5">Ἄρατος] Phaenom. 44</note>
+              <lb n="7" xml:id="p15-6"/>τῇ καὶ Σιδόνιοι ἰθύντατα ναυτίλλονται,<note type="apparatus" n="7" target="#p15-6">σιδώνιοι M ἰθύτατα M ναυτήλονται M</note>
+              <lb n="8" xml:id="p15-7"/>εἰ μὴ προϋπῆρχεν μέρος οὖσα τῆς φιλοσοφίας· ὑπὸ γὰρ τὸ θεωρητικὸν ἀνάγεται,
+              <lb n="9" xml:id="p15-8"/>καὶ τὸ θεωρητικὸν ὑπὸ τὸ μαθηματικόν. καὶ ἡ μὲν τοῦ ἐπιχειρήματος
+              <lb n="10" xml:id="p15-9"/>ἀγωγὴ τοῦτον ἔχει τὸν τρόπον. ἔστι δὲ ἐλέγξαι αὐτὸ συντόμως καὶ
+              <lb n="11" xml:id="p15-10"/>ῥᾳδίως διὰ τῆς τοῦ φλεβοτόμου ἀποδείξεως· φαίη γὰρ ἄν τις πρὸς αὐτούς·
+              <lb n="12" xml:id="p15-11"/>ὅτι τὸ φλεβοτόμον τίνος ἐστίν; ἢ μόνης ἰατρικῆς; ἤ τινες ἄλλοι τούτῳ<note type="apparatus" n="12" target="#p15-11">τοῦτο M1</note>
+              <lb n="13" xml:id="p15-12"/>κέχρηνται ἢ μόνοι ἰατροί; καὶ ὅμως τῶν εὖ φρονούντων οὐδεὶς μέρος τῆς
+              <lb n="14" xml:id="p15-13"/>ἰατρικῆς καλέσει εἶναι τὸ φλεβοτόμον, εἴ γε τὸ μὲν σῶμα, τὸ φλεβοτόμον,<note type="apparatus" n="14" target="#p15-13">an καλέσαι?</note>
+              <lb n="15" xml:id="p15-14"/>τὸ δὲ ἀσώματον, ἡ ἰατρική· οὐδέποτε δὲ τὸ σῶμα τοῦ ἀσωμάτου μέρος
+              <lb n="16" xml:id="p15-15"/>ἐστί. πόθεν οὖν ὁ παραλογισμὸς προῆλθεν; λέγω τοίνυν, διότι τὸ ζητούμενον<note type="apparatus" n="16" target="#p15-15">λέγει M1</note>
+              <lb n="17" xml:id="p15-16"/>ἐν τῷ ἐπιχειρήματι παραλέλειπται· ἔδει γὰρ αὐτοὺς οὕτως εἰπεῖν· ὅτι πᾶν,
+              <lb n="18" xml:id="p15-17"/>ᾧ κέχρηταί τις ἢ τέχνη ἢ ἐπιστήμη, ἐὰν μὴ ᾖ ἑτέρας τέχνης ἢ ἐπιστήμης
+              <lb n="19" xml:id="p15-18"/>ἢ μέρος ἢ μόριον ἢ ὄργανον, αὐτῆς τῆς κεχρημένης ἢ μέρος ἢ μόριόν ἐστι
+              <lb n="20" xml:id="p15-19"/>ἢ ὄργανον. ἀλλὰ μὴν καὶ τῇ λογικῇ οὐδεμία ἄλλη τις κέχρηται ἢ μόνη ἡ
+              <lb n="21" xml:id="p15-20"/>φιλοσοφία· ταύτης ἄρα τῆς χρωμένης μέρος ἢ μόριόν ἐστιν ἢ ὄργανον.
+              <lb n="22" xml:id="p15-21"/>ἀλλὰ μὴν οὐκ ἔστι μέρος ἢ μόριον ἡ λογική, ὡς δέδεικται· ὄργανον ἄρα
+              <lb n="23" xml:id="p15-22"/>ἐστί. καὶ ἐν τούτοις ἡ ἀγωγὴ τοῦ πρώτου λόγου. δεύτερος λόγος τοιαύτην
+              <lb n="24" xml:id="p15-23"/>ἔχων τὴν ἀγωγήν· ἡ λογικὴ προβάλλεται ὑπὸ τῆς φιλοσοφίας· πᾶν τὸ προβαλλόμενον
+              <lb n="25" xml:id="p15-24"/>ὑπό τινος μέρος ἐστὶ τοῦ προβάλλοντος· ἡ λογικὴ ἄρα ὡς προβληθεῖσα
+              <lb n="26" xml:id="p15-25"/>ὑπὸ τῆς φιλοσοφίας μέρος αὐτῆς ἐστι. ψευδὴς δὲ καὶ οὗτος ὁ
+              <lb n="27" xml:id="p15-26"/>λόγος καθέστηκεν· <milestone type="alt-edition" unit="folio" ed="cod. Mutinensis 69" n="15v"/> αὐτίκα γοῦν ὁ μὲν χαλκεὺς ἑαυτῷ 〈ἄκμονα〉 προβάλλεται<note type="apparatus" n="27" target="#p15-26">ἄκμονα ex Philoponi, qui dicitur, de arte logica disputatione inserui (vide Praef.)</note>
+              <lb n="28" xml:id="p15-27"/>καὶ ὁ τέκτων, εἰ τύχοι, σφῦραν, καὶ οὐδέτερον οὐδετέρου μέρος ἐστί. καὶ
+              <lb n="29" xml:id="p15-28"/>οἱ μὲν τῶν Στωικῶν λόγοι τοιαύτην ἔχουσι τὴν ἀγωγήν, δεικνύναι ἐπειγόμενοι<note type="apparatus" n="29" target="#p15-28">δεικνύντες M1</note>
+              <lb n="30" xml:id="p15-29"/>τὴν λογικὴν μέρος οὖσαν τῆς φιλοσοφίας.<note type="apparatus" n="30" target="#p15-29">μέρος M2: ὄργανον M1</note>
+              <lb n="31" xml:id="p15-30"/>Οἱ δὲ τῶν Περιπατητικῶν λόγοι, τρεῖς ὄντες τὸν ἀριθμόν, τοιαύτην<note type="apparatus" n="31" target="#p15-30">τρεῖς ὄντες scripsi: τριῶν ὄντων M</note>
+              <lb n="32" xml:id="p15-31"/>ἔχουσι τὴν ἀγωγήν, οἱ πρεσβεύοντες εἶναι ὄργανον τὴν λογικήν. καὶ ὁ μὲν
+              <lb n="33" xml:id="p15-32"/>πρῶτος αὐτῶν τοῦτον ἔχει τὸν τρόπον· ἐὰν ὦσι, φασί, δύο τέχναι καὶ κέχρηται<note type="apparatus" n="33" target="#p15-32">φασί scripsi: φησί M an χρῆται?</note>
+              <lb n="34" xml:id="p15-33"/>ἡ ἑτέρα τῷ ἀποτελέσματι τῆς ἑτέρας, ἡ κεχρημένη κρείττων ἐστὶ τῆς ἀποτελεσάσης·<note type="apparatus" n="34" target="#p15-33">κρεῖττον M</note>
+              <lb n="35" xml:id="p15-34"/>οἷον ὡς ἔχει ἐπὶ χαλινοποιητικῆς καὶ ἱππικῆς· ἡ μὲν γὰρ χαλινοποιητικὴ
+              <lb n="36" xml:id="p15-35"/>χαλινὸν ἐποίησεν, ἡ δὲ ἱππικὴ τούτῳ ἐχρήσατο· οὐκοῦν ἄρα ἡ
+              <lb n="37" xml:id="p15-36"/>ἱππικὴ ὡς κεχρημένη τῷ ἀποτελέσματι τῆς χαλινοποιητικῆς κρείττων αὐτῆς
+              <lb n="38" xml:id="p15-37"/>ὑπάρχει. οὕτω καὶ ἡ κυβερνητικὴ ναυπηγικῆς ἐστι τιμιωτέρα, διότι τῷ
+            </p>
+            <pb n="16" facs="https://archive.org/download/commentariaina12pt12akaduoft/page/n33.jpg"/>
+            <p>
+              <lb n="1" xml:id="p16-0"/>πλοίῳ κέχρηται ἡ κυβερνητικὴ ἀποτελέσματι ὄντι τῆς ναυπηγικῆς. εἰ δὲ
+              <lb n="2" xml:id="p16-1"/>τοῦτο, ἐπειδὴ ἡ μὲν φιλοσοφία ποιεῖ τὴν λογικήν, κέχρηνται δὲ αἱ ἄλλαι
+              <lb n="3" xml:id="p16-2"/>πᾶσαι τέχναι τῷ ἀποτελέσματι τῆς λογικῆς, οἷον ἰατρική, γραμματική,<note type="apparatus" n="3" target="#p16-2">λογικῆς] an φιλοσοφίας?</note>
+              <lb n="4" xml:id="p16-3"/>ῥητορική, καὶ ἁπλῶς εἰπεῖν αἱ παραπλήσιοι τέχναι, εὑρεθήσεται ἄρα ἡ
+              <lb n="5" xml:id="p16-4"/>φιλοσοφία τῶν ἄλλων τεχνῶν τῶν κεχρημένων τῷ ταύτης προβλήματι, λέγω
+              <lb n="6" xml:id="p16-5"/>δὴ τῇ λογικῇ, * * κρείττους τῆς φιλοσοφίας, ἐπεὶ ἀτοπίας πάσης ἐστὶν<note type="apparatus" n="6" target="#p16-5">τῇ λογικῇ scripsi: τῆς λογικῆς M ante κρείττους lac. signavi; conicias χείρων οὖσα. νῦν δὲ αἱ ἄλλαι τέχναι οὐκ εἰσι</note>
+              <lb n="7" xml:id="p16-6"/>ἐπέκεινα· τίς γὰρ ἂν εἰς τοσαύτην ἔλθοι ἀναίδειαν ὥστε τὴν μητέρα ὅλων
+              <lb n="8" xml:id="p16-7"/>τῶν τεχνῶν χείρονα ὀνομάσαι τῶν κατὰ μέρος τεχνῶν; εἰ μὴ <milestone type="alt-edition" unit="folio" ed="cod. Mutinensis 69" n="16r"/> οὖν μέρος
+              <lb n="9" xml:id="p16-8"/>ἐστὶ διὰ τὸ ἄτοπον τοῦτο, ὄργανον ἄρα ἐστὶ τῆς φιλοσοφίας ἡ λογική. καὶ
+              <lb n="10" xml:id="p16-9"/>ἐν τούτοις ἡ ἐπαγωγὴ τοῦ πρώτου ἐπιχειρήματος. δεύτερον ἐπιχείρημα
+              <lb n="11" xml:id="p16-10"/>τοιαύτην ἔχον τὴν ἀγωγήν· τὸ μέρος τῷ ὅλῳ τὴν αὐτὴν θέλει ἔχειν ὕλην
+              <lb n="12" xml:id="p16-11"/>καὶ τὸ αὐτὸ τέλος· ἡ λογικὴ οὐδὲ τὴν αὐτὴν ὕλην ἔχει τῷ ὅλῳ, φημὶ δὴ
+              <lb n="13" xml:id="p16-12"/>τῇ φιλοσοφίᾳ, οὐδὲ τὸ αὐτὸ τέλος· ἡ λογικὴ ἄρα οὐκ ἔστι μέρος τῆς φιλοσοφίας
+              <lb n="14" xml:id="p16-13"/>ἀλλὰ ὄργανον. κατασκευάσωμεν δὲ ἑκατέραν τῶν προτάσεων, καὶ<note type="apparatus" n="14" target="#p16-13">ἑκάτερα M</note>
+              <lb n="15" xml:id="p16-14"/>τὴν μὲν μείζονα οὕτω τὴν λέγουσαν ὅτι τὸ μέρος τὴν αὐτὴν ὕλην ἔχει τῷ<note type="apparatus" n="15" target="#p16-14">οὕτω] an τούτων?</note>
+              <lb n="16" xml:id="p16-15"/>ὅλῳ καὶ τὸ αὐτὸ τέλος λέγοντες οὕτως· ὅτι ἀληθές ἐστι τὸ λεγόμενον·
+              <lb n="17" xml:id="p16-16"/>αὐτίκα γοῦν τὸ διαιτητικὸν μέρος ἐστὶ τῆς ἰατρικῆς τὴν αὐτὴν ὕλην ἔχον
+              <lb n="18" xml:id="p16-17"/>τῇ ἰατρικῇ, τὰ ἀνθρώπινα σώματά φημι, καὶ τὸ αὐτὸ τέλος, οἷον τὴν ὑγίειαν·
+              <lb n="19" xml:id="p16-18"/>ἀμφότερα γὰρ τὴν ὑγείαν πραγματεύονται. ἔρρωται ἄρα τέως ἡ μείζων
+              <lb n="20" xml:id="p16-19"/>πρότασις. οὐχ ἥκιστα δὲ καὶ ἡ ἐλάττων ἔρρωται ἡ λέγουσα ὅτι ἡ λογικὴ
+              <lb n="21" xml:id="p16-20"/>οὐδὲ τὴν αὐτὴν ὕλην ἔχει τῷ ὅλῳ οὐδὲ τὸ αὐτὸ τέλος· κατὰ ἀλήθειαν
+              <lb n="22" xml:id="p16-21"/>γὰρ οὐχ ἡ αὐτὴ ὕλη λογικῆς καὶ φιλοσοφίας, ἀλλὰ τῆς μὲν λογικῆς εἰσιν<note type="apparatus" n="22" target="#p16-21">τῆς .. λογικῆς Philop.: ἡ .. λογικὴ M</note><note type="apparatus" n="22" target="#p16-21">εἰσὶν] ἔστιν M</note>
+              <lb n="23" xml:id="p16-22"/>αἱ φωναί, τῆς δὲ φιλοσοφίας τὰ πράγματα, ὡς ὁρισμὸς δηλοῖ ὁ λέγων αὐτὴν
+              <lb n="24" xml:id="p16-23"/>γνῶσιν εἶναι θείων τε καὶ ἀνθρωπίνων πραγμάτων. ἀλλ’ οὐδὲ μὴν τὸ αὐτὸ
+              <lb n="25" xml:id="p16-24"/>τέλος ἑκατέρας ἐστίν, ἀλλὰ τέλος μέν ἐστι φιλοσοφίας ἡ ἐξομοίωσις θεῷ
+              <lb n="26" xml:id="p16-25"/>κατὰ τὸ δυνατὸν ἀνθρώποις, ὡς εἴρηται, τῆς δὲ λογικῆς ἡ τῆς ἀποδείξεως<note type="apparatus" n="26" target="#p16-25">ὡς εἴρηται] spectat suum in Isagogen comm.</note>
+              <lb n="27" xml:id="p16-26"/>γένεσις. εἰ τοίνυν ἑκατέρα τῶν προτάσεων εὖ ἡμῖν συλλελόγισταί πως,
+              <lb n="28" xml:id="p16-27"/>καὶ τὸ συμπέρασμα πῶς οὐκ ἂν εἴη ἀληθές; καὶ ἐν τούτοις ἡ ἀγωγὴ τοῦ
+              <lb n="29" xml:id="p16-28"/>δευτέρου λόγου. <milestone type="alt-edition" unit="folio" ed="cod. Mutinensis 69" n="16v"/> τρίτον ἐπιχείρημα καὶ αὐτὸ τοιαύτην ἔχον τὴν ἀγωγήν·
+              <lb n="30" xml:id="p16-29"/>ἴδιον μέρους ἐστί, φασί, τὸ δι’ αὑτὸ παραλαμβάνεσθαι, ὀργάνου δὲ τὸ δι’
+              <lb n="31" xml:id="p16-30"/>ἕτερον παραλαμβάνεσθαι. εἰ δὲ ἡ λογικὴ οὐ δι’ ἑαυτὴν παραλαμβάνεται
+              <lb n="32" xml:id="p16-31"/>ἀλλὰ δι’ ἕτερον, διὰ τὴν ἀπόδειξιν, τὸ δὲ δι’ ἄλλο παραλαμβανόμενον τοῦ
+              <lb n="33" xml:id="p16-32"/>δι’ ὃ παραλαμβάνεται ὄργανόν ἐστιν, ἡ λογικὴ ἄρα οὐκ ἔστι μέρος τῆς
+              <lb n="34" xml:id="p16-33"/>φιλοσοφίας ἀλλ’ ὄργανον. ὅτι οὐ δὲ δι’ ἑαυτὴν παραλαμβάνεται ἡ λογικὴ
+              <lb n="35" xml:id="p16-34"/>ἀλλὰ δι’ ἕτερον, διὰ τὴν ἀπόδειξίν φημι, δῆλον ἐντεῦθεν· ἡ φύσις οὔτε
+              <lb n="36" xml:id="p16-35"/>πάντα ἡμᾶς ἔκρυψεν, ἐπεὶ ἀδύνατον ἦν ζητοῦντας ἡμᾶς εὑρεῖν, ἀλλ’ οὐδὲ<note type="apparatus" n="36" target="#p16-35">πάντα scripsi: πάντως M</note>
+              <lb n="37" xml:id="p16-36"/>μὴν πάντα ἡμῖν ἐφανέρωσεν, ἐπεὶ ἄτοπον ἦν καὶ περιττὸν τὸ ζητεῖν, ἀλλὰ
+              <lb n="38" xml:id="p16-37"/>τὰ μὲν δείξασα τὰ δὲ κρύψασα ζητητικοὺς ἡμᾶς καὶ εὑρετικοὺς ἀπετέλεσεν.
+              <lb n="39" xml:id="p16-38"/>εἴληπται οὖν ἡ λογικὴ ὡς μεθόδους ἡμῖν παρέχουσα, δι’ ὧν εὑρίσκειν
+            </p>
+            <pb n="17" facs="https://archive.org/download/commentariaina12pt12akaduoft/page/n34.jpg"/>
+            <p>
+              <lb n="1" xml:id="p17-0"/>δυνησόμεθα τὰ ὑπὸ τῆς φύσεως κεκρυμμένα· διὰ γὰρ τῶν ὑπ’ αὐτῆς δειχθέντων
+              <lb n="2" xml:id="p17-1"/>ἡμῖν τὰ μὴ δειχθέντα εὑρίσκομεν. καλῶς οὖν ἄρα συλλελόγισται
+              <lb n="3" xml:id="p17-2"/>ἡμῖν ὅτι δι’ ἕτερον παραλαμβάνεται ἡ λογικὴ καὶ διὰ τοῦτο ὄργανον ἂν κληθείη.
+              <lb n="4" xml:id="p17-3"/>Ὅτι δὲ εὖ λέγουσιν οἱ Περιπατητικοί, δείξωμεν καὶ ἡμεῖς δι’ ἑτέρων
+              <lb n="5" xml:id="p17-4"/>λόγων ὄργανον οὖσαν τὴν λογικήν, ἐπισφραγίζοντες τοὺς ἤδη εἰρημένους
+              <lb n="6" xml:id="p17-5"/>λόγους ὡς ἀληθείας μετέχοντας. τὸ μέρος συμπληρωτικόν ἐστι τῆς οὐσίας
+              <lb n="7" xml:id="p17-6"/>τοῦ πράγματος· ἀμέλει τοι παρὸν μὲν σώζει τὸ ὅλον ἀπὸν δὲ φθείρει· ἡ
+              <lb n="8" xml:id="p17-7"/>φιλοσοφία χωρὶς τῆς λογικῆς δύναται θεωρηθῆναι κατὰ φύσιν θεωρητική<note type="apparatus" n="8" target="#p17-7">θεωρεθῆναι M θεωριτική M</note>
+              <lb n="9" xml:id="p17-8"/>τε οὖσα καὶ πρακτική· ἡ λογικὴ ἄρα οὐκ ἔσται μέρος φιλοσοφίας <milestone type="alt-edition" unit="folio" ed="cod. Mutinensis 69" n="17r"/> ἀλλ’
+              <lb n="10" xml:id="p17-9"/>ὄργανον. ἀλλ’, ὡς εἴρηται, ἡμεῖς οἱ ἄνθρωποι τῆς λογικῆς ἐδεήθημεν<note type="apparatus" n="10" target="#p17-9">ὡς εἴρηται] p. 16,35</note>
+              <lb n="11" xml:id="p17-10"/>πρὸς ἀπόδειξιν, τῆς δὲ ἀποδείξεως εἰς κατάληψιν τῶν κεκρυμμένων. ἔστι
+              <lb n="12" xml:id="p17-11"/>δὲ καὶ ἕτερον λόγον κατασκευαστικὸν τοῦ αὐτοῦ εἰπεῖν τοιοῦτον· τὸ ὄργανον
+              <lb n="13" xml:id="p17-12"/>ἀναιρούμενον οὐκ ἀναιρεῖ τὸ ὅλον, ὡς ἔχει ἐπὶ σκεπάρνου καὶ τεκτονικῆς
+              <lb n="14" xml:id="p17-13"/>(τὸ γὰρ σκέπαρνον ἀναιρούμενον οὐκ ἀναιρεῖ τὸν τέκτονα)· ἡ λογικὴ ἀναιρουμένη
+              <lb n="15" xml:id="p17-14"/>οὐκ ἀναιρεῖ τὴν φιλοσοφίαν· ἡ λογικὴ ἄρα ὄργανον τῆς φιλοσοφίας.
+              <lb n="16" xml:id="p17-15"/>καὶ ἔστι τὸ αὐτὸ ἐπιχείρημα τοῦτο τῇ δυνάμει τῷ προλαβόντι, διαφέρον τῇ
+              <lb n="17" xml:id="p17-16"/>διαφόρῳ ἐπιβολῇ.
+              <lb n="18" xml:id="p17-17"/>Οἱ μὲν οὖν τῶν Περιπατητικῶν καὶ τῶν Στωϊκῶν λόγοι τοῦτον ἔχουσι<note type="apparatus" n="18" target="#p17-17">τοῦτον ex τούτων corr. M¹</note>
+              <lb n="19" xml:id="p17-18"/>τὸν τρόπον, ὁ δὲ θεῖος Πλάτων καὶ μέρος αὐτὴν οἴεται εἶναι καὶ ὄργανον,<note type="apparatus" n="19" target="#p17-18">Πλάτων] cf. Plotin. I, 3,5 p. 21</note>
+              <lb n="20" xml:id="p17-19"/>ὅθεν οὐ δεῖται κατασκευῆς· ἀμφότεροι γάρ, φησίν, ἐμοὶ νικᾶτε· διὰ τοῦτο<note type="apparatus" n="20-22" target="#p17-19 #p17-20 #p17-21">νικᾶται et ἀληθεύεται M¹</note>
+              <lb n="21" xml:id="p17-20"/>γὰρ ἐπιχειρήματα εὐπορεῖτε ἑκάτεροι, διότι ἡ λογικὴ τῆς φιλοσοφίας καὶ
+              <lb n="22" xml:id="p17-21"/>μέρος ἐστὶ καὶ ὄργανον, καὶ ἀληθεύετε, ἄνδρες, καὶ μάχεσθε πρὸς ἀλλήλους
+              <lb n="23" xml:id="p17-22"/>μὴ μαχόμενοι· καὶ γὰρ μέρος ἐστὶ καὶ ὄργανον. καὶ μὴ νομίσητε κατὰ
+              <lb n="24" xml:id="p17-23"/>τὸ αὐτὸ λέγειν με τοῦτο· κατ’ ἄλλο γὰρ καὶ ἄλλο μέρος ἐστὶ καὶ ὄργανον,
+              <lb n="25" xml:id="p17-24"/>ὡς ἔστι ἐπὶ χειρὸς ἐξετάσαι τὸν λόγον καὶ τοῦ ξέστου· καὶ γὰρ ἡ χεὶρ καὶ
+              <lb n="26" xml:id="p17-25"/>μέρος ἐστὶ καὶ ὄργανον, μέρος μὲν τοῦ ὅλου σώματος ὄργανον δὲ δόσεως
+              <lb n="27" xml:id="p17-26"/>καὶ λήψεως. ὁμοίως καὶ ὁ ξέστης καὶ μέρος καὶ ὄργανόν ἐστι· ἐπειδὴ γὰρ
+              <lb n="28" xml:id="p17-27"/>διττὸς ὁ ξέστης, ὁ μὲν μετρῶν ὁ δὲ μετρούμενος, δυνατὸν μέρος μὲν εἰπεῖν
+              <lb n="29" xml:id="p17-28"/>τὸν μετρούμενον ὄργανον δὲ τὸν μετροῦντα. ὥσπερ οὖν ἐπὶ τούτων ἐδείξαμεν
+              <lb n="30" xml:id="p17-29"/>ὅτι οὐκ ἀπεικὸς τὸ αὐτὸ κατ’ ἄλλο καὶ ἄλλο καὶ μέρος εἶναι<note type="apparatus" n="30" target="#p17-29">ἀπεικῶς M</note><milestone type="alt-edition" unit="folio" ed="cod. Mutinensis 69" n="17v"/>
+              <lb n="31" xml:id="p17-30"/>καὶ ὄργανον, οὕτω καὶ ἐπὶ τῆς λογικῆς οὐδὲν ἄτοπον ἡμῖν συμβήσεται
+              <lb n="32" xml:id="p17-31"/>λέγουσιν αὐτὴν εἶναι καὶ μέρος καὶ ὄργανον· ὄργανον μὲν ὅτε ἐν ψιλοῖς
+              <lb n="33" xml:id="p17-32"/>κανόσι θεωρεῖται, ὡς ὅτε εἴπω ὅτι ‘ἐκ δύο καθόλου καταφατικῶν καθόλου
+              <lb n="34" xml:id="p17-33"/>καταφατικὸν συνάγεται συμπέρασμα’, μέρος δὲ ὅτε μετὰ τῶν πραγμάτων
+              <lb n="35" xml:id="p17-34"/>αὐτῶν παραλαμβάνεται, ὡς ὅτε εἴπω ὅτι ‘ἡ ψυχὴ αὐτοκίνητος, τὸ αὐτοκίνητον
+              <lb n="36" xml:id="p17-35"/>ἀθάνατον, ἡ ψυχὴ ἄρα ἀθάνατος’, καὶ πάλιν ‘πᾶν δίκαιον ἀγαθόν,
+              <lb n="37" xml:id="p17-36"/>πᾶν ἀγαθὸν καλόν, πᾶν ἄρα δίκαιον καλόν’. καὶ ἄξιον θαυμάσαι τόν τε
+              <lb n="38" xml:id="p17-37"/>Πλάτωνα καὶ Ἀριστοτέλη, καὶ τοῦ μὲν Ἀριστοτέλους ὡς χωρίσαντος καὶ
+              <lb n="39" xml:id="p17-38"/>ἐφευρόντος ἄνευ πράγματος τοὺς κανόνας, Πλάτωνος δὲ χωρὶς κανόνων
+            </p>
+            <pb n="18" facs="https://archive.org/download/commentariaina12pt12akaduoft/page/n35.jpg"/>
+            <p>
+              <lb n="1" xml:id="p18-0"/>κεχρημένου τῇ ἀποδείξει· οἱ γὰρ παλαιοὶ ἀποδεῖξαι μὲν ᾔδεισαν, ἀπόδειξιν<note type="apparatus" n="1" target="#p18-0">οἱ γὰρ παλαιοὶ] cf. Arist. vit. p. 441,10 Rose</note><note type="apparatus" n="1-2" target="#p18-0 #p18-1">εἴδεισαν M (bis)</note>
+              <lb n="2" xml:id="p18-1"/>δὲ ποιῆσαι [ἀντὶ τοῦ μέθοδον ἀποδεικτικήν] οὐκ ᾔδεισαν, ταὐτὸ πάσχοντες<note type="apparatus" n="2" target="#p18-1">ἀντὶ -ἀποδεικτικήν delevi ταὐτὸ Arist. vit.: ταυτὶ M</note>
+              <lb n="3" xml:id="p18-2"/>τοῖς κεχρημένοις μὲν ὑποδήμασι, σκυτοτομεῖν δὲ ἀγνοοῦσι. καὶ οὐ διὰ τοῦτο
+              <lb n="4" xml:id="p18-3"/>χείρονα τὸν Πλάτωνα τοῦ Ἀριστοτέλους οἰητέον, ἀλλὰ τὸ ἐναντίον καὶ
+              <lb n="5" xml:id="p18-4"/>κρείττονα· οὐδὲ γὰρ ἀποδεικνὺς ἐκεῖνος τῆς Ἀριστοτέλους ἀποδεικτικῆς<note type="apparatus" n="5" target="#p18-4">οὐδὲ] οὔτε M</note>
+              <lb n="6" xml:id="p18-5"/>μεθόδου ἐδεήθη, ἀλλὰ τοὐναντίον Ἀριστοτέλης τῆς Πλάτωνος ἀποδείξεως.
+              <lb n="7" xml:id="p18-6"/>οὕτω γοῦν καὶ Ὅμηρος καὶ Δημοσθένης οὐκ ἐδεήθησαν οὔτε τοῦ Περὶ
+              <lb n="8" xml:id="p18-7"/>ποιητικῆς Ἀριστοτέλους οὔτε τῆς Ἑρμογένους τέχνης, ἀλλὰ τοὐναντίον
+              <lb n="9" xml:id="p18-8"/>αὐτοὶ τούτων ἐδεήθησαν, ἵνα τὰς μεθόδους συστήσονται ἐκ τῶν συγγραμμάτων
+              <lb n="10" xml:id="p18-9"/>αὐτῶν. τοῦτο πέρας τῆς προκειμένης θεωρίας, ἐπειδὴ <milestone type="alt-edition" unit="folio" ed="cod. Mutinensis 69" n="18r"/> καὶ περὶ
+              <lb n="11" xml:id="p18-10"/>τῆς ζητήσεως τῆς λογικῆς, πότερον μέρος ἢ ὄργανον τῆς φιλοσοφίας, καθέστηκεν.
+              <lb n="12" xml:id="p18-11"/>
+            </p>
+          </div>
+        </div>
+        <div type="textpart" subtype="chapter" n="6">
+          <head><lb n="13" xml:id="p18-12"/>Ἀρχὴ τῆς εʹ θεωρίας.</head>
+          <div type="textpart" subtype="section" n="0">
+            <p>
+              <lb n="14" xml:id="p18-13"/>Ἐπειδὴ διὰ τὰς Κατηγορίας ἀνήλθαμεν ἐπὶ τὴν λογικήν, διὰ δὲ τὴν
+              <lb n="15" xml:id="p18-14"/>λογικὴν ἐφ’ ὅλην τὴν Ἀριστοτέλους φιλοσοφίαν, διανύσαντες τὴν περὶ τούτων
+              <lb n="16" xml:id="p18-15"/>θεωρίαν, εὖ φέρε λοιπὸν τὴν περὶ αὐτοῦ τοῦ προκειμένου, τοῦτ’ ἔστι
+              <lb n="17" xml:id="p18-16"/>τῶν Κατηγοριῶν, ζήτησιν ποιησώμεθα, μνησθέντες τῶν ἐν τῷ δεκάτῳ<note type="apparatus" n="17-18" target="#p18-16 #p18-17">τῶν .. εἰρημένων] p. 12,18</note>
+              <lb n="18" xml:id="p18-17"/>κεφαλαίῳ ἡμῖν εἰρημένων· ἐν ἐκείνῳ γὰρ μεμαθήκαμεν ὡς δεῖ ἑκάστου
+              <lb n="19" xml:id="p18-18"/>Ἀριστοτελικοῦ συγγράμματος ἕξ τινα προλαβεῖν, σκοπόν τέ φημι καὶ χρείαν
+              <lb n="20" xml:id="p18-19"/>καὶ τάξιν ἀναγνώσεως, ἔτι δ’ αἰτίαν τῆς ἐπιγραφῆς καὶ συγγραφέα καὶ τὴν<note type="apparatus" n="20" target="#p18-19">αἰτίαν τῆς scripsi: ἂν καὶ M (cf. p. 12,37)</note>
+              <lb n="21" xml:id="p18-20"/>καλουμένην διασκευήν. οὐκοῦν ταύτην τὴν προθυμίαν ἔχοντες ἀρξώμεθα
+              <lb n="22" xml:id="p18-21"/>ἀπὸ τοῦ σκοποῦ, ἐπειδὴ πρὸς αὐτὸν ἅπαντα τὴν ἀναφορὰν ἔχει δημοσιεύοντα<note type="apparatus" n="22" target="#p18-21">αὐτὸν scripsi: αὐτὴν M</note>
+              <lb n="23" xml:id="p18-22"/>τὴν προαίρεσιν τοῦ προκειμένου συγγράμματος. οὐ μία τοίνυν γέγονε
+              <lb n="24" xml:id="p18-23"/>δόξα περὶ τοῦ σκοποῦ τῶν Κατηγοριῶν, ἀλλὰ τοσαῦται γεγόνασι δόξαι, ὅσα
+              <lb n="25" xml:id="p18-24"/>τὰ ὄντα καθέστηκε· τριττὰ δὲ ταῦτα, ἢ πράγματα ἢ νοήματα ἢ φωναί, καὶ
+              <lb n="26" xml:id="p18-25"/>τὰ μὲν πράγματα θεόθεν παράγεται, τὰ δὲ νοήματα ὑπὸ τοῦ νοῦ, αἱ δὲ
+              <lb n="27" xml:id="p18-26"/>φωναὶ ὑπὸ τῆς ψυχῆς. εἰς τοσαῦτα τοίνυν καὶ ὁ σκοπὸς μερίζεται. τῶν
+              <lb n="28" xml:id="p18-27"/>〈δὲ〉 διαφόρων αἱρέσεων τοῦτον μεριζουσῶν τρεῖς γεγόνασιν αἱρέσεις περὶ τοῦ<note type="apparatus" n="28" target="#p18-27">δὲ inserui τούτων M</note>
+              <lb n="29" xml:id="p18-28"/>σκοποῦ, καὶ ἡ μὲν ἔλεγεν περὶ φωνῶν μόνων διαλέγεσθαι τὸν Ἀριστοτέλη,
+              <lb n="30" xml:id="p18-29"/>εἰς ἣν ἦν ὁ Πορφύριος, ἡ δὲ περὶ μόνων πραγμάτων, εἰς ἣν ἦν ὁ Ἑρμῖνος,<note type="apparatus" n="30" target="#p18-29">pr. ἦν superscr. M</note>
+              <lb n="31" xml:id="p18-30"/>ἡ δὲ περὶ μόνων νοημάτων, <milestone type="alt-edition" unit="folio" ed="cod. Mutinensis 69" n="18v"/> εἰς ἣν ἦν Ἀλέξανδρος. καὶ ἕκαστος τούτων
+              <lb n="32" xml:id="p18-31"/>μάρτυρα τῆς οἰκείας δόξης τὸν Ἀριστοτέλη προεβάλλετο, Πορφύριος μὲν ὡς
+              <lb n="33" xml:id="p18-32"/>λέγων τὸν Ἀριστοτέλη περὶ φωνῶν διαλέγεσθαι ἐπιστοῦτο τὸν ἑαυτοῦ λόγον<note type="apparatus" n="33" target="#p18-32">λέγων scripsi: λέγοντα M</note>
+              <lb n="34" xml:id="p18-33"/>ἐκ τῆς ἐπιγραφῆς· ἐπιγέγραπται γάρ, φησί, τὸ σύγγραμμα Κατηγορίαι, οὐδὲν
+              <lb n="35" xml:id="p18-34"/>δὲ ἕτερόν ἐστι κατηγορία ἢ τὸ κατὰ ἄλλου ἀγορεύεσθαι· τὸ δὲ ἀγορεύεσθαι
+              <lb n="36" xml:id="p18-35"/>φωνῆς ἴδιον· περὶ φωνῶν ἄρα καὶ μόνον διαλαμβάνει. καὶ ὅλως
+            </p>
+            <pb n="19" facs="https://archive.org/download/commentariaina12pt12akaduoft/page/n36.jpg"/>
+            <p>
+              <lb n="1" xml:id="p19-0"/>ἐξ αὐτῶν τῶν θυρῶν προανακηρύττει ὁ φιλόσοφος τὴν προαίρεσιν, λέγων
+              <lb n="2" xml:id="p19-1"/>ὁμώνυμα λέγεται, τὸ δὲ λέγεται οὐκ ἐπὶ πραγμάτων ἀλλ’ ἐπὶ φωνῶν
+              <lb n="3" xml:id="p19-2"/>λαμβάνεται· ὥστε καὶ ἐντεῦθεν ἔστιν ἑλεῖν ὅτι περὶ φωνῶν αὐτῷ ὁ σκοπός,
+              <lb n="4" xml:id="p19-3"/>ὅθεν καὶ διαιρεῖ αὐτάς, ἡνίκα φησὶν τῶν λεγομένων τὰ μὲν κατὰ συμπλοκὴν<note type="apparatus" n="4" target="#p19-3">ὅθεν scripsi: ὅτε M</note><note type="apparatus" n="4" target="#p19-3">τῶν λεγομένων ..] p. 1 a 16</note>
+              <lb n="5" xml:id="p19-4"/>λέγεται τὰ δὲ ἄνευ συμπλοκῆς, τῶν λεγομένων ἐπὶ φωνῆς
+              <lb n="6" xml:id="p19-5"/>εἰωθότων ὀνομάζεσθαι. ὁ δὲ Ἑρμῖνος οἰόμενος αὐτὸν περὶ πραγμάτων
+              <lb n="7" xml:id="p19-6"/>διαλαμβάνειν πιστοῦται τὸν λόγον αὐτοῦ ἐκ τοῦ τὸν Ἀριστοτέλη πανταχοῦ
+              <lb n="8" xml:id="p19-7"/>τῷ ἔστι προσρήματι κεχρῆσθαι, ὅπερ ἐπὶ πραγμάτων εἴωθε λέγεσθαι.
+              <lb n="9" xml:id="p19-8"/>καὶ οὐ μόνον, φησίν, ἐκ τούτου ἔστι πιστώσασθαι τὸν λόγον, ἀλλὰ καὶ ἐκ
+              <lb n="10" xml:id="p19-9"/>τῆς διαιρέσεως τῆς παραδεδομένης ὑπ’ αὐτοῦ περὶ τῶν ὄντων, ἔνθα φησὶ<note type="apparatus" n="10" target="#p19-9">φησὶ] indiligenter reddit p. 1 a 20 sq.</note>
+              <lb n="11" xml:id="p19-10"/>τῶν ὄντων τὰ μέν ἐστιν ἐν ὑποκειμένῳ, τὰ δὲ καθ’ ὑποκειμένου
+              <lb n="12" xml:id="p19-11"/>τινὸς λέγεται, ὡς δῆλον ὅτι περὶ πραγμάτων ἐστὶν αὐτῷ ὁ σκοπός. καὶ
+              <lb n="13" xml:id="p19-12"/>μήτις ἀπορήσῃ πρὸς τὸν Ἑρμῖνον λέγων ὅτι ὅσον ἐπὶ τούτῳ τῷ λόγῳ<note type="apparatus" n="13" target="#p19-12">ἀπορήσῃ scripsi: ἀπορήσοι M</note>
+              <lb n="14" xml:id="p19-13"/>συμβήσεται εἶναι τὸν σκοπὸν τοῦ Ἀριστοτέλους περὶ φωνῶν, τῶν φωνῶν
+              <lb n="15" xml:id="p19-14"/>αὐτῶν οὐσῶν· ἐρεῖ γὰρ ἴσως τις πρὸς αὐτόν, ὑπὲρ Ἑρμίνου τὸν λόγον ποιούμενος,
+              <lb n="16" xml:id="p19-15"/><milestone type="alt-edition" unit="folio" ed="cod. Mutinensis 69" n="19r"/> ὅτι αἱ φωναὶ καὶ οἱ λόγοι οὐ λέγονται κυρίως εἶναι, ἀλλ’ ἐν τῷ
+              <lb n="17" xml:id="p19-16"/>γίγνεσθαι τὸ εἶναι ἔχουσιν, ὡς μαθησόμεθα. ὁ δὲ Ἀλέξανδρος ὑπολαμβάνων
+              <lb n="18" xml:id="p19-17"/>αὐτὸν περὶ νοημάτων διαλέγεσθαι, ἐξ ἑκατέρων λαμβάνων τὰς ἀφορμὰς
+              <lb n="19" xml:id="p19-18"/>κατεσκεύαζε τὸν ἑαυτοῦ λόγον· φησὶ γὰρ ὅτι ἀμφότεροι ἐμοὶ νικᾶτε,<note type="apparatus" n="19" target="#p19-18">ad ἐμοὶ in mrg. add. ἡμῖν M¹ νικᾶται M¹ (corr. m²)</note>
+              <lb n="20" xml:id="p19-19"/>ὡς ἐκ διαιρέσεως δείξωμεν· τῶν ὄντων τὰ μὲν μόνως ἀγγέλλει, τὰ δὲ
+              <lb n="21" xml:id="p19-20"/>μόνως ἀγγέλλεται, τὰ δὲ καὶ ἀγγέλλει καὶ ἀγγέλλεται. μόνως μὲν οὖν
+              <lb n="22" xml:id="p19-21"/>ἀγγέλλουσιν αἱ φωναί, μόνως δὲ ἀγγέλλονται τὰ πράγματα, ἀγγέλλει δὲ καὶ
+              <lb n="23" xml:id="p19-22"/>ἀγγέλλεται τὰ διανοήματα· ἀγγέλλει μὲν γὰρ τὰ πράγματα, ἀγγέλλεται δὲ
+              <lb n="24" xml:id="p19-23"/>ὑπὸ τῶν φωνῶν· οὐκοῦν μέσα ἐστὶ τὰ νοήματα τῶν τε φωνῶν καὶ τῶν
+              <lb n="25" xml:id="p19-24"/>πραγμάτων. λέγετε δὲ ὑμεῖς ὅτι περὶ φωνῶν καὶ περὶ πραγμάτων ζητεῖ,<note type="apparatus" n="25" target="#p19-24">λέγεται M²</note>
+              <lb n="26" xml:id="p19-25"/>μέσα δὲ τούτων τὰ νοήματα, ὁ δὲ περὶ τῶν ἄκρων διαλαμβάνων περὶ τῶν
+              <lb n="27" xml:id="p19-26"/>μέσων διαλαμβάνει· περὶ νοημάτων ἄρα αὐτῷ ὁ σκοπός. εὐπορεῖ δὲ ὁ
+              <lb n="28" xml:id="p19-27"/>Ἀλέξανδρος καὶ ἄλλου λόγου τοιούτου· τοσοῦτόν φησιν ὅτι περὶ νοημάτων
+              <lb n="29" xml:id="p19-28"/>ἐστὶν αὐτῷ ὁ σκοπός, ὅτι ἐν τῷ τέλει τῶν Κατηγοριῶν φησιν ὑπὲρ<note type="apparatus" n="29" target="#p19-28">φησιν] p. 11 b 15</note>
+              <lb n="30" xml:id="p19-29"/>μὲν οὖν τῶν προτεθέντων γενῶν ἱκανὰ ταῦτα. εἰ τοίνυν περὶ<note type="apparatus" n="30" target="#p19-29">ταῦτα] τὰ εἰρημένα Arist.</note>
+              <lb n="31" xml:id="p19-30"/>γενῶν, ὡς εἴρηται, ἐστὶν αὐτῷ ὁ σκοπός, οἶδε δὲ πάλιν ἡ λογικὴ οὐ τὰ<note type="apparatus" n="31" target="#p19-30">ὁ σκοπός] in mrg. ὁ λόγος M¹</note>
+              <lb n="32" xml:id="p19-31"/>πρὸ τῶν πολλῶν (θεολογίας γὰρ ἔργον τοῦτο), οὐδὲ τὰ ἐν τοῖς πολλοῖς
+              <lb n="33" xml:id="p19-32"/>(φυσιολογίας γὰρ τοῦτο), ἀλλὰ τὰ ἐννοηματικὰ τὰ ἐπὶ τοῖς πολλοῖς καὶ
+              <lb n="34" xml:id="p19-33"/>ὑστερογενῆ, πῶς οὐκ ἔσται αὐτῷ ὁ σκοπὸς περὶ νοημάτων ἐνταῦθα, εἴ γε
+              <lb n="35" xml:id="p19-34"/>λογικὴ ἐστιν ἡ μετὰ χεῖρας πραγματεία; καὶ οὕτω μὲν αἱ τρεῖς αἱρέσεις
+              <lb n="36" xml:id="p19-35"/>τὸ οἰκεῖον <milestone type="alt-edition" unit="folio" ed="cod. Mutinensis 69" n="19v"/> ἐξ αὐτοῦ τοῦ φιλοσόφου πιστούμεναι προΐεσαν. ὁ δὲ θεῖος
+              <lb n="37" xml:id="p19-36"/>Ἰάμβλιχος, ἐπιγενόμενος ὕστερον, φησὶ πρὸς αὐτοὺς ὅτι μάχεσθε, ἄνθρωποι,<note type="apparatus" n="37" target="#p19-36">Ἰάμβλ.] cf. El. p. 130,14</note>
+              <lb n="38" xml:id="p19-37"/>μὴ μαχόμενοι· καὶ γὰρ καὶ ἀληθεύετε καὶ οὐκ ἀληθεύετε· ἀληθεύει<note type="apparatus" n="38" target="#p19-37">μὴ μαχ.] μηχανόμενοι M¹ (corr. m²) 2*</note>
+              <lb n="39" xml:id="p19-38"/>γὰρ ἕκαστος ὑμῶν λέγων τοῦτον εἶναι τὸν σκοπὸν τοῦ Ἀριστοτέλους,
+            </p>
+            <pb n="20" facs="https://archive.org/download/commentariaina12pt12akaduoft/page/n37.jpg"/>
+            <p>
+              <lb n="1" xml:id="p20-0"/>ψεύδεται δέ, ὅτι τοῦτον λέγει καὶ μόνον [ἢ περὶ φωνῶν μόνως εἴρηται ἢ
+              <lb n="2" xml:id="p20-1"/>περὶ νοημάτων μόνον ἢ περὶ πραγμάτων μόνον]. ὥσπερ εἴ που ὁριζόμενός
+              <lb n="3" xml:id="p20-2"/>τις τὸν ἄνθρωπον εἴποι αὐτὸν ἢ ζῷον μόνον εἶναι ἢ λογικὸν ἢ θνητὸν
+              <lb n="4" xml:id="p20-3"/>μόνον, ἀληθεύει μέν, ἐπειδὴ ταῦτα ἔστιν ὁ ἄνθρωπος, ψεύδεται δὲ ἓν
+              <lb n="5" xml:id="p20-4"/>ἕκαστον μόνον εἶναι λέγων τὸν ἄνθρωπον· οὕτω καὶ ὁ περὶ φωνῶν μόνον
+              <lb n="6" xml:id="p20-5"/>ἢ περὶ πραγμάτων ἢ περὶ νοημάτων μόνον οἰόμενος τὸν Ἀριστοτέλη λέγειν
+              <lb n="7" xml:id="p20-6"/>κατορθοῖ τι καὶ οὐ κατορθοῖ· κατορθοῖ μέν, ἐπειδὴ μερικῶς πως ἥψατο τοῦ
+              <lb n="8" xml:id="p20-7"/>σκοποῦ, οὐ κατορθοῖ δέ, ἐπειδὴ μὴ τελείως ἠδυνήθη ἀποδοῦναι τὸν σκοπὸν
+              <lb n="9" xml:id="p20-8"/>τοῦ συγγράμματος· ἔστιν οὖν τῷ ὄντι ὁ σκοπὸς τοῦ Ἀριστοτέλους οὔτε
+              <lb n="10" xml:id="p20-9"/>περὶ φωνῶν μόνον οὔτε περὶ νοημάτων μόνον οὔτε περὶ πραγμάτων μόνον,
+              <lb n="11" xml:id="p20-10"/>ἀλλὰ περὶ τῶν τριῶν ἅμα, φωνῶν, νοημάτων, πραγμάτων· οὐδὲ γὰρ δυνατὸν
+              <lb n="12" xml:id="p20-11"/>περὶ ἑνὸς διαλεχθῆναι ἄνευ τῶν λοιπῶν.
+              <lb n="13" xml:id="p20-12"/>Καὶ ὅτι τοῦτο οὕτως ἔχει, ἐρωτήσωμεν τοὺς περὶ φωνῶν καὶ μόνον
+              <lb n="14" xml:id="p20-13"/>λέγοντας αὐτὸν ζητεῖν ὅτι οἱ βουλόμενοι τὸν Ἀριστοτέλη διαλεχθῆναι περὶ
+              <lb n="15" xml:id="p20-14"/>φωνῶν, περὶ ποίων ἄρα βούλεσθε; ἀσήμων ἢ σημαντικῶν; ἀσήμων μὲν
+              <lb n="16" xml:id="p20-15"/>οὐδαμῶς· γραμματικῆς γὰρ ἴδιον τὰς τοιαύτας <milestone type="alt-edition" unit="folio" ed="cod. Mutinensis 69" n="20r"/> σκοπεῖν, οἷς οὐδὲν διαφέρει
+              <lb n="17" xml:id="p20-16"/>τὸ σκινδαψὸς καὶ Ὅμηρος κατὰ κλίσιν. οὐκοῦν εἰ μὴ περὶ ἀσήμων ἐστὶν
+              <lb n="18" xml:id="p20-17"/>αὐτῷ ὁ λόγος, περὶ σημαντικῶν ἄρα. ἀλλ’ ἐπειδὴ αἱ σημαντικαὶ φωναὶ
+              <lb n="19" xml:id="p20-18"/>πραγμάτων εἰσὶ σημαντικαί, καὶ περὶ πραγμάτων ἄρα ζητεῖ· ταῦτα δὲ ἄκρα,
+              <lb n="20" xml:id="p20-19"/>ὡς ἄνω δέδεικται· ὁ δὲ περὶ τῶν ἄκρων διαλεγόμενος καὶ τὰ μέσα περιλαμβάνει,
+              <lb n="21" xml:id="p20-20"/>ἅπερ ἐστὶ τὰ νοήματα· καὶ περὶ νοημάτων ἄρα ἐστὶν αὐτῷ ὁ
+              <lb n="22" xml:id="p20-21"/>λόγος. οὐκοῦν ἔχομεν ἀναφανὲν ἡμῖν τέως τοῦτο, ὅτι ὁ περὶ φωνῶν διαλεγόμενος
+              <lb n="23" xml:id="p20-22"/>καὶ περὶ νοημάτων καὶ περὶ πραγμάτων διαλέγεται. πάλιν οἱ
+              <lb n="24" xml:id="p20-23"/>περὶ πραγμάτων λέγοντες εἶναι τὸν σκοπὸν καὶ μόνων τῷ Ἀριστοτέλει
+              <lb n="25" xml:id="p20-24"/>ἐρωτῶσιν ἡμῖν ἀποκρινέσθωσαν· πῶς περὶ πραγμάτων αὐτὸν λέγετε διαλέγεσθαι;
+              <lb n="26" xml:id="p20-25"/>ἆρα περὶ πραγμάτων ᾗ πράγματα ἢ ὡς ὑπὸ φωνῶν σημαινομένων;
+              <lb n="27" xml:id="p20-26"/>οὐ δήπου ἐρεῖτε αὐτὸν περὶ πραγμάτων ᾗ πράγματα ἔχειν τὸν σκοπὸν ἐν
+              <lb n="28" xml:id="p20-27"/>τούτῳ· πρώτης γὰρ φιλοσοφίας ἔργον ἐστὶ τοῦτο. οὐκοῦν ὡς ὑπὸ φωνῶν
+              <lb n="29" xml:id="p20-28"/>σημαινομένων. * * ζητεῖ ταῦτα· οὐ δήπου γὰρ δακτύλῳ δείκνυσι ταῦτα
+              <lb n="30" xml:id="p20-29"/>φιλοσοφῶν· οὐκοῦν καὶ περὶ φωνῶν ἐστιν αὐτῷ ὁ λόγος. ἀλλ’ ἐπειδὴ
+              <lb n="31" xml:id="p20-30"/>σημαίνουσι τὰ πράγματα αἱ φωναὶ διὰ μέσων νοημάτων, καὶ περὶ νοημάτων
+              <lb n="32" xml:id="p20-31"/>ἐστὶν ἄρα αὐτῷ φροντίς. καὶ πάλιν ἀναπέφανται ἡμῖν τὸ ἐξ ἀρχῆς,
+              <lb n="33" xml:id="p20-32"/>ὅτι ὁ περὶ πραγμάτων διαλεγόμενος καὶ περὶ τῶν λοιπῶν διαλέγεται.
+              <lb n="34" xml:id="p20-33"/>ἀλλὰ δὴ καὶ οἱ περὶ νοημάτων λέγοντες αὐτὸν ἔχειν τὸν σκοπὸν εἰς μέσον
+              <lb n="35" xml:id="p20-34"/>ἀγέσθωσαν· ἐρωτητέον γὰρ αὐτοὺς ὅτι οἱ περὶ νοημάτων βουλόμενοι τὸν
+              <lb n="36" xml:id="p20-35"/>Ἀριστοτέλην διαλαβεῖν, ποίων ἄρα νοημάτων; ἆρα τῶν ἐπὶ ψιλῇ ἐπινοίᾳ;<milestone type="alt-edition" unit="folio" ed="cod. Mutinensis 69" n="20v"/>
+              <lb n="37" xml:id="p20-36"/>οὐδαμῶς. οὐκοῦν τῶν σημαινόντων. τί σημαίνουσι δέ; τὰ πράγματα·
+              <lb n="38" xml:id="p20-37"/>δῆλον ἄρα ὅτι καὶ περὶ πραγμάτων διαλέγεται. καὶ ἐπειδὴ μὴ μόνον σημαίνουσιν,
+              <lb n="39" xml:id="p20-38"/>ἀλλὰ καὶ σημαίνονται ὑπὸ τῶν φωνῶν, δῆλον ἄρα καὶ περὶ
+            </p>
+            <pb n="21" facs="https://archive.org/download/commentariaina12pt12akaduoft/page/n38.jpg"/>
+            <p>
+              <lb n="1" xml:id="p21-0"/>φωνῶν διαλεχθήσεται. καὶ ἄλλως· εἰ δέδεικται ὅτι μέσα τὰ νοήματα
+              <lb n="2" xml:id="p21-1"/>φωνῶν καὶ πραγμάτων, ὁ περὶ τῶν μέσων διαλεγόμενος πῶς οὐ διαλεχθήσεται
+              <lb n="3" xml:id="p21-2"/>καὶ περὶ τῶν ἄκρων; ἐκ τούτων τοίνυν ἔχομεν ὡς ἔστιν ὁ σκοπὸς
+              <lb n="4" xml:id="p21-3"/>τῶν Κατηγοριῶν περὶ φωνῶν καὶ νοημάτων καὶ πραγμάτων. φωνὰς μὲν
+              <lb n="5" xml:id="p21-4"/>οὖν ᾗ φωναὶ σκοπεῖν γραμματικῆς ἔργον, νοήματα δὲ ᾗ νοήματα τῆς περὶ
+              <lb n="6" xml:id="p21-5"/>ψυχῆς πραγματείας, πράγματα δὲ ᾗ πράγματα τῆς πρώτης φιλοσοφίας·
+              <lb n="7" xml:id="p21-6"/>ἐπεὶ τοίνυν τὸ παρὸν βιβλίον οὔτε πρώτη ἐστὶ φιλοσοφία οὔτε ψυχῆς
+              <lb n="8" xml:id="p21-7"/>θεωρία οὔτε γραμματικὸν σύγγραμμα, οὐ σκοπήσει τὰ πράγματα ᾗ πράγματα
+              <lb n="9" xml:id="p21-8"/>οὐδὲ τὰ νοήματα ᾗ νοήματα οὐδὲ τὰς φωνὰς ᾗ φωναί, ἀλλὰ σκοπήσει
+              <lb n="10" xml:id="p21-9"/>τὰς φωνὰς ὡς σημαινούσας πράγματα διὰ μέσων νοημάτων. οὐκοῦν
+              <lb n="11" xml:id="p21-10"/>σκοπὸς τῶν Κατηγοριῶν διαλεχθῆναι περὶ φωνῶν πράγματα σημαινουσῶν
+              <lb n="12" xml:id="p21-11"/>διὰ μέσων νοημάτων, καὶ ἁπλῶς εἰπεῖν, περὶ φωνῶν καὶ πραγμάτων καὶ
+              <lb n="13" xml:id="p21-12"/>νοημάτων διαλέγεται κατὰ τὴν πρὸς ἄλληλα σχέσιν.
+              <lb n="14" xml:id="p21-13"/>Ἀλλ’ οὔπω ἔχομεν τέλειον τὸν τῶν Κατηγοριῶν σκοπόν· καὶ γὰρ καὶ
+              <lb n="15" xml:id="p21-14"/>τὰ Ἀναλυτικά, τοῦτ’ ἔστιν ἡ περὶ συλλογισμῶν πραγματεία, καὶ τὸ Περὶ
+              <lb n="16" xml:id="p21-15"/>ἑρμηνείας, <milestone type="alt-edition" unit="folio" ed="cod. Mutinensis 69" n="21r"/> ὅ ἐστι τὸ περὶ προτάσεων σύγγραμμα, τοιοῦτον ἐπιδέχεται τὸν
+              <lb n="17" xml:id="p21-16"/>σκοπόν. οὐκοῦν πρὸς χωρισμὸν τούτων ῥητέον ὅτι ἐκεῖνα μὲν περὶ συνθέτων
+              <lb n="18" xml:id="p21-17"/>φωνῶν διαλέγεται, τοῦτο δὲ περὶ ἁπλῶν. ὅθεν λεκτέον τὸν σκοπὸν
+              <lb n="19" xml:id="p21-18"/>εἶναι τῶν Κατηγοριῶν περὶ ἁπλῶν φωνῶν πράγματα ἁπλᾶ σημαινουσῶν
+              <lb n="20" xml:id="p21-19"/>διὰ μέσων ἁπλῶν νοημάτων. ἀλλὰ πάλιν οὐδὲ οὕτως ἔχομεν τέλειον τὸν
+              <lb n="21" xml:id="p21-20"/>σκοπὸν τῶν Κατηγοριῶν· καὶ γὰρ ἐν ἀρχῇ τοῦ Περὶ ἑρμηνείας περὶ ὀνόματος
+              <lb n="22" xml:id="p21-21"/>καὶ ῥήματος διαλέγεται ὁ Ἀριστοτέλης· ταῦτα δὲ ὡμολόγηται εἶναι παρὰ<note type="apparatus" n="22" target="#p21-21">ὁμολόγηται M</note>
+              <lb n="23" xml:id="p21-22"/>πᾶσιν ἁπλαῖ φωναὶ πραγμάτων ἁπλῶν σημαντικαὶ διὰ μέσων ἁπλῶν νοημάτων.
+              <lb n="24" xml:id="p21-23"/>οὐκοῦν πρὸς χωρισμὸν τούτων προσθετέον ‘κατὰ τὴν πρώτην θέσιν,’
+              <lb n="25" xml:id="p21-24"/>ἐκείνων τῆς πρώτης θέσεως μὴ οὐσῶν, ἀλλὰ μᾶλλον τῆς δευτέρας θέσεως.
+              <lb n="26" xml:id="p21-25"/>ἀλλ’ ἵνα μάθωμεν τίς ἡ πρώτη θέσις καὶ τίς ἡ δευτέρα θέσις, ἔνθεν
+              <lb n="27" xml:id="p21-26"/>ἀρξώμεθα· ἰστέον τοίνυν ὅτι ἡ φύσις κοινωνικὸν τὸν ἄνθρωπον ἐβούλετο
+              <lb n="28" xml:id="p21-27"/>προαγαγεῖν· οὐκοῦν τοῦτον ἔχουσα τὸν σκοπὸν καὶ τὸ διαλέγεσθαι αὐτῷ
+              <lb n="29" xml:id="p21-28"/>δεδώρηται, ἵνα σημᾶναι δύνηται τοῖς πέλας τὰ πράγματα. οὐκ ἂν δὲ
+              <lb n="30" xml:id="p21-29"/>κοινωνεῖν οὕτως ἠδύνατο, εἰ μὴ καὶ κατὰ τὰς φωνὰς ἡ κοινωνία ἦν, ὃν
+              <lb n="31" xml:id="p21-30"/>τρόπον οὐδὲ οἱ διαφόρους ἔχοντες νόμους τῆς αὐτῆς εἶναι δύνανται πολιτείας.<note type="apparatus" n="31" target="#p21-30">οὐδὲ] οὔτε M</note>
+              <lb n="32" xml:id="p21-31"/>κοινωνία δὲ τῶν φωνῶν ἔνθεν ἐγένετο· χορὸς σοφῶν ἀνδρῶν συνελθὼν
+              <lb n="33" xml:id="p21-32"/>ἑκάστῳ πράγματι ἴδιον ἀφώρισεν ὄνομα, καὶ τὸ μὲν ἐκάλεσαν οὐσίαν
+              <lb n="34" xml:id="p21-33"/>τὸ δὲ συμβεβηκός, καὶ ἁπλοῖς πράγμασιν ἁπλᾶ ἔθεντο τὰ ὀνόματα, <milestone type="alt-edition" unit="folio" ed="cod. Mutinensis 69" n="21v"/> καὶ
+              <lb n="35" xml:id="p21-34"/>οὕτω παρὰ πᾶσιν χαρακτηρίζεται. αὕτη λέγεται πρώτη θέσις. εἶτα ἐπειδὴ
+              <lb n="36" xml:id="p21-35"/>ἑώρων τὰ μὲν τῶν ὑπ’ αὐτῶν τεθέντων ὀνομάτων ἐπιδεχόμενα ἄρθρα, τὰ δὲ<note type="apparatus" n="36" target="#p21-35">τεθέντων scripsi: τεθέντα M ἄρθρα scripsi: πᾶσιν M (cf. Amm. in Cat. p. 11,16)</note>
+              <lb n="37" xml:id="p21-36"/>μὴ ἐπιδεχόμενα ἀλλὰ καὶ χρόνον σημαίνοντα, ἐκάλουν τὰ μὲν ὀνόματα τὰ δὲ
+              <lb n="38" xml:id="p21-37"/>ῥήματα. καὶ ἐκάλουν ταύτην δευτέραν θέσιν. ἐπεὶ οὖν τί ἐστιν πρώτη θέσις
+              <lb n="39" xml:id="p21-38"/>καὶ τί δευτέρα μεμαθήκαμεν, εἴπωμεν οὕτως· ὅτι σκοπός ἐστι τῶν Κατηγοριῶν
+              <lb n="40" xml:id="p21-39"/>διαλεχθῆναι περὶ ἁπλῶν φωνῶν πράγματα ἁπλᾶ σημαινουσῶν διὰ
+            </p>
+            <pb n="22" facs="https://archive.org/download/commentariaina12pt12akaduoft/page/n39.jpg"/>
+            <p>
+              <lb n="1" xml:id="p22-0"/>μέσων ἁπλῶν νοημάτων κατὰ τὴν πρώτην θέσιν. καὶ ἐν τούτοις ἐστὶν
+              <lb n="2" xml:id="p22-1"/>ὁ σκοπός.
+              <lb n="3" xml:id="p22-2"/>Χρήσιμον δέ ἐστιν πρὸς πᾶσαν φιλοσοφίαν· ἡ γὰρ φιλοσοφία τὰ ὄντα
+              <lb n="4" xml:id="p22-3"/>διδάσκειν ἐπαγγέλλεται· τὰ δὲ ὄντα ὑπὸ τὰς δέκα κατηγορίας ἀνάγονται·<note type="apparatus" n="4" target="#p22-3">ἐπαγγέλεται M 5—8 εἰ—κατηγοριῶν delevi</note>
+              <lb n="5" xml:id="p22-4"/>χρήσιμον ἄρα τὸ βιβλίον πρὸς τὴν φιλοσοφίαν. [εἰ δὲ καὶ δοκεῖ τὸ σημεῖον
+              <lb n="6" xml:id="p22-5"/>〈ἀνάγειν ὑπὸ〉 τὰς κατηγορίας, ἀλλ’ οὖν καθ’ ἕτερον τρόπον ὑπ’<note type="apparatus" n="6" target="#p22-5">ἀνάγειν ὑπὸ inserui</note>
+              <lb n="7" xml:id="p22-6"/>αὐταῖς ἐστι· τὸ γὰρ σημεῖον ἀρχή ἐστιν, ἡ δὲ ἀρχὴ τῶν πρός τι, τὸ δὲ
+              <lb n="8" xml:id="p22-7"/>πρός τι μία τῶν κατηγοριῶν.] χρησιμεύει δὲ πάλιν καὶ εἰς ἀπόδειξιν. ἡ
+              <lb n="9" xml:id="p22-8"/>δὲ ἀπόδειξις εἰς ἑκάτερον μέρος τῆς φιλοσοφίας ἐστίν, εἴς τε τὸ θεωρητικὸν
+              <lb n="10" xml:id="p22-9"/>καὶ πρακτικόν, ἵνα τὰ μὲν φαινόμενα διὰ τῆς ἀποδείξεως ἐν τῷ θεωρητικῷ
+              <lb n="11" xml:id="p22-10"/>πρεσβεύσωμεν ὡς ἀληθῆ, τὰ δὲ ἐν τῷ πρακτικῷ ἀγαθὰ διαπραξώμεθα.
+              <lb n="12" xml:id="p22-11"/>
+              <lb n="13" xml:id="p22-12"/>Ἐπιγέγραπται δὲ τὸ βιβλίον Κατηγορίαι, τῷ τῆς κατηγορίας ὀνόματι<note type="apparatus" n="13-14" target="#p22-12 #p22-13">conicias τοῦ .. ὀνόματος .. δηλοῦντος .. σημαίνοντος, sed fort. δηλοῦντες et σημαίνοντες scripsit, quasi praecederet ἐπεγράψαμεν</note>
+              <lb n="14" xml:id="p22-13"/>ἐνταῦθα οὐ δηλοῦντες τὴν ἐπὶ ἐγκλήματος δίκην, ἀλλὰ σημαίνοντες τὸ κατά
+              <lb n="15" xml:id="p22-14"/>τινος ἀγορεύεσθαι· τῶν γὰρ ὄντων τὰ μὲν μόνως <milestone type="alt-edition" unit="folio" ed="cod. Mutinensis 69" n="22r"/> ὑπόκεινται, ὡς τὰ
+              <lb n="16" xml:id="p22-15"/>ἄτομα, τὰ δὲ μόνως κατηγορεῖται, ὡς τὰ γενικώτατα, τὰ δὲ μέσα καὶ ὑπάλληλα,
+              <lb n="17" xml:id="p22-16"/>ἅτινα καὶ ὑπόκεινται καὶ κατηγορεῖται. ἐπεὶ οὖν ὁ Ἀριστοτέλης
+              <lb n="18" xml:id="p22-17"/>ἐνταῦθα περὶ τῶν γενικωτάτων διελέγετο, ἐπέγραψεν τὸ βιβλίον Κατηγορίας,
+              <lb n="19" xml:id="p22-18"/>οὕτω καλῶν τὰ γενικώτατα γένη. εἰκότως· εἰ γὰρ καὶ ἄλλα κατηγοροῦνται,
+              <lb n="20" xml:id="p22-19"/>ἀλλ’ οὐ δήπου καὶ κατηγορίαι λέγονται, ὅτι μὴ ἀκραιφνῶς μετέχουσι τοῦ
+              <lb n="21" xml:id="p22-20"/>κατηγορεῖσθαι, ἀλλὰ καὶ ὑπόκεινται. τὰ δὲ γενικώτατα, ἅτε μόνως κατηγορούμενα
+              <lb n="22" xml:id="p22-21"/>μηδέποτε δὲ ὑποκείμενα, εἰκότως κατηγορίαι κληθήσονται. καὶ
+              <lb n="23" xml:id="p22-22"/>μὴ ἀπορήσῃ τις λέγων διὰ τί ἐπέγραψε μὲν Κατηγορίας, Περὶ κατηγοριῶν<note type="apparatus" n="23" target="#p22-22">ἀπορήσῃ scripsi: ἀπορήσοι M</note>
+              <lb n="24" xml:id="p22-23"/>δὲ οὐκ ἐπέγραψεν· ἐρῶ γὰρ πρὸς αὐτὸν ὅτι, ὡς ἂν εἴποι τις, βουλόμενος
+              <lb n="25" xml:id="p22-24"/>σωματοποιῆσαι τὸν λόγον καὶ δι’ αὐτοῦ σημᾶναι τὰ πράγματα ἐχρήσατο
+              <lb n="26" xml:id="p22-25"/>τοιαύτῃ ἐπιγραφῇ. οὕτω γοῦν πρὸ αὐτοῦ ὁ Πλάτων ἐπέγραψε Φαῖδρος,
+              <lb n="27" xml:id="p22-26"/>Ἀλκιβιάδης, καὶ μετὰ τοῦτον Ἀριστείδης τὰ ὑπὲρ τῶν στρατηγῶν ἐγκώμια<note type="apparatus" n="27" target="#p22-26">τοῦτον scripsi: τὸν M Ἀριστείδης] III p. 433 Dindorf</note>
+              <lb n="28" xml:id="p22-27"/>οὐχ Ὑπὲρ αὐτῶν ἐπέγραψεν, ἀλλὰ τοῖς ὀνόμασι τῶν ἐγκωμιαζομένων ἐπέγραψεν,
+              <lb n="29" xml:id="p22-28"/>Θεμιστοκλῆς εἰπὼν καὶ Περικλῆς καὶ Κίμων καὶ Μιλτιάδης, ὡς
+              <lb n="30" xml:id="p22-29"/>τῶν λόγων, ὡς εἴρηται, σημαινόντων τὰ πράγματα καὶ μιμουμένων αὐτά.<note type="apparatus" n="30" target="#p22-29">εἴρηται] p. 20,18</note>
+              <lb n="31" xml:id="p22-30"/>μήτις δὲ ἐπιγράψῃ Περὶ γενῶν, ὥσπερ ὁ Ἀρχύτας [γένη] ἐπέγραψε τὰς<note type="apparatus" n="31" target="#p22-30">Ἀρχύτας] cf. El. p. 132,26 γένη delevi</note>
+              <lb n="32" xml:id="p22-31"/>Κατηγορίας· <milestone type="alt-edition" unit="folio" ed="cod. Mutinensis 69" n="22v"/> τὰ γὰρ γένη ἐννοηματικά ἐστιν, ὡς φησιν ὁ Πορφύριος ἐν τῷ<note type="apparatus" n="32" target="#p22-31">Πορφ.] Isag. p. 3,19</note>
+              <lb n="33" xml:id="p22-32"/>Περὶ γένους· οὐδὲν ἄρα περιέχει περιττὸν οὐδὲ ἐλλεῖπον ἡ τοῦ γένους
+              <lb n="34" xml:id="p22-33"/>ῥηθεῖσα ὑπογραφὴ τῆς ἐννοίας· μηδὲ μὴν Πρὸ τῶν τόπων τις τὰς Κατηγορίας
+              <lb n="35" xml:id="p22-34"/>ἐπιγράψῃ, ὥσπερ οἱ πολλοὶ ἐπέγραψαν· οὐ μόνον γὰρ πρὸ τῶν Τόπων
+              <lb n="36" xml:id="p22-35"/>ἐστὶ τὸ παρὸν βιβλίον, ἀλλὰ καὶ πρὸ τοῦ Περὶ ἑρμηνείας καὶ τῶν ἄλλων.
+              <lb n="37" xml:id="p22-36"/>καὶ ἐν τούτοις τὰ τῆς ἐπιγραφῆς.
+              <lb n="38" xml:id="p22-37"/>Ἆρα γνήσιόν ἐστι τοῦ παλαιοῦ τὸ βιβλίον ἢ οὔ; τινὲς μὲν οὖν νοθεύουσι
+              <lb n="39" xml:id="p22-38"/>τὸ βιβλίον διὰ τέσσαρας αἰτίας, ὧν ἡ πρώτη τοιαύτην ἔχει τὴν ἀγωγήν·
+            </p>
+            <pb n="23" facs="https://archive.org/download/commentariaina12pt12akaduoft/page/n40.jpg"/>
+            <p>
+              <lb n="1" xml:id="p23-0"/>τοσοῦτον, φασί, νόθον ἐστὶ τὸ βιβλίον, ὅτι ἐνταῦθα μὲν ὁμωνύμων καὶ
+              <lb n="2" xml:id="p23-1"/>συνωνύμων ἐμνημόνευσεν, ἐν δὲ τῇ Φυσικῇ τῶν ὁμωνύμων καὶ τῶν συνωνύμων
+              <lb n="3" xml:id="p23-2"/>καὶ τῶν ἑτερωνύμων καὶ τῶν πολυωνύμων, ὡς δῆλον ὅτι νόθον
+              <lb n="4" xml:id="p23-3"/>ἐστὶ τὸ βιβλίον ὡς μὴ συνῳδὰ φθεγγόμενον τοῖς ἐν τῇ Φυσικῇ εἰρημένοις.<note type="apparatus" n="4" target="#p23-3">ἐν δὲ τῇ Φυσικῇ] fallitur, neque in Physicis neque in reliquis scriptis haec quattuor coniunguntur</note>
+              <lb n="5" xml:id="p23-4"/>πρὸς τοῦτό φαμεν ἡμεῖς ἢ ὅτι οὐκ ἐδεήθη ἡ παροῦσα διδασκαλία πλὴν
+              <lb n="6" xml:id="p23-5"/>τῶν δύο τούτων, καὶ διὰ τοῦτο αὐτῶν ἐμνημόνευσεν ταὐτόν τι πάσχων
+              <lb n="7" xml:id="p23-6"/>τοῖς γεωμέτραις, οἵτινες πολλῶν ὄντων εἰδῶν μόνης εὐθείας καὶ περιφεροῦς
+              <lb n="8" xml:id="p23-7"/>γραμμῆς μέμνηνται, ἢ ὅτι διὰ τούτων συμπεριέλαβεν ἐκεῖνα τὰ ὄντα· τὸ<note type="apparatus" n="8" target="#p23-7">ὄντα] an ἐναντία?</note>
+              <lb n="9" xml:id="p23-8"/>γὰρ ὁμώνυμον ἐναντίον ἐστὶ πολυωνύμῳ τὸ δὲ συνώνυμον τῷ ἑτερωνύμῳ·
+              <lb n="10" xml:id="p23-9"/>τὸ μὲν γὰρ ὁμώνυμον ἓν μόνον ὄνομα σημαίνει πολλὰ δὲ πράγματα, τὸ
+              <lb n="11" xml:id="p23-10"/>δὲ ἄλλο τὸ ἀνάπαλιν πολλὰ μὲν ὀνόματα ἓν δὲ πρᾶγμα. πάλιν τὸ συνώνυμον
+              <lb n="12" xml:id="p23-11"/>τοῦ ἑτερωνύμου διαφέρει, καθὸ τὸ μὲν συνώνυμον ὀνόματος καὶ
+              <lb n="13" xml:id="p23-12"/>[οὐ] <milestone type="alt-edition" unit="folio" ed="cod. Mutinensis 69" n="23r"/> πράγματος κοινωνεῖ, τὸ δὲ ἑτερώνυμον οὐδετέρου. καὶ ἡ μὲν ἀγωγὴ<note type="apparatus" n="13" target="#p23-12">οὐ delevi</note>
+              <lb n="14" xml:id="p23-13"/>τῆς πρώτης αἰτίας τοῦτον ἔχει τὸν τρόπον. δευτέραν αἰτίαν προβάλλονται
+              <lb n="15" xml:id="p23-14"/>τοιαύτην· τοσοῦτόν φασιν ὅτι νόθον ἐστὶ τὸ βιβλίον, ὅτι ἐνταῦθα μὲν λέγει<note type="apparatus" n="15-21" target="#p23-14 #p23-15 #p23-16 #p23-17 #p23-18 #p23-19 #p23-20">φασιν] φησιν M</note>
+              <lb n="16" xml:id="p23-15"/>τὴν αὐτὴν εἶναι μεταβολὴν καὶ κίνησιν, ἐν δὲ τῇ Φυσικῇ καθολικωτέραν<note type="apparatus" n="16" target="#p23-15">ἐν δὲ τῇ Φυσικῇ] E 1 p. 225 a 3 sqq.</note>
+              <lb n="17" xml:id="p23-16"/>τὴν μεταβολὴν τῆς κινήσεως. ἀλλὰ πρὸς τοῦτο πάλιν ἔστιν εἰπεῖν ὅτι οὐ
+              <lb n="18" xml:id="p23-17"/>προέκειτο ἐνταῦθα αὐτῷ φυσιολογῆσαι· διὸ ὡς μὴ ἔχων τοῦτον τὸν σκοπόν,
+              <lb n="19" xml:id="p23-18"/>ἀλλὰ καὶ ὡς πρὸς ἀτελεστέρους ποιούμενος τὸν λόγον, οὐκ ἠκριβολογήσατο
+              <lb n="20" xml:id="p23-19"/>περὶ τὴν ἀπόδοσιν τῆς διαφορᾶς τούτων. τρίτην αἰτίαν τοιαύτην λέγουσιν·
+              <lb n="21" xml:id="p23-20"/>τοσοῦτόν φασιν ὅτι νόθον ἐστὶ τὸ βιβλίον, ὅτι ἐνταῦθα μὲν τὸ ἐπιστητὸν
+              <lb n="22" xml:id="p23-21"/>πρότερον εἶναι λέγει τῆς ἐπιστήμης, ἐν δὲ τῇ Φυσικῇ ἅμα τὰ πρός τί<note type="apparatus" n="22" target="#p23-21">τῇ Φυσικῇ] cf. El. p. 214,31</note>
+              <lb n="23" xml:id="p23-22"/>φησιν εἶναι. ἀλλὰ πρὸς τοῦτο ἔστιν πάλιν εἰπεῖν ὅτι ἑκάτερος λόγος τοῦ
+              <lb n="24" xml:id="p23-23"/>φιλοσόφου ἐστὶν ἀληθής· τὰ γὰρ πρός τι καὶ ἅμα ἐστὶ καὶ οὐχ ἅμα·
+              <lb n="25" xml:id="p23-24"/>ἅμα μὲν ὡς πρός τι καὶ ὡς ἔχοντα σχέσιν πρὸς ἄλληλα, οὐχ ἅμα δὲ ὡς
+              <lb n="26" xml:id="p23-25"/>πράγματα. ἐν μὲν οὖν Φυσικοῖς λόγοις ἐξετάζων τὴν σχέσιν αὐτῶν ἅμα<note type="apparatus" n="26" target="#p23-25">πράγματα scripsi: πρᾶγμα M</note>
+              <lb n="27" xml:id="p23-26"/>τῇ φύσει λέγει εἶναι τὰ πρός τι, ἐνταῦθα δὲ ὡς πράγματα αὐτὰ βασανίζων
+              <lb n="28" xml:id="p23-27"/>οὐχ ἅμα αὐτὰ λέγει εἶναι. τετάρτη αἰτία· τοσοῦτον, φασί, νόθον ἐστὶ τὸ<note type="apparatus" n="28" target="#p23-27">φησί M</note>
+              <lb n="29" xml:id="p23-28"/>βιβλίον, ὅτι ἐν μὲν ταῖς ἄλλαις αὐτοῦ πραγματείας τὴν καθόλου οὐσίαν<note type="apparatus" n="29" target="#p23-28">ἐν ταῖς ἄλλαις αὐτοῦ πραγμ.] cf. Zelleri Ph. Gr. IIb p. 240 sq.</note>
+              <lb n="30" xml:id="p23-29"/>προτιμᾷ τῆς μερικῆς, ἐνταῦθα δὲ τὸ ἀνάπαλιν τὴν μερικὴν προτάττει τῆς
+              <lb n="31" xml:id="p23-30"/>καθόλου οὐσίας. δυοῖν οὖν θάτερον· ἢ πάσας τὰς πραγματείας αὐτοῦ δίκαιον<note type="apparatus" n="31" target="#p23-30">θάττερον M</note>
+              <lb n="32" xml:id="p23-31"/><milestone type="alt-edition" unit="folio" ed="cod. Mutinensis 69" n="23v"/> νοθεῦσαι ἢ τὴν προκειμένην· ἀλλὰ μὴν ἀδύνατόν ἐστιν ἡμᾶς νοθεῦσαι
+              <lb n="33" xml:id="p23-32"/>πάσας τὰς πραγματείας· τὴν προκειμένην ἄρα δεῖ νοθεῦσαι. εἰ δὲ
+              <lb n="34" xml:id="p23-33"/>τοῦτο, ἔχομεν τὸ ζητούμενον. ἔστι δὲ πάλιν πρὸς τοῦτο εἰπεῖν ὅτι εἰκότως
+              <lb n="35" xml:id="p23-34"/>ἐν ταύτῃ μὲν τῇ πραγματείᾳ τὴν μερικὴν προετίμησεν οὐσίαν τῆς καθόλου,
+              <lb n="36" xml:id="p23-35"/>ἐν δὲ ταῖς ἄλλαις τὴν καθόλου τῆς μερικῆς· ἐπειδὴ γὰρ ἐν τῷ παρόντι
+              <lb n="37" xml:id="p23-36"/>συγγράμματι ὡς πρὸς εἰσαγομένους ποιεῖται τὸν λόγον, εἰκότως τῇ πρεπούσῃ
+              <lb n="38" xml:id="p23-37"/>τάξει τοῖς εἰσαγομένοις ἐχρήσατο, ἀρξάμενος ἀπὸ τῶν ἐκείνοις
+            </p>
+            <pb n="24" facs="https://archive.org/download/commentariaina12pt12akaduoft/page/n41.jpg"/>
+            <p>
+              <lb n="1" xml:id="p24-0"/>πρώτων· εἰσαγομένοις γὰρ πρῶτα τὰ μερικὰ τῶν καθόλου νομίζεται. ἐν<note type="apparatus" n="1" target="#p24-0">πρῶτα] an πρότερα?</note>
+              <lb n="2" xml:id="p24-1"/>δὲ ταῖς ἄλλαις πραγματείαις ἅτε δὴ ὡς πρὸς τελειοτέρους τὸν λόγον ποιούμενος
+              <lb n="3" xml:id="p24-2"/>καὶ ἐπιστήμονας τοῖς καθόλου τὴν πρώτην δίδωσι ψῆφον, ἐπειδὴ
+              <lb n="4" xml:id="p24-3"/>καὶ τῇ φύσει καὶ τοῖς ἐπιστήμοσι ταῦτα πρῶτα πέφυκεν ὄντα. ἀλλ’ ἐπεὶ
+              <lb n="5" xml:id="p24-4"/>μὴ μόνον χρὴ ἀνατρέπειν ἀλλὰ καὶ κατασκευάζειν, φέρε δείξωμεν ἐκ
+              <lb n="6" xml:id="p24-5"/>πλειόνων λόγων τὸ γνήσιον τοῦ βιβλίου. ὅτι γνήσιον τοίνυν ἐστὶ τοῦ συγγραφέως
+              <lb n="7" xml:id="p24-6"/>τὸ βιβλίον δῆλον ἔκ τε τῆς ὕλης καὶ τοῦ τέλους καὶ ἐκ τοῦ μεμνῆσθαι
+              <lb n="8" xml:id="p24-7"/>αὐτὸν ἐν ἑτέροις συγγράμμασιν αὐτοῦ γνησίοις τοῦ προκειμένου
+              <lb n="9" xml:id="p24-8"/>βιβλίου, ἔνθα φησὶν ‘ὡς εἴρηται ἐν Κατηγορίαις’. καὶ ἄλλως· εἰ μὴ δῶμεν<note type="apparatus" n="9" target="#p24-8">ὡς εἴρ. ἐν Κατ.] cf. El. p. 133,12</note>
+              <lb n="10" xml:id="p24-9"/>γνήσιον εἶναι τοῦ Ἀριστοτέλους τὸ σύγγραμμα, ἀκέφαλος ἔσται ἡ λογικὴ
+              <lb n="11" xml:id="p24-10"/>πραγματεία· ποῦ γὰρ ἡ λογικὴ διαλεχθήσεται περὶ ἁπλῶν φωνῶν κατὰ
+              <lb n="12" xml:id="p24-11"/>τὴν πρώτην θέσιν; καὶ ἄλλως· εἰ οἱ μαθηταὶ <milestone type="alt-edition" unit="folio" ed="cod. Mutinensis 69" n="24r"/> αὐτοῦ κατὰ ζῆλον τοῦ
+              <lb n="13" xml:id="p24-12"/>οἰκείου διδασκάλου ἔγραψαν Κατηγορίας, πῶς οὐκ ἔστι δῆλον ὅτι γνήσιον
+              <lb n="14" xml:id="p24-13"/>αὐτοῦ ἐστι τόδε τὸ σύγγραμμα; καὶ ἄλλως· φασὶν ὅτι εὑρέθησαν ἐν ταῖς
+              <lb n="15" xml:id="p24-14"/>βιβλιοθήκαις μετὰ τὴν τελευτὴν αὐτοῦ τῶν μὲν Ἀναλυτικῶν μ’ καὶ βʹ
+              <lb n="16" xml:id="p24-15"/>βιβλία, τῶν δὲ Κατηγοριῶν βʹ, ὧν τοῦ μὲν ἑνὸς ἡ ἀρχή ἐστιν αὕτη ἡ καὶ
+              <lb n="17" xml:id="p24-16"/>φερομένη ὁμώνυμα λέγεται, τοῦ δὲ ἑτέρου ἡ ἀρχὴ ἦν “τῶν ὄντων τὰ
+              <lb n="18" xml:id="p24-17"/>μέν ἐστιν ὁμώνυμα τὰ δὲ συνώνυμα τὰ δὲ πολυώνυμα”. οἱ οὖν κριτικοὶ
+              <lb n="19" xml:id="p24-18"/>τοῦτο μὲν ἔκριναν ὡς γνήσιον Ἀριστοτέλους γέννημα, τὸ δὲ θάτερον ἀπεδοκίμασαν
+              <lb n="20" xml:id="p24-19"/>νόθον. καὶ ἐν τούτοις καὶ τὸ γνήσιον τοῦ βιβλίου.
+              <lb n="21" xml:id="p24-20"/>Ἡ δὲ τάξις τῆς ἀναγνώσεως ἐστὶ τοιαύτη· ἰστέον ὅτι τὰ πράγματα
+              <lb n="22" xml:id="p24-21"/>καὶ θεωρεῖται καὶ πράττεται. ἀλλὰ ἀντιπεπονθότως ἔχει ἡ θεωρία τῇ
+              <lb n="23" xml:id="p24-22"/>πράξει· τὸ γὰρ τέλος τῆς θεωρίας ἀρχὴ γίνεται τῆς πράξεως καὶ τὸ τέλος
+              <lb n="24" xml:id="p24-23"/>τῆς πράξεως ἀρχὴ γίνεται τῆς θεωρίας, ὡς ἔχει ἐπὶ οἰκοδόμου· ὁ γὰρ
+              <lb n="25" xml:id="p24-24"/>οἰκοδόμος ἐνθυμεῖται ποιῆσαι κώλυμα θάλπους καὶ ψύχους. ἀλλ’ οὐχ
+              <lb n="26" xml:id="p24-25"/>οἷός τέ ἐστι τοῦτο ποιῆσαι δίχα ὀροφῆς, ἀλλ’ οὐδὲ τὴν ὀροφὴν δίχα τοίχων,
+              <lb n="27" xml:id="p24-26"/>ἀλλ’ οὐδὲ τοὺς τοίχους δίχα θεμελίων, ἀλλ’ οὐδὲ τοὺς θεμελίους
+              <lb n="28" xml:id="p24-27"/>δίχα πρῶτον τοῦ ὀρύξαι τὴν γῆν· καὶ ἐνταῦθα μὲν ἔληξεν ἡ θεωρία,
+              <lb n="29" xml:id="p24-28"/>ἐκεῖθεν δὲ ἄρχεται ἡ πρᾶξις. οὕτω καὶ ὁ γραμματικός φησιν πρὸς ἑαυτὸν
+              <lb n="30" xml:id="p24-29"/>ὅτι ἔλαβον τὸ παιδίον, <milestone type="alt-edition" unit="folio" ed="cod. Mutinensis 69" n="24v"/> ὅπως διδάξω αὐτὸ λόγον· οὐ δύναται δὲ τοῦτο<note type="apparatus" n="30" target="#p24-29">ex αὐτὸ corr. αὐτῶ M τοῦτο scripsi: τὸ M (cf. v. 32.33)</note>
+              <lb n="31" xml:id="p24-30"/>μαθεῖν, εἰ μὴ πρῶτον διδάξω αὐτὸ τὰ ἐξ ὧν σύγκειται ὁ λόγος, τοῦτ’<note type="apparatus" n="31-32" target="#p24-30 #p24-31">αὐτὸ scripsi: αὐτῶ M</note>
+              <lb n="32" xml:id="p24-31"/>ἔστι τὰς λέξεις. ἀλλ’ οὐδὲ τοῦτο δύναται εἰδέναι, εἰ μὴ διδάξω αὐτὸ τὰς
+              <lb n="33" xml:id="p24-32"/>συλλαβάς. ἀλλ’ οὐδὲ τοῦτο εἴσεται ἄνευ τῶν στοιχείων. καὶ ὅθεν ἔληξεν
+              <lb n="34" xml:id="p24-33"/>ἡ θεωρία, ἐκεῖθεν ἄρχεται ἡ πρᾶξις. εἰ τοίνυν βουλόμεθα ἀποδεῖξαί τι, οὐ
+              <lb n="35" xml:id="p24-34"/>δυνάμεθα δὲ τοῦτο ποιῆσαι ἄνευ τῶν τοιῶνδε συλλογισμῶν, ἀλλ’ οὐδὲ τοῦτο
+              <lb n="36" xml:id="p24-35"/>ἄνευ τῶν ἁπλῶν συλλογισμῶν, ὥσπερ οὐδὲ τὸ τοιῶσδε γράφειν ἄνευ τοῦ
+              <lb n="37" xml:id="p24-36"/>ἁπλῶς γράφειν, ἀλλ’ οὐδὲ τούτους ἄνευ τῶν προτάσεων, ἀλλ’ οὐδὲ ταύτας
+              <lb n="38" xml:id="p24-37"/>ἄνευ τῶν ἁπλῶν φωνῶν, εἴ γε αἱ μὲν τῆς δευτέρας θέσεώς εἰσιν αἱ δὲ
+              <lb n="39" xml:id="p24-38"/>τῆς πρώτης, ἀδύνατον δὲ τὴν δευτέραν εἰδέναι ἄνευ τῆς πρώτης, πῶς οὐκ
+              <lb n="40" xml:id="p24-39"/>ἔσται τὸ μὲν προκείμενον πρώτην ἔχον τάξιν ὡς περὶ τῶν ἁπλῶν φωνῶν
+              <lb n="41" xml:id="p24-40"/>διαλεγόμενον τῆς πρώτης θέσεως, τὸ δὲ Περὶ ἑρμηνείας δευτέραν τάξιν
+            </p>
+            <pb n="25" facs="https://archive.org/download/commentariaina12pt12akaduoft/page/n42.jpg"/>
+            <p>
+              <lb n="1" xml:id="p25-0"/>ὡς διαλεγόμενον περὶ δευτέρας θέσεως τῶν ἁπλῶν φωνῶν, τὰ δὲ Πρῶτα
+              <lb n="2" xml:id="p25-1"/>ἀναλυτικὰ τρίτην ὡς περὶ τοῦ ἁπλοῦ συλλογισμοῦ διαλαμβάνοντα, τὰ δὲ
+              <lb n="3" xml:id="p25-2"/>Ὕστερα ἀναλυτικὰ τετάρτην ὡς περὶ τοῦ τοιοῦδε συλλογισμοῦ διαλαμβάνοντα,
+              <lb n="4" xml:id="p25-3"/>οἷον δὴ τοῦ ἀποδεικτικοῦ.<note type="apparatus" n="4" target="#p25-3">δὴ scripsi: δὲ M</note>
+              <lb n="5" xml:id="p25-4"/>Ἡ δὲ εἰς τὰ μόρια διαίρεσις τοῦ βιβλίου τριττὴ καθέστηκεν· διαιρεῖται
+              <lb n="6" xml:id="p25-5"/>γὰρ εἰς τὰ πρὸ τῶν κατηγοριῶν καὶ εἰς αὐτὰς τὰς κατηγορίας καὶ εἰς
+              <lb n="7" xml:id="p25-6"/>τὰ μετὰ <milestone type="alt-edition" unit="folio" ed="cod. Mutinensis 69" n="25r"/> τὰς κατηγορίας. καὶ ἐν μὲν ταῖς κατηγορίαις τοὺς ἀγῶνας
+              <lb n="8" xml:id="p25-7"/>αὐτοὺς παραδίδωσι, διαιρῶν τὰς κατηγορίας εἰς ὑπογραφὰς καὶ ἴδια, ἐν δὲ<note type="apparatus" n="8" target="#p25-7">αὐτοὺς El.: αὐτοῦ M</note>
+              <lb n="9" xml:id="p25-8"/>τοῖς λοιποῖς δύο τμήμασι τὰ χρήσιμα πρὸς τὰς κατηγορίας διδάσκει. ἀλλ’
+              <lb n="10" xml:id="p25-9"/>ἰστέον ὅτι τούτων τῶν διδασκομένων τὰ μέν ἐστιν ἀσαφῆ, τὰ δὲ ἀσαφῆ
+              <lb n="11" xml:id="p25-10"/>μέν, οὐκ ἐπὶ τοσοῦτον δέ ἐστιν ἀσαφῆ ὡς τὰ προλαβόντα, ἀλλὰ δίδωσιν<note type="apparatus" n="11" target="#p25-10">ante οὐκ II litt. eras. M</note>
+              <lb n="12" xml:id="p25-11"/>ἑαυτὰ ἡμῖν πρὸς γνῶσιν ἀμυδρῶς πως. τὰ μὲν οὖν παντάπασιν ἀσαφῆ
+              <lb n="13" xml:id="p25-12"/>προεδίδαξεν, ἵνα μὴ ἐν αὐτοῖς τοῖς ἀγῶσι, τοῦτ’ ἔστιν ἐν τῇ περὶ τῶν
+              <lb n="14" xml:id="p25-13"/>κατηγοριῶν διδασκαλίᾳ, λέγοντος ταῦτα τοῦ φιλοσόφου ξενισθῶμεν, ἀγνοοῦντες
+              <lb n="15" xml:id="p25-14"/>τί ποτέ ἐστι τὰ λεγόμενα. τὰ δὲ κατά τι ἀσαφῆ ὕστερον καταλέλοιπεν,
+              <lb n="16" xml:id="p25-15"/>ὡς ἡμῶν ἐχόντων ἀμυδράν τινα περὶ τούτων ἔννοιαν, ὡς εἴρηται.
+              <lb n="17" xml:id="p25-16"/>οὐκ ἐδίδαξεν δὲ πάντα ἅμα, τά τε σαφῆ καὶ τὰ ἀσαφῆ, οὐδὲ ἐν τοῖς πρώτοις
+              <lb n="18" xml:id="p25-17"/>οὐδὲ ἐν τοῖς ὑστέροις, διὰ τὸ μὴ τοὺς νέους ὀκνηροτέρους παρασκευάσαι
+              <lb n="19" xml:id="p25-18"/>ἐπὶ τὴν ἀνάγνωσιν τοῦ βιβλίου ἢ διὰ τὴν τῶν ἐνθυμημάτων βαθύτητα
+              <lb n="20" xml:id="p25-19"/>ἢ διὰ τὴν τῶν λέξεων ἀσάφειαν, ἢ οὖν διὰ τοῦτο ἢ ἵνα μὴ ἀπρεπῆ τὸν
+              <lb n="21" xml:id="p25-20"/>λόγον ἐργάσηται, μεῖζον τῶν ἀγώνων ἢ καὶ τῶν ἐπιλόγων ποιῶν τὸ προοίμιον.<note type="apparatus" n="21" target="#p25-20">ἐργάσεται M (corr. m¹) μείζων M (corr. m¹)</note>
+              <lb n="22" xml:id="p25-21"/>καὶ ἐν τούτοις καταπαυέσθω ἡμῖν ἡ παροῦσα θεωρία καὶ τὰ προλαμβανόμενα
+              <lb n="23" xml:id="p25-22"/>τῶν Κατηγοριῶν καὶ πάσης τῆς Ἀριστοτέλους φιλοσοφίας.
+            </p>
+          </div>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

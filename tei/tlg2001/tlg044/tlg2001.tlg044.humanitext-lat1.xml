@@ -1,0 +1,1716 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt><title>Themistius, In Aristotelis Metaphysicorum Librum Λ Paraphrasis (latine expressa) (CAG 05.5)</title><respStmt><resp>Responsible for the edition</resp><persName xml:id="NI" xml:lang="en">Naoya Iwata</persName></respStmt><respStmt><resp>Structuring of the text (division into chapters, sections and lemmata) and its review</resp><persName xml:id="TN" xml:lang="en">Tomomi Nakayama</persName></respStmt></titleStmt>
+      <publicationStmt>
+        <publisher>Humanitext</publisher>
+        <availability><licence target="https://creativecommons.org/licenses/by/4.0/">Public domain source; transcription CC BY 4.0 (Humanitext)</licence></availability>
+      </publicationStmt>
+      <sourceDesc><bibl>Themistius, In Aristotelis Metaphysicorum Librum Λ Paraphrasis (latine expressa). Commentaria in Aristotelem Graeca V.5, ed. S. Landauer, Berlin: Reimer 1903, pp. 1–39. Scan: Internet Archive commentariaina05pt46akaduoft (University of Toronto). Transcription: Humanitext OCR v2 (Gemini), 2026; structure: humanitext-cag-structuring.</bibl></sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <refsDecl n="CTS">
+        <cRefPattern n="section" matchPattern="(.+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@subtype='section' and @n='$1'])"/>
+      </refsDecl><refsDecl n="page-line"><cRefPattern n="page.line" matchPattern="(\w+)\.(\w+)" replacementPattern="#xpath(//tei:pb[@n='$1']/following::tei:lb[@n='$2'][1])"><p>Citation by the page and line of the printed edition (CAG page.line, e.g. 105.17): the line with that number after the page break with that page number.</p></cRefPattern></refsDecl>
+      <editorialDecl>
+        <p>Text transcribed by OCR (Humanitext OCR v2, Gemini models) from the scans named in the source description. Structure (div, quote, head): transferred from a manual division of this work into chapters, sections and lemmata made by Tomomi Nakayama on a TEI file of the work derived from First1KGreek; only the positions of the divisions, the extent of the lemma quotations and the Bekker references were taken over and aligned to the OCR lines by page and opening words, and the result was reviewed in four rounds (2026-08-28 to 2026-09-29). Text: OCR of the page images with line coordinates (gemini-3-flash-preview; gemini-3.7-flash where it failed; damaged pages transcribed again). The review rounds concerned the structure, the line numbers and the placement of the apparatus, not the wording. The Latin text was neither collated nor re-read by a model; it is the OCR, with damaged pages transcribed again. Spelling follows the printed page. Later checks are listed in the revision description. Headings inside a div (sub-headings, closing formulas, labels of tables) are ab[@type='head']. The words of diagrams and tables are not body text: each diagram or table is given once as figure after the last body line printed before it (labels, trees and tables transcribed; pure geometry described in figDesc); where the edition counts the rows of a diagram or table as lines, those line numbers are not used by any lb. Evident misprints of the printed edition, identified on the page image, are kept and given with the correct form as choice/sic/corr; mere variants of spelling or accentuation are left as printed. Misprinted numbers in milestones (Bekker references, old-edition page, folio, column and line numbers), which cannot carry choice/sic/corr, are given with the corrected value where the sequence of the numbers determines it. Line breaks: one lb per printed line; @n is the line count of the CAG page (headings included), resynchronised on the printed marginal numbers of the left margin; lines the edition does not count carry lb without @n. Words hyphenated across lines are joined and the lb is placed at the following word boundary. pb/@facs points to the image of the page in the Internet Archive item named in the source description (BookReader page image; for pages supplied from another copy, that copy). Critical-apparatus entries are attached to the line(s) they cite as note[@type='apparatus'] with @target on the lb (line level; the lemma words of an entry are not linked); entries that cannot be resolved remain as note[@type='footnote'] at the page end. References in the margins to older editions or manuscripts are milestone[@type='alt-edition'] with @unit and @ed (the edition identified from the preface of the volume); CAG's repetition of the current old-edition page or folio beside the first line of each page is not encoded. Bekker references printed before lemmata are milestone[@unit='bekker']. Marginal digits fused into the text by OCR have been removed.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc><change when="2026-08-27" who="#NI">OCR of the page images with line coordinates (gemini-3-flash-preview; gemini-3.7-flash where it failed); division of the text transferred onto the OCR lines.</change><change from="2026-08-28" to="2026-09-29" who="#TN">Four review rounds of the structure, line numbers and apparatus placement; damaged pages transcribed again; lines dropped by the OCR inserted.</change><change when="2026-09-24" who="#NI">Line numbers recounted from the printed marginal numerals in OCR reading order.</change><change when="2026-10-13" who="#NI">Margin references to older editions encoded as milestone[@type='alt-edition'][@ed] and checked on the images.</change><change when="2026-10-17" who="#NI">Words hyphenated across lines joined; punctuation normalised; review closed.</change><change when="2026-10-20" who="#NI">Header revised (title, source description, editorial declaration, revision description); supplement brackets normalised to 〈 〉; breathings and accents written as separate signs before capitals composed with the letter; missing elision marks after ἀλλ, κατ, καθ, ἐπ, δι etc. supplied in the text; numbers left at line starts removed or encoded as old-edition milestones (image checked); words divided at a line end that had been joined to a word two lines down corrected; every body line without a line number checked on the page images (margin labels and folio marks read as lines dropped, duplicated rows removed, a missing line restored, numbers given to lines the edition counts); numeral signs unified as ʹ (U+0374, stored in its NFC form U+02B9); line-number jumps, old-edition milestones without an edition name and notes suspected to hold body text checked on the page images; citation by printed page and line declared (refsDecl); raised dots read as apostrophes corrected (checked on the page images); line coordinates of the working files realigned on the marginal numerals; printers' signatures at the foot of the page removed from the apparatus; apparatus entries for two lines joined by et kept as one note pointing at both lines; text of diagrams and tables encoded as figure (18 pages checked on the images); page images linked from pb/@facs.</change><change when="2026-10-21" who="#NI">Old-edition line numbers checked on the page images where the sequence skipped a number (2,100 places in the corpus) and, page by page, where it was irregular (542 pages): numbers missed by the OCR added (549), milestones not printed on the page dropped (190; mostly the CAG's own left-margin numbers or line references of the apparatus taken for old-edition numbers), misplaced ones moved (69), misread values corrected (31), page numbers taken for line numbers made page milestones (8); the edition's own skips and out-of-order numbers left as printed, the line count printed beside the repeated page or folio at the head of a page not encoded (like the repetition).</change><change when="2026-10-23" who="#NI">Quotation marks made uniform: opening single and double quotation marks, printed in the edition in the reversed (high-reversed-9) form, are encoded as ‘ and “, closing ones as ’ and ”, single and double kept as printed; opening marks read by the OCR as straight quotes, low quotes or spacing breathings, and spacing breathings or quotation marks doubled before a capital that already bears its breathing, corrected.</change></revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="edition" n="urn:cts:greekLit:tlg2001.tlg044.humanitext-lat1" xml:lang="lat">
+        <pb n="1" facs="https://archive.org/download/commentariaina05pt46akaduoft/page/n458.jpg"/>
+        <head><lb n="1" xml:id="p1-0"/>THEMISTII
+<lb n="2" xml:id="p1-1"/>PARAPHRASIS IN METAPHYSICORUM
+<lb n="3" xml:id="p1-2"/>LIBRUM A.
+<lb xml:id="p1-3"/>Versio Finzii</head>
+        <div type="textpart" subtype="section" n="1">
+          <p>
+            <lb n="4" xml:id="p1-4"/>Ens pluribus modis dicitur; nos autem, dum entis principia inquirere
+            <lb n="5" xml:id="p1-5"/>volumus, substantiae dumtaxat principia investigare volumus.
+            <lb n="6" xml:id="p1-6"/>nam hoc nomen substantiae magis debetur quam omnibus,
+            <lb n="7" xml:id="p1-7"/>quae existunt. sive enim universum in unum sit redactum, ut membra<note type="apparatus" n="7" target="#p1-7">sive-figuras (19) laudatur ab Av. p. 291 C sq. et Av. Fr. 57</note>
+            <lb n="8" xml:id="p1-8"/>in corpore humano et partes in plantae corpore in unitatem coalescunt,
+            <lb n="9" xml:id="p1-9"/>sive ex rebus sit compositum, quae se invicem tangant, ut
+            <lb n="10" xml:id="p1-10"/>domus et navis, sive coniunctum sit ex segregatis, ut exercitus et<note type="apparatus" n="10" target="#p1-10">segregatis] separatis et dispersis FCO</note>
+            <lb n="11" xml:id="p1-11"/>civitas: princeps omnium ipsius partium substantia est obtinetque
+            <lb n="12" xml:id="p1-12"/>eundem in universo locum, quem obtinet cor in animalium
+            <lb n="13" xml:id="p1-13"/>corpore. sin autem nullo horum modorum fuerit eius constitutio,<note type="apparatus" n="13" target="#p1-13">eius constitutio om. F Av. lat.</note>
+            <lb n="14" xml:id="p1-14"/>sed sicut in numero unum prius est, deinde duo, deinde tria, aut
+            <lb n="15" xml:id="p1-15"/>sicut in figuris rectarum linearum triangulus prior est, deinde
+            <lb n="16" xml:id="p1-16"/>quadrangulus: sic etiam substantia invenitur prima, deinde<note type="apparatus" n="16" target="#p1-16">etiam incertum</note>
+            <lb n="17" xml:id="p1-17"/>qualitas et quantitas et reliqua. nam substantia omnibus iis, quae<note type="apparatus" n="17" target="#p1-17">et] tum F Aristotelem imitatus; quantitas (et) qualitas Av. lat. F inverso ordine</note>
+            <lb n="18" xml:id="p1-18"/>subsequuntur, antecedit, ut unitas ceteros numeros et triangulus ceteras
+            <lb n="19" xml:id="p1-19"/>praecedit figuras. non enim omnia genera una et eadem ratione entia
+            <lb n="20" xml:id="p1-20"/>dicuntur; sed inter illa dignior est hoc nomine substantia, cetera<note type="apparatus" n="20" target="#p1-20">cetera] fort. τἆλλα Arist. 22</note>
+            <lb n="21" xml:id="p1-21"/>autem esse dicimus, propterea quod substantiae insunt; eius namque
+            <lb n="22" xml:id="p1-22"/>aut quantitates sunt aut qualitates aut motus aut similia ac
+            <lb n="23" xml:id="p1-23"/>entitatem participant, quia ad substantiam referuntur. porro si alia
+            <lb n="24" xml:id="p1-24"/>genera dictionibus, quibus esse significatur, nuncupamus, nemo miretur,
+            <lb n="25" xml:id="p1-25"/>cum nos illas dictiones 〈re vera〉 de substantia solum adhibeamus.
+            <lb n="26" xml:id="p1-26"/>e.g. cum dicimus ‘hoc lignum album est’, illud ‘album est’ esse quidem
+            <lb n="27" xml:id="p1-27"/>significat, sed verbum non albedini, sed ligno ipsi adaptatur. et<note type="apparatus" n="27-28" target="#p1-27 #p1-28">et pari modo] fort. ἧ καὶ Arist. 22</note>
+            <lb n="28" xml:id="p1-28"/>pari modo cognata his adhibemus, cum negamus quaedam
+          </p>
+          <pb n="2" facs="https://archive.org/download/commentariaina05pt46akaduoft/page/n459.jpg"/>
+          <p>
+            <lb n="1" xml:id="p2-0"/>accidentia, immo vero cum affirmamus. adhibemus enim talia<note type="apparatus" n="1" target="#p2-0">adhibemus—rectum (3) om. F</note>
+            <lb n="2" xml:id="p2-1"/>e. g. de eo, quod non est album, dicendo ‘hoc est non-album’ et de eo,
+            <lb n="3" xml:id="p2-2"/>quod non est rectum, dicendo ‘hoc est non-rectum’. sicut autem cum
+            <lb n="4" xml:id="p2-3"/>dicimus ‘lignum est non-rectum’, illud non-rectum ligno ipsi adscribitur,
+            <lb n="5" xml:id="p2-4"/>ita cum lignum rectum esse dicimus, hoc esse de ligno tantum<note type="apparatus" n="5" target="#p2-4">ita—adhibemus (6) om. C</note>
+            <lb n="6" xml:id="p2-5"/>adhibemus. nam impossibile est accidentia ulla vel cogitatione a<note type="apparatus" n="6 et 11" target="#p2-5 #p2-10">nam] fort. et 11 pereunt] permutantur BF</note>
+            <lb n="7" xml:id="p2-6"/>substantia separari, eo minus re ipsa, cum tamen substantia ab universitate
+            <lb n="8" xml:id="p2-7"/>ceterorum generum segregari possit; non quod sensibilis
+            <lb n="9" xml:id="p2-8"/>substantia ullo pacto prorsus ab accidentibus seiuncta sit, sed substantia
+            <lb n="10" xml:id="p2-9"/>una et eadem numero manet, accidentibus minime iisdem
+            <lb n="11" xml:id="p2-10"/>numero manentibus; quin immo pereunt et adventant alternatim,
+            <lb n="12" xml:id="p2-11"/>oriuntur alia et alia intereunt. huius modi sunt quantitates, qualitates,
+            <lb n="13" xml:id="p2-12"/>actiones, passiones, loca, tempora hisque generibus finitima,
+            <lb n="14" xml:id="p2-13"/>quorum tamen omnium generum <milestone type="alt-edition" unit="folio" ed="Finzi 1558" n="2"/> initium, fundamentum, elementum
+            <lb n="15" xml:id="p2-14"/>substantia est.
+            <lb n="16" xml:id="p2-15"/>Huius dicti veritatem veteres quoque testantur. eorum enim, quae
+            <lb n="17" xml:id="p2-16"/>sunt, principia et fundamenta et elementa quaerentes substantiae
+            <lb n="18" xml:id="p2-17"/>principia et initia indagantur, non qualitatum, quantitatum
+            <lb n="19" xml:id="p2-18"/>aliorumque huiuscemodi. ex quo iam perspicuum fit discrimen inter
+            <lb n="20" xml:id="p2-19"/>has duas quaestiones, i. e. inter quaestionem de generibus entium, quot
+            <lb n="21" xml:id="p2-20"/>sint, et quaestionem, quot sint initia entium. nam substantia tantum
+            <lb n="22" xml:id="p2-21"/>initia habet et cuiusque substantiae initia quaeruntur, quatenus est
+            <lb n="23" xml:id="p2-22"/>una numero; genera vero in mente tantum existunt perceptis
+            <lb n="24" xml:id="p2-23"/>singularibus in ea repositis, quorum unumquodque est sicut aliud.
+            <lb n="25" xml:id="p2-24"/>qui igitur hac aetate sunt, quippe qui sint in disserendi<note type="apparatus" n="25" target="#p2-24">qui—sunt] isti autem AB</note>
+            <lb n="26" xml:id="p2-25"/>facultate exercitati, universalibus tribuendam substantiae
+            <lb n="27" xml:id="p2-26"/>dignitatem magis quam singularibus dicunt, immo universalia
+            <lb n="28" xml:id="p2-27"/>quasi principia singularium ponunt; nam hominem universalem
+            <lb n="29" xml:id="p2-28"/>principium dicunt Socratis et Platonis et equum universalem huius
+            <lb n="30" xml:id="p2-29"/>et illius equi. antiquiores vero magis sensum sectabantur
+            <lb n="31" xml:id="p2-30"/>— philosophia namque tunc temporis proxime orta fuerat — et singularia
+            <lb n="32" xml:id="p2-31"/>digniora substantiae principia esse putabant. idcirco cum
+            <lb n="33" xml:id="p2-32"/>terram, ignem, aquam, aerem initium substantiae dicerent, non
+            <lb n="34" xml:id="p2-33"/>tamen terram universalem aut ignem universalem aut alia universalia
+            <lb n="35" xml:id="p2-34"/>elementa esse aiebant eorum, quae sunt, sed ne corpus
+            <lb n="36" xml:id="p2-35"/>quidem commune huius terrae, huius ignis, huius aquae, huius
+            <lb n="37" xml:id="p2-36"/>aeris elementum esse asseverabant. saepius vero utra nam harum
+            <lb n="38" xml:id="p2-37"/>sectarum rectius sentiat, disputavimus: eane quae universalia
+            <lb n="39" xml:id="p2-38"/>ponit priora, an quae particularia. sed eorum opiniones quamvis
+            <lb n="40" xml:id="p2-39"/>refutaverimus (??), nihil tamen prohibet nos de hoc edisserere.<note type="apparatus" n="40" target="#p2-39">refutaverimus CF: bene consideraverimus ABD; fort. vertendum: (opiniones) cum bene consideraverimus, nemo prohibet de hoc] scilicet de substantia</note>
+          </p>
+          <pb n="3" facs="https://archive.org/download/commentariaina05pt46akaduoft/page/n460.jpg"/>
+          <p>
+            <lb n="1" xml:id="p3-0"/>nunc vero iam expresse meminimus inquirentem principia eorum,<note type="apparatus" n="1" target="#p3-0">nunc om. AD</note>
+            <lb n="2" xml:id="p3-1"/>quae sunt, necessario principia substantiae inquirere.
+            <lb n="3" xml:id="p3-2"/>Substantiae autem universae sunt tres, quarum duas omnes<note type="apparatus" n="3" target="#p3-2">quarum et sq.] dictio ἣν πάντες ὁμολογοῦσιν ut in priore Alexandri interpretatione ad utrumque pertinet rerum sensibilium genus</note>
+            <lb n="4" xml:id="p3-3"/>homines fatentur — quoniam sensibiles sunt, subiectae sensui
+            <lb n="5" xml:id="p3-4"/>visus — harum altera est perpetua, altera mutabilis. perpetua<note type="apparatus" n="5" target="#p3-4">altera (alt.)—est (6) om. F: perpet. (alt.) — est om. C quoque: ambo legunt substantia nimirum corporum caelestium post perpetua (pr.)</note>
+            <lb n="6" xml:id="p3-5"/>autem est substantia corporum caelestium, corruptibilis vero<note type="apparatus" n="6" target="#p3-5">corruptibilis vero] alia corr. et est F</note>
+            <lb n="7" xml:id="p3-6"/>substantia humi degentium, plantarum inquam et animalium.
+            <lb n="8" xml:id="p3-7"/>atque huius tantum substantiae elementa et fundamenta in<note type="apparatus" n="8" target="#p3-7">huius et sq.] ἧς ἀνάγκη τὰ στοιχεῖα λαβεῖν ad genus mutabile tantum referri videtur</note>
+            <lb n="9" xml:id="p3-8"/>praecedentibus sermonibus sumuntur. palam est autem ex multis
+            <lb n="10" xml:id="p3-9"/>constare, nempe ex igne, terra et duobus reliquis et ex aliis praeterea
+            <lb n="11" xml:id="p3-10"/>cum simplicioribus tum numero paucioribus, aut saltem ex una re<note type="apparatus" n="11" target="#p3-10">saltem AF: (ex una re) simplicissima BC</note>
+            <lb n="12" xml:id="p3-11"/>tantum, quae quandoque extenditur et est mollis, quandoque vero concrescit
+            <lb n="13" xml:id="p3-12"/>et induratur. atque hae quidem sunt duae substantiae ex<note type="apparatus" n="13" target="#p3-12">ex—existit (14) om. F</note>
+            <lb n="14" xml:id="p3-13"/>illis tribus, praeter quas nulla substantia existit. tertia autem substantia
+            <lb n="15" xml:id="p3-14"/>immobilis est, aeterna et sempiterna omnisque mutationis expers.
+            <lb n="16" xml:id="p3-15"/>neque enim mutatur ut ea, quae in terris sunt, plantae inquam et
+            <lb n="17" xml:id="p3-16"/>animalia, quae vel ex universa sui natura exeunt et corrumpuntur,
+            <lb n="18" xml:id="p3-17"/>neque mutationem localem subit, quam solam corpora haec cum
+            <lb n="19" xml:id="p3-18"/>caelestibus communem habent. nam quamvis corpora caelestia
+            <lb n="20" xml:id="p3-19"/>variis temporibus nequeant dispositionibus suis mutari, attamen non<note type="apparatus" n="20" target="#p3-19">dispositionibus suis] forma et specie sua F</note>
+            <lb n="21" xml:id="p3-20"/>dedecet ea diversis temporibus diversos variare locos, et super hoc
+            <lb n="22" xml:id="p3-21"/>aedificata est naturae facultas; at substantia, quae immobilis est et
+            <lb n="23" xml:id="p3-22"/>cui nihil miscetur corporei, immutabilis est omnino. quapropter
+            <lb n="24" xml:id="p3-23"/>separata esse dicitur a sensibili substantia. atqui certe non loco;
+            <lb n="25" xml:id="p3-24"/>nam falsum est dicere loco separari substantiam locum penitus non
+            <lb n="26" xml:id="p3-25"/>habentem et ab extremitatibus corporum non ambitam, quibus
+            <lb n="27" xml:id="p3-26"/>ambiuntur omnia, quae loco continentur; sed a sensibili separatam
+            <lb n="28" xml:id="p3-27"/>dicentes nihil nisi quandam inter eas diversitatem ostendimus.
+            <lb n="29" xml:id="p3-28"/>inspicientes enim unam earum immobilem atque immutabilem penitus<note type="apparatus" n="29" target="#p3-28">atque immutabilem om. AF</note>
+            <lb n="30" xml:id="p3-29"/>esse nec ab alio nec a se ipsa omnino mutari, postmodum<note type="apparatus" n="30" target="#p3-29">nec—mutari om. A</note>
+            <lb n="31" xml:id="p3-30"/>invenientes haec omnia sensibili substantiae alio et alio modo inesse:
+            <lb n="32" xml:id="p3-31"/>iure et merito a sensibili substantia separatam esse intellegibilem
+            <lb n="33" xml:id="p3-32"/>asserimus, adeo ut nihil ipsis commune sit, neque quod ad naturam
+            <lb n="34" xml:id="p3-33"/>neque quod ad novationem ullam pertineat. de hac igitur prima
+            <lb n="35" xml:id="p3-34"/>et immobili substantia hoc sermone tractaturi sumus et, quae de ea
+            <lb n="36" xml:id="p3-35"/>opinati fuerint antiqui, narraturi. nam alii dividebant <milestone type="alt-edition" unit="folio" ed="Finzi 1558" n="3"/> hanc primam<note type="apparatus" n="36" target="#p3-35">nam] ad verbum: quae autem illi sunt opinati, haec sunt</note>
+          </p>
+          <pb n="4" facs="https://archive.org/download/commentariaina05pt46akaduoft/page/n461.jpg"/>
+          <p>
+            <lb n="1" xml:id="p4-0"/>substantiam in duas partes, alii unam statuebant naturam.
+            <lb n="2" xml:id="p4-1"/>dividentes ponebant formas dimensionesque mathematicas
+            <lb n="3" xml:id="p4-2"/>priores substantias quam sensibiles, et illas quidem harum initia;
+            <lb n="4" xml:id="p4-3"/>dicentes vero intellegibilem substantiam esse unam, mathe-<note type="apparatus" n="4" target="#p4-3">dicentes codd. F; at ponebat (5) codd.</note>
+            <lb n="5" xml:id="p4-4"/>maticas dimensiones ipsas esse substantias ponebant formamque
+            <lb n="6" xml:id="p4-5"/>reiciebant. porro sensibilis substantia naturali scientia indiget;<note type="apparatus" n="6" target="#p4-5">reiciebant F; ABD corrupti</note>
+            <lb n="7" xml:id="p4-6"/>haec enim substantia ex motu omnino non evadit; altera vero<note type="apparatus" n="7" target="#p4-6">omnino] secundum omnes eius partes F</note>
+            <lb n="8" xml:id="p4-7"/>substantia ad aliam scientiam eamque nobiliorem quam sit scientia
+            <lb n="9" xml:id="p4-8"/>naturalis spectare videtur, cum nihil sit commune ipsis neque in gene-<note type="apparatus" n="9" target="#p4-8">cum nihil . . nec (10)] cf. Alex. 671,15 ἒπειδὴ οὐδαμῶς κατ’ οὐδὲν ἡ αἰσθητὴ οὐσία κοινωνεῖ τῇ νοητῇ, οὐδὲ ἔστι τις αὐταῖς ἀρχὴ κοινή</note>
+            <lb n="10" xml:id="p4-9"/>ratione ulla neque in loco neque in augmento neque in decremento nec
+            <lb n="11" xml:id="p4-10"/>commune principium habeant, a quo producantur. nam prior
+            <lb n="12" xml:id="p4-11"/>nullum habet principium, secundae vero principium est ipsa substantia
+            <lb n="13" xml:id="p4-12"/>prima. neque eadem cognitione apprehenduntur; altera
+            <lb n="14" xml:id="p4-13"/>enim sensibilis est, altera intellegibilis. rursus immutabilis immobilisque
+            <lb n="15" xml:id="p4-14"/>substantia natura prior est mutabili substantia, quae
+            <lb n="16" xml:id="p4-15"/>perinde atque res labiles fluit. at quia ea, quae insunt nobis, maxima
+            <lb n="17" xml:id="p4-16"/>ex parte a sensibili substantia terminantur, ideo prius de ea loqui
+            <lb n="18" xml:id="p4-17"/>consuevimus; finitima enim nobis est et quam simillima nostri.
+            <lb n="19" xml:id="p4-18"/>Et de ea in iis, quae de natura sunt, amplissime tradidimus<note type="apparatus" n="19" target="#p4-18">de natura] lib. A cap. 5 p. 188 a</note>
+            <lb n="20" xml:id="p4-19"/>et declaravimus nullam sensibilem substantiam ex mutatione evadere
+            <lb n="21" xml:id="p4-20"/>posse mutationemque ex contrariis fieri; sed nullam
+            <lb n="22" xml:id="p4-21"/>mutationem ex omnibus contrariis, sed ex similibus tantum ac
+            <lb n="23" xml:id="p4-22"/>proximis. nam fit album ex non-albo, non tamen ex omni nonalbo,
+            <lb n="24" xml:id="p4-23"/>non enim ex voce, tametsi vox non-alba sit, sed ex nigro
+          </p>
+        </div>
+        <div type="textpart" subtype="section" n="2">
+          <p>
+            <lb n="25" xml:id="p4-24"/>dumtaxat aut rubro aut ex alio colore, qui ex eorum specie est. deinde
+            <lb n="26" xml:id="p4-25"/>declaravimus his duobus contrariis tertium quoddam necessario subiciendum
+            <lb n="27" xml:id="p4-26"/>esse. duorum enim contrariorum alterum alterum non sustinet,
+            <lb n="28" xml:id="p4-27"/>sed quod utrisque subicitur, natura quaedam est unum contrariorum
+            <lb n="29" xml:id="p4-28"/>exuens et alterum suscipiens. ibidem in descriptione mutationum
+            <lb n="30" xml:id="p4-29"/>quatuor species iam numeravimus in hac substantia. una quidem
+            <lb n="31" xml:id="p4-30"/>in definitione rei est, qua scitur, quid res sit, ut cum fit homo ex<note type="apparatus" n="31" target="#p4-30">sq. 22 post contrariis addunt in contraria BD</note>
+            <lb n="32" xml:id="p4-31"/>non homine, aqua ex non aqua, immo ex aere; et hanc mutationem
+            <lb n="33" xml:id="p4-32"/>modo generationem, modo corruptionem appellamus. secunda in
+            <lb n="34" xml:id="p4-33"/>qualitate est et immutatio nuncupatur, tertia in quantitate et
+            <lb n="35" xml:id="p4-34"/>quandoque augmentatio, quandoque imminutio dicitur. quarta est
+            <lb n="36" xml:id="p4-35"/>in loco, scilicet translatio de loco ad locum. cuius quartae mutationis<note type="apparatus" n="36" target="#p4-35">cf. Alex. 672, 10</note>
+            <lb n="37" xml:id="p4-36"/>ex mutationibus memoratis ne caelestia quidem corpora expertia ponimus;
+            <lb n="38" xml:id="p4-37"/>nam et ipsa de loco ad locum moventur et e contrariis aliquando
+          </p>
+          <pb n="5" facs="https://archive.org/download/commentariaina05pt46akaduoft/page/n462.jpg"/>
+          <p>
+            <lb n="1" xml:id="p5-0"/>ad contraria. inest namque et locis contrarietatis quaedam species
+            <lb n="2" xml:id="p5-1"/>ad modum oppositionis: ut translatio, qua pergitur ad ea, quae sunt
+            <lb n="3" xml:id="p5-2"/>ante, contraria est illi, qua itur ad ea, quae sunt post; quam contrarie-<note type="apparatus" n="3" target="#p5-2">post] Ar. 229 b</note>
+            <lb n="4" xml:id="p5-3"/>tatem nullus motus localis effugit. neque in hac mutatione duo contraria
+            <lb n="5" xml:id="p5-4"/>sufficiunt, sed in ea perinde ac in aliis corpus quoddam
+            <lb n="6" xml:id="p5-5"/>subici duobus contrariis oportet, quod quidem ab altero ad alterum
+            <lb n="7" xml:id="p5-6"/>moveatur, nisi quod hoc caeleste corpus diversum habetur a corpore
+            <lb n="8" xml:id="p5-7"/>generationi et corruptioni subiecto. hoc enim per se totum
+            <lb n="9" xml:id="p5-8"/>mutabile est, caeleste vero corpus solo situ mutatur, ea autem,<note type="apparatus" n="9" target="#p5-8">ΓΑΙ ἡ εἰς τὸ ἔμπροσθεν τῇ εἰς τὸ ὄπισθεν</note>
+            <lb n="10" xml:id="p5-9"/>quibus natura eius et natura cuiuslibet partium ipsius sustinetur,
+            <lb n="11" xml:id="p5-10"/>immutabilia sunt ac immobilia. particeps tamen exilem quidem in
+            <lb n="12" xml:id="p5-11"/>modum et ipsum est potentiae et actus, quatenus ipsius partes sunt
+            <lb n="13" xml:id="p5-12"/>potentia ad aliquem locum, ad quem postea actu perveniunt. etenim
+            <lb n="14" xml:id="p5-13"/>hoc etiam omnibus sensibilibus substantiis est commune, exire
+            <lb n="15" xml:id="p5-14"/>inquam e potentia ad actum, ut ex potentia albo ad actu album et
+            <lb n="16" xml:id="p5-15"/>ex bicubitali potentia ad bicubitale actu et ex hoc, quod erat
+            <lb n="17" xml:id="p5-16"/>potentia Socrates, ad actu Socratem; nam semen, ex quo genitus
+            <lb n="18" xml:id="p5-17"/>est Socrates, pridem potentia Socrates fuit. ex quo diluitur trita
+            <lb n="19" xml:id="p5-18"/>illa omnibusque physicis communis dubitatio, quomodo ex non ente
+            <lb n="20" xml:id="p5-19"/>aliquid fiat. nam id, quod fit, non ex prorsus non ente efficitur,<note type="apparatus" n="20" target="#p5-19">non ex et sq.] partim est om. A et C; cf. Alex. 672,28 καὶ οὔτε ἐκ τοῦ μηδαμῇ μηδαμῶς ὄντος γίνεται τὰ γινόμενα . . ἀλλ’ ἐκ τοῦ πῇ μὲν ὄντος πῇ δὲ μὴ ὄντος</note>
+            <lb n="21" xml:id="p5-20"/>sed ex eo, quod partim non est, partim est; id enim, ex quo fit
+            <lb n="22" xml:id="p5-21"/>id, quod fit, potentia est idem, quod fit, actu est non ens. in<note type="apparatus" n="22" target="#p5-21">quod fit, actu est non ens BCD: quod actu erit AF; cf. infra</note>
+            <lb n="23" xml:id="p5-22"/>omnibus vero, quae mutantur, id quod mutationem subit necessario
+            <lb n="24" xml:id="p5-23"/>corpus est quoddam; idcirco <milestone type="alt-edition" unit="folio" ed="Finzi 1558" n="4"/> substantiae perpetuae, quae
+            <lb n="25" xml:id="p5-24"/>generationem et corruptionem non subeunt, cum loco mutentur
+            <lb n="26" xml:id="p5-25"/>et ipsae, fieri non potest, quin corpora sint.
+            <lb n="27" xml:id="p5-26"/>Non ens autem tribus modis dicitur, uno modo quod
+            <lb n="28" xml:id="p5-27"/>penitus non est, altero ut privatio rei ortae opposita, tertio quod
+            <lb n="29" xml:id="p5-28"/>potentia est. duobus igitur prioribus modis quidquam fieri nequit.
+            <lb n="30" xml:id="p5-29"/>quid enim fieri potest ex eo, quod omnino non est, aut ex privatione,
+            <lb n="31" xml:id="p5-30"/>dum ipsa manet? sed ex corpore mutationi subiecto aliquid fieri
+            <lb n="32" xml:id="p5-31"/>potest; nam potentia est id, quod fit, actu vero non est. stantibus
+            <lb n="33" xml:id="p5-32"/>his non ex quocumque corpore quolibet modo cuiuslibet rei generatio
+            <lb n="34" xml:id="p5-33"/>erit. navis enim minime ex lapillis fabricatur neque ex quacumque re
+            <lb n="35" xml:id="p5-34"/>gignitur homo, sed navis ex lignis construitur, domus vero ex lapidibus
+            <lb n="36" xml:id="p5-35"/>et homo ex semine humano oritur, non tamen quilibet ex quolibet,
+            <lb n="37" xml:id="p5-36"/>sed unusquisque ex semine, ex quo ortum habuit. pari modo equus
+            <lb n="38" xml:id="p5-37"/>ex semine equi gignitur. at si corpus, ex quo ea, quae fiunt, originem
+            <lb n="39" xml:id="p5-38"/>ducunt, secundum omnem sui rationem unum esset nec primum esset
+          </p>
+          <pb n="6" facs="https://archive.org/download/commentariaina05pt46akaduoft/page/n463.jpg"/>
+          <p>
+            <lb n="1" xml:id="p6-0"/>in eius natura habilitas quaedam varia, quam cernimus multitudinem f.4
+            <lb n="2" xml:id="p6-1"/>ex eo non emanaret. nam quod vere unum est, non suscipit multitudinem,
+            <lb n="3" xml:id="p6-2"/>sed oportet habeat primum potestatem adnexam, qua,
+            <lb n="4" xml:id="p6-3"/>tametsi unum sit, multitudinem recipere queat. quodsi recipiens
+            <lb n="5" xml:id="p6-4"/>huiusmodi non fuerit, non est quidem rectum dicere illud eo modo
+            <lb n="6" xml:id="p6-5"/>a creatore positum esse, qui deinceps cogat ipsum, ut multitudinem
+            <lb n="7" xml:id="p6-6"/>subeat; hoc enim sapientis non esset. Anaxagoras autem creatorem
+            <lb n="8" xml:id="p6-7"/>unum itemque sapientem concedit; undenam igitur generabilium
+            <lb n="9" xml:id="p6-8"/>pluralitas creatore uno existente et corpore, ex quo generatio fit,
+            <lb n="10" xml:id="p6-9"/>non multiplicabili, interrogatus: mens, inquit, creatoris, ac si aedificator,
+            <lb n="11" xml:id="p6-10"/>faber lignarius aut aurifex esset, accipit quoddam corpus
+            <lb n="12" xml:id="p6-11"/>illudque disiungit opportuna disiunctione et conectit, construit
+            <lb n="13" xml:id="p6-12"/>componitque variis formis, prout decet. nos vero se aliter res
+            <lb n="14" xml:id="p6-13"/>habere cernimus, atque dicit Anaxagoras. nam prius mutatum est
+            <lb n="15" xml:id="p6-14"/>universum corpus in elementa quatuor et deinceps in stirpes et
+            <lb n="16" xml:id="p6-15"/>animalia. at rerum multitudo a duobus provenit: cum a creatore
+            <lb n="17" xml:id="p6-16"/>ob formarum multitudinem, quam corpori praebuit, tum a corpore
+            <lb n="18" xml:id="p6-17"/>ipso, quod quidem ad recipiendum aptum est. perinde ac si quempiam
+            <lb n="19" xml:id="p6-18"/>ceram accepisse fingamus et ex ea multas animalium, plantarum,
+            <lb n="20" xml:id="p6-19"/>inanimatorum figuras confecisse, tunc harum figurarum
+            <lb n="21" xml:id="p6-20"/>pluralitas a duobus proveniat, ab artifice effingente et ex cera ipsa;
+            <lb n="22" xml:id="p6-21"/>ab artifice quidem, quia multas figuras finxit, ex cera vero, quia
+            <lb n="23" xml:id="p6-22"/>potest multas figuras recipere.
+          </p>
+        </div>
+        <div type="textpart" subtype="section" n="3">
+          <p>
+            <lb n="24" xml:id="p6-23"/>Insuper in Physicis expositum est neque formam per se solam<note type="apparatus" n="24" target="#p6-23">Physicis] p. 192a 25</note>
+            <lb n="25" xml:id="p6-24"/>generari posse, neque recipiens per se solum. rotunditas enim<note type="apparatus" n="25" target="#p6-24">rotunditas BC1F: rotunditatis forma AC2</note>
+            <lb n="26" xml:id="p6-25"/>sola per se arte aurificis non fit, neque fit aurum per se; sed
+            <lb n="27" xml:id="p6-26"/>aurum fit aurum vena, rotundum autem ab aurifice redditur. qui<note type="apparatus" n="27" target="#p6-26">qui— etenim (29)] nam alioqui in infinitum progrederemur, quoniam F</note>
+            <lb n="28" xml:id="p6-27"/>vero utrumque tamquam rem separatam poneret, eo induceretur, ut
+            <lb n="29" xml:id="p6-28"/>generationem infinitam statueret; etenim si recipiens corpus generari
+            <lb n="30" xml:id="p6-29"/>posset, necessarium esset, ut ex alio recipiente generaretur; similiter<note type="apparatus" n="30" target="#p6-29">ut—generaretur] subiectum utique aliquod, ex quo manente et antecedente produceretur F</note>
+            <lb n="31" xml:id="p6-30"/>si corrumpi posset, in aliud corpus resolveretur.
+            <lb n="32" xml:id="p6-31"/>Post haec iam expositum est unamquamque rem naturalem<note type="apparatus" n="32" target="#p6-31">posthaec F Aristotelem imitatus expositum] supra Z cap. 7 et 9</note>
+            <lb n="33" xml:id="p6-32"/>tantummodo ex sibi simili ac cognomine oriri, neque hoc in natura-<note type="apparatus" n="33" target="#p6-32">nec et sq.] Arist. a5</note>
+            <lb n="34" xml:id="p6-33"/>libus solum, ut si homo generet hominem, sed etiam in iis, quae
+            <lb n="35" xml:id="p6-34"/>arte fiunt. nam non generatur domus nisi domo, domus, inquam,<note type="apparatus" n="35" target="#p6-34">nam et sq.] cf. Arist. 1032b11 ὥστε συμβαίνει τρόπον τινὰ .. γίνεσθαι καὶ τὴν οἰκίαν ἐξ οἰκίας, τῆς ἄνευ ὕλης τὴν ἔχουσαν ὕλην</note>
+            <lb n="36" xml:id="p6-35"/>corporea incorporea domo. ars igitur principium est unius
+            <lb n="37" xml:id="p6-36"/>in altero, natura vero principium in eodem ipso est. fiunt
+          </p>
+          <pb n="7" facs="https://archive.org/download/commentariaina05pt46akaduoft/page/n464.jpg"/>
+          <p>
+            <lb n="1" xml:id="p7-0"/>autem conversiones formae naturalis laesionesque in naturalibus<note type="apparatus" n="1" target="#p7-0">conversiones.. laesiones] cf. Alex. 675,26 ἀποτυχίαι et 676,3 ἀποτυχίαι καὶ ἁμαρτήματα</note>
+            <lb n="2" xml:id="p7-1"/>corpore, ex quo generatio fit, impedito, quominus ratione sua procedat,
+            <lb n="3" xml:id="p7-2"/>idque potius privatio principii appellari debet, quam dignetur nomine
+            <lb n="4" xml:id="p7-3"/>principii, ut multa in incommoda navis incurrit ob nautae imbecillitatem,
+            <lb n="5" xml:id="p7-4"/>cum ab aliquo vim patitur.
+            <lb n="6" xml:id="p7-5"/>Tres igitur universae substantiae sunt, inter quas una immutabilis
+            <lb n="7" xml:id="p7-6"/><milestone type="alt-edition" unit="folio" ed="Finzi 1558" n="5"/> penitus et immobilis est, quae non sensu, sed intellectu dumtaxat
+            <lb n="8" xml:id="p7-7"/>apprehenditur; reliquae duae sensui subiectae sunt, quarum una
+            <lb n="9" xml:id="p7-8"/>perennis, altera corruptibilis existit. sed tuum est sensibilem substantiam
+            <lb n="10" xml:id="p7-9"/>corruptioni obnoxiam in tres substantias dirimere: in ele-<note type="apparatus" n="10-11" target="#p7-9 #p7-10">elementum codd. F hic et in seq. passim: l. materiam</note>
+            <lb n="11" xml:id="p7-10"/>mentum, scilicet corpus formam suscipiens, in formam et in id, quod
+            <lb n="12" xml:id="p7-11"/>ex his constat. quae tres substantiae in hoc fere conveniunt, ut
+            <lb n="13" xml:id="p7-12"/>sint hoc aliquid. hoc autem magis proprium substantiae est quam
+            <lb n="14" xml:id="p7-13"/>reliquae eius proprietates. quodsi unumquidque aliorum praedica-<note type="apparatus" n="14" target="#p7-13">quodsi—debetur (16)] locus difficilis. F exhibet: accidentibus enim ne per temporaneum quidem spatium significatio super hoc suppeditabitur. verba ne—spatium om. BCD</note>
+            <lb n="15" xml:id="p7-14"/>mentorum 〈tamquam hoc aliquid〉 significamus, haec significatio substantiae
+            <lb n="16" xml:id="p7-15"/>tantum debetur. inter substantias autem materia remotissima
+            <lb n="17" xml:id="p7-16"/>ab eo est, ut sit hoc aliquid. nam materia ex sui natura est informis,
+            <lb n="18" xml:id="p7-17"/>nisi quod est quodpiam optans, hoc aliquid apparere et inter<note type="apparatus" n="18" target="#p7-17">inter—numerari (19)] textus hebr. vix permittit, ut vertas cum F: et substantia numerabilis esse, licet similem invenias sententiam apud Arist. 190b</note>
+            <lb n="19" xml:id="p7-18"/>substantias numerari — veluti si videri renueret, dum forma privatur,
+            <lb n="20" xml:id="p7-19"/>ne paupertatem atque egestatem suam ostendat — nec sensus eam
+            <lb n="21" xml:id="p7-20"/>percipit, donec formam induat. attamen intellectus analogia quadam
+            <lb n="22" xml:id="p7-21"/>materiam forma carere cognoscit et scit ipsam adulterinam esse,
+            <lb n="23" xml:id="p7-22"/>speciem scilicet eius praebere, quod non habet; non enim habet
+            <lb n="24" xml:id="p7-23"/>formam, qua fulciatur. at cum ipse ab ea omnes formas abstraxerit,
+            <lb n="25" xml:id="p7-24"/>tunc convertet se ad eam et semel ad primam materiam conversus<note type="apparatus" n="25" target="#p7-24">ἡ ὕλη ἀριθμητή. 21 analogia] cf. Arist. 191a8 ἡ δ’ ὑποκειμένη φύσις ἐπιστητὴ κατ’ ἀναλογίαν et Alex. in Metaph. 465,6 seq.</note>
+            <lb n="26" xml:id="p7-25"/>invenit aliquando in materia cuilibet rei propinqua, quae percipi<note type="apparatus" n="26" target="#p7-25">quae —potest] ad verbum: pro propinquitate vis perceptivae. cave constructionem destruas vertendo cum F: agiliorem postmodum comprehensionem in cuiuslibet rei materia proxima invenit. nam materia haec est hoc aliquid.</note>
+            <lb n="27" xml:id="p7-26"/>potest, istam materiam esse hoc aliquid. illa enim habet formam, ut
+            <lb n="28" xml:id="p7-27"/>aes statuae et tabulae navis, sed haec magis, cum sit ex rebus
+            <lb n="29" xml:id="p7-28"/>separatis et non unitis, ut sunt lateres ac lapides domus. hoc<note type="apparatus" n="29" target="#p7-28">non unitis] Arist. a 10 καὶ μὴ συμφύσει</note>
+            <lb n="30" xml:id="p7-29"/>igitur modo ex imbecillitate, abstrusione et remotione convertitur
+            <lb n="31" xml:id="p7-30"/>materia, ut hoc aliquid appareat. nihilo minus videri respuit nec
+            <lb n="32" xml:id="p7-31"/>permanet ne per momentum quidem temporis, quo percipiatur.
+            <lb n="33" xml:id="p7-32"/>Forma vero, quae quam informat materiam tegit, dignior est hoc
+            <lb n="34" xml:id="p7-33"/>aliquid esse; sed quae inter omnes substantias optimo iure hoc aliquid
+          </p>
+          <pb n="8" facs="https://archive.org/download/commentariaina05pt46akaduoft/page/n465.jpg"/>
+          <p>
+            <lb n="1" xml:id="p8-0"/>vocatur, est substantia composita singularis, ut hic et ille homo
+            <lb n="2" xml:id="p8-1"/>ceteraque aliarum rerum singularia.
+            <lb n="3" xml:id="p8-2"/>Inde ad sciscitandum venit, utrum detur forma seiuncta a
+            <lb n="4" xml:id="p8-3"/>corpore, an omnes formae in corpore sint, adeo ut forma tantum
+            <lb n="5" xml:id="p8-4"/>substantiae compositae sit forma, quae cum fortasse separari possit
+            <lb n="6" xml:id="p8-5"/>intellectu, nusquam tamen re vera per se sola existat. dicamus
+            <lb n="7" xml:id="p8-6"/>artificialium formas hoc modo se habere, id quod ex earum ratione
+            <lb n="8" xml:id="p8-7"/>innotescit. nam lectuli forma aut in ligno est aut in artificis mente
+            <lb n="9" xml:id="p8-8"/>et sanitatis forma aut in corpore existit aut in mente medici, neque
+            <lb n="10" xml:id="p8-9"/>est generatio horum neque corruptio, sed alio modo sunt
+            <lb n="11" xml:id="p8-10"/>et non sunt, ut saepe dictum est. sed formarum, quae natura sunt,
+            <lb n="12" xml:id="p8-11"/>nonnullas a corpore seiunctas esse veluti animam et intellectum non
+            <lb n="13" xml:id="p8-12"/>nego. idcirco ponentes formas [abstractas] esse, formas istas rebus
+            <lb n="14" xml:id="p8-13"/>naturalibus tribuebant, artificialibus vero nequaquam. plurimas
+            <lb n="15" xml:id="p8-14"/>vero formas naturales corpori coniunctas videmus, ut formas ignis et
+            <lb n="16" xml:id="p8-15"/>formas carnis, et, ut uno verbo dicam, nullius substantiae singularis
+            <lb n="17" xml:id="p8-16"/>naturalis formae sine corpore existere possunt. moventes autem
+            <lb n="18" xml:id="p8-17"/>formae et efficientes non est falsum dicere, quod antecedant ea,
+            <lb n="19" xml:id="p8-18"/>quae ab ipsis procreantur, tametsi in corpore sint, et hoc pacto
+            <lb n="20" xml:id="p8-19"/>Socratis pater Socratem antecedit et statuarius praecedit statuam,
+            <lb n="21" xml:id="p8-20"/>quam effecerit. at formae substantiarum compositarum simul cum
+            <lb n="22" xml:id="p8-21"/>ipsis necessario sunt, non ante eas; Socratis enim sanitas cum Socrate
+            <lb n="23" xml:id="p8-22"/>est, non ante ipsum; figura quoque huius pilae et pila simul sunt, non
+            <lb n="24" xml:id="p8-23"/>ante ipsam. numquid autem post interitum compositi ulla harum
+            <lb n="25" xml:id="p8-24"/>formarum maneat, considerare oportet. in quibusdam nihil prohibere
+            <lb n="26" xml:id="p8-25"/>videtur, ne permaneant, veluti si anima talis sit, non
+            <lb n="27" xml:id="p8-26"/>tota, sed mens sola. ut enim tota permaneat anima, fieri fortasse
+            <lb n="28" xml:id="p8-27"/>non potest.
+            <lb n="29" xml:id="p8-28"/>Si igitur forma praeexistens invenitur, quae agit, quatenus
+            <lb n="30" xml:id="p8-29"/>formam sibi similem inducit, ita ut homo generetur ex homine tantum,
+            <lb n="31" xml:id="p8-30"/>et equus ex equo, singularis inquam e singulari, — universale
+            <lb n="32" xml:id="p8-31"/>namque nec gignit nec gignitur, at id, quod generat et generatur,
+            <lb n="33" xml:id="p8-32"/>est hoc et illud — quid in generatione <milestone type="alt-edition" unit="folio" ed="Finzi 1558" n="6"/> opus habemus eius forma,
+            <lb n="34" xml:id="p8-33"/>qua Plato dicebat? cur, inquam, forma, quae generatur, indiget
+            <lb n="35" xml:id="p8-34"/>altera forma ut exemplari, cum ad ipsius exemplum effingatur id,<note type="apparatus" n="35" target="#p8-34">altera forma ut AD: om. BCF</note>
+            <lb n="36" xml:id="p8-35"/>quod ab ea gignitur? nam idem nomen eademque definitio tam
+            <lb n="37" xml:id="p8-36"/>generatum quam generans amplectitur formaque utriusque est eadem;
+            <lb n="38" xml:id="p8-37"/>eiusmodi enim est natura formae generantis, ut aliam sibi similem
+            <lb n="39" xml:id="p8-38"/>formam generare possit. 〈similiter〉 ars in omnibus, quae facit, forma
+            <lb n="40" xml:id="p8-39"/>ulla tamquam exemplari minime indiget, ita ut scamnum e. g., quod
+            <lb n="41" xml:id="p8-40"/>facere sibi proponat, sine exemplari facere nequeat. ars enim ipsa
+            <lb n="42" xml:id="p8-41"/>est scamni exemplar, quoniam forma scamni est in mente artificis
+          </p>
+          <pb n="9" facs="https://archive.org/download/commentariaina05pt46akaduoft/page/n466.jpg"/>
+          <p>
+            <lb n="1" xml:id="p9-0"/>ipsum facientis, veluti ars medendi est forma sanitatis et aedificatoria
+            <lb n="2" xml:id="p9-1"/>forma aedium est.
+            <lb n="3" xml:id="p9-2"/>Et hic sermo de reicienda forma perfectus [et absolutus] esset,<note type="apparatus" n="3" target="#p9-2">et seq.] Av. 303 F sq. et AvFr 58</note>
+            <lb n="4" xml:id="p9-3"/>nisi facesseret negotium animalium multitudo, quae a non simili
+            <lb n="5" xml:id="p9-4"/>nascuntur. cernimus enim vesparum genus ex equorum, apes ex
+            <lb n="6" xml:id="p9-5"/>boum cadaveribus gigni, ranam ex putredine aquae atque genus<note type="apparatus" n="6" target="#p9-5">genus—corporis] l. muscas ut AvFr</note>
+            <lb n="7" xml:id="p9-6"/>quoddam muscarum exigui corporis ex vino corrupto neque invenimus
+            <lb n="8" xml:id="p9-7"/>naturam producere ista ex similibus in forma. et nos optime
+            <lb n="9" xml:id="p9-8"/>novimus proportionem quandam peculiarem spermati seminibusque
+            <lb n="10" xml:id="p9-9"/>cuiuslibet plantarum ac animalium esse, qua generantur, quae gigni
+            <lb n="11" xml:id="p9-10"/>debent, certa, inquam, animalia certaeque plantae, non aliae, adeo
+            <lb n="12" xml:id="p9-11"/>ut ex humano semine non generetur equus neque ex equino semine
+            <lb n="13" xml:id="p9-12"/>homo fieri possit parique ratione neque ex huiusce plantae semine
+            <lb n="14" xml:id="p9-13"/>alia planta efficiatur. nec aliter respondent hae proportiones
+            <lb n="15" xml:id="p9-14"/>animalis huiusmodi generationi, nisi quia proportio prius posita in<note type="apparatus" n="15" target="#p9-14">proportio] fort. proportiones ut Av.</note>
+            <lb n="16" xml:id="p9-15"/>natura est, quae parata atque disposita sit ad novandam
+            <lb n="17" xml:id="p9-16"/>omnem viventis speciem possibilem, dummodo materiam ad
+            <lb n="18" xml:id="p9-17"/>procreandam inveniat idoneam, quae nondum erupit in actum. nec
+            <lb n="19" xml:id="p9-18"/>spernas obsecro talium animalium condicionem, sed cogita
+            <lb n="20" xml:id="p9-19"/>admirandam magis fore artificis peritiam, si quid ex luto fingat,
+            <lb n="21" xml:id="p9-20"/>quam si idem ex auro aut marmore conflasset; quin immo si rationem
+            <lb n="22" xml:id="p9-21"/>maioris viventium bene consideraverimus, inveniemus eundem in
+            <lb n="23" xml:id="p9-22"/>illo naturae processum. itaque fieri non potest, quin proportiones
+            <lb n="24" xml:id="p9-23"/>atque formae in natura iam positae sint, secundum quas facit id,
+            <lb n="25" xml:id="p9-24"/>quod facit. tametsi enim generatur homo ab homine, pater tamen
+            <lb n="26" xml:id="p9-25"/>nihil artificii habet in hac sua compositione, quae talis existit, ut
+            <lb n="27" xml:id="p9-26"/>meliore modo se habere nequeat; sed ita fit, quoniam in cuiuscunque
+            <lb n="28" xml:id="p9-27"/>substantiae natura proportio atque formae insunt; [proinde] non
+            <lb n="29" xml:id="p9-28"/>artificio patris, sed proportione fit. [praeterea] corpus in sola
+            <lb n="30" xml:id="p9-29"/>corporis superficie operatur, natura vero se in corpus universum
+            <lb n="31" xml:id="p9-30"/>insinuat. neque mirandum naturam nescientem ea, quae facit, ad finem,
+            <lb n="32" xml:id="p9-31"/>qui intenditur, adducere; etenim ipsa nec quid agat intellegit, nec
+            <lb n="33" xml:id="p9-32"/>actu percipit. et hoc indicat proportiones illas numine honorabilioris
+            <lb n="34" xml:id="p9-33"/>nobiliorisque causae, quam ipsa sit, atque sublimiore gradu collocatae
+            <lb n="35" xml:id="p9-34"/>afflari, nempe anima, quae est in terra, quae secundum
+            <lb n="36" xml:id="p9-35"/>Platonem a diis secundis manat, secundum Aristotelem a sole
+            <lb n="37" xml:id="p9-36"/>provenit et a circulo obliquo. et ideo facit illud, quod facit, desiderio
+            <lb n="38" xml:id="p9-37"/>intentionis, qua agitur, incensa, licet ipsa non intellegat intentionem;
+            <lb n="39" xml:id="p9-38"/>quomodo afflantur homines, ut verba loquantur, cum futura
+            <lb n="40" xml:id="p9-39"/>vaticinantur, haud sane percipientes, quid ipsi dicant. in summa
+            <lb n="41" xml:id="p9-40"/>fieri non potest, quin adsint in natura proportiones ac formae; nam
+            <lb n="42" xml:id="p9-41"/>in rei generatione ipsius similitudinem adesse oportet. sed non
+          </p>
+          <pb n="10" facs="https://archive.org/download/commentariaina05pt46akaduoft/page/n467.jpg"/>
+          <p>
+            <lb n="1" xml:id="p10-0"/>invenitur, quo pacto id omne, quod gignitur, a sibi simili gignatur;
+            <lb n="2" xml:id="p10-1"/>nobis enim aliqua forma egentibus actio quaedam obvia est, qua
+            <lb n="3" xml:id="p10-2"/>sola scimus formam illam fieri non posse. et perinde forma illa
+            <lb n="4" xml:id="p10-3"/>fit, ac si in aliquo alio lateret, et re vera in natura generante latet.<note type="apparatus" n="4" target="#p10-3">generante BCF Av.: generati AD</note>
+          </p>
+        </div>
+        <div type="textpart" subtype="section" n="4">
+          <p>
+            <lb n="5" xml:id="p10-4"/>Sed cum institutum sit primum principium eorum, quae sunt,
+            <lb n="6" xml:id="p10-5"/>quaerere, idcirco huiusmodi quaestioni quaedam praemittere proficiet.
+            <lb n="7" xml:id="p10-6"/>et <milestone type="alt-edition" unit="folio" ed="Finzi 1558" n="7"/> primo quaerimus, utrum principium omnium, quae sunt, possit esse
+            <lb n="8" xml:id="p10-7"/>unum et idem, ut illud principium sit principium substantiae, eorum,
+            <lb n="9" xml:id="p10-8"/>quae sunt ad aliquid, quantitatis et qualitatis, an quodlibet praedicamentorum
+            <lb n="10" xml:id="p10-9"/>diversum principium a principio alterius habeat. cum
+            <lb n="11" xml:id="p10-10"/>vero principium variis modis dicatur, tum quod est initium motus,
+            <lb n="12" xml:id="p10-11"/>tum id, propter quod est id quod est, tum elementum, decet nos de
+            <lb n="13" xml:id="p10-12"/>elementis prius quaerere, sitne idem elementum omnium entium, an
+            <lb n="14" xml:id="p10-13"/>quodlibet praedicamentum diversa elementa possideat ab alterius
+            <lb n="15" xml:id="p10-14"/>elementis. sed absurdum videtur, si eadem omnium sint, ita ut eadem
+            <lb n="16" xml:id="p10-15"/>sint elementa substantiae, relationis, qualitatis et quantitatis. si vero<note type="apparatus" n="16" target="#p10-15">quantitatis om. C si vero et sq.] abbreviationem expositionis, quae sequitur, invenies apud Averr. 306 HJ</note>
+            <lb n="17" xml:id="p10-16"/>quis hoc affirmare conabitur, quaeremus ab eo, quid hoc elementum
+            <lb n="18" xml:id="p10-17"/>sit, si unum est, aut quaenam haec elementa sint, si plura sunt; utrum
+            <lb n="19" xml:id="p10-18"/>extra decem genera, an in aliquo eorum existant. non esse extra
+            <lb n="20" xml:id="p10-19"/>decem praedicamenta [in promptu est]; nam esset aliud praedicamentum
+            <lb n="21" xml:id="p10-20"/>praeter decem atque illis prius haberetur. nam elementum
+            <lb n="22" xml:id="p10-21"/>prius est hisce, quorum est elementum. at nullum genus
+            <lb n="23" xml:id="p10-22"/>substantiam praecedit, ut ex praedictis liquet. sin vero hoc fugias<note type="apparatus" n="23" target="#p10-22">post genus add. BD communius; cf. Ar. b 2 ΑΑΙΑΑΑ praedictis] Ar. p. 1038 b 27</note>
+            <lb n="24" xml:id="p10-23"/>contendasque ponere elementum in praedicamento substantiae, tunc
+            <lb n="25" xml:id="p10-24"/>elementum substantiae erit elementum relationis, quantitatis, qualitatis,
+            <lb n="26" xml:id="p10-25"/>actionis, passionis atque habitus. praeterea sequetur necessario
+            <lb n="27" xml:id="p10-26"/>id, quod est extra captum intellectus, elementum substantiae esse in
+            <lb n="28" xml:id="p10-27"/>substantia; sed elementa priora ac simpliciora sunt his, quae ex eis
+            <lb n="29" xml:id="p10-28"/>componuntur, ut literae sunt dictione priores. supponamus igitur
+            <lb n="30" xml:id="p10-29"/>elementa non esse in aliquo praedicamento. at in quaestionem venit,
+            <lb n="31" xml:id="p10-30"/>num fieri possit, ut sint quicquam universalium omnia comprehendentium,
+            <lb n="32" xml:id="p10-31"/>ut unum. si dicatur huiusmodi elementa omnium esse,
+            <lb n="33" xml:id="p10-32"/>respondebimus haec nomina 〈non〉 magis de simplicibus rebus quam<note type="apparatus" n="33" target="#p10-32">non supplevi</note>
+            <lb n="34" xml:id="p10-33"/>de compositis praedicari. ex quo sequeretur simpliciora non esse compositorum
+            <lb n="35" xml:id="p10-34"/>elementa; cum enim composita his nominibus appellarentur,
+            <lb n="36" xml:id="p10-35"/>simpliciorum elementa forent. praeterea si unum atque ens sint
+            <lb n="37" xml:id="p10-36"/>principia decem praedicamentorum et principia diversa ab his sint,
+            <lb n="38" xml:id="p10-37"/>quorum principia sunt, ut punctum diversum a linea et unitas a
+            <lb n="39" xml:id="p10-38"/>numero et producens aliud atque ea, quae ab eo producuntur: tum<note type="apparatus" n="39" target="#p10-38">post producuntur F exhibet: sequitur ens, et unum sine praedicamentis esse posse, sed ens et unum non sunt sine essentia substantiae, quantitatis, qualitatis et reliquorum. nec unum (p. 11,2) ...: quae omnia commenticia sunt</note>
+          </p>
+          <pb n="11" facs="https://archive.org/download/commentariaina05pt46akaduoft/page/n468.jpg"/>
+          <p>
+            <lb n="1" xml:id="p11-0"/>ens et unum non erunt ipsa substantia nec ipsa quantitas nec ipsa
+            <lb n="2" xml:id="p11-1"/>qualitas. neque vero unum ens possunt non entia esse; non ergo hoc<note type="apparatus" n="2" target="#p11-1">non emendavi: duo ABCF</note>
+            <lb n="3" xml:id="p11-2"/>pacto eadem sunt omnium elementa. [immo impossibile est ita esse.]<note type="apparatus" n="3" target="#p11-2">immo—esse add. F</note>
+            <lb n="4" xml:id="p11-3"/>At proportione quadam nihil prohibet, si id, quod supra statutum
+            <lb n="5" xml:id="p11-4"/>erat, pro certo habemus. principia enim omnium tria sint, forma,
+            <lb n="6" xml:id="p11-5"/>materia atque privatio — e. g. in sensibilibus substantiis<note type="apparatus" n="6" target="#p11-5">sensibilibus substantiis F: sensibili substantia ABD: sensibilium substantia C</note>
+            <lb n="7" xml:id="p11-6"/>calidum quidem ut forma est, frigidum vero ut privatio,
+            <lb n="8" xml:id="p11-7"/>materia autem illud, quod est potentia haec duo; in praedicamento
+            <lb n="9" xml:id="p11-8"/>vero qualitatis album habet locum formae, nigrum locum
+            <lb n="10" xml:id="p11-9"/>privationis, superficies vero supposita his est ut materia quaedam;
+            <lb n="11" xml:id="p11-10"/>sic etiam lumen loco formae, tenebrae loco privationis habentur et
+            <lb n="12" xml:id="p11-11"/>corpus recipiens lumen utrique supponitur. impossibile est igitur
+            <lb n="13" xml:id="p11-12"/>elementa dari, quae communia omnino omnibus sint, at reperiuntur
+            <lb n="14" xml:id="p11-13"/>proportione et analogia quadam. sed nunc non quaerimus
+            <lb n="15" xml:id="p11-14"/>elementum eorum, quae sunt; nam eorum principium quaerere
+            <lb n="16" xml:id="p11-15"/>propositum fuit. sane utrumque causa est. sed principium
+            <lb n="17" xml:id="p11-16"/>potest esse extraneum ut causa movens, elementa vero nequeunt esse
+            <lb n="18" xml:id="p11-17"/>nisi in iis, quae ex ipsis fiunt. quod igitur elementum est, id et iam
+            <lb n="19" xml:id="p11-18"/>principium dici potest, quod vero principium est, elementum procul
+            <lb n="20" xml:id="p11-19"/>dubio non est; nam movens potest esse extra rem motam. at proximum
+            <lb n="21" xml:id="p11-20"/>movens in naturalibus simile est formae; homo namque hominem
+            <lb n="22" xml:id="p11-21"/>generat. in artificialibus vero, quae mente fiunt, forma est aut
+            <lb n="23" xml:id="p11-22"/>privatio. exemplo sit medicina aut ipsius ignoratio, aedificatoria ars
+            <lb n="24" xml:id="p11-23"/>aut imperitia eius. in multis vero rebus movens causa simul et forma
+            <lb n="25" xml:id="p11-24"/>est; medicina namque sanitas quodam <milestone type="alt-edition" unit="folio" ed="Finzi 1558" n="8"/> modo est, quoniam
+            <lb n="26" xml:id="p11-25"/>movens, et aedificandi facultas quodam modo aedium est
+            <lb n="27" xml:id="p11-26"/>forma, homo vero generatur ab homine. at nostrum non est<note type="apparatus" n="27" target="#p11-26">at et sq.] cf. Av. 309 G</note>
+            <lb n="28" xml:id="p11-27"/>nunc proximum movens investigare, sed quaerimus primum movens,
+            <lb n="29" xml:id="p11-28"/>quo omnia moventur.
+          </p>
+        </div>
+        <div type="textpart" subtype="section" n="5">
+          <p>
+            <lb n="30" xml:id="p11-29"/>Et est manifestum, quod est substantia. nam est initium substantiae;
+            <lb n="31" xml:id="p11-30"/>at nihil initium est substantiae nisi substantia. et ipsum
+            <lb n="32" xml:id="p11-31"/>tum substantiae initium sine dubio, tum principium erit omnium
+            <lb n="33" xml:id="p11-32"/>eorum, quae sunt; cetera namque entia nisi affectus qualitates motus-<note type="apparatus" n="33" target="#p11-32">sunt BCF: segregantur AD</note>
+            <lb n="34" xml:id="p11-33"/>que substantiae non existunt, ut superius probatum est. at quae-<note type="apparatus" n="34" target="#p11-33">superius] Z 1</note>
+            <lb n="35" xml:id="p11-34"/>rendum de hac substantia, quae universum hoc corpus movet, quid
+            <lb n="36" xml:id="p11-35"/>sit. utrum anima ponenda est an intellectus an quid aliud ab his<note type="apparatus" n="36" target="#p11-35">anima—intellectus] corpus ponendum est aut anima C²</note>
+            <lb n="37" xml:id="p11-36"/>ambobus diversum? sed cauti esse debemus, ne accidens aliquod<note type="apparatus" n="37" target="#p11-36">sed F: aut BC: cum AC; ad verbum: cum cauti providique simus</note>
+            <lb n="38" xml:id="p11-37"/>de primo principio praedicemus ex his, inquam, quae cetera entia
+            <lb n="39" xml:id="p11-38"/>necessario consequuntur; reliquis vero entibus inest potestas et<note type="apparatus" n="39" target="#p11-38">post potestas inserit atque actus F</note>
+          </p>
+          <pb n="12" facs="https://archive.org/download/commentariaina05pt46akaduoft/page/n469.jpg"/>
+          <p>
+            <lb n="1" xml:id="p12-0"/>variis temporibus sunt variis modis neque semper in eodem statu<note type="apparatus" n="1" target="#p12-0">variis temporibus] ἄλλοτε loco ἄλλα τε Ar. a5</note>
+            <lb n="2" xml:id="p12-1"/>permanent. cuiusmodi sunt generabilia et corruptibilia; in his enim
+            <lb n="3" xml:id="p12-2"/>interdum idem est actu, interdum potentia, ut vinum est actu cum
+            <lb n="4" xml:id="p12-3"/>fervet atque movetur (?), alias vero potentia erat, cum humor, ex
+            <lb n="5" xml:id="p12-4"/>quo generatur, adhuc erat in vinea ipsa. caro quoque quandoque
+            <lb n="6" xml:id="p12-5"/>est actu, quandoque vero potentia erat in elementis, ex quibus
+            <lb n="7" xml:id="p12-6"/>generatur. nec aliud significare volumus, cum actum et potentiam
+            <lb n="8" xml:id="p12-7"/>dicimus, nisi materiam atque formam. forma intellego formam, si<note type="apparatus" n="8" target="#p12-7">forma] exspectes actu intellego - aut] namque, si separabilis est, actu est: sic et F ex emendatione. in sequentibus στέρησις omittitur</note>
+            <lb n="9" xml:id="p12-8"/>separabilis est, aut id, quod ex forma materiaque constat. separabilis
+            <lb n="10" xml:id="p12-9"/>autem est, ut lumen ac tenebrae, si separari ab aere queunt.
+            <lb n="11" xml:id="p12-10"/>ex ambabus vero compositum, ut corpus sanum et aegrotans. cum
+            <lb n="12" xml:id="p12-11"/>materiam dico, intellego id, quod utrumque fieri potest, ut corpus,
+            <lb n="13" xml:id="p12-12"/>quod quandoque sanum, quandoque morbo obnoxium efficitur.
+            <lb n="14" xml:id="p12-13"/>Quae vero actu et potentia sunt, quandoque non solum per elementa
+            <lb n="15" xml:id="p12-14"/>variantur, quae sunt in rebus, i. e. per formam et materiam, ex quibus
+            <lb n="16" xml:id="p12-15"/>constant, sed per res etiam, quae sunt extra, ut earum motrices,
+            <lb n="17" xml:id="p12-16"/>quarum materia fortasse non eadem est ac rerum inde generatarum
+            <lb n="18" xml:id="p12-17"/>quarumque forma non eadem est, sed diversa. quod
+            <lb n="19" xml:id="p12-18"/>mente servandum puto in quaestione primae causae. nam aliquae
+            <lb n="20" xml:id="p12-19"/>moventes causae in forma convenientes sunt rei motae ipsique
+            <lb n="21" xml:id="p12-20"/>proximae, quas sequuntur remotiores. proxima causa est ut pater,
+            <lb n="22" xml:id="p12-21"/>sol vero remotior est, sole adhuc remotior est circulus declivis.
+            <lb n="23" xml:id="p12-22"/>quae quidem causae non sunt ad modum materiae rei generabilis
+            <lb n="24" xml:id="p12-23"/>aut formae aut privationis, sed motrices sunt; nec con-<note type="apparatus" n="24" target="#p12-23">nec-forma (25)] οὔτε ὁμοειδές Ar. 17; verba οὔτε ὕλη ὄντα et seq. ad solem et circulum declivem tantum referuntur.</note>
+            <lb n="25" xml:id="p12-24"/>veniunt in forma neque proximae sunt ut pater, sed remotiores
+            <lb n="26" xml:id="p12-25"/>et in agendo fortiores. nam principia proximarum quoque causarum
+            <lb n="27" xml:id="p12-26"/>sunt.
+            <lb n="28" xml:id="p12-27"/>Amplius, dum quaerimus de prima causa, cernere oportet causarum
+            <lb n="29" xml:id="p12-28"/>alias universales, alias singulares particulares [dici posse].
+            <lb n="30" xml:id="p12-29"/>vera principia non sunt universalia, sed singularia particularia, ut
+            <lb n="31" xml:id="p12-30"/>hoc singulare initium est huius singularis et hic homo
+            <lb n="32" xml:id="p12-31"/>huius hominis, non universalis, quoniam non existit, sed hic
+            <lb n="33" xml:id="p12-32"/>est pater huius et haec aqua (sic!) est causa huiusce aquae. universale<note type="apparatus" n="33" target="#p12-32">aqua .. aquae] depravatum ex B et BA (با ex ها)</note>
+            <lb n="34" xml:id="p12-33"/>enim, si causa esse dicatur, est causa universalis, ut substantia est
+            <lb n="35" xml:id="p12-34"/>causa substantiae et quantitas causa quantitatis; at principia, quae
+            <lb n="36" xml:id="p12-35"/>vere principia sunt, in singularibus quaeri debent. nam materia
+            <lb n="37" xml:id="p12-36"/>non est absolute materia hominis, sed materia mea est mea materia
+            <lb n="38" xml:id="p12-37"/>et materia tua est tua materia, veluti alia forma tua est, alia mea,
+          </p>
+          <pb n="13" facs="https://archive.org/download/commentariaina05pt46akaduoft/page/n470.jpg"/>
+          <p>
+            <lb n="1" xml:id="p13-0"/>non forma universalis, sed singularis. et hoc idem est dicendum
+            <lb n="2" xml:id="p13-1"/>de movente. explanavimus igitur, quomodo principia omnium rerum
+            <lb n="3" xml:id="p13-2"/>possint esse eadem et quomodo non possint. diximus posse eadem
+            <lb n="4" xml:id="p13-3"/>esse uno trium modorum: aut universali ratione, aut proportione et
+            <lb n="5" xml:id="p13-4"/>comparatione quadam, aut propterea quod principia substantiae sunt
+            <lb n="6" xml:id="p13-5"/>principia omnium. nam si alia dicantur esse, hoc habent a substantia,
+            <lb n="7" xml:id="p13-6"/>et cum ab ipsa substantia sint, patet quoque a principiis
+            <lb n="8" xml:id="p13-7"/>substantiae esse. cuncta haec prius statuenda erant. mox poterimus
+            <lb n="9" xml:id="p13-8"/>indagari principium, de quo coepimus disserere. ceterum commodissime
+            <lb n="10" xml:id="p13-9"/>ab his initium coepero, quae a nobis superius tradita sunt.
+          </p>
+        </div>
+        <div type="textpart" subtype="section" n="6">
+          <p>
+            <lb n="11" xml:id="p13-10"/>Jam diximus substantias esse tres, duas naturales, tertiam vero<milestone type="alt-edition" unit="folio" ed="Finzi 1558" n="9"/>
+            <lb n="12" xml:id="p13-11"/>immobilem. duae illae naturales in praecedentibus dilucidatae sunt
+            <lb n="13" xml:id="p13-12"/>et iam uberius de iis antea disputavimus. nunc sermonem habemus
+            <lb n="14" xml:id="p13-13"/>de substantia immobili et aeterna, et in primis quaerimus, numquid
+            <lb n="15" xml:id="p13-14"/>reperiatur substantia, quae tempore non attingatur neque sit obnoxia
+            <lb n="16" xml:id="p13-15"/>alterationi aut mutationi, sed continuo in suo statu permaneat. et<note type="apparatus" n="16" target="#p13-15">sed—permaneat om. F</note>
+            <lb n="17" xml:id="p13-16"/>saepe diximus hoc principium non posse demonstratione cognosci.
+            <lb n="18" xml:id="p13-17"/>demonstratio enim ex principiis et causis constat, prima autem
+            <lb n="19" xml:id="p13-18"/>causa, hoc est primum principium, nec causam ante se nec prin-<note type="apparatus" n="19" target="#p13-18">hoc—principium om. CD</note>
+            <lb n="20" xml:id="p13-19"/>cipium habet. sed quod volumus, hoc pacto fortasse consequemur,
+            <lb n="21" xml:id="p13-20"/>considerando duo necessario inesse primo omnium principio: unum
+            <lb n="22" xml:id="p13-21"/>quod est aeternum, alterum quod est immobile. separemus igitur
+            <lb n="23" xml:id="p13-22"/>haec et de utroque singillatim disputemus. et primo numquid detur
+            <lb n="24" xml:id="p13-23"/>substantia aeterna, postea numquid aliqua substantia sit immobilis;
+            <lb n="25" xml:id="p13-24"/>tunc sic procedendo voti compotes facile erimus. nam quod facere
+            <lb n="26" xml:id="p13-25"/>solent infirmiores baiuli, quibus si quod grave suscipiendum est
+            <lb n="27" xml:id="p13-26"/>onus, illud partiuntur itaque facillime perferunt, id nos imitabimur
+            <lb n="28" xml:id="p13-27"/>in hac nostra perscrutatione. dico igitur: si omnes substantiae
+            <lb n="29" xml:id="p13-28"/>corruptibiles sunt, substantiae autem omnes ceteris entibus
+            <lb n="30" xml:id="p13-29"/>priores sunt, omnia corruptibilia erunt. cum enim verum sit,
+            <lb n="31" xml:id="p13-30"/>ut a principio dictum est, universitatis, sive ad unum redacta sit sive<note type="apparatus" n="31" target="#p13-30">principio] initio huius libri</note>
+            <lb n="32" xml:id="p13-31"/>in recta continuatione serieque constet, radicem elementumque nec non
+            <lb n="33" xml:id="p13-32"/>principium partium ipsius substantiam esse: substantia corrupta
+            <lb n="34" xml:id="p13-33"/>nihil remanebit eorum, quae ab ipsa pendent. quod si quis vel leviter
+            <lb n="35" xml:id="p13-34"/>intueatur, inveniet non posse fieri, ut substantiae et cetera,
+            <lb n="36" xml:id="p13-35"/>quae sunt, non habeant perpetuam substantiam, per quam esse
+            <lb n="37" xml:id="p13-36"/>suum obtineant. neu mireris inter ea, quae sunt, dari substantiam
+            <lb n="38" xml:id="p13-37"/>aeternam. nam inveniuntur quaedam in natura accidentium, quae
+            <lb n="39" xml:id="p13-38"/>aeterna et incorruptibilia sunt. motus enim est aliquid inseparabile,
+            <lb n="40" xml:id="p13-39"/>per se non existens, cum sine dubio corpori insit aut substantiae; atque
+            <lb n="41" xml:id="p13-40"/>multo magis tempus huiusmodi est. nam tempus finitimum habetur
+          </p>
+          <pb n="14" facs="https://archive.org/download/commentariaina05pt46akaduoft/page/n471.jpg"/>
+          <p>
+            <lb n="1" xml:id="p14-0"/>motui; est enim ipsius mensura aut novatum ab ipso. sed ne
+            <lb n="2" xml:id="p14-1"/>acutissimus quidem sophistes cogitatione depingere posset motum
+            <lb n="3" xml:id="p14-2"/>aut tempus subire ortum atque interitum. nam si tempus nativum
+            <lb n="4" xml:id="p14-3"/>esset, ante sui ipsius ortum fuisset; rursus si caducum diceretur,
+            <lb n="5" xml:id="p14-4"/>esset post suum interitum, ut iam patuit ex Auditu naturali; sed
+            <lb n="6" xml:id="p14-5"/>illud iterare libet, quoniam potissimum opus est nobis quaesituris,
+            <lb n="7" xml:id="p14-6"/>quibus in rebus scientia primi principii consistat. motus igitur et
+            <lb n="8" xml:id="p14-7"/>tempus nec oriuntur nec pereunt; neque hoc in ipsis supponi posse
+            <lb n="9" xml:id="p14-8"/>ratio suppeditat. de tempore sat perspicuum est. nam si quis dicat
+            <lb n="10" xml:id="p14-9"/>fuisse tempus ante se tempus non habens, et futurum tempus, quod
+            <lb n="11" xml:id="p14-10"/>non sequatur tempus, verba profert suas radices perimentia; nam
+            <lb n="12" xml:id="p14-11"/>similia verba ut quandoque, erat et erit, antea et postea, quibus qui hoc
+            <lb n="13" xml:id="p14-12"/>contendit necessario utitur, partes tantum temporis sunt aut termini
+            <lb n="14" xml:id="p14-13"/>aut rationes ei coniunctae. sin vero ex his appellationibus asserere<note type="apparatus" n="14" target="#p14-13">appellat.] κατηγορήματα Them. ad Phys. 412, 23 5 Auditu nat.] VIII 1</note>
+            <lb n="15" xml:id="p14-14"/>vellet generationem temporis, minime optatum obtinebit, nisi ponat
+            <lb n="16" xml:id="p14-15"/>tempus esse, priusquam oriatur; pariterque si quaerit his
+            <lb n="17" xml:id="p14-16"/>dictionibus uti, ut occasum temporis monstret, nihil aliud habebit
+            <lb n="18" xml:id="p14-17"/>nisi tempus manere post eius interitum. tempore igitur perenni
+            <lb n="19" xml:id="p14-18"/>existente et motus itidem procul dubio est. nam, [ut diximus], aut
+            <lb n="20" xml:id="p14-19"/>mensura motus tempus est aut novatum ab ipso.
+            <lb n="21" xml:id="p14-20"/>Sed ex motu ipso hoc eruamus. contendimus motum necessario aut
+            <lb n="22" xml:id="p14-21"/>aeternum esse aut genitum. si genitus, iam praecessit motor. at
+            <lb n="23" xml:id="p14-22"/>quonam modo licet animo comprehendere motorem aeternum esse,
+            <lb n="24" xml:id="p14-23"/>a quo motus non semper manet; nihil enim prohibet, quominus inde
+            <lb n="25" xml:id="p14-24"/>fluat, neque novatum quippiam est, quod aliquo modo motorem ad
+            <lb n="26" xml:id="p14-25"/>motum excitaverit. nam quidquid fit, ab eo tantum fit, nihil
+            <lb n="27" xml:id="p14-26"/>externum impedit eum, nihil incitat. neque possumus dicere: prius
+            <lb n="28" xml:id="p14-27"/>non poterat movere et mox potuit; nam sequeretur eum mutationem
+            <lb n="29" xml:id="p14-28"/>subire et aliquid praeter eum existere, quod mutaret. quodsi quis con-
+            <lb n="30" xml:id="p14-29"/>tendat eum impeditum esse, praeterquam quod vilipendit, dum aliud
+            <lb n="31" xml:id="p14-30"/>praeter ipsum inducit, adhuc eum magis vilipendit, <milestone type="alt-edition" unit="folio" ed="Finzi 1558" n="10"/> cum necessario
+            <lb n="32" xml:id="p14-31"/>hoc impediens sit eo valentius. praeterea qui fieri potest, ut haec causa
+            <lb n="33" xml:id="p14-32"/>infinito tempore inhibuerit, tandem vero eum absolverit? hoc certe esse
+            <lb n="34" xml:id="p14-33"/>nequit, nisi aut diversa sit, aut ipsa quoque mutetur nec se possit
+            <lb n="35" xml:id="p14-34"/>eodem modo semper habere. motor igitur aliquando se abstineret a
+            <lb n="36" xml:id="p14-35"/>motu, aliquando moveret. cum vero novatio motus absque motu non
+            <lb n="37" xml:id="p14-36"/>fiat, motus erit ergo ante motum. nam variare, alternare, sistere sunt
+            <lb n="38" xml:id="p14-37"/>motus species eumque sectantur. amplius impossibile est hoc, quod<note type="apparatus" n="38" target="#p14-37">impossibile—quodpiam (39)] ad verbum: fieri non potest, quin corpus aliquod existat, quod movetur</note>
+            <lb n="39" xml:id="p14-38"/>motu cietur, non esse corpus quodpiam. quod quidem si ingenitum
+            <lb n="40" xml:id="p14-39"/>ponatur, sed post quietem moveri, tunc cogimur causam dare, qua
+          </p>
+          <pb n="15" facs="https://archive.org/download/commentariaina05pt46akaduoft/page/n472.jpg"/>
+          <p>
+            <lb n="1" xml:id="p15-0"/>motum mutatumve sit de quiete ad motum. si vero hoc corpus
+            <lb n="2" xml:id="p15-1"/>genitum dicatur, motus esset genitus, antequam corpus fuisset ortum,
+            <lb n="3" xml:id="p15-2"/>quod idem valet, ac si diceres motum praecedere motum: neque igitur
+            <lb n="4" xml:id="p15-3"/>potest motus a quiete nasci. at si ex omnino non ente hoc
+            <lb n="5" xml:id="p15-4"/>corpus dicatur fieri, simul erit utrumque et principium generationis
+            <lb n="6" xml:id="p15-5"/>motus erit et ipsum principium generationis corporis. cum autem
+            <lb n="7" xml:id="p15-6"/>impossibile sit ex omnino non ente quicquam fieri, ne motus quidem
+            <lb n="8" xml:id="p15-7"/>poterit a quiete novari. cum igitur motum aeternum esse iam
+            <lb n="9" xml:id="p15-8"/>declaraverimus atque quomodo tempus ad motum se habeat, quae
+            <lb n="10" xml:id="p15-9"/>sequuntur faciliora evadent. sic enim ratiocinando inferemus: si motus
+            <lb n="11" xml:id="p15-10"/>aeternus sit, et iam corpus, quod movetur, aeternum erit; nam si
+            <lb n="12" xml:id="p15-11"/>huiusmodi est accidens, multo magis est substantia. primus vero
+            <lb n="13" xml:id="p15-12"/>motus est localis, secundus autem et tertius in aliis sunt praedicamentis.
+            <lb n="14" xml:id="p15-13"/>et motuum localium alii recti, alii circulares; solus
+            <lb n="15" xml:id="p15-14"/>autem circularis motus continuus est. nam omnes reliqui motus
+            <lb n="16" xml:id="p15-15"/>statu intercipiuntur, si memoria tenes, quae vi demonstrationis in
+            <lb n="17" xml:id="p15-16"/>Auscultatione naturali ostensa sunt. et continuatio aeternis valde<note type="apparatus" n="17" target="#p15-16">Auscultatione] VIII 8</note>
+            <lb n="18" xml:id="p15-17"/>necessaria est; nam quod mutatur et consistit, minime aeternum<note type="apparatus" n="18" target="#p15-17">minime—esse (19) om. A</note>
+            <lb n="19" xml:id="p15-18"/>dici potest. pari ratione inde colligi potest tempus continuum esse;
+            <lb n="20" xml:id="p15-19"/>nullam enim partem ipsius separabilem cogitare possumus. ex quo<note type="apparatus" n="20" target="#p15-19">separabilem] (quae) eicitur CF</note>
+            <lb n="21" xml:id="p15-20"/>rursus licet concludere motum et ipsum continuum esse; ab eo
+            <lb n="22" xml:id="p15-21"/>namque tempus novatur. siquidem igitur motus ille solus, qui
+            <lb n="23" xml:id="p15-22"/>circulo fit, praeter alios continuus est, circularis utique motus
+            <lb n="24" xml:id="p15-23"/>aeternus ponendus est. proinde necessario etiam motor istius motus
+            <lb n="25" xml:id="p15-24"/>aeternus est. nam quod non est aeternum, ne causa quidem potest
+            <lb n="26" xml:id="p15-25"/>esse perennis motus. cum in ceteris quoque minime detur vilius<note type="apparatus" n="26" target="#p15-25">vilius—nobilioris (27) om. B</note>
+            <lb n="27" xml:id="p15-26"/>causam esse nobilioris. satis igitur patefactum est motorem primum
+            <lb n="28" xml:id="p15-27"/>aeternum esse.
+            <lb n="29" xml:id="p15-28"/>Cum vero hoc pacto sit, movebit necessario motu continenti
+            <lb n="30" xml:id="p15-29"/>actionemque peraget. nam si motor esset et motus eius non esset
+            <lb n="31" xml:id="p15-30"/>continuus, ne ipse quidem aeterno tempore moveret. hoc autem
+            <lb n="32" xml:id="p15-31"/>impossibile esse iam demonstratum est. nulla ergo prorsus erit
+            <lb n="33" xml:id="p15-32"/>utilitas, si substantias sempiternas induxerimus, perinde
+            <lb n="34" xml:id="p15-33"/>atque illi, qui formas separatas quiescentes veluti ideas quiescentes<note type="apparatus" n="34" target="#p15-33">veluti—quiescentes om. F</note>
+            <lb n="35" xml:id="p15-34"/>commenti sunt. at si naturales sint ac aeternae prioresque sensibilibus,
+            <lb n="36" xml:id="p15-35"/>non decet naturam hanc nihil agentem supponere, sed potius oportet,
+            <lb n="37" xml:id="p15-36"/>ut mutare aut movere sit potens. cum vero dico potens, haud inferre
+            <lb n="38" xml:id="p15-37"/>volo, quod a potentia ad actum extrahatur, sed potentiam ab ea
+            <lb n="39" xml:id="p15-38"/>omnino removendam esse censeo. nec hanc substantiam puto numerari
+            <lb n="40" xml:id="p15-39"/>inter substantias, quae quandoque actu, quandoque potentia sunt;
+            <lb n="41" xml:id="p15-40"/>fieri enim non potest, ut aliquando principium primum potentia existat.<note type="apparatus" n="41" target="#p15-40">fieri—existat om F</note>
+          </p>
+          <pb n="16" facs="https://archive.org/download/commentariaina05pt46akaduoft/page/n473.jpg"/>
+          <p>
+            <lb n="1" xml:id="p16-0"/>nam hoc principium egeret altero principio in actu, quod ipsum de
+            <lb n="2" xml:id="p16-1"/>potentia ad actum extraheret, cum fieri nequeat, ut quidpiam potentia
+            <lb n="3" xml:id="p16-2"/>existens a se ipso ad actum trahatur. nam id quod potentia est, in esse
+            <lb n="4" xml:id="p16-3"/>suo imbecillum atque imperfectum est, et ei perfectio contingit, cum ad
+            <lb n="5" xml:id="p16-4"/>actum pervenerit. praeterea quod potentia est, quodammodo potest<note type="apparatus" n="5" target="#p16-4">praeterea—flectere (6)] BC exhibent: fieri vero potest quodammodo, ut in actu non sit; etenim quod potentia est, ad — se flectit</note>
+            <lb n="6" xml:id="p16-5"/>ad alterutrum contrarietatis extremum se flectere. et si ad unum magis
+            <lb n="7" xml:id="p16-6"/>flectitur, nihil prohibet eum habere proportionem cum altero. debent<note type="apparatus" n="7" target="#p16-6">nihil—habere FC: necessario tamen habet A</note>
+            <lb n="8" xml:id="p16-7"/>igitur ea, quae sunt, habere principium, quod nullam substantiam<note type="apparatus" n="8" target="#p16-7">substantiam] conicio potentiam</note>
+            <lb n="9" xml:id="p16-8"/>habeat ante se. cum sic fuerit et aeternum, cum eo non miscebitur
+            <lb n="10" xml:id="p16-9"/>materia. nam id, cui admiscetur materia, in natura sua potentiam habet.
+            <lb n="11" xml:id="p16-10"/>At possit aliquis hic logice obviam ire inquiens nullum <milestone type="alt-edition" unit="folio" ed="Finzi 1558" n="11"/> potentia
+            <lb n="12" xml:id="p16-11"/>existens ullo pacto vilius esse eo, quod actu est, immo ea, quae
+            <lb n="13" xml:id="p16-12"/>potentia sunt, ad ea, quae actu, tamquam prius ad posterius se habere;
+            <lb n="14" xml:id="p16-13"/>etenim aliquid natura ad actum progressum procul dubio habere potentiam
+            <lb n="15" xml:id="p16-14"/>priorem in esse, neque necesse esse, ut omnis potestas ad
+            <lb n="16" xml:id="p16-15"/>actum reducatur. sed hoc tantum in rebus sensibilibus verum est,
+            <lb n="17" xml:id="p16-16"/>eae namque et potestatem et actum possidentes potentiam semper
+            <lb n="18" xml:id="p16-17"/>prius habent. simpliciter tamen actum cum potentia comparantes
+            <lb n="19" xml:id="p16-18"/>actum natura priorem inveniemus; ipse namque potentiam extrahit
+            <lb n="20" xml:id="p16-19"/>atque movet. potentiam autem praecedere actum statuerunt antiqui
+            <lb n="21" xml:id="p16-20"/>theologi, qui generabant mundum ex tenebris et aere — ut dicebat<note type="apparatus" n="21" target="#p16-20">aere] luce C i. t.; i. m. laudatur Av., qui iure chao exhibet; cf. initium cap. 7</note>
+            <lb n="22" xml:id="p16-21"/>Hesiodus — itemque physici, qui materiam omnia procedere asse-<note type="apparatus" n="22" target="#p16-21">Hesiodus] Sinodes sive Sudes codd.: Dinodes Av.</note>
+            <lb n="23" xml:id="p16-22"/>verabant — veluti qui ponebant omnia simul esse vel particulas
+            <lb n="24" xml:id="p16-23"/>illas insectiles atque infinitas dari multaque alia — communis
+            <lb n="25" xml:id="p16-24"/>vero error eorum est, quod adscribunt materiam huic honorabili
+            <lb n="26" xml:id="p16-25"/>ac universali principio. sed quomodo materies movebitur,
+            <lb n="27" xml:id="p16-26"/>nisi sit praecedens aliqua causa, quae moveat eam?
+            <lb n="28" xml:id="p16-27"/>nullam enim invenimus materiam ex se ad formam moveri. at
+            <lb n="29" xml:id="p16-28"/>sicut lignum non ex se movetur ad formam lecticae, sed artificis
+            <lb n="30" xml:id="p16-29"/>opera, sic et menstruus sanguis; terra quoque ex se nec plantam<note type="apparatus" n="30" target="#p16-29">ex se—generandam (32)] locus vix integer</note>
+            <lb n="31" xml:id="p16-30"/>producit nec semen ullum; at sol movet terram ceteraque elementa
+            <lb n="32" xml:id="p16-31"/>et semina ad plantam generandam. hinc veritatis vi convincitur
+            <lb n="33" xml:id="p16-32"/>ponentes materiam omnia praecedere, velint nolint, causam actu
+            <lb n="34" xml:id="p16-33"/>existentem adesse fateri, ut Leucippus commiscuit sempiternum<note type="apparatus" n="34" target="#p16-33">commiscuit CF: instituit . . (in suis) AB</note>
+            <lb n="35" xml:id="p16-34"/>motum suis illis particulis indivisibilibus, ut Plato posuit inordinatum
+            <lb n="36" xml:id="p16-35"/>motum ante opus dei, ut Empedocles statuit litem et amicitiam et
+            <lb n="37" xml:id="p16-36"/>Anaxagoras mentem. sed par erat eos potius de causa huius
+            <lb n="38" xml:id="p16-37"/>aeterni motus verba facere quidque aeternum intellegant [explicare].
+            <lb n="39" xml:id="p16-38"/>nullum enim perpetuum motum nisi solum localem, qui
+          </p>
+          <pb n="17" facs="https://archive.org/download/commentariaina05pt46akaduoft/page/n474.jpg"/>
+          <p>
+            <lb n="1" xml:id="p17-0"/>circulo cietur, dici posse credimus; hic solus namque praeter ceteros
+            <lb n="2" xml:id="p17-1"/>motus continuus est. nec tamen quemquam dixisse constat, utrum
+            <lb n="3" xml:id="p17-2"/>primus motus corporum naturalis sit an praeter naturam. nam nihil,
+            <lb n="4" xml:id="p17-3"/>quod temere moveatur, invenimus, sed aut natura aut ab intellectu
+            <lb n="5" xml:id="p17-4"/>aut vi, cum status eius huic statui sit oppositus. neque dicunt, quisnam
+            <lb n="6" xml:id="p17-5"/>motuum prior sit, naturalisne an is, qui ab intellectu [manat], an is,
+            <lb n="7" xml:id="p17-6"/>qui praeter naturam existit. magni enim id interesse videtur.
+            <lb n="8" xml:id="p17-7"/>Sed diligentius sententias illorum scrutantes inveniemus ipsos
+            <lb n="9" xml:id="p17-8"/>ponere primum motum confusum atque inordinatum; post quem
+            <lb n="10" xml:id="p17-9"/>ponunt ordinatum motum cum anima et orbe et cum ordine
+            <lb n="11" xml:id="p17-10"/>eorum, quae sunt. at rationem nullam invenimus, cur inordinatum
+            <lb n="12" xml:id="p17-11"/>rem ordinatam praecedat, sed videmus ordinatum rem inordinatam
+            <lb n="13" xml:id="p17-12"/>praecedere. atqui videmus sphaeram omniaque caelestia corpora circulo
+            <lb n="14" xml:id="p17-13"/>cieri continuis conversionibus partim diuturni temporis, partim
+            <lb n="15" xml:id="p17-14"/>brevis, et reverti ad punctum, a quo initium sumpsere; et hoc
+            <lb n="16" xml:id="p17-15"/>aequissimis revolutionibus atque perfectissimis. quod autem habet
+            <lb n="17" xml:id="p17-16"/>continuum ac uniformem motum iure et merito causam habere debet,
+            <lb n="18" xml:id="p17-17"/>quae comparata cum corporibus motis sit uniformis. si quid vero
+            <lb n="19" xml:id="p17-18"/>variis temporibus varium in modum movetur, causa motrix pro
+            <lb n="20" xml:id="p17-19"/>varietate temporum eandem rationem, quam id, quod movetur, habebit.
+            <lb n="21" xml:id="p17-20"/>at nihil inexistens corporibus generationi corruptionique obnoxiis
+            <lb n="22" xml:id="p17-21"/>unquam eodem modo se habere potest. habent igitur haec corpora
+            <lb n="23" xml:id="p17-22"/>aliquam causam variam secundum ipsorum variationem. cum autem
+            <lb n="24" xml:id="p17-23"/>generatio atque corruptio semper sint nec unquam deficiant, consentaneum
+            <lb n="25" xml:id="p17-24"/>est earum quidem causam efficientem variari, continenter<note type="apparatus" n="25" target="#p17-24">continenter] leg. ut vulg. ἀεὶ a 11</note>
+            <lb n="26" xml:id="p17-25"/>tamen perseverare. ex se quidem necessario haec causa varia
+            <lb n="27" xml:id="p17-26"/>est, continuationem autem accipit ab alia causa; hoc igitur a
+            <lb n="28" xml:id="p17-27"/>prima causa aut ab alia causa. quod autem cogit hoc esse a
+            <lb n="29" xml:id="p17-28"/>prima causa, est, quoniam causa est tum istius permansionis, tum<note type="apparatus" n="29" target="#p17-28">istius] non diiudicandum est, utrum vs 15 ἁυτῷ an αὐτῷ legerit</note>
+            <lb n="30" xml:id="p17-29"/>permansionis secundae causae. et hac ratione praestantior
+            <lb n="31" xml:id="p17-30"/>est maiorisque momenti. nam ceterae causae nec permansionem nec<note type="apparatus" n="31" target="#p17-30">momenti AC: permanentiae BF</note>
+            <lb n="32" xml:id="p17-31"/>continuationem habent perinde atque causa prima; proprium enim<milestone type="alt-edition" unit="folio" ed="Finzi 1558" n="12"/>
+            <lb n="33" xml:id="p17-32"/>secundae causae est variare, primae vero perseverare. necessario
+            <lb n="34" xml:id="p17-33"/>igitur hae omnes (?) causae erunt perseverantiae et
+            <lb n="35" xml:id="p17-34"/>varietatis.
+            <lb n="36" xml:id="p17-35"/>Neque hoc pro placito habeas, quod ponimus quidem, cui tamen
+            <lb n="37" xml:id="p17-36"/>sensus repugnat; nemo namque tam caecutiens et sensu et mente
+            <lb n="38" xml:id="p17-37"/>est, qui non videat ac intellegat primum orbem circumeuntem ceteros
+            <lb n="39" xml:id="p17-38"/>orbes semper uniformiter ciere, orbes vero errantium stellarum semper<note type="apparatus" n="39" target="#p17-38">cieri AF: ciere BC</note>
+            <lb n="40" xml:id="p17-39"/>motu vario moveri et unum alterum praecedere, ita ut inter se sint
+          </p>
+          <pb n="18" facs="https://archive.org/download/commentariaina05pt46akaduoft/page/n475.jpg"/>
+          <p>
+            <lb n="1" xml:id="p18-0"/>diversi, atque omnia, quae generationem et corruptionem subeunt,
+            <lb n="2" xml:id="p18-1"/>ab ipsis recipere motum continuum et motum varium.<note type="apparatus" n="2" target="#p18-1">motum—varium F ex emendatione: a motu inquam continuo et motu vario codd.</note>
+          </p>
+        </div>
+        <div type="textpart" subtype="section" n="7">
+          <p>
+            <lb n="3" xml:id="p18-2"/>Itaque cum hoc pacto res se habeat, quid nobis alia initia
+            <lb n="4" xml:id="p18-3"/>quaerenda sunt, ut haec deseramus, convertentes nos ad poëtas,
+            <lb n="5" xml:id="p18-4"/>qui generant omnia ex nocte et informi chao et, ut uno verbo dicam,
+            <lb n="6" xml:id="p18-5"/>ex eo, quod natura potentia est, non actu? sed haec missa faciamus
+            <lb n="7" xml:id="p18-6"/>et dicamus esse corpus, quod indefesso motu movetur; hic<note type="apparatus" n="7" target="#p18-6">ἀεὶ (Arist. 21) deest</note>
+            <lb n="8" xml:id="p18-7"/>autem est motus circularis. quod non tantum ratione, sed
+            <lb n="9" xml:id="p18-8"/>etiam opere perspicuum est. cum vero motus non deficiat,
+            <lb n="10" xml:id="p18-9"/>[corpus] quod eo movetur, aeternum erit; id autem est primus
+            <lb n="11" xml:id="p18-10"/>orbis. si igitur mobile corpus a motu non vacat, ne quod movet<note type="apparatus" n="11" target="#p18-10">quod movet] ὅ in ὅ κινεῖ a 23 subiectum esse putat (ut Bonitz p. 495)</note>
+            <lb n="12" xml:id="p18-11"/>quidem a motu unquam desistere aut cessare palam est. iam satis ergo
+            <lb n="13" xml:id="p18-12"/>patefecimus [primum motorem] aeternum sempiternaeque esse continuationis;
+            <lb n="14" xml:id="p18-13"/>nunc quod immobilis sit, explicabimus, idque repetendo
+            <lb n="15" xml:id="p18-14"/>ea, quae iam praefati sumus. si enim quidpiam ex duabus constet<note type="apparatus" n="15" target="#p18-14">praefati] Phys. VII 256 b</note>
+            <lb n="16" xml:id="p18-15"/>rebus, quarum altera sit seiuncta et per se stare possit, altera itidem
+            <lb n="17" xml:id="p18-16"/>per se manebit et seiuncta erit. cum igitur detur mobile et idem
+            <lb n="18" xml:id="p18-17"/>movens, et mobile tantummodo non movens, necessario
+            <lb n="19" xml:id="p18-18"/>datur et movens non mobile. hoc autem est, quod natura
+            <lb n="20" xml:id="p18-19"/>existit non immixtum materiae, cuius substantia actus est. sed nemo<note type="apparatus" n="20" target="#p18-19">et Paraphr. Themistii p. 223,1 17 cum et sq.] verbatim: ἐπεὶ δὲ τὸ μὲν κινούμενον καὶ κινοῦν, τὸ δὲ κινούμενον μόνως μὴ κινοῦν, τοίνυν ἔστι τι ὃ οὐ κινούμενον κινεῖ</note>
+            <lb n="21" xml:id="p18-20"/>miretur dari movens immobile. nam omne desiderabile hoc
+            <lb n="22" xml:id="p18-21"/>pacto movet et omne intellegibile, cum intellegitur et ad
+            <lb n="23" xml:id="p18-22"/>aliquas functiones movet, hoc pacto movet. at cum desiderabilia
+            <lb n="24" xml:id="p18-23"/>et intellegibilia multa sint in nobis et in aliis animalibus, fieri
+            <lb n="25" xml:id="p18-24"/>nequit, ut desiderabile et intellegibile simul moveant; nam desiderabile
+            <lb n="26" xml:id="p18-25"/>desiderium movet quidem et manet immotum, eius natura
+            <lb n="27" xml:id="p18-26"/>tamen non est in genere intellegibilium. in primis vero principiis
+            <lb n="28" xml:id="p18-27"/>materiae non immixtis idem est desiderabile atque intellegibile.
+            <lb n="29" xml:id="p18-28"/>nam desiderabile est, 〈quia〉 intellegibile est, non e contrario intellegibile,<note type="apparatus" n="29" target="#p18-28">quia addidi nam -- desiderabile (30) om. F</note>
+            <lb n="30" xml:id="p18-29"/>quia desiderabile. et hoc ipsum invenitur in desiderabilibus nobis
+            <lb n="31" xml:id="p18-30"/>propinquis, quae videmus indeque appetimus et eligimus. appetimus
+            <lb n="32" xml:id="p18-31"/>autem grata et eligimus vere bona. nam quae eligimus, appetimus,
+            <lb n="33" xml:id="p18-32"/>quoniam videntur bona; neque talia videntur, quia nos ea appetimus,
+            <lb n="34" xml:id="p18-33"/>sed appetimus, quia talia videntur. atqui nobis multa videri contingit
+            <lb n="35" xml:id="p18-34"/>aliter atque sint; sed in primo desiderato atque in primo desiderio
+            <lb n="36" xml:id="p18-35"/>nulla est diversitas inter id, quod videtur, et id, quod re vera est;
+            <lb n="37" xml:id="p18-36"/>nam idem est, et quod apparet et quod vere est. itaque quod de
+            <lb n="38" xml:id="p18-37"/>eo intellegitur, est in ratione eius, et quod intellegitur esse bonum,
+            <lb n="39" xml:id="p18-38"/>id ipsum re vera est bonum.
+          </p>
+          <pb n="19" facs="https://archive.org/download/commentariaina05pt46akaduoft/page/n476.jpg"/>
+          <p>
+            <lb n="1" xml:id="p19-0"/>Initium autem desiderii est id, quod de prima causa intellegitur,
+            <lb n="2" xml:id="p19-1"/>eo modo, quo appetitus nostri initium est imaginatio et cogitatio;
+            <lb n="3" xml:id="p19-2"/>omnis autem intellectus ab intellegibili movetur, ut cogitatio
+            <lb n="4" xml:id="p19-3"/>movetur a cogitabili atque imaginatio ab imaginabili. species vero
+            <lb n="5" xml:id="p19-4"/>intellegibilium plures sunt, omnium tamen prima est substantia
+            <lb n="6" xml:id="p19-5"/>et huius substantiae ea, quae simplex est et est actu, cui<note type="apparatus" n="6-7" target="#p19-5 #p19-6">cui et sq.] hic excidit una pagina in A</note>
+            <lb n="7" xml:id="p19-6"/>nulla potentia admiscetur, de qua nihil praedicatur, quae subiectum
+            <lb n="8" xml:id="p19-7"/>nullum habet, sed re vera est natura una et simplex. quod autem
+            <lb n="9" xml:id="p19-8"/>materiam habet, nec simplex nec unum separatim esse potest; at
+            <lb n="10" xml:id="p19-9"/>ubi est potentia, ibi multitudo atque compositio. quod cum unum
+            <lb n="11" xml:id="p19-10"/>esse dicatur, non est quidem, si primariam unius vim acceperis,
+            <lb n="12" xml:id="p19-11"/>tametsi saepius unum et simplex dicatur. nam hominem unum
+            <lb n="13" xml:id="p19-12"/>dicimus, gentem unam, propositionem simplicem atque elementum
+            <lb n="14" xml:id="p19-13"/>simplex; sed si quis optime veritatem scrutetur, inveniet nomina
+            <lb n="15" xml:id="p19-14"/>haec in rebus omnibus mentiri praeterquam in prima substantia;
+            <lb n="16" xml:id="p19-15"/>nam de hac vere dicitur, quod una sit et simplex. neque <milestone type="alt-edition" unit="folio" ed="Finzi 1558" n="13"/> cum
+            <lb n="17" xml:id="p19-16"/>eam unam esse dicimus, quantitatem significamus, ut cum nationem
+            <lb n="18" xml:id="p19-17"/>unam dicimus, digitum unum, hominem unum atque equum unum.
+            <lb n="19" xml:id="p19-18"/>in his namque aliud est id, quod est, aliud est esse unum; in
+            <lb n="20" xml:id="p19-19"/>natura vero hac ens et unum idem sunt. ita quoque simplex
+            <lb n="21" xml:id="p19-20"/>dicitur, non quod ex ea possit quicquam componi nec alterius
+            <lb n="22" xml:id="p19-21"/>comparatione sic appellatur, sed natura simplex est sine ulla
+            <lb n="23" xml:id="p19-22"/>compositione et multiplicitate. et haec natura non tantum est
+            <lb n="24" xml:id="p19-23"/>primus motor rerum, sed est perfectio et id gratia cuius.
+            <lb n="25" xml:id="p19-24"/>Nam quod ex se eligibile est et quod in se habet
+            <lb n="26" xml:id="p19-25"/>pulchritudinem et summam nobilitatem, id et principium et ex
+            <lb n="27" xml:id="p19-26"/>se perfectio existit. et hoc etiam in lege reperitur. nam lex<note type="apparatus" n="27" target="#p19-26">et hoc et sq.] interpretatio verb. (p. 1072b2) ἔστι γάρ τινι τὸ οὗ ἕνεκα</note>
+            <lb n="28" xml:id="p19-27"/>quoque administrationem movet, quae ab ea est. lex enim sua ipsius
+            <lb n="29" xml:id="p19-28"/>gratia et per se pulchra est ac eligibilis. nam tunc praestantissimi
+            <lb n="30" xml:id="p19-29"/>habentur iustissimeque dicuntur gubernare administrantes, cum legis
+            <lb n="31" xml:id="p19-30"/>normam et ordinem speculando perficiunt administrationem eamque
+            <lb n="32" xml:id="p19-31"/>custodiunt. [hoc tamen interest, quod] lex non est substantia, sed<note type="apparatus" n="32" target="#p19-31">hoc-quod] sed codd.</note>
+            <lb n="33" xml:id="p19-32"/>actio quaedam substantiae, quae quidem desinit esse nec manet nisi
+            <lb n="34" xml:id="p19-33"/>per terminatum tempus; at primum desiderabile et primum movens
+            <lb n="35" xml:id="p19-34"/>est substantia non immixta materiae, sempiternae continuationis,
+            <lb n="36" xml:id="p19-35"/>simplex, cuius natura actus est. perinde ac si cogitatione fingeremus
+            <lb n="37" xml:id="p19-36"/>legem, qua administratio nititur, vivere et se ipsam intellegere, et
+            <lb n="38" xml:id="p19-37"/>intellectione illa, ut re vera movet, administrationem movere ad
+            <lb n="39" xml:id="p19-38"/>modum rei desideratae. ita summus deus est vigor, lex, causa
+            <lb n="40" xml:id="p19-39"/>aequabilitatis et ordinis huius mundi, estque intellectus perfecte<note type="apparatus" n="40" target="#p19-39">perfecte . . veritasque codd.: vere perfecteque F</note>
+          </p>
+          <pb n="20" facs="https://archive.org/download/commentariaina05pt46akaduoft/page/n477.jpg"/>
+          <p>
+            <lb n="1" xml:id="p20-0"/>primus veritasque. omnis autem operatio, quae ab intellectu manat,
+            <lb n="2" xml:id="p20-1"/>sapientia est atque mens; cum igitur operatio intellectũs sit substantia,
+            <lb n="3" xml:id="p20-2"/>necessario substantia primae quoque causae sapientia erit atque
+            <lb n="4" xml:id="p20-3"/>mens, et ab ea ordo et rectitudo entium proveniet, et erit illa, quam
+            <lb n="5" xml:id="p20-4"/>omnia, quae sequuntur, appetunt, quaedam eminus, quaedam cominus
+            <lb n="6" xml:id="p20-5"/>accedentia ad ipsam. ut etiam accidit in civitatum administratione;
+            <lb n="7" xml:id="p20-6"/>quidam enim cives accedunt ad perfectionem, quidam vero remotiores
+            <lb n="8" xml:id="p20-7"/>sunt. et simile est hoc desiderium homini iuris peritiam profitenti
+            <lb n="9" xml:id="p20-8"/>eamque desideranti, ut secundum ipsam vivat; omnes enim, qui
+            <lb n="10" xml:id="p20-9"/>libero arbitrio voluntateque obsequuntur seseque accommodant, id ob
+            <lb n="11" xml:id="p20-10"/>amorem agunt ac desiderio eius principii, quod profitentur. qui
+            <lb n="12" xml:id="p20-11"/>autem dixerit totum desiderium primae causae esse, ut res ad eam
+            <lb n="13" xml:id="p20-12"/>prope accedant et qualis ipsa est evadant, is iam metam hac sua
+            <lb n="14" xml:id="p20-13"/>consideratione transiit; perinde ac si quis id esse diceret instar
+            <lb n="15" xml:id="p20-14"/>appetentiae, qua animal cibum appetit. at res non ita se habet.
+            <lb n="16" xml:id="p20-15"/>sed species quidem desiderii multae sunt, el multa sunt ea ipsa,
+            <lb n="17" xml:id="p20-16"/>quae amantur et desiderantur. etenim appetitus alimenti diversus
+            <lb n="18" xml:id="p20-17"/>est ab appetitu rei desiderabilis; similiter etiam sanitatis amor<note type="apparatus" n="18" target="#p20-17">ab—desiderabilis] fort.: a desiderio amati et similiter infra (20) amatum . . ut eum</note>
+            <lb n="19" xml:id="p20-18"/>diversus est certa ratione ab amore viae rectae. nam cibum<note type="apparatus" n="19" target="#p20-18">certa ratione B: (ab amore) dignitatis ac FC; cf. infra</note>
+            <lb n="20" xml:id="p20-19"/>appetimus, ut eo impleamur, desiderabile vero, ut id videamus
+            <lb n="21" xml:id="p20-20"/>et ad ipsum accedamus; ita sanitas quoque amatur, ut acquiratur,
+            <lb n="22" xml:id="p20-21"/>via autem recta, ut recte agatur; sic exercitus ducem appetit et
+            <lb n="23" xml:id="p20-22"/>civitas regem, ut eum imitetur eiusque observet mores. manemus
+            <lb n="24" xml:id="p20-23"/>igitur in nostro de prima causa sermone dicimusque eam immobilem
+            <lb n="25" xml:id="p20-24"/>esse; neque mirandum putamus ipsam, cum prima causa sit,
+            <lb n="26" xml:id="p20-25"/>substantiam quoque esse et intellectum, quem, dum se intellegit,
+            <lb n="27" xml:id="p20-26"/>cetera appetunt, ut profiteantur hunc intellectum, qui est ordo et<note type="apparatus" n="27" target="#p20-26">profiteantur] cognoscant FC. hinc rursus incipit A</note>
+            <lb n="28" xml:id="p20-27"/>norma entium, ut homo legi adhaeret atque desiderat ex eius praescripto
+            <lb n="29" xml:id="p20-28"/>vivere, et praefectus administrationi rectam assequi gubernandi
+            <lb n="30" xml:id="p20-29"/>rationem exoptat.
+            <lb n="31" xml:id="p20-30"/>Movet igitur prima causa ut res desiderata. primum
+            <lb n="32" xml:id="p20-31"/>autem, quod ea movetur et quod propius accedit eamque
+            <lb n="33" xml:id="p20-32"/>desiderat et ei assimilari studet, est primum caelum et orbis
+            <lb n="34" xml:id="p20-33"/>inerrantium stellarum. et quia proximus est ei, rectitudinem eius,
+            <lb n="35" xml:id="p20-34"/>quam optat, quam potest perfectissime acquirit; quemadmodum
+            <lb n="36" xml:id="p20-35"/>principis vicarius nonnihil regiae dignitatis sibi acquirit, quippe qui
+            <lb n="37" xml:id="p20-36"/>regi propinquus sit, non loco, sed natura. post motum autem caeli,
+            <lb n="38" xml:id="p20-37"/>qui primus motus est, sequitur motus planetarum, deinde genera-<note type="apparatus" n="38" target="#p20-37">ante planetarum add. inerrantium stellarum et motus AB et C i. m.</note><milestone type="alt-edition" unit="folio" ed="Finzi 1558" n="14"/>
+            <lb n="39" xml:id="p20-38"/>bilia et corruptibilia. et natura ipsa multorum est motuum, non
+            <lb n="40" xml:id="p20-39"/>modo secundum locum, ut motus est divinorum corporum, sed etiam
+          </p>
+          <pb n="21" facs="https://archive.org/download/commentariaina05pt46akaduoft/page/n478.jpg"/>
+          <p>
+            <lb n="1" xml:id="p21-0"/>ad omnes motuum species; sequitur ergo maximam varietatem in
+            <lb n="2" xml:id="p21-1"/>mobilibus esse et aliam alii potentiam. si igitur motus omnia,
+            <lb n="3" xml:id="p21-2"/>quae moventur, comprehendit, potentia vero in motu ipso est,
+            <lb n="4" xml:id="p21-3"/>et motus partim in loco, partim in qualitate et substantia et in
+            <lb n="5" xml:id="p21-4"/>huiusmodi, idque varie: propter hoc in omnibus his unam et
+            <lb n="6" xml:id="p21-5"/>eandem potentiam non invenimus. at cum corporibus caelestibus,
+            <lb n="7" xml:id="p21-6"/>quae loco tantum mutantur, varietatem contingere dicimus,
+            <lb n="8" xml:id="p21-7"/>nihil aliud dicere volumus, praeterquam quod ea variis adesse locis
+            <lb n="9" xml:id="p21-8"/>contingit, non ita tamen, ut contingat in loco non esse. etenim cum
+            <lb n="10" xml:id="p21-9"/>contingere dicimus, nolumus indicare id, quod hoc vocabulo ostendi
+            <lb n="11" xml:id="p21-10"/>solet, nec modum quemdam, qui ad alterutrum extremorum declinare
+            <lb n="12" xml:id="p21-11"/>valeat, sed iudicamus ea in loco non esse, in quo necessario collocentur.
+            <lb n="13" xml:id="p21-12"/>nam proprie contingere de hac tantum natura imbecilli
+            <lb n="14" xml:id="p21-13"/>ac confusa dicitur, quam potentia ingreditur per ostium contrarietatis.
+            <lb n="15" xml:id="p21-14"/>cum igitur potentia de corporibus caelestibus praedicari
+            <lb n="16" xml:id="p21-15"/>non possit — ea namque sola prima mutatione, quae in loco est,
+            <lb n="17" xml:id="p21-16"/>mutantur absque intrinseca naturae mutatione — ergo qui caelestes
+            <lb n="18" xml:id="p21-17"/>globos hoc motu movet, quem saepenumero priorem ceteris mutationibus
+            <lb n="19" xml:id="p21-18"/>statuimus, quippe qui immobilis sit omnino nec mutetur nec
+            <lb n="20" xml:id="p21-19"/>transferatur, nec substantia variari poterit nec alio pacto. generatio
+            <lb n="21" xml:id="p21-20"/>enim et corruptio valde ab eo distant, pariterque motus incrementi
+            <lb n="22" xml:id="p21-21"/>et decrementi; is enim iter est ad interitum. sed et motus
+            <lb n="23" xml:id="p21-22"/>localis ab eo remotus est; nam et ipse est una de corporum
+            <lb n="24" xml:id="p21-23"/>mutationibus. at ille movet quidem, sed ipse immobilis existit;
+            <lb n="25" xml:id="p21-24"/>et id quod primo motu non movetur, nec ullo alio movetur.
+            <lb n="26" xml:id="p21-25"/>quamobrem valde distat a potentia.
+            <lb n="27" xml:id="p21-26"/>Necessitate igitur est ens. illud vero initium, quod hoc
+            <lb n="28" xml:id="p21-27"/>pacto necessarium est, id vere initium est. nam quod non
+            <lb n="29" xml:id="p21-28"/>contingit mutari et non mutari, id necessario est et est ens. neces-<note type="apparatus" n="29" target="#p21-28">et non mutari om. C</note>
+            <lb n="30" xml:id="p21-29"/>sarium enim tribus modis dicitur. primo id, quod est coactum,
+            <lb n="31" xml:id="p21-30"/>propterea quod est praeter voluntatem; secundo id, sine
+            <lb n="32" xml:id="p21-31"/>quo res non optime se habet; tertio id, quod aliter se habere
+            <lb n="33" xml:id="p21-32"/>omnino non potest. ex tali necessario caelum et natura
+            <lb n="34" xml:id="p21-33"/>universi pendet. in summa autem praestantia degere, quod
+            <lb n="35" xml:id="p21-34"/>nobis ad exiguum tempus conceditur, huic substantiae<note type="apparatus" n="35" target="#p21-34">substantiae om. C (ၔၔၔၔၔ Ar. b 15)</note>
+            <lb n="36" xml:id="p21-35"/>perpetuo datur. propter nostram enim constitutionem, quae variis
+            <lb n="37" xml:id="p21-36"/>potentiis constet, viam sapientiae vix reperimus. intellectus enim
+            <lb n="38" xml:id="p21-37"/>noster fere semper anxius est nec otium habet; quamvis vero de
+            <lb n="39" xml:id="p21-38"/>aliis plerumque sollicitus sit et corpore implicitus, quandoque tamen, etsi
+            <lb n="40" xml:id="p21-39"/>ad exiguum tempus, iis abiectis, quae ipsum ab intellectione avertere
+            <lb n="41" xml:id="p21-40"/>possunt, se ipsum sine ullo impedimento intellegit, ex quo gaudium
+            <lb n="42" xml:id="p21-41"/>laetitiamque sempiternam consequitur, eamque adeo intentam, ut
+          </p>
+          <pb n="22" facs="https://archive.org/download/commentariaina05pt46akaduoft/page/n479.jpg"/>
+          <p>
+            <lb n="1" xml:id="p22-0"/>exprimi nequeat. ille vero, qui a sapientia ne punctum quidem
+            <lb n="2" xml:id="p22-1"/>temporis vacat, non habet delectationem acquisitam, sed ipse
+            <lb n="3" xml:id="p22-2"/>delectatio est honorabiliorque est ceteris entibus. quodsi apud nos
+            <lb n="4" xml:id="p22-3"/>vigilia est suavior somno, quoniam operari suavius est, quam in
+            <lb n="5" xml:id="p22-4"/>otio languere, et sensus suavior est eius privatione et intellectus
+            <lb n="6" xml:id="p22-5"/>ignorantia, protrahitur excellentia illius intellectus in gloriam et
+            <lb n="7" xml:id="p22-6"/>comprehendendi dignitatem infinitam. nam quod actu est, in omnibus
+            <lb n="8" xml:id="p22-7"/>suavius est eo, quod potestate, idque naturae est cordi. qua-<note type="apparatus" n="8-9" target="#p22-7 #p22-8">quapropter] (διὰ) τοῦτο loco ταῦτα b 18</note>
+            <lb n="9" xml:id="p22-8"/>propter spes iucundissima habetur; nam optat, quod potestate est,<note type="apparatus" n="9" target="#p22-8">optat incertum</note>
+            <lb n="10" xml:id="p22-9"/>ad actum reduci; memoria quoque non est potestatis, sed actus.
+            <lb n="11" xml:id="p22-10"/>cum igitur id, quod potentiam et actum habet, maiorem in actu
+            <lb n="12" xml:id="p22-11"/>oblectationem consequitur, quamnam habebit proportionem laetitia
+            <lb n="13" xml:id="p22-12"/>eius, quod actu solummodo est et omni potentia caret, dum operatur
+            <lb n="14" xml:id="p22-13"/>seque intellegit? visus quoque cum nobilis<milestone type="alt-edition" unit="folio" ed="Finzi 1558" n="15"/>simum et pulcherrimum
+            <lb n="15" xml:id="p22-14"/>omnium colorum absque molestia cernit, laetatur summeque gaudet;
+            <lb n="16" xml:id="p22-15"/>sic et palatus cum praestantiorem et suaviorem saporem gustaverit,
+            <lb n="17" xml:id="p22-16"/>itidem auditus suaviorem et iucundiorem ceteris sonum percipiens:
+            <lb n="18" xml:id="p22-17"/>ita intellectus quoque valde laetatur, cum omnium intellegibilium
+            <lb n="19" xml:id="p22-18"/>nobilissimum intellegit. nobilissimum vero omnium intellegibilium
+            <lb n="20" xml:id="p22-19"/>illud est, quod intellegit se suamque essentiam absque molestia
+            <lb n="21" xml:id="p22-20"/>ac sine ullo impedimento vel intermissione sensuum, ut in intellegibilibus
+            <lb n="22" xml:id="p22-21"/>contingit, quae mente formantur, a sensibilibus seiuncta. quod
+            <lb n="23" xml:id="p22-22"/>vero intellegibile per se est, id materiae non immixtum ac immutabile
+            <lb n="24" xml:id="p22-23"/>est, sed existit, quia intellegit atque intellegitur. et initium suae<note type="apparatus" n="24" target="#p22-23">et initium sq.] fort. vertendum: et initio suae intellectionis eius essentia adhuc aliud quidpiam est.. (26) sed natura intellegens</note>
+            <lb n="25" xml:id="p22-24"/>intellectionis est ipsemet; immo idem est. nam si non esset
+            <lb n="26" xml:id="p22-25"/>hoc pacto, non esset ex sua natura intellegibile; sed natura
+            <lb n="27" xml:id="p22-26"/>intellegibile est. et haec est ratio intellectus divini, qui praestantissimus
+            <lb n="28" xml:id="p22-27"/>est, neque alterutrum in eo distinguitur, sed utrumque
+            <lb n="29" xml:id="p22-28"/>simul inest naturae eius, quod intellegit, inquam, et quod
+            <lb n="30" xml:id="p22-29"/>intellegitur. nec nostra gratia intellegibilis dicitur, sed sua ipsius
+            <lb n="31" xml:id="p22-30"/>gratia, ut intellectus noster et ipse sua ipsius gratia intellegibilis<note type="apparatus" n="31" target="#p22-30">ut-nostra (32) om. F</note>
+            <lb n="32" xml:id="p22-31"/>dicitur, minime nostra gratia. et ut ceteros intellectus antecellit,
+            <lb n="33" xml:id="p22-32"/>ita inter cetera intellegibilia excellit; et sicut est intellectus perfectissimus,
+            <lb n="34" xml:id="p22-33"/>ita est intellegibile verissimum. cum autem intellegit,
+            <lb n="35" xml:id="p22-34"/>intellectio eius est actus eius, et cum est in actu intellectionis,
+            <lb n="36" xml:id="p22-35"/>tunc simul est intellectus et intellegibile. intellectus totus totum<note type="apparatus" n="36" target="#p22-35">intellectus-amplectitur] ab eo manant omnia, vestit omnia F</note>
+            <lb n="37" xml:id="p22-36"/>amplectitur; non eo modo, quo corpora se mutuo tangunt, ultima
+            <lb n="38" xml:id="p22-37"/>tantum superficie, sed eo modo, quo ea, quae commiscentur,
+            <lb n="39" xml:id="p22-38"/>quorum unius totum alterius totum contingit, hoc pacto intellectus
+          </p>
+          <pb n="23" facs="https://archive.org/download/commentariaina05pt46akaduoft/page/n480.jpg"/>
+          <p>
+            <lb n="1" xml:id="p23-0"/>totus totum amplectitur; et tunc intellectus simul est et intelle-<note type="apparatus" n="1" target="#p23-0">totus—amplectitur] est omnium vestimentum, et ab eo omnia manant F</note>
+            <lb n="2" xml:id="p23-1"/>gibile. neque proinde sicut sensus non est idem quod sensibile,
+            <lb n="3" xml:id="p23-2"/>quandoquidem imprimitur forma eius, substantia autem manet extra,
+            <lb n="4" xml:id="p23-3"/>ita intellectus et ipse sese habet ad intellegibilia, quae per se insunt
+            <lb n="5" xml:id="p23-4"/>ei; immo ipse fert omnes formas, nec ulla substantia foris remanet,
+            <lb n="6" xml:id="p23-5"/>cui misceatur materia. ibi enim non est materia, sed sola forma
+            <lb n="7" xml:id="p23-6"/>sine materia, quae consequitur intellegentem cogitantemque eam,
+            <lb n="8" xml:id="p23-7"/>cum neque pars a parte separetur, neque rescindatur, ut sensibilia
+            <lb n="9" xml:id="p23-8"/>apud sensum, sed in intellectu firmatur. in summa ipse intellectus
+            <lb n="10" xml:id="p23-9"/>est et intellegibilis, ut iam saepe diximus. nec similis est intellectui
+            <lb n="11" xml:id="p23-10"/>nostro, qui labente tempore ab alia re ad aliam translatus modo
+            <lb n="12" xml:id="p23-11"/>intellegit ea, quae non noverat prius, [et hoc ei contingit,] quia multum
+            <lb n="13" xml:id="p23-12"/>potentiae sibi adnexum habet — huiusmodi [inquam] non est
+            <lb n="14" xml:id="p23-13"/>intellectus ille divinus et primus, sed ille intellegit ea, quae penes se
+            <lb n="15" xml:id="p23-14"/>habet intellegibilia, per eorum assumptionem (?) et, ut summatim<note type="apparatus" n="15" target="#p23-14">per eorum assumptionem] κατὰ μετάληψιν b 20?: perceptionem codd., si levem acceperis emendationem</note>
+            <lb n="16" xml:id="p23-15"/>dicam, ea, quae idem quod ipsemet sunt, quoniam ipse est sua
+            <lb n="17" xml:id="p23-16"/>intellegibilia. neque ipse intellegit ea transferens se et convertens
+            <lb n="18" xml:id="p23-17"/>ab alia re ad aliam, ut facit intellectus noster, at omnia in vestigio
+            <lb n="19" xml:id="p23-18"/>temporis intellegit. proinde palam est ipsum intellegere omnia, quae
+            <lb n="20" xml:id="p23-19"/>sunt, eo modo, quo sunt, et eo modo, quo ipse posuit ea entia esse;
+            <lb n="21" xml:id="p23-20"/>omnia vero apud eum simul sunt. omnia igitur necessario simul
+            <lb n="22" xml:id="p23-21"/>intellegit. quodsi nihil mirum est intellectum nostrum id esse,
+            <lb n="23" xml:id="p23-22"/>quod ipse intellegit, eo magis hoc suspicandum est de primo
+            <lb n="24" xml:id="p23-23"/>intellectu; nam intellectus noster ideo divinus habetur, quia similis
+            <lb n="25" xml:id="p23-24"/>est intellectui divino. si igitur perfectam delectationem
+            <lb n="26" xml:id="p23-25"/>atque summam dignitatem per cognitionem assequimur, id
+            <lb n="27" xml:id="p23-26"/>etiam magis erit in prima causa. nam cernit se in summa dignitate
+            <lb n="28" xml:id="p23-27"/>et se intellegit absque adminiculo externae naturae, immo eam
+            <lb n="29" xml:id="p23-28"/>naturam, quae requiritur, in se habet. quod autem est in eius
+            <lb n="30" xml:id="p23-29"/>opere iucundissimum, id simile non est ei, quod interdum deficit,<note type="apparatus" n="30" target="#p23-29">id—ipsa (31)] ipsa addidi: F exhibet: neque id unquam defecturum est, neque is ei similis est, cui deest aliquid et (locus non integer)</note>
+            <lb n="31" xml:id="p23-30"/>neque ipsa quidpiam molitur, ut finem suum attingat ex re, quam
+            <lb n="32" xml:id="p23-31"/>non habet. nam haec omnia accidentia sunt atque renovationes,
+            <lb n="33" xml:id="p23-32"/>quae intellectui nostro contingunt; sed hic ipse est res iucundissima,
+            <lb n="34" xml:id="p23-33"/>veluti ipse quoque est res praestantissima.
+            <lb n="35" xml:id="p23-34"/>Si igitur deus semper sic se habet, ut aliquando nos,
+            <lb n="36" xml:id="p23-35"/>admirabile quidem est; sin melius, profecto magis <milestone type="alt-edition" unit="folio" ed="Finzi 1558" n="16"/> admirabile
+            <lb n="37" xml:id="p23-36"/>est, et quo melius, eo magis admirabile. perspicuum igitur<note type="apparatus" n="37" target="#p23-36">et—admirabile C: om. F: AB corrupti</note>
+            <lb n="38" xml:id="p23-37"/>est, quod separatus ac simplex est, nec ipsum sensus dirimunt aut
+            <lb n="39" xml:id="p23-38"/>accidentia, et intellegit omnia, quae sunt, non eo, quod remanent
+            <lb n="40" xml:id="p23-39"/>extra eius naturam, vel sunt ipsi operationes extraneae, immo ipse
+          </p>
+          <pb n="24" facs="https://archive.org/download/commentariaina05pt46akaduoft/page/n481.jpg"/>
+          <p>
+            <lb n="1" xml:id="p24-0"/>ea producit et ipsa id sunt, quod ipse. nam deus est lex et ratio
+            <lb n="2" xml:id="p24-1"/>causaque rectitudinis entium atque eorundam ordo est. nec est
+            <lb n="3" xml:id="p24-2"/>lex ut haec, quae in libris ponitur, sed viva lex. perinde ac si
+            <lb n="4" xml:id="p24-3"/>cogitatione depingere posses legem animatam esse ac se cognoscere
+            <lb n="5" xml:id="p24-4"/>seque intellegere posse, ut si Lycurgus legislator adhuc viveret et
+            <lb n="6" xml:id="p24-5"/>assisteret legi eamque administraret, cognoscens administrationem,
+            <lb n="7" xml:id="p24-6"/>cuius ipse auctor est, et in se ipso intellegeret reges, duces,
+            <lb n="8" xml:id="p24-7"/>milites, quo adnexa esset talis cognitio funiculo inextricabili. at
+            <lb n="9" xml:id="p24-8"/>Lycurgus ex natura sua decessit et administratio quoque, quam
+            <lb n="10" xml:id="p24-9"/>produxit, periit. at si lex et legislator perpetuam vitam viverent,
+            <lb n="11" xml:id="p24-10"/>administratio itidem continuae esset permansionis. enimvero vita
+            <lb n="12" xml:id="p24-11"/>huius legislatoris non solum continua est, initio ac fine carens, sed
+            <lb n="13" xml:id="p24-12"/>etiam praestantissima est. praestantissima enim vita mens est, et
+            <lb n="14" xml:id="p24-13"/>honorabilior est omni re vitam habente. nec quandoque vivit, quandoque
+            <lb n="15" xml:id="p24-14"/>non vivit, nec diverso modo, perinde atque nos; sed ipse est
+            <lb n="16" xml:id="p24-15"/>ipsa vita, quoniam est actus, et actus est vita et eius perfectio.<note type="apparatus" n="16" target="#p24-15">perfectio om. A perfectio—aeternusque (18)] FC1 post perfectio non distinguunt et exhibent: honorabilior est ceteris operationibus et sic est continua perpetuaque vita</note>
+            <lb n="17" xml:id="p24-16"/>et veluti nobilissimam habet actionem, sic etiam nobilior est omni
+            <lb n="18" xml:id="p24-17"/>vivo, ac velut ipse est actus perpetuus aeternusque, sic vita quoque
+            <lb n="19" xml:id="p24-18"/>perpetua aeternaque. dicamus igitur deum esse vitam aeternam
+            <lb n="20" xml:id="p24-19"/>sempiternam ac perfectissimam. quare deo vita aevumque
+            <lb n="21" xml:id="p24-20"/>continuum perpetuum sempiternum inest et, ut saepe prius<note type="apparatus" n="21" target="#p24-20">et ut—sempiternum (23)] nec nos quicquam aliud habemus, quod dicamus, nisi quod deus vita est et continuum aevum F falso</note>
+            <lb n="22" xml:id="p24-21"/>memoravimus, loco ὑπάρχειν potius dicendum est deum esse vitam
+            <lb n="23" xml:id="p24-22"/>atque esse aevum sempiternum.
+            <lb n="24" xml:id="p24-23"/>At iam aliqui sunt opinati pulcherrimum et optimum non
+            <lb n="25" xml:id="p24-24"/>esse in initio rei, ut secta Pythagoreorum et Leucippus
+            <lb n="26" xml:id="p24-25"/>opinati sunt principia animalium et plantarum causas quidem
+            <lb n="27" xml:id="p24-26"/>esse, ut sint, pulcherrimum autem et perfectissimum
+            <lb n="28" xml:id="p24-27"/>minime esse in semine, sed tempore perfectionis. at non verum est,
+            <lb n="29" xml:id="p24-28"/>quod opinantur. nam utilitatem iam habent a radicibus. in eo
+            <lb n="30" xml:id="p24-29"/>vero, quod simul habet utrumque, actum, inquam, et potentiam,
+            <lb n="31" xml:id="p24-30"/>prior est potentia, simpliciter tamen actus potentiam praecedit, ut
+            <lb n="32" xml:id="p24-31"/>homo prior est semine hominis; semen enim ex homine oritur. esse
+            <lb n="33" xml:id="p24-32"/>igitur substantiam quandam aeternam [et] immobilem
+            <lb n="34" xml:id="p24-33"/>[atque] a sensibus non solum loco, sed natura separatam,
+            <lb n="35" xml:id="p24-34"/>immutabilem, cum neque ipsa mutationem faciat, neque ulla ratione<note type="apparatus" n="35" target="#p24-34">immutabilem-—patiatur (36) om. F</note>
+            <lb n="36" xml:id="p24-35"/>patiatur mutationem, satis iam demonstratum est. etiam demonstratum
+            <lb n="37" xml:id="p24-36"/>est [hanc substantiam] non esse corpus, nec magnitudinem
+            <lb n="38" xml:id="p24-37"/>ullam habere [posse], neque desinere, neque dividi. infinito<note type="apparatus" n="38" target="#p24-37">desinere] mori codd. suspectum</note>
+            <lb n="39" xml:id="p24-38"/>enim tempore movet. non dari autem magnitudinem finitam
+          </p>
+          <pb n="25" facs="https://archive.org/download/commentariaina05pt46akaduoft/page/n482.jpg"/>
+          <p>
+            <lb n="1" xml:id="p25-0"/>potestatem habentem, qua in infinitum moveat, iam expositum est
+            <lb n="2" xml:id="p25-1"/>in sermonibus nostris naturalibus. nam omnis magnitudo aut est<note type="apparatus" n="2" target="#p25-1">naturalibus] Phys. VIII 10</note>
+            <lb n="3" xml:id="p25-2"/>finita aut infinita. vanum autem est dicere infinitam dari; sed
+            <lb n="4" xml:id="p25-3"/>finitum infinitas habere posse potentias nemo fatetur neque profitetur,
+            <lb n="5" xml:id="p25-4"/>eo minus, si illud, quatenus corpus est, ab ipsis movetur. nam qui<note type="apparatus" n="5" target="#p25-4">nam qui sq.] cf. Averr. 325 E</note>
+            <lb n="6" xml:id="p25-5"/>solem dicit et cetera astra finita quidem esse, potestates vero habere
+            <lb n="7" xml:id="p25-6"/>infinitas, insufficiens utique in sermone suo est, quoniam virtus,
+            <lb n="8" xml:id="p25-7"/>quae existit in stellis, et ea quidem, quae infinita habetur, non insita
+            <lb n="9" xml:id="p25-8"/>est eis a natura, neque quatenus corpora sunt, sed aut a prima
+            <lb n="10" xml:id="p25-9"/>causa manat, aut anima, quae est in eis, provenit ab illa virtute
+            <lb n="11" xml:id="p25-10"/>incorporea. prima namque causa ea infinito tempore circumfert;
+            <lb n="12" xml:id="p25-11"/>quodsi hoc potestate haberent, ut habent corpus et magnitudo, nec
+            <lb n="13" xml:id="p25-12"/>perseverassent in actu, et fatigarentur procul dubio et quiete egerent.
+            <lb n="14" xml:id="p25-13"/>nam stellarum corpora, ob insitam potestatem, potentias habent
+            <lb n="15" xml:id="p25-14"/>finitas; diversis enim temporibus in alio et alio loco sunt, quando-<note type="apparatus" n="15-16" target="#p25-14 #p25-15">quandoque —illic om. F</note>
+            <lb n="16" xml:id="p25-15"/>que sunt hic, quandoque illic. haec autem loca quasi motuum termini
+            <lb n="17" xml:id="p25-16"/>sunt. impossibile namque est potentiam, quam sequatur actus, quem
+            <lb n="18" xml:id="p25-17"/>ipsa appetat, finem ac terminum non habere; sed causa, quae est
+            <lb n="19" xml:id="p25-18"/>potentiae omnino expers et actus continuus et omni tempore invariabilis,
+            <lb n="20" xml:id="p25-19"/>quomodo habere potest magnitudinem et corpus, ut habent
+            <lb n="21" xml:id="p25-20"/>haec, in quibus potentia continua cernitur, sive sunt corruptioni
+            <lb n="22" xml:id="p25-21"/>obnoxia, <milestone type="alt-edition" unit="folio" ed="Finzi 1558" n="17"/> sive non? in summa actus separatus ex se ipso potest
+            <lb n="23" xml:id="p25-22"/>perpetuari in infinitum cum temporis continuatione; actus vero
+            <lb n="24" xml:id="p25-23"/>proveniens ab eo, quod est potentia, ad effectum adducit potentiam,
+            <lb n="25" xml:id="p25-24"/>nec animo comprehendere licet hunc actum infinito tempore durare;
+            <lb n="26" xml:id="p25-25"/>iam enim praecessit eum potentia. necessario igitur virtus, quae
+            <lb n="27" xml:id="p25-26"/>stellas movet, infinita est. stellae namque non acquirunt hanc
+            <lb n="28" xml:id="p25-27"/>virtutem per id, quod potentia est. motus vero earum in tali [et
+            <lb n="29" xml:id="p25-28"/>tali] loco finitus est, quoniam hoc modo tantum stellis inest potentia.
+          </p>
+        </div>
+        <div type="textpart" subtype="section" n="8">
+          <p>
+            <lb n="30" xml:id="p25-29"/>Inquirendum autem est, utrum substantiarum huiusmodi, quae
+            <lb n="31" xml:id="p25-30"/>magnitudinem non habent expertesque materiae sunt, una sit
+            <lb n="32" xml:id="p25-31"/>ponenda, an plures. nam qui ante nos immateriales immobilesque<note type="apparatus" n="32" target="#p25-31">an] et codd.</note>
+            <lb n="33" xml:id="p25-32"/>substantias posuerunt, nihil certi de earum multitudine, quin etiam nihil
+            <lb n="34" xml:id="p25-33"/>proprie de earum numero dixere. qui enim formas induxere, inquiunt
+            <lb n="35" xml:id="p25-34"/>formas immateriales esse substantias atque immobiles, nihil tamen
+            <lb n="36" xml:id="p25-35"/>aiunt de earum numero et reliquere rem dubiam ad modum
+            <lb n="37" xml:id="p25-36"/>numerorum, quorum additamentum (?) nescitur. nam et ii, qui<note type="apparatus" n="37" target="#p25-36">quorum additamentum corrupta</note>
+            <lb n="38" xml:id="p25-37"/>ideas numeros esse inquiunt, interdum in infinitum eas extendunt,
+            <lb n="39" xml:id="p25-38"/>interdum earum finem denarium ponunt numerum. nobis autem
+            <lb n="40" xml:id="p25-39"/>est dicendum ex hisce, quae praemissa sunt atque determinata,
+            <lb n="41" xml:id="p25-40"/>primum principium unum esse non permixtum materiae, incor-
+          </p>
+          <pb n="26" facs="https://archive.org/download/commentariaina05pt46akaduoft/page/n483.jpg"/>
+          <p>
+            <lb n="1" xml:id="p26-0"/>poreum, primo motu continuo et perpetuo movens, omnis
+            <lb n="2" xml:id="p26-1"/>motionis atque mutationis immune. quod autem plures sunt substantiae
+            <lb n="3" xml:id="p26-2"/>post hoc primum principium, quae hoc pacto sunt, id
+            <lb n="4" xml:id="p26-3"/>invenitur ex ratiocinatione, et sensus attestatur. [nam] omne,
+            <lb n="5" xml:id="p26-4"/>quod movetur, a motore movetur, ac causa prima necessario
+            <lb n="6" xml:id="p26-5"/>una est et immobilis tum per se, tum per accidens; substantiae
+            <lb n="7" xml:id="p26-6"/>vero sequentium corporum motrices necessario multae sunt, pro
+            <lb n="8" xml:id="p26-7"/>numero corporum, quae moventur [ab eis], et hae quidem per se
+            <lb n="9" xml:id="p26-8"/>immobiles sunt, per accidens tamen moventur, perinde atque anima.
+            <lb n="10" xml:id="p26-9"/>nec tantum immobiles ponendae sunt, sed et perpetuae. natura
+            <lb n="11" xml:id="p26-10"/>namque stellarum substantia quaedam perpetua est, ac id,<note type="apparatus" n="11" target="#p26-10">perpetua F: om. codd.</note>
+            <lb n="12" xml:id="p26-11"/>quod eas movet, perpetuum est. prius enim est moto; quod
+            <lb n="13" xml:id="p26-12"/>autem prius substantia est, substantia necessario est.
+            <lb n="14" xml:id="p26-13"/>multitudinem autem virtutum ex illa scientia, quae philoso-<note type="apparatus" n="14" target="#p26-13">virtutum] φορῶν Ar. b 4</note>
+            <lb n="15" xml:id="p26-14"/>phiae familiaris [sima] est, ex astrologia, considerare oportet.<note type="apparatus" n="15" target="#p26-14">familiaris(sima)] cf. infra</note>
+            <lb n="16" xml:id="p26-15"/>haec enim de numero motuum, quibus unaquaeque errantium
+            <lb n="17" xml:id="p26-16"/>stellarum movetur, ac de numero orbium eas deferentium contemplationem
+            <lb n="18" xml:id="p26-17"/>facit. numerus vero orbium deferentium stellas diversus<note type="apparatus" n="18" target="#p26-17">deferentium stellas F: qui stellas sustinent numerusque orbium qui eas regunt codd.</note>
+            <lb n="19" xml:id="p26-18"/>habetur apud Callippum ab eo, qui est apud Eudoxum, [sed haec<note type="apparatus" n="19" target="#p26-18">sed—sunt (20) iure om. codd.</note>
+            <lb n="20" xml:id="p26-19"/>breviter et summatim a nobis explicanda sunt]. illud vero tantum
+            <lb n="21" xml:id="p26-20"/>volumus, ut virtutes moventes tot sint, quot sunt corpora, quae
+            <lb n="22" xml:id="p26-21"/>moventur, et earum alia prima sit, alia secunda, secundum
+            <lb n="23" xml:id="p26-22"/>eum ordinem, quem et orbes habent inter se, ita ut non
+            <lb n="24" xml:id="p26-23"/>solum ordine, sed et essentia atque substantia differant. ordine<note type="apparatus" n="24" target="#p26-23">ordine—sunt (25) incerta</note>
+            <lb n="25" xml:id="p26-24"/>namque inferiores minus nobiles sunt et hac ratione primum habent
+            <lb n="26" xml:id="p26-25"/>secundumve gradum; diversitas autem in substantia necessario
+            <lb n="27" xml:id="p26-26"/>subsequitur. familiarissimam autem philosophiae astrologiam esse
+            <lb n="28" xml:id="p26-27"/>dixi, quoniam haec sola de substantia sensibili perpetua
+            <lb n="29" xml:id="p26-28"/>quaerit, reliquae vero mathematicae accidentia contemplantur,
+            <lb n="30" xml:id="p26-29"/>quae corporibus contingunt, ut geometria quantitatem continuam, arithmetica
+            <lb n="31" xml:id="p26-30"/>discretam. ex astrologia vero vel mediocriter erudito patet
+            <lb n="32" xml:id="p26-31"/>unamquamque [vagantium] stellarum pluribus motibus ferri; et<note type="apparatus" n="32" target="#p26-31">vagantium F: om. codd. et—cernitur (33)] locus non sanus. fort. vertendum: omnino patet unamquamque stellarum et corporum, quae moventur, unumquodque pluribus motibus ferri</note>
+            <lb n="33" xml:id="p26-32"/>quodlibet corpus moveri manifeste cernitur.
+            <lb n="34" xml:id="p26-33"/>At quis numerus uniuscuiusque, item quis numerus omnium
+            <lb n="35" xml:id="p26-34"/>motuum planetarum sit, nunc quidem nobis ea, quae mathematicorum
+            <lb n="36" xml:id="p26-35"/>nonnulli dicunt, intellegendi gratia dicenda sunt,
+            <lb n="37" xml:id="p26-36"/>ut possit intellectu formari numerus determinatus. ceterorum<note type="apparatus" n="37" target="#p26-36">ceterorum—sequuntur (38)] interpretatio inepta verb. τὸ δὲ λοιπόν b 13</note>
+            <lb n="38" xml:id="p26-37"/>vero, quae sequuntur, quaedam quidem nos ipsos quaerere decet,
+          </p>
+          <pb n="27" facs="https://archive.org/download/commentariaina05pt46akaduoft/page/n484.jpg"/>
+          <p>
+            <lb n="1" xml:id="p27-0"/>quaedam autem a quaerentibus sciscitari, ac, si quid praestantius
+            <lb n="2" xml:id="p27-1"/>invenerimus, quam invenerunt qui haec hactenus scrutati
+            <lb n="3" xml:id="p27-2"/>contemplatique sunt, omnia in medium afferemus illique fidem adhibebimus,
+            <lb n="4" xml:id="p27-3"/>qui certiorem fecerit inquisitionem. dico igitur Eudoxum
+            <lb n="5" xml:id="p27-4"/>lationem utriusque, solis ac lunae, in <milestone type="alt-edition" unit="folio" ed="Finzi 1558" n="18"/> tribus esse sphaeris
+            <lb n="6" xml:id="p27-5"/>posuisse, quarum primam eam esse [dicebat], quae non vagantium<note type="apparatus" n="6" target="#p27-5">primam-obliquus (8)] ita F imitando Arist.: codd. lectionem exhibent vitiosam: prima sphaera .. est .. secunda sphaera signorum, tertia vero sphaera, quae est obliqua . hic et in iis, quae sequuntur, verba κύκλος et σφαῖρα interdum permutantur dicebat om. codd.</note>
+            <lb n="7" xml:id="p27-6"/>est stellarum, secundam vero [per eum circulum, qui per media
+            <lb n="8" xml:id="p27-7"/>signa transit, tertiam per eum, qui est obliquus] in latitudine
+            <lb n="9" xml:id="p27-8"/>[ipsorum] signorum. in latitudine autem maiore circulum
+            <lb n="10" xml:id="p27-9"/>eum esse obliquum, per quem luna, quam eum, per quem sol fertur.
+            <lb n="11" xml:id="p27-10"/>vagantium vero stellarum uniuscuiusque lationem in
+            <lb n="12" xml:id="p27-11"/>quatuor sphaeris esse ponebat. atque harum quatuor sphaerarum
+            <lb n="13" xml:id="p27-12"/>primam quidem et secundam eandem esse ac primam et
+            <lb n="14" xml:id="p27-13"/>secundam sphaeram solis et lunae; nam et sphaeram quae
+            <lb n="15" xml:id="p27-14"/>non vagantium est stellarum, quae omnes defert sphaeras,
+            <lb n="16" xml:id="p27-15"/>et eam, quae sub hac collocatur sphaera, signorum inquam sphaeram,
+            <lb n="17" xml:id="p27-16"/>quoad motum communem omnibus esse. tertiae vero sphaerae<note type="apparatus" n="17" target="#p27-16">codd. add. sphaeris post esse (corr.)</note>
+            <lb n="18" xml:id="p27-17"/>polos alios esse atque reliquarum, in eo quidem (circulo), qui per<note type="apparatus" n="18" target="#p27-17">circulo addidi</note>
+            <lb n="19" xml:id="p27-18"/>media signa transit. at quartae lationem per obliquum ad
+            <lb n="20" xml:id="p27-19"/>medium circulum huius sphaerae esse. tertiae vero sphaerae
+            <lb n="21" xml:id="p27-20"/>polos uniuscuiusque ceterarum quidem stellarum Venere et Mercurio
+            <lb n="22" xml:id="p27-21"/>exceptis esse proprios, Veneris autem atque Mercurii eosdem
+            <lb n="23" xml:id="p27-22"/>esse. atque haec quidem Eudoxus statuit. at Callippus positionem
+            <lb n="24" xml:id="p27-23"/>quidem sphaerarum eandem quam et Eudoxus ponebat, id
+            <lb n="25" xml:id="p27-24"/>est ordinem distantiae earum, multitudinem quoque sphaerarum
+            <lb n="26" xml:id="p27-25"/>quidem Iovis atque Saturni eandem quam ille tribuebat;
+            <lb n="27" xml:id="p27-26"/>soli autem atque lunae unicuique duas sphaeras addendas
+            <lb n="28" xml:id="p27-27"/>esse censebat, ut ea, quae apparent, explicare possint, reliquarum
+            <lb n="29" xml:id="p27-28"/>vero vagarum unicuique unam sphaeram esse addendam. necessario
+            <lb n="30" xml:id="p27-29"/>vero, si debeant omnes compositae ea, quae apparent,
+            <lb n="31" xml:id="p27-30"/>reddere, in unaquaque stellarum vagantium alias sphaeras
+            <lb n="32" xml:id="p27-31"/>una pauciores esse, quae revolvunt [itemque restituunt positione<note type="apparatus" n="32" target="#p27-31">itemque - collocata (33) ita F secundum textum: codd. exhibent et revolvitur planeta [sphaera B] quaeque inferior, donec eo semper revertatur, ubi prima sphaera incepit</note>
+            <lb n="33" xml:id="p27-32"/>primam sphaeram eius stellae semper, quae sub ipsa est collocata].
+            <lb n="34" xml:id="p27-33"/>hoc enim pacto dumtaxat vagarum lationem stellarum<note type="apparatus" n="34" target="#p27-33">vagarum] fixarum codd. falso</note>
+            <lb n="35" xml:id="p27-34"/>omnes facere possunt. cum igitur hae sphaerae, in quibus
+            <lb n="36" xml:id="p27-35"/>ipsae feruntur, aliae sint octo, aliae vigintiquinque,
+            <lb n="37" xml:id="p27-36"/>earum autem has solas revolvi non oporteat, in quibus
+          </p>
+          <pb n="28" facs="https://archive.org/download/commentariaina05pt46akaduoft/page/n485.jpg"/>
+          <p>
+            <lb n="1" xml:id="p28-0"/>infima stella defertur, hae quidem sphaerae, quae duas<note type="apparatus" n="1" target="#p28-0">primarum stellarum duarum sphaeras et (2) posteriorum quatuor stellarum sphaeras F duce Arist.</note>
+            <lb n="2" xml:id="p28-1"/>primas revolvunt, sex erunt; hae vero, quae posteriores
+            <lb n="3" xml:id="p28-2"/>quatuor revolvunt, sedecim erunt. omnium igitur sphaerarum
+            <lb n="4" xml:id="p28-3"/>numerus, tum earum, quae deferunt, tum earum, quae
+            <lb n="5" xml:id="p28-4"/>revolvunt eas, quinque erunt et quinquaginta. quodsi lunae
+            <lb n="6" xml:id="p28-5"/>solive quispiam eos non addiderit quos diximus motus,
+            <lb n="7" xml:id="p28-6"/>summa sphaerarum quadraginta erunt et septem.
+            <lb n="8" xml:id="p28-7"/>Multitudo igitur lationum sit huiusmodi. quare et<note type="apparatus" n="8" target="#p28-7">lationum] φορῶν (cf. Bonitz p. 511): sphaerarum F Arist. imitatus</note>
+            <lb n="9" xml:id="p28-8"/>substantias et principia moventia immobilia atque etiam
+            <lb n="10" xml:id="p28-9"/>substantias sensibiles tot esse existimare oportet. numerus
+            <lb n="11" xml:id="p28-10"/>enim motuum secundum numerum sphaerarum motarum necessario
+            <lb n="12" xml:id="p28-11"/>debet esse; sic et numerus causarum moventium secundum numerum
+            <lb n="13" xml:id="p28-12"/>motuum. et haec nobis sufficiant. etenim non est nostrum diiudicare,
+            <lb n="14" xml:id="p28-13"/>num is sit motuum numerus [an alius], sed necessarium<note type="apparatus" n="14" target="#p28-13">an alius F: om. codd.</note>
+            <lb n="15" xml:id="p28-14"/>iudicium iis relinquatur, quorum studium hoc est, qui accuratius
+            <lb n="16" xml:id="p28-15"/>de his disserere possunt. quodsi fieri non potest, ut ulla
+            <lb n="17" xml:id="p28-16"/>sit latio, quae non ad lationem stellae cuiusdam conducat,
+            <lb n="18" xml:id="p28-17"/>ullaque [praetera] natura aut substantia divina otiosa
+            <lb n="19" xml:id="p28-18"/>et sine actione esse possit — omnis enim huiusmodi substantia, ut est
+            <lb n="20" xml:id="p28-19"/>bona, non cessat in operatione propria et definita, 〈qui est〉 summus<note type="apparatus" n="20" target="#p28-19">ut est bona om. CF qui est addidi</note>
+            <lb n="21" xml:id="p28-20"/>dignitatis gradus, postquam perfectionem vitae continuae consecuta
+            <lb n="22" xml:id="p28-21"/>est — nullum igitur erit aliud corpus immobile praeter haec
+            <lb n="23" xml:id="p28-22"/>corpora, sed substantiarum numerus hic esse debet. nam
+            <lb n="24" xml:id="p28-23"/>si essent alii motus, alia etiam corpora mota essent. at non
+            <lb n="25" xml:id="p28-24"/>sunt alia corpora praeter haec visibilia. nec igitur erunt alii motus
+            <lb n="26" xml:id="p28-25"/>nec aliae moventes causae praeter has. si enim omnis causa,
+            <lb n="27" xml:id="p28-26"/>quae defert, est eius gratia, quod defertur, et omnis latio
+            <lb n="28" xml:id="p28-27"/>cuiuspiam est, quod fert: nulla latio sane sua gratia erit<note type="apparatus" n="28" target="#p28-27">fert codd.: fertur F duce Aristoteli</note>
+            <lb n="29" xml:id="p28-28"/>nec lationis alius, verum stellarum causa. nulla latio, inquam,<note type="apparatus" n="29" target="#p28-28">verum—erit (30) om. FC per homoeoteleuton</note>
+            <lb n="30" xml:id="p28-29"/>sua gratia nec lationis alius causa erit; natura enim abhorret nimis
+            <lb n="31" xml:id="p28-30"/>in cassum vanumque ac in infinitum progredi. dari autem lationem
+            <lb n="32" xml:id="p28-31"/>sua gratia vanum esset; in infinitum vero progressus esset, si alterius
+            <lb n="33" xml:id="p28-32"/>lationis causa esset. cum autem hoc ita sit, quod reliquum est
+            <lb n="34" xml:id="p28-33"/>quaeramus oportet.
+            <lb n="35" xml:id="p28-34"/>Dicemus igitur: si plures essent caeli, plura item oporteret esse
+            <lb n="36" xml:id="p28-35"/>principia prima, praesertim cum omnes specie iidem sint, ut homines. <milestone type="alt-edition" unit="folio" ed="Finzi 1558" n="19"/><note type="apparatus" n="36" target="#p28-35">principia prima C i. m.: caelum primum AB; C i. t. falso. F exhibet mundum esse unum. nam si plures sint sub una specie perinde atque homines, unumquodque principium specie quidem unum erit (omnino commenticie) homines] homo C (Ar. a35 ἀνθρώπου)</note>
+          </p>
+          <pb n="29" facs="https://archive.org/download/commentariaina05pt46akaduoft/page/n486.jpg"/>
+          <p>
+            <lb n="1" xml:id="p29-0"/>principia enim et ipsa specie eadem erunt, 〈numero autem plura〉.<note type="apparatus" n="1" target="#p29-0">numero—plura scripsi: omnia vero numero eadem codd. (supple negationem)</note>
+            <lb n="2" xml:id="p29-1"/>at iis, quae forma eadem, numero vero multa sunt, pluralitatis
+            <lb n="3" xml:id="p29-2"/>ratio materia est atque elementum. una enim est notio eademque
+            <lb n="4" xml:id="p29-3"/>omnium hominum; discrimen vero inter Socratem et Platonem
+            <lb n="5" xml:id="p29-4"/>ex materia manat. at prima forma primusque motor immaterialis
+            <lb n="6" xml:id="p29-5"/>est et incorporeus; motor ergo primus unus erit et notione et numero
+            <lb n="7" xml:id="p29-6"/>itemque id, quod movetur, si continenter movetur, unum<note type="apparatus" n="7" target="#p29-6">si] Εἰ (Ar. a 38 ἀεὶ)</note>
+            <lb n="8" xml:id="p29-7"/>erit. itaque non solus mundus est unus, ut ex his, quae de natura<note type="apparatus" n="8" target="#p29-7">de natura] de Caelo I 8. 9</note>
+            <lb n="9" xml:id="p29-8"/>tradidimus, patet, sed causa etiam movens una est, ut in aliis libris<note type="apparatus" n="9" target="#p29-8">ut—est (11) om. codex quidam teste C aliis] Phys. VII 259 a 6 sq.</note>
+            <lb n="10" xml:id="p29-9"/>exposuimus. quare extra se neque grave ullum neque leve corpus
+            <lb n="11" xml:id="p29-10"/>〈caelum〉 habebit, ut in Physicis demonstratum est. at cum physicis,
+            <lb n="12" xml:id="p29-11"/>quae antecessere, rationibus omnino comprobatum sit principia motuum
+            <lb n="13" xml:id="p29-12"/>plura esse non posse, verissimum est naturam primam unam esse
+            <lb n="14" xml:id="p29-13"/>stabilemque in omnibus sphaeris, quae quidem dilectio est, eo
+            <lb n="15" xml:id="p29-14"/>modo, quo lex una in civitatum gubernatione aut rex unus est,
+            <lb n="16" xml:id="p29-15"/>cum tota societas movetur cupida, ut imitetur legem illam, cum, id quod
+            <lb n="17" xml:id="p29-16"/>saepe diximus, dilectio adest, hoc est, cum propter administrationem,
+            <lb n="18" xml:id="p29-17"/>cui obsequuntur, regem eiusque imperium amant. invenimus enim
+            <lb n="19" xml:id="p29-18"/>et in administratione, quae est apud nos, rem dilectam ab initio
+            <lb n="20" xml:id="p29-19"/>unam in omnibus esse, quae est rex aut lex. quod igitur
+            <lb n="21" xml:id="p29-20"/>societas accuratius exsequetur mandatum regis, id non erit opere
+            <lb n="22" xml:id="p29-21"/>unius dumtaxat eorum, sed alii sunt potestatis administri, alii
+            <lb n="23" xml:id="p29-22"/>servi, alii inter utrosque, alii nautae, alii operarii, alii equites, alii
+            <lb n="24" xml:id="p29-23"/>pedites, alii sagittarii. ita variae sunt operationes et vitae degendae
+            <lb n="25" xml:id="p29-24"/>rationes diversae, motus quoque diversi et quandoque contrarii; omnes
+            <lb n="26" xml:id="p29-25"/>tamen rem unam perficere conantur omnesque unum appetunt ut
+            <lb n="27" xml:id="p29-26"/>dilectum, id autem est, ut perveniant ad id, quod praeceptum atque
+            <lb n="28" xml:id="p29-27"/>ordinatum est ab ipso rege. et hoc unum est et immobile, magnitudinem
+            <lb n="29" xml:id="p29-28"/>non habens; cum aliis vero comparatum, multiplex est. nam
+            <lb n="30" xml:id="p29-29"/>motus propositi plures sunt operationesque multae et substantiae
+            <lb n="31" xml:id="p29-30"/>consequentes illas operationes multae itidem sunt. at ipse est
+            <lb n="32" xml:id="p29-31"/>communis omnibus impossibileque esset ipsum ab omnibus desiderari,
+            <lb n="33" xml:id="p29-32"/>nisi formae propriae cuiuslibet eorum ac propriae operationes ab
+            <lb n="34" xml:id="p29-33"/>eo penderent. omnes vero ab eo pendent, propterea quod ipsum<note type="apparatus" n="34" target="#p29-33">omnes—imitantur om. F</note>
+            <lb n="35" xml:id="p29-34"/>imitantur.
+            <lb n="36" xml:id="p29-35"/>Nos autem vera praedicasse, dicentes dari substantias primas
+            <lb n="37" xml:id="p29-36"/>moventes mundum ac caelestia corpora esseque vel ut bonorum concursum,
+            <lb n="38" xml:id="p29-37"/>id ostendit, quod accepimus ab antiquis. illi enim attestantur,
+            <lb n="39" xml:id="p29-38"/>licet in fabulae tantum formam redactum reliquerint posteris, haec<note type="apparatus" n="39" target="#p29-38">posteris] in prima philosophia F: in Metaphysicis A</note>
+          </p>
+          <pb n="30" facs="https://archive.org/download/commentariaina05pt46akaduoft/page/n487.jpg"/>
+          <p>
+            <lb n="1" xml:id="p30-0"/>corpora deos esse et ipsum divinum corpus totam continere naturam.
+            <lb n="2" xml:id="p30-1"/>reliqua vero fusius allata sunt ad persuasionem vulgi atque
+            <lb n="3" xml:id="p30-2"/>ad [usum] legum eiusque quod confert. nam his diis formas
+            <lb n="4" xml:id="p30-3"/>tribuunt similes quibusdam animalibus, cuiusmodi sunt aries, pisces
+            <lb n="5" xml:id="p30-4"/>leo, quos ita vocant aut secundum virtutes, quas habere putant,
+            <lb n="6" xml:id="p30-5"/>aut ob operationem eorum, vel quia similes sint his animalibus.
+            <lb n="7" xml:id="p30-6"/>(sin) vero hoc unum [et] primum acceperimus, quod antiqui opinabantur<note type="apparatus" n="7" target="#p30-6">sin supplevi et addidit F</note>
+            <lb n="8" xml:id="p30-7"/>substantias illas primas motrices esse divinas, ut est nobis ab ipsis
+            <lb n="9" xml:id="p30-8"/>traditum itemque confirmatum: hunc quidem sermonem divinum esse
+            <lb n="10" xml:id="p30-9"/>putabi[mus].<note type="apparatus" n="10" target="#p30-9">putabimus] putabo codd.</note>
+          </p>
+        </div>
+        <div type="textpart" subtype="section" n="9">
+          <p>
+            <lb n="11" xml:id="p30-10"/>At quoniam diximus primam causam esse mentem - impossibile
+            <lb n="12" xml:id="p30-11"/>enim est meliorem nobilioremque ei vitam attribuere quam praedictam
+            <lb n="13" xml:id="p30-12"/>- scrutandum et quaerendum est, quonam modo (se
+            <lb n="14" xml:id="p30-13"/>habens) ipsa talis sit. et in primis de hac causa quaerimus:
+            <lb n="15" xml:id="p30-14"/>cum mens sit, utrum agat intellegatque, an non agat neque intellegat,
+            <lb n="16" xml:id="p30-15"/>(sed) sicuti sapiens, cum dormit, scientia non utitur, ita intellectus
+            <lb n="17" xml:id="p30-16"/>quoque primus se habeat neque intellegat neque agat. sed hoc risu
+            <lb n="18" xml:id="p30-17"/>dignum est; etenim si intellectus est, qui nihil intellegit nec quicquam
+            <lb n="19" xml:id="p30-18"/>operatur, quidnam excellens, quid egregium erit in primo principio,
+            <lb n="20" xml:id="p30-19"/>cum quasi sopore correptum omnia moveat omniaque sibi inclinet eo
+            <lb n="21" xml:id="p30-20"/>modo, quo in corporibus videmus a dilectis moveri amatores dilectis
+            <lb n="22" xml:id="p30-21"/>ipsis dormientibus? dicere autem primam causam omnia moventem,
+            <lb n="23" xml:id="p30-22"/>a qua omnia, quae sunt, dependent, otiosam esse, nihil agere
+            <lb n="24" xml:id="p30-23"/>vacareque ab opere sibi conveniente, est perimere <milestone type="alt-edition" unit="folio" ed="Finzi 1558" n="20"/> principium
+            <lb n="25" xml:id="p30-24"/>vitae fontemque eius [exsiccare]. manifestum igitur procul dubio
+            <lb n="26" xml:id="p30-25"/>est, quod intellegit atque [intellegendo] operatur, cum sit intellectus.
+            <lb n="27" xml:id="p30-26"/>quaeramus modo et scrutemur, quae sit eius operatio. non evadet
+            <lb n="28" xml:id="p30-27"/>enim, quin sit operatio haec aut sese intellegere aut aliud
+            <lb n="29" xml:id="p30-28"/>(quodpiam). quodsi (quodpiam) aliud, aut idem semper aut aliud
+            <lb n="30" xml:id="p30-29"/>atque aliud intellegit. at si quid aliud extra suam ipsius substantiam
+            <lb n="31" xml:id="p30-30"/>omnino intellegit, ut visus colores videt, qui sunt extra naturam
+            <lb n="32" xml:id="p30-31"/>suam, et auditus sonos audit, neque illud, quod intellegit, est in
+            <lb n="33" xml:id="p30-32"/>ipso: id erit causa operationis eius principalis (κύριον), ut res visa
+            <lb n="34" xml:id="p30-33"/>movet visum ad videndum auditaque auditum; non est ergo,
+            <lb n="35" xml:id="p30-34"/>quae intellectus est substantia, ipsa intellectio neque intellectus
+            <lb n="36" xml:id="p30-35"/>ipse sui ipsius est causa principalis, ut antea exposuimus, sed
+            <lb n="37" xml:id="p30-36"/>potentiam habet ad intellegendum aliud intellegibile: non erit
+            <lb n="38" xml:id="p30-37"/>igitur substantia optima. quia enim est intellectus simul et
+            <lb n="39" xml:id="p30-38"/>intellegibile, praestantia ipsi competit et hac tantum de causa excellens
+            <lb n="40" xml:id="p30-39"/>quidpiam egregiumque habetur; sin vero id, quod intellegitur, extra est,
+            <lb n="41" xml:id="p30-40"/>non in intellectu ipso, certo id erit eo praestantius atque excellentius;
+            <lb n="42" xml:id="p30-41"/>id enim principium et causa est, qua fit, ut intellectus intellegat.
+          </p>
+          <pb n="31" facs="https://archive.org/download/commentariaina05pt46akaduoft/page/n488.jpg"/>
+          <p>
+            <lb n="1" xml:id="p31-0"/>ut ergo visus est colorum gratia, ut eos cognoscamus, et auditus
+            <lb n="2" xml:id="p31-1"/>propter sonos, ita intellectus intelligibilis gratia erit; sed omne,
+            <lb n="3" xml:id="p31-2"/>quod est alicuius gratia, ignobilius est eo, cuius gratia existit. erit
+            <lb n="4" xml:id="p31-3"/>igitur intellectus potentia. continuatio igitur intellectionis
+            <lb n="5" xml:id="p31-4"/>eiusque constantia necessario ipsi laboriosa erit, ut visui contingit
+            <lb n="6" xml:id="p31-5"/>ob visibilium frequentiam audituique ob frequentiam sonorum eorumque
+            <lb n="7" xml:id="p31-6"/>constantiam. in omnibus enim, quae de potentia ad actum
+            <lb n="8" xml:id="p31-7"/>extrahuntur, et lassitudo contingit et imbecillitas; idcirco necessarius
+            <lb n="9" xml:id="p31-8"/>fuit somnus animalibus omnibus. praeterea si intellectus intellegit
+            <lb n="10" xml:id="p31-9"/>quidpiam aliud, aut illud intellegit ut magis excellens — e. g. quod
+            <lb n="11" xml:id="p31-10"/>est pulchrum atque bonum — aut ut vile. sed perspicuum est hoc
+            <lb n="12" xml:id="p31-11"/>de singulis quibusdam cogitare vile esse, multo magis de illo intellegente,
+            <lb n="13" xml:id="p31-12"/>cuius intellectus formam rei intellectae praecedit quique plerumque
+            <lb n="14" xml:id="p31-13"/>unum et idem fit cum eo, quod intellegitur, quem ad modum diximus
+            <lb n="15" xml:id="p31-14"/>statuimusque. itaque manifestum est omnia opera vilia ab eo esse
+            <lb n="16" xml:id="p31-15"/>abiudicanda. et dicamus eum intellegere res, prout praestantissimo
+            <lb n="17" xml:id="p31-16"/>convenit, nec mutari; in deterius enim esset ipsa mutatio,
+            <lb n="18" xml:id="p31-17"/>atque id ipsum iam motio quaedam esset. in summa, si
+            <lb n="19" xml:id="p31-18"/>praestantia et dignitas eius ex intellectione esset et si eam ab ignobilibus
+            <lb n="20" xml:id="p31-19"/>acquireret, intellectio eius esset intellectio quidem, sed vilissimarum
+            <lb n="21" xml:id="p31-20"/>rerum, et dignitas, quam ex intellectione accepit, itidem
+            <lb n="22" xml:id="p31-21"/>ab ignobilibus esset. quodsi hoc omne fugiendum est — rectius
+            <lb n="23" xml:id="p31-22"/>enim est non videre quaedam quam videre — substantia igitur
+            <lb n="24" xml:id="p31-23"/>nobilissima et dignissima tamquam intellectus simplex haberi non debet,
+            <lb n="25" xml:id="p31-24"/>sed intellectus, qui praestantissimum intellegit. hoc pacto enim eius
+            <lb n="26" xml:id="p31-25"/>intellectio in rebus dignissimis et divinissimis versatur, cum alia, quae
+            <lb n="27" xml:id="p31-26"/>sunt extra ipsum et praeter naturam, non intellegat. at turpe absurdumque
+            <lb n="28" xml:id="p31-27"/>est ponere substantiam talem et simul statuere, ut ante se
+            <lb n="29" xml:id="p31-28"/>honorabilius quidpiam digniusque habeat. sed hoc dato utrum
+            <lb n="30" xml:id="p31-29"/>ponemus dicemusne id, quod ab excelso intellegitur, continenter
+            <lb n="31" xml:id="p31-30"/>unum et idem esse, an multa? quodsi plura, intellegitne omnia
+            <lb n="32" xml:id="p31-31"/>simul, an ab uno ad aliud transit, unum relinquens et alterum
+            <lb n="33" xml:id="p31-32"/>suscipiens? sed omnia haec principia subsequuntur absurda. nam
+            <lb n="34" xml:id="p31-33"/>si unum et idem assidue intellegit, aut ex hoc intellectus eius
+            <lb n="35" xml:id="p31-34"/>perficitur aut non; si perficitur, ergo est mancus, si non perficitur,
+            <lb n="36" xml:id="p31-35"/>procul dubio non intellegit illud. quodsi multa sunt, quae ab eo
+            <lb n="37" xml:id="p31-36"/>intelleguntur, eaque ab uno ad aliud tendens intellegit, indigebit
+            <lb n="38" xml:id="p31-37"/>memoria et acquirere dicetur rem, quam non habebat prius; quodsi
+            <lb n="39" xml:id="p31-38"/>ea puncto temporis, quod dimetiri non possumus, intellegit, tunc
+            <lb n="40" xml:id="p31-39"/>quaestio revertitur, qua quaerebatur, utrum unum intellegibile perficiat
+            <lb n="41" xml:id="p31-40"/>intellectum suum, an non perficiat maneatque imperfectus.
+            <lb n="42" xml:id="p31-41"/>praeterea impossibile est in natura omnia simul intellegi; in quibus-<note type="apparatus" n="42" target="#p31-41">praeterea et sq.] Aver. p. 336 M</note>
+          </p>
+          <pb n="32" facs="https://archive.org/download/commentariaina05pt46akaduoft/page/n489.jpg"/>
+          <p>
+            <lb n="1" xml:id="p32-0"/>dam fieri sane potest, in omnibus vero minime. idcirco ob
+            <lb n="2" xml:id="p32-1"/>haec inepta a sermone illo abstinendum est, intellectum primum
+            <lb n="3" xml:id="p32-2"/>semper omnia intellegere, ea autem multa esse, sed intellectio
+            <lb n="4" xml:id="p32-3"/>eius tantummodo unius rei est, et haec res in summa existit
+            <lb n="5" xml:id="p32-4"/>excellentia atque dignitate. cum autem ipsemet sit illa res,
+            <lb n="6" xml:id="p32-5"/>quae in summa est excellentia, proinde sese intellegit.
+            <lb n="7" xml:id="p32-6"/>quapropter non contingit ipsum laborare; nam neque aliud intendit nec
+            <lb n="8" xml:id="p32-7"/>alium finem habet praeter se ipsum. <milestone type="alt-edition" unit="folio" ed="Finzi 1558" n="21"/> neque etiam exit e potentia
+            <lb n="9" xml:id="p32-8"/>ad actum, quem lassitudo atque defatigatio sequatur; sed ut se ipsum<note type="apparatus" n="9" target="#p32-8">se—ut (11) om. CF</note>
+            <lb n="10" xml:id="p32-9"/>diligere nemo prohibetur, sic intellectione sui ipsius neque defatigatur
+            <lb n="11" xml:id="p32-10"/>neque impeditur; et ut quilibet homo se ipsum diligit, ita se
+            <lb n="12" xml:id="p32-11"/>habet qui se intellegit, dum intellegit se. et sicut diligens animam
+            <lb n="13" xml:id="p32-12"/>suam in ea est et amat diligitque eam, sic quoque quod intellegitur<note type="apparatus" n="13-14" target="#p32-12 #p32-13">fort. cum B verba intellegitur et delenda</note>
+            <lb n="14" xml:id="p32-13"/>et se ipsum intellegit idem est atque id, quod intellegit. ac primus<note type="apparatus" n="14" target="#p32-13">idem—id] in se ipso habet codd.</note>
+            <lb n="15" xml:id="p32-14"/>intellectus principium est omnium eorum, quae sunt, quae quidem
+            <lb n="16" xml:id="p32-15"/>ab eo cognoscuntur, et eius intellectio non est in eo, ut singulas res
+            <lb n="17" xml:id="p32-16"/>percurrat, neque in eo, ut hoc quidem relinquat, illud vero accipiat, sed
+            <lb n="18" xml:id="p32-17"/>subito omnia apprehendit. intellectus enim noster ob imbecillitatem
+            <lb n="19" xml:id="p32-18"/>nequit simul multa facile intellegere nec potest ad multa simul
+            <lb n="20" xml:id="p32-19"/>intendere, quemadmodum debile quoque corpus nequit multa comportare,
+            <lb n="21" xml:id="p32-20"/>sed ubi ea separavit, levius fert, neque debilis visus
+            <lb n="22" xml:id="p32-21"/>plures simul colores videre patitur — firmior quidem multos simul
+            <lb n="23" xml:id="p32-22"/>percipere poterit — at divinus intellectus, propterea quod summe est
+            <lb n="24" xml:id="p32-23"/>perfectus, dum intellegit, tempus non requirit, sed simul omnia subito
+            <lb n="25" xml:id="p32-24"/>intellegit; etenim ut oculus acute cernens multa simul videt, ita primus
+            <lb n="26" xml:id="p32-25"/>intellectus, multo tamen melius, omnia intellegibilia simul intellegit,
+            <lb n="27" xml:id="p32-26"/>cum se ipsum intellegit. cum vero illae in perfectione progrediantur,
+            <lb n="28" xml:id="p32-27"/>scientia huius universalis in tempore non est. nam omnia temporis
+            <lb n="29" xml:id="p32-28"/>spatia antecellit; tempus enim est mensura motus, ille vero minime
+            <lb n="30" xml:id="p32-29"/>fertur, sed immobilis est. et sicut tu cum citharam pulsas,
+            <lb n="31" xml:id="p32-30"/>omnes quidem chordas pulsare nequis; si vero cithara animal esset,
+            <lb n="32" xml:id="p32-31"/>acutissimum simul atque gravissimum sonum ederet: ita deus
+            <lb n="33" xml:id="p32-32"/>facillime multa simul complectitur, multa simul dividit. praeterea<note type="apparatus" n="33" target="#p32-32">dividit CF: intellegit AB</note>
+            <lb n="34" xml:id="p32-33"/>anima currentis nonne potest multa membra simul movere, utramque
+            <lb n="35" xml:id="p32-34"/>manum utrumque pedem ac caput? at quodvis horum membrorum
+            <lb n="36" xml:id="p32-35"/>simul tota eius anima, non alia alia parte movet. quid igitur
+            <lb n="37" xml:id="p32-36"/>obstat, ne hic intellectus, a quo nullus locus in universo vacuus
+            <lb n="38" xml:id="p32-37"/>est, totum mundum moveat intellegatque omnia simul, cum admirabilius
+            <lb n="39" xml:id="p32-38"/>sit plura simul movere? non est igitur neganda multitudo
+            <lb n="40" xml:id="p32-39"/>divitiarum virtutis divinae, nec ille comparandus est cum intellectu
+            <lb n="41" xml:id="p32-40"/>nostro imbecilli. in cognitione enim non eget transitu per singula
+          </p>
+          <pb n="33" facs="https://archive.org/download/commentariaina05pt46akaduoft/page/n490.jpg"/>
+          <p>
+            <lb n="1" xml:id="p33-0"/>nec compositione indiget nec ab ignorantia ad scientiam transit
+            <lb n="2" xml:id="p33-1"/>nec oportet, ut inferat conclusiones ex praemissis manifestis. quin
+            <lb n="3" xml:id="p33-2"/>immo sicut acutus visus non requirit tempus in colorum apprehensione,
+            <lb n="4" xml:id="p33-3"/>sed, cum accedit ad eos, omnes sine mora cernit, sic divinus
+            <lb n="5" xml:id="p33-4"/>intellectus, et multo magis, cum intellegibilia petit, intellegit
+            <lb n="6" xml:id="p33-5"/>mundum intellegibilem nullo tempore et absque labore. quodsi
+            <lb n="7" xml:id="p33-6"/>immensam aciem intellectus divini attingere cupis, intellectum hominis
+            <lb n="8" xml:id="p33-7"/>eiusque corpus considerare oportet. et sicut hic intellectus melius
+            <lb n="9" xml:id="p33-8"/>apprehendit atque cognoscit et velocius movet citiusque operatur
+            <lb n="10" xml:id="p33-9"/>quam hoc corpus, ita promptiorem intellectum divinum esse ad
+            <lb n="11" xml:id="p33-10"/>intellegibilia intellegenda credere debes. quodsi differentiam hanc,
+            <lb n="12" xml:id="p33-11"/>quae in excellentia facilitateque intellectionis existit, ad facilitatem
+            <lb n="13" xml:id="p33-12"/>lationis mundi transtuleris, non procul eris a syllogismo necessario;<note type="apparatus" n="13" target="#p33-12">lationis codd.: causae F (rectius) non om. codd.</note>
+            <lb n="14" xml:id="p33-13"/>si vero syllogismum in figura constituas, ut mathematici solent, hoc
+            <lb n="15" xml:id="p33-14"/>pacto inquiens ‘sicut hoc corpus splendidius est illo corpore, ita
+            <lb n="16" xml:id="p33-15"/>hic intellectus splendidior est illo intellectu’, tunc nemo mirabitur,
+            <lb n="17" xml:id="p33-16"/>quod multa simul percipere et intellegere potest. neque etiam mirum
+            <lb n="18" xml:id="p33-17"/>est hoc primum principium a se ipso intellectionem habere. nam
+            <lb n="19" xml:id="p33-18"/>cum cogitamus intellectum divinum nequaquam assimilari materiae
+            <lb n="20" xml:id="p33-19"/>et esse causam motus sphaerae: sicut ipsa nullo modo quiescit
+            <lb n="21" xml:id="p33-20"/>unquam, sic nec dici potest deum ab operationibus suis unquam
+            <lb n="22" xml:id="p33-21"/>desistere. cum autem concedamus dari corpus, cui intellectus
+            <lb n="23" xml:id="p33-22"/>continenter assistat, quid impedimento erit intellectui, quominus
+            <lb n="24" xml:id="p33-23"/>ex se ipso agat atque intellegat? ex his igitur perspicuum fit deum
+            <lb n="25" xml:id="p33-24"/>esse primum principium seque intellegere et omnia simul, quo<milestone type="alt-edition" unit="folio" ed="Finzi 1558" n="22"/>rum
+            <lb n="26" xml:id="p33-25"/>ipse principium est; nam cum se ipsum in sui ditione teneat, itidem
+            <lb n="27" xml:id="p33-26"/>quaecunque per eum existunt, ad suam ditionem redigit. quare
+            <lb n="28" xml:id="p33-27"/>illud quoque verum est ipsum vigere seque intellegere; hoc enim
+            <lb n="29" xml:id="p33-28"/>ceteris rebus honorabilius est atque excellentius.
+            <lb n="30" xml:id="p33-29"/>Atqui scientia semper alterius esse videtur, nempe scibilis,
+            <lb n="31" xml:id="p33-30"/>et sensus sensibilis, sic et opinio atque intellectus, sed
+            <lb n="32" xml:id="p33-31"/>intellegibilia per suam substantiam apprehenduntur [una cum<note type="apparatus" n="32-33" target="#p33-31 #p33-32">vocc. una— apprehensionis a F addita videntur (locus non sanus)</note>
+            <lb n="33" xml:id="p33-32"/>cognitione apprehensionis], quippe homo albedinem apprehendens
+            <lb n="34" xml:id="p33-33"/>iam animo concepit se albedinem percepisse, pariterque cum intellegit
+            <lb n="35" xml:id="p33-34"/>angulos trianguli aequales esse duobus angulis rectis, iam
+            <lb n="36" xml:id="p33-35"/>intellexit percepitque hoc intellexisse. dicimus quoque scibile ac
+            <lb n="37" xml:id="p33-36"/>scientiam in aliquibus idem esse sicut etiam intellegibile et
+            <lb n="38" xml:id="p33-37"/>intellectum. nam scientiae expertes materiae sunt rationes
+            <lb n="39" xml:id="p33-38"/>et intellectus, ita ut id, quod intellegitur, aliud non sit. nec segregantur
+            <lb n="40" xml:id="p33-39"/>ratione materiae aut quantitatis aut mensurae, sed forma intellegibilis
+            <lb n="41" xml:id="p33-40"/>et intellectus sunt simul; estque unus intellectus, qui ad se
+          </p>
+          <pb n="34" facs="https://archive.org/download/commentariaina05pt46akaduoft/page/n491.jpg"/>
+          <p>
+            <lb n="1" xml:id="p34-0"/>convertitur, et utrumque simul dicitur intellectum esse atque intellegibile.
+            <lb n="2" xml:id="p34-1"/>nam intellectus, qui unus est, non transit a re intellecta
+            <lb n="3" xml:id="p34-2"/>ad aliud, quod sit a natura sua alienum, sed ad se convertitur. id
+            <lb n="4" xml:id="p34-3"/>vero quod ex ambobus constat, unum tantum est sine materia; ut
+            <lb n="5" xml:id="p34-4"/>in effectricibus artibus, cum materiam ab arte rescindimus, nil aliud
+            <lb n="6" xml:id="p34-5"/>remanet quam artificis forma atque operatio ipsius — ut scamnum
+            <lb n="7" xml:id="p34-6"/>nil aliud est quam ars fabri lignarii et sanitas sine corpore nil aliud
+            <lb n="8" xml:id="p34-7"/>est quam medendi ars — cum igitur possit in rebus corporeis cognosci
+            <lb n="9" xml:id="p34-8"/>formam artis et artem idem esse, nihil prohibet in iis, quae non permixta
+            <lb n="10" xml:id="p34-9"/>sunt materiae, quae neque partes habent nec copulantur, [nihil
+            <lb n="11" xml:id="p34-10"/>inquam prohibet,] quin intellectus et quod intellegitur et intellectio
+            <lb n="12" xml:id="p34-11"/>idem sint. ex hoc igitur sermone optime percepto palam est intellectum
+            <lb n="13" xml:id="p34-12"/>primum intellegere mundum. cum enim intellegit sese,
+            <lb n="14" xml:id="p34-13"/>intellegit, quid ipse sit, et iam intellegit se esse causam et principium
+            <lb n="15" xml:id="p34-14"/>rerum. sed principium de forma dicitur et de eo, cuius gratia
+            <lb n="16" xml:id="p34-15"/>quid est, et de eo, quod est principium motus. cuius modi est hominis
+            <lb n="17" xml:id="p34-16"/>intellectus; eius enim principium esse tripliciter dicitur. atqui saepenumero
+            <lb n="18" xml:id="p34-17"/>hi tres modi, qui quorundam principium dicuntur, in unum
+            <lb n="19" xml:id="p34-18"/>coeunt, ut patet de hominis anima. quodsi deus intellegit se esse
+            <lb n="20" xml:id="p34-19"/>formam omnium, ipse quoque est principium rectitudinis entium
+            <lb n="21" xml:id="p34-20"/>atque eorundem ordo et procul dubio simul comprehendit sese rerum
+            <lb n="22" xml:id="p34-21"/>esse principium earumque rectitudinis et ordinis.
+          </p>
+        </div>
+        <div type="textpart" subtype="section" n="10">
+          <p>
+            <lb n="23" xml:id="p34-22"/>At considerandum etiam hoc est, numquid bonum et quod prae-<note type="apparatus" n="23" target="#p34-22">numquid sq. locus corruptus</note>
+            <lb n="24" xml:id="p34-23"/>stantissimum est differant; utrum definitum quiddam unumquodque<note type="apparatus" n="24" target="#p34-23">utrum emendavit F: aut codd.</note>
+            <lb n="25" xml:id="p34-24"/>eorum, separatum ab alio sit, an differentia inter utrumque in<note type="apparatus" n="25" target="#p34-24">an scripsi: et codd.</note>
+            <lb n="26" xml:id="p34-25"/>ordine tantum consistat. manifesto utroque modo fit perinde atque in<note type="apparatus" n="26" target="#p34-25">manifesto] ad verbum: per deum invisibilem</note>
+            <lb n="27" xml:id="p34-26"/>exercitu. nam bonum quoque exercitus in ordine atque aequalitate
+            <lb n="28" xml:id="p34-27"/>consistit; ita et in quolibet duce (?), sed magis in duce. iste enim<note type="apparatus" n="28" target="#p34-27">duce scripsi: (cuiuslibet) regionum F: codd. corrupti</note>
+            <lb n="29" xml:id="p34-28"/>non est propter ordinem et aequalitatem, immo ordo atque
+            <lb n="30" xml:id="p34-29"/>aequalitas ob ipsum sunt. bonum igitur non est propter ordinem
+            <lb n="31" xml:id="p34-30"/>〈nec〉 propter intellectum, sed in utroque simul i. e. propter ordinem<note type="apparatus" n="31" target="#p34-30">nec addidi ex l. subsequente</note>
+            <lb n="32" xml:id="p34-31"/>aequalitatemque et propter causam ordinis, 〈scilicet〉 praesentiam intellectus.
+            <lb n="33" xml:id="p34-32"/>deus enim res movet ut lex, quae civitates regit, magistratus
+            <lb n="34" xml:id="p34-33"/>movet et mandatum regis subditos. ordo autem et aequabilitas, quorum
+            <lb n="35" xml:id="p34-34"/>deum esse causam asseveramus, talis est: ut mox explicabimus.
+            <lb n="36" xml:id="p34-35"/>dico igitur, quod universa sunt aliquo modo, sed non similiter
+            <lb n="37" xml:id="p34-36"/>coordinata, natantia, volantia, plantae, et cuncta non
+            <lb n="38" xml:id="p34-37"/>ita se habent, ut alterum ad alterum nullo modo referatur,<note type="apparatus" n="38" target="#p34-37">nullo modo] negationem iure supplevit F</note>
+            <lb n="39" xml:id="p34-38"/>sed invicem referuntur; nam ad unum consulto universa sunt
+          </p>
+          <pb n="35" facs="https://archive.org/download/commentariaina05pt46akaduoft/page/n492.jpg"/>
+          <p>
+            <lb n="1" xml:id="p35-0"/>ordinata. sed perinde atque in administratione domus liberis
+            <lb n="2" xml:id="p35-1"/>minime licet <milestone type="alt-edition" unit="folio" ed="Finzi 1558" n="23"/> quidvis facere, servi autem et beluae non-<note type="apparatus" n="2" target="#p35-1">minime F Aristotelem secutus: non .. praeter modum (facere) codd.</note>
+            <lb n="3" xml:id="p35-2"/>nullae pauca sane ad totum conferentia faciunt, pleraque
+            <lb n="4" xml:id="p35-3"/>ex accidente [agunt]. natura namque cuiusque [ipsorum]
+            <lb n="5" xml:id="p35-4"/>et principium tale est in mundo; nempe circulatio stellarum et
+            <lb n="6" xml:id="p35-5"/>earum perseverantia in certo ordine atque dispositione est et ita caelestia
+            <lb n="7" xml:id="p35-6"/>corpora omnia, nec in iis quidpiam incerti atque inordinati
+            <lb n="8" xml:id="p35-7"/>habetur; animalia vero, quae sunt in terris, et plantae utilitatem
+            <lb n="9" xml:id="p35-8"/>universalem perexiguam praebent, sed quodlibet horum ut
+            <lb n="10" xml:id="p35-9"/>plurimum temere agit atque patitur, quoniam corrumpitur et
+            <lb n="11" xml:id="p35-10"/>corruptio quidem unius, ut aliud generetur. ut nutritio eius, quod
+            <lb n="12" xml:id="p35-11"/>alimento eget, et pullulatio rei eiusdemque ad statum deductio et
+            <lb n="13" xml:id="p35-12"/>tandem decrementum et alia, quae huiusmodi sunt, utilitates praebent
+            <lb n="14" xml:id="p35-13"/>universales; quod autem calce petat asellus, ictu noceat serpens,
+            <lb n="15" xml:id="p35-14"/>vas aqua plenum a sue dispergatur, plantae quaedam exsiccentur
+            <lb n="16" xml:id="p35-15"/>(?), nullo ordine nullaque contingit norma. et hoc confiteri rectius
+            <lb n="17" xml:id="p35-16"/>est, quam deum cum materia confundere taliaque cum ipso ponere.
+            <lb n="18" xml:id="p35-17"/>praeterea quaerimus iis, quae nec ordinem nec aequabilitatem habere
+            <lb n="19" xml:id="p35-18"/>putamus, vilia quaedam alia ignobiliaque, cum natura rerum coacti
+            <lb n="20" xml:id="p35-19"/>intellegere potuerimus mundum eiusque gubernationem esse similem
+            <lb n="21" xml:id="p35-20"/>gubernationi civitatis, in qua regium mandatum quam optime
+            <lb n="22" xml:id="p35-21"/>procedat. nam quemadmodum, si quando mandatur aliquid hominibus
+            <lb n="23" xml:id="p35-22"/>huiusce civitatis, non procedit regium mandatum aequaliter
+            <lb n="24" xml:id="p35-23"/>secundum quamque ipsius civitatis partium nec omnes pari
+            <lb n="25" xml:id="p35-24"/>modo subeunt mandatum illud — nam alios primarios statuit, alios
+            <lb n="26" xml:id="p35-25"/>primariis praeficit, alios ipsis servire iubet, alios vilioribus operis,
+            <lb n="27" xml:id="p35-26"/>quibus administratio expletur, addicit, alii propius accedunt ad
+            <lb n="28" xml:id="p35-27"/>regem in ordine regio, alii longius distant — sic quoque mundus
+            <lb n="29" xml:id="p35-28"/>eiusque procuratio civitati similis est, in qua rex unus regnat;
+            <lb n="30" xml:id="p35-29"/>eius partes invicem sunt ordinatae atque aequabilitatem habent,
+            <lb n="31" xml:id="p35-30"/>sic animalia sunt, sic plantae. omnium vero generationem esse
+            <lb n="32" xml:id="p35-31"/>ob unam causam hoc ostendit, quod omnia, cum hoc modo esse
+            <lb n="33" xml:id="p35-32"/>appetant, quo nunc existunt, id appetunt et desiderant, quod
+            <lb n="34" xml:id="p35-33"/>vere est, et hoc unum imitantur et peculiariter quaerunt et ad id
+            <lb n="35" xml:id="p35-34"/>accedunt nec ullum eorum, quae sunt, in plura dividi vult nec
+            <lb n="36" xml:id="p35-35"/>exire ab eo, quod nunc est, ad contrarium; et id quoque, quod ex
+            <lb n="37" xml:id="p35-36"/>multis generatur, quaerit unum et ad unum accedit. ita civitas
+            <lb n="38" xml:id="p35-37"/>quoque, licet multitudo sit, ad unum intendit, et exercitus ad id
+            <lb n="39" xml:id="p35-38"/>tantum intendit, quod videtur duci, et conventus ad principem convertit
+            <lb n="40" xml:id="p35-39"/>animum; sic etiam artis opera se habet in his, quae ex
+            <lb n="41" xml:id="p35-40"/>multis componuntur, cuiusmodi sunt domus et navis; nam utraque
+            <lb n="42" xml:id="p35-41"/>harum, dum efficitur, in hoc esse habet, quod omnes partes in unum
+          </p>
+          <pb n="36" facs="https://archive.org/download/commentariaina05pt46akaduoft/page/n493.jpg"/>
+          <p>
+            <lb n="1" xml:id="p36-0"/>caalescunt. similiter ii quoque, qui veluti rex vel tyrannus multitudinem
+            <lb n="2" xml:id="p36-1"/>appetunt, eam ideo tantum appetunt, ut in unum congregent.
+            <lb n="3" xml:id="p36-2"/>Nemo autem antiquorum quicquam opportunum asseverasse
+            <lb n="4" xml:id="p36-3"/>reperitur de primo principio, quod quidem vere primum est; sed
+            <lb n="5" xml:id="p36-4"/>manent dumtaxat in principio materiae permixto omnesque ex
+            <lb n="6" xml:id="p36-5"/>contrariis omnia generari consentiunt. at duplici modo peccant. non
+            <lb n="7" xml:id="p36-6"/>omnium namque est generatio; nam quae rebus mundanis excelsiora
+            <lb n="8" xml:id="p36-7"/>sunt, generationem non habent. nec omnium generatio, quae procul
+            <lb n="9" xml:id="p36-8"/>dubio generantur, ex contrariis est; pati namque a se mutuo contraria
+            <lb n="10" xml:id="p36-9"/>nequeunt, sed, ut saepe diximus, tertium aliquid requiritur,
+            <lb n="11" xml:id="p36-10"/>materia. at antiqui alterum contrariorum materiam faciunt,
+            <lb n="12" xml:id="p36-11"/>ut ii, qui inaequale aequali, aut uni multa supponunt. sed
+            <lb n="13" xml:id="p36-12"/>id quoque eadem ratione solvitur; materies enim minime
+            <lb n="14" xml:id="p36-13"/>contraria est his, quae generantur ex ea, sed novatur forma rerum
+            <lb n="15" xml:id="p36-14"/>ex privatione, quae in illa inest, et ex eo, quod informe est. alii
+            <lb n="16" xml:id="p36-15"/>vero principia dividunt in bonum atque malum et malum in materia
+            <lb n="17" xml:id="p36-16"/>ponunt, bonum autem in forma; materiam vero ponunt subiectam
+            <lb n="18" xml:id="p36-17"/>omnibus excepto uno i. e. prima forma, licet notum sit apud omnes<note type="apparatus" n="18" target="#p36-17">ante licet una linea excidisse videtur</note>
+            <lb n="19" xml:id="p36-18"/>bonum esse formam primi principii. alii recte bonum<milestone type="alt-edition" unit="folio" ed="Finzi 1558" n="24"/>
+            <lb n="20" xml:id="p36-19"/>primum principium dixere, at quonam pacto sit principium,
+            <lb n="21" xml:id="p36-20"/>non explicant; utrum ut finis, an ut id, quod movet, an
+            <lb n="22" xml:id="p36-21"/>ut forma. absurde et Empedocles censet concordiam bonum
+            <lb n="23" xml:id="p36-22"/>esse; hoc autem principium est ut movens (congregat enim)
+            <lb n="24" xml:id="p36-23"/>[et,] ut sonant eius verba, est ut materies; est enim pars eius,<note type="apparatus" n="24" target="#p36-23">et add. F; fort. tota sententia ut— est ab interprete adiecta est.</note>
+            <lb n="25" xml:id="p36-24"/>quod congestum est. neque solvitur hoc placitum, cum ponamus
+            <lb n="26" xml:id="p36-25"/>principium, quod ut materia est, esse et ipsum principium
+            <lb n="27" xml:id="p36-26"/>movens; definitio enim et notio principii, quod est tamquam materia,
+            <lb n="28" xml:id="p36-27"/>et principii moventis non erunt eaedem. quaerendum igitur
+            <lb n="29" xml:id="p36-28"/>erit, quid sit id, quod est concordia, et utrum horum sit? absurdum
+            <lb n="30" xml:id="p36-29"/>est etiam discordiam omnino [non] subire corruptionem,<note type="apparatus" n="30" target="#p36-29">post etiam add. CF censere non om. codd.</note>
+            <lb n="31" xml:id="p36-30"/>cum eius natura sit violenti natura. Anaxagoras autem bonum
+            <lb n="32" xml:id="p36-31"/>esse principium ut movens ponebat; mens enim apud ipsum
+            <lb n="33" xml:id="p36-32"/>movet. sed tum quaerendum nobis est, cuius gratia moveat; nam
+            <lb n="34" xml:id="p36-33"/>cuius gratia movet, id ipsum erit principium et alterum erit praeter
+            <lb n="35" xml:id="p36-34"/>id, quod movet, nec potest alicuius gratia movere, nisi ea ratione,
+            <lb n="36" xml:id="p36-35"/>qua nos dicimus. est enim facultas ipsa medendi principium
+            <lb n="37" xml:id="p36-36"/>quoddam movens, sed sanitatis gratia movet et sanitas quoque quodam
+            <lb n="38" xml:id="p36-37"/>modo est facultas medendi. nihil igitur prohibet primum movere
+            <lb n="39" xml:id="p36-38"/>et sui ipsius gratia movere, ut ostendunt rationes appositae; causa
+            <lb n="40" xml:id="p36-39"/>enim utriusque horum 〈eadem〉 est. sed adhuc absurdius Anaxagoras<note type="apparatus" n="40" target="#p36-39">eadem addidi Anaxagoras et sq.] ita A recte: quam Anaxagoras dicunt ii, qui .. putaverre BCF</note>
+          </p>
+          <pb n="37" facs="https://archive.org/download/commentariaina05pt46akaduoft/page/n494.jpg"/>
+          <p>
+            <lb n="1" xml:id="p37-0"/>principium boni et mali idem esse posuit, licet intellectum moventem,
+            <lb n="2" xml:id="p37-1"/>materiam vero oboedientem et consentientem ipsi intellectui statuerit.
+            <lb n="3" xml:id="p37-2"/>a quonam igitur malum proveniet? an dicet malum provenire ab
+            <lb n="4" xml:id="p37-3"/>imbecillitate materiae et a privatione ipsi inhaerente, uti nos diximus?
+            <lb n="5" xml:id="p37-4"/>omnes autem, qui posuerunt principia contraria, ut est
+            <lb n="6" xml:id="p37-5"/>raritas et densitas, congregatio et separatio, his contrariis pro
+            <lb n="7" xml:id="p37-6"/>rectitudine, quam videmus, et ordine moventis uti nequeunt. nulla
+            <lb n="8" xml:id="p37-7"/>enim materia sufficit ad generanda ea, quae nascuntur ex ipsa, sed
+            <lb n="9" xml:id="p37-8"/>eget causa movente, quae quidem formet et in ordinem redigat res
+            <lb n="10" xml:id="p37-9"/>illas. omnium autem placitorum, quae ab antiquis in naturalibus
+            <lb n="11" xml:id="p37-10"/>tradita sunt, turpissimum est illud, quod omnia ex iisdem elementis<note type="apparatus" n="11" target="#p37-10">turpissimum scripsi: apertissimum codd.</note>
+            <lb n="12" xml:id="p37-11"/>fieri posuerunt, et quae corruptioni obnoxia sunt et quae non sunt,
+            <lb n="13" xml:id="p37-12"/>cum ea, quae generantur, tum quae non generantur. nos vero iam
+            <lb n="14" xml:id="p37-13"/>distinximus: cum principiis corporum caelestium non conveniunt in
+            <lb n="15" xml:id="p37-14"/>materia corpora, quae circa terram habitant; sed stellae et earum
+            <lb n="16" xml:id="p37-15"/>motus causae sunt efficientes, motrices materiae, a qua generatio
+            <lb n="17" xml:id="p37-16"/>provenit, et magis hoc praestant erraticae stellae et sol et luna,
+            <lb n="18" xml:id="p37-17"/>hasque dicendum est aut materiam prorsus non habere, aut diversam
+            <lb n="19" xml:id="p37-18"/>materiam habere a materia generabilium et corruptibilium, ut
+            <lb n="20" xml:id="p37-19"/>intellectus etiam movens corpus non habet eandem materiam quam
+            <lb n="21" xml:id="p37-20"/>corpus. praeterea inter antiquos nemo dixit, cur generatio et corruptio
+            <lb n="22" xml:id="p37-21"/>non desinant, perinde atque nos, qui diximus ex accessu et
+            <lb n="23" xml:id="p37-22"/>recessu caelestium corporum hoc fieri, opinantes causam continuantem
+            <lb n="24" xml:id="p37-23"/>variam pendere a causa uno et eodem modo semper se<note type="apparatus" n="24" target="#p37-23">verba variam—causa et semper se habente om. A</note>
+            <lb n="25" xml:id="p37-24"/>habente. adhuc quidam intellegibilia atque omnibus nota transcendentes
+            <lb n="26" xml:id="p37-25"/>aiunt ea, quae sunt, aut ex eo, quod non est, fieri aut
+            <lb n="27" xml:id="p37-26"/>ex eo, quod actu est. insecabilia namque Anaxagorae et Empedoclis
+            <lb n="28" xml:id="p37-27"/>elementa ea, quae sunt, ex eo, quod actu est, fieri cogunt; quod
+            <lb n="29" xml:id="p37-28"/>quidem absurdum est. absurdius autem putant qui plura principia
+            <lb n="30" xml:id="p37-29"/>ponunt, sive tria sunt sive quatuor sive duo. potest enim quispiam
+            <lb n="31" xml:id="p37-30"/>dicere, quo modo omnia coniungi possint? cur principia hoc tantum
+            <lb n="32" xml:id="p37-31"/>numero sint, non alio? quodsi aliqua agunt et alia patiuntur,
+            <lb n="33" xml:id="p37-32"/>quid congregavit ea simulque iunxit et consentientia fecit? fateri
+            <lb n="34" xml:id="p37-33"/>ergo cogitur aliud nobilius principium reperiri, licet duo
+            <lb n="35" xml:id="p37-34"/>tantum principia sint, ut deus et materia aut densitas et
+            <lb n="36" xml:id="p37-35"/>raritas. nequeunt enim ex se ipsis congregari et consentire, ut
+            <lb n="37" xml:id="p37-36"/>alterum mutationem subeat, alterum agat. nos vero quia posuimus
+            <lb n="38" xml:id="p37-37"/>principium primum cum materia non mixtum et incorporeum, quod<note type="apparatus" n="38" target="#p37-37">primum F: unum codd.</note>
+            <lb n="39" xml:id="p37-38"/>more amati et desiderati movens caelestia movet corpora, ortum
+            <lb n="40" xml:id="p37-39"/>autem atque interitum quia ex <milestone type="alt-edition" unit="folio" ed="Finzi 1558" n="25"/> horum corporum motu nasci scimus,
+            <lb n="41" xml:id="p37-40"/>ex hac dubitatione evadimus. nam materiam non ponimus aequalem
+          </p>
+          <pb n="38" facs="https://archive.org/download/commentariaina05pt46akaduoft/page/n495.jpg"/>
+          <p>
+            <lb n="1" xml:id="p38-0"/>dignitate principatuque esse primo principio nec iungimus nulla re
+            <lb n="2" xml:id="p38-1"/>interiecta ultimam naturam primae naturae; at materiam ut obsequentem
+            <lb n="3" xml:id="p38-2"/>ponimus, corpora vero caelestia moveri propter primam causam,
+            <lb n="4" xml:id="p38-3"/>ut ei adsimilentur, posuimusque locum, qui circa terram est, necessario
+            <lb n="5" xml:id="p38-4"/>esse medium — nam impossibile est id, quod circulo cietur,
+            <lb n="6" xml:id="p38-5"/>non habere quidpiam natura stabile ut terram — et quoniam quae
+            <lb n="7" xml:id="p38-6"/>in medio sunt non eodem numero semper manere possunt, absolvit<note type="apparatus" n="7" target="#p38-6">absolvit—generationem (8)] ita A levi mendo sublato: alio modo perficiuntur, perpetuando scilicet generationem F et similiter BC; post generationem add. et corruptionem F</note>
+            <lb n="8" xml:id="p38-7"/>quidem deus et perfecit mundum, sed instituit perpetuam generationem,
+            <lb n="9" xml:id="p38-8"/>ut materia sequatur primam causam. nec solum ex hoc diluitur
+            <lb n="10" xml:id="p38-9"/>opinio ponentium plura principia corporea, aut deum et materiam principia
+            <lb n="11" xml:id="p38-10"/>esse, sed etiam ponentium formas tamquam rerum principia;
+            <lb n="12" xml:id="p38-11"/>nam ad formas quoque aliud praestantius principium adhiberi oportet,
+            <lb n="13" xml:id="p38-12"/>quo producantur quodque singulas inter se et cum generabilibus
+            <lb n="14" xml:id="p38-13"/>ac corruptibilibus componat. omnes igitur, qui in his sunt sententiis,
+            <lb n="15" xml:id="p38-14"/>potissimumque ii, qui ex contrariis res generant, coguntur
+            <lb n="16" xml:id="p38-15"/>ponere principium aliud his oppositum; nam contraria opponuntur,
+            <lb n="17" xml:id="p38-16"/>calidum frigido et rarum denso et unum pluribus. nos soli immunes
+            <lb n="18" xml:id="p38-17"/>huius sumus absurdi; nihil enim contrarium primae causae
+            <lb n="19" xml:id="p38-18"/>ponimus; nam omnia, quae contraria sunt, materiae sunt
+            <lb n="20" xml:id="p38-19"/>commixta et potentia eadem, quia invicem transmutantur. qui<note type="apparatus" n="20" target="#p38-19">eadem = ταὐτά AD: om. BF</note>
+            <lb n="21" xml:id="p38-20"/>vero primum principium illis contrarium esse posuit, non solum in hoc
+            <lb n="22" xml:id="p38-21"/>absurdum incidit, ut ipsum tamquam primum principium non ponat,
+            <lb n="23" xml:id="p38-22"/>immo cum eo aliud principium aeque primum atque aeque nobile
+            <lb n="24" xml:id="p38-23"/>ponat, sed etiam concedere oportet hanc scientiam sapienter institutam
+            <lb n="25" xml:id="p38-24"/>habere aliam scientiam contrariam, quae quidem est scientia
+            <lb n="26" xml:id="p38-25"/>rerum, quae his contrariae sunt. nam ut calidum est contrarium
+            <lb n="27" xml:id="p38-26"/>frigido, sic quoque sensus frigidi sensui caloris; species enim
+            <lb n="28" xml:id="p38-27"/>sensibilium imprimuntur sensibus. at ignoratio scientiae contraria
+            <lb n="29" xml:id="p38-28"/>est, non alia scientia. ad summam si non ponatur
+            <lb n="30" xml:id="p38-29"/>alia substantia praeter res sensibiles sensu praestantior,
+            <lb n="31" xml:id="p38-30"/>numquam poterit inveniri primum principium — nam omnia
+            <lb n="32" xml:id="p38-31"/>sensibilia sunt composita — neque intellegi poterit ordo neque
+            <lb n="33" xml:id="p38-32"/>generatio, neque etiam ratio, qua corpora caelestia a principio
+            <lb n="34" xml:id="p38-33"/>necessario pendeant, sed quocunque principio corporeo dato sequeretur
+            <lb n="35" xml:id="p38-34"/>dari aliud. ut theologis contingit, qui generant ea, quae sunt,
+            <lb n="36" xml:id="p38-35"/>ex inani; necessario enim quaerere debent essentiam inanis. similiter
+            <lb n="37" xml:id="p38-36"/>physicis accidit, qui ponebant rerum generationem ex aere aut ex
+            <lb n="38" xml:id="p38-37"/>aqua; aer enim et aqua corpora composita sunt, non simplicissima.
+            <lb n="39" xml:id="p38-38"/>si quis vero praeter sensibilia et corpora principium aliud dari contendat
+            <lb n="40" xml:id="p38-39"/>materiae expers et intellegibile, ut formae vel numeri, tunc
+          </p>
+          <pb n="39" facs="https://archive.org/download/commentariaina05pt46akaduoft/page/n496.jpg"/>
+          <p>
+            <lb n="1" xml:id="p39-0"/>hoc placito eo delapsus erit, ut principia otiosa et superflua ponat.
+            <lb n="2" xml:id="p39-1"/>nam formae sunt exemplaria; sed non movetur ferrum ad exemplar
+            <lb n="3" xml:id="p39-2"/>neque lapis, nisi arte movetur. praeterea in aliud absurdum
+            <lb n="4" xml:id="p39-3"/>incurrit qui numeros ponit; nam sequeretur, ut magnitudo ex non
+            <lb n="5" xml:id="p39-4"/>habentibus magnitudinem et continuum ex discreto emergeret. sed
+            <lb n="6" xml:id="p39-5"/>non solum de movente causa anquirendum est, sed etiam de causa
+            <lb n="7" xml:id="p39-6"/>formali nec putandum est numeros formam generare; etenim nequit
+            <lb n="8" xml:id="p39-7"/>discreta natura producere formam continuae naturae [atque speciem<note type="apparatus" n="8" target="#p39-7">atque—eius (9) om. A</note>
+            <lb n="9" xml:id="p39-8"/>eius.] et, ut summatim dicam, inconveniens est ponere principia
+            <lb n="10" xml:id="p39-9"/>contraria; nam, ubicunque fuerit contrarietas, ibi erit etiam potentia,
+            <lb n="11" xml:id="p39-10"/>actus autem est posterior eam consequens. ea ergo, quae sunt,
+            <lb n="12" xml:id="p39-11"/>aeterna non erunt, ut saepius declaravimus. tollenda igitur est
+            <lb n="13" xml:id="p39-12"/>contrarietas e principiis. et iam satis de refutatione horum 〈placitorum〉
+            <lb n="14" xml:id="p39-13"/>disseruimus et qua ratione ea fieri possit. universalis autem
+            <lb n="15" xml:id="p39-14"/>dubitatio, quae omnibus opponitur et maxime his, qui plura principia
+            <lb n="16" xml:id="p39-15"/>ponunt, talis est. quaerendum nimirum est, quomodo ex unitate
+            <lb n="17" xml:id="p39-16"/>pluralitas fiat. hoc quidem in numeris saepe invenitur; nam
+            <lb n="18" xml:id="p39-17"/>trias ex uno fit, sic et tetras et decas, et quaecunque fit numerorum
+            <lb n="19" xml:id="p39-18"/>coniunctio, in pluralitate eorum vides formam unitatis.<milestone type="alt-edition" unit="folio" ed="Finzi 1558" n="26"/>
+            <lb n="20" xml:id="p39-19"/>sic etiam anima et corpus nisi haberent principium unum, non
+            <lb n="21" xml:id="p39-20"/>haberent actionem unam, nec quicquam ex iis simul fieret; in summa<note type="apparatus" n="21" target="#p39-20">quicquam] animal ABC</note>
+            <lb n="22" xml:id="p39-21"/>forma et materia coniungi non possent, ut unum quidquam produceretur,
+            <lb n="23" xml:id="p39-22"/>sive fuit planta sive animal, nisi unum esset principium singulare,
+            <lb n="24" xml:id="p39-23"/>quatenus unum est, non quatenus multa. neque quisquam antiquorum
+            <lb n="25" xml:id="p39-24"/>locutus est de hac re nec mea quidem sententia aliter
+            <lb n="26" xml:id="p39-25"/>dicere potest atque diximus nos, quod prima natura movens
+            <lb n="27" xml:id="p39-26"/>munda sincera partium expers materiae immunis individua vere una
+            <lb n="28" xml:id="p39-27"/>movet omnia ordine perpetuo sempiternoque motu, quae quidem omnia
+            <lb n="29" xml:id="p39-28"/>ad hanc unam intendunt ordinemque ab ipsa habent. et unitas eius
+            <lb n="30" xml:id="p39-29"/>posuit mundum unum et quodvis animal in mundo unum eumque
+            <lb n="31" xml:id="p39-30"/>incolumi ipsius unitate existentem etiam posuit; finis enim in quacunque
+            <lb n="32" xml:id="p39-31"/>re est, quatenus est una. qui vero numerum mathematicum
+            <lb n="33" xml:id="p39-32"/>primum principium statuere ac demum ex eo superficiem
+            <lb n="34" xml:id="p39-33"/>et ex superficie corpus confecerunt, adventicia profecto
+            <lb n="35" xml:id="p39-34"/>hoc placito faciunt principia entium; alia enim aliis non mutantur
+            <lb n="36" xml:id="p39-35"/>neque ullam societatem ineunt. qui vero hoc dicit, universi
+            <lb n="37" xml:id="p39-36"/>substantiam adventiciam ponit; sin aliter, quid erit, quod coniungat
+            <lb n="38" xml:id="p39-37"/>principia numerorum cum principiis continuorum corporum
+            <lb n="39" xml:id="p39-38"/>vel principia horum corporum cum principiis formarum? sed nihil
+            <lb n="40" xml:id="p39-39"/>eorum, quae sunt, male gubernari vult, nec multorum principatus
+            <lb n="41" xml:id="p39-40"/>bonus est.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>
