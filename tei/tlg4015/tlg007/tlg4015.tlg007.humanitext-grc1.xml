@@ -18,7 +18,7 @@
         <p>Text transcribed by OCR (Humanitext OCR v2, Gemini models) from the scans named in the source description. Structure (div, quote, head): assigned automatically from printed cues (Bekker references before lemmata, section numbers, headings, book titles, lecture headings; in the paraphrases, Aristotle's chapters located from the running heads) and reviewed by the editors at every boundary that was not certain. In works divided into lectures (Πρᾶξις, Θεωρία) the lectures are divs; topic headings that run across lectures (e.g. Περὶ οὐσίας) are marked milestone[@unit='topic'] and kept as text. Text: OCR of the page images (gemini-3-flash-preview; gemini-3.7-flash where it failed), collated word by word, page by page and in five-line blocks, with the First1KGreek transcription of the same edition (tlg4015.tlg007.1st1K-grc1). Lines on which the two disagreed, lines without a First1KGreek counterpart and lines containing a word form not attested in a Greek form lexicon (about two fifths of the lines) were read again from images of the single lines by a second model (gemini-3.8-flash); words still undecided were read line by line by a third model (gemini-3.1-pro-preview). A reading was adopted when the re-reading of the image agreed with it; the remaining words were decided on the page image by student assistants or by AI-assisted checking under the editor's supervision. Lines on which the OCR agreed word for word with First1KGreek and whose words are all attested were not re-read. No text was copied from First1KGreek (Open Greek and Latin Project, University of Leipzig; CC BY-SA 4.0): it served only as a collation witness, and every disagreement was decided from the page image of this edition. Spelling, accents and breathings follow the printed page: the models were instructed to transcribe exactly as printed and the checkers chose the printed form, but a normalised accentuation adopted by a model may occasionally remain. Later checks against the page images (line numbers, marginal references, signs and apparatus, omitted lines) are listed in the revision description. Headings inside a div (sub-headings, closing formulas, labels of tables) are ab[@type='head']. The words of diagrams and tables are not body text: each diagram or table is given once as figure after the last body line printed before it (labels, trees and tables transcribed; pure geometry described in figDesc); where the edition counts the rows of a diagram or table as lines, those line numbers are not used by any lb. Evident misprints of the printed edition, identified on the page image, are kept and given with the correct form as choice/sic/corr; mere variants of spelling or accentuation are left as printed. Misprinted numbers in milestones (Bekker references, old-edition page, folio, column and line numbers), which cannot carry choice/sic/corr, are given with the corrected value where the sequence of the numbers determines it (here: the line 45 at p. 26.2 (printed 5)). Line breaks: one lb per printed line; @n is the line count of the CAG page (headings included), resynchronised on the printed marginal numbers of the left margin; lines the edition does not count carry lb without @n. Words hyphenated across lines are joined and the lb is placed at the following word boundary. pb/@facs points to the image of the page in the Internet Archive item named in the source description (BookReader page image; for pages supplied from another copy, that copy). Critical-apparatus entries are attached to the line(s) they cite as note[@type='apparatus'] with @target on the lb (line level; the lemma words of an entry are not linked); entries that cannot be resolved remain as note[@type='footnote'] at the page end. References in the margins to older editions or manuscripts are milestone[@type='alt-edition'] with @unit and @ed (the edition identified from the preface of the volume); CAG's repetition of the current old-edition page or folio beside the first line of each page is not encoded. Bekker references printed before lemmata are milestone[@unit='bekker']. Marginal digits fused into the text by OCR have been removed.</p>
       </editorialDecl>
     </encodingDesc>
-    <revisionDesc><change when="2026-09-15" who="#NI">OCR of the page images in text mode (gemini-3-flash-preview; gemini-3.7-flash where it failed); body lines aligned to the physical lines of the page image; physical lines left without an OCR line read again (31 lines recovered in the corpus).</change><change when="2026-09-24" who="#NI">Line numbers anchored on the printed marginal numerals; 75 doubtful pages of the corpus checked by eye.</change><change when="2026-09-25" who="#NI">Automatic division into chapters, sections and lemmata; 459 uncertain boundaries of the corpus reviewed (273 removed, 119 added).</change><change from="2026-09-26" to="2026-09-29" who="#NI">Line numbers verified against the printed marginal numerals of every page (67,352 of 70,149 numerals agreed); page-wide shifts corrected automatically (322 pages on 2026-09-26, 129 on 2026-09-28); 227 pages reviewed by student assistants (176 corrected).</change><change from="2026-09-30" to="2026-10-02" who="#NI">Text collated with First1KGreek where a First1KGreek file could be aligned by page and line, and re-read (Gemini Batch API): 156,504 lines of the corpus by gemini-3.8-flash, 21,570 lines by gemini-3.1-pro-preview; remaining words put on review sheets.</change><change from="2026-09-30" to="2026-10-12" who="#NI">Review sheets of the re-read words answered by student assistants; the remaining words decided on the page images.</change><change from="2026-10-01" to="2026-10-08" who="#TN">All uncertain structural boundaries reviewed; conventions of the pilot works applied (lectures, book titles, topic headings).</change><change when="2026-10-02" who="#NI">Evident misprints given as choice/sic/corr; headings inside divs as ab[@type='head'].</change><change when="2026-10-13" who="#NI">Margin references to older editions and manuscripts encoded as milestone[@type='alt-edition'][@ed], the editions identified from the prefaces; irregular sequences checked on the page images.</change><change from="2026-10-13" to="2026-10-14" who="#NI">Body text lost to the footnote and figure areas found by collation from the First1KGreek side and restored (about 2,300 lines in the corpus); passages missed by the OCR read again and inserted; restored and inserted lines checked again against the images.</change><change when="2026-10-14" who="#NI">Text of diagrams encoded as figure, and lemma Bekker references whose numbers the OCR had lost read from the images (where the work has them).</change><change when="2026-10-16" who="#NI">Line numbers of the 875 pages left by the verification checked on the images (248 of them also answered by student assistants), followed by a continuity check of every page; margin references to older editions checked on 2,237 page images (944 corrections).</change><change when="2026-10-17" who="#NI">Pages whose line numbering still had gaps or repeats checked on the images (355 pages); signs (〈 〉 [ ] † * — ( )) compared with First1KGreek and 445 pages checked on the images (313 corrections in the text, 523 in the apparatus); words hyphenated across lines joined; punctuation normalised.</change><change when="2026-10-20" who="#NI">Header revised (title, source description, editorial declaration, revision description); misprinted old-edition line numbers given with the corrected value where the sequence determines them; breathings and accents written as separate signs before capitals composed with the letter; missing elision marks after ἀλλ, κατ, καθ, ἐπ, δι etc. supplied in the text; numbers left at line starts removed or encoded as old-edition milestones (image checked); working row identifiers left in 37 lines removed (one line restored from the page image); words divided at a line end that had been joined to a word two lines down corrected; every body line without a line number checked on the page images (margin labels and folio marks read as lines dropped, duplicated rows removed, numbers given to lines the edition counts); numeral signs unified as ʹ (U+0374, stored in its NFC form U+02B9); line-number jumps, old-edition milestones without an edition name and notes suspected to hold body text checked on the page images; citation by printed page and line declared (refsDecl); line coordinates of the working files realigned on the marginal numerals; printers' signatures at the foot of the page removed from the apparatus; apparatus entries for two lines joined by et kept as one note pointing at both lines; page images linked from pb/@facs.</change><change when="2026-10-21" who="#NI">Old-edition line numbers checked on the page images where the sequence skipped a number (2,100 places in the corpus) and, page by page, where it was irregular (542 pages): numbers missed by the OCR added (549), milestones not printed on the page dropped (190; mostly the CAG's own left-margin numbers or line references of the apparatus taken for old-edition numbers), misplaced ones moved (69), misread values corrected (31), page numbers taken for line numbers made page milestones (8); the edition's own skips and out-of-order numbers left as printed, the line count printed beside the repeated page or folio at the head of a page not encoded (like the repetition).</change><change when="2026-10-23" who="#NI">Quotation marks made uniform: opening single and double quotation marks, printed in the edition in the reversed (high-reversed-9) form, are encoded as ‘ and “, closing ones as ’ and ”, single and double kept as printed; opening marks read by the OCR as straight quotes, low quotes or spacing breathings, and spacing breathings or quotation marks doubled before a capital that already bears its breathing, corrected.</change><change when="2026-11-05" who="#NI">Apparatus entries printed out of numerical order (e.g. 33 … 32) separated from the preceding entry; words hyphenated across lines joined in Latin text as in Greek; words mixing Greek and Latin letters (OCR errors, about 130, including manuscript sigla) corrected on the page images; marginal folio marks left in the text removed; validated against TEI P5 version 4.12.0 (recorded in TEI/@version).</change></revisionDesc>
+    <revisionDesc><change when="2026-09-15" who="#NI">OCR of the page images in text mode (gemini-3-flash-preview; gemini-3.7-flash where it failed); body lines aligned to the physical lines of the page image; physical lines left without an OCR line read again (31 lines recovered in the corpus).</change><change when="2026-09-24" who="#NI">Line numbers anchored on the printed marginal numerals; 75 doubtful pages of the corpus checked by eye.</change><change when="2026-09-25" who="#NI">Automatic division into chapters, sections and lemmata; 459 uncertain boundaries of the corpus reviewed (273 removed, 119 added).</change><change from="2026-09-26" to="2026-09-29" who="#NI">Line numbers verified against the printed marginal numerals of every page (67,352 of 70,149 numerals agreed); page-wide shifts corrected automatically (322 pages on 2026-09-26, 129 on 2026-09-28); 227 pages reviewed by student assistants (176 corrected).</change><change from="2026-09-30" to="2026-10-02" who="#NI">Text collated with First1KGreek where a First1KGreek file could be aligned by page and line, and re-read (Gemini Batch API): 156,504 lines of the corpus by gemini-3.8-flash, 21,570 lines by gemini-3.1-pro-preview; remaining words put on review sheets.</change><change from="2026-09-30" to="2026-10-12" who="#NI">Review sheets of the re-read words answered by student assistants; the remaining words decided on the page images.</change><change from="2026-10-01" to="2026-10-08" who="#TN">All uncertain structural boundaries reviewed; conventions of the pilot works applied (lectures, book titles, topic headings).</change><change when="2026-10-02" who="#NI">Evident misprints given as choice/sic/corr; headings inside divs as ab[@type='head'].</change><change when="2026-10-13" who="#NI">Margin references to older editions and manuscripts encoded as milestone[@type='alt-edition'][@ed], the editions identified from the prefaces; irregular sequences checked on the page images.</change><change from="2026-10-13" to="2026-10-14" who="#NI">Body text lost to the footnote and figure areas found by collation from the First1KGreek side and restored (about 2,300 lines in the corpus); passages missed by the OCR read again and inserted; restored and inserted lines checked again against the images.</change><change when="2026-10-14" who="#NI">Text of diagrams encoded as figure, and lemma Bekker references whose numbers the OCR had lost read from the images (where the work has them).</change><change when="2026-10-16" who="#NI">Line numbers of the 875 pages left by the verification checked on the images (248 of them also answered by student assistants), followed by a continuity check of every page; margin references to older editions checked on 2,237 page images (944 corrections).</change><change when="2026-10-17" who="#NI">Pages whose line numbering still had gaps or repeats checked on the images (355 pages); signs (〈 〉 [ ] † * — ( )) compared with First1KGreek and 445 pages checked on the images (313 corrections in the text, 523 in the apparatus); words hyphenated across lines joined; punctuation normalised.</change><change when="2026-10-20" who="#NI">Header revised (title, source description, editorial declaration, revision description); misprinted old-edition line numbers given with the corrected value where the sequence determines them; breathings and accents written as separate signs before capitals composed with the letter; missing elision marks after ἀλλ, κατ, καθ, ἐπ, δι etc. supplied in the text; numbers left at line starts removed or encoded as old-edition milestones (image checked); working row identifiers left in 37 lines removed (one line restored from the page image); words divided at a line end that had been joined to a word two lines down corrected; every body line without a line number checked on the page images (margin labels and folio marks read as lines dropped, duplicated rows removed, numbers given to lines the edition counts); numeral signs unified as ʹ (U+0374, stored in its NFC form U+02B9); line-number jumps, old-edition milestones without an edition name and notes suspected to hold body text checked on the page images; citation by printed page and line declared (refsDecl); line coordinates of the working files realigned on the marginal numerals; printers' signatures at the foot of the page removed from the apparatus; apparatus entries for two lines joined by et kept as one note pointing at both lines; page images linked from pb/@facs.</change><change when="2026-10-21" who="#NI">Old-edition line numbers checked on the page images where the sequence skipped a number (2,100 places in the corpus) and, page by page, where it was irregular (542 pages): numbers missed by the OCR added (549), milestones not printed on the page dropped (190; mostly the CAG's own left-margin numbers or line references of the apparatus taken for old-edition numbers), misplaced ones moved (69), misread values corrected (31), page numbers taken for line numbers made page milestones (8); the edition's own skips and out-of-order numbers left as printed, the line count printed beside the repeated page or folio at the head of a page not encoded (like the repetition).</change><change when="2026-10-23" who="#NI">Quotation marks made uniform: opening single and double quotation marks, printed in the edition in the reversed (high-reversed-9) form, are encoded as ‘ and “, closing ones as ’ and ”, single and double kept as printed; opening marks read by the OCR as straight quotes, low quotes or spacing breathings, and spacing breathings or quotation marks doubled before a capital that already bears its breathing, corrected.</change><change when="2026-11-05" who="#NI">Apparatus entries printed out of numerical order (e.g. 33 … 32) separated from the preceding entry; words hyphenated across lines joined in Latin text as in Greek; words mixing Greek and Latin letters (OCR errors, about 130, including manuscript sigla) corrected on the page images; marginal folio marks left in the text removed; validated against TEI P5 version 4.12.0 (recorded in TEI/@version).</change><change when="2026-11-05" who="#NI">Extent of the lemma quotations (quote[@type='lemma']) corrected: the automatic division had closed every lemma after its first printed line, leaving the remaining lines of lemmata printed over two or more lines at the head of the following paragraph. Candidates were found from the letter-spacing of the lines on the page images (lemmata are printed spaced) and from the line geometry (centred last line, indented paragraph start), and every candidate was decided on the page image (Claude work teams; about 7,700 places in the corpus); the lines so decided are now inside the quotation, with pb inside the quotation where a lemma runs on to the next page. Where the lemma runs on in the same line as the commentary (Stephanus in De interpretatione), the quotation ends after the last spaced word and the paragraph continues in the same line without a new lb; where no lemma is printed and the paraphrase follows the Bekker reference directly (Michael in De partibus animalium from p. 37), the quotation is dropped and the division kept; centred last lines the edition does not count are inside the quotation as unnumbered lines.</change></revisionDesc>
   </teiHeader>
   <text>
     <body>
@@ -411,9 +411,9 @@
             <milestone unit="bekker" n="717b33"/>
             <quote type="lemma">
               <lb n="1" xml:id="p11-0"/>Ὅσα δὲ μὴ ἔχει ὄρχεις, διὰ τὸ μὴ εὖ ἀλλὰ τὸ ἀναγκαῖον<note type="apparatus" n="1" target="#p11-0">μὴ ἔχει, καθάπερ εἴρηται, διὰ τε τὸ μὴ εὖ Arist. ἀλλ’ ἀναγκαῖον K</note>
+              <lb n="2" xml:id="p11-1"/>μόνον οὐκ ἔχει τοῦτο τὸ μόριον.
             </quote>
             <p>
-              <lb n="2" xml:id="p11-1"/>μόνον οὐκ ἔχει τοῦτο τὸ μόριον.
               <lb n="3" xml:id="p11-2"/>Δείξας ὅτι ὅσα ἔχει ὄρχεις οὐ διὰ τὸ ἀναγκαῖον ἔχει αὐτούς, ἀλλὰ
               <lb n="4" xml:id="p11-3"/>διὰ τὸ βέλτιον, καὶ μεταξὺ εἰπὼν διὰ τί τὰ μὲν ἔχει ἐκτὸς αὐτοὺς τὰ δ’<note type="apparatus" n="4-5" target="#p11-3 #p11-4">ἐκτὸς —ἐντὸς] αὐτοὺς ἐντός, τὰ δ’ ἐκτὸς Ka</note><milestone type="alt-edition" unit="line" ed="Venetiis 1526 (Io. Antonius de Sabio)" n="45"/>
               <lb n="5" xml:id="p11-4"/>ἐντὸς τὰ δ’ οὐδ’ ὅλως, λέγει ὅτι ὅσα δὲ μὴ ἔχει τοὺς <milestone type="alt-edition" unit="folio" ed="Venetiis 1526 (Io. Antonius de Sabio)" n="8r"/> ὄρχεις, καθάπερ
@@ -595,9 +595,9 @@
             <milestone unit="bekker" n="719a14"/>
             <quote type="lemma">
               <lb n="27" xml:id="p15-26"/>Πρὸς δὲ τούτοις ἀδύνατον ζῷα γίνεσθαι ἐν τοῖς ὑποζώμασιν.<note type="apparatus" n="27" target="#p15-26">ἐν τοῖς] πρὸς τοῖς Arist.</note>
+              <lb n="28" xml:id="p15-27"/>
             </quote>
             <p>
-              <lb n="28" xml:id="p15-27"/>
               <lb n="29" xml:id="p15-28"/>Εἰπὼν τίνος ἕνεκα τὰ ᾠοτοκοῦντα πρὸς τοῖς ὑποζώμασιν ἔχουσι τὰς
               <lb n="30" xml:id="p15-29"/>ὑστέρας, τὰ δὲ ζῳοτοκοῦντα κάτω πρὸς τοῖς ἄρθροις λέγει πρὸς δὲ τούτοις<note type="apparatus" n="30" target="#p15-29">ἄκροις K λέγει δὲ πρὸς coll. IL</note><milestone type="alt-edition" unit="line" ed="Venetiis 1526 (Io. Antonius de Sabio)" n="30"/>
               <lb n="31" xml:id="p15-30"/>ἀδύνατον ζῷα γίνεσθαι ἐν τοῖς ὑποζώμασι. τὰ μὲν γὰρ<note type="apparatus" n="31" target="#p15-30">ζῶον a μὲν om. K</note>
@@ -668,9 +668,9 @@
             <milestone unit="bekker" n="719b17"/>
             <quote type="lemma">
               <lb n="18" xml:id="p17-17"/>Κεῖνται δὲ τῇ θέσει αἱ ὑστέραι ὑπεναντίως τοῖς τε<note type="apparatus" n="18" target="#p17-17">δὲ καὶ τῇ Arist.</note>
+              <lb n="19" xml:id="p17-18"/>ζῳοτοκοῦσιν ἐν ἑαυτοῖς.
             </quote>
             <p>
-              <lb n="19" xml:id="p17-18"/>ζῳοτοκοῦσιν ἐν ἑαυτοῖς.
               <lb n="20" xml:id="p17-19"/>Ἐπειδὴ τῶν θέσεων ἡ μέν ἐστιν ἄνω καὶ κάτω, ἡ δὲ ἔμπροσθεν<note type="apparatus" n="20" target="#p17-19">Ἐπεὶ K</note>
               <lb n="21" xml:id="p17-20"/>καὶ ὄπισθεν, ἀποδοὺς τὰς αἰτίας, δι’ ἃς τὰ μὲν τῶν ζῴων (ταῦτα δὲ ἦσαν<milestone type="alt-edition" unit="line" ed="Venetiis 1526 (Io. Antonius de Sabio)" n="20"/>
               <lb n="22" xml:id="p17-21"/>τὰ ᾠοτόκα) ἄνω ἔχουσι πρὸς τὸ ὑπόζωμα τὰς ὑστέρας, τὰ δὲ κάτω πρὸς
@@ -783,9 +783,9 @@
             <milestone unit="bekker" n="720b2"/>
             <quote type="lemma">
               <lb n="8" xml:id="p20-7"/>Τῶν δ’ ἄλλων ζῴων τῶν ἀναίμων οὐχ ὁ αὐτὸς τρόπος<milestone type="alt-edition" unit="folio" ed="Venetiis 1526 (Io. Antonius de Sabio)" n="12v"/>
+              <lb n="9" xml:id="p20-8"/>τῶν μορίων.
             </quote>
             <p>
-              <lb n="9" xml:id="p20-8"/>τῶν μορίων.
               <lb n="10" xml:id="p20-9"/>Εἰπὼν περὶ τῶν γεννητικῶν μορίων τῶν ἐναίμων ὅπως ἔχουσι, λέγει
               <lb n="11" xml:id="p20-10"/>ὅτι τὰ δὲ ἄναιμα (εἰσὶ δὲ γένη τέτταρα) οὔτε ἑαυτοῖς ἔχουσιν ὁμοίως οὔτε<note type="apparatus" n="11" target="#p20-10">ὅτι om. a</note><milestone type="alt-edition" unit="line" ed="Venetiis 1526 (Io. Antonius de Sabio)" n="5"/>
               <lb n="12" xml:id="p20-11"/>τοῖς ἐναίμοις, ἀλλὰ καὶ πρὸς τὰ ἔναιμα καὶ πρὸς ἑαυτὰ διαφέρουσι. τὸ δὲ<note type="apparatus" n="12" target="#p20-11">διαφέρ K: διαφέρει a</note>
@@ -878,9 +878,9 @@
             <milestone unit="bekker" n="722a3"/>
             <quote type="lemma">
               <lb n="22" xml:id="p22-21"/>Πρῶτον μὲν οὖν ὅτι οὐδὲν σημεῖον ἡ ὁμοιότης τοῦ
+              <lb n="23" xml:id="p22-22"/>ἀπιέναι.
             </quote>
             <p>
-              <lb n="23" xml:id="p22-22"/>ἀπιέναι.
               <lb n="24" xml:id="p22-23"/>Θεὶς πάνυ σαφῶς τὰ ἐπιχειρήματα τέτταρα ὄντα τὸν ἀριθμόν, δι’
               <lb n="25" xml:id="p22-24"/>ὧν ἐδόκουν κατασκευάζειν οἱ τῆς δόξης ταύτης προϊστάμενοι ὅτι ἀπὸ<milestone type="alt-edition" unit="line" ed="Venetiis 1526 (Io. Antonius de Sabio)" n="5"/>
               <lb n="26" xml:id="p22-25"/>παντὸς τοῦ σώματος ἀπέρχεται ἡ γονή, ὧν ἓν ἦν ὅτι εἰ μὴ ἀπὸ παντὸς
@@ -936,9 +936,9 @@
             <milestone unit="bekker" n="722a16"/>
             <quote type="lemma">
               <lb n="1" xml:id="p24-0"/>Ἔτι δὲ πότερον ἀπὸ τῶν ὁμοιομερῶν 〈μόνον〉 ἀπέρχεται<note type="apparatus" n="1" target="#p24-0">ἀνομοιομερῶν L μόνον ex Arist. addidi coll. vv. 5. 8. 16</note>
+              <lb n="2" xml:id="p24-1"/>ἀφ’ ἑκάστου.
             </quote>
             <p>
-              <lb n="2" xml:id="p24-1"/>ἀφ’ ἑκάστου.
               <lb n="3" xml:id="p24-2"/>Ἐκ διαιρέσεως ἐπάγει τὸν ἔλεγχον τοῖς ἀπὸ παντὸς λέγουσι τοῦ
               <lb n="4" xml:id="p24-3"/>σώματος ἐξέρχεσθαι τὸ σπέρμα. ἐρωτᾷ οὖν, πότερον ἀπὸ τῶν ὁμοιομερῶν<note type="apparatus" n="4" target="#p24-3">ἐρωτῶ K</note><milestone type="alt-edition" unit="line" ed="Venetiis 1526 (Io. Antonius de Sabio)" n="5"/>
               <lb n="5" xml:id="p24-4"/>μόνον οἷον σαρκὸς καὶ ὀστοῦ καὶ νεύρου καὶ τῶν τοιούτων ἀπέρχεται τὸ<note type="apparatus" n="5" target="#p24-4">μόνων IKa νεύρων a ἐξέρχεται K</note>
@@ -992,9 +992,9 @@
             <milestone unit="bekker" n="722b3"/>
             <quote type="lemma">
               <lb n="14" xml:id="p25-13"/>Ἔτι εἰ μὲν διεσπαρμένα τὰ μέρη ἐν τῷ σπέρματι,<note type="apparatus" n="14" target="#p25-13">διεσπαρμένα IKL Arist. PSYZ: διεσπασμένα Arist. vulg.</note>
+              <lb n="15" xml:id="p25-14"/>πῶς ζῇ;
             </quote>
             <p>
-              <lb n="15" xml:id="p25-14"/>πῶς ζῇ;
               <lb n="16" xml:id="p25-15"/>Πρὸ τῆς τῶν λεγομένων σαφηνείας ἄξιόν ἐστιν ἡμᾶς ἀναμνησθῆναι τῆς<note type="apparatus" n="16" target="#p25-15">ὑπομνησθῆναι Ka</note>
               <lb n="17" xml:id="p25-16"/>δόξης τῶν λεγόντων ἀπὸ παντὸς τοῦ σώματος, οὐ μόνον τοῦ ἄρρενος ἀλλὰ<milestone type="alt-edition" unit="line" ed="Venetiis 1526 (Io. Antonius de Sabio)" n="10"/>
               <lb n="18" xml:id="p25-17"/>καὶ τοῦ θήλεος, ἀπέρχεσθαι τὸ σπέρμα, καὶ τίνα ἔλεγον εἶναι τὴν τοῦ<note type="apparatus" n="18" target="#p25-17">καὶ τίνα—τὸ σπέρμα (21) om. IL καί τινα a</note>
@@ -1171,9 +1171,9 @@
             <milestone unit="bekker" n="723a23"/>
             <quote type="lemma">
               <lb n="31" xml:id="p29-30"/>Πρὸς δὲ τούτοις εἰ τὸ θῆλυ καὶ τὸ ἄρρεν ἐν τῇ κυήσει<note type="apparatus" n="31" target="#p29-30">τὸ ante ἄρρεν om. I</note>
+              <lb n="32" xml:id="p29-31"/>διαφέρει.
             </quote>
             <p>
-              <lb n="32" xml:id="p29-31"/>διαφέρει.
               <lb n="33" xml:id="p29-32"/>Ὅτι μὲν οὖν τὰ αἵματα, ἐξ ὧν γίνεται τὰ ἄρρενα, διαφέρει ἐν τῇ<milestone type="alt-edition" unit="line" ed="Venetiis 1526 (Io. Antonius de Sabio)" n="30"/>
               <lb n="34" xml:id="p29-33"/>κυήσει τῶν αἱμάτων, ἐξ ὧν γίνεται τὰ θήλεα, τεθεώρηται ἱκανῶς· καθαρώτερα<note type="apparatus" n="34" target="#p29-33">τῶν αἱμάτων in ras. L</note>
               <lb n="35" xml:id="p29-34"/>γὰρ καὶ θερμότερα ἀφ’ ὧν τὰ ἄρρενα γίνεται, ψυχρότερα δὲ τὰ<note type="apparatus" n="35" target="#p29-34">γίνονται τὰ ἄρρενα K</note><milestone type="alt-edition" unit="line" ed="Venetiis 1526 (Io. Antonius de Sabio)" n="35"/>
@@ -1198,9 +1198,9 @@
             <milestone unit="bekker" n="723a26"/>
             <quote type="lemma">
               <lb n="13" xml:id="p30-12"/>Φαίνονται δ’ οὖν μεταβάλλουσαι γυναῖκες καὶ ἄνδρες,
+              <lb n="14" xml:id="p30-13"/>ὥσπερ ἐξ ἀγόνων γόνιμοι.<note type="apparatus" n="14" target="#p30-13">ἀγόνου IL</note>
             </quote>
             <p>
-              <lb n="14" xml:id="p30-13"/>ὥσπερ ἐξ ἀγόνων γόνιμοι.<note type="apparatus" n="14" target="#p30-13">ἀγόνου IL</note>
               <lb n="15" xml:id="p30-14"/>Πολλαὶ τῶν γυναικῶν θηλυτοκοῦσαι, εἶτα ὑπὸ ἰατρῶν ἐπιμεληθεῖσαι
               <lb n="16" xml:id="p30-15"/>καὶ ἐκ ψυχροτέρας κράσεως <milestone type="alt-edition" unit="folio" ed="Venetiis 1526 (Io. Antonius de Sabio)" n="17v"/> μεταπεσοῦσαι εἰς θερμοτέραν γεγόνασιν ἀντὶ
               <lb n="17" xml:id="p30-16"/>θηλυτόκων ἀρρενοτόκοι, ὁμοίως δὲ καὶ ἄρρενες πολλοὶ ἐκ θηλυτόκων γεγόνασιν
@@ -1352,9 +1352,9 @@
             <milestone unit="bekker" n="724a14"/>
             <quote type="lemma">
               <lb n="7" xml:id="p34-6"/>Ἀρχὴ δὲ καὶ ταύτης τῆς σκέψεως καὶ τῶν ἑπομένων<note type="apparatus" n="7" target="#p34-6">ἐπισκέψεως IL</note>
+              <lb n="8" xml:id="p34-7"/>πρῶτον λαβεῖν περὶ τοῦ σπέρματος τί ἐστιν.<note type="apparatus" n="8" target="#p34-7">περὶ τοῦ σπέρματος om. IKL¹, in marg. add. L²</note>
             </quote>
             <p>
-              <lb n="8" xml:id="p34-7"/>πρῶτον λαβεῖν περὶ τοῦ σπέρματος τί ἐστιν.<note type="apparatus" n="8" target="#p34-7">περὶ τοῦ σπέρματος om. IKL¹, in marg. add. L²</note>
               <lb n="9" xml:id="p34-8"/>Δείξας ὅτι οὐκ ἀπὸ παντὸς τοῦ σώματος οὔτε τοῦ ἄρρενος οὔτε τοῦ
               <lb n="10" xml:id="p34-9"/>θήλεος ἄπεισιν, ὥς φασι, τὸ σπέρμα, πρὸς δὲ τῷ τέλει τῆς ἀποδείξεως<milestone type="alt-edition" unit="line" ed="Venetiis 1526 (Io. Antonius de Sabio)" n="20"/>
               <lb n="11" xml:id="p34-10"/>εἰπὼν ὡς εἰ δειχθείη τὸ θῆλυ μὴ προϊὲν σπέρμα, τοῦ αὐτοῦ ἐστι λόγου<note type="apparatus" n="11" target="#p34-10">προϊὲν scripsi: προϊὸν libri</note>
@@ -1454,9 +1454,9 @@
             <milestone unit="bekker" n="724b21"/>
             <quote type="lemma">
               <lb n="29" xml:id="p36-28"/>Ἡ δὲ τοῦ λεγομένου σπέρματος φύσις ἡ πρώτη λεκτέα<note type="apparatus" n="29" target="#p36-28">λεκτέα] πάλιν λεκτέα Arist.</note>
+              <lb n="30" xml:id="p36-29"/>τίς ἐστιν.
             </quote>
             <p>
-              <lb n="30" xml:id="p36-29"/>τίς ἐστιν.
               <lb n="31" xml:id="p36-30"/>Ἐπειδὴ τὸ σπέρμα διαιρεῖται εἴς τε τὴν γονὴν τὴν ἐκ συνδυασμοῦ
               <lb n="32" xml:id="p36-31"/>καὶ ὁμιλίας ἄρρενος καὶ θήλεος γινομένην, οἷον τὴν ἐκ Σωκράτους καὶ<note type="apparatus" n="32" target="#p36-31">Σωκράτους] σώματος I</note><milestone type="alt-edition" unit="line" ed="Venetiis 1526 (Io. Antonius de Sabio)" n="30"/>
               <lb n="33" xml:id="p36-32"/>Ξανθίππης, αὐτήν φημι, ἣν προΐεται τὸ ἄρρεν ἐν τῷ τῆς ὁμιλίας καιρῷ<note type="apparatus" n="33" target="#p36-32">φησι a</note>
@@ -1767,9 +1767,9 @@
             <milestone unit="bekker" n="726a28"/>
             <quote type="lemma">
               <lb n="31" xml:id="p44-30"/>Μετὰ δὲ ταῦτα διοριστέον περίττωμά τε ποίας τροφῆς
+              <lb n="32" xml:id="p44-31"/>καὶ περὶ καταμηνίων.
             </quote>
             <p>
-              <lb n="32" xml:id="p44-31"/>καὶ περὶ καταμηνίων.
               <lb n="33" xml:id="p44-32"/>Εἰπὼν ὅτι τὸ σπέρμα περίττωμά ἐστι τῆς ἐσχάτης καὶ εὐχρήστου
             </p>
             <pb n="45" facs="https://archive.org/download/commentariaina14pt13akaduoft/page/n596.jpg"/>
@@ -1890,9 +1890,9 @@
             <milestone unit="bekker" n="727a4"/>
             <quote type="lemma">
               <lb n="1" xml:id="p48-0"/>Ὅτι δὲ ὀρθῶς εἴρηται, σημεῖα τὰ συμβαίνοντα περὶ
+              <lb n="2" xml:id="p48-1"/>αὐτῶν.<note type="apparatus" n="2" target="#p48-1">αὐτῶν libri et Arist. Z: αὐτά Arist. vulg.</note>
             </quote>
             <p>
-              <lb n="2" xml:id="p48-1"/>αὐτῶν.<note type="apparatus" n="2" target="#p48-1">αὐτῶν libri et Arist. Z: αὐτά Arist. vulg.</note>
               <lb n="3" xml:id="p48-2"/>Εἰπὼν καὶ δείξας ὅτι καὶ ἡ γονὴ καὶ τὸ καταμήνιον περίττωμά ἐστι<note type="apparatus" n="3" target="#p48-2">περιττώματα εἰσὶ Ka</note><milestone type="alt-edition" unit="line" ed="Venetiis 1526 (Io. Antonius de Sabio)" n="20"/>
               <lb n="4" xml:id="p48-3"/>τῆς ἐσχάτης τροφῆς, πιστοῦται τοῦτο καὶ ἀπὸ τῶν συμβαινόντων αὐτοῖς,
               <lb n="5" xml:id="p48-4"/>τῷ τε ἄρρενι καὶ τῷ θήλει. ἐπεὶ γὰρ κατὰ τὸν αὐτὸν χρόνον τῆς<milestone type="alt-edition" unit="line" ed="Venetiis 1526 (Io. Antonius de Sabio)" n="25"/>
@@ -1926,9 +1926,9 @@
             <milestone unit="bekker" n="727a31"/>
             <quote type="lemma">
               <lb n="30" xml:id="p48-29"/>Λάβοι δ’ ἄν τις εἰς τοῦτο μαρτύρια ἔνια τῶν συμβαινόντων
+              <lb n="31" xml:id="p48-30"/>τοῖς ζῴοις.
             </quote>
             <p>
-              <lb n="31" xml:id="p48-30"/>τοῖς ζῴοις.
               <lb n="32" xml:id="p48-31"/>Καὶ ἐκ τῶν συμβαινόντων, φησί, τοῖς ζῴοις λάβοι ἄν τις τὴν πίστιν<milestone type="alt-edition" unit="line" ed="Venetiis 1526 (Io. Antonius de Sabio)" n="20"/>
             </p>
             <pb n="49" facs="https://archive.org/download/commentariaina14pt13akaduoft/page/n600.jpg"/>
@@ -1970,9 +1970,9 @@
             <milestone unit="bekker" n="727b5"/>
             <quote type="lemma">
               <lb n="32" xml:id="p49-31"/>Σημεῖον δ’ ὅτι οὐ τοιοῦτον σπέρμα προΐεται τὸ θῆλυ<note type="apparatus" n="32" target="#p49-31">σπέρμα] αἷμα IL</note>
+              <lb n="33" xml:id="p49-32"/>οἷον τὸ ἄρρεν.
             </quote>
             <p>
-              <lb n="33" xml:id="p49-32"/>οἷον τὸ ἄρρεν.
               <lb n="34" xml:id="p49-33"/>Εἴρηται ἡμῖν καὶ πρότερον, ὅτι οἱ λέγοντες τὸ σπέρμα μῖγμα εἶναι
             </p>
             <pb n="50" facs="https://archive.org/download/commentariaina14pt13akaduoft/page/n601.jpg"/>
@@ -2049,9 +2049,9 @@
             <milestone unit="bekker" n="727b18"/>
             <quote type="lemma">
               <lb n="28" xml:id="p51-27"/>Ὅσαι δὲ μὴ γινομένων τῶν καταμηνίων συλλαμβάνουσιν<note type="apparatus" n="28" target="#p51-27">δὲ om. IL</note>
+              <lb n="29" xml:id="p51-28"/>ἢ μεταξὺ γινομένων.
             </quote>
             <p>
-              <lb n="29" xml:id="p51-28"/>ἢ μεταξὺ γινομένων.
               <lb n="30" xml:id="p51-29"/>Εἰπὼν ὅτι οὔτε γινομένων τῶν καταμηνίων οὔτε μὴ γινομένων γίνεται<milestone type="alt-edition" unit="line" ed="Venetiis 1526 (Io. Antonius de Sabio)" n="20"/>
               <lb n="31" xml:id="p51-30"/>σύλληψις, ἀλλὰ μετὰ τὴν κάθαρσιν τοῦ περιττοῦ καὶ ἀσυμμέτρου καὶ παράληψιν<note type="apparatus" n="31-32" target="#p51-30 #p51-31">περίληψιν Ka</note>
               <lb n="32" xml:id="p51-31"/>τοῦ συμμέτρου, ἐπειδὴ συλλαμβάνουσί τινες καὶ μηδ’ ὅλως παθοῦσαι<note type="apparatus" n="32" target="#p51-31">τοῦ om. ILa 4*</note><milestone type="alt-edition" unit="line" ed="Venetiis 1526 (Io. Antonius de Sabio)" n="25"/>
@@ -2089,9 +2089,9 @@
             <milestone unit="bekker" n="727b33"/>
             <quote type="lemma">
               <lb n="25" xml:id="p52-24"/>Ὃ δ’ οἴονταί τινες σπέρμα συμβάλλεσθαι ἐν τῇ συνουσίᾳ
+              <lb n="26" xml:id="p52-25"/>τὸ θῆλυ διὰ τὸ γίνεσθαι παραπλησίαν αὐταῖς τὴν χαρὰν ἐνίοτε.<note type="apparatus" n="26" target="#p52-25">παραπλησίαν τε χαρὰν ἐνίοτε αὐταῖς Arist.</note>
             </quote>
             <p>
-              <lb n="26" xml:id="p52-25"/>τὸ θῆλυ διὰ τὸ γίνεσθαι παραπλησίαν αὐταῖς τὴν χαρὰν ἐνίοτε.<note type="apparatus" n="26" target="#p52-25">παραπλησίαν τε χαρὰν ἐνίοτε αὐταῖς Arist.</note>
               <lb n="27" xml:id="p52-26"/>Ἤδη εἴρηται ἡμῖν ὅτι οἱ λέγοντες καὶ ἐκ τοῦ θήλεος ἀπέρχεσθαι
               <lb n="28" xml:id="p52-27"/>σπέρμα κατεσκεύαζον τοῦτο οὕτως· ἐπεὶ ἡ χαρὰ καὶ πάνυ πολλὴ ἡδονὴ<note type="apparatus" n="28" target="#p52-27">τοῦτο] αὐτὸ Ka ἡ om. K post πολλὴ add. ἡ IL</note><milestone type="alt-edition" unit="line" ed="Venetiis 1526 (Io. Antonius de Sabio)" n="10"/>
               <lb n="29" xml:id="p52-28"/>ἐν τῇ τοῦ σπέρματος προέσει γίνεται, πάσχει δὲ ταύτην τὴν χαρὰν καὶ τὸ
@@ -2133,9 +2133,9 @@
             <milestone unit="bekker" n="728a27"/>
             <quote type="lemma">
               <lb n="25" xml:id="p53-24"/>Ὥσπερ ἐν τῇ περὶ τοὺς καρποὺς γενέσει, ὅταν ᾖ μήπω
+              <lb n="26" xml:id="p53-25"/>διηττημένη, ἔνεστι μὲν ἡ τροφή.<note type="apparatus" n="26" target="#p53-25">διηττημένη Arist. Z: διητμένη IKL Arist. vulg.: διηθημένη coni. Bonitz Ind. Ar. p. 181 a 23 cf. 195 a 61</note>
             </quote>
             <p>
-              <lb n="26" xml:id="p53-25"/>διηττημένη, ἔνεστι μὲν ἡ τροφή.<note type="apparatus" n="26" target="#p53-25">διηττημένη Arist. Z: διητμένη IKL Arist. vulg.: διηθημένη coni. Bonitz Ind. Ar. p. 181 a 23 cf. 195 a 61</note>
               <lb n="27" xml:id="p53-26"/>Καρποὺς νῦν λέγει τὰ ἄλευρα, γένεσιν δὲ τὴν ζύμωσιν, ἐξ ἧς ἡ ζύμη,<note type="apparatus" n="27" target="#p53-26">post ἧς add. καὶ Ka</note><milestone type="alt-edition" unit="line" ed="Venetiis 1526 (Io. Antonius de Sabio)" n="10"/>
               <lb n="28" xml:id="p53-27"/>μήπω δὲ διηττημένην τὴν μήπω κεκοσκινισμένην, ἐκ τοῦ διαττῶ τὸ κοσκινίζω.<note type="apparatus" n="28" target="#p53-27">διηττημένην scripsi: διητμημένην IKL: διηττημένα a διαττῶ a: διηθω (sic) IL: διαιτῶ K</note>
               <lb n="29" xml:id="p53-28"/>εἴη δ’ ἂν τὸ λεγόμενον τοιοῦτον· ὥσπερ γὰρ ἐν τοῖς ἀλεύροις τοῖς<milestone type="alt-edition" unit="line" ed="Venetiis 1526 (Io. Antonius de Sabio)" n="15"/>
@@ -2159,9 +2159,9 @@
             <milestone unit="bekker" n="728a31"/>
             <quote type="lemma">
               <lb n="9" xml:id="p54-8"/>Σημεῖον δὲ τοῦ τὸ θῆλυ μὴ προΐεσθαι σπέρμα καὶ τὸ
+              <lb n="10" xml:id="p54-9"/>γίνεσθαι ἐν τῇ ὁμιλίᾳ τὴν ἡδονήν.
             </quote>
             <p>
-              <lb n="10" xml:id="p54-9"/>γίνεσθαι ἐν τῇ ὁμιλίᾳ τὴν ἡδονήν.
               <lb n="11" xml:id="p54-10"/>Εἴρηται καὶ πρότερον ὅτι ἡ ἀπὸ τῶν λευκοχρόων γυναικῶν γινομένη<milestone type="alt-edition" unit="line" ed="Venetiis 1526 (Io. Antonius de Sabio)" n="25"/>
               <lb n="12" xml:id="p54-11"/>ὑγρασία οὐκ ἐξέρχεται θύραζε διὰ τοῦ αἰδοίου αὐτῶν, ὥσπερ τὸ ἀφ’ ἡμῶν
               <lb n="13" xml:id="p54-12"/>ἀπιὸν σπέρμα, ἀλλ’ ἐξ ἁπάσης τῆς ὑστέρας ἐκκρίνεται, εἴς τι δὲ μέρος<note type="apparatus" n="13" target="#p54-12">δὲ om. Ka</note><milestone type="alt-edition" unit="line" ed="Venetiis 1526 (Io. Antonius de Sabio)" n="30"/>
@@ -2308,9 +2308,9 @@
             <milestone unit="bekker" n="729a34"/>
             <quote type="lemma">
               <lb n="1" xml:id="p58-0"/>Ἅμα δὲ ἐκ τούτων φανερόν, περὶ ὧν ἐχόμενόν ἐστιν
+              <lb n="2" xml:id="p58-1"/>ἐπισκέψασθαι, πῶς ποτε συμβάλλεται εἰς τὴν γένεσιν τὸ ἄρρεν.
             </quote>
             <p>
-              <lb n="2" xml:id="p58-1"/>ἐπισκέψασθαι, πῶς ποτε συμβάλλεται εἰς τὴν γένεσιν τὸ ἄρρεν.
               <lb n="3" xml:id="p58-2"/>Πρὸ τῆς τῶν λέξεων σαφηνείας ἄξιόν ἐστιν ἡμᾶς ὑπομνησθῆναι ὅτι<note type="apparatus" n="3" target="#p58-2">ἡμῶν a</note>
               <lb n="4" xml:id="p58-3"/>μόριον καὶ ἐνυπάρχον τῷ γινομένῳ σώματι καὶ ἐνταῦθα καὶ ἐν τῷ τετάρτῳ<note type="apparatus" n="4-5" target="#p58-3 #p58-4">ἐν τῷ τετάρτῳ τῆς Μετὰ τὰ φυσικὰ πραγματείας] Δ 25 p. 1023 b 19 sqq.</note><milestone type="alt-edition" unit="line" ed="Venetiis 1526 (Io. Antonius de Sabio)" n="40"/>
               <lb n="5" xml:id="p58-4"/>τῆς Μετὰ τὰ φυσικὰ πραγματείας τὴν ὕλην λέγει, οἷον τοῦ μὲν ἀνδριάντος
@@ -2382,10 +2382,10 @@
             <milestone unit="bekker" n="730a4"/>
             <quote type="lemma">
               <lb n="30" xml:id="p59-29"/>Ἐάν τε γὰρ ὑπηνέμια τύχῃ κύουσα ἡ ὄρνις, ἐὰν μετὰ<note type="apparatus" n="30" target="#p59-29">lemma om. I μετὰ] μὲν L</note>
-            </quote>
-            <p>
               <lb n="31" xml:id="p59-30"/>ταῦτα ὀχεύηται, μεταβεβληκότος τοῦ ᾠοῦ ἐκ τοῦ ὠχρὸν ὅλον<note type="apparatus" n="31" target="#p59-30">ὀχεύηται μεταβεβληκότος KL et Arist. PSY: post ὀχεύηται add. μήπω Arist. vulg. ὅλον] αὐτὸ L</note>
               <lb n="32" xml:id="p59-31"/>εἶναι.
+            </quote>
+            <p>
               <lb n="33" xml:id="p59-32"/>Ὑπηνέμια λέγεται ᾠά, ἃ γεννῶσιν αἱ ὄρνιθες μὴ ὀχευθεῖσαι· τῶν<note type="apparatus" n="33" target="#p59-32">λέγει K</note>
             </p>
             <pb n="60" facs="https://archive.org/download/commentariaina14pt13akaduoft/page/n611.jpg"/>
@@ -2494,9 +2494,9 @@
             <milestone unit="bekker" n="730b4"/>
             <quote type="lemma">
               <lb n="21" xml:id="p62-20"/>Ὥστε ἀνάγκη ἐν τῷ θήλει ὑπάρχειν τὸν τόκον· καὶ γὰρ
+              <lb n="22" xml:id="p62-21"/>πρὸς τῷ ξύλῳ ὁ τέκτων.
             </quote>
             <p>
-              <lb n="22" xml:id="p62-21"/>πρὸς τῷ ξύλῳ ὁ τέκτων.
               <lb n="23" xml:id="p62-22"/>Τέκτονα πάλιν ἐνταῦθα τὴν τοῦ τέκτονος ἐνέργειαν λέγει. τὸ δὲ<note type="apparatus" n="23" target="#p62-22">τέκτονα ex τέκτων corr. K</note>
               <lb n="24" xml:id="p62-23"/>παρὸν ἐπιχείρημα ἤρτηται καὶ τὸ κῦρος ἔχει ἀπὸ τῶν ἐν τῇ Φυσικῇ<note type="apparatus" n="24-25" target="#p62-23 #p62-24">ἐν τῇ Φυσικῇ ἀκροάσει] Γ 3</note><milestone type="alt-edition" unit="line" ed="Venetiis 1526 (Io. Antonius de Sabio)" n="30"/>
               <lb n="25" xml:id="p62-24"/>ἀκροάσει δειχθέντων· δέδεικται γὰρ ἐκεῖσε ὅτι ἡ ἐνέργεια τοῦ ποιοῦντος ἐν
@@ -2553,9 +2553,9 @@
             <milestone unit="bekker" n="731a24"/>
             <quote type="lemma">
               <lb n="1" xml:id="p64-0"/>Καὶ ταῦτα πάντα εὐλόγως ἡ φύσις δημιουργεῖ ἕως τοῦ
+              <lb n="2" xml:id="p64-1"/>τέλους τοῦ βιβλίου.
             </quote>
             <p>
-              <lb n="2" xml:id="p64-1"/>τέλους τοῦ βιβλίου.
               <lb n="3" xml:id="p64-2"/>Ἀνάγει ἑαυτὸν συνήθως πρὸς τὴν πρώτην ἀρχήν· ταύτην γὰρ εἶπε<note type="apparatus" n="3" target="#p64-2">τὴν πρὸς a</note><milestone type="alt-edition" unit="line" ed="Venetiis 1526 (Io. Antonius de Sabio)" n="15"/>
               <lb n="4" xml:id="p64-3"/>φύσιν καὶ πρῶτον αἴτιον, ὅπερ πρῶτον αἴτιον ἐν τῷ Λ τῶν Μετὰ τὰ φυσικὰ<note type="apparatus" n="4" target="#p64-3">ἐν τῷ Λ τῶν Μετὰ τὰ φυσικὰ] Λ</note>
               <lb n="5" xml:id="p64-4"/>ζῷον ἀΐδιον ἄριστον εἴρηκε. σύνηθες δὲ αὐτῷ τὴν τοιαύτην ἀρχήν, τὸν<milestone type="alt-edition" unit="line" ed="Venetiis 1526 (Io. Antonius de Sabio)" n="20"/>
@@ -2709,9 +2709,9 @@
             <milestone unit="bekker" n="732a3"/>
             <quote type="lemma">
               <lb n="32" xml:id="p68-31"/>Βελτίονος δὲ καὶ θειοτέρας τὴν φύσιν οὔσης τῆς
+              <lb n="33" xml:id="p68-32"/>αἰτίας τῆς κινούσης πρῶτον, ᾗ ὁ λόγος ὑπάρχει.<note type="apparatus" n="33" target="#p68-32">πρῶτον IL Arist. P: πρώτης K Arist. vulg. ᾗ] ἣ Arist.</note>
             </quote>
             <p>
-              <lb n="33" xml:id="p68-32"/>αἰτίας τῆς κινούσης πρῶτον, ᾗ ὁ λόγος ὑπάρχει.<note type="apparatus" n="33" target="#p68-32">πρῶτον IL Arist. P: πρώτης K Arist. vulg. ᾗ] ἣ Arist.</note>
               <lb n="34" xml:id="p68-33"/>Εἶπε καὶ ἐν τῷ τέλει τοῦ πρώτου βιβλίου τίνος ἕνεκεν ἐν τοῖς ζῴοις
               <lb n="35" xml:id="p68-34"/>κεχώρισται τὸ ἄρρεν ἀπὸ τοῦ θήλεος καὶ πάλιν αὐτὸ τοῦτο διὰ τῶν προκειμένων<note type="apparatus" n="35" target="#p68-34">θήλεως L</note>
             </p>
@@ -2756,9 +2756,9 @@
             <milestone unit="bekker" n="732b15"/>
             <quote type="lemma">
               <lb n="1" xml:id="p70-0"/>Συμβαίνει δὲ πολλὴ ἐπάλλαξις τοῖς γένεσιν· οὔτε γὰρ
+              <lb n="2" xml:id="p70-1"/>τὰ δίποδα πάντα ζῳοτοκεῖ.
             </quote>
             <p>
-              <lb n="2" xml:id="p70-1"/>τὰ δίποδα πάντα ζῳοτοκεῖ.
               <lb n="3" xml:id="p70-2"/>Ἐπάλλαξιν λέγει τὴν κοινωνίαν· οὕτω γὰρ καὶ ἐν τῷ Περὶ γενέσεως<note type="apparatus" n="3-4" target="#p70-2 #p70-3">ἐν τῷ Περὶ γενέσεως καὶ φθορᾶς] quae dicit, illic non leguntur, sed cf. A 10 p. 328 b 9</note><note type="apparatus" n="3" target="#p70-2">ἐν τῇ a</note>
               <lb n="4" xml:id="p70-3"/>καὶ φθορᾶς εἴρηται “ἐπαλλάττουσι δὲ τὰ καλούμενα στοιχεῖα” ἀντὶ τοῦ<note type="apparatus" n="4" target="#p70-3">εἴρηκεν Ka</note><milestone type="alt-edition" unit="line" ed="Venetiis 1526 (Io. Antonius de Sabio)" n="25"/>
               <lb n="5" xml:id="p70-4"/>κοινωνοῦσι. δείκνυσι δὲ ἐκ τῆς τοιαύτης ἐπαγωγῆς ὅτι οὔτε ἡ ἀποδία<note type="apparatus" n="5" target="#p70-4">τῆς om. IL</note>
@@ -2824,9 +2824,9 @@
             <milestone unit="bekker" n="733a12"/>
             <quote type="lemma">
               <lb n="26" xml:id="p71-25"/>Ἐπεὶ δ’ οὔτε πτερωτὰ οὔτε φολιδωτὰ οὔτε λεπιδωτά<milestone type="alt-edition" unit="folio" ed="Venetiis 1526 (Io. Antonius de Sabio)" n="35r"/>
+              <lb n="27" xml:id="p71-26"/>ἐστιν, ἃ σημεῖα ξηρᾶς.
             </quote>
             <p>
-              <lb n="27" xml:id="p71-26"/>ἐστιν, ἃ σημεῖα ξηρᾶς.
               <lb n="28" xml:id="p71-27"/>Τὴν αἰτίαν διὰ τούτων ἀποδίδωσιν τοῦ γεννᾶν τὰ σελάχη ᾠὰ μαλακὰ<note type="apparatus" n="28" target="#p71-27">διὰ τοῦτο a</note>
               <lb n="29" xml:id="p71-28"/>καὶ οὐ σκληρά, καὶ συλλογίζεται δυνάμει ὧδε· πάντα τὰ ξηρὰ καὶ γεῶδες<note type="apparatus" n="29" target="#p71-28">ξηρὰ] σκληρὰ IL καὶ τὰ γεώδη IL</note><milestone type="alt-edition" unit="line" ed="Venetiis 1526 (Io. Antonius de Sabio)" n="5"/>
               <lb n="30" xml:id="p71-29"/>τὴν φύσιν τὰ ᾠὰ σκληρὰ γεννᾷ, οὐδὲν δὲ τῶν σελαχῶν ξηρὸν καὶ γεῶδες
@@ -2892,9 +2892,9 @@
             <milestone unit="bekker" n="734a2"/>
             <quote type="lemma">
               <lb n="11" xml:id="p73-10"/>Τὸ μὲν οὖν ἔξωθέν τι ποιεῖν ἕκαστον ἢ τῶν σπλάγχνων<note type="apparatus" n="11" target="#p73-10">Τὸ μὲν IL Arist. PY: τῷ μὲν K: τῶν μὲν Arist. vulg. ποιεῖν IK Arist.: ποιοῦν L</note>
+              <lb n="12" xml:id="p73-11"/>ἢ τῶν ἄλλων μερῶν ἄλογον ἂν δόξειεν.
             </quote>
             <p>
-              <lb n="12" xml:id="p73-11"/>ἢ τῶν ἄλλων μερῶν ἄλογον ἂν δόξειεν.
               <lb n="13" xml:id="p73-12"/>Ἐφ’ ἑκάτερα ἐπιχειρεῖ, καὶ πρῶτον μὲν διά τινων ἐνδόξων πιθανῶς,<note type="apparatus" n="13" target="#p73-12">ἐπιχειρεῖ a: ἐπιχωρεῖ I</note>
               <lb n="14" xml:id="p73-13"/>οὐ <milestone type="alt-edition" unit="folio" ed="Venetiis 1526 (Io. Antonius de Sabio)" n="36r"/> μέντοι ἀληθῶς δείκνυσι μὴ εἶναι ἐνδεχόμενον τῶν ἐκτός τι εἶναι τὸ<note type="apparatus" n="14" target="#p73-13">μέν τι a</note>
               <lb n="15" xml:id="p73-14"/>ποιοῦν ἕκαστον τῶν σπλάγχνων καὶ τῶν ἄλλων μερῶν, ὡς καταλείπεσθαι<milestone type="alt-edition" unit="line" ed="Venetiis 1526 (Io. Antonius de Sabio)" n="5"/>
@@ -2968,9 +2968,9 @@
             <milestone unit="bekker" n="734a14"/>
             <quote type="lemma">
               <lb n="3" xml:id="p75-2"/>Εἰ δὲ μή ἐστι τῆς ψυχῆς μηδέν, ὃ μὴ τοῦ σώματός<note type="apparatus" n="3" target="#p75-2">δὲ libri (sed iidem infra v. 13 δὴ) et Arist. S: δὲ δὴ Arist. vulg. τῆς Arist.: τι libri, sed iidem v. 14 τῆς</note>
+              <lb n="4" xml:id="p75-3"/>ἐστιν ἔν τινι μορίῳ.
             </quote>
             <p>
-              <lb n="4" xml:id="p75-3"/>ἐστιν ἔν τινι μορίῳ.
               <lb n="5" xml:id="p75-4"/>Δείκνυσι διὰ τούτου, ὥσπερ ἤδη εἴπομεν, ὅτι τὸ πρώτως ποιοῦν οὐκ<note type="apparatus" n="5" target="#p75-4">δεικνὺς a διὰ τούτων Ka</note>
               <lb n="6" xml:id="p75-5"/>ἔστιν ἐν τῷ γινομένῳ οὔτε ὅλως μόριόν ἐστιν αὐτοῦ. ὅτι δὲ τὸ πρώτως<note type="apparatus" n="6" target="#p75-5">ὅλως] ἄλλως IK τὸ om. Ka</note><milestone type="alt-edition" unit="line" ed="Venetiis 1526 (Io. Antonius de Sabio)" n="10"/>
               <lb n="7" xml:id="p75-6"/>καὶ κυρίως ποιοῦν ὁ πατήρ ἐστι, δῆλον· ἐξ αὐτοῦ γὰρ τὸ σπέρμα καὶ ἡ ἐν
@@ -3040,9 +3040,9 @@
             <milestone unit="bekker" n="734b4"/>
             <quote type="lemma">
               <lb n="32" xml:id="p76-31"/>Πειρατέον δὴ ταῦτα λύειν· ἴσως γάρ τι τῶν εἰρημένων<note type="apparatus" n="32" target="#p76-31">δὴ om. IL</note>
+              <lb n="33" xml:id="p76-32"/>ἐστὶν οὐχ ἁπλοῦν.
             </quote>
             <p>
-              <lb n="33" xml:id="p76-32"/>ἐστὶν οὐχ ἁπλοῦν.
               <lb n="34" xml:id="p76-33"/>Ἐπιχειρήσας, ὥσπερ εἴρηται, καὶ συλλογισάμενος ἐφ’ ἑκάτερα ὅτι οὔτε<milestone type="alt-edition" unit="line" ed="Venetiis 1526 (Io. Antonius de Sabio)" n="30"/>
             </p>
             <pb n="77" facs="https://archive.org/download/commentariaina14pt13akaduoft/page/n628.jpg"/>
@@ -3094,9 +3094,9 @@
             <milestone unit="bekker" n="734b19"/>
             <quote type="lemma">
               <lb n="5" xml:id="p78-4"/>Πῶς δέ ποτε ἕκαστον γίνεται, ἐντεῦθεν δεῖ λαβεῖν ἀρχὴν<note type="apparatus" n="5" target="#p78-4">ἐνταῦθα IL</note>
+              <lb n="6" xml:id="p78-5"/>ποιησαμένους.
             </quote>
             <p>
-              <lb n="6" xml:id="p78-5"/>ποιησαμένους.
               <lb n="7" xml:id="p78-6"/>Εἰπὼν τί τὸ ποιοῦν προτίθεται εἰπεῖν καὶ πῶς τὰ ὑπ’ αὐτοῦ γινόμενα<note type="apparatus" n="7" target="#p78-6">προστίθεται IL¹</note><milestone type="alt-edition" unit="line" ed="Venetiis 1526 (Io. Antonius de Sabio)" n="30"/>
               <lb n="8" xml:id="p78-7"/>γίνεται. πρότερον δὲ πάλιν λέγει τε καὶ διορίζεται, τί τε τὸ ὄργανον<note type="apparatus" n="8" target="#p78-7">τε post τί om. Ka</note>
               <lb n="9" xml:id="p78-8"/>μεθ’ οὗ ποιεῖ, καὶ ἄλλα τινὰ ἀκόλουθα τοῖς προκειμένοις, εἶθ’ οὕτως ἐπάνεισι<milestone type="alt-edition" unit="line" ed="Venetiis 1526 (Io. Antonius de Sabio)" n="35"/>
@@ -3149,9 +3149,9 @@
             <milestone unit="bekker" n="735a4"/>
             <quote type="lemma">
               <lb n="15" xml:id="p79-14"/>Πότερον δ’ ἔχει ψυχὴν τὸ σπέρμα ἢ οὔ; ὁ αὐτὸς λόγος
+              <lb n="16" xml:id="p79-15"/>καὶ περὶ τῶν μορίων.<note type="apparatus" n="16" target="#p79-15">περὶ] ἐπὶ K</note>
             </quote>
             <p>
-              <lb n="16" xml:id="p79-15"/>καὶ περὶ τῶν μορίων.<note type="apparatus" n="16" target="#p79-15">περὶ] ἐπὶ K</note>
               <lb n="17" xml:id="p79-16"/>Τὸ ζητούμενόν ἐστιν, ἆρα ἔχει ψυχὴν καὶ τὸ σπέρμα τινὰ καὶ τὰ<note type="apparatus" n="17" target="#p79-16">ἐστὶν om. K καὶ prius om. Ka τινὰ om. K</note>
               <lb n="18" xml:id="p79-17"/>μόρια, ἢ πάντη πάντως ἄψυχα τυγχάνει ὄντα; τὸ γὰρ ὁ αὐτὸς λόγος καὶ<note type="apparatus" n="18" target="#p79-17">πάντα πάντως a</note>
               <lb n="19" xml:id="p79-18"/>περὶ τῶν μορίων ἴσον ἐστὶ τῷ τὸ αὐτὸ δὴ τοῦτο ζητητέον καὶ περὶ τῶν<milestone type="alt-edition" unit="line" ed="Venetiis 1526 (Io. Antonius de Sabio)" n="5"/>
@@ -3184,9 +3184,9 @@
             <milestone unit="bekker" n="735a12"/>
             <quote type="lemma">
               <lb n="7" xml:id="p80-6"/>Ταύτης μὲν οὖν οὐδὲν μόριον αἴτιον τῆς γενέσεως,
+              <lb n="8" xml:id="p80-7"/>ἀλλὰ τὸ πρῶτον κινῆσαν ἔξωθεν.
             </quote>
             <p>
-              <lb n="8" xml:id="p80-7"/>ἀλλὰ τὸ πρῶτον κινῆσαν ἔξωθεν.
               <lb n="9" xml:id="p80-8"/>Ταύτης λέγει τῆς διαπλαττούσης καὶ ποιούσης τὰ μόρια. οὐδὲν οὖν,
               <lb n="10" xml:id="p80-9"/>φησί, μόριον αὐτὸ ἑαυτῷ αἴτιόν ἐστι τῆς διαπλαστικῆς γενέσεως· οὐδὲν<note type="apparatus" n="10" target="#p80-9">μόριον om. K αὐτὸ] αὐτῶ I</note>
               <lb n="11" xml:id="p80-10"/>γὰρ αὐτὸ ἑαυτὸ γεννᾷ καὶ παράγει, ὡς ἐν ἄλλοις ἡμῖν δέδεικται, ἀλλὰ<note type="apparatus" n="11" target="#p80-10">ἐν ἄλλοις] nescio quo respiciat</note><milestone type="alt-edition" unit="line" ed="Venetiis 1526 (Io. Antonius de Sabio)" n="30"/>
@@ -3220,9 +3220,9 @@
             <milestone unit="bekker" n="735a19"/>
             <quote type="lemma">
               <lb n="1" xml:id="p81-0"/>Ἀνάγκη δὲ διὰ τόδε, ὅτι ὅταν γένηται, αὐξάνεσθαι<note type="apparatus" n="1" target="#p81-0">post ὅταν add. τι Arist.</note>
+              <lb n="2" xml:id="p81-1"/>ἀνάγκη.
             </quote>
             <p>
-              <lb n="2" xml:id="p81-1"/>ἀνάγκη.
               <lb n="3" xml:id="p81-2"/>Εἰπὼν ὅτι τοῦτο γίνεσθαι ἀνάγκη πρῶτον, ὃ αὐξήσεως ἀρχὴν ἔχει, καὶ<note type="apparatus" n="3" target="#p81-2">post τοῦτο add. δὲ a</note><milestone type="alt-edition" unit="line" ed="Venetiis 1526 (Io. Antonius de Sabio)" n="5"/>
               <lb n="4" xml:id="p81-3"/>διὰ μέσου τινὰ παρενείρας ἐπήγαγε τὸ ἀνάγκη δὲ διὰ τόδε, καὶ ἔστι
               <lb n="5" xml:id="p81-4"/>συνεχὲς τούτῳ ἐκεῖνο. ὃ δὲ λέγει οὕτως ἐπῆκται, ὡς εἰ ἔλεγε διὰ τί δὲ<note type="apparatus" n="5" target="#p81-4">τοῦτο ἐκείνῳ Ka</note><milestone type="alt-edition" unit="line" ed="Venetiis 1526 (Io. Antonius de Sabio)" n="10"/>
@@ -3308,9 +3308,9 @@
             <milestone unit="bekker" n="736a27"/>
             <quote type="lemma">
               <lb n="31" xml:id="p82-30"/>Διορίσαι τε δεῖ πότερον μεταλαμβάνει τὸ συνιστάμενον
+              <lb n="32" xml:id="p82-31"/>ἐν τῷ θήλει.
             </quote>
             <p>
-              <lb n="32" xml:id="p82-31"/>ἐν τῷ θήλει.
               <lb n="33" xml:id="p82-32"/>Εἰπὼν τούτου δ’ ἐχόμενόν ἐστιν ἀπορῆσαι καὶ εἰπεῖν, πάλιν<note type="apparatus" n="33" target="#p82-32">ἐστὶ καὶ ἀπορῆσαι Ka</note><milestone type="alt-edition" unit="line" ed="Venetiis 1526 (Io. Antonius de Sabio)" n="35"/>
             </p>
             <pb n="83" facs="https://archive.org/download/commentariaina14pt13akaduoft/page/n634.jpg"/>
@@ -3431,9 +3431,9 @@
             <milestone unit="bekker" n="736b29"/>
             <quote type="lemma">
               <lb n="1" xml:id="p86-0"/>Πάσης μὲν οὖν ψυχῆς δύναμις ἑτέρου σώματος ἔοικε
+              <lb n="2" xml:id="p86-1"/>κεκοινωνηκέναι.
             </quote>
             <p>
-              <lb n="2" xml:id="p86-1"/>κεκοινωνηκέναι.
               <lb n="3" xml:id="p86-2"/>Ὃ λέγει τοιοῦτόν ἐστι· πᾶσα ψυχῆς δύναμις ἐν σώματί ἐστι κρείττονι<milestone type="alt-edition" unit="line" ed="Venetiis 1526 (Io. Antonius de Sabio)" n="5"/>
               <lb n="4" xml:id="p86-3"/>ὄντι καὶ τιμιωτέρῳ τῶν τεσσάρων στοιχείων· ὥστε καὶ ὁ νοῦς καὶ ἡ λογικὴ
               <lb n="5" xml:id="p86-4"/>ψυχὴ ὅσῳ κρείττω τῶν ἄλλων ἐστί, τοσούτῳ καὶ τὸ ὑποκείμενον
@@ -3465,9 +3465,9 @@
             <milestone unit="bekker" n="737a7"/>
             <quote type="lemma">
               <lb n="28" xml:id="p86-27"/>Τὸ δὲ τῆς γονῆς σῶμα, ἐν ᾧ συναπέρχεται τὸ σπέρμα
+              <lb n="29" xml:id="p86-28"/>τὸ τῆς ψυχικῆς ἀρχῆς.
             </quote>
             <p>
-              <lb n="29" xml:id="p86-28"/>τὸ τῆς ψυχικῆς ἀρχῆς.
               <lb n="30" xml:id="p86-29"/>Ψυχικὴν ἀρχὴν λέγει τὴν ψυχήν, σπέρμα δὲ ἤτοι ῥίζαν καὶ δημιουργὸν<note type="apparatus" n="30" target="#p86-29">λέγων LK ψυχὴν] ἀρχὴν K</note><milestone type="alt-edition" unit="line" ed="Venetiis 1526 (Io. Antonius de Sabio)" n="40"/>
               <lb n="31" xml:id="p86-30"/>καὶ παραγωγὸν τῆς ψυχῆς λέγει τὸ θερμὸν τὸ ἀναλογοῦν τῇ τῶν ἀστέρων
               <lb n="32" xml:id="p86-31"/>θερμότητι· τοῦτο γὰρ τὴν ἄλογον παράγει ψυχὴν καὶ τὴν μετ’ αὐτήν,
@@ -3494,9 +3494,9 @@
             <milestone unit="bekker" n="737a18"/>
             <quote type="lemma">
               <lb n="15" xml:id="p87-14"/>Τοῦ δὲ σπέρματος ὄντος περιττώματος καὶ κινουμένου
+              <lb n="16" xml:id="p87-15"/>κίνησιν τὴν αὐτήν.
             </quote>
             <p>
-              <lb n="16" xml:id="p87-15"/>κίνησιν τὴν αὐτήν.
               <lb n="17" xml:id="p87-16"/>Διὰ τούτων τὰ ἔργα, ἅπερ ἐργάζεται ἡ ἐν τῷ σπέρματι θερμότης,<milestone type="alt-edition" unit="line" ed="Venetiis 1526 (Io. Antonius de Sabio)" n="15"/>
               <lb n="18" xml:id="p87-17"/>ἥτις ἦν ἀνάλογος τῇ τῶν ἀστέρων θερμότητι, ἀπαγγέλλει καί φησι τοῦ δὲ
               <lb n="19" xml:id="p87-18"/>σπέρματος ὄντος, ὥσπερ δέδεικται, περιττώματος καὶ κινουμένου<milestone type="alt-edition" unit="line" ed="Venetiis 1526 (Io. Antonius de Sabio)" n="20"/>
@@ -3609,9 +3609,9 @@
             <milestone unit="bekker" n="737b27"/>
             <quote type="lemma">
               <lb n="5" xml:id="p90-4"/>Ἡ μὲν οὖν ἀπόκρισις γίνεται πᾶσι τοῦ σπέρματος ὥσπερ<note type="apparatus" n="5" target="#p90-4">πᾶσα IL</note>
+              <lb n="6" xml:id="p90-5"/>ἄλλου τινὸς περιττώματος.
             </quote>
             <p>
-              <lb n="6" xml:id="p90-5"/>ἄλλου τινὸς περιττώματος.
               <lb n="7" xml:id="p90-6"/>Τὸ λεγόμενον δυνάμει τοιοῦτόν ἐστιν· ὥσπερ γὰρ ἡ τῆς ξηρᾶς καὶ ὑγρᾶς<note type="apparatus" n="7" target="#p90-6">post τὸ add. δὲ IL</note>
               <lb n="8" xml:id="p90-7"/>τροφῆς περίττωσις οἰκείους ἔχουσα τόπους φύσει ἔρχεταί τε καὶ συναθροίζεται<note type="apparatus" n="8" target="#p90-7">ἔχουσι L ἔρχονται IL συναθροίζονται IL</note><milestone type="alt-edition" unit="line" ed="Venetiis 1526 (Io. Antonius de Sabio)" n="35"/>
               <lb n="9" xml:id="p90-8"/>εἰς αὐτούς, εἶτα διὰ τῶν συνεχῶν τοῖς τοιούτοις τόποις πόρων ἐξέρχεται θύραζε,<note type="apparatus" n="9" target="#p90-8">πόροις τόπων Ka ἐξέρχονται IL</note>
@@ -3675,9 +3675,9 @@
             <milestone unit="bekker" n="738a22"/>
             <quote type="lemma">
               <lb n="28" xml:id="p91-27"/>Μεταβεβληκότος μὲν οὖν εἰς αἷμα τοῦ περιττώματος
+              <lb n="29" xml:id="p91-28"/>βούλεται γίνεσθαι τὰ καταμήνια κατὰ τὴν εἰρημένην περίοδον.
             </quote>
             <p>
-              <lb n="29" xml:id="p91-28"/>βούλεται γίνεσθαι τὰ καταμήνια κατὰ τὴν εἰρημένην περίοδον.
               <lb n="30" xml:id="p91-29"/>Μεταβάλλον εἰς αἷμα περίττωμα λέγει τὴν κεχυλοποιημένην ἐν τῇ
               <lb n="31" xml:id="p91-30"/>γαστρὶ τροφήν, ἣν ἕλκουσιν ἀπ’ αὐτῆς αἱ εἰς αὐτὴν ἐρριζωμέναι φλέβες<milestone type="alt-edition" unit="line" ed="Venetiis 1526 (Io. Antonius de Sabio)" n="5"/>
               <lb n="32" xml:id="p91-31"/>καὶ ἐν ἑαυταῖς ἐξαιματοῦσιν. ἡ γὰρ πρώτη τροφή, οἷον ὁ ἄρτος, πρῶτον<note type="apparatus" n="32" target="#p91-31">ἐξαιματοῦσιν scripsi: ἐξαιματοῦσαι libri</note>
@@ -3736,9 +3736,9 @@
             <milestone unit="bekker" n="738b9"/>
             <quote type="lemma">
               <lb n="4" xml:id="p93-3"/>Τοῦ δ’ ἐν μὲν τοῖς θήλεσι πᾶσιν ὑπάρχειν περίττωμα<note type="apparatus" n="4" target="#p93-3">Τοῦ] τὸ IL ὑπάρχον IL</note>
+              <lb n="5" xml:id="p93-4"/>τοιοῦτον.
             </quote>
             <p>
-              <lb n="5" xml:id="p93-4"/>τοιοῦτον.
               <lb n="6" xml:id="p93-5"/>Διὰ τούτων τὴν αἰτίαν λέγει, δι’ ἣν τὰ μὲν θήλεα πάντα προΐεται ἢ<note type="apparatus" n="6" target="#p93-5">πάντα om. Ka</note>
               <lb n="7" xml:id="p93-6"/>καταμήνιον ἢ τὸ ἀνάλογον τῷ καταμηνίῳ, οὐ πάντα δὲ τὰ ἄρρενα ἢ<note type="apparatus" n="7" target="#p93-6">οὐ—γὰρ τῶν (8) in marg. add. L</note><milestone type="alt-edition" unit="line" ed="Venetiis 1526 (Io. Antonius de Sabio)" n="15"/>
               <lb n="8" xml:id="p93-7"/>σπέρμα ἢ τὸ ἀνάλογον. τινὰ γὰρ τῶν ἐντόμων, ἐν ὅσοις τὸ θῆλυ εἰς τὸ
@@ -3873,9 +3873,9 @@
             <milestone unit="bekker" n="739a22"/>
             <quote type="lemma">
               <lb n="19" xml:id="p96-18"/>Μάλιστα δ’ ἂν δόξειεν, ὅτι καθάπερ τοῖς ἄρρεσι,
+              <lb n="20" xml:id="p96-19"/>γίνεται καὶ ταῖς γυναιξὶ νύκτωρ ὃ καλοῦσιν ἐξονειρώττειν.<note type="apparatus" n="20" target="#p96-19">καλοῦμεν IL</note>
             </quote>
             <p>
-              <lb n="20" xml:id="p96-19"/>γίνεται καὶ ταῖς γυναιξὶ νύκτωρ ὃ καλοῦσιν ἐξονειρώττειν.<note type="apparatus" n="20" target="#p96-19">καλοῦμεν IL</note>
               <lb n="21" xml:id="p96-20"/>Ἡ μὲν οὖν γινομένη ὑγρότης μετὰ τῆς ἡδονῆς, φησίν, οὐδὲν ἦν, ὥσπερ<note type="apparatus" n="21" target="#p96-20">φησίν post ὑγρότης ponit K</note>
               <lb n="22" xml:id="p96-21"/>δέδεικται, σημεῖον τοῦ τὸ θῆλυ προΐεσθαι γονήν. μάλιστα δ’ ἄν δόξειε<note type="apparatus" n="22" target="#p96-21">μάλιστα—γονὴν (23) om. IL</note><milestone type="alt-edition" unit="line" ed="Venetiis 1526 (Io. Antonius de Sabio)" n="15"/>
               <lb n="23" xml:id="p96-22"/>καὶ τὸ θῆλυ προΐεσθαι γονὴν ἐκ τοῦ καὶ τὰ θήλεα ἐξονειρώττειν ὥσπερ
@@ -3955,9 +3955,9 @@
             <milestone unit="bekker" n="739b14"/>
             <quote type="lemma">
               <lb n="19" xml:id="p98-18"/>Ὡς δέ τινες λέγουσι, τοῖς ὀργανικοῖς πρὸς τὴν συνουσίαν
+              <lb n="20" xml:id="p98-19"/>μορίοις.
             </quote>
             <p>
-              <lb n="20" xml:id="p98-19"/>μορίοις.
               <lb n="21" xml:id="p98-20"/>Ὀργανικὰ τῆς συνουσίας μόρια λέγει τούς τε ὄρχεις καὶ τὰ αἰδοῖα<note type="apparatus" n="21" target="#p98-20">λέγοντες IL τε om. K</note>
               <lb n="22" xml:id="p98-21"/>τῶν τε ἀρρένων καὶ τῶν θηλειῶν καὶ τὰς ὑστέρας. ὃ δὲ λέγει δυνάμει<note type="apparatus" n="22" target="#p98-21">τῶν post καὶ om. K δυνάμει om. L</note><milestone type="alt-edition" unit="line" ed="Venetiis 1526 (Io. Antonius de Sabio)" n="45"/>
               <lb n="23" xml:id="p98-22"/>τοιοῦτόν ἐστι· τὸν μὲν τρόπον ὃν εἴπομεν (ἦν δὲ ὁ τρόπος ὅτι διὰ<milestone type="alt-edition" unit="folio" ed="Venetiis 1526 (Io. Antonius de Sabio)" n="47r"/>
@@ -3979,9 +3979,9 @@
             <milestone unit="bekker" n="739b16"/>
             <quote type="lemma">
               <lb n="1" xml:id="p99-0"/>Καὶ τοῖς λέγουσι προΐεσθαι καὶ τὴν γυναῖκα σπέρμα·
+              <lb n="2" xml:id="p99-1"/>προϊεμέναις γὰρ ἔξω συμβαίνει ταῖς ὑστέραις εἴσω πάλιν σπᾶν.<note type="apparatus" n="2" target="#p99-1">εἴσω post σπᾶν ponit K</note>
             </quote>
             <p>
-              <lb n="2" xml:id="p99-1"/>προϊεμέναις γὰρ ἔξω συμβαίνει ταῖς ὑστέραις εἴσω πάλιν σπᾶν.<note type="apparatus" n="2" target="#p99-1">εἴσω post σπᾶν ponit K</note>
               <lb n="3" xml:id="p99-2"/>Λείπει τῇ λέξει τὸ συμβαίνει λέγειν οὐκ εὔλογον. καὶ εἴη ἂν τὸ τῆς<note type="apparatus" n="3" target="#p99-2">οὐκ εὔλογον—λέγειν (5) om. L¹: in marg. add. L²</note><milestone type="alt-edition" unit="line" ed="Venetiis 1526 (Io. Antonius de Sabio)" n="10"/>
               <lb n="4" xml:id="p99-3"/>λέξεως πλῆρες τοιοῦτον· καὶ τοῖς λέγουσι προΐεσθαι καὶ τὴν γυναῖκα
               <lb n="5" xml:id="p99-4"/>σπέρμα συμβαίνει λέγειν οὐκ εὔλογον. ἐπειδὴ γάρ φασιν ὅτι ἡ γονὴ μῖγμά<note type="apparatus" n="5" target="#p99-4">φησιν IKL</note><milestone type="alt-edition" unit="line" ed="Venetiis 1526 (Io. Antonius de Sabio)" n="15"/>
@@ -4000,9 +4000,9 @@
             <milestone unit="bekker" n="739b20"/>
             <quote type="lemma">
               <lb n="15" xml:id="p99-14"/>Ὅταν δὲ συστῇ ἡ ἐν ταῖς ὑστέραις ἀπόκρισις τοῦ<note type="apparatus" n="15" target="#p99-14">ἡ om. K</note>
+              <lb n="16" xml:id="p99-15"/>θήλεος ὑπὸ τῆς τοῦ ἄρρενος γονῆς.<note type="apparatus" n="16" target="#p99-15">ἀπὸ IL</note>
             </quote>
             <p>
-              <lb n="16" xml:id="p99-15"/>θήλεος ὑπὸ τῆς τοῦ ἄρρενος γονῆς.<note type="apparatus" n="16" target="#p99-15">ἀπὸ IL</note>
               <lb n="17" xml:id="p99-16"/>Ἡ ἀπόδοσις καὶ τὸ ἀκόλουθον τῆς λέξεώς ἐστιν ἐν τῷ συνιόντος δὲ
               <lb n="18" xml:id="p99-17"/>τοῦ σωματώδους, παρέλκει δὲ ὁ δέ σύνδεσμος· ἦν γὰρ ἂν σαφεστέρα,<milestone type="alt-edition" unit="line" ed="Venetiis 1526 (Io. Antonius de Sabio)" n="25"/>
               <lb n="19" xml:id="p99-18"/>εἰ χωρὶς τοῦ δέ συνδέσμου εἶχεν οὕτως, ὅταν συστῇ ἡ ἐν ταῖς ὑστέραις<note type="apparatus" n="19" target="#p99-18">post ὅταν add. δὲ Ka συστῇ] στῇ a</note>
@@ -4021,10 +4021,10 @@
             <milestone unit="bekker" n="739b33"/>
             <quote type="lemma">
               <lb n="29" xml:id="p99-28"/>Ὅταν δὲ συστῇ τὸ κύημα ἤδη, παραπλήσιον ποιεῖ τοῖς<note type="apparatus" n="29" target="#p99-28">ποιεῖ om. IL 7*</note>
-            </quote>
-            <p>
               <lb n="30" xml:id="p99-29"/>σπειρομένοις. ἡ μὲν γὰρ ἀρχὴ καὶ ἐν τοῖς σπέρμασιν ἐν αὐτοῖς
               <lb n="31" xml:id="p99-30"/>ἐστιν ἡ πρώτη.
+            </quote>
+            <p>
               <lb n="32" xml:id="p99-31"/>Νῦν ἀρχὴν λέγει τὸ ἀνάλογον τῇ καρδίᾳ· φησὶ γὰρ εἶναι καὶ ἐν τοῖς <milestone type="alt-edition" unit="line" ed="Venetiis 1526 (Io. Antonius de Sabio)" n="45"/><milestone type="alt-edition" unit="folio" ed="Venetiis 1526 (Io. Antonius de Sabio)" n="47v"/>
             </p>
             <pb n="100" facs="https://archive.org/download/commentariaina14pt13akaduoft/page/n651.jpg"/>
@@ -4084,9 +4084,9 @@
             <milestone unit="bekker" n="740a24"/>
             <quote type="lemma">
               <lb n="9" xml:id="p101-8"/>Ἐπεὶ δὲ δυνάμει μὲν ἤδη ζῷον ἀτελὲς δέ, ἄλλοθεν<note type="apparatus" n="9" target="#p101-8">ἤδη om. IL, sed cf. p. 102,1</note>
+              <lb n="10" xml:id="p101-9"/>ἀναγκαῖον λαμβάνειν τὴν τροφήν.
             </quote>
             <p>
-              <lb n="10" xml:id="p101-9"/>ἀναγκαῖον λαμβάνειν τὴν τροφήν.
               <lb n="11" xml:id="p101-10"/>Πρὸς σαφήνειαν πάντων τῶν λεχθησομένων ἄνωθεν ῥητέον οὕτως· ἡ<milestone type="alt-edition" unit="line" ed="Venetiis 1526 (Io. Antonius de Sabio)" n="15"/>
               <lb n="12" xml:id="p101-11"/>ἐν τῷ σπέρματι δύναμις εἰσελθοῦσα καὶ πρῶτον μὲν τὴν ἐκτὸς ἅπασαν
               <lb n="13" xml:id="p101-12"/>ἐπιφάνειαν συστήσασα τοῦ καταμηνίου καὶ ποιήσασα τὸ καλούμενον χόριον,
@@ -4191,9 +4191,9 @@
             <milestone unit="bekker" n="740b12"/>
             <quote type="lemma">
               <lb n="25" xml:id="p103-24"/>Ἡ δὲ διάκρισις γίνεται τῶν μορίων οὐχ ὥς τινες ὑπολαμβάνουσι,
+              <lb n="26" xml:id="p103-25"/>διὰ τὸ πεφυκέναι φέρεσθαι τὸ ὅμοιον πρὸς τὸ ὅμοιον.
             </quote>
             <p>
-              <lb n="26" xml:id="p103-25"/>διὰ τὸ πεφυκέναι φέρεσθαι τὸ ὅμοιον πρὸς τὸ ὅμοιον.
               <lb n="27" xml:id="p103-26"/>Τοῦ διακριθῆναι τὰ μόρια ἀπ’ ἀλλήλων, οἷον τοὺς πόδας ἀπὸ τῆς
               <lb n="28" xml:id="p103-27"/>κεφαλῆς, καὶ τὴν μὲν ἄνω γενέσθαι, τοὺς δὲ κάτω, καὶ ὅλως τοῦ πάντα<milestone type="alt-edition" unit="line" ed="Venetiis 1526 (Io. Antonius de Sabio)" n="10"/>
               <lb n="29" xml:id="p103-28"/>τὰ ἑκάστου τῶν ζῴων μέρη κεῖσθαι ἐν ᾧ τυγχάνουσιν ὄντα αἰτίαν ἀπεδίδου<note type="apparatus" n="29" target="#p103-28">ἑκάστου] ἐν ἑκάστῳ a</note><note type="apparatus" n="29-30" target="#p103-28 #p103-29">ἀπεδίδου Ἐμπεδοκλῆς] cf. fr. 62,6 sqq. Diels</note>
@@ -4230,9 +4230,9 @@
             <milestone unit="bekker" n="741a6"/>
             <quote type="lemma">
               <lb n="18" xml:id="p104-17"/>Καίτοι τις ἀπορήσειε διὰ τίν’ αἰτίαν, εἴπερ ἔχει τὸ θῆλυ<note type="apparatus" n="18" target="#p104-17">ἀπορήσειε IL Arist. SYZ: ἀπορήσειεν ἂν a Arist. vulg. διὰ τὴν αἰτίαν IL</note>
+              <lb n="19" xml:id="p104-18"/>τὴν ψυχήν.<note type="apparatus" n="19" target="#p104-18">τὴν αὐτὴν ψυχήν Arist.</note>
             </quote>
             <p>
-              <lb n="19" xml:id="p104-18"/>τὴν ψυχήν.<note type="apparatus" n="19" target="#p104-18">τὴν αὐτὴν ψυχήν Arist.</note>
               <lb n="20" xml:id="p104-19"/>Τὸ καίτοι τις ἀπορήσειεν ἴσον ἐστὶ τῷ ἀπορήσειεν δ’ ἄν τις.
               <lb n="21" xml:id="p104-20"/>εἰπὼν δὲ ὅτι ἡ ἑκάστου φύσις ἡ θρεπτική ἐστιν, ἥτις ἅμα καὶ γεννητική,
               <lb n="22" xml:id="p104-21"/>ἀπορεῖ πάνυ εὔλογον ἀπορίαν. ἀπορήσειε δ’ ἄν τις λέγων, εἰ ἡ ἑκάστου<note type="apparatus" n="22" target="#p104-21">ἡ om. L¹</note><milestone type="alt-edition" unit="line" ed="Venetiis 1526 (Io. Antonius de Sabio)" n="10"/>
@@ -4278,9 +4278,9 @@
             <milestone unit="bekker" n="741a32"/>
             <quote type="lemma">
               <lb n="22" xml:id="p105-21"/>Εἰ δὲ ἔστι τι γένος ὃ θῆλυ μὲν ἐστιν, ἄρρεν δὲ μὴ ἔστι<note type="apparatus" n="22" target="#p105-21">μὴ ἔστι] sic libri: μὴ ἔχει Arist.</note>
+              <lb n="23" xml:id="p105-22"/>κεχωρισμένον.
             </quote>
             <p>
-              <lb n="23" xml:id="p105-22"/>κεχωρισμένον.
               <lb n="24" xml:id="p105-23"/>Εἰπὼν ὅτι τοῦ ἄρρενος ἡ οὐσία καὶ τὸ εἶναί ἐστιν ἐν τῷ μόνον αὐτὸ<milestone type="alt-edition" unit="line" ed="Venetiis 1526 (Io. Antonius de Sabio)" n="10"/>
               <lb n="25" xml:id="p105-24"/>δύνασθαι τὴν αἰσθητικὴν διδόναι ψυχήν, ἐπήγαγεν εἰ δ’ ἔστι τι γένος ὃ
               <lb n="26" xml:id="p105-25"/>θῆλυ μέν ἐστιν, ἄρρεν δὲ μὴ ἔστιν, ἐν τούτῳ δοίη ἂν τὸ θῆλυ καὶ<note type="apparatus" n="26" target="#p105-25">μὴ ἔχει a ἂν iterat I</note><milestone type="alt-edition" unit="line" ed="Venetiis 1526 (Io. Antonius de Sabio)" n="15"/>
@@ -4333,9 +4333,9 @@
             <milestone unit="bekker" n="741b37"/>
             <quote type="lemma">
               <lb n="1" xml:id="p107-0"/>Διορίζεται δὲ τὰ μέρη τῶν ζῴων πνεύματι, οὐ μέντοι
+              <lb n="2" xml:id="p107-1"/>οὔτε τῷ τῆς γεννώσης οὔτε τῷ αὐτοῦ.
             </quote>
             <p>
-              <lb n="2" xml:id="p107-1"/>οὔτε τῷ τῆς γεννώσης οὔτε τῷ αὐτοῦ.
               <lb n="3" xml:id="p107-2"/>Τὸ μὲν τῆς λέξεως τοιοῦτον· διορίζεται δὲ τὰ μέρη τῶν ζῴων, οὔτε
               <lb n="4" xml:id="p107-3"/>μέντοι τῷ τῆς γεννώσης πνεύματι οὔτε τῷ ἑαυτοῦ, καθάπερ τινὲς τῶν<note type="apparatus" n="4" target="#p107-3">μέντοι] μέν τι a: om. IL ἑαυτῷ a</note><milestone type="alt-edition" unit="line" ed="Venetiis 1526 (Io. Antonius de Sabio)" n="35"/>
               <lb n="5" xml:id="p107-4"/>φυσικῶν φασιν. εἰ γὰρ μὴ οὕτω τὴν λέξιν μετατάξομεν, ἀδιανόητος καὶ
@@ -4373,9 +4373,9 @@
             <milestone unit="bekker" n="742a16"/>
             <quote type="lemma">
               <lb n="1" xml:id="p108-0"/>Τῶν δ’ ἀρχαίων τινὲς φυσιολόγων τί μετὰ τί γίνεται<note type="apparatus" n="1" target="#p108-0">τινὲς φυσιολόγων] φυσιολογοῦντες τινὲς Κ</note>
+              <lb n="2" xml:id="p108-1"/>τῶν μορίων ἐπειράθησαν λέγειν.
             </quote>
             <p>
-              <lb n="2" xml:id="p108-1"/>τῶν μορίων ἐπειράθησαν λέγειν.
               <lb n="3" xml:id="p108-2"/>Κακίζει τοὺς φυσικοὺς διὰ τὰς αἰτίας ἃς ἀπεδίδουν τοῦ πρῶτον μὲν
               <lb n="4" xml:id="p108-3"/>γίνεσθαι τὴν καρδίαν ἢ τὸν ἐγκέφαλον, δεύτερον δὲ τόδε καὶ τρίτον τόδε<milestone type="alt-edition" unit="line" ed="Venetiis 1526 (Io. Antonius de Sabio)" n="30"/>
               <lb n="5" xml:id="p108-4"/>καὶ ἐφεξῆς τὰ λοιπά. ἔλεγον οὖν ὅτι ὅπερ ἔχει τὸν οὗ ἕνεκα λόγον, τοῦτο<note type="apparatus" n="5" target="#p108-4">οὖν] γὰρ a</note>
@@ -4452,9 +4452,9 @@
             <milestone unit="bekker" n="743a3"/>
             <quote type="lemma">
               <lb n="1" xml:id="p110-0"/>Ἡ δὲ γένεσίς ἐστιν ἐκ τῶν ὁμοιομερῶν ὑπὸ ψύξεως καὶ
+              <lb n="2" xml:id="p110-1"/>θερμότητος.
             </quote>
             <p>
-              <lb n="2" xml:id="p110-1"/>θερμότητος.
               <lb n="3" xml:id="p110-2"/>Ἐντεῦθεν τοὺς τρόπους ἐκτίθεται, καθ’ ἕκαστον τῶν ὁμοιομερῶν
               <lb n="4" xml:id="p110-3"/>γίνεται, καὶ πρὸς τούτοις λέγει καὶ τὰ ποιητικὰ τούτων αἴτια, τίνα εἰσίν.<note type="apparatus" n="4" target="#p110-3">τούτοις] τούτω K: τούτου a</note><milestone type="alt-edition" unit="line" ed="Venetiis 1526 (Io. Antonius de Sabio)" n="40"/>
               <lb n="5" xml:id="p110-4"/>ὑπὸ θερμότητος δὲ λέγει αὐτὰ γίνεσθαι καὶ ψύξεως· συνίσταται γὰρ καὶ<note type="apparatus" n="5" target="#p110-4">αὐτοὺς K</note>
@@ -4534,10 +4534,10 @@
             <milestone unit="bekker" n="743b32"/>
             <quote type="lemma">
               <lb n="3" xml:id="p112-2"/>Ἔχει δ’ ἀπορίαν τὸ περὶ τοὺς ὀφθαλμοὺς συμβαῖνον
-            </quote>
-            <p>
               <lb n="4" xml:id="p112-3"/>τῶν ζῴων. μέγιστοι μὲν γὰρ ἐξ ἀρχῆς φαίνονται καὶ πεζοῖς καὶ
               <lb n="5" xml:id="p112-4"/>πλωτοῖς, τελευταῖοι δὲ γίνονται.<note type="apparatus" n="5" target="#p112-4">post πλωτοῖς add. καὶ πτηνοῖς Arist.</note>
+            </quote>
+            <p>
               <lb n="6" xml:id="p112-5"/>Τὸ γίνονται ἀντὶ τοῦ τὴν προσήκουσαν αὐτοῖς τελειότητα λαμβάνουσι.<note type="apparatus" n="6" target="#p112-5">Τὸ γίνονται om. K</note>
               <lb n="7" xml:id="p112-6"/>μεταξὺ δὲ χρόνον λέγει καθ’ ὃν γίνεται τὰ ἄλλα μέρη· ἐπειδὴ γὰρ<note type="apparatus" n="7" target="#p112-6">καθ’ ἣν a</note>
               <lb n="8" xml:id="p112-7"/>πρῶτον πάντων ἡ καρδία τελειοῦται, ὕστερον δὲ πάντων οἱ ὀφθαλμοί, ἔστιν<note type="apparatus" n="8" target="#p112-7">πρῶτον τῶν ἄλλων ἡ K ἐστὶν—ὀφθαλμοί (11) in marg. add. L</note><milestone type="alt-edition" unit="line" ed="Venetiis 1526 (Io. Antonius de Sabio)" n="10"/>
@@ -4710,9 +4710,9 @@
             <milestone unit="bekker" n="745a18"/>
             <quote type="lemma">
               <lb n="17" xml:id="p116-16"/>Περὶ δὲ ὀδόντων ἀπορήσειεν ἄν τις. εἰσὶ γὰρ τὴν
+              <lb n="18" xml:id="p116-17"/>φύσιν τὴν αὐτὴν ἔχοντες τοῖς ὀστοῖς.
             </quote>
             <p>
-              <lb n="18" xml:id="p116-17"/>φύσιν τὴν αὐτὴν ἔχοντες τοῖς ὀστοῖς.
               <lb n="19" xml:id="p116-18"/>Ὅτι μὲν οἱ ὀδόντες οὔκ εἰσιν ὀστᾶ, καὶ αὐτὸς προϊὼν ἐρεῖ· λέγει δὲ
               <lb n="20" xml:id="p116-19"/>τὴν αὐτὴν ἔχειν φύσιν τοῖς ὀστοῖς διὰ τὸ ἐκ τῆς αὐτῆς τροφῆς τρέφεσθαι<milestone type="alt-edition" unit="line" ed="Venetiis 1526 (Io. Antonius de Sabio)" n="20"/>
               <lb n="21" xml:id="p116-20"/>ἀφ’ ἧς καὶ τὰ ὀστᾶ. ὥστε τὸ καὶ γίνονται ἐκ τῶν ὀστῶν ταὐτόν
@@ -4802,9 +4802,9 @@
             <milestone unit="bekker" n="746a12"/>
             <quote type="lemma">
               <lb n="26" xml:id="p118-25"/>Ἐπεὶ δὲ τὰ μὲν μονοτόκα τὰ δὲ πολυτόκα τῶν τοιούτων
+              <lb n="27" xml:id="p118-26"/>ζῴων ἐστίν.
             </quote>
             <p>
-              <lb n="27" xml:id="p118-26"/>ζῴων ἐστίν.
               <lb n="28" xml:id="p118-27"/>Τοιαῦτα ζῷα λέγει τὰ μὴ ἔχοντα κοτυληδόνας. ἐπεὶ οὖν, φησί,<note type="apparatus" n="28" target="#p118-27">λέγων K</note><milestone type="alt-edition" unit="line" ed="Venetiis 1526 (Io. Antonius de Sabio)" n="40"/>
               <lb n="29" xml:id="p118-28"/>τῶν ζῴων τῶν μὴ ἐχόντων κοτυληδόνας τὰ μέν ἐστι μονοτόκα τὰ δὲ
               <lb n="30" xml:id="p118-29"/>πολυτόκα, καὶ τὰ πλείω τῶν ἐμβρύων τὸν αὐτὸν 〈τρόπον〉 ἔχει τῷ<note type="apparatus" n="30" target="#p118-29">τρόπον addidi coll. p. 119,4</note>
@@ -4826,9 +4826,9 @@
             <milestone unit="bekker" n="746a19"/>
             <quote type="lemma">
               <lb n="6" xml:id="p119-5"/>Οἱ δὲ λέγοντες τρέφεσθαι τὰ παιδία ἐν ταῖς ὑστέραις
+              <lb n="7" xml:id="p119-6"/>διὰ τοῦ σαρκίδιόν τι βάλλειν οὐκ ὀρθῶς λέγουσιν.<note type="apparatus" n="7" target="#p119-6">βάλλειν libri et Arist. PSZ: θάλλειν Arist. Y: βδάλλειν Arist. vulg.</note>
             </quote>
             <p>
-              <lb n="7" xml:id="p119-6"/>διὰ τοῦ σαρκίδιόν τι βάλλειν οὐκ ὀρθῶς λέγουσιν.<note type="apparatus" n="7" target="#p119-6">βάλλειν libri et Arist. PSZ: θάλλειν Arist. Y: βδάλλειν Arist. vulg.</note>
               <lb n="8" xml:id="p119-7"/>Ἦσαν οἱ λέγοντες τὰ ἔμβρυα μὴ τρέφεσθαι διὰ τοῦ ὀμφαλοῦ, ἀλλὰ<milestone type="alt-edition" unit="line" ed="Venetiis 1526 (Io. Antonius de Sabio)" n="10"/>
               <lb n="9" xml:id="p119-8"/>σάρκα τινὰ ὁμοίαν γλώσσῃ βάλλοντα ἐν ταῖς ὑστέραις ἕλκειν δι’ αὐτῆς<note type="apparatus" n="9" target="#p119-8">τινὰ om. K</note>
               <lb n="10" xml:id="p119-9"/>τὴν τροφήν. λέγει οὖν μὴ καλῶς τοῦτο λέγειν αὐτούς· εἰ γὰρ ἦν τι<note type="apparatus" n="10" target="#p119-9">τούτου a τι] τὸ Ka</note><milestone type="alt-edition" unit="line" ed="Venetiis 1526 (Io. Antonius de Sabio)" n="15"/>
@@ -4864,9 +4864,9 @@
             <milestone unit="bekker" n="746b16"/>
             <quote type="lemma">
               <lb n="1" xml:id="p120-0"/>Ἔστι δὲ τὸ πρόβλημα καθόλου μέν, διὰ τίνα αἰτίαν
+              <lb n="2" xml:id="p120-1"/>ἄγονον ἢ θῆλυ ἢ ἄρρεν ἐστίν.<note type="apparatus" n="2" target="#p120-1">ἄρρεν ἢ θῆλυ Arist. vulg.</note>
             </quote>
             <p>
-              <lb n="2" xml:id="p120-1"/>ἄγονον ἢ θῆλυ ἢ ἄρρεν ἐστίν.<note type="apparatus" n="2" target="#p120-1">ἄρρεν ἢ θῆλυ Arist. vulg.</note>
               <lb n="3" xml:id="p120-2"/>Ὃ λέγει δυνάμει τοιοῦτόν ἐστι· τὸ παρὸν πρόβλημά ἐστι καὶ καθόλου<note type="apparatus" n="3" target="#p120-2">post ὁ add. δὲ IKL</note><milestone type="alt-edition" unit="line" ed="Venetiis 1526 (Io. Antonius de Sabio)" n="15"/>
               <lb n="4" xml:id="p120-3"/>καὶ ἐπὶ μέρους, ἐπὶ μὲν ἀνθρώπων καὶ προβάτων καὶ τῶν τοιούτων ἐπὶ<note type="apparatus" n="4" target="#p120-3">μέρος L¹</note>
               <lb n="5" xml:id="p120-4"/>μέρους, ἐπὶ δὲ τῶν ἡμιόνων καθόλου. καὶ αἱ μὲν αἰτίαι, δι’ ἃς ἄνθρωποί<milestone type="alt-edition" unit="line" ed="Venetiis 1526 (Io. Antonius de Sabio)" n="20"/>
@@ -4897,9 +4897,9 @@
             <milestone unit="bekker" n="747a3"/>
             <quote type="lemma">
               <lb n="27" xml:id="p120-26"/>Διόπερ εὐλόγως βασανίζεται ταῖς πείραις τό γε τῶν
+              <lb n="28" xml:id="p120-27"/>ἀνδρῶν, εἰ ἄγονον, ἐν τῷ ὕδατι.
             </quote>
             <p>
-              <lb n="28" xml:id="p120-27"/>ἀνδρῶν, εἰ ἄγονον, ἐν τῷ ὕδατι.
               <lb n="29" xml:id="p120-28"/>Τῶν παλαιῶν ἐπειδάν τις ἤμελλε νυμφίον ἀγαγέσθαι εἰς τὴν ἑαυτοῦ<note type="apparatus" n="29" target="#p120-28">ἄγεσθαι a</note>
               <lb n="30" xml:id="p120-29"/>θυγατέρα ἢ νύμφην εἰς τὸν υἱόν, εἰ μὲν ἦν γόνιμος, ἤγετο, εἰ δ’ ἄγονος,<note type="apparatus" n="30" target="#p120-29">ἦ] καὶ IL</note>
               <lb n="31" xml:id="p120-30"/>οὐδαμῶς· διὰ παιδοποιίαν γὰρ τότε ἀλλ’ οὐ πλούτου ἕνεκεν ἤγοντο τοὺς<note type="apparatus" n="31" target="#p120-30">γὰρ καὶ οὐ K ἦγον ILa</note><milestone type="alt-edition" unit="line" ed="Venetiis 1526 (Io. Antonius de Sabio)" n="10"/>
@@ -4946,9 +4946,9 @@
             <milestone unit="bekker" n="747a17"/>
             <quote type="lemma">
               <lb n="1" xml:id="p122-0"/>Αἴτιον δ’ ὅτι ἡ τῆς γονῆς φύσις ὁμοία ἐστὶ τῇ τοῦ<note type="apparatus" n="1" target="#p122-0">ὁμοία ἐστὶ scripsi coll. v. 8 et Arist. cod. P: ὁμοίαν ἔχει libri et Arist. SZ: ὁμοίως ἔχει Arist. vulg.</note>
+              <lb n="2" xml:id="p122-1"/>ἐγκεφάλου.
             </quote>
             <p>
-              <lb n="2" xml:id="p122-1"/>ἐγκεφάλου.
               <lb n="3" xml:id="p122-2"/>Τοῦτο οὐκ ἔστι κατασκευαστικόν, ὡς ἄν τῳ δόξειε μὴ ἐπισκοποῦντι<note type="apparatus" n="3" target="#p122-2">τῷ libri σκοποῦντι a</note>
               <lb n="4" xml:id="p122-3"/>τὸ ἐπιφερόμενον συμπέρασμα, τοῦ πῶς χρώννυται τὸ πτύελον, ἀλλὰ τοῦ
               <lb n="5" xml:id="p122-4"/>πῶς ἀνερχομένης κάτωθεν ἐκ τῶν ἄρθρων ἄνω εἰς τὰς ῥῖνας τῆς τῶν<note type="apparatus" n="5" target="#p122-4">ἀνεξερχομένης a</note><milestone type="alt-edition" unit="line" ed="Venetiis 1526 (Io. Antonius de Sabio)" n="5"/>
@@ -4979,9 +4979,9 @@
             <milestone unit="bekker" n="747a28"/>
             <quote type="lemma">
               <lb n="27" xml:id="p122-26"/>Λέγουσι γὰρ ἐπὶ πάντων ὁμοίως τὴν ἀπόδειξιν τῶν
+              <lb n="28" xml:id="p122-27"/>παρὰ τὴν συγγένειαν συνδυαζομένων.<note type="apparatus" n="28" target="#p122-27">παρὰ] περὶ I</note>
             </quote>
             <p>
-              <lb n="28" xml:id="p122-27"/>παρὰ τὴν συγγένειαν συνδυαζομένων.<note type="apparatus" n="28" target="#p122-27">παρὰ] περὶ I</note>
               <lb n="29" xml:id="p122-28"/>Τοῦτο ἴσον ἐστὶ τῷ ἔδει οὖν τὰς ἀποδείξεις, ἃς λέγουσι περὶ τῶν
               <lb n="30" xml:id="p122-29"/>γεννωμένων ἐκ τῆς τῶν ἀνομοίων μίξεως, μὴ ἐφαρμόζειν μόνοις τοῖς ἡμιόνοις,<note type="apparatus" n="30" target="#p122-29">τῶν ὁμοίων K ἡμίοσιν Ia</note><milestone type="alt-edition" unit="line" ed="Venetiis 1526 (Io. Antonius de Sabio)" n="35"/>
               <lb n="31" xml:id="p122-30"/>ἀλλ’ ἁπλῶς πᾶσι τοῖς ἐξ ἀνομοίων τικτομένοις. ὁ μὲν οὖν Δημόκριτος,
@@ -5006,9 +5006,9 @@
             <milestone unit="bekker" n="747a34"/>
             <quote type="lemma">
               <lb n="11" xml:id="p123-10"/>Ἐμπεδοκλῆς δ’ αἰτιᾶται τὸ μῖγμα τῶν σπερμάτων γίνεσθαι<note type="apparatus" n="11" target="#p123-10">μῖγμα τὸ τῶν Arist. P</note><note type="apparatus" n="11-12" target="#p123-10 #p123-11">γενέσθαι IL, sed cf. v. 28</note>
+              <lb n="12" xml:id="p123-11"/>πυκνόν.
             </quote>
             <p>
-              <lb n="12" xml:id="p123-11"/>πυκνόν.
               <lb n="13" xml:id="p123-12"/>Ἐμπεδοκλῆς ἐν ἅπασι τοῖς σώμασι τοῖς ὑπὸ σελήνην, οἷον ὕδασιν,
               <lb n="14" xml:id="p123-13"/>ἐλαίοις καὶ τοῖς ἄλλοις, εἶναι ἔλεγεν, ὡς καὶ ἐν τῇ Περὶ γενέσεως καὶ φθορᾶς<note type="apparatus" n="14" target="#p123-13">καὶ post ὡς om. a ἐν τῇ Περὶ γενέσεως καὶ φθορᾶς] A 8</note><milestone type="alt-edition" unit="line" ed="Venetiis 1526 (Io. Antonius de Sabio)" n="5"/>
               <lb n="15" xml:id="p123-14"/>εἴρηκεν, ἀναμεμιγμένους πόρους καὶ ναστά, καὶ τοὺς μὲν πόρους ἐκάλεσε<note type="apparatus" n="15" target="#p123-14">εἴρηκεν ex εἰρήκαμεν corr. L</note>
@@ -5041,9 +5041,9 @@
             <milestone unit="bekker" n="747b10"/>
             <quote type="lemma">
               <lb n="3" xml:id="p124-2"/>Ἔτι ἐπεὶ συμβαίνει καὶ ἐξ ἵππων γενέσθαι ἵππον καὶ<note type="apparatus" n="3" target="#p124-2">ἐπειδὴ Arist. γίνεσθαι Arist.</note>
+              <lb n="4" xml:id="p124-3"/>ἐξ ὄνων ὄνον καὶ ἐξ ἵππου καὶ ὄνου ἡμίονον ἀμφοτέρως.
             </quote>
             <p>
-              <lb n="4" xml:id="p124-3"/>ἐξ ὄνων ὄνον καὶ ἐξ ἵππου καὶ ὄνου ἡμίονον ἀμφοτέρως.
               <lb n="5" xml:id="p124-4"/>Τὸ ἀμφοτέρως ἀντὶ τοῦ καὶ ἐξ ἵππου ἄρρενος καὶ ὄνου θηλείας<note type="apparatus" n="5" target="#p124-4">ἀντὶ τοῦ om. IL post θηλείας add. δὲ a</note>
               <lb n="6" xml:id="p124-5"/>γίνεται ἡμίονος καὶ ἐξ ὄνου ἄρρενος καὶ ἵππου θηλείας. ἐπεὶ οὖν, φησί, καὶ<note type="apparatus" n="6" target="#p124-5">καὶ ἐξ ἵππου IL</note><milestone type="alt-edition" unit="line" ed="Venetiis 1526 (Io. Antonius de Sabio)" n="35"/>
               <lb n="7" xml:id="p124-6"/>τὸ ἐξ ἵππου ἄρρενος μαλακόν ἐστι καὶ ἐκ τῆς θηλείας ὁμοίως ἵππου, διὰ<note type="apparatus" n="7" target="#p124-6">post ὁμοίως add. καὶ IL</note><note type="apparatus" n="7-8" target="#p124-6 #p124-7">διὰ — αἰτία] διὰ τί K</note>
@@ -5055,9 +5055,9 @@
             <milestone unit="bekker" n="747b20"/>
             <quote type="lemma">
               <lb n="10" xml:id="p124-9"/>Εἰ μὲν γὰρ θάτερον ἐμίγνυτο μόνον, ἐνῆν ἂν λέγειν
+              <lb n="11" xml:id="p124-10"/>ὅτι θάτερον αἴτιον τοῦ μὴ γεννᾶν ὅμοιον τῇ τοῦ ὄνου γονῇ.
             </quote>
             <p>
-              <lb n="11" xml:id="p124-10"/>ὅτι θάτερον αἴτιον τοῦ μὴ γεννᾶν ὅμοιον τῇ τοῦ ὄνου γονῇ.
               <lb n="12" xml:id="p124-11"/>Ὄνον τὴν ὄνον λέγει καὶ γονὴν τὸ καταμήνιον αὐτῆς. πάμπαν δὲ<note type="apparatus" n="12" target="#p124-11">τὴν ὄνον] τὴν θήλειαν Ka λέγειν L: λέγων I</note>
               <lb n="13" xml:id="p124-12"/>βραχέως καὶ διὰ τοῦτο ἀσαφῶς ἀπήγγελται ἡ λέξις. εἴη δ’ ἂν τὸ λεγόμενον<note type="apparatus" n="13" target="#p124-12">βραχὺ K</note><milestone type="alt-edition" unit="line" ed="Venetiis 1526 (Io. Antonius de Sabio)" n="5"/>
               <lb n="14" xml:id="p124-13"/>τοιοῦτον· εἰ μὲν οὖν ἡμίονος εἴτε ἄρρην εἴτε θῆλυς ὁ ἐξ ἄρρενος<note type="apparatus" n="14" target="#p124-13">post οὖν add. ὁ Ka εἴτε ὁ ἄρρην εἴτε ὁ θῆλυς K: εἴτε ἄρρεν εἴτε θῆλυ a ὁ et ἄρρενος om. K</note>
@@ -5101,9 +5101,9 @@
             <milestone unit="bekker" n="747b22"/>
             <quote type="lemma">
               <lb n="15" xml:id="p125-14"/>Νῦν δὲ οἵαπερ οὔσῃ ἐκείνῃ μίγνυται, τοιαύτῃ καὶ τῇ
+              <lb n="16" xml:id="p125-15"/>τοῦ συγγενοῦς.
             </quote>
             <p>
-              <lb n="16" xml:id="p125-15"/>τοῦ συγγενοῦς.
               <lb n="17" xml:id="p125-16"/>Τουτέστι νῦν δὲ οἵα ἐστὶν ἡ γονὴ τῆς θηλείας ὄνου, ἐν ᾗ μίγνυται<note type="apparatus" n="17" target="#p125-16">δὲ om. a</note>
               <lb n="18" xml:id="p125-17"/>τὸ τοῦ ἄρρενος ἵππου σπέρμα, τοιαύτη ἐστὶ καὶ ἡ τῆς θηλείας ἵππου· ὑγρὰ<milestone type="alt-edition" unit="line" ed="Venetiis 1526 (Io. Antonius de Sabio)" n="30"/>
               <lb n="19" xml:id="p125-18"/>γὰρ καὶ αὕτη. συγγενῆ δὲ εἶπε τὴν θήλειαν ἵππον καὶ τὸν ἄρρενα ἵππον,
@@ -5135,9 +5135,9 @@
             <milestone unit="bekker" n="747b27"/>
             <quote type="lemma">
               <lb n="1" xml:id="p126-0"/>Ἴσως δ’ ἂν ἀπόδειξις εἶναι δόξειε πιθανὴ τῶν εἰρημένων<note type="apparatus" n="1" target="#p126-0">δὲ μᾶλλον ἂν Arist., cf. v. 7 δόξειεν Arist. P: δόξει L¹: δόξῃ K corr. L, Arist. SYZ</note>
+              <lb n="2" xml:id="p126-1"/>λογική.
             </quote>
             <p>
-              <lb n="2" xml:id="p126-1"/>λογική.
               <lb n="3" xml:id="p126-2"/>Τίς ἐστιν ἡ λογικὴ ἀπόδειξις, αὐτὸς σαφηνίζει λέγων λέγω δὲ λογικὴν
               <lb n="4" xml:id="p126-3"/>τὴν καθόλου καὶ πλείοσιν ἐφαρμόζουσαν, τοιαύτη δ’ ἐστὶν ἡ μὴ ἐκ τῶν
               <lb n="5" xml:id="p126-4"/>οἰκείων ἀρχῶν οὖσα τοῦ πράγματος, ἀλλ’ ἐκ κοινοτέρων, ὡς ἐν τοῖς Ὑστέροις<note type="apparatus" n="5-6" target="#p126-4 #p126-5">ἐν τοῖς Ὑστέροις ἀναλυτικοῖς] A 2</note><milestone type="alt-edition" unit="line" ed="Venetiis 1526 (Io. Antonius de Sabio)" n="5"/>
@@ -5183,9 +5183,9 @@
             <milestone unit="bekker" n="748a16"/>
             <quote type="lemma">
               <lb n="5" xml:id="p127-4"/>Πρῶτον μὲν ἑκάτερον αὐτῶν ἐστι μονοτόκον ἐκ τῶν
+              <lb n="6" xml:id="p127-5"/>συγγενῶν ζῴων.
             </quote>
             <p>
-              <lb n="6" xml:id="p127-5"/>συγγενῶν ζῴων.
               <lb n="7" xml:id="p127-6"/>Συγγενῆ νῦν λέγει τὰ τετράποδα καὶ ζῳοτόκα. μέλλων δὲ τὴν οἰκείαν<milestone type="alt-edition" unit="line" ed="Venetiis 1526 (Io. Antonius de Sabio)" n="5"/>
               <lb n="8" xml:id="p127-7"/>καὶ ἀληθῆ λέγειν δόξαν τῆς τῶν ἡμιόνων ἀτεκνίας πρῶτον ἐκτίθεται τὰ<note type="apparatus" n="8" target="#p127-7">καὶ om. L</note>
               <lb n="9" xml:id="p127-8"/>ὑπάρχοντα τοῖς ἵπποις καὶ ὄνοις, ἐξ ὧν εἰσιν ἡμίονοι, καὶ οὕτως ἐκ τούτων<milestone type="alt-edition" unit="line" ed="Venetiis 1526 (Io. Antonius de Sabio)" n="10"/>
@@ -5375,9 +5375,9 @@
             <milestone unit="bekker" n="750a20"/>
             <quote type="lemma">
               <lb n="14" xml:id="p132-13"/>Ὅτι δὲ τοῖς πολυγόνοις τρέπεται εἰς τὸ σπέρμα ἡ τροφή,<note type="apparatus" n="14" target="#p132-13">τὸ σπέρμα] hinc pergit I</note>
+              <lb n="15" xml:id="p132-14"/>φανερὸν ἐκ τῶν συμβαινόντων.
             </quote>
             <p>
-              <lb n="15" xml:id="p132-14"/>φανερὸν ἐκ τῶν συμβαινόντων.
               <lb n="16" xml:id="p132-15"/>Εἰπὼν πολλάκις ὅτι ἐν τοῖς πολυγόνοις τρέπεται ἡ τροφὴ εἰς σπέρματος
               <lb n="17" xml:id="p132-16"/>γένεσιν (λέγων σπέρμα τήν τε γονὴν καὶ τὸ καταμήνιον) πιστοῦται τοῦτο<note type="apparatus" n="17" target="#p132-16">γονὴν] τροφὴν K τοῦτο om. IL</note><milestone type="alt-edition" unit="folio" ed="Venetiis 1526 (Io. Antonius de Sabio)" n="63v"/>
               <lb n="18" xml:id="p132-17"/>ἐκ τῶν συμβαινόντων αὐτοῖς. τὰ γὰρ δένδρα, φησί, τὰ πολυκαρπήσαντα<note type="apparatus" n="18" target="#p132-17">φησί om. IL</note>
@@ -5436,9 +5436,9 @@
             <milestone unit="bekker" n="750b32"/>
             <quote type="lemma">
               <lb n="32" xml:id="p133-31"/>Ὅλως δὲ ἐν τοῖς ὄρνισιν οὐδὲ τὰ γινόμενα διὰ τῆς<note type="apparatus" n="32" target="#p133-31">γινόμενα scripsi ex Arist. coll. p. 134,3: γόνιμα K</note>
+              <lb n="33" xml:id="p133-32"/>ὀχείας ᾠὰ θέλει ὡς ἐπὶ τὸ πολὺ λαμβάνειν αὔξησιν.
             </quote>
             <p>
-              <lb n="33" xml:id="p133-32"/>ὀχείας ᾠὰ θέλει ὡς ἐπὶ τὸ πολὺ λαμβάνειν αὔξησιν.
               <lb n="34" xml:id="p133-33"/>Εἰπὼν ὅτι μὲν οὔτε τὰ τῶν ὀρνίθων οὔτε τὰ τῶν ἰχθύων ᾠὰ τελειοῦνται
               <lb n="35" xml:id="p133-34"/>πρὸς τὴν γένεσιν καὶ γόνιμα γίνεται δίχα τῶν ἀρρένων, ἱκανῶς<milestone type="alt-edition" unit="line" ed="Venetiis 1526 (Io. Antonius de Sabio)" n="35"/>
             </p>
@@ -5495,9 +5495,9 @@
             <milestone unit="bekker" n="751b1"/>
             <quote type="lemma">
               <lb n="10" xml:id="p135-9"/>Τὸ μὲν οὖν ἐστιν ἐγγύτερον αὐτοῦ τῆς μορφῆς τῶν μορίων<note type="apparatus" n="10" target="#p135-9">ἐγγυτέρω IL, sed cf. v. 14</note>
+              <lb n="11" xml:id="p135-10"/>γινομένων, τὸ θερμόν.
             </quote>
             <p>
-              <lb n="11" xml:id="p135-10"/>γινομένων, τὸ θερμόν.
               <lb n="12" xml:id="p135-11"/>Εἰπὼν ὅτι ἑκάτερον αὐτῶν ἑτέρας ἐστὶ δυνάμεως, λέγει τίς ἐστιν ἡ
               <lb n="13" xml:id="p135-12"/>ἑκάστου τούτων δύναμις. τὸ μὲν οὖν θερμόν, φησὶ λέγων θερμὸν τὸ
               <lb n="14" xml:id="p135-13"/>λευκόν, ἐγγύτερον καὶ ἐπιτηδειότερόν ἐστι πρὸς τὸ δέξασθαι τὴν μορφὴν<milestone type="alt-edition" unit="line" ed="Venetiis 1526 (Io. Antonius de Sabio)" n="10"/>
@@ -5550,9 +5550,9 @@
             <milestone unit="bekker" n="752a10"/>
             <quote type="lemma">
               <lb n="20" xml:id="p136-19"/>Ἀποκρίνεται δὲ ἐν τοῖς ᾠοῖς ἡ τοῦ ἄρρενος ἀρχὴ
+              <lb n="21" xml:id="p136-20"/>καθ’ ὃ προσπέφυκε τῇ ὑστέρᾳ τὸ ᾠόν.<note type="apparatus" n="21" target="#p136-20">καθ’ ὃ Arist. et v.</note>
             </quote>
             <p>
-              <lb n="21" xml:id="p136-20"/>καθ’ ὃ προσπέφυκε τῇ ὑστέρᾳ τὸ ᾠόν.<note type="apparatus" n="21" target="#p136-20">καθ’ ὃ Arist. et v.</note>
               <lb n="22" xml:id="p136-21"/>Διὰ τούτων λέγει, ποῦ τῶν τοῦ ᾠοῦ μερῶν κεῖται ἡ ἐν αὐτῷ οὖσα<milestone type="alt-edition" unit="line" ed="Venetiis 1526 (Io. Antonius de Sabio)" n="30"/>
               <lb n="23" xml:id="p136-22"/>τοῦ ἄρρενος ἀπόκρισις, καὶ λέγει κεῖσθαι, καθ’ ὃ προσπέφυκε τῇ ὑστέρᾳ,<note type="apparatus" n="23" target="#p136-22">ILa: καθ’ ἃ h. l. ILa, et utrobique K</note>
               <lb n="24" xml:id="p136-23"/>τοῦτο δ’ ἐστὶ τὸ ὀξύ. τρόπον γάρ τινα κωνοειδὲς ὂν τὸ ᾠόν, ἐν τῷ ὀξεῖ<note type="apparatus" n="24" target="#p136-23">κωνοειδοῦς ὄντος τοῦ ᾠοῦ a</note><milestone type="alt-edition" unit="line" ed="Venetiis 1526 (Io. Antonius de Sabio)" n="35"/>
@@ -5637,9 +5637,9 @@
             <milestone unit="bekker" n="753a7"/>
             <quote type="lemma">
               <lb n="23" xml:id="p138-22"/>Ἔοικε δ’ ἡ φύσις βούλεσθαι τὴν τῶν τέκνων αἴσθησιν<note type="apparatus" n="23" target="#p138-22">δὲ καὶ ἡ Arist. vulg.</note>
+              <lb n="24" xml:id="p138-23"/>ἐπιμελητικὴν παρασκευάζειν.<note type="apparatus" n="24" target="#p138-23">ἐπιμελητὴν ex corr. K</note>
             </quote>
             <p>
-              <lb n="24" xml:id="p138-23"/>ἐπιμελητικὴν παρασκευάζειν.<note type="apparatus" n="24" target="#p138-23">ἐπιμελητὴν ex corr. K</note>
               <lb n="25" xml:id="p138-24"/>Ἐπειδὴ γὰρ εἶπεν ὅτι φυλακῆς χάριν ἐπῳάζουσιν, ἀλλ’ οὐ συμπέψεως,<note type="apparatus" n="25" target="#p138-24">ἐπῳάζουσιν om. L</note>
               <lb n="26" xml:id="p138-25"/>ἐπάγει ἄλλην αἰτίαν διὰ τούτων, τοῦτο δυνάμει λέγων ‘παρασκευάζει δὲ ἡ<note type="apparatus" n="26" target="#p138-25">post ἐπάγει add. καὶ Ka τοῦτο] τούτω a δυνάμει τοῦτο coll. K</note><milestone type="alt-edition" unit="line" ed="Venetiis 1526 (Io. Antonius de Sabio)" n="5"/>
               <lb n="27" xml:id="p138-26"/>φύσις αὐτὰ ἐπῳάζειν, ὅπως καθ’ ἑκάστην ὁρῶντα καὶ αἴσθησιν τούτων
@@ -5662,9 +5662,9 @@
             <milestone unit="bekker" n="753a15"/>
             <quote type="lemma">
               <lb n="5" xml:id="p139-4"/>Διόπερ καὶ μὴ ἐπῳάζουσαι αἱ θήλειαι, ὅταν τέκωσι,<note type="apparatus" n="5" target="#p139-4">διὸ Κ μὴ Κ Arist. vulg.: om. IL Arist. Ζ</note>
+              <lb n="6" xml:id="p139-5"/>διατίθενται χεῖρον.
             </quote>
             <p>
-              <lb n="6" xml:id="p139-5"/>διατίθενται χεῖρον.
               <lb n="7" xml:id="p139-6"/>Ἐπειδὴ τὸ εἶναι καὶ τὸ τέλος τῆς ἑκάστου φύσεώς ἐστιν ἐν τῷ γεννᾶν<milestone type="alt-edition" unit="line" ed="Venetiis 1526 (Io. Antonius de Sabio)" n="20"/>
               <lb n="8" xml:id="p139-7"/>οἷον αὐτό, εἴ τις τὴν κισσῶσαν ὄρνιθα κωλύσει καὶ μὴ ἐάσει ἐπῳάσαι<note type="apparatus" n="8" target="#p139-7">τις om. IL</note>
               <lb n="9" xml:id="p139-8"/>(πολλοὶ γὰρ βρέχουσιν αὐτὰς ὕδατι καὶ οὐκ ἐῶσιν ἐπῳάζειν) ἴστω βλάπτων<milestone type="alt-edition" unit="line" ed="Venetiis 1526 (Io. Antonius de Sabio)" n="25"/>
@@ -5719,9 +5719,9 @@
             <milestone unit="bekker" n="753b30"/>
             <quote type="lemma">
               <lb n="18" xml:id="p140-17"/>Δεῖ γὰρ ὑπολαβεῖν τὰ ᾠοτοκούμενα τῶν ζῴων πρὸς μὲν
+              <lb n="19" xml:id="p140-18"/>τὸ ὠχρὸν οὕτως ἔχειν.
             </quote>
             <p>
-              <lb n="19" xml:id="p140-18"/>τὸ ὠχρὸν οὕτως ἔχειν.
               <lb n="20" xml:id="p140-19"/>Τὸ δεῖ γὰρ ἀντὶ τοῦ δεῖ δέ· οὐ γάρ ἐστι κατασκευαστικὸν τῶν προσεχῶς<milestone type="alt-edition" unit="line" ed="Venetiis 1526 (Io. Antonius de Sabio)" n="10"/>
               <lb n="21" xml:id="p140-20"/>ῥηθέντων. τὸ δὲ λεγόμενον τοιοῦτόν ἐστιν· ὃν λόγον ἔχει τὰ ἔμβρυα πρὸς
               <lb n="22" xml:id="p140-21"/>τὸ ἐν τῇ ὑστέρᾳ αἷμα, ἀφ’ οὗ διὰ τοῦ ὀμφαλοῦ τρέφεταί τε καὶ αὔξεται,<note type="apparatus" n="22" target="#p140-21">τε om. IL</note>
@@ -5770,9 +5770,9 @@
             <milestone unit="bekker" n="754a26"/>
             <quote type="lemma">
               <lb n="26" xml:id="p141-25"/>Αἰτία δ’ ἡ τοῦ σώματος φύσις· τήν τε γὰρ κεφαλὴν<note type="apparatus" n="26" target="#p141-25">αἰτία K Arist.: αἴτιον IL</note>
+              <lb n="27" xml:id="p141-26"/>πολλαπλασίαν ἔχει τοῦ λοιποῦ σώματος.
             </quote>
             <p>
-              <lb n="27" xml:id="p141-26"/>πολλαπλασίαν ἔχει τοῦ λοιποῦ σώματος.
               <lb n="28" xml:id="p141-27"/>Ἐπεὶ γὰρ ἡ τοῦ βατράχου κεφαλὴ πολλαπλασία ἐστὶ τοῦ λοιποῦ σώματος,<note type="apparatus" n="28" target="#p141-27">Ἐπεὶ—σώματος om. K</note><milestone type="alt-edition" unit="line" ed="Venetiis 1526 (Io. Antonius de Sabio)" n="20"/>
               <lb n="29" xml:id="p141-28"/>εἴπερ ἐν ἑαυτῷ ἐζῳοτόκει, ἀνάγκη αὐξομένων τῶν ἐμβρύων ὀγκοῦσθαι τὴν
               <lb n="30" xml:id="p141-29"/>γαστέρα, ὀγκουμένην δὲ προσπίπτειν ταῖς ἐν τῇ κεφαλῇ ἀκάνθαις καὶ<milestone type="alt-edition" unit="line" ed="Venetiis 1526 (Io. Antonius de Sabio)" n="25"/>
@@ -5796,9 +5796,9 @@
             <milestone unit="bekker" n="754b3"/>
             <quote type="lemma">
               <lb n="9" xml:id="p142-8"/>Τούτοις δὲ καὶ τοῖς τῶν ὀρνίθων τῇ μὲν ὁμοία τῇ δὲ
+              <lb n="10" xml:id="p142-9"/>διάφορός ἐστιν.
             </quote>
             <p>
-              <lb n="10" xml:id="p142-9"/>διάφορός ἐστιν.
               <lb n="11" xml:id="p142-10"/>Τούτοις λέγει πάλιν ἁπλῶς τοῖς σελάχεσι, τῷ τε βατράχῳ καὶ τοῖς<note type="apparatus" n="11" target="#p142-10">λέγων K πάλιν] πᾶσιν IK</note>
               <lb n="12" xml:id="p142-11"/>ἄλλοις ἅπασιν. ὃ δὲ λέγει, τοιοῦτόν ἐστιν· ἡ γένεσις τῶν σελαχῶν πάντων<milestone type="alt-edition" unit="line" ed="Venetiis 1526 (Io. Antonius de Sabio)" n="45"/>
               <lb n="13" xml:id="p142-12"/>καὶ ἡ τῶν ὀρνίθων πάντων τῇ <milestone type="alt-edition" unit="folio" ed="Venetiis 1526 (Io. Antonius de Sabio)" n="69r"/> μέν ἐστιν ὁμοία, τῇ δὲ διάφορος· καὶ<note type="apparatus" n="13" target="#p142-12">ἡ] ὁ La</note>
@@ -5853,9 +5853,9 @@
             <milestone unit="bekker" n="754b21"/>
             <quote type="lemma">
               <lb n="22" xml:id="p143-21"/>Αἴτιον δ’ ὅτι τὰ μὲν τῶν ὀρνίθων κεχωρισμένον ἔχει
+              <lb n="23" xml:id="p143-22"/>τὸ ὠχρὸν καὶ τὸ λευκόν.<note type="apparatus" n="23" target="#p143-22">ὠχρὸν] ὠὸν I</note>
             </quote>
             <p>
-              <lb n="23" xml:id="p143-22"/>τὸ ὠχρὸν καὶ τὸ λευκόν.<note type="apparatus" n="23" target="#p143-22">ὠχρὸν] ὠὸν I</note>
               <lb n="24" xml:id="p143-23"/>Εἰπὼν ὅτι οἱ μὲν τῶν ὀρνίθων νεοττοὶ γίνονται ἐκ τοῦ ὀξέος τοῦ ᾠοῦ,<note type="apparatus" n="24" target="#p143-23">εἰπὼν om. K</note>
               <lb n="25" xml:id="p143-24"/>οἱ δὲ τῶν σελαχῶν ἐκ τοῦ ἑτέρου ἄκρου τοῦ μὴ ὀξέος, καὶ εἰπὼν αἴτιον δ’<note type="apparatus" n="25" target="#p143-24">post δὲ add. ἐκ K</note>
               <lb n="26" xml:id="p143-25"/>ὅτι τὸ μὲν τῶν ὀρνίθων χωρίζεται τῆς ὑστέρας, οὐδὲν δὲ διὰ τούτων<milestone type="alt-edition" unit="line" ed="Venetiis 1526 (Io. Antonius de Sabio)" n="5"/>
@@ -5965,9 +5965,9 @@
             <milestone unit="bekker" n="755b7"/>
             <quote type="lemma">
               <lb n="10" xml:id="p146-9"/>Εἰσὶ δέ τινες οἵ φασι πάντας εἶναι τοὺς ἰχθύας θήλεις
+              <lb n="11" xml:id="p146-10"/>πλὴν τῶν σελαχῶν.
             </quote>
             <p>
-              <lb n="11" xml:id="p146-10"/>πλὴν τῶν σελαχῶν.
               <lb n="12" xml:id="p146-11"/>Τῶν γὰρ σελαχῶν τοὺς μὲν εἶναι θήλεις, τοὺς δὲ ἄρρενας ὡμολόγουν.<note type="apparatus" n="12" target="#p146-11">ante Τῶν add. Οἱ λέγοντες ἅπαντας εἶναι τοὺς ἰχθύας θηλείας πλὴν τῶν σελαχῶν a θηλείας a</note><milestone type="alt-edition" unit="line" ed="Venetiis 1526 (Io. Antonius de Sabio)" n="25"/>
               <lb n="13" xml:id="p146-12"/>οἱ δὴ λέγοντες πάντας θήλεις, ἐπειδὴ ἑώρων τοὺς μὲν φέροντας ᾠά, τοὺς<note type="apparatus" n="13" target="#p146-12">δὴ] δὲ LKa</note>
               <lb n="14" xml:id="p146-13"/>δὲ οὐδαμῶς οὐδέποτε ἑώρων, ἔλεγον ὅτι καὶ οἱ μὴ φέροντες ᾠὰ θήλεις<note type="apparatus" n="14" target="#p146-13">ἑώρων om. Ka ἔλεγον] ἔλυον K</note>
@@ -5990,9 +5990,9 @@
             <milestone unit="bekker" n="755b16"/>
             <quote type="lemma">
               <lb n="28" xml:id="p146-27"/>Ἔδει δ’ οὐ μόνον τοὺς ᾠοτοκοῦντας ἀλλὰ καὶ τοὺς<note type="apparatus" n="28" target="#p146-27">Ἔδει—μόνον] ἔτι δ’ οὐ μόνον Arist. PSY: ἔτι δ’ οὐ μὴν K</note>
+              <lb n="29" xml:id="p146-28"/>ἄλλους ἔχειν μέν.
             </quote>
             <p>
-              <lb n="29" xml:id="p146-28"/>ἄλλους ἔχειν μέν.
               <lb n="30" xml:id="p146-29"/>Τὸ λεγόμενον τοιοῦτόν ἐστιν· εἰ ἦσαν ἅπαντες οἱ ἰχθύες θήλεις, οὐ<note type="apparatus" n="30" target="#p146-29">εἰ om. a</note>
               <lb n="31" xml:id="p146-30"/>μόνον τοὺς ᾠοτοκοῦντας ὑστέρας ἔδει ἔχειν, ἀλλὰ καὶ τοὺς μὴ ᾠοτοκοῦντας,<note type="apparatus" n="31" target="#p146-30">δεῖ IL</note>
             </p>
@@ -6011,9 +6011,9 @@
             <milestone unit="bekker" n="755b22"/>
             <quote type="lemma">
               <lb n="8" xml:id="p147-7"/>Ἡ δ’ ἀπορία δι’ ἣν οὕτως λέγουσιν, εὔλυτος τὸ συμβαῖνον<note type="apparatus" n="8" target="#p147-7">λέγουσιν] ὑπολαμβάνουσιν Arist. εὔλυτον IL</note>
+              <lb n="9" xml:id="p147-8"/>ἀκούσασιν.
             </quote>
             <p>
-              <lb n="9" xml:id="p147-8"/>ἀκούσασιν.
               <lb n="10" xml:id="p147-9"/>Ὁ μὲν οὖν συλλογισμός, ὃς ἠπάτα αὐτοὺς πάντας τοὺς ἰχθῦς λέγειν<note type="apparatus" n="10" target="#p147-9">ἠπάτησεν Ka</note><milestone type="alt-edition" unit="line" ed="Venetiis 1526 (Io. Antonius de Sabio)" n="10"/>
               <lb n="11" xml:id="p147-10"/>θήλεις, οὗτος· πᾶς ἰχθὺς πολυτοκεῖ, οὐδὲν πολυτοκοῦν ὀχεύει ἢ ὀχεύεται,
               <lb n="12" xml:id="p147-11"/>οὐδεὶς ἄρα ἰχθὺς ὀχεύει ἢ ὀχεύεται. ὥστε οὐκ ἔστιν ἐν αὐτοῖς τὸ ἄρρεν·<note type="apparatus" n="12" target="#p147-11">οὐδεὶς—ὀχεύεται om. IL</note><milestone type="alt-edition" unit="line" ed="Venetiis 1526 (Io. Antonius de Sabio)" n="15"/>
@@ -6041,9 +6041,9 @@
             <milestone unit="bekker" n="756a5"/>
             <quote type="lemma">
               <lb n="1" xml:id="p148-0"/>Διὸ καὶ οἱ λέγοντες τὰς κυήσεις εἶναι ἐκ τοῦ ἀνακάμπτειν<note type="apparatus" n="1" target="#p148-0">ἀνακάμπτειν libri et Arist. PSY: ἀνακάπτειν Arist. vulg.</note>
+              <lb n="2" xml:id="p148-1"/>τὸ σπέρμα εἰς τοὺς θήλεις τῶν ἰχθύων.<note type="apparatus" n="2" target="#p148-1">εἰς τοὺς θήλεις Arist. SY et IL infra v. 6. 7: εἰς τὰς θήλεις IL: εἰς τὸ θῆλυ K: τοὺς θ. Ar. vulg.</note>
             </quote>
             <p>
-              <lb n="2" xml:id="p148-1"/>τὸ σπέρμα εἰς τοὺς θήλεις τῶν ἰχθύων.<note type="apparatus" n="2" target="#p148-1">εἰς τοὺς θήλεις Arist. SY et IL infra v. 6. 7: εἰς τὰς θήλεις IL: εἰς τὸ θῆλυ K: τοὺς θ. Ar. vulg.</note>
               <lb n="3" xml:id="p148-2"/>Ἐκεῖνοι μὲν γὰρ ἄρρεν ἐν τοῖς ἰχθύσιν εἶναι οὐκ ἐβούλοντο, ἕτεροι<note type="apparatus" n="3" target="#p148-2">γὰρ om. Ka ἄρρενας K εἶναι ante ἐν ponit K</note>
               <lb n="4" xml:id="p148-3"/>δὲ εἶναι μὲν ἔλεγον, πέμπειν δὲ τὸ σπέρμα εἰς τὸ θῆλυ οὐ διὰ συνδυασμοῦ<note type="apparatus" n="4" target="#p148-3">post μὲν add. ἄρρεν Ka θήλει a οὐ διὰ—θήλεις (7)</note><milestone type="alt-edition" unit="line" ed="Venetiis 1526 (Io. Antonius de Sabio)" n="45"/>
               <lb n="5" xml:id="p148-4"/>καὶ ὁμιλίας, ἀλλ’ ἐναφιέναι αὐτὸ εἰς τὸ ὕδωρ, ἔπειτα καταπίνειν αὐτὸ<milestone type="alt-edition" unit="folio" ed="Venetiis 1526 (Io. Antonius de Sabio)" n="71v"/>
@@ -6149,9 +6149,9 @@
             <milestone unit="bekker" n="757b27"/>
             <quote type="lemma">
               <lb n="29" xml:id="p150-28"/>Τὰ δ’ ἐξ ὀχείας μὲν γενόμενα ᾠά, διακεκριμένα δ’ εἰς
+              <lb n="30" xml:id="p150-29"/>τὸ λευκὸν γίνεται κατὰ τὸ πρῶτον ὀχεῦσαν.
             </quote>
             <p>
-              <lb n="30" xml:id="p150-29"/>τὸ λευκὸν γίνεται κατὰ τὸ πρῶτον ὀχεῦσαν.
               <lb n="31" xml:id="p150-30"/>Ἀπορήσειεν ἄν τις πρὸς τὰ λεγόμενα, πῶς πρότερον λέγων ὅτι οἱ<note type="apparatus" n="31" target="#p150-30">ἀπορήσειε δ’ ἂν K</note>
               <lb n="32" xml:id="p150-31"/>νεοττοὶ κατὰ τὸν ὕστερον ὀχεύσαντα γίνονται, νῦν φησιν ὅτι κατὰ τὸν πρότερον.<note type="apparatus" n="32" target="#p150-31">γίνονται ex γίνεται corr. I ὅτι om. IL</note><milestone type="alt-edition" unit="line" ed="Venetiis 1526 (Io. Antonius de Sabio)" n="35"/>
               <lb n="33" xml:id="p150-32"/>ἢ αὐτὸς ἔλυσε τὴν ἀπορίαν πάνυ ἀκριβῶς θεὶς τὸ διακεκριμένον<note type="apparatus" n="33" target="#p150-32">post ἢ add. ὁ K πάνυ ἀκριβῶς] καλῶς πάνυ K</note>
@@ -6177,9 +6177,9 @@
             <milestone unit="bekker" n="758a8"/>
             <quote type="lemma">
               <lb n="13" xml:id="p151-12"/>Αἴτιον δ’ ὅτι ἡ μορφὴ στρογγύλη τὴν ἰδέαν οὖσα καὶ<note type="apparatus" n="13" target="#p151-12">δ’ ὅτι ἡ IKL Arist. S: δ’ ἡ Arist. vulg.</note>
+              <lb n="14" xml:id="p151-13"/>σφαιροειδής.
             </quote>
             <p>
-              <lb n="14" xml:id="p151-13"/>σφαιροειδής.
               <lb n="15" xml:id="p151-14"/>Αἴτιον, φησί, τοῦ τὸ τῶν πολυπόδων ᾠὸν ἓν εἶναι τὸ τὴν ἰδέαν αὐτῶν<note type="apparatus" n="15" target="#p151-14">αὐτοῦ IL</note>
               <lb n="16" xml:id="p151-15"/>σφαιροειδῆ καὶ στρογγύλην εἶναι· συσχηματίζεται γὰρ αὐτῇ τὸ ᾠὸν καὶ<note type="apparatus" n="16" target="#p151-15">αὐτοῦ IL</note><milestone type="alt-edition" unit="line" ed="Venetiis 1526 (Io. Antonius de Sabio)" n="15"/>
               <lb n="17" xml:id="p151-16"/>οὐκ ἐᾶται διάδηλον φαίνεσθαι τὴν ἐν αὐτῷ σχίσιν. λέγει δὲ καὶ τὰ καραβώδη<note type="apparatus" n="17" target="#p151-16">σχέσιν IL</note>
@@ -6255,9 +6255,9 @@
             <milestone unit="bekker" n="758b19"/>
             <quote type="lemma">
               <lb n="10" xml:id="p153-9"/>Τούτου δ’ αἴτιον ὅτι ἡ φύσις ὡσανεὶ πρὸ ὥρας ᾠοτοκεῖ<note type="apparatus" n="10" target="#p153-9">ὡσπερανεὶ Arist.</note>
+              <lb n="11" xml:id="p153-10"/>διὰ τὴν ἀτέλειαν τὴν αὐτῆς.<note type="apparatus" n="11" target="#p153-10">αὐτοῦ KL</note>
             </quote>
             <p>
-              <lb n="11" xml:id="p153-10"/>διὰ τὴν ἀτέλειαν τὴν αὐτῆς.<note type="apparatus" n="11" target="#p153-10">αὐτοῦ KL</note>
               <lb n="12" xml:id="p153-11"/>Τὴν αἰτίαν διὰ τούτων λέγει, τίνος ἕνεκα πρῶτον μὲν σκώληξ γεννᾶται
               <lb n="13" xml:id="p153-12"/>κινούμενος καὶ ὅλως ζῷον ὑπάρχων, εἶτα αὐξηθεὶς ᾠὸν γίνεται ἀναίσθητον<note type="apparatus" n="13" target="#p153-12">ὅλος a</note><milestone type="alt-edition" unit="line" ed="Venetiis 1526 (Io. Antonius de Sabio)" n="5"/>
               <lb n="14" xml:id="p153-13"/>καὶ ἀκίνητον, εἶθ’ οὕτω πάλιν ζῷον ἕτερον παρὰ τὸν σκώληκα. λέγει οὖν ὅτι ἡ<note type="apparatus" n="14" target="#p153-13">λέγων I</note>
@@ -6281,9 +6281,9 @@
             <milestone unit="bekker" n="758b21"/>
             <quote type="lemma">
               <lb n="29" xml:id="p153-28"/>Τὸν αὐτὸν δὲ τρόπον συμβαίνει καὶ ἐπὶ τῶν ἄλλων τῶν<note type="apparatus" n="29" target="#p153-28">τρόπον συμβαίνει libri et Arist. P: συμβαίνει post ἄλλων Arist. vulg. ante τῶν μὴ add. πάντων Arist.</note>
+              <lb n="30" xml:id="p153-29"/>μὴ ἐξ ὀχείας γινομένων ἐν ἐρίοις.<note type="apparatus" n="30" target="#p153-29">μὴ om. IKL¹</note>
             </quote>
             <p>
-              <lb n="30" xml:id="p153-29"/>μὴ ἐξ ὀχείας γινομένων ἐν ἐρίοις.<note type="apparatus" n="30" target="#p153-29">μὴ om. IKL¹</note>
               <lb n="31" xml:id="p153-30"/>Ἔρια λέγει νῦν καὶ τὴν καλουμένην ὑπὸ τῶν πολλῶν μέταξαν· σκώληκες<note type="apparatus" n="31" target="#p153-30">λέγων K καὶ νῦν coll. K</note>
             </p>
             <pb n="154" facs="https://archive.org/download/commentariaina14pt13akaduoft/page/n705.jpg"/>
@@ -6381,9 +6381,9 @@
             <milestone unit="bekker" n="759b7"/>
             <quote type="lemma">
               <lb n="9" xml:id="p156-8"/>Ὅλως δὲ ἐπειδὴ φαίνεται ὁ μὲν τῶν κηφήνων γόνος
+              <lb n="10" xml:id="p156-9"/>ἐγγινόμενος καὶ μηδενὸς ὄντος κηφῆνος.
             </quote>
             <p>
-              <lb n="10" xml:id="p156-9"/>ἐγγινόμενος καὶ μηδενὸς ὄντος κηφῆνος.
               <lb n="11" xml:id="p156-10"/>Τὸ ἐγγινόμενος ἀντὶ τοῦ εὑρισκόμενος. ὃ δὲ λέγει τοιοῦτόν ἐστιν·
               <lb n="12" xml:id="p156-11"/>ἐν τῷ ἀγγείῳ, ἐν ᾧ εἰσιν αἱ μέλιτται, μηδενὸς μηδ’ ὅλως ὄντος κηφῆνος,<note type="apparatus" n="12" target="#p156-11">μηδὲν ILa</note>
               <lb n="13" xml:id="p156-12"/>ὕστερον ὁρᾶται ἐν αὐταῖς γόνος κηφήνων, τουτέστι γόνος, ἐξ οὗ γίνονται<note type="apparatus" n="13" target="#p156-12">αὐτοῖς IL κηφήνων γόνος coll. K</note><milestone type="alt-edition" unit="line" ed="Venetiis 1526 (Io. Antonius de Sabio)" n="35"/>
@@ -6407,9 +6407,9 @@
             <milestone unit="bekker" n="759b20"/>
             <quote type="lemma">
               <lb n="28" xml:id="p156-27"/>Κοινὸν δὲ καὶ πρὸς τὴν ἐξ ἀλλήλων γένεσιν καὶ πρὸς
+              <lb n="29" xml:id="p156-28"/>τὴν ἐκ τῶν κηφήνων.
             </quote>
             <p>
-              <lb n="29" xml:id="p156-28"/>τὴν ἐκ τῶν κηφήνων.
               <lb n="30" xml:id="p156-29"/>Τὸ πρὸς τὴν ἐξ ἀλλήλων ἴσον ἐστὶ τῷ οὔτε ἐξ ἀλλήλων. ἔστι δὲ
               <lb n="31" xml:id="p156-30"/>τὸ λεγόμενον ‘κοινὴ δὲ αἰτία τοῦ μήτε ἐκ τῆς ἀλλήλων τῶν μελιττῶν<milestone type="alt-edition" unit="line" ed="Venetiis 1526 (Io. Antonius de Sabio)" n="10"/>
               <lb n="32" xml:id="p156-31"/>ὀχείας γίνεσθαι τὰς μελίττας μήτε ἐξ ὀχείας μελιττῶν καὶ κηφήνων τοὺς<note type="apparatus" n="32" target="#p156-31">τοὺς om. K</note>
@@ -6427,9 +6427,9 @@
             <milestone unit="bekker" n="760a4"/>
             <quote type="lemma">
               <lb n="5" xml:id="p157-4"/>Ὄντος δὲ περιττοῦ τοῦ γένους καὶ ἰδίου τῶν μελιττῶν,<note type="apparatus" n="5-6" target="#p157-4 #p157-5">καὶ ἰδίου τοῦ τῶν μελιττῶν γένους coll. K</note>
+              <lb n="6" xml:id="p157-5"/>καὶ ἡ γένεσις αὐτῶν ἴδιος εἶναι φαίνεται.
             </quote>
             <p>
-              <lb n="6" xml:id="p157-5"/>καὶ ἡ γένεσις αὐτῶν ἴδιος εἶναι φαίνεται.
               <lb n="7" xml:id="p157-6"/>Τὸ περιττὸν ἴσον ἐστὶ τῷ θαυμαστὸν καὶ διαφέρον πρὸς τὰ ἄλλα.<milestone type="alt-edition" unit="line" ed="Venetiis 1526 (Io. Antonius de Sabio)" n="25"/>
               <lb n="8" xml:id="p157-7"/>θαυμαστὸν οὖν, φησί, καὶ θεῖον τὸ τῶν μελιττῶν γένος· θαυμάσιον γάρ,
               <lb n="9" xml:id="p157-8"/>εἴπερ καὶ τὸ μέλι θαυμαστὸν καὶ ἡ γένεσις αὐτῶν ἴδιος καὶ θαυμαστὴ φαίνεται.<milestone type="alt-edition" unit="line" ed="Venetiis 1526 (Io. Antonius de Sabio)" n="30"/>
@@ -6464,9 +6464,9 @@
             <milestone unit="bekker" n="760b2"/>
             <quote type="lemma">
               <lb n="1" xml:id="p158-0"/>Εὔλογον δὲ καὶ τοῦτο συμβαίνειν ἐν ταῖς εὐετηρίαις,<note type="apparatus" n="1" target="#p158-0">post ἐν add. μὲν Arist. vulg.</note>
+              <lb n="2" xml:id="p158-1"/>μέλι καὶ κηφῆνας γίνεσθαι πολλούς.
             </quote>
             <p>
-              <lb n="2" xml:id="p158-1"/>μέλι καὶ κηφῆνας γίνεσθαι πολλούς.
               <lb n="3" xml:id="p158-2"/>Εὐετηρίας λέγει τὰς τῶν ὡρῶν εὐκρασίας, αὐτοὺς δὴ τοὺς εὐδιεινοὺς<note type="apparatus" n="3-4" target="#p158-2 #p158-3">αὐτοὺς—καιρούς om. K</note>
               <lb n="4" xml:id="p158-3"/>καιρούς· οἱ γὰρ λίαν ἔπομβροι οὐκ εὔκρατοι. εὔλογον οὖν, φησί, τὸ γίνεσθαι<milestone type="alt-edition" unit="line" ed="Venetiis 1526 (Io. Antonius de Sabio)" n="45"/>
               <lb n="5" xml:id="p158-4"/>ἐν ταῖς εὐετηρίαις μέλι καὶ κηφῆνας. αἱ γὰρ μέλιτται ἐλάττους<note type="apparatus" n="5" target="#p158-4">αἱ μὲν γὰρ IK</note><milestone type="alt-edition" unit="folio" ed="Venetiis 1526 (Io. Antonius de Sabio)" n="77r"/>
@@ -6499,9 +6499,9 @@
             <milestone unit="bekker" n="760b33"/>
             <quote type="lemma">
               <lb n="29" xml:id="p158-28"/>Πρὸς δὲ τὸ μὴ ἐξ ὀχείας γίνεσθαι σημεῖον καὶ τὸ τὸν<note type="apparatus" n="29" target="#p158-28">καὶ] ἢ L2</note>
+              <lb n="30" xml:id="p158-29"/>γόνον φαίνεσθαι μικρόν.
             </quote>
             <p>
-              <lb n="30" xml:id="p158-29"/>γόνον φαίνεσθαι μικρόν.
               <lb n="31" xml:id="p158-30"/>Εἰ οἱ ἐξ ὀχείας γινόμενοι γόνοι μεγάλοι εἰσίν (αὔξει γὰρ αὐτοὺς ἡ<note type="apparatus" n="31" target="#p158-30">post Εἰ add. γὰρ K</note><milestone type="alt-edition" unit="line" ed="Venetiis 1526 (Io. Antonius de Sabio)" n="45"/>
               <lb n="32" xml:id="p158-31"/>τοῦ ἄρρενος γονὴ ὥσπερ τὰ τῶν ὀρνίθων ᾠά, ὡς πολλάκις εἴρηται), ὁ δὲ<note type="apparatus" n="32" target="#p158-31">γονὴ in lac. III vel IV litt. om. K</note>
             </p>
@@ -6577,9 +6577,9 @@
             <milestone unit="bekker" n="761b23"/>
             <quote type="lemma">
               <lb n="22" xml:id="p160-21"/>Ἡ δὲ τῶν ὀστρακοδέρμων συνίσταται φύσις ἡ μὲν<note type="apparatus" n="22" target="#p160-21">ἡ μὲν] τῶν μὲν Arist.</note>
+              <lb n="23" xml:id="p160-22"/>αὐτομάτη.<note type="apparatus" n="23" target="#p160-22">αὐτόματος K Arist. SYZ: αὐτομάτως Arist. vulg.</note>
             </quote>
             <p>
-              <lb n="23" xml:id="p160-22"/>αὐτομάτη.<note type="apparatus" n="23" target="#p160-22">αὐτόματος K Arist. SYZ: αὐτομάτως Arist. vulg.</note>
               <lb n="24" xml:id="p160-23"/>Τὰ ὀστρακόδερμα, φησί, τὰ μὲν αὐτόματα συνίσταται, τὰ δὲ ἐν τῷ <milestone type="alt-edition" unit="folio" ed="Venetiis 1526 (Io. Antonius de Sabio)" n="78v"/>
               <lb n="25" xml:id="p160-24"/>προΐεσθαι δύναμίν τινα ἀπ’ αὐτῶν, πολλάκις δὲ γινομένων καὶ τούτων<note type="apparatus" n="25" target="#p160-24">ἀπ’ αὐτῶν a Arist. PSY: ἐξ αὐτῶν K: ἀφ’ αὐτῶν Arist. vulg.: ἀπ’ αὐτοῦ IL</note>
               <lb n="26" xml:id="p160-25"/>ἀπὸ συστάσεως αὐτομάτου, τουτέστι πολλάκις δὲ καὶ ταῦτα, ἅπερ ἀπό<note type="apparatus" n="26" target="#p160-25">αὐτομάτως K: αὐτομάτης Arist.</note><milestone type="alt-edition" unit="line" ed="Venetiis 1526 (Io. Antonius de Sabio)" n="5"/>
@@ -6668,9 +6668,9 @@
             <milestone unit="bekker" n="762b18"/>
             <quote type="lemma">
               <lb n="24" xml:id="p162-23"/>Ἡ μὲν οὖν τῶν φυτῶν τῶν ἀπὸ ταὐτομάτου γινομένων<note type="apparatus" n="24" target="#p162-23">τῶν post φυτῶν om. L ἀπὸ ταὐτομάτου Arist. vulg.: ἀπὸ αὐτομάτου IL Arist. PZ: ἐκ ταὐτομάτου K</note>
+              <lb n="25" xml:id="p162-24"/>σύστασις ὁμοειδής ἐστιν.
             </quote>
             <p>
-              <lb n="25" xml:id="p162-24"/>σύστασις ὁμοειδής ἐστιν.
               <lb n="26" xml:id="p162-25"/>Τὸ ὁμοειδὴς ἀντὶ τοῦ ὁμοία τῇ τῶν ἄλλων γενέσει· ὥσπερ γὰρ καὶ<note type="apparatus" n="26" target="#p162-25">Τὸ ὁμοειδὴς om. K</note><note type="apparatus" n="26-27" target="#p162-25 #p162-26">καὶ τὰ ἐκ] ἐν τοῖς ἐκ τοῦ a</note>
               <lb n="27" xml:id="p162-26"/>τὰ ἐκ σπέρματος γινόμενα τὸ μέν τι τοῦ σπέρματος γέγονε βλάστη, τὸ δὲ<note type="apparatus" n="27" target="#p162-26">γινομένοις a</note><milestone type="alt-edition" unit="line" ed="Venetiis 1526 (Io. Antonius de Sabio)" n="15"/>
               <lb n="28" xml:id="p162-27"/>λοιπὸν τροφή, οὕτω καὶ ἐπὶ τῶν ἐξ αὐτομάτου γινομένων συνίσταταί τι
@@ -6858,9 +6858,9 @@
             <milestone unit="bekker" n="764a10"/>
             <quote type="lemma">
               <lb n="33" xml:id="p167-32"/>Ἀλλ’ ὁποτέρου ἂν κρατήσῃ τὸ σπέρμα τὸ ἀπὸ τοῦ
+              <lb n="34" xml:id="p167-33"/>μορίου ἐλθόν.
             </quote>
             <p>
-              <lb n="34" xml:id="p167-33"/>μορίου ἐλθόν.
               <lb n="35" xml:id="p167-34"/>Σπέρμα λέγει τὰ μόρια, καὶ εἴπομεν ἐν τῷ πρώτῳ βιβλίῳ, ὅπως αὐτὰ<note type="apparatus" n="35" target="#p167-34">ἐν τῷ πρώτῳ βιβλίῳ] cf. p. 25,16 sqq.</note>
             </p>
             <pb n="168" facs="https://archive.org/download/commentariaina14pt13akaduoft/page/n719.jpg"/>
@@ -6874,9 +6874,9 @@
             <milestone unit="bekker" n="764a15"/>
             <quote type="lemma">
               <lb n="4" xml:id="p168-3"/>Εἰ γὰρ πεπλασμένων τῶν ζῴων, τοῦ μὲν τὰ μόρια
+              <lb n="5" xml:id="p168-4"/>ἔχοντος τὰ τοῦ θήλεος πάντα, τοῦ δὲ τὰ τοῦ ἄρρενος.
             </quote>
             <p>
-              <lb n="5" xml:id="p168-4"/>ἔχοντος τὰ τοῦ θήλεος πάντα, τοῦ δὲ τὰ τοῦ ἄρρενος.
               <lb n="6" xml:id="p168-5"/>Ἀσαφῶς ἡ λέξις ἀπήγγελται, ἐστὶ δὲ ἔλεγχος τῆς Ἐμπεδοκλέους δόξης.<milestone type="alt-edition" unit="line" ed="Venetiis 1526 (Io. Antonius de Sabio)" n="15"/>
               <lb n="7" xml:id="p168-6"/>τὸ δὲ λεγόμενον, οἶμαι, τοιοῦτόν ἐστιν· ὅτε τὰ τοῦ ἄρρενος καὶ θήλεος
               <lb n="8" xml:id="p168-7"/>μόρια εἰς τὴν ὑστέραν εἰσέλθωσιν, ἂν τύχῃ ψυχρὰ οὖσα καὶ ἐπικρατήσῃ<note type="apparatus" n="8" target="#p168-7">μόρια post ἄρρενος (7) ponit a</note><milestone type="alt-edition" unit="line" ed="Venetiis 1526 (Io. Antonius de Sabio)" n="20"/>
@@ -6906,9 +6906,9 @@
             <milestone unit="bekker" n="764a23"/>
             <quote type="lemma">
               <lb n="29" xml:id="p168-28"/>Ἀλλὰ μὴν κἂν εἰ τῶν μορίων τῆς διαφορᾶς αἴτιον ἡ<note type="apparatus" n="29" target="#p168-28">εἰ IL¹ Arist. PSYZ: ἦ L² Arist. vulg.</note>
+              <lb n="30" xml:id="p168-29"/>θερμότης.
             </quote>
             <p>
-              <lb n="30" xml:id="p168-29"/>θερμότης.
               <lb n="31" xml:id="p168-30"/>Ἐὰν ἡ θερμότης, φησί, ποιεῖ τὰ μόρια καθ’ ἃ τὸ ἄρρεν χαρακτηρίζεται,<milestone type="alt-edition" unit="line" ed="Venetiis 1526 (Io. Antonius de Sabio)" n="40"/>
               <lb n="32" xml:id="p168-31"/>ἡ δὲ ψυχρότης καθ’ ἃ τὸ θῆλυ, ἔδει τὴν ψυχρότητα καὶ τὴν θερμότητα<note type="apparatus" n="32" target="#p168-31">post ἔδει add. τοῖς a</note>
               <lb n="33" xml:id="p168-32"/>τῆς τῶν τοιούτων μορίων διαφορᾶς αἰτιώμενον εἰπεῖν, πῶς καὶ τίνα τρόπον<note type="apparatus" n="33" target="#p168-32">αἰτιωμένοις a</note><milestone type="alt-edition" unit="line" ed="Venetiis 1526 (Io. Antonius de Sabio)" n="45"/>
@@ -6973,9 +6973,9 @@
             <milestone unit="bekker" n="764b20"/>
             <quote type="lemma">
               <lb n="7" xml:id="p170-6"/>Ὅλως δὲ τό γε τὴν τοῦ μέρους ὑπεροχὴν κρατήσασαν<note type="apparatus" n="7" target="#p170-6">ὑποδοχὴν K</note>
+              <lb n="8" xml:id="p170-7"/>ποιεῖν θῆλυ βέλτιον μέν.
             </quote>
             <p>
-              <lb n="8" xml:id="p170-7"/>ποιεῖν θῆλυ βέλτιον μέν.
               <lb n="9" xml:id="p170-8"/>Διὰ τούτων προτίθησι τὴν τοῦ Δημοκρίτου δόξαν τῆς τοῦ Ἐμπεδοκλέους<note type="apparatus" n="9" target="#p170-8">προστίθησι I τῆς] τῇ L¹</note>
               <lb n="10" xml:id="p170-9"/>δόξης λέγων ‘ὅλως δὲ τὸ λέγειν ὅτι κρατήσασα καὶ νικήσασα φέρε εἰπεῖν<note type="apparatus" n="10" target="#p170-9">δόξῃ L λέγων om. L</note><milestone type="alt-edition" unit="line" ed="Venetiis 1526 (Io. Antonius de Sabio)" n="15"/>
               <lb n="11" xml:id="p170-10"/>ἡ ὑστέρα τὸν περίνεον καὶ εἰς ἑαυτὴν μεταβαλοῦσα θῆλυ ποιεῖ γίνεσθαι,<note type="apparatus" n="11" target="#p170-10">ἑαυτὸν K ποιεῖ om. Ka</note>
@@ -7035,9 +7035,9 @@
             <milestone unit="bekker" n="765a3"/>
             <quote type="lemma">
               <lb n="22" xml:id="p171-21"/>Ὁ δ’ αὐτὸς λόγος καὶ πρὸς τοὺς λέγοντας τὸ μὲν ἄρρεν
+              <lb n="23" xml:id="p171-22"/>ἀπὸ τῶν δεξιῶν εἶναι, τὸ δὲ θῆλυ ἀπὸ τῶν ἀριστερῶν.
             </quote>
             <p>
-              <lb n="23" xml:id="p171-22"/>ἀπὸ τῶν δεξιῶν εἶναι, τὸ δὲ θῆλυ ἀπὸ τῶν ἀριστερῶν.
               <lb n="24" xml:id="p171-23"/>Αὕτη ἡ δόξα τοῦ Ἀναξαγόρου· οὗτος γὰρ ἦν ὁ λέγων ὅτι εἰ μὲν ἀπὸ<milestone type="alt-edition" unit="line" ed="Venetiis 1526 (Io. Antonius de Sabio)" n="20"/>
               <lb n="25" xml:id="p171-24"/>τῶν δεξιῶν μερῶν ἀπέλθοι τοῦ ἄρρενος καὶ πρὸς τὰ δεξιὰ ἔλθοι τῆς ὑστέρας,<note type="apparatus" n="25" target="#p171-24">ἔλθῃ a</note>
               <lb n="26" xml:id="p171-25"/>ἄρρεν γίνεται, εἰ δ’ ἀπὸ τῶν ἀριστερῶν καὶ πρὸς τὸ ἀριστερόν, θῆλυ. δεῖ<milestone type="alt-edition" unit="line" ed="Venetiis 1526 (Io. Antonius de Sabio)" n="25"/>
@@ -7085,9 +7085,9 @@
             <milestone unit="bekker" n="765a21"/>
             <quote type="lemma">
               <lb n="28" xml:id="p172-27"/>Παραπλησίως δέ τινες πεπεισμένοι τούτοις εἰσὶ καὶ<note type="apparatus" n="28" target="#p172-27">τούτοις om. IL</note>
+              <lb n="29" xml:id="p172-28"/>λέγουσιν ὡς τὸν δεξιὸν ὄρχιν ἀποδουμένοις.
             </quote>
             <p>
-              <lb n="29" xml:id="p172-28"/>λέγουσιν ὡς τὸν δεξιὸν ὄρχιν ἀποδουμένοις.
               <lb n="30" xml:id="p172-29"/>Τὸ ἀποδουμένοις ἀντὶ τοῦ δεσμήσασιν, ἐκ τοῦ δῶ δήσω, τὸ δεσμῶ.<note type="apparatus" n="30" target="#p172-29">δῶ δήσω scripsi: δωδήσω libri τῷ δεσμῷ a</note>
               <lb n="31" xml:id="p172-30"/>ἔστι δὲ τὸ λεγόμενον ‘παραπλησίως τοῖς ἀπὸ τῶν δεξιῶν τὰ ἄρρενα γεννῶσι<note type="apparatus" n="31" target="#p172-30">ἔσται K</note><milestone type="alt-edition" unit="line" ed="Venetiis 1526 (Io. Antonius de Sabio)" n="20"/>
             </p>
@@ -7133,9 +7133,9 @@
             <milestone unit="bekker" n="765b8"/>
             <quote type="lemma">
               <lb n="1" xml:id="p174-0"/>Ἀλλ’ ἐπεὶ τὸ ἄρρεν καὶ τὸ θῆλυ διώρισται δυνάμει τινὶ
+              <lb n="2" xml:id="p174-1"/>καὶ ἀδυναμίᾳ.
             </quote>
             <p>
-              <lb n="2" xml:id="p174-1"/>καὶ ἀδυναμίᾳ.
               <lb n="3" xml:id="p174-2"/>Ἀντειπὼν πρὸς τοὺς λέγοντας, πῶς τὸ ἄρρεν καὶ θῆλυ γίνεται, καὶ
               <lb n="4" xml:id="p174-3"/>τὴν οἰκείαν μέλλων ἐκθεῖναι δόξαν προλαμβάνει ταῦτα ὡσπερεὶ λήμματα<milestone type="alt-edition" unit="line" ed="Venetiis 1526 (Io. Antonius de Sabio)" n="20"/>
               <lb n="5" xml:id="p174-4"/>συνεργὰ γενησόμενα αὐτῷ πρὸς τὴν τῆς ἀρρενογονίας καὶ θηλυγονίας ἀπόδοσιν.
@@ -7208,9 +7208,9 @@
             <milestone unit="bekker" n="765b36"/>
             <quote type="lemma">
               <lb n="30" xml:id="p175-29"/>Ἁπάσῃ δὲ δυνάμει ὄργανόν τί ἐστι, καὶ τῇ χεῖρον<note type="apparatus" n="30" target="#p175-29">τί om. IK</note>
+              <lb n="31" xml:id="p175-30"/>ἀποτελούσῃ τὸ αὐτό.
             </quote>
             <p>
-              <lb n="31" xml:id="p175-30"/>ἀποτελούσῃ τὸ αὐτό.
               <lb n="32" xml:id="p175-31"/>Καὶ ταῦτα ἔτι ὡς λήμματα προλαμβάνει. εἴη δ’ ἂν τὸ λεγόμενον<note type="apparatus" n="32" target="#p175-31">λείμματα I προσλαμβάνει ILa</note><milestone type="alt-edition" unit="line" ed="Venetiis 1526 (Io. Antonius de Sabio)" n="40"/>
             </p>
             <pb n="176" facs="https://archive.org/download/commentariaina14pt13akaduoft/page/n727.jpg"/>
@@ -7348,9 +7348,9 @@
             <milestone unit="bekker" n="767a36"/>
             <quote type="lemma">
               <lb n="7" xml:id="p179-6"/>Αἱ δὲ αὐταὶ αἰτίαι καὶ τοῦ τὰ μὲν ἐοικότα γίνεσθαι
+              <lb n="8" xml:id="p179-7"/>τοῖς τεκνώσασι τὰ δὲ μὴ ἐοικότα.
             </quote>
             <p>
-              <lb n="8" xml:id="p179-7"/>τοῖς τεκνώσασι τὰ δὲ μὴ ἐοικότα.
               <lb n="9" xml:id="p179-8"/>Τὰς αἰτίας διὰ τούτων λέγει, ὅπως τὰ μὲν ἐοικότα γίνεται τῷ πατρί,<note type="apparatus" n="9" target="#p179-8">Τὰς—γίνεται] αἱ δ’ αὐταὶ αἰτίαι καὶ τοῦ τὰ μὲν ἐοικότα γίνεσθαι K</note><milestone type="alt-edition" unit="line" ed="Venetiis 1526 (Io. Antonius de Sabio)" n="30"/>
               <lb n="10" xml:id="p179-9"/>τὰ δὲ τῇ μητρί· ἐκτίθεται δὲ τὸ πρόβλημα σαφέστατα. ἐν δὲ τῇ λέξει
               <lb n="11" xml:id="p179-10"/>τῇ παρεκβέβηκε γὰρ ἡ φύσις ἐκ τοῦ γένους ἐν τούτοις τρόπον<note type="apparatus" n="11" target="#p179-10">τῇ om. IL παρεκβέβληκε IL τρόπον—γένους (13) om. IL</note>
@@ -7515,9 +7515,9 @@
             <milestone unit="bekker" n="769a9"/>
             <quote type="lemma">
               <lb n="13" xml:id="p183-12"/>Ἔνιοι μὲν γάρ φασιν, ἀφ’ ὁποτέρου ἂν ἔλθῃ σπέρμα<note type="apparatus" n="13" target="#p183-12">ἔλθοι I</note>
+              <lb n="14" xml:id="p183-13"/>πλέον, τούτῳ γίνεσθαι μᾶλλον ἐοικός.
             </quote>
             <p>
-              <lb n="14" xml:id="p183-13"/>πλέον, τούτῳ γίνεσθαι μᾶλλον ἐοικός.
               <lb n="15" xml:id="p183-14"/>Εἰπών, πῶς τὰ τέκνα ὁτὲ μὲν ὅμοια γίνεται τοῖς τεκνώσασιν, ὁτὲ δὲ
               <lb n="16" xml:id="p183-15"/>ἀνόμοια, ἐπειδὴ τινες τῶν φυσικῶν ἐπειράθησαν εἰπεῖν περὶ τῆς αἰτίας<note type="apparatus" n="16" target="#p183-15">ἐπειράσθησαν a</note><note type="apparatus" n="16-17" target="#p183-15 #p183-16">αἰτίας τούτων IL</note><milestone type="alt-edition" unit="line" ed="Venetiis 1526 (Io. Antonius de Sabio)" n="5"/>
               <lb n="17" xml:id="p183-16"/>τούτου, οὐδὲν δὲ πιθανὸν οὐδὲ ἀναγκαῖον εἶπον, ἐκτίθεται τὰς δόξας αὐτῶν
@@ -7612,9 +7612,9 @@
             <milestone unit="bekker" n="769b30"/>
             <quote type="lemma">
               <lb n="30" xml:id="p185-29"/>Δημόκριτος μὲν οὖν ἔφη γίνεσθαι τὰ τέρατα διὰ τὸ<note type="apparatus" n="30" target="#p185-29">ἔφησε Arist. vulg.: φησὶ Arist. P γίνεσθαι K Arist.: γενέσθαι IL</note>
+              <lb n="31" xml:id="p185-30"/>δύο γονὰς πίπτειν.
             </quote>
             <p>
-              <lb n="31" xml:id="p185-30"/>δύο γονὰς πίπτειν.
               <lb n="32" xml:id="p185-31"/>Τὴν Δημοκρίτειον πρότερον περὶ τῆς τῶν τεράτων γενέσεως παρατίθεται<note type="apparatus" n="32-33" target="#p185-31 #p185-32">περιτίθεται a</note><milestone type="alt-edition" unit="line" ed="Venetiis 1526 (Io. Antonius de Sabio)" n="20"/>
               <lb n="33" xml:id="p185-32"/>δόξαν, εἶθ’ οὕτως ἐρεῖ τὴν αὑτοῦ. ἔλεγεν οὖν ὁ Δημόκριτος ὅτι<note type="apparatus" n="33" target="#p185-32">αὐτοῦ I</note>
             </p>
@@ -7739,9 +7739,9 @@
             <milestone unit="bekker" n="770b13"/>
             <quote type="lemma">
               <lb n="1" xml:id="p189-0"/>Ἐπεὶ καὶ τούτων ἐν ὅσοις συμβαίνει παρὰ τὴν τάξιν
+              <lb n="2" xml:id="p189-1"/>μὲν ταῦτα, ἀεὶ μέντοι μὴ τυχόντως.<note type="apparatus" n="2" target="#p189-1">ταῦτα] ταύτην Arist. μὴ] μὲν I</note>
             </quote>
             <p>
-              <lb n="2" xml:id="p189-1"/>μὲν ταῦτα, ἀεὶ μέντοι μὴ τυχόντως.<note type="apparatus" n="2" target="#p189-1">ταῦτα] ταύτην Arist. μὴ] μὲν I</note>
               <lb n="3" xml:id="p189-2"/>Τὸ μὴ τυχόντως ἴσον ἐστὶ τῷ μὴ ποτὲ μὲν οὕτως, ποτὲ δὲ ἄλλως,<milestone type="alt-edition" unit="line" ed="Venetiis 1526 (Io. Antonius de Sabio)" n="10"/>
               <lb n="4" xml:id="p189-3"/>ἀλλ’ ἀεὶ ὡσαύτως. ἔστι δὲ τὸ λεγόμενον ‘καὶ ἐπὶ τῶν ὡς ἐπὶ τὸ πολὺ<note type="apparatus" n="4-5" target="#p189-3 #p189-4">καὶ τῶν ἐπὶ τὸ πολὺ λεγομένων IL</note>
               <lb n="5" xml:id="p189-4"/>γινομένων ἂν ἡ παρέκβασις ἀεὶ ἐν τῷ αὐτῷ καὶ ἑνὶ γένηται, οὐ δοκεῖ<milestone type="alt-edition" unit="line" ed="Venetiis 1526 (Io. Antonius de Sabio)" n="15"/>
@@ -7783,9 +7783,9 @@
             <milestone unit="bekker" n="771a31"/>
             <quote type="lemma">
               <lb n="4" xml:id="p190-3"/>Ἔτι δὲ τὸ γεννῆσαν σπέρμα πλεῖον μὲν τὸ τοῦ μείζονος
+              <lb n="5" xml:id="p190-4"/>ἀναγκαῖον εἶναι.
             </quote>
             <p>
-              <lb n="5" xml:id="p190-4"/>ἀναγκαῖον εἶναι.
               <lb n="6" xml:id="p190-5"/>Καὶ τοῦτο κατασκευαστικόν ἐστι τοῦ διὰ τί τὰ μεγάλα τῶν ζῴων<milestone type="alt-edition" unit="line" ed="Venetiis 1526 (Io. Antonius de Sabio)" n="30"/>
               <lb n="7" xml:id="p190-6"/>μονοτόκα ἐστί, τὰ δὲ μικρὰ πολυτόκα. εἴη δ’ ἄν, οἶμαι, δῆλα τὰ λεχθησόμενα<note type="apparatus" n="7" target="#p190-6">πολυτόκα] ὀλιγοτόκα IKL, sed supra vers. add. ἢ πολυτόκα K</note>
               <lb n="8" xml:id="p190-7"/>τοιαῦτα προειποῦσιν· ἡ εἰσελθοῦσα γονή, ὡς ἐρεῖ προΪών, εἰς τοσαῦτα<note type="apparatus" n="8" target="#p190-7">προσειποῦσα I</note><milestone type="alt-edition" unit="line" ed="Venetiis 1526 (Io. Antonius de Sabio)" n="35"/>
@@ -7830,9 +7830,9 @@
             <milestone unit="bekker" n="771b15"/>
             <quote type="lemma">
               <lb n="6" xml:id="p191-5"/>Τῆς δὲ νῦν ῥηθείσης ἀπορίας μάλιστα ἄν τις θαυμάσειεν<note type="apparatus" n="6" target="#p191-5">μάλιστα libri et Arist. Y: μᾶλλον Arist. vulg.</note>
+              <lb n="7" xml:id="p191-6"/>ἐπὶ τῶν πολυτόκων.
             </quote>
             <p>
-              <lb n="7" xml:id="p191-6"/>ἐπὶ τῶν πολυτόκων.
               <lb n="8" xml:id="p191-7"/>Ἡ μὲν ἀπορία τοιαύτη, διὰ τί ὥσπερ ὁ εἷς ὀπὸς εἰς τὸ γάλα τὸ ὂν
               <lb n="9" xml:id="p191-8"/>ἐν τῷ τοιῳδὶ ἀγγείῳ εἰσιὼν οὐ πολλοὺς ποιεῖ τυροὺς ἀλλ’ ἕνα, καὶ ὅσῳ<milestone type="alt-edition" unit="line" ed="Venetiis 1526 (Io. Antonius de Sabio)" n="40"/>
               <lb n="10" xml:id="p191-9"/>μεῖζον ἂν εἴη καὶ πλέον τὸ ὑπ’ αὐτοῦ συνιστάμενον γάλα, τοσούτῳ καὶ ὁ
@@ -7890,9 +7890,9 @@
             <milestone unit="bekker" n="772b13"/>
             <quote type="lemma">
               <lb n="22" xml:id="p192-21"/>Τῶν δὲ πλεοναζόντων μορίων παρὰ φύσιν τὸ αὐτὸ
+              <lb n="23" xml:id="p192-22"/>αἴτιον καὶ τῆς διδυμοτοκίας.
             </quote>
             <p>
-              <lb n="23" xml:id="p192-22"/>αἴτιον καὶ τῆς διδυμοτοκίας.
               <lb n="24" xml:id="p192-23"/>Πλεονάζουσι παρὰ φύσιν τὰ μόρια, ὅταν ἑξαδάκτυλος ἄνθρωπος γένηται<note type="apparatus" n="24" target="#p192-23">Πλεονάζουσι—διδυμοτοκίας (26) om. IL τὰ μόρια παρὰ φύσιν coll. a</note>
               <lb n="25" xml:id="p192-24"/>ἢ τρίπους, ἢ ἄλλον τινὰ τρόπον τοιοῦτον. λέγει οὖν ὅτι τὸ αὐτὸ καὶ τούτοις<milestone type="alt-edition" unit="line" ed="Venetiis 1526 (Io. Antonius de Sabio)" n="45"/>
               <lb n="26" xml:id="p192-25"/>καὶ τῆς διδυμοτοκίας ἐστὶν αἴτιον. ὥσπερ γάρ, φησίν, ἐκεῖ, ἂν πλείω <milestone type="alt-edition" unit="folio" ed="Venetiis 1526 (Io. Antonius de Sabio)" n="94v"/><note type="apparatus" n="26" target="#p192-25">τοῖς διδυμοτόκοις K φησίν om. Ka</note>
@@ -8036,10 +8036,10 @@
             <milestone unit="bekker" n="773b22"/>
             <quote type="lemma">
               <lb n="5" xml:id="p196-4"/>Ὁμοίως δὲ διὰ τὸ τὸν ἄνθρωπον φύσει πολυτόκον
-            </quote>
-            <p>
               <lb n="6" xml:id="p196-5"/>εἶναι, καὶ περιεῖναί τι τῷ μεγέθει τῆς ὑστέρας καὶ τοῦ περιττώματος.
               <lb n="7" xml:id="p196-6"/>
+            </quote>
+            <p>
               <lb n="8" xml:id="p196-7"/>Διὰ τούτων τὴν αἰτίαν τίθησι τοῦ διὰ τί μόνη ἡ γυνὴ καὶ ἡ ἵππος<note type="apparatus" n="8" target="#p196-7">τοῦ] τὴν K: οὕτως IL¹ μόνη post γυνὴ ponit K</note><milestone type="alt-edition" unit="line" ed="Venetiis 1526 (Io. Antonius de Sabio)" n="15"/>
               <lb n="9" xml:id="p196-8"/>ἀπὸ πάντων τῶν θηλέων μετὰ τὴν σύλληψιν ὀχεύονται. οὐδὲν γὰρ τῶν<note type="apparatus" n="9" target="#p196-8">ὀχεύεται Ka</note>
               <lb n="10" xml:id="p196-9"/>ἄλλων μετὰ τὸ συλλαβεῖν ἀνέχεται ὀχευθῆναι πλὴν γυναικὸς καὶ τῆς
@@ -8146,9 +8146,9 @@
             <milestone unit="bekker" n="774b34"/>
             <quote type="lemma">
               <lb n="31" xml:id="p198-30"/>Ὅλως δὲ προτερεῖ μὲν τῆς τελειογονίας διὰ τὴν ἀδυναμίαν
+              <lb n="32" xml:id="p198-31"/>τοῦ ἐκτρέφειν.
             </quote>
             <p>
-              <lb n="32" xml:id="p198-31"/>τοῦ ἐκτρέφειν.
               <lb n="33" xml:id="p198-32"/>Ὅλως δέ, φησί, προτερεῖ μὲν ἡ κύησις καὶ προγίνεται τῆς τῶν ἐμβρύων<note type="apparatus" n="33" target="#p198-32">καὶ προγίνεται om. L</note>
               <lb n="34" xml:id="p198-33"/>τελειώσεως διὰ τὸ μὴ δύνασθαι τὴν μητέρα θρέψαι καὶ τελειῶσαι δι’ ἔνδειαν<milestone type="alt-edition" unit="line" ed="Venetiis 1526 (Io. Antonius de Sabio)" n="20"/>
             </p>
@@ -8164,9 +8164,9 @@
             <milestone unit="bekker" n="775a9"/>
             <quote type="lemma">
               <lb n="5" xml:id="p199-4"/>Διὰ τὴν αὐτὴν δὲ ταύτην αἰτίαν καὶ τελειοῦνται τὰ θήλεα<note type="apparatus" n="5" target="#p199-4">τελειοῦται Arist.</note>
+              <lb n="6" xml:id="p199-5"/>τοῖς ἄρρεσιν οὐχ ὁμοίως ἐν ταῖς γυναιξίν.
             </quote>
             <p>
-              <lb n="6" xml:id="p199-5"/>τοῖς ἄρρεσιν οὐχ ὁμοίως ἐν ταῖς γυναιξίν.
               <lb n="7" xml:id="p199-6"/>Τὸ ἐν ταῖς γυναιξὶν ἴσον ἐστὶ τῷ ἐν ταῖς ὑστέραις ὄντα τῶν<note type="apparatus" n="7" target="#p199-6">ἐν τῇ ὑστέρᾳ K</note><milestone type="alt-edition" unit="line" ed="Venetiis 1526 (Io. Antonius de Sabio)" n="30"/>
               <lb n="8" xml:id="p199-7"/>γυναικῶν. τὸ δὲ λεγόμενόν ἐστι λύσις ἀπορίας τινός· ἠπορεῖτο γάρ, διὰ
               <lb n="9" xml:id="p199-8"/>τί ἐν τῇ μήτρᾳ ὄντα τὰ θήλεα καὶ τὰ ἄρρενα οὐχ ὁμοίως τελειοῦνται,<note type="apparatus" n="9" target="#p199-8">τῇ om. K</note><milestone type="alt-edition" unit="line" ed="Venetiis 1526 (Io. Antonius de Sabio)" n="35"/>
@@ -8221,9 +8221,9 @@
             <milestone unit="bekker" n="775a27"/>
             <quote type="lemma">
               <lb n="16" xml:id="p200-15"/>Συμβαίνει δὲ καὶ διαφορὰ περὶ τὰς κυήσεις ἐπί τε τῶν<note type="apparatus" n="16" target="#p200-15">παρὰ IL, sed cf. v. 18</note>
+              <lb n="17" xml:id="p200-16"/>ἀνθρώπων καὶ τῶν ἄλλων ζῴων.
             </quote>
             <p>
-              <lb n="17" xml:id="p200-16"/>ἀνθρώπων καὶ τῶν ἄλλων ζῴων.
               <lb n="18" xml:id="p200-17"/>Ἡ διαφορὰ τῶν γυναικῶν πρὸς τὰ ἄλλα ζῷα περὶ τὰς κυήσεις<note type="apparatus" n="18" target="#p200-17">post γυναικῶν add. περὶ τὰς κυήσεις, sed rursus del. L</note>
               <lb n="19" xml:id="p200-18"/>τοιαύτη ἐστί· τὰ μὲν γὰρ ἄλλα ζῷα περὶ τὴν κύησιν, τουτέστι τὸν πλείονα<note type="apparatus" n="19" target="#p200-18">τοιαῦτα K</note>
               <lb n="20" xml:id="p200-19"/>χρόνον τῆς κυήσεως, εὐθηνοῦσι καὶ λιπώδη καὶ εὐτραφῆ τὰ σώματα ἔχουσιν,<note type="apparatus" n="20" target="#p200-19">εὐθυνοῦσι a</note><milestone type="alt-edition" unit="line" ed="Venetiis 1526 (Io. Antonius de Sabio)" n="45"/>
@@ -8284,9 +8284,9 @@
             <milestone unit="bekker" n="775b25"/>
             <quote type="lemma">
               <lb n="1" xml:id="p202-0"/>Περὶ δὲ τῆς καλουμένης μύλης ῥητέον, ἣ γίνεται μὲν
+              <lb n="2" xml:id="p202-1"/>ὀλιγάκις ταῖς γυναιξίν.
             </quote>
             <p>
-              <lb n="2" xml:id="p202-1"/>ὀλιγάκις ταῖς γυναιξίν.
               <lb n="3" xml:id="p202-2"/>Τῆς λέξεως ἡ ἀπόδοσίς ἐστιν ἐν τῷ περὶ μὲν οὖν τοῦ πάθους<note type="apparatus" n="3" target="#p202-2">post Τῆς add. δὲ IL οὖν om. K</note>
               <lb n="4" xml:id="p202-3"/>τῆς αἰτίας εἴρηται ἐν τοῖς προβλήμασι· τὰ δ’ ἄλλα λίαν σαφῶς<note type="apparatus" n="4" target="#p202-3">ἐν τοῖς προβλήμασι] cf. Bonitz, Ind. Ar. p. 103 b 17 sqq.</note><milestone type="alt-edition" unit="line" ed="Venetiis 1526 (Io. Antonius de Sabio)" n="15"/>
               <lb n="5" xml:id="p202-4"/>μεταξὺ προεντέθειται. εἰ τάχα δὲ εἰρῆσθαι αὐτῷ λέγει περὶ τῆς μύλης<note type="apparatus" n="5" target="#p202-4">προεντέθηται I: παρεντέθειται K: παρεντέθηνται a</note>
@@ -8379,9 +8379,9 @@
             <milestone unit="bekker" n="776b3"/>
             <quote type="lemma">
               <lb n="17" xml:id="p204-16"/>Εἰς δὲ τὸν ἄνω τόπον καὶ τοὺς μαστοὺς συλλέγεται διὰ
+              <lb n="18" xml:id="p204-17"/>τὴν ἐξ ἀρχῆς τάξιν τῆς συστάσεως.
             </quote>
             <p>
-              <lb n="18" xml:id="p204-17"/>τὴν ἐξ ἀρχῆς τάξιν τῆς συστάσεως.
               <lb n="19" xml:id="p204-18"/>Διὰ τούτων τὴν αἰτίαν προτίθεται εἰπεῖν τοῦ διὰ τί συλλέγεται εἰς<milestone type="alt-edition" unit="line" ed="Venetiis 1526 (Io. Antonius de Sabio)" n="25"/>
               <lb n="20" xml:id="p204-19"/>τοὺς μαστοὺς τὸ καταμήνιον, ἐξ οὗ καταμηνίου καὶ ἐν οἷς μαστοῖς γίνεται
               <lb n="21" xml:id="p204-20"/>τὸ γάλα· ὅπερ ταὐτόν ἐστι τῷ διὰ τί κάτωθεν ἄνω. ἀλλὰ καὶ πρὸ τούτου<note type="apparatus" n="21" target="#p204-20">καὶ om. Ka πρὸς τούτῳ a</note><milestone type="alt-edition" unit="line" ed="Venetiis 1526 (Io. Antonius de Sabio)" n="30"/>
@@ -8466,9 +8466,9 @@
             <milestone unit="bekker" n="776b28"/>
             <quote type="lemma">
               <lb n="23" xml:id="p206-22"/>Ὅταν οὖν μὴ λαμβάνῃ μὲν τὸ ἔμβρυον τὴν τοιαύτην
+              <lb n="24" xml:id="p206-23"/>ἀπόκρισιν.
             </quote>
             <p>
-              <lb n="24" xml:id="p206-23"/>ἀπόκρισιν.
               <lb n="25" xml:id="p206-24"/>Πιστωσάμενος καὶ ἐκ τοῦ λόγου καὶ ἐκ τῶν συμβαινόντων ὅτι ἐκ τῶν<note type="apparatus" n="25" target="#p206-24">Πιστωσάμενος—ἀπόκρισιν (28) om. IK τοῦ λόγου] τούτου a</note>
               <lb n="26" xml:id="p206-25"/>ἄνω τόπων ἀποκρίνεται τὸ περίττωμα, τὴν αἰτίαν διὰ τούτων ἐπάγει, δι’<milestone type="alt-edition" unit="line" ed="Venetiis 1526 (Io. Antonius de Sabio)" n="10"/>
               <lb n="27" xml:id="p206-26"/>ἣν εἰς τοὺς μαστοὺς ἡ τοῦ γάλακτος γίνεται συνάθροισις. ὅταν οὖν,
@@ -8517,9 +8517,9 @@
             <milestone unit="bekker" n="777a8"/>
             <quote type="lemma">
               <lb n="32" xml:id="p207-31"/>Ἐμπεδοκλῆς δ’ οὐκ ὀρθῶς ὑπελάμβανεν ἢ οὐκ εὖ μετήνεγκε<note type="apparatus" n="32" target="#p207-31">δ’ οὐκ libri et Arist. SY: δ’ ἢ οὐκ Arist. vulg. ὀρθῶς] εἰωθῶς I</note>
+              <lb n="33" xml:id="p207-32"/>ποιήσας.
             </quote>
             <p>
-              <lb n="33" xml:id="p207-32"/>ποιήσας.
               <lb n="34" xml:id="p207-33"/>Εἰπὼν ὅτι τὸ γάλα αἷμά ἐστι πεπεμμένον, ἐγκαλεῖ τῷ Ἐμπεδοκλεῖ<note type="apparatus" n="34" target="#p207-33">Εἰπὼν—πεπεμμένον om. a</note>
             </p>
             <pb n="208" facs="https://archive.org/download/commentariaina14pt13akaduoft/page/n759.jpg"/>
@@ -8587,9 +8587,9 @@
             <milestone unit="bekker" n="777b16"/>
             <quote type="lemma">
               <lb n="16" xml:id="p209-15"/>Εὐλόγως δὲ πάντων οἱ χρόνοι καὶ τῶν κυήσεων καὶ<note type="apparatus" n="16-17" target="#p209-15 #p209-16">καὶ γενέσεων IL Arist. Z: καὶ τῶν γ. K Arist. vulg.</note>
+              <lb n="17" xml:id="p209-16"/>γενέσεων καὶ τῶν βίων μετρεῖσθαι βούλονται κατὰ φύσιν.<note type="apparatus" n="17" target="#p209-16">καὶ τῶν βίων—φύσιν om. K μετρᾶσθαι I</note>
             </quote>
             <p>
-              <lb n="17" xml:id="p209-16"/>γενέσεων καὶ τῶν βίων μετρεῖσθαι βούλονται κατὰ φύσιν.<note type="apparatus" n="17" target="#p209-16">καὶ τῶν βίων—φύσιν om. K μετρᾶσθαι I</note>
               <lb n="18" xml:id="p209-17"/>Καὶ τοῦτο δυνάμει τοιοῦτόν ἐστιν· ὁ μὲν γὰρ ἥλιος καὶ ἡ σελήνη
               <lb n="19" xml:id="p209-18"/>βούλονται πάντων τῶν ἀνθρώπων τὸν αἰῶνα καὶ τὴν χρονικὴν παράτασιν<note type="apparatus" n="19" target="#p209-18">βούλεται K τὸν] τῶν I</note><milestone type="alt-edition" unit="line" ed="Venetiis 1526 (Io. Antonius de Sabio)" n="30"/>
               <lb n="20" xml:id="p209-19"/>ἴσον εἶναι καὶ μὴ τὸν μὲν Πλάτωνα πλείονα ζῆν χρόνον, ἐμὲ δὲ ἐλάττονα,<note type="apparatus" n="20" target="#p209-19">ἴσον εἶναι] ἰσάζειν a τὸν] τῇ L</note>
@@ -8658,9 +8658,9 @@
             <milestone unit="bekker" n="778a29"/>
             <quote type="lemma">
               <lb n="14" xml:id="p211-13"/>Περὶ δὲ τούτων καὶ τῶν τοιούτων πάντων οὐκέτι τὸν
+              <lb n="15" xml:id="p211-14"/>αὐτὸν τρόπον δεῖ νομίζειν εἶναι τῆς αἰτίας.<note type="apparatus" n="15" target="#p211-14">τὰς αἰτίας IL¹</note>
             </quote>
             <p>
-              <lb n="15" xml:id="p211-14"/>αὐτὸν τρόπον δεῖ νομίζειν εἶναι τῆς αἰτίας.<note type="apparatus" n="15" target="#p211-14">τὰς αἰτίας IL¹</note>
               <lb n="16" xml:id="p211-15"/>Τρόπον αἰτίας τὴν ἕνεκά του λέγει αἰτίαν· αὕτη δ’ ἐστὶ τὸ τελικὸν<note type="apparatus" n="16" target="#p211-15">αἰτίας om. IL</note>
               <lb n="17" xml:id="p211-16"/>αἴτιον. τὸ δὲ λεγόμενόν ἐστιν ὅτι ἐν τῇ τῶν αἰτίων ἀποδόσει τοῦ τὰ μὲν<note type="apparatus" n="17" target="#p211-16">τοῦ πῶς τὰ μὲν Ka</note><milestone type="alt-edition" unit="line" ed="Venetiis 1526 (Io. Antonius de Sabio)" n="25"/>
               <lb n="18" xml:id="p211-17"/>γίνεσθαι γλαυκόμματα τὰ δὲ μελανόμματα, καὶ τὰ μὲν βαρύφωνα τὰ δὲ<note type="apparatus" n="18" target="#p211-17">γίνεται IKa γλαυκόφθαλμα Ka μελανόφθαλμα Ka</note>
@@ -8704,9 +8704,9 @@
             <milestone unit="bekker" n="778a35"/>
             <quote type="lemma">
               <lb n="29" xml:id="p212-28"/>Ἀλλ’ ὡς ἐξ ἀνάγκης γινομένων εἰς τὴν ὕλην καὶ τὴν
+              <lb n="30" xml:id="p212-29"/>κινήσασαν ἀρχὴν ἀνακτέον τὰς αἰτίας.<note type="apparatus" n="30" target="#p212-29">κινοῦσαν K post ἀρχὴν add. τὴν ποιητικήν φησιν αἰτίαν IL</note>
             </quote>
             <p>
-              <lb n="30" xml:id="p212-29"/>κινήσασαν ἀρχὴν ἀνακτέον τὰς αἰτίας.<note type="apparatus" n="30" target="#p212-29">κινοῦσαν K post ἀρχὴν add. τὴν ποιητικήν φησιν αἰτίαν IL</note>
               <lb n="31" xml:id="p212-30"/>Κινήσασαν ἀρχὴν τὴν ποιητικὴν αἰτίαν φησίν. εἴη δ’ ἂν ἡ λέξις αὕτη<note type="apparatus" n="31" target="#p212-30">Κινοῦσαν γὰρ ἀρχὴν a</note><milestone type="alt-edition" unit="line" ed="Venetiis 1526 (Io. Antonius de Sabio)" n="20"/>
               <lb n="32" xml:id="p212-31"/>συνεχὴς τῇ περὶ δὲ τούτων καὶ τῶν τοιούτων πάντων, καὶ ἔστι τὸ
               <lb n="33" xml:id="p212-32"/>τῆς λέξεως συνεχὲς τοιοῦτον ‘περὶ δὲ τούτων καὶ τῶν τοιούτων πάντων<milestone type="alt-edition" unit="line" ed="Venetiis 1526 (Io. Antonius de Sabio)" n="25"/>
@@ -8765,9 +8765,9 @@
             <milestone unit="bekker" n="778b20"/>
             <quote type="lemma">
               <lb n="9" xml:id="p214-8"/>Πρῶτον μὲν οὖν ὅταν γεννῶνται τὰ παιδία, πάντων<note type="apparatus" n="9" target="#p214-8">γενῶνται IL: γένωνται Arist.</note>
+              <lb n="10" xml:id="p214-9"/>μάλιστα τῶν ἀτελῶν καθεύδειν εἴωθε.
             </quote>
             <p>
-              <lb n="10" xml:id="p214-9"/>μάλιστα τῶν ἀτελῶν καθεύδειν εἴωθε.
               <lb n="11" xml:id="p214-10"/>Τὸ ὅταν γεννῶνται νῦν εἴληπται ἀντὶ τοῦ ὅταν ἐξέλθωσι θύραζε,<note type="apparatus" n="11" target="#p214-10">Τὸ om. IKa</note><milestone type="alt-edition" unit="line" ed="Venetiis 1526 (Io. Antonius de Sabio)" n="25"/>
               <lb n="12" xml:id="p214-11"/>τὸ δὲ μάλιστα ἴσον ἐστὶ τῷ πλέον· ὑποστικτέον δὲ εἰς τὸ τὰ παιδία, εἶτα<note type="apparatus" n="12" target="#p214-11">τὸ post εἰς om. I</note>
               <lb n="13" xml:id="p214-12"/>ἐπακτέον τὸ πάντων μάλιστα τῶν ἀτελῶν. ἔστι δὲ τὸ λεγόμενον ‘τὰ
@@ -8817,9 +8817,9 @@
             <milestone unit="bekker" n="779a11"/>
             <quote type="lemma">
               <lb n="17" xml:id="p215-16"/>Καὶ ἐγρηγορότα μὲν οὐ γελᾷ τὰ παιδία, καθεύδοντα δὲ
+              <lb n="18" xml:id="p215-17"/>καὶ δακρύει καὶ γελᾷ.
             </quote>
             <p>
-              <lb n="18" xml:id="p215-17"/>καὶ δακρύει καὶ γελᾷ.
               <lb n="19" xml:id="p215-18"/>Ἐλλιπῶς ἡρμήνευται ἡ λέξις, εἴη δ’ ἂν τὸ πλῆρες τοιοῦτον· δακρύει<note type="apparatus" n="19" target="#p215-18">Ἐλλειπῶς a</note><milestone type="alt-edition" unit="line" ed="Venetiis 1526 (Io. Antonius de Sabio)" n="30"/>
               <lb n="20" xml:id="p215-19"/>τὰ παιδία καὶ ἐγρηγορότα καὶ καθεύδοντα, γελᾷ δὲ μόνον καθεύδοντα. τοῦ
               <lb n="21" xml:id="p215-20"/>δὲ γελᾶν αὐτὰ καθεύδοντα αἰτιᾶται τὸ τριττὸν τῆς αἰσθήσεως· ἡ μὲν γάρ<note type="apparatus" n="21" target="#p215-20">τρίτον a</note><milestone type="alt-edition" unit="line" ed="Venetiis 1526 (Io. Antonius de Sabio)" n="35"/>
@@ -8890,10 +8890,10 @@
             <milestone unit="bekker" n="779b15"/>
             <quote type="lemma">
               <lb n="10" xml:id="p217-9"/>Τὸ μὲν οὖν ὑπολαμβάνειν τὰ μὲν γλαυκὰ πυρώδη,
-            </quote>
-            <p>
               <lb n="11" xml:id="p217-10"/>καθάπερ Ἐμπεδοκλῆς φησι, τὰ δὲ μελανόμματα πλεῖον ὕδωρ<note type="apparatus" n="11" target="#p217-10">φησι—ἔχειν (12) om. K μελανόμματα IL Arist. PS: μέλανα Arist. vulg.</note>
               <lb n="12" xml:id="p217-11"/>ἔχειν.
+            </quote>
+            <p>
               <lb n="13" xml:id="p217-12"/>Ἐμπεδοκλῆς τὸ μὲν αἰσθητήριον τῆς ὄψεως, ὡς ἐν τῷ Περὶ αἰσθήσεως<note type="apparatus" n="13" target="#p217-12">post μὲν add. οὖν I ἐν τῷ Περὶ αἰσθήσεως καὶ αἰσθητῶν] c. 2 ἐν τῇ a</note>
               <lb n="14" xml:id="p217-13"/>καὶ αἰσθητῶν εἴρηται, ποιῶν ἐκ τῶν τεσσάρων στοιχείων, τὴν δὲ ὄψιν<note type="apparatus" n="14" target="#p217-13">αἰσθητικοῦ a</note><milestone type="alt-edition" unit="line" ed="Venetiis 1526 (Io. Antonius de Sabio)" n="15"/>
               <lb n="15" xml:id="p217-14"/>(αὐτήν φημι τὴν τῆς ψυχῆς δύναμιν, καθ’ ἣν ὁρῶμεν, ἥτις καὶ ἔστιν εἶδος<note type="apparatus" n="15" target="#p217-14">φησι Ka</note>
@@ -8930,9 +8930,9 @@
             <milestone unit="bekker" n="779b34"/>
             <quote type="lemma">
               <lb n="8" xml:id="p218-7"/>Τὴν δ’ αὐτὴν αἰτίαν οἰητέον καὶ τοῦ τὰ μὲν γλαυκὰ
+              <lb n="9" xml:id="p218-8"/>μὴ εἶναι ὀξυωπά.
             </quote>
             <p>
-              <lb n="9" xml:id="p218-8"/>μὴ εἶναι ὀξυωπά.
               <lb n="10" xml:id="p218-9"/>Ὅτι μὲν οὖν οὐκ ὀξυωπὰ τὴν ἡμέραν τὰ γλαυκά, τὰ δὲ μελανόμματα<note type="apparatus" n="10" target="#p218-9">τὰ ante γλαυκὰ om. I μελανόφθαλμα Ka</note>
               <lb n="11" xml:id="p218-10"/>τὴν νύκτα οὐκ ὀξυωπά (τὰ μὲν γὰρ μελανόμματα τὴν ἡμέραν ὀξυωπά, τὴν<note type="apparatus" n="11" target="#p218-10">τὰ μὲν γὰρ—οὕτως ἔχει (13) om. Ka</note>
               <lb n="12" xml:id="p218-11"/>δὲ νύκτα οὐκ ὀξυωπά, τὰ δὲ γλαυκὰ τὴν ἡμέραν οὐκ ὀξυωπά, τὴν δὲ νύκτα<note type="apparatus" n="12" target="#p218-11">νύκταν bis I δὲ ante γλαυκὰ scripsi: γὰρ IL</note>
@@ -9007,9 +9007,9 @@
             <milestone unit="bekker" n="780b12"/>
             <quote type="lemma">
               <lb n="1" xml:id="p220-0"/>Περὶ δὲ τοῦ τὰ μὲν ὀξυωπὰ εἶναι τῶν ζῴων τὰ δὲ μή,
+              <lb n="2" xml:id="p220-1"/>δύο τρόποι τῆς αἰτίας εἰσίν.
             </quote>
             <p>
-              <lb n="2" xml:id="p220-1"/>δύο τρόποι τῆς αἰτίας εἰσίν.
               <lb n="3" xml:id="p220-2"/>Εἰσί τινες τῶν ἀνθρώπων, οἱ πόρρωθεν κειμένων τῶν βιβλίων ἀναγινώσκουσι
               <lb n="4" xml:id="p220-3"/>τὰ ἐν αὐτοῖς γεγραμμένα καλῶς, ἐγγὺς δὲ τεθέντων ἢ ὅλως οὐκ<note type="apparatus" n="4" target="#p220-3">αὐτῆς ILa</note><milestone type="alt-edition" unit="line" ed="Venetiis 1526 (Io. Antonius de Sabio)" n="45"/>
               <lb n="5" xml:id="p220-4"/>ἀναγινώσκουσιν ἢ οὐ καλῶς. πάλιν δὲ συμβαίνει δύο τινῶν ἀνθρώπων<note type="apparatus" n="5" target="#p220-4">δὲ om. Ka ἀνθρώπων om. Ka</note><milestone type="alt-edition" unit="folio" ed="Venetiis 1526 (Io. Antonius de Sabio)" n="107r"/>
@@ -9215,9 +9215,9 @@
             <milestone unit="bekker" n="782a24"/>
             <quote type="lemma">
               <lb n="18" xml:id="p225-17"/>Παχύτητος μὲν οὖν καὶ λεπτότητος αἴτιον μάλιστα τὸ
+              <lb n="19" xml:id="p225-18"/>δέρμα.
             </quote>
             <p>
-              <lb n="19" xml:id="p225-18"/>δέρμα.
               <lb n="20" xml:id="p225-19"/>Τοῦ μὲν οὖν παχείας καὶ λεπτὰς εἶναι τὰς τρίχας, ἐπιμήκεις τε καὶ<note type="apparatus" n="20" target="#p225-19">Τοῦ] τὸ IL</note>
               <lb n="21" xml:id="p225-20"/>βραχείας αἴτιον τὸ δέρμα, συναίτιον δὲ ἡ τῆς ὑγρότητος ἀφ’ ἧς τρέφονται<milestone type="alt-edition" unit="line" ed="Venetiis 1526 (Io. Antonius de Sabio)" n="40"/>
               <lb n="22" xml:id="p225-21"/>διαφορά. ἂν μὲν γὰρ ᾖ τὸ δέρμα παχὺ καὶ μανὸν καὶ ἡ ἀναθυμιωμένη<note type="apparatus" n="22" target="#p225-21">διαφορὰν a</note>
@@ -9272,9 +9272,9 @@
             <milestone unit="bekker" n="782b5"/>
             <quote type="lemma">
               <lb n="30" xml:id="p226-29"/>Διὸ ὅλως μὲν τὰ παχυδερμότερα παχυτριχώτερα τῶν
+              <lb n="31" xml:id="p226-30"/>ζῴων.
             </quote>
             <p>
-              <lb n="31" xml:id="p226-30"/>ζῴων.
               <lb n="32" xml:id="p226-31"/>Τὸ ἑξῆς καὶ κατάλληλον τῆς λέξεως τοιοῦτον ἂν εἴη· διὸ ὅλως μὲν<milestone type="alt-edition" unit="line" ed="Venetiis 1526 (Io. Antonius de Sabio)" n="40"/>
               <lb n="33" xml:id="p226-32"/>τὰ παχυτριχώτερα τῶν ζῴων παχυδερμότερα, οὐ μὴν καὶ πάντα τὰ παχυδερμότερα<note type="apparatus" n="33" target="#p226-32">τὰ post πάντα om. a</note>
               <lb n="34" xml:id="p226-33"/>παχυτριχώτερα τῶν λεπτοδέρμων· ὁ γὰρ βοῦς παχυδερμότερος<milestone type="alt-edition" unit="line" ed="Venetiis 1526 (Io. Antonius de Sabio)" n="45"/>
@@ -9299,9 +9299,9 @@
             <milestone unit="bekker" n="783a6"/>
             <quote type="lemma">
               <lb n="12" xml:id="p227-11"/>Ἔτι δ’ ἔνια τῶν ζῴων μαλακὴν μὲν ἔχει τὴν τρίχα,<note type="apparatus" n="12" target="#p227-11">Ἔτι IKL¹: ἔστι Arist. corr. L² ζῴων ἃ μαλακὴν Arist. τὴν K Arist.: om. IL</note>
+              <lb n="13" xml:id="p227-12"/>ἧττον δὲ λεπτήν.
             </quote>
             <p>
-              <lb n="13" xml:id="p227-12"/>ἧττον δὲ λεπτήν.
               <lb n="14" xml:id="p227-13"/>Τοῦτο λίαν πανάληθες· αἱ γὰρ τῶν λαγωῶν τοιαῦται· παχεῖαι γὰρ<note type="apparatus" n="14" target="#p227-13">λαγῶν I: λαγοῶν a</note>
               <lb n="15" xml:id="p227-14"/>καὶ μαλακαί, κἂν ἐμφαίνωνταί τινες μεταξὺ τῶν παχειῶν καὶ μαλακῶν<milestone type="alt-edition" unit="line" ed="Venetiis 1526 (Io. Antonius de Sabio)" n="25"/>
               <lb n="16" xml:id="p227-15"/>πάνυ λεπτόταται, αἵτινες λεπτόταται οὐδὲ κυρίως <milestone type="alt-edition" unit="folio" ed="Venetiis 1526 (Io. Antonius de Sabio)" n="110v"/> εἰσὶ τρίχες· αἱ δὲ<note type="apparatus" n="16" target="#p227-15">αἵτινες λεπτόταται om. a αἳ K</note>
@@ -9345,9 +9345,9 @@
             <milestone unit="bekker" n="783b8"/>
             <quote type="lemma">
               <lb n="16" xml:id="p228-15"/>Φαλακροῦνται δ’ ἐπιδήλως οἱ ἄνθρωποι μάλιστα τῶν
+              <lb n="17" xml:id="p228-16"/>ζῴων.
             </quote>
             <p>
-              <lb n="17" xml:id="p228-16"/>ζῴων.
               <lb n="18" xml:id="p228-17"/>Τὴν αἰτίαν διὰ τούτων λέγει, πῶς φαλακροῦνται οἱ ἄνθρωποι. φωλεύοντας<milestone type="alt-edition" unit="line" ed="Venetiis 1526 (Io. Antonius de Sabio)" n="10"/>
               <lb n="19" xml:id="p228-18"/>δὲ ὄρνιθας λέγει τοὺς ἐπῳάζοντας. τὸ δὲ κατὰ μέρος μὲν ἀπορρεῖ<note type="apparatus" n="19" target="#p228-18">ἀπορρεῖ Arist.: ὑπορρεῖ libri, sed cf. v. 21. 22</note>
               <lb n="20" xml:id="p228-19"/>καὶ τὰ φύλλα τοῖς φυτοῖς πᾶσι δυνάμει τοιοῦτόν ἐστι· πάντων τῶν<milestone type="alt-edition" unit="line" ed="Venetiis 1526 (Io. Antonius de Sabio)" n="15"/>
@@ -9376,9 +9376,9 @@
             <milestone unit="bekker" n="783b22"/>
             <quote type="lemma">
               <lb n="4" xml:id="p229-3"/>Γίνεται δὲ τοῖς φυτοῖς ἐν τῷ χειμῶνι τὸ πάθος· αὕτη<note type="apparatus" n="4" target="#p229-3">τοῖς μὲν φυτοῖς Arist.</note>
+              <lb n="5" xml:id="p229-4"/>γὰρ ἡ μεταβολὴ κυριωτέρα τῆς ἡλικίας.
             </quote>
             <p>
-              <lb n="5" xml:id="p229-4"/>γὰρ ἡ μεταβολὴ κυριωτέρα τῆς ἡλικίας.
               <lb n="6" xml:id="p229-5"/>Ἡλικίαν λέγει τὸ γῆρας, μεταβολὴν δὲ τὸν χειμῶνα. ἔστι δὲ τὸ
               <lb n="7" xml:id="p229-6"/>λεγόμενον ‘τὸ φυλλορροεῖν καὶ οἱονεὶ φαλακροῦσθαι γίνεται τοῖς φυτοῖς ἐν<note type="apparatus" n="7" target="#p229-6">post γίνεται add. δὲ IL ἐν om. KLa</note>
               <lb n="8" xml:id="p229-7"/>τῷ χειμῶνι· κυριώτερος γὰρ ὁ χειμὼν καὶ μᾶλλον δύναται ποιεῖν τὰ φυτὰ<milestone type="alt-edition" unit="line" ed="Venetiis 1526 (Io. Antonius de Sabio)" n="40"/>
@@ -9452,9 +9452,9 @@
             <milestone unit="bekker" n="784a11"/>
             <quote type="lemma">
               <lb n="33" xml:id="p230-32"/>Τοῦ δὲ τὰ μὲν φωλεύοντα πάλιν δασύνεσθαι καὶ τὰ<note type="apparatus" n="33" target="#p230-32">καὶ τὰ—φύλλα (34) om. K</note>
+              <lb n="34" xml:id="p230-33"/>φυλλοβολήσαντα πάλιν φύειν φύλλα.
             </quote>
             <p>
-              <lb n="34" xml:id="p230-33"/>φυλλοβολήσαντα πάλιν φύειν φύλλα.
               <lb n="35" xml:id="p230-34"/>Ἐπειδὴ γάρ, ὡς εἴρηκε πρότερον, καὶ ἡ φυλλοβόλησις καὶ ἡ πτερορρύησις<note type="apparatus" n="35" target="#p230-34">Ἐπεὶ Ka</note><milestone type="alt-edition" unit="line" ed="Venetiis 1526 (Io. Antonius de Sabio)" n="10"/>
             </p>
             <pb n="231" facs="https://archive.org/download/commentariaina14pt13akaduoft/page/n782.jpg"/>
@@ -9563,9 +9563,9 @@
             <milestone unit="bekker" n="785a25"/>
             <quote type="lemma">
               <lb n="26" xml:id="p233-25"/>Ὅτι δὲ γίνεται ἡ πολιὰ σήψει τινί, καὶ οὐκ ἔστιν,
+              <lb n="27" xml:id="p233-26"/>ὥσπερ οἴονταί τινες, αὔανσις, σημεῖον τοῦ προτέρου ῥηθέντος.
             </quote>
             <p>
-              <lb n="27" xml:id="p233-26"/>ὥσπερ οἴονταί τινες, αὔανσις, σημεῖον τοῦ προτέρου ῥηθέντος.
               <lb n="28" xml:id="p233-27"/>Δύο ἦσαν αἱ λεγόμεναι δόξαι περὶ τῆς γενέσεως τῶν πολιῶν, μία μὲν<note type="apparatus" n="28" target="#p233-27">δόξαι] δόσεις a</note><milestone type="alt-edition" unit="line" ed="Venetiis 1526 (Io. Antonius de Sabio)" n="10"/>
               <lb n="29" xml:id="p233-28"/>ἡ λέγουσα ὅτι σήψει τινὶ τοῦ ἐν αὐταῖς ὑγροῦ γίνεται, ἥτις ἐστὶν Ἀριστοτέλους,
               <lb n="30" xml:id="p233-29"/>ἄλλη δὲ ὅτι αὔανσίς ἐστι. καὶ πιστοῦται τὴν οἰκείαν ὁ δαιμόνιος οὗτος δόξαν<note type="apparatus" n="30" target="#p233-29">ἄλλοι K</note>
@@ -9687,9 +9687,9 @@
             <milestone unit="bekker" n="786b12"/>
             <quote type="lemma">
               <lb n="27" xml:id="p236-26"/>Περὶ μὲν οὖν ὀξύτητος καὶ βαρύτητος τὴν αὐτὴν αἰτίαν
+              <lb n="28" xml:id="p236-27"/>οἰητέον εἶναι ἥνπερ ἐπὶ τῆς μεταβολῆς.<note type="apparatus" n="28" target="#p236-27">εἶναι—μεταβολῆς om. K</note>
             </quote>
             <p>
-              <lb n="28" xml:id="p236-27"/>οἰητέον εἶναι ἥνπερ ἐπὶ τῆς μεταβολῆς.<note type="apparatus" n="28" target="#p236-27">εἶναι—μεταβολῆς om. K</note>
               <lb n="29" xml:id="p236-28"/>Τὸ λεγόμενον ἴσον ἐστὶ τῷ ἐκ τῆς ἀποδοθείσης αἰτίας τοῦ διὰ τί τὰ<milestone type="alt-edition" unit="line" ed="Venetiis 1526 (Io. Antonius de Sabio)" n="20"/>
               <lb n="30" xml:id="p236-29"/>πρότερον ὄντα ὀξύφωνα ὕστερον βαρύφωνα γίνεται (νέα μὲν γὰρ ὄντα
               <lb n="31" xml:id="p236-30"/>ὀξύτερον φθέγγεται, γεραιότερα δὲ βαρύτερον) ἐκ δὴ ταύτης δῆλον ἔσται<note type="apparatus" n="31 et 33" target="#p236-30 #p236-32">ὀξύτερα a 31 γηρατώτερα L: γερατώτερα I βαρύτερα a post δὴ add. τῆς αἰτίας Ka</note><milestone type="alt-edition" unit="line" ed="Venetiis 1526 (Io. Antonius de Sabio)" n="25"/>
@@ -9720,10 +9720,10 @@
             <milestone unit="bekker" n="786b25"/>
             <quote type="lemma">
               <lb n="17" xml:id="p237-16"/>Ἐπεὶ δὲ βαρὺ μέν ἐστιν ἐν τῷ βραδεῖαν εἶναι τὴν<milestone type="alt-edition" unit="folio" ed="Venetiis 1526 (Io. Antonius de Sabio)" n="115v"/>
-            </quote>
-            <p>
               <lb n="18" xml:id="p237-17"/>κίνησιν, ὀξὺ δὲ ἐν τῷ ταχεῖαν, τοῦ δὲ βραδέως καὶ ταχέως<note type="apparatus" n="18" target="#p237-17">δὲ post τοῦ om. IL βραδέως καὶ ταχέως I</note>
               <lb n="19" xml:id="p237-18"/>πότερον τὸ κινοῦν αἴτιον.<note type="apparatus" n="19" target="#p237-18">πότερον— αἴτιον om. K πρότερον I</note>
+            </quote>
+            <p>
               <lb n="20" xml:id="p237-19"/>Ἐν τῷ τοῦ δὲ βραδέως ὁ δέ σύνδεσμος διὰ τὸ παρέλκειν ἀναπόδοτον<note type="apparatus" n="20-21" target="#p237-19 #p237-20">Ἐν τῷ—ὑποστίξομεν] ὑποστικτέον Ka</note>
               <lb n="21" xml:id="p237-20"/>ποιεῖ φαίνεσθαι τὴν λέξιν· εἴη δ’ ἂν καταλληλότερον, εἰ ὑποστίξομεν εἰς
               <lb n="22" xml:id="p237-21"/>τὸ ἐν τῷ ταχεῖαν, εἶθ’ ὡς ἀποδοτικὸν τοῦ ἐπεὶ δὲ ἐπάξομεν χωρὶς τοῦ<note type="apparatus" n="22" target="#p237-21">ἐν τῷ om. K ταχεῖαν a ἐπάξωμεν a: ἐπαύξομεν I χωρὶς] χώραν a</note>
@@ -9755,9 +9755,9 @@
             <milestone unit="bekker" n="786b28"/>
             <quote type="lemma">
               <lb n="9" xml:id="p238-8"/>Φασὶ γάρ τινες τὸ μὲν πολὺ βραδέως κινεῖσθαι, τὸ δ’
+              <lb n="10" xml:id="p238-9"/>ὀλίγον ταχέως.
             </quote>
             <p>
-              <lb n="10" xml:id="p238-9"/>ὀλίγον ταχέως.
               <lb n="11" xml:id="p238-10"/>Ἦσάν τινες οἱ αἰτιώμενοι τῆς βαρυφωνίας καὶ ὀξυφωνίας τὸ κινούμενον<note type="apparatus" n="11" target="#p238-10">τῆς βαρέας φωνῆς a</note><milestone type="alt-edition" unit="line" ed="Venetiis 1526 (Io. Antonius de Sabio)" n="20"/>
               <lb n="12" xml:id="p238-11"/>μόνον, οἷον τὸν ἀέρα, ὅπερ οὗτος οὐ βούλεται. οὗτος γὰρ δι’ ἀμφότερα<note type="apparatus" n="12" target="#p238-11">οἷον—κινούμενον (13) bis scr. I ὅπερ] ὃ Ka</note>
               <lb n="13" xml:id="p238-12"/>συμβαίνειν ταῦτά φησιν, τό τε κινοῦν καὶ τὸ κινούμενον, ἐκεῖνοι δὲ διὰ<note type="apparatus" n="13" target="#p238-12">ταῦτά φησιν] ταύτην φωνὴν a φασὶ K</note><milestone type="alt-edition" unit="line" ed="Venetiis 1526 (Io. Antonius de Sabio)" n="25"/>
@@ -9823,9 +9823,9 @@
             <milestone unit="bekker" n="787a2"/>
             <quote type="lemma">
               <lb n="1" xml:id="p240-0"/>Ἀλλ’ ἐπειδή ἐστιν ἕτερον τὸ βαρὺ καὶ ὀξὺ ἐν φωνῇ
+              <lb n="2" xml:id="p240-1"/>μεγαλοφωνίας καὶ μικροφωνίας.
             </quote>
             <p>
-              <lb n="2" xml:id="p240-1"/>μεγαλοφωνίας καὶ μικροφωνίας.
               <lb n="3" xml:id="p240-2"/>Τὸ ἄτοπον διὰ τούτων ἐπαγαγεῖν βούλεται, λέγω δὴ τὸ μὴ δύνασθαι<milestone type="alt-edition" unit="line" ed="Venetiis 1526 (Io. Antonius de Sabio)" n="20"/>
               <lb n="4" xml:id="p240-3"/>ἅμα βαρὺ καὶ μικρὸν φθέγξασθαι, εἰ τὸ κινούμενόν ἐστι μόνον αἴτιον τοῦ πάθους<note type="apparatus" n="4" target="#p240-3">κινούμενον scripsi: κινοῦν libri</note>
               <lb n="5" xml:id="p240-4"/>τούτου. πρότερον δὲ δείκνυσιν ὅτι τὸ βαρὺ καὶ ὀξὺ ἐν φωνῇ ἕτερόν ἐστι<note type="apparatus" n="5" target="#p240-4">τὸ om. IL</note><milestone type="alt-edition" unit="line" ed="Venetiis 1526 (Io. Antonius de Sabio)" n="25"/>
@@ -9849,9 +9849,9 @@
             <milestone unit="bekker" n="787a11"/>
             <quote type="lemma">
               <lb n="20" xml:id="p240-19"/>Αἴτιον δ’ ὅτι τὸ μέγα καὶ τὸ μικρὸν καὶ τὸ πολὺ καὶ
+              <lb n="21" xml:id="p240-20"/>τὸ ὀλίγον τὰ μὲν ἁπλῶς λέγεται, τὰ δὲ πρὸς ἄλληλα.
             </quote>
             <p>
-              <lb n="21" xml:id="p240-20"/>τὸ ὀλίγον τὰ μὲν ἁπλῶς λέγεται, τὰ δὲ πρὸς ἄλληλα.
               <lb n="22" xml:id="p240-21"/>Αἴτιον, φησί, τοῦ μηδέποτε εἶναι βαρύφωνον μικρόφωνον, ἀλλὰ πᾶν
               <lb n="23" xml:id="p240-22"/>εἴ τι βαρύφωνον, καὶ μεγαλόφωνον, εἴπερ τὸ κινούμενόν ἐστι μόνον αἴτιον,<milestone type="alt-edition" unit="line" ed="Venetiis 1526 (Io. Antonius de Sabio)" n="40"/>
               <lb n="24" xml:id="p240-23"/>ὅτι τὸ μέγα καὶ τὸ μικρὸν καὶ τὸ πολὺ καὶ τὸ ὀλίγον τὰ μὲν ἁπλῶς<note type="apparatus" n="24" target="#p240-23">τὸ ante μικρὸν om. a καὶ ὀλίγον K τὸ μὲν et τὸ δὲ (25) IL</note>
@@ -9867,9 +9867,9 @@
             <milestone unit="bekker" n="787a18"/>
             <quote type="lemma">
               <lb n="31" xml:id="p240-30"/>Τὸ δ’ ἰσχῦον πρὸς τὴν ἰσχὺν ὁτὲ μὲν πολὺ κινοῦν βραδεῖαν<note type="apparatus" n="31" target="#p240-30">πρὸς] διὰ Arist.</note>
+              <lb n="32" xml:id="p240-31"/>ποιήσεται τὴν κίνησιν, ὁτὲ δὲ διὰ τὸ κρατεῖν ταχεῖαν.
             </quote>
             <p>
-              <lb n="32" xml:id="p240-31"/>ποιήσεται τὴν κίνησιν, ὁτὲ δὲ διὰ τὸ κρατεῖν ταχεῖαν.
               <lb n="33" xml:id="p240-32"/>Τὸ λεγόμενον ἔσται δῆλον οὕτως εἰποῦσιν. ἔστω λόγου χάριν ὅτι τὸ<note type="apparatus" n="33" target="#p240-32">post Τὸ add. δὲ IL εἰπεῖν a</note><milestone type="alt-edition" unit="line" ed="Venetiis 1526 (Io. Antonius de Sabio)" n="5"/>
             </p>
             <pb n="241" facs="https://archive.org/download/commentariaina14pt13akaduoft/page/n792.jpg"/>
@@ -9904,9 +9904,9 @@
             <milestone unit="bekker" n="787a28"/>
             <quote type="lemma">
               <lb n="25" xml:id="p241-24"/>Τὰ μὲν οὖν πλεῖστα νέα ὄντα καὶ θήλεα δι’ ἀδυναμίαν<note type="apparatus" n="25" target="#p241-24">νεώτερα Arist.</note>
+              <lb n="26" xml:id="p241-25"/>ὀλίγον κινοῦντα ἀέρα ὀξύφωνά ἐστιν.
             </quote>
             <p>
-              <lb n="26" xml:id="p241-25"/>ὀλίγον κινοῦντα ἀέρα ὀξύφωνά ἐστιν.
               <lb n="27" xml:id="p241-26"/>Θεὶς τὰς αἰτίας, καθ’ ἃς τὸ ὀξὺ καὶ βαρὺ φθέγγεσθαι συμβαίνει, λέγει<note type="apparatus" n="27" target="#p241-26">καὶ τὸ βαρὺ a</note><milestone type="alt-edition" unit="line" ed="Venetiis 1526 (Io. Antonius de Sabio)" n="35"/>
               <lb n="28" xml:id="p241-27"/>διὰ τί τὰ μὲν τῶν νέων ὀξύφωνά ἐστι, τὰ δὲ βαρύφωνα, καί φησι ‘τὰ μὲν
               <lb n="29" xml:id="p241-28"/>οὖν πλεῖστα τῶν νέων διὰ ἀδυναμίαν ὀλίγον κινοῦντα ἀέρα (οὐδὲ γὰρ
@@ -9983,9 +9983,9 @@
             <milestone unit="bekker" n="787b15"/>
             <quote type="lemma">
               <lb n="14" xml:id="p243-13"/>Διόπερ σύντονον ἔχουσι τοῦτο τὸ μόριον ᾧ κινοῦσι<note type="apparatus" n="14-15" target="#p243-13 #p243-14">Διόπερ—πνεῦμα om. K</note>
+              <lb n="15" xml:id="p243-14"/>τὸ πνεῦμα, ὥσπερ χορδὴν τεταμένην νευρίνην.
             </quote>
             <p>
-              <lb n="15" xml:id="p243-14"/>τὸ πνεῦμα, ὥσπερ χορδὴν τεταμένην νευρίνην.
               <lb n="16" xml:id="p243-15"/>Πάλιν μόριον ᾧ κινοῦσι τὸ πνεῦμα τὴν καρδίαν φησίν. ὅτι δὲ<note type="apparatus" n="16" target="#p243-15">Πάλιν—κινοῦσι] Πᾶν μόριον τὸ κινοῦν a</note>
               <lb n="17" xml:id="p243-16"/>καὶ τὸ ἰσχυρῶς τεταμένον μᾶλλον δύναται πλήττειν, δηλοῦσιν αἵ τε χορδαὶ
               <lb n="18" xml:id="p243-17"/>αἱ ἰσχυρῶς ταθεῖσαι ὀξύτατα φθεγγόμεναι καὶ τὰ τόξα πορρώτερον κατὰ<milestone type="alt-edition" unit="line" ed="Venetiis 1526 (Io. Antonius de Sabio)" n="5"/>
@@ -10104,9 +10104,9 @@
             <milestone unit="bekker" n="788a16"/>
             <quote type="lemma">
               <lb n="14" xml:id="p246-13"/>Τοῦ δὲ φύσει τὰ μὲν τοιαῦτα συνίστασθαι τῶν ζῴων,<note type="apparatus" n="14" target="#p246-13">τὰ μὲν τοιαῦτα Arist.: τοιαῦτα μὲν libri, sed cf. v. 16</note>
+              <lb n="15" xml:id="p246-14"/>ὥστε βαρύφωνα εἶναι.
             </quote>
             <p>
-              <lb n="15" xml:id="p246-14"/>ὥστε βαρύφωνα εἶναι.
               <lb n="16" xml:id="p246-15"/>Πρὸς ταῖς εἰρημέναις αἰτίαις λέγει συμβάλλεσθαι πρὸς τὸ τὰ μὲν βαρύφωνα<note type="apparatus" n="16" target="#p246-15">πρὸς ante τὸ om. a</note><milestone type="alt-edition" unit="line" ed="Venetiis 1526 (Io. Antonius de Sabio)" n="10"/>
               <lb n="17" xml:id="p246-16"/>εἶναι φύσει τὰ δὲ ὀξύφωνα καὶ τὴν ψυχρότητα καὶ τὴν θερμότητα<note type="apparatus" n="17" target="#p246-16">φύσει om. L: φύσις a καὶ τὴν θερμότητα καὶ τὴν (τὴν om. a) ψυχρότητα coll. Ka</note>
               <lb n="18" xml:id="p246-17"/>τοῦ τόπου. οἱ γὰρ ἐν θερμοτέρᾳ χώρᾳ οἰκοῦντες ἄνθρωποι βαρυφωνότεροί<note type="apparatus" n="18" target="#p246-17">θερμοτέραις χώραις Ka</note><milestone type="alt-edition" unit="line" ed="Venetiis 1526 (Io. Antonius de Sabio)" n="15"/>
@@ -10137,9 +10137,9 @@
             <milestone unit="bekker" n="788b9"/>
             <quote type="lemma">
               <lb n="6" xml:id="p247-5"/>Εἴρηκε μὲν οὖν περὶ αὐτῶν καὶ Δημόκριτος, οὐ καλῶς
+              <lb n="7" xml:id="p247-6"/>δὲ εἴρηκεν.
             </quote>
             <p>
-              <lb n="7" xml:id="p247-6"/>δὲ εἴρηκεν.
               <lb n="8" xml:id="p247-7"/>Περὶ μὲν οὖν τοῦ [τίνος ἕνεκα] τοὺς προσθίους ὀδόντας πίπτειν καὶ<note type="apparatus" n="8" target="#p247-7">οὖν om. IL τίνος ἕνεκα delevi</note><milestone type="alt-edition" unit="line" ed="Venetiis 1526 (Io. Antonius de Sabio)" n="5"/>
               <lb n="9" xml:id="p247-8"/>πάλιν ἄλλους φύειν λέγει εἰρηκέναι καὶ Δημόκριτον, οὐ καλῶς δὲ διὰ τὸ<note type="apparatus" n="9" target="#p247-8">πάλιν post φύειν ponunt Ka ἄρχεται IL</note>
               <lb n="10" xml:id="p247-9"/>τὴν αἰτίαν ἣν ἀπέδωκε μὴ ἐφαρμόζειν ἐπὶ πάντων μηδ’ εἶναι καθόλου.<milestone type="alt-edition" unit="line" ed="Venetiis 1526 (Io. Antonius de Sabio)" n="10"/>
@@ -10165,9 +10165,9 @@
             <milestone unit="bekker" n="788b20"/>
             <quote type="lemma">
               <lb n="27" xml:id="p247-26"/>Ἐπεὶ δὲ τὴν φύσιν ὑποτιθέμεθα, ἐξ ὧν ὁρῶμεν ὑποτιθέμενοι.<note type="apparatus" n="27" target="#p247-26">ὑποτιθέμεθα Arist.: ὑποτιθέμενος libri</note>
+              <lb n="28" xml:id="p247-27"/>
             </quote>
             <p>
-              <lb n="28" xml:id="p247-27"/>
               <lb n="29" xml:id="p247-28"/>Τοῦτο τὸ ἐπιχείρημα ἅμα τε πρὸς τὴν Δημοκρίτειον ἐνίσταται δόξαν<note type="apparatus" n="29" target="#p247-28">τε om. Ka</note><milestone type="alt-edition" unit="line" ed="Venetiis 1526 (Io. Antonius de Sabio)" n="30"/>
               <lb n="30" xml:id="p247-29"/>καὶ ἅμα συγκατασκευάζει ὅτι οὐκ ἔστι παρὰ φύσιν ἐν τῷ καιρῷ τοῦ θηλάζειν
               <lb n="31" xml:id="p247-30"/>ἡ τῶν ὀδόντων ἔκφυσις, ἀλλὰ καὶ λίαν κατὰ φύσιν. λέγει οὖν ‘ἐπειδὴ ἡ<milestone type="alt-edition" unit="line" ed="Venetiis 1526 (Io. Antonius de Sabio)" n="35"/>
@@ -10197,9 +10197,9 @@
             <milestone unit="bekker" n="789a2"/>
             <quote type="lemma">
               <lb n="16" xml:id="p248-15"/>Ἐκ μὲν οὖν τοῦ μείζονος πλείω ἀναγκαῖον ἐπιρρεῖν
+              <lb n="17" xml:id="p248-16"/>τροφήν, ἐκ δὲ τοῦ ἐλάττονος στενωτέραν.
             </quote>
             <p>
-              <lb n="17" xml:id="p248-16"/>τροφήν, ἐκ δὲ τοῦ ἐλάττονος στενωτέραν.
               <lb n="18" xml:id="p248-17"/>Τὸ στενωτέραν ἴσον ἐστὶ τῷ ὀλιγωτέραν. λέγει δὲ βραδύτερον γίνεσθαι<note type="apparatus" n="18" target="#p248-17">βραδυτέραν K: βραδυτέρως a</note>
               <lb n="19" xml:id="p248-18"/>τοὺς γομφίους διὰ τὸ πολλὴν τροφὴν ἐπιρρεῖν αὐτοῖς ἐκ τοῦ ὀστοῦ, ἐν ᾧ<milestone type="alt-edition" unit="line" ed="Venetiis 1526 (Io. Antonius de Sabio)" n="15"/>
               <lb n="20" xml:id="p248-19"/>εἰσι, τὸ δὲ πολὺ δυσκατέργαστον. λέγει δὲ πάλιν φύειν τοὺς προσθίους<note type="apparatus" n="20" target="#p248-19">post προσθίους add. ὀδόντας Ka</note>
@@ -10220,9 +10220,9 @@
             <milestone unit="bekker" n="789b2"/>
             <quote type="lemma">
               <lb n="1" xml:id="p249-0"/>Δημόκριτος δὲ τὸ οὗ ἕνεκα ἀφεὶς λέγειν πάντα ἀνάγει<note type="apparatus" n="1" target="#p249-0">δὲ τοῦ ἕνεκα I λέγει K ἀνάγειν K</note><note type="apparatus" n="1-2" target="#p249-0 #p249-1">ἀνάγει οἷς χρῆται] sic etiam Arist. PSY: post ἀνάγει add. εἰς ἀνάγκην Arist. vulg.</note>
+              <lb n="2" xml:id="p249-1"/>οἷς χρῆται ἡ φύσις οὖσι μὲν τοιούτοις.
             </quote>
             <p>
-              <lb n="2" xml:id="p249-1"/>οἷς χρῆται ἡ φύσις οὖσι μὲν τοιούτοις.
               <lb n="3" xml:id="p249-2"/>Οἷς χρῆται ἡ φύσις λέγει τὰ ὄργανα· τοιούτοις δὲ ἤτοι φυσικοῖς,<note type="apparatus" n="3" target="#p249-2">τούτοις IKL, sed cf. v. 2</note><milestone type="alt-edition" unit="line" ed="Venetiis 1526 (Io. Antonius de Sabio)" n="40"/>
               <lb n="4" xml:id="p249-3"/>ὀργάνοις μέντοι καὶ ἄλλου ἕνεκα. ἔστι δὲ ὃ λέγει τοιοῦτον ‘ἀφεὶς ὁ<note type="apparatus" n="4" target="#p249-3">μέντοι] μέν τι a ἀλλ’ οὗ ἕνεκα a post ἕνεκα fort. addendum οὖσιν ὁ λόγος L ἀφεὶς—ὄργανα (6) om. a</note>
               <lb n="5" xml:id="p249-4"/>Δημόκριτος τὴν κυριωτάτην αἰτίαν ἀποδιδόναι ἀνάγει πάντων τὸ εἶναι εἰς τὰ

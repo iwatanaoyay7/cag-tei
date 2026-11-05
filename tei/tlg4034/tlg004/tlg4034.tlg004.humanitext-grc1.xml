@@ -18,7 +18,7 @@
         <p>Text transcribed by OCR (Humanitext OCR v2, Gemini models) from the scans named in the source description. Structure (div, quote, head): assigned automatically from printed cues (Bekker references before lemmata, section numbers, headings, book titles, lecture headings; in the paraphrases, Aristotle's chapters located from the running heads) and reviewed by the editors at every boundary that was not certain. In works divided into lectures (Πρᾶξις, Θεωρία) the lectures are divs; topic headings that run across lectures (e.g. Περὶ οὐσίας) are marked milestone[@unit='topic'] and kept as text. Text: OCR of the page images (gemini-3-flash-preview; gemini-3.7-flash where it failed), collated word by word, page by page and in five-line blocks, with the First1KGreek transcription of the same edition (tlg4034.tlg004.1st1K-grc1). Lines on which the two disagreed, lines without a First1KGreek counterpart and lines containing a word form not attested in a Greek form lexicon (about two fifths of the lines) were read again from images of the single lines by a second model (gemini-3.8-flash); words still undecided were read line by line by a third model (gemini-3.1-pro-preview). A reading was adopted when the re-reading of the image agreed with it; the remaining words were decided on the page image by student assistants or by AI-assisted checking under the editor's supervision. Lines on which the OCR agreed word for word with First1KGreek and whose words are all attested were not re-read. No text was copied from First1KGreek (Open Greek and Latin Project, University of Leipzig; CC BY-SA 4.0): it served only as a collation witness, and every disagreement was decided from the page image of this edition. Spelling, accents and breathings follow the printed page: the models were instructed to transcribe exactly as printed and the checkers chose the printed form, but a normalised accentuation adopted by a model may occasionally remain. Later checks against the page images (line numbers, marginal references, signs and apparatus, omitted lines) are listed in the revision description. Headings inside a div (sub-headings, closing formulas, labels of tables) are ab[@type='head']. The words of diagrams and tables are not body text: each diagram or table is given once as figure after the last body line printed before it (labels, trees and tables transcribed; pure geometry described in figDesc); where the edition counts the rows of a diagram or table as lines, those line numbers are not used by any lb. Evident misprints of the printed edition, identified on the page image, are kept and given with the correct form as choice/sic/corr; mere variants of spelling or accentuation are left as printed. Misprinted numbers in milestones (Bekker references, old-edition page, folio, column and line numbers), which cannot carry choice/sic/corr, are given with the corrected value where the sequence of the numbers determines it. Line breaks: one lb per printed line; @n is the line count of the CAG page (headings included), resynchronised on the printed marginal numbers of the left margin; lines the edition does not count carry lb without @n. Words hyphenated across lines are joined and the lb is placed at the following word boundary. pb/@facs points to the image of the page in the Internet Archive item named in the source description (BookReader page image; for pages supplied from another copy, that copy). Critical-apparatus entries are attached to the line(s) they cite as note[@type='apparatus'] with @target on the lb (line level; the lemma words of an entry are not linked); entries that cannot be resolved remain as note[@type='footnote'] at the page end. References in the margins to older editions or manuscripts are milestone[@type='alt-edition'] with @unit and @ed (the edition identified from the preface of the volume); CAG's repetition of the current old-edition page or folio beside the first line of each page is not encoded. Bekker references printed before lemmata are milestone[@unit='bekker']. Marginal digits fused into the text by OCR have been removed.</p>
       </editorialDecl>
     </encodingDesc>
-    <revisionDesc><change when="2026-09-15" who="#NI">OCR of the page images in text mode (gemini-3-flash-preview; gemini-3.7-flash where it failed); body lines aligned to the physical lines of the page image; physical lines left without an OCR line read again (31 lines recovered in the corpus).</change><change when="2026-09-24" who="#NI">Line numbers anchored on the printed marginal numerals; 75 doubtful pages of the corpus checked by eye.</change><change when="2026-09-25" who="#NI">Automatic division into chapters, sections and lemmata; 459 uncertain boundaries of the corpus reviewed (273 removed, 119 added).</change><change from="2026-09-26" to="2026-09-29" who="#NI">Line numbers verified against the printed marginal numerals of every page (67,352 of 70,149 numerals agreed); page-wide shifts corrected automatically (322 pages on 2026-09-26, 129 on 2026-09-28); 227 pages reviewed by student assistants (176 corrected).</change><change from="2026-09-30" to="2026-10-02" who="#NI">Text collated with First1KGreek where a First1KGreek file could be aligned by page and line, and re-read (Gemini Batch API): 156,504 lines of the corpus by gemini-3.8-flash, 21,570 lines by gemini-3.1-pro-preview; remaining words put on review sheets.</change><change from="2026-09-30" to="2026-10-12" who="#NI">Review sheets of the re-read words answered by student assistants; the remaining words decided on the page images.</change><change from="2026-10-01" to="2026-10-08" who="#TN">All uncertain structural boundaries reviewed; conventions of the pilot works applied (lectures, book titles, topic headings).</change><change when="2026-10-02" who="#NI">Evident misprints given as choice/sic/corr; headings inside divs as ab[@type='head'].</change><change when="2026-10-13" who="#NI">Margin references to older editions and manuscripts encoded as milestone[@type='alt-edition'][@ed], the editions identified from the prefaces; irregular sequences checked on the page images.</change><change from="2026-10-13" to="2026-10-14" who="#NI">Body text lost to the footnote and figure areas found by collation from the First1KGreek side and restored (about 2,300 lines in the corpus); passages missed by the OCR read again and inserted; restored and inserted lines checked again against the images.</change><change when="2026-10-14" who="#NI">Text of diagrams encoded as figure, and lemma Bekker references whose numbers the OCR had lost read from the images (where the work has them).</change><change when="2026-10-16" who="#NI">Line numbers of the 875 pages left by the verification checked on the images (248 of them also answered by student assistants), followed by a continuity check of every page; margin references to older editions checked on 2,237 page images (944 corrections).</change><change when="2026-10-17" who="#NI">Pages whose line numbering still had gaps or repeats checked on the images (355 pages); signs (〈 〉 [ ] † * — ( )) compared with First1KGreek and 445 pages checked on the images (313 corrections in the text, 523 in the apparatus); words hyphenated across lines joined; punctuation normalised.</change><change when="2026-10-20" who="#NI">Header revised (title, source description, editorial declaration, revision description); misprinted old-edition line numbers given with the corrected value where the sequence determines them; breathings and accents written as separate signs before capitals composed with the letter; missing elision marks after ἀλλ, κατ, καθ, ἐπ, δι etc. supplied in the text; numbers left at line starts removed or encoded as old-edition milestones (image checked); working row identifiers left in 37 lines removed (one line restored from the page image); words divided at a line end that had been joined to a word two lines down corrected; every body line without a line number checked on the page images (margin labels and folio marks read as lines dropped, duplicated rows removed, numbers given to lines the edition counts); numeral signs unified as ʹ (U+0374, stored in its NFC form U+02B9); line-number jumps, old-edition milestones without an edition name and notes suspected to hold body text checked on the page images; citation by printed page and line declared (refsDecl); line coordinates of the working files realigned on the marginal numerals; printers' signatures at the foot of the page removed from the apparatus; apparatus entries for two lines joined by et kept as one note pointing at both lines; page images linked from pb/@facs.</change><change when="2026-10-21" who="#NI">Old-edition line numbers checked on the page images where the sequence skipped a number (2,100 places in the corpus) and, page by page, where it was irregular (542 pages): numbers missed by the OCR added (549), milestones not printed on the page dropped (190; mostly the CAG's own left-margin numbers or line references of the apparatus taken for old-edition numbers), misplaced ones moved (69), misread values corrected (31), page numbers taken for line numbers made page milestones (8); the edition's own skips and out-of-order numbers left as printed, the line count printed beside the repeated page or folio at the head of a page not encoded (like the repetition).</change><change when="2026-10-23" who="#NI">Quotation marks made uniform: opening single and double quotation marks, printed in the edition in the reversed (high-reversed-9) form, are encoded as ‘ and “, closing ones as ’ and ”, single and double kept as printed; opening marks read by the OCR as straight quotes, low quotes or spacing breathings, and spacing breathings or quotation marks doubled before a capital that already bears its breathing, corrected.</change><change when="2026-10-23" who="#NI">Errors found by the accuracy evaluation (sample checked against the page images by student assistants, readings confirmed by the editor) corrected: 1 in the apparatus.</change><change when="2026-11-05" who="#NI">Apparatus entries printed out of numerical order (e.g. 33 … 32) separated from the preceding entry; words hyphenated across lines joined in Latin text as in Greek; words mixing Greek and Latin letters (OCR errors, about 130, including manuscript sigla) corrected on the page images; marginal folio marks left in the text removed; validated against TEI P5 version 4.12.0 (recorded in TEI/@version).</change></revisionDesc>
+    <revisionDesc><change when="2026-09-15" who="#NI">OCR of the page images in text mode (gemini-3-flash-preview; gemini-3.7-flash where it failed); body lines aligned to the physical lines of the page image; physical lines left without an OCR line read again (31 lines recovered in the corpus).</change><change when="2026-09-24" who="#NI">Line numbers anchored on the printed marginal numerals; 75 doubtful pages of the corpus checked by eye.</change><change when="2026-09-25" who="#NI">Automatic division into chapters, sections and lemmata; 459 uncertain boundaries of the corpus reviewed (273 removed, 119 added).</change><change from="2026-09-26" to="2026-09-29" who="#NI">Line numbers verified against the printed marginal numerals of every page (67,352 of 70,149 numerals agreed); page-wide shifts corrected automatically (322 pages on 2026-09-26, 129 on 2026-09-28); 227 pages reviewed by student assistants (176 corrected).</change><change from="2026-09-30" to="2026-10-02" who="#NI">Text collated with First1KGreek where a First1KGreek file could be aligned by page and line, and re-read (Gemini Batch API): 156,504 lines of the corpus by gemini-3.8-flash, 21,570 lines by gemini-3.1-pro-preview; remaining words put on review sheets.</change><change from="2026-09-30" to="2026-10-12" who="#NI">Review sheets of the re-read words answered by student assistants; the remaining words decided on the page images.</change><change from="2026-10-01" to="2026-10-08" who="#TN">All uncertain structural boundaries reviewed; conventions of the pilot works applied (lectures, book titles, topic headings).</change><change when="2026-10-02" who="#NI">Evident misprints given as choice/sic/corr; headings inside divs as ab[@type='head'].</change><change when="2026-10-13" who="#NI">Margin references to older editions and manuscripts encoded as milestone[@type='alt-edition'][@ed], the editions identified from the prefaces; irregular sequences checked on the page images.</change><change from="2026-10-13" to="2026-10-14" who="#NI">Body text lost to the footnote and figure areas found by collation from the First1KGreek side and restored (about 2,300 lines in the corpus); passages missed by the OCR read again and inserted; restored and inserted lines checked again against the images.</change><change when="2026-10-14" who="#NI">Text of diagrams encoded as figure, and lemma Bekker references whose numbers the OCR had lost read from the images (where the work has them).</change><change when="2026-10-16" who="#NI">Line numbers of the 875 pages left by the verification checked on the images (248 of them also answered by student assistants), followed by a continuity check of every page; margin references to older editions checked on 2,237 page images (944 corrections).</change><change when="2026-10-17" who="#NI">Pages whose line numbering still had gaps or repeats checked on the images (355 pages); signs (〈 〉 [ ] † * — ( )) compared with First1KGreek and 445 pages checked on the images (313 corrections in the text, 523 in the apparatus); words hyphenated across lines joined; punctuation normalised.</change><change when="2026-10-20" who="#NI">Header revised (title, source description, editorial declaration, revision description); misprinted old-edition line numbers given with the corrected value where the sequence determines them; breathings and accents written as separate signs before capitals composed with the letter; missing elision marks after ἀλλ, κατ, καθ, ἐπ, δι etc. supplied in the text; numbers left at line starts removed or encoded as old-edition milestones (image checked); working row identifiers left in 37 lines removed (one line restored from the page image); words divided at a line end that had been joined to a word two lines down corrected; every body line without a line number checked on the page images (margin labels and folio marks read as lines dropped, duplicated rows removed, numbers given to lines the edition counts); numeral signs unified as ʹ (U+0374, stored in its NFC form U+02B9); line-number jumps, old-edition milestones without an edition name and notes suspected to hold body text checked on the page images; citation by printed page and line declared (refsDecl); line coordinates of the working files realigned on the marginal numerals; printers' signatures at the foot of the page removed from the apparatus; apparatus entries for two lines joined by et kept as one note pointing at both lines; page images linked from pb/@facs.</change><change when="2026-10-21" who="#NI">Old-edition line numbers checked on the page images where the sequence skipped a number (2,100 places in the corpus) and, page by page, where it was irregular (542 pages): numbers missed by the OCR added (549), milestones not printed on the page dropped (190; mostly the CAG's own left-margin numbers or line references of the apparatus taken for old-edition numbers), misplaced ones moved (69), misread values corrected (31), page numbers taken for line numbers made page milestones (8); the edition's own skips and out-of-order numbers left as printed, the line count printed beside the repeated page or folio at the head of a page not encoded (like the repetition).</change><change when="2026-10-23" who="#NI">Quotation marks made uniform: opening single and double quotation marks, printed in the edition in the reversed (high-reversed-9) form, are encoded as ‘ and “, closing ones as ’ and ”, single and double kept as printed; opening marks read by the OCR as straight quotes, low quotes or spacing breathings, and spacing breathings or quotation marks doubled before a capital that already bears its breathing, corrected.</change><change when="2026-10-23" who="#NI">Errors found by the accuracy evaluation (sample checked against the page images by student assistants, readings confirmed by the editor) corrected: 1 in the apparatus.</change><change when="2026-11-05" who="#NI">Apparatus entries printed out of numerical order (e.g. 33 … 32) separated from the preceding entry; words hyphenated across lines joined in Latin text as in Greek; words mixing Greek and Latin letters (OCR errors, about 130, including manuscript sigla) corrected on the page images; marginal folio marks left in the text removed; validated against TEI P5 version 4.12.0 (recorded in TEI/@version).</change><change when="2026-11-05" who="#NI">Extent of the lemma quotations (quote[@type='lemma']) corrected: the automatic division had closed every lemma after its first printed line, leaving the remaining lines of lemmata printed over two or more lines at the head of the following paragraph. Candidates were found from the letter-spacing of the lines on the page images (lemmata are printed spaced) and from the line geometry (centred last line, indented paragraph start), and every candidate was decided on the page image (Claude work teams; about 7,700 places in the corpus); the lines so decided are now inside the quotation, with pb inside the quotation where a lemma runs on to the next page. Where the lemma runs on in the same line as the commentary (Stephanus in De interpretatione), the quotation ends after the last spaced word and the paragraph continues in the same line without a new lb; where no lemma is printed and the paraphrase follows the Bekker reference directly (Michael in De partibus animalium from p. 37), the quotation is dropped and the division kept; centred last lines the edition does not count are inside the quotation as unnumbered lines.</change></revisionDesc>
   </teiHeader>
   <text>
     <body>
@@ -66,9 +66,9 @@
             <milestone unit="bekker" n="698a1"/>
             <quote type="lemma">
               <lb n="6" xml:id="p104-5"/>Περὶ δὲ κινήσεως τῆς τῶν ζῴων, ὅσα μὲν περὶ ἕκαστον<note type="apparatus" n="6" target="#p104-5">τῆς τῶν om. CPR</note><note type="apparatus" n="6-7" target="#p104-5 #p104-6">ἑκάτερον γένος αὐτῶν ὑπάρχει S</note>
+              <lb n="7" xml:id="p104-6"/>αὐτῶν ὑπάρχει γένος καὶ τίνες διαφοραί.<milestone type="alt-edition" unit="line" ed="Aldina 1527" n="25"/>
             </quote>
             <p>
-              <lb n="7" xml:id="p104-6"/>αὐτῶν ὑπάρχει γένος καὶ τίνες διαφοραί.<milestone type="alt-edition" unit="line" ed="Aldina 1527" n="25"/>
               <lb n="8" xml:id="p104-7"/>Εἴρηκεν ἐν τῇ Περὶ ζῴων πορείας περὶ ἁπάντων τῶν ὑπαρχόντων
               <lb n="9" xml:id="p104-8"/>ἑκάστῳ γένει ἢ εἴδει τῶν ζῴων <milestone type="alt-edition" unit="folio" ed="Aldina 1527" n="149v"/> καὶ περὶ τῆς διαφορᾶς αὐτῶν· εἶπε<note type="apparatus" n="9" target="#p104-8">γένη ἢ εἴδη a</note>
               <lb n="10" xml:id="p104-9"/>γὰρ ἐκεῖ διὰ τί τὰ μὲν αὐτῶν τέτρασι σημείοις κινεῖται τὰ δὲ πλείοσι,<note type="apparatus" n="10-11" target="#p104-9 #p104-10">αὐτῶν — μέν ἐστιν om. CPR</note>
@@ -122,9 +122,9 @@
             <milestone unit="bekker" n="698b10"/>
             <quote type="lemma">
               <lb n="17" xml:id="p105-16"/>Ἔχει γὰρ τὴν θεωρίαν οὐ μόνον ὅσον ἐπὶ τὰ ζῷα
+              <lb n="18" xml:id="p105-17"/>συντείνουσαν.
             </quote>
             <p>
-              <lb n="18" xml:id="p105-17"/>συντείνουσαν.
               <lb n="19" xml:id="p105-18"/>Τὸ δεικνύναι, φησίν, ὡς εἰ μὴ εἴη τι ἔξωθεν ἁπλῶς ἀκίνητον, οὐκ<note type="apparatus" n="19" target="#p105-18">εἰ om. PR</note>
               <lb n="20" xml:id="p105-19"/>ἂν γένοιτο κίνησις, οὐ μόνον ἐπὶ τὰ ζῷα συντείνει, ἀλλὰ καὶ πρὸς τὸν<milestone type="alt-edition" unit="line" ed="Aldina 1527" n="50"/>
               <lb n="21" xml:id="p105-20"/>σύμπαντα κόσμον· ἀνάγκη γὰρ καὶ ἐν τούτῳ εἶναί τι πάντως ἀκίνητον, εἰ<note type="apparatus" n="21" target="#p105-20">τούτοις PR τι πάντη πάντως CPR</note>
@@ -148,9 +148,9 @@
             <milestone unit="bekker" n="698b21"/>
             <quote type="lemma">
               <lb n="3" xml:id="p106-2"/>Μαρτύριον δὲ τούτου τὸ ἀπορούμενον, διὰ τί ποτε τὸ<note type="apparatus" n="3" target="#p106-2">τοῦ τ R ποτε om. S</note><milestone type="alt-edition" unit="line" ed="Aldina 1527" n="5"/>
+              <lb n="4" xml:id="p106-3"/>πλοῖον ἔξωθεν μὲν ἄν τις ὠθῇ τῷ κοντῷ τὸν ἱστόν.<note type="apparatus" n="4" target="#p106-3">μὲν ἔξωθεν coll. a</note>
             </quote>
             <p>
-              <lb n="4" xml:id="p106-3"/>πλοῖον ἔξωθεν μὲν ἄν τις ὠθῇ τῷ κοντῷ τὸν ἱστόν.<note type="apparatus" n="4" target="#p106-3">μὲν ἔξωθεν coll. a</note>
               <lb n="5" xml:id="p106-4"/>Τὸ ἑξῆς τῆς λέξεως τοιοῦτον ‘διὰ τί ποτε τὸ πλοῖον κινεῖται ῥᾳδίως,<milestone type="alt-edition" unit="line" ed="Aldina 1527" n="15"/>
               <lb n="6" xml:id="p106-5"/>ἄν τις ἔξωθεν τοῦ πλοίου ὢν ὠθῇ τὸ πλοῖον προσβάλλων τῷ ἱστῷ τὸν<note type="apparatus" n="6-7" target="#p106-5 #p106-6">τὸν ἱστὸν τῷ κοντῷ Sa</note>
               <lb n="7" xml:id="p106-6"/>κοντόν’; τὸ δὲ λεγόμενον ‘μαρτύριον δὲ καὶ πίστις ἐναργὴς τοῦ δεῖν εἶναί<note type="apparatus" n="7" target="#p106-6">post πίστις add. ἱκανὴ καὶ CPR</note>
@@ -192,9 +192,9 @@
             <milestone unit="bekker" n="699a12"/>
             <quote type="lemma">
               <lb n="7" xml:id="p107-6"/>Ἀπορήσειε δ’ ἄν τις, ἆρ’ εἴ τι κινεῖ τὸν ὅλον οὐρανόν,
+              <lb n="8" xml:id="p107-7"/>εἶναι θέλει ἀκίνητον.<note type="apparatus" n="8" target="#p107-7">θέλει CPRS Arist. PS: τε δεῖ a Arist. vulg.</note>
             </quote>
             <p>
-              <lb n="8" xml:id="p107-7"/>εἶναι θέλει ἀκίνητον.<note type="apparatus" n="8" target="#p107-7">θέλει CPRS Arist. PS: τε δεῖ a Arist. vulg.</note>
               <lb n="9" xml:id="p107-8"/>Ὅπερ ἀπορεῖ τοιοῦτόν ἐστι· πότερον τὸ κινοῦν τὸν οὐρανὸν ἀκίνητόν
               <lb n="10" xml:id="p107-9"/>ἐστι, καὶ πότερον ἔστιν αὐτοῦ μόριον ἢ οὔ; καὶ γὰρ ἡ ψυχὴ κινεῖ τὸ
               <lb n="11" xml:id="p107-10"/>ζῷον ἀκίνητος οὖσα, καὶ ὅμως μόριόν ἐστι τοῦ ὅλου ζῴου. ἆρ’ οὖν καὶ
@@ -237,9 +237,9 @@
             <milestone unit="bekker" n="699a27"/>
             <quote type="lemma">
               <lb n="11" xml:id="p108-10"/>Οἱ δὲ μυθικῶς τὸν Ἄτλαντα ποιοῦντες ἐπὶ τῆς γῆς<note type="apparatus" n="11" target="#p108-10">μυθικοί a</note>
+              <lb n="12" xml:id="p108-11"/>ἔχοντα τοὺς πόδας.
             </quote>
             <p>
-              <lb n="12" xml:id="p108-11"/>ἔχοντα τοὺς πόδας.
               <lb n="13" xml:id="p108-12"/>Ἡ μὲν περὶ τὸν Ἄτλαντα ἱστορία δήλη πᾶσιν· ποιοῦσι γὰρ αὐτὸν<note type="apparatus" n="13" target="#p108-12">τοῦ Ἄτλαντος CPR πᾶσι δήλη coll. CPR</note>
               <lb n="14" xml:id="p108-13"/>κίονας βαστάζοντα καὶ ἐπὶ τῆς γῆς ἱστάμενον κινεῖν τὸν οὐρανόν, ἀνάλογον
               <lb n="15" xml:id="p108-14"/>ὄντα τῇ ἡμισείᾳ τοῦ κύκλου διαμέτρῳ τῇ ἀπὸ τοῦ κέντρου πρὸς τὴν περιφέρειαν<note type="apparatus" n="15" target="#p108-14">post ἡμισείᾳ add. τῇ ἐκ PR, τῆς C</note>
@@ -262,9 +262,9 @@
             <milestone unit="bekker" n="699a32"/>
             <quote type="lemma">
               <lb n="29" xml:id="p108-28"/>Πρὸς δὲ τούτοις δεῖ τὴν ἰσχὺν ἰσάζειν τοῦ κινοῦντος
+              <lb n="30" xml:id="p108-29"/>καὶ τὴν τοῦ μένοντος.<note type="apparatus" n="30" target="#p108-29">τὴν om. C</note>
             </quote>
             <p>
-              <lb n="30" xml:id="p108-29"/>καὶ τὴν τοῦ μένοντος.<note type="apparatus" n="30" target="#p108-29">τὴν om. C</note>
               <lb n="31" xml:id="p108-30"/>Καὶ τοῦτο κατὰ τῆς περὶ τὸν Ἄτλαντα δόξης ἐστί. τὸ δὲ λεγόμενον<milestone type="alt-edition" unit="line" ed="Aldina 1527" n="40"/>
               <lb n="32" xml:id="p108-31"/>τοιοῦτον· ὥσπερ ἔστιν ἰσχύς τις, καθ’ ἣν κινεῖ τὸ κινοῦν, οὕτω καὶ καθ’
             </p>
@@ -299,9 +299,9 @@
             <milestone unit="bekker" n="699b12"/>
             <quote type="lemma">
               <lb n="17" xml:id="p109-16"/>Ἔστι δέ τις ἀπορία περὶ τὰς κινήσεις τῶν τοῦ οὐρανοῦ
+              <lb n="18" xml:id="p109-17"/>μορίων.
             </quote>
             <p>
-              <lb n="18" xml:id="p109-17"/>μορίων.
               <lb n="19" xml:id="p109-18"/>Δείξας ὅτι ἀδύνατόν ἐστι κινεῖσθαι τὸν οὐρανὸν ὑπὸ τοῦ Ἄτλαντος
               <lb n="20" xml:id="p109-19"/>διὰ τοῦ δεῖξαι ὅτι ἀδύνατόν ἐστι τὴν τῆς γῆς ἰσχὺν ἴσην εἶναι τῇ τε τοῦ<note type="apparatus" n="20" target="#p109-19">τοῦ ante οὐρανοῦ om. a</note>
               <lb n="21" xml:id="p109-20"/>οὐρανοῦ καὶ τῇ τοῦ Ἄτλαντος, ἐπάγει ἔστι δέ τις ἀπορία περὶ τὰς κινήσεις<note type="apparatus" n="21-22" target="#p109-20 #p109-21">τῶν μορίων τοῦ οὐρανοῦ κινήσεις coll. a</note>
@@ -366,9 +366,9 @@
             <milestone unit="bekker" n="699b32"/>
             <quote type="lemma">
               <lb n="8" xml:id="p111-7"/>Ἆρα δὲ δεῖ τι ἀκίνητον εἶναι καὶ ἠρεμοῦν ἔξω τοῦ<note type="apparatus" n="8" target="#p111-7">ἀκίνητόν τι coll. a</note>
+              <lb n="9" xml:id="p111-8"/>κινουμένου.
             </quote>
             <p>
-              <lb n="9" xml:id="p111-8"/>κινουμένου.
               <lb n="10" xml:id="p111-9"/>Δείξας ὅτι εἰ μέλλει γίνεσθαι κίνησις, ἀνάγκη εἶναί τι ἠρεμοῦν, καὶ<note type="apparatus" n="10" target="#p111-9">et 21 μέλλοι CPRa</note><milestone type="alt-edition" unit="line" ed="Aldina 1527" n="20"/>
               <lb n="11" xml:id="p111-10"/>τοῦτο μηδὲν εἶναι μόριον τοῦ κινουμένου, καὶ μέλλων ζητεῖν, εἰ ἐνδέχεται
               <lb n="12" xml:id="p111-11"/>καὶ ἐπὶ τῆς τοῦ οὐρανοῦ κινήσεως εἶναί τι ἀκίνητον, ἵνα κινῆται ὁ οὐρανός,
@@ -423,10 +423,10 @@
             <milestone unit="bekker" n="700a26"/>
             <quote type="lemma">
               <lb n="22" xml:id="p112-21"/>Πότερον δὲ ἐν τῷ αὐτὸ κινοῦντι κατὰ τόπον μόνῳ δεῖ<note type="apparatus" n="22" target="#p112-21">αὐτὸ Arist. vulg.: αὐτὸ αὐτό PS Arist. EP: αὐτὸ αὐτὸ ex corr. R: αὐτὸ αὐτὸ C: αὐτὸ (semel) a Arist. SY μόνῳ om. SC Arist. P</note>
-            </quote>
-            <p>
               <lb n="23" xml:id="p112-22"/>τι μένειν, ἢ καὶ ἐν τῷ ἀλλοιουμένῳ αὐτῷ ὑφ’ αὑτοῦ καὶ αὐξανομένῳ;
               <lb n="24" xml:id="p112-23"/>
+            </quote>
+            <p>
               <lb n="25" xml:id="p112-24"/>Οὐκ ἀλλοιοῦται οὐδ’ αὔξεται ὑφ’ αὑτῶν τὰ κατὰ γαστρὸς ὄντα· ὑπὸ<note type="apparatus" n="25" target="#p112-24">ὑφ’ αὑτῶν] ὑπ’ αὐτοῦ S</note><milestone type="alt-edition" unit="line" ed="Aldina 1527" n="25"/>
               <lb n="26" xml:id="p112-25"/>τῆς μητρὸς γὰρ ὡς μέρη αὐτῆς τότε καὶ αὔξεται καὶ ἀλλοιοῦται τὰ ἔμβρυα·<note type="apparatus" n="26" target="#p112-25">τότε post ἀλλοιοῦται ponunt CPR</note>
               <lb n="27" xml:id="p112-26"/>ὑφ’ αὑτῶν δὲ ἀλλοιοῦται καὶ αὔξεται ἐκτός. ἀλλοίωσιν δὲ νῦν ἀκουστέον<note type="apparatus" n="27" target="#p112-26">ἀλλοιοῦται καὶ αὔξεται om. CPR</note><note type="apparatus" n="27-28" target="#p112-26 #p112-27">ἀκουστέον οὐ τὴν CPR</note>
@@ -475,9 +475,9 @@
             <milestone unit="bekker" n="700b29"/>
             <quote type="lemma">
               <lb n="1" xml:id="p114-0"/>Ὥστε δῆλον ὡς ἔστι μὲν ᾗ ὁμοίως κινεῖται τὸ ἀεὶ<note type="apparatus" n="1" target="#p114-0">ὡς] ὅτι a: om. CPR</note><milestone type="alt-edition" unit="folio" ed="Aldina 1527" n="152v"/>
+              <lb n="2" xml:id="p114-1"/>κινούμενον.
             </quote>
             <p>
-              <lb n="2" xml:id="p114-1"/>κινούμενον.
               <lb n="3" xml:id="p114-2"/>Τὸ ἔστι μὲν ᾗ ὁμοίως κινεῖται ἴσον ἐστὶ τῷ τρόπον μέν τινα
               <lb n="4" xml:id="p114-3"/>ὁμοίως κινεῖται ὁ οὐρανὸς ὑπὸ τοῦ πρώτου κινητικοῦ καὶ τὰ ζῷα ὑπὸ<note type="apparatus" n="4" target="#p114-3">κινητικοῦ] κινεῖται PR</note>
               <lb n="5" xml:id="p114-4"/>τοῦ ὀρεκτοῦ· τοῦτο γὰρ κινεῖ τὴν ὀρεκτικὴν καὶ ὁρμητικὴν τῆς ψυχῆς<note type="apparatus" n="5" target="#p114-4">ὀρεκτικοῦ a</note>
@@ -566,9 +566,9 @@
             <milestone unit="bekker" n="701a7"/>
             <quote type="lemma">
               <lb n="15" xml:id="p116-14"/>Πῶς δὲ νοῶν ὁτὲ μὲν πράττει ὁτὲ δ’ οὐ πράττει, καὶ
+              <lb n="16" xml:id="p116-15"/>κινεῖται, ποτὲ δ’ οὐ κινεῖται.<note type="apparatus" n="16" target="#p116-15">ποτὲ] ὁτὲ a Arist.</note>
             </quote>
             <p>
-              <lb n="16" xml:id="p116-15"/>κινεῖται, ποτὲ δ’ οὐ κινεῖται.<note type="apparatus" n="16" target="#p116-15">ποτὲ] ὁτὲ a Arist.</note>
               <lb n="17" xml:id="p116-16"/>Ἐπειδὴ ποτὲ μὲν νοοῦντες κινούμεθα ἐπὶ πρᾶξιν, ποτὲ δὲ νοοῦμεν<note type="apparatus" n="17" target="#p116-16">πράξεις PR</note>
               <lb n="18" xml:id="p116-17"/>μέν, οὐ κινούμεθα δέ, ἀλλὰ καὶ μάλιστα ἡ τοιαύτη νόησις αἰτία ἠρεμίας
               <lb n="19" xml:id="p116-18"/>γίνεται, τὸ αἴτιον τοῦ ποτὲ μὲν κινεῖσθαι ποτὲ δὲ μὴ κινεῖσθαι διὰ τούτων<milestone type="alt-edition" unit="line" ed="Aldina 1527" n="30"/>
@@ -612,9 +612,9 @@
             <milestone unit="bekker" n="701b1"/>
             <quote type="lemma">
               <lb n="18" xml:id="p117-17"/>Ὥσπερ δὲ τὰ αὐτόματα κινεῖται μικρᾶς κινήσεως γινομένης,<note type="apparatus" n="18" target="#p117-17">μικρᾶς a Arist.: μιᾶς S: μὲν CPR</note>
+              <lb n="19" xml:id="p117-18"/>λυομένων τῶν στρεβλῶν.
             </quote>
             <p>
-              <lb n="19" xml:id="p117-18"/>λυομένων τῶν στρεβλῶν.
               <lb n="20" xml:id="p117-19"/>Αὐτόματα λέγει τὰ ὑπὸ τῶν θαυματοποιῶν ἐν τοῖς γάμοις καὶ ἐν<note type="apparatus" n="20" target="#p117-19">ἐν post καὶ om. CPR</note><milestone type="alt-edition" unit="folio" ed="Aldina 1527" n="153v"/>
               <lb n="21" xml:id="p117-20"/>ἄλλοις τισὶ γινόμενα. λύσαντες γὰρ οὗτοι τὴν ἀρχὴν τῶν στρεβλῶν, εὐθὺς<note type="apparatus" n="21" target="#p117-20">τισὶ om. P γινομένοις S</note><milestone type="alt-edition" unit="line" ed="Aldina 1527" n="20"/>
               <lb n="22" xml:id="p117-21"/>κρούσασα τὴν ἐφεξῆς λύει αὐτήν, καὶ αὕτη τὴν ἐφεξῆς, ἕως ἂν εἰς τὰ<note type="apparatus" n="22" target="#p117-21">post κρούσασα spat. II litt. P</note>
@@ -689,9 +689,9 @@
             <milestone unit="bekker" n="701b34"/>
             <quote type="lemma">
               <lb n="14" xml:id="p119-13"/>Ἐξ ἀνάγκης δὲ ἀκολουθεῖ τῇ νοήσει καὶ τῇ φαντασίᾳ
+              <lb n="15" xml:id="p119-14"/>αὐτῶν θερμότης καὶ ψῦξις.
             </quote>
             <p>
-              <lb n="15" xml:id="p119-14"/>αὐτῶν θερμότης καὶ ψῦξις.
               <lb n="16" xml:id="p119-15"/>Τὸ τῆς λέξεως συνεχὲς τοιοῦτον ‘ἐξ ἀνάγκης δὲ ἀκολουθεῖ τῇ νοήσει<note type="apparatus" n="16" target="#p119-15">Τὸ τῆς— ψῦξις (17) in marg. P1</note>
               <lb n="17" xml:id="p119-16"/>καὶ τῇ φαντασίᾳ αὐτῶν θερμότης καὶ ψῦξις· ἔστι δὲ τὰ λυπηρὰ καὶ ἡδέα
               <lb n="18" xml:id="p119-17"/>αὐτῶν σχεδὸν πάντα μετὰ ψύξεως καὶ θερμότητος’. τὰ δὲ ἄλλα μεταξύ.<note type="apparatus" n="18" target="#p119-17">ἀλλὰ a</note>
@@ -710,9 +710,9 @@
             <milestone unit="bekker" n="702a7"/>
             <quote type="lemma">
               <lb n="28" xml:id="p119-27"/>Ὥστ’ εὐλόγως ἤδη δημιουργεῖται τὰ ἐντὸς καὶ τὰ περὶ<note type="apparatus" n="28" target="#p119-27">τὰ post καὶ om. a</note>
+              <lb n="29" xml:id="p119-28"/>τὰς ἀρχὰς τῶν ὀργανικῶν μορίων.
             </quote>
             <p>
-              <lb n="29" xml:id="p119-28"/>τὰς ἀρχὰς τῶν ὀργανικῶν μορίων.
               <lb n="30" xml:id="p119-29"/>Ἀρχὰς ὀργανικῶν μορίων λέγει τὰ νεῦρα, τοὺς μῦς, ὀργανικὰ δὲ
             </p>
             <pb n="120" facs="https://archive.org/download/p1commentariaina22akaduoft/page/n331.jpg"/>
@@ -786,9 +786,9 @@
             <milestone unit="bekker" n="702a28"/>
             <quote type="lemma">
               <lb n="21" xml:id="p121-20"/>Τῆς δ’ ἐν τῷ ὠλεκράνῳ κάμψεως τὸ μὲν κινεῖται τὸ
+              <lb n="22" xml:id="p121-21"/>ἐν αὐτῷ τῷ ὅλῳ κινουμένῳ.<note type="apparatus" n="22" target="#p121-21">αὐτῷ om. S τῷ om. CPR ὅλον κινούμενον CPR</note>
             </quote>
             <p>
-              <lb n="22" xml:id="p121-21"/>ἐν αὐτῷ τῷ ὅλῳ κινουμένῳ.<note type="apparatus" n="22" target="#p121-21">αὐτῷ om. S τῷ om. CPR ὅλον κινούμενον CPR</note>
               <lb n="23" xml:id="p121-22"/>Ὃ λέγει τοιοῦτόν ἐστι· τὸ μέρος, τουτέστιν ἡ χείρ, συγκινεῖται τῷ<note type="apparatus" n="23" target="#p121-22">μέρος ex μὲν corr. S1: μὲν a</note>
               <lb n="24" xml:id="p121-23"/>ὅλῳ βραχίονι. ἔστι γὰρ ἡ χεὶρ ἐν τῷ βραχίονι ὡς μέρος πρὸς ὅλον· τὸ<note type="apparatus" n="24" target="#p121-23">ἔστι γὰρ-βραχίονι om. CPR πρὸς ὅλον] σὺν ὅλῳ CPR</note>
               <lb n="25" xml:id="p121-24"/>μέρος οὖν τὸ ἐν τῷ ὅλῳ συγκινεῖται τῷ ὅλῳ. ἐν τῇ κάμψει γὰρ τοῦ<note type="apparatus" n="25" target="#p121-24">τὸ ὂν ἐν τῷ CPR</note>
@@ -827,9 +827,9 @@
             <milestone unit="bekker" n="702b12"/>
             <quote type="lemma">
               <lb n="23" xml:id="p122-22"/>Ἐπεὶ δ’ ὁμοίως ἔχει ἀπὸ τῶν ἀριστερῶν καὶ τῶν<note type="apparatus" n="23" target="#p122-22">ἔχει om. CS καὶ ἀπὸ τῶν CPRa</note>
+              <lb n="24" xml:id="p122-23"/>δεξιῶν, καὶ ἅμα τὰ ἐναντία κινεῖται. <milestone type="alt-edition" unit="folio" ed="Aldina 1527" n="155r"/>
             </quote>
             <p>
-              <lb n="24" xml:id="p122-23"/>δεξιῶν, καὶ ἅμα τὰ ἐναντία κινεῖται. <milestone type="alt-edition" unit="folio" ed="Aldina 1527" n="155r"/>
               <lb n="25" xml:id="p122-24"/>Τὸ ἅμα ἀντὶ τοῦ παρὰ μέρος εἴληπται· οὐ γὰρ ἀεὶ ἐν τῇ κατὰ
               <lb n="26" xml:id="p122-25"/>τόπον μεταβολῇ τὸ μὲν ἀριστερὸν ἠρεμεῖ, τὸ δὲ δεξιὸν κινεῖται, ἢ ἔμπαλιν<milestone type="alt-edition" unit="line" ed="Aldina 1527" n="6"/>
               <lb n="27" xml:id="p122-26"/>ἀεὶ τὸ δεξιὸν ἠρεμεῖ καὶ κινεῖται τὸ ἀριστερόν, ἀλλὰ παρὰ μέρος ἕως ἂν
@@ -884,9 +884,9 @@
             <milestone unit="bekker" n="702b25"/>
             <quote type="lemma">
               <lb n="4" xml:id="p124-3"/>Τὸ δὲ μέσον τοῦ σώματος μέρος δυνάμει μὲν ἕν, ἐνεργείᾳ<milestone type="alt-edition" unit="line" ed="Aldina 1527" n="35"/>
+              <lb n="5" xml:id="p124-4"/>δὲ ἀνάγκη γίνεσθαι πλείω.
             </quote>
             <p>
-              <lb n="5" xml:id="p124-4"/>δὲ ἀνάγκη γίνεσθαι πλείω.
               <lb n="6" xml:id="p124-5"/>Μέσον τοῦ σώματος λέγει τὴν καρδίαν καὶ τὸ ἐν αὐτῇ πνεῦμα.
               <lb n="7" xml:id="p124-6"/>φησὶ δὲ ὅτι τὸ τῶν ζῴων μέσον δυνάμει μὲν ἕν, ἐνεργείᾳ δὲ δύο.<note type="apparatus" n="7" target="#p124-6">φησὶν οὖν PR τὸ—μέσον a: τῇ τῶν ζῴων κινήσει CPR: ἡ τῶν ζ. κίνησις S: res tale quid postulat ὅτι ἐν τῇ τῶν ζῴων κινήσει τὸ μέσον ἤτοι ἡ καρδία</note>
               <lb n="8" xml:id="p124-7"/>ἐπειδὴ γὰρ ἀπ’ αὐτοῦ αἱ κινήσεις, ἀνάγκη ἐκτεινομένου τοῦ ἐν τῷ δεξιῷ<note type="apparatus" n="8" target="#p124-7">ἀπ’ αὐτῆς Sa, fort. recte (cf. not. ad v. 7) post ἐκτεινομένου add. τὸ ἀπὸ τῆς καρδίας νεῦρον ἢ νεῦρα, sed rursus del. P</note>
@@ -934,9 +934,9 @@
             <milestone unit="bekker" n="702b28"/>
             <quote type="lemma">
               <lb n="14" xml:id="p125-13"/>Λέγω δὲ οἷον ἐπὶ τῆς ΑΒΓ τὸ Β κινεῖται, κινεῖ
+              <lb n="15" xml:id="p125-14"/>δὲ τὸ Α.
             </quote>
             <p>
-              <lb n="15" xml:id="p125-14"/>δὲ τὸ Α.
               <lb n="16" xml:id="p125-15"/>Εἰπὼν ὅτι ἐνεργείᾳ γίνεται δύο δυνάμει ὄντα ἕν, δείκνυσι τοῦτο καὶ
               <lb n="17" xml:id="p125-16"/>ἐπὶ καταγραφῆς, ὡς ἔθος αὐτῷ, ἅμα πρὸς τούτῳ δεικνύων ὅτι ἀνάγκη<milestone type="alt-edition" unit="line" ed="Aldina 1527" n="15"/>
               <lb n="18" xml:id="p125-17"/>εἶναί τι ἀκίνητον, εἰ μέλλει κινήσεσθαι τὸ ζῷον. νενοήσθω δὴ Α ὅλη ἡ<note type="apparatus" n="18" target="#p125-17">μέλλοι CRSa δὴ om. CPR</note>
@@ -982,9 +982,9 @@
             <milestone unit="bekker" n="702b32"/>
             <quote type="lemma">
               <lb n="15" xml:id="p126-14"/>Ὥστ’ ἀνάγκη ἀμφοτέρας τὰς ἀρχὰς τὰς ἐν τῷ Α κινουμένας<note type="apparatus" n="15" target="#p126-14">ἀρχὰς τῶν ἐν τῷ α</note>
+              <lb n="16" xml:id="p126-15"/>κινεῖν.
             </quote>
             <p>
-              <lb n="16" xml:id="p126-15"/>κινεῖν.
               <lb n="17" xml:id="p126-16"/>Ἀρχὰς λέγων τὰ δεξιὰ καὶ ἀριστερὰ μέρη τῆς καρδίας καὶ τοῦ πνεύματος.<note type="apparatus" n="17" target="#p126-16">λέγει CPR</note>
               <lb n="18" xml:id="p126-17"/>ἦν δ’ ἄν καταλληλότερον, εἰ οὕτως εἶχεν ἡ γραφὴ ‘ὥστε ἀνάγκη<note type="apparatus" n="18" target="#p126-17">ἦν] εἴη CPR post ἂν add. καὶ a καταλληλοτέρα P εἶχεν] ἔχοι P: ἔχει CR</note>
               <lb n="19" xml:id="p126-18"/>ἀμφότερα τὰ μέρη τοῦ Α κινούμενα κινεῖν’. οὐ γὰρ τὸ πνεῦμα μόνον
@@ -1000,9 +1000,9 @@
             <milestone unit="bekker" n="703a4"/>
             <quote type="lemma">
               <lb n="26" xml:id="p126-25"/>Κατὰ μὲν οὖν τὸν λόγον τὸν λέγοντα τὴν αἰτίαν τῆς<note type="apparatus" n="26" target="#p126-25">οὖν om. PR τῆς] εἶναι S</note>
+              <lb n="27" xml:id="p126-26"/>κινήσεώς ἐστιν ἡ ὄρεξις τὸ μέσον, ὃ κινεῖ κινούμενον.<note type="apparatus" n="27" target="#p126-26">ἐστὶν ἡ ὄρεξις—κινήσεως (29) om. CPR</note>
             </quote>
             <p>
-              <lb n="27" xml:id="p126-26"/>κινήσεώς ἐστιν ἡ ὄρεξις τὸ μέσον, ὃ κινεῖ κινούμενον.<note type="apparatus" n="27" target="#p126-26">ἐστὶν ἡ ὄρεξις—κινήσεως (29) om. CPR</note>
               <lb n="28" xml:id="p126-27"/>Τὸ λεγόμενόν ἐστιν ὅτι κατὰ τὸν λόγον τὸν λέγοντα καὶ δεικνύντα τὸ<milestone type="alt-edition" unit="line" ed="Aldina 1527" n="50"/>
               <lb n="29" xml:id="p126-28"/>αἴτιον τῆς κινήσεως φαίνεται ὅτι ἡ ὄρεξίς ἐστιν, ἥτις ἀκίνητος οὖσα, ἐπεὶ<note type="apparatus" n="29" target="#p126-28">ἡ om. CPR ἀκίνητον a</note>
             </p>
@@ -1024,9 +1024,9 @@
             <milestone unit="bekker" n="703a6"/>
             <quote type="lemma">
               <lb n="11" xml:id="p127-10"/>Τὸ μὲν οὖν κινούμενον, μὴ πεφυκὸς δὲ κινεῖν δύναται<note type="apparatus" n="11" target="#p127-10">post κινούμενον add. μὲν a Arist. PS</note>
+              <lb n="12" xml:id="p127-11"/>πάσχειν κατὰ ἀλλοτρίαν δύναμιν.<note type="apparatus" n="12" target="#p127-11">πάσχειν ἀλλοτρίᾳ δυνάμει a κίνησιν P</note>
             </quote>
             <p>
-              <lb n="12" xml:id="p127-11"/>πάσχειν κατὰ ἀλλοτρίαν δύναμιν.<note type="apparatus" n="12" target="#p127-11">πάσχειν ἀλλοτρίᾳ δυνάμει a κίνησιν P</note>
               <lb n="13" xml:id="p127-12"/>Πανάληθες καὶ τοῦτο· πᾶν γὰρ ὃ κινεῖται μόνον, οὐ πέφυκε δὲ κινεῖν,<milestone type="alt-edition" unit="line" ed="Aldina 1527" n="15"/>
               <lb n="14" xml:id="p127-13"/>πάσχει κατὰ τὴν τοῦ κινοῦντος δύναμιν καὶ ἄγεται ὡς ἂν ἐκεῖνο ἄγῃ.<note type="apparatus" n="14" target="#p127-13">ἄγοι CPRS</note>
               <lb n="15" xml:id="p127-14"/>τοιοῦτον δέ τί ἐστι καὶ πᾶν σῶμα ζῴου· κατὰ γὰρ τὴν ψυχὴν καὶ αὐτὸ<note type="apparatus" n="15" target="#p127-14">τί om. P</note>
@@ -1079,9 +1079,9 @@
             <milestone unit="bekker" n="703b4"/>
             <quote type="lemma">
               <lb n="17" xml:id="p128-16"/>Κινεῖται δέ τινας καὶ ἀκουσίους ἔνια τῶν μορίων, τὰς<note type="apparatus" n="17" target="#p128-16">μερῶν Ra Arist.</note>
+              <lb n="18" xml:id="p128-17"/>δὲ πλείστας οὐχ ἑκουσίους. <milestone type="alt-edition" unit="folio" ed="Aldina 1527" n="156v"/><note type="apparatus" n="18" target="#p128-17">πλείστους a</note>
             </quote>
             <p>
-              <lb n="18" xml:id="p128-17"/>δὲ πλείστας οὐχ ἑκουσίους. <milestone type="alt-edition" unit="folio" ed="Aldina 1527" n="156v"/><note type="apparatus" n="18" target="#p128-17">πλείστους a</note>
               <lb n="19" xml:id="p128-18"/>Τὸ οὐχ ἑκούσιον μεταξύ ἐστιν ἀκουσίου καὶ ἑκουσίου, ὡς ἐπεσημήνατο<note type="apparatus" n="19" target="#p128-18">ἑκουσίου καὶ ἀκουσίου PR ἐπεσημήνατο post Νικομαχείοις ponunt adduntque ἐν ᾧ περὶ ἑκουσίου καὶ ἀκουσίου ἔλεγεν CPR</note>
               <lb n="20" xml:id="p128-19"/>καὶ ἐν τοῖς Ἠθικοῖς τοῖς ἐπιγραφομένοις Νικομαχείοις. ὅταν μὲν γὰρ<note type="apparatus" n="20" target="#p128-19">καὶ om. CPRa ἐν τοῖς Ἠθικοῖς—Νικομαχείοις] Γ 2</note>
               <lb n="21" xml:id="p128-20"/>ἐξαίφνης ἐπιστῇ γυνὴ τὸ εἶδος παγκάλη ἢ πολέμιος μηδὲν ἡμῶν περὶ τούτων<note type="apparatus" n="21" target="#p128-20">πάγκαλος CPR πόλεμος S</note>
@@ -1146,9 +1146,9 @@
             <milestone unit="bekker" n="703b26"/>
             <quote type="lemma">
               <lb n="6" xml:id="p130-5"/>Αἱ δὲ κινήσεις τῇ τε ἀρχῇ ἀπὸ τῶν μορίων, καὶ τοῖς<note type="apparatus" n="6" target="#p130-5">τῆς τε ἀρχῆς CRS</note><note type="apparatus" n="6-7" target="#p130-5 #p130-6">καὶ τῶν μορίων CR</note>
+              <lb n="7" xml:id="p130-6"/>μορίοις ἀπὸ τῆς ἀρχῆς εὐλόγως συμβαίνουσι.
             </quote>
             <p>
-              <lb n="7" xml:id="p130-6"/>μορίοις ἀπὸ τῆς ἀρχῆς εὐλόγως συμβαίνουσι.
               <lb n="8" xml:id="p130-7"/>Εἴρηται πρὸ ὀλίγου ὅτι τῶν νεύρων τεινομένων συντείνεται ἡ καρδία·<note type="apparatus" n="8" target="#p130-7">πρὸ ὀλίγου] p. 124,8</note>
               <lb n="9" xml:id="p130-8"/>ὥστε τὰ μὲν μόρια κινοῦνται ἀπὸ τῆς ἀρχῆς καὶ ἡ ἀρχὴ πάλιν ἀπὸ τῶν<note type="apparatus" n="9" target="#p130-8">κινεῖται CPR post πάλιν add. κινεῖται PR</note><milestone type="alt-edition" unit="line" ed="Aldina 1527" n="50"/>
               <lb n="10" xml:id="p130-9"/>μορίων. καὶ ὡς ἔθος τίθεται ἐπὶ στοιχείων τὴν ἀρχὴν καὶ τὰ μόρια,<note type="apparatus" n="10" target="#p130-9">τίθεται] τίθησιν a</note>
@@ -1174,9 +1174,9 @@
             <milestone unit="bekker" n="703b36"/>
             <quote type="lemma">
               <lb n="27" xml:id="p130-26"/>Ὅτι δὲ ὁτὲ μὲν ταῦτα νοησάντων γίνεται κίνησις ἡ<note type="apparatus" n="27" target="#p130-26">Ὅτι] Ἔτι a Arist. EP ταῦτα om. CPR ante κίνησις add. ἡ a Arist.</note>
+              <lb n="28" xml:id="p130-27"/>παρὰ τὸν λόγον.
             </quote>
             <p>
-              <lb n="28" xml:id="p130-27"/>παρὰ τὸν λόγον.
               <lb n="29" xml:id="p130-28"/>Ἐπειδὴ πολλάκις νοήσαντες γυναῖκα ἢ ἐχθρόν, κινεῖται τὸ αἰδοῖον καὶ<note type="apparatus" n="29" target="#p130-28">νοήσαντες] νοησάντων ἡμῶν CPR</note>
             </p>
             </div>

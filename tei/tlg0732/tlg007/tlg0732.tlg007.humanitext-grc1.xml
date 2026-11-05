@@ -18,7 +18,7 @@
         <p>Text transcribed by OCR (Humanitext OCR v2, Gemini models) from the scans named in the source description. Structure (div, quote, head): assigned automatically from printed cues (Bekker references before lemmata, section numbers, headings, book titles, lecture headings; in the paraphrases, Aristotle's chapters located from the running heads) and reviewed by the editors at every boundary that was not certain. In works divided into lectures (Πρᾶξις, Θεωρία) the lectures are divs; topic headings that run across lectures (e.g. Περὶ οὐσίας) are marked milestone[@unit='topic'] and kept as text. Text: OCR of the page images (gemini-3-flash-preview; gemini-3.7-flash where it failed), collated word by word, page by page and in five-line blocks, with the First1KGreek transcription of the same edition (tlg0732.tlg007.1st1K-grc1). Lines on which the two disagreed, lines without a First1KGreek counterpart and lines containing a word form not attested in a Greek form lexicon (about two fifths of the lines) were read again from images of the single lines by a second model (gemini-3.8-flash); words still undecided were read line by line by a third model (gemini-3.1-pro-preview). A reading was adopted when the re-reading of the image agreed with it; the remaining words were decided on the page image by student assistants or by AI-assisted checking under the editor's supervision. Lines on which the OCR agreed word for word with First1KGreek and whose words are all attested were not re-read. No text was copied from First1KGreek (Open Greek and Latin Project, University of Leipzig; CC BY-SA 4.0): it served only as a collation witness, and every disagreement was decided from the page image of this edition. Spelling, accents and breathings follow the printed page: the models were instructed to transcribe exactly as printed and the checkers chose the printed form, but a normalised accentuation adopted by a model may occasionally remain. Later checks against the page images (line numbers, marginal references, signs and apparatus, omitted lines) are listed in the revision description. Headings inside a div (sub-headings, closing formulas, labels of tables) are ab[@type='head']. The words of diagrams and tables are not body text: each diagram or table is given once as figure after the last body line printed before it (labels, trees and tables transcribed; pure geometry described in figDesc); where the edition counts the rows of a diagram or table as lines, those line numbers are not used by any lb. Evident misprints of the printed edition, identified on the page image, are kept and given with the correct form as choice/sic/corr; mere variants of spelling or accentuation are left as printed. Misprinted numbers in milestones (Bekker references, old-edition page, folio, column and line numbers), which cannot carry choice/sic/corr, are given with the corrected value where the sequence of the numbers determines it. Line breaks: one lb per printed line; @n is the line count of the CAG page (headings included), resynchronised on the printed marginal numbers of the left margin; lines the edition does not count carry lb without @n. Words hyphenated across lines are joined and the lb is placed at the following word boundary. pb/@facs points to the image of the page in the Internet Archive item named in the source description (BookReader page image; for pages supplied from another copy, that copy). Critical-apparatus entries are attached to the line(s) they cite as note[@type='apparatus'] with @target on the lb (line level; the lemma words of an entry are not linked); entries that cannot be resolved remain as note[@type='footnote'] at the page end. References in the margins to older editions or manuscripts are milestone[@type='alt-edition'] with @unit and @ed (the edition identified from the preface of the volume); CAG's repetition of the current old-edition page or folio beside the first line of each page is not encoded. Bekker references printed before lemmata are milestone[@unit='bekker']. Marginal digits fused into the text by OCR have been removed.</p>
       </editorialDecl>
     </encodingDesc>
-    <revisionDesc><change when="2026-09-15" who="#NI">OCR of the page images in text mode (gemini-3-flash-preview; gemini-3.7-flash where it failed); body lines aligned to the physical lines of the page image; physical lines left without an OCR line read again (31 lines recovered in the corpus).</change><change when="2026-09-24" who="#NI">Line numbers anchored on the printed marginal numerals; 75 doubtful pages of the corpus checked by eye.</change><change when="2026-09-25" who="#NI">Automatic division into chapters, sections and lemmata; 459 uncertain boundaries of the corpus reviewed (273 removed, 119 added).</change><change from="2026-09-26" to="2026-09-29" who="#NI">Line numbers verified against the printed marginal numerals of every page (67,352 of 70,149 numerals agreed); page-wide shifts corrected automatically (322 pages on 2026-09-26, 129 on 2026-09-28); 227 pages reviewed by student assistants (176 corrected).</change><change from="2026-09-30" to="2026-10-02" who="#NI">Text collated with First1KGreek where a First1KGreek file could be aligned by page and line, and re-read (Gemini Batch API): 156,504 lines of the corpus by gemini-3.8-flash, 21,570 lines by gemini-3.1-pro-preview; remaining words put on review sheets.</change><change from="2026-09-30" to="2026-10-12" who="#NI">Review sheets of the re-read words answered by student assistants; the remaining words decided on the page images.</change><change from="2026-10-01" to="2026-10-08" who="#TN">All uncertain structural boundaries reviewed; conventions of the pilot works applied (lectures, book titles, topic headings).</change><change when="2026-10-02" who="#NI">Evident misprints given as choice/sic/corr; headings inside divs as ab[@type='head'].</change><change when="2026-10-13" who="#NI">Margin references to older editions and manuscripts encoded as milestone[@type='alt-edition'][@ed], the editions identified from the prefaces; irregular sequences checked on the page images.</change><change from="2026-10-13" to="2026-10-14" who="#NI">Body text lost to the footnote and figure areas found by collation from the First1KGreek side and restored (about 2,300 lines in the corpus); passages missed by the OCR read again and inserted; restored and inserted lines checked again against the images.</change><change when="2026-10-14" who="#NI">Text of diagrams encoded as figure, and lemma Bekker references whose numbers the OCR had lost read from the images (where the work has them).</change><change when="2026-10-16" who="#NI">Line numbers of the 875 pages left by the verification checked on the images (248 of them also answered by student assistants), followed by a continuity check of every page; margin references to older editions checked on 2,237 page images (944 corrections).</change><change when="2026-10-17" who="#NI">Pages whose line numbering still had gaps or repeats checked on the images (355 pages); signs (〈 〉 [ ] † * — ( )) compared with First1KGreek and 445 pages checked on the images (313 corrections in the text, 523 in the apparatus); words hyphenated across lines joined; punctuation normalised.</change><change when="2026-10-20" who="#NI">Header revised (title, source description, editorial declaration, revision description); misprinted old-edition line numbers given with the corrected value where the sequence determines them; breathings and accents written as separate signs before capitals composed with the letter; missing elision marks after ἀλλ, κατ, καθ, ἐπ, δι etc. supplied in the text; numbers left at line starts removed or encoded as old-edition milestones (image checked); working row identifiers left in 37 lines removed (one line restored from the page image); words divided at a line end that had been joined to a word two lines down corrected; every body line without a line number checked on the page images (margin labels and folio marks read as lines dropped, duplicated rows removed, numbers given to lines the edition counts); numeral signs unified as ʹ (U+0374, stored in its NFC form U+02B9); line-number jumps, old-edition milestones without an edition name and notes suspected to hold body text checked on the page images; citation by printed page and line declared (refsDecl); line coordinates of the working files realigned on the marginal numerals; printers' signatures at the foot of the page removed from the apparatus; apparatus entries for two lines joined by et kept as one note pointing at both lines; page images linked from pb/@facs.</change><change when="2026-10-21" who="#NI">Old-edition line numbers checked on the page images where the sequence skipped a number (2,100 places in the corpus) and, page by page, where it was irregular (542 pages): numbers missed by the OCR added (549), milestones not printed on the page dropped (190; mostly the CAG's own left-margin numbers or line references of the apparatus taken for old-edition numbers), misplaced ones moved (69), misread values corrected (31), page numbers taken for line numbers made page milestones (8); the edition's own skips and out-of-order numbers left as printed, the line count printed beside the repeated page or folio at the head of a page not encoded (like the repetition).</change><change when="2026-10-23" who="#NI">Quotation marks made uniform: opening single and double quotation marks, printed in the edition in the reversed (high-reversed-9) form, are encoded as ‘ and “, closing ones as ’ and ”, single and double kept as printed; opening marks read by the OCR as straight quotes, low quotes or spacing breathings, and spacing breathings or quotation marks doubled before a capital that already bears its breathing, corrected.</change><change when="2026-11-05" who="#NI">Apparatus entries printed out of numerical order (e.g. 33 … 32) separated from the preceding entry; words hyphenated across lines joined in Latin text as in Greek; words mixing Greek and Latin letters (OCR errors, about 130, including manuscript sigla) corrected on the page images; marginal folio marks left in the text removed; validated against TEI P5 version 4.12.0 (recorded in TEI/@version).</change></revisionDesc>
+    <revisionDesc><change when="2026-09-15" who="#NI">OCR of the page images in text mode (gemini-3-flash-preview; gemini-3.7-flash where it failed); body lines aligned to the physical lines of the page image; physical lines left without an OCR line read again (31 lines recovered in the corpus).</change><change when="2026-09-24" who="#NI">Line numbers anchored on the printed marginal numerals; 75 doubtful pages of the corpus checked by eye.</change><change when="2026-09-25" who="#NI">Automatic division into chapters, sections and lemmata; 459 uncertain boundaries of the corpus reviewed (273 removed, 119 added).</change><change from="2026-09-26" to="2026-09-29" who="#NI">Line numbers verified against the printed marginal numerals of every page (67,352 of 70,149 numerals agreed); page-wide shifts corrected automatically (322 pages on 2026-09-26, 129 on 2026-09-28); 227 pages reviewed by student assistants (176 corrected).</change><change from="2026-09-30" to="2026-10-02" who="#NI">Text collated with First1KGreek where a First1KGreek file could be aligned by page and line, and re-read (Gemini Batch API): 156,504 lines of the corpus by gemini-3.8-flash, 21,570 lines by gemini-3.1-pro-preview; remaining words put on review sheets.</change><change from="2026-09-30" to="2026-10-12" who="#NI">Review sheets of the re-read words answered by student assistants; the remaining words decided on the page images.</change><change from="2026-10-01" to="2026-10-08" who="#TN">All uncertain structural boundaries reviewed; conventions of the pilot works applied (lectures, book titles, topic headings).</change><change when="2026-10-02" who="#NI">Evident misprints given as choice/sic/corr; headings inside divs as ab[@type='head'].</change><change when="2026-10-13" who="#NI">Margin references to older editions and manuscripts encoded as milestone[@type='alt-edition'][@ed], the editions identified from the prefaces; irregular sequences checked on the page images.</change><change from="2026-10-13" to="2026-10-14" who="#NI">Body text lost to the footnote and figure areas found by collation from the First1KGreek side and restored (about 2,300 lines in the corpus); passages missed by the OCR read again and inserted; restored and inserted lines checked again against the images.</change><change when="2026-10-14" who="#NI">Text of diagrams encoded as figure, and lemma Bekker references whose numbers the OCR had lost read from the images (where the work has them).</change><change when="2026-10-16" who="#NI">Line numbers of the 875 pages left by the verification checked on the images (248 of them also answered by student assistants), followed by a continuity check of every page; margin references to older editions checked on 2,237 page images (944 corrections).</change><change when="2026-10-17" who="#NI">Pages whose line numbering still had gaps or repeats checked on the images (355 pages); signs (〈 〉 [ ] † * — ( )) compared with First1KGreek and 445 pages checked on the images (313 corrections in the text, 523 in the apparatus); words hyphenated across lines joined; punctuation normalised.</change><change when="2026-10-20" who="#NI">Header revised (title, source description, editorial declaration, revision description); misprinted old-edition line numbers given with the corrected value where the sequence determines them; breathings and accents written as separate signs before capitals composed with the letter; missing elision marks after ἀλλ, κατ, καθ, ἐπ, δι etc. supplied in the text; numbers left at line starts removed or encoded as old-edition milestones (image checked); working row identifiers left in 37 lines removed (one line restored from the page image); words divided at a line end that had been joined to a word two lines down corrected; every body line without a line number checked on the page images (margin labels and folio marks read as lines dropped, duplicated rows removed, numbers given to lines the edition counts); numeral signs unified as ʹ (U+0374, stored in its NFC form U+02B9); line-number jumps, old-edition milestones without an edition name and notes suspected to hold body text checked on the page images; citation by printed page and line declared (refsDecl); line coordinates of the working files realigned on the marginal numerals; printers' signatures at the foot of the page removed from the apparatus; apparatus entries for two lines joined by et kept as one note pointing at both lines; page images linked from pb/@facs.</change><change when="2026-10-21" who="#NI">Old-edition line numbers checked on the page images where the sequence skipped a number (2,100 places in the corpus) and, page by page, where it was irregular (542 pages): numbers missed by the OCR added (549), milestones not printed on the page dropped (190; mostly the CAG's own left-margin numbers or line references of the apparatus taken for old-edition numbers), misplaced ones moved (69), misread values corrected (31), page numbers taken for line numbers made page milestones (8); the edition's own skips and out-of-order numbers left as printed, the line count printed beside the repeated page or folio at the head of a page not encoded (like the repetition).</change><change when="2026-10-23" who="#NI">Quotation marks made uniform: opening single and double quotation marks, printed in the edition in the reversed (high-reversed-9) form, are encoded as ‘ and “, closing ones as ’ and ”, single and double kept as printed; opening marks read by the OCR as straight quotes, low quotes or spacing breathings, and spacing breathings or quotation marks doubled before a capital that already bears its breathing, corrected.</change><change when="2026-11-05" who="#NI">Apparatus entries printed out of numerical order (e.g. 33 … 32) separated from the preceding entry; words hyphenated across lines joined in Latin text as in Greek; words mixing Greek and Latin letters (OCR errors, about 130, including manuscript sigla) corrected on the page images; marginal folio marks left in the text removed; validated against TEI P5 version 4.12.0 (recorded in TEI/@version).</change><change when="2026-11-05" who="#NI">Extent of the lemma quotations (quote[@type='lemma']) corrected: the automatic division had closed every lemma after its first printed line, leaving the remaining lines of lemmata printed over two or more lines at the head of the following paragraph. Candidates were found from the letter-spacing of the lines on the page images (lemmata are printed spaced) and from the line geometry (centred last line, indented paragraph start), and every candidate was decided on the page image (Claude work teams; about 7,700 places in the corpus); the lines so decided are now inside the quotation, with pb inside the quotation where a lemma runs on to the next page. Where the lemma runs on in the same line as the commentary (Stephanus in De interpretatione), the quotation ends after the last spaced word and the paragraph continues in the same line without a new lb; where no lemma is printed and the paraphrase follows the Bekker reference directly (Michael in De partibus animalium from p. 37), the quotation is dropped and the division kept; centred last lines the edition does not count are inside the quotation as unnumbered lines.</change></revisionDesc>
   </teiHeader>
   <text>
     <body>
@@ -79,9 +79,9 @@
             <milestone unit="bekker" n="436a1"/>
             <quote type="lemma">
               <lb n="1" xml:id="p3-0"/>Ἐπεὶ δὲ περὶ ψυχῆς καθ’ αὑτὴν διώρισται πρότερον<note type="apparatus" n="1" target="#p3-0">de lemmate codicis N nihil adnotavit Thurot p. 380 καθ’ ἑαυτὴν V πρότερον om. TA et Arist. codd. praeter LPSU</note>
+              <lb n="2" xml:id="p3-1"/>καὶ περὶ τῶν δυνάμεων ἑκάστης κατὰ μόριον αὐτῆς.
             </quote>
             <p>
-              <lb n="2" xml:id="p3-1"/>καὶ περὶ τῶν δυνάμεων ἑκάστης κατὰ μόριον αὐτῆς.
               <lb n="3" xml:id="p3-2"/>Ἀρχόμενος τοῦ βιβλίου, ὅτι ἀκόλουθος ἡ ἐν αὐτῷ πραγματεία τῇ περὶ<note type="apparatus" n="3" target="#p3-2">ἀκόλουθος om. T</note>
               <lb n="4" xml:id="p3-3"/>ψυχῆς δείκνυσιν, ὡς εἶπον· ἀκόλουθος μὲν γὰρ τῷ περὶ ψυχῆς λόγῳ ὁ<note type="apparatus" n="4" target="#p3-3">εἶπον VANa: εἰπὼν T; cf. p. 2,7 περὶ ψυχῆς om. T λόγῳ] λόγος V: sermonem T</note>
               <lb n="5" xml:id="p3-4"/>περὶ τῶν ζῴων τε καὶ ψυχὴν ἐχόντων λόγος καὶ τῶν ἐνεργειῶν τῶν τούτων,<note type="apparatus" n="5" target="#p3-4">καὶ τῶν MVAN: καὶ περὶ τῶν ex T Thurot: τῶν a τῶν (ante τούτων) om. Na</note><milestone type="alt-edition" unit="line" ed="Thurot 1875" n="10"/>
@@ -257,10 +257,10 @@
             <milestone unit="bekker" n="436b8"/>
             <quote type="lemma">
               <lb n="14" xml:id="p8-13"/>Ἀλλὰ περὶ μὲν αἰσθήσεως καὶ τοῦ αἰσθάνεσθαι, τί τέ<note type="apparatus" n="14" target="#p8-13">τε om. Arist. codd.</note>
-            </quote>
-            <p>
               <lb n="15" xml:id="p8-14"/>ἐστι καὶ διὰ τί συμβαίνει τοῖς ζῴοις τοῦτο τὸ πάθος, εἴρηται
               <lb n="16" xml:id="p8-15"/>πρότερον ἐν τοῖς Περὶ ψυχῆς. <milestone type="alt-edition" unit="page" ed="Thurot 1875" n="20"/><note type="apparatus" n="16" target="#p8-15">τοῖς TVa: τῷ AN 17—20 τὰ κοινὰ—δι’ αἰσθήσεως rep. a</note>
+            </quote>
+            <p>
               <lb n="17" xml:id="p8-16"/>Δείξας ὅτι δι’ αἰσθήσεως τὰ κοινὰ ἔργα τε καὶ πάθη τῶν ζῴων,
               <lb n="18" xml:id="p8-17"/>ἔχων δὲ καὶ τὸ τὴν αἴσθησιν κοινὸν ἔργον εἶναι ψυχῆς τε καὶ σώματος,<note type="apparatus" n="18" target="#p8-17">δὲ] τε T εἶναι om. V</note>
               <lb n="19" xml:id="p8-18"/>ἔχει μὲν ἑπόμενον τοῖς εἰρημένοις τὸ δεῖν περὶ αἰσθήσεως εἰπεῖν πρὸ τούτων<note type="apparatus" n="19" target="#p8-18">ἔχει Na: ἔχειν VA: est T δεῖν cum T om. Thurot</note>
@@ -443,9 +443,9 @@
             <milestone unit="bekker" n="437a17"/>
             <quote type="lemma">
               <lb n="6" xml:id="p14-5"/>Περὶ μὲν οὖν τῆς δυνάμεως, ἣν ἔχει τῶν αἰσθήσεων
+              <lb n="7" xml:id="p14-6"/>ἑκάστη, πρότερον εἴρηται.
             </quote>
             <p>
-              <lb n="7" xml:id="p14-6"/>ἑκάστη, πρότερον εἴρηται.
               <lb n="8" xml:id="p14-7"/>Ὅτι δ’ ἀναγκαῖος ὁ περὶ αἰσθήσεως λόγος τῷ περὶ τῶν κοινῶν ἐνεργείων
               <lb n="9" xml:id="p14-8"/>τῶν ζῴων τὸν λόγον ποιουμένῳ, ἥτις θεωρία τῇ περὶ ψυχῆς<note type="apparatus" n="9" target="#p14-8">θεωρεία AN</note>
               <lb n="10" xml:id="p14-9"/>συνῆπται, φανερόν. κοινότατόν τε γὰρ τοῖς ζῴοις πᾶσιν ἔργον τὸ αἰσθάνεσθαι,<note type="apparatus" n="10" target="#p14-9">φανερόν ἐστι ex T Thurot τε γὰρ Aa: γε γὰρ N: γὰρ TV ζῴοις om. AN</note><milestone type="alt-edition" unit="line" ed="Thurot 1875" n="10"/>
@@ -612,9 +612,9 @@
             <milestone unit="bekker" n="437b10"/>
             <quote type="lemma">
               <lb n="14" xml:id="p20-13"/>Ἐπεί, εἴ γε πῦρ ἦν, καθάπερ Ἐμπεδοκλῆς φησιν καὶ<note type="apparatus" n="14" target="#p20-13">εἴ γε AN (Arist.): εἴτε V: si T</note>
+              <lb n="15" xml:id="p20-14"/>ἐν τῷ Τιμαίῳ γέγραπται.
             </quote>
             <p>
-              <lb n="15" xml:id="p20-14"/>ἐν τῷ Τιμαίῳ γέγραπται.
               <lb n="16" xml:id="p20-15"/>Δείξας τοῦ γινομένου πάθους ἐν τῇ τοῦ ὀφθαλμοῦ θλίψει τὴν αἰτίαν,<milestone type="alt-edition" unit="line" ed="Thurot 1875" n="5"/>
               <lb n="17" xml:id="p20-16"/>ὑφ’ οὗ πάθους ἀνεπείσθησάν τινες ἐκ πυρὸς εἶναι τὴν ὄψιν λέγειν, νῦν ὅτι<note type="apparatus" n="17" target="#p20-16">ἐκ τοῦ πυρὸς λέγειν τὴν ὄψιν νῦν εἶναι ANa, nisi quod εἶναι νῦν a post ὅτι add. δὲ N</note>
               <lb n="18" xml:id="p20-17"/>μὴ οἷόν τε αὐτὴν εἶναι ἐκ πυρὸς δείκνυσιν ἀντιλέγων Ἐμπεδοκλεῖ τε καὶ<note type="apparatus" n="18" target="#p20-17">αὐτὴν—πυρὸς om. T ἐκ πυρὸς om. AN</note>
@@ -732,9 +732,9 @@
             <milestone unit="bekker" n="438a5"/>
             <quote type="lemma">
               <lb n="10" xml:id="p24-9"/>Δημόκριτος δ’ ὅτι μὲν ὕδωρ φησὶν εἶναι, λέγει καλῶς,<note type="apparatus" n="10" target="#p24-9">ὅτι] ὁ τὸ N εἶναί φησι Arist.</note>
+              <lb n="11" xml:id="p24-10"/>ὅτι δ’ οἴεται τὸ ὁρᾶν εἶναι τὴν ἔμφασιν, οὐ καλῶς.
             </quote>
             <p>
-              <lb n="11" xml:id="p24-10"/>ὅτι δ’ οἴεται τὸ ὁρᾶν εἶναι τὴν ἔμφασιν, οὐ καλῶς.
               <lb n="12" xml:id="p24-11"/>Ἀντειπὼν τοῖς ἐκ πυρὸς τὴν ὄψιν ποιοῦσιν ἐπὶ τὴν Δημοκρίτειον<note type="apparatus" n="12" target="#p24-11">Δημοκρίτου AN</note><milestone type="alt-edition" unit="line" ed="Thurot 1875" n="10"/>
               <lb n="13" xml:id="p24-12"/>δόξαν μετελήλυθε, καὶ τὸ μὲν ἐξ ὕδατος τὴν ὄψιν λέγειν αὐτὸν εἶναι ἐπαινεῖ,
               <lb n="14" xml:id="p24-13"/>τὸν δὲ τρόπον καθ’ ὃν γίνεσθαι τὸ ὁρᾶν λέγει οὐκ ἀποδέχεται. λέγει γὰρ
@@ -758,9 +758,9 @@
             <milestone unit="bekker" n="438a7"/>
             <quote type="lemma">
               <lb n="1" xml:id="p25-0"/>Καὶ ἔστιν οὐκ ἐν ἐκείνῳ, ἀλλ’ ἐν <milestone type="alt-edition" unit="page" ed="Thurot 1875" n="52"/> τῷ ὁρῶντι· ἀνάκλάσις<note type="apparatus" n="1" target="#p25-0">ὁρᾶν τι N</note>
+              <lb n="2" xml:id="p25-1"/>γὰρ τὸ πάθος.
             </quote>
             <p>
-              <lb n="2" xml:id="p25-1"/>γὰρ τὸ πάθος.
               <lb n="3" xml:id="p25-2"/>Δοκεῖ μοι σφόδρα βραχέως εἰρῆσθαι τὸ λεγόμενον, διὸ καὶ ἀσαφὲς
               <lb n="4" xml:id="p25-3"/>εἶναι. ἔστι γὰρ ὃ λέγει· ‘καὶ ἔστιν οὐκ ἐν ἐκείνῳ τὸ ὁρᾶν, τουτέστιν οὐ
               <lb n="5" xml:id="p25-4"/>διὰ τὴν ἔμφασιν οὐδὲ ἐν τῇ ἐμφάσει ἐστὶ τὸ ὁρᾶν, ἀλλ’ ἐν τῷ ὁρῶντι,<note type="apparatus" n="5" target="#p25-4">ἀλλ’ a: om. TVAN</note>
@@ -803,9 +803,9 @@
             <milestone unit="bekker" n="438a12"/>
             <quote type="lemma">
               <lb n="8" xml:id="p26-7"/>Τὸ μὲν οὖν εἶναι τὴν ὄψιν ὕδατος, ἀληθὲς μέν, οὐ<note type="apparatus" n="8" target="#p26-7">τὴν ὄψιν εἶναι A(?)a Arist.</note>
+              <lb n="9" xml:id="p26-8"/>μέντοι συμβαίνει τὸ ὁρᾶν ᾗ ὕδωρ.<note type="apparatus" n="9" target="#p26-8">ᾗ TV</note>
             </quote>
             <p>
-              <lb n="9" xml:id="p26-8"/>μέντοι συμβαίνει τὸ ὁρᾶν ᾗ ὕδωρ.<note type="apparatus" n="9" target="#p26-8">ᾗ TV</note>
               <lb n="10" xml:id="p26-9"/>Ἀληθὲς μέν φησι τὸ ὑπὸ Δημοκρίτου λεγόμενον εἶναι, τὸ ὅτι ἡ ὄψις<note type="apparatus" n="10" target="#p26-9">Δημοκρίτω V</note><milestone type="alt-edition" unit="line" ed="Thurot 1875" n="10"/>
               <lb n="11" xml:id="p26-10"/>ὕδατός ἐστιν· οὐ μὴν διότι ὕδωρ ἐστὶ καὶ ἐξ ὕδατος, διὰ τοῦτο ὁρᾷ, ἀλλὰ<note type="apparatus" n="11" target="#p26-10">μὴν] μὲν V ὁρᾷ om. V</note>
               <lb n="12" xml:id="p26-11"/>καθότι συμβέβηκε τῷ ὕδατι διαφανεῖ εἶναι· διὰ γὰρ διαφανοῦς τὸ ὁρᾶν.<note type="apparatus" n="12" target="#p26-11">καθότι] κάτω N</note>
@@ -1079,9 +1079,9 @@
             <milestone unit="bekker" n="438b2"/>
             <quote type="lemma">
               <lb n="1" xml:id="p35-0"/>Περὶ μὲν οὖν τοῦ μὴ δύνασθαι ὁρᾶν ἄνευ φωτὸς εἴρηται<note type="apparatus" n="1" target="#p35-0">τοῦ ἄνευ φωτὸς μὴ ὁρᾶν Arist.</note>
+              <lb n="2" xml:id="p35-1"/>ἐν ἄλλοις.
             </quote>
             <p>
-              <lb n="2" xml:id="p35-1"/>ἐν ἄλλοις.
               <lb n="3" xml:id="p35-2"/>Ἀντειπὼν πρὸς τοὺς λέγοντας ἐξιόντι τινὶ ἀπὸ τῆς ὄψεως τὸ ὁρᾶν<note type="apparatus" n="3" target="#p35-2">post λέγοντας add. καὶ V</note>
               <lb n="4" xml:id="p35-3"/>γίνεσθαι καὶ δείξας πῶς λέγουσιν ἄτοπα, λέγει αὐτὸς τὴν αὑτοῦ δόξαν.<note type="apparatus" n="4" target="#p35-3">ἄτοπον a αὑτοῦ VAa</note>
               <lb n="5" xml:id="p35-4"/>καὶ περὶ μὲν τοῦ μὴ δύνασθαι ὁρᾶν ἄνευ φωτός φησιν ἐν ἄλλοις<milestone type="alt-edition" unit="line" ed="Thurot 1875" n="10"/>
@@ -1121,9 +1121,9 @@
             <milestone unit="bekker" n="438b8"/>
             <quote type="lemma">
               <lb n="5" xml:id="p36-4"/>Οὐ γὰρ ἐπὶ τοῦ ἐσχάτου ὄμματος ἡ ψυχὴ ἢ τῆς ψυχῆς<note type="apparatus" n="5" target="#p36-4">in extremo oculi T. cf. p. 34,4</note>
+              <lb n="6" xml:id="p36-5"/>τὸ αἰσθητικόν.
             </quote>
             <p>
-              <lb n="6" xml:id="p36-5"/>τὸ αἰσθητικόν.
               <lb n="7" xml:id="p36-6"/>Εἰπὼν ὁρᾶται δὲ ὥσπερ καὶ ἔξω οὐκ ἄνευ φωτός, οὕτω καὶ
               <lb n="8" xml:id="p36-7"/>ἐπὶ τοῦ ἐντὸς τοῦ δεῖν καὶ τὸ ἐντὸς διαφανὲς εἶναι αἰτίαν παρατίθεται,<note type="apparatus" n="8" target="#p36-7">τοῦ om. a δεῖ ἄρα καὶ M καὶ om. T τὸ] τοῦ V αἴτιον a περιτίθεται V</note>
               <lb n="9" xml:id="p36-8"/>ὅτι μή ἐστιν ἡ ψυχὴ καὶ ἡ ὁρατικὴ δύναμις ἐν τῷ ὀφθαλμῷ. εἰ γὰρ ἦν<note type="apparatus" n="9" target="#p36-8">ἦν om. a (habet etiam M)</note>
@@ -1301,9 +1301,9 @@
             <milestone unit="bekker" n="439a12"/>
             <quote type="lemma">
               <lb n="24" xml:id="p41-23"/>Ἔστι μὲν οὖν ἕκαστον διχῶς λεγόμενον, τὸ μὲν<milestone type="alt-edition" unit="page" ed="Thurot 1875" n="88"/>
+              <lb n="25" xml:id="p41-24"/>ἐνεργείᾳ, τὸ δὲ δυνάμει [λεγόμενον].<note type="apparatus" n="25" target="#p41-24">alt. λεγόμενον del. Thurot. (om. Arist.)</note>
             </quote>
             <p>
-              <lb n="25" xml:id="p41-24"/>ἐνεργείᾳ, τὸ δὲ δυνάμει [λεγόμενον].<note type="apparatus" n="25" target="#p41-24">alt. λεγόμενον del. Thurot. (om. Arist.)</note>
               <lb n="26" xml:id="p41-25"/>Εἴρηται δὲ ἡ διαίρεσις αὕτη ἐν τοῖς Περὶ ψυχῆς. τὸ μὲν οὖν ἐνεργείᾳ<note type="apparatus" n="26" target="#p41-25">Περὶ ψυχῆς] Γ 2 p. 426 a 23 ss. 26. p. 42,1 ἐνέργειαν αἰσθητῶν V</note>
             </p>
             <note type="footnote">
@@ -1337,9 +1337,9 @@
             <milestone unit="bekker" n="439a18"/>
             <quote type="lemma">
               <lb n="21" xml:id="p42-20"/>Ὥσπερ οὖν εἴρηται περὶ φωτὸς ἐν ἐκείνοις, ὅτι ἐστὶ
+              <lb n="22" xml:id="p42-21"/>χρῶμα τοῦ διαφανοῦς κατὰ συμβεβηκός.<note type="apparatus" n="22" target="#p42-21">ante κατὰ add. ἡ TN συμβεβηκότος AN</note>
             </quote>
             <p>
-              <lb n="22" xml:id="p42-21"/>χρῶμα τοῦ διαφανοῦς κατὰ συμβεβηκός.<note type="apparatus" n="22" target="#p42-21">ante κατὰ add. ἡ TN συμβεβηκότος AN</note>
               <lb n="23" xml:id="p42-22"/>Ὑπομιμνῄσκει ἡμᾶς τῶν ἐν τοῖς Περὶ ψυχῆς εἰρημένων περὶ φωτός,<note type="apparatus" n="23" target="#p42-22">Περὶ ψυχῆς] B 7 p. 418 b 2 ss. 24—26 ἐδείχθη — συμβεβηκός om. V</note>
               <lb n="24" xml:id="p42-23"/>ὅτι ἐστὶ χρῶμα τοῦ διαφανοῦς κατὰ συμβεβηκός. ἐδείχθη γὰρ ἐν
               <lb n="25" xml:id="p42-24"/>ἐκείνοις ὅτι τὸ φῶς ἐστιν ἐντελέχεια τοῦ διαφανοῦς, ᾗ διαφανές, καὶ<milestone type="alt-edition" unit="page" ed="Thurot 1875" n="90"/>
@@ -1671,9 +1671,9 @@
             <milestone unit="bekker" n="439b18"/>
             <quote type="lemma">
               <lb n="9" xml:id="p53-8"/>Περὶ δὲ τῶν ἄλλων χρωμάτων ἤδη διελομένοις ποσαφῶς<note type="apparatus" n="9" target="#p53-8">ἤδη om. T διελομένους Arist. codd. praeter L (T? dividentem)</note>
+              <lb n="10" xml:id="p53-9"/>ἐνδέχεται γίνεσθαι λεκτέον.
             </quote>
             <p>
-              <lb n="10" xml:id="p53-9"/>ἐνδέχεται γίνεσθαι λεκτέον.
               <lb n="11" xml:id="p53-10"/>Ἐν τοῖς στερεοῖς σώμασι τὴν μὲν μῖξιν καὶ παρουσίαν τοῦ φωτίζειν<milestone type="alt-edition" unit="line" ed="Thurot 1875" n="5"/>
               <lb n="12" xml:id="p53-11"/>πεφυκότος ἐν τῷ διαφανεῖ τὸ λευκὸν χρῶμα ποιεῖν εἰπών, τὴν δὲ ἀπουσίαν<note type="apparatus" n="12" target="#p53-11">διαφανεῖ τὸ om. V in fine versus spatio apto relicto, item v.</note>
               <lb n="13" xml:id="p53-12"/>τούτου τὸ μέλαν ἀναλόγως τῷ ἐν τῷ ἀορίστῳ διαφανεῖ γινομένῳ φωτί τε καὶ<note type="apparatus" n="13" target="#p53-12">τῷ ἐν τῷ, v.</note>
@@ -1739,9 +1739,9 @@
             <milestone unit="bekker" n="440a7"/>
             <quote type="lemma">
               <lb n="9" xml:id="p55-8"/>Εἷς μὲν οὖν τρόπος τῆς γενέσεως τῶν χρωμάτων οὗτος,
+              <lb n="10" xml:id="p55-9"/>εἷς δὲ τὸ φαίνεσθαι δι’ ἀλλήλων.<note type="apparatus" n="10" target="#p55-9">τὸ] τῷ TN (Arist. codd. SU) ἄλληλα V</note>
             </quote>
             <p>
-              <lb n="10" xml:id="p55-9"/>εἷς δὲ τὸ φαίνεσθαι δι’ ἀλλήλων.<note type="apparatus" n="10" target="#p55-9">τὸ] τῷ TN (Arist. codd. SU) ἄλληλα V</note>
               <lb n="11" xml:id="p55-10"/>Εἰπὼν τὴν δόξαν τὴν τῇ ποιᾷ παραθέσει τοῦ λευκοῦ τε καὶ μέλανος<note type="apparatus" n="11" target="#p55-10">τῇ a: τῶν VAN θέσει τοῦ λευκοῦ om. in spatio V καὶ] καὶ τοῦ V</note>
               <lb n="12" xml:id="p55-11"/>τὴν τῶν ἄλλων χρωμάτων φαντασίαν γίνεσθαι λέγουσαν, δευτέραν πάλιν<note type="apparatus" n="12" target="#p55-11">λέγει AN</note>
               <lb n="13" xml:id="p55-12"/>ἐκτίθεται δόξαν, καθ’ ἣν δοκεῖ καὶ αὐτὴν δύνασθαι μὴ ὄντων ἄλλων χρωμάτων<note type="apparatus" n="13" target="#p55-12">ἐκτίθεται om. in spatio V</note><note type="apparatus" n="13-14" target="#p55-12 #p55-13">δύνασθαι μὴ ὄντων φαντασίαν γίνεσθαι λέγουσι μὴ ὄντων ἄλλων χρωμάτων, μόνων a</note><note type="apparatus" n="13" target="#p55-12">μὴ ὄντων M (cf. a): μὴ τῶν VAN: om. T ἄλλων om. M</note><milestone type="alt-edition" unit="line" ed="Thurot 1875" n="10"/>
@@ -1774,9 +1774,9 @@
             <milestone unit="bekker" n="440a15"/>
             <quote type="lemma">
               <lb n="6" xml:id="p56-5"/>Τὸ μὲν οὖν ὥσπερ οἱ ἀρχαῖοι λέγειν ἀπόρροιαν εἶναι<note type="apparatus" n="6" target="#p56-5">post ὥσπερ add. καὶ Arist. codd. EMY ἀπείροιαν VA: ἀπορροίας Arist. codd. EMYL item</note>
+              <lb n="7" xml:id="p56-6"/>τὴν χροιάν.<note type="apparatus" n="7" target="#p56-6">τὰς χροιὰς</note>
             </quote>
             <p>
-              <lb n="7" xml:id="p56-6"/>τὴν χροιάν.<note type="apparatus" n="7" target="#p56-6">τὰς χροιὰς</note>
               <lb n="8" xml:id="p56-7"/>Ἐκθέμενος τὰς δόξας τὰς δύο, καθ’ ἃς αἱ τῶν πλειόνων χρωμάτων
               <lb n="9" xml:id="p56-8"/>φαντασίαι κατὰ μῖξιν τῶν ἐναντίων, τοῦ τε λευκοῦ καὶ τοῦ μέλανος, γίνεσθαι<note type="apparatus" n="9-10" target="#p56-8 #p56-9">γίνονται e T Thurot</note>
               <lb n="10" xml:id="p56-9"/>† δοκεῖ ἐν ᾗ ἦν δόξα προκαταβεβλημένη περὶ τοῦ ὁρᾶν ὑπὸ τῶν ἀργαίων,<note type="apparatus" n="10" target="#p56-9">δοκοῦσιν conicio ἐν ᾗ ἦν VAa: ἐνίην N: περιῆν Diels: ἀναλαβεῖν (resumere T) τὴν ex T Thurot: δοκεῖ ὀλίγον τι ἐκβαίνειν, ἐπεὶ ἦν e. gr. Usener: ἐναντιοῦται (vel ἀντιλέγει) δόξῃ προκαταβεβλημένῃ conicio δόξαν προκαταβεβλημένην TN(?)</note>
@@ -1884,9 +1884,9 @@
             <milestone unit="bekker" n="440a20"/>
             <quote type="lemma">
               <lb n="19" xml:id="p59-18"/>Ἐπὶ μὲν οὖν τῶν παρ’ ἄλληλα κειμένων ἀνάγκη ὥσπερ<note type="apparatus" n="19" target="#p59-18">ἐπεὶ AN</note>
+              <lb n="20" xml:id="p59-19"/>καὶ μέγεθος λαμβάνειν ἀόρατον οὕτω καὶ χρόνον ἀναίσθητον.
             </quote>
             <p>
-              <lb n="20" xml:id="p59-19"/>καὶ μέγεθος λαμβάνειν ἀόρατον οὕτω καὶ χρόνον ἀναίσθητον.
               <lb n="21" xml:id="p59-20"/>Ἔστι δὲ ὃ λέγει ὅτι τοῖς τῇ παραθέσει ταύτῃ τὴν ὁρατὴν τῶν χρωμάτων<note type="apparatus" n="21" target="#p59-20">τοῖς om. A ταύτῃ τὴν TVA: ταύτην Na</note><milestone type="alt-edition" unit="line" ed="Thurot 1875" n="10"/>
               <lb n="22" xml:id="p59-21"/>μῖξίν τε καὶ φύσιν ἀνατιθεῖσιν, ἔτι δὲ τὸ ὁρᾶν τῇ ἀπὸ τῶν ὁρωμένων<note type="apparatus" n="22" target="#p59-21">ἀνατιθῆσι N: ἀνατίθησιν A</note>
               <lb n="23" xml:id="p59-22"/>ἀπορροίᾳ γίνεσθαι λέγουσιν ἕπεται, ὥσπερ σῶμά τι καὶ μέγεθος λαμβάνουσιν<note type="apparatus" n="23" target="#p59-22">λέγει A σώματι a: τι σῶμα V: om. T</note>
@@ -1902,9 +1902,9 @@
             <milestone unit="bekker" n="440a22"/>
             <quote type="lemma">
               <lb n="1" xml:id="p60-0"/>Ἵνα λανθάνωσιν αἱ κινήσεις ἀφικνούμεναι καὶ ἓν δοκῇ<note type="apparatus" n="1" target="#p60-0">ἵνα λανθάνωσιν om. TA λάθωσιν Arist. codd. EMYL, sed cf. v. 16 δοκεῖ TVA: an δοκῇ εἶναι cum Arist.? v. p. 62,3</note>
+              <lb n="2" xml:id="p60-1"/>διὰ τὸ ἅμα φαίνεσθαι.
             </quote>
             <p>
-              <lb n="2" xml:id="p60-1"/>διὰ τὸ ἅμα φαίνεσθαι.
               <lb n="3" xml:id="p60-2"/>Ἐπεὶ γὰρ κατὰ βραχὺ γίνεται τῇ ὄψει κατὰ τοὺς οὕτω λέγοντας τὸ ὁρᾶν<note type="apparatus" n="3" target="#p60-2">ἡ ὄψις AN</note><milestone type="alt-edition" unit="line" ed="Thurot 1875" n="5"/>
               <lb n="4" xml:id="p60-3"/>(ὅσον γὰρ οἵα τε δέξασθαι ἡ κόρη τοῦ εἰδώλου, τοσοῦτον καθ’ ἑκάστην<note type="apparatus" n="4" target="#p60-3">ὅσοι V τοιοῦτον N</note>
               <lb n="5" xml:id="p60-4"/>ἔμπτωσιν ὁρᾷ), δοκεῖ δὲ ὡς ἅπαξ καὶ μιᾷ προσβολῇ καὶ ὡς ἓν ὁρᾶν τὸ<note type="apparatus" n="5" target="#p60-4">ἐμπίπτουσιν N</note>
@@ -2014,10 +2014,10 @@
             <milestone unit="bekker" n="440a31"/>
             <quote type="lemma">
               <lb n="13" xml:id="p63-12"/>Εἰ δέ ἐστι μῖξις τῶν σωμάτων μὴ μόνον τὸν τρόπον
-            </quote>
-            <p>
               <lb n="14" xml:id="p63-13"/>τοῦτον ὅνπερ οἴονταί τινες, παρ’ ἄλληλα τῶν ἐλαχίστων τιθεμένων,<note type="apparatus" n="14" target="#p63-13">περὶ ἀλλήλοις V</note>
               <lb n="15" xml:id="p63-14"/>ἀδήλων δὲ ἡμῖν διὰ τὴν αἴσθησιν.<note type="apparatus" n="15" target="#p63-14">ἀδήλων T: ἄδηλον VA: ἄδηλα N</note>
+            </quote>
+            <p>
               <lb n="16" xml:id="p63-15"/>Διὰ τούτων τίθησι τὴν αὑτοῦ δόξαν, ᾗ συγκατατίθεται μᾶλλον τῶν<note type="apparatus" n="16" target="#p63-15">ante τὴν add. nobis T αὑτοῦ ANa: αὐτῶ V συνεκτίθεται N</note>
               <lb n="17" xml:id="p63-16"/>προειρημένων. αἱ μὲν γὰρ προειρημέναι οὐ μῖξιν χρωμάτων, ἀλλὰ φαντασίαν
               <lb n="18" xml:id="p63-17"/>μίξεως εἰσάγουσιν· διὸ οὐδὲ ὑπόστασίν τινα διδόασι τοῖς ἄλλοις χρώμασιν.<note type="apparatus" n="18" target="#p63-17">ἄγουσι V</note><milestone type="alt-edition" unit="line" ed="Thurot 1875" n="10"/>
@@ -2104,9 +2104,9 @@
             <milestone unit="bekker" n="440b27"/>
             <quote type="lemma">
               <lb n="7" xml:id="p66-6"/>Περὶ δὲ ψόφου, φησίν, εἴρηται πρότερον ἐν τοῖς Περὶ<note type="apparatus" n="7" target="#p66-6">post ψόφου add. καὶ φωνῆς Arist., ipse Alex. v.</note>
+              <lb n="8" xml:id="p66-7"/>ψυχῆς.
             </quote>
             <p>
-              <lb n="8" xml:id="p66-7"/>ψυχῆς.
               <lb n="9" xml:id="p66-8"/>Προθέμενος περὶ αἰσθητῶν λέγειν, περὶ μὲν χρωμάτων, ἅ ἐστιν ὁρατά,
               <lb n="10" xml:id="p66-9"/>εἴρηκε, περὶ δὲ ψόφου καὶ φωνῆς ἐν τοῖς Περὶ ψυχῆς φησιν αὐτάρκως<note type="apparatus" n="10" target="#p66-9">τοῖς] τῆς N 9 μὲν om. a (add. etiam M)</note><note type="apparatus" n="10" target="#p66-9">φωνῶν N τοῖς] τῆς N</note>
               <lb n="11" xml:id="p66-10"/>εἰρῆσθαι. εἴρηκε δὲ ἐν ἐκείνοις ὅτι ψόφος μέν ἐστι τοῦ ψοφητικοῦ ἐνέργεια,<note type="apparatus" n="11" target="#p66-10">ἐν ἐκείνοις] De an. B 8</note>
@@ -2122,9 +2122,9 @@
             <milestone unit="bekker" n="440b28"/>
             <quote type="lemma">
               <lb n="18" xml:id="p66-17"/>Περὶ δὲ ὀσμῆς καὶ χυμοῦ λεκτέον· σχεδὸν γάρ ἐστι τὸ<note type="apparatus" n="18" target="#p66-17">post χυμοῦ add. νῦν A(?)a (Arist. codd. EMYL), sed v. p. 184, 4 Th.</note>
+              <lb n="19" xml:id="p66-18"/>αὐτὸ πάθος, οὐκ ἐν τοῖς αὐτοῖς δέ ἐστιν ἑκάτερον αὐτῶν.<note type="apparatus" n="19" target="#p66-18">οὔκουν τοῖς V</note>
             </quote>
             <p>
-              <lb n="19" xml:id="p66-18"/>αὐτὸ πάθος, οὐκ ἐν τοῖς αὐτοῖς δέ ἐστιν ἑκάτερον αὐτῶν.<note type="apparatus" n="19" target="#p66-18">οὔκουν τοῖς V</note>
               <lb n="20" xml:id="p66-19"/>Περὶ ὀσμῆς καὶ χυμοῦ προθέμενος λέγειν, ὧν τὸ μὲν τῇ ὀσφρήσει<note type="apparatus" n="20" target="#p66-19">ὀσφρήσει] αἰσθήσει AN</note>
               <lb n="21" xml:id="p66-20"/>αἰσθητόν ἐστι, τὸ δὲ τῇ γεύσει, τοῦ ἅμα αὐτῶν μνημονεῦσαι τὴν αἰτίαν<note type="apparatus" n="21" target="#p66-20">τοῦ] τῶν N</note><milestone type="alt-edition" unit="page" ed="Thurot 1875" n="139"/>
               <lb n="22" xml:id="p66-21"/>παρέθετο εἰπὼν σχεδὸν γάρ ἐστι τὸ αὐτὸ πάθος, οὐκ ἐν τοῖς αὐτοῖς<note type="apparatus" n="22-23" target="#p66-21 #p66-22">οὐκ—πάθος om. AN</note>
@@ -2449,9 +2449,9 @@
             <milestone unit="bekker" n="441b23"/>
             <quote type="lemma">
               <lb n="25" xml:id="p76-24"/>Ὅτι δὲ οὐ παντὸς ξηροῦ ἀλλὰ τροφίμου οἱ χυμοὶ ἢ<note type="apparatus" n="25" target="#p76-24">τοῦ τροφίμου Arist. (cf. p. 77,6 ss.), sed deest τοῦ etiam p. 172,13 Th.</note>
+              <lb n="26" xml:id="p76-25"/>πάθος εἰσὶν ἢ στέρησις, δεῖ λαβεῖν ἐντεῦθεν.<note type="apparatus" n="26" target="#p76-25">εἰσὶν Arist. (cf. p. 172,13 Th.): ἐστὶν VAN: om. T</note>
             </quote>
             <p>
-              <lb n="26" xml:id="p76-25"/>πάθος εἰσὶν ἢ στέρησις, δεῖ λαβεῖν ἐντεῦθεν.<note type="apparatus" n="26" target="#p76-25">εἰσὶν Arist. (cf. p. 172,13 Th.): ἐστὶν VAN: om. T</note>
               <lb n="27" xml:id="p76-26"/>Εἰπὼν τὸν χυμὸν εἶναι τὸ ὑπὸ τοῦ ξηροῦ τοῦ ἐν τῇ γῇ ἐν τῷ ὕδατι<note type="apparatus" n="27" target="#p76-26">τῇ γῇ ἐν om. a (habet etiam M)</note>
               <lb n="28" xml:id="p76-27"/>γινόμενον πάθος διὰ θερμότητος τῆς γεύσεως τῆς κατὰ δύναμιν ἀλλοιωτικὸν
             </p>
@@ -2576,9 +2576,9 @@
             <milestone unit="bekker" n="442a12"/>
             <quote type="lemma">
               <lb n="21" xml:id="p80-20"/>Ὥσπερ δὲ τὰ χρώματα ἐκ λευκοῦ τε καὶ μέλανος<note type="apparatus" n="21" target="#p80-20">δὲ om. T τε om. A(?)a (Arist.), sed cf. v. 25</note><milestone type="alt-edition" unit="line" ed="Thurot 1875" n="5"/>
+              <lb n="22" xml:id="p80-21"/>μίξεώς ἐστιν.
             </quote>
             <p>
-              <lb n="22" xml:id="p80-21"/>μίξεώς ἐστιν.
               <lb n="23" xml:id="p80-22"/>Εἰπὼν τρόφιμον μὲν εἶναι χυμὸν τὸν γλυκύν, ἐναντίον δὲ καὶ κατὰ<note type="apparatus" n="23" target="#p80-22">καὶ om. Aa</note>
               <lb n="24" xml:id="p80-23"/>στέρησιν τούτου τὸν πικρόν, δείκνυσιν ὅτι πάντες οἱ χυμοὶ ἐκ τῆς τούτων<note type="apparatus" n="24" target="#p80-23">prius τούτοις T τὸν om. V (ut testatur Mau) δείκνυμεν N</note>
               <lb n="25" xml:id="p80-24"/>τῶν ἐναντίων ποιᾶς μίξεως, ὥσπερ καὶ τὰ χρώματα ἐκ λευκοῦ τε καὶ μέλανος,<note type="apparatus" n="25" target="#p80-24">τῶν om. N</note>
@@ -2642,9 +2642,9 @@
             <milestone unit="bekker" n="442a29"/>
             <quote type="lemma">
               <lb n="21" xml:id="p82-20"/>Δημόκριτος δὲ καὶ οἱ πλεῖστοι τῶν φυσιολόγων ὅσοι<note type="apparatus" n="21" target="#p82-20">δὲ] τε NP πλεῖστοι T (Arist.), cf. v. 25: λοιποὶ VANP</note>
+              <lb n="22" xml:id="p82-21"/>λέγουσι περὶ αἰσθήσεως ἀτοπώτατον ποιοῦσι.<note type="apparatus" n="22" target="#p82-21">post ἀτοπώτατόν add. τι Arist. codd. EMYP</note>
             </quote>
             <p>
-              <lb n="22" xml:id="p82-21"/>λέγουσι περὶ αἰσθήσεως ἀτοπώτατον ποιοῦσι.<note type="apparatus" n="22" target="#p82-21">post ἀτοπώτατόν add. τι Arist. codd. EMYP</note>
               <lb n="23" xml:id="p82-22"/>Δείξας ὅτι ἡ τροφή, καίτοι ἁπτὴ οὖσα, οὐ καθὸ ἁπτή ἐστι τροφή<note type="apparatus" n="23" target="#p82-22">καίτοι] om. T: καὶ τὴν a (corr. M)</note>
               <lb n="24" xml:id="p82-23"/>ἐστι, διὰ τούτων αἰτιᾶται τόν τε Δημόκριτον καὶ τῶν φυσιολόγων τοὺς
               <lb n="25" xml:id="p82-24"/>πλείστους ὡς πάσας τὰς αἰσθήσεις ἁφὰς ποιοῦντας καὶ πάντα τὰ αἰσθητὰ<note type="apparatus" n="25" target="#p82-24">πάντα] ταῦτα V</note><milestone type="alt-edition" unit="line" ed="Thurot 1875" n="10"/>
@@ -2691,9 +2691,9 @@
             <milestone unit="bekker" n="442b4"/>
             <quote type="lemma">
               <lb n="4" xml:id="p84-3"/>Ἔτι δὲ τοῖς κοινοῖς τῶν αἰσθήσεων πασῶν χρῶνται ὡς<note type="apparatus" n="4" target="#p84-3">αἰσθητῶν TAPN χρῶνται T: χρώνυται V: χρώννυται APN</note>
+              <lb n="5" xml:id="p84-4"/>ἰδίοις· μέγεθος γὰρ καὶ σχῆμα καὶ τὸ τραχὺ καὶ τὸ λεῖον.
             </quote>
             <p>
-              <lb n="5" xml:id="p84-4"/>ἰδίοις· μέγεθος γὰρ καὶ σχῆμα καὶ τὸ τραχὺ καὶ τὸ λεῖον.
               <lb n="6" xml:id="p84-5"/>Καὶ τοῦτό φησιν ἁμαρτάνειν ἐν τῷ περὶ αἰσθήσεων λόγῳ τοὺς περὶ<note type="apparatus" n="6" target="#p84-5">αἰσθήσεων TVA: αἰσθήσεως PNa</note><milestone type="alt-edition" unit="line" ed="Thurot 1875" n="5"/>
               <lb n="7" xml:id="p84-6"/>Δημόκριτον, ὅτι τὰ κοινὰ αἰσθητὰ ἴδια ποιοῦσι τῶν αἰσθήσεων. φθάνει<note type="apparatus" n="7" target="#p84-6">τῶν αἰσθήσεων cum T del. Thurot, fort. recte (v. v. 11)</note>
               <lb n="8" xml:id="p84-7"/>δὲ εἰρηκέναι καὶ ἐν τοῖς Περὶ ψυχῆς τίνα μέν ἐστι κοινὰ αἰσθητά, τίνα δὲ<note type="apparatus" n="8" target="#p84-7">Περὶ ψυχῆς] B 6 p. 418 a</note>
@@ -2792,9 +2792,9 @@
             <milestone unit="bekker" n="442b23"/>
             <quote type="lemma">
               <lb n="5" xml:id="p87-4"/>Καὶ περὶ μὲν τοῦ χυμοῦ καὶ γευστοῦ εἴρηται· τὰ δ’<note type="apparatus" n="5" target="#p87-4">γευστοῦ καὶ χυμοῦ Arist. praeter L</note>
+              <lb n="6" xml:id="p87-5"/>ἄλλα πάθη τῶν χυμῶν.
             </quote>
             <p>
-              <lb n="6" xml:id="p87-5"/>ἄλλα πάθη τῶν χυμῶν.
               <lb n="7" xml:id="p87-6"/>Περὶ χυμοῦ, ὅ ἐστι γευστόν, εἰρῆσθαί φησιν ἡμῖν, τί ποτέ ἐστι καὶ<note type="apparatus" n="7" target="#p87-6">γευστοῦ a, fort. recte</note><milestone type="alt-edition" unit="line" ed="Thurot 1875" n="10"/>
               <lb n="8" xml:id="p87-7"/>τίς ἡ γεῦσις αὐτοῦ, ὃ ἦν οἰκεῖον τῇ προκειμένῃ πραγματείᾳ. τὰ γὰρ ἄλλα<note type="apparatus" n="8" target="#p87-7">αὐτή a</note>
               <lb n="9" xml:id="p87-8"/>πάθη τῶν χυμῶν, <milestone type="alt-edition" unit="page" ed="Thurot 1875" n="183"/> τίνες τε αὐτῶν διαφοραὶ καὶ τίνες ἑκάστου χυμοῦ
@@ -2813,10 +2813,10 @@
             <milestone unit="bekker" n="442b27"/>
             <quote type="lemma">
               <lb n="4" xml:id="p88-3"/>Τὸν αὐτὸν δὲ τρόπον δεῖ νοῆσαι καὶ περὶ τὰς ὀσμάς.<note type="apparatus" n="4" target="#p88-3">δὲ T (Arist.): δὴ VAP</note>
-            </quote>
-            <p>
               <lb n="5" xml:id="p88-4"/>ὅπερ γὰρ ποιεῖ ἐν τῷ ξηρῷ τὸ ὑγρόν, τοῦτο ποιεῖ ἐν ἄλλῳ γένει<note type="apparatus" n="5" target="#p88-4">γὰρ] quidem enim T ἐν τῷ ὑγρῷ τὸ ξηρόν Arist. codd. praeter S et sic vid. scrib. v. 13 et p. 90,5</note>
               <lb n="6" xml:id="p88-5"/>τὸ ἔγχυμον ὑγρόν.
+            </quote>
+            <p>
               <lb n="7" xml:id="p88-6"/>Μεταβέβηκε μὲν ἀπὸ τῶν χυμῶν ἐπὶ τὸν περὶ τῶν ὀσφραντῶν λόγον.
               <lb n="8" xml:id="p88-7"/>ὃ δὲ φθάσας εἶπε βραχέως, ὅτε περὶ τῶν χυμῶν τὸν λόγον ἐποιεῖτο, νῦν<note type="apparatus" n="8" target="#p88-7">ὃ om. T βραχὺν P ὅτε] ὡς TΔ, tum ἐν τοῖς ἐπάνω add. TP, ἐν τοῖς A τὸν—ἐποιεῖτο om. T</note>
               <lb n="9" xml:id="p88-8"/>διασαφεῖ. ὃ μὲν γὰρ προεῖπεν ἔστι· “περὶ δὲ ὀσμῆς καὶ χυμοῦ λεκτέον·<note type="apparatus" n="9" target="#p88-8">νῦν] nunc autem T προεῖπε MA (sc. 440b28): εἶπε a: εἶπεν TVP ἔστι om. Ma δὲ om. a (habet etiam M) καὶ om. P post χυμοῦ add. νῦν Arist. codd. EMYL v. ad p. 66,18</note>
@@ -2871,9 +2871,9 @@
             <milestone unit="bekker" n="443a2"/>
             <quote type="lemma">
               <lb n="3" xml:id="p90-2"/>Οὐ γὰρ μόνον ἐν ἀέρι ἀλλὰ καὶ ἐν ὕδατι τὸ τῆς ὀσφρήσεώς
+              <lb n="4" xml:id="p90-3"/>ἐστιν.
             </quote>
             <p>
-              <lb n="4" xml:id="p90-3"/>ἐστιν.
               <lb n="5" xml:id="p90-4"/>Προειπὼν ὅπερ γὰρ ποιεῖ τὸ ξηρὸν ἐν τῷ ὑγρῷ, τοῦτο ποιεῖ<note type="apparatus" n="5" target="#p90-4">τὸ ξηρὸν post ὑγρῷ Arist.</note>
               <lb n="6" xml:id="p90-5"/>ἐν ἄλλῳ γένει τὸ ἔγχυμον ὑγρόν, ἐν ἀέρι καὶ ὕδατι ὁμοίως, νῦν<note type="apparatus" n="6" target="#p90-5">καὶ TAPa (Arist.): καὶ ἐν MV</note>
               <lb n="7" xml:id="p90-6"/>ὅτι ἐν ἀμφοτέροις δείκνυσιν. ὅτι γὰρ μὴ μόνον ἐν ἀέρι τὰ ὀσφραντά, ὡς<note type="apparatus" n="7" target="#p90-6">τὰ ὀσφραντὰ TVAPa: ἡ ὄσφρησις γίνεται M, sed v. ad p. 94,4 7—9 ὡς—γίνεσθαι om. M</note>
@@ -2952,10 +2952,10 @@
             <milestone unit="bekker" n="443a21"/>
             <quote type="lemma">
               <lb n="17" xml:id="p92-16"/>Δοκεῖ δὲ ἐνίοις ἡ καπνώδης ἀναθυμίασις εἶναι ὀσμὴ
-            </quote>
-            <p>
               <lb n="18" xml:id="p92-17"/>οὖσα κοινὴ γῆς καὶ ἀέρος, καὶ πάντες ἐπιφέρονται ἐπὶ τοῦτο<note type="apparatus" n="18" target="#p92-17">γῆς] τῆς N (γῆς τε Arist. codd. EMY) alt. καὶ om. T inferunt hoc T</note>
               <lb n="19" xml:id="p92-18"/>περὶ ὀσμῆς.
+            </quote>
+            <p>
               <lb n="20" xml:id="p92-19"/>Ἐνίους τῶν φυσικῶν φησιν ἐπὶ τῆς δόξης ταύτης γεγονέναι, ὅτι ἄρα<note type="apparatus" n="20" target="#p92-19">ἐπὶ fort. del. v. ad. p. 20,19 et 223,11. 260,4 Th. ἄρα om. T</note>
               <lb n="21" xml:id="p92-20"/>ἐστὶν ἡ καπνώδης ἀναθυμίασις ὀσμὴ οὖσα ἐξ ἀέρος τε καὶ γῆς· ὧν εἶναι<note type="apparatus" n="21" target="#p92-20">ante ὀσμὴ add. εἶναι V</note>
               <lb n="22" xml:id="p92-21"/>καὶ Ἡράκλειτον λέγοντα· ‘εἰ πάντα τὰ ὄντα ἦν καπνός, ῥῖνες ἂν διεγίνωσκον’<note type="apparatus" n="22" target="#p92-21">ante εἰ add. ὡς V</note><milestone type="alt-edition" unit="line" ed="Thurot 1875" n="10"/>
@@ -3008,10 +3008,10 @@
             <milestone unit="bekker" n="443b3"/>
             <quote type="lemma">
               <lb n="25" xml:id="p93-24"/>Ὅτι μὲν οὖν ἐνδέχεται ἀπολαύειν τὸ ὑγρὸν καὶ τὸ ἐν<note type="apparatus" n="25" target="#p93-24">ἀπολαβεῖν T καὶ om. V</note>
-            </quote>
-            <p>
               <lb n="26" xml:id="p93-25"/>τῷ πνεύματι καὶ τὸ ἐν τῷ ὕδατι καὶ πάσχειν τι ὑπὸ τῆς ἐγχύμου<note type="apparatus" n="26" target="#p93-25">quod in aqua et quod spiritu T</note>
               <lb n="27" xml:id="p93-26"/>ξηρότητος οὐκ ἄδηλον.<note type="apparatus" n="27" target="#p93-26">δῆλον T</note>
+            </quote>
+            <p>
               <lb n="28" xml:id="p93-27"/>Δείξας ὅτι μήτε ἀτμὶς μήτε καπνώδης ἀναθυμίασις ἡ ὀσμὴ διὰ τοῦ<note type="apparatus" n="28" target="#p93-27">ὅτι om. T alt. μήτε T: ἢ M: om. VAPa post καπνώδης add. ἢ Pa τοῦ] τὸ M</note>
             </p>
             <pb n="94" facs="https://archive.org/download/p1commentariainari03bero/page/n119.jpg"/>
@@ -3067,9 +3067,9 @@
             <milestone unit="bekker" n="443b16"/>
             <quote type="lemma">
               <lb n="15" xml:id="p95-14"/>Εἴδη δὲ τοῦ ὀσφραντοῦ δύο ἐστίν· οὐ γὰρ ὥσπερ φασί<note type="apparatus" n="15" target="#p95-14">εἰ δὲ A τοῦ ὀσφραντοῦ P(T): ὀσφραντοῦ A: ὀσφραντῶν V ἐστίν AP (Arist. codd. plerique): εἰσὶν V (Arist. LP)</note><note type="apparatus" n="15-16" target="#p95-14 #p95-15">οὐ γὰρ—ὀσφραντοῦ om. A</note><note type="apparatus" n="15" target="#p95-14">τινές φασιν Arist. codd. praeter LU</note>
+              <lb n="16" xml:id="p95-15"/>τινες, οὐκ ἔστιν εἴδη τοῦ ὀσφραντοῦ.<note type="apparatus" n="16" target="#p95-15">post ὀσφραντοῦ add. ἀλλ’ V, fort. olim exstabant Aristotelea ἀλλ’ ἔστιν</note>
             </quote>
             <p>
-              <lb n="16" xml:id="p95-15"/>τινες, οὐκ ἔστιν εἴδη τοῦ ὀσφραντοῦ.<note type="apparatus" n="16" target="#p95-15">post ὀσφραντοῦ add. ἀλλ’ V, fort. olim exstabant Aristotelea ἀλλ’ ἔστιν</note>
               <lb n="17" xml:id="p95-16"/>Ἦσάν τινες οἱ λέγοντες μὴ εἶναι εἴδη τοῦ ὀσφραντοῦ καθ’ αὑτά,<milestone type="alt-edition" unit="line" ed="Thurot 1875" n="11"/>
               <lb n="18" xml:id="p95-17"/>ὥσπερ ἦν εἴδη τῶν ὁρατῶν ἀλλὰ καὶ ἀκουστῶν καὶ ἁπτῶν καὶ χυμῶν.<note type="apparatus" n="18" target="#p95-17">post ἀκουστῶν add. ἀλλὰ VPa (om. MTA), fort. scrib. τῶν ὁρατῶν ἄλλα καὶ ἀκουστῶν ἄλλα καὶ tertium καὶ om. a</note>
               <lb n="19" xml:id="p95-18"/>οὐχ <milestone type="alt-edition" unit="page" ed="Thurot 1875" n="200"/> οὕτως γὰρ ἔλεγον εἶναι καὶ τῶν ὀσφραντῶν εἴδη· καθ’ αὑτὰς γὰρ
@@ -3284,9 +3284,9 @@
             <milestone unit="bekker" n="444b28"/>
             <quote type="lemma">
               <lb n="15" xml:id="p102-14"/>Ὁμοίως δὲ καὶ τῶν ἄλλων ζῴων ὁτιοῦν οὐδὲν δυσχεραίνει
+              <lb n="16" xml:id="p102-15"/>τῶν καθ’ αὑτὰ δυσωδῶν.
             </quote>
             <p>
-              <lb n="16" xml:id="p102-15"/>τῶν καθ’ αὑτὰ δυσωδῶν.
               <lb n="17" xml:id="p102-16"/>Διελόμενος τὰ ὀσφραντὰ εἰς εἴδη δύο καὶ τὰ μὲν τῷ τροφίμῳ χυμῷ<note type="apparatus" n="17" target="#p102-16">ὀσφραντὰ Thurot: ὀσφραντικὰ TPa: ὀσφρητικὰ VA</note><milestone type="alt-edition" unit="line" ed="Thurot 1875" n="5"/>
               <lb n="18" xml:id="p102-17"/>ἀκολουθεῖν εἰπών, ἐν οἷς ἔδειξε κατὰ συμβεβηκὸς οὖσαν τήν τε ἡδεῖαν<note type="apparatus" n="18" target="#p102-17">ἀκολουθεῖ V</note>
               <lb n="19" xml:id="p102-18"/>ὀσμὴν καὶ τὴν λυπηράν (τῇ γὰρ ἐπὶ τὴν τροφὴν ἀναφορᾷ), ὧν καὶ πάντα<note type="apparatus" n="19" target="#p102-18">prius καὶ] ἢ T τῇ VA: ἔχει T: τίς Pa ἀναφορᾷ V (prius διαφορὰν?), A: ἀναφορὰ Pa: ἀναφορὰν T ὧν καὶ] quoniam T (quorum etiam?)</note>
@@ -3350,9 +3350,9 @@
             <milestone unit="bekker" n="445a4"/>
             <quote type="lemma">
               <lb n="19" xml:id="p104-18"/>Ἔοικε δὲ ἡ αἴσθησις ἡ τοῦ ὀσφραίνεσθαι περιττῶν<note type="apparatus" n="19-20" target="#p104-18 #p104-19">περιττῶν οὐσῶν] μεταξὺ P: om. T</note><note type="apparatus" n="19" target="#p104-18">περὶ τῶν VA¹</note>
+              <lb n="20" xml:id="p104-19"/>οὐσῶν τῶν αἰσθήσεων.<note type="apparatus" n="20" target="#p104-19">οὐσῶν A: ὀσμῶν V τῶν V (Arist.): om. A</note>
             </quote>
             <p>
-              <lb n="20" xml:id="p104-19"/>οὐσῶν τῶν αἰσθήσεων.<note type="apparatus" n="20" target="#p104-19">οὐσῶν A: ὀσμῶν V τῶν V (Arist.): om. A</note>
               <lb n="21" xml:id="p104-20"/>Διὰ τούτων δείκνυσιν ὅτι ἡ ὄσφρησις μεταξύ πώς ἐστι τῶν τε ἁπτικῶν<note type="apparatus" n="21" target="#p104-20">τούτου Ta</note><note type="apparatus" n="21-22" target="#p104-20 #p104-21">τε ἁπτικῶν A: τε ἀστικῶν V: ἁπτικῶν τε Pa</note>
               <lb n="22" xml:id="p104-21"/>αἰσθήσεων, αἵ εἰσιν ἁφή τε καὶ γεῦσις, καὶ τῶν διά τινος ἄλλου
               <lb n="23" xml:id="p104-22"/>μεταξὺ γινομένων, οἷαί εἰσιν ἥ τε ὄψις καὶ ἡ ἀκοή. πάνυ δὲ γλαφυρῶς<note type="apparatus" n="23" target="#p104-22">γιγνομένων A</note>
@@ -3399,9 +3399,9 @@
             <milestone unit="bekker" n="445a14"/>
             <quote type="lemma">
               <lb n="5" xml:id="p106-4"/>Πῶς μὲν οὖν εἴδη δεῖ λέγειν καὶ πῶς οὐ δεῖ τοῦ<note type="apparatus" n="5" target="#p106-4">οὐ δεῖ Aa (Arist.): οὐ TP: δεῖ V</note>
+              <lb n="6" xml:id="p106-5"/>ὀσφραντοῦ, ἐπὶ τοσοῦτον εἰρήσθω.<note type="apparatus" n="6" target="#p106-5">ἐπεὶ A</note>
             </quote>
             <p>
-              <lb n="6" xml:id="p106-5"/>ὀσφραντοῦ, ἐπὶ τοσοῦτον εἰρήσθω.<note type="apparatus" n="6" target="#p106-5">ἐπεὶ A</note>
               <lb n="7" xml:id="p106-6"/>Τουτὶ ὃ προέθετο. καὶ ἔστι τὸ εἰρημένον ἤτοι ὅτι εἴδη ταῦτα τῶν<note type="apparatus" n="7" target="#p106-6">τουτὶ Ta: ταύτην VAP καὶ om. M ὅτι om. V</note>
               <lb n="8" xml:id="p106-7"/>ὀσφραντῶν ἔχοι ἄν, ἅ ἐστιν ἀπὸ τῶν τροφίμων χυμῶν (ὅσα γὰρ εἴδη τῶν<note type="apparatus" n="8-9" target="#p106-7 #p106-8">ἔχοι—ὀσφραντῶν om. a (habet etiam M)</note><note type="apparatus" n="8" target="#p106-7">ἔχοι ἂν in spatio om. V ἅ ἐστιν] τὸ εἶναι M</note>
               <lb n="9" xml:id="p106-8"/>χυμῶν ἐκείνων, τοσαῦτα καὶ τῶν ὀσφραντῶν τῶν ἀπ’ αὐτῶν, οὐχ ἁπλῶς
@@ -3427,9 +3427,9 @@
             <milestone unit="bekker" n="445a16"/>
             <quote type="lemma">
               <lb n="1" xml:id="p107-0"/>Ὃ δὲ λέγουσί τινες τῶν Πυθαγορείων, οὐκ ἔστιν<note type="apparatus" n="1" target="#p107-0">ὃ δὲ V (Arist.): εἰ δὲ ὃ TAP</note>
+              <lb n="2" xml:id="p107-1"/>εὔλογον.
             </quote>
             <p>
-              <lb n="2" xml:id="p107-1"/>εὔλογον.
               <lb n="3" xml:id="p107-2"/>Τὴν μὲν δόξαν τὴν ὅτι τὰ ὀσφραντά τινα, καθὸ ὀσφραντά ἐστι,<note type="apparatus" n="3" target="#p107-2">τὴν μὲν δόξαν τὴν (τῶν A) TAPa: τὰ μὲν δόξαντα V τὰ VAPa: del. Thurot τινα om. V</note><milestone type="alt-edition" unit="line" ed="Thurot 1875" n="10"/>
               <lb n="4" xml:id="p107-3"/>τρέφει, λέγει τῶν Πυθαγορείων εἶναι. ἤδη μέντοι καὶ ἰατροί τινες ἐγένοντο<note type="apparatus" n="4" target="#p107-3">τρέφει λέγει T: τρέφειν λέγει MA, e corr. P: τρέφει λεγόντων V: λέγει τρέφειν P¹: τρέφειν λέγων a Πυθαγορείων εἶναι om. V (τῶν inest in λεγόντων)</note>
               <lb n="5" xml:id="p107-4"/>τῆς δόξης ταύτης. ὅτι δὲ μὴ <milestone type="alt-edition" unit="page" ed="Thurot 1875" n="224"/> εὔλογον τὴν ὀσμὴν τρέφειν δείκνυσι διὰ<note type="apparatus" n="5" target="#p107-4">μὴ δὲ A: δὲ T</note>
@@ -3468,9 +3468,9 @@
             <milestone unit="bekker" n="445a23"/>
             <quote type="lemma">
               <lb n="7" xml:id="p108-6"/>Πρὸς δὲ τούτοις ὅτι πᾶσίν ἐστι τοῖς ζῴοις τόπος<note type="apparatus" n="7" target="#p108-6">πᾶς V</note>
+              <lb n="8" xml:id="p108-7"/>δεκτικὸς τῆς τροφῆς.
             </quote>
             <p>
-              <lb n="8" xml:id="p108-7"/>δεκτικὸς τῆς τροφῆς.
               <lb n="9" xml:id="p108-8"/>Καὶ διὰ ταύτης τῆς ἐπιχειρήσεως δείκνυσιν ὅτι μὴ τῇ ὀσμῇ τρέφεταί<note type="apparatus" n="9" target="#p108-8">ταῦτα V τῆς om. V τρέφεσθαι a (corr. M)</note><milestone type="alt-edition" unit="line" ed="Thurot 1875" n="6"/>
               <lb n="10" xml:id="p108-9"/>τινα ζῷα. πᾶσι γὰρ τοῖς ζῴοις ἐστί τις τόπος ἀποκεκριμένος ἐν τῷ<note type="apparatus" n="10" target="#p108-9">τινα] τὰ A πᾶσι—ζῴοις om. a (habet etiam M) τις om. V post τόπος add. καὶ a</note>
               <lb n="11" xml:id="p108-10"/>σώματι, εἰς ὃν δέχεται τὴν τροφήν. οὗτος δέ ἐστιν ἡ κοιλία· αὕτη γὰρ<note type="apparatus" n="11" target="#p108-10">δέχεται prius P ut vid., a: δέχονται VA, e corr. P: anceps T</note>
@@ -3515,9 +3515,9 @@
             <milestone unit="bekker" n="445b3"/>
             <quote type="lemma">
               <lb n="17" xml:id="p109-16"/>Ἀπορήσειε δ’ ἄν τις, εἰ πᾶν σῶμα εἰς ἄπειρον διαιρεῖται,<note type="apparatus" n="17" target="#p109-16">ἄπειρα Arist. codd. EMYUP</note>
+              <lb n="18" xml:id="p109-17"/>ἆρα καὶ τὰ παθήματα τὰ αἰσθητά;<note type="apparatus" n="18" target="#p109-17">alt. τὰ Pa: om. MVA</note>
             </quote>
             <p>
-              <lb n="18" xml:id="p109-17"/>ἆρα καὶ τὰ παθήματα τὰ αἰσθητά;<note type="apparatus" n="18" target="#p109-17">alt. τὰ Pa: om. MVA</note>
               <lb n="19" xml:id="p109-18"/>Εἰπὼν περί τε τῶν αἰσθητηρίων καὶ περὶ τῶν ἑκάστῃ αἰσθήσει<note type="apparatus" n="19" target="#p109-18">εἰπὼν περί T (sed post αἰσθητὰ add. erunt = εἴη): εἴη τῶν περὶ V: εἴη ὧν περὶ MA: ὧν περὶ Pa τε om. a sensibus T τῶν περὶ V</note><milestone type="alt-edition" unit="line" ed="Thurot 1875" n="5"/>
               <lb n="20" xml:id="p109-19"/>ὑποκειμένων αἰσθητῶν, τίνα ποτὲ ὄντα ἐστὶν αἰσθητά (περὶ γὰρ τοῦ ἁπτοῦ<note type="apparatus" n="20" target="#p109-19">ποτὲ om. T ἐστὶν om. MA</note>
               <lb n="21" xml:id="p109-20"/>αἰσθητοῦ, ὅτι γὰρ † σύγκριμα τούτου ὄψει τοῦτο, ἐν τοῖς Περὶ ψυχῆς<note type="apparatus" n="21" target="#p109-20">αἰσθητοῦ TP: αἰσθητηρίου VAa σύγκριμα—τοῦτο om. T, corrupta esse vidit Thurot ὅτι γίνεται συγκρίματι τῆς ἄψεως τοῦτο coni. Diels τούτου] τοῦ V Περὶ ψυχῆς] B 11</note>
@@ -3584,9 +3584,9 @@
             <milestone unit="bekker" n="445b15"/>
             <quote type="lemma">
               <lb n="20" xml:id="p111-19"/>Ἔτι τίνι κρινοῦμεν ταῦτα ἢ γνωσόμεθα; ἢ τῷ νῷ;<note type="apparatus" n="20" target="#p111-19">iudicamus T prius ἢ TV: καὶ A: τε καὶ P cognoscimus T</note>
+              <lb n="21" xml:id="p111-20"/>ἀλλ’ οὐ νοητά.<note type="apparatus" n="21" target="#p111-20">ἀλλ’ οὐ] si enim T</note>
             </quote>
             <p>
-              <lb n="21" xml:id="p111-20"/>ἀλλ’ οὐ νοητά.<note type="apparatus" n="21" target="#p111-20">ἀλλ’ οὐ] si enim T</note>
               <lb n="22" xml:id="p111-21"/>Ταῦτά φησι τὰ ἀπαθῆ τε καὶ ἀναίσθητα σώματα. εἰ δ’ εἴη τινὰ<note type="apparatus" n="22" target="#p111-21">πάθη Pa δ’ Pa: om. TVA</note>
               <lb n="23" xml:id="p111-22"/>τοιαῦτα εἰς ἃ διαιρεῖται τὰ αἰσθητὰ σώματα, τίνι κρινοῦμέν τε καὶ<note type="apparatus" n="23-24" target="#p111-22 #p111-23">iudicamus et cognoscimus T</note>
               <lb n="24" xml:id="p111-23"/>γνωσόμεθα; πάντα μὲν γὰρ ἃ γινώσκομεν, ἢ νοητὰ ὄντα ἢ αἰσθητά,<note type="apparatus" n="24" target="#p111-23">γινόμενα V</note>
@@ -3616,9 +3616,9 @@
             <milestone unit="bekker" n="445b17"/>
             <quote type="lemma">
               <lb n="15" xml:id="p112-14"/>Ἀλλ’ εἰ ταῦτα οὕτως ἔχει, ἔοικε μαρτυρεῖν τοῖς τὰ<note type="apparatus" n="15" target="#p112-14">ἀλλ’] ἅμα δ’ Arist. codd. EMY: om. T εἰ] ἀεὶ A ἔχει οὕτως P post ἔχει add. ὡς A</note>
+              <lb n="16" xml:id="p112-15"/>ἄτομα ποιοῦσι.
             </quote>
             <p>
-              <lb n="16" xml:id="p112-15"/>ἄτομα ποιοῦσι.
               <lb n="17" xml:id="p112-16"/>Καὶ τοῦτο ἄτοπον προσφέρει τῇ δόξῃ τῇ εἰς ἀπαθῆ διαιρούσῃ τὰ αἰσθητὰ<note type="apparatus" n="17" target="#p112-16">διαιροῦσι a</note><milestone type="alt-edition" unit="line" ed="Thurot 1875" n="10"/>
               <lb n="18" xml:id="p112-17"/>σώματα, τὸ ἔσεσθαι σύμφωνον τὸ λεγόμενον τοῖς τὰ ἄτομα μεγέθη ὑποτιθεμένοις.<note type="apparatus" n="18" target="#p112-17">prius τὸ] ὡς M τὸ ἔσεσθαι] quod sicut T (sit Thurot)</note>
               <lb n="19" xml:id="p112-18"/>ᾧ γὰρ <milestone type="alt-edition" unit="page" ed="Thurot 1875" n="236"/> ἐκεῖνοι χρῶνται λόγῳ, ἀνάγκη καὶ τοὺς ταῦτα<note type="apparatus" n="19" target="#p112-18">τοὺς] τί P</note>
@@ -3643,9 +3643,9 @@
             <milestone unit="bekker" n="445b20"/>
             <quote type="lemma">
               <lb n="7" xml:id="p113-6"/>Περὶ δὲ τῆς λύσεως αὐτῶν ἅμα δῆλον ἔσται [τε] καὶ<note type="apparatus" n="7" target="#p113-6">δὲ] τε AP τε delevi cum Arist. codd. an τὸ scrib? v. v. 13</note>
+              <lb n="8" xml:id="p113-7"/>διὰ τί πεπέρανται τὰ εἴδη.<note type="apparatus" n="8" target="#p113-7">τε] τὸ VA</note>
             </quote>
             <p>
-              <lb n="8" xml:id="p113-7"/>διὰ τί πεπέρανται τὰ εἴδη.<note type="apparatus" n="8" target="#p113-7">τε] τὸ VA</note>
               <lb n="9" xml:id="p113-8"/>Περὶ τῆς λύσεως τῶν ἠπορημένων, ἃ ἦν, εἰ τὰ πάθη συνδιαιρεῖται<note type="apparatus" n="9" target="#p113-8">ἃ ἦν TAPa: ἣ ἦν M: ἃ μὲν V erant ad impossibilia (?) simul dividi (= ἐπὶ τὰ ἀπαθῆ συνδιαιρεῖσθαι) T εἰ τὰ scripsi: ἑπτὰ A: ἐπεὶ τὰ Pa: οὖν τὰ V</note>
               <lb n="10" xml:id="p113-9"/>τοῖς σώμασιν ἐπ’ ἄπειρον διαιρουμένοις, ἄτοπον ἔσεσθαι τὸ πᾶν σῶμα καὶ<note type="apparatus" n="10" target="#p113-9">post ἄτοπον add. enim T</note>
               <lb n="11" xml:id="p113-10"/>μέγεθος αἰσθητὸν γίνεσθαι, καὶ μὴ συνδιαιρουμένων τὸ ἐξ ἀπείρων καὶ<note type="apparatus" n="11" target="#p113-10">διαιρουμένοις P: διαιρουμένης a: συνδιαιρουμένης M τὸ] τῷ a</note>
@@ -3692,10 +3692,10 @@
             <milestone unit="bekker" n="445b27"/>
             <quote type="lemma">
               <lb n="20" xml:id="p114-19"/>Τὸ μὲν οὖν συνεχὲς εἰς ἄπειρα τέμνεται ἄνισα, εἰς δὲ<note type="apparatus" n="20" target="#p114-19">ἄπειρον V</note>
-            </quote>
-            <p>
               <lb n="21" xml:id="p114-20"/>ἴσα πεπερασμένα, τὸ δὲ μὴ καθ’ αὑτὸ συνεχὲς εἰς πεπερασμένα<note type="apparatus" n="21" target="#p114-20">τὸ] quorum T αὐτὰ VA συνεχὲς] in continuum T</note>
               <lb n="22" xml:id="p114-21"/>εἴδη.
+            </quote>
+            <p>
               <lb n="23" xml:id="p114-22"/>Διὰ τῶν νῦν εἰρημένων εἶπεν ἅμα τε λυθήσεσθαι τὴν ἀπορίαν καὶ<note type="apparatus" n="23" target="#p114-22">τῶν νῦν εἰρημένων a: τοῦτο τὸ νῦν εἰρημένον TVAP: τούτου τοῦ νῦν εἰρημένου conicio ῥηθήσεσθαι prius V</note><milestone type="alt-edition" unit="line" ed="Thurot 1875" n="5"/>
               <lb n="24" xml:id="p114-23"/>δειχθήσεσθαι ὅτι τὰ εἴδη τῶν αἰσθητῶν πεπέρανται. λύσει μὲν γὰρ τὴν<note type="apparatus" n="24" target="#p114-23">solvitur T μὲν om. T</note>
               <lb n="25" xml:id="p114-24"/>ἀπορίαν δείξας, πῶς τῇ ἐπ’ ἄπειρον διαιρέσει τῶν συνεχῶν συνδιαιρεῖσθαι
@@ -3934,9 +3934,9 @@
             <milestone unit="bekker" n="446a20"/>
             <quote type="lemma">
               <lb n="1" xml:id="p123-0"/>Ἀπορήσειε δ’ ἄν τις, εἰ ἄρα ἀφικνοῦνται τὰ αἰσθητὰ<note type="apparatus" n="1" target="#p123-0">εἰ ἄρα TVP: ἄρα A (Arist.) cf. v. 15</note>
+              <lb n="2" xml:id="p123-1"/>ἢ αἱ κινήσεις αἱ ἀπὸ τῶν αἰσθητῶν.<note type="apparatus" n="2" target="#p123-1">ἢ ante τὰ add. Arist. cf. v. 15 alt. αἱ TAP: om. V αἱ ἀπ’ αὐτῶν P</note>
             </quote>
             <p>
-              <lb n="2" xml:id="p123-1"/>ἢ αἱ κινήσεις αἱ ἀπὸ τῶν αἰσθητῶν.<note type="apparatus" n="2" target="#p123-1">ἢ ante τὰ add. Arist. cf. v. 15 alt. αἱ TAP: om. V αἱ ἀπ’ αὐτῶν P</note>
               <lb n="3" xml:id="p123-2"/>Ἡ ἀπορία νῦν ἐστιν, εἰ πάντα τὰ αἰσθητὰ πρὸ τοῦ τῇ αἰσθήσει προσβάλλειν<note type="apparatus" n="3-4" target="#p123-2 #p123-3">προσβάλλειν Ta: προβάλλειν VAP</note><milestone type="alt-edition" unit="page" ed="Thurot 1875" n="258"/>
               <lb n="4" xml:id="p123-3"/>πρῶτον ἐν τῷ ἡμίσει τοῦ διαστήματος τοῦ μεταξὺ τῆς τε αἰσθήσεως<note type="apparatus" n="4" target="#p123-3">ἡμίσω a</note>
               <lb n="5" xml:id="p123-4"/>καὶ αὐτοῦ γίνεται. τοῦτο γὰρ ἐπὶ μέν τινων αἰσθητῶν γνώριμον, ὡς ἐπί<note type="apparatus" n="5" target="#p123-4">αὐτῶν coni. Thurot post γὰρ add. καὶ a ὡς om. a (habet etiam M) alt. ἐπὶ om. V</note>
@@ -3988,9 +3988,9 @@
             <milestone unit="bekker" n="446b2"/>
             <quote type="lemma">
               <lb n="20" xml:id="p124-19"/>Καὶ εἰ ἅπαν ἀκούει ἅμα καὶ ἀκήκοε καὶ ὅλως αἰσθάνεται<note type="apparatus" n="20" target="#p124-19">εἰ om. T ἅμα ἀκούει T Arist. praeter L cf. p. 125,20. 24 post ὅλως add. sentiet et T</note>
+              <lb n="21" xml:id="p124-20"/>καὶ ᾔσθηται.<note type="apparatus" n="21" target="#p124-20">καὶ] ἢ T</note>
             </quote>
             <p>
-              <lb n="21" xml:id="p124-20"/>καὶ ᾔσθηται.<note type="apparatus" n="21" target="#p124-20">καὶ] ἢ T</note>
               <lb n="22" xml:id="p124-21"/>Εἰπὼν ὅτι δοκεῖ εὔλογον εἶναι τὸ πρῶτον ἐν τῷ μεταξὺ τὸ αἰσθητὸν<note type="apparatus" n="22" target="#p124-21">post ὅτι add. οὐ Pa δοκεῖ om. V πρῶτον] πρῶτα καὶ V post μεταξὺ add. καὶ Pa (om. etiam M)</note>
               <lb n="23" xml:id="p124-22"/>γίνεσθαι φερόμενον πρὸς τὰς αἰσθήσεις πρὸ τοῦ ἡμᾶς αἰθάνεσθαι αὐτοῦ<note type="apparatus" n="23" target="#p124-22">ad sensum T</note>
               <lb n="24" xml:id="p124-23"/>καὶ τοῦτο ὥσπερ ἐπὶ τῶν ἄλλων αἰσθήσεων, οὕτως δὲ καὶ ἐπὶ τῶν ὁρατῶν,<note type="apparatus" n="24" target="#p124-23">δὲ om. MV</note>
@@ -4184,9 +4184,9 @@
             <milestone unit="bekker" n="446b27"/>
             <quote type="lemma">
               <lb n="11" xml:id="p131-10"/>Περὶ δὲ τοῦ φωτὸς ἄλλος λόγος· τῷ εἶναι γάρ τι τὸ<note type="apparatus" n="11" target="#p131-10">ἐνεῖναι ex v. 20 et p. 132,8 conicio (sic Arist. cod. P, inesse T, sed hac praep. saepe instrumentalem vertit) τι om. T</note>
+              <lb n="12" xml:id="p131-11"/>φῶς ἐστιν, ἀλλ’ οὐ κίνησίς τις. ὅλως.<note type="apparatus" n="12" target="#p131-11">τὸ φῶς AP Arist. codd. LPSU (cf. v. 20): φῶς V (Arist. EMY) cum ὅλως ad sequens enuntiatum pertineat, patet lemma decurtatum esse τις om. Arist. codd. EMYU</note>
             </quote>
             <p>
-              <lb n="12" xml:id="p131-11"/>φῶς ἐστιν, ἀλλ’ οὐ κίνησίς τις. ὅλως.<note type="apparatus" n="12" target="#p131-11">τὸ φῶς AP Arist. codd. LPSU (cf. v. 20): φῶς V (Arist. EMY) cum ὅλως ad sequens enuntiatum pertineat, patet lemma decurtatum esse τις om. Arist. codd. EMYU</note>
               <lb n="13" xml:id="p131-12"/>Εἰπὼν περὶ μὲν τὸν ψόφον καὶ τὴν ὀσμὴν εὐλόγως συμβαίνειν τὸ<note type="apparatus" n="13" target="#p131-12">ἀλόγως V</note><note type="apparatus" n="13-14" target="#p131-12 #p131-13">τὸ ταῦτα P: τοσαῦτα V: τὰ τοιαῦτα A: ταῦτα a: hoc T</note>
               <lb n="14" xml:id="p131-13"/>ταῦτα πρὸ τοῦ τὴν αἴσθησιν κινεῖν ἐν τῷ μεταξὺ γίνεσθαι τῷ κινήσεως<note type="apparatus" n="14" target="#p131-13">ἐν τῷ] τὸ M alt. τῷ TVA: τὸ P: τῆς a</note><milestone type="alt-edition" unit="line" ed="Thurot 1875" n="10"/>
               <lb n="15" xml:id="p131-14"/>καὶ φορᾶς καὶ διαδόσεώς τινος τοῦ αἰσθητοῦ διὰ τοῦ μεταξὺ τοῦ συνεχοῦς
@@ -4321,10 +4321,10 @@
             <milestone unit="bekker" n="447a12"/>
             <quote type="lemma">
               <lb n="23" xml:id="p135-22"/>Ἔστι δὲ ἀπορία καὶ ἄλλη τις τοιάδε περὶ τὰς αἰσθήσεις,<note type="apparatus" n="23" target="#p135-22">καὶ ἄλλη τις ἀπορία P: τις ἀπορία καὶ ἄλλη Arist. EMY τις] om. A περὶ αἰσθήσεως Arist. codd. EMYS</note>
-            </quote>
-            <p>
               <lb n="24" xml:id="p135-23"/>πότερον ἐνδέχεται ἅμα δύο αἰσθάνεσθαι ἐν τῷ αὐτῷ καὶ ἀτόμῳ<note type="apparatus" n="24" target="#p135-23">δυεῖν ἅμα Aristot. codd. EMYSU (δυοῖν M) δύνασθαι ante αἰσθάνεσθαι male add. Arist. codd. EY (Biehl)</note>
               <lb n="25" xml:id="p135-24"/>χρόνῳ.
+            </quote>
+            <p>
               <lb n="26" xml:id="p135-25"/>Ἡ μὲν ἀπορία ἣν ἀπορεῖ σαφής. ζητεῖ γὰρ εἰ ἅμα πλειόνων ἔστιν<milestone type="alt-edition" unit="line" ed="Thurot 1875" n="10"/>
             </p>
             <pb n="136" facs="https://archive.org/download/p1commentariainari03bero/page/n161.jpg"/>
@@ -4426,9 +4426,9 @@
             <milestone unit="bekker" n="447b6"/>
             <quote type="lemma">
               <lb n="9" xml:id="p139-8"/>Ἔτι μᾶλλον ἅμα δυοῖν αἴσθοιτο ἂν ἡ ψυχὴ τῇ μιᾷ αἰσθήσει<note type="apparatus" n="9" target="#p139-8">ἔτι A (Arist. codd. LSU): εἰ ἔτι T: ἔτι εἰ VPa (Arist. P): ἐπεὶ Arist. EMY δυεῖν Arist. codd. EY ἂν om. TPa ἡ ψυχὴ] si omnia T (anima Thurot)</note>
+              <lb n="10" xml:id="p139-9"/>ὧν μία αἴσθησις.
             </quote>
             <p>
-              <lb n="10" xml:id="p139-9"/>ὧν μία αἴσθησις.
               <lb n="11" xml:id="p139-10"/>Καὶ διὰ ταύτης τῆς ἐπιχειρήσεως δείκνυσιν ὅτι μὴ οἷόν τε πλειόνων<note type="apparatus" n="11" target="#p139-10">διὰ ταύτης T: δι’ αὐτῆς VAPa</note>
               <lb n="12" xml:id="p139-11"/>ἅμα αἰσθητῶν αἰσθάνεσθαι, τῶν διαφόροις αἰσθήσεσιν αἰσθητῶν. ποιεῖται<note type="apparatus" n="12" target="#p139-11">τῶν VA: ταῖς Pa: τῶν ταῖς M αἰσθήσεσιν] sensibilibus T αἰσθητῶν om. a (habet etiam M)</note>
               <lb n="13" xml:id="p139-12"/>δὲ τὴν ἐπιχείρησιν κατὰ τὸ μᾶλλον καὶ τὸ ἧττον. λέγει γὰρ ὅτι ἅμα ἡ<note type="apparatus" n="13" target="#p139-12">κατὰ om. V alt. τὸ A: om. VPa, sed v. p. 108,6</note><milestone type="alt-edition" unit="line" ed="Thurot 1875" n="5"/>
@@ -4489,10 +4489,10 @@
             <milestone unit="bekker" n="447b24"/>
             <quote type="lemma">
               <lb n="10" xml:id="p141-9"/>Φαίνεται γὰρ τὸ μὲν ἓν τῷ ἀριθμῷ ἡ ψυχὴ οὐδενὶ<note type="apparatus" n="10" target="#p141-9">γὰρ] δὲ a (corr. M) ἓν APa (post ἀριθμῷ Arist.): ἐν TV (post ἀριθμῷ T) ἡ ψυχὴ P (Arist.): ἡ ψυχὴ ἢ T: ἡ ψυχὴ ἐν a: ἐν ψυχῇ ἢ VA</note>
-            </quote>
-            <p>
               <lb n="11" xml:id="p141-10"/>ἑτέρῳ λέγειν ἀλλ’ ἢ τῷ ἅμα, τὸ δὲ τῷ εἴδει ἓν τῇ κρινούσῃ<note type="apparatus" n="11" target="#p141-10">ἀλλ’ ἢ] enim nisi T ἐν P(T): ἐν MVA: om. a κρινούσῃ MPa: κρίσει οὔσῃ τῇ V (iudicio existente T): κρίσει ἔση τῇ A</note>
               <lb n="12" xml:id="p141-11"/>αἰσθήσει καὶ τῷ τρόπῳ.<note type="apparatus" n="12" target="#p141-11">αἰσθητῆ V</note>
+            </quote>
+            <p>
               <lb n="13" xml:id="p141-12"/>Καὶ τοῦτο εἰς πίστιν τοῦ τὴν μίαν ἐνέργειαν τῆς αἰσθήσεως ἑνὸς κατ’<milestone type="alt-edition" unit="line" ed="Thurot 1875" n="10"/>
               <lb n="14" xml:id="p141-13"/>ἀριθμὸν ἀντιληπτικὴν εἶναι παρατίθεται τὸ τὸ μὲν ἓν τῷ ἀριθμῷ ἐπικρίνειν<note type="apparatus" n="14" target="#p141-13">παρέθετο Pa prius τὸ T (scilicet) VA: τῶ Pa ἐν TP: ἐν Aa: ἐν ἐν V post ἀριθμῷ add. οὐκ ἄλλῳ τινὶ Pa</note>
               <lb n="15" xml:id="p141-14"/>αὐτὴν οὐδενὶ ἑτέρῳ ἢ τῷ χρόνῳ. τῷ γὰρ ἅμα καὶ ἀδιαιρέτου αὐτοῦ <milestone type="alt-edition" unit="page" ed="Thurot 1875" n="297"/><note type="apparatus" n="15" target="#p141-14">αὐτὸν a (corr. M) οὐδενὶ ἑτέρω V: om. TAPa τῷ χρόνῳ] specie T ἀδιαιρέτου V: ἀδιαιρέτω TAPa καὶ 〈ἐν〉 ἀδιαιρέτῳ αὐτοῦ τῷ χρόνῳ coni. Thurot αὐτοῦ] om. M: ipsa suis corr. in ipsius T</note>
@@ -4602,9 +4602,9 @@
             <milestone unit="bekker" n="448a13"/>
             <quote type="lemma">
               <lb n="20" xml:id="p144-19"/>Εἰ οὖν πλεῖον ἀπέχει ἔτι ἀλλήλων καὶ διαφέρει τὰ συστοίχως<note type="apparatus" n="20" target="#p144-19">ἔτι ἀπέχει Arist. codd. EMYU</note><note type="apparatus" n="20-21" target="#p144-19 #p144-20">συστοίχων A: σύστοιχα P</note>
+              <lb n="21" xml:id="p144-20"/>μὲν λεγόμενα.
             </quote>
             <p>
-              <lb n="21" xml:id="p144-20"/>μὲν λεγόμενα.
               <lb n="22" xml:id="p144-21"/>Λαβὼν τὸ μᾶλλον δύνασθαι <milestone type="alt-edition" unit="page" ed="Thurot 1875" n="304"/> τὴν μίαν αἴσθησιν πλειόνων οἰκείων αἰσθητῶν
               <lb n="23" xml:id="p144-22"/>ἅμα ἀντιλαμβάνεσθαι, αἰσθήσεως ἑκάστης οἰκείου τινὸς αἰσθητοῦ<note type="apparatus" n="23" target="#p144-22">ante αἰσθήσεως add. καὶ a (om. etiam M)</note><note type="apparatus" n="23-24" target="#p144-22 #p144-23">quam sensus unusquisque--suscipere T</note>
               <lb n="24" xml:id="p144-23"/>ἀντιλαμβανομένης, καὶ δείξας ὅτι μὴ οἷόν τε ἅμα πλειόνων τὴν μίαν ἀντιλαμβάνεσθαι<note type="apparatus" n="24" target="#p144-23">ἀντιλαμβανομένου V πλειόνων om. A</note>
@@ -4636,9 +4636,9 @@
             <milestone unit="bekker" n="448a16"/>
             <quote type="lemma">
               <lb n="19" xml:id="p145-18"/>Τὸ γλυκὺ δὲ τοῦ μέλανος πλεῖον ἔτι τῷ εἴδει διαφέρει<note type="apparatus" n="19" target="#p145-18">δὲ γλυκὺ P</note>
+              <lb n="20" xml:id="p145-19"/>ἢ τὸ λευκόν.<note type="apparatus" n="20" target="#p145-19">τὸ λευκόν etiam Arist. codd. EMYP, τοῦ λευκοῦ recte LSU</note>
             </quote>
             <p>
-              <lb n="20" xml:id="p145-19"/>ἢ τὸ λευκόν.<note type="apparatus" n="20" target="#p145-19">τὸ λευκόν etiam Arist. codd. EMYP, τοῦ λευκοῦ recte LSU</note>
               <lb n="21" xml:id="p145-20"/>Καταλληλότερον καὶ σαφέστερον ἂν ἡ λέξις ἔχοι, εἰ εἴη <milestone type="alt-edition" unit="page" ed="Thurot 1875" n="306"/> γεγραμμένον<note type="apparatus" n="21" target="#p145-20">ἀκαταλληλότερον a καὶ TVA: οὖν καὶ Pa</note>
               <lb n="22" xml:id="p145-21"/>ἢ τοῦ λευκοῦ, ἵνα ᾖ τὸ γὰρ γλυκὺ τοῦ μέλανος πλέον ἔτι τῷ εἴδει<note type="apparatus" n="22" target="#p145-21">ante ἢ add. καὶ τὸ τοῦ μέλανος V ἢ τοῦ λευκοῦ TV: καὶ τὸ ἢ τοῦ λευκοῦ A (καὶ τὸ solum restat vestigium interpolationis modo e V adnotatae): καὶ τὸ ἢ λευκοῦ Pa ἵνα om. T γὰρ om. V τῷ εἴδει om. V</note>
               <lb n="23" xml:id="p145-22"/>διαφέρει ἢ τοῦ λευκοῦ. τὸ δέ, ὅτι τὸ μὲν λευκὸν σύστοιχον (ἑκάτερον<note type="apparatus" n="23" target="#p145-22">διαφέρον V prius τὸ] τοῦτο Thurot (hoc T) τὸ δὲ 〈αἴτιον〉 conicio alt. τὸ in τῶ corr. A</note>
@@ -4651,9 +4651,9 @@
             <milestone unit="bekker" n="448a19"/>
             <quote type="lemma">
               <lb n="1" xml:id="p146-0"/>Ὃ δὲ λέγουσί τινες τῶν περὶ τὰς συμφωνίας, ὅτι οὐχ
+              <lb n="2" xml:id="p146-1"/>ἅμα μὲν ἀφικνοῦνται 〈οἱ ψόφοι, φαίνονται〉 δέ.<note type="apparatus" n="2" target="#p146-1">οἱ—φαίνονται ex Arist. addidi, ut δέ stare possit</note>
             </quote>
             <p>
-              <lb n="2" xml:id="p146-1"/>ἅμα μὲν ἀφικνοῦνται 〈οἱ ψόφοι, φαίνονται〉 δέ.<note type="apparatus" n="2" target="#p146-1">οἱ—φαίνονται ex Arist. addidi, ut δέ stare possit</note>
               <lb n="3" xml:id="p146-2"/>Κατασκευάσας δι’ ὧν ἐπικεχείρηκε τὸ μὴ δύνασθαι ἅμα πλειόνων<note type="apparatus" n="3" target="#p146-2">ante ἅμα add. μὲν M</note><milestone type="alt-edition" unit="line" ed="Thurot 1875" n="5"/>
               <lb n="4" xml:id="p146-3"/>αἴσθησιν γίνεσθαι, ᾧ χρώμενοί τινες πειρῶνται δεικνύναι τὸ μὴ γίνεσθαι<note type="apparatus" n="4" target="#p146-3">μὴ] μᾶλλον a (corr. M) γίνεσθαι] δύνασθαι V</note>
               <lb n="5" xml:id="p146-4"/>μὲν ἅμα πλειόνων αἴσθησιν, φαίνεσθαι δέ, τοῦτο τίθησι καὶ δείκνυσι ψεῦδος<note type="apparatus" n="5" target="#p146-4">δείκνυσι καὶ τίθησι V καὶ om. P δεικνύναι P</note>
@@ -4683,9 +4683,9 @@
             <milestone unit="bekker" n="448a22"/>
             <quote type="lemma">
               <lb n="26" xml:id="p146-25"/>Τάχα γὰρ ἂν φαίη τις καὶ νῦν παρὰ τοῦτο δοκεῖν ἅμα<note type="apparatus" n="26" target="#p146-25">περὶ τούτοις V: iterum hoc T</note>
+              <lb n="27" xml:id="p146-26"/>ὁρᾶν καὶ ἀκούειν, ὅτι οἱ μεταξὺ χρόνοι λανθάνουσιν.<note type="apparatus" n="27" target="#p146-26">λαμβάνονται A</note>
             </quote>
             <p>
-              <lb n="27" xml:id="p146-26"/>ὁρᾶν καὶ ἀκούειν, ὅτι οἱ μεταξὺ χρόνοι λανθάνουσιν.<note type="apparatus" n="27" target="#p146-26">λαμβάνονται A</note>
               <lb n="28" xml:id="p146-27"/>Εἰ γὰρ τοῦτο οὕτως ἔχοι, εἴη ἂν λύσις τῶν ἀπορεῖσθαι δυναμένων<note type="apparatus" n="28" target="#p146-27">ἔχοι TAP: ἔχει Va ἂν λύσις V (utique ergo T): λύσις ἂν A: ἂν Pa</note><milestone type="alt-edition" unit="line" ed="Thurot 1875" n="10"/>
               <lb n="29" xml:id="p146-28"/>πρὸς ἃ κατεσκεύασεν ὡς νῦν δεικνὺς ὅτι μὴ οἷόν τε ἅμα πλειόνων<note type="apparatus" n="29" target="#p146-28">ὡς] an καὶ? ἅμα—οἷόν τε (147,2) om. V</note>
             </p>
@@ -4746,11 +4746,11 @@
             <milestone unit="bekker" n="448a30"/>
             <quote type="lemma">
               <lb n="21" xml:id="p148-20"/>Ἔτι οὐκ ἂν εἴη οὔτε χρόνος οὔτε πρᾶγμα οὐδὲν ὃ<note type="apparatus" n="21" target="#p148-20">ὃ] ὃ μὴ Arist. codd. EMY</note>
-            </quote>
-            <p>
               <lb n="22" xml:id="p148-21"/>αἰσθάνεται ἢ ἐν ᾧ μὴ οὕτως, ὅτι ἐν τούτου τινὶ ἢ ὅτι τούτου<note type="apparatus" n="22" target="#p148-21">ᾧ] ᾧ εἰ Arist. codd. SU ὅτι TP (Arist.): ὅτε VA τούτω V ἢ ὅτι] ὅτε V: om. Arist. codd. LSU¹</note>
               <lb n="23" xml:id="p148-22"/>τι ὁρᾷ, εἴπερ ἔστι τι μέγεθος καὶ χρόνου καὶ πράγματος ἀναίσθητον.<note type="apparatus" n="23" target="#p148-22">prius τι om. A (Arist. codd. LU¹) χρόνος καὶ πράγματα V</note><note type="apparatus" n="23-24" target="#p148-22 #p148-23">αἰσθητὸν VA</note>
               <lb n="24" xml:id="p148-23"/>
+            </quote>
+            <p>
               <lb n="25" xml:id="p148-24"/>Καὶ διὰ ταύτης τῆς ἐπιχειρήσεως ἔτι ταὐτὸν δείκνυσιν, ὅτι γὰρ<note type="apparatus" n="25" target="#p148-24">ταῦτα V γὰρ om. M cf. ad p. 113,21</note>
             </p>
             <pb n="149" facs="https://archive.org/download/p1commentariainari03bero/page/n174.jpg"/>
@@ -4804,10 +4804,10 @@
             <milestone unit="bekker" n="448b4"/>
             <quote type="lemma">
               <lb n="12" xml:id="p150-11"/>Εἰ γὰρ τὴν ὅλην ὁρᾷ, καὶ αἰσθάνεται τὸν αὐτὸν<note type="apparatus" n="12" target="#p150-11">αὐτὸν om. P</note>
-            </quote>
-            <p>
               <lb n="13" xml:id="p150-12"/>συνεχῶς χρόνον οὕτω τῷ ἐν τούτου τινί. ἀφῃρήσθω τὸ ΓΒ, ἐν<note type="apparatus" n="13" target="#p150-12">συνεχῆ V οὕτω τῷ (sic V: τοῦ A: eius quod T: τὸ P: an ὅτι ex p. 151,22?) ἐν τούτου (τοῦ V, τούτω ceteri) τινί libri (Arist. codex P, nisi quod τὸ pro τῷ): οὐ τῶν (τῶι E) νῦν τούτων τινί Arist. codd. EMY: οὕτως ὅτι ἐν τούτου τινί κτλ. Arist. LSU τὸ γβ TVa (Arist. codd. LSU): τὸ γω A: τοῦτο γὰρ P: ἡ τὸ γβ Arist. EMYP</note>
               <lb n="14" xml:id="p150-13"/>ᾧ 〈οὐκ〉 ᾐσθάνετο.<note type="apparatus" n="14" target="#p150-13">ᾧ] ᾗ Arist. EMYP οὐκ ex Arist. EMYL addidi v. p. 152, 2. 15 τούτου TV</note>
+            </quote>
+            <p>
               <lb n="15" xml:id="p150-14"/>Διὰ γὰρ τούτων τὸ προκείμενον δείκνυσιν ἐπὶ στοιχείων, ὅτι μήτε τις
               <lb n="16" xml:id="p150-15"/>χρόνος πρώτως ἔσται ἐν ᾧ τις αἰσθήσεται μήτε αἰσθητόν τι ὃ μὴ τῷ τῶν<note type="apparatus" n="16" target="#p150-15">αἰσθάνεται Pa, fort. recte, nisi v.</note><milestone type="alt-edition" unit="line" ed="Thurot 1875" n="5"/>
               <lb n="17" xml:id="p150-16"/>τούτου τι αἰσθητὸν εἶναι αἰσθητόν ἐστιν, ἀλλὰ καθ’ αὑτό. σφόδρα δὲ<note type="apparatus" n="17" target="#p150-16">ἔσται scribas (cf. 153,18) ὃ VP: eo quod T: ᾧ Aa τῶ τῶν MA: τῶν VPa: eo quod T</note><note type="apparatus" n="17" target="#p150-16">τι TV: om. APa prius αἰσθητῶν Pa ἔστιν MTVA: om. Pa</note>
@@ -5015,9 +5015,9 @@
             <milestone unit="bekker" n="448b20"/>
             <quote type="lemma">
               <lb n="11" xml:id="p157-10"/>Πρῶτον μὲν οὖν ἆρ’ ὧδε ἐνδέχεται, ἅμα μέν, ἑτέρῳ<note type="apparatus" n="11" target="#p157-10">primo igitur similis (si sic Thurot, cf. ad v. 20), contingit T οὖν om. V</note>
+              <lb n="12" xml:id="p157-11"/>δὲ τῆς ψυχῆς αἰσθάνεσθαι;
             </quote>
             <p>
-              <lb n="12" xml:id="p157-11"/>δὲ τῆς ψυχῆς αἰσθάνεσθαι;
               <lb n="13" xml:id="p157-12"/>Ζητῶν πῶς οἷόν τε λέγειν ἅμα πλειόνων αἰσθάνεσθαι ἡμᾶς, ἐπεὶ δοκεῖ<note type="apparatus" n="13" target="#p157-12">ζητῶν om. T λέγειν] λαβεῖν V ἡμᾶς om. a (habet etiam M)</note>
               <lb n="14" xml:id="p157-13"/>τὸ τοῦτο γίνεσθαι ἐναργὲς εἶναι, πρῶτον τίθησι τὸ εἰ ἐνδέχεται λέγειν οὕτως<note type="apparatus" n="14" target="#p157-13">prius τὸ Pa: om. VA</note>
               <lb n="15" xml:id="p157-14"/>ἅμα πλειόνων ἡμᾶς αἰσθάνεσθαι, τῷ ἅμα μὲν καὶ ἐν τῷ αὐτῷ χρόνῳ<note type="apparatus" n="15" target="#p157-14">τῷ TVA: τὸ Pa, prius A</note><milestone type="alt-edition" unit="line" ed="Thurot 1875" n="5"/>
@@ -5089,9 +5089,9 @@
             <milestone unit="bekker" n="448b29"/>
             <quote type="lemma">
               <lb n="20" xml:id="p159-19"/>Ἔτι αἰσθήσεις αἱ αὐταὶ πλείους ἑνὸς ἔσονται, ὥσπερ<note type="apparatus" n="20" target="#p159-19">ἔτι V: quod T: ὅτι αἱ AP: ἔτι αἱ Arist. codd. EMY, ἔτι καὶ Arist. P ἑνὸς om. P</note>
+              <lb n="21" xml:id="p159-20"/>εἴ τις ἐπιστήμας διαφόρους φαίη.
             </quote>
             <p>
-              <lb n="21" xml:id="p159-20"/>εἴ τις ἐπιστήμας διαφόρους φαίη.
               <lb n="22" xml:id="p159-21"/>Εἰπὼν διὰ μέσου καὶ δείξας ὅτι μὴ οἷόν τε οὕτω λέγειν πλειόνων<note type="apparatus" n="22" target="#p159-21">ante διὰ add. δὲ Aa</note>
               <lb n="23" xml:id="p159-22"/>ἅμα αἰσθάνεσθαι, ὡς διὰ πλειόνων δυνάμεων καὶ διὰ πλειόνων αἰσθητηρίων
               <lb n="24" xml:id="p159-23"/>ἀντιλαμβανομένης 〈τῆς ψυχῆς〉, ὡς ἐπὶ τῶν ὀφθαλμῶν ἔχει, περὶ τῆς ἀπορίας<note type="apparatus" n="24" target="#p159-23">ἀντιλαμβανομένης TA: ἀντιλαμβανομένων Pa: anceps V τῆς ψυχῆς T: om. VAPa</note><milestone type="alt-edition" unit="line" ed="Thurot 1875" n="5"/>
@@ -5179,9 +5179,9 @@
             <milestone unit="bekker" n="449a5"/>
             <quote type="lemma">
               <lb n="12" xml:id="p162-11"/>Εἰ δὲ δὴ ἄλλῳ μὲν γλυκέος, ἄλλῳ δὲ λευκοῦ αἰσθάνεται<note type="apparatus" n="12" target="#p162-11">δὴ om. T</note>
+              <lb n="13" xml:id="p162-12"/>ἡ ψυχὴ μέρει, ἤτοι ἐκ τούτων ἕν τί ἐστιν ἢ οὐχ ἕν.<note type="apparatus" n="13" target="#p162-12">ἡ ψυχὴ μέρει] alia autem in parte T ante μέρει add. ἐν TVA ἐκ] τὸ ἐκ Arist. ἢ] καὶ A ἢ οὐθέν Arist codd. EPSY</note>
             </quote>
             <p>
-              <lb n="13" xml:id="p162-12"/>ἡ ψυχὴ μέρει, ἤτοι ἐκ τούτων ἕν τί ἐστιν ἢ οὐχ ἕν.<note type="apparatus" n="13" target="#p162-12">ἡ ψυχὴ μέρει] alia autem in parte T ante μέρει add. ἐν TVA ἐκ] τὸ ἐκ Arist. ἢ] καὶ A ἢ οὐθέν Arist codd. EPSY</note>
               <lb n="14" xml:id="p162-13"/>Θεὶς ὅτι διαφόροις δυνάμεσι τῶν διαφερόντων κατὰ γένος αἰσθάνεται<note type="apparatus" n="14" target="#p162-13">ante θεὶς add. ἃ A κατὰ MTA: καὶ κατὰ VPa</note>
               <lb n="15" xml:id="p162-14"/>ἡ ψυχὴ καὶ πρὸς τούτῳ * * * εἰ γὰρ ἄλλῳ μὲν μέρει * * * ἄλλως,<note type="apparatus" n="15" target="#p162-14">sensus restitui potest e v. 20 ss. μὲν] ἐνὶ A post ἄλλως spat. xxi litt. a ἄλλῳ conicio</note>
               <lb n="16" xml:id="p162-15"/>ἐπὶ τὸ λῦσαι τὰ ἠπορημένα μετελήλυθε, καὶ δείκνυσιν ὅτι μία τέ ἐστιν ἡ<note type="apparatus" n="16" target="#p162-15">μία τε Pa: τε μία VA: non una T ἡ] εἰ V</note>

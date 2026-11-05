@@ -18,7 +18,7 @@
         <p>Text transcribed by OCR (Humanitext OCR v2, Gemini models) from the scans named in the source description. Structure (div, quote, head): assigned automatically from printed cues (Bekker references before lemmata, section numbers, headings, book titles, lecture headings; in the paraphrases, Aristotle's chapters located from the running heads) and reviewed by the editors at every boundary that was not certain. In works divided into lectures (Πρᾶξις, Θεωρία) the lectures are divs; topic headings that run across lectures (e.g. Περὶ οὐσίας) are marked milestone[@unit='topic'] and kept as text. Text: OCR of the page images (gemini-3-flash-preview; gemini-3.7-flash where it failed), collated word by word, page by page and in five-line blocks, with the First1KGreek transcription of the same edition (tlg4034.tlg006.1st1K-grc1). Lines on which the two disagreed, lines without a First1KGreek counterpart and lines containing a word form not attested in a Greek form lexicon (about two fifths of the lines) were read again from images of the single lines by a second model (gemini-3.8-flash); words still undecided were read line by line by a third model (gemini-3.1-pro-preview). A reading was adopted when the re-reading of the image agreed with it; the remaining words were decided on the page image by student assistants or by AI-assisted checking under the editor's supervision. Lines on which the OCR agreed word for word with First1KGreek and whose words are all attested were not re-read. No text was copied from First1KGreek (Open Greek and Latin Project, University of Leipzig; CC BY-SA 4.0): it served only as a collation witness, and every disagreement was decided from the page image of this edition. Spelling, accents and breathings follow the printed page: the models were instructed to transcribe exactly as printed and the checkers chose the printed form, but a normalised accentuation adopted by a model may occasionally remain. Later checks against the page images (line numbers, marginal references, signs and apparatus, omitted lines) are listed in the revision description. Headings inside a div (sub-headings, closing formulas, labels of tables) are ab[@type='head']. The words of diagrams and tables are not body text: each diagram or table is given once as figure after the last body line printed before it (labels, trees and tables transcribed; pure geometry described in figDesc); where the edition counts the rows of a diagram or table as lines, those line numbers are not used by any lb. Evident misprints of the printed edition, identified on the page image, are kept and given with the correct form as choice/sic/corr; mere variants of spelling or accentuation are left as printed. Misprinted numbers in milestones (Bekker references, old-edition page, folio, column and line numbers), which cannot carry choice/sic/corr, are given with the corrected value where the sequence of the numbers determines it. Where it does not, the printed number is kept (the Aldine line number 39 at p. 3.27). Line breaks: one lb per printed line; @n is the line count of the CAG page (headings included), resynchronised on the printed marginal numbers of the left margin; lines the edition does not count carry lb without @n. Words hyphenated across lines are joined and the lb is placed at the following word boundary. pb/@facs points to the image of the page in the Internet Archive item named in the source description (BookReader page image; for pages supplied from another copy, that copy). Critical-apparatus entries are attached to the line(s) they cite as note[@type='apparatus'] with @target on the lb (line level; the lemma words of an entry are not linked); entries that cannot be resolved remain as note[@type='footnote'] at the page end. References in the margins to older editions or manuscripts are milestone[@type='alt-edition'] with @unit and @ed (the edition identified from the preface of the volume); CAG's repetition of the current old-edition page or folio beside the first line of each page is not encoded. Bekker references printed before lemmata are milestone[@unit='bekker']. Marginal digits fused into the text by OCR have been removed.</p>
       </editorialDecl>
     </encodingDesc>
-    <revisionDesc><change when="2026-09-15" who="#NI">OCR of the page images in text mode (gemini-3-flash-preview; gemini-3.7-flash where it failed); body lines aligned to the physical lines of the page image; physical lines left without an OCR line read again (31 lines recovered in the corpus).</change><change when="2026-09-24" who="#NI">Line numbers anchored on the printed marginal numerals; 75 doubtful pages of the corpus checked by eye.</change><change when="2026-09-25" who="#NI">Automatic division into chapters, sections and lemmata; 459 uncertain boundaries of the corpus reviewed (273 removed, 119 added).</change><change from="2026-09-26" to="2026-09-29" who="#NI">Line numbers verified against the printed marginal numerals of every page (67,352 of 70,149 numerals agreed); page-wide shifts corrected automatically (322 pages on 2026-09-26, 129 on 2026-09-28); 227 pages reviewed by student assistants (176 corrected).</change><change from="2026-09-30" to="2026-10-02" who="#NI">Text collated with First1KGreek where a First1KGreek file could be aligned by page and line, and re-read (Gemini Batch API): 156,504 lines of the corpus by gemini-3.8-flash, 21,570 lines by gemini-3.1-pro-preview; remaining words put on review sheets.</change><change from="2026-09-30" to="2026-10-12" who="#NI">Review sheets of the re-read words answered by student assistants; the remaining words decided on the page images.</change><change from="2026-10-01" to="2026-10-08" who="#TN">All uncertain structural boundaries reviewed; conventions of the pilot works applied (lectures, book titles, topic headings).</change><change when="2026-10-02" who="#NI">Evident misprints given as choice/sic/corr; headings inside divs as ab[@type='head'].</change><change when="2026-10-13" who="#NI">Margin references to older editions and manuscripts encoded as milestone[@type='alt-edition'][@ed], the editions identified from the prefaces; irregular sequences checked on the page images.</change><change from="2026-10-13" to="2026-10-14" who="#NI">Body text lost to the footnote and figure areas found by collation from the First1KGreek side and restored (about 2,300 lines in the corpus); passages missed by the OCR read again and inserted; restored and inserted lines checked again against the images.</change><change when="2026-10-14" who="#NI">Text of diagrams encoded as figure, and lemma Bekker references whose numbers the OCR had lost read from the images (where the work has them).</change><change when="2026-10-16" who="#NI">Line numbers of the 875 pages left by the verification checked on the images (248 of them also answered by student assistants), followed by a continuity check of every page; margin references to older editions checked on 2,237 page images (944 corrections).</change><change when="2026-10-17" who="#NI">Pages whose line numbering still had gaps or repeats checked on the images (355 pages); signs (〈 〉 [ ] † * — ( )) compared with First1KGreek and 445 pages checked on the images (313 corrections in the text, 523 in the apparatus); words hyphenated across lines joined; punctuation normalised.</change><change when="2026-10-20" who="#NI">Header revised (title, source description, editorial declaration, revision description); misprinted old-edition line numbers given with the corrected value where the sequence determines them; breathings and accents written as separate signs before capitals composed with the letter; missing elision marks after ἀλλ, κατ, καθ, ἐπ, δι etc. supplied in the text; numbers left at line starts removed or encoded as old-edition milestones (image checked); working row identifiers left in 37 lines removed (one line restored from the page image); words divided at a line end that had been joined to a word two lines down corrected; every body line without a line number checked on the page images (margin labels and folio marks read as lines dropped, duplicated rows removed, numbers given to lines the edition counts); numeral signs unified as ʹ (U+0374, stored in its NFC form U+02B9); line-number jumps, old-edition milestones without an edition name and notes suspected to hold body text checked on the page images; citation by printed page and line declared (refsDecl); line coordinates of the working files realigned on the marginal numerals; printers' signatures at the foot of the page removed from the apparatus; apparatus entries for two lines joined by et kept as one note pointing at both lines; page images linked from pb/@facs.</change><change when="2026-10-21" who="#NI">Old-edition line numbers checked on the page images where the sequence skipped a number (2,100 places in the corpus) and, page by page, where it was irregular (542 pages): numbers missed by the OCR added (549), milestones not printed on the page dropped (190; mostly the CAG's own left-margin numbers or line references of the apparatus taken for old-edition numbers), misplaced ones moved (69), misread values corrected (31), page numbers taken for line numbers made page milestones (8); the edition's own skips and out-of-order numbers left as printed, the line count printed beside the repeated page or folio at the head of a page not encoded (like the repetition).</change><change when="2026-10-23" who="#NI">Quotation marks made uniform: opening single and double quotation marks, printed in the edition in the reversed (high-reversed-9) form, are encoded as ‘ and “, closing ones as ’ and ”, single and double kept as printed; opening marks read by the OCR as straight quotes, low quotes or spacing breathings, and spacing breathings or quotation marks doubled before a capital that already bears its breathing, corrected.</change><change when="2026-11-05" who="#NI">Apparatus entries printed out of numerical order (e.g. 33 … 32) separated from the preceding entry; words hyphenated across lines joined in Latin text as in Greek; words mixing Greek and Latin letters (OCR errors, about 130, including manuscript sigla) corrected on the page images; marginal folio marks left in the text removed; validated against TEI P5 version 4.12.0 (recorded in TEI/@version).</change></revisionDesc>
+    <revisionDesc><change when="2026-09-15" who="#NI">OCR of the page images in text mode (gemini-3-flash-preview; gemini-3.7-flash where it failed); body lines aligned to the physical lines of the page image; physical lines left without an OCR line read again (31 lines recovered in the corpus).</change><change when="2026-09-24" who="#NI">Line numbers anchored on the printed marginal numerals; 75 doubtful pages of the corpus checked by eye.</change><change when="2026-09-25" who="#NI">Automatic division into chapters, sections and lemmata; 459 uncertain boundaries of the corpus reviewed (273 removed, 119 added).</change><change from="2026-09-26" to="2026-09-29" who="#NI">Line numbers verified against the printed marginal numerals of every page (67,352 of 70,149 numerals agreed); page-wide shifts corrected automatically (322 pages on 2026-09-26, 129 on 2026-09-28); 227 pages reviewed by student assistants (176 corrected).</change><change from="2026-09-30" to="2026-10-02" who="#NI">Text collated with First1KGreek where a First1KGreek file could be aligned by page and line, and re-read (Gemini Batch API): 156,504 lines of the corpus by gemini-3.8-flash, 21,570 lines by gemini-3.1-pro-preview; remaining words put on review sheets.</change><change from="2026-09-30" to="2026-10-12" who="#NI">Review sheets of the re-read words answered by student assistants; the remaining words decided on the page images.</change><change from="2026-10-01" to="2026-10-08" who="#TN">All uncertain structural boundaries reviewed; conventions of the pilot works applied (lectures, book titles, topic headings).</change><change when="2026-10-02" who="#NI">Evident misprints given as choice/sic/corr; headings inside divs as ab[@type='head'].</change><change when="2026-10-13" who="#NI">Margin references to older editions and manuscripts encoded as milestone[@type='alt-edition'][@ed], the editions identified from the prefaces; irregular sequences checked on the page images.</change><change from="2026-10-13" to="2026-10-14" who="#NI">Body text lost to the footnote and figure areas found by collation from the First1KGreek side and restored (about 2,300 lines in the corpus); passages missed by the OCR read again and inserted; restored and inserted lines checked again against the images.</change><change when="2026-10-14" who="#NI">Text of diagrams encoded as figure, and lemma Bekker references whose numbers the OCR had lost read from the images (where the work has them).</change><change when="2026-10-16" who="#NI">Line numbers of the 875 pages left by the verification checked on the images (248 of them also answered by student assistants), followed by a continuity check of every page; margin references to older editions checked on 2,237 page images (944 corrections).</change><change when="2026-10-17" who="#NI">Pages whose line numbering still had gaps or repeats checked on the images (355 pages); signs (〈 〉 [ ] † * — ( )) compared with First1KGreek and 445 pages checked on the images (313 corrections in the text, 523 in the apparatus); words hyphenated across lines joined; punctuation normalised.</change><change when="2026-10-20" who="#NI">Header revised (title, source description, editorial declaration, revision description); misprinted old-edition line numbers given with the corrected value where the sequence determines them; breathings and accents written as separate signs before capitals composed with the letter; missing elision marks after ἀλλ, κατ, καθ, ἐπ, δι etc. supplied in the text; numbers left at line starts removed or encoded as old-edition milestones (image checked); working row identifiers left in 37 lines removed (one line restored from the page image); words divided at a line end that had been joined to a word two lines down corrected; every body line without a line number checked on the page images (margin labels and folio marks read as lines dropped, duplicated rows removed, numbers given to lines the edition counts); numeral signs unified as ʹ (U+0374, stored in its NFC form U+02B9); line-number jumps, old-edition milestones without an edition name and notes suspected to hold body text checked on the page images; citation by printed page and line declared (refsDecl); line coordinates of the working files realigned on the marginal numerals; printers' signatures at the foot of the page removed from the apparatus; apparatus entries for two lines joined by et kept as one note pointing at both lines; page images linked from pb/@facs.</change><change when="2026-10-21" who="#NI">Old-edition line numbers checked on the page images where the sequence skipped a number (2,100 places in the corpus) and, page by page, where it was irregular (542 pages): numbers missed by the OCR added (549), milestones not printed on the page dropped (190; mostly the CAG's own left-margin numbers or line references of the apparatus taken for old-edition numbers), misplaced ones moved (69), misread values corrected (31), page numbers taken for line numbers made page milestones (8); the edition's own skips and out-of-order numbers left as printed, the line count printed beside the repeated page or folio at the head of a page not encoded (like the repetition).</change><change when="2026-10-23" who="#NI">Quotation marks made uniform: opening single and double quotation marks, printed in the edition in the reversed (high-reversed-9) form, are encoded as ‘ and “, closing ones as ’ and ”, single and double kept as printed; opening marks read by the OCR as straight quotes, low quotes or spacing breathings, and spacing breathings or quotation marks doubled before a capital that already bears its breathing, corrected.</change><change when="2026-11-05" who="#NI">Apparatus entries printed out of numerical order (e.g. 33 … 32) separated from the preceding entry; words hyphenated across lines joined in Latin text as in Greek; words mixing Greek and Latin letters (OCR errors, about 130, including manuscript sigla) corrected on the page images; marginal folio marks left in the text removed; validated against TEI P5 version 4.12.0 (recorded in TEI/@version).</change><change when="2026-11-05" who="#NI">Extent of the lemma quotations (quote[@type='lemma']) corrected: the automatic division had closed every lemma after its first printed line, leaving the remaining lines of lemmata printed over two or more lines at the head of the following paragraph. Candidates were found from the letter-spacing of the lines on the page images (lemmata are printed spaced) and from the line geometry (centred last line, indented paragraph start), and every candidate was decided on the page image (Claude work teams; about 7,700 places in the corpus); the lines so decided are now inside the quotation, with pb inside the quotation where a lemma runs on to the next page. Where the lemma runs on in the same line as the commentary (Stephanus in De interpretatione), the quotation ends after the last spaced word and the paragraph continues in the same line without a new lb; where no lemma is printed and the paraphrase follows the Bekker reference directly (Michael in De partibus animalium from p. 37), the quotation is dropped and the division kept; centred last lines the edition does not count are inside the quotation as unnumbered lines.</change></revisionDesc>
   </teiHeader>
   <text>
     <body>
@@ -49,9 +49,9 @@
             <milestone unit="bekker" n="1129a3"/>
             <quote type="lemma">
               <lb n="17" xml:id="p1-16"/>Περὶ δὲ δικαιοσύνης καὶ ἀδικίας σκεπτέον, περὶ ποίας<milestone type="alt-edition" unit="line" ed="Aldina 1536" n="15"/>
+              <lb n="18" xml:id="p1-17"/>τε τυγχάνουσιν οὖσαι πράξεις.
             </quote>
             <p>
-              <lb n="18" xml:id="p1-17"/>τε τυγχάνουσιν οὖσαι πράξεις.
               <lb n="19" xml:id="p1-18"/>Ἐπειδὴ τῆς αὐτῆς καὶ μιᾶς ἐστιν ἐπιστήμης θεωρεῖν τἀναντία, οἷον<note type="apparatus" n="19" target="#p1-18">ἐστι σκέψεώς τε καὶ ἐπιστήμης S</note><milestone type="alt-edition" unit="line" ed="Aldina 1536" n="24"/>
               <lb n="20" xml:id="p1-19"/>μουσικῆς τὸ ἡρμοσμένον καὶ ἀνάρμοστον, ἀριθμητικῆς τὸ περιττὸν καὶ<note type="apparatus" n="20" target="#p1-19">μουσικῆς LN (de quibus cf. Suppl. praef.): μουσικοῦ BSa ἀριθμητικοῦ a</note><note type="apparatus" n="20-21" target="#p1-19 #p1-20">καὶ τὸ ἄρτιον S</note>
               <lb n="21" xml:id="p1-20"/>ἄρτιον, καὶ τῶν ἄλλων ὁμοίως, ἔστι δὲ καὶ ἡ δικαιοσύνη τῇ ἀδικίᾳ καὶ τὸ
@@ -128,9 +128,9 @@
             <milestone unit="bekker" n="1129a17"/>
             <quote type="lemma">
               <lb n="25" xml:id="p3-24"/>Πολλάκις μὲν οὖν γνωρίζεται ἡ ἐναντία ἕξις ἀπὸ τῆς<note type="apparatus" n="25" target="#p3-24">μὲν om. S</note><note type="apparatus" n="25-26" target="#p3-24 #p3-25">τῶν ἐναντίων BS</note><milestone type="alt-edition" unit="line" ed="Aldina 1536" n="20"/>
+              <lb n="26" xml:id="p3-25"/>ἐναντίας.
             </quote>
             <p>
-              <lb n="26" xml:id="p3-25"/>ἐναντίας.
               <lb n="27" xml:id="p3-26"/>Μέλλων δεικνύειν ὅτι πολλαχῶς ἡ δικαιοσύνη, καὶ ἔστιν ἡ μὲν ὡς<note type="apparatus" n="27-28" target="#p3-26 #p3-27">ὡς ὅλον — ἢ ἡ μὲν om. a</note><milestone type="alt-edition" unit="line" ed="Aldina 1536" n="39"/>
               <lb n="28" xml:id="p3-27"/>ὅλον ἡ καθόλου δικαιοσύνη ἡ δὲ ὡς μέρος, ἢ ἡ μὲν ὡς γένος ἡ δ’ ὡς
               <lb n="29" xml:id="p3-28"/>εἶδος (τινὲς μὲν γὰρ τὴν καθόλου δικαιοσύνην γένος ἀπεφήναντο τῆς ἀνδρίας
@@ -212,9 +212,9 @@
             <milestone unit="bekker" n="1129b1"/>
             <quote type="lemma">
               <lb n="20" xml:id="p5-19"/>Ἐπεὶ δ’ ὁ πλεονέκτης ἄδικος, οὐ περὶ πάντα τὰ ἀγαθὰ<note type="apparatus" n="20" target="#p5-19">δ’ ὁ BS: δὲ Arist. Kb Mb Ob: γὰρ καὶ a Arist. Ha Nb ὁ ἄδικος a Arist.</note><note type="apparatus" n="20-21" target="#p5-19 #p5-20">ἄδικος περὶ τὰ ἀγαθὰ ἔσται οὐ πάντα a Arist.</note><note type="apparatus" n="20" target="#p5-19">πάντα om. B</note>
+              <lb n="21" xml:id="p5-20"/>ἔσται.
             </quote>
             <p>
-              <lb n="21" xml:id="p5-20"/>ἔσται.
               <lb n="22" xml:id="p5-21"/>Εἰπὼν τὸν πλεονέκτην ἄδικον εἶναι περὶ τὰ ἀγαθά, λέγει μὴ περὶ πάντα<note type="apparatus" n="22" target="#p5-21">περὶ τὰ ἀγαθὰ] παρὰ τὸν ἀγαθὸν B</note>
               <lb n="23" xml:id="p5-22"/>τὰ ἀγαθὰ πλεονέκτην εἶναι· οὔτε γὰρ τοῦ ἰατροῦ ἢ τοῦ ῥήτορος ἰατρικώτερος<milestone type="alt-edition" unit="line" ed="Aldina 1536" n="30"/>
               <lb n="24" xml:id="p5-23"/>ἢ ῥητορικώτερος σπεύδει γενέσθαι οὔτε τοῦ μουσικοῦ μουσικώτερος καὶ
@@ -247,9 +247,9 @@
             <milestone unit="bekker" n="1129b11"/>
             <quote type="lemma">
               <lb n="11" xml:id="p6-10"/>Ἐπεὶ δ’ ὁ παράνομος ἄδικος ὁ δὲ νόμιμος δίκαιος,<note type="apparatus" n="11" target="#p6-10">post ἄδικος add. ἦν a Arist.</note><milestone type="alt-edition" unit="line" ed="Aldina 1536" n="45"/>
+              <lb n="12" xml:id="p6-11"/>δῆλον ὅτι πάντα τὰ νόμιμά ἐστί πως δίκαια.<note type="apparatus" n="12" target="#p6-11">τὰ om. S</note>
             </quote>
             <p>
-              <lb n="12" xml:id="p6-11"/>δῆλον ὅτι πάντα τὰ νόμιμά ἐστί πως δίκαια.<note type="apparatus" n="12" target="#p6-11">τὰ om. S</note>
               <lb n="13" xml:id="p6-12"/>Δείξας τὸ ἄδικον ἄνισον, πιστούμενος ὅτι ὁ δίκαιος ἴσος ἐπὶ τὸ δεικνύναι<milestone type="alt-edition" unit="line" ed="Aldina 1536" n="54"/>
               <lb n="14" xml:id="p6-13"/>τὴν διαφορὰν τοῦ δικαίου τοῦ τε <milestone type="alt-edition" unit="folio" ed="Aldina 1536" n="61r"/> ὡς νομίμου καὶ τοῦ ὡς ἴσου πρόεισι,<note type="apparatus" n="14" target="#p6-13">ὡς ante ἴσου om. S</note>
               <lb n="15" xml:id="p6-14"/>καὶ τίς ἐστιν ὁ νόμιμος δίκαιος λέγει. τὸ μὲν οὖν ὅτι νόμιμός ἐστι λαμβάνει
@@ -408,9 +408,9 @@
             <milestone unit="bekker" n="1130a16"/>
             <quote type="lemma">
               <lb n="1" xml:id="p10-0"/>Κατὰ μὲν τὰς ἄλλας μοχθηρίας ὁ ἐνεργῶν ἀδικεῖ μέν,<note type="apparatus" n="1" target="#p10-0">μὲν γὰρ τὰς a Arist.</note>
+              <lb n="2" xml:id="p10-1"/>πλεονεκτεῖ δ’ οὐδέν.
             </quote>
             <p>
-              <lb n="2" xml:id="p10-1"/>πλεονεκτεῖ δ’ οὐδέν.
               <lb n="3" xml:id="p10-2"/>Μέλλων δεικνύειν ὅτι ἔστι τις ἄλλη δικαιοσύνη παρὰ τὴν καθόλου,
               <lb n="4" xml:id="p10-3"/>πρότερον ὡς γνωριμώτερον δείκνυσιν ὅτι ἔστι τις μερικωτέρα ἀδικία, ἄλλη<note type="apparatus" n="4 et 6" target="#p10-3 #p10-5">μερικωτέρη et 6 μερικωτέρῃ a</note><milestone type="alt-edition" unit="folio" ed="Aldina 1536" n="62r"/>
               <lb n="5" xml:id="p10-4"/>οὖσα τῆς κοινῆς ἀδικίας καὶ καθόλου, ἥτις καὶ ἀντίκειται τῇ ζητουμένῃ<note type="apparatus" n="5" target="#p10-4">καὶ post ἥτις om. a</note>
@@ -479,9 +479,9 @@
             <milestone unit="bekker" n="1130a28"/>
             <quote type="lemma">
               <lb n="27" xml:id="p11-26"/>Ἔτι περὶ μὲν τἆλλα πάντα ἀδικήματα γίνεται ἡ ἐπαναφορὰ<note type="apparatus" n="27-28" target="#p11-26 #p11-27">ἀναφορὰ B</note><milestone type="alt-edition" unit="line" ed="Aldina 1536" n="45"/>
+              <lb n="28" xml:id="p11-27"/>ἐπί τινα μοχθηρίαν. <milestone type="alt-edition" unit="folio" ed="Aldina 1536" n="62v"/>
             </quote>
             <p>
-              <lb n="28" xml:id="p11-27"/>ἐπί τινα μοχθηρίαν. <milestone type="alt-edition" unit="folio" ed="Aldina 1536" n="62v"/>
               <lb n="29" xml:id="p11-28"/>Ὃ λέγει τοιοῦτόν ἐστιν· ἐὰν αἱ μοχθηρίαι καὶ αἱ κακίαι πᾶσαι πρὸς
               <lb n="30" xml:id="p11-29"/>τῷ κοινῷ τῷ τῆς ἀδικίας ὀνόματι καὶ ἰδίῳ τινὶ εἴδει κακίας ὑπάγωνται,<note type="apparatus" n="30" target="#p11-29">ὑπάγονται Ba</note>
               <lb n="31" xml:id="p11-30"/>οἷον ἡ μοιχεία τῷ τῆς ἀκολασίας εἴδει καὶ ἡ τῶν ὅπλων ἀποβολὴ καὶ<milestone type="alt-edition" unit="line" ed="Aldina 1536" n="10"/>
@@ -566,9 +566,9 @@
             <milestone unit="bekker" n="1130b22"/>
             <quote type="lemma">
               <lb n="30" xml:id="p13-29"/>Σχεδὸν γὰρ τὰ πολλὰ τῶν νομίμων τὰ ἀπὸ τῆς ὅλης
+              <lb n="31" xml:id="p13-30"/>ἀρετῆς προσταττόμενά ἐστι.<note type="apparatus" n="31 et 33" target="#p13-30 #p13-32">προσταττόμενα Ba Arist. Kb: πραττόμενα S Arist. vulg.</note>
             </quote>
             <p>
-              <lb n="31" xml:id="p13-30"/>ἀρετῆς προσταττόμενά ἐστι.<note type="apparatus" n="31 et 33" target="#p13-30 #p13-32">προσταττόμενα Ba Arist. Kb: πραττόμενα S Arist. vulg.</note>
               <lb n="32" xml:id="p13-31"/>Εἰπὼν ὅτι τὰ πολλὰ τῶν νομίμων τὰ ἀπὸ τῆς ὅλης ἀρετῆς
               <lb n="33" xml:id="p13-32"/>προσταττόμενά εἰσι (καθ’ ἑκάστην γὰρ ἀρετὴν προστάττει ζῆν·
               <lb n="34" xml:id="p13-33"/>προστάττει γὰρ ὁ νόμος καὶ τὰ τῆς ἀνδρίας πράττειν τοὺς πολίτας καὶ τὰ τῆς
@@ -625,10 +625,10 @@
             <milestone unit="bekker" n="1130b28"/>
             <quote type="lemma">
               <lb n="4" xml:id="p15-3"/>Οὐ γὰρ ἴσως ταὐτὸν ἀνδρί τε ἀγαθῷ εἶναι καὶ πολίτῃ
-            </quote>
-            <p>
               <lb n="5" xml:id="p15-4"/>παντί. τῆς δὲ κατὰ μέρος δικαιοσύνης καὶ τοῦ κατ’ αὐτὴν δικαίου<note type="apparatus" n="5" target="#p15-4">παντί om. B</note>
               <lb n="6" xml:id="p15-5"/>ἓν μέν ἐστιν εἶδος.
+            </quote>
+            <p>
               <lb n="7" xml:id="p15-6"/>Μέλλων λέγειν περὶ τῆς κατὰ μέρος δικαιοσύνης διαιρεῖ αὐτὴν εἰς δύο.<milestone type="alt-edition" unit="line" ed="Aldina 1536" n="45"/>
               <lb n="8" xml:id="p15-7"/>εἴτε δὲ μέρη αὐτῆς δεῖ λέγειν εἰς ἃ διαιρεῖται, εἴτε εἴδη, νῦν οὐ πρόκειται
               <lb n="9" xml:id="p15-8"/>σκοπεῖν· τὴν δ’ οὖν τοιαύτην διελὼν εἰς δύο λέγει περὶ ἑκατέρου ὁποῖόν
@@ -708,9 +708,9 @@
             <milestone unit="bekker" n="1130b33"/>
             <quote type="lemma">
               <lb n="1" xml:id="p17-0"/>“Ἓν δὲ τὸ ἐν τοῖς συναλλάγμασιν διορθωτικόν. τούτου
+              <lb n="2" xml:id="p17-1"/>δὲ μέρη δύο.
             </quote>
             <p>
-              <lb n="2" xml:id="p17-1"/>δὲ μέρη δύο.
               <lb n="3" xml:id="p17-2"/>Τοῦ ἐν τοῖς συναλλάγμασι διορθωτικοῦ δύο, φησίν, εἰσὶ μέρη. τῶν
               <lb n="4" xml:id="p17-3"/>γὰρ συναλλαγμάτων, φησί, τὰ μὲν ἑκούσια τὰ δ’ ἀκούσια. ὅταν<note type="apparatus" n="4" target="#p17-3">post μὲν add. εἰσὶν S ὅταν] ὅτω B</note><milestone type="alt-edition" unit="line" ed="Aldina 1536" n="50"/>
               <lb n="5" xml:id="p17-4"/>μὲν γὰρ δοίη τις σῖτον καὶ λάβοι οἶνον ἢ νόμισμα, ἢ δανείσῃ ἑκὼν ἢ ἐγγυήσηται,<note type="apparatus" n="5" target="#p17-4">λάβῃ S</note>
@@ -750,9 +750,9 @@
             <milestone unit="bekker" n="1131a9"/>
             <quote type="lemma">
               <lb n="1" xml:id="p18-0"/>Ἐπεὶ δ’ ὅ τε ἄδικος ἄνισος καὶ τὸ ἄδικον ἄνισον, δῆλον
+              <lb n="2" xml:id="p18-1"/>ὅτι καὶ μέσον τί ἐστι τοῦ ἀνίσου.
             </quote>
             <p>
-              <lb n="2" xml:id="p18-1"/>ὅτι καὶ μέσον τί ἐστι τοῦ ἀνίσου.
               <lb n="3" xml:id="p18-2"/>Διὰ τούτων δείκνυσιν ὅτι τὸ δίκαιον μέσον καὶ ἡ δικαιοσύνη μεσότης,
               <lb n="4" xml:id="p18-3"/>ὅπερ ἐστὶν ἴδιον τῆς ἀρετῆς. εἴρηται πολλάκις καὶ δέδεικται ὅτι αἱ ἀρεταὶ<note type="apparatus" n="4" target="#p18-3">ante εἴρηται add. καὶ S</note><milestone type="alt-edition" unit="line" ed="Aldina 1536" n="25"/>
               <lb n="5" xml:id="p18-4"/>μεσότητές εἰσιν. εἰ γὰρ τὸ ἄδικον ἄνισον, δῆλον ὅτι τὸ δίκαιον ἴσον διὰ τοῦ<note type="apparatus" n="5" target="#p18-4">post ἴσον add. τὸ δὲ ἴσον μέσον τοῦ πλείονος καὶ ἐλάττονος. τὸ δίκαιον ἄρα μέσον δείκνυται καὶ τὸ δίκαιον μέσον ἴσον S</note><note type="apparatus" n="5-6" target="#p18-4 #p18-5">τοῦ τόπου τοῦ λέγοντος S</note>
@@ -872,9 +872,9 @@
             <milestone unit="bekker" n="1131a30"/>
             <quote type="lemma">
               <lb n="25" xml:id="p20-24"/>Τὸ γὰρ ἀνάλογον οὐ μόνον ἐστὶ μοναδικοῦ ἀριθμοῦ<milestone type="alt-edition" unit="line" ed="Aldina 1536" n="45"/>
+              <lb n="26" xml:id="p20-25"/>ἴδιον, ἀλλ’ ὅλως ἀριθμοῦ.
             </quote>
             <p>
-              <lb n="26" xml:id="p20-25"/>ἴδιον, ἀλλ’ ὅλως ἀριθμοῦ.
               <lb n="27" xml:id="p20-26"/>Μοναδικὸν ἀριθμὸν λέγει ᾧ ἀριθμοῦμεν, οἷον τὴν δεκάδα, ᾗ ἀριθμοῦμεν<note type="apparatus" n="27" target="#p20-26">λέγω a δεκάδην a η̅] φ̅ a</note>
               <lb n="28" xml:id="p20-27"/>τοὺς δέκα ἵππους ἢ τοὺς δέκα ἄνδρας, ὃς καὶ κυρίως ἀριθμὸς λέγεται, ὁμοίως<note type="apparatus" n="28" target="#p20-27">ὃς] ἥτις S</note><milestone type="alt-edition" unit="line" ed="Aldina 1536" n="50"/>
               <lb n="29" xml:id="p20-28"/>καὶ τὴν πεντάδα καὶ εἰκοσάδα καὶ τοὺς ἄλλους ἀριθμούς. ὅλως δὲ ἀριθμοὺς<note type="apparatus" n="29" target="#p20-28">πεντάδα scripsi: πεντάδην libri εἰκοσάδην Ba</note><note type="apparatus" n="29-30" target="#p20-28 #p20-29">ἀριθμὸν λέγει S: ἀριθμοὶ λέγονται a</note>
@@ -946,9 +946,9 @@
             <milestone unit="bekker" n="1131b5"/>
             <quote type="lemma">
               <lb n="9" xml:id="p22-8"/>Ἔσται ἄρα ὡς ὁ ᾱ̄ ὅρος πρὸς τὸν β̄, οὕτως ὁ γ̄ πρὸς<note type="apparatus" n="9" target="#p22-8">ἄρα om. S</note>
+              <lb n="10" xml:id="p22-9"/>τὸν δ̄, καὶ ἐναλλάξ.
             </quote>
             <p>
-              <lb n="10" xml:id="p22-9"/>τὸν δ̄, καὶ ἐναλλάξ.
               <lb n="11" xml:id="p22-10"/>Ἔστωσαν πρῶτος ὅρος ὁ Ἀχιλλεύς, δεύτερος ὁ Αἴας, καὶ κείσθω ὁ
               <lb n="12" xml:id="p22-11"/>Ἀχιλλεὺς διπλασίων τοῦ Αἴαντος, ἔστω δὲ καὶ τρίτος ὅρος νομίσματα η̄,
               <lb n="13" xml:id="p22-12"/>τέταρτος δὲ νομίσματα δ̄· ἔστιν ἄρα ὡς ὁ Ἀχιλλεὺς πρὸς τὸν Αἴαντα (διπλασίων
@@ -1020,9 +1020,9 @@
             <milestone unit="bekker" n="1131b15"/>
             <quote type="lemma">
               <lb n="32" xml:id="p23-31"/>Ἔστι δ’ οὐ συνεχὴς ἡ τοιαύτη ἀναλογία· οὐ γὰρ γίνεται<note type="apparatus" n="32" target="#p23-31">ἡ τοιαύτη BS: αὐτὴ ἡ a Arist. Kb: αὕτη ἡ Arist. vulg.</note><note type="apparatus" n="32" target="#p23-31">γὰρ in corr. B: om. a</note>
+              <lb n="33" xml:id="p23-32"/>εἷς ἀριθμῷ ὅρος ᾧ καὶ ὅ.
             </quote>
             <p>
-              <lb n="33" xml:id="p23-32"/>εἷς ἀριθμῷ ὅρος ᾧ καὶ ὅ.
               <lb n="34" xml:id="p23-33"/>Διὰ μὲν τοῦ μακροῦ ἢ διχρόνου ἢ ὡς ἄν τις ἐθέλῃ λέγειν φωνήεντος<note type="apparatus" n="34" target="#p23-33">ἐθέλει B 1 φωνήεντα B</note>
             </p>
             <pb n="24" facs="https://archive.org/download/p1commentariaina22akaduoft/page/n439.jpg"/>
@@ -1055,9 +1055,9 @@
             <milestone unit="bekker" n="1131b25"/>
             <quote type="lemma">
               <lb n="23" xml:id="p24-22"/>Τὸ δὲ λοιπὸν εἶδος τὸ διορθωτικὸν ὃ γίνεται ἐν τοῖς<note type="apparatus" n="23-24" target="#p24-22 #p24-23">Τὸ δὲ—ἑκουσίοις] lemma in libris non discernitur</note><note type="apparatus" n="23" target="#p24-22">εἶδος] ἐν Arist.</note>
+              <lb n="24" xml:id="p24-23"/>συναλλάγμασι καὶ τοῖς ἀκουσίοις καὶ ἑκουσίοις.<note type="apparatus" n="24" target="#p24-23">ἀκουσίοις καὶ ἑκουσίοις Ba et addito τοῖς post καὶ Arist. Lᵇ: ἑκουσίοις καὶ τοῖς ἀκουσίοις S Arist. vulg.</note>
             </quote>
             <p>
-              <lb n="24" xml:id="p24-23"/>συναλλάγμασι καὶ τοῖς ἀκουσίοις καὶ ἑκουσίοις.<note type="apparatus" n="24" target="#p24-23">ἀκουσίοις καὶ ἑκουσίοις Ba et addito τοῖς post καὶ Arist. Lᵇ: ἑκουσίοις καὶ τοῖς ἀκουσίοις S Arist. vulg.</note>
               <lb n="25" xml:id="p24-24"/>Πληρώσας τὸν περὶ τοῦ ἐν διανομαῖς δικαίου λόγον λέγει καὶ περὶ τοῦ
               <lb n="26" xml:id="p24-25"/>διορθωτικοῦ δικαίου. ἰστέον δὲ ὅτι συναλλάγματα οἱ παλαιοὶ ἐκάλουν οὐ<milestone type="alt-edition" unit="line" ed="Aldina 1536" n="50"/>
               <lb n="27" xml:id="p24-26"/>μόνον ἃ ἑκόντες συνετίθεντο πρὸς ἀλλήλους ποιεῖν, ἀλλὰ καὶ τὰ ὑπὸ τῶν
@@ -1135,9 +1135,9 @@
             <milestone unit="bekker" n="1132a6"/>
             <quote type="lemma">
               <lb n="11" xml:id="p26-10"/>Ὥστε τὸ ἄδικον τοῦτο ἄνισον ὂν ἰσάζειν πειρᾶται
+              <lb n="12" xml:id="p26-11"/>ὁ δικαστής.
             </quote>
             <p>
-              <lb n="12" xml:id="p26-11"/>ὁ δικαστής.
               <lb n="13" xml:id="p26-12"/>Ὡς ἐπὶ β̅ ἴσων ἀριθμῶν, οἷον τοῦ η̅ καὶ η̅, ἄν τις ἀπὸ τοῦ ἑνὸς
               <lb n="14" xml:id="p26-13"/>ἀφέλῃ μίαν δυάδα καὶ προσθῇ τῷ ἑτέρῳ, ἀνίσους ἀπειργάσατο τοὺς ἀριθμούς<note type="apparatus" n="14" target="#p26-13">ἀφελεῖ S ἀναπειργάσατο S</note><milestone type="alt-edition" unit="line" ed="Aldina 1536" n="45"/>
               <lb n="15" xml:id="p26-14"/>(γέγονε γὰρ ὁ μὲν ᾧ προσετέθη ἡ δυὰς ι̅, ὁ δὲ ἀφ’ οὗ ἀφῄρηται
@@ -1173,9 +1173,9 @@
             <milestone unit="bekker" n="1132a10"/>
             <quote type="lemma">
               <lb n="4" xml:id="p27-3"/>Λέγεται γὰρ ὡς ἁπλῶς εἰπεῖν ἐπὶ τοῖς τοιούτοις, κἂν
+              <lb n="5" xml:id="p27-4"/>εἰ μή τισιν οἰκεῖον ὄνομα δοκῇ.<note type="apparatus" n="5" target="#p27-4">δοκῇ B Arist. Ob: δοκεῖ S: εἴη Arist. vulg.: εἴη δοκεῖ a</note>
             </quote>
             <p>
-              <lb n="5" xml:id="p27-4"/>εἰ μή τισιν οἰκεῖον ὄνομα δοκῇ.<note type="apparatus" n="5" target="#p27-4">δοκῇ B Arist. Ob: δοκεῖ S: εἴη Arist. vulg.: εἴη δοκεῖ a</note>
               <lb n="6" xml:id="p27-5"/>Ἐπεὶ τὸ κέρδος καὶ ἡ ζημία ἐπὶ χρημάτων μόνων δοκεῖ λέγεσθαι καὶ<note type="apparatus" n="6" target="#p27-5">μόνον Sa</note><milestone type="alt-edition" unit="line" ed="Aldina 1536" n="10"/>
               <lb n="7" xml:id="p27-6"/>ἐπὶ κτημάτων, καὶ ὁ μὲν πλέον ἐπὶ τούτοις προσκτησάμενος κερδαίνειν, ὁ<note type="apparatus" n="7" target="#p27-6">κερδαίνει S</note>
               <lb n="8" xml:id="p27-7"/>δὲ ἔλαττον ἔχων ζημιοῦσθαι λέγεται, ἐπισημαίνεται τοῦτο λέγων ὅτι κυρίως<note type="apparatus" n="8" target="#p27-7">λέγονται Ba</note>
@@ -1242,9 +1242,9 @@
             <milestone unit="bekker" n="1132a29"/>
             <quote type="lemma">
               <lb n="16" xml:id="p28-15"/>Τὸ δ’ ἴσον μέσον ἐστὶ τῆς μείζονος καὶ ἐλάττονος
+              <lb n="17" xml:id="p28-16"/>κατὰ τὴν ἀριθμητικὴν ἀναλογίαν.
             </quote>
             <p>
-              <lb n="17" xml:id="p28-16"/>κατὰ τὴν ἀριθμητικὴν ἀναλογίαν.
               <lb n="18" xml:id="p28-17"/>Εἴρηται πολλάκις ὅτι ἡ ἀριθμητικὴ ἀναλογία ἐν ἴσῃ ὑπεροχῇ ἐστι τοῦ<note type="apparatus" n="18" target="#p28-17">ὑπεροχῆς S</note>
               <lb n="19" xml:id="p28-18"/>μείζονος καὶ ἐλάττονος. ᾧ γὰρ ὑπερέχει ὁ ϛ̅ τοῦ ἐλάττονος τοῦ δ̅, τούτῳ
               <lb n="20" xml:id="p28-19"/>ὑπερέχεται ὁ ϛ̅ ὑπὸ τοῦ μείζονος τοῦ η̅· δυσὶ γὰρ ὑπερέχων τοῦ δ̅ δυσὶν<note type="apparatus" n="20" target="#p28-19">ὑπερέχηται a</note>
@@ -1516,9 +1516,9 @@
             <milestone unit="bekker" n="1133a16"/>
             <quote type="lemma">
               <lb n="25" xml:id="p34-24"/>Οὐ γὰρ ἐκ δύο ἰατρῶν γίνεται κοινωνία, ἀλλ’ ἐξ ἰατροῦ
+              <lb n="26" xml:id="p34-25"/>καὶ γεωργοῦ.
             </quote>
             <p>
-              <lb n="26" xml:id="p34-25"/>καὶ γεωργοῦ.
               <lb n="27" xml:id="p34-26"/>Εἰπὼν ὅτι οὐθὲν κωλύει κρεῖττον εἶναι τὸ θατέρου ἔργον ἢ τὸ θατέρου,<note type="apparatus" n="27" target="#p34-26">θάτερον ἔργον Sa</note>
               <lb n="28" xml:id="p34-27"/>τοῦτο διὰ τῶν λεγομένων νῦν δείκνυσι, δυνάμει λέγων “εἰ μὲν γὰρ ἦσαν<milestone type="alt-edition" unit="line" ed="Aldina 1536" n="15"/>
               <lb n="29" xml:id="p34-28"/>ἀμφότεροι οἱ τεχνῖται ἰατροὶ ἢ ἀμφότεροι σκυτεῖς, οὐκ ἂν ἦν τὸ θατέρου
@@ -1602,9 +1602,9 @@
             <milestone unit="bekker" n="1133a31"/>
             <quote type="lemma">
               <lb n="21" xml:id="p36-20"/>Ἔσται δὴ ἀντιπεπονθός, ὅταν ἰσασθῇ, ὥστε ὅπερ
+              <lb n="22" xml:id="p36-21"/>γεωργὸς πρὸς σκυτοτόμον.
             </quote>
             <p>
-              <lb n="22" xml:id="p36-21"/>γεωργὸς πρὸς σκυτοτόμον.
               <lb n="23" xml:id="p36-22"/>Ὅταν, φησίν, ἰσασθῇ τὰ ἔργα, ἔσται τὸ ἀντιπεπονθὸς δίκαιον, ὡς εἶναι
               <lb n="24" xml:id="p36-23"/>ὡς ὁ γεωργὸς πρὸς τὸν σκυτοτόμον, τὸ ἔργον τοῦ σκυτοτόμου πρὸς<milestone type="alt-edition" unit="line" ed="Aldina 1536" n="15"/>
               <lb n="25" xml:id="p36-24"/>τὸ τοῦ γεωργοῦ. εἰ γάρ ἐστιν ὁ γεωργὸς διπλασίων τοῦ σκυτοτόμου, ἥμισυς<note type="apparatus" n="25" target="#p36-24">ἥμισυ Ba</note>
@@ -1624,9 +1624,9 @@
             <milestone unit="bekker" n="1133a33"/>
             <quote type="lemma">
               <lb n="1" xml:id="p37-0"/>Εἰς σχῆμα δ’ ἀναλογίας οὐ δεῖ ἄγειν, ὅταν ἀλλάξωνται·<note type="apparatus" n="1" target="#p37-0">Εἰς—ἀλλάξωνται om. a</note>
+              <lb n="2" xml:id="p37-1"/>εἰ δὲ μή, ἀμφοτέρας ἕξει τὰς ὑπεροχάς.<note type="apparatus" n="2" target="#p37-1">ἀμφότερα S</note>
             </quote>
             <p>
-              <lb n="2" xml:id="p37-1"/>εἰ δὲ μή, ἀμφοτέρας ἕξει τὰς ὑπεροχάς.<note type="apparatus" n="2" target="#p37-1">ἀμφότερα S</note>
               <lb n="3" xml:id="p37-2"/>Ἡ ὑπεροχὴ λέγεται καὶ ἐπὶ τῆς ὑπερβολῆς καὶ τῆς ἐλλείψεως, καὶ<note type="apparatus" n="3" target="#p37-2">καὶ ἐπὶ τῆς ἐλλείψεως S</note>
               <lb n="4" xml:id="p37-3"/>ἔθος ἐστὶ λέγειν “εἰς ὑπερβολὴν ἐδόθη αὐτῷ πολλά”, καὶ ἔμπαλιν “εἰς<note type="apparatus" n="4" target="#p37-3">πολλά] ὀλίγα S</note>
               <lb n="5" xml:id="p37-4"/>ὑπερβολὴν ἐδόθη αὐτῷ ὀλίγα”, καὶ “εἰς ὑπερβολὴν ὅδε πλούσιός ἐστι”,<note type="apparatus" n="5" target="#p37-4">ὀλίγα] πολλὰ S</note>
@@ -1690,9 +1690,9 @@
             <milestone unit="bekker" n="1133b10"/>
             <quote type="lemma">
               <lb n="13" xml:id="p38-12"/>Ὑπὲρ δὲ τῆς μελλούσης ἀλλαγῆς, εἰ νῦν μηδὲν δεῖται,<milestone type="alt-edition" unit="line" ed="Aldina 1536" n="10"/>
+              <lb n="14" xml:id="p38-13"/>ὅτι ἔσται.
             </quote>
             <p>
-              <lb n="14" xml:id="p38-13"/>ὅτι ἔσται.
               <lb n="15" xml:id="p38-14"/>Πῶς εὕρηται νόμισμα, διὰ τούτων λέγει. ἐπεὶ γὰρ πολλάκις ὁ μὲν<note type="apparatus" n="15" target="#p38-14">εὕρη τὸ νόμισμα a</note>
               <lb n="16" xml:id="p38-15"/>σκυτεὺς ἐδεῖτο σίτου ἢ οἴνου ἤ τινος ἄλλου, ὁ δὲ γεωργὸς ἢ ὁ ἀμπελουργὸς<note type="apparatus" n="16" target="#p38-15">ὁ post ἢ om. S</note><milestone type="alt-edition" unit="line" ed="Aldina 1536" n="15"/>
               <lb n="17" xml:id="p38-16"/>ὑποδημάτων οὐκ ἔχρῃζεν, ἢ ἔμπαλιν ἐκεῖνοι μὲν ἐδέοντο ὑποδημάτων, ὁ δὲ
@@ -1772,9 +1772,9 @@
             <milestone unit="bekker" n="1133b30"/>
             <quote type="lemma">
               <lb n="8" xml:id="p40-7"/>Διωρισμένων δὲ τούτων δῆλον ὅτι καὶ ἡ δικαιοπραγία<note type="apparatus" n="8" target="#p40-7">ὅτι καὶ ἡ Ba Arist. Mb: ὅτι ἡ S Arist. vulg.</note><milestone type="alt-edition" unit="line" ed="Aldina 1536" n="10"/>
+              <lb n="9" xml:id="p40-8"/>μέσον ἐστὶ τοῦ ἀδικεῖν καὶ ἀδικεῖσθαι.
             </quote>
             <p>
-              <lb n="9" xml:id="p40-8"/>μέσον ἐστὶ τοῦ ἀδικεῖν καὶ ἀδικεῖσθαι.
               <lb n="10" xml:id="p40-9"/>Εἰ τὸ δίκαιον μέσον ἐστὶ τοῦ πλείονος καὶ ἐλάττονος, ὅτι καὶ τῆς
               <lb n="11" xml:id="p40-10"/>πλεονεξίας καὶ τῆς μειονεξίας μέσον, δῆλον ὅτι καὶ τὸ τὰ δίκαια πράττειν
               <lb n="12" xml:id="p40-11"/>καὶ τὸ δικαιοπραγεῖν εἴη ἂν μέσον τοῦ τε πλεονεκτεῖν καὶ πλεονεκτεῖσθαι,<note type="apparatus" n="12" target="#p40-11">τοῦ πλεονεκτεῖν καὶ τοῦ πλ. S</note>
@@ -1797,9 +1797,9 @@
             <milestone unit="bekker" n="1134a1"/>
             <quote type="lemma">
               <lb n="26" xml:id="p40-25"/>Καὶ ἡ μὲν δικαιοσύνη ἐστὶ καθ’ ἣν ὁ δίκαιος λέγεται<milestone type="alt-edition" unit="line" ed="Aldina 1536" n="25"/>
+              <lb n="27" xml:id="p40-26"/>πρακτικὸς κατὰ προαίρεσιν.
             </quote>
             <p>
-              <lb n="27" xml:id="p40-26"/>πρακτικὸς κατὰ προαίρεσιν.
               <lb n="28" xml:id="p40-27"/>Πάνυ καλῶς προσέθηκε τὸ κατὰ προαίρεσιν· τῇ προαιρέσει γὰρ
               <lb n="29" xml:id="p40-28"/>χαρακτηρίζεται ὁ σπουδαῖος καὶ αἱ κατ’ ἀρετὰς ἐνέργειαι. οὐ γὰρ ὁ τὰ<note type="apparatus" n="29" target="#p40-28">ἀρετὰς scripsi: αὐτὰς BS: αὐτὸν a</note>
               <lb n="30" xml:id="p40-29"/>δίκαια πράττων ἐξ ἀνάγκης δίκαιος (τί γάρ, εἰ διὰ φόβον ἢ ἄλλο τι τοῦτο
@@ -1828,9 +1828,9 @@
             <milestone unit="bekker" n="1134a11"/>
             <quote type="lemma">
               <lb n="15" xml:id="p41-14"/>Ἐπὶ δὲ τῶν ἄλλων τὸ μὲν ὅλον ὁμοίως, τὸ δὲ παρὰ<note type="apparatus" n="15" target="#p41-14">Ἐπὶ δὴ S</note>
+              <lb n="16" xml:id="p41-15"/>τὸ ἀνάλογον, ὁποτέρως ἔτυχε.
             </quote>
             <p>
-              <lb n="16" xml:id="p41-15"/>τὸ ἀνάλογον, ὁποτέρως ἔτυχε.
               <lb n="17" xml:id="p41-16"/>Παρὰ τὸ ἀνάλογον λέγει τὸ ἄνισον, ἤτοι τὸ πλέον καὶ ἔλαττον· εἰ γὰρ
               <lb n="18" xml:id="p41-17"/>τὸ ἀνάλογον ἴσον, τὸ παρὰ τὸ ἀνάλογον ἄνισον. εἴη δ’ ἂν σαφεστέρα ἡ
               <lb n="19" xml:id="p41-18"/>γραφή, εἰ ἀντὶ τοῦ τὸ δὲ παρὰ τὸ ἀνάλογον εἴη γεγραμμένον τὸ γὰρ<note type="apparatus" n="19" target="#p41-18">δὲ] δὴ libri</note>
@@ -1850,9 +1850,9 @@
             <milestone unit="bekker" n="1134a14"/>
             <quote type="lemma">
               <lb n="30" xml:id="p41-29"/>Περὶ μὲν οὖν δικαιοσύνης καὶ ἀδικίας, τίς ἑκατέρα<note type="apparatus" n="30" target="#p41-29">ἑκατέρας a</note><milestone type="alt-edition" unit="line" ed="Aldina 1536" n="55"/>
+              <lb n="31" xml:id="p41-30"/>ἐστίν. <milestone type="alt-edition" unit="folio" ed="Aldina 1536" n="70v"/>
             </quote>
             <p>
-              <lb n="31" xml:id="p41-30"/>ἐστίν. <milestone type="alt-edition" unit="folio" ed="Aldina 1536" n="70v"/>
               <lb n="32" xml:id="p41-31"/>Εἴρηκε γὰρ ὅτι ἔστιν ἕξις οἵαν εἴπομεν. πρόσκειται δὲ τὸ καθόλου,
               <lb n="33" xml:id="p41-32"/>ὅτι μὴ ἐπεξῆλθεν τὰ καθ’ ἕκαστα, καὶ ὅτι ἐν μὲν τοῖς περὶ τῶν πρακτῶν<note type="apparatus" n="33" target="#p41-32">ἐπεξέλθῃ BS</note>
               <lb n="34" xml:id="p41-33"/>λόγοις τὸ μὲν καθόλου ὁποῖόν τι δεῖ εἶναι, ὑπογράψαι δύναταί τις, οὐκέτι
@@ -1896,9 +1896,9 @@
             <milestone unit="bekker" n="1134a24"/>
             <quote type="lemma">
               <lb n="25" xml:id="p42-24"/>Δεῖ δὲ μὴ λανθάνειν ὅτι τὸ ζητούμενόν ἐστι καὶ τὸ
+              <lb n="26" xml:id="p42-25"/>ἁπλῶς δίκαιον.
             </quote>
             <p>
-              <lb n="26" xml:id="p42-25"/>ἁπλῶς δίκαιον.
               <lb n="27" xml:id="p42-26"/>Τὸ ἁπλῶς ἀντὶ τοῦ κυρίως καὶ ἀληθῶς δίκαιον. δείξας ὅτι τοῦ δικαίου
               <lb n="28" xml:id="p42-27"/>τὸ μὲν διανεμητικόν, τὸ δὲ διορθωτικόν, ὧν τὸ μὲν ἦν κατὰ τὴν γεωμετρικὴν
               <lb n="29" xml:id="p42-28"/>ἀναλογίαν, τὸ δὲ ἐπανορθωτικὸν κατὰ τὴν ἀριθμητικήν, ἐπεὶ καὶ ἡ<note type="apparatus" n="29-30" target="#p42-28 #p42-29">καὶ τὸ δίκαιον καὶ ἡ δικαιοσύνη coll. S</note><milestone type="alt-edition" unit="line" ed="Aldina 1536" n="30"/>
@@ -2013,9 +2013,9 @@
             <milestone unit="bekker" n="1134b8"/>
             <quote type="lemma">
               <lb n="5" xml:id="p45-4"/>Τὸ δὲ δεσποτικὸν δίκαιον καὶ τὸ πατρικὸν οὐ ταὐτὸν
+              <lb n="6" xml:id="p45-5"/>τούτοις.<note type="apparatus" n="6" target="#p45-5">τοιούτοις a</note>
             </quote>
             <p>
-              <lb n="6" xml:id="p45-5"/>τούτοις.<note type="apparatus" n="6" target="#p45-5">τοιούτοις a</note>
               <lb n="7" xml:id="p45-6"/>Εἰπὼν πρότερον “ὥστε ὅσοις μή ἐστι τοῦτο, οὐκ ἔστι τούτοις πρὸς<note type="apparatus" n="7" target="#p45-6">Εἰπὼν πρότερον] p. 1134 a 28</note><milestone type="alt-edition" unit="line" ed="Aldina 1536" n="45"/>
               <lb n="8" xml:id="p45-7"/>ἀλλήλους τὸ πολιτικὸν δίκαιον, ἀλλά τι δίκαιον καθ’ ὁμοιότητα”, νῦν λέγει<note type="apparatus" n="8" target="#p45-7">τι V: τὸ BSa, sed cf. p. 43,19</note>
               <lb n="9" xml:id="p45-8"/>τί ἐστι τοῦτο τὸ καθ’ ὁμοιότητα δίκαιον, ὅτι τὸ πατρικὸν καὶ δεσποτικόν.<note type="apparatus" n="9" target="#p45-8">post ὅτι add. ἐστὶ S</note>
@@ -2059,9 +2059,9 @@
             <milestone unit="bekker" n="1134b18"/>
             <quote type="lemma">
               <lb n="8" xml:id="p46-7"/>Τοῦ δὲ πολιτικοῦ δικαίου τὸ μὲν φυσικὸν τὸ δὲ
+              <lb n="9" xml:id="p46-8"/>νομικόν, φυσικὸν μὲν τὸ πανταχοῦ τὴν αὐτὴν ἔχον δύναμιν.<note type="apparatus" n="9" target="#p46-8">τὴν τοιαύτην S</note><milestone type="alt-edition" unit="line" ed="Aldina 1536" n="15"/>
             </quote>
             <p>
-              <lb n="9" xml:id="p46-8"/>νομικόν, φυσικὸν μὲν τὸ πανταχοῦ τὴν αὐτὴν ἔχον δύναμιν.<note type="apparatus" n="9" target="#p46-8">τὴν τοιαύτην S</note><milestone type="alt-edition" unit="line" ed="Aldina 1536" n="15"/>
               <lb n="10" xml:id="p46-9"/>Τὸ πανταχοῦ ἀντὶ τοῦ παρὰ τοῖς πλείστοις καὶ ἀδιαστρόφοις καὶ<note type="apparatus" n="10" target="#p46-9">ἀδιαστρόφως Anon.</note>
               <lb n="11" xml:id="p46-10"/>κατὰ φύσιν ἔχουσι· παρὰ γὰρ τοῖς θηριώδεσι καὶ παντάπασι τὸν νοῦν ἐκτετυφλωμένοις<note type="apparatus" n="11" target="#p46-10">παρὰ] περὶ S</note>
               <lb n="12" xml:id="p46-11"/>καὶ μόνην τὴν ζωώδη διώκουσιν ἡδονὴν οὐκ ἔστι τὸ πολιτικὸν<note type="apparatus" n="12" target="#p46-11">πολιτικὸν] φυσικὸν S</note><milestone type="alt-edition" unit="line" ed="Aldina 1536" n="20"/>
@@ -2133,9 +2133,9 @@
             <milestone unit="bekker" n="1134b30"/>
             <quote type="lemma">
               <lb n="32" xml:id="p47-31"/>Ποῖον δὲ φύσει τῶν ἐνδεχομένων καὶ ἄλλως ἔχειν<milestone type="alt-edition" unit="line" ed="Aldina 1536" n="5"/>
+              <lb n="33" xml:id="p47-32"/>καὶ ποῖον οὔ, ἀλλὰ νομικὸν καὶ συνθήκη.
             </quote>
             <p>
-              <lb n="33" xml:id="p47-32"/>καὶ ποῖον οὔ, ἀλλὰ νομικὸν καὶ συνθήκη.
               <lb n="34" xml:id="p47-33"/>Ἐπεί, φησί, καὶ τὸ φύσει δίκαιον μεταπίπτει καὶ τὸ νομικόν (εἰ γὰρ
               <lb n="35" xml:id="p47-34"/>τὸ φύσει, πολλῷ μᾶλλον τὸ νομικόν), τίνι γνωριοῦμεν ὅτι τόδε μὲν εἰ καὶ
             </p>
@@ -2172,9 +2172,9 @@
             <milestone unit="bekker" n="1135a5"/>
             <quote type="lemma">
               <lb n="26" xml:id="p48-25"/>Τῶν δὲ δικαίων καὶ νομίμων ἕκαστον ὡς τὰ καθόλου
+              <lb n="27" xml:id="p48-26"/>πρὸς τὰ καθ’ ἕκαστα ἔχει.
             </quote>
             <p>
-              <lb n="27" xml:id="p48-26"/>πρὸς τὰ καθ’ ἕκαστα ἔχει.
               <lb n="28" xml:id="p48-27"/>Τὰ νόμιμα, φησί, καὶ τὰ δίκαια πρὸς τὰ καθ’ ἕκαστα τὰ κατ’ αὐτὰ<milestone type="alt-edition" unit="line" ed="Aldina 1536" n="35"/>
               <lb n="29" xml:id="p48-28"/>πραττόμενα οὕτως ἔχει, ὡς ἔχει ὁ καθόλου ἄνθρωπος πρὸς τοὺς κατὰ
               <lb n="30" xml:id="p48-29"/>μέρος, Σωκράτην, Πλάτωνα, Ἀριστοτέλην. κοινὸν μὲν οὖν νόμιμον καὶ<note type="apparatus" n="30" target="#p48-29">post μέρος add. ἀνθρώπους οἷον S οὖν om. Sa</note>
@@ -2240,9 +2240,9 @@
             <milestone unit="bekker" n="1135a23"/>
             <quote type="lemma">
               <lb n="4" xml:id="p50-3"/>Λέγω δὲ ἑκούσιον μέν, ὥσπερ καὶ πρότερον εἴρηται,
+              <lb n="5" xml:id="p50-4"/>ὃ ἄν τις τῶν ἐφ’ αὑτῷ ὄντων.
             </quote>
             <p>
-              <lb n="5" xml:id="p50-4"/>ὃ ἄν τις τῶν ἐφ’ αὑτῷ ὄντων.
               <lb n="6" xml:id="p50-5"/>Ἐπεὶ ἐν τῷ τρίτῳ βιβλίῳ τῆς παρούσης πραγματείας περὶ ἀκουσίου καὶ<note type="apparatus" n="6" target="#p50-5">ἐν τῷ τρίτῳ βιβλίῳ] Γ 1-3</note>
               <lb n="7" xml:id="p50-6"/>ἑκουσίου εἴρηκεν, οὐ χρὴ ἡμᾶς πάλιν ἐνταῦθα μνείαν ποιουμένου τοῦ Ἀριστοτέλους
               <lb n="8" xml:id="p50-7"/>πονεῖν, ἀλλ’ ἐκ τῶν ἐκεῖσε γεγραμμένων τοῖς ἐξηγηταῖς σχολῶν ἔτι<note type="apparatus" n="8" target="#p50-7">σχολίων a</note>
@@ -2324,9 +2324,9 @@
             <milestone unit="bekker" n="1135a31"/>
             <quote type="lemma">
               <lb n="3" xml:id="p52-2"/>Τὸ δὴ ἀγνοούμενον ἢ μὴ ἀγνοούμενον μέν, μὴ ἐπ’<note type="apparatus" n="3" target="#p52-2">δὴ] δ’ a</note><note type="apparatus" n="3-4" target="#p52-2 #p52-3">ἐπ’ αὐτῷ a Arist. vulg.: ἐφ’ ἑαυτῷ BS Arist. Ob (ἐφ’ αὐτῷ Lb)</note>
+              <lb n="4" xml:id="p52-3"/>αὐτῷ δὲ ὂν ἢ βίᾳ ἀκούσιον.
             </quote>
             <p>
-              <lb n="4" xml:id="p52-3"/>αὐτῷ δὲ ὂν ἢ βίᾳ ἀκούσιον.
               <lb n="5" xml:id="p52-4"/>Εἰπὼν τί τὸ ἑκούσιον, λέγει καὶ περὶ τοῦ ἀκουσίου, τί ποτέ ἐστι, καὶ
               <lb n="6" xml:id="p52-5"/>φησὶν ὅτι τοῦτό ἐστιν ἀκούσιον, τὸ δι’ ἄγνοιαν γινόμενον ἢ βίᾳ τῶν ἐφ’<note type="apparatus" n="6" target="#p52-5">γινόμενον] πραττόμενον S</note>
               <lb n="7" xml:id="p52-6"/>ἡμῖν ὄντων. ὅσα γὰρ ἀγνοεῖται ἢ μὴ ἀγνοεῖται, μὴ ἐπ’ αὐτῷ δ’ ἐστὶ<note type="apparatus" n="7" target="#p52-6">ἡμῶν S ἐπ’ αὐτῶν a</note>
@@ -2346,9 +2346,9 @@
             <milestone unit="bekker" n="1135b2"/>
             <quote type="lemma">
               <lb n="18" xml:id="p52-17"/>Ἔστι δ’ ὁμοίως καὶ ἐπὶ τῶν ἀδίκων καὶ τῶν δικαίων καὶ<note type="apparatus" n="18" target="#p52-17">καὶ post ὁμοίως apud Arist. non legitur</note>
+              <lb n="19" xml:id="p52-18"/>τὸ κατὰ συμβεβηκός.
             </quote>
             <p>
-              <lb n="19" xml:id="p52-18"/>τὸ κατὰ συμβεβηκός.
               <lb n="20" xml:id="p52-19"/>Εἰπὼν ὅτι ἐν οἷς ἡ πρᾶξις, καὶ τὸ κατὰ συμβεβηκὸς καὶ τὸ καθ’
               <lb n="21" xml:id="p52-20"/>αὑτό, ὧν τὸ μὲν ἐποίει τὸ ἑκούσιον, τὸ δὲ τὸ ἀκούσιον, λέγει ὅτι καὶ ἐπὶ
               <lb n="22" xml:id="p52-21"/>τῶν δικαίων καὶ τῶν ἀδίκων ἔστι καὶ τὸ κατὰ συμβεβηκός. ὁ γὰρ ποιῶν<note type="apparatus" n="22" target="#p52-21">καὶ post ἔστι om. S</note>
@@ -2370,9 +2370,9 @@
             <milestone unit="bekker" n="1135b11"/>
             <quote type="lemma">
               <lb n="1" xml:id="p53-0"/>Τριῶν δ’ οὐσῶν βλαβῶν τῶν ἐν ταῖς κοινωνίαις, τὰ<note type="apparatus" n="1" target="#p53-0">δ’ οὐσῶν BsA Arist. Lb: δὴ οὐσῶν Arist. vulg.</note>
+              <lb n="2" xml:id="p53-1"/>μὲν μετ’ ἀγνοίας ἁμαρτήματά εἰσιν. <milestone type="alt-edition" unit="folio" ed="Aldina 1536" n="73v"/><note type="apparatus" n="2" target="#p53-1">ἐστὶν Sa Arist.</note>
             </quote>
             <p>
-              <lb n="2" xml:id="p53-1"/>μὲν μετ’ ἀγνοίας ἁμαρτήματά εἰσιν. <milestone type="alt-edition" unit="folio" ed="Aldina 1536" n="73v"/><note type="apparatus" n="2" target="#p53-1">ἐστὶν Sa Arist.</note>
               <lb n="3" xml:id="p53-2"/>Εἰπὼν πρὸ ὀλίγου περὶ αὐτῶν “καθ’ ἕκαστόν γε αὐτῶν ὁποῖά τε εἴδη<note type="apparatus" n="3" target="#p53-2">πρὸ ὀλίγου] p. 1135 a 13 καθ’ ἕκαστον Arist.: καθ’ ἑκάστων BS: καθ’ ἑκάστην a γε] τε S</note>
               <lb n="4" xml:id="p53-3"/>καὶ πόσα, καὶ περὶ ποῖα ὄντα τυγχάνουσιν, ὕστερον ἐπισκεπτέον” νῦν τοῦτο<milestone type="alt-edition" unit="line" ed="Aldina 1536" n="11"/>
               <lb n="5" xml:id="p53-4"/>ποιεῖ· διελὼν γὰρ τὸ ἑκούσιον εἰς τὸ κατὰ προαίρεσιν καὶ τὸ χωρὶς προαιρέσεως
@@ -2471,10 +2471,10 @@
             <milestone unit="bekker" n="1136a5"/>
             <quote type="lemma">
               <lb n="11" xml:id="p55-10"/>Τῶν δ’ ἀκουσίων τὰ μέν ἐστι συγγνωμονικά, τὰ δ’ οὐ
-            </quote>
-            <p>
               <lb n="12" xml:id="p55-11"/>συγγνωμονικά· ὅσα μὲν γὰρ μὴ μόνον ἀγνοοῦντες, ἀλλὰ καὶ δι’
               <lb n="13" xml:id="p55-12"/>ἄγνοιαν.
+            </quote>
+            <p>
               <lb n="14" xml:id="p55-13"/>Ἀγνοοῦντα λέγει τὸν τὸ καθόλου ἀγνοοῦντα. ὁ γὰρ μὴ εἰδὼς ὅτι<note type="apparatus" n="14" target="#p55-13">Ἀγνοοῦντες a</note><milestone type="alt-edition" unit="line" ed="Aldina 1536" n="25"/>
               <lb n="15" xml:id="p55-14"/>τὸ μοιχεύειν κακόν, ἀγνοῶν λέγεται καὶ ἀγνοῶν πράττει, ὁ δὲ εἰδὼς τὸ
               <lb n="16" xml:id="p55-15"/>καθόλου ὅτι ἡ μοιχεία κακὸν καὶ ὅτι κεκώλυται ὑπὸ τοῦ νόμου, ταύτην
@@ -2505,9 +2505,9 @@
             <milestone unit="bekker" n="1136a10"/>
             <quote type="lemma">
               <lb n="1" xml:id="p56-0"/>Ἀπορήσειε δ’ ἄν τις εἰ ἱκανῶς διώρισται περὶ τοῦ
+              <lb n="2" xml:id="p56-1"/>ἀδικεῖσθαι καὶ τοῦ ἀδικεῖν.
             </quote>
             <p>
-              <lb n="2" xml:id="p56-1"/>ἀδικεῖσθαι καὶ τοῦ ἀδικεῖν.
               <lb n="3" xml:id="p56-2"/>Εἰπὼν πρότερον περὶ τοῦ ἀδικεῖν καὶ ἀδικεῖσθαι, ὅτι ἀδικεῖν ἐστι καὶ
               <lb n="4" xml:id="p56-3"/>ἄδικός ἐστιν ὁ ἑκὼν ἀδικῶν, ἀδικεῖσθαι δὲ τὸ ἀκουσίως πάσχειν, ἐπεὶ πρὸς<milestone type="alt-edition" unit="line" ed="Aldina 1536" n="50"/>
               <lb n="5" xml:id="p56-4"/>ταῦτα τὰ τοῦ Εὐριπίδου ἀντιφθέγγεται (λέγει γὰρ οὗτος ὅτι ἔστι καὶ ἐπὶ<note type="apparatus" n="5" target="#p56-4">Εὐριπίδου] v. Nauck, Fr. Tr. Gr. p. 381² οὕτως BS</note>
@@ -2542,9 +2542,9 @@
             <milestone unit="bekker" n="1136a21"/>
             <quote type="lemma">
               <lb n="31" xml:id="p56-30"/>Ἄτοπον δ’ ἂν δόξειε καὶ ἐπὶ τοῦ δικαιοῦσθαι, εἰ ἅπαν
+              <lb n="32" xml:id="p56-31"/>ἑκούσιον.
             </quote>
             <p>
-              <lb n="32" xml:id="p56-31"/>ἑκούσιον.
               <lb n="33" xml:id="p56-32"/>Εἰπὼν ὅτι καὶ τὸ λέγειν πᾶν τὸ δικαιοῦσθαι ἑκούσιον ἄτοπόν ἐστι,
               <lb n="34" xml:id="p56-33"/>συντόμως τὴν αἰτίαν τῆς ἀτοπίας τέθεικεν εἰπὼν ἔνιοι γὰρ δικαιοῦνται<milestone type="alt-edition" unit="line" ed="Aldina 1536" n="25"/>
               <lb n="35" xml:id="p56-34"/>οὐχ ἑκόντες. εἰσὶ δὲ οὗτοι οἱ πεπλεονεκτηκότες, ὧν τὸ πλέον ἐχόντων<note type="apparatus" n="35" target="#p56-34">post δὲ add. καὶ S</note>
@@ -2676,9 +2676,9 @@
             <milestone unit="bekker" n="1136b15"/>
             <quote type="lemma">
               <lb n="26" xml:id="p59-25"/>Ἔτι δ’ ὧν προειλόμεθα δύο ἔστιν εἰπεῖν, πότερόν ποτε<note type="apparatus" n="26" target="#p59-25">δ’ οὖν S</note>
+              <lb n="27" xml:id="p59-26"/>ἀδικεῖ.
             </quote>
             <p>
-              <lb n="27" xml:id="p59-26"/>ἀδικεῖ.
               <lb n="28" xml:id="p59-27"/>Περὶ τῶν δύο ἀποριῶν ἃς προτίθησιν οὐδαμοῦ μνείαν ἐν τοῖς ἔμπροσθεν<note type="apparatus" n="28" target="#p59-27">προτίθησιν a Anon: προστίθησιν S: προτίθεμεν B</note>
               <lb n="29" xml:id="p59-28"/>πεποίηκε, κἂν δοκῇ ὅσον ἐπὶ τῇ λέξει προειρηκέναι περὶ αὐτῶν. εἴη δ’
               <lb n="30" xml:id="p59-29"/>ἂν λέγων ὅτι τῆς προθέσεως ἡμῖν περὶ δικαιοσύνης εἰπεῖν οὔσης, ἐπεὶ ὁ<milestone type="alt-edition" unit="line" ed="Aldina 1536" n="15"/>
@@ -2841,9 +2841,9 @@
             <milestone unit="bekker" n="1137a9"/>
             <quote type="lemma">
               <lb n="21" xml:id="p63-20"/>Ὁμοίως δὲ καὶ τὸ γνῶναι τὰ δίκαια καὶ τὰ ἄδικα οὐδὲν
+              <lb n="22" xml:id="p63-21"/>οἴονται σοφὸν εἶναι.
             </quote>
             <p>
-              <lb n="22" xml:id="p63-21"/>οἴονται σοφὸν εἶναι.
               <lb n="23" xml:id="p63-22"/>Ὡς οὖν τὸ δίκαιον εἶναι ῥᾴδιόν ἐστιν, φασὶν οἱ ἄνθρωποι, διότι καὶ τὸ<note type="apparatus" n="23" target="#p63-22">εἶναι om. Ba</note>
               <lb n="24" xml:id="p63-23"/>τὰ δίκαια πράττειν εὐπετὲς καὶ ἕτοιμον, οὕτω καὶ τὸ γνῶναι τὰ δίκαια οὐδὲν<note type="apparatus" n="24" target="#p63-23">εὐπετὸν a</note><milestone type="alt-edition" unit="line" ed="Aldina 1536" n="15"/>
               <lb n="25" xml:id="p63-24"/>χαλεπόν. λέγουσι γὰρ οἱ νόμοι περὶ δικαίων καὶ ἀδίκων, τὸ δὲ γνῶναι τὰ
@@ -2879,9 +2879,9 @@
             <milestone unit="bekker" n="1137a17"/>
             <quote type="lemma">
               <lb n="15" xml:id="p64-14"/>Δι’ αὐτὸ δὲ τοῦτο καὶ τοῦ δικαίου οἴονται εἶναι οὐδὲν
+              <lb n="16" xml:id="p64-15"/>ἧττον τὸ ἀδικεῖν.
             </quote>
             <p>
-              <lb n="16" xml:id="p64-15"/>ἧττον τὸ ἀδικεῖν.
               <lb n="17" xml:id="p64-16"/>Δι’ ἣν αἰτίαν οἴονται οἱ ἄνθρωποι ῥᾴδιον εἶναι τὸ εἰδέναι τὰ δίκαια
               <lb n="18" xml:id="p64-17"/>καὶ τὰ ἄδικα (οἴονται δὲ ῥᾴδιον εἶναι διὰ τὸ οἴεσθαι δίκαιον καὶ ἄδικόν τινα
               <lb n="19" xml:id="p64-18"/>〈εἶναι〉, ὅτε θέλει, ἐπ’ αὐτῷ εἶναι), διὰ ταύτην τὴν αἰτίαν ἡγοῦνται καὶ τοῦ<note type="apparatus" n="19" target="#p64-18">ἐπ’ αὐτοῦ Ba</note><milestone type="alt-edition" unit="line" ed="Aldina 1536" n="40"/>
@@ -2912,9 +2912,9 @@
             <milestone unit="bekker" n="1137a26"/>
             <quote type="lemma">
               <lb n="3" xml:id="p65-2"/>Ἔστι δὲ τὰ δίκαια ἐν τούτοις οἷς μέτεστι τῶν ἁπλῶς
+              <lb n="4" xml:id="p65-3"/>ἀγαθῶν. <milestone type="alt-edition" unit="folio" ed="Aldina 1536" n="77r"/>
             </quote>
             <p>
-              <lb n="4" xml:id="p65-3"/>ἀγαθῶν. <milestone type="alt-edition" unit="folio" ed="Aldina 1536" n="77r"/>
               <lb n="5" xml:id="p65-4"/>Ἦν ἂν σαφεστέρα ἡ λέξις, εἰ οὕτως πως εἶχεν· τῶν δικαίων τὸ μὲν
               <lb n="6" xml:id="p65-5"/>ὡς εἴρηται διανεμητικὸν τὸ δ’ ἐπανορθωτικόν, ταῦτα δὲ τὸ διανεμητικὸν<note type="apparatus" n="6" target="#p65-5">νεμητικὸν Ba</note>
               <lb n="7" xml:id="p65-6"/>καὶ τὸ ἐπανορθωτικὸν ἐν τούτοις ἐστὶ τοῖς μετέχουσι τῶν ἁπλῶς ἀγαθῶν,<note type="apparatus" n="7" target="#p65-6">post ἐστὶ add. ἐν S</note>
@@ -2963,9 +2963,9 @@
             <milestone unit="bekker" n="1137a31"/>
             <quote type="lemma">
               <lb n="10" xml:id="p66-9"/>Περὶ δὲ ἐπιεικείας καὶ τοῦ ἐπιεικοῦς, πῶς ἔχει ἡ
+              <lb n="11" xml:id="p66-10"/>μὲν ἐπιείκεια πρὸς δικαιοσύνην.
             </quote>
             <p>
-              <lb n="11" xml:id="p66-10"/>μὲν ἐπιείκεια πρὸς δικαιοσύνην.
               <lb n="12" xml:id="p66-11"/>Ἐπειδὴ ἡ ἐπιείκεια καὶ τὸ ἐπιεικὲς περὶ τὸ ἐπανορθωτικὸν δίκαιον, ὡς
               <lb n="13" xml:id="p66-12"/>μαθησόμεθα, καταγίνονται, εἰκότως εἰπὼν περὶ τοῦ τοιούτου δικαίου, τί ποτέ
               <lb n="14" xml:id="p66-13"/>ἐστι, λέγει καὶ περὶ ἐπιεικείας. καὶ ἔστι τὸ ἐπιεικὲς <milestone type="alt-edition" unit="folio" ed="Aldina 1536" n="77v"/> οὔτε ἁπλῶς ταὐτὸν τῷ<note type="apparatus" n="14" target="#p66-13">μετρητὴ Ba τάττει a 9 τὰ om. S</note>
@@ -3059,9 +3059,9 @@
             <milestone unit="bekker" n="1137b33"/>
             <quote type="lemma">
               <lb n="21" xml:id="p68-20"/>Τί μὲν οὖν τὸ ἐπιεικές, καὶ τί τὸ δίκαιον, καὶ τίνος<note type="apparatus" n="21" target="#p68-20">τί τὸ BSa Arist. Mb: ὅτι Arist. vulg.</note>
+              <lb n="22" xml:id="p68-21"/>βέλτιον δικαίου.
             </quote>
             <p>
-              <lb n="22" xml:id="p68-21"/>βέλτιον δικαίου.
               <lb n="23" xml:id="p68-22"/>Δηλαδὴ τοῦ νομίμου δικαίου καὶ διὰ τὸ καθόλου ἡμαρτημένου ἀλλ’<note type="apparatus" n="23" target="#p68-22">ante Δηλαδὴ add. βέλτιον S post καὶ add. τοῦ Ba</note>
               <lb n="24" xml:id="p68-23"/>οὐ διὰ τὸ κακῶς κεῖσθαι. τοῦ τοιούτου δὴ δικαίου βέλτιον τὸ ἐπιεικές,<milestone type="alt-edition" unit="line" ed="Aldina 1536" n="15"/>
               <lb n="25" xml:id="p68-24"/>ἀλλ’ οὐ τοῦ ἁπλῶς δικαίου καὶ κατὰ φύσιν. ὁ γὰρ τῶν τοιούτων προαιρετικὸς
@@ -3170,9 +3170,9 @@
             <milestone unit="bekker" n="1138a28"/>
             <quote type="lemma">
               <lb n="1" xml:id="p71-0"/>Φανερὸν δὲ καὶ ὅτι ἄμφω μὲν φαῦλα, καὶ τὸ ἀδικεῖσθαι
+              <lb n="2" xml:id="p71-1"/>καὶ τὸ ἀδικεῖν.
             </quote>
             <p>
-              <lb n="2" xml:id="p71-1"/>καὶ τὸ ἀδικεῖν.
               <lb n="3" xml:id="p71-2"/>Ἀμφότερα, φησί, φαῦλά εἰσιν, ἀλλὰ μᾶλλον τὸ ἀδικεῖν φαυλότερον<note type="apparatus" n="3" target="#p71-2">καὶ ἀμφότερα Sa φησί om. S φαυλότερον] ἔστι φαῦλον S</note><milestone type="alt-edition" unit="line" ed="Aldina 1536" n="35"/>
               <lb n="4" xml:id="p71-3"/>τοῦ ἀδικεῖσθαι. ἀλλὰ πῶς καὶ τὸ ἀδικεῖσθαι φαῦλον; ἢ ὡς ἐκπεπτωκὸς
               <lb n="5" xml:id="p71-4"/>τοῦ ἴσου καὶ μέσου· εἰ γὰρ τὸ ἴσον ἀγαθόν, τὸ ἔλαττον, ὅ ἐστι τὸ ἀδικεῖσθαι,
@@ -3214,9 +3214,9 @@
             <milestone unit="bekker" n="1138b5"/>
             <quote type="lemma">
               <lb n="3" xml:id="p72-2"/>Κατὰ μεταφορὰν δὲ καὶ ὁμοιότητά ἐστιν οὐκ αὐτῷ πρὸς<note type="apparatus" n="3" target="#p72-2">αὐτῷ] αὐτὸ Sa</note>
+              <lb n="4" xml:id="p72-3"/>αὑτὸν δίκαιον, ἀλλὰ τῶν αὑτοῦ τισιν.
             </quote>
             <p>
-              <lb n="4" xml:id="p72-3"/>αὑτὸν δίκαιον, ἀλλὰ τῶν αὑτοῦ τισιν.
               <lb n="5" xml:id="p72-4"/>Τοῦ Πλάτωνος ὁρίζοντος τὴν δικαιοσύνην ἐν τῇ ἰδιοπραγίᾳ τῶν τῆς<note type="apparatus" n="5" target="#p72-4">Πλάτωνος] Reip. Δ p. 443 C sqq.</note>
               <lb n="6" xml:id="p72-5"/>ψυχῆς μερῶν, ἐπεὶ ἅπαξ ὁ Ἀριστοτέλης περὶ πάσης δικαιοσύνης εἰπεῖν
               <lb n="7" xml:id="p72-6"/>προέθετο, μνημονεύει καὶ περὶ τοῦ τοιούτου δικαίου τοῦ τῶν μερῶν τῆς

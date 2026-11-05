@@ -18,7 +18,7 @@
         <p>Text transcribed by OCR (Humanitext OCR v2, Gemini models) from the scans named in the source description. Structure (div, quote, head): assigned automatically from printed cues (Bekker references before lemmata, section numbers, headings, book titles, lecture headings; in the paraphrases, Aristotle's chapters located from the running heads) and reviewed by the editors at every boundary that was not certain. In works divided into lectures (Πρᾶξις, Θεωρία) the lectures are divs; topic headings that run across lectures (e.g. Περὶ οὐσίας) are marked milestone[@unit='topic'] and kept as text. Text: OCR of the page images (gemini-3-flash-preview; gemini-3.7-flash where it failed), collated word by word, page by page and in five-line blocks, with the First1KGreek transcription of the same edition (tlg4020.tlg002.1st1K-grc1). Lines on which the two disagreed, lines without a First1KGreek counterpart and lines containing a word form not attested in a Greek form lexicon (about two fifths of the lines) were read again from images of the single lines by a second model (gemini-3.8-flash); words still undecided were read line by line by a third model (gemini-3.1-pro-preview). A reading was adopted when the re-reading of the image agreed with it; the remaining words were decided on the page image by student assistants or by AI-assisted checking under the editor's supervision. Lines on which the OCR agreed word for word with First1KGreek and whose words are all attested were not re-read. No text was copied from First1KGreek (Open Greek and Latin Project, University of Leipzig; CC BY-SA 4.0): it served only as a collation witness, and every disagreement was decided from the page image of this edition. Spelling, accents and breathings follow the printed page: the models were instructed to transcribe exactly as printed and the checkers chose the printed form, but a normalised accentuation adopted by a model may occasionally remain. Later checks against the page images (line numbers, marginal references, signs and apparatus, omitted lines) are listed in the revision description. Headings inside a div (sub-headings, closing formulas, labels of tables) are ab[@type='head']. The words of diagrams and tables are not body text: each diagram or table is given once as figure after the last body line printed before it (labels, trees and tables transcribed; pure geometry described in figDesc); where the edition counts the rows of a diagram or table as lines, those line numbers are not used by any lb. Evident misprints of the printed edition, identified on the page image, are kept and given with the correct form as choice/sic/corr; mere variants of spelling or accentuation are left as printed. Misprinted numbers in milestones (Bekker references, old-edition page, folio, column and line numbers), which cannot carry choice/sic/corr, are given with the corrected value where the sequence of the numbers determines it. Line breaks: one lb per printed line; @n is the line count of the CAG page (headings included), resynchronised on the printed marginal numbers of the left margin; lines the edition does not count carry lb without @n. Words hyphenated across lines are joined and the lb is placed at the following word boundary. pb/@facs points to the image of the page in the Internet Archive item named in the source description (BookReader page image; for pages supplied from another copy, that copy). Critical-apparatus entries are attached to the line(s) they cite as note[@type='apparatus'] with @target on the lb (line level; the lemma words of an entry are not linked); entries that cannot be resolved remain as note[@type='footnote'] at the page end. References in the margins to older editions or manuscripts are milestone[@type='alt-edition'] with @unit and @ed (the edition identified from the preface of the volume); CAG's repetition of the current old-edition page or folio beside the first line of each page is not encoded. Bekker references printed before lemmata are milestone[@unit='bekker']. Marginal digits fused into the text by OCR have been removed.</p>
       </editorialDecl>
     </encodingDesc>
-    <revisionDesc><change when="2026-09-15" who="#NI">OCR of the page images in text mode (gemini-3-flash-preview; gemini-3.7-flash where it failed); body lines aligned to the physical lines of the page image; physical lines left without an OCR line read again (31 lines recovered in the corpus).</change><change when="2026-09-24" who="#NI">Line numbers anchored on the printed marginal numerals; 75 doubtful pages of the corpus checked by eye.</change><change when="2026-09-25" who="#NI">Automatic division into chapters, sections and lemmata; 459 uncertain boundaries of the corpus reviewed (273 removed, 119 added).</change><change from="2026-09-26" to="2026-09-29" who="#NI">Line numbers verified against the printed marginal numerals of every page (67,352 of 70,149 numerals agreed); page-wide shifts corrected automatically (322 pages on 2026-09-26, 129 on 2026-09-28); 227 pages reviewed by student assistants (176 corrected).</change><change from="2026-09-30" to="2026-10-02" who="#NI">Text collated with First1KGreek where a First1KGreek file could be aligned by page and line, and re-read (Gemini Batch API): 156,504 lines of the corpus by gemini-3.8-flash, 21,570 lines by gemini-3.1-pro-preview; remaining words put on review sheets.</change><change from="2026-09-30" to="2026-10-12" who="#NI">Review sheets of the re-read words answered by student assistants; the remaining words decided on the page images.</change><change from="2026-10-01" to="2026-10-08" who="#TN">All uncertain structural boundaries reviewed; conventions of the pilot works applied (lectures, book titles, topic headings).</change><change when="2026-10-02" who="#NI">Evident misprints given as choice/sic/corr; headings inside divs as ab[@type='head'].</change><change when="2026-10-13" who="#NI">Margin references to older editions and manuscripts encoded as milestone[@type='alt-edition'][@ed], the editions identified from the prefaces; irregular sequences checked on the page images.</change><change from="2026-10-13" to="2026-10-14" who="#NI">Body text lost to the footnote and figure areas found by collation from the First1KGreek side and restored (about 2,300 lines in the corpus); passages missed by the OCR read again and inserted; restored and inserted lines checked again against the images.</change><change when="2026-10-14" who="#NI">Text of diagrams encoded as figure, and lemma Bekker references whose numbers the OCR had lost read from the images (where the work has them).</change><change when="2026-10-16" who="#NI">Line numbers of the 875 pages left by the verification checked on the images (248 of them also answered by student assistants), followed by a continuity check of every page; margin references to older editions checked on 2,237 page images (944 corrections).</change><change when="2026-10-17" who="#NI">Pages whose line numbering still had gaps or repeats checked on the images (355 pages); signs (〈 〉 [ ] † * — ( )) compared with First1KGreek and 445 pages checked on the images (313 corrections in the text, 523 in the apparatus); words hyphenated across lines joined; punctuation normalised.</change><change when="2026-10-20" who="#NI">Header revised (title, source description, editorial declaration, revision description); misprinted old-edition line numbers given with the corrected value where the sequence determines them; breathings and accents written as separate signs before capitals composed with the letter; missing elision marks after ἀλλ, κατ, καθ, ἐπ, δι etc. supplied in the text; numbers left at line starts removed or encoded as old-edition milestones (image checked); working row identifiers left in 37 lines removed (one line restored from the page image); words divided at a line end that had been joined to a word two lines down corrected; every body line without a line number checked on the page images (margin labels and folio marks read as lines dropped, duplicated rows removed, numbers given to lines the edition counts); numeral signs unified as ʹ (U+0374, stored in its NFC form U+02B9); line-number jumps, old-edition milestones without an edition name and notes suspected to hold body text checked on the page images; citation by printed page and line declared (refsDecl); line coordinates of the working files realigned on the marginal numerals; printers' signatures at the foot of the page removed from the apparatus; apparatus entries for two lines joined by et kept as one note pointing at both lines; page images linked from pb/@facs.</change><change when="2026-10-21" who="#NI">Old-edition line numbers checked on the page images where the sequence skipped a number (2,100 places in the corpus) and, page by page, where it was irregular (542 pages): numbers missed by the OCR added (549), milestones not printed on the page dropped (190; mostly the CAG's own left-margin numbers or line references of the apparatus taken for old-edition numbers), misplaced ones moved (69), misread values corrected (31), page numbers taken for line numbers made page milestones (8); the edition's own skips and out-of-order numbers left as printed, the line count printed beside the repeated page or folio at the head of a page not encoded (like the repetition).</change><change when="2026-10-23" who="#NI">Quotation marks made uniform: opening single and double quotation marks, printed in the edition in the reversed (high-reversed-9) form, are encoded as ‘ and “, closing ones as ’ and ”, single and double kept as printed; opening marks read by the OCR as straight quotes, low quotes or spacing breathings, and spacing breathings or quotation marks doubled before a capital that already bears its breathing, corrected.</change><change when="2026-11-05" who="#NI">Apparatus entries printed out of numerical order (e.g. 33 … 32) separated from the preceding entry; words hyphenated across lines joined in Latin text as in Greek; words mixing Greek and Latin letters (OCR errors, about 130, including manuscript sigla) corrected on the page images; marginal folio marks left in the text removed; validated against TEI P5 version 4.12.0 (recorded in TEI/@version).</change></revisionDesc>
+    <revisionDesc><change when="2026-09-15" who="#NI">OCR of the page images in text mode (gemini-3-flash-preview; gemini-3.7-flash where it failed); body lines aligned to the physical lines of the page image; physical lines left without an OCR line read again (31 lines recovered in the corpus).</change><change when="2026-09-24" who="#NI">Line numbers anchored on the printed marginal numerals; 75 doubtful pages of the corpus checked by eye.</change><change when="2026-09-25" who="#NI">Automatic division into chapters, sections and lemmata; 459 uncertain boundaries of the corpus reviewed (273 removed, 119 added).</change><change from="2026-09-26" to="2026-09-29" who="#NI">Line numbers verified against the printed marginal numerals of every page (67,352 of 70,149 numerals agreed); page-wide shifts corrected automatically (322 pages on 2026-09-26, 129 on 2026-09-28); 227 pages reviewed by student assistants (176 corrected).</change><change from="2026-09-30" to="2026-10-02" who="#NI">Text collated with First1KGreek where a First1KGreek file could be aligned by page and line, and re-read (Gemini Batch API): 156,504 lines of the corpus by gemini-3.8-flash, 21,570 lines by gemini-3.1-pro-preview; remaining words put on review sheets.</change><change from="2026-09-30" to="2026-10-12" who="#NI">Review sheets of the re-read words answered by student assistants; the remaining words decided on the page images.</change><change from="2026-10-01" to="2026-10-08" who="#TN">All uncertain structural boundaries reviewed; conventions of the pilot works applied (lectures, book titles, topic headings).</change><change when="2026-10-02" who="#NI">Evident misprints given as choice/sic/corr; headings inside divs as ab[@type='head'].</change><change when="2026-10-13" who="#NI">Margin references to older editions and manuscripts encoded as milestone[@type='alt-edition'][@ed], the editions identified from the prefaces; irregular sequences checked on the page images.</change><change from="2026-10-13" to="2026-10-14" who="#NI">Body text lost to the footnote and figure areas found by collation from the First1KGreek side and restored (about 2,300 lines in the corpus); passages missed by the OCR read again and inserted; restored and inserted lines checked again against the images.</change><change when="2026-10-14" who="#NI">Text of diagrams encoded as figure, and lemma Bekker references whose numbers the OCR had lost read from the images (where the work has them).</change><change when="2026-10-16" who="#NI">Line numbers of the 875 pages left by the verification checked on the images (248 of them also answered by student assistants), followed by a continuity check of every page; margin references to older editions checked on 2,237 page images (944 corrections).</change><change when="2026-10-17" who="#NI">Pages whose line numbering still had gaps or repeats checked on the images (355 pages); signs (〈 〉 [ ] † * — ( )) compared with First1KGreek and 445 pages checked on the images (313 corrections in the text, 523 in the apparatus); words hyphenated across lines joined; punctuation normalised.</change><change when="2026-10-20" who="#NI">Header revised (title, source description, editorial declaration, revision description); misprinted old-edition line numbers given with the corrected value where the sequence determines them; breathings and accents written as separate signs before capitals composed with the letter; missing elision marks after ἀλλ, κατ, καθ, ἐπ, δι etc. supplied in the text; numbers left at line starts removed or encoded as old-edition milestones (image checked); working row identifiers left in 37 lines removed (one line restored from the page image); words divided at a line end that had been joined to a word two lines down corrected; every body line without a line number checked on the page images (margin labels and folio marks read as lines dropped, duplicated rows removed, numbers given to lines the edition counts); numeral signs unified as ʹ (U+0374, stored in its NFC form U+02B9); line-number jumps, old-edition milestones without an edition name and notes suspected to hold body text checked on the page images; citation by printed page and line declared (refsDecl); line coordinates of the working files realigned on the marginal numerals; printers' signatures at the foot of the page removed from the apparatus; apparatus entries for two lines joined by et kept as one note pointing at both lines; page images linked from pb/@facs.</change><change when="2026-10-21" who="#NI">Old-edition line numbers checked on the page images where the sequence skipped a number (2,100 places in the corpus) and, page by page, where it was irregular (542 pages): numbers missed by the OCR added (549), milestones not printed on the page dropped (190; mostly the CAG's own left-margin numbers or line references of the apparatus taken for old-edition numbers), misplaced ones moved (69), misread values corrected (31), page numbers taken for line numbers made page milestones (8); the edition's own skips and out-of-order numbers left as printed, the line count printed beside the repeated page or folio at the head of a page not encoded (like the repetition).</change><change when="2026-10-23" who="#NI">Quotation marks made uniform: opening single and double quotation marks, printed in the edition in the reversed (high-reversed-9) form, are encoded as ‘ and “, closing ones as ’ and ”, single and double kept as printed; opening marks read by the OCR as straight quotes, low quotes or spacing breathings, and spacing breathings or quotation marks doubled before a capital that already bears its breathing, corrected.</change><change when="2026-11-05" who="#NI">Apparatus entries printed out of numerical order (e.g. 33 … 32) separated from the preceding entry; words hyphenated across lines joined in Latin text as in Greek; words mixing Greek and Latin letters (OCR errors, about 130, including manuscript sigla) corrected on the page images; marginal folio marks left in the text removed; validated against TEI P5 version 4.12.0 (recorded in TEI/@version).</change><change when="2026-11-05" who="#NI">Extent of the lemma quotations (quote[@type='lemma']) corrected: the automatic division had closed every lemma after its first printed line, leaving the remaining lines of lemmata printed over two or more lines at the head of the following paragraph. Candidates were found from the letter-spacing of the lines on the page images (lemmata are printed spaced) and from the line geometry (centred last line, indented paragraph start), and every candidate was decided on the page image (Claude work teams; about 7,700 places in the corpus); the lines so decided are now inside the quotation, with pb inside the quotation where a lemma runs on to the next page. Where the lemma runs on in the same line as the commentary (Stephanus in De interpretatione), the quotation ends after the last spaced word and the paragraph continues in the same line without a new lb; where no lemma is printed and the paraphrase follows the Bekker reference directly (Michael in De partibus animalium from p. 37), the quotation is dropped and the division kept; centred last lines the edition does not count are inside the quotation as unnumbered lines.</change></revisionDesc>
   </teiHeader>
   <text>
     <body>
@@ -1413,9 +1413,9 @@
             <milestone unit="bekker" n="1a6"/>
             <quote type="lemma">
               <lb n="3" xml:id="p144-2"/>Συνώνυμα λέγεται ὧν τὸ ὄνομα κοινὸν καὶ ὁ λόγος τῆς<note type="apparatus" n="3" target="#p144-2">συν. δὲ Arist. τό τε Arist. ὁ κατὰ τοὔνομα λόγος Arist.</note>
+              <lb n="4" xml:id="p144-3"/>οὐσίας ὁ αὐτός, οἷον ζῷον ὅ τε ἄνθρωπος καὶ ὁ βοῦς.<note type="apparatus" n="4" target="#p144-3">tert. ὁ om. P</note>
             </quote>
             <p>
-              <lb n="4" xml:id="p144-3"/>οὐσίας ὁ αὐτός, οἷον ζῷον ὅ τε ἄνθρωπος καὶ ὁ βοῦς.<note type="apparatus" n="4" target="#p144-3">tert. ὁ om. P</note>
               <lb n="5" xml:id="p144-4"/>Τῷ αὐτῷ κέχρηται παραδείγματι ᾧ καὶ ἐπὶ ὁμωνύμων· κἀκεῖ γὰρ
               <lb n="6" xml:id="p144-5"/>ἔλεγεν οἷον ζῷον ὅ τε ἄνθρωπος καὶ ὁ γεγραμμένος, ἐνταῦθα δὲ οἷον<note type="apparatus" n="6" target="#p144-5">τὸ γεγραμμένον Arist.</note>
               <lb n="7" xml:id="p144-6"/>ὅ τε ἄνθρωπος καὶ ὁ βοῦς. τοῦτο δὲ πεποίηκεν, ἵνα δείξῃ ὅτι ἐνδέχεται<note type="apparatus" n="7" target="#p144-6">ὅ τε et ὁ om. KP δείξει H¹</note>
@@ -1435,9 +1435,9 @@
             <milestone unit="bekker" n="1a10"/>
             <quote type="lemma">
               <lb n="18" xml:id="p144-17"/>‘ἐὰν γὰρ ἀποδιδῷ τις τὸν ἑκάστου λόγον * * ζῴῳ ἐπὶ<note type="apparatus" n="18" target="#p144-17">ἑκάστου] ἑκατέρου Arist. ante ζῴω ἐπὶ ἑκατ. lac. signavi: τί ἐστιν αὐτῶν ἑκατέρῳ τὸ ζῴῳ εἶναι Arist.</note>
+              <lb n="19" xml:id="p144-18"/>ἑκατέρου, τὸν αὐτὸν ἀποδώσει λόγον.<note type="apparatus" n="19" target="#p144-18">λόγον ἀποδ. coll. Arist.</note>
             </quote>
             <p>
-              <lb n="19" xml:id="p144-18"/>ἑκατέρου, τὸν αὐτὸν ἀποδώσει λόγον.<note type="apparatus" n="19" target="#p144-18">λόγον ἀποδ. coll. Arist.</note>
               <lb n="20" xml:id="p144-19"/>Ἄλλο ἐστὶν εἰπεῖν <milestone type="alt-edition" unit="folio" ed="cod. Marcianus gr. 599" n="237v"/> ζῴῳ εἶναι καὶ ζῷον εἶναι καὶ ἀνθρώπῳ εἶναι<note type="apparatus" n="20" target="#p144-19">καὶ ἀνθρώπῳ εἶναι om. P</note>
               <lb n="21" xml:id="p144-20"/>καὶ ἄνθρωπον εἶναι· ἐπὶ μὲν γὰρ τῶν ἁπλῶν ταὐτόν ἐστιν, οἷον θεῷ εἶναι<note type="apparatus" n="21" target="#p144-20">οἷον scripsi: ἐν HKP</note>
               <lb n="22" xml:id="p144-21"/>καὶ θεὸν εἶναι. ἐπὶ δὲ τῶν συνθέτων οὐ ταὐτόν· ἐὰν γὰρ εἴπω ‘ἄνθρωπον’,
@@ -1453,9 +1453,9 @@
             <milestone unit="bekker" n="1a16"/>
             <quote type="lemma">
               <lb n="29" xml:id="p144-28"/>Τῶν λεγομένων τὰ μὲν κατὰ συμπλοκὴν λέγεται, τὰ δὲ
+              <lb n="30" xml:id="p144-29"/>ἄνευ συμπλοκῆς.
             </quote>
             <p>
-              <lb n="30" xml:id="p144-29"/>ἄνευ συμπλοκῆς.
               <lb n="31" xml:id="p144-30"/>Μετὰ τὰ ὁμώνυμα καὶ συνώνυμα καὶ παρώνυμα, ὧν ἕκαστον ἐδήλου
             </p>
             <pb n="145" facs="https://archive.org/download/commentariaina18pt13akaduoft/page/n184.jpg"/>
@@ -1550,9 +1550,9 @@
             <milestone unit="bekker" n="1a20"/>
             <quote type="lemma">
               <lb n="5" xml:id="p147-4"/>Τῶν ὄντων τὰ μὲν καθ’ ὑποκειμένου τινὸς λέγεται, ἐν
+              <lb n="6" xml:id="p147-5"/>ὑποκειμένῳ δὲ οὐδενί ἐστιν.<note type="apparatus" n="6" target="#p147-5">οὐδέν H</note>
             </quote>
             <p>
-              <lb n="6" xml:id="p147-5"/>ὑποκειμένῳ δὲ οὐδενί ἐστιν.<note type="apparatus" n="6" target="#p147-5">οὐδέν H</note>
               <lb n="7" xml:id="p147-6"/>Μετὰ τὴν διαίρεσιν τῶν λεγομένων ἔρχεται καὶ ἐπὶ τὴν διαίρεσιν τῶν
               <lb n="8" xml:id="p147-7"/>ὄντων. καὶ δύο λαμβάνει ἀντιθέσεις, μίαν ἐκ τῶν λεγομένων καὶ μίαν ἐκ
               <lb n="9" xml:id="p147-8"/>τῶν ὄντων, ἐκ μὲν τῶν λεγομένων καθόλου καὶ μερικόν, ἐκ δὲ τῶν
@@ -1616,9 +1616,9 @@
             <milestone unit="bekker" n="1a24"/>
             <quote type="lemma">
               <lb n="27" xml:id="p148-26"/>Ἐν ὑποκειμένῳ δὲ λέγω ὃ ἔν τινι μὴ ὡς μέρος ὑπάρχον<note type="apparatus" n="27" target="#p148-26">ὑπάρχων P1</note>
+              <lb n="28" xml:id="p148-27"/>ἀδύνατον χωρὶς εἶναι τοῦ ἐν ᾧ ἐστι.
             </quote>
             <p>
-              <lb n="28" xml:id="p148-27"/>ἀδύνατον χωρὶς εἶναι τοῦ ἐν ᾧ ἐστι.
               <lb n="29" xml:id="p148-28"/>Τεσσάρων φωνῶν γνωστῶν ἡμῖν οὐσῶν, 〈τοῦ〉 ἐν ὑποκειμένῳ, οὐκ ἐν<note type="apparatus" n="29" target="#p148-28">τοῦ inserui</note>
               <lb n="30" xml:id="p148-29"/>ὑποκειμένῳ, τοῦ καθ’ ὑποκειμένου, οὐ καθ’ ὑποκειμένου, δύο μόνας ἐκ
               <lb n="31" xml:id="p148-30"/>τούτων ὑπογράφει ὁ φιλόσοφος καὶ ταύτας τὰς χείρονας, τὸ ἐν ὑποκειμένῳ
@@ -1806,10 +1806,10 @@
             <milestone unit="bekker" n="1b10"/>
             <quote type="lemma">
               <lb n="3" xml:id="p153-2"/>Ὅταν ἕτερον καθ’ ἑτέρου κατηγορῆται ὡς καθ’ ὑποκειμένου,
-            </quote>
-            <p>
               <lb n="4" xml:id="p153-3"/>ὅσα κατὰ τοῦ κατηγορουμένου λέγεται, τοσαῦτα καὶ<note type="apparatus" n="4" target="#p153-3">τοσαῦτα] πάντα Arist.</note>
               <lb n="5" xml:id="p153-4"/>κατὰ τοῦ ὑποκειμένου λεχθήσεται.<note type="apparatus" n="5" target="#p153-4">ῥηθήσεται Arist.</note>
+            </quote>
+            <p>
               <lb n="6" xml:id="p153-5"/>Ἐπειδὴ αἱ κατηγορίαι καὶ βάθος ἔχουσι καὶ πλάτος (βάθος μὲν τὴν<note type="apparatus" n="6" target="#p153-5">τὴν superscr. K: om. P</note>
               <lb n="7" xml:id="p153-6"/>εἰς τὰ μερικώτερα αὐτῶν πρόοδον, πλάτος δὲ τὴν εἰς τὰ πλάγια μετάστασιν,<note type="apparatus" n="7" target="#p153-6">εἰς τὰ πλάγια] οὐσίαν καὶ τὸ σῶμα K</note>
               <lb n="8" xml:id="p153-7"/>οἷον ἵνα βάθος μὲν λάβῃς οὕτως, τὴν οὐσίαν καὶ τὸ σῶμα καὶ τὸ ἔμψυχον<note type="apparatus" n="8" target="#p153-7">οἷον in ras. K λαμβάνουσιν P τὸ (ante ἔμψ.) om. P</note>
@@ -1898,9 +1898,9 @@
             <milestone unit="bekker" n="1b16"/>
             <quote type="lemma">
               <lb n="9" xml:id="p155-8"/>Τῶν ἑτερογενῶν καὶ μὴ ὑπ’ ἄλληλα τεταγμένων ἕτεραι
+              <lb n="10" xml:id="p155-9"/>τῷ εἴδει καὶ αἱ διαφοραί, οἷον ζῴου καὶ ἐπιστήμης.
             </quote>
             <p>
-              <lb n="10" xml:id="p155-9"/>τῷ εἴδει καὶ αἱ διαφοραί, οἷον ζῴου καὶ ἐπιστήμης.
               <lb n="11" xml:id="p155-10"/>Μετὰ τὸν κανόνα τοῦ βάθους ἔρχεται καὶ ἐπὶ τὸν κανόνα τοῦ πλάτους.
               <lb n="12" xml:id="p155-11"/>καὶ ἐπειδὴ τὸ πλάτος αἱ διαφοραὶ ποιοῦσι, διτταὶ 〈δὲ〉 αἱ διαφοραί (ἢ γὰρ<note type="apparatus" n="12" target="#p155-11">τὸ] τοῦ P δὲ Laur. 72,5: om. HKP</note>
               <lb n="13" xml:id="p155-12"/>συστατικαὶ ἢ διαιρετικαί), καὶ τὰ γένη δὲ διττά, τὰ μὲν ὑπ’ ἄλληλα τὰ δὲ<note type="apparatus" n="13" target="#p155-12">ἢ καὶ (sic) διαιρετικαί in mrg. suppl. P γένει H δὲ om. K</note>
@@ -2219,9 +2219,9 @@
             <milestone unit="bekker" n="2a11"/>
             <quote type="lemma">
               <lb n="4" xml:id="p163-3"/>Οὐσία δέ ἐστιν ἡ κυριώτατα καὶ πρώτως καὶ μάλιστα
+              <lb n="5" xml:id="p163-4"/>λεγομένη.
             </quote>
             <p>
-              <lb n="5" xml:id="p163-4"/>λεγομένη.
               <lb n="6" xml:id="p163-5"/>Τρίτον ἦν κεφάλαιον τῶν προτεθέντων ζητῆσαι διὰ τί φιλοκαθόλου<note type="apparatus" n="6" target="#p163-5">ἦν om. K</note>
               <lb n="7" xml:id="p163-6"/>ὢν ὁ Ἀριστοτέλης καὶ ἀεὶ προτάττων τὰ καθόλου τῶν μερικῶν νῦν τὴν
               <lb n="8" xml:id="p163-7"/>μερικὴν καὶ ἄτομον οὐσίαν <milestone type="alt-edition" unit="folio" ed="cod. Marcianus gr. 599" n="246v"/> προτάσσει τῆς καθόλου. καὶ λύομεν τοῦτο
@@ -2279,9 +2279,9 @@
             <milestone unit="bekker" n="2a11"/>
             <quote type="lemma">
               <lb n="18" xml:id="p164-17"/>Οὐσία ἐστὶν ἡ κυριώτατα καὶ πρώτως καὶ μάλιστα λε<note type="apparatus" n="18" target="#p164-17">οὐσία δέ Arist. (cf. p. 161,17; 163,4)</note>
+              <lb n="19" xml:id="p164-18"/>γομένη.
             </quote>
             <p>
-              <lb n="19" xml:id="p164-18"/>γομένη.
               <lb n="20" xml:id="p164-19"/>Ἕκτον ἦν κεφάλαιον τῶν προτεθέντων ζητῆσαι εἰ ὑγιῶς ἔχει ὁ ἀποδεδομένος<note type="apparatus" n="20" target="#p164-19">εἰ om. P</note>
               <lb n="21" xml:id="p164-20"/>ὁρισμὸς τῆς ἀτόμου οὐσίας· δόξει γὰρ μὴ ὑγιῶς ἔχειν, ἐπειδὴ<note type="apparatus" n="21" target="#p164-20">ὅρος Κ</note>
               <lb n="22" xml:id="p164-21"/>ἁρμόζει καὶ τῷ μηδαμῇ μηδαμῶς ὄντι (λέγει γὰρ τί οὐκ ἔστιν ἡ οὐσία,
@@ -2308,9 +2308,9 @@
             <milestone unit="bekker" n="2a11"/>
             <quote type="lemma">
               <lb n="1" xml:id="p165-0"/>Οὐσία δέ ἐστιν ἡ κυριώτατα καὶ πρώτως καὶ μάλιστα
+              <lb n="2" xml:id="p165-1"/>λεγομένη.
             </quote>
             <p>
-              <lb n="2" xml:id="p165-1"/>λεγομένη.
               <lb n="3" xml:id="p165-2"/>Πανταχόθεν ἀνυμνεῖ τὴν ἄτομον οὐσίαν ὁ Ἀριστοτέλης, ἀπὸ τῶν<note type="apparatus" n="3" target="#p165-2">ὁ om. H</note>
               <lb n="4" xml:id="p165-3"/>φωνῶν διὰ τοῦ κυριώτατα (ἔπαινος γὰρ τῆς φωνῆς ἡ κυριολεξία, ὥσπερ
               <lb n="5" xml:id="p165-4"/>ψόγος ἡ μεταφορὰ καὶ ἡ κατάχρησις· διὸ οἱ γραμματικοὶ τὰ κύρια τῶν
@@ -2340,9 +2340,9 @@
             <milestone unit="bekker" n="2a12"/>
             <quote type="lemma">
               <lb n="19" xml:id="p165-18"/>Ἥτις οὐδὲ καθ’ ὑποκειμένου λέγεται οὐδὲ ἐν ὑποκειμένῳ<note type="apparatus" n="19" target="#p165-18">ἥτις] ἢ Arist. οὐδὲ . . οὐδὲ] μήτε . . μήτε Arist. καθ’ ὑποκ. τινὸς Arist. (cf. v. 25)</note>
+              <lb n="20" xml:id="p165-19"/>τινί ἐστιν.
             </quote>
             <p>
-              <lb n="20" xml:id="p165-19"/>τινί ἐστιν.
               <lb n="21" xml:id="p165-20"/>Ὅταν ὁ Ἀριστοτέλης τὰ ἄλλοις δοκοῦντα λέγῃ, προστίθησι τὸ λεγομένη<note type="apparatus" n="21" target="#p165-20">λέγει H</note>
               <lb n="22" xml:id="p165-21"/>ἢ τὸ λέγεται, ὡς ἐπὶ τοῦ κυριώτατα καὶ πρώτως καὶ μάλιστα
               <lb n="23" xml:id="p165-22"/>προσέθηκε τὸ λεγομένη, ὡς ἂν ὑπ’ ἄλλων αὐτῆς οὕτω λεγομένης καὶ οὐχ<note type="apparatus" n="23" target="#p165-22">αὐτῆς . . λεγομένης scripsi: αὐτὴν . . λεγομένην HKP</note>
@@ -2356,9 +2356,9 @@
             <milestone unit="bekker" n="2a14"/>
             <quote type="lemma">
               <lb n="28" xml:id="p165-27"/>Δεύτεραι δὲ οὐσίαι λέγονται τὰ εἴδη, ἐν οἷς εἴδεσιν αἱ<note type="apparatus" n="28" target="#p165-27">τὰ εἴδη om. Arist.</note>
+              <lb n="29" xml:id="p165-28"/>πρῶται λεγόμεναι οὐσίαι ὑπάρχουσιν.<note type="apparatus" n="29" target="#p165-28">οὐσ. λεγ. coll. Arist.</note>
             </quote>
             <p>
-              <lb n="29" xml:id="p165-28"/>πρῶται λεγόμεναι οὐσίαι ὑπάρχουσιν.<note type="apparatus" n="29" target="#p165-28">οὐσ. λεγ. coll. Arist.</note>
               <lb n="30" xml:id="p165-29"/>Ἀποροῦσι δέ τινες διὰ τί μὴ εἶπεν ὅτι δεύτεραι οὐσίαι εἰσὶ τὰ γένη
               <lb n="31" xml:id="p165-30"/>καὶ τὰ εἴδη. καὶ λέγομεν ὅτι καὶ συμβεβηκότα περιελάμβανεν, εἰ τοῦτο
             </p>
@@ -2442,9 +2442,9 @@
             <milestone unit="bekker" n="2a27"/>
             <quote type="lemma">
               <lb n="26" xml:id="p167-25"/>Τῶν δὲ ἐν ὑποκειμένῳ ὄντων ἐπὶ τῶν πλείστων οὔτε<note type="apparatus" n="26" target="#p167-25">ἐπὶ μὲν Arist.</note>
+              <lb n="27" xml:id="p167-26"/>τοὔνομα οὔτε ὁ λόγος κατηγορεῖται τοῦ ὑποκειμένου.
             </quote>
             <p>
-              <lb n="27" xml:id="p167-26"/>τοὔνομα οὔτε ὁ λόγος κατηγορεῖται τοῦ ὑποκειμένου.
               <lb n="28" xml:id="p167-27"/>Δεῖ δὲ εἰδέναι ὅτι ἐπί τινων συμβεβηκότων τινὰ ὁμωνύμως κατηγορεῖται
               <lb n="29" xml:id="p167-28"/>τῆς οὐσίας, συνωνύμως δὲ οὐδέποτε· οἷον τὸ λευκὸν κατηγορεῖται
               <lb n="30" xml:id="p167-29"/>τοῦ σώματος ὁμωνύμως, οὐ συνωνύμως· οὐδὲ γὰρ τὸν ὁρισμὸν τοῦ λευκοῦ
@@ -2462,9 +2462,9 @@
             <milestone unit="bekker" n="2b7"/>
             <quote type="lemma">
               <lb n="3" xml:id="p168-2"/>Τῶν δὲ δευτέρων οὐσιῶν μᾶλλον οὐσία τὸ εἶδος τοῦ
+              <lb n="4" xml:id="p168-3"/>γένους· ἔγγιον γὰρ τῇ πρώτῃ οὐσίᾳ ἐστίν.<note type="apparatus" n="4" target="#p168-3">τῆς πρώτης οὐσίας Arist.</note>
             </quote>
             <p>
-              <lb n="4" xml:id="p168-3"/>γένους· ἔγγιον γὰρ τῇ πρώτῃ οὐσίᾳ ἐστίν.<note type="apparatus" n="4" target="#p168-3">τῆς πρώτης οὐσίας Arist.</note>
               <lb n="5" xml:id="p168-4"/>Ἔτι διὰ τούτων προτίθησι τὴν ἄτομον οὐσίαν ὁ Ἀριστοτέλης· ἐν γὰρ
               <lb n="6" xml:id="p168-5"/>ταῖς δευτέραις οὐσίαις μᾶλλον οὐσία ἡ εἰδικὴ ἐστι τῆς γενικῆς ὡς μᾶλλον
               <lb n="7" xml:id="p168-6"/>πλησιάζουσα τῇ ἀτόμῳ οὐσίᾳ τῇ μάλιστα οὐσίᾳ δειχθείσῃ· ὡς γὰρ οἱ
@@ -2506,9 +2506,9 @@
             <milestone unit="bekker" n="2b9"/>
             <quote type="lemma">
               <lb n="3" xml:id="p169-2"/>Γνωριμώτερον καὶ οἰκειότερον ἀποδώσει τὸ εἶδος ἀποδιδούς<note type="apparatus" n="3" target="#p169-2">οἰκειώτερον H</note>
+              <lb n="4" xml:id="p169-3"/>ἢ τὸ γένος.<note type="apparatus" n="4" target="#p169-3">ἤπερ Arist.</note>
             </quote>
             <p>
-              <lb n="4" xml:id="p169-3"/>ἢ τὸ γένος.<note type="apparatus" n="4" target="#p169-3">ἤπερ Arist.</note>
               <lb n="5" xml:id="p169-4"/>Διὰ τί εἰπὼν γνωριμώτερον προσέθηκε τὸ οἰκειότερον; καὶ λέγομεν<note type="apparatus" n="5" target="#p169-4">καὶ om. HP</note>
               <lb n="6" xml:id="p169-5"/>ὅτι τὸ γνωριμώτερον οὐ ποιεῖ μᾶλλον οὐσίαν τὴν ἄτομον, ἐπειδὴ καὶ τὰ συμβεβηκότα<note type="apparatus" n="6" target="#p169-5">τὸ γνωριμώτερον eras. K οὐ ποιεῖ — ἄτομον, post ἄτομον addito ἀλλά, ante προσέθηκε (5) coll. HKP; correxi ex Urb. 35</note>
               <lb n="7" xml:id="p169-6"/>πολλάκις καὶ αὐτῆς τῆς ἀτόμου οὐσίας εἰσὶ γνωριμώτερα· οἷον ἀντὶ
@@ -2544,9 +2544,9 @@
             <milestone unit="bekker" n="2b22"/>
             <quote type="lemma">
               <lb n="27" xml:id="p169-26"/>Αὐτῶν δὲ τῶν εἰδῶν ὅσα μή ἐστι γένη οὐδὲν μᾶλλον
+              <lb n="28" xml:id="p169-27"/>ἕτερον ἑτέρου οὐσία ἐστίν.
             </quote>
             <p>
-              <lb n="28" xml:id="p169-27"/>ἕτερον ἑτέρου οὐσία ἐστίν.
               <lb n="29" xml:id="p169-28"/>Συγκρίνας ὁ Ἀριστοτέλης τὰς οὐσίας κατὰ βάθος, ὅτε τὴν ἄτομον<note type="apparatus" n="29" target="#p169-28">post συγκρ. additum ὅτι del. H</note>
               <lb n="30" xml:id="p169-29"/>πρὸς τὴν καθόλου παρέβαλε, δεικνὺς ὅτι μᾶλλον οὐσία, καὶ ὅτε τὴν καθόλου<note type="apparatus" n="30" target="#p169-29">παρέβαλλε H²P</note>
             </p>
@@ -2678,9 +2678,9 @@
             <milestone unit="bekker" n="3a21"/>
             <quote type="lemma">
               <lb n="29" xml:id="p172-28"/>Οὐκ ἴδιον δὲ τοῦτο οὐσίας· ὑπάρχει γὰρ καὶ ταῖς διαφοραῖς.<note type="apparatus" n="29" target="#p172-28">τῆς οὐσίας, ἀλλὰ καὶ ἡ διαφορὰ τῶν μὴ ἐν ὑποκειμένῳ ἐστίν Arist.</note>
+              <lb n="30" xml:id="p172-29"/>
             </quote>
             <p>
-              <lb n="30" xml:id="p172-29"/>
               <lb n="31" xml:id="p172-30"/>Δείξας ὁ Ἀριστοτέλης ὅτι πάσῃ τῇ οὐσίᾳ ὑπάρχει τὸ μὴ ἐν ὑποκειμένῳ
               <lb n="32" xml:id="p172-31"/>εἶναι, νῦν δεικνύει ὅτι οὐ τῇ οὐσίᾳ μόνον ὑπάρχει, ἀλλὰ καὶ ταῖς<note type="apparatus" n="32" target="#p172-31">καὶ om. P</note>
               <lb n="33" xml:id="p172-32"/>διαφοραῖς. καὶ ὀφείλων ἐπιχειρῆσαι ἀπὸ τῆς ὕλης καὶ τοῦ θείου (δοκοῦσι
@@ -2764,9 +2764,9 @@
             <milestone unit="bekker" n="3a33"/>
             <quote type="lemma">
               <lb n="27" xml:id="p174-26"/>Ὑπάρχει δὲ ταῖς οὐσίαις καὶ ταῖς διαφοραῖς τὸ πάντα
+              <lb n="28" xml:id="p174-27"/>συνωνύμως ἀπ’ αὐτῶν λέγεσθαι.
             </quote>
             <p>
-              <lb n="28" xml:id="p174-27"/>συνωνύμως ἀπ’ αὐτῶν λέγεσθαι.
               <lb n="29" xml:id="p174-28"/>Δεύτερον ἴδιον τῆς οὐσίας τὸ συνωνύμως κατηγορεῖσθαι. ἀλλὰ τοῦτο
               <lb n="30" xml:id="p174-29"/>ὑπάρχει καὶ τοῖς συμβεβηκόσι· τὸ γὰρ χρῶμα τοῦ λευκοῦ τούτου συνωνύμως
               <lb n="31" xml:id="p174-30"/>κατηγορεῖται. ἀλλ’ εἶπεν οὕτως· ὅτι δεύτερον ἴδιον τῆς οὐσίας τὸ συνωνύμως<note type="apparatus" n="31" target="#p174-30">τὸ] τῶ HP</note>
@@ -2915,9 +2915,9 @@
             <milestone unit="bekker" n="3b24"/>
             <quote type="lemma">
               <lb n="13" xml:id="p178-12"/>Ὑπάρχει δὲ ταῖς οὐσίαις καὶ τὸ μηδὲν ἐναντίον αὐταῖς<note type="apparatus" n="13" target="#p178-12">αὐτ. ἐν. coll. Arist.</note>
+              <lb n="14" xml:id="p178-13"/>εἶναι.
             </quote>
             <p>
-              <lb n="14" xml:id="p178-13"/>εἶναι.
               <lb n="15" xml:id="p178-14"/>Ἐπειδὴ τὸ τρίτον ἴδιον τῆς οὐσίας, τὸ τόδε τι σημαίνειν, καὶ μόνῃ<note type="apparatus" n="15" target="#p178-14">alt. τὸ om. K</note>
               <lb n="16" xml:id="p178-15"/>τῇ οὐσίᾳ ὑπάρχειν καὶ διὰ τοῦτο μᾶλλον ἴδιον αὐτῆς δοκοῦν εἶναι, δοκεῖ
               <lb n="17" xml:id="p178-16"/>οὐχ ὡς πράγματι αὐτῇ ὑπάρχειν ἀλλ’ ὡς φωνῇ σημαντικῇ (τὸ γὰρ σημαίνειν<note type="apparatus" n="17" target="#p178-16">αὐτῆς KP</note>
@@ -3017,9 +3017,9 @@
             <milestone unit="bekker" n="3b33"/>
             <quote type="lemma">
               <lb n="32" xml:id="p180-31"/>Δοκεῖ δὲ ἡ οὐσία οὐκ ἐπιδέχεσθαι τὸ μᾶλλον καὶ τὸ<note type="apparatus" n="32" target="#p180-31">οὐκ] μὴ Arist.</note>
+              <lb n="33" xml:id="p180-32"/>ἧττον.
             </quote>
             <p>
-              <lb n="33" xml:id="p180-32"/>ἧττον.
               <lb n="34" xml:id="p180-33"/>Τὸ τέταρτον ἴδιον τῆς οὐσίας, τὸ μηδὲν ἔχειν ἐναντίον, ἀποκύει καὶ
               <lb n="35" xml:id="p180-34"/>ἄλλο ἴδιον, τὸ μὴ ἐπιδέχεσθαι τὸ μᾶλλον καὶ τὸ ἧττον· τὰ γὰρ ἐναντία<note type="apparatus" n="35" target="#p180-34">τὸ (ante ἧττον) om. H</note>
             </p>
@@ -3090,9 +3090,9 @@
             <milestone unit="bekker" n="4a10"/>
             <quote type="lemma">
               <lb n="24" xml:id="p182-22"/>Μάλιστα δὲ ἴδιον τῆς οὐσίας δοκεῖ εἶναι τὸ ταὐτὸν καὶ
+              <lb n="25" xml:id="p182-23"/>ἓν ἀριθμῷ ὂν τῶν ἐναντίων εἶναι δεκτικόν.
             </quote>
             <p>
-              <lb n="25" xml:id="p182-23"/>ἓν ἀριθμῷ ὂν τῶν ἐναντίων εἶναι δεκτικόν.
               <lb n="26" xml:id="p182-24"/>Ἕκτον ἴδιον τῆς οὐσίας τὸ μίαν καὶ τὴν αὐτὴν οὖσαν τῷ ἀριθμῷ<note type="apparatus" n="26" target="#p182-24">οὖσαν iter. P</note>
               <lb n="27" xml:id="p182-25"/>δεκτικὴν εἶναι τῶν ἐναντίων παρὰ μέρος. καὶ καλῶς πρόσκειται τὸ παρὰ<note type="apparatus" n="27" target="#p182-25">δεκτικὸν P καὶ om. K</note>
               <lb n="28" xml:id="p182-26"/>μέρος, ἐπειδὴ οὐχ ἅμα λευκαίνεται καὶ μελαίνεται ὁ Σωκράτης, οὐδὲ ἅμα
@@ -3497,9 +3497,9 @@
             <milestone unit="bekker" n="4b26"/>
             <quote type="lemma">
               <lb n="7" xml:id="p192-6"/>Οἷον ὁ πέντε εἰ ἔστι τῶν δέκα μόριον, πρὸς οὐδένα<note type="apparatus" n="7-9" target="#p192-6 #p192-7 #p192-8">ὁ] τὰ Arist.</note>
+              <lb n="8" xml:id="p192-7"/>κοινὸν ἔχει ὅρον.<note type="apparatus" n="8" target="#p192-7">κοινὸν ὅρον συνάπτει Arist.</note>
             </quote>
             <p>
-              <lb n="8" xml:id="p192-7"/>κοινὸν ἔχει ὅρον.<note type="apparatus" n="8" target="#p192-7">κοινὸν ὅρον συνάπτει Arist.</note>
               <lb n="9" xml:id="p192-8"/>Εὐλόγως ὑποθετικῶς τὸν λόγον προήγαγεν ὁ πέντε εἰ ἔστι τῶν
               <lb n="10" xml:id="p192-9"/>δέκα μόριον, διότι ὁ πέντε οὐ μόνον τοῦ δέκα δύναται μέρος εἶναι, ἀλλὰ<note type="apparatus" n="10" target="#p192-9">διότι] διὰ τοῦτο HP μόνος HP τοῦ] τῶν K</note>
               <lb n="11" xml:id="p192-10"/>καὶ τοῦ δεκαπέντε καὶ τοῦ εἴκοσι καὶ ἄλλων πολλῶν, καὶ ὅτι οὐκ ἔστιν<note type="apparatus" n="11" target="#p192-10">ὅτι superscr. K</note>
@@ -3511,9 +3511,9 @@
             <milestone unit="bekker" n="5a3"/>
             <quote type="lemma">
               <lb n="14" xml:id="p192-13"/>Τὰ γὰρ τοῦ ἐπιπέδου μόρια πρός τινα κοινὸν ὅρον
+              <lb n="15" xml:id="p192-14"/>συνάπτει, τὴν γραμμήν.<note type="apparatus" n="15" target="#p192-14">συνάπτουσι K τὴν γραμμήν om. Arist.</note>
             </quote>
             <p>
-              <lb n="15" xml:id="p192-14"/>συνάπτει, τὴν γραμμήν.<note type="apparatus" n="15" target="#p192-14">συνάπτουσι K τὴν γραμμήν om. Arist.</note>
               <lb n="16" xml:id="p192-15"/>Παρὰ μὲν τοῖς παλαιοῖς ταὐτὸν εἶναι δοκεῖ ἐπιφάνεια καὶ ἐπίπεδον·
               <lb n="17" xml:id="p192-16"/>ἐπὶ τοῦ αὐτοῦ γὰρ καὶ τὸ τῆς ἐπιφανείας καὶ τὸ τοῦ ἐπιπέδου λαμβάνουσιν<note type="apparatus" n="17" target="#p192-16">alt. τοῦ om. H</note>
               <lb n="18" xml:id="p192-17"/>ὄνομα. <milestone type="alt-edition" unit="folio" ed="cod. Marcianus gr. 599" n="260r"/> παρὰ δὲ τοῖς νεωτέροις διακέκριται ἐπιφάνεια ἐπιπέδου· τὸ μὲν
@@ -3529,10 +3529,10 @@
             <milestone unit="bekker" n="5a4"/>
             <quote type="lemma">
               <lb n="25" xml:id="p192-24"/>Ὡσαύτως δὲ καὶ ἐπὶ τοῦ σώματος ἔχοις ἄν λαβεῖν
-            </quote>
-            <p>
               <lb n="26" xml:id="p192-25"/>κοινὸν ὅρον, γραμμὴν 〈ἢ〉 ἐπιφάνειαν, πρὸς ὃν τὰ τοῦ σώματος<note type="apparatus" n="26" target="#p192-25">ἢ Arist.: om. HKP ὃν] ἃ Arist.</note>
               <lb n="27" xml:id="p192-26"/>μόρια συνάπτει.
+            </quote>
+            <p>
               <lb n="28" xml:id="p192-27"/>Τὰ δὲ μέρη τοῦ σώματος συνάπτει πρὸς κοινὸν ὅρον, τὴν ἐπιφάνειαν,<note type="apparatus" n="28" target="#p192-27">δὲ] an γὰρ ?</note>
             </p>
             <pb n="193" facs="https://archive.org/download/commentariaina18pt13akaduoft/page/n232.jpg"/>
@@ -3569,11 +3569,11 @@
             <milestone unit="bekker" n="5a9"/>
             <quote type="lemma">
               <lb n="20" xml:id="p193-19"/>Τόπον γάρ τινα τὰ τοῦ σώματος μόρια κατέχει, ἃ πρός<note type="apparatus" n="20" target="#p193-19">τόπον ex Arist. correxi: τόπος ὢν HKP τὰ] τῶν K</note>
-            </quote>
-            <p>
               <lb n="21" xml:id="p193-20"/>τινα κοινὸν ὅρον συνάπτει· οὐκοῦν καὶ τὰ τοῦ τόπου μόρια,
               <lb n="22" xml:id="p193-21"/>〈ἃ〉 κατέχει ἕκαστον τῶν τοῦ σώματος μορίων, καὶ πρὸς τὸν<note type="apparatus" n="22" target="#p193-21">ἃ om. HKP καὶ om. Arist.</note>
               <lb n="23" xml:id="p193-22"/>αὐτὸν ὅρον συνάπτει, πρὸς ὃν καὶ τὰ τοῦ σώματος μόρια.<note type="apparatus" n="23" target="#p193-22">καὶ om. P</note>
+            </quote>
+            <p>
               <lb n="24" xml:id="p193-23"/>Κατασκευάζει ὅτι καὶ τὰ τοῦ τόπου μόρια ὡς συνεχοῦς ὄντος πρός
               <lb n="25" xml:id="p193-24"/>τινα κοινὸν ὅρον συνάπτει ἀπὸ τῶν ἐν τόπῳ. τοῦ δὲ ἐν τόπῳ τὰ μέρη<note type="apparatus" n="25" target="#p193-24">ἐπισυνάπτει H δὲ] an γὰρ?</note>
               <lb n="26" xml:id="p193-25"/>εἰ πρός τινα κοινὸν ὅρον συνάπτει, ἀνάγκη καὶ τὸν τόπον ἔχειν τὰ μόρια<note type="apparatus" n="26" target="#p193-25">εἰ om HP συνάπτει — ὅρον (27) om. P</note>
@@ -3595,9 +3595,9 @@
             <milestone unit="bekker" n="5a15"/>
             <quote type="lemma">
               <lb n="3" xml:id="p194-2"/>Ἔτι δὲ τὰ μὲν ἐκ θέσιν ἐχόντων πρὸς ἄλληλα τῶν ἐν<note type="apparatus" n="3" target="#p194-2">ἔτι δὲ τὰ] ὅτι τὸ HKP</note>
+              <lb n="4" xml:id="p194-3"/>αὐτοῖς μορίων συνέστηκε.
             </quote>
             <p>
-              <lb n="4" xml:id="p194-3"/>αὐτοῖς μορίων συνέστηκε.
               <lb n="5" xml:id="p194-4"/>Πρώην διελὼν ὁ Ἀριστοτέλης τὸ ποσὸν εἰς συνεχὲς καὶ διωρισμένον
               <lb n="6" xml:id="p194-5"/>καὶ τὸ συνεχὲς εἰς πέντε, εἰς γραμμήν, ἐπιφάνειαν, σῶμα, τόπον καὶ χρόνον,
               <lb n="7" xml:id="p194-6"/>καὶ τὸ διωρισμένον εἰς δύο, εἰς ἀριθμὸν καὶ λόγον, νῦν ἐπιδιαιρεῖ τὸ ποσὸν
@@ -3732,9 +3732,9 @@
             <milestone unit="bekker" n="6a12"/>
             <quote type="lemma">
               <lb n="6" xml:id="p197-5"/>Μάλιστα δὲ ἡ ἐναντιότης τοῦ ποσοῦ δοκεῖ περὶ τὸν<note type="apparatus" n="6-7" target="#p197-5 #p197-6">π. τ. τόπον δοκ. coll. Arist.</note>
+              <lb n="7" xml:id="p197-6"/>τόπον ὑπάρχειν.
             </quote>
             <p>
-              <lb n="7" xml:id="p197-6"/>τόπον ὑπάρχειν.
               <lb n="8" xml:id="p197-7"/>Ἐλευθερώσας ὁ Ἀριστοτέλης τὸ ποσὸν ἐναντιότητος, τὸ μέγα καὶ
               <lb n="9" xml:id="p197-8"/>μικρὸν καὶ πολὺ καὶ ὀλίγον, καὶ ποσὰ δοκοῦντα εἶναι καὶ ἐναντία, κατὰ<note type="apparatus" n="9" target="#p197-8">καὶ (ante πολὺ) om. P</note>
               <lb n="10" xml:id="p197-9"/>ἀλήθειαν δείξας μηδὲ ποσὰ ὄντα <milestone type="alt-edition" unit="folio" ed="cod. Marcianus gr. 599" n="262r"/> μηδὲ ἐναντία διὰ τῆς ἐνστάσεως καὶ<note type="apparatus" n="10" target="#p197-9">ἀλήθειαν H ὄντα] εἶναι K</note><note type="apparatus" n="10-11" target="#p197-9 #p197-10">καὶ ἀντιπαραστάσεως in mrg. suppl. P²</note>
@@ -3799,9 +3799,9 @@
             <milestone unit="bekker" n="6a12"/>
             <quote type="lemma">
               <lb n="28" xml:id="p198-27"/>Μάλιστα δὲ τῷ ποσῷ ἡ ἐναντιότης δοκεῖ περὶ τὸν τόπον<note type="apparatus" n="28" target="#p198-27">ἡ ἐν. τοῦ ποσοῦ π. τ. τόπον δοκ. Arist. (cf. v. 23)</note>
+              <lb n="29" xml:id="p198-28"/>ὑπάρχειν.
             </quote>
             <p>
-              <lb n="29" xml:id="p198-28"/>ὑπάρχειν.
               <lb n="30" xml:id="p198-29"/>Ἐλέγξας ὁ Ἀριστοτέλης τοὺς λέγοντας ὅτι ἐναντίος ὁ ἄνω τόπος τῷ
               <lb n="31" xml:id="p198-30"/>κάτω, καὶ κατὰ ἔνστασιν καὶ ἀντιπαράστασιν ἀνελὼν τὸ ἐπιχείρημα τὸ
               <lb n="32" xml:id="p198-31"/>λέγον ‘τὰ πέρατα τῶν ἐναντίων κινήσεων ἐναντία εἰσί’, νῦν τὸ αὐτὸ καὶ<note type="apparatus" n="32" target="#p198-31">καὶ iter. H</note>
@@ -3887,9 +3887,9 @@
             <milestone unit="bekker" n="6a36"/>
             <quote type="lemma">
               <lb n="31" xml:id="p200-30"/>Πρός τι δὲ τὰ τοιαῦτα λέγεται, ὅσα αὐτὰ ἅπερ ἐστὶν
+              <lb n="32" xml:id="p200-31"/>ἑτέρων εἶναι λέγεται.
             </quote>
             <p>
-              <lb n="32" xml:id="p200-31"/>ἑτέρων εἶναι λέγεται.
               <lb n="33" xml:id="p200-32"/>Ἐπειδὴ τὰ πρός τι καὶ λέγεται καὶ διδάσκεται καὶ ἔστι καὶ γένος
               <lb n="34" xml:id="p200-33"/>ἐστὶ καὶ συναριθμεῖται ταῖς δέκα κατηγορίαις ἰσάριθμα τούτοις κεφάλαια
               <lb n="35" xml:id="p200-34"/>ζητήσωμεν· 〈ἐπειδὴ μὲν λέγεται, ζητήσωμεν〉 περὶ τῆς ἐπιγραφῆς αὐτῶν<note type="apparatus" n="35" target="#p200-34">ἐπειδὴ — ζητήσωμεν inserui αὐτῶν superscr. H</note>
@@ -4166,9 +4166,9 @@
             <milestone unit="bekker" n="6a37"/>
             <quote type="lemma">
               <lb n="21" xml:id="p207-20"/>Οἷον τὸ μεῖζον τοῦτο ὅπερ ἐστὶν ἑτέρου λέγεται·<note type="apparatus" n="21" target="#p207-20">ἐστὶν suppl. P2</note>
+              <lb n="22" xml:id="p207-21"/>τινὸς γάρ.
             </quote>
             <p>
-              <lb n="22" xml:id="p207-21"/>τινὸς γάρ.
               <lb n="23" xml:id="p207-22"/>Ἡ παροῦσα θεωρία δύο ἡμῖν κεφάλαια παραδίδωσιν, ἐν μὲν τῷ<note type="apparatus" n="23" target="#p207-22">παραδίδοσιν H</note>
               <lb n="24" xml:id="p207-23"/>πρώτῳ κεφαλαίῳ τρεῖς χώρους παραδειγμάτων διακεκριμένους ἀλλήλων διὰ<note type="apparatus" n="24" target="#p207-23">τρεῖς suppl. P2 παραδειγμάτων in mrg. suppl. K διακεκριμένους scripsi: διακεκριμένως libri</note>
               <lb n="25" xml:id="p207-24"/>τοῦ ἔστιν, ἐν δὲ τῷ δευτέρῳ δύο ἴδια τῶν πρός τι τὰ πρῶτα καὶ ψευδῆ.<note type="apparatus" n="25" target="#p207-24">ἔστιν] Arist. p. 6 b 2 τὰ πρῶτα — πρός τι (26) suppl. P2 τὰ πρῶτα scripsi: τὰ H: πρῶτα τὰ P: om. K</note>
@@ -4346,9 +4346,9 @@
             <milestone unit="bekker" n="7a22"/>
             <quote type="lemma">
               <lb n="1" xml:id="p212-0"/>Πάντα οὖν τὰ πρός τι, ἐάνπερ οἰκείως ἀποδίδωνται,<note type="apparatus" n="1" target="#p212-0">ἀποδίδονται HP: ἀποδιδῶται Arist.</note>
+              <lb n="2" xml:id="p212-1"/>πρὸς ἀντιστρέφοντα λέγεται.
             </quote>
             <p>
-              <lb n="2" xml:id="p212-1"/>πρὸς ἀντιστρέφοντα λέγεται.
               <lb n="3" xml:id="p212-2"/>Εἰπὼν ὁ Ἀριστοτέλης ὅτι τὰ πρός τι πάντα πρὸς ἀντιστρέφοντα λέγεται<note type="apparatus" n="3" target="#p212-2">ante εἰπὼν additum καὶ ἀπορ— del. P</note>
               <lb n="4" xml:id="p212-3"/>καὶ ἀπορήσας ὡς ἐπὶ τριῶν ὑποθέσεων, ζῴου καὶ κεφαλῆς, πλοίου καὶ
               <lb n="5" xml:id="p212-4"/>πηδαλίου, ὄρνιθος καὶ πτεροῦ, ὡς πρός τι μὲν ὄντων αὐτῶν μὴ ἀντιστρεφόντων<note type="apparatus" n="5" target="#p212-4">μὴ om. K</note>
@@ -4488,10 +4488,10 @@
             <milestone unit="bekker" n="8a13"/>
             <quote type="lemma">
               <lb n="18" xml:id="p215-17"/>Ἔχει δὲ ἀπορίαν τινὰ ὁ λόγος, πότερον οὐδεμία οὐσία<note type="apparatus" n="18" target="#p215-17">τινὰ om. P Arist. ὁ λόγος om. Arist.</note>
-            </quote>
-            <p>
               <lb n="19" xml:id="p215-18"/>τῶν πρός τι 〈λέγεται, καθάπερ δοκεῖ〉, ἢ τοῦτο μὲν ἐνδέχεται<note type="apparatus" n="19" target="#p215-18">λέγεται—δοκεῖ inserui μὲν om. Arist.</note>
               <lb n="20" xml:id="p215-19"/>κατά τινας.
+            </quote>
+            <p>
               <lb n="21" xml:id="p215-20"/>Ἤδη μὲν διέσυρεν ὁ Ἀριστοτέλης τὴν Πλατωνικὴν ὑπογραφὴν τῶν
               <lb n="22" xml:id="p215-21"/>πρός τι, τὴν λέγουσαν ὅτι πρός τί ἐστιν ὅσα αὐτὰ ἅπερ ἐστὶν ἑτέρων εἶναι<note type="apparatus" n="22" target="#p215-21">τὴν om. K</note>
               <lb n="23" xml:id="p215-22"/>λέγεται, διὰ τῶν ἀληθῶν δύο ἰδίων τῶν πρός τι, τοῦ τε πρὸς ἀντιστρέφοντα
@@ -4548,9 +4548,9 @@
             <milestone unit="bekker" n="8a28"/>
             <quote type="lemma">
               <lb n="32" xml:id="p216-31"/>Εἰ μὲν οὖν ἱκανῶς ἔχει ὁ τῶν πρός τι ὁρισμός, ἢ τῶν<note type="apparatus" n="32" target="#p216-31">ἔχει—ὁρ.] ὁ τῶν πρός τι ὁρ. ἀποδέδοται Arist.</note>
+              <lb n="33" xml:id="p216-32"/>χαλεπῶν ἢ τῶν ἀδυνάτων λῦσαι τὴν ἀπορίαν.<note type="apparatus" n="33" target="#p216-32">πάνυ χαλ. Arist. λῦσαι τὴν ἀπ.] ἐστὶ τὸ δεῖξαι ὡς οὐδεμία οὐσία τῶν πρός τι λέγεται Arist.</note>
             </quote>
             <p>
-              <lb n="33" xml:id="p216-32"/>χαλεπῶν ἢ τῶν ἀδυνάτων λῦσαι τὴν ἀπορίαν.<note type="apparatus" n="33" target="#p216-32">πάνυ χαλ. Arist. λῦσαι τὴν ἀπ.] ἐστὶ τὸ δεῖξαι ὡς οὐδεμία οὐσία τῶν πρός τι λέγεται Arist.</note>
               <lb n="34" xml:id="p216-33"/>Καταψηφισάμενος ὁ Ἀριστοτέλης τῆς Πλατωνικῆς ὑπογραφῆς τῶν
             </p>
             <pb n="217" facs="https://archive.org/download/commentariaina18pt13akaduoft/page/n256.jpg"/>
@@ -5010,9 +5010,9 @@
             <milestone unit="bekker" n="9a14"/>
             <quote type="lemma">
               <lb n="32" xml:id="p227-31"/>Ἕτερον δὲ γένος ποιότητος καθ’ ὃ πυκτικοὺς ἢ δρομικούς.
+              <lb n="33" xml:id="p227-32"/>
             </quote>
             <p>
-              <lb n="33" xml:id="p227-32"/>
               <lb n="34" xml:id="p227-33"/>Ἓξ τινα δεῖ προλαβεῖν τοῦ δευτέρου εἴδους τῆς ποιότητος· πρῶτον
               <lb n="35" xml:id="p227-34"/>μὲν τί ἐστι δύναμις καὶ ἀδυναμία αὐτὰ κατὰ τὸ δεύτερον εἶδος, δεύτερον
               <lb n="36" xml:id="p227-35"/>ὅτι εἰ πεφοίτηκε τοῦτο τὸ εἶδος διὰ ψυχῆς, διὰ σώματος, διὰ τοῦ συνἀμφοτέρου,
@@ -5062,9 +5062,9 @@
             <milestone unit="bekker" n="9a14"/>
             <quote type="lemma">
               <lb n="1" xml:id="p229-0"/>Ἕτερον δὲ γένος ποιότητος καθ’ ὃ πυκτικοὺς ἢ δρομικούς.
+              <lb n="2" xml:id="p229-1"/>
             </quote>
             <p>
-              <lb n="2" xml:id="p229-1"/>
               <lb n="3" xml:id="p229-2"/>Ἐπὶ τὰ λοιπὰ τῶν κεφαλαίων ἔλθωμεν. τέταρτον κεφάλαιον τῶν
               <lb n="4" xml:id="p229-3"/>προτεθέντων τὸ ζητῆσαι ποσαχῶς δύναται λέγεσθαι δύναμις καὶ ἀδυναμία,<note type="apparatus" n="4" target="#p229-3">προτιθέντων P</note>
               <lb n="5" xml:id="p229-4"/>καὶ ποσαχῶς λέγεται ὑπὸ Ἀριστοτέλους. ἰστέον ὅτι τετραχῶς δύναται
@@ -5104,9 +5104,9 @@
             <milestone unit="bekker" n="9a28"/>
             <quote type="lemma">
               <lb n="1" xml:id="p230-0"/>Τρίτον δὲ γένος ποιότητος παθητικαὶ ποιότητες καὶ<note type="apparatus" n="1" target="#p230-0">δὲ om. K</note>
+              <lb n="2" xml:id="p230-1"/>πάθη.
             </quote>
             <p>
-              <lb n="2" xml:id="p230-1"/>πάθη.
               <lb n="3" xml:id="p230-2"/>Ἡ παροῦσα θεωρία δύο κεφάλαια ἡμῖν παραδίδωσι, διάκρισιν τῶν<note type="apparatus" n="3" target="#p230-2">τῶν om. K</note>
               <lb n="4" xml:id="p230-3"/>παθητικῶν ποιοτήτων ἀπ’ ἀλλήλων ἐν πρώτῳ κεφαλαίῳ, καὶ διάκρισιν τῶν
               <lb n="5" xml:id="p230-4"/>παθῶν ἀπ’ ἀλλήλων ἐν δευτέρῳ κεφαλαίῳ, οὐ μὴν διάκρισιν τῶν παθῶν<note type="apparatus" n="5" target="#p230-4">μὲν P</note>
@@ -5177,9 +5177,9 @@
             <milestone unit="bekker" n="9b11"/>
             <quote type="lemma">
               <lb n="28" xml:id="p231-27"/>Ὅτι μὲν οὖν γίνονται καὶ ἀπογίνονται διὰ πάθος πολλαὶ<note type="apparatus" n="28" target="#p231-27">καὶ ἀπογίνονται om. Arist.</note>
+              <lb n="29" xml:id="p231-28"/>μεταβολαὶ χρωμάτων.
             </quote>
             <p>
-              <lb n="29" xml:id="p231-28"/>μεταβολαὶ χρωμάτων.
               <lb n="30" xml:id="p231-29"/>Εἰπὼν τὰ χρώματα παθητικὰς ποιότητας εἶναι, τὸ ἀπὸ πάθους γενέσθαι
               <lb n="31" xml:id="p231-30"/>αὐτὰ κατασκευάζει καὶ δείκνυσιν οὕτως ἔχοντα.<note type="apparatus" n="31" target="#p231-30">δεικνὺς P</note>
             </p>
@@ -5213,9 +5213,9 @@
             <milestone unit="bekker" n="9b33"/>
             <quote type="lemma">
               <lb n="6" xml:id="p232-5"/>Ὁμοίως δὲ τούτοις καὶ κατὰ τὴν ψυχὴν παθητικαὶ
+              <lb n="7" xml:id="p232-6"/>ποιότητες καὶ πάθη λέγονται.<note type="apparatus" n="7" target="#p232-6">λέγεται Arist.</note>
             </quote>
             <p>
-              <lb n="7" xml:id="p232-6"/>ποιότητες καὶ πάθη λέγονται.<note type="apparatus" n="7" target="#p232-6">λέγεται Arist.</note>
               <lb n="8" xml:id="p232-7"/>Οὐ μόνον γὰρ περὶ τὸ σῶμα θεωροῦνται 〈αἱ〉 παθητικαὶ ποιότητες καὶ<note type="apparatus" n="8" target="#p232-7">αἱ inserui</note>
               <lb n="9" xml:id="p232-8"/>τὰ πάθη, ἀλλὰ καὶ περὶ τὴν ψυχήν.
             </p>
@@ -5224,9 +5224,9 @@
             <milestone unit="bekker" n="9b35"/>
             <quote type="lemma">
               <lb n="10" xml:id="p232-9"/>Ὅσα τε γὰρ ἐν τῇ γενέσει εὐθὺς ἀπό τινων παθῶν γεγένηνται,<note type="apparatus" n="10" target="#p232-9">τε om. Arist. post παθῶν add. δυσκινήτων Arist.</note><note type="apparatus" n="10-11" target="#p232-9 #p232-10">γεγένηται Arist.</note>
+              <lb n="11" xml:id="p232-10"/>ποιότητες λέγονται.
             </quote>
             <p>
-              <lb n="11" xml:id="p232-10"/>ποιότητες λέγονται.
               <lb n="12" xml:id="p232-11"/>Ὥσπερ ἡ ἐν τῷ Αἰθίοπι μελανία ἐκ γενετῆς οὖσα παθητικὴ ποιότης
               <lb n="13" xml:id="p232-12"/>λέγεται.
             </p>
@@ -5235,9 +5235,9 @@
             <milestone unit="bekker" n="10a2"/>
             <quote type="lemma">
               <lb n="14" xml:id="p232-13"/>Ὁμοίως δὲ καὶ ἄλλαι ἐκστάσεις μὴ φυσικαί, ἀλλ’ ἀπό<note type="apparatus" n="14" target="#p232-13">ἄλλαι] ὅσαι Arist.</note>
+              <lb n="15" xml:id="p232-14"/>τινων συμπτωμάτων γεγένηνται.<note type="apparatus" n="15" target="#p232-14">post τινων add. ἄλλων Arist.</note>
             </quote>
             <p>
-              <lb n="15" xml:id="p232-14"/>τινων συμπτωμάτων γεγένηνται.<note type="apparatus" n="15" target="#p232-14">post τινων add. ἄλλων Arist.</note>
               <lb n="16" xml:id="p232-15"/>Πάλιν ὡς ἡ ἀπὸ μακρᾶς νόσου γενομένη ἄχροια λέγεται παθητικὴ
               <lb n="17" xml:id="p232-16"/>ποιότης, οὕτω καὶ ἡ ἀπό τινος συμπτώματος ἔκστασις ἢ ἄλλο τι τοιοῦτον
               <lb n="18" xml:id="p232-17"/>παθητικὴ ποιότης λέγεται.
@@ -5247,9 +5247,9 @@
             <milestone unit="bekker" n="10a11"/>
             <quote type="lemma">
               <lb n="19" xml:id="p232-18"/>Τέταρτον δὲ γένος ποιότητος σχῆμά τε καὶ ἡ περὶ ἕκαστον<note type="apparatus" n="19" target="#p232-18">γένος] εἶδος K¹</note>
+              <lb n="20" xml:id="p232-19"/>ἐνυπάρχουσα μορφή.<note type="apparatus" n="20" target="#p232-19">ὑπερέχουσα H: ὑπάρχουσα P Arist. (cf. v. 25)</note>
             </quote>
             <p>
-              <lb n="20" xml:id="p232-19"/>ἐνυπάρχουσα μορφή.<note type="apparatus" n="20" target="#p232-19">ὑπερέχουσα H: ὑπάρχουσα P Arist. (cf. v. 25)</note>
               <lb n="21" xml:id="p232-20"/>Διαιρεῖ τὸ τέταρτον εἶδος τῆς ποιότητος εἰς σχῆμα καὶ μορφήν. διαφέρει
               <lb n="22" xml:id="p232-21"/>δὲ τὸ σχῆμα τῆς μορφῆς, διότι τὸ μὲν σχῆμα ἐπὶ τῶν κατ’ ἐπίνοιαν<note type="apparatus" n="22" target="#p232-21">δὲ] γὰρ H¹ μὲν superscr. H</note>
               <lb n="23" xml:id="p232-22"/>λέγεται, ἡ δὲ μορφὴ ἐπὶ τῶν φυσικῶν. πάλιν τὸ σχῆμα καὶ ἐπὶ ἐμψύχων
@@ -5323,9 +5323,9 @@
             <milestone unit="bekker" n="10a27"/>
             <quote type="lemma">
               <lb n="11" xml:id="p234-10"/>Ποιότητες μὲν αἱ εἰρημέναι, ποιὰ δὲ τὰ ἀπ’ αὐτῶν<note type="apparatus" n="11" target="#p234-10">μὲν οὖν εἰσὶν Arist. ἀπ’ αὐτῶν] κατὰ ταύτας παρωνύμως Arist.</note>
+              <lb n="12" xml:id="p234-11"/>λεγόμενα.
             </quote>
             <p>
-              <lb n="12" xml:id="p234-11"/>λεγόμενα.
               <lb n="13" xml:id="p234-12"/>Μετὰ τὴν ὑπογραφὴν τῆς ποιότητος ὑπογράφει καὶ τὸ ποιόν. καὶ ἐν<note type="apparatus" n="13" target="#p234-12">ἐπιγραφὴν K</note>
               <lb n="14" xml:id="p234-13"/>μὲν τῇ <milestone type="alt-edition" unit="folio" ed="cod. Marcianus gr. 599" n="279v"/> ἐπιγραφῇ προέταξε τὸ ποιόν, ἐν δὲ ταῖς ὑπογραφαῖς τὴν ὑπογραφὴν
               <lb n="15" xml:id="p234-14"/>τῆς ποιότητος προέταξε, καὶ εἶθ’ οὕτως τὴν ὑπογραφὴν τοῦ ποιοῦ,<note type="apparatus" n="15" target="#p234-14">τῆς superscr. H</note>
@@ -5411,9 +5411,9 @@
             <milestone unit="bekker" n="10b17"/>
             <quote type="lemma">
               <lb n="12" xml:id="p236-11"/>Ἔτι ἐὰν τῶν ἐναντίων θάτερον ᾖ ποιόν, καὶ τὸ λοιπὸν<note type="apparatus" n="12" target="#p236-11">ἔτι δὲ Arist. θάτερον] θεάτρων HP ᾖ om. K post λοιπὸν add. ἔσται Arist.</note>
+              <lb n="13" xml:id="p236-12"/>ποιόν.
             </quote>
             <p>
-              <lb n="13" xml:id="p236-12"/>ποιόν.
               <lb n="14" xml:id="p236-13"/>Δεύτερον ἴδιον τῆς ποιότητος τὸ τῷ ποιῷ ἐναντίον ποιὸν εἶναι, καὶ
               <lb n="15" xml:id="p236-14"/>καθόλου ἧς κατηγορίας τὸ ἕτερον, τῆς αὐτῆς εἶναι καὶ τὸ λοιπόν. οὐ λέγει
               <lb n="16" xml:id="p236-15"/>δὲ νῦν τὸ προσεχὲς γένος ὁ Ἀριστοτέλης τοῦ ποιοῦ, ἀλλὰ τὸ πόρρω. καὶ
@@ -5814,9 +5814,9 @@
             <milestone unit="bekker" n="12b16"/>
             <quote type="lemma">
               <lb n="23" xml:id="p245-22"/>Ὅτι δὲ ἡ στέρησις καὶ ἡ ἕξις οὐκ ἀντίκεινται ὡς τὰ<note type="apparatus" n="23" target="#p245-22">ὅτι] ἔτι K: evan. P ἀντίκειται Arist. post ἀντικ. additum ἀλλήλοις del. H</note>
+              <lb n="24" xml:id="p245-23"/>πρός τι.
             </quote>
             <p>
-              <lb n="24" xml:id="p245-23"/>πρός τι.
               <lb n="25" xml:id="p245-24"/>Μετὰ τὸν ὁρισμὸν τῆς στερήσεως ὀφείλων εἰπεῖν τὴν διαίρεσιν τῶν ἐναντίων<note type="apparatus" n="25" target="#p245-24">μετὰ τὸν ὁρισμὸν τῆς στερήσεως — pr. στερήσεως (26) suppl. H² ὄφιλον (sic) H εἶπεν H</note>
               <lb n="26" xml:id="p245-25"/>ἀπὸ ἕξεως καὶ στερήσεως, δι’ ἣν καὶ προελήφθη ὁ ὁρισμὸς τῆς στερήσεως,<note type="apparatus" n="26" target="#p245-25">alt. καὶ om. H</note>
               <lb n="27" xml:id="p245-26"/>οὐ τοῦτο ποιεῖ, ἀλλ’ αὐτὰ τὰ πρός τι διακρίνει, ἐπειδὴ καὶ ἐπὶ τούτων τὴν
@@ -6037,9 +6037,9 @@
             <milestone unit="bekker" n="14a22"/>
             <quote type="lemma">
               <lb n="28" xml:id="p250-27"/>Δικαιοσύνη δὲ καὶ ἀδικία ἐν τοῖς ἐναντίοις γένεσι· τοῦ
+              <lb n="29" xml:id="p250-28"/>μὲν γὰρ ἀρετὴ τοῦ δὲ κακία τὸ γένος.
             </quote>
             <p>
-              <lb n="29" xml:id="p250-28"/>μὲν γὰρ ἀρετὴ τοῦ δὲ κακία τὸ γένος.
               <lb n="30" xml:id="p250-29"/>Ἰστέον ὅτι εἰ καὶ ὑπὸ τὰ ἐναντία τελεῖν γένη ἔφη τὰ ἐναντία, οὐ κατὰ<note type="apparatus" n="30" target="#p250-29">pr. τὰ om. KP</note>
               <lb n="31" xml:id="p250-30"/>τὸ γενικώτατον αὐτῶν γένος εἴρηκεν, ἀλλὰ κατὰ τὸ προσεχὲς καὶ ὑπάλληλον·<note type="apparatus" n="31" target="#p250-30">αὐτὸν HP</note>
               <lb n="32" xml:id="p250-31"/>ἀνάγκη γὰρ πάντα τὰ ἐναντία ὑπὸ τὸ αὐτὸ τελεῖν γένος· εἰ γὰρ καὶ ἡ<note type="apparatus" n="32" target="#p250-31">ἡ om. P</note>
@@ -6127,9 +6127,9 @@
             <milestone unit="bekker" n="14b24"/>
             <quote type="lemma">
               <lb n="25" xml:id="p252-24"/>Ἅμα δὲ κυρίως λέγεται ὧν ἡ γένεσις ἐν τῷ αὐτῷ<note type="apparatus" n="25" target="#p252-24">δὲ λέγ. ἁπλῶς μὲν καὶ κυριώτατα ὧν ἡ γέν. ἐστιν Arist.</note>
+              <lb n="26" xml:id="p252-25"/>χρόνῳ.
             </quote>
             <p>
-              <lb n="26" xml:id="p252-25"/>χρόνῳ.
               <lb n="27" xml:id="p252-26"/>Καὶ περὶ τῶν ἅμα διαλέγεται ὁ Ἀριστοτέλης· ἐδεήθη γὰρ καὶ τούτων
               <lb n="28" xml:id="p252-27"/>εἰς τὰς κατηγορίας, ὅτε ἔλεγε τὰ πρός τι ἅμα τῇ φύσει εἶναι, καὶ ὅτι οὐ<note type="apparatus" n="28" target="#p252-27">ἔλεγε] p. 7 b 15 οὐ] εἰ K</note>
               <lb n="29" xml:id="p252-28"/>μόνον τὰ ἐναντία ἄμεσα ἢ ἔμμεσα, ἀλλὰ καὶ τῶν πρός τι τὰ μὲν ἄμεσα<note type="apparatus" n="29" target="#p252-28">post πρός τι addita δεξιὸν καὶ ἀριστερόν del. P</note>

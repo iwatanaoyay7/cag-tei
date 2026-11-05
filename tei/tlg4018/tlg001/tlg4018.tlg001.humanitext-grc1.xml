@@ -18,7 +18,7 @@
         <p>Text transcribed by OCR (Humanitext OCR v2, Gemini models) from the scans named in the source description. Structure (div, quote, head): assigned automatically from printed cues (Bekker references before lemmata, section numbers, headings, book titles, lecture headings; in the paraphrases, Aristotle's chapters located from the running heads) and reviewed by the editors at every boundary that was not certain. In works divided into lectures (Πρᾶξις, Θεωρία) the lectures are divs; topic headings that run across lectures (e.g. Περὶ οὐσίας) are marked milestone[@unit='topic'] and kept as text. Text: OCR of the page images (gemini-3-flash-preview; gemini-3.7-flash where it failed), collated word by word, page by page and in five-line blocks, with the First1KGreek transcription of the same edition (tlg4018.tlg001.1st1K-grc1). Lines on which the two disagreed, lines without a First1KGreek counterpart and lines containing a word form not attested in a Greek form lexicon (about two fifths of the lines) were read again from images of the single lines by a second model (gemini-3.8-flash); words still undecided were read line by line by a third model (gemini-3.1-pro-preview). A reading was adopted when the re-reading of the image agreed with it; the remaining words were decided on the page image by student assistants or by AI-assisted checking under the editor's supervision. Lines on which the OCR agreed word for word with First1KGreek and whose words are all attested were not re-read. No text was copied from First1KGreek (Open Greek and Latin Project, University of Leipzig; CC BY-SA 4.0): it served only as a collation witness, and every disagreement was decided from the page image of this edition. Spelling, accents and breathings follow the printed page: the models were instructed to transcribe exactly as printed and the checkers chose the printed form, but a normalised accentuation adopted by a model may occasionally remain. Later checks against the page images (line numbers, marginal references, signs and apparatus, omitted lines) are listed in the revision description. Headings inside a div (sub-headings, closing formulas, labels of tables) are ab[@type='head']. The words of diagrams and tables are not body text: each diagram or table is given once as figure after the last body line printed before it (labels, trees and tables transcribed; pure geometry described in figDesc); where the edition counts the rows of a diagram or table as lines, those line numbers are not used by any lb. Evident misprints of the printed edition, identified on the page image, are kept and given with the correct form as choice/sic/corr; mere variants of spelling or accentuation are left as printed. Misprinted numbers in milestones (Bekker references, old-edition page, folio, column and line numbers), which cannot carry choice/sic/corr, are given with the corrected value where the sequence of the numbers determines it. Line breaks: one lb per printed line; @n is the line count of the CAG page (headings included), resynchronised on the printed marginal numbers of the left margin; lines the edition does not count carry lb without @n. Words hyphenated across lines are joined and the lb is placed at the following word boundary. pb/@facs points to the image of the page in the Internet Archive item named in the source description (BookReader page image; for pages supplied from another copy, that copy). Critical-apparatus entries are attached to the line(s) they cite as note[@type='apparatus'] with @target on the lb (line level; the lemma words of an entry are not linked); entries that cannot be resolved remain as note[@type='footnote'] at the page end. References in the margins to older editions or manuscripts are milestone[@type='alt-edition'] with @unit and @ed (the edition identified from the preface of the volume); CAG's repetition of the current old-edition page or folio beside the first line of each page is not encoded. Bekker references printed before lemmata are milestone[@unit='bekker']. Marginal digits fused into the text by OCR have been removed.</p>
       </editorialDecl>
     </encodingDesc>
-    <revisionDesc><change when="2026-09-15" who="#NI">OCR of the page images in text mode (gemini-3-flash-preview; gemini-3.7-flash where it failed); body lines aligned to the physical lines of the page image; physical lines left without an OCR line read again (31 lines recovered in the corpus).</change><change when="2026-09-24" who="#NI">Line numbers anchored on the printed marginal numerals; 75 doubtful pages of the corpus checked by eye.</change><change when="2026-09-25" who="#NI">Automatic division into chapters, sections and lemmata; 459 uncertain boundaries of the corpus reviewed (273 removed, 119 added).</change><change from="2026-09-26" to="2026-09-29" who="#NI">Line numbers verified against the printed marginal numerals of every page (67,352 of 70,149 numerals agreed); page-wide shifts corrected automatically (322 pages on 2026-09-26, 129 on 2026-09-28); 227 pages reviewed by student assistants (176 corrected).</change><change from="2026-09-30" to="2026-10-02" who="#NI">Text collated with First1KGreek where a First1KGreek file could be aligned by page and line, and re-read (Gemini Batch API): 156,504 lines of the corpus by gemini-3.8-flash, 21,570 lines by gemini-3.1-pro-preview; remaining words put on review sheets.</change><change from="2026-09-30" to="2026-10-12" who="#NI">Review sheets of the re-read words answered by student assistants; the remaining words decided on the page images.</change><change from="2026-10-01" to="2026-10-08" who="#TN">All uncertain structural boundaries reviewed; conventions of the pilot works applied (lectures, book titles, topic headings).</change><change when="2026-10-02" who="#NI">Evident misprints given as choice/sic/corr; headings inside divs as ab[@type='head'].</change><change when="2026-10-13" who="#NI">Margin references to older editions and manuscripts encoded as milestone[@type='alt-edition'][@ed], the editions identified from the prefaces; irregular sequences checked on the page images.</change><change from="2026-10-13" to="2026-10-14" who="#NI">Body text lost to the footnote and figure areas found by collation from the First1KGreek side and restored (about 2,300 lines in the corpus); passages missed by the OCR read again and inserted; restored and inserted lines checked again against the images.</change><change when="2026-10-14" who="#NI">Text of diagrams encoded as figure, and lemma Bekker references whose numbers the OCR had lost read from the images (where the work has them).</change><change when="2026-10-16" who="#NI">Line numbers of the 875 pages left by the verification checked on the images (248 of them also answered by student assistants), followed by a continuity check of every page; margin references to older editions checked on 2,237 page images (944 corrections).</change><change when="2026-10-17" who="#NI">Pages whose line numbering still had gaps or repeats checked on the images (355 pages); signs (〈 〉 [ ] † * — ( )) compared with First1KGreek and 445 pages checked on the images (313 corrections in the text, 523 in the apparatus); words hyphenated across lines joined; punctuation normalised.</change><change when="2026-10-20" who="#NI">Header revised (title, source description, editorial declaration, revision description); misprinted old-edition line numbers given with the corrected value where the sequence determines them; breathings and accents written as separate signs before capitals composed with the letter; missing elision marks after ἀλλ, κατ, καθ, ἐπ, δι etc. supplied in the text; numbers left at line starts removed or encoded as old-edition milestones (image checked); working row identifiers left in 37 lines removed (one line restored from the page image); words divided at a line end that had been joined to a word two lines down corrected; every body line without a line number checked on the page images (margin labels and folio marks read as lines dropped, duplicated rows removed, numbers given to lines the edition counts); numeral signs unified as ʹ (U+0374, stored in its NFC form U+02B9); line-number jumps, old-edition milestones without an edition name and notes suspected to hold body text checked on the page images; citation by printed page and line declared (refsDecl); line coordinates of the working files realigned on the marginal numerals; printers' signatures at the foot of the page removed from the apparatus; apparatus entries for two lines joined by et kept as one note pointing at both lines; page images linked from pb/@facs.</change><change when="2026-10-21" who="#NI">Old-edition line numbers checked on the page images where the sequence skipped a number (2,100 places in the corpus) and, page by page, where it was irregular (542 pages): numbers missed by the OCR added (549), milestones not printed on the page dropped (190; mostly the CAG's own left-margin numbers or line references of the apparatus taken for old-edition numbers), misplaced ones moved (69), misread values corrected (31), page numbers taken for line numbers made page milestones (8); the edition's own skips and out-of-order numbers left as printed, the line count printed beside the repeated page or folio at the head of a page not encoded (like the repetition).</change><change when="2026-10-23" who="#NI">Quotation marks made uniform: opening single and double quotation marks, printed in the edition in the reversed (high-reversed-9) form, are encoded as ‘ and “, closing ones as ’ and ”, single and double kept as printed; opening marks read by the OCR as straight quotes, low quotes or spacing breathings, and spacing breathings or quotation marks doubled before a capital that already bears its breathing, corrected.</change><change when="2026-11-05" who="#NI">Apparatus entries printed out of numerical order (e.g. 33 … 32) separated from the preceding entry; words hyphenated across lines joined in Latin text as in Greek; words mixing Greek and Latin letters (OCR errors, about 130, including manuscript sigla) corrected on the page images; marginal folio marks left in the text removed; validated against TEI P5 version 4.12.0 (recorded in TEI/@version).</change></revisionDesc>
+    <revisionDesc><change when="2026-09-15" who="#NI">OCR of the page images in text mode (gemini-3-flash-preview; gemini-3.7-flash where it failed); body lines aligned to the physical lines of the page image; physical lines left without an OCR line read again (31 lines recovered in the corpus).</change><change when="2026-09-24" who="#NI">Line numbers anchored on the printed marginal numerals; 75 doubtful pages of the corpus checked by eye.</change><change when="2026-09-25" who="#NI">Automatic division into chapters, sections and lemmata; 459 uncertain boundaries of the corpus reviewed (273 removed, 119 added).</change><change from="2026-09-26" to="2026-09-29" who="#NI">Line numbers verified against the printed marginal numerals of every page (67,352 of 70,149 numerals agreed); page-wide shifts corrected automatically (322 pages on 2026-09-26, 129 on 2026-09-28); 227 pages reviewed by student assistants (176 corrected).</change><change from="2026-09-30" to="2026-10-02" who="#NI">Text collated with First1KGreek where a First1KGreek file could be aligned by page and line, and re-read (Gemini Batch API): 156,504 lines of the corpus by gemini-3.8-flash, 21,570 lines by gemini-3.1-pro-preview; remaining words put on review sheets.</change><change from="2026-09-30" to="2026-10-12" who="#NI">Review sheets of the re-read words answered by student assistants; the remaining words decided on the page images.</change><change from="2026-10-01" to="2026-10-08" who="#TN">All uncertain structural boundaries reviewed; conventions of the pilot works applied (lectures, book titles, topic headings).</change><change when="2026-10-02" who="#NI">Evident misprints given as choice/sic/corr; headings inside divs as ab[@type='head'].</change><change when="2026-10-13" who="#NI">Margin references to older editions and manuscripts encoded as milestone[@type='alt-edition'][@ed], the editions identified from the prefaces; irregular sequences checked on the page images.</change><change from="2026-10-13" to="2026-10-14" who="#NI">Body text lost to the footnote and figure areas found by collation from the First1KGreek side and restored (about 2,300 lines in the corpus); passages missed by the OCR read again and inserted; restored and inserted lines checked again against the images.</change><change when="2026-10-14" who="#NI">Text of diagrams encoded as figure, and lemma Bekker references whose numbers the OCR had lost read from the images (where the work has them).</change><change when="2026-10-16" who="#NI">Line numbers of the 875 pages left by the verification checked on the images (248 of them also answered by student assistants), followed by a continuity check of every page; margin references to older editions checked on 2,237 page images (944 corrections).</change><change when="2026-10-17" who="#NI">Pages whose line numbering still had gaps or repeats checked on the images (355 pages); signs (〈 〉 [ ] † * — ( )) compared with First1KGreek and 445 pages checked on the images (313 corrections in the text, 523 in the apparatus); words hyphenated across lines joined; punctuation normalised.</change><change when="2026-10-20" who="#NI">Header revised (title, source description, editorial declaration, revision description); misprinted old-edition line numbers given with the corrected value where the sequence determines them; breathings and accents written as separate signs before capitals composed with the letter; missing elision marks after ἀλλ, κατ, καθ, ἐπ, δι etc. supplied in the text; numbers left at line starts removed or encoded as old-edition milestones (image checked); working row identifiers left in 37 lines removed (one line restored from the page image); words divided at a line end that had been joined to a word two lines down corrected; every body line without a line number checked on the page images (margin labels and folio marks read as lines dropped, duplicated rows removed, numbers given to lines the edition counts); numeral signs unified as ʹ (U+0374, stored in its NFC form U+02B9); line-number jumps, old-edition milestones without an edition name and notes suspected to hold body text checked on the page images; citation by printed page and line declared (refsDecl); line coordinates of the working files realigned on the marginal numerals; printers' signatures at the foot of the page removed from the apparatus; apparatus entries for two lines joined by et kept as one note pointing at both lines; page images linked from pb/@facs.</change><change when="2026-10-21" who="#NI">Old-edition line numbers checked on the page images where the sequence skipped a number (2,100 places in the corpus) and, page by page, where it was irregular (542 pages): numbers missed by the OCR added (549), milestones not printed on the page dropped (190; mostly the CAG's own left-margin numbers or line references of the apparatus taken for old-edition numbers), misplaced ones moved (69), misread values corrected (31), page numbers taken for line numbers made page milestones (8); the edition's own skips and out-of-order numbers left as printed, the line count printed beside the repeated page or folio at the head of a page not encoded (like the repetition).</change><change when="2026-10-23" who="#NI">Quotation marks made uniform: opening single and double quotation marks, printed in the edition in the reversed (high-reversed-9) form, are encoded as ‘ and “, closing ones as ’ and ”, single and double kept as printed; opening marks read by the OCR as straight quotes, low quotes or spacing breathings, and spacing breathings or quotation marks doubled before a capital that already bears its breathing, corrected.</change><change when="2026-11-05" who="#NI">Apparatus entries printed out of numerical order (e.g. 33 … 32) separated from the preceding entry; words hyphenated across lines joined in Latin text as in Greek; words mixing Greek and Latin letters (OCR errors, about 130, including manuscript sigla) corrected on the page images; marginal folio marks left in the text removed; validated against TEI P5 version 4.12.0 (recorded in TEI/@version).</change><change when="2026-11-05" who="#NI">Extent of the lemma quotations (quote[@type='lemma']) corrected: the automatic division had closed every lemma after its first printed line, leaving the remaining lines of lemmata printed over two or more lines at the head of the following paragraph. Candidates were found from the letter-spacing of the lines on the page images (lemmata are printed spaced) and from the line geometry (centred last line, indented paragraph start), and every candidate was decided on the page image (Claude work teams; about 7,700 places in the corpus); the lines so decided are now inside the quotation, with pb inside the quotation where a lemma runs on to the next page. Where the lemma runs on in the same line as the commentary (Stephanus in De interpretatione), the quotation ends after the last spaced word and the paragraph continues in the same line without a new lb; where no lemma is printed and the paraphrase follows the Bekker reference directly (Michael in De partibus animalium from p. 37), the quotation is dropped and the division kept; centred last lines the edition does not count are inside the quotation as unnumbered lines.</change></revisionDesc>
   </teiHeader>
   <text>
     <body>
@@ -32,9 +32,9 @@
             <milestone unit="bekker" n="980a22"/>
             <quote type="lemma">
               <lb n="4" xml:id="p1-3"/>Πάντες ἄνθρωποι τοῦ εἰδέναι ὀρέγονται φύσει. σημεῖον
+              <lb n="5" xml:id="p1-4"/>δὲ ἡ τῶν αἰσθήσεων ἀγάπησις.
             </quote>
             <p>
-              <lb n="5" xml:id="p1-4"/>δὲ ἡ τῶν αἰσθήσεων ἀγάπησις.
               <lb n="6" xml:id="p1-5"/>Δεῖ ἡμᾶς ἀρχομένους τῆς παρούσης πραγματείας εἰπεῖν τὸν σκοπόν,
               <lb n="7" xml:id="p1-6"/>τὴν τάξιν, τὴν αἰτίαν τῆς ἐπιγραφῆς. σκοπὸς μὲν οὖν ἐστι τῆς παρούσης
               <lb n="8" xml:id="p1-7"/>πραγματείας τὸ θεολογῆσαι· θεολογεῖ γὰρ ἐν αὐτῇ Ἀριστοτέλης. ἡ δὲ τάξις,<note type="apparatus" n="8" target="#p1-7">τὸ θεολογεῖσθαι B ὁ Ἀριστ. B</note>
@@ -225,9 +225,9 @@
             <milestone unit="bekker" n="980a22"/>
             <quote type="lemma">
               <lb n="33" xml:id="p5-32"/>Πάντες ἄνθρωποι τοῦ εἰδέναι ὀρέγονται φύσει. σημεῖον
+              <lb n="34" xml:id="p5-33"/>δὲ ἡ τῶν αἰσθήσεων ἀγάπησις.
             </quote>
             <p>
-              <lb n="34" xml:id="p5-33"/>δὲ ἡ τῶν αἰσθήσεων ἀγάπησις.
               <lb n="35" xml:id="p5-34"/>Αὐτοφυῶς ὁρμῶσιν αἱ ψυχαὶ ἐπὶ τὰς γνώσεις καὶ ἐφίενται τοῦ ἀγαθοῦ·
               <lb n="36" xml:id="p5-35"/>ἀγαθὸν δέ ἐστι τῆς ψυχῆς ἡ κυρίως γνῶσις. διότι γινώσκει τὰ
               <lb n="37" xml:id="p5-36"/>θεῖα καὶ ἐνεργεῖ κατὰ τὸν θεωρητικὸν νοῦν· τὸ δὲ τοιοῦτο τελείωσίς ἐστι<note type="apparatus" n="37" target="#p5-36">νοῦν om. DC¹</note>
@@ -286,9 +286,9 @@
             <milestone unit="bekker" n="980a29"/>
             <quote type="lemma">
               <lb n="5" xml:id="p7-4"/>Ἐκ δὲ τῆς αἰσθήσεως τοῖς μὲν αὐτῶν οὐ γίνεται μνήμη,
+              <lb n="6" xml:id="p7-5"/>τοῖς δὲ γίνεται.
             </quote>
             <p>
-              <lb n="6" xml:id="p7-5"/>τοῖς δὲ γίνεται.
               <lb n="7" xml:id="p7-6"/>Οὐκ ἔχουσι μνήμην σκώληκες, ἐμπίδες, τὰ δὲ ἄλλα ἔχουσιν, οἷον<note type="apparatus" n="7" target="#p7-6">ἐμπίδους D</note>
               <lb n="8" xml:id="p7-7"/>κύων, ψιττακός, μύρμηξ, χελιδὼν καὶ ὅσα ἄλλα τοιαῦτα. καὶ διὰ ταύτην
               <lb n="9" xml:id="p7-8"/>τὴν αἰτίαν τὰ μὲν φρόνιμα ὑπάρχουσι τὰ δὲ μαθηματικώτερα τῶν ζῴων
@@ -303,9 +303,9 @@
             <milestone unit="bekker" n="980b25"/>
             <quote type="lemma">
               <lb n="15" xml:id="p7-14"/>Μανθάνει δὲ ὅσα πρὸς τῇ μνήμῃ καὶ ταύτην ἔχει τὴν<note type="apparatus" n="15" target="#p7-14">μανθάνειν B</note>
+              <lb n="16" xml:id="p7-15"/>αἴσθησιν.
             </quote>
             <p>
-              <lb n="16" xml:id="p7-15"/>αἴσθησιν.
               <lb n="17" xml:id="p7-16"/>Οἷον κύων, ψιττακός, ἵππος, ὄνος καὶ ὅσα ἄλλα τοιαῦτα.
             </p>
           </div>
@@ -338,12 +338,12 @@
             <milestone unit="bekker" n="980b28"/>
             <quote type="lemma">
               <lb n="1" xml:id="p8-0"/>Τὸ δὲ τῶν ἀνθρώπων γένος καὶ τέχνῃ καὶ λογισμοῖς.
-            </quote>
-            <p>
               <lb n="2" xml:id="p8-1"/>γίνεται δ’ ἐκ τῆς μνήμης ἐμπειρία τοῖς ἀνθρώποις· αἱ γὰρ
               <lb n="3" xml:id="p8-2"/>πολλαὶ μνῆμαι τοῦ αὐτοῦ πράγματος μιᾶς ἐμπειρίας δύναμιν<milestone type="alt-edition" unit="folio" ed="cod. Monacensis gr. 103" n="5v"/>
               <lb n="4" xml:id="p8-3"/>ἀποτελοῦσιν. καὶ δοκεῖ σχεδὸν ἐπιστήμῃ καὶ τέχνῃ καὶ ἐμπειρία
               <lb n="5" xml:id="p8-4"/>ὅμοιον εἶναι.
+            </quote>
+            <p>
               <lb n="6" xml:id="p8-5"/>Ὥσπερ γὰρ πράττει ὁ ἔμπειρος, οὕτως καὶ ὁ τεχνίτης πράττει· ὁμοίως
               <lb n="7" xml:id="p8-6"/>δὲ καὶ ὁ γεωμέτρης πράττει καταγράφων ἢ ἄλλο τι τοιοῦτο ποιῶν. ἔχει
               <lb n="8" xml:id="p8-7"/>δὲ διαφοράν, καθὸ τὰ μὲν μετὰ λόγου, τὰ δὲ ἄνευ λόγου. αἱ οὖν ἐπιστῆμαι
@@ -357,14 +357,14 @@
             <milestone unit="bekker" n="981a5"/>
             <quote type="lemma">
               <lb n="13" xml:id="p8-12"/>Γίνεται δὲ τέχνη, ἡνίκα ἐκ πολλῶν νοημάτων τῆς ἐμπειρίας
-            </quote>
-            <p>
               <lb n="14" xml:id="p8-13"/>περὶ τῶν ὁμοίων καθόλου μία ὑπόληψις γένηται· τὸ μὲν
               <lb n="15" xml:id="p8-14"/>γὰρ ἔχειν ὑπόληψιν ὅτι Καλλίᾳ νοσοῦντι τήνδε τὴν νόσον τοδὶ<note type="apparatus" n="15" target="#p8-14">τὴν om. D τοδὶ] τὸ B</note>
               <lb n="16" xml:id="p8-15"/>συνήνεγκε καὶ Σωκράτει καὶ ἄλλοις πλείοσιν, ἐμπειρίας ὑπάρχει·
               <lb n="17" xml:id="p8-16"/>τὸ δὲ καθόλου ὅτι τι πᾶσι τοῖς νοσήσασι τὴν τοιανδὶ νόσον<note type="apparatus" n="17" target="#p8-16">τι om. B 20—24 πολλῶν — ἔδειξεν Alexandri sunt</note>
               <lb n="18" xml:id="p8-17"/>συνήνεγκεν, οἷον τοῖς πυρέττουσι καύσῳ ἢ φλεγματώδεσιν ἢ
               <lb n="19" xml:id="p8-18"/>μελαγχολικοῖς, τέχνης.
+            </quote>
+            <p>
               <lb n="20" xml:id="p8-19"/>Καθόλου γάρ ἐστι· πολλῶν γὰρ ἐμπειριῶν συγκεφαλαίωσίς ἐστιν ἡ<note type="apparatus" n="20" target="#p8-19">τῶν πολλῶν Alex.</note>
               <lb n="21" xml:id="p8-20"/>τέχνη. ἐξ ἐμπειρίας μὲν γὰρ τὸ εἰδέναι ὅτι τοῖς τήνδε τὴν νόσον νοσοῦσι
               <lb n="22" xml:id="p8-21"/>τόδε τὸ βοήθημα χρήσιμον· ἐκ τέχνης δὲ τὸ τοῖς τὴν τοιάνδε νόσον νοσοῦσι<note type="apparatus" n="22" target="#p8-21">βοήθημα] φάρμακον Alex. τῆς τέχνης Alex.</note>
@@ -376,9 +376,9 @@
             <milestone unit="bekker" n="981a12"/>
             <quote type="lemma">
               <lb n="25" xml:id="p8-24"/>Πρὸς μὲν οὖν τὸ πράττειν ἐμπειρία τέχνης οὐδὲν
+              <lb n="26" xml:id="p8-25"/>δοκεῖ διαφέρειν.
             </quote>
             <p>
-              <lb n="26" xml:id="p8-25"/>δοκεῖ διαφέρειν.
               <lb n="27" xml:id="p8-26"/>Ὃ λέγει τοιοῦτόν ἐστιν, ὅτι πρὸς τὰς πράξεις οὐδὲν διαφέρουσιν αἱ
               <lb n="28" xml:id="p8-27"/>τέχναι τῶν ἐμπειριῶν, ἀλλὰ καὶ μᾶλλον ἐπιτυγχάνουσιν οἱ ἔμπειροι τῶν<note type="apparatus" n="28" target="#p8-27">καὶ om. B</note>
               <lb n="29" xml:id="p8-28"/>μὴ ἐχόντων πεῖραν ἀλλὰ λόγον. καὶ εἰκότως· αἱ γὰρ πράξεις μερικαὶ ὑπάρχουσιν,<note type="apparatus" n="29" target="#p8-28">ἀλλὰ λόγον] ἀναλόγως B</note>
@@ -407,10 +407,10 @@
             <milestone unit="bekker" n="981a21"/>
             <quote type="lemma">
               <lb n="15" xml:id="p9-14"/>Ἐὰν οὖν ἄνευ τῆς ἐμπειρίας ἔχῃ τις λόγον καὶ τὸ μὲν<note type="apparatus" n="15" target="#p9-14">ἔχῃ om. B καὶ om. B</note>
-            </quote>
-            <p>
               <lb n="16" xml:id="p9-15"/>καθόλου γνωρίζῃ, τὸ δὲ ἐν τούτῳ καθ’ ἕκαστον ἀγνοῇ, πολλάκις<note type="apparatus" n="16" target="#p9-15">ἐν] ἐκ D</note>
               <lb n="17" xml:id="p9-16"/>διαμαρτήσεται τῆς θεραπείας.
+            </quote>
+            <p>
               <lb n="18" xml:id="p9-17"/>Ὡς ἐπὶ τῆς ἡμιόνου εἰρήκαμεν· ἔστι γὰρ ὅτε ἀπατᾶται περὶ τὸ μερικόν·<note type="apparatus" n="18" target="#p9-17">περὶ] ἐπὶ B</note>
               <lb n="19" xml:id="p9-18"/>τὸ γὰρ μερικόν ἐστι τὸ θεραπευόμενον.
             </p>
@@ -419,9 +419,9 @@
             <milestone unit="bekker" n="981a24"/>
             <quote type="lemma">
               <lb n="20" xml:id="p9-19"/>Τὸ δὲ εἰδέναι καὶ ἐπαΐειν τῇ τέχνῃ τῆς ἐμπειρίας
+              <lb n="21" xml:id="p9-20"/>ὑπάρχειν οἰόμεθα μᾶλλον.<note type="apparatus" n="21" target="#p9-20">ὑπάρχειν ex Arist. addidi; cf. l. 23</note>
             </quote>
             <p>
-              <lb n="21" xml:id="p9-20"/>ὑπάρχειν οἰόμεθα μᾶλλον.<note type="apparatus" n="21" target="#p9-20">ὑπάρχειν ex Arist. addidi; cf. l. 23</note>
               <lb n="22" xml:id="p9-21"/>Ἐπειδὴ ἔδοξεν ὥσπερ πλέον ἀποδέχεσθαι τοὺς ἐμπείρους τῶν τεχνιτῶν,<note type="apparatus" n="22" target="#p9-21">ἐπειδὴ δὲ ἔδειξεν B</note>
               <lb n="23" xml:id="p9-22"/>φησὶ τὸ δὲ εἰδέναι καὶ ἡ γνῶσις μᾶλλον ὑπάρχει τοῖς τεχνίταις
               <lb n="24" xml:id="p9-23"/>τοῖς λόγον ἔχουσι τοῦ πράγματος, ἤπερ τοῖς ἐμπειρικοῖς. ἐπιτάττουσι γὰρ
@@ -462,11 +462,11 @@
             <milestone unit="bekker" n="981b10"/>
             <quote type="lemma">
               <lb n="21" xml:id="p10-20"/>Τῶν δὲ αἰσθήσεων οὐδεμίαν ἡγούμεθα εἶναι σοφίαν·
-            </quote>
-            <p>
               <lb n="22" xml:id="p10-21"/>καίτοι τῶν καθ’ ἕκαστα γνώσεων κυριώτεραι αὗται ὑπάρχουσιν·<note type="apparatus" n="22" target="#p10-21">τῶν om. BCD γνώσεως D: γνώσεις corr. C², cf. Metaph. p. 981 b 11</note>
               <lb n="23" xml:id="p10-22"/>ἀλλ’ οὐ λέγουσι τὸ διὰ τί περὶ οὐδενός, οἷον διὰ τί θερμὸν λέγεται
               <lb n="24" xml:id="p10-23"/>τὸ πῦρ, ἀλλ’ ὅτι μόνον θερμόν.
+            </quote>
+            <p>
               <lb n="25" xml:id="p10-24"/>Ἡ δὲ ἐπιστήμη λέγει καὶ τὸ διὰ τί, ἐπειδὴ καὶ καίει καὶ ξηραίνει.<note type="apparatus" n="25" target="#p10-24">καὶ (ante καίει) om. C</note><milestone type="alt-edition" unit="folio" ed="cod. Monacensis gr. 103" n="7r"/>
             </p>
           </div>
@@ -474,9 +474,9 @@
             <milestone unit="bekker" n="981b13"/>
             <quote type="lemma">
               <lb n="26" xml:id="p10-25"/>Τὸ μὲν οὖν πρῶτον εἰκὸς τὸν ὁποιανοῦν εὑρόντα
+              <lb n="27" xml:id="p10-26"/>τέχνην.<note type="apparatus" n="27" target="#p10-26">τέχνην] τύχοι B</note>
             </quote>
             <p>
-              <lb n="27" xml:id="p10-26"/>τέχνην.<note type="apparatus" n="27" target="#p10-26">τέχνην] τύχοι B</note>
               <lb n="28" xml:id="p10-27"/>Πρόκειται αὐτῷ ἐντεῦθεν εἰπεῖν τὸν χρόνον, καθ’ ὃν ἐφοίτησεν εἰς<note type="apparatus" n="28" target="#p10-27">αὐτῶν C¹D ἐνταῦθα post εἰπεῖν positum B</note>
               <lb n="29" xml:id="p10-28"/>ἡμᾶς ἡ σοφία· οὐχ ὅτι φησὶν ἐν χρόνῳ ἐφοίτησεν, ἀλλ’ ὡς πρὸς τὴν<note type="apparatus" n="29" target="#p10-28">ὡς πρὸς] ὥσπερ C¹: corr. ὡς περὶ C²</note>
               <lb n="30" xml:id="p10-29"/>ἡμετέραν περίοδον· ἦν γὰρ καὶ πρώην. γίνονται γὰρ κατακλυσμοὶ καὶ<note type="apparatus" n="30" target="#p10-29">κατακλεισμοί B</note>
@@ -576,9 +576,9 @@
             <milestone unit="bekker" n="981b25"/>
             <quote type="lemma">
               <lb n="1" xml:id="p13-0"/>Εἴρηται μὲν οὖν ἐν τοῖς Ἠθικοῖς, τίς διαφορὰ τέχνης
+              <lb n="2" xml:id="p13-1"/>καὶ ἐπιστήμης.
             </quote>
             <p>
-              <lb n="2" xml:id="p13-1"/>καὶ ἐπιστήμης.
               <lb n="3" xml:id="p13-2"/>Ἐντεῦθεν βούλεται ἡμῖν εἰπεῖν ἐκ τίνων ἡ γνῶσις τῆς ψυχῆς κατορθοῦται<milestone type="alt-edition" unit="folio" ed="cod. Monacensis gr. 103" n="8v"/>
               <lb n="4" xml:id="p13-3"/>καὶ ἀναζωπυρεῖται, καὶ φησὶν ὅτι πέντε ταῦτα τὸν ἀριθμὸν ὑπάρχουσι,<note type="apparatus" n="4" target="#p13-3">ἀναζωπυροῦται libri</note>
               <lb n="5" xml:id="p13-4"/>τέχνη, φρόνησις, ἐπιστήμη, σοφία, νοῦς. τῷ τῆς τέχνης οὖν ὀνόματι<note type="apparatus" n="5" target="#p13-4">τῷ τῆς—ποιητικήν (11) Alexandri sunt</note>
@@ -685,9 +685,9 @@
             <milestone unit="bekker" n="982a4"/>
             <quote type="lemma">
               <lb n="15" xml:id="p15-14"/>Ἐπειδὴ οὖν ταύτην τὴν ἐπιστήμην ζητοῦμεν, δεῖ ἡμᾶς
+              <lb n="16" xml:id="p15-15"/>γνῶναι περὶ ποίας ἀρχὰς καὶ αἰτίας ἐστὶν ἡ σοφία ἐπιστήμη.
             </quote>
             <p>
-              <lb n="16" xml:id="p15-15"/>γνῶναι περὶ ποίας ἀρχὰς καὶ αἰτίας ἐστὶν ἡ σοφία ἐπιστήμη.
               <lb n="17" xml:id="p15-16"/>Ἐν πᾶσιν οὖν ἔθος τῷ Ἀριστοτέλει ταῖς κοιναῖς καὶ φυσικαῖς τῶν<note type="apparatus" n="17" target="#p15-16">ἐν πᾶσιν — τιθῶμεν (27) Alexandri sunt ἐν πᾶσιν ἔθος ἀεὶ Alex.</note>
               <lb n="18" xml:id="p15-17"/>ἀνθρώπων προλήψεσιν ἀρχαῖς εἰς τὰ δεικνύμενα πρὸς αὐτοῦ χρῆσθαι, βεβαιοῦντι
               <lb n="19" xml:id="p15-18"/>καὶ διὰ τούτου τὸ εἶναι τὴν γνῶσιν καὶ τὴν τῆς ἐπιστήμης<note type="apparatus" n="19" target="#p15-18">τὸ om. C τὴν ἐπιστήμην B</note>
@@ -745,9 +745,9 @@
             <milestone unit="bekker" n="982a23"/>
             <quote type="lemma">
               <lb n="26" xml:id="p16-25"/>Σχεδὸν δὲ καὶ χαλεπώτατα ταῦτα γνωρίζειν τοῖς ἀνθρώποις.
+              <lb n="27" xml:id="p16-26"/>
             </quote>
             <p>
-              <lb n="27" xml:id="p16-26"/>
               <lb n="28" xml:id="p16-27"/>Τουτέστι τὰ φανότατα εἴδη, ἅ ἐστι τὰ καθόλου, ἐπειδὴ κατ’ αἴσθησιν
               <lb n="29" xml:id="p16-28"/>ζῶσι, πόρρω δὲ ταῦτα τῶν αἰσθήσεων. τὸ δὲ τοῖς ἀνθρώποις προστέθεικε<note type="apparatus" n="29" target="#p16-28">τὸ δὲ—γνωριμώτερα (31) Alexandri sunt</note><note type="apparatus" n="29-30" target="#p16-28 #p16-29">προσέθηκεν Alex.</note>
               <lb n="30" xml:id="p16-29"/>πρὸς ἀντιδιαστολὴν τῆς φύσεως· τῇ φύσει γὰρ ἐκεῖνα τῶν αἰσθητῶν
@@ -780,10 +780,10 @@
             <milestone unit="bekker" n="982b4"/>
             <quote type="lemma">
               <lb n="19" xml:id="p17-18"/>Ἀρχικωτάτη οὖν τῶν ἐπιστημῶν καὶ μᾶλλον ἀρχικὴ
-            </quote>
-            <p>
               <lb n="20" xml:id="p17-19"/>τῆς ὑπηρετούσης ἡ γνωρίζουσα, τίνος ἕνεκέν ἐστι πρακτέον
               <lb n="21" xml:id="p17-20"/>ἕκαστον· τοῦτο δ’ ἐστὶ τὸ ἀγαθὸν ἑκάστου.
+            </quote>
+            <p>
               <lb n="22" xml:id="p17-21"/>Ἀρχικωτέρα γὰρ ἐν πᾶσιν ἡ γνωρίζουσα, τίνος χάριν ἕκαστον δεῖ<note type="apparatus" n="22" target="#p17-21">ἀρχικωτέρα γὰρ—ἀρχιτεκτονικῆς (24) Alexandri sunt</note><note type="apparatus" n="22" target="#p17-21">ἐν πάσαις B</note>
               <lb n="23" xml:id="p17-22"/>ποιεῖν τῶν γινομένων, τῆς ποιούσης αὐτὰ καὶ ὑπηρετούσης, ὡς δῆλον ἐπὶ
               <lb n="24" xml:id="p17-23"/>τῆς ἀρχιτεκτονικῆς. ὅλως δὲ τὸ ἄριστον ἐν τῇ φύσει πάσῃ αὕτη ἐπισταται
@@ -820,9 +820,9 @@
             <milestone unit="bekker" n="982b11"/>
             <quote type="lemma">
               <lb n="17" xml:id="p18-16"/>Ὅτι δὲ οὐ ποιητική, δῆλον καὶ ἐκ τῶν πρώτων φιλοσοφησάντων.
+              <lb n="18" xml:id="p18-17"/>
             </quote>
             <p>
-              <lb n="18" xml:id="p18-17"/>
               <lb n="19" xml:id="p18-18"/>Ὅτι, φησίν, ἡ σοφία οὐκ ἔστι ποιητικὴ τῶν ὄντων, ἀλλὰ γνωστική, φανερόν<note type="apparatus" n="19" target="#p18-18">φιλοσοφία B</note>
               <lb n="20" xml:id="p18-19"/>ἐστι καὶ ἐκ τῶν πρώτων φιλοσοφησάντων· διὰ γὰρ τὸ θαυμάζειν οἱ ἄνθρωποι
               <lb n="21" xml:id="p18-20"/>καὶ νῦν καὶ τὸ πρῶτον ἤρξαντο φιλοσοφεῖν. ἐξ ἀρχῆς μὲν
@@ -883,9 +883,9 @@
             <milestone unit="bekker" n="982b22"/>
             <quote type="lemma">
               <lb n="1" xml:id="p20-0"/>Μαρτυρεῖ δ’ αὐτὸ τὸ συμβεβηκός· σχεδὸν γὰρ πάντων
+              <lb n="2" xml:id="p20-1"/>ὑπαρχόντων τῶν ἀναγκαίων.
             </quote>
             <p>
-              <lb n="2" xml:id="p20-1"/>ὑπαρχόντων τῶν ἀναγκαίων.
               <lb n="3" xml:id="p20-2"/>Ὅτι ἡ σοφία οὐκ ἔστι πρακτικὴ ἀλλὰ θεωρητική, δῆλον ἐντεῦθεν·
               <lb n="4" xml:id="p20-3"/>μετὰ γὰρ τὸ εὐπορῆσαι τοὺς ἀνθρώπους τῶν ἀναγκαίων καὶ τῶν πρὸς
               <lb n="5" xml:id="p20-4"/>ῥαστώνην, ἤρξαντο τρέπεσθαι ἐπὶ τὴν τῶν ὄντων ζήτησιν, διὰ τί ὁ ἥλιος
@@ -912,9 +912,9 @@
             <milestone unit="bekker" n="982b25"/>
             <quote type="lemma">
               <lb n="23" xml:id="p20-22"/>Ὥσπερ γὰρ ὁ ἐλεύθερος αὑτοῦ ἕνεκά ἐστι καὶ οὐ δι’
+              <lb n="24" xml:id="p20-23"/>ἄλλον.
             </quote>
             <p>
-              <lb n="24" xml:id="p20-23"/>ἄλλον.
               <lb n="25" xml:id="p20-24"/>Τὸ γὰρ ἐλεύθερον ἀδέσποτον καὶ δι’ αὑτό· διό φησι τὸν θεὸν<note type="apparatus" n="25" target="#p20-24">δι’ ἑαυτὸν B post αὐτό add. αἱρετόν ABD</note>
               <lb n="26" xml:id="p20-25"/>μόνον εἶναι ἐλεύθερον, ἐπειδὴ αὐτὸς μὲν οὐδενὸς προσδεῖται, αὐτοῦ δὲ<note type="apparatus" n="26" target="#p20-25">εἶναι μόνον B</note>
               <lb n="27" xml:id="p20-26"/>τὰ ἄλλα προσδέονται. διὸ παγκάλως φησὶν ἐκεῖνος “ἔκ σεο πάντα πέφηνε,<note type="apparatus" n="27" target="#p20-26">ἐκεῖνος] nescio quis Orphicus</note>
@@ -978,9 +978,9 @@
             <milestone unit="bekker" n="983a11"/>
             <quote type="lemma">
               <lb n="1" xml:id="p22-0"/>Δεῖ μέντοι πως καταστῆναι τὴν τάξιν αὐτῆς εἰς τοὐναντίον.
+              <lb n="2" xml:id="p22-1"/>
             </quote>
             <p>
-              <lb n="2" xml:id="p22-1"/>
               <lb n="3" xml:id="p22-2"/>Πάνυ φιλοσόφως· φησὶ γὰρ ὅτι ἀρχόμενοι τῆς τοιαύτης ἐπιστήμης<milestone type="alt-edition" unit="folio" ed="cod. Monacensis gr. 103" n="14r"/>
               <lb n="4" xml:id="p22-3"/>θαυμάζομεν, πῶς ἐκλιμπάνει ὁ ἥλιος, πῶς γίνεται θέρος, πῶς χειμών, πῶς
               <lb n="5" xml:id="p22-4"/>ἡ διάμετρος ἀσύμμετρός ἐστι τῇ πλευρᾷ (πᾶν γὰρ μέγεθος ἔχει λόγον πρὸς
@@ -1164,9 +1164,9 @@
             <milestone unit="bekker" n="984a27"/>
             <quote type="lemma">
               <lb n="14" xml:id="p26-13"/>Οἱ μὲν οὖν πάμπαν ἐξ ἀρχῆς ἁψάμενοι τῆς μεθόδου
+              <lb n="15" xml:id="p26-14"/>ταύτης.
             </quote>
             <p>
-              <lb n="15" xml:id="p26-14"/>ταύτης.
               <lb n="16" xml:id="p26-15"/>Ἐξ ἀρχῆς λέγει πάλιν περὶ τῶν μόνῃ τῇ ὑλικῇ αἰτίᾳ τε καὶ ἀρχῇ<note type="apparatus" n="16" target="#p26-15">λέγει — ἀρχῶν (19) Alexandri sunt</note>
               <lb n="17" xml:id="p26-16"/>χρησαμένων· δόξει δὲ τὸ πάμπαν ἐξ ἀρχῆς προστεθεικέναι ὑπὲρ τοῦ δηλῶσαι<note type="apparatus" n="17" target="#p26-16">τὸ πάμπαν Alex.: τὸ πᾶν libri προστεθεικέναι Alex.: προτεθεικέναι libri</note>
               <lb n="18" xml:id="p26-17"/>τοὺς περὶ Θαλῆν καὶ Ἀναξιμένην, ἐπεὶ οἱ περὶ Ἀναξαγόραν καὶ<note type="apparatus" n="18" target="#p26-17">Alexander habet haec: ἐπεὶ ὧν γε ἐμνημόνευσεν, Ἀναξαγόρας καὶ Ἐμπεδοκλῆς δοκοῦσί τι εἰρηκέναι καὶ περὶ τῆς ποιητικῆς ἀρχῆς, ὡς καὶ αὐτός τε προϊόν μνημονεύσει</note>
@@ -1185,9 +1185,9 @@
             <milestone unit="bekker" n="984a29"/>
             <quote type="lemma">
               <lb n="28" xml:id="p26-27"/>Ἀλλ’ ἔνιοι τῶν ἓν λεγόντων ὥσπερ ἡττηθέντες ὑπ’
+              <lb n="29" xml:id="p26-28"/>αὐτῆς τῆς ζητήσεως, τὸ ἓν ἀκίνητον εἶναί φασιν.
             </quote>
             <p>
-              <lb n="29" xml:id="p26-28"/>αὐτῆς τῆς ζητήσεως, τὸ ἓν ἀκίνητον εἶναί φασιν.
               <lb n="30" xml:id="p26-29"/>Λέγει μὲν περὶ Ξενοφάνους καὶ Μελίσσου καὶ Παρμενίδου· οὗτοι γὰρ<note type="apparatus" n="30" target="#p26-29">λέγει μὲν — πάσας (p. 27,9) Alexandri sunt</note>
               <lb n="31" xml:id="p26-30"/>ἓν τὸ πᾶν ἀπεφήναντο. ἡττηθῆναι δὲ αὐτούς φησιν ὑπὸ ταύτης τῆς ζητήσεως,
               <lb n="32" xml:id="p26-31"/>ὅτι ὑποθέμενοι ἓν τὸ πᾶν εἶναι, ἀκολουθοῦντες τῇ ὑποθέσει καὶ<note type="apparatus" n="32" target="#p26-31">εἶναι, ἀκολουθοῦντες τῇ ὑποθέσει desunt apud Alex.</note>
@@ -1217,9 +1217,9 @@
             <milestone unit="bekker" n="984b1"/>
             <quote type="lemma">
               <lb n="18" xml:id="p27-17"/>Τῶν μὲν οὖν οὕτως φασκόντων ἓν εἶναι τὸ αἴτιον οὐδενὶ
+              <lb n="19" xml:id="p27-18"/>συνέβη συνιδεῖν τὴν τοιαύτην αἰτίαν πλὴν τῷ Παρμενίδῃ.
             </quote>
             <p>
-              <lb n="19" xml:id="p27-18"/>συνέβη συνιδεῖν τὴν τοιαύτην αἰτίαν πλὴν τῷ Παρμενίδῃ.
               <lb n="20" xml:id="p27-19"/>Δύο γὰρ ὑπετίθετο αἴτια πῦρ καὶ γῆν· καὶ διὰ μὲν τοῦ πυρὸς λέγει
               <lb n="21" xml:id="p27-20"/>τὸ ποιητικὸν αἴτιον, διὰ δὲ τῆς γῆς τὸ ὑλικόν. εἰδέναι μέντοι γε χρή,
               <lb n="22" xml:id="p27-21"/>ὅτι διὰ τοῦ ἑνὸς [φησὶν] αἰτίου τὴν τῶν πάντων μίαν ἀρχὴν ἔλεγεν· διὸ<note type="apparatus" n="22" target="#p27-21">φησὶν delevi</note>
@@ -1259,9 +1259,9 @@
             <milestone unit="bekker" n="984b20"/>
             <quote type="lemma">
               <lb n="18" xml:id="p28-17"/>Οἱ μὲν οὖν οὕτως ὑπολαμβάνοντες ἅμα τοῦ καλῶς τὴν
+              <lb n="19" xml:id="p28-18"/>αἰτίαν ἀρχὴν εἶναι τῶν ὄντων ἔθεσαν.
             </quote>
             <p>
-              <lb n="19" xml:id="p28-18"/>αἰτίαν ἀρχὴν εἶναι τῶν ὄντων ἔθεσαν.
               <lb n="20" xml:id="p28-19"/>Φησὶν ὅτι οἱ λέγοντες καὶ καλῶς τετάχθαι τὸ πᾶν καὶ πρόοδον εἶναι
               <lb n="21" xml:id="p28-20"/>ἐν τοῖς οὖσι καὶ τελικόν τι ὑποτίθενται καὶ ποιητικόν, ὥσπερ καὶ Ἀριστοτέλης·
               <lb n="22" xml:id="p28-21"/>καὶ τελικὸν γὰρ αἴτιον ὑποτίθεται εἶναι τὸ αὐτὸ καὶ ποιητικόν, ὡς
@@ -1302,9 +1302,9 @@
             <milestone unit="bekker" n="984b23"/>
             <quote type="lemma">
               <lb n="9" xml:id="p29-8"/>Ὑποπτεύσειε δ’ ἄν τις Ἡσίοδον πρῶτον ζητῆσαι τὸ
+              <lb n="10" xml:id="p29-9"/>τοιοῦτον.
             </quote>
             <p>
-              <lb n="10" xml:id="p29-9"/>τοιοῦτον.
               <lb n="11" xml:id="p29-10"/>Πρῶτος Ἡσίοδος ἐζήτησεν ἢ γοῦν Παρμενίδης τὴν ἀρχὴν τοῦ καλῶς
               <lb n="12" xml:id="p29-11"/>κινηθῆναι, καὶ εἴ τις ὅλως ἔρωτα ἐν ταῖς ἀρχαῖς ὑπέθετο. καὶ ὁ Παρμενίδης
               <lb n="13" xml:id="p29-12"/>γάρ φησι πρῶτον γενέσθαι τὸν ἔρωτα, τὸν θεῖον δηλονότι, καὶ
@@ -1507,9 +1507,9 @@
             <milestone unit="bekker" n="985b23"/>
             <quote type="lemma">
               <lb n="1" xml:id="p34-0"/>Ἐν δὲ τούτοις καὶ πρὸ τούτων οἱ καλούμενοι Πυθαγόρειοι.
+              <lb n="2" xml:id="p34-1"/>
             </quote>
             <p>
-              <lb n="2" xml:id="p34-1"/>
               <lb n="3" xml:id="p34-2"/>Ἐντεῦθεν πάλιν ἐπὶ τοὺς Πυθαγορείους ἔρχεται καί φησιν ὅτι οἱ<note type="apparatus" n="3" target="#p34-2">ἐντεῦθεν—ἀνάγειν (5) Alexandri sunt ex ea recensione, quae traditur codice L</note>
               <lb n="4" xml:id="p34-3"/>Πυθαγόρειοι στοιχεῖα τῶν ὄντων τοὺς ἀριθμοὺς ὑπετίθεντο ἀντὶ πυρὸς καὶ<note type="apparatus" n="4" target="#p34-3">Πυθαγόρειοι τῶν ὄντων ἀρχὰς Alex. L</note>
               <lb n="5" xml:id="p34-4"/>ὕδατος καὶ γῆς καὶ ἀέρος, καὶ ἐσπούδαζον πάντα εἰς ἀριθμοὺς ἀνάγειν.<note type="apparatus" n="5" target="#p34-4">ἀγαγεῖν Alex. L</note>
@@ -1669,9 +1669,9 @@
             <milestone unit="bekker" n="986a15"/>
             <quote type="lemma">
               <lb n="28" xml:id="p37-27"/>Φαίνονται δὲ καὶ οὗτοι τὸν ἀριθμὸν νομίζοντες ἀρχὴν
+              <lb n="29" xml:id="p37-28"/>εἶναι.
             </quote>
             <p>
-              <lb n="29" xml:id="p37-28"/>εἶναι.
               <lb n="30" xml:id="p37-29"/>Ἐντεῦθεν ἐπὶ τοὺς Πυθαγορείους ἔρχεται καί φησιν ὅτι ἐξ ὧν εἰρήκασιν<milestone type="alt-edition" unit="folio" ed="cod. Monacensis gr. 103" n="24v"/>
               <lb n="31" xml:id="p37-30"/>οἱ Πυθαγόρειοι, φαίνονται τοὺς ἀριθμοὺς ἀρχὰς τῶν ὄντων ὑποτιθέμενοι
               <lb n="32" xml:id="p37-31"/>καὶ ὡς ὑλικὸν αἴτιον καὶ ὡς πάθος καὶ ἕξιν. ἔλεγον γὰρ ὅτι στοιχεῖα
@@ -1744,9 +1744,9 @@
             <milestone unit="bekker" n="986a22"/>
             <quote type="lemma">
               <lb n="10" xml:id="p39-9"/>Ἕτεροι δὲ τῶν αὐτῶν τούτων τὰς ἀρχὰς δέκα λέγουσιν
+              <lb n="11" xml:id="p39-10"/>εἶναι.
             </quote>
             <p>
-              <lb n="11" xml:id="p39-10"/>εἶναι.
               <lb n="12" xml:id="p39-11"/>Ἄλλοι τινες Πυθαγόρειοι ὑποτίθενται δέκα ἀρχὰς εἶναι τῶν ἀγαθῶν
               <lb n="13" xml:id="p39-12"/>καὶ δέκα τῶν κακῶν· οὐχ ὅτι τὰ κακὰ ἐν ὑποστάσει εἰσίν, ἀλλὰ τὰ ἥττονα
               <lb n="14" xml:id="p39-13"/>κακὰ λέγει. οἷον πέρας πρὸς τῷ ἀγαθῷ, ἄπειρον πρὸς τῷ ἐναντίῳ, περιττὸν
@@ -1928,9 +1928,9 @@
             <milestone unit="bekker" n="987a13"/>
             <quote type="lemma">
               <lb n="14" xml:id="p43-13"/>Οἱ δὲ Πυθαγόρειοι δύο μὲν τὰς ἀρχὰς κατὰ τὸν αὐτὸν
+              <lb n="15" xml:id="p43-14"/>εἰρήκασι τρόπον.
             </quote>
             <p>
-              <lb n="15" xml:id="p43-14"/>εἰρήκασι τρόπον.
               <lb n="16" xml:id="p43-15"/>Φησὶν ὅτι καὶ οἱ Πυθαγόρειοι δύο ἀρχὰς ὑπετίθεντο, ὁμοίως ὑλικὴν
               <lb n="17" xml:id="p43-16"/>καὶ ποιητικήν, διαφέρουσι δὲ ἐκείνων, ὅτι οἱ μὲν ἓν τῶν στοιχείων εἰρήκασι
               <lb n="18" xml:id="p43-17"/>τὴν ἀρχήν, οἷον πῦρ ἢ ὕδωρ ἤ τι τοιοῦτον λέγοντες τὸ πεπερασμένον
@@ -1967,9 +1967,9 @@
             <milestone unit="bekker" n="987a29"/>
             <quote type="lemma">
               <lb n="6" xml:id="p44-5"/>Μετὰ δὲ τὰς εἰρημένας φιλοσοφίας ἡ Πλάτωνος ἐπεγένετο
+              <lb n="7" xml:id="p44-6"/>πραγματεία.
             </quote>
             <p>
-              <lb n="7" xml:id="p44-6"/>πραγματεία.
               <lb n="8" xml:id="p44-7"/>Ἐκθέμενος τὰς τῶν Πυθαγορείων δόξας καὶ τῶν ἄλλων τῶν φυσικῶν
               <lb n="9" xml:id="p44-8"/>περὶ τοῦ γνῶναι, ποίαις ἀρχαῖς τῶν ὄντων ἐκέχρηντο, ἐντεῦθεν ἐκτίθεται
               <lb n="10" xml:id="p44-9"/>καὶ τὴν Πλάτωνος δόξαν, βουλόμενος δεῖξαι ποίαις ἀρχαῖς τῶν ὄντων καὶ
@@ -2060,9 +2060,9 @@
             <milestone unit="bekker" n="987b9"/>
             <quote type="lemma">
               <lb n="9" xml:id="p46-8"/>Κατὰ μέθεξιν γὰρ εἶναι τὰ πολλὰ τῶν συνωνύμων τοῖς
+              <lb n="10" xml:id="p46-9"/>εἴδεσιν.
             </quote>
             <p>
-              <lb n="10" xml:id="p46-9"/>εἴδεσιν.
               <lb n="11" xml:id="p46-10"/>Πολλὰ οὖν λέγει τὰ αἰσθητά, ὅτι ἐκ τοῦ καθόλου, φησί, κατὰ μέθεξιν
               <lb n="12" xml:id="p46-11"/>ὑπάρχουσι τὰ πολλά· ἐκ γὰρ τοῦ ἁπλῶς καλοῦ καὶ δικαίου καὶ τῶν ἄλλων
               <lb n="13" xml:id="p46-12"/>ἁπάντων τὸ τῇδε καλὸν καὶ τὸ τῇδε δίκαιον. πολλὰ οὖν λέγει τὰ αἰσθητά,
@@ -2161,9 +2161,9 @@
             <milestone unit="bekker" n="987b22"/>
             <quote type="lemma">
               <lb n="19" xml:id="p48-18"/>Τὸ μέντοι γε ἓν οὐσίαν εἶναι καὶ μὴ ἕτερόν τι τὸ ἓν
+              <lb n="20" xml:id="p48-19"/>λέγεσθαι.
             </quote>
             <p>
-              <lb n="20" xml:id="p48-19"/>λέγεσθαι.
               <lb n="21" xml:id="p48-20"/>Τὸ γὰρ ἓν τοῦτο οὐ κατά τινος ἄλλου ὄντος κατηγόρουν, ἀλλ’ οὐσίαν<note type="apparatus" n="21" target="#p48-20">τὸ γὰρ ἓν—τίθεσθαι (26) Alexandri sunt</note>
               <lb n="22" xml:id="p48-21"/>τινὰ τὸ ἓν ὑπετίθεντο εἶναι ἐν τῷ ἓν εἶναι τὸ εἶναι ἔχουσαν. τοῦτο δὲ<note type="apparatus" n="22" target="#p48-21">τοῦτο δὴ Alex.</note>
               <lb n="23" xml:id="p48-22"/>καὶ περὶ Πλάτωνος ἱστορεῖ ὅτι παραπλησίως ἐκείνοις τὸ ἓν οὐσίαν ἔλεγεν
@@ -2220,10 +2220,10 @@
             <milestone unit="bekker" n="987b29"/>
             <quote type="lemma">
               <lb n="22" xml:id="p49-21"/>Τὸ μὲν οὖν τὸ ἓν καὶ τὸν ἀριθμὸν παρὰ τὰ πράγματα
-            </quote>
-            <p>
               <lb n="23" xml:id="p49-22"/>ποιῆσαι καὶ μὴ ὥσπερ οἱ Πυθαγόρειοι, καὶ ἡ τῶν εἰδῶν εἰσαγωγὴ
               <lb n="24" xml:id="p49-23"/>διὰ τὴν ἐν τοῖς λόγοις σκέψιν ἐγένετο.
+            </quote>
+            <p>
               <lb n="25" xml:id="p49-24"/>Εἰπὼν ἐν οἷς διαφωνοῦσι, νῦν λέγει τὴν αἰτίαν δι’ ἣν οὐχ ὁμοίως<note type="apparatus" n="25" target="#p49-24">εἰπὼν—αἰσθητῶν (p. 50,4) Alexandri sunt</note><milestone type="alt-edition" unit="folio" ed="cod. Monacensis gr. 103" n="32v"/>
               <lb n="26" xml:id="p49-25"/>ὁ Πλάτων τοὺς ἀριθμοὺς τῶν ὄντων ἀρχὰς ἔθετο τοῖς Πυθαγορείοις, ἀλλὰ
               <lb n="27" xml:id="p49-26"/>τούτους τε ἐχώρισε τῶν αἰσθητῶν καὶ τὰς ἰδέας ἄλλας τινὰς οὐσίας τε<note type="apparatus" n="27" target="#p49-26">τούτους Alex.: τούτοις libri</note>
@@ -2363,9 +2363,9 @@
             <milestone unit="bekker" n="988a14"/>
             <quote type="lemma">
               <lb n="29" xml:id="p52-28"/>Ἔτι δὲ τὴν τοῦ εὖ καὶ τοῦ κακῶς αἰτίαν τοῖς στοιχείοις
+              <lb n="30" xml:id="p52-29"/>ἀπέδωκε.
             </quote>
             <p>
-              <lb n="30" xml:id="p52-29"/>ἀπέδωκε.
               <lb n="31" xml:id="p52-30"/>Φησὶν ὅτι ἔλεγε Πλάτων τὰ μὲν ἀγαθὰ γίνεσθαι ὑπὸ τοῦ ἀγαθοῦ, τὰ
               <lb n="32" xml:id="p52-31"/>δὲ κακὰ ὑπὸ τοῦ κακοῦ· οὐχ ὅτι ἄκρατον κακὸν ὑπετίθετο, ἀλλὰ τὰ κατὰ<note type="apparatus" n="32" target="#p52-31">ἀπὸ utrobique B</note>
             </p>
@@ -2517,9 +2517,9 @@
             <milestone unit="bekker" n="988b22"/>
             <quote type="lemma">
               <lb n="13" xml:id="p56-12"/>Ὅσοι μὲν οὖν ἕν τι τὸ πᾶν καὶ μίαν τινὰ φύσιν ὡς ὕλην
+              <lb n="14" xml:id="p56-13"/>τιθέασιν.
             </quote>
             <p>
-              <lb n="14" xml:id="p56-13"/>τιθέασιν.
               <lb n="15" xml:id="p56-14"/>Ἐκθέμενος τὰς τῶν παλαιοτέρων δόξας, ἐντεῦθεν πειρᾶται διελέγχειν
               <lb n="16" xml:id="p56-15"/>τὰ μὴ καλῶς ὑπ’ αὐτῶν εἰρημένα. καὶ πρῶτόν γε περὶ τῶν φυσικῶν
               <lb n="17" xml:id="p56-16"/>ποιεῖται τὸν λόγον, καὶ τῶν φυσικῶν τῶν ὑποτιθεμένων ἓν εἶναι τὸ στοιχεῖον.
@@ -2710,9 +2710,9 @@
             <milestone unit="bekker" n="989a25"/>
             <quote type="lemma">
               <lb n="13" xml:id="p60-12"/>Καὶ περὶ τῆς τῶν κινούντων αἰτίας πότερον ἓν ἢ δύο<note type="apparatus" n="13" target="#p60-12">κινούντων] sic etiam Metaph. p. 989 a</note>
+              <lb n="14" xml:id="p60-13"/>θετέον.
             </quote>
             <p>
-              <lb n="14" xml:id="p60-13"/>θετέον.
               <lb n="15" xml:id="p60-14"/>Ἰστέον ὅτι δύο αἴτια ποιητικὰ ὁ Ἐμπεδοκλῆς ὑπετίθετο, νεῖκος καὶ
               <lb n="16" xml:id="p60-15"/>φιλίαν. καὶ κατὰ τοῦτο κατὰ τὶ μὲν αὐτὸν ἀποδέχεται· καθὸ μὲν γὰρ δύο
               <lb n="17" xml:id="p60-16"/>ἀρχὰς ὑπετίθετο, τὴν μὲν μίαν τῆς συγκρίσεως καὶ τῆς εἰδοποιίας καὶ τῆς
@@ -2842,9 +2842,9 @@
             <milestone unit="bekker" n="989b21"/>
             <quote type="lemma">
               <lb n="5" xml:id="p63-4"/>Ἀλλὰ γὰρ οὗτοι μὲν τοῖς περὶ γένεσιν λόγοις καὶ
+              <lb n="6" xml:id="p63-5"/>φθορὰν καὶ κίνησιν.
             </quote>
             <p>
-              <lb n="6" xml:id="p63-5"/>φθορὰν καὶ κίνησιν.
               <lb n="7" xml:id="p63-6"/>Ἱστορήσας τὰς τῶν ἀρχαίων δόξας, ἃς περὶ τῶν ἀρχῶν ἔσχον, χωρίζει<note type="apparatus" n="7" target="#p63-6">ἱστορήσας — ἀσωμάτων (17) Alexandri sunt τὰς περὶ τῶν ἀρχῶν Alex.</note>
               <lb n="8" xml:id="p63-7"/>νῦν τοὺς φυσικοὺς ἀπὸ τῶν καὶ ἀσωμάτους ὑποθεμένων οὐσίας, καὶ<note type="apparatus" n="8" target="#p63-7">καὶ (post τῶν) deest apud Alex.</note>
               <lb n="9" xml:id="p63-8"/>παραιτησάμενος ἐκείνους ὡς οὐ περὶ πάσης τῆς οὐσίας πραγματευσαμένους,
@@ -2869,9 +2869,9 @@
             <milestone unit="bekker" n="989b29"/>
             <quote type="lemma">
               <lb n="25" xml:id="p63-24"/>Οἱ μὲν οὖν καλούμενοι Πυθαγόρειοι ταῖς μὲν ἀρχαῖς
+              <lb n="26" xml:id="p63-25"/>καὶ τοῖς στοιχείοις ἐκτοπωτέρως χρῶνται τῶν φυσιολόγων.
             </quote>
             <p>
-              <lb n="26" xml:id="p63-25"/>καὶ τοῖς στοιχείοις ἐκτοπωτέρως χρῶνται τῶν φυσιολόγων.
               <lb n="27" xml:id="p63-26"/>Ἐλέγξας τοὺς φυσικοὺς περὶ τῶν ἀρχῶν ὡς μὴ ὑποτιθεμένους κοινὰς
               <lb n="28" xml:id="p63-27"/>ἀρχὰς πάντων τῶν ὄντων ἀλλὰ μόνας σωματικὰς ἀρχάς, καὶ καταλιπὼν
               <lb n="29" xml:id="p63-28"/>τούτους ὡς μὴ ὅλως ὑποτιθεμένους ἀρχὰς καθολικὰς πάντων τῶν ὄντων
@@ -2958,9 +2958,9 @@
             <milestone unit="bekker" n="989b29"/>
             <quote type="lemma">
               <lb n="29" xml:id="p65-28"/>Οἱ μὲν οὖν καλούμενοι Πυθαγόρειοι ταῖς μὲν ἀρχαῖς
+              <lb n="30" xml:id="p65-29"/>καὶ τοῖς στοιχείοις ἐκτοπωτέρως χρῶνται, ὡς εἴρηται.
             </quote>
             <p>
-              <lb n="30" xml:id="p65-29"/>καὶ τοῖς στοιχείοις ἐκτοπωτέρως χρῶνται, ὡς εἴρηται.
               <lb n="31" xml:id="p65-30"/>Αἰτιᾶται τοὺς Πυθαγορείους, οἳ δοκοῦσι καὶ αὐτοὶ καὶ τῆς ἀσωμάτου<note type="apparatus" n="31" target="#p65-30">αἰτιᾶται — τοιοῦτοι (35) Alexandri sunt 5</note>
               <lb n="32" xml:id="p65-31"/>φύσεως μνημονεύειν, ὅτι ἀρχὰς ὑπέθεντο ξενικωτέρας καὶ ἀπηρτημένας τῶν
               <lb n="33" xml:id="p65-32"/>φυσικῶν καὶ ἐκτοπωτέρας, τουτέστιν ἐπὶ πλέον ἐκτεταμένας καὶ ἐκβεβηκυίας
@@ -3052,9 +3052,9 @@
             <milestone unit="bekker" n="990a18"/>
             <quote type="lemma">
               <lb n="29" xml:id="p67-28"/>Ἔτι δὲ πῶς δεῖ λαβεῖν αἴτια μὲν εἶναι τὰ τοῦ ἀριθμοῦ
+              <lb n="30" xml:id="p67-29"/>πάθη.
             </quote>
             <p>
-              <lb n="30" xml:id="p67-29"/>πάθη.
               <lb n="31" xml:id="p67-30"/>Καὶ τοῦτο δείκνυσιν ἄτοπον αὐτοῖς ἑπόμενον, ὅτι αἴτια τῶν κατὰ<note type="apparatus" n="31" target="#p67-30">καὶ τοῦτο — αὐτός ἐστιν (p. 68,11) Alexandri sunt 5*</note><milestone type="alt-edition" unit="folio" ed="cod. Monacensis gr. 103" n="44v"/>
             </p>
             <pb n="68" facs="https://archive.org/download/commentariaina06pt12akaduoft/page/n323.jpg"/>
@@ -3076,9 +3076,9 @@
             <milestone unit="bekker" n="990a22"/>
             <quote type="lemma">
               <lb n="12" xml:id="p68-11"/>Ὅταν γὰρ ἐν τῳδὶ μὲν τῷ μέρει δόξα καὶ καιρὸς αὐτοῖς
+              <lb n="13" xml:id="p68-12"/>ᾖ.
             </quote>
             <p>
-              <lb n="13" xml:id="p68-12"/>ᾖ.
               <lb n="14" xml:id="p68-13"/>Διὰ τούτων δείκνυσι πῶς ἐποίουν τὸν κόσμον καὶ τὰ ἐν αὐτῷ ἀριθμοὺς.<note type="apparatus" n="14" target="#p68-13">Διὰ τούτων — συνισταμένων (25) Alexandri sunt</note>
               <lb n="15" xml:id="p68-14"/>ἀεὶ ἀριθμοὺς λέγοντες καὶ αἰτίας αὐτῶν ἀριθμοὺς τιθέμενοι, ἄλλους
               <lb n="16" xml:id="p68-15"/>ἀριθμοὺς παρὰ τούτους οὐκ ἔλεγον· ὥστε αὐτοὺς ἑαυτῶν τοὺς ἀριθμοὺς<note type="apparatus" n="16-17" target="#p68-15 #p68-16">ἔλεγον, αὐτοὺς δὲ αὑτῶν ἔλεγον εἶναι τοὺς ἀριθμοὺς Alex.</note>
@@ -3127,9 +3127,9 @@
             <milestone unit="bekker" n="990a34"/>
             <quote type="lemma">
               <lb n="15" xml:id="p69-14"/>Οἱ δὲ τὰς ἰδέας τιθέμενοι πρῶτον μὲν ζητοῦντες τῶν
+              <lb n="16" xml:id="p69-15"/>ὄντων λαβεῖν τὰς αἰτίας.
             </quote>
             <p>
-              <lb n="16" xml:id="p69-15"/>ὄντων λαβεῖν τὰς αἰτίας.
               <lb n="17" xml:id="p69-16"/>Ἐντεῦθεν δοκεῖ πρὸς τὸν Πλάτωνα ἀποτείνεσθαι περὶ τῶν ἰδεῶν. εἰρήκαμεν
               <lb n="18" xml:id="p69-17"/>δὲ τὸν σκοπὸν τοῦ Ἀριστοτέλους περὶ τούτου. αὐτὸς γάρ ἐστιν ὁ
               <lb n="19" xml:id="p69-18"/>λέγων ἐν τῇ Περὶ ψυχῆς πραγματείᾳ ‘καὶ εὖ γε οἱ τὴν ψυχὴν εἰρηκότες<note type="apparatus" n="19" target="#p69-18">ἐν τῇ Περὶ ψυχῆς πρ.] Γ 4 p. 429 a 27 καὶ εὖ δὴ οἱ λέγοντες τὴν ψυχὴν εἶναι τόπον εἰδῶν</note><milestone type="alt-edition" unit="folio" ed="cod. Monacensis gr. 103" n="45v"/>
@@ -3216,10 +3216,10 @@
             <milestone unit="bekker" n="990b5"/>
             <quote type="lemma">
               <lb n="7" xml:id="p71-6"/>Περὶ ὧν ζητοῦντες τὰς αἰτίας, ζητοῦντες ἀνιχνεῦσαι τὰς
-            </quote>
-            <p>
               <lb n="8" xml:id="p71-7"/>αἰτίας τῶν φυσικῶν πραγμάτων, ἐκ τούτων, τῶν φυσικῶν, ἐπ’ ἐκεῖνα
               <lb n="9" xml:id="p71-8"/>προῆλθον, τὰ εἴδη· καθ’ ἕκαστόν τε γὰρ ὁμώνυμόν τί ἐστι.
+            </quote>
+            <p>
               <lb n="10" xml:id="p71-9"/>Καθ’ ἕκαστον εἶδος, φησίν, ἔστι καὶ ἰδέα ὁμώνυμος ὡς τὰ ἀφ’ ἑνὸς
               <lb n="11" xml:id="p71-10"/>καὶ πρὸς ἕν, ἐπειδὴ πολλῷ κρείττων ἡ ἰδέα τοῦ ἀνθρώπου αὐτοῦ τοῦ ἀνθρωπίνου
               <lb n="12" xml:id="p71-11"/>εἴδους· ὥσπερ καὶ ἐπὶ τοῦ Σωκράτους καὶ τῆς εἰκόνος τοῦ Σωκράτους
@@ -3417,9 +3417,9 @@
             <milestone unit="bekker" n="990b15"/>
             <quote type="lemma">
               <lb n="17" xml:id="p75-16"/>Ἔτι δὲ οἱ ἀκριβέστατοι τῶν λόγων οἱ μὲν τῶν πρός τι
+              <lb n="18" xml:id="p75-17"/>ποιοῦσιν ἰδέας, ὧν οὔ φαμεν εἶναι καθ’ αὑτὸ γένος.
             </quote>
             <p>
-              <lb n="18" xml:id="p75-17"/>ποιοῦσιν ἰδέας, ὧν οὔ φαμεν εἶναι καθ’ αὑτὸ γένος.
               <lb n="19" xml:id="p75-18"/>Ἔτι πρὸς τὰς ἰδέας ἀντιλέγει καί φησιν ὅτι ἐξ ὧν λέγουσιν οἱ ὑποτιθέμενοι
               <lb n="20" xml:id="p75-19"/>εἶναι ἰδέας, τρίτον ἄνθρωπον εἰσφέρουσι καὶ τῶν πρός τι ποιοῦσιν
               <lb n="21" xml:id="p75-20"/>ἰδέας. τρίτον μὲν οὖν ἄνθρωπον εἰσάγουσι τοῦτον τὸν τρόπον. φασὶ γὰρ
@@ -3506,10 +3506,10 @@
             <milestone unit="bekker" n="990b15"/>
             <quote type="lemma">
               <lb n="18" xml:id="p77-17"/>Ἔτι δὲ οἱ ἀκριβέστατοι τῶν λόγων οἱ μὲν τῶν πρός τι
-            </quote>
-            <p>
               <lb n="19" xml:id="p77-18"/>ποιοῦσιν ἰδέας, ὧν οὔ φαμεν εἶναι καθ’ αὑτὸ γένος, οἱ δὲ τρίτον
               <lb n="20" xml:id="p77-19"/>ἄνθρωπον λέγουσι.
+            </quote>
+            <p>
               <lb n="21" xml:id="p77-20"/>Τῶν πρός τι οὐκ ἔλεγον εἶναι ἰδέας διὰ τὸ τὰς μὲν ἰδέας αὐτὰς καθ’<note type="apparatus" n="21" target="#p77-20">τῶν πρός τι -- εἶναι (27) Alexandri sunt αὐτὰς deest Alexandro</note>
               <lb n="22" xml:id="p77-21"/>αὑτὰς ὑφεστάναι οὐσίας τινὰς οὔσας, τὰ δὲ πρός τι ἐν τῇ πρὸς ἄλληλα
               <lb n="23" xml:id="p77-22"/>σχέσει τὸ εἶναι ἔχειν. ἔτι δὲ εἰ τὸ ἴσον ἴσῳ ἴσον, πλείους ἂν εἶεν τοῦ
@@ -3546,9 +3546,9 @@
             <milestone unit="bekker" n="990b17"/>
             <quote type="lemma">
               <lb n="8" xml:id="p78-7"/>Ὅλως τε ἀναιροῦσιν οἱ περὶ τῶν ἰδεῶν λόγοι ἃ μᾶλλον
+              <lb n="9" xml:id="p78-8"/>εἶναι βουλόμεθα.
             </quote>
             <p>
-              <lb n="9" xml:id="p78-8"/>εἶναι βουλόμεθα.
               <lb n="10" xml:id="p78-9"/>Ὡς ἐκ τοῦ αὐτοῦ διδασκαλείου ὑπάρχων ταῦτα λέγει. φησὶ γὰρ ὅτι
               <lb n="11" xml:id="p78-10"/>οἱ περὶ τῶν ἰδεῶν λόγοι ἀναιροῦσι ταῦτα ἃ βουλόμεθα εἶναι. τί
               <lb n="12" xml:id="p78-11"/>δέ ἐστιν ἃ βουλόμεθα εἶναι; τὰς ἀρχὰς τῶν ἰδεῶν. τί δέ ἐστι ταῦτα; ἡ
@@ -3592,9 +3592,9 @@
             <milestone unit="bekker" n="990b17"/>
             <quote type="lemma">
               <lb n="5" xml:id="p79-4"/>Ὥστε ἀναιροῦσιν οἱ περὶ τῶν εἰδῶν λόγοι, ἃ μᾶλλον
+              <lb n="6" xml:id="p79-5"/>εἶναι βούλονται οἱ λέγοντες εἴδη τοῦ τὰς ἰδέας εἶναι.<note type="apparatus" n="6" target="#p79-5">τοῦ τὰς Aristoteles: ταύτας τὰς libri</note>
             </quote>
             <p>
-              <lb n="6" xml:id="p79-5"/>εἶναι βούλονται οἱ λέγοντες εἴδη τοῦ τὰς ἰδέας εἶναι.<note type="apparatus" n="6" target="#p79-5">τοῦ τὰς Aristoteles: ταύτας τὰς libri</note>
               <lb n="7" xml:id="p79-6"/>Μᾶλλον μὲν 〈καὶ〉 μάλιστα βούλονται τὰς ἀρχὰς εἶναι· αἱ γὰρ ἀρχαὶ<note type="apparatus" n="7" target="#p79-6">μᾶλλον μὲν — πρὸς αὐτάς (p. 80,9) Alexandri sunt καὶ Alex.: om. libri</note>
               <lb n="8" xml:id="p79-7"/>αὐτοῖς καὶ αὐτῶν τῶν ἰδεῶν εἰσιν ἀρχαί. αὗται δέ εἰσι τό τε ἓν καὶ ἡ<note type="apparatus" n="8" target="#p79-7">ἀρχαὶ δὲ Alex.</note>
               <lb n="9" xml:id="p79-8"/>ἀόριστος δυάς, ὡς πρὸ ὀλίγου τε εἴρηται, καὶ ἱστόρηκεν αὐτὸς 〈ἐν τοῖς〉<note type="apparatus" n="9" target="#p79-8">εἴρηκε Alex. αὐτὸς Alex.: οὗτος libri ἐν τοῖς Alex.: om. libri</note>
@@ -3635,9 +3635,9 @@
             <milestone unit="bekker" n="990b21"/>
             <quote type="lemma">
               <lb n="10" xml:id="p80-9"/>Καὶ πάντα ὅσα τινὲς ἀκολουθήσαντες ταῖς περὶ τῶν
+              <lb n="11" xml:id="p80-10"/>ἰδεῶν δόξαις ἠναντιώθησαν ταῖς ἀρχαῖς.
             </quote>
             <p>
-              <lb n="11" xml:id="p80-10"/>ἰδεῶν δόξαις ἠναντιώθησαν ταῖς ἀρχαῖς.
               <lb n="12" xml:id="p80-11"/>Τοιοῦτοί τινές εἰσι λόγοι οἱ διὰ τῆς τῶν ἰδεῶν θέσεως τὰς ἀρχὰς<note type="apparatus" n="12" target="#p80-11">τοιοῦτοί τινες — ἀναιροῦντες (13) Alexandri sunt</note>
               <lb n="13" xml:id="p80-12"/>αὐτῶν ἀναιροῦντες, ὡς εἴρηται ἀνωτέρω. λέγοντες γὰρ τὸν ἀριθμὸν ἀνῄρουν<note type="apparatus" n="13" target="#p80-12">ἀνωτέρω] p. 78,13 sqq.</note>
               <lb n="14" xml:id="p80-13"/>μονάδα καὶ δυάδα. ἔστι δὲ τὸ αὐτοὲν καὶ αὐτοδυὰς ὁμοίως ἰδέα καὶ αὐτοἄνθρωπος<note type="apparatus" n="14" target="#p80-13">ἔστι δὲ — ἰδεῶν (15) Alexandri sunt ὁμοίως ἰδέα Alex.: ὁμοίως δὲ καὶ αὐτοϊδέα libri</note>
@@ -3650,9 +3650,9 @@
             <milestone unit="bekker" n="990b22"/>
             <quote type="lemma">
               <lb n="18" xml:id="p80-17"/>Ἔτι δὲ κατὰ μὲν τὴν ὑπόληψιν καθ’ ἣν εἶναί φαμεν
+              <lb n="19" xml:id="p80-18"/>τὰς ἰδέας.
             </quote>
             <p>
-              <lb n="19" xml:id="p80-18"/>τὰς ἰδέας.
               <lb n="20" xml:id="p80-19"/>Ἄλλο ἐπιχείρημα ἀνασκευαστικὸν τοῦ εἶναι ἰδέας· φησὶ γὰρ ὅτι κατὰ
               <lb n="21" xml:id="p80-20"/>τὴν ὑπόληψιν ἣν ἔχομεν περὶ τῶν ἰδεῶν, οὐ μόνον τῶν οὐσιῶν ἔσονται
               <lb n="22" xml:id="p80-21"/>ἰδέαι ἀλλὰ καὶ τῶν συμβεβηκότων (πάντων γὰρ τῶν ἐνταῦθα ὄντων φασὶν
@@ -3745,9 +3745,9 @@
             <milestone unit="bekker" n="991a1"/>
             <quote type="lemma">
               <lb n="26" xml:id="p82-25"/>Ἢ τί ἔσται τὸ εἶναι φάναι τι παρὰ ταῦτα τὸ ἓν ἐπὶ<note type="apparatus" n="26" target="#p82-25">τί scripsi; cf. p. 83, 3. 11: ἔτι libri et Metaph. p. 991a1 cod. Hb Bekk. τι om. A, sed cf. p. 83, 3. 11</note>
+              <lb n="27" xml:id="p82-26"/>πολλῶν.
             </quote>
             <p>
-              <lb n="27" xml:id="p82-26"/>πολλῶν.
               <lb n="28" xml:id="p82-27"/>Φησὶν ὅτι τοῦτο ὃ λέγουσι τὸ ἓν εἶναι πρὸ τῶν πολλῶν, πότερον
               <lb n="29" xml:id="p82-28"/>ὁμωνύμως κατηγορεῖται ἢ συνωνύμως; εἰ μὲν οὖν συνωνύμως, τὰ αὐτὰ
               <lb n="30" xml:id="p82-29"/>ὑπάρχουσιν ἀπαραλλάκτως αἱ ἰδέαι τοῖς αἰσθητοῖς· εἰ δὲ ὁμωνύμως, ὅμοιον
@@ -3800,9 +3800,9 @@
             <milestone unit="bekker" n="991a8"/>
             <quote type="lemma">
               <lb n="4" xml:id="p84-3"/>Πάντων δὲ μάλιστα διαπορήσειεν ἄν τις 〈τί〉 ποτε συμβάλλεται.
+              <lb n="5" xml:id="p84-4"/>
             </quote>
             <p>
-              <lb n="5" xml:id="p84-4"/>
               <lb n="6" xml:id="p84-5"/>Ἔτι ἐνίσταται πρὸς τὰς ἰδέας καί φησιν ὅτι μάτην ὑπάρχουσιν αἱ
               <lb n="7" xml:id="p84-6"/>ἰδέαι· οὐδὲν γὰρ ἡμῖν συμβάλλονται. οὔτε γὰρ ποιητικὸν αἴτιον δυνατόν
               <lb n="8" xml:id="p84-7"/>ἐστιν ὑποθέσθαι αὐτὰς οὔτε δὲ εἰδικὸν οὔτε ὑλικὸν οὔτε τελικόν. ποιητικὸν
@@ -3865,9 +3865,9 @@
             <milestone unit="bekker" n="991a12"/>
             <quote type="lemma">
               <lb n="16" xml:id="p85-15"/>Ἀλλὰ μὴν οὐδὲ πρὸς τὴν ἐπιστήμην οὐδὲν βοηθεῖ
+              <lb n="17" xml:id="p85-16"/>τὴν τῶν ἄλλων.
             </quote>
             <p>
-              <lb n="17" xml:id="p85-16"/>τὴν τῶν ἄλλων.
               <lb n="18" xml:id="p85-17"/>Φησὶν ὅτι οὐδὲ πρὸς τὰς ἐπιστήμας συμβάλλονται ἡμῖν αἱ ἰδέαι, ὡς
               <lb n="19" xml:id="p85-18"/>εἴρηται ἐν τῇ θεωρίᾳ. οὐ γὰρ οὐσία τούτων τῶν ἐνταῦθα αἱ ἰδέαι· αἱ δὲ
               <lb n="20" xml:id="p85-19"/>ἐπιστῆμαι τῶν οὐσιῶν ὑπάρχουσιν, ἐπειδὴ αἱ ἐπιστῆμαι καὶ ὁρισμοί, οἱ
@@ -4077,9 +4077,9 @@
             <milestone unit="bekker" n="991b1"/>
             <quote type="lemma">
               <lb n="36" xml:id="p89-35"/>Ἔτι δόξειεν ἂν ἀδύνατον εἶναι χωρὶς τὴν οὐσίαν καὶ
+              <lb n="37" xml:id="p89-36"/>οὗ ἡ οὐσία.
             </quote>
             <p>
-              <lb n="37" xml:id="p89-36"/>οὗ ἡ οὐσία.
               <lb n="38" xml:id="p89-37"/>Ἕτερον αὖθις ἐπιχείρημα τῶν ἰδεῶν ἀνασκευαστικὸν ὅτι ἀδύνατόν
             </p>
             <pb n="90" facs="https://archive.org/download/commentariaina06pt12akaduoft/page/n345.jpg"/>
@@ -4162,9 +4162,9 @@
             <milestone unit="bekker" n="991b9"/>
             <quote type="lemma">
               <lb n="27" xml:id="p91-26"/>Ἔτι εἴπερ εἰσὶν ἀριθμοὶ τὰ εἴδη, πῶς αἴτιοι ἔσονται;
+              <lb n="28" xml:id="p91-27"/>πότερον ὅτι ἕτεροι ἀριθμοί εἰσι τὰ ὄντα.
             </quote>
             <p>
-              <lb n="28" xml:id="p91-27"/>πότερον ὅτι ἕτεροι ἀριθμοί εἰσι τὰ ὄντα.
               <lb n="29" xml:id="p91-28"/>Ἔστιν ἔνστασις αὐτῷ πρὸς τὰς ἰδέας. λέγει οὖν πρὸς αὐτοὺς ὅτι οἱ
               <lb n="30" xml:id="p91-29"/>ἀριθμοί, τουτέστι τὰ αἰσθητὰ πράγματα, καθὸ ἀριθμοὶ ὑπάρχουσιν, οὐδὲν
               <lb n="31" xml:id="p91-30"/>ἀλλήλων διαφέρουσι· πῶς οὖν φατε τοὺς νοητοὺς ἀριθμοὺς παρακτικοὺς
@@ -4515,9 +4515,9 @@
             <milestone unit="bekker" n="992a2"/>
             <quote type="lemma">
               <lb n="7" xml:id="p99-6"/>Ἔτι πρὸς τοῖς εἰρημένοις εἴπερ εἰσὶν αἱ μονάδες
+              <lb n="8" xml:id="p99-7"/>διάφοροι.
             </quote>
             <p>
-              <lb n="8" xml:id="p99-7"/>διάφοροι.
               <lb n="9" xml:id="p99-8"/>Εἴ φατε ταύτας τὰς μονάδας εἶναι διαφόρους ἐξ ὧν τὰ ἄλλα πάντα
               <lb n="10" xml:id="p99-9"/>γεννᾶτε, ἐχρῆν ὑμᾶς οὕτως λέγειν ὥσπερ λέγουσιν οἱ τὰ στοιχεῖα τέσσαρα
               <lb n="11" xml:id="p99-10"/>ἤγουν δύο ὑποτιθέμενοι· καὶ γὰρ τούτων ἕκαστος οὐ τὸ κοινὸν λέγει
@@ -4690,9 +4690,9 @@
             <milestone unit="bekker" n="992a24"/>
             <quote type="lemma">
               <lb n="1" xml:id="p103-0"/>Ὅλως δὲ ζητούσης τῆς σοφίας περὶ τῶν φανερῶν τὸ
+              <lb n="2" xml:id="p103-1"/>αἴτιον.
             </quote>
             <p>
-              <lb n="2" xml:id="p103-1"/>αἴτιον.
               <lb n="3" xml:id="p103-2"/>Ἐντεῦθεν δείκνυται ὁ Ἀριστοτέλης ἄντικρυς λέγων ποιητικὸν αἴτιον
               <lb n="4" xml:id="p103-3"/>εἶναι τὸν θεόν. φησὶ γὰρ ὅτι ἡ σοφία ζητεῖ τῶν φανερῶν τὸ αἴτιον, οἱ<milestone type="alt-edition" unit="folio" ed="cod. Monacensis gr. 103" n="69r"/>
               <lb n="5" xml:id="p103-4"/>δὲ Πυθαγόρειοι τοῦτο παραλελοίπασιν· οὐδὲν γὰρ εἰρήκασι περὶ τῆς αἰτίας
@@ -4752,9 +4752,9 @@
             <milestone unit="bekker" n="992b1"/>
             <quote type="lemma">
               <lb n="21" xml:id="p104-20"/>Ἔτι δὲ τὴν ὑποκειμένην οὐσίαν ὡς ὕλην μαθηματικωτέραν
+              <lb n="22" xml:id="p104-21"/>ἄν τις ὑπολάβοι.
             </quote>
             <p>
-              <lb n="22" xml:id="p104-21"/>ἄν τις ὑπολάβοι.
               <lb n="23" xml:id="p104-22"/>Ἔτι ἔνστασις πρὸς τὰς ἰδέας ἐκ τῆς ὕλης, ἐπειδὴ βουλόμενος δηλῶσαι
               <lb n="24" xml:id="p104-23"/>ὁ Πλάτων τὴν ὕλην διὰ τοῦ μεγάλου καὶ τοῦ μικροῦ ἐδήλου αὐτήν. φησὶν
               <lb n="25" xml:id="p104-24"/>οὖν ὁ Ἀριστοτέλης ὅτι τὸ μέγα καὶ τὸ μικρὸν ἐπὶ τῶν μεγεθῶν θεωρεῖται,
@@ -4777,9 +4777,9 @@
             <milestone unit="bekker" n="992b1"/>
             <quote type="lemma">
               <lb n="1" xml:id="p105-0"/>Ἔτι δὲ τὴν ὑποκειμένην οὐσίαν ὡς ὕλην μαθηματικωτέραν.
+              <lb n="2" xml:id="p105-1"/>
             </quote>
             <p>
-              <lb n="2" xml:id="p105-1"/>
               <lb n="3" xml:id="p105-2"/>Φησὶν ὅτι καὶ ἡ ὑποκειμένη οὐσία, ἥντινα οὐσίαν ὡς ὕλην ὑποτίθενται<note type="apparatus" n="3" target="#p105-2">φησὶν ὅτι — εἶπε (18) Alexandri sunt οὐσίαν] ἀρχὴν Alex.</note>
               <lb n="4" xml:id="p105-3"/>τῶν φύσει γινομένων (αὕτη δέ ἐστιν ἡ ἀόριστος δυάς, τὸ μέγα καὶ<note type="apparatus" n="4" target="#p105-3">καὶ τὸ μέγα Alex.</note>
               <lb n="5" xml:id="p105-4"/>τὸ μικρόν), μαθηματικὴ μᾶλλόν ἐστιν ἢ φυσική· ἡ γὰρ δυὰς ἀριθμοῦ
@@ -4803,9 +4803,9 @@
             <milestone unit="bekker" n="992b7"/>
             <quote type="lemma">
               <lb n="20" xml:id="p105-19"/>Περί τε κινήσεως, εἰ μέν ἐστι ταῦτα κίνησις, δῆλον ὅτι
+              <lb n="21" xml:id="p105-20"/>κινήσεται τὰ εἴδη· εἰ δὲ μή, πόθεν ἦλθεν;
             </quote>
             <p>
-              <lb n="21" xml:id="p105-20"/>κινήσεται τὰ εἴδη· εἰ δὲ μή, πόθεν ἦλθεν;
               <lb n="22" xml:id="p105-21"/>Ἑτέρα ἀντιλογία πρὸς τὰς ἰδέας· καί φησιν ὅτι ἀκίνητοι ὑπάρχουσιν
               <lb n="23" xml:id="p105-22"/>αἱ ἰδέαι ἢ κινοῦνται. εἰ μὲν γὰρ ἐν κινήσει ὑπάρχουσι τὰ εἴδη, φανερὸν
               <lb n="24" xml:id="p105-23"/>ὅτι καὶ αἱ ἰδέαι κινηθήσονται· καθ’ ὁμοιότητα γὰρ τῶν ἰδεῶν βούλονται
@@ -4843,9 +4843,9 @@
             <milestone unit="bekker" n="992b9"/>
             <quote type="lemma">
               <lb n="15" xml:id="p106-14"/>Καὶ ὃ δοκεῖ ῥᾴδιον εἶναι, τὸ δεῖξαι ὅτι ἓν τὰ πάντα,
+              <lb n="16" xml:id="p106-15"/>οὐ γίνεται· τῇ γὰρ ἐκθέσει οὐ γίνεται τὰ πάντα ἕν.
             </quote>
             <p>
-              <lb n="16" xml:id="p106-15"/>οὐ γίνεται· τῇ γὰρ ἐκθέσει οὐ γίνεται τὰ πάντα ἕν.
               <lb n="17" xml:id="p106-16"/>Πάλιν ἑτέρα ἀντιλογία πρὸς τὰς ἰδέας· καί φησιν ὅτι ἐν ἅπασι τοῖς
               <lb n="18" xml:id="p106-17"/>οὖσίν ἐστιν ἡ ἑνάς. εἰ μὴ γὰρ τῷ ὄντι ὑποθώμεθα εἶναι ἐν ἅπασι τοῖς
               <lb n="19" xml:id="p106-18"/>οὖσι τὴν ἑνάδα, ἀπειρίαν εἰσάξομεν ἐν τοῖς οὖσιν. εἰ μὴ γάρ ἐστιν ἡ
@@ -4906,9 +4906,9 @@
             <milestone unit="bekker" n="992b13"/>
             <quote type="lemma">
               <lb n="26" xml:id="p107-25"/>Οὐδένα δὲ ἔχει λόγον οὐδὲ τὰ μετὰ τοὺς ἀριθμοὺς
+              <lb n="27" xml:id="p107-26"/>μήκη καὶ ἐπίπεδα.
             </quote>
             <p>
-              <lb n="27" xml:id="p107-26"/>μήκη καὶ ἐπίπεδα.
               <lb n="28" xml:id="p107-27"/>Πάλιν ἑτέρα ἀντιλογία πρὸς τὰς ἰδέας. φασὶ γὰρ οὕτως ὅτι τὰ μεγέθη
               <lb n="29" xml:id="p107-28"/>δεύτερα ὑπάρχουσι τῶν ἀριθμῶν· ἡ γὰρ γραμμὴ τὸ ἐφ’ ἓν διαστατὸν
               <lb n="30" xml:id="p107-29"/>ἐκ τῆς μονάδος ἔχει, ὁμοίως δὲ καὶ τὸ τρίγωνον τὸ ἔχειν τρεῖς πλευρὰς
@@ -5041,9 +5041,9 @@
             <milestone unit="bekker" n="993a2"/>
             <quote type="lemma">
               <lb n="17" xml:id="p110-16"/>Ἔτι πῶς τις γνωρίσειεν ἐκ τίνων ἐστί, καὶ πῶς ἔσται
+              <lb n="18" xml:id="p110-17"/>δῆλον;
             </quote>
             <p>
-              <lb n="18" xml:id="p110-17"/>δῆλον;
               <lb n="19" xml:id="p110-18"/>Ἀδύνατόν ἐστι γνωρίζειν τὰ πράγματα μὴ γνωριζομένων τῶν ἀρχῶν.
               <lb n="20" xml:id="p110-19"/>τὰς δὲ κοινὰς ἀρχὰς ἀδύνατόν ἐστιν εὑρεῖν· εἰ γὰρ κοιναὶ ὑπάρχουσιν, οὐ
               <lb n="21" xml:id="p110-20"/>δυνατόν ἐστιν αὐτὰς ἑλεῖν ἐκ προϋπαρχούσης γνώσεως. ἀμέλει τοι, ὥς
@@ -5061,9 +5061,9 @@
             <milestone unit="bekker" n="993a7"/>
             <quote type="lemma">
               <lb n="30" xml:id="p110-29"/>Ἔτι δὲ ὧν ἡ αἴσθησις, ταῦτα πῶς ἄν τις μὴ ἔχων τὴν
+              <lb n="31" xml:id="p110-30"/>αἴσθησιν γνοίη;
             </quote>
             <p>
-              <lb n="31" xml:id="p110-30"/>αἴσθησιν γνοίη;
               <lb n="32" xml:id="p110-31"/>Ὃ λέγει τοιοῦτόν ἐστιν, ὅτι εἰ κοιναὶ ἀρχαὶ ὑπάρχουσι πάντων τῶν
               <lb n="33" xml:id="p110-32"/>ὄντων καὶ οὐ διῄρηνται, ὁ εἰδὼς αὐτὰς φανερὸν ὅτι εἴσεται πάντα τὰ ὄντα.
               <lb n="34" xml:id="p110-33"/>ὁ γοῦν ἐκ γενετῆς τυφλὸς ἢ κωφὸς εἰδὼς τὰς κοινὰς ἀρχὰς εἴσεται καὶ
@@ -5086,9 +5086,9 @@
             <milestone unit="bekker" n="993a11"/>
             <quote type="lemma">
               <lb n="10" xml:id="p111-9"/>Ὅτι μὲν οὖν τὰς εἰρημένας ἐν τοῖς φυσικοῖς αἰτίας
+              <lb n="11" xml:id="p111-10"/>ζητεῖν.
             </quote>
             <p>
-              <lb n="11" xml:id="p111-10"/>ζητεῖν.
               <lb n="12" xml:id="p111-11"/>Συμπεραίνεται τὰ εἰρημένα πληρώσας τὴν ἀντιλογίαν τὴν πρὸς τὰς
               <lb n="13" xml:id="p111-12"/>ἰδέας, καί φησιν ὅτι σαφὲς ἡμῖν γέγονεν ὅτι πάντες οἱ περὶ ἀρχῶν διαλεχθέντες
               <lb n="14" xml:id="p111-13"/>ἐοίκασι ζητεῖν τὰς ἀρχὰς τὰς εἰρημένας ἐν τοῖς Φυσικοῖς, τουτέστι<note type="apparatus" n="14" target="#p111-13">ἐν τοῖς Φυσικοῖς] Phys. B 3. 7</note>
@@ -5165,9 +5165,9 @@
             <milestone unit="bekker" n="993a30"/>
             <quote type="lemma">
               <lb n="3" xml:id="p113-2"/>Ἡ περὶ τῆς ἀληθείας θεωρία τῇ μὲν χαλεπή, τῇ δὲ
+              <lb n="4" xml:id="p113-3"/>ῥᾳδία. σημεῖον δὲ τὸ μήτε ἀξίως.
             </quote>
             <p>
-              <lb n="4" xml:id="p113-3"/>ῥᾳδία. σημεῖον δὲ τὸ μήτε ἀξίως.
               <lb n="5" xml:id="p113-4"/>Πληρώσαντες τὸ μεῖζον Α νῦν ἥκομεν ἐπὶ τὸ ἔλαττον Α. γνήσιον δέ
               <lb n="6" xml:id="p113-5"/>ἐστι καὶ αὐτοῦ τοῦ Ἀριστοτέλους τὸ βιβλίον. καὶ τοῦτο δῆλον ἔκ τε τῶν<note type="apparatus" n="6" target="#p113-5">αὐτοῦ scripsi: αὐτὸ libri</note>
               <lb n="7" xml:id="p113-6"/>δογμάτων καὶ ἐκ τῆς λέξεως· καὶ τῆς φράσεως γὰρ τὸ ποικίλον πατέρα
@@ -5220,9 +5220,9 @@
             <milestone unit="bekker" n="993a30"/>
             <quote type="lemma">
               <lb n="21" xml:id="p114-20"/>Ἡ περὶ τῆς ἀληθείας θεωρία τῇ μὲν χαλεπή, τῇ δὲ
+              <lb n="22" xml:id="p114-21"/>ῥᾳδία. σημεῖον δὲ τὸ μήτε ἀξίως μηδένα δύνασθαι τυχεῖν αὐτῆς.
             </quote>
             <p>
-              <lb n="22" xml:id="p114-21"/>ῥᾳδία. σημεῖον δὲ τὸ μήτε ἀξίως μηδένα δύνασθαι τυχεῖν αὐτῆς.
               <lb n="23" xml:id="p114-22"/>Βούλεται διὰ τῶν νῦν λεγομένων ὑπ’ αὐτοῦ ὁ Ἀριστοτέλης καὶ προτρέψασθαι.
               <lb n="24" xml:id="p114-23"/>διὰ μὲν γὰρ τοῦ εἰπεῖν ὅτι χαλεπή ἐστιν ἡ περὶ τῆς ἀληθείας
               <lb n="25" xml:id="p114-24"/>θεωρία συντονωτέρους ἡμᾶς ποιεῖ πρὸς τὴν ἀντίληψιν αὐτῆς διὰ τὴν δυσγέρειαν·
@@ -5304,9 +5304,9 @@
             <milestone unit="bekker" n="993a30"/>
             <quote type="lemma">
               <lb n="14" xml:id="p116-13"/>Ἡ περὶ τῆς ἀληθείας θεωρία τῇ μὲν χαλεπή, τῇ δὲ
+              <lb n="15" xml:id="p116-14"/>ῥᾳδία.
             </quote>
             <p>
-              <lb n="15" xml:id="p116-14"/>ῥᾳδία.
               <lb n="16" xml:id="p116-15"/>Τουτέστιν ἡ περὶ πάσης τῆς θεωρητικῆς φιλοσοφίας θεωρία κατὰ τί
               <lb n="17" xml:id="p116-16"/>μὲν χαλεπή ἐστι, κατὰ τί δὲ ῥᾳδία· χαλεπὴ μὲν καθ’ ὅσον πολλῶν ἐπιχειρησάντων<note type="apparatus" n="17" target="#p116-16">χαλεπὴ μὲν — φανεῖται (26) Alexandri sunt</note>
               <lb n="18" xml:id="p116-17"/>αὐτῇ οὐδεὶς κατ’ ἀξίαν τοὺς περὶ αὐτῆς πεποίηται λόγους·
@@ -5328,9 +5328,9 @@
             <milestone unit="bekker" n="993b4"/>
             <quote type="lemma">
               <lb n="31" xml:id="p116-30"/>Ὥστε εἴπερ ἔοικεν ἔχειν καθάπερ τυγχάνομεν παροιμιαζόμενοι.
+              <lb n="32" xml:id="p116-31"/>
             </quote>
             <p>
-              <lb n="32" xml:id="p116-31"/>
               <lb n="33" xml:id="p116-32"/>Ὅτι ῥᾳδία ἐστὶν ἡ περὶ τῆς ἀληθείας θεωρία, σημεῖον παρέθετο τὴν<note type="apparatus" n="33-34" target="#p116-32 #p116-33">ἔδειξε τῇ παροιμίᾳ προσχρ. τῇ Alex.</note>
               <lb n="34" xml:id="p116-33"/>παροιμίαν προσχρησάμενος αὐτῇ ‘τί τις ἂν θύρας ἁμάρτοι’, ἥτις λέγεται<note type="apparatus" n="34" target="#p116-33">ἥτις — τοῦτο (p. 117,5) Alexandri sunt</note>
             </p>
@@ -5347,9 +5347,9 @@
             <milestone unit="bekker" n="993b6"/>
             <quote type="lemma">
               <lb n="6" xml:id="p117-5"/>Τὸ δ’ ὅλον τ’ ἔχειν καὶ μέρος μὴ δύνασθαι δηλοῖ τὸ
+              <lb n="7" xml:id="p117-6"/>χαλεπὸν αὐτῆς.
             </quote>
             <p>
-              <lb n="7" xml:id="p117-6"/>χαλεπὸν αὐτῆς.
               <lb n="8" xml:id="p117-7"/>Ἐντεῦθέν φησιν ὡς ἔστι δυσχερὲς ἡ κατάληψις αὐτῆς, διότι, φησίν,
               <lb n="9" xml:id="p117-8"/>ἀδύνατόν ἐστι τελείως αὐτὴν γνῶναι· μέρος γὰρ αὐτῆς οὐδεὶς δύναται
               <lb n="10" xml:id="p117-9"/>γνῶναι, εἴ γε καὶ ἀμερής ἐστι, τὸ δὲ ὅλον πολύ ἐστι γνῶναι· χαλεπή ἐστιν
@@ -5409,9 +5409,9 @@
             <milestone unit="bekker" n="993b19"/>
             <quote type="lemma">
               <lb n="17" xml:id="p118-16"/>Ὀρθῶς δὲ ἔχει καὶ τὸ καλέσαι τὴν φιλοσοφίαν ἐπιστήμην
+              <lb n="18" xml:id="p118-17"/>τῆς ἀληθείας.
             </quote>
             <p>
-              <lb n="18" xml:id="p118-17"/>τῆς ἀληθείας.
               <lb n="19" xml:id="p118-18"/>Χρησάμενος τῷ τῆς ἀληθείας ὀνόματι ἐπὶ τῆς θεωρητικῆς φιλοσοφίας,<note type="apparatus" n="19" target="#p118-18">χρησάμενος—τέλος (28) pleraque Alexandri sunt</note>
               <lb n="20" xml:id="p118-19"/>νῦν ὅτι εὐλόγως οὕτως καλεῖται συνίστησι φάσκων ὅτι ὀρθῶς ἔχει τὸ καλέσαι<note type="apparatus" n="20-21" target="#p118-19 #p118-20">φάσκων— ἀληθείας desunt Alexandro</note>
               <lb n="21" xml:id="p118-20"/>τὴν φιλοσοφίαν ἐπιστήμην τῆς ἀληθείας. φιλοσοφίαν γὰρ ἰδίως<milestone type="alt-edition" unit="folio" ed="cod. Monacensis gr. 103" n="80r"/>
@@ -5471,10 +5471,10 @@
             <milestone unit="bekker" n="993b29"/>
             <quote type="lemma">
               <lb n="27" xml:id="p119-26"/>Οὐ γὰρ ποτὲ ἀληθεῖς, οὐδ’ ἐκείναις αἴτιόν τί ἐστι τοῦ
-            </quote>
-            <p>
               <lb n="28" xml:id="p119-27"/>εἶναι, ἀλλ’ ἐκεῖναι τοῖς ἄλλοις. ὡς δὲ ἕκαστον ἔχει τοῦ εἶναι,
               <lb n="29" xml:id="p119-28"/>οὕτω καὶ τῆς ἀληθείας.
+            </quote>
+            <p>
               <lb n="30" xml:id="p119-29"/>Ἐντεῦθεν δείκνυσιν ὅτι σύνδρομοι ὑπάρχουσιν αἱ ἐνέργειαι ταῖς οὐσίαις.
               <lb n="31" xml:id="p119-30"/>διό φησι τέσσαρας εἶναι ἐνεργείας, ἐπειδὴ καὶ τέσσαρες οὐσίαι, νοηταί, διανοηταί,
               <lb n="32" xml:id="p119-31"/>δοξασταί, αἰσθηταί. φησὶν οὖν, ὡς ἕκαστον ἔχει οὐσίας, οὕτω καὶ
@@ -5491,9 +5491,9 @@
             <milestone unit="bekker" n="994a1"/>
             <quote type="lemma">
               <lb n="3" xml:id="p120-2"/>Ἀλλὰ μὴν ὅτι γε ἔστιν ἀρχή τις καὶ οὐκ ἄπειρα τὰ
+              <lb n="4" xml:id="p120-3"/>αἴτια τῶν ὄντων.
             </quote>
             <p>
-              <lb n="4" xml:id="p120-3"/>αἴτια τῶν ὄντων.
               <lb n="5" xml:id="p120-4"/>Εἰπὼν τὴν θεωρητικὴν φιλοσοφίαν περὶ ἀληθείας ἐπιστήμην εἶναι,<note type="apparatus" n="5" target="#p120-4">Εἰπὼν — πρόοδος (11) Alexandri sunt</note><milestone type="alt-edition" unit="folio" ed="cod. Monacensis gr. 103" n="81r"/>
               <lb n="6" xml:id="p120-5"/>ἥτις διὰ τὴν τῶν αἰτίων γνῶσιν γίνεται, εἰπὼν δὲ καὶ μάλιστα ἀληθῆ τὰ<note type="apparatus" n="6" target="#p120-5">τῆς τ. αἰτ. γνώσεως Alex.</note>
               <lb n="7" xml:id="p120-6"/>αἴτια εἶναι, καὶ διὰ τούτων συστησάμενος ἀναγκαίαν οὖσαν τῇ θεωρητικῇ<note type="apparatus" n="7" target="#p120-6">συστήσας Alex.</note>
@@ -5557,9 +5557,9 @@
             <milestone unit="bekker" n="994a19"/>
             <quote type="lemma">
               <lb n="15" xml:id="p121-14"/>Ἀλλὰ μὴν οὐδ’ ἐπὶ τὸ κάτω οἷόν τέ ἐστιν ἐπ’ ἄπειρον
+              <lb n="16" xml:id="p121-15"/>ἰέναι τοῦ ἄνω ἔχοντος ἀρχήν.
             </quote>
             <p>
-              <lb n="16" xml:id="p121-15"/>ἰέναι τοῦ ἄνω ἔχοντος ἀρχήν.
               <lb n="17" xml:id="p121-16"/>Δείξας διὰ τῶν προλαβόντων ὅτι οὐ δυνατὸν εἶναι ἐπὶ τὸ ἄνω ἄπειρον
               <lb n="18" xml:id="p121-17"/>τὴν ἀρχὴν τοῦ κάτω ὡρισμένου ὑπάρχοντος, ἐπεὶ οὕτω συμβήσεται ἀναιρεῖσθαι<milestone type="alt-edition" unit="folio" ed="cod. Monacensis gr. 103" n="82r"/>
               <lb n="19" xml:id="p121-18"/>τὸ κυρίως αἴτιον (τὸ γὰρ κυρίως ἐστὶν αἴτιον τὸ μόνως ὑπάρχον
@@ -5651,9 +5651,9 @@
             <milestone unit="bekker" n="994a19"/>
             <quote type="lemma">
               <lb n="18" xml:id="p123-17"/>Ἀλλὰ μὴν οὐδ’ ἐπὶ τὸ κάτω οἷόν τέ ἐστιν ἐπ’ ἄπειρον
+              <lb n="19" xml:id="p123-18"/>ἰέναι, τοῦ ἄνω ἔχοντος ἀρχήν.
             </quote>
             <p>
-              <lb n="19" xml:id="p123-18"/>ἰέναι, τοῦ ἄνω ἔχοντος ἀρχήν.
               <lb n="20" xml:id="p123-19"/>Δείξας ὅτι οὐκ ἔστιν εἰς ἄπειρον τῶν αἰτίων κατ’ εὐθυωρίαν ἐπὶ τὸ<note type="apparatus" n="20" target="#p123-19">Δείξας—εἶδος (25) excerpta ex Alexandro</note>
               <lb n="21" xml:id="p123-20"/>ἄνω ἡ πρόοδος, ἀλλ’ ἀνάγκη, εἰ ἔστι τι αἴτιον ὅλως, εἶναί τι πρῶτον καὶ
               <lb n="22" xml:id="p123-21"/>ἀρχήν, νῦν πάλιν δείκνυσιν ὅτι οὐδ’ ἐπὶ τὸ κάτω οἷόν τε κατ’ εὐθυωρίαν
@@ -5740,9 +5740,9 @@
             <milestone unit="bekker" n="994a27"/>
             <quote type="lemma">
               <lb n="9" xml:id="p125-8"/>Ἀεὶ γάρ ἐστί τι μεταξύ, ὥσπερ τοῦ εἶναι καὶ μὴ εἶναι
+              <lb n="10" xml:id="p125-9"/>γένεσις.
             </quote>
             <p>
-              <lb n="10" xml:id="p125-9"/>γένεσις.
               <lb n="11" xml:id="p125-10"/>Φησὶν ὅτι μεταξύ ἐστί τι τοῦ ἀτελοῦς τοῦ ὁδεύοντος ἐπὶ τὴν τελειότητα
               <lb n="12" xml:id="p125-11"/>αὕτη ἡ μέλλουσα κατὰ μέρος αὔξησις γίνεσθαι ἤγουν προσθήκη,<note type="apparatus" n="12" target="#p125-11">αὕτη] fort. αὐτὴ</note>
               <lb n="13" xml:id="p125-12"/>ὥσπερ ἐστὶ μεταξὺ τοῦ εἶναι καὶ μὴ εἶναι γένεσις. ἡνίκα γὰρ μέλλει
@@ -5791,9 +5791,9 @@
             <milestone unit="bekker" n="994a32"/>
             <quote type="lemma">
               <lb n="9" xml:id="p126-8"/>Οὐ γὰρ γίνεται ἐκ τῆς γενέσεως τὸ γινόμενον ἀλλὰ
+              <lb n="10" xml:id="p126-9"/>μετὰ τὴν γένεσιν.
             </quote>
             <p>
-              <lb n="10" xml:id="p126-9"/>μετὰ τὴν γένεσιν.
               <lb n="11" xml:id="p126-10"/>Τουτέστιν οὐ γὰρ ἐκ τῆς ἄλλου φθορᾶς καὶ τῆς γενέσεως αὐτῆς τὸ<note type="apparatus" n="11" target="#p126-10">Τουτέστιν — πρωΐ (24) Alexandri sunt</note>
               <lb n="12" xml:id="p126-11"/>οὕτω γινόμενον γίνεται, ἀλλ’ ἐκ τοῦ ἤδη γεγονότος· μετὰ γὰρ τὴν γένεσιν
               <lb n="13" xml:id="p126-12"/>τὸ γεγονέναι. τὰ μὲν γὰρ κατὰ φθορὰν τῶν ἐξ ὧν λέγεται γίνεσθαι γινόμενα<note type="apparatus" n="13" target="#p126-12">τῶν ἔξωθεν γιγνόμενα Alex.</note>
@@ -5925,9 +5925,9 @@
             <milestone unit="bekker" n="994b16"/>
             <quote type="lemma">
               <lb n="3" xml:id="p129-2"/>Ἀλλὰ μὴν οὐδὲ τὸ τί ἦν εἶναι ἐνδέχεται ἀνάγεσθαι
+              <lb n="4" xml:id="p129-3"/>εἰς ἄλλον ὁρισμόν.<milestone type="alt-edition" unit="folio" ed="cod. Monacensis gr. 103" n="87v"/>
             </quote>
             <p>
-              <lb n="4" xml:id="p129-3"/>εἰς ἄλλον ὁρισμόν.<milestone type="alt-edition" unit="folio" ed="cod. Monacensis gr. 103" n="87v"/>
               <lb n="5" xml:id="p129-4"/>Προέκειτο αὐτῷ δεῖξαι ὅτι οὐχ ὑπάρχουσιν ἄπειρα τὰ αἴτια. δείξας
               <lb n="6" xml:id="p129-5"/>τοίνυν διὰ τῶν φθασάντων ὅτι οὐκ ἔστιν ἐπ’ ἄπειρον τὸ ποιητικὸν αἴτιον,
               <lb n="7" xml:id="p129-6"/>ἐπεὶ οὕτως τὸ αὐτὸ ἔσται καὶ αἴτιον καὶ αἰτιατόν, καὶ ἀναιρεθήσεται τὸ
@@ -6312,9 +6312,9 @@
             <milestone unit="bekker" n="995a24"/>
             <quote type="lemma">
               <lb n="4" xml:id="p137-3"/>Ἀνάγκη πρὸς τὴν ζητουμένην ἐπιστήμην ἐπελθεῖν
+              <lb n="5" xml:id="p137-4"/>ἡμᾶς, περὶ ὧν ἀπορῆσαι δεῖ.
             </quote>
             <p>
-              <lb n="5" xml:id="p137-4"/>ἡμᾶς, περὶ ὧν ἀπορῆσαι δεῖ.
               <lb n="6" xml:id="p137-5"/>Ἐν τῷ μείζονι Α διελέχθη ἡμῖν περὶ τῆς πρώτης φιλοσοφίας, ἥτις
               <lb n="7" xml:id="p137-6"/>καταγίνεται περὶ τὸ ὄντως ὄν, εἶτα πρὸς τούτοις ἐζήτησε περὶ τῶν ἀρχῶν
               <lb n="8" xml:id="p137-7"/>καὶ ἐξέθετο τὰς τῶν παλαιοτέρων δόξας περὶ αὐτῶν, καὶ τὰς μὲν ἤλεγξε,
@@ -6356,9 +6356,9 @@
             <milestone unit="bekker" n="995a24"/>
             <quote type="lemma">
               <lb n="10" xml:id="p138-9"/>Ἀνάγκη πρὸς τὴν ζητουμένην ἐπιστήμην ἐπελθεῖν
+              <lb n="11" xml:id="p138-10"/>ἡμᾶς.
             </quote>
             <p>
-              <lb n="11" xml:id="p138-10"/>ἡμᾶς.
               <lb n="12" xml:id="p138-11"/>Ὃ λέγει τοῦτό ἐστιν. ἀναγκαῖον, φησίν, ἐστὶ πρὸς τὴν εὕρεσιν τῆς<note type="apparatus" n="12" target="#p138-11">ἀναγκαῖον — ταύτην (19) pleraque Alexandri sunt</note><note type="apparatus" n="12-13" target="#p138-11 #p138-12">τῆς τε ἐπιστήμης αὐτῆς Alex.</note>
               <lb n="13" xml:id="p138-12"/>ἐπιστήμης ταύτης, τουτέστι τῆς πρώτης φιλοσοφίας, καὶ τῶν κατὰ τὴν
               <lb n="14" xml:id="p138-13"/>ἐπιστήμην ταύτην ζητουμένων ἐπελθεῖν ἡμᾶς πρῶτον καὶ ἐξαριθμήσασθαι
@@ -6373,9 +6373,9 @@
             <milestone unit="bekker" n="995a25"/>
             <quote type="lemma">
               <lb n="20" xml:id="p138-19"/>Ταῦτα δέ ἐστιν ὅσα τε περὶ αὐτῶν ἄλλως ὑπειλήφασίν<note type="apparatus" n="20" target="#p138-19">ἄλλως ex Aristotele scripsi; cf. v. 23: ἄλλοι libri</note>
+              <lb n="21" xml:id="p138-20"/>τινες.
             </quote>
             <p>
-              <lb n="21" xml:id="p138-20"/>τινες.
               <lb n="22" xml:id="p138-21"/>Εἶναι γάρ φησί τινα περὶ ὧν οὐκ εἰκότως ὑπέλαβον ὄντως ἀλλὰ διημαρτημένως,
               <lb n="23" xml:id="p138-22"/>ἢ ὅτι ἄλλοι ἄλλως ὑπέλαβον. ταῦτα δὲ μάλιστα ἀπορίαν<note type="apparatus" n="23" target="#p138-22">ἢ ὅτι — πραγματευσαμένων (24. 25) Alexandri sunt ἀπορίας Alex.</note>
               <lb n="24" xml:id="p138-23"/>παρέχει, περὶ ὧν προκαταβέβληνται διάφοροι δόξαι ὑπὸ τῶν πραγματευσαμένων.
@@ -6450,9 +6450,9 @@
             <milestone unit="bekker" n="995b4"/>
             <quote type="lemma">
               <lb n="9" xml:id="p140-8"/>Ἔστι δὲ ἀπορία πρώτη μὲν περὶ ὧν ἐν τοῖς πεφροιμιασμένοις
+              <lb n="10" xml:id="p140-9"/>διηπορήσαμεν.
             </quote>
             <p>
-              <lb n="10" xml:id="p140-9"/>διηπορήσαμεν.
               <lb n="11" xml:id="p140-10"/>Ἐντεῦθεν ἄρχεται ὁ φιλόσοφος ἀπορεῖν πρὸς τὴν πρώτην ἐπιστήμην·
               <lb n="12" xml:id="p140-11"/>καὶ ἔστιν αὕτη πρώτη ἀπορία. ἄξιον γάρ ἐστι, φησίν, ἀπορίας, ἆρα πλείους
               <lb n="13" xml:id="p140-12"/>ἐπιστῆμαι γινώσκουσι τὰ διάφορα αἴτια, ἄλλη μὲν τὸ ποιητικὸν ἄλλη δὲ
@@ -6513,9 +6513,9 @@
             <milestone unit="bekker" n="995b10"/>
             <quote type="lemma">
               <lb n="19" xml:id="p141-18"/>Εἴ τε ἔστι περὶ τὴν οὐσίαν, πότερον μία περὶ πάσας
+              <lb n="20" xml:id="p141-19"/>ἢ πλείονές εἰσιν.
             </quote>
             <p>
-              <lb n="20" xml:id="p141-19"/>ἢ πλείονές εἰσιν.
               <lb n="21" xml:id="p141-20"/>Ἐντεῦθεν τρίτην ἀπορίαν ἐκτίθεται ὁ φιλόσοφος καί φησιν, ἆρα πάσας
               <lb n="22" xml:id="p141-21"/>τὰς οὐσίας μία ἐπιστήμη γινώσκει ἢ πλείονες; καί φαμεν ἡμεῖς ἐπιλυόμενοι
               <lb n="23" xml:id="p141-22"/>ὅτι καὶ μία καὶ πλείους. κατὰ γὰρ τὸ εἶναι οὐσία μία εἰσὶ πᾶσαι,
@@ -6592,9 +6592,9 @@
             <milestone unit="bekker" n="995b20"/>
             <quote type="lemma">
               <lb n="6" xml:id="p143-5"/>Πρὸς δὲ τούτοις περὶ ταὐτοῦ καὶ ἑτέρου καὶ ὁμοίου
+              <lb n="7" xml:id="p143-6"/>καὶ ἀνομοίου.
             </quote>
             <p>
-              <lb n="7" xml:id="p143-6"/>καὶ ἀνομοίου.
               <lb n="8" xml:id="p143-7"/>Πάλιν ἐντεῦθεν ἑτέραν ἀπορίαν ἐπάγει τοιαύτην, φάσκων οὕτως, ἆρά
               <lb n="9" xml:id="p143-8"/>γε τὸ ζητεῖν περὶ ταὐτοῦ καὶ ἑτέρου καὶ ἐναντιότητος καὶ ὁμοίου καὶ ἀνομοίου
               <lb n="10" xml:id="p143-9"/>καὶ περὶ προτέρου καὶ ὑστέρου καὶ τῶν ἄλλων τῶν τοιούτων τῆς
@@ -6656,9 +6656,9 @@
             <milestone unit="bekker" n="995b25"/>
             <quote type="lemma">
               <lb n="15" xml:id="p144-14"/>Ἔτι δὲ τούτοις ὅσα καθ’ αὑτὰ συμβέβηκε· καὶ μὴ
+              <lb n="16" xml:id="p144-15"/>μόνον τί ἐστιν ἕκαστον αὐτῶν.
             </quote>
             <p>
-              <lb n="16" xml:id="p144-15"/>μόνον τί ἐστιν ἕκαστον αὐτῶν.
               <lb n="17" xml:id="p144-16"/>Φησὶν ὅτι δεῖ ἡμᾶς πρὸς τούτοις ἀπορῆσαι ὅσα καθ’ αὑτὰ συμβέβηκε
               <lb n="18" xml:id="p144-17"/>τούτοις, οἷον εἰ ἄρα τῷ ἑνὶ ἕν ἐστιν ἐναντίον ἢ πολλά, καὶ εἰ δυνατόν
               <lb n="19" xml:id="p144-18"/>ἐστι τὰ ἐναντία ὑπὸ διάφορα γένη ἀνάγεσθαι. φαμὲν οὖν ὅτι ἀδύνατον
@@ -6694,9 +6694,9 @@
             <milestone unit="bekker" n="995b27"/>
             <quote type="lemma">
               <lb n="9" xml:id="p145-8"/>Καὶ πότερον αἱ ἀρχαὶ καὶ τὰ στοιχεῖα τὰ γένη ἐστὶν
+              <lb n="10" xml:id="p145-9"/>ἢ εἰς ἃ διαιρεῖται ἐνυπάρχοντα ἕκαστον.
             </quote>
             <p>
-              <lb n="10" xml:id="p145-9"/>ἢ εἰς ἃ διαιρεῖται ἐνυπάρχοντα ἕκαστον.
               <lb n="11" xml:id="p145-10"/>Ὃ λέγει τοῦτό ἐστιν, ὅτι ἄξιόν ἐστιν ἀπορίας, [ἆρά γε] ποῖα γένη ὑπάρχουσι<note type="apparatus" n="11" target="#p145-10">ἆρά γε delevi</note>
               <lb n="12" xml:id="p145-11"/>τῶν ὄντων, πότερον αἱ ἀρχαὶ καὶ τὰ στοιχεῖα ἢ εἰς ἃ διαιρεῖται
               <lb n="13" xml:id="p145-12"/>ἕκαστον, τουτέστιν ἆρά γε ἡ ὕλη καὶ τὸ εἶδος ἢ τὰ τέσσαρα στοιχεῖα ἢ
@@ -6749,9 +6749,9 @@
             <milestone unit="bekker" n="995b34"/>
             <quote type="lemma">
               <lb n="17" xml:id="p146-16"/>Καὶ πότερον ἔστι τι παρὰ τὸ σύνολον· λέγω δὴ τὸ
+              <lb n="18" xml:id="p146-17"/>σύνολον.
             </quote>
             <p>
-              <lb n="18" xml:id="p146-17"/>σύνολον.
               <lb n="19" xml:id="p146-18"/>Πάλιν ἐντεῦθεν ἑτέραν ἀπορίαν κινεῖ λέγων οὕτως, ὅτι ἆρά γε ἔστι τι
               <lb n="20" xml:id="p146-19"/>παρὰ τὸ σύνολον, τουτέστι παρὰ τὸ σύνθετον; οἷον κατηγορεῖται τῆς ὕλης
               <lb n="21" xml:id="p146-20"/>τὸ κακὸν καὶ τὸ αἰσχρόν· ἆρα οὖν, φησίν, ἔστι τι αὐτὸ καθ’ αὑτὸ τὸ
@@ -6838,9 +6838,9 @@
             <milestone unit="bekker" n="996a4"/>
             <quote type="lemma">
               <lb n="5" xml:id="p148-4"/>Ἔτι δὲ τὸ πάντων χαλεπώτατον καὶ πλείστην ἀπορίαν
+              <lb n="6" xml:id="p148-5"/>ἔχον.
             </quote>
             <p>
-              <lb n="6" xml:id="p148-5"/>ἔχον.
               <lb n="7" xml:id="p148-6"/>Φησὶν ὅτι χαλεπωτάτη ἐστὶν ἀπορία καὶ δυσαντίβλεπτος ἡ περὶ τοῦ
               <lb n="8" xml:id="p148-7"/>αὐτοόντος καὶ αὐτοενός, καθάπερ οἱ Πυθαγόρειοι καὶ Πλάτων φασὶν εἶναί<note type="apparatus" n="8" target="#p148-7">αὐτοέν libri</note>
               <lb n="9" xml:id="p148-8"/>τι αὐτοὲν καὶ αὐτοόν, οὐχ ἕτερόν τι ἀλλ’ οὐσίαν τῶν ὄντων, ἐξ ἧς τὰ<note type="apparatus" n="9" target="#p148-8">οὐσία libri</note>
@@ -6861,9 +6861,9 @@
             <milestone unit="bekker" n="996a9"/>
             <quote type="lemma">
               <lb n="21" xml:id="p148-20"/>Καὶ πότερον αἱ ἀρχαὶ καθόλου εἰσὶν ἢ ὡς τὰ καθ’
+              <lb n="22" xml:id="p148-21"/>ἕκαστα τῶν πραγμάτων.
             </quote>
             <p>
-              <lb n="22" xml:id="p148-21"/>ἕκαστα τῶν πραγμάτων.
               <lb n="23" xml:id="p148-22"/>Ἐντεῦθεν αὖθις ἑτέραν κινεῖ ἀπορίαν τοιαύτην, ὅτι πότερον ἡ ἀρχὴ
               <lb n="24" xml:id="p148-23"/>καθόλου ἐστὶν ἢ καθ’ ἕκαστα. φαμὲν δὴ ἡμεῖς ὅτι ἡ πρωτίστη ἀρχὴ οὔτε
               <lb n="25" xml:id="p148-24"/>καθ’ ἕκαστά ἐστιν οὔτε δὲ καθόλου. τὸ γὰρ καθ’ ἕκαστα ἐν ὕλῃ ἔχει τὸ
@@ -6904,9 +6904,9 @@
             <milestone unit="bekker" n="996a18"/>
             <quote type="lemma">
               <lb n="15" xml:id="p149-14"/>Πρῶτον μὲν οὖν περὶ ὧν πρῶτον εἴπομεν, πότερον
+              <lb n="16" xml:id="p149-15"/>μιᾶς ἢ πλειόνων ἐστὶν ἐπιστημῶν.
             </quote>
             <p>
-              <lb n="16" xml:id="p149-15"/>μιᾶς ἢ πλειόνων ἐστὶν ἐπιστημῶν.
               <lb n="17" xml:id="p149-16"/>Ἐκθέμενος τὰς ἀπορίας διὰ τῶν προλαβόντων τὰς περὶ τῆς πρώτης
               <lb n="18" xml:id="p149-17"/>φιλοσοφίας ἐντεῦθεν πειρᾶται ἐφ’ ἑκάτερα ἐπιχειρεῖν καὶ ἀνασκευάζειν αὐτὰς
               <lb n="19" xml:id="p149-18"/>καὶ κατασκευάζειν διὰ τὸ γυμνάσαι τὴν διάνοιαν. δεῖ δὲ ἡμᾶς τὰ μὲν
@@ -7289,9 +7289,9 @@
             <milestone unit="bekker" n="996b26"/>
             <quote type="lemma">
               <lb n="17" xml:id="p157-16"/>Ἀλλὰ μὴν καὶ περὶ τῶν ἀποδεικτικῶν ἀρχῶν, πότερον
+              <lb n="18" xml:id="p157-17"/>μιᾶς ἐστιν ἐπιστήμης ἢ πλειόνων.
             </quote>
             <p>
-              <lb n="18" xml:id="p157-17"/>μιᾶς ἐστιν ἐπιστήμης ἢ πλειόνων.
               <lb n="19" xml:id="p157-18"/>Ὅπερ ζητεῖ διὰ τῶν νῦν λεγομένων παρ’ αὐτοῦ τοιοῦτόν ἐστιν. ζητεῖ,
               <lb n="20" xml:id="p157-19"/>εἰ ἄρα μία ἐπιστήμη ἐστὶν ἡ γινώσκουσα τὰς οὐσίας τῶν πραγμάτων καὶ<note type="apparatus" n="20" target="#p157-19">εἰ om. D</note>
               <lb n="21" xml:id="p157-20"/>τὰς ἀποδείξεις τὰς περὶ τῶν οὐσιῶν τῶν πραγμάτων, ἤγουν ἄλλη μὲν ἐπιστήμη
@@ -7366,9 +7366,9 @@
             <milestone unit="bekker" n="996b33"/>
             <quote type="lemma">
               <lb n="1" xml:id="p159-0"/>Μιᾶς μὲν οὖν οὐκ εὔλογον εἶναι· τί γὰρ μᾶλλον γεωμετρίας.
+              <lb n="2" xml:id="p159-1"/>
             </quote>
             <p>
-              <lb n="2" xml:id="p159-1"/>
               <lb n="3" xml:id="p159-2"/>Ἐντεῦθεν ἄρχεται ἐπιχειρεῖν καὶ λέγειν ὅτι οὐ δυνατὸν εἶναι μίαν
               <lb n="4" xml:id="p159-3"/>ἐπιστήμην τὴν γινώσκουσαν τὰς οὐσίας τῶν πραγμάτων καὶ τὰ ἀξιώματα.
               <lb n="5" xml:id="p159-4"/>αἱ γὰρ ἐπιστῆμαι κατὰ τὴν ἀπόδειξιν οὐ διαφέρουσιν ἀλλήλων· ὥσπερ γὰρ
@@ -7429,9 +7429,9 @@
             <milestone unit="bekker" n="997a3"/>
             <quote type="lemma">
               <lb n="17" xml:id="p160-16"/>Τί μὲν γὰρ ἕκαστον τούτων τυγχάνει ὂν καὶ νῦν γνωρίζομεν.
+              <lb n="18" xml:id="p160-17"/>
             </quote>
             <p>
-              <lb n="18" xml:id="p160-17"/>
               <lb n="19" xml:id="p160-18"/>Τί σημαίνει ἕκαστον τῶν ἀξιωμάτων φανερὸν ἡμῖν ὑπάρχει. ἐπισταμεθα<note type="apparatus" n="19-20" target="#p160-18 #p160-19">ἐπιστάμεθα — ἐπιστήμης (27) Alexandri sunt</note>
               <lb n="20" xml:id="p160-19"/>γὰρ ἢ δι’ ὁρισμῶν ἢ δι’ ἀποδείξεως. καὶ τῶν οὖν ἀξιωμάτων<milestone type="alt-edition" unit="folio" ed="cod. Monacensis gr. 103" n="110r"/>
               <lb n="21" xml:id="p160-20"/>εἴπερ ἔστιν ἐπιστήμη, ἤτοι τοῦ τί ἐστιν 〈ἕκαστον〉 αὐτῶν ἔσται δεικτικὴ ἢ<note type="apparatus" n="21-22" target="#p160-20 #p160-21">ἤτοι — ἀποδεικτικὴ desunt Alexandro</note><note type="apparatus" n="21" target="#p160-20">ἕκαστον addidi</note>
@@ -7447,9 +7447,9 @@
             <milestone unit="bekker" n="997a5"/>
             <quote type="lemma">
               <lb n="28" xml:id="p160-27"/>Εἰ δὲ ἀποδεικτικὴ περὶ αὐτῶν ἐστι, δεήσει τι γένος
+              <lb n="29" xml:id="p160-28"/>εἶναι ὑποκείμενον.
             </quote>
             <p>
-              <lb n="29" xml:id="p160-28"/>εἶναι ὑποκείμενον.
               <lb n="30" xml:id="p160-29"/>Ὃ λέγει τοῦτό ἐστιν, ὅτι εἰ ὑποθώμεθα τὰ ἀξιώματα θηρᾶσθαι διὰ
               <lb n="31" xml:id="p160-30"/>ἀποδείξεων, ἐπειδὴ πᾶν τὸ ὑποπῖπτον ἀποδείξει ἔχει καὶ ὑποκείμενον, ἔχει
               <lb n="32" xml:id="p160-31"/>δὲ καὶ κατηγορούμενον, φανερὸν ὅτι χρεία ἐστὶν ἑτέρου ἀξιώματος πρὸς τὸ
@@ -7539,9 +7539,9 @@
             <milestone unit="bekker" n="997a15"/>
             <quote type="lemma">
               <lb n="30" xml:id="p162-29"/>Ὅλως τε τῶν οὐσιῶν πότερον μία πασῶν ἐπιστήμη
+              <lb n="31" xml:id="p162-30"/>ἐστὶν ἢ πλείους ἐπιστῆμαι.
             </quote>
             <p>
-              <lb n="31" xml:id="p162-30"/>ἐστὶν ἢ πλείους ἐπιστῆμαι.
               <lb n="32" xml:id="p162-31"/>Ἐπεὶ τῶν οὐσιῶν αἱ μὲν ὑπάρχουσι νοηταί τε καὶ ἀκίνητοι, αἱ δὲ<note type="apparatus" n="32" target="#p162-31">ἐπεὶ — εὔλογον εἶναι (p. 163,4) Alexandri sunt</note>
               <lb n="33" xml:id="p162-32"/>αἰσθηταί τε καὶ ἐν κινήσει, ζητεῖ πότερον περὶ πασῶν τῶν οὐσιῶν μιᾶς
             </p>
@@ -7614,9 +7614,9 @@
             <milestone unit="bekker" n="997a25"/>
             <quote type="lemma">
               <lb n="22" xml:id="p164-21"/>Ἔτι δὲ πότερον περὶ τὰς οὐσίας ἡ θεωρία μόνον ἐστὶν<note type="apparatus" n="22" target="#p164-21">τῇ θεωρίᾳ libri</note>
+              <lb n="23" xml:id="p164-22"/>ἢ καὶ περὶ τὰ συμβεβηκότα.
             </quote>
             <p>
-              <lb n="23" xml:id="p164-22"/>ἢ καὶ περὶ τὰ συμβεβηκότα.
               <lb n="24" xml:id="p164-23"/>Ὃ λέγει τοῦτό ἐστιν, ὅτι ἆρά γε ἡ παροῦσα θεωρία τὰς οὐσίας μόνας
               <lb n="25" xml:id="p164-24"/>ζητεῖ ἢ καὶ τὰ συμβεβηκότα ταῖς οὐσίαις; οἷον εἰ τὸ στερεὸν οὐσία τίς
               <lb n="26" xml:id="p164-25"/>ἐστι καὶ γραμμὴ καὶ ἐπίπεδα, πότερον τῆς αὐτῆς ταῦτα γνωρίζειν ἐστὶν
@@ -7655,9 +7655,9 @@
             <milestone unit="bekker" n="997a34"/>
             <quote type="lemma">
               <lb n="18" xml:id="p165-17"/>Ἔτι δὲ πότερον τὰς αἰσθητὰς οὐσίας μόνας εἶναι φατέον<milestone type="alt-edition" unit="folio" ed="cod. Monacensis gr. 103" n="113v"/>
+              <lb n="19" xml:id="p165-18"/>ἢ καὶ παρὰ ταύτας ἄλλας.
             </quote>
             <p>
-              <lb n="19" xml:id="p165-18"/>ἢ καὶ παρὰ ταύτας ἄλλας.
               <lb n="20" xml:id="p165-19"/>Ὅπερ ζητεῖ ἐνταῦθα, τοῦτό ἐστιν, ὅτι ἆρά γε αἱ αἰσθηταὶ οὐσίαι
               <lb n="21" xml:id="p165-20"/>μόναι ὑπάρχουσιν ἢ καὶ ἕτεραι παρὰ ταύτας, τουτέστιν νοηταί; καὶ εἰ
               <lb n="22" xml:id="p165-21"/>ὑπάρχουσιν ἕτεραι οὐσίαι παρὰ τὰς αἰσθητάς, πότερον μοναχῶς ἢ πλεοναχῶς;
@@ -7691,9 +7691,9 @@
             <milestone unit="bekker" n="997a34"/>
             <quote type="lemma">
               <lb n="7" xml:id="p166-6"/>Ἔτι δὲ πότερον τὰς αἰσθητὰς οὐσίας μόνας εἶναι
+              <lb n="8" xml:id="p166-7"/>φατέον.
             </quote>
             <p>
-              <lb n="8" xml:id="p166-7"/>φατέον.
               <lb n="9" xml:id="p166-8"/>Καθάπερ εἴρηται, ἀπορητικῶς προέρχεται καί φησιν ὅτι ἆρά γε τὰς αἰσθητὰς
               <lb n="10" xml:id="p166-9"/>οὐσίας μόνας εἶναι δεῖ ὑπολαμβάνειν, ἢ καὶ παρὰ τὰς αἰσθητὰς
               <lb n="11" xml:id="p166-10"/>ἄλλας οὐσίας; καὶ πότερον αἱ ἄλλαι οὐσίαι αἱ παρὰ τὰς αἰσθητὰς μοναχῶς
@@ -7713,9 +7713,9 @@
             <milestone unit="bekker" n="997b3"/>
             <quote type="lemma">
               <lb n="22" xml:id="p166-21"/>Ὡς μὲν οὖν λέγομεν αἴτιά τε καὶ οὐσίας εἶναι καθ’<note type="apparatus" n="22" target="#p166-21">λέγομεν τὰ εἴδη αἰτιά τε Aristoteles</note>
+              <lb n="23" xml:id="p166-22"/>ἑαυτὰς εἴρηται ἐν τοῖς πρώτοις λόγοις.
             </quote>
             <p>
-              <lb n="23" xml:id="p166-22"/>ἑαυτὰς εἴρηται ἐν τοῖς πρώτοις λόγοις.
               <lb n="24" xml:id="p166-23"/>Ὡς τοῦ αὐτοῦ διδασκαλείου ὑπάρχων ὁ Ἀριστοτέλης φησὶ τὸ λέγομεν.<note type="apparatus" n="24" target="#p166-23">διδασκαλείου D</note>
               <lb n="25" xml:id="p166-24"/>ἱκανῶς οὖν ἀντείπομεν ἐν τῷ μείζονι Α πρὸς τὰς ἰδέας ἐλέγγοντες
               <lb n="26" xml:id="p166-25"/>ὅτι οὔτε ἀριθμοὺς δυνατὸν λέγειν αὐτὰς οὔτε ἕτερόν τι τοιοῦτο, καὶ
@@ -7798,9 +7798,9 @@
             <milestone unit="bekker" n="997b12"/>
             <quote type="lemma">
               <lb n="19" xml:id="p168-18"/>Ἔτι δὲ εἴ τις παρὰ τὰ εἴδη καὶ τὰ αἰσθητὰ τὰ μεταξὺ
+              <lb n="20" xml:id="p168-19"/>θήσεται, πολλὰς ἀπορίας ἕξει.
             </quote>
             <p>
-              <lb n="20" xml:id="p168-19"/>θήσεται, πολλὰς ἀπορίας ἕξει.
               <lb n="21" xml:id="p168-20"/>Φησὶν ὅτι πολλὰς ἀπορίας ἕξει ὁ ὑποτιθέμενος παρὰ τὰς νοητὰς οὐσίας
               <lb n="22" xml:id="p168-21"/>καὶ τὰς αἰσθητὰς πάλιν ἄλλας οὐσίας, φημὶ δὴ τὰς μεταξύ, τουτέστι τὰς
               <lb n="23" xml:id="p168-22"/>διανοητάς· πρὸς αὐτὰς γὰρ νῦν διαμάχεται. φανερὸν ὡς ὅτι ἔσονται καὶ
@@ -7887,9 +7887,9 @@
             <milestone unit="bekker" n="997b25"/>
             <quote type="lemma">
               <lb n="17" xml:id="p170-16"/>Ἀπορήσειε δ’ ἄν τις καὶ παρὰ ποῖα τῶν ὄντων δεῖ<note type="apparatus" n="17" target="#p170-16">lemma in libris non distinguitur</note>
+              <lb n="18" xml:id="p170-17"/>ζητεῖν ταύτας τὰς ἐπιστήμας.
             </quote>
             <p>
-              <lb n="18" xml:id="p170-17"/>ζητεῖν ταύτας τὰς ἐπιστήμας.
               <lb n="19" xml:id="p170-18"/>Ἐντεῦθεν πάλιν ἀπορῶν ἕτερον ἔγκλημα ἐπιφέρει τοῖς ὑποτιθεμένοις
               <lb n="20" xml:id="p170-19"/>εἶναι διανοητὰς οὐσίας αὐτὰς καθ’ αὑτὰς ὑπαρχούσας. φησὶν οὖν ὅτι ἡ
               <lb n="21" xml:id="p170-20"/>γεωδαισία περὶ τὰ αἰσθητὰ καταγίνεται· διὰ τοῦτο γὰρ καὶ γεωδαισία λέγεται,<note type="apparatus" n="21 et 23" target="#p170-20 #p170-22">γεωδαισία A</note>
@@ -7977,9 +7977,9 @@
             <milestone unit="bekker" n="998a7"/>
             <quote type="lemma">
               <lb n="12" xml:id="p172-11"/>Εἰσὶ δέ τινες οἵ φασιν εἶναι μὲν τὰ μεταξὺ ταῦτα λεγόμενα
+              <lb n="13" xml:id="p172-12"/>τῶν τε εἰδῶν καὶ τῶν αἰσθητῶν.
             </quote>
             <p>
-              <lb n="13" xml:id="p172-12"/>τῶν τε εἰδῶν καὶ τῶν αἰσθητῶν.
               <lb n="14" xml:id="p172-13"/>Φησὶν ὅτι ὑπάρχουσί τινες οἵτινες ὑποτίθενται διανοητὰς οὐσίας, φασὶ
               <lb n="15" xml:id="p172-14"/>δὲ αὐτὰς εἶναι ἐν τοῖς αἰσθητοῖς. ἐροῦμεν πρὸς αὐτοὺς ὅτι εἰ ἄρα τὰς
               <lb n="16" xml:id="p172-15"/>διανοητὰς οὐσίας ἐναποτίθεσθε ἐν τοῖς αἰσθητοῖς, διὰ τί μὴ καὶ τὰς νοητάς;
@@ -8020,9 +8020,9 @@
             <milestone unit="bekker" n="998a20"/>
             <quote type="lemma">
               <lb n="9" xml:id="p173-8"/>Περὶ τε τούτων οὖν ἀπορία πολλὴ πῶς δεῖ θέμενον
+              <lb n="10" xml:id="p173-9"/>τυχεῖν τῆς ἀληθείας.
             </quote>
             <p>
-              <lb n="10" xml:id="p173-9"/>τυχεῖν τῆς ἀληθείας.
               <lb n="11" xml:id="p173-10"/>Ἐξ ἀρχῆς προέθετο εἰπεῖν περὶ πλειόνων προβλημάτων τοῦ προκειμένου<note type="apparatus" n="11" target="#p173-10">τοῦ προκειμένου — προβλημάτων (13) om. D</note>
               <lb n="12" xml:id="p173-11"/>βιβλίου, ἅτινα καὶ ἐξέθετο· καὶ ἐνταῦθα μὲν ἐφ’ ἑκάτερα ἐπιχειρεῖ,
               <lb n="13" xml:id="p173-12"/>τὰς δὲ λύσεις ἐν τῷ Γ ἐπιφέρει. ἦσαν οὖν τῶν προβλημάτων τῶν ἐκτεθέντων
@@ -8253,9 +8253,9 @@
             <milestone unit="bekker" n="998b22"/>
             <quote type="lemma">
               <lb n="21" xml:id="p177-20"/>Οὐχ οἷόν τε δὲ τῶν ὄντων ἓν εἶναι γένος οὔτε τὸ ἓν
+              <lb n="22" xml:id="p177-21"/>οὔτε τὸ ὄν.
             </quote>
             <p>
-              <lb n="22" xml:id="p177-21"/>οὔτε τὸ ὄν.
               <lb n="23" xml:id="p177-22"/>Ἐζήτησεν ἄρα πόσα δεῖ καλεῖν ἀρχὰς τῶν ὄντων, πότερον τὰ γένη
               <lb n="24" xml:id="p177-23"/>ἢ τὰ στοιχεῖα· καὶ ἐπεχείρησεν ἐφ’ ἑκάτερα δεικνὺς ὅτι οὔτε τὰ γένη οὔτε
               <lb n="25" xml:id="p177-24"/>δὲ τὰ στοιχεῖα, γυμναστικῶς προσάγων τὸν λόγον. ἐντεῦθεν οὖν πάλιν
@@ -8338,9 +8338,9 @@
             <milestone unit="bekker" n="998b22"/>
             <quote type="lemma">
               <lb n="18" xml:id="p179-17"/>Οὐχ οἷόν τε δὲ τῶν ὄντων ἓν εἶναι γένος οὔτε τὸ ἓν
+              <lb n="19" xml:id="p179-18"/>οὔτε τὸ ὄν.
             </quote>
             <p>
-              <lb n="19" xml:id="p179-18"/>οὔτε τὸ ὄν.
               <lb n="20" xml:id="p179-19"/>Οὐκ ἐκ παραλλήλου λέγει τὸ ἕν, ἀλλὰ δεῖ προσυπακούειν τὸ κοινόν·
               <lb n="21" xml:id="p179-20"/>οὐ δυνατόν, φησί, τῶν ὄντων ἓν κοινὸν γένος εἶναι τὸ ὂν καὶ τὸ ἕν, καθάπερ
               <lb n="22" xml:id="p179-21"/>καὶ ἐν τῇ θεωρίᾳ εἰρήκαμεν. ἀνάγκη μὲν γὰρ τὰς διαφορὰς ἑκάστου γένους
@@ -8431,9 +8431,9 @@
             <milestone unit="bekker" n="998b30"/>
             <quote type="lemma">
               <lb n="5" xml:id="p181-4"/>Πρὸς δὲ τούτοις ἔτι μᾶλλον αἱ διαφοραὶ ἀρχαὶ ἢ τὰ
+              <lb n="6" xml:id="p181-5"/>γένη.
             </quote>
             <p>
-              <lb n="6" xml:id="p181-5"/>γένη.
               <lb n="7" xml:id="p181-6"/>Πάλιν ἑτέρα κατασκευὴ ὅτι μᾶλλον αἱ διαφοραὶ ἀρχαὶ ὑπάρχουσιν
               <lb n="8" xml:id="p181-7"/>ἤπερ τὰ γένη. αἱ γὰρ διαφοραί, φησίν, εἴδει ἀναλογοῦσι, τουτέστι τὸ λογικόν,
               <lb n="9" xml:id="p181-8"/>τὸ δὲ γένος ὕλῃ ἀναλογεῖ, ὡς εἴρηται ἐν τῇ Εἰσαγωγῇ Πορφυρίου·<note type="apparatus" n="9" target="#p181-8">ἐν τῇ Εἰσαγωγῇ Πορφυρίου] p. 11,12 sqq. Busse</note>
@@ -8486,9 +8486,9 @@
             <milestone unit="bekker" n="999a6"/>
             <quote type="lemma">
               <lb n="7" xml:id="p182-6"/>Ἔτι ἐν οἷς τὸ πρότερον καὶ τὸ ὕστερόν ἐστιν, οὐχ
+              <lb n="8" xml:id="p182-7"/>οἷόν τε.
             </quote>
             <p>
-              <lb n="8" xml:id="p182-7"/>οἷόν τε.
               <lb n="9" xml:id="p182-8"/>Ὅπερ εἰρήκαμεν ἐν τῇ θεωρίᾳ. τοῦτο οὖν λέγει ὁ Ἀριστοτέλης, ὅτι<milestone type="alt-edition" unit="folio" ed="cod. Monacensis gr. 103" n="125v"/>
               <lb n="10" xml:id="p182-9"/>ἐν οἷς τὸ πρότερον καὶ τὸ ὕστερον κατηγορεῖται, οὐχ οἷόν τε τὸ ἐπὶ
               <lb n="11" xml:id="p182-10"/>τούτων εἶναί τι παρὰ ταῦτα, τουτέστι τὸ κοινῶς κατηγορούμενον τούτων
@@ -8511,9 +8511,9 @@
             <milestone unit="bekker" n="999a13"/>
             <quote type="lemma">
               <lb n="25" xml:id="p182-24"/>Ἔτι ὅπου τὸ μὲν βέλτιον τὸ δὲ χεῖρον, ἀεὶ τὸ βέλτιον
+              <lb n="26" xml:id="p182-25"/>πρότερον.
             </quote>
             <p>
-              <lb n="26" xml:id="p182-25"/>πρότερον.
               <lb n="27" xml:id="p182-26"/>Ἐντεῦθεν πειρᾶται δεῖξαι ὅτι οὐδὲ τὰ κυρίως νομιζόμενα γένη ὑπάργουσι,
               <lb n="28" xml:id="p182-27"/>τουτέστι τὸ ζῷον ἤ τι τοιοῦτο. ὅπου μὲν γὰρ θεωρεῖται τὸ μὲν
               <lb n="29" xml:id="p182-28"/>βέλτιον τὸ δὲ χεῖρον, αὐτὸ τὸ βέλτιον πρότερον, ὥστε πρότερος ὁ ἄνθρωπος<note type="apparatus" n="29" target="#p182-28">τὸ δὲ—τὸ βέλτιον om. D πρότερον D</note>
@@ -8531,9 +8531,9 @@
             <milestone unit="bekker" n="999a14"/>
             <quote type="lemma">
               <lb n="1" xml:id="p183-0"/>Ἐκ μὲν οὖν τούτων μᾶλλον φαίνεται τὰ ἐπὶ τῶν
+              <lb n="2" xml:id="p183-1"/>ἀτόμων.
             </quote>
             <p>
-              <lb n="2" xml:id="p183-1"/>ἀτόμων.
               <lb n="3" xml:id="p183-2"/>Ἐκ τῶν εἰρημένων λόγων μᾶλλον φαίη ἄν τις τὰ ἐπὶ τῶν ἀτόμων
               <lb n="4" xml:id="p183-3"/>κατηγορούμενα ἀρχὰς εἶναι ἤπερ τὰ γένη, ἐπειδή, ὡς εἴρηται, οὐ θεωρεῖται
               <lb n="5" xml:id="p183-4"/>ἐν τοῖς ὑπ’ αὐτὰ ἀτόμοις τὸ πρότερον καὶ τὸ ὕστερον.
@@ -8543,9 +8543,9 @@
             <milestone unit="bekker" n="999a16"/>
             <quote type="lemma">
               <lb n="6" xml:id="p183-5"/>Πάλιν δὲ πῶς αὖ δεῖ ταύτας ὑπολαβεῖν ἀρχάς, οὐ
+              <lb n="7" xml:id="p183-6"/>ῥᾴδιον.
             </quote>
             <p>
-              <lb n="7" xml:id="p183-6"/>ῥᾴδιον.
               <lb n="8" xml:id="p183-7"/>Ἐντεῦθεν αὐτοφυῶς καὶ τῇ φύσει τῶν πραγμάτων ἑπόμενος δείκνυσιν
               <lb n="9" xml:id="p183-8"/>ὅτι μᾶλλον τὰ γένη ἀρχαὶ τῶν ὄντων ὑπάρχουσι, τὰ ἐξῃρημένα δῆλον· καὶ
               <lb n="10" xml:id="p183-9"/>τοῦτο σαφῶς ἐνδείκνυται. τί γάρ; φησὶν ὅτι δεῖ τὴν ἀρχὴν καὶ τὴν αἰτίαν εἶναι
@@ -8586,9 +8586,9 @@
             <milestone unit="bekker" n="999a24"/>
             <quote type="lemma">
               <lb n="3" xml:id="p184-2"/>Ἔστι δὲ ἐχομένη τούτων ἀπορία καὶ πασῶν χαλεπωτάτη.
+              <lb n="4" xml:id="p184-3"/>
             </quote>
             <p>
-              <lb n="4" xml:id="p184-3"/>
               <lb n="5" xml:id="p184-4"/>Ἐντεῦθεν πειρᾶται δεῖξαι ὅτι οὐχ ὑπάρχουσι μόνα τὰ αἰσθητὰ πράγματα.
               <lb n="6" xml:id="p184-5"/>εἰ γὰρ ὑποθώμεθα μόνα εἶναι τὰ αἰσθητὰ ἐν τοῖς οὖσιν, ἐπειδὴ
               <lb n="7" xml:id="p184-6"/>ἄπειρα ταῦτα ὑπάρχουσι, τῶν δὲ ἀπείρων οὐκ ἔστι γνῶσις, φανερὸν ὡς
@@ -8643,9 +8643,9 @@
             <milestone unit="bekker" n="999a32"/>
             <quote type="lemma">
               <lb n="6" xml:id="p185-5"/>Ἔτι εἰ ὅτι μάλιστα ἔστι τι παρὰ τὸ σύνολον, ὅταν κατηγορηθῇ
+              <lb n="7" xml:id="p185-6"/>τι τῆς ὕλης.
             </quote>
             <p>
-              <lb n="7" xml:id="p185-6"/>τι τῆς ὕλης.
               <lb n="8" xml:id="p185-7"/>Ὅπερ ἀπορεῖ διὰ τῶν ἐνταῦθα λεγομένων, τοιοῦτόν ἐστιν, ὅτι εἰ ὑποθώμεθα
               <lb n="9" xml:id="p185-8"/>εἶναι χωριστὸν εἶδος αὐτὸ καθ’ αὑτὸ χωρὶς τοῦ συνθέτου, πᾶσά
               <lb n="10" xml:id="p185-9"/>ἐστιν ἀνάγκη ἢ πάντων εἶναι χωριστὰ εἴδη τῶν γενητῶν, καὶ τῶν κατὰ<note type="apparatus" n="10" target="#p185-9">τῶν (post εἴδη) scripsi: καὶ libri</note>
@@ -8732,9 +8732,9 @@
             <milestone unit="bekker" n="999b5"/>
             <quote type="lemma">
               <lb n="1" xml:id="p187-0"/>Ἀλλὰ μὴν εἴ γε ἀίδιον μή ἐστιν, οὐδὲ γένεσιν εἶναι<note type="apparatus" n="1" target="#p187-0">post μή lacuna VIII litterarum AD</note>
+              <lb n="2" xml:id="p187-1"/>δυνατόν.
             </quote>
             <p>
-              <lb n="2" xml:id="p187-1"/>δυνατόν.
               <lb n="3" xml:id="p187-2"/>Εἰ μόνα τὰ αἰσθητὰ ὑπάρχουσιν, οὐδὲν ἔσεται ἀίδιον, ἐπειδὴ πάντα<note type="apparatus" n="3" target="#p187-2">ἔσεται] sic libri</note><milestone type="alt-edition" unit="folio" ed="cod. Monacensis gr. 103" n="129r"/>
               <lb n="4" xml:id="p187-3"/>τὰ αἰσθητὰ ἐν φθορᾷ ὑπάρχουσιν. εἰ δὲ μηδέν ἐστιν ἀίδιον, οὐδὲ γένεσιν
               <lb n="5" xml:id="p187-4"/>εἶναι δυνατόν· ἀνάγκη γὰρ εἶναί τι τὸ γινόμενον ἕτερόν τι πρὸ τῆς<note type="apparatus" n="5" target="#p187-4">γινόμενον scripsi coll. p. 188,2. 3. 9 sqq.: γενόμενον libri</note>
@@ -8811,9 +8811,9 @@
             <milestone unit="bekker" n="999b12"/>
             <quote type="lemma">
               <lb n="33" xml:id="p188-32"/>Ἔτι δὲ εἴπερ ἡ ὕλη ἐστὶ διὰ τὸ ἀγένητος εἶναι, πολὺ
+              <lb n="34" xml:id="p188-33"/>ἔτι μᾶλλον εὔλογον εἶναι τὴν οὐσίαν.
             </quote>
             <p>
-              <lb n="34" xml:id="p188-33"/>ἔτι μᾶλλον εὔλογον εἶναι τὴν οὐσίαν.
               <lb n="35" xml:id="p188-34"/>Δείξας, φησί, διὰ τῶν φθασάντων ὅτι ἀΐδιός ἐστιν ἡ ὕλη, φησὶν ὅτι<note type="apparatus" n="35" target="#p188-34">ἡ om. D</note>
             </p>
             <pb n="189" facs="https://archive.org/download/commentariaina06pt12akaduoft/page/n444.jpg"/>
@@ -8979,9 +8979,9 @@
             <milestone unit="bekker" n="999b27"/>
             <quote type="lemma">
               <lb n="8" xml:id="p192-7"/>Ἀλλὰ μὴν εἰ ἀριθμῷ πάντα ἓν καὶ μία ἑκάστη τῶν
+              <lb n="9" xml:id="p192-8"/>ἀρχῶν.
             </quote>
             <p>
-              <lb n="9" xml:id="p192-8"/>ἀρχῶν.
               <lb n="10" xml:id="p192-9"/>Δείξας τί ἄτοπον ἑπόμενον, εἰ λέγοιντο αἱ ἀρχαὶ τῷ εἴδει μία, μὴ<note type="apparatus" n="10" target="#p192-9">δείξας — ἔχει (p. 193,4) Alexandri sunt</note>
               <lb n="11" xml:id="p192-10"/>τῷ ἀριθμῷ, νῦν πάλιν ἐπιχειρεῖ πρὸς τὸ μηδὲ κατ’ ἀριθμὸν δύνασθαι τὸ
               <lb n="12" xml:id="p192-11"/>ἓν ἔχειν τὰς ἀρχάς. ἀπάγει δὲ πάλιν τὸν λόγον ἐπὶ τὰς ἀρχὰς τὰς ὡς<note type="apparatus" n="12" target="#p192-11">ἀπάγει A : ἐπάγει D : ἄγει Alex.</note>
@@ -9041,9 +9041,9 @@
             <milestone unit="bekker" n="1000a5"/>
             <quote type="lemma">
               <lb n="26" xml:id="p193-25"/>Οὐθενὸς δὲ ἐλάττων ἀπορία παραλέλειπται καὶ τοῖς
+              <lb n="27" xml:id="p193-26"/>νῦν καὶ τοῖς πρότερον.
             </quote>
             <p>
-              <lb n="27" xml:id="p193-26"/>νῦν καὶ τοῖς πρότερον.
               <lb n="28" xml:id="p193-27"/>Ἣν ἀναγκαίαν φησὶν οὖσαν ἀπορίαν κατευθυνθῆναι, ἐπειδὴ πάντες οἱ<note type="apparatus" n="28" target="#p193-27">ἣν ἀναγκαίαν οὖσαν ἀπορίαν κατευθυνθῆναί φησι πᾶσι τοῖς πρὸ αὐτοῦ παραλελεῖφθαι, εἴρηται μὲν καὶ αὕτη Alex.</note>
               <lb n="29" xml:id="p193-28"/>πρὸ αὐτοῦ παραλελοίπασί τι εἰπεῖν περὶ αὐτῆς. εἴρηται μὲν οὖν καὶ αὕτη<note type="apparatus" n="29" target="#p193-28">αὐτῆς scripsi: αὐτῶν libri</note><note type="apparatus" n="29-30" target="#p193-28 #p193-29">αὕτη ἡ scripsi: αὕτη Alex.: αὐτὴ libri</note>
               <lb n="30" xml:id="p193-29"/>〈ἡ〉 ἀπορία κατ’ ἀρχὰς τοῦ βιβλίου, ὥσπερ οὖν καὶ αἱ ἄλλαι πᾶσαι.
@@ -9197,9 +9197,9 @@
             <milestone unit="bekker" n="1000a24"/>
             <quote type="lemma">
               <lb n="3" xml:id="p197-2"/>Καὶ γὰρ ὅνπερ οἰηθείη λέγειν ἄν τις μάλιστα ὁμολογουμένως.
+              <lb n="4" xml:id="p197-3"/>
             </quote>
             <p>
-              <lb n="4" xml:id="p197-3"/>
               <lb n="5" xml:id="p197-4"/>Μετὰ τὸ ἐλέγξαι τὸν Ἡσίοδον μετέρχεται ἐπὶ τὸν Ἐμπεδοκλέα. ἀκόλουθα
               <lb n="6" xml:id="p197-5"/>μὲν ἑαυτῷ λέγει καὶ αὐτός, οὐ συμφωνεῖ δὲ τῇ φύσει τῶν πραγμάτων.
               <lb n="7" xml:id="p197-6"/>ἀκόλουθα μὲν γὰρ ἑαυτῷ λέγει, διότι ἐξ ἀφθάρτων ἀρχῶν τοῦ
@@ -9371,9 +9371,9 @@
             <milestone unit="bekker" n="1001a4"/>
             <quote type="lemma">
               <lb n="25" xml:id="p200-24"/>Πάντων δὲ καὶ θεωρῆσαι χαλεπώτατον καὶ πρὸς τὸ
+              <lb n="26" xml:id="p200-25"/>γνῶναι τἀληθὲς ἀναγκαιότατον.
             </quote>
             <p>
-              <lb n="26" xml:id="p200-25"/>γνῶναι τἀληθὲς ἀναγκαιότατον.
               <lb n="27" xml:id="p200-26"/>Ἐντεῦθεν ζητεῖ περὶ τοῦ ὄντος καὶ τοῦ ἑνός, εἴτε αὐτὰ καθ’ αὑτὰ
               <lb n="28" xml:id="p200-27"/>ὑφίστανται (εἴτε γὰρ αὐτό ἐστιν ὂν καὶ αὐτοέν) εἴτε ἐν ὑποκειμένοις τὸ
               <lb n="29" xml:id="p200-28"/>εἶναι ἔχουσιν. ἐπιχειρεῖ δὲ ὥσπερ καὶ ἐν τοῖς ἄλλοις κατ’ ἀμφότερα, καί
@@ -9588,9 +9588,9 @@
             <milestone unit="bekker" n="1001a29"/>
             <quote type="lemma">
               <lb n="11" xml:id="p205-10"/>Ἀλλὰ μὴν εἴ γε ἐστὶ τὸ αὐτοὸν καὶ αὐτοέν, πολλὴ
+              <lb n="12" xml:id="p205-11"/>ἀπορία.
             </quote>
             <p>
-              <lb n="12" xml:id="p205-11"/>ἀπορία.
               <lb n="13" xml:id="p205-12"/>Δείξας διὰ τῶν προλαβόντων ὅτι τὸ ὂν καὶ τὸ ἓν αὐτοὸν ὑπάρχει
               <lb n="14" xml:id="p205-13"/>καὶ αὐτοὲν καὶ οὐ θεωροῦνται ἐν ἄλλῳ ὄντι, ἐντεῦθεν εἰς τὸ ἐναντίον ἐπιχειρεῖ
               <lb n="15" xml:id="p205-14"/>δεικνὺς ὅτι ἐν ἑτέρῳ δεῖ ἔχειν αὐτὰ τὸ εἶναι. τί γάρ; φησὶν ὅτι<note type="apparatus" n="15" target="#p205-14">τί γὰρ — εἶναι (16) om. D</note><milestone type="alt-edition" unit="folio" ed="cod. Monacensis gr. 103" n="142r"/>
@@ -9744,9 +9744,9 @@
             <milestone unit="bekker" n="1001b26"/>
             <quote type="lemma">
               <lb n="23" xml:id="p208-22"/>Τούτων δὲ ἐχομένη ἀπορία, πότερον οἱ ἀριθμοὶ καὶ
+              <lb n="24" xml:id="p208-23"/>τὰ σώματα καὶ τὰ ἐπίπεδα.
             </quote>
             <p>
-              <lb n="24" xml:id="p208-23"/>τὰ σώματα καὶ τὰ ἐπίπεδα.
               <lb n="25" xml:id="p208-24"/>Καὶ ταύτην τὴν ἀπορίαν ἐξέθετο κατ’ ἀρχὰς τοῦ παρόντος βιβλίου·
               <lb n="26" xml:id="p208-25"/>ζητεῖ γὰρ εἰ ἄρα τὰ σημεῖα καὶ αἱ γραμμαὶ καὶ αἱ ἐπιφάνειαι οὐσίαι ὑπάρχουσιν,
               <lb n="27" xml:id="p208-26"/>εἴτε οὐχ ὑπάρχουσιν, ἐπεὶ οὐδέποτε αὐτὰ καθ’ αὐτὰ ὑφίστανται.
@@ -9811,9 +9811,9 @@
             <milestone unit="bekker" n="1001b26"/>
             <quote type="lemma">
               <lb n="4" xml:id="p210-3"/>Τούτων δὲ ἐχομένη ἀπορία, πότερον οἱ ἀριθμοὶ καὶ
+              <lb n="5" xml:id="p210-4"/>τὰ σώματα.
             </quote>
             <p>
-              <lb n="5" xml:id="p210-4"/>τὰ σώματα.
               <lb n="6" xml:id="p210-5"/>Δείξας, φησί, δι’ ὧν ἠπόρησεν, ὅτι οἱ ἀριθμοὶ οὐκ οὐσίαι ἔσονται,<note type="apparatus" n="6" target="#p210-5">δείξας — οὐσία (10) Alexandri sunt</note>
               <lb n="7" xml:id="p210-6"/>ἐφεξῆς ἀπορεῖ τοῖς προηπορημένοις, πότερον οἱ ἀριθμοὶ καὶ τὰ σώματα καὶ
               <lb n="8" xml:id="p210-7"/>αἱ στιγμαί, δηλονότι καὶ 〈αἱ〉 ἐπιφάνειαι καὶ αἱ γραμμαί, οὐσίαι ὑπάρχουσιν<note type="apparatus" n="8" target="#p210-7">δηλονότι Alex.: δῆλον libri αἱ (ante ἐπιφ.) addidi</note>
@@ -9901,9 +9901,9 @@
             <milestone unit="bekker" n="1002a18"/>
             <quote type="lemma">
               <lb n="12" xml:id="p212-11"/>Ἔτι φαίνεται ταῦτα πάντα διαιρέσεις ὄντα τοῦ σώματος.
+              <lb n="13" xml:id="p212-12"/>
             </quote>
             <p>
-              <lb n="13" xml:id="p212-12"/>
               <lb n="14" xml:id="p212-13"/>Πάλιν ἕτερον λόγον ἐπάγει κατασκευαστικὸν τοῦ ὅτι οὐχ ὑπάρχουσιν
               <lb n="15" xml:id="p212-14"/>οὐσίαι γραμμὴ καὶ ἐπιφάνεια καὶ σημεῖον, εἴ γε οὐδὲ ὑφίστανται αὐτὰ καθ’<note type="apparatus" n="15" target="#p212-14">οὔτε libri</note><milestone type="alt-edition" unit="folio" ed="cod. Monacensis gr. 103" n="147r"/>
               <lb n="16" xml:id="p212-15"/>αὐτά. τί γάρ; φησὶν ὅτι διαιρέσεις αὗται ὑπάρχουσι τοῦ σώματος, αἱ δὲ
@@ -9967,9 +9967,9 @@
             <milestone unit="bekker" n="1002a28"/>
             <quote type="lemma">
               <lb n="1" xml:id="p214-0"/>Πρὸς γὰρ τοῖς εἰρημένοις καὶ τὰ περὶ τὴν γένεσιν καὶ
+              <lb n="2" xml:id="p214-1"/>τὴν φθοράν.
             </quote>
             <p>
-              <lb n="2" xml:id="p214-1"/>τὴν φθοράν.
               <lb n="3" xml:id="p214-2"/>Ἰστέον ὅτι πᾶσα οὐσία τῶν ἐν γενέσει καὶ φθορᾷ διὰ γενέσεως ἔρχεται<note type="apparatus" n="3-4" target="#p214-2 #p214-3">ἔρχεται scripsi; cf. v. 5. 6: ἄρχεται libri</note>
               <lb n="4" xml:id="p214-3"/>ἐκ τοῦ μὴ ὄντος εἰς τὸ ὂν καὶ διὰ φθορᾶς ἐκ τοῦ ὄντος εἰς τὸ μὴ ὄν.<note type="apparatus" n="4" target="#p214-3">ἐκ τοῦ ὄντος — ὑποθώμεθα (5) om. D</note>
               <lb n="5" xml:id="p214-4"/>ἐὰν οὖν, φησί, ταῦτα ὑποθώμεθα εἶναι οὐσίας, συμβήσεταί τινα οὐσίαν ἔργεσθαι
@@ -10011,9 +10011,9 @@
             <milestone unit="bekker" n="1002a28"/>
             <quote type="lemma">
               <lb n="1" xml:id="p215-0"/>Πρὸς γὰρ τοῖς εἰρημένοις καὶ τὰ περὶ τὴν γένεσιν καὶ
+              <lb n="2" xml:id="p215-1"/>τὴν φθοράν.
             </quote>
             <p>
-              <lb n="2" xml:id="p215-1"/>τὴν φθοράν.
               <lb n="3" xml:id="p215-2"/>Ὁ Ἀλέξανδρος οὕτως ἐξηγεῖται τὸ χωρίον, ὅτι καὶ αὕτη ἡ ἐπιχείρησις<note type="apparatus" n="3" target="#p215-2">ὁ Ἀλέξανδρος] p. 187,15 sqq. Bz. καὶ αὕτη—οὐσίαι ταῦτα (p. 216,10) Alexandri sunt</note>
               <lb n="4" xml:id="p215-3"/>αὐτῷ δείκνυσιν ὅτι μὴ οὐσία τὰ πέρατα τοῦ σώματος, ἃ μᾶλλον οὐσίας
               <lb n="5" xml:id="p215-4"/>ἔδειξε τοῦ σώματος. αἱ μὲν γὰρ μὴ οὖσαι πρότερον, εἶτα ὕστερον οὖσαι<note type="apparatus" n="5" target="#p215-4">οὖσαι Alex.: οὐσίαι libri εἶτα—οὖσαι desunt Alexandro</note>
@@ -10064,9 +10064,9 @@
             <milestone unit="bekker" n="1002b12"/>
             <quote type="lemma">
               <lb n="11" xml:id="p216-10"/>Ὅλως δὲ ἀπορήσειεν ἄν τις διὰ τί καὶ δεῖ ζητεῖν
+              <lb n="12" xml:id="p216-11"/>ἄλλα ἄττα παρὰ τὰ αἰσθητὰ καὶ μεταξύ.
             </quote>
             <p>
-              <lb n="12" xml:id="p216-11"/>ἄλλα ἄττα παρὰ τὰ αἰσθητὰ καὶ μεταξύ.
               <lb n="13" xml:id="p216-12"/>Καὶ ταύτην τὴν ἀπορίαν ἐξέθετο ἐν τοῖς προλαβοῦσιν. ὃ δὲ λέγει
               <lb n="14" xml:id="p216-13"/>τοῦτό ἐστι. τὴν αἰτίαν πειρᾶται ἀποδοῦναι δι’ ἣν οἱ περὶ Πλάτωνα ἐπρέσβευσαν
               <lb n="15" xml:id="p216-14"/>τὰς ἰδέας. καὶ 〈φησὶν ὅτι〉 βουλόμενοι ἑαυτοὺς ἀναγαγεῖν ἐκ τοῦ<note type="apparatus" n="15" target="#p216-14">φησὶν ὅτι addidi</note>
@@ -10152,9 +10152,9 @@
             <milestone unit="bekker" n="1002b12"/>
             <quote type="lemma">
               <lb n="12" xml:id="p218-11"/>Ὅλως δ’ ἀπορήσειεν ἄν τις διὰ τί καὶ δεῖ ζητεῖν
+              <lb n="13" xml:id="p218-12"/>ἄλλα ἄττα.
             </quote>
             <p>
-              <lb n="13" xml:id="p218-12"/>ἄλλα ἄττα.
               <lb n="14" xml:id="p218-13"/>Ἄξιόν ἐστιν ἀπορίας, δι’ ἣν αἰτίαν ζητοῦμεν ἄλλα τινὰ παρὰ ταῦτα τὰ
               <lb n="15" xml:id="p218-14"/>αἰσθητὰ καὶ τὰ μεταξύ, τουτέστι τὰ μαθηματικά, οἷον τὰ εἴδη. εἰ γὰρ διὰ
               <lb n="16" xml:id="p218-15"/>τοῦτο, ὅτι τὰ μὲν μαθηματικὰ τῶν δεῦρο, φημὶ δὴ τῶν ἐνταῦθα, ἄλλῳ
@@ -10260,9 +10260,9 @@
             <milestone unit="bekker" n="1003a5"/>
             <quote type="lemma">
               <lb n="28" xml:id="p220-27"/>Ταύτας τε οὖν τὰς ἀπορίας ἀναγκαῖον ἀπορῆσαι περὶ
+              <lb n="29" xml:id="p220-28"/>τῶν ἀρχῶν.
             </quote>
             <p>
-              <lb n="29" xml:id="p220-28"/>τῶν ἀρχῶν.
               <lb n="30" xml:id="p220-29"/>Πάλιν μέμνηται τῆς πρόσθεν ἤδη ῥηθείσης ἀπορίας, πότερον τὰ στοιχεῖα<note type="apparatus" n="30" target="#p220-29">πάλιν μέμνηται -- ὑπέκειτο (p. 221,10) Alexandri sunt</note>
               <lb n="31" xml:id="p220-30"/>καὶ αἱ ἀρχαὶ τῶν ὄντων καθόλου εἰσὶ καὶ κοινά τινα, ἤγουν τὰ καθ’
               <lb n="32" xml:id="p220-31"/>ἕκαστα. καὶ προστίθησιν ἄλλην ἀπορίαν παρὰ τὴν ῥηθεῖσαν. εἰ μὲν<milestone type="alt-edition" unit="folio" ed="cod. Monacensis gr. 103" n="153r"/>
@@ -10303,9 +10303,9 @@
             <milestone unit="bekker" n="1003a21"/>
             <quote type="lemma">
               <lb n="4" xml:id="p222-3"/>Ἔστιν ἐπιστήμη ἣ θεωρεῖ τὸ ὂν ᾗ ὂν καὶ τὰ τούτῳ
+              <lb n="5" xml:id="p222-4"/>ὑπάρχοντα.
             </quote>
             <p>
-              <lb n="5" xml:id="p222-4"/>ὑπάρχοντα.
               <lb n="6" xml:id="p222-5"/>Ὁ σκοπὸς τοῦ προκειμένου βιβλίου ἐστὶν ἐπιλύσασθαι τὰς πολλὰς τῶν
               <lb n="7" xml:id="p222-6"/>ἀποριῶν τῶν εἰρημένων ἐν τῷ δευτέρῳ, τουτέστιν ἐν τῷ Β. ζητεῖ δὲ καὶ
               <lb n="8" xml:id="p222-7"/>περὶ τῆς ἀντιφάσεως, εἴτε αὐτόπιστός ἐστι κρείττων οὖσα πάσης ἀποδείξεως,
@@ -10389,9 +10389,9 @@
             <milestone unit="bekker" n="1003a21"/>
             <quote type="lemma">
               <lb n="13" xml:id="p224-12"/>Ἔστιν ἐπιστήμη τις, ἣ θεωρεῖ τὸ ὂν 〈ᾗ ὂν〉 καὶ τὰ<note type="apparatus" n="13" target="#p224-12">ᾗ ὂν addidi coll. vv.</note>
+              <lb n="14" xml:id="p224-13"/>τούτῳ ὑπάρχοντα καθ’ αὑτό.
             </quote>
             <p>
-              <lb n="14" xml:id="p224-13"/>τούτῳ ὑπάρχοντα καθ’ αὑτό.
               <lb n="15" xml:id="p224-14"/>Λαμβάνει πρῶτον μὲν τὸ εἶναί τινα ἐπιστήμην περὶ τὸ ὂν ᾗ ὄν, τουτέστι<note type="apparatus" n="15" target="#p224-14">et 18</note><note type="apparatus" n="15" target="#p224-14">λαμβάνει — ἀρχαί (25) pleraque Alexandri sunt</note>
               <lb n="16" xml:id="p224-15"/>τοῦ ὄντος ᾗ ὂν θεωρητικήν τε καὶ ἀποδεικτικὴν τῶν τούτῳ καθ’ αὑτὸ<note type="apparatus" n="16" target="#p224-15">καθ’ αὑτὰ Alex.</note>
               <lb n="17" xml:id="p224-16"/>ὑπαρχόντων [ἀποδεικτικήν]. διό φησιν ἔστιν ἐπιστήμη τις, ἥτις θεωρεῖ<note type="apparatus" n="17" target="#p224-16">ἀποδεικτικήν delevi</note>
@@ -10446,9 +10446,9 @@
             <milestone unit="bekker" n="1003a21"/>
             <quote type="lemma">
               <lb n="12" xml:id="p225-11"/>Ἔστιν ἐπιστήμη τις ἣ θεωρεῖ τὸ ὂν ᾗ ὂν καὶ τὰ
+              <lb n="13" xml:id="p225-12"/>τούτῳ ὑπάρχοντα καθ’ αὑτά.
             </quote>
             <p>
-              <lb n="13" xml:id="p225-12"/>τούτῳ ὑπάρχοντα καθ’ αὑτά.
               <lb n="14" xml:id="p225-13"/>Διὰ τῶν νῦν λεγομένων ὁ Ἀριστοτέλης βούλεται ἡμῖν δεῖξαι ὅτι ἔστι
               <lb n="15" xml:id="p225-14"/>τις ἐπιστήμη ἡ τοῦ ὄντος, καθὸ ὄν ἐστιν, ἀντὶ τοῦ κυρίως ὄντος· ὅπερ
               <lb n="16" xml:id="p225-15"/>κυρίως ὂν ἀγαθόν φησι καὶ πρῶτον καὶ ἔχον γόνιμον δύναμιν, καὶ ἐξ
@@ -10526,9 +10526,9 @@
             <milestone unit="bekker" n="1003a21"/>
             <quote type="lemma">
               <lb n="7" xml:id="p227-6"/>Ἔστιν ἐπιστήμη τις ἣ θεωρεῖ τὸ ὂν ᾗ ὂν καὶ τὰ τούτῳ
+              <lb n="8" xml:id="p227-7"/>ὑπάρχοντα.
             </quote>
             <p>
-              <lb n="8" xml:id="p227-7"/>ὑπάρχοντα.
               <lb n="9" xml:id="p227-8"/>Καθάπερ ἐν τῇ θεωρίᾳ εἰρήκαμεν, πρῶτον λαμβάνει ὡς ὁμολογούμενον
               <lb n="10" xml:id="p227-9"/>ὅτι ἔστιν ἁπλῶς ὂν καὶ ὕστερον· ἐφεξῆς δὲ αὐτὸ προϊὼν δείκνυσι.<note type="apparatus" n="10" target="#p227-9">ὕστερον] fort. κυρίως</note>
               <lb n="11" xml:id="p227-10"/>φησὶν οὖν ὅτι ἔστιν ἐπιστήμη τις, ἥτις θεωρεῖ τὸ ὂν καθὸ ὄν, ἀντὶ τοῦ
@@ -10608,9 +10608,9 @@
             <milestone unit="bekker" n="1003a33"/>
             <quote type="lemma">
               <lb n="34" xml:id="p228-33"/>Τὸ δὲ ὂν λέγεται μὲν πολλαχῶς, ἀλλὰ πρὸς ἓν καὶ
+              <lb n="35" xml:id="p228-34"/>μίαν τινὰ φύσιν καὶ οὐχ ὁμωνύμως.
             </quote>
             <p>
-              <lb n="35" xml:id="p228-34"/>μίαν τινὰ φύσιν καὶ οὐχ ὁμωνύμως.
               <lb n="36" xml:id="p228-35"/>Εἰπὼν εἶναί τινα ἐπιστήμην περὶ τὸ ὂν ᾗ ὂν καὶ τὰς τούτου ἀρχάς<note type="apparatus" n="36" target="#p228-35">εἰπὼν — ἐπιστήμη (p. 229, 3. 4) Alexandri sunt</note>
             </p>
             <pb n="229" facs="https://archive.org/download/commentariaina06pt12akaduoft/page/n484.jpg"/>
@@ -10698,9 +10698,9 @@
             <milestone unit="bekker" n="1003b11"/>
             <quote type="lemma">
               <lb n="26" xml:id="p230-25"/>Καθάπερ οὖν καὶ τῶν ὑγιεινῶν πάντων μία ἐπιστήμη<note type="apparatus" n="26" target="#p230-25">Καθάπερ κτλ.] lemma in libris non distinguitur</note>
+              <lb n="27" xml:id="p230-26"/>ἐστί.
             </quote>
             <p>
-              <lb n="27" xml:id="p230-26"/>ἐστί.
               <lb n="28" xml:id="p230-27"/>Δείξας ὅτι τὸ ὂν οὕτως λέγεται ὡς τὸ ὑγιεινὸν καὶ τὸ ἰατρικόν (πρὸς
               <lb n="29" xml:id="p230-28"/>ἓν γὰρ καὶ ἀφ’ ἑνὸς ταῦτα καὶ τὸ ὄν· πρὸς γὰρ τὴν οὐσίαν), κατὰ τὴν πρὸς
               <lb n="30" xml:id="p230-29"/>ταῦτα ὁμοιότητα αὐτοῦ λαμβάνει τὸ καὶ μίαν ἐπιστήμην εἶναι αὐτοῦ· ὡς
@@ -10722,9 +10722,9 @@
             <milestone unit="bekker" n="1003b12"/>
             <quote type="lemma">
               <lb n="8" xml:id="p231-7"/>Οὐ γὰρ μόνον τῶν καθ’ ἓν λεγομένων ἐπιστήμης ἐστὶ<note type="apparatus" n="8" target="#p231-7">Οὐ γὰρ κτλ.] lemma non distinguunt codices</note>
+              <lb n="9" xml:id="p231-8"/>θεωρῆσαι μιᾶς.
             </quote>
             <p>
-              <lb n="9" xml:id="p231-8"/>θεωρῆσαι μιᾶς.
               <lb n="10" xml:id="p231-9"/>Καθ’ ἓν μὲν λεγόμενα λέγει τὰ συνώνυμα καὶ ὑφ’ ἕν τι κοινὸν τελοῦντα<note type="apparatus" n="10" target="#p231-9">καθ’ ἓν — φύσεως (20) Alexandri sunt</note>
               <lb n="11" xml:id="p231-10"/>γένος. οὐ μόνον δὲ τῶν οὕτως ἐχόντων πρὸς ἄλληλα μία ἐστὶν
               <lb n="12" xml:id="p231-11"/>ἐπιστήμη, ἀλλὰ καὶ τῶν ἀφ’ ἑνὸς καὶ πρὸς ἕν. τρόπον γάρ τινα καὶ τὰ<note type="apparatus" n="12" target="#p231-11">καὶ ταῦτα D Alex.</note>
@@ -10777,9 +10777,9 @@
             <milestone unit="bekker" n="1003b19"/>
             <quote type="lemma">
               <lb n="12" xml:id="p232-11"/>Ἅπαντος δὲ γένους καὶ αἴσθησις μία ἑνὸς καὶ ἐπιστήμη,
+              <lb n="13" xml:id="p232-12"/>οἷον γραμματική.
             </quote>
             <p>
-              <lb n="13" xml:id="p232-12"/>οἷον γραμματική.
               <lb n="14" xml:id="p232-13"/>Τρία προέθηκεν ἐξ ἀρχῆς ζητῆσαι, πρῶτον μὲν εἰ τῷ ὄντι περὶ τὸ
               <lb n="15" xml:id="p232-14"/>ὄντως ὂν καταγίνεται ὁ πρῶτος φιλόσοφος καὶ γινώσκει πάντα τὰ ὄντα,
               <lb n="16" xml:id="p232-15"/>δεύτερον δὲ εἰ γινώσκει τὰ καθ’ αὑτὸ ὑπάρχοντα τοῖς πράγμασι, τρίτον εἰ
@@ -10986,9 +10986,9 @@
             <milestone unit="bekker" n="1003b36"/>
             <quote type="lemma">
               <lb n="5" xml:id="p237-4"/>Σχεδὸν δὲ πάντα ἀνάγεται τἀναντία εἰς τὴν ἀρχὴν
+              <lb n="6" xml:id="p237-5"/>ταύτην.
             </quote>
             <p>
-              <lb n="6" xml:id="p237-5"/>ταύτην.
               <lb n="7" xml:id="p237-6"/>Ἀρχὴν λέγει τὴν ἐναντίωσιν τὸ ἓν καὶ τὸ τῷ ἑνὶ ἀντικείμενον, τοῦτο<note type="apparatus" n="7" target="#p237-6">ἀρχὴν λέγει — τοῦ ἀγαθοῦ (14) pleraque Alexandri sunt</note>
               <lb n="8" xml:id="p237-7"/>δέ ἐστι τὸ πλῆθος· τὸ μὲν γὰρ ταὐτὸν ἕν τι, τὸ δὲ ἕτερον πλῆθος καὶ ἐν<milestone type="alt-edition" unit="folio" ed="cod. Monacensis gr. 103" n="164v"/>
               <lb n="9" xml:id="p237-8"/>πλήθει. ὁμοίως δὲ καὶ τὸ ὅμοιον ἕν τι, τὸ δὲ ἀνόμοιον ἐν πλήθει θεωρεῖται,
@@ -11061,9 +11061,9 @@
             <milestone unit="bekker" n="1004a10"/>
             <quote type="lemma">
               <lb n="19" xml:id="p238-18"/>Τῷ τε ἑνὶ ἀντίκειται πλῆθος, ἀπόφασιν δὲ καὶ στέρησιν
+              <lb n="20" xml:id="p238-19"/>μιᾶς ἐστιν ἐπιστήμης θεωρῆσαι.
             </quote>
             <p>
-              <lb n="20" xml:id="p238-19"/>μιᾶς ἐστιν ἐπιστήμης θεωρῆσαι.
               <lb n="21" xml:id="p238-20"/>Τουτέστι κατάφασιν καὶ ἀπόφασιν καὶ ἕξιν καὶ στέρησιν. ὁ γὰρ εἰδὼς
               <lb n="22" xml:id="p238-21"/>τὴν ἀπόφασιν οἶδε πολλῷ μᾶλλον καὶ τὴν κατάφασιν· προτέρα γὰρ φύσει
               <lb n="23" xml:id="p238-22"/>ἡ κατάφασις τῆς ἀποφάσεως· καὶ ὁ εἰδὼς πάλιν τὴν στέρησιν οἶδε καὶ
@@ -11263,9 +11263,9 @@
             <milestone unit="bekker" n="1004b8"/>
             <quote type="lemma">
               <lb n="25" xml:id="p242-24"/>Καὶ οὐ ταύτῃ ἁμαρτάνουσιν οἱ περὶ αὐτῶν σκοπούμενοι
+              <lb n="26" xml:id="p242-25"/>ὡς οὐ φιλοσοφοῦντες.
             </quote>
             <p>
-              <lb n="26" xml:id="p242-25"/>ὡς οὐ φιλοσοφοῦντες.
               <lb n="27" xml:id="p242-26"/>Πρόκειται αὐτῷ δεῖξαι ὅτι ὁ πρῶτος φιλόσοφος περὶ πάντων τῶν ὄντων
               <lb n="28" xml:id="p242-27"/>διαλέγεται καὶ τῶν καθ’ αὑτὸ ὑπαρχόντων τοῖς πράγμασι. καὶ ἤδη
               <lb n="29" xml:id="p242-28"/>μὲν φθάσας διὰ πλειόνων ἐπιχειρημάτων τοῦτο ἔδειξε, καὶ νῦν δὲ τοῦτο
@@ -11589,9 +11589,9 @@
             <milestone unit="bekker" n="1005a19"/>
             <quote type="lemma">
               <lb n="25" xml:id="p249-24"/>Λεκτέον δὲ πότερον μιᾶς ἢ ἑτέρας ἐπιστήμης περί τε
+              <lb n="26" xml:id="p249-25"/>τῶν ἐν τοῖς μαθήμασι καλουμένων ἀξιωμάτων.
             </quote>
             <p>
-              <lb n="26" xml:id="p249-25"/>τῶν ἐν τοῖς μαθήμασι καλουμένων ἀξιωμάτων.
               <lb n="27" xml:id="p249-26"/>Ἐζήτησε τοῦτο καὶ ἐν τῷ β στοιχείῳ, πότερον ὁ πρῶτος φιλόσοφος
               <lb n="28" xml:id="p249-27"/>διαλέξεται περὶ πασῶν τῶν οὐσιῶν καὶ τῶν καθ’ αὑτὸ ὑπαρχόντων ταῖς
               <lb n="29" xml:id="p249-28"/>οὐσίαις· καὶ ἔδειξεν ὅτι ὁ πρῶτος φιλόσοφος προσεχῶς διαλέξεται περὶ
@@ -11994,9 +11994,9 @@
             <milestone unit="bekker" n="1005b19"/>
             <quote type="lemma">
               <lb n="17" xml:id="p258-16"/>Τὸ γὰρ αὐτὸ ἅμα ὑπάρχειν καὶ μὴ ὑπάρχειν ἀδύνατον
+              <lb n="18" xml:id="p258-17"/>τῷ αὐτῷ.
             </quote>
             <p>
-              <lb n="18" xml:id="p258-17"/>τῷ αὐτῷ.
               <lb n="19" xml:id="p258-18"/>Ἐντεῦθεν λοιπὸν κρατύνει τὸ δόγμα τὸ περὶ τῆς ἀντιφάσεως, καί φησιν
               <lb n="20" xml:id="p258-19"/>ὅτι τὸ γὰρ αὐτὸ ἅμα ὑπάρχειν καὶ μὴ ὑπάρχειν τῶν ἀδυνάτων ἐστὶ
               <lb n="21" xml:id="p258-20"/>τῷ αὐτῷ ὑποκειμένῳ καὶ κατὰ λόγον τὸν αὐτὸν κατηγορούμενον· καὶ<note type="apparatus" n="21" target="#p258-20">τὸν αὐτὸν scripsi: τὸ αὐτὸ libri</note>
@@ -12050,9 +12050,9 @@
             <milestone unit="bekker" n="1006a5"/>
             <quote type="lemma">
               <lb n="25" xml:id="p259-24"/>Ἀξιοῦσι δὲ καὶ τοῦτο ἀποδεικνύναι τινὲς διὰ ἀπαιδευσίαν.
+              <lb n="26" xml:id="p259-25"/>
             </quote>
             <p>
-              <lb n="26" xml:id="p259-25"/>
               <lb n="27" xml:id="p259-26"/>Φησὶν ὅτι τινὲς ἀπαιδεύτως φερόμενοι πειρῶνται ἀποδεικνύναι τὸ
               <lb n="28" xml:id="p259-27"/>ἀξίωμα τὸ τῆς ἀντιφάσεως. τῷ ὄντι γὰρ ἀπαιδευσία ἐστὶ τὸ μὴ γινώσκειν,<note type="apparatus" n="28" target="#p259-27">τὸ (ante τῆς) om. D 17*</note>
               <lb n="29" xml:id="p259-28"/>τίνων ἐστὶν ἀπόδειξις, καὶ τίνων δεῖ ἡμᾶς ζητεῖν ἀποδείξεις καὶ τίνων οὐ
@@ -12125,9 +12125,9 @@
             <milestone unit="bekker" n="1006a31"/>
             <quote type="lemma">
               <lb n="4" xml:id="p261-3"/>Ἔτι εἰ τὸ ἄνθρωπος σημαίνει ἕν, ἔστω τοῦτο ζῷον
+              <lb n="5" xml:id="p261-4"/>δίπουν.
             </quote>
             <p>
-              <lb n="5" xml:id="p261-4"/>δίπουν.
               <lb n="6" xml:id="p261-5"/>Ἔτι τοῦ αὐτοῦ πλείονα ἐπιχειρήματα τίθησι κατασκευαστικὰ καί φησιν
               <lb n="7" xml:id="p261-6"/>οὕτως. εἰ ὡμολογήσαμεν ὅτι τὸ ἄνθρωπος ὄνομα ἕν τι δηλοῖ ὡρισμένον,
               <lb n="8" xml:id="p261-7"/>ὡς ἔδειξεν ἡ διαίρεσις ἐν τῇ θεωρίᾳ, ἔστω τοῦτο τὸ σημαινόμενον ζῷον<note type="apparatus" n="8" target="#p261-7">ἡ om. D</note><note type="apparatus" n="8-9" target="#p261-7 #p261-8">ζῷον δήπου D</note>
@@ -12254,9 +12254,9 @@
             <milestone unit="bekker" n="1007a20"/>
             <quote type="lemma">
               <lb n="30" xml:id="p263-29"/>Ὅλως δὲ ἀναιροῦσιν 〈οἱ〉 τοῦτο λέγοντες οὐσίαν καὶ<note type="apparatus" n="30" target="#p263-29">οἱ addidi coll. p. 264, 5. 9. 10</note>
+              <lb n="31" xml:id="p263-30"/>τὸ τί ἦν εἶναι.
             </quote>
             <p>
-              <lb n="31" xml:id="p263-30"/>τὸ τί ἦν εἶναι.
               <lb n="32" xml:id="p263-31"/>Ἔτι ὁ λόγος αὐτῷ περὶ τῆς ἀντιφάσεως ὑπάρχει, καὶ ἀντιλέγει πρὸς
               <lb n="33" xml:id="p263-32"/>τοὺς λέγοντας συναληθεύειν τὴν ἀντίφασιν. φησὶν οὖν ὅτι ἐπὶ μὲν τῶν
               <lb n="34" xml:id="p263-33"/>συμβεβηκότων χώραν ἔχει τοῦτο τὸ λέγειν συναληθεύειν τὴν ἀντίφασιν,
@@ -12682,9 +12682,9 @@
             <milestone unit="bekker" n="1008b7"/>
             <quote type="lemma">
               <lb n="13" xml:id="p272-12"/>Εἰ δὲ ὁμοίως ἅπαντες καὶ ψεύδονται καὶ ἀληθῆ λέγουσιν.
+              <lb n="14" xml:id="p272-13"/>
             </quote>
             <p>
-              <lb n="14" xml:id="p272-13"/>
               <lb n="15" xml:id="p272-14"/>Εἰ ὑποθώμεθα τὴν ἀντίφασιν συναληθεύειν καὶ ὁμοίως ἅπαντας καὶ
               <lb n="16" xml:id="p272-15"/>ψεύδεσθαι καὶ ἀληθεύειν, οὐδὲν ἔστιν οὔτε φθέγξασθαι οὔτε λέγειν. τί γὰρ
               <lb n="17" xml:id="p272-16"/>ἔχει εἰπεῖν τις, ἡνίκα ψεύδεται καὶ πάλιν ὁ αὐτὸς ἀληθεύει; ὁ γὰρ τοιοῦτος
@@ -12808,9 +12808,9 @@
             <milestone unit="bekker" n="1009a22"/>
             <quote type="lemma">
               <lb n="33" xml:id="p274-32"/>Ἐλήλυθε δὲ τοῖς διαποροῦσιν αὕτη ἡ δόξα ἐκ τῶν αἰσθητῶν.
+              <lb n="34" xml:id="p274-33"/>
             </quote>
             <p>
-              <lb n="34" xml:id="p274-33"/>
               <lb n="35" xml:id="p274-34"/>Ἐντεῦθεν τὴν αἰτίαν ἡμῖν λέγει, πόθεν ἀπατηθέντες οἱ πολλοὶ ταύτην
             </p>
             <pb n="275" facs="https://archive.org/download/commentariaina06pt12akaduoft/page/n530.jpg"/>
@@ -12849,9 +12849,9 @@
             <milestone unit="bekker" n="1009a36"/>
             <quote type="lemma">
               <lb n="29" xml:id="p275-28"/>Ἔτι δὲ ἀξιώσομεν αὐτοὺς ὑπολαμβάνειν καὶ ἄλλην
+              <lb n="30" xml:id="p275-29"/>οὐσίαν.
             </quote>
             <p>
-              <lb n="30" xml:id="p275-29"/>οὐσίαν.
               <lb n="31" xml:id="p275-30"/>Ἐπειδὴ ἐκ τῶν αἰσθητῶν ἠπατήθησαν, ἔδει αὐτοὺς ἐννοῆσαι ὅτι ὑπάργουσι
               <lb n="32" xml:id="p275-31"/>καὶ ἄλλαι οὐσίαι καὶ τῶν νοητῶν, ἐφ’ ὧν οὐ θεωρεῖται τὸ δυνάμει,<note type="apparatus" n="32" target="#p275-31">τὸ om. D</note>
               <lb n="33" xml:id="p275-32"/>ἀλλ’ ἐκεῖσε ἐνέργειαι ὑπάρχουσιν ἄνευ δυνάμεως, καὶ οὐκ ἔστιν ἐκεῖσε τὸ
@@ -13033,9 +13033,9 @@
             <milestone unit="bekker" n="1010b1"/>
             <quote type="lemma">
               <lb n="4" xml:id="p280-3"/>Περὶ δὲ τῆς ἀληθείας ὡς οὐ πᾶν τὸ φαινόμενον ἀληθές,
+              <lb n="5" xml:id="p280-4"/>πρῶτον μέν.
             </quote>
             <p>
-              <lb n="5" xml:id="p280-4"/>πρῶτον μέν.
               <lb n="6" xml:id="p280-5"/>Ἐντεῦθεν πρὸς τὴν Πρωταγόρειον δόξαν ἐνίσταται τὴν λέγουσαν πᾶν
               <lb n="7" xml:id="p280-6"/>τὸ φαινόμενον ἀληθὲς εἶναι, καὶ ‘τὸ δοκοῦν ἑκάστῳ τοῦτο καὶ ἀληθές ἐστιν.’
               <lb n="8" xml:id="p280-7"/>ἐκέχρητο δὲ ὁ Πρωταγόρας τοιούτῳ συλλογισμῷ πρὸς τὴν σύστασιν τῆς οἰκείας
@@ -13071,9 +13071,9 @@
             <milestone unit="bekker" n="1010b3"/>
             <quote type="lemma">
               <lb n="28" xml:id="p280-27"/>Εἶτα ἄξιον θαυμάσαι, εἰ τοῦτο ἀποροῦσι, πότερον τηλικαῦτά
+              <lb n="29" xml:id="p280-28"/>ἐστι τὰ μεγέθη.
             </quote>
             <p>
-              <lb n="29" xml:id="p280-28"/>ἐστι τὰ μεγέθη.
               <lb n="30" xml:id="p280-29"/>Ἄξιόν ἐστιν αὐτοὺς θαυμάσαι, πῶς ὅλως φασὶν ὅτι πᾶσα αἴσθησίς<note type="apparatus" n="30" target="#p280-29">φασὶν scripsi: φησὶν libri</note>
               <lb n="31" xml:id="p280-30"/>ἐστιν ἀληθής. ἡνίκα γάρ τις πόρρωθεν θεωρεῖ ὄρος μέγα, μικρὸν αὐτῷ
               <lb n="32" xml:id="p280-31"/>πάνυ δοκεῖ εἶναι διὰ τὸ διάστημα τῆς ὄψεως ἐξασθενούσης, καὶ ὥσπερ
@@ -13138,9 +13138,9 @@
             <milestone unit="bekker" n="1010b18"/>
             <quote type="lemma">
               <lb n="9" xml:id="p282-8"/>Ὧν ἑκάστη ἐν τῷ αὐτῷ χρόνῳ περὶ τὸ αὐτὸ οὐδέποτέ
+              <lb n="10" xml:id="p282-9"/>φησιν ἅμα οὕτω καὶ οὐχ οὕτως ἔχειν.<note type="apparatus" n="10" target="#p282-9">οὕτω Aristoteles, cf. v. 21: αὐτῷ libri ἔχειν Aristoteles: ἔχει libri</note>
             </quote>
             <p>
-              <lb n="10" xml:id="p282-9"/>φησιν ἅμα οὕτω καὶ οὐχ οὕτως ἔχειν.<note type="apparatus" n="10" target="#p282-9">οὕτω Aristoteles, cf. v. 21: αὐτῷ libri ἔχειν Aristoteles: ἔχει libri</note>
               <lb n="11" xml:id="p282-10"/>Ἰστέον ὅτι ἡ ἀπάτη γίνεται ἢ παρὰ τὴν ἐξάλλαξιν τῶν αἰσθητῶν
               <lb n="12" xml:id="p282-11"/>ἢ παρὰ τὴν ἐξάλλαξιν τῶν αἰσθήσεων ἢ παρὰ τὴν διαφορὰν τῶν μορίων.<note type="apparatus" n="12" target="#p282-11">ἢ παρὰ τὴν ἐξάλλαξιν — τῶν αἰσθητῶν (13) om. D</note>
               <lb n="13" xml:id="p282-12"/>παρὰ μὲν τὴν ἐξάλλαξιν τῶν αἰσθητῶν, ἐὰν ὁ οἶνος μεταβάλοι ὁ γλυκὺς
@@ -13225,9 +13225,9 @@
             <milestone unit="bekker" n="1011a3"/>
             <quote type="lemma">
               <lb n="8" xml:id="p284-7"/>Εἰσὶ δέ τινες οἳ ἀποροῦσι καὶ τῶν ταῦτα πεπεισμένων
+              <lb n="9" xml:id="p284-8"/>καὶ τῶν τοὺς λόγους τούτους μόνους λεγόντων.
             </quote>
             <p>
-              <lb n="9" xml:id="p284-8"/>καὶ τῶν τοὺς λόγους τούτους μόνους λεγόντων.
               <lb n="10" xml:id="p284-9"/>Ἐντεῦθεν ἕτερον ἐπιχείρημα τίθησι καί φησιν ὅτι εἰσί τινες οἷς μὲν
               <lb n="11" xml:id="p284-10"/>ἀρέσκει τὰ παρ’ ἡμῶν λεγόμενα, ὅτι οὐκ ὀρθῶς λέγουσιν οἱ περὶ Πρωταγόραν
               <lb n="12" xml:id="p284-11"/>* * * ὁ παρ’ ἐκείνων λόγος ταράττει αὐτούς. φασὶν γὰρ ἐκεῖνοι<note type="apparatus" n="12" target="#p284-11">ante ὁ lacuna VI litt. A, IV litt. D: addendum videtur ἀλλ’ ὅμως</note>
@@ -13385,10 +13385,10 @@
             <milestone unit="bekker" n="1011a28"/>
             <quote type="lemma">
               <lb n="26" xml:id="p287-25"/>Ἐπεὶ πρός γε τοὺς διὰ τὰς πάλαι εἰρημένας αἰτίας<note type="apparatus" n="26" target="#p287-25">ἐπεὶ πρός γε scripsi: ἔτι πρός τε libri</note>
-            </quote>
-            <p>
               <lb n="27" xml:id="p287-26"/>τὸ φαινόμενον φάσκοντας ἀληθὲς εἶναι, καὶ διὰ τοῦτο πάντα
               <lb n="28" xml:id="p287-27"/>ὁμοίως εἶναι ψευδῆ καὶ ἀληθῆ.
+            </quote>
+            <p>
               <lb n="29" xml:id="p287-28"/>Ὁ τῆς Ἀφροδισιάδος Ἀλέξανδρος οὕτως ἐξηγεῖται τὸ χωρίον. λέγει<note type="apparatus" n="29" target="#p287-28">Ἀλέξανδρος] p. 278,18 sqq. Bz.</note>
               <lb n="30" xml:id="p287-29"/>περὶ τῶν διὰ τὸ ἀπορῆσαι ἐπὶ τὸ τοῦτο θέσθαι ἐλθόντων, οὓς καὶ εἶπε<note type="apparatus" n="30" target="#p287-29">διὰ τὸ ἀπορῆσαι Alex.: διαπορῆσαι libri</note>
               <lb n="31" xml:id="p287-30"/>μετριωτέρους τε εἶναι καὶ ὑπομνήσεως καὶ διδασκαλίας, οὐκ ἐλέγχου δεῖσθαι.
@@ -13562,9 +13562,9 @@
             <milestone unit="bekker" n="1011b15"/>
             <quote type="lemma">
               <lb n="30" xml:id="p291-29"/>Ἐπεὶ δὲ ἀδύνατον τὴν ἀντίφασιν ἀληθεύεσθαι ἅμα
+              <lb n="31" xml:id="p291-30"/>κατὰ τοῦ αὐτοῦ.
             </quote>
             <p>
-              <lb n="31" xml:id="p291-30"/>κατὰ τοῦ αὐτοῦ.
               <lb n="32" xml:id="p291-31"/>Δείξας διὰ τῶν προλαβόντων ὅτι οὐ δυνατὸν συντρέχειν καὶ συναληθεύειν<milestone type="alt-edition" unit="folio" ed="cod. Monacensis gr. 103" n="204r"/>
             </p>
             <pb n="292" facs="https://archive.org/download/commentariaina06pt12akaduoft/page/n547.jpg"/>
@@ -13614,9 +13614,9 @@
             <milestone unit="bekker" n="1011b15"/>
             <quote type="lemma">
               <lb n="1" xml:id="p293-0"/>Ἐπειδὴ ἀδύνατον τὴν ἀντίφασιν ἀληθεύεσθαι ἅμα
+              <lb n="2" xml:id="p293-1"/>κατὰ τοῦ αὐτοῦ.
             </quote>
             <p>
-              <lb n="2" xml:id="p293-1"/>κατὰ τοῦ αὐτοῦ.
               <lb n="3" xml:id="p293-2"/>Εἰ ἱκανῶς ἀπέδειξεν ὁ λόγος ὅτι οὐ δυνατὸν τὴν ἀντίφασιν συναληθεύειν
               <lb n="4" xml:id="p293-3"/>κατὰ τοῦ αὐτοῦ, ὥστε τὸ αὐτὸ κατὰ τὸ αὐτὸ καὶ ἐν τῷ αὐτῷ χρόνῳ καὶ εἶναι
               <lb n="5" xml:id="p293-4"/>λευκὸν καὶ οὐ λευκόν, φανερὸν ὅτι οὐδὲ τὰ ἐναντία ἐνδέχεται ἅμα
@@ -13680,9 +13680,9 @@
             <milestone unit="bekker" n="1011b29"/>
             <quote type="lemma">
               <lb n="8" xml:id="p294-7"/>Ἔτι ἤτοι μεταξὺ ἔσται τῆς ἀντιφάσεως, ὥσπερ τὸ
+              <lb n="9" xml:id="p294-8"/>φαιὸν μέλανος καὶ λευκοῦ.
             </quote>
             <p>
-              <lb n="9" xml:id="p294-8"/>φαιὸν μέλανος καὶ λευκοῦ.
               <lb n="10" xml:id="p294-9"/>Ὅπερ ἐλέγομεν ἐν τῇ θεωρίᾳ, τὸ αὐτὸ νῦν λέγει, ὅτι εἰ ἔστι τι μεταξύ,
               <lb n="11" xml:id="p294-10"/>ἢ ἀλλότριόν ἐστιν ἢ † αὐτῶν γένεσις. εἰ οὖν ἔστι τι μεταξὺ τῆς ἀντιφάσεως,<note type="apparatus" n="11" target="#p294-10">αὐτῶν γένεσις] legendum ταὐτὸν γένει vel συγγενές</note>
               <lb n="12" xml:id="p294-11"/>ἤτοι οὕτως μεταξὺ ἔσται ὥσπερ τὸ φαιὸν μέλανος καὶ λευκοῦ,
@@ -13828,9 +13828,9 @@
             <milestone unit="bekker" n="1012a15"/>
             <quote type="lemma">
               <lb n="11" xml:id="p297-10"/>Ἔτι ὅταν ἐρομένου εἰ λευκόν ἐστιν εἴπῃ ὅτι οὔ, οὐθὲν<note type="apparatus" n="11" target="#p297-10">ἐρομένου ex Aristotele scripsi: ἐρόμενος libri</note>
+              <lb n="12" xml:id="p297-11"/>ἄλλο † ἀπεφήνατο εἶναι.<note type="apparatus" n="12" target="#p297-11">ἀπεφήνατο εἶναι] legendum ἀπέφησεν (vel ἀποφάσκει) ἢ τὸ εἶναι; cf. Bonitzii comment. in Metaph. p. 215</note>
             </quote>
             <p>
-              <lb n="12" xml:id="p297-11"/>ἄλλο † ἀπεφήνατο εἶναι.<note type="apparatus" n="12" target="#p297-11">ἀπεφήνατο εἶναι] legendum ἀπέφησεν (vel ἀποφάσκει) ἢ τὸ εἶναι; cf. Bonitzii comment. in Metaph. p. 215</note>
               <lb n="13" xml:id="p297-12"/>Ὅταν τις ἔρηται ὅτι εἰ λευκός ἐστι Σωκράτης, καὶ ὁ μὲν εἴπῃ ὅτι
               <lb n="14" xml:id="p297-13"/>ναί, ὁ δὲ ὅτι οὔ, καὶ ὁ μὲν εἶναι εἰπὼν καταφάσκει, ὁ δὲ ἀρνησάμενος<note type="apparatus" n="14" target="#p297-13">καὶ ὁ μὲν εἶναι — ἀπόκρισιν (20) Alexandri sunt</note>
               <lb n="15" xml:id="p297-14"/>καὶ εἰπὼν μὴ εἶναι οὐδὲν ἄλλο ἢ τὸ εἶναι ἀποφάσκει, οὐδὲν ἂν εἴη μεταξὺ
@@ -13846,9 +13846,9 @@
             <milestone unit="bekker" n="1012a17"/>
             <quote type="lemma">
               <lb n="22" xml:id="p297-21"/>Ἐλήλυθε δὲ ἐνίοις αὕτη ἡ δόξα ὥσπερ καὶ αἱ ἄλλαι
+              <lb n="23" xml:id="p297-22"/>τῶν παραδόξων.
             </quote>
             <p>
-              <lb n="23" xml:id="p297-22"/>τῶν παραδόξων.
               <lb n="24" xml:id="p297-23"/>Ἐντεῦθεν τὴν αἰτίαν λέγει, φησί, δι’ ἣν ἐπὶ ταύτην ἦλθον τὴν δόξαν
               <lb n="25" xml:id="p297-24"/>οἱ παλαιοὶ καὶ εἰρήκασιν εἶναί τι μεταξὺ τῆς ἀντιφάσεως. τὴν δὲ αὐτὴν<note type="apparatus" n="25" target="#p297-24">τὴν δὲ αὐτὴν — ὕδωρ (p. 298,13) ex Alexandro excerpta sunt</note><milestone type="alt-edition" unit="folio" ed="cod. Monacensis gr. 103" n="208r"/>
               <lb n="26" xml:id="p297-25"/>εἶναι λέγει, ἥπερ καὶ ἐπὶ τῶν ἄλλων παραδόξων, ἃ τίθενταί τινες, διὰ τὸ<note type="apparatus" n="26" target="#p297-25">ἥπερ Alex.</note>
@@ -13963,9 +13963,9 @@
             <milestone unit="bekker" n="1012b13"/>
             <quote type="lemma">
               <lb n="7" xml:id="p300-6"/>Συμβαίνει δὲ καὶ τὸ θρυλλούμενον πᾶσι τοῖς τοιούτοις
+              <lb n="8" xml:id="p300-7"/>λόγοις.
             </quote>
             <p>
-              <lb n="8" xml:id="p300-7"/>λόγοις.
               <lb n="9" xml:id="p300-8"/>Πρὸς ἐπὶ τούτοις δὲ οἱ ταῦτα λέγοντες ἑαυτοὺς ἀναιροῦσιν, ὡς εἶπε
               <lb n="10" xml:id="p300-9"/>καὶ ὁ Πλάτων ἐν τῷ Θεαιτήτῳ πρὸς τὸν Πρωταγόραν, * * * ἔλεγεν ὅτι<note type="apparatus" n="10" target="#p300-9">Πλάτων ἐν τῷ Θεαιτήτῳ] p. 171 A sqq. lacunam indicavi: addendum καὶ γὰρ ἐκεῖνος</note>
               <lb n="11" xml:id="p300-10"/>πᾶς ἀληθῆ λέγει. ὁ οὖν Πλάτων ἔλεγεν ‘ὦ Πρωταγόρα, ἡμεῖς λέγομέν σε
@@ -14029,9 +14029,9 @@
             <milestone unit="bekker" n="1012b34"/>
             <quote type="lemma">
               <lb n="3" xml:id="p302-2"/>Ἀρχὴ δὲ λέγεται ἡ μὲν ὅθεν ἄν τις τοῦ πράγματος
+              <lb n="4" xml:id="p302-3"/>κινηθείη.
             </quote>
             <p>
-              <lb n="4" xml:id="p302-3"/>κινηθείη.
               <lb n="5" xml:id="p302-4"/>Ἐλέγομεν ἀρχόμενοι τῆς προκειμένης πραγματείας ὅτι ὁ πρῶτος φιλόσοφος
               <lb n="6" xml:id="p302-5"/>περὶ τὸ ὄντως ὂν καταγίνεται, ἥντινα καὶ σοφίαν προσηγορεύομεν,
               <lb n="7" xml:id="p302-6"/>λέγοντες ὅτι ὁ πρῶτος φιλόσοφος περὶ τοῦ ἁπλῶς ὄντος διαλέγεται τοῦ
@@ -14092,9 +14092,9 @@
             <milestone unit="bekker" n="1012b34"/>
             <quote type="lemma">
               <lb n="29" xml:id="p303-28"/>Ἀρχὴ λέγεται ἡ μὲν ὅθεν ἄν τις τοῦ πράγματος
+              <lb n="30" xml:id="p303-29"/>κινηθείη.
             </quote>
             <p>
-              <lb n="30" xml:id="p303-29"/>κινηθείη.
               <lb n="31" xml:id="p303-30"/>Φησὶν ὅτι λέγεται ἀρχὴ ὁ τόπος, ἐξ οὗ τις πρῶτον ἄρχεται τῆς κινήσεως,
               <lb n="32" xml:id="p303-31"/>οἷον ὡς ἐπὶ τοῦ μήκους καὶ τῆς ὁδοῦ ἐντεῦθεν αὕτη ἀρχή,
               <lb n="33" xml:id="p303-32"/>οἷον ἀπὸ Ἀθηνῶν εἰς Θήβας, ἐξ ἐναντίας δὲ ἡ ἑτέρα, τουτέστιν ἡ
@@ -14262,9 +14262,9 @@
             <milestone unit="bekker" n="1014a26"/>
             <quote type="lemma">
               <lb n="7" xml:id="p307-6"/>Στοιχεῖον λέγεται ἐξ οὗ σύγκειται πρώτου ἐνυπάρχοντος,
+              <lb n="8" xml:id="p307-7"/>ἀδιαιρέτου τῷ εἴδει εἰς ἕτερον εἶδος.
             </quote>
             <p>
-              <lb n="8" xml:id="p307-7"/>ἀδιαιρέτου τῷ εἴδει εἰς ἕτερον εἶδος.
               <lb n="9" xml:id="p307-8"/>Καὶ ἐν τῷ τρίτῳ τῆς Περὶ οὐρανοῦ οὕτως ὡρίσατο τὸ στοιχεῖον.<note type="apparatus" n="9" target="#p307-8">ἐν τῷ τρίτῳ τῆς Περὶ οὐρανοῦ] c. 3 p. 302 a</note>
               <lb n="10" xml:id="p307-9"/>ἰστέον γὰρ ὅτι καὶ ὁ Ἐμπεδοκλῆς πρῶτα λέγων τὰ τέσσαρα στοιχεῖα τὰ<milestone type="alt-edition" unit="folio" ed="cod. Monacensis gr. 103" n="214r"/>
               <lb n="11" xml:id="p307-10"/>πολυθρύλλητα προσηγόρευεν αὐτὰ στοιχεῖα. φησὶν οὖν ὅτι στοιχεῖόν ἐστιν ἐξ
@@ -14312,9 +14312,9 @@
             <milestone unit="bekker" n="1014b16"/>
             <quote type="lemma">
               <lb n="13" xml:id="p308-12"/>Φύσις δὲ λέγεται ἕνα μὲν τρόπον ἡ τῶν φυομένων
+              <lb n="14" xml:id="p308-13"/>γένεσις.
             </quote>
             <p>
-              <lb n="14" xml:id="p308-13"/>γένεσις.
               <lb n="15" xml:id="p308-14"/>Εἰρηκὼς περὶ ἀρχῶν καὶ αἰτίων καὶ τῶν ἄλλων τῶν εἰρημένων ὑπ’
               <lb n="16" xml:id="p308-15"/>αὐτῶν, ἅτινα ἐν πάσαις ταῖς ἐπιστήμαις θεωροῦνται, ἐντεῦθεν λέγει ἡμῖν
               <lb n="17" xml:id="p308-16"/>καὶ περὶ ἑτέρων τινῶν, περὶ ἃ πᾶσαι αἱ ἐπιστῆμαι καταγίνονται, καὶ ταῦτα
@@ -14466,9 +14466,9 @@
             <milestone unit="bekker" n="1014b35"/>
             <quote type="lemma">
               <lb n="25" xml:id="p311-24"/>Ἔτι δὲ ἄλλον τρόπον λέγεται ἡ φύσις ἡ τῶν ὄντων
+              <lb n="26" xml:id="p311-25"/>φύσει οὐσία.
             </quote>
             <p>
-              <lb n="26" xml:id="p311-25"/>φύσει οὐσία.
               <lb n="27" xml:id="p311-26"/>Ὁ Ἀλέξανδρος οἴεται περὶ τοῦ συνθέτου λέγειν αὐτὸν ἐνταῦθα· ὅσον<note type="apparatus" n="27" target="#p311-26">ὁ Ἀλέξανδρος] p. 318,7 Bz.</note>
               <lb n="28" xml:id="p311-27"/>δὲ ἐκ τῶν λεγομένων ὑπ’ αὐτοῦ, περὶ τοῦ εἴδους λέγει. τί γάρ; φησὶν
               <lb n="29" xml:id="p311-28"/>ὅτι κατ’ ἄλλον τρόπον λέγεται φύσις ἡ οὐσία, τουτέστι τὸ εἶδος· τὸ γὰρ
@@ -14649,9 +14649,9 @@
             <milestone unit="bekker" n="1016b6"/>
             <quote type="lemma">
               <lb n="21" xml:id="p315-20"/>Τὰ μὲν οὖν πλεῖστα ἓν λέγεται τῷ ἕτερόν τι ἢ ποιεῖν
+              <lb n="22" xml:id="p315-21"/>ἢ πάσχειν.
             </quote>
             <p>
-              <lb n="22" xml:id="p315-21"/>ἢ πάσχειν.
               <lb n="23" xml:id="p315-22"/>Τὰ πλεῖστα ἓν λέγονται τῷ ἕτερόν τι ποιεῖν ἢ πάσχειν (οὕτως γάρ<milestone type="alt-edition" unit="folio" ed="cod. Monacensis gr. 103" n="220r"/>
               <lb n="24" xml:id="p315-23"/>φαμεν τὴν πάπυρον καὶ τὴν δρῦν καὶ τὴν δάφνην ἕν τι εἶναι, ἐπειδὴ ἅμα
               <lb n="25" xml:id="p315-24"/>πάντα ἓν πῦρ ποιοῦσιν καὶ ὁμοίως καίουσι, καὶ ὁμοίως ἔχουσι τόδε τὸ<note type="apparatus" n="25" target="#p315-24">ἔχουσι] fort. πάσχουσι</note>
@@ -14717,9 +14717,9 @@
             <milestone unit="bekker" n="1017a7"/>
             <quote type="lemma">
               <lb n="30" xml:id="p316-29"/>Τὸ ὂν λέγεται τὸ μὲν κατὰ συμβεβηκός, τὸ δὲ καθ’
+              <lb n="31" xml:id="p316-30"/>αὐτό.
             </quote>
             <p>
-              <lb n="31" xml:id="p316-30"/>αὐτό.
               <lb n="32" xml:id="p316-31"/>Εἰπὼν περὶ τοῦ ἑνὸς ὅτι λέγεται κατὰ συμβεβηκὸς καὶ καθ’ αὑτό,
               <lb n="33" xml:id="p316-32"/>καὶ κατὰ συμβεβηκὸς μὲν τριχῶς, ἢ ὅταν τὸ συμβεβηκὸς κατηγορῆται τοῦ<note type="apparatus" n="33" target="#p316-32">κατηγορῆται — συμβεβηκὸς (34) om. D</note>
               <lb n="34" xml:id="p316-33"/>ὑποκειμένου, ἢ ὅταν συμβεβηκὸς συμβεβηκότος, ἢ ὅταν παρὰ φύσιν γίνηται
@@ -14770,9 +14770,9 @@
             <milestone unit="bekker" n="1017a7"/>
             <quote type="lemma">
               <lb n="37" xml:id="p317-36"/>Τὸ ὂν λέγεται τὸ μὲν κατὰ συμβεβηκός, τὸ δὲ καθ’
+              <lb n="38" xml:id="p317-37"/>αὐτό.
             </quote>
             <p>
-              <lb n="38" xml:id="p317-37"/>αὐτό.
               <lb n="39" xml:id="p317-38"/>Τὸ ὂν λέγεται καὶ κατὰ συμβεβηκὸς καὶ καθ’ αὑτό, κατὰ συμβεβηκὸς
               <lb n="40" xml:id="p317-39"/>μέν, οἷον τὸ δίκαιον μουσικὸν εἶναί φαμεν (ἰδοὺ ἐνταῦθα συμβεβηκὸς
             </p>
@@ -14970,9 +14970,9 @@
             <milestone unit="bekker" n="1018a20"/>
             <quote type="lemma">
               <lb n="30" xml:id="p321-29"/>Ἀντικείμενα λέγεται ἀντιφάσεις καὶ τὰ ἐναντία καὶ
+              <lb n="31" xml:id="p321-30"/>τὰ πρός τι καὶ στέρησις καὶ ἕξις καὶ ἐξ ὧν.
             </quote>
             <p>
-              <lb n="31" xml:id="p321-30"/>τὰ πρός τι καὶ στέρησις καὶ ἕξις καὶ ἐξ ὧν.
               <lb n="32" xml:id="p321-31"/>Ἐντεῦθεν περὶ τῶν ἀντικειμένων ποιεῖται τὸν λόγον, καί φησιν ὅτι
               <lb n="33" xml:id="p321-32"/>ἀντικείμενα ὑπάρχουσιν, ὡς καὶ ἐν Κατηγορίαις μεμαθήκαμεν, αἱ ἀντιφάσεις<note type="apparatus" n="33" target="#p321-32">ἐν Κατηγορίαις] 10 p. 11 b 16 sqq.</note>
               <lb n="34" xml:id="p321-33"/>καὶ τὰ ἐναντία καὶ τὰ πρός τι καὶ αἱ ἕξεις καὶ αἱ στερήσεις καὶ ἐξ ὧν
@@ -15052,9 +15052,9 @@
             <milestone unit="bekker" n="1018b9"/>
             <quote type="lemma">
               <lb n="15" xml:id="p323-14"/>Πρότερα καὶ ὕστερα λέγεται ἔνια μὲν ὡς ὄντος τινὸς
+              <lb n="16" xml:id="p323-15"/>πρώτου καὶ ἀρχῆς ἐν ἑκάστῳ γένει, τὸ ἐγγύτερον.
             </quote>
             <p>
-              <lb n="16" xml:id="p323-15"/>πρώτου καὶ ἀρχῆς ἐν ἑκάστῳ γένει, τὸ ἐγγύτερον.
               <lb n="17" xml:id="p323-16"/>Ἐντεῦθεν περὶ προτέρου ἡμῖν ποιεῖται τὸν λόγον, καί φησιν ὅτι τὸ
               <lb n="18" xml:id="p323-17"/>πρότερον ἢ ἁπλῶς λέγεται ἢ πρὸς ἡμᾶς καὶ πρὸς τὴν ἡμετέραν θέσιν·<milestone type="alt-edition" unit="folio" ed="cod. Monacensis gr. 103" n="225v"/>
               <lb n="19" xml:id="p323-18"/>καὶ ἁπλῶς ἢ φύσει ἢ γένει ἢ χρόνῳ. γένει μέν, οἷον ἡ οὐσία προτέρα
@@ -15154,9 +15154,9 @@
             <milestone unit="bekker" n="1018b9"/>
             <quote type="lemma">
               <lb n="30" xml:id="p325-29"/>Πρότερα καὶ ὕστερα λέγεται ἔνια μὲν ὡς ὄντος τινὸς
+              <lb n="31" xml:id="p325-30"/>πρώτου.
             </quote>
             <p>
-              <lb n="31" xml:id="p325-30"/>πρώτου.
               <lb n="32" xml:id="p325-31"/>Ὃ λέγει τοῦτό ἐστιν, ὅτι πρότερα καὶ ὕστερα λέγονται ἔνια μὲν ὡς<note type="apparatus" n="32-33" target="#p325-31 #p325-32">ὃ λέγει — πρώτου om. D</note>
               <lb n="33" xml:id="p325-32"/>ὄντος τινὸς πρώτου καὶ ἀρχῆς ἐν ἑκάστῳ γένει καὶ πράγματι. τὸ
               <lb n="34" xml:id="p325-33"/>γὰρ ἐγγύτερον καὶ πλησίον μᾶλλον τῆς ὡρισμένης ἀρχῆς πρότερον λέγεται, καθάπερ
@@ -15222,9 +15222,9 @@
             <milestone unit="bekker" n="1018b34"/>
             <quote type="lemma">
               <lb n="4" xml:id="p327-3"/>Καὶ κατὰ τὸν λόγον δὲ τὸ συμβεβηκὸς τοῦ ὅλου πρότερον.
+              <lb n="5" xml:id="p327-4"/>
             </quote>
             <p>
-              <lb n="5" xml:id="p327-4"/>
               <lb n="6" xml:id="p327-5"/>Ὃ λέγει τοιοῦτόν ἐστιν, ὅτι κατὰ τὸν ὁρισμὸν τὸ συμβεβηκὸς πρότερον<milestone type="alt-edition" unit="folio" ed="cod. Monacensis gr. 103" n="228r"/>
               <lb n="7" xml:id="p327-6"/>τοῦ ὅλου ἐστίν, εἴ γε οἱ ὁρισμοὶ πρότεροι ὑπάρχουσι τῶν πραγμάτων,
               <lb n="8" xml:id="p327-7"/>ὧν εἰσιν ὁρισμοὶ ὡς δηλοῦντες τὰς οὐσίας αὐτῶν καὶ τὰς φύσεις,
@@ -15248,9 +15248,9 @@
             <milestone unit="bekker" n="1019a4"/>
             <quote type="lemma">
               <lb n="23" xml:id="p327-22"/>Ἐπεὶ δὲ τὸ εἶναι πολλαχῶς, πρῶτον μὲν τὸ ὑποκείμενον.<note type="apparatus" n="23" target="#p327-22">ἐπειδὴ D</note>
+              <lb n="24" xml:id="p327-23"/>
             </quote>
             <p>
-              <lb n="24" xml:id="p327-23"/>
               <lb n="25" xml:id="p327-24"/>Ὃ λέγει τοῦτό ἐστιν, ὅτι ἐπειδὴ πολλαχῶς λέγεται τὸ εἶναι καὶ τὸ ὑπάρχειν,
               <lb n="26" xml:id="p327-25"/>πρῶτον λέγεται τὸ ὑποκείμενον· διὸ ἡ οὐσία προτέρα τῶν ἄλλων κατηγοριῶν
               <lb n="27" xml:id="p327-26"/>ὡς συναναιροῦσα καὶ μὴ συναναιρουμένη, εἴ γε ἐν αὐτῇ ἔχουσι τὸ εἶναι αἱ<note type="apparatus" n="27" target="#p327-26">συναιρουμένη D</note>
@@ -15397,9 +15397,9 @@
             <milestone unit="bekker" n="1020a7"/>
             <quote type="lemma">
               <lb n="33" xml:id="p330-32"/>Ποσὸν λέγεται τὸ διαιρετὸν εἰς ἐνυπάρχοντα, ὧν ἑκάτερον
+              <lb n="34" xml:id="p330-33"/>ἢ ἕκαστον ἕν τι καὶ τόδε πέφυκεν εἶναι.
             </quote>
             <p>
-              <lb n="34" xml:id="p330-33"/>ἢ ἕκαστον ἕν τι καὶ τόδε πέφυκεν εἶναι.
               <lb n="35" xml:id="p330-34"/>Ἐντεῦθεν περὶ τοῦ ποσοῦ ἡμῖν διαλέγεται, καί φησιν ὅτι τὸ ποσὸν
               <lb n="36" xml:id="p330-35"/>διαιρετόν ἐστι κατ’ ἐνέργειαν, καὶ οὐχ ὥσπερ τὸ γένος. διαιρετὰ μὲν γὰρ<note type="apparatus" n="36" target="#p330-35">γὰρ om. D</note>
             </p>
@@ -15522,9 +15522,9 @@
             <milestone unit="bekker" n="1020a7"/>
             <quote type="lemma">
               <lb n="28" xml:id="p333-27"/>Ποσὸν λέγεται τὸ διαιρετὸν εἰς ἐνυπάρχοντα, ὧν ἑκάτερον<note type="apparatus" n="28" target="#p333-27">ἐνυπάρχοντα Aristoteles: ἐνυπάρχον libri</note>
+              <lb n="29" xml:id="p333-28"/>ἢ ἕκαστον.
             </quote>
             <p>
-              <lb n="29" xml:id="p333-28"/>ἢ ἕκαστον.
               <lb n="30" xml:id="p333-29"/>Ὃ λέγει τοῦτό ἐστιν, ὅτι ποσὸν λέγεται τὸ διαιρετὸν εἰς ἐνυπάρχοντα,
               <lb n="31" xml:id="p333-30"/>τουτέστι κατ’ ἐνέργειαν, ὧν ἑκάτερον ἢ ἕκαστον (ταὐτὸν γὰρ δηλοῖ,
               <lb n="32" xml:id="p333-31"/>εἴτε ἑκάτερον εἴποις εἴτε ἕκαστον) ὧν οὖν ἑκάτερον ἢ ἕκαστον ἕν τι δηλοῖ
@@ -15586,9 +15586,9 @@
             <milestone unit="bekker" n="1020a33"/>
             <quote type="lemma">
               <lb n="30" xml:id="p334-29"/>Τὸ ποιὸν λέγεται ἕνα μὲν τρόπον ἡ διαφορὰ τῆς
+              <lb n="31" xml:id="p334-30"/>οὐσίας.
             </quote>
             <p>
-              <lb n="31" xml:id="p334-30"/>οὐσίας.
               <lb n="32" xml:id="p334-31"/>Πληρώσας τὸν περὶ τοῦ ποσοῦ λόγον καὶ κάλλιστα ἡμῖν τεχνολογήσας
               <lb n="33" xml:id="p334-32"/>αὐτὸν μετέρχεται ἐντεῦθεν ἐπὶ τὸν περὶ τοῦ ποιοῦ λόγον, καί φησιν ὅτι τὸ
             </p>
@@ -15759,9 +15759,9 @@
             <milestone unit="bekker" n="1021b12"/>
             <quote type="lemma">
               <lb n="12" xml:id="p338-11"/>Τέλειον λέγεται ἓν μὲν οὗ μὴ ἔστιν ἔξω τι λαβεῖν<milestone type="alt-edition" unit="folio" ed="cod. Monacensis gr. 103" n="236r"/>
+              <lb n="13" xml:id="p338-12"/>μηθὲν μόριον.
             </quote>
             <p>
-              <lb n="13" xml:id="p338-12"/>μηθὲν μόριον.
               <lb n="14" xml:id="p338-13"/>Ἐντεῦθεν περὶ τοῦ τελείου ἡμῖν λέγει, καί φησιν ὅτι τέλειόν ἐστιν
               <lb n="15" xml:id="p338-14"/>ἐκεῖνο οὗ μηθὲν ἔστιν ἔξω λαβεῖν, ὥσπερ ἐπὶ τοῦ χρόνου τέλειος χρόνος
               <lb n="16" xml:id="p338-15"/>ἑκάστου ἐστὶν οὗτινος οὐδὲν ἔστιν ἔξω λαβεῖν. οἷον, εἰ τύχοι, ὥρισται
@@ -15994,9 +15994,9 @@
             <milestone unit="bekker" n="1022b4"/>
             <quote type="lemma">
               <lb n="15" xml:id="p343-14"/>Ἕξις δὲ λέγεται ἕνα μὲν τρόπον οἷον ἐνέργειά τις τοῦ
+              <lb n="16" xml:id="p343-15"/>ἔχοντος καὶ ἐχομένου.
             </quote>
             <p>
-              <lb n="16" xml:id="p343-15"/>ἔχοντος καὶ ἐχομένου.
               <lb n="17" xml:id="p343-16"/>Ἐντεῦθεν περὶ τῆς ἕξεως ἡμῖν λέγει, καί φησι πολλαχῶς λέγεσθαι
               <lb n="18" xml:id="p343-17"/>τὴν ἕξιν. καὶ λέγει ὅτι λέγεται ἕξις ἡ ἐνέργεια τοῦ ἔχοντος καὶ ἐχομένου,
               <lb n="19" xml:id="p343-18"/>τουτέστιν αὐτὴ ἡ σχέσις, ὥσπερ τοῦ ἀνδρὸς καὶ τῆς ἐσθῆτος· ἔχει γὰρ
@@ -16363,9 +16363,9 @@
             <milestone unit="bekker" n="1024a11"/>
             <quote type="lemma">
               <lb n="11" xml:id="p351-10"/>Κολοβὸν δὲ λέγεται τῶν ποσῶν οὐ τὸ τυχόν, ἀλλὰ
+              <lb n="12" xml:id="p351-11"/>μεριστόν τε δεῖ αὐτὸ εἶναι καὶ ὅλον.
             </quote>
             <p>
-              <lb n="12" xml:id="p351-11"/>μεριστόν τε δεῖ αὐτὸ εἶναι καὶ ὅλον.
               <lb n="13" xml:id="p351-12"/>Ἐντεῦθεν περὶ κολοβοῦ διδάσκει ἡμᾶς τί ἐστι καὶ τὸν τρόπον, καθ’
               <lb n="14" xml:id="p351-13"/>ὃν λέγεται τὸ κολοβόν· οὔτε γὰρ λέγει ἡμῖν, ποσαχῶς λέγεται τὸ κολοβόν,
               <lb n="15" xml:id="p351-14"/>ἐπειδὴ μοναχῶς μόνον λέγεται. καί φησιν ὅτι τὸ κολοβὸν περὶ τὸ ποσὸν
@@ -16664,9 +16664,9 @@
             <milestone unit="bekker" n="1025b3"/>
             <quote type="lemma">
               <lb n="2" xml:id="p358-1"/>Αἱ ἀρχαὶ καὶ τὰ αἴτια ζητεῖται τῶν ὄντων· δῆλον γὰρ
+              <lb n="3" xml:id="p358-2"/>ὅτι ᾗ ὄντα.
             </quote>
             <p>
-              <lb n="3" xml:id="p358-2"/>ὅτι ᾗ ὄντα.
               <lb n="4" xml:id="p358-3"/>Σκοπός ἐστι τῷ Ἀριστοτέλει εἰπεῖν ἐν τῷ Ε περὶ τοῦ κατὰ συμβεβηκὸς
               <lb n="5" xml:id="p358-4"/>ὄντος. ἐπειδὴ δὲ τῆς πρώτης φιλοσοφίας ἐστὶν ἔργον διαλεχθῆναι
               <lb n="6" xml:id="p358-5"/>περὶ πάντων τῶν ὄντων, καθὸ ὄντα ἐστί, δῆλον ὅτι οὐ διαλέξεται περὶ τοῦ
@@ -16760,9 +16760,9 @@
             <milestone unit="bekker" n="1025b18"/>
             <quote type="lemma">
               <lb n="11" xml:id="p360-10"/>Ἐπεὶ δὲ καὶ ἡ φυσικὴ ἐπιστήμη τυγχάνει οὖσα περὶ<note type="apparatus" n="11" target="#p360-10">ἐπειδὴ D</note>
+              <lb n="12" xml:id="p360-11"/>γένος τι τοῦ ὄντος.
             </quote>
             <p>
-              <lb n="12" xml:id="p360-11"/>γένος τι τοῦ ὄντος.
               <lb n="13" xml:id="p360-12"/>Ἐντεῦθεν ἀποδείκνυσιν ὅτι οὐ δυνατὸν εἶναι τὴν φυσιολογίαν καὶ πρακτικὴν
               <lb n="14" xml:id="p360-13"/>οὔτε δὲ ποιητικήν, ἀλλὰ μόνον θεωρητικήν· καί φησιν ὅτι ἐπὶ τῶν ποιητικῶν
               <lb n="15" xml:id="p360-14"/>καὶ πρακτικῶν τὰ ποιητικὰ αἴτια ἔξωθεν ὑπάρχουσιν, οἷον ποιητικὸν
@@ -16785,9 +16785,9 @@
             <milestone unit="bekker" n="1025b28"/>
             <quote type="lemma">
               <lb n="29" xml:id="p360-28"/>Δεῖ δὲ τὸ τί ἦν εἶναι καὶ τὸν λόγον πῶς ἐστι μὴ λανθάνειν,
+              <lb n="30" xml:id="p360-29"/>ὡς ἄνευ γε τούτου τὸ ζητεῖν μηδὲν ποιεῖν ἐστιν.<note type="apparatus" n="30" target="#p360-29">ἐστὶ ποιεῖν D</note>
             </quote>
             <p>
-              <lb n="30" xml:id="p360-29"/>ὡς ἄνευ γε τούτου τὸ ζητεῖν μηδὲν ποιεῖν ἐστιν.<note type="apparatus" n="30" target="#p360-29">ἐστὶ ποιεῖν D</note>
               <lb n="31" xml:id="p360-30"/>Δείξας διὰ τῶν προλαβόντων ὅτι οὐ καταγίνεται ἡ φυσικὴ περὶ πάντα
               <lb n="32" xml:id="p360-31"/>τὰ ὄντα ἀλλὰ περὶ μόνα τὰ ἐν κινήσει ὑπάρχοντα (οὐ γὰρ δήπου διαλέγεται
               <lb n="33" xml:id="p360-32"/>καὶ περὶ τῶν ἀύλων καὶ ἀκινήτων, ὥστε οὐ μόνη ἐστὶν ἡ φυσιολογία),<note type="apparatus" n="33" target="#p360-32">ἀΰλων] αὐτῶν D</note>
@@ -16840,9 +16840,9 @@
             <milestone unit="bekker" n="1025b28"/>
             <quote type="lemma">
               <lb n="38" xml:id="p361-37"/>Δεῖ δὲ τὸ τί ἦν εἶναι καὶ τὸν λόγον πῶς ἐστι μὴ
+              <lb n="39" xml:id="p361-38"/>λανθάνειν.
             </quote>
             <p>
-              <lb n="39" xml:id="p361-38"/>λανθάνειν.
               <lb n="40" xml:id="p361-39"/>Δεῖ δὲ τὸν φυσικὸν εἰδέναι τὸν ὁρισμὸν τοῦ πράγματος, περὶ οὗ ποιεῖται
             </p>
             <pb n="362" facs="https://archive.org/download/commentariaina06pt12akaduoft/page/n617.jpg"/>
@@ -16959,9 +16959,9 @@
             <milestone unit="bekker" n="1026a23"/>
             <quote type="lemma">
               <lb n="9" xml:id="p364-8"/>Ἀπορήσειε γὰρ ἄν τις, πότερόν ποθ’ ἡ πρώτη φιλοσοφία.<note type="apparatus" n="9" target="#p364-8">πότερον Aristoteles: πρότερον libri</note>
+              <lb n="10" xml:id="p364-9"/>
             </quote>
             <p>
-              <lb n="10" xml:id="p364-9"/>
               <lb n="11" xml:id="p364-10"/>Τὴν ἀπορίαν δι’ ἣν τὴν θεωρίαν ἐκίνησε ταύτην λέγει. φησὶ γὰρ ἆρά<note type="apparatus" n="11" target="#p364-10">δι’ ἣν scripsi: δ’ ἣν libri</note>
               <lb n="12" xml:id="p364-11"/>γε ἡ πρώτη φιλοσοφία περὶ πάντα τὰ ὄντα καταγίνεται ἢ περί τι γένος
               <lb n="13" xml:id="p364-12"/>καὶ φύσιν μίαν. οὔτε γὰρ ἐν ταῖς μαθηματικαῖς ἐπιστήμαις ὁ αὐτὸς
@@ -16992,9 +16992,9 @@
             <milestone unit="bekker" n="1026a33"/>
             <quote type="lemma">
               <lb n="28" xml:id="p364-27"/>Ἀλλ’ ἐπεὶ τὸ ὂν τὸ ἁπλῶς λεγόμενον λέγεται καὶ πολλαχῶς.
+              <lb n="29" xml:id="p364-28"/>
             </quote>
             <p>
-              <lb n="29" xml:id="p364-28"/>
               <lb n="30" xml:id="p364-29"/>Τὸ ἁπλῶς ὂν πολλαχῶς λέγεται, ἓν μὲν τὸ κατὰ συμβεβηκός, ὥσπερ
               <lb n="31" xml:id="p364-30"/>φαμὲν τὸν φαλακρὸν οἰκοδομεῖν· οὐ γὰρ ᾗ φαλακρὸς οἰκοδομεῖ, ἀλλ’ ᾗ<milestone type="alt-edition" unit="folio" ed="cod. Monacensis gr. 103" n="255v"/>
               <lb n="32" xml:id="p364-31"/>οἰκοδόμος. ἕτερον δὲ ὂν τὸ ὡς ἀληθὲς καὶ τὸ μὴ ὂν ὡς τὸ ψεῦδος· ὡς<note type="apparatus" n="32" target="#p364-31">τὸ (ante ψεῦδος) om. D</note>
@@ -17029,9 +17029,9 @@
             <milestone unit="bekker" n="1026b12"/>
             <quote type="lemma">
               <lb n="21" xml:id="p365-20"/>Καὶ τοῦτο εὐλόγως συμπίπτει· ὥσπερ γὰρ ὄνομά τι
+              <lb n="22" xml:id="p365-21"/>μόνον τὸ συμβεβηκός ἐστιν.
             </quote>
             <p>
-              <lb n="22" xml:id="p365-21"/>μόνον τὸ συμβεβηκός ἐστιν.
               <lb n="23" xml:id="p365-22"/>Ἐπειδὴ ἡ σοφία διαλέγεται περὶ τοῦ ὄντος, πολλαχῶς δὲ τὸ ὂν λέγεται<milestone type="alt-edition" unit="folio" ed="cod. Monacensis gr. 103" n="256r"/>
               <lb n="24" xml:id="p365-23"/>(ἔστι γὰρ τὸ ὂν τὸ κατὰ τὴν ἀλήθειαν καὶ τὸ κατὰ τὴν δύναμιν καὶ<note type="apparatus" n="24" target="#p365-23">τὸ (post ὂν) om. D</note>
               <lb n="25" xml:id="p365-24"/>τὸ κατ’ ἐνέργειαν καὶ τὸ καθ’ αὑτὸ ὂν τὸ θεωρούμενον ἐν ταῖς δέκα κατηγορίαις),
@@ -17118,9 +17118,9 @@
             <milestone unit="bekker" n="1026b12"/>
             <quote type="lemma">
               <lb n="19" xml:id="p367-18"/>Καὶ τοῦτο εὐλόγως συμπίπτει· ὥσπερ γὰρ ὄνομά τι<note type="apparatus" n="19" target="#p367-18">εὐλόγως Aristoteles, cf. etiam p. 365,21: εὐλόγον libri</note>
+              <lb n="20" xml:id="p367-19"/>μόνον.
             </quote>
             <p>
-              <lb n="20" xml:id="p367-19"/>μόνον.
               <lb n="21" xml:id="p367-20"/>Φησὶν ὅτι καλῶς οὐδεμία τέχνη διαλέγεται περὶ τοῦ κατὰ συμβεβηκὸς
               <lb n="22" xml:id="p367-21"/>ὄντος· ὄνομα γὰρ μόνον ἐστίν, ἐπεὶ μήτε ἔχει ὕπαρξιν βεβαίαν καὶ
               <lb n="23" xml:id="p367-22"/>αὐθυπόστατον, ἀλλ’ ἐν ἄλλοις ἔχει τὸ εἶναι καὶ παρακολούθημά ἐστι. διὸ<note type="apparatus" n="23" target="#p367-22">αὐθυπόστατον scripsi: ἀνθυπόστατον libri</note>
@@ -17211,9 +17211,9 @@
             <milestone unit="bekker" n="1027a15"/>
             <quote type="lemma">
               <lb n="13" xml:id="p369-12"/>Ἀρχὴν δὲ τήνδε ληπτέον, πότερον οὐδέν ἐστιν οὔτε
+              <lb n="14" xml:id="p369-13"/>ἀεὶ οὔτε ὡς ἐπὶ τὸ πολύ.
             </quote>
             <p>
-              <lb n="14" xml:id="p369-13"/>ἀεὶ οὔτε ὡς ἐπὶ τὸ πολύ.
               <lb n="15" xml:id="p369-14"/>Ἰστέον ὅτι ἡ σοφία περὶ μὲν τὸ συμβεβηκὸς καταγίνεται, περὶ δὲ τὸ<note type="apparatus" n="15" target="#p369-14">καταγίνεται — συμβεβηκὸς (16) om. D</note>
               <lb n="16" xml:id="p369-15"/>κατὰ συμβεβηκὸς οὐ καταγίνεται. διαφέρουσι γὰρ ταῦτα ἀλλήλων· τὸ μὲν
               <lb n="17" xml:id="p369-16"/>γὰρ συμβεβηκὸς δύναται καὶ καθ’ αὑτὸ θεωρεῖσθαι, ὥσπερ καὶ τὸ λευκὸν
@@ -17308,9 +17308,9 @@
             <milestone unit="bekker" n="1027a29"/>
             <quote type="lemma">
               <lb n="6" xml:id="p371-5"/>Ὅτι δέ εἰσιν ἀρχαὶ καὶ αἴτια γενητὰ καὶ φθαρτὰ ἄνευ
+              <lb n="7" xml:id="p371-6"/>τοῦ γίνεσθαι καὶ φθείρεσθαι, φανερόν.
             </quote>
             <p>
-              <lb n="7" xml:id="p371-6"/>τοῦ γίνεσθαι καὶ φθείρεσθαι, φανερόν.
               <lb n="8" xml:id="p371-7"/>Ἀποδείξας ἀναγκαστικῶς ὅτι οὐ καταγίνεται ἡ σοφία περὶ τὸ κατὰ
               <lb n="9" xml:id="p371-8"/>συμβεβηκὸς ὄν, ἐντεῦθέν φησιν ὅτι τὰ κατὰ συμβεβηκὸς αἴτια γίνονται καὶ
               <lb n="10" xml:id="p371-9"/>φθείρονται ὡς ὄντα, οὐ μέντοι γε ὡς γινόμενα, ἐπειδὴ μὴ ἔχουσιν αἴτια<note type="apparatus" n="10" target="#p371-9">ἔχουσιν in marg. A²: εἰσὶν A¹D</note>
@@ -17491,9 +17491,9 @@
             <milestone unit="bekker" n="1028a10"/>
             <quote type="lemma">
               <lb n="3" xml:id="p375-2"/>Τὸ ὂν λέγεται πολλαχῶς, καθάπερ διειλόμεθα πρότερον
+              <lb n="4" xml:id="p375-3"/>ἐν τοῖς περὶ τοῦ ποσαχῶς.
             </quote>
             <p>
-              <lb n="4" xml:id="p375-3"/>ἐν τοῖς περὶ τοῦ ποσαχῶς.
               <lb n="5" xml:id="p375-4"/>Εἰπὼν ἐν τῷ Δ ὅτι πολλαχῶς λέγεται τὸ ὄν, καθ’ αὑτὸ καὶ κατὰ
               <lb n="6" xml:id="p375-5"/>συμβεβηκός, καὶ ὡς τὸ ἀληθὲς καὶ ψεῦδος, καὶ ὡς τὸ δυνάμει καὶ τὸ<note type="apparatus" n="6" target="#p375-5">καὶ τὸ om. D</note>
               <lb n="7" xml:id="p375-6"/>ἐνεργείᾳ, καὶ διαλεχθεὶς ἐν τῷ Ε περὶ τοῦ κατὰ συμβεβηκὸς ὄντος καὶ
@@ -17542,9 +17542,9 @@
             <milestone unit="bekker" n="1028a10"/>
             <quote type="lemma">
               <lb n="16" xml:id="p376-15"/>Τὸ ὂν λέγεται πολλαχῶς, καθάπερ διειλόμεθα πρότερον.<note type="apparatus" n="16" target="#p376-15">διειλόμεθα—καθάπερ (18) om. D</note><milestone type="alt-edition" unit="folio" ed="cod. Monacensis gr. 103" n="263v"/>
+              <lb n="17" xml:id="p376-16"/>
             </quote>
             <p>
-              <lb n="17" xml:id="p376-16"/>
               <lb n="18" xml:id="p376-17"/>Φησὶν ὅτι τὸ ὂν πολλαχῶς λέγεται, καθάπερ εἰρήκαμεν ἐν τῷ Δ στοιχείῳ·
               <lb n="19" xml:id="p376-18"/>σημαίνει γὰρ τὸ μὲν τί ἐστι καὶ τόδε τι. καὶ δι’ ἀμφοτέρων
               <lb n="20" xml:id="p376-19"/>τὴν οὐσίαν ἐδήλωσεν· ἐρωτώμενοι γὰρ τί ἐστι τόδε τὸ πρᾶγμα, οὐσίαν ἀποδίδομεν,
@@ -17601,9 +17601,9 @@
             <milestone unit="bekker" n="1028b2"/>
             <quote type="lemma">
               <lb n="20" xml:id="p377-19"/>Καὶ δὴ καὶ τὸ πάλαι τε καὶ νῦν καὶ ἀεὶ ζητούμενον
+              <lb n="21" xml:id="p377-20"/>καὶ ἀεὶ ἀπορούμενον.
             </quote>
             <p>
-              <lb n="21" xml:id="p377-20"/>καὶ ἀεὶ ἀπορούμενον.
               <lb n="22" xml:id="p377-21"/>Δείξας ὅτι τὸ κυρίως ὂν ἡ οὐσία ἐστὶ κατὰ τὰ τρία σημαινόμενα τοῦ
               <lb n="23" xml:id="p377-22"/>προτέρου, ἐπειδὴ καὶ αὕτη αἰτία τοῦ εἶναι τὰ συμβεβηκότα, ἐντεῦθεν μαρτυρίαν
               <lb n="24" xml:id="p377-23"/>ποιεῖται τῶν παλαιῶν, καί φησιν ὅτι καὶ οἱ παλαιοὶ περὶ τοῦ ὄντος
@@ -17768,9 +17768,9 @@
             <milestone unit="bekker" n="1029a21"/>
             <quote type="lemma">
               <lb n="29" xml:id="p380-28"/>Ἔστι γάρ τι καθ’ οὗ κατηγορεῖται τούτων ἕκαστον ᾧ
+              <lb n="30" xml:id="p380-29"/>τὸ εἶναι ἕτερον.
             </quote>
             <p>
-              <lb n="30" xml:id="p380-29"/>τὸ εἶναι ἕτερον.
               <lb n="31" xml:id="p380-30"/>Τὸ γὰρ ὑποκείμενον τούτων ἕτερόν ἐστι κατὰ τὸν ὁρισμόν, τουτέστιν ἡ
               <lb n="32" xml:id="p380-31"/>ὕλη· τὰ μὲν γὰρ ἄλλα τῆς οὐσίας κατηγορεῖται, αὕτη δὲ τῆς ὕλης,
               <lb n="33" xml:id="p380-32"/>οἷον κατὰ ζῴου λογικοῦ θνητοῦ κατηγορεῖται καὶ τὸ ποσὸν καὶ τὸ ποιὸν καὶ
@@ -17787,9 +17787,9 @@
             <milestone unit="bekker" n="1029a26"/>
             <quote type="lemma">
               <lb n="1" xml:id="p381-0"/>Ἐκ μὲν οὖν τούτων θεωροῦσι συμβαίνει οὐσίαν εἶναι
+              <lb n="2" xml:id="p381-1"/>τὴν ὕλην.
             </quote>
             <p>
-              <lb n="2" xml:id="p381-1"/>τὴν ὕλην.
               <lb n="3" xml:id="p381-2"/>Δείξας ὅτι τὸ κυρίως ὂν ἡ οὐσία ἐστὶ καὶ ὅτι, εἰ δεῖ κατὰ τὸ ὑποκείμενον<note type="apparatus" n="3" target="#p381-2">εἰ δεῖ κατὰ margo A²: ἰδικῶς A¹D τὸ om. D</note>
               <lb n="4" xml:id="p381-3"/>χαρακτηρίζειν τὴν οὐσίαν, ἡ ὕλη μᾶλλον [ἢ] ἐστὶν οὐσία (αὕτη<note type="apparatus" n="4" target="#p381-3">χαρακτηρίζειν margo A²: χαρακτηρίζει D et (ultima littera erasa) A¹ ἢ delevi ἡ οὐσία D</note>
               <lb n="5" xml:id="p381-4"/>γὰρ ἐστιν ἡ ὑποκειμένη πᾶσι τοῖς αἰσθητοῖς), ἐντεῦθέν φησιν ὅτι οὐ δυνατὸν
@@ -17842,9 +17842,9 @@
             <milestone unit="bekker" n="1029a26"/>
             <quote type="lemma">
               <lb n="12" xml:id="p382-11"/>Ἐκ μὲν οὖν τούτων θεωροῦσι συμβαίνει οὐσίαν εἶναι
+              <lb n="13" xml:id="p382-12"/>τὴν ὕλην.
             </quote>
             <p>
-              <lb n="13" xml:id="p382-12"/>τὴν ὕλην.
               <lb n="14" xml:id="p382-13"/>Φησὶν ὅτι εἰ κατὰ τὸ ὑποκείμενον χαρακτηρίζειν δεῖ τὴν οὐσίαν,
               <lb n="15" xml:id="p382-14"/>δόξειεν ἂν οὐσία εἶναι ἡ ὕλη. ἀδύνατον δὲ τοῦτο ὑπάρχειν· κυρίως γὰρ
               <lb n="16" xml:id="p382-15"/>οὐσία ἐστὶ τὸ χωριστόν, τουτέστι τὸ καθ’ αὑτὸ ὑπάρχον καὶ τόδε τι, τουτέστι
@@ -17865,9 +17865,9 @@
             <milestone unit="bekker" n="1029b1"/>
             <quote type="lemma">
               <lb n="28" xml:id="p382-27"/>Ἐπειδὴ ἐν ἀρχῇ διειλόμεθα, πόσοις ὁριζόμεθα τὴν<milestone type="alt-edition" unit="folio" ed="cod. Monacensis gr. 103" n="268r"/>
+              <lb n="29" xml:id="p382-28"/>οὐσίαν.
             </quote>
             <p>
-              <lb n="29" xml:id="p382-28"/>οὐσίαν.
               <lb n="30" xml:id="p382-29"/>Φησὶν ὅτι κατ’ ἀρχὰς τοῦ προκειμένου βιβλίου εἰρήκαμεν ὅτι τετραχῶς
               <lb n="31" xml:id="p382-30"/>λέγεται ἡ οὐσία, ἡ καθόλου, τὸ γένος, τὸ ὑποκείμενον καὶ τὸ τί ἦν
               <lb n="32" xml:id="p382-31"/>εἶναι, τουτέστιν ὁ ὁρισμὸς τοῦ πράγματος. δεῖ οὖν ἡμᾶς πρότερον εἰπεῖν<note type="apparatus" n="32" target="#p382-31">ἡμᾶς -- εἰπεῖν D, in margine add. A¹</note>
@@ -18041,9 +18041,9 @@
             <milestone unit="bekker" n="1030a17"/>
             <quote type="lemma">
               <lb n="18" xml:id="p386-17"/>Ἢ καὶ ὁ ὁρισμὸς ὥσπερ καὶ τὸ τί ἐστι πλεοναχῶς
+              <lb n="19" xml:id="p386-18"/>λέγεται.
             </quote>
             <p>
-              <lb n="19" xml:id="p386-18"/>λέγεται.
               <lb n="20" xml:id="p386-19"/>Καὶ γὰρ τὸ ὂν ἕνα μὲν τρόπον σημαίνει τὴν οὐσίαν, εἶτα λοιπὸν καὶ
               <lb n="21" xml:id="p386-20"/>τὰς ἄλλας κατηγορίας. ὥσπερ καὶ τὸ ὂν ὑπάρχει πᾶσιν ἀλλ’ οὐχ ὁμοίως,
               <lb n="22" xml:id="p386-21"/>ἀλλὰ τῇ μὲν οὐσίᾳ πρώτως τοῖς δὲ συμβεβηκόσιν ἑπομένως καὶ διὰ τὴν
@@ -18059,9 +18059,9 @@
             <milestone unit="bekker" n="1030a27"/>
             <quote type="lemma">
               <lb n="29" xml:id="p386-28"/>Δεῖ μὲν οὖν σκοπεῖν καὶ τὸ πῶς δεῖ λέγειν περὶ
+              <lb n="30" xml:id="p386-29"/>ἑκάστου.
             </quote>
             <p>
-              <lb n="30" xml:id="p386-29"/>ἑκάστου.
               <lb n="31" xml:id="p386-30"/>Φησὶν ὅτι πρότερον δεῖ γινώσκειν τὸ πρᾶγμα οἷόν ἐστι καὶ μετὰ τοῦτο
               <lb n="32" xml:id="p386-31"/>τὸ ὄνομα αὐτοῦ, εἶθ’ οὕτως τὸν ἀκριβῆ λόγον διδόναι περὶ αὐτοῦ. τοῦτο
               <lb n="33" xml:id="p386-32"/>οὖν φησιν ὅτι δεῖ μὲν σκοπεῖν περὶ ἑκάστου πῶς δεῖ λέγειν περὶ αὐτοῦ,<note type="apparatus" n="33" target="#p386-32">περὶ αὐτοῦ — πῇ ὄντος (34) om. D</note>
@@ -18120,9 +18120,9 @@
             <milestone unit="bekker" n="1030b14"/>
             <quote type="lemma">
               <lb n="3" xml:id="p388-2"/>Ἔχει δὲ ἀπορίαν, ἐάν τις μή φησιν ὁρισμὸν εἶναι τὸν
+              <lb n="4" xml:id="p388-3"/>ἐκ προσθέσεως λόγον.
             </quote>
             <p>
-              <lb n="4" xml:id="p388-3"/>ἐκ προσθέσεως λόγον.
               <lb n="5" xml:id="p388-4"/>Ἐντεῦθεν τὴν ἀπορίαν κινεῖ, ὅτι δεῖ 〈ζητεῖν〉, φησίν, εἰ μὴ ὑπάργουσιν<note type="apparatus" n="5" target="#p388-4">ζητεῖν addidi: V litterae exciderunt AD</note>
               <lb n="6" xml:id="p388-5"/>ὁρισμοὶ τῶν ἐκ προσθέσεως, τουτέστι τῶν παραλαμβανόντων τὰ<note type="apparatus" n="6" target="#p388-5">περὶ λαμβανόντων D</note>
               <lb n="7" xml:id="p388-6"/>ὑποκείμενα ἐν τοῖς ὁρισμοῖς ἑαυτῶν, ὥσπερ ἐπὶ τοῦ λευκοῦ εἰρήκαμεν,
@@ -18147,10 +18147,10 @@
             <milestone unit="bekker" n="1030b28"/>
             <quote type="lemma">
               <lb n="23" xml:id="p388-22"/>Ἔστι δὲ ἀπορία καὶ ἑτέρα περὶ αὐτῶν· εἰ μὲν γὰρ τὸ
-            </quote>
-            <p>
               <lb n="24" xml:id="p388-23"/>αὐτό ἐστι σιμὴ ῥὶς καὶ κοίλη ῥίς, τὸ αὐτὸ ἔσται τὸ σιμὸν καὶ
               <lb n="25" xml:id="p388-24"/>τὸ κοῖλον.<note type="apparatus" n="25" target="#p388-24">κοῖλον] βλαισόν A¹</note>
+            </quote>
+            <p>
               <lb n="26" xml:id="p388-25"/>Δείξας ἤτοι ἀπορήσας διὰ τῶν προλαβόντων ὅτι οὐ δυνατόν ἐστι τῶν
               <lb n="27" xml:id="p388-26"/>καθ’ αὑτὸ ὑπαρχόντων συμβεβηκότων εἶναι ὁρισμούς, ἐπειδὴ ἐκ προσθέσεως<note type="apparatus" n="27-28" target="#p388-26 #p388-27">προθέσεως libri</note>
               <lb n="28" xml:id="p388-27"/>ὑπάρχουσιν, ἅτε δὴ συμπαραλαμβανόντων αὐτοῖς καὶ τὰ ὑποκείμενα,
@@ -18292,9 +18292,9 @@
             <milestone unit="bekker" n="1031a15"/>
             <quote type="lemma">
               <lb n="35" xml:id="p391-34"/>Πότερον δὲ τὸ αὐτό ἐστιν 〈ἢ〉 ἕτερον τὸ τί ἦν εἶναι<note type="apparatus" n="35" target="#p391-34">ἢ addidi</note>
+              <lb n="36" xml:id="p391-35"/>καὶ ἕκαστον.
             </quote>
             <p>
-              <lb n="36" xml:id="p391-35"/>καὶ ἕκαστον.
               <lb n="37" xml:id="p391-36"/>Ἐντεῦθεν ζητεῖ [εἰ] ἆρά γε ταὐτόν ἐστιν ἀνθρώπῳ εἶναι καὶ ἄνθρωπον<note type="apparatus" n="37" target="#p391-36">εἰ delevi</note>
             </p>
             <pb n="392" facs="https://archive.org/download/commentariaina06pt12akaduoft/page/n647.jpg"/>
@@ -18337,9 +18337,9 @@
             <milestone unit="bekker" n="1031a28"/>
             <quote type="lemma">
               <lb n="33" xml:id="p392-32"/>Ἐπὶ δὲ τῶν καθ’ αὑτὰ λεγομένων ἀνάγκη ἀεὶ ταὐτὸν
+              <lb n="34" xml:id="p392-33"/>εἶναι.
             </quote>
             <p>
-              <lb n="34" xml:id="p392-33"/>εἶναι.
               <lb n="35" xml:id="p392-34"/>Δείξας ὅτι ἐπὶ τῶν κατὰ συμβεβηκὸς λεγομένων οὐκ ἔστι ταὐτὸν τὸ
               <lb n="36" xml:id="p392-35"/>λευκῷ εἶναι καὶ τὸ λευκὸν εἶναι, καὶ ἀνθρώπῳ λευκῷ εἶναι καὶ ἄνθρωπον<note type="apparatus" n="36" target="#p392-35">τὸ λευκὸν—εἶναι καὶ om. D</note>
               <lb n="37" xml:id="p392-36"/>λευκόν, ἐντεῦθεν ζητεῖ λέγων, ἆρά γε ἐπὶ τῶν καθ’ αὑτὸ λεγομένων
@@ -18398,9 +18398,9 @@
             <milestone unit="bekker" n="1031b15"/>
             <quote type="lemma">
               <lb n="32" xml:id="p393-31"/>Ἅμα δὲ δῆλον ὅτι εἴπερ εἰσὶν αἱ ἰδέαι, οἵας τινές
+              <lb n="33" xml:id="p393-32"/>φασιν.
             </quote>
             <p>
-              <lb n="33" xml:id="p393-32"/>φασιν.
               <lb n="34" xml:id="p393-33"/>Ἐντεῦθεν πρὸς τοὺς τὰς ἰδέας πρεσβεύοντας ἀποτείνεται καὶ λέγοντας
             </p>
             <pb n="394" facs="https://archive.org/download/commentariaina06pt12akaduoft/page/n649.jpg"/>
@@ -18430,9 +18430,9 @@
             <milestone unit="bekker" n="1031b28"/>
             <quote type="lemma">
               <lb n="20" xml:id="p394-19"/>Ἄτοπον δ’ ἂν φανείη κἂν εἴ τις ἑκάστῳ ὄνομα θεῖτο<note type="apparatus" n="20" target="#p394-19">Ἄτοπον—εἴ τις scripsi coll. p. 395,15: verba in libris corrupta et mutila</note>
+              <lb n="21" xml:id="p394-20"/>τῶν τί ἦν εἶναι.
             </quote>
             <p>
-              <lb n="21" xml:id="p394-20"/>τῶν τί ἦν εἶναι.
               <lb n="22" xml:id="p394-21"/>Ἐντεῦθεν ἑτέραν ἐπιχείρησιν τίθησι κατασκευαστικὴν τοῦ ὅτι ἐπὶ τῶν<note type="apparatus" n="22" target="#p394-21">ἐπὶ om. D</note>
               <lb n="23" xml:id="p394-22"/>ἄλλων πραγμάτων ταὐτόν ἐστιν ἕκαστον καὶ τὸ τῷδε εἶναι, εἴτε τῷ τῷδε<note type="apparatus" n="23" target="#p394-22">τῷ scripsi: τὸ libri</note>
               <lb n="24" xml:id="p394-23"/>εἶναι ὄνομα θείημεν, οἷον λίθον, εἴτε μὴ θείημεν αὐτῷ ὄνομα, τούτου
@@ -18471,9 +18471,9 @@
             <milestone unit="bekker" n="1031b28"/>
             <quote type="lemma">
               <lb n="15" xml:id="p395-14"/>Ἄτοπον δ’ ἂν φανείη κἂν εἴ τις ἑκάστῳ ὄνομα θεῖτο
+              <lb n="16" xml:id="p395-15"/>τῶν τί ἦν εἶναι.
             </quote>
             <p>
-              <lb n="16" xml:id="p395-15"/>τῶν τί ἦν εἶναι.
               <lb n="17" xml:id="p395-16"/>Φησὶν ὅτι κἂν ὑποθώμεθα τὸ τί ἦν εἶναι ὄνομα ἔχειν τι, οἷον λίθον<note type="apparatus" n="17" target="#p395-16">ἔχειν scripsi: ἔχων D incertus A</note>
               <lb n="18" xml:id="p395-17"/>ἤ τι ἄλλο τοιοῦτον, ἄτοπόν ἐστι τὸ χωρίζειν ἐπὶ τῶν ἁπλῶν οὐσιῶν τὸ
               <lb n="19" xml:id="p395-18"/>τόδε εἶναι τοῦ τῷδε εἶναι. εἰ γὰρ κεχώρισται καὶ ἔστιν αὐτοῦ ἀλλότριον,<milestone type="alt-edition" unit="folio" ed="cod. Monacensis gr. 103" n="277r"/>
@@ -18518,9 +18518,9 @@
             <milestone unit="bekker" n="1032a4"/>
             <quote type="lemma">
               <lb n="16" xml:id="p396-15"/>Ὅτι μὲν οὖν ἐπὶ τῶν πρώτων καὶ καθ’ αὑτὰ λεγομένων.<note type="apparatus" n="16" target="#p396-15">καθ’ αὑτὰ] καθ’ αὑτῶν D dubius A</note>
+              <lb n="17" xml:id="p396-16"/>
             </quote>
             <p>
-              <lb n="17" xml:id="p396-16"/>
               <lb n="18" xml:id="p396-17"/>Δείξας διὰ πολλῶν ἐπιχειρημάτων πολλὰ ἑπόμενα ἄτοπα τοῖς ὑποτιθεμένοις
               <lb n="19" xml:id="p396-18"/>διαφορὰς εἶναι τοῦ τῷδε εἶναι καὶ τοῦ τόδε εἶναι, ἐντεῦθεν συμπεραίνει
               <lb n="20" xml:id="p396-19"/>τὰ εἰρημένα, καὶ φησιν ὅτι ἐπὶ τῶν πρώτων καὶ καθ’ αὑτὰς λεγομένων
@@ -18532,10 +18532,10 @@
             <milestone unit="bekker" n="1032a6"/>
             <quote type="lemma">
               <lb n="23" xml:id="p396-22"/>Οἱ δὲ σοφιστικοὶ ἔλεγχοι πρὸς τὴν θέσιν ταύτην φανερὸν
-            </quote>
-            <p>
               <lb n="24" xml:id="p396-23"/>ὅτι τῇ αὐτῇ λύονται λύσει καὶ εἰ ταὐτὸ τὸ Σωκράτης καὶ
               <lb n="25" xml:id="p396-24"/>τὸ Σωκράτει εἶναι.
+            </quote>
+            <p>
               <lb n="26" xml:id="p396-25"/>Ὅτι ἐπὶ μὲν τῶν συμβεβηκότων οὐκ ἔστι ταὐτὸν ἀνθρώπῳ λευκῷ
               <lb n="27" xml:id="p396-26"/>εἶναι καὶ ἄνθρωπος λευκός, ἐπειδὴ τὰ συμβεβηκότα τῶν οὐσιῶν διάφορα
               <lb n="28" xml:id="p396-27"/>ὑπάρχουσι καὶ παντελῶς ἐξηλλαγμένα. εἶτα ἐπειδὴ ἀνωτέρω ἄλλοις ἐχρήσατο
@@ -18557,9 +18557,9 @@
             <milestone unit="bekker" n="1032a12"/>
             <quote type="lemma">
               <lb n="3" xml:id="p397-2"/>Τῶν δὲ γινομένων τὰ μὲν φύσει γίνονται, τὰ δὲ
+              <lb n="4" xml:id="p397-3"/>τέχνῃ.
             </quote>
             <p>
-              <lb n="4" xml:id="p397-3"/>τέχνῃ.
               <lb n="5" xml:id="p397-4"/>Καθάπερ ἐν τῇ θεωρίᾳ εἰρήκαμεν, σκοπὸν ἔχει διαλεχθῆναι περὶ τῆς
               <lb n="6" xml:id="p397-5"/>ἀύλου καὶ κυρίως οὐσίας. ἐπεὶ δὲ ἡ αἰσθητὴ φανερά ἐστι μᾶλλον, πρότερον<note type="apparatus" n="6" target="#p397-5">ἐπεὶ scripsi: ἐπὶ libri</note>
               <lb n="7" xml:id="p397-6"/>διαλέγεται περὶ αὐτῶν. αὗται δὲ πᾶσαι ἢ ὑπὸ φύσεως γίνονται ἢ ὑπὸ τέχνης
@@ -18727,9 +18727,9 @@
             <milestone unit="bekker" n="1033a5"/>
             <quote type="lemma">
               <lb n="22" xml:id="p400-21"/>Ἐξ οὗ δὴ γίνεται ὡς ὕλης ἔνια, λέγεται, ὅταν γένηται,
+              <lb n="23" xml:id="p400-22"/>οὐκ ἐκεῖνο ἀλλ’ ἐκείνου.<note type="apparatus" n="23" target="#p400-22">ἐκείνου A²D: ἐκείνινον Aristoteles</note>
             </quote>
             <p>
-              <lb n="23" xml:id="p400-22"/>οὐκ ἐκεῖνο ἀλλ’ ἐκείνου.<note type="apparatus" n="23" target="#p400-22">ἐκείνου A²D: ἐκείνινον Aristoteles</note>
               <lb n="24" xml:id="p400-23"/>Ἐπειδὴ διχῶς λέγονται γίνεσθαι τὰ γινόμενα, τὰ μὲν ὡς ἐξ ὕλης,
               <lb n="25" xml:id="p400-24"/>ἡνίκα φαμὲν ὅτι ὁ χαλκὸς γέγονεν ἀνδριὰς ἢ οἱ λίθοι γεγόνασιν οἰκία, τὰ<note type="apparatus" n="25" target="#p400-24">ὁ χαλκὸς — φαμὲν ὅτι (26) om. D</note>
               <lb n="26" xml:id="p400-25"/>δὲ ὡς ἐκ τῆς οἰκείας στερήσεως, ἡνίκα φαμὲν ὅτι ἐξ ἀμούσου γέγονε μουσικὸς
@@ -18875,9 +18875,9 @@
             <milestone unit="bekker" n="1033b19"/>
             <quote type="lemma">
               <lb n="1" xml:id="p404-0"/>Πότερον οὖν ἔστι τις σφαῖρα παρὰ τάσδε ἢ οἰκία παρὰ<note type="apparatus" n="1" target="#p404-0">Πότερον κτλ.] lemma in libris non distinguitur</note>
+              <lb n="2" xml:id="p404-1"/>τὰς πλίνθους.
             </quote>
             <p>
-              <lb n="2" xml:id="p404-1"/>τὰς πλίνθους.
               <lb n="3" xml:id="p404-2"/>Δείξας ὅτι οὐ γίνεται τὸ εἶδος αὐτὸ καθ’ αὑτό, ἐντεῦθέν φησιν ὅτι<note type="apparatus" n="3" target="#p404-2">οὐ om. D</note>
               <lb n="4" xml:id="p404-3"/>οὐ δυνατόν ἐστιν αὐτὰ καθ’ αὑτὰ ὑπάρχειν ἐνεργείᾳ τὰ εἴδη· εἰ γὰρ τοῦτο,
               <lb n="5" xml:id="p404-4"/>φησίν, ὑποθώμεθα, ἀναιρεθήσεται ἡ γένεσις. ἡ γὰρ γένεσις ἐκ τοῦ δυνάμει
@@ -18931,9 +18931,9 @@
             <milestone unit="bekker" n="1033b19"/>
             <quote type="lemma">
               <lb n="10" xml:id="p405-9"/>Πότερον οὖν ἔστι τις σφαῖρα παρὰ τάσδε ἢ οἰκία
+              <lb n="11" xml:id="p405-10"/>παρὰ τὰς πλίνθους.
             </quote>
             <p>
-              <lb n="11" xml:id="p405-10"/>παρὰ τὰς πλίνθους.
               <lb n="12" xml:id="p405-11"/>Φησὶν ἆρά γε αὐτὰ καθ’ αὑτὰ ὑπάρχουσιν ἐνεργείᾳ τὰ εἴδη, οἷον τὸ
               <lb n="13" xml:id="p405-12"/>τῆς σφαίρας εἶδος παρὰ τὰς σφαίρας τὰς ἐνταῦθα ἢ τὸ τῆς οἰκίας εἶδος<note type="apparatus" n="13" target="#p405-12">τὰ ἐνταῦθα libri</note>
               <lb n="14" xml:id="p405-13"/>παρὰ τὰς καθ’ ἕκαστον οἰκίας, ἢ οὐδέποτε γίνεται γένεσις, καθάπερ ἐν
@@ -18955,9 +18955,9 @@
             <milestone unit="bekker" n="1033b26"/>
             <quote type="lemma">
               <lb n="27" xml:id="p405-26"/>Φανερὸν ἄρα ὅτι ἡ τῶν εἰδῶν αἰτία, ὡς εἰώθασι λέγειν
+              <lb n="28" xml:id="p405-27"/>τινές.
             </quote>
             <p>
-              <lb n="28" xml:id="p405-27"/>τινές.
               <lb n="29" xml:id="p405-28"/>Ἐντεῦθεν, ὡς εἴρηται ἐν τῇ θεωρίᾳ, πρὸς τοὺς τὰς ἰδέας πρεσβεύοντας<note type="apparatus" n="29" target="#p405-28">τοὺς om. D</note>
               <lb n="30" xml:id="p405-29"/>ἀποτείνεται. φησὶ γὰρ ὅτι, εἴπερ εἰσὶν αἱ ἰδέαι, καθάπερ τινὲς λέγουσιν,
               <lb n="31" xml:id="p405-30"/>ἕτεραι οὖσαι καὶ ἀνομοειδεῖς παρὰ τὰ καθ’ ἕκαστα εἴδη, οὐδὲν
@@ -18991,9 +18991,9 @@
             <milestone unit="bekker" n="1034a9"/>
             <quote type="lemma">
               <lb n="19" xml:id="p406-18"/>Ἀπορήσειε δ’ ἄν τις, διὰ τί τὰ μὲν γίνεται καὶ τέχνῃ
+              <lb n="20" xml:id="p406-19"/>καὶ ἀπὸ ταὐτομάτου.
             </quote>
             <p>
-              <lb n="20" xml:id="p406-19"/>καὶ ἀπὸ ταὐτομάτου.
               <lb n="21" xml:id="p406-20"/>Ἐντεῦθεν ζητεῖ δι’ ἣν αἰτίαν τινὰ μὲν τῶν πραγμάτων γίνεται καὶ ἀπὸ
               <lb n="22" xml:id="p406-21"/>τέχνης καὶ ἀπὸ ταὐτομάτου, ὥσπερ ὑγεία, τινὰ δὲ οὔ, ὥσπερ τὰ τεχνητά.
               <lb n="23" xml:id="p406-22"/>καί φησιν ὅτι αἴτιον δὲ τῶν μὲν ἡ ὕλη ἡ ἄρχουσα τῆς γενέσεως<note type="apparatus" n="23" target="#p406-22">post δὲ IV litterae erasae A: ὅτι add. Aristoteles ἡ (post ὕλη) om. D</note>
@@ -19025,9 +19025,9 @@
             <milestone unit="bekker" n="1034a21"/>
             <quote type="lemma">
               <lb n="8" xml:id="p407-7"/>Δῆλον δὲ ἐκ τῶν εἰρημένων καὶ ὅτι τρόπον τινὰ ἅπαντα
+              <lb n="9" xml:id="p407-8"/>γίνεται ἐξ ὁμωνύμου.
             </quote>
             <p>
-              <lb n="9" xml:id="p407-8"/>γίνεται ἐξ ὁμωνύμου.
               <lb n="10" xml:id="p407-9"/>Δείξας διὰ τῶν προλαβόντων ὅτι τὸ ποιητικὸν αἴτιον ὁμοειδές ἐστι
               <lb n="11" xml:id="p407-10"/>τῷ γινομένῳ, φησὶν ὅτι δῆλόν ἐστιν ἐκ τῶν εἰρημένων ὅτι τρόπον τινὰ
               <lb n="12" xml:id="p407-11"/>ἅπαντα γίνεται ἐξ ὁμωνύμων, τουτέστιν ἐξ ὁμοειδῶν· ἄνθρωπος γὰρ ἄνθρωπον
@@ -19323,9 +19323,9 @@
             <milestone unit="bekker" n="1035b3"/>
             <quote type="lemma">
               <lb n="28" xml:id="p413-27"/>Εἴρηται μὲν οὖν καὶ νῦν τὸ ἀληθές, ὅμως δὲ ἔτι σαφέστερον
+              <lb n="29" xml:id="p413-28"/>εἴπωμεν.
             </quote>
             <p>
-              <lb n="29" xml:id="p413-28"/>εἴπωμεν.
               <lb n="30" xml:id="p413-29"/>Ἐντεῦθεν τὴν δευτέραν ἀπορίαν ἐπιλύεται τὴν περὶ τῶν μερῶν, ἡνίκα
               <lb n="31" xml:id="p413-30"/>ἐζήτει εἴτε πρότερα τὰ μέρη τοῦ ὅλου εἰσίν, εἴτε τὸ ὅλον τῶν μερῶν. καί<note type="apparatus" n="31" target="#p413-30">πρότερον D</note>
               <lb n="32" xml:id="p413-31"/>φησιν ὅτι διττόν ἐστι τὸ εἶδος, τὸ μὲν ἔνυλον τὸ δὲ ἄυλον, οἷον ὡς ἐπὶ
@@ -19483,9 +19483,9 @@
             <milestone unit="bekker" n="1036a26"/>
             <quote type="lemma">
               <lb n="10" xml:id="p417-9"/>Ἀπορεῖται δὲ εἰκότως καὶ ποῖα τοῦ εἴδους μέρη καὶ
+              <lb n="11" xml:id="p417-10"/>ποῖα οὔ.
             </quote>
             <p>
-              <lb n="11" xml:id="p417-10"/>ποῖα οὔ.
               <lb n="12" xml:id="p417-11"/>Δείξας ἀνωτέρω ὅτι τὰ μέρη τοῦ ἀύλου εἴδους πρότερα ὑπάρχουσι
               <lb n="13" xml:id="p417-12"/>τοῦ ὅλου ὡς εἰς τὸν ὁρισμὸν αὐτοῦ παραλαμβανόμενα, τὰ μέντοι γε μέρη
               <lb n="14" xml:id="p417-13"/>τοῦ ὁριστοῦ δεύτερα τοῦ ὅλου, ἐντεῦθεν ἀπορεῖ καὶ εἰκότως ἀπορεῖ, ὅτι<note type="apparatus" n="14" target="#p417-13">ὁριστοῦ scripsi: ὁρισμοῦ libri</note>
@@ -19556,9 +19556,9 @@
             <milestone unit="bekker" n="1036a26"/>
             <quote type="lemma">
               <lb n="1" xml:id="p419-0"/>Ἀπορεῖται δὲ εἰκότως καὶ ποῖα τοῦ εἴδους μέρη καὶ
+              <lb n="2" xml:id="p419-1"/>ποῖα οὔ.
             </quote>
             <p>
-              <lb n="2" xml:id="p419-1"/>ποῖα οὔ.
               <lb n="3" xml:id="p419-2"/>Φησὶν ὅτι ἀπορεῖται ποῖα ἄρα ὑπάρχουσι τοῦ εἴδους αὐτοῦ καθ’ αὑτὸ<note type="apparatus" n="3" target="#p419-2">αὐτὸ scripsi: αὐτοῦ libri</note>
               <lb n="4" xml:id="p419-3"/>λαμβανομένου μέρη, καὶ ποῖα τοῦ συνθέτου. τούτου γὰρ μὴ γνωσθέντος
               <lb n="5" xml:id="p419-4"/>οὐκ ἔστιν ὁρίσασθαι· τοῦ γὰρ καθόλου καὶ τῶν εἰδῶν ὑπάρχουσιν
@@ -19671,9 +19671,9 @@
             <milestone unit="bekker" n="1037a10"/>
             <quote type="lemma">
               <lb n="20" xml:id="p421-19"/>Πότερον δὲ ἔστι τι παρὰ τὴν ὕλην τῶν τοιούτων<note type="apparatus" n="20" target="#p421-19">τι] sic etiam Metaph. duo libri</note>
+              <lb n="21" xml:id="p421-20"/>τις οὐσιῶν.<milestone type="alt-edition" unit="folio" ed="cod. Monacensis gr. 103" n="295r"/>
             </quote>
             <p>
-              <lb n="21" xml:id="p421-20"/>τις οὐσιῶν.<milestone type="alt-edition" unit="folio" ed="cod. Monacensis gr. 103" n="295r"/>
               <lb n="22" xml:id="p421-21"/>Ἐντεῦθεν τὰς ἀπορίας κινεῖ, καί φησιν ὅτι ἆρα ἔστι τις ἑτέρα οὐσία
               <lb n="23" xml:id="p421-22"/>παρὰ τὴν ὕλην τῶν τοιούτων οὐσιῶν τῶν συνθέτων, καὶ δεῖ ζητεῖν οὐσίαν
               <lb n="24" xml:id="p421-23"/>αὐτῶν ἑτέραν τινά, οἷον ἀριθμοῦ, ἢ ἰδέας, δεῖ ἡμᾶς ὕστερον τοῦτο<note type="apparatus" n="24" target="#p421-23">αὐτῶν om. D τινά scripsi: τινὰς libri ἀριθμοὺς Aristoteles</note>
@@ -19734,9 +19734,9 @@
             <milestone unit="bekker" n="1037b8"/>
             <quote type="lemma">
               <lb n="1" xml:id="p423-0"/>Νῦν δὲ λέγομεν πρῶτον ἐφ’ ὅσον ἐν τοῖς Ἀναλυτικοῖς
+              <lb n="2" xml:id="p423-1"/>περὶ ὁρισμοῦ μὴ εἴρηται.
             </quote>
             <p>
-              <lb n="2" xml:id="p423-1"/>περὶ ὁρισμοῦ μὴ εἴρηται.
               <lb n="3" xml:id="p423-2"/>Εἰρήκαμεν καὶ τῇ προτεραίᾳ 〈ὅτι〉 δύο ἀπορίας ἐκτίθεται ὁ Ἀριστοτέλης,<note type="apparatus" n="3" target="#p423-2">ὅτι addidi</note>
               <lb n="4" xml:id="p423-3"/>μίαν μὲν τὴν λέγουσαν, ἆρα τῷ ὄντι ὑπάρχουσιν οὐσίαι χωρισταί,
               <lb n="5" xml:id="p423-4"/>οἷον αὐτοάνθρωπος καὶ αὐτοΐππος, πρὸ τῶν συνθέτων οὐσιῶν τούτων, καὶ
@@ -19818,9 +19818,9 @@
             <milestone unit="bekker" n="1037b8"/>
             <quote type="lemma">
               <lb n="1" xml:id="p425-0"/>Νῦν δὲ λέγομεν πρῶτον ἐφ’ ὅσον ἐν τοῖς Ἀναλυτικοῖς.
+              <lb n="2" xml:id="p425-1"/>
             </quote>
             <p>
-              <lb n="2" xml:id="p425-1"/>
               <lb n="3" xml:id="p425-2"/>Ἐπειδὴ ἐν τῷ δευτέρῳ βιβλίῳ τῶν δευτέρων Ἀναλυτικῶν ἐκίνησε
               <lb n="4" xml:id="p425-3"/>τὸν περὶ ὁρισμῶν λόγον, φησὶν ἐνταῦθα ὅτι εἴ τι ἡμῖν 〈ἐκεῖ〉 μὴ εἴρηται<note type="apparatus" n="4" target="#p425-3">post ἡμῖν desunt XVII litterae A, XII litterae D; explevi ex Aristotele</note>
               <lb n="5" xml:id="p425-4"/>περὶ〉 τῶν ὁρισμῶν, ἐνταῦθα ἀναπληροῦμεν. ἡ γὰρ 〈ἐκεῖ〉 ἀπορία λεχθεῖσα<note type="apparatus" n="5" target="#p425-4">ἐκεῖ addidi: de re ipsa cf. Anal. post. B</note>
@@ -19861,9 +19861,9 @@
             <milestone unit="bekker" n="1037b27"/>
             <quote type="lemma">
               <lb n="1" xml:id="p426-0"/>Δεῖ δὲ ἐπισκοπεῖν πρῶτον περὶ τῶν κατὰ τὰς διαιθέσεις
+              <lb n="2" xml:id="p426-1"/>ὁρισμῶν.
             </quote>
             <p>
-              <lb n="2" xml:id="p426-1"/>ὁρισμῶν.
               <lb n="3" xml:id="p426-2"/>Ἐντεῦθεν ἐνίσταται πρὸς τοὺς Πλατωνικοὺς ἐγκαλῶν αὐτοῖς ὡς ὅτι<note type="apparatus" n="3" target="#p426-2">αὐτοῖς scripsi: αὐτοὺς libri</note><milestone type="alt-edition" unit="folio" ed="cod. Monacensis gr. 103" n="298r"/>
               <lb n="4" xml:id="p426-3"/>ἀμεθόδως τῇ διαιρετικῇ κέχρηνται· καί φησιν ὅτι δεῖ ἡμᾶς ἐπισκοπεῖν
               <lb n="5" xml:id="p426-4"/>περὶ τῶν κατὰ τὰς διαιρέσεις ὁρισμῶν. οὐδὲν γὰρ δεῖ παραλαμβάνεσθαι
@@ -19885,9 +19885,9 @@
             <milestone unit="bekker" n="1038a9"/>
             <quote type="lemma">
               <lb n="18" xml:id="p426-17"/>Ἀλλὰ μὴν καὶ δεῖ γε διαιρεῖσθαι τὴν τῆς διαφορᾶς
+              <lb n="19" xml:id="p426-18"/>διαφοράν.
             </quote>
             <p>
-              <lb n="19" xml:id="p426-18"/>διαφοράν.
               <lb n="20" xml:id="p426-19"/>Φησὶν ὅτι μετὰ τὴν πρώτην διαίρεσιν τοῦ γένους δεῖ ἡμᾶς τὴν διαφορὰν
               <lb n="21" xml:id="p426-20"/>διαιρεῖν, καθάπερ ἐν τῇ θεωρίᾳ εἰρήκαμεν· οἷον ζῴου διαφορὰ
               <lb n="22" xml:id="p426-21"/>ὑπάρχει τὸ ὑπόπουν, πάλιν τοῦ ζῴου τοῦ ὑπόποδος δεῖ
@@ -20312,9 +20312,9 @@
             <milestone unit="bekker" n="1039a24"/>
             <quote type="lemma">
               <lb n="7" xml:id="p436-6"/>Φανερὸν δὲ ἐξ αὐτῶν τούτων τὸ συμβαῖνον καὶ τοῖς
+              <lb n="8" xml:id="p436-7"/>τὰς ἰδέας λέγουσι.
             </quote>
             <p>
-              <lb n="8" xml:id="p436-7"/>τὰς ἰδέας λέγουσι.
               <lb n="9" xml:id="p436-8"/>Δείξας ὅτι μὴ οἷόν τε ἐξ οὐσιῶν ἐνεργείᾳ οὐσῶν συγκείσθαι τὴν οὐσίαν,
               <lb n="10" xml:id="p436-9"/>καὶ ὅτι τῆς ἀτόμου ἀνάγκη καὶ τὰ μέρη ἄτομα εἶναι, ἐκ τῶν εἰρημένων,
               <lb n="11" xml:id="p436-10"/>φησί, φανερὸν καὶ τὸ συμβαῖνον ἄτοπον τοῖς τὰς ἰδέας ὑποτιθεμένοις
@@ -20484,9 +20484,9 @@
             <milestone unit="bekker" n="1039b16"/>
             <quote type="lemma">
               <lb n="22" xml:id="p440-21"/>Ἔτι δὲ ἐπὶ τῶν αἰσθητῶν ταὐτά τε συμβαίνει καὶ
+              <lb n="23" xml:id="p440-22"/>τούτων ἀτοπώτερα.
             </quote>
             <p>
-              <lb n="23" xml:id="p440-22"/>τούτων ἀτοπώτερα.
               <lb n="24" xml:id="p440-23"/>Ἔτι πρὸς τοὺς τὰς ἰδέας πρεσβεύοντας ἐνίσταται, καί φησιν ὅτι τὸ
               <lb n="25" xml:id="p440-24"/>εἶδος αὐτὸ καθ’ αὑτὸ οὔτε γίνεται οὔτε φθείρεται. οὐ γὰρ γίνεται τὸ εἶδος
               <lb n="26" xml:id="p440-25"/>τῆς οἰκίας αὐτὸ καθ’ αὑτὸ οὔτε φθείρεται, ἀλλὰ τὸ σύνθετόν ἐστι<milestone type="alt-edition" unit="folio" ed="cod. Monacensis gr. 103" n="307v"/>
@@ -20536,9 +20536,9 @@
             <milestone unit="bekker" n="1039b16"/>
             <quote type="lemma">
               <lb n="32" xml:id="p441-31"/>Ἔτι δὲ ἐπὶ τῶν αἰσθητῶν ταῦτά τε συμβαίνει καὶ τούτων
+              <lb n="33" xml:id="p441-32"/>ἀτοπώτερα.
             </quote>
             <p>
-              <lb n="33" xml:id="p441-32"/>ἀτοπώτερα.
               <lb n="34" xml:id="p441-33"/>Φησὶν ὅτι τοῖς ὑποτιθεμένοις ἰδέας ταῦτα ἕπεται τὰ εἰρημένα καὶ τούτων
               <lb n="35" xml:id="p441-34"/>ἀτοπώτερα, τὸ γίνεσθαι ἀπείρους ἰδέας. εἰ οὖν ἀδύνατον τοῦτο οὕτως
             </p>
@@ -20604,9 +20604,9 @@
             <milestone unit="bekker" n="1040a27"/>
             <quote type="lemma">
               <lb n="18" xml:id="p443-17"/>Ὥσπερ οὖν εἴρηται, λανθάνει ὅτι ἀδύνατον ὁρίσασθαι
+              <lb n="19" xml:id="p443-18"/>ἐν τοῖς ἀιδίοις.
             </quote>
             <p>
-              <lb n="19" xml:id="p443-18"/>ἐν τοῖς ἀιδίοις.
               <lb n="20" xml:id="p443-19"/>Δείξας ὅτι οὐ δυνατὸν εἶναι τῶν ἀτόμων ὁρισμόν, ἐντεῦθέν φησιν ὅτι<note type="apparatus" n="20" target="#p443-19">ὅτι ἀδύνατον D</note>
               <lb n="21" xml:id="p443-20"/>ἐπὶ τῶν ἀιδίων λανθάνει τὸ τοιοῦτον καὶ γίνεται ὑπόνοια ὅτι ἐστὶ δυνατὸν
               <lb n="22" xml:id="p443-21"/>ὁρισμὸν * * * ἀπάτη ἐκ τῆς ἀιδιότητος * * * ἀιδίων πραγμάτων ὑπάργουσιν<note type="apparatus" n="22" target="#p443-21">post ὁρισμὸν lacuna XVIII litterarum D: ὁρις, inde desunt fere XXIII litterae A: fort. addendum εἶναι τῶν ἀτόμων. γίνεται δ’ ἡ ἀιδιότητος, inde lacuna X litterarum relicta ἡδίων D: ἀιδιότ (XI fere litterae deperditae) δίων A: fort. legendum ἀιδιότητος, ἐπεὶ τῶν ἀιδίων</note>
@@ -20770,9 +20770,9 @@
             <milestone unit="bekker" n="1041a9"/>
             <quote type="lemma">
               <lb n="20" xml:id="p447-19"/>Ἐπεὶ οὖν ἡ οὐσία ἀρχὴ καὶ αἰτία τίς ἐστιν, ἐντεῦθεν<note type="apparatus" n="20" target="#p447-19">ἐπειδὴ D</note>
+              <lb n="21" xml:id="p447-20"/>μετιτέον.
             </quote>
             <p>
-              <lb n="21" xml:id="p447-20"/>μετιτέον.
               <lb n="22" xml:id="p447-21"/>Προέκειτο αὐτῷ ἐξ ἀρχῆς διαλεχθῆναι περὶ τῆς οὐσίας καὶ γνῶναι
               <lb n="23" xml:id="p447-22"/>τίς ἐστιν ἡ κυρίως οὐσία· καὶ ἔλεγεν ὅτι τετραχῶς λέγεται ἡ οὐσία, ἡ
               <lb n="24" xml:id="p447-23"/>ὕλη, τὸ εἶδος, τὸ συναμφότερον καὶ τὸ καθόλου τὸ ἐν πολλοῖς θεωρούμενον

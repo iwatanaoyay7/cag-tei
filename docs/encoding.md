@@ -57,8 +57,13 @@ records the details of its production; what is said here holds for all 59 files.
   paraphrases); some works have a middle level (`section` between chapter and lemma, e.g. lectures).
   Text before the first lemma of a chapter is a leaf with `n="0"`.
 - The CTS citation scheme is declared in `refsDecl n="CTS"` (e.g. `chapter.lemma`).
-- `quote type="lemma"`: the lemma as printed (spaced type in the edition). `milestone unit="bekker"`: the Bekker
-  reference printed before the lemma (normalised, e.g. `24a10`).
+- `quote type="lemma"`: the lemma as printed (spaced type in the edition), over all its printed lines; a `pb` can
+  stand inside it where the lemma runs on to the next page, and a short centred last line the edition does not count
+  is an `lb` without `n`. Where the commentary follows the lemma in the same line (Stephanus, In De interpretatione),
+  the quotation ends after the last spaced word and the paragraph continues in that line without a new `lb`. A lemma
+  division with a Bekker reference but no printed lemma (Michael, In De partibus animalium from p. 37, where the
+  paraphrase follows the reference directly) has no `quote`. `milestone unit="bekker"`: the Bekker reference printed
+  before the lemma (normalised, e.g. `24a10`).
 - Headings inside a div (sub-headings, closing formulas, labels of tables) are `ab type="head"`.
 - The divisions of 15 works (the "pilot" set) were made by hand; those of the other 44 automatically and reviewed
   (see each header).

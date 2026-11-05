@@ -18,7 +18,7 @@
         <p>Text transcribed by OCR (Humanitext OCR v2, Gemini models) from the scans named in the source description. Structure (div, quote, head): transferred from a manual division of this work into chapters, sections and lemmata made by Tomomi Nakayama on a TEI file of the work derived from First1KGreek; only the positions of the divisions, the extent of the lemma quotations and the Bekker references were taken over and aligned to the OCR lines by page and opening words, and the result was reviewed in four rounds (2026-08-28 to 2026-09-29). Text: OCR of the page images with line coordinates (gemini-3-flash-preview; gemini-3.7-flash where it failed; damaged pages transcribed again). The review rounds concerned the structure, the line numbers and the placement of the apparatus, not the wording. In October 2026 the text was collated word by word, page by page and in five-line blocks, with the First1KGreek transcription of the same edition (tlg4016.tlg003.1st1K-grc1). Lines on which the two disagreed, lines without a First1KGreek counterpart and lines containing a word form not attested in a Greek form lexicon (about two fifths of the lines) were read again from images of the single lines by gemini-3.8-flash, undecided words line by line by gemini-3.1-pro-preview, and the remaining words were decided on the page image by student assistants or by AI-assisted checking under the editor's supervision. No text was copied from First1KGreek (Open Greek and Latin Project, University of Leipzig; CC BY-SA 4.0): it served only as a collation witness, and every disagreement was decided from the page image of this edition. Spelling follows the printed page. Later checks are listed in the revision description. Headings inside a div (sub-headings, closing formulas, labels of tables) are ab[@type='head']. The words of diagrams and tables are not body text: each diagram or table is given once as figure after the last body line printed before it (labels, trees and tables transcribed; pure geometry described in figDesc); where the edition counts the rows of a diagram or table as lines, those line numbers are not used by any lb. Evident misprints of the printed edition, identified on the page image, are kept and given with the correct form as choice/sic/corr; mere variants of spelling or accentuation are left as printed. Misprinted numbers in milestones (Bekker references, old-edition page, folio, column and line numbers), which cannot carry choice/sic/corr, are given with the corrected value where the sequence of the numbers determines it. Line breaks: one lb per printed line; @n is the line count of the CAG page (headings included), resynchronised on the printed marginal numbers of the left margin; lines the edition does not count carry lb without @n. Words hyphenated across lines are joined and the lb is placed at the following word boundary. pb/@facs points to the image of the page in the Internet Archive item named in the source description (BookReader page image; for pages supplied from another copy, that copy). Critical-apparatus entries are attached to the line(s) they cite as note[@type='apparatus'] with @target on the lb (line level; the lemma words of an entry are not linked); entries that cannot be resolved remain as note[@type='footnote'] at the page end. References in the margins to older editions or manuscripts are milestone[@type='alt-edition'] with @unit and @ed (the edition identified from the preface of the volume); CAG's repetition of the current old-edition page or folio beside the first line of each page is not encoded. Bekker references printed before lemmata are milestone[@unit='bekker']. Marginal digits fused into the text by OCR have been removed.</p>
       </editorialDecl>
     </encodingDesc>
-    <revisionDesc><change when="2026-08-27" who="#NI">OCR of the page images with line coordinates (gemini-3-flash-preview; gemini-3.7-flash where it failed); division of the text transferred onto the OCR lines.</change><change from="2026-08-28" to="2026-09-29" who="#TN">Four review rounds of the structure, line numbers and apparatus placement; damaged pages transcribed again; lines dropped by the OCR inserted.</change><change when="2026-09-24" who="#NI">Line numbers recounted from the printed marginal numerals in OCR reading order.</change><change from="2026-10-08" to="2026-10-12" who="#NI">Text re-read like the other CAG works, collated with First1KGreek where a First1KGreek file could be aligned (32,001 lines of the Greek pilot works by gemini-3.8-flash, 4,222 by gemini-3.1-pro-preview); remaining words decided on the page images.</change><change when="2026-10-13" who="#NI">Margin references to older editions encoded as milestone[@type='alt-edition'][@ed] and checked on the images.</change><change when="2026-10-14" who="#NI">p. 230, ll. 23–30, missed by the OCR, read again from the page image.</change><change when="2026-10-17" who="#NI">Words hyphenated across lines joined; punctuation normalised; review closed.</change><change when="2026-10-20" who="#NI">Header revised (title, source description, editorial declaration, revision description); supplement brackets normalised to 〈 〉; breathings and accents written as separate signs before capitals composed with the letter; missing elision marks after ἀλλ, κατ, καθ, ἐπ, δι etc. supplied in the text; numbers left at line starts removed or encoded as old-edition milestones (image checked); words divided at a line end that had been joined to a word two lines down corrected; every body line without a line number checked on the page images (margin labels and folio marks read as lines dropped, duplicated rows removed, a missing line restored, numbers given to lines the edition counts); numeral signs unified as ʹ (U+0374, stored in its NFC form U+02B9); line-number jumps, old-edition milestones without an edition name and notes suspected to hold body text checked on the page images; citation by printed page and line declared (refsDecl); raised dots read as apostrophes corrected (checked on the page images); line coordinates of the working files realigned on the marginal numerals; printers' signatures at the foot of the page removed from the apparatus; apparatus entries for two lines joined by et kept as one note pointing at both lines; text of diagrams and tables encoded as figure (18 pages checked on the images); page images linked from pb/@facs.</change><change when="2026-10-21" who="#NI">Old-edition line numbers checked on the page images where the sequence skipped a number (2,100 places in the corpus) and, page by page, where it was irregular (542 pages): numbers missed by the OCR added (549), milestones not printed on the page dropped (190; mostly the CAG's own left-margin numbers or line references of the apparatus taken for old-edition numbers), misplaced ones moved (69), misread values corrected (31), page numbers taken for line numbers made page milestones (8); the edition's own skips and out-of-order numbers left as printed, the line count printed beside the repeated page or folio at the head of a page not encoded (like the repetition).</change><change when="2026-10-21" who="#NI">p. 11, ll. 10 and 11 put back in the printed order.</change><change when="2026-10-23" who="#NI">Quotation marks made uniform: opening single and double quotation marks, printed in the edition in the reversed (high-reversed-9) form, are encoded as ‘ and “, closing ones as ’ and ”, single and double kept as printed; opening marks read by the OCR as straight quotes, low quotes or spacing breathings, and spacing breathings or quotation marks doubled before a capital that already bears its breathing, corrected.</change><change when="2026-11-05" who="#NI">Apparatus entries printed out of numerical order (e.g. 33 … 32) separated from the preceding entry; words hyphenated across lines joined in Latin text as in Greek; words mixing Greek and Latin letters (OCR errors, about 130, including manuscript sigla) corrected on the page images; marginal folio marks left in the text removed; validated against TEI P5 version 4.12.0 (recorded in TEI/@version).</change></revisionDesc>
+    <revisionDesc><change when="2026-08-27" who="#NI">OCR of the page images with line coordinates (gemini-3-flash-preview; gemini-3.7-flash where it failed); division of the text transferred onto the OCR lines.</change><change from="2026-08-28" to="2026-09-29" who="#TN">Four review rounds of the structure, line numbers and apparatus placement; damaged pages transcribed again; lines dropped by the OCR inserted.</change><change when="2026-09-24" who="#NI">Line numbers recounted from the printed marginal numerals in OCR reading order.</change><change from="2026-10-08" to="2026-10-12" who="#NI">Text re-read like the other CAG works, collated with First1KGreek where a First1KGreek file could be aligned (32,001 lines of the Greek pilot works by gemini-3.8-flash, 4,222 by gemini-3.1-pro-preview); remaining words decided on the page images.</change><change when="2026-10-13" who="#NI">Margin references to older editions encoded as milestone[@type='alt-edition'][@ed] and checked on the images.</change><change when="2026-10-14" who="#NI">p. 230, ll. 23–30, missed by the OCR, read again from the page image.</change><change when="2026-10-17" who="#NI">Words hyphenated across lines joined; punctuation normalised; review closed.</change><change when="2026-10-20" who="#NI">Header revised (title, source description, editorial declaration, revision description); supplement brackets normalised to 〈 〉; breathings and accents written as separate signs before capitals composed with the letter; missing elision marks after ἀλλ, κατ, καθ, ἐπ, δι etc. supplied in the text; numbers left at line starts removed or encoded as old-edition milestones (image checked); words divided at a line end that had been joined to a word two lines down corrected; every body line without a line number checked on the page images (margin labels and folio marks read as lines dropped, duplicated rows removed, a missing line restored, numbers given to lines the edition counts); numeral signs unified as ʹ (U+0374, stored in its NFC form U+02B9); line-number jumps, old-edition milestones without an edition name and notes suspected to hold body text checked on the page images; citation by printed page and line declared (refsDecl); raised dots read as apostrophes corrected (checked on the page images); line coordinates of the working files realigned on the marginal numerals; printers' signatures at the foot of the page removed from the apparatus; apparatus entries for two lines joined by et kept as one note pointing at both lines; text of diagrams and tables encoded as figure (18 pages checked on the images); page images linked from pb/@facs.</change><change when="2026-10-21" who="#NI">Old-edition line numbers checked on the page images where the sequence skipped a number (2,100 places in the corpus) and, page by page, where it was irregular (542 pages): numbers missed by the OCR added (549), milestones not printed on the page dropped (190; mostly the CAG's own left-margin numbers or line references of the apparatus taken for old-edition numbers), misplaced ones moved (69), misread values corrected (31), page numbers taken for line numbers made page milestones (8); the edition's own skips and out-of-order numbers left as printed, the line count printed beside the repeated page or folio at the head of a page not encoded (like the repetition).</change><change when="2026-10-21" who="#NI">p. 11, ll. 10 and 11 put back in the printed order.</change><change when="2026-10-23" who="#NI">Quotation marks made uniform: opening single and double quotation marks, printed in the edition in the reversed (high-reversed-9) form, are encoded as ‘ and “, closing ones as ’ and ”, single and double kept as printed; opening marks read by the OCR as straight quotes, low quotes or spacing breathings, and spacing breathings or quotation marks doubled before a capital that already bears its breathing, corrected.</change><change when="2026-11-05" who="#NI">Apparatus entries printed out of numerical order (e.g. 33 … 32) separated from the preceding entry; words hyphenated across lines joined in Latin text as in Greek; words mixing Greek and Latin letters (OCR errors, about 130, including manuscript sigla) corrected on the page images; marginal folio marks left in the text removed; validated against TEI P5 version 4.12.0 (recorded in TEI/@version).</change><change when="2026-11-05" who="#NI">Extent of the lemma quotations (quote[@type='lemma']) checked on the page images: lemmata closed before their last printed line (the quotation was closed when the collation text was covered, so a short centred last line could be left out) extended; abbreviated lemmata (Ἀλλὰ … γένη.) whose quotation had taken in the first line of the commentary shortened (11 places in the pilot works); candidates found from the letter-spacing of the lines on the page images and the line geometry and decided on the page images (Claude work teams).</change></revisionDesc>
   </teiHeader>
   <text>
     <body>
@@ -614,9 +614,9 @@
               <lb n="16" xml:id="p17-15"/>οὐδὲ γράμματα πᾶσι τὰ αὐτά, οὕτως οὐδὲ φωναὶ <milestone type="alt-edition" unit="folio" ed="Venetiis 1545" n="15v"/> αἱ αὐταί· ὧν<note type="apparatus" n="16" target="#p17-15">οὕτως eicias (cf. p. 23, 34); om b</note>
               <lb n="17" xml:id="p17-16"/>μέντοι ταῦτα σημεῖα πρώτως, ταὐτὰ πᾶσι παθήματα τῆς ψυχῆς,<note type="apparatus" n="17" target="#p17-16">ταῦτα τὰ σημ. A πρῶτον A τὰ αὐτὰ G²</note>
               <lb n="18" xml:id="p17-17"/>καὶ ὧν ταῦτα ὁμοιώματα, πράγματα ἤδη ταὐτά. περὶ μὲν οὖν<note type="apparatus" n="18" target="#p17-17">τὰ αὐτὰ G</note>
+              <lb n="19" xml:id="p17-18"/>τούτων εἴρηται ἐν τοῖς Περὶ ψυχῆς· ἄλλης γὰρ πραγματείας.<note type="apparatus" n="19" target="#p17-18">πραγμ. τοῦτο A: τοῦτο πραγμ. a</note>
             </quote>
             <p>
-              <lb n="19" xml:id="p17-18"/>τούτων εἴρηται ἐν τοῖς Περὶ ψυχῆς· ἄλλης γὰρ πραγματείας.<note type="apparatus" n="19" target="#p17-18">πραγμ. τοῦτο A: τοῦτο πραγμ. a</note>
               <lb n="20" xml:id="p17-19"/>Ἦν μὲν ἀκόλουθον κατὰ τὰ ἐπηγγελμένα τοὺς ὁρισμοὺς ἑξῆς ἀποδοῦναι
               <lb n="21" xml:id="p17-20"/>τοῦ ὀνόματος καὶ τοῦ ῥήματος, ἀλλ’ ἐπεὶ οὐ πᾶσα λέξις ὄνομα ἢ
               <lb n="22" xml:id="p17-21"/>ῥῆμα (ἡ γὰρ ἄσημος οἷον βλίτυρι καὶ σκινδαψὸς οὐδέτερον τούτων) καὶ διαφέρουσι<note type="apparatus" n="22" target="#p17-21">ἢ] ὁ F γὰρ] μὲν A βλίτυρ σκίνδαψα (καὶ om.) A</note><note type="apparatus" n="22-23" target="#p17-21 #p17-22">διαφέρ. γὰρ A</note>
@@ -940,11 +940,11 @@
               <lb n="6" xml:id="p26-5"/>ἐστι τό τε ἀληθὲς καὶ τὸ ψεῦδος. τὰ μὲν οὖν ὀνόματα αὐτὰ καὶ<note type="apparatus" n="6" target="#p26-5">τὸ ψεῦδος καὶ τὸ ἀλ. Fb (cf. p. 27,6)</note>
               <lb n="7" xml:id="p26-6"/>τὰ ῥήματα ἔοικε τῷ ἄνευ συνθέσεως καὶ διαιρέσεως νοήματι,<note type="apparatus" n="7" target="#p26-6">τὰ om. A καὶ διαιρ.] ἢ διαιρ. Α</note>
               <lb n="8" xml:id="p26-7"/>οἷον τὸ ἄνθρωπος ἢ τὸ λευκόν, ὅταν μὴ προστεθῇ τι· οὔτε γὰρ<milestone type="alt-edition" unit="line" ed="Venetiis 1545" n="25"/><note type="apparatus" n="8" target="#p26-7">λευκός A</note>
-            </quote>
-            <p>
               <lb n="9" xml:id="p26-8"/>ψεῦδος οὔτε ἀληθές πω. σημεῖον δ’ ἐστὶ τοῦδε· καὶ γὰρ ὁ<note type="apparatus" n="9" target="#p26-8">πω om. A, superscr. F</note>
               <lb n="10" xml:id="p26-9"/>τραγέλαφος σημαίνει μέν τι, οὔπω δὲ ἀληθὲς ἢ ψεῦδος, ἂν
               <lb n="11" xml:id="p26-10"/>μὴ τὸ εἶναι ἢ μὴ εἶναι προστεθῇ, ἢ ∣ ἁπλῶς ἢ κατὰ χρόνον.<milestone type="alt-edition" unit="folio" ed="Venetiis 1545" n="22v"/>
+            </quote>
+            <p>
               <lb n="12" xml:id="p26-11"/>Τὸ χρήσιμον τῶν ῥηθέντων πρὸς τὴν πρόθεσιν τῆς προκειμένης
               <lb n="13" xml:id="p26-12"/>πραγματείας διὰ τούτων παραδίδωσιν ὁ φιλόσοφος· λέγει γὰρ ὅτι τὸ<note type="apparatus" n="13" target="#p26-12">παραδ. ἡμῖν a</note>
               <lb n="14" xml:id="p26-13"/>ἀληθὲς καὶ τὸ ψεῦδος θεωρεῖται μὲν ἔν τε τοῖς νοήμασι καὶ τοῖς<milestone type="alt-edition" unit="line" ed="Venetiis 1545" n="5"/><note type="apparatus" n="14" target="#p26-13">νοήμ.] ὀνόμασι G</note>
@@ -1204,10 +1204,10 @@
               <lb n="5" xml:id="p33-4"/>ἐν δὲ τούτοις βούλεται μέν, ἀλλ’ οὐδενὸς κεχωρισμένον,
               <lb n="6" xml:id="p33-5"/>οἷον ἐν τῷ ἐπακτροκέλης τὸ κέλης. τὸ δὲ κατὰ συνθήκην,<note type="apparatus" n="6" target="#p33-5">post κέλης add. οὐδὲν σημαίνει καθ’ ἑαυτό b</note>
               <lb n="7" xml:id="p33-6"/>ὅτι φύσει τῶν ὀνομάτων οὐδέν ἐστιν, ἀλλ’ ὅταν
-            </quote>
-            <p>
               <lb n="8" xml:id="p33-7"/>γένηται σύμβολον, ἐπεὶ δηλοῦσί γέ τι καὶ οἱ ἀγράμματοι
               <lb n="9" xml:id="p33-8"/>ψόφοι οἷον θηρίων, ὧν οὐδέν ἐστιν ὄνομα.<milestone type="alt-edition" unit="line" ed="Venetiis 1545" n="25"/>
+            </quote>
+            <p>
               <lb n="10" xml:id="p33-9"/>Ἡ χρεία τῶν παραληφθεισῶν ἐν τῷ λόγῳ τοῦ ὀνόματος διαφορῶν
               <lb n="11" xml:id="p33-10"/>παραδίδοται διὰ τούτων, ἀρχομένης τῆς διδασκαλίας ἐκ τῆς τελευταίας<note type="apparatus" n="11" target="#p33-10">παραδίδονται F τελευταῖον FGMa</note>
               <lb n="12" xml:id="p33-11"/>ῥηθείσης· λέγεται <milestone type="alt-edition" unit="folio" ed="Venetiis 1545" n="28r"/> γὰρ πρῶτον τίνος ἕνεκα προστέθειται τὸ ἧς μηδὲν<note type="apparatus" n="12" target="#p33-11">τίνος πρ. A προστεθήσεται A</note><note type="apparatus" n="12-13" target="#p33-11 #p33-12">μέρος μηδὲν (num. corr.) G</note>
@@ -1503,9 +1503,9 @@
               <lb n="12" xml:id="p41-11"/>Τὸ δὲ οὐκ ἄνθρωπος οὐκ ὄνομα. οὐ μὴν οὐδὲ κεῖταί<note type="apparatus" n="12" target="#p41-11">οὐ μὴν — μὴ ὄντος (15) om. M</note>
               <lb n="13" xml:id="p41-12"/>γε ὄνομα ὅ τι δεῖ καλεῖν αὐτό· οὔτε γὰρ λόγος οὔτε ἀπόφασις.<milestone type="alt-edition" unit="line" ed="Venetiis 1545" n="25"/><note type="apparatus" n="13" target="#p41-12">γε om. b ἀπόφασίς ἐστιν ab</note>
               <lb n="14" xml:id="p41-13"/>ἀλλ’ ἔστω ὄνομα ἀόριστον, ὅτι ὁμοίως ἐφ’ ὁτουοῦν ὑπάρχει
+              <lb n="15" xml:id="p41-14"/>καὶ ὄντος καὶ μὴ ὄντος.
             </quote>
             <p>
-              <lb n="15" xml:id="p41-14"/>καὶ ὄντος καὶ μὴ ὄντος.
               <lb n="16" xml:id="p41-15"/>Τοῦτο δὲ νῦν ἐκίνησε τὸ θεώρημα, διότι ἑώρα μὲν <milestone type="alt-edition" unit="folio" ed="Venetiis 1545" n="34v"/> καὶ τὰς τοιαύτας<note type="apparatus" n="16" target="#p41-15">θεώρημα] ὄνομα F ἑώρα μὲν] ἑωράκαμεν A: ὁρῶμεν F</note>
               <lb n="17" xml:id="p41-16"/>φωνὰς παραλαμβανομένας πολλάκις ἐν ταῖς ἀποφάνσεσιν, ὡς ὅταν<note type="apparatus" n="17" target="#p41-16">φωνὰς om. F ἀποφάσεσιν G</note>
               <lb n="18" xml:id="p41-17"/>εἴπωμεν ‘οὐκ ἄνθρωπος περιπατεῖ’, οὐδενός γε ὀνόματος ἠξιωμένας ὑπὸ<note type="apparatus" n="18" target="#p41-17">οὐδὲν G γε] δὲ Brand.: an δέ γε?</note>
@@ -1726,14 +1726,14 @@
               <lb n="9" xml:id="p47-8"/>ὄνομα, τὸ δὲ ὑγιαίνει ῥῆμα· προσσημαίνει γὰρ τὸ νῦν ὑπάρχειν.
               <lb n="10" xml:id="p47-9"/>καὶ ἀεὶ τῶν καθ’ ἑτέρου λεγομένων σημεῖόν ἐστιν, οἷον
               <lb n="11" xml:id="p47-10"/>τῶν καθ’ ὑποκειμένου ἢ ἐν ὑποκειμένῳ. τὸ δὲ οὐχ ὑγιαίνει<note type="apparatus" n="11" target="#p47-10">τῶν] τὸν A</note>
-            </quote>
-            <p>
               <lb n="12" xml:id="p47-11"/>καὶ τὸ οὐ κάμνει οὐ ῥῆμα λέγω· προσσημαίνει μὲν γὰρ χρόνον
               <lb n="13" xml:id="p47-12"/>καὶ ἀεὶ κατά τινος ὑπάρχει, τῇ δὲ διαφορᾷ ὄνομα οὐ κεῖται·<note type="apparatus" n="13" target="#p47-12">διαφ. δὲ A</note>
               <lb n="14" xml:id="p47-13"/>ἀλλ’ ἔστω ἀόριστον ῥῆμα, ὅτι ὁμοίως ἐφ’ ὁτουοῦν ὑπάρχει,<note type="apparatus" n="14" target="#p47-13">ὑπάρχειν F</note>
               <lb n="15" xml:id="p47-14"/>καὶ ὄντος καὶ μὴ ὄντος. ὁμοίως δὲ καὶ τὸ ὑγίανεν ἢ τὸ ὑγιανεῖ<note type="apparatus" n="15" target="#p47-14">ἢ] καὶ F</note>
               <lb n="16" xml:id="p47-15"/>οὐ ῥῆμα, ἀλλὰ πτῶσις ῥήματος. διαφέρει δὲ τοῦ ῥήματος,<note type="apparatus" n="16" target="#p47-15">πτώσεις F</note>
               <lb n="17" xml:id="p47-16"/>ὅτι τὸ μὲν τὸν παρόντα προσσημαίνει χρόνον, τὰ δὲ τὸν πέριξ.<note type="apparatus" n="17" target="#p47-16">τὸ] τὰ A</note>
+            </quote>
+            <p>
               <lb n="18" xml:id="p47-17"/>Ἡ μὲν τελεία τοῦ ὁρισμοῦ τοῦ ῥήματος ἀπόδοσις εἴη ἂν παραπλησίως
               <lb n="19" xml:id="p47-18"/>τῷ ἀποδοθέντι τοῦ ὀνόματος ὅρῳ ‘φωνὴ σημαντικὴ κατὰ συνθήκην
               <lb n="20" xml:id="p47-19"/>προσσημαίνουσα χρόνον, ἧς μέρος οὐδὲν σημαίνει χωρίς’, ἅτε δὲ συντομίας<note type="apparatus" n="20" target="#p47-19">ἧς] οὗ M ἅτε δὲ φιλοσύντομος ὢν ὁ ἀρ. F</note>
@@ -1996,14 +1996,12 @@
           </div>
           <div type="textpart" subtype="lemma" n="10">
             <milestone unit="bekker" n="16b"/>
-            <quote type="lemma">
+            <p>
               <lb n="23" xml:id="p54-22"/>φησὶν αὐτὰ μὲν οὖν καθ’ ἑαυτὰ λεγόμενα τὰ ῥήματα ὀνόματά
               <lb n="24" xml:id="p54-23"/>ἐστι καὶ σημαίνει τι, ὀνόματα λέγων ἀντὶ τοῦ σημαντικά, διὸ καὶ<note type="apparatus" n="24" target="#p54-23">ἐστὶ om. F τοῦ τὰ σημαντ. G1</note>
               <lb n="25" xml:id="p54-24"/>ἐπήγαγε σαφέστερον τοῦτο ποιῶν τὸ καὶ σημαίνει τι’ ἔπειτα τοῦτο κατασκευάζων<note type="apparatus" n="25" target="#p54-24">τὸ om. FGa</note>
               <lb n="26" xml:id="p54-25"/>ὅτι ἐστὶ σημαντικά τινων τὰ ῥήματα ἑξῆς ἐπάγει τὸ ἵστησι<note type="apparatus" n="26" target="#p54-25">ἐστὶ in lac. om. F τὸ om. AM</note><milestone type="alt-edition" unit="line" ed="Venetiis 1545" n="25"/>
               <lb n="27" xml:id="p54-26"/>γὰρ ὁ λέγων τὴν διάνοιαν καὶ ὁ ἀκούσας ἠρέμησεν, ἢ τοῦτο λέγων
-            </quote>
-            <p>
               <lb n="28" xml:id="p54-27"/>ὅτι φέρε εἰπεῖν τοῦ ὑγιαίνει ῥήματος τὴν ἔννοιαν συμπαρεκτεινομένην τῷ<note type="apparatus" n="28" target="#p54-27">ὑγιαίνειν FGMa συμπαρατειν. AM</note>
               <lb n="29" xml:id="p54-28"/>μήκει τῆς προφορᾶς ἀποπεραιοῦμεν καὶ ὥσπερ <milestone type="alt-edition" unit="folio" ed="Venetiis 1545" n="45r"/> ἐν μήκει προφερομένην μετὰ<note type="apparatus" n="29" target="#p54-28">προφερομ.] φερομ. FGa</note>
               <lb n="30" xml:id="p54-29"/>τῆς κατὰ τὴν λέξιν παραστάσεως ἵσταμεν ὅλον τὸ ῥῆμα εἰπόντες ἢ ἀκούσαντες,<note type="apparatus" n="30" target="#p54-29">τὴν om. F</note>
@@ -2130,9 +2128,9 @@
               <lb n="7" xml:id="p58-6"/>ἀλλ’ ἔσται κατάφασις ἢ ἀπόφασις, ἐάν τι προστεθῇ. ἀλλ’ οὐχὶ<milestone type="alt-edition" unit="line" ed="Venetiis 1545" n="25"/>
               <lb n="8" xml:id="p58-7"/>τοῦ ἀνθρώπου συλλαβὴ μία· οὐδὲ γὰρ ἐν τῷ μῦς τὸ ῦς σημαντικόν,
               <lb n="9" xml:id="p58-8"/><milestone type="alt-edition" unit="folio" ed="Venetiis 1545" n="47v"/> ἀλλὰ φωνή ἐστι νῦν μόνον. ἐν δὲ τοῖς διπλοῖς σημαίνει
+              <lb n="10" xml:id="p58-9"/>μέν, ἀλλ’ οὐ καθ’ ἑαυτό, ὥσπερ εἴρηται.<note type="apparatus" n="10" target="#p58-9">οὐχὶ A ὡς προείρ. b</note>
             </quote>
             <p>
-              <lb n="10" xml:id="p58-9"/>μέν, ἀλλ’ οὐ καθ’ ἑαυτό, ὥσπερ εἴρηται.<note type="apparatus" n="10" target="#p58-9">οὐχὶ A ὡς προείρ. b</note>
               <lb n="11" xml:id="p58-10"/>Δι’ ἣν μὲν οὖν αἰτίαν οὐ κατὰ τὰς ἐξ ἀρχῆς ὑποσχέσεις μετὰ τὸν<note type="apparatus" n="11" target="#p58-10">τὸν] τῶν F</note>
               <lb n="12" xml:id="p58-11"/>περὶ ὀνόματος καὶ ῥήματος λόγον περὶ ἀποφάσεως διαλέγεται καὶ καταφάσεως,<milestone type="alt-edition" unit="line" ed="Venetiis 1545" n="5"/>
               <lb n="13" xml:id="p58-12"/>ἔπειτα περὶ ἀποφάνσεως καὶ τελευταῖον περὶ λόγου, ἀλλ’ ἀντιστρέφει
@@ -2287,9 +2285,9 @@
               <lb n="17" xml:id="p62-16"/>ἅπασι δὲ ὑπάρχει, οἷον ἡ εὐχὴ λόγος μέν, ἀλλ’ οὔτε ἀληθὴς
               <lb n="18" xml:id="p62-17"/>οὔτε ψευδής. οἱ μὲν οὖν ἄλλοι ἀφείσθωσαν· ῥητορικῆς γὰρ ἢ
               <lb n="19" xml:id="p62-18"/>ποιητικῆς οἰκειοτέρα ἡ σκέψις· ὁ δὲ ἀποφαντικὸς τῆς νῦν
+              <lb n="20" xml:id="p62-19"/>θεωρίας.
             </quote>
             <p>
-              <lb n="20" xml:id="p62-19"/>θεωρίας.
               <lb n="21" xml:id="p62-20"/>Συλλογισμὸν ἐλέγχει τινὰ διὰ τούτων ὁ Ἀριστοτέλης δεικνύναι δοκοῦντα
               <lb n="22" xml:id="p62-21"/>ὡς ὁ λόγος οὐ θέσει ἐστίν, ἀλλὰ φύσει. τίς οὖν ὁ συλλογισμός; ὁ λόγος,<note type="apparatus" n="22" target="#p62-21">ὁ (primum) om. A</note>
               <lb n="23" xml:id="p62-22"/>φησίν, ὄργανόν ἐστι τῆς φωνητικῆς ἐν ἡμῖν δυνάμεως φύσει οὔσης· δι’<note type="apparatus" n="23" target="#p62-22">φύσει] φυσικῆς F</note><milestone type="alt-edition" unit="line" ed="Venetiis 1545" n="15"/>
@@ -2530,9 +2528,9 @@
               <lb n="3" xml:id="p69-2"/>ἔστιν ἢ ἦν ἢ ἔσται ἤ τι τοιοῦτον προστεθῇ, οὔπω λόγος ἀποφαντικός,
               <lb n="4" xml:id="p69-3"/>διότι δὴ ἕν τί ἐστιν ἀλλ’ οὐ πολλὰ τὸ ζῷον πεζὸν δίπουν·<note type="apparatus" n="4" target="#p69-3">δὴ] δὲ A</note>
               <lb n="5" xml:id="p69-4"/>οὐ γὰρ δὴ τῷ σύνεγγυς εἰρῆσθαι εἷς ἔσται. ἔστι δὲ τοῦτο<note type="apparatus" n="5" target="#p69-4">τῷ] τὸ AF</note><note type="apparatus" n="5-6" target="#p69-4 #p69-5">τοῦτο post ἄλλης colloc. A: post πραγμ. b</note>
+              <lb n="6" xml:id="p69-5"/>ἄλλης πραγματείας εἰπεῖν.<milestone type="alt-edition" unit="line" ed="Venetiis 1545" n="20"/>
             </quote>
             <p>
-              <lb n="6" xml:id="p69-5"/>ἄλλης πραγματείας εἰπεῖν.<milestone type="alt-edition" unit="line" ed="Venetiis 1545" n="20"/>
               <lb n="7" xml:id="p69-6"/>Προθέμενος διαλεχθῆναι περὶ τοῦ ἀποφαντικοῦ λόγου καὶ τῶν τούτου<note type="apparatus" n="7" target="#p69-6">post προθ. add. δὲ G1 διαλεχθ. post λόγου colloc. G1</note>
               <lb n="8" xml:id="p69-7"/>εἰδῶν, καταφάσεώς τε καὶ ἀποφάσεως, ἐπειδὴ τούτων ἑκάτερον τὸ μέν τι
               <lb n="9" xml:id="p69-8"/>ἔχει κατηγορούμενον τὸ δὲ ὑποκείμενον, διαφοράν τινα τούτων ἡμῖν παραδίδωσι<milestone type="alt-edition" unit="line" ed="Venetiis 1545" n="25"/>
@@ -2862,9 +2860,9 @@
               <lb n="28" xml:id="p77-27"/>ἤδη σύνθετος. ἔστι δὲ ἡ μὲν ἁπλῆ ἀπόφανσις φωνὴ σημαντικὴ<note type="apparatus" n="28" target="#p77-27">μὲν om. b</note>
               <lb n="29" xml:id="p77-28"/>περὶ τοῦ 〈εἰ〉 ὑπάρχει τινὶ ἢ μὴ ὑπάρχει, ὡς οἱ χρόνοι διῄρηνται.<note type="apparatus" n="29" target="#p77-28">εἰ addidi (cf. p. 80,18) ὑπάρχειν (utrobique) ab τινὶ] τι ab (cf. p. 80,19. 35)</note>
               <lb n="30" xml:id="p77-29"/>κατάφασις δέ ἐστιν ἀπόφανσίς τινος κατά τινος, ἀπόφασις δέ<note type="apparatus" n="30" target="#p77-29">κατάφασις—ἀπό τινος (31) om. a ἀπόφασις] ἀπόφανσις A</note>
+              <lb n="31" xml:id="p77-30"/>ἐστιν ἀπόφανσίς τινος ἀπό τινος.
             </quote>
             <p>
-              <lb n="31" xml:id="p77-30"/>ἐστιν ἀπόφανσίς τινος ἀπό τινος.
               <lb n="32" xml:id="p77-31"/>Τούτων μὲν λέγει ὧν ἀποφαινόμενοι λέγομεν ἢ ἐρωτηθέντες ὑπό
               <lb n="33" xml:id="p77-32"/>τινος ἢ αὐτοὶ προελόμενοι, περὶ ὧν ἦν αὐτῷ προσεχῶς ὁ λόγος. εἶναι δὲ<note type="apparatus" n="33" target="#p77-32">αὐτῷ] αὐτοῦ M</note>
             </p>
@@ -3003,11 +3001,11 @@
               <lb n="7" xml:id="p81-6"/>κατέφησέ τις ἀποφῆσαι καὶ ὃ ἀπέφησε καταφῆσαι· ὥστε πάσῃ<note type="apparatus" n="7" target="#p81-6">ἀπέφησέ τις b ὥστε δῆλον ὅτι b</note><milestone type="alt-edition" unit="line" ed="Venetiis 1545" n="15"/>
               <lb n="8" xml:id="p81-7"/>καταφάσει ἐστὶν ἀπόφασις ἀντικειμένη καὶ πάσῃ ἀποφάσει
               <lb n="9" xml:id="p81-8"/>κατάφασις. καὶ ἔστω τοῦτο ἀντίφασις, κατάφασις καὶ ἀπόφασις<note type="apparatus" n="9" target="#p81-8">ἀντίφ. τοῦτο b</note>
-            </quote>
-            <p>
               <lb n="10" xml:id="p81-9"/>αἱ ἀντικείμεναι. λέγω δὲ ἀντικεῖσθαι τὴν τοῦ αὐτοῦ κατὰ τοῦ
               <lb n="11" xml:id="p81-10"/>αὐτοῦ, μὴ ὁμωνύμως δέ, καὶ ὅσα ἄλλα τῶν τοιούτων προσδιοριζόμεθα
               <lb n="12" xml:id="p81-11"/>πρὸς τὰς σοφιστικὰς ἐνοχλήσεις.<note type="apparatus" n="12" target="#p81-11">σοφιστ.] φωνιστικὰς F¹</note>
+            </quote>
+            <p>
               <lb n="13" xml:id="p81-12"/>Βούλεται μὲν διὰ τούτων παραδοῦναι τὸν ὁρισμὸν τῆς ἀντιφάσεως<milestone type="alt-edition" unit="line" ed="Venetiis 1545" n="20"/>
               <lb n="14" xml:id="p81-13"/>καὶ εἰπεῖν ὅτι ἐστὶ μάχη καταφάσεως καὶ ἀποφάσεως διαιρουσῶν ἀεὶ τὸ
               <lb n="15" xml:id="p81-14"/>τε ἀληθὲς καὶ τὸ ψεῦδος, ὥστε τῆς ἑτέρας αὐτῶν ψευδομένης ἀληθεύειν
@@ -3198,8 +3196,6 @@
               <lb n="15" xml:id="p86-14"/>ὡς ὑπάρχει τι ἢ μὴ ὁτὲ μὲν τῶν καθόλου τινὶ ὁτὲ δὲ
               <lb n="16" xml:id="p86-15"/>τῶν καθ’ ἕκαστον, ἐὰν μὲν <milestone type="alt-edition" unit="folio" ed="Venetiis 1545" n="70r"/> καθόλου ἀποφαίνηται ἐπὶ τοῦ<note type="apparatus" n="16" target="#p86-15">μὲν οὖν b</note>
               <lb n="17" xml:id="p86-16"/>καθόλου ὅτι ὑπάρχει τι ἢ μή, ἔσονται ἐναντίαι αἱ ἀποφάνσεις<note type="apparatus" n="17" target="#p86-16">αἱ om. A</note>
-            </quote>
-            <p>
               <lb n="18" xml:id="p86-17"/>(λέγω δὲ ἐπὶ τοῦ καθόλου ἀποφαίνεσθαι καθόλου οἷον ‘πᾶς<note type="apparatus" n="18" target="#p86-17">ἀποφαίν.] ἀπόφανσιν F</note>
               <lb n="19" xml:id="p86-18"/>ἄνθρωπος λευκός — οὐδεὶς ἄνθρωπος λευκός’), ὅταν δὲ ἐπὶ
               <lb n="20" xml:id="p86-19"/>τῶν καθόλου μέν, μὴ καθόλου δέ, αὗται μὲν οὐκ εἰσὶν ἐναντίαι,<milestone type="alt-edition" unit="line" ed="Venetiis 1545" n="5"/><note type="apparatus" n="20" target="#p86-19">αὗται μὲν om. F</note>
@@ -3208,6 +3204,8 @@
               <lb n="23" xml:id="p86-22"/>— οὐκ ἔστι λευκὸς ἄνθρωπος’· καθόλου γὰρ ὄντος τοῦ
               <lb n="24" xml:id="p86-23"/>ἄνθρωπος οὐχ ὡς καθόλου κέχρηται τῇ ἀποφάνσει· τὸ γὰρ πᾶς<note type="apparatus" n="24" target="#p86-23">ἀποφάσει F</note><milestone type="alt-edition" unit="line" ed="Venetiis 1545" n="10"/>
               <lb n="25" xml:id="p86-24"/>οὐ τὸ καθόλου σημαίνει, ἀλλ’ ὅτι καθόλου.
+            </quote>
+            <p>
               <lb n="26" xml:id="p86-25"/>Ἄρχεται μὲν ἐντεῦθεν τὸ δεύτερον τοῦ βιβλίου κεφάλαιον, ὅπερ ἐλέγομεν<note type="apparatus" n="26" target="#p86-25">μὲν οὖν Ma</note><note type="apparatus" n="26-27" target="#p86-25 #p86-26">ἐλέγομεν] p. 8, 14</note>
               <lb n="27" xml:id="p86-26"/>εἶναι περὶ τῶν ἐξ ὑποκειμένου καὶ κατηγορουμένου προτάσεων ἢ<note type="apparatus" n="27" target="#p86-26">ἢ — ἐξηγήσεως τῶν (28) suppl. G2</note>
               <lb n="28" xml:id="p86-27"/>ἀποφάνσεων· δεῖ δέ γε ἡμᾶς πρὸ τῆς ἐξηγήσεως τῶν διὰ τοῦ ῥητοῦ λεγομένων<note type="apparatus" n="28" target="#p86-27">ἀποφάσεων A ἐξηγήσεως] ἐξετάσεως A1M 30. p. 87, 1 ποιούμεθα a</note><milestone type="alt-edition" unit="line" ed="Venetiis 1545" n="15"/>
@@ -3743,9 +3741,9 @@
               <lb n="10" xml:id="p101-9"/>Ἐπὶ δὲ τοῦ κατηγορουμένου καθόλου τὸ καθόλου κατηγορεῖν<note type="apparatus" n="10" target="#p101-9">κατ. τὸ καθ. colloc. b</note>
               <lb n="11" xml:id="p101-10"/>οὐκ ἔστιν ἀληθές· οὐδεμία γὰρ κατάφασις ἔσται, ἐν ᾗ<note type="apparatus" n="11" target="#p101-10">οὐδεμία — ζῷον (13) om. M post κατάφασις add. ἀληθὴς Aab: post ἔσται superscr. F² (cf. v. 22)</note>
               <lb n="12" xml:id="p101-11"/>τοῦ κατηγορουμένου καθόλου κατηγορεῖται τὸ καθόλου, οἷον ὅτι<note type="apparatus" n="12" target="#p101-11">τὸ καθ. κατ. colloc. ab ὅτι om. ab</note>
+              <lb n="13" xml:id="p101-12"/>ἐστὶ πᾶς ἄνθρωπος πᾶν ζῷον.
             </quote>
             <p>
-              <lb n="13" xml:id="p101-12"/>ἐστὶ πᾶς ἄνθρωπος πᾶν ζῷον.
               <lb n="14" xml:id="p101-13"/>Ζητεῖ μὲν διὰ τούτων ὁ Ἀριστοτέλης εἰ ὥσπερ τῷ ὑποκειμένῳ προστεθεὶς
               <lb n="15" xml:id="p101-14"/>ὁ καταφατικὸς προσδιορισμὸς ἕτερον εἶδος ἀπειργάσατο προτάσεων,
               <lb n="16" xml:id="p101-15"/>οὕτω καὶ τῷ κατηγορουμένῳ δύναται προστεθεὶς ἑτέραν ἀπεργάσασθαι πρότασιν.
@@ -4035,10 +4033,10 @@
               <lb n="5" xml:id="p109-4"/>δὲ τὴν τοῦ καθόλου κατάφασιν καὶ τὴν τοῦ καθόλου ἀπόφασιν,
               <lb n="6" xml:id="p109-5"/>οἷον πᾶς ἄνθρωπος δίκαιος — οὐδεὶς ἄνθρωπος δίκαιος. διὸ<milestone type="alt-edition" unit="line" ed="Venetiis 1545" n="20"/><note type="apparatus" n="6" target="#p109-5">post οἷον add. πᾶς ἄνθρωπος λευκός, οὐδεὶς ἄνθρωπος λευκός b</note>
               <lb n="7" xml:id="p109-6"/>ταύτας μὲν οὐχ οἷόν τε ἅμα ἀληθεῖς εἶναι, τὰς δὲ ἀντικειμένας<note type="apparatus" n="7" target="#p109-6">ἅμα suppl. F²</note>
-            </quote>
-            <p>
               <lb n="8" xml:id="p109-7"/>αὐταῖς ἐνδέχεταί ποτε ἐπὶ τοῦ αὐτοῦ ἀληθεύειν, οἷον οὐ πᾶς<note type="apparatus" n="8" target="#p109-7">αὐταῖς] ταύταις F ποτε om. F ἀληθεύειν] ἅμα ἀληθεῖς εἶναι b</note>
               <lb n="9" xml:id="p109-8"/>ἄνθρωπος λευκός καὶ ἔστι τις ἄνθρωπος λευκός.<milestone type="alt-edition" unit="line" ed="Venetiis 1545" n="25"/>
+            </quote>
+            <p>
               <lb n="10" xml:id="p109-9"/>Τὰς ἀντιθέσεις ἁπάσας τῶν προσδιωρισμένων προτάσεων ἐν τούτοις<note type="apparatus" n="10" target="#p109-9">προσδιωρ.] διωρ. F</note><note type="apparatus" n="10-11" target="#p109-9 #p109-10">παραδ. ἡμῖν διὰ τούτων (ἐν τούτοις om.) F</note>
               <lb n="11" xml:id="p109-10"/>παραδίδωσιν ἡμῖν ὁ Ἀριστοτέλης, τάς τε τῶν διαγώνιον θέσιν ἐχουσῶν ἐν<note type="apparatus" n="11" target="#p109-10">ὁ ἀριστοτέλης om. F διαγώνων θέσεις Ma</note>
               <lb n="12" xml:id="p109-11"/>τῷ ἐκτεθέντι πρότερον διαγράμματι καὶ τὴν τῶν καθόλου ὡς καθόλου<milestone type="alt-edition" unit="folio" ed="Venetiis 1545" n="88v"/><note type="apparatus" n="12" target="#p109-11">προτέρω M διαγρ.] p. 93,10</note>
@@ -4077,13 +4075,13 @@
               <lb n="6" xml:id="p110-5"/>ὅσαι δὲ ἐπὶ τῶν καθόλου μὲν μὴ καθόλου δέ, οὐκ ἀεὶ ἡ
               <lb n="7" xml:id="p110-6"/>μὲν ἀληθὴς ἡ δὲ ψευδής· ἅμα γὰρ ἀληθές ἐστιν εἰπεῖν ὅτι ἔστιν<note type="apparatus" n="7" target="#p110-6">μὲν AG: om. FG</note><milestone type="alt-edition" unit="line" ed="Venetiis 1545" n="10"/>
               <lb n="8" xml:id="p110-7"/>ἄνθρωπος λευκὸς καὶ ὅτι οὐκ ἔστιν ἄνθρωπος λευκὸς καὶ ὅτι<note type="apparatus" n="8" target="#p110-7">ὅτι (ante οὐκ) superscr. A ante λευκός (alt.) add. οὐ del. G</note><note type="apparatus" n="8-9" target="#p110-7 #p110-8">καὶ ὅτι ἔστιν ἄνθρ. καλὸς — καλός om. G</note><note type="apparatus" n="8" target="#p110-7">ὅτι (ante ἔστιν) om. b</note>
-            </quote>
-            <p>
               <lb n="9" xml:id="p110-8"/>ἔστιν ἄνθρωπος καλὸς καὶ οὐκ ἔστιν ἄνθρωπος καλός· εἰ γὰρ<note type="apparatus" n="9" target="#p110-8">καὶ ὅτι οὐκ A</note>
               <lb n="10" xml:id="p110-9"/>αἰσχρός, καὶ οὐ καλός, καὶ εἰ γίνεται τι, καὶ οὐκ ἔστι. δόξειε<note type="apparatus" n="10" target="#p110-9">καλῶς A δόξει G</note>
               <lb n="11" xml:id="p110-10"/>δ’ ἂν ἐξαίφνης ἄτοπον εἶναι διὰ τὸ φαίνεσθαι σημαίνειν τὸ<note type="apparatus" n="11" target="#p110-10">σημαίνειν om. (in mrg. ταὐτὸν σημαίνειν) A</note>
               <lb n="12" xml:id="p110-11"/>οὐκ ἔστιν ἄνθρωπος λευκὸς ἅμα καὶ ὅτι οὐδείς ἐστιν ἄνθρωπος<note type="apparatus" n="12" target="#p110-11">ἔστιν (post οὐδείς) om. b</note><milestone type="alt-edition" unit="line" ed="Venetiis 1545" n="15"/>
               <lb n="13" xml:id="p110-12"/>λευκός· τὸ δὲ οὔτε ταὐτὸν σημαίνει οὔθ’ ἅμα ἐξ ἀνάγκης.
+            </quote>
+            <p>
               <lb n="14" xml:id="p110-13"/>Τῶν ἐκ τῆς διαιρέσεως τοῦ ὑποκειμένου γινομένων ὀκτὼ προτάσεων<note type="apparatus" n="14" target="#p110-13">ὀκτὼ γιν. A</note>
               <lb n="15" xml:id="p110-14"/>τίνες μέν εἰσιν αἱ ἀντιφατικῶς ἀντικείμεναι πρὸς ἀλλήλας τίνες δὲ αἱ δοκοῦσαι
               <lb n="16" xml:id="p110-15"/>μὲν ἀντιφάσκειν, οὐ μέντοι ἀντιφάσκουσαι, παραδίδωσιν ἡμῖν ὁ φιλόσοφος<note type="apparatus" n="16" target="#p110-15">ἀντιφάσκουσαι] ἀντιφάσκουσιν F</note><milestone type="alt-edition" unit="line" ed="Venetiis 1545" n="20"/>
@@ -4650,8 +4648,6 @@
               <lb n="19" xml:id="p125-18"/>ἄνθρωπος λευκός — οὐκ ἔστιν ἄνθρωπος λευκός, οὐδεὶς ἄνθρωπος
               <lb n="20" xml:id="p125-19"/>λευκός — ἔστι τις ἄνθρωπος λευκός, εἰ τὸ λευκὸν ἓν
               <lb n="21" xml:id="p125-20"/>σημαίνει. εἰ δὲ δυοῖν ἓν ὄνομα κεῖται, ἐξ ὧν μή ἐστιν ἕν, οὐ
-            </quote>
-            <p>
               <lb n="22" xml:id="p125-21"/>μία κατάφασις οὐδὲ ἀπόφασις μία· οἷον εἴ τις θεῖτο ὄνομα<note type="apparatus" n="22" target="#p125-21">οὐδὲ ἀπόφασις μία om. A τις] τί A θεῖτο ὄνομα] ὄνομα θεῖον F</note>
               <lb n="23" xml:id="p125-22"/>ἱμάτιον ἵππῳ καὶ ἀνθρώπῳ, τὸ ἔστιν ἱμάτιον λευκόν, αὕτη
               <lb n="24" xml:id="p125-23"/>οὐ μία κατάφασις οὐδὲ ἀπόφασις μία· οὐδὲν γὰρ διαφέρει τοῦτο<note type="apparatus" n="24" target="#p125-23">μία (alt.) om. F</note>
@@ -4661,6 +4657,8 @@
               <lb n="28" xml:id="p125-27"/>ὅτι καὶ ἡ πρώτη ἢ πολλὰ ἢ οὐδὲν σημαίνει· οὐ γάρ ἐστί τις<note type="apparatus" n="28" target="#p125-27">ἢ (prius)] ἤτοι b ὁ τίς b</note>
               <lb n="29" xml:id="p125-28"/>ἄνθρωπος ἵππος. ὥστε οὐδὲ ἐν ταύταις <milestone type="alt-edition" unit="folio" ed="Venetiis 1545" n="101v"/> ἀνάγκη τὴν μὲν
               <lb n="30" xml:id="p125-29"/>ἀληθῆ τὴν δὲ ψευδῆ εἶναι ἀντίφασιν.<note type="apparatus" n="30" target="#p125-29">ἀντίφ. εἶναι colloc. F</note>
+            </quote>
+            <p>
               <lb n="31" xml:id="p125-30"/>Προειπὼν ὅτι τῇ μιᾷ καταφάσει μία μάχεται ἀπόφασις, τίς ποτέ ἐστιν<note type="apparatus" n="31" target="#p125-30">προειπὼν — ἀπόφασις suppl. G2 τῇ om. GM μία om. M τίς] τί M</note>
               <lb n="32" xml:id="p125-31"/>ἡ μία κατάφασις καὶ ἡ μία ἀπόφασις προστίθησι διὰ τούτων, ἤδη μὲν
             </p>
@@ -4762,9 +4760,9 @@
               <lb n="17" xml:id="p128-16"/>τῶν καθόλου ὡς καθόλου ἀεὶ τὴν μὲν ἀληθῆ τὴν δὲ ψευδῆ, καὶ<note type="apparatus" n="17" target="#p128-16">τῶν] τοῦ F ψευδῆ εἶναι b</note>
               <lb n="18" xml:id="p128-17"/>ἐπὶ τῶν καθ’ ἕκαστα ὥσπερ εἴρηται, ἐπὶ δὲ τῶν καθόλου λεγθέντων<note type="apparatus" n="18-19" target="#p128-17 #p128-18">μὴ καθ. λεχθ. colloc. b</note>
               <lb n="19" xml:id="p128-18"/>μὴ καθόλου οὐκ ἀνάγκη· εἴρηται δὲ καὶ περὶ τούτων.<note type="apparatus" n="19" target="#p128-18">καὶ μὴ καθ. G</note>
+              <lb n="20" xml:id="p128-19"/>ἐπὶ δὲ τῶν καθ’ ἕκαστα καὶ μελλόντων οὐχ ὁμοίως.<milestone type="alt-edition" unit="line" ed="Venetiis 1545" n="5"/>
             </quote>
             <p>
-              <lb n="20" xml:id="p128-19"/>ἐπὶ δὲ τῶν καθ’ ἕκαστα καὶ μελλόντων οὐχ ὁμοίως.<milestone type="alt-edition" unit="line" ed="Venetiis 1545" n="5"/>
               <lb n="21" xml:id="p128-20"/>Παραδοὺς ἡμῖν διὰ τῶν προλαβόντων ὁ Ἀριστοτέλης τὴν ἀπὸ τοῦ
               <lb n="22" xml:id="p128-21"/>ὑποκειμένου τῶν προτάσεων διαίρεσιν καὶ διακρίνας τάς τε συναληθεύειν ἢ
               <lb n="23" xml:id="p128-22"/>συμψεύδεσθαί ποτε δυναμένας προτάσεις καὶ τὰς ἀεὶ διαιρούσας τό τε ἀληθὲς<milestone type="alt-edition" unit="line" ed="Venetiis 1545" n="10"/>
@@ -5220,12 +5218,12 @@
               <lb n="25" xml:id="p140-24"/>καὶ εἰ ψεύδεται, οὐχ ὑπάρχει· ὥστε ἀνάγκη τὴν κατάφασιν ἢ<note type="apparatus" n="25" target="#p140-24">ἀνάγκη ἢ b (recte, cf. p. 141,19. 24)</note><note type="apparatus" n="25-26" target="#p140-24 #p140-25">ἢ τὴν ἀπόφασιν suppl. F²</note>
               <lb n="26" xml:id="p140-25"/>τὴν ἀπόφασιν ἀληθῆ εἶναι ἢ ψευδῆ. οὐδὲν ἄρα οὔτε ἔστιν
               <lb n="27" xml:id="p140-26"/>οὔτε γίνεται οὔτε ἀπὸ τύχης οὔτε ὁπότερ’ ἔτυχεν, οὐδὲ ἔσται<milestone type="alt-edition" unit="line" ed="Venetiis 1545" n="15"/><note type="apparatus" n="27" target="#p140-26">οὐδὲ ὁπότερον A</note>
-            </quote>
-            <p>
               <lb n="28" xml:id="p140-27"/>ἢ οὐκ ἔσται, ἀλλ’ ἐξ ἀνάγκης ἅπαντα καὶ οὐχ ὁπότερ’ ἔτυχεν·
               <lb n="29" xml:id="p140-28"/>ἢ γὰρ ὁ φὰς ἀληθεύσει ἢ ὁ ἀποφάς· ὁμοίως γὰρ ἂν ἐγίνετο ἢ
               <lb n="30" xml:id="p140-29"/>οὐκ ἐγίνετο· τὸ γὰρ ὁπότερ’ ἔτυχεν οὐδὲν μᾶλλον οὕτως ἢ μὴ
               <lb n="31" xml:id="p140-30"/>οὕτως ἔχει ἢ ἕξει.
+            </quote>
+            <p>
               <lb n="32" xml:id="p140-31"/>Τὸ προειρημένον λημμάτιον κρατῦναι βουλόμενος ὁ Ἀριστοτέλης, ὅτι<milestone type="alt-edition" unit="line" ed="Venetiis 1545" n="20"/><note type="apparatus" n="32" target="#p140-31">τὸ γὰρ προειρ. M</note>
               <lb n="33" xml:id="p140-32"/>τῇ ἀληθείᾳ τῶν λόγων ἕπεται ἡ ὕπαρξις τῶν πραγμάτων καὶ τῷ ψεύδει
               <lb n="34" xml:id="p140-33"/>ἡ ἀνυπαρξία, διὰ παραδειγμάτων ἐπιδείκνυσι τοῦτο οὕτως ἔχον, ἐπείπερ
@@ -5347,10 +5345,10 @@
               <lb n="4" xml:id="p144-3"/>ἢ ἔσται, οὐχ οἷόν τε τοῦτο μὴ εἶναι οὐδὲ μὴ ἔσεσθαι· ὃ δὲ μὴ
               <lb n="5" xml:id="p144-4"/>οἷόν τε μὴ γενέσθαι, ἀδύνατον μὴ γενέσθαι· ὃ δὲ ἀδύνατον μὴ<milestone type="alt-edition" unit="line" ed="Venetiis 1545" n="15"/><note type="apparatus" n="5-6" target="#p144-4 #p144-5">ἀδύν. μὴ γεν.' ὃ δὲ ἀδύν. μὴ γενέσθαι suppl. G²</note>
               <lb n="6" xml:id="p144-5"/>γενέσθαι, ἀνάγκη γενέσθαι· ἅπαντα οὖν τὰ ἐσόμενα ἀναγκαῖον<note type="apparatus" n="6" target="#p144-5">ἅπαντα—γενέσθαι (7) om. G</note>
-            </quote>
-            <p>
               <lb n="7" xml:id="p144-6"/>γενέσθαι· οὐδὲν ἄρα ὁπότερ’ ἔτυχεν οὐδὲ ἀπὸ τύχης ἔσται·<note type="apparatus" n="7" target="#p144-6">οὐδὲν] οὐδὲ A</note>
               <lb n="8" xml:id="p144-7"/>εἰ γὰρ ἀπὸ τύχης, οὐκ ἐξ ἀνάγκης.<note type="apparatus" n="8" target="#p144-7">εἰ—τύχης, οὐκ] ἀλλ’ F</note>
+            </quote>
+            <p>
               <lb n="9" xml:id="p144-8"/>Τὰ διὰ τῶν προλαβόντων ἀσυμφανῶς εἰρημένα πρὸς κατασκευὴν τοῦ<milestone type="alt-edition" unit="line" ed="Venetiis 1545" n="20"/>
               <lb n="10" xml:id="p144-9"/>καὶ εἰς τὸν μέλλοντα χρόνον λαμβανομένας τὰς προτάσεις, περὶ ὧν ὁ λόγος,<note type="apparatus" n="10" target="#p144-9">καὶ om. Ma παραλαμβ. G</note>
               <lb n="11" xml:id="p144-10"/>ἀφωρισμένως διαιρεῖν τὸ ἀληθὲς καὶ τὸ ψεῦδος, ᾧ αὐτόθεν εἵπετο μηδεμίαν<note type="apparatus" n="11" target="#p144-10">ᾧ] οἷς F an εἵπετο 〈τὸ〉?</note>
@@ -5405,10 +5403,10 @@
               <lb n="24" xml:id="p145-23"/>εἶναι. καὶ πρὸς τούτοις εἰ ἀληθὲς εἰπεῖν ὅτι λευκὸν καὶ μέγα,<note type="apparatus" n="24" target="#p145-23">λευκὸν ἅμα F</note>
               <lb n="25" xml:id="p145-24"/>δεῖ ἄμφω ὑπάρχειν· εἰ δὲ ὑπάρξει εἰς αὔριον, ὑπάρξειν εἰς αὔριον.<note type="apparatus" n="25" target="#p145-24">ὑπάρξειν] ὑπάρξει Fb</note>
               <lb n="26" xml:id="p145-25"/>εἰ δὲ μήτε ἔσται μήτε μὴ ἔσται αὔριον, οὐκ ἂν εἴη τὸ ὁπότερ’<milestone type="alt-edition" unit="line" ed="Venetiis 1545" n="20"/><note type="apparatus" n="26" target="#p145-25">μήτε (prius)] μὴ F εἰς αὔριον F (cf. p. 146,26)</note><note type="apparatus" n="26-27" target="#p145-25 #p145-26">ὁπότερον F</note>
-            </quote>
-            <p>
               <lb n="27" xml:id="p145-26"/>ἔτυχεν, οἷον ναυμαχία· δέοι γὰρ ἂν μήτε γενέσθαι ναυμαχίαν
               <lb n="28" xml:id="p145-27"/>αὔριον μήτε μὴ γενέσθαι.
+            </quote>
+            <p>
               <lb n="29" xml:id="p145-28"/>Ἐπειδὴ προείληπται μὲν πρὸς ἀναίρεσιν τοῦ ἐνδεχομένου τὸ τὰς<note type="apparatus" n="29" target="#p145-28">ἐπειδὴ] ἔπειτα δὴ M τὴν ἀναίρ. G</note>
               <lb n="30" xml:id="p145-29"/>προτάσεις, περὶ ὧν ὁ λόγος, ἀφωρισμένως διαιρεῖν τὸ ἀληθὲς καὶ τὸ ψεῦδος,<milestone type="alt-edition" unit="line" ed="Venetiis 1545" n="25"/>
               <lb n="31" xml:id="p145-30"/>ἔλαβε δὲ τοῦτο διὰ τὸ μὴ δύνασθαι αὐτὰς συναληθεύειν ἀλλήλαις,
@@ -5457,11 +5455,11 @@
               <lb n="5" xml:id="p147-4"/>δὲ ὁπότερ’ ἔτυχεν εἶναι ἐν τοῖς γινομένοις, ἀλλὰ πάντα εἶναι<note type="apparatus" n="5" target="#p147-4">ὁπότερον F</note><note type="apparatus" n="5-6" target="#p147-4 #p147-5">καὶ εἶναι καὶ F</note>
               <lb n="6" xml:id="p147-5"/>καὶ γίνεσθαι ἐξ ἀνάγκης· ὥστε οὔτε βουλεύεσθαι δέοι ἂν οὔτε<note type="apparatus" n="6" target="#p147-5">οὐδὲ (pr. l) F βούλεσθαι A¹F¹</note>
               <lb n="7" xml:id="p147-6"/>πραγματεύεσθαι, ὡς ἐὰν μὲν τοδὶ ποιήσωμεν, ἔσται τοδί,<milestone type="alt-edition" unit="line" ed="Venetiis 1545" n="15"/>
-            </quote>
-            <p>
               <lb n="8" xml:id="p147-7"/>ἐὰν δὲ μὴ τοδί, οὐκ ἔσται τοδί· οὐδὲν γὰρ κωλύει καὶ εἰς
               <lb n="9" xml:id="p147-8"/>μυριοστὸν ἔτος τὸν μὲν φάναι τοῦτο ἔσεσθαι τὸν δὲ μὴ φάναι,<note type="apparatus" n="9" target="#p147-8">prius τὸν] τὸ F</note>
               <lb n="10" xml:id="p147-9"/>ὥστε ἐξ ἀνάγκης ἔσται ὁπότερον ἦν αὐτῶν ἀληθὲς εἰπεῖν τότε.<note type="apparatus" n="10" target="#p147-9">ἔσται] ἔσεσθαι b ὁπότερονοῦν b αὐτῶν ἀλ. ἦν b</note>
+            </quote>
+            <p>
               <lb n="11" xml:id="p147-10"/>ἀλλὰ μὴν οὐδὲ τοῦτο διαφέρει, εἴ τινες εἶπον τὴν ἀντίφασιν ἢ<milestone type="alt-edition" unit="line" ed="Venetiis 1545" n="20"/>
               <lb n="12" xml:id="p147-11"/>μὴ εἶπον· δῆλον γὰρ ὅτι οὕτως ἔχει τὰ πράγματα, κἂν μὴ ὁ
               <lb n="13" xml:id="p147-12"/>μὲν καταφήσῃ τι ὁ δὲ ἀποφήσῃ· οὐ γὰρ διὰ τὸ καταφάναι ἢ<note type="apparatus" n="13" target="#p147-12">τι om. F οὐ] οὐδὲ b καταφ.] φάναι F: καταφαθῆναι b</note>
@@ -5569,8 +5567,6 @@
               <lb n="4" xml:id="p150-3"/>καὶ μὴ ὁμοίως· ἐν οἷς ἄμφω ἐνδέχεται καὶ τὸ εἶναι καὶ τὸ μὴ
               <lb n="5" xml:id="p150-4"/>εἶναι, ὥστε καὶ τὸ γενέσθαι <milestone type="alt-edition" unit="folio" ed="Venetiis 1545" n="120r"/> καὶ τὸ μὴ γενέσθαι. καὶ πολλὰ
               <lb n="6" xml:id="p150-5"/>ἡμῖν δῆλά ἐστιν οὕτως ἔχοντα, οἷον ὅτι τοῦτο τὸ ἱμάτιον δυνατόν<note type="apparatus" n="6" target="#p150-5">ὅτι om. F τουτὶ b</note>
-            </quote>
-            <p>
               <lb n="7" xml:id="p150-6"/>ἐστι διατμηθῆναι, καὶ οὐ διατμηθήσεται ἀλλ’ ἔμπροσθεν
               <lb n="8" xml:id="p150-7"/>κατατριβήσεται. ὁμοίως δὲ καὶ τὸ μὴ διατμηθῆναι δυνατόν·<milestone type="alt-edition" unit="line" ed="Venetiis 1545" n="5"/>
               <lb n="9" xml:id="p150-8"/>οὐ γὰρ ἂν ὑπῆρχε τὸ ἔμπροσθεν αὐτὸ κατατριβῆναι, εἴ γε μὴ<note type="apparatus" n="9" target="#p150-8">κατατρ. αὐτό colloc. F εἴ γε — διατμηθῆναι (10) suppl. F²</note>
@@ -5580,6 +5576,8 @@
               <lb n="13" xml:id="p150-12"/>ὁπότερ’ ἔτυχε, καὶ οὐδὲν μᾶλλον ἡ κατάφασις ἢ ἡ ἀπόφασις
               <lb n="14" xml:id="p150-13"/>ἀληθής, τὰ δὲ μᾶλλον μὲν καὶ ὡς ἐπὶ τὸ πολὺ θάτερον, οὐ<note type="apparatus" n="14" target="#p150-13">τὸ om. F</note>
               <lb n="15" xml:id="p150-14"/>μὴν ἀλλ’ ἐνδέχεται γενέσθαι καὶ θάτερον, θάτερον δὲ μή.
+            </quote>
+            <p>
               <lb n="16" xml:id="p150-15"/>Παραδοὺς ἡμῖν διὰ τῶν προλαβόντων ὅσα ἕπεται ἀδύνατα τοῖς ἀναιροῦσι<note type="apparatus" n="16" target="#p150-15">παραδοὺς ἡμῖν om. M ἡμῖν om. F τὰ ἀδύν. G</note><milestone type="alt-edition" unit="line" ed="Venetiis 1545" n="15"/>
               <lb n="17" xml:id="p150-16"/>τὸ ἐνδεχόμενον, ὅτι τὸ μάτην βουλεύεσθαι μάτην ἐγχειρεῖν ὅλως<note type="apparatus" n="17" target="#p150-16">τὸ suppl. G²</note>
               <lb n="18" xml:id="p150-17"/>ταῖς πράξεσι καὶ ὅσα τούτοις ἐστὶν ἀκόλουθα, οἷον τὸ μάτην αἰτιᾶσθαί
@@ -5660,8 +5658,6 @@
               <lb n="15" xml:id="p152-14"/>εἶναι ἐξ ἀνάγκης ὅτε ἐστί, καὶ τὸ ἁπλῶς εἶναι ἐξ ἀνάγκης.
               <lb n="16" xml:id="p152-15"/>ὁμοίως δὲ καὶ ἐπὶ τοῦ μὴ ὄντος. καὶ ἐπὶ τῆς ἀντιφάσεως ὁ<note type="apparatus" n="16" target="#p152-15">ἀντιφ. δὲ F</note>
               <lb n="17" xml:id="p152-16"/>αὐτὸς λόγος· εἶναι μὲν ἢ μὴ εἶναι ἅπαν ἀνάγκη, καὶ ἔσεσθαί
-            </quote>
-            <p>
               <lb n="18" xml:id="p152-17"/>γε ἢ μή· οὐ μέντοι διελόντα γε εἰπεῖν θάτερον ἀναγκαῖον.<note type="apparatus" n="18" target="#p152-17">γε (post διελ.) om. F</note>
               <lb n="19" xml:id="p152-18"/>λέγω δὲ οἷον ἀνάγκη μὲν ἔσεσθαι ναυμαχίαν αὔριον ἢ μὴ<milestone type="alt-edition" unit="line" ed="Venetiis 1545" n="20"/>
               <lb n="20" xml:id="p152-19"/>ἔσεσθαι, οὐ μέντοι γενέσθαι ναυμαχίαν αὔριον ἀναγκαῖον οὐδὲ<note type="apparatus" n="20" target="#p152-19">μέντοι ἔσεσθαί γε αὔριον ναυμ. b</note>
@@ -5677,6 +5673,8 @@
               <lb n="30" xml:id="p152-29"/>τὴν μὲν ἀληθῆ τὴν δὲ ψευδῆ εἶναι· οὐ γὰρ ὥσπερ ἐπὶ<milestone type="alt-edition" unit="line" ed="Venetiis 1545" n="5"/>
               <lb n="31" xml:id="p152-30"/>τῶν ὄντων, οὕτως ἔχει καὶ ἐπὶ τῶν μὴ ὄντων μὲν δυνατῶν δὲ<note type="apparatus" n="31" target="#p152-30">μὲν suppl. F2: om. AF1 δυνατὸν A</note>
               <lb n="32" xml:id="p152-31"/>εἶναι, ἀλλ’ ὥσπερ εἴρηται.
+            </quote>
+            <p>
               <lb n="33" xml:id="p152-32"/>Πρόκειται μὲν ἐν τούτοις αὐτὸν λοιπὸν τὸν λόγον τὸν ἀναιρεῖν<note type="apparatus" n="33" target="#p152-32">μὲν οὖν G τὸν (post λόγον) om. F</note>
               <lb n="34" xml:id="p152-33"/>δοκοῦντα τὸ ἐνδεχόμενον σαθρὸν ἐπιδεῖξαι καὶ μηδὲν ἀναγκαῖον συνάγοντα,<note type="apparatus" n="34" target="#p152-33">ἀναγκ.] ἐναντίον G</note><milestone type="alt-edition" unit="line" ed="Venetiis 1545" n="10"/>
             </p>
@@ -5779,8 +5777,6 @@
               <lb n="13" xml:id="p155-12"/>ἀλλ’ ἀόριστον ὄνομα· ἓν γάρ πως σημαίνει τὸ ἀόριστον ὄνομα,<note type="apparatus" n="13" target="#p155-12">ἓν — λόγος (23) om. G σημαίνει καὶ b (recte, cf. 156,21) ὄνομα om. b (cf. 156,21)</note>
               <lb n="14" xml:id="p155-13"/>ὥσπερ καὶ τὸ οὐχ ὑγιαίνει οὐ ῥῆμα λέγω, ἀλλ’ ἀόριστον),<note type="apparatus" n="14" target="#p155-13">λέγω om. b ἀλλ’ ἀόρ. ῥῆμα b</note>
               <lb n="15" xml:id="p155-14"/>ἔσται πᾶσα κατάφασις ἢ ἐξ ὀνόματος καὶ ῥήματος ἢ ἐξ ἀορίστου<note type="apparatus" n="15" target="#p155-14">κατάφ. καὶ ἀπόφασις Ab (cf. p. 157,4)</note><milestone type="alt-edition" unit="line" ed="Venetiis 1545" n="10"/>
-            </quote>
-            <p>
               <lb n="16" xml:id="p155-15"/>ὀνόματος καὶ ῥήματος· ἄνευ δὲ ῥήματος οὐδεμία κατάφασις
               <lb n="17" xml:id="p155-16"/>οὐδὲ ἀπόφασις· τὸ γὰρ ἔστιν ἢ ἦν ἢ γίνεται ἢ ὅσα ἄλλα<note type="apparatus" n="17" target="#p155-16">οὔτε F ἔστιν ἢ ἔσται b</note>
               <lb n="18" xml:id="p155-17"/>τοιαῦτα ῥήματα ἐκ τῶν κειμένων ἐστί· προσσημαίνει γὰρ
@@ -5789,6 +5785,8 @@
               <lb n="21" xml:id="p155-20"/>οὐκ ἔστιν οὐκ ἄνθρωπος, πάλιν ἔστι πᾶς ἄνθρωπος — οὐκ ἔστι
               <lb n="22" xml:id="p155-21"/>πᾶς ἄνθρωπος, ἔστι πᾶς οὐκ ἄνθρωπος — οὐκ ἔστι πᾶς οὐκ
               <lb n="23" xml:id="p155-22"/>ἄνθρωπος. καὶ ἐπὶ τῶν ἐκτὸς δὲ χρόνων ὁ αὐτὸς λόγος.
+            </quote>
+            <p>
               <lb n="24" xml:id="p155-23"/>Παντοδαπῶς λεπτουργήσας τὴν διδασκαλίαν τῶν ἐξ ὑποκειμένου καὶ<note type="apparatus" n="24" target="#p155-23">τῶν] τὴν G</note><milestone type="alt-edition" unit="line" ed="Venetiis 1545" n="20"/>
               <lb n="25" xml:id="p155-24"/>κατηγορουμένου προτάσεων ὡς ὡρισμένου ὄντος τοῦ ὑποκειμένου, προστίθησι
               <lb n="26" xml:id="p155-25"/>διὰ τούτων ὅτι ὅσαι εἰσὶν ἐκεῖναι τὸν ἀριθμόν, τοσαύτας ἑτέρας<note type="apparatus" n="26-27" target="#p155-25 #p155-26">ἀν. ἑτέρας (num. corr.) G</note>
@@ -5932,8 +5930,6 @@
               <lb n="14" xml:id="p159-13"/>δύο πρὸς τὴν κατάφασιν καὶ ἀπόφασιν ἕξει κατὰ τὸ στοιχοῦν
               <lb n="15" xml:id="p159-14"/>ὡς αἱ στερήσεις, τὰ δὲ δύο οὔ. λέγω δὲ ὅτι τὸ ἔστιν ἢ τῷ<milestone type="alt-edition" unit="line" ed="Venetiis 1545" n="5"/><note type="apparatus" n="15" target="#p159-14">λέγω — τέτακται (22) om. G</note>
               <lb n="16" xml:id="p159-15"/>δικαίῳ προσκείσεται ἢ τῷ οὐ δικαίῳ, ὥστε καὶ ἡ ἀπόφασις·
-            </quote>
-            <p>
               <lb n="17" xml:id="p159-16"/>τέτταρα οὖν ἔσται. νοοῦμεν δὲ τὸ λεγόμενον ἐκ τῶν ὑπογεγραμμένων·<note type="apparatus" n="17" target="#p159-16">νοῶμεν F</note>
               <lb n="18" xml:id="p159-17"/>ἔστι δίκαιος ἄνθρωπος — ἀπόφασις τούτου — οὐκ
               <lb n="19" xml:id="p159-18"/>ἔστι δίκαιος ἄνθρωπος, ἔστιν οὐ δίκαιος ἄνθρωπος — ἀπόφασις<note type="apparatus" n="19-20" target="#p159-18 #p159-19">ἔστιν οὐ δίκ. ἄνθρ.—ἄνθρωπος suppl. in mrg. A τούτου ἀπόφ. colloc. b</note>
@@ -5941,6 +5937,8 @@
               <lb n="21" xml:id="p159-20"/>ἐνταῦθα καὶ τὸ οὐκ ἔστι τῷ δικαίῳ προσκείσεται καὶ τῷ οὐ<note type="apparatus" n="21" target="#p159-20">προσκείσ. post οὐ δικ. colloc. F</note>
               <lb n="22" xml:id="p159-21"/>δικαίῳ. ταῦτα μὲν οὖν, ὥσπερ ἐν τοῖς Ἀναλυτικοῖς λέγεται,
               <lb n="23" xml:id="p159-22"/>οὕτω τέτακται.<note type="apparatus" n="23" target="#p159-22">τετ.] γέγραπται A¹</note>
+            </quote>
+            <p>
               <lb n="24" xml:id="p159-23"/>Ἄρχεται μὲν οὖν ἐντεῦθεν τὸ τρίτον τοῦ βιβλίου κεφάλαιον, ὅπερ<milestone type="alt-edition" unit="line" ed="Venetiis 1545" n="15"/><note type="apparatus" n="24" target="#p159-23">μὲν om. M οὖν om. FG</note>
               <lb n="25" xml:id="p159-24"/>ἐλέγομεν εἶναι περὶ τῶν ἐκ τρίτου προσκατηγορουμένου προτάσεων. δεῖ<note type="apparatus" n="25" target="#p159-24">ἐλέγομεν] p. 8,17</note>
               <lb n="26" xml:id="p159-25"/>δὲ καὶ ἐν τούτοις πρὶν διασαφῆσαι τὰ ὑπὸ τοῦ Ἀριστοτέλους λεγόμενα
@@ -6386,9 +6384,9 @@
               <lb n="9" xml:id="p171-8"/>— οὐ πᾶς ἐστιν ἄνθρωπος δίκαιος, πᾶς ἐστιν ἄνθρωπος οὐ δίκαιος<note type="apparatus" n="9-10" target="#p171-8 #p171-9">ἐστὶν post οὐ δίκαιος (utrobique) colloc. G</note>
               <lb n="10" xml:id="p171-9"/>— οὐ πᾶς ἐστιν ἄνθρωπος οὐ δίκαιος. πλὴν οὐχ <milestone type="alt-edition" unit="folio" ed="Venetiis 1545" n="137v"/>
               <lb n="11" xml:id="p171-10"/>ὁμοίως τὰς κατὰ διάμετρον ἐνδέχεται συναληθεύειν, ἐνδέχεται<note type="apparatus" n="11" target="#p171-10">ἐνδέχεσθαι (priore l.) F συναληθεύεσθαι F2 post συναλ. add. ἀεὶ G2</note>
+              <lb n="12" xml:id="p171-11"/>δὲ ποτέ.
             </quote>
             <p>
-              <lb n="12" xml:id="p171-11"/>δὲ ποτέ.
               <lb n="13" xml:id="p171-12"/>Τὴν εἰρημένην ἐπὶ τῶν ἀπροσδιορίστων προτάσεων ἀκολουθίαν ἀξιοῖ
               <lb n="14" xml:id="p171-13"/>θεωρεῖν ἡμᾶς καὶ ἐπὶ μιᾶς τῶν διαγωνίων ἀντιφάσεων, τῆς πᾶς καὶ οὐ<milestone type="alt-edition" unit="line" ed="Venetiis 1545" n="5"/>
               <lb n="15" xml:id="p171-14"/>πᾶς, ὡς καὶ ἐπὶ ταύτης λαμβανομένων τῶν τε ἁπλῶν προτάσεων καὶ τῶν<note type="apparatus" n="15" target="#p171-14">ὡς om. F ταύτην A</note>
@@ -6527,9 +6525,9 @@
               <lb n="4" xml:id="p175-3"/>οὐκ ἄνθρωπος — οὐκ ἔστιν οὐ δίκαιος οὐκ ἄνθρωπος. πλείους
               <lb n="5" xml:id="p175-4"/>δὲ τούτων οὐκ ἔσονται ἀντιθέσεις. αὗται δὲ χωρὶς ἐκείνων
               <lb n="6" xml:id="p175-5"/>αὐταὶ καθ’ αὑτὰς ἔσονται, ὡς ὀνόματι τῷ οὐκ ἄνθρωπος χρώμεναι.<note type="apparatus" n="6" target="#p175-5">τὸ A</note><note type="apparatus" n="6-7" target="#p175-5 #p175-6">προσχρώμ. AG (cf. p. 176,2)</note>
+              <lb n="7" xml:id="p175-6"/>
             </quote>
             <p>
-              <lb n="7" xml:id="p175-6"/>
               <lb n="8" xml:id="p175-7"/>Προφανὲς τὸ διὰ τούτων παραδιδόμενον θεώρημα· φησὶ γὰρ τοσαύτας<milestone type="alt-edition" unit="line" ed="Venetiis 1545" n="25"/>
               <lb n="9" xml:id="p175-8"/>εἶναι ἀντιφάσεις καὶ ἐπὶ τῶν ἐκ τρίτου προσκατηγορουμένου προτάσεων<note type="apparatus" n="9" target="#p175-8">ἀντιφ.] τὰς ἀντιθέσεις G</note>
               <lb n="10" xml:id="p175-9"/>ἀορίστῳ ὑποκειμένῳ χρωμένας, ὅσαι ἦσαν ἐξ ὡρισμένου τοῦ <milestone type="alt-edition" unit="folio" ed="Venetiis 1545" n="141r"/> ὑποκειμένου.<note type="apparatus" n="10" target="#p175-9">an χρωμένων? post ἦσαν add. αἱ Fa ὑποκ. ὡρισμ. (τοῦ om.) G</note>
@@ -6572,14 +6570,14 @@
               <lb n="8" xml:id="p176-7"/>ὑγιαίνει πᾶς ἄνθρωπος, ὑγιαίνει πᾶς οὐκ ἄνθρωπος — οὐχ<note type="apparatus" n="8" target="#p176-7">ὑγ. πᾶς οὐκ — προστιθέναι (16) om. G</note><milestone type="alt-edition" unit="line" ed="Venetiis 1545" n="10"/>
               <lb n="9" xml:id="p176-8"/>ὑγιαίνει πᾶς οὐκ ἄνθρωπος· οὐ γάρ ἐστι τὸ οὐ πᾶς ἄνθρωπος
               <lb n="10" xml:id="p176-9"/>λεκτέον, ἀλλὰ τὸ οὔ, τὴν ἀπόφασιν, τῷ ἄνθρωπος προσθετέον·
-            </quote>
-            <p>
               <lb n="11" xml:id="p176-10"/>τὸ γὰρ πᾶς οὐ τὸ καθόλου σημαίνει, ἀλλ’ ὅτι καθόλου. δῆλον
               <lb n="12" xml:id="p176-11"/>δὲ ἐκ τοῦδε· ὑγιαίνει ἄνθρωπος — οὐχ ὑγιαίνει ἄνθρωπος, ὑγιαίνει
               <lb n="13" xml:id="p176-12"/>οὐκ ἄνθρωπος — οὐχ ὑγιαίνει οὐκ ἄνθρωπος· ταῦτα γὰρ ἐκείνων<milestone type="alt-edition" unit="line" ed="Venetiis 1545" n="15"/>
               <lb n="14" xml:id="p176-13"/>διαφέρει τῷ μὴ καθόλου. ὥστε τὸ πᾶς ἢ μηδείς οὐδὲν<note type="apparatus" n="14" target="#p176-13">τῷ] τὸ A καθόλου εἶναι b ἢ τὸ πᾶς F μηδείς] οὐδείς b</note>
               <lb n="15" xml:id="p176-14"/>ἄλλο προσσημαίνει ἢ ὅτι καθόλου τοῦ ὀνόματος ἢ κατάφασιν<note type="apparatus" n="15-16" target="#p176-14 #p176-15">καταφήσειν ἢ ἀποφήσειν F</note>
               <lb n="16" xml:id="p176-15"/>ἢ ἀπόφασιν. τὰ οὖν ἄλλα τὰ αὐτὰ δεῖ προστιθέναι.<note type="apparatus" n="16" target="#p176-15">οὖν] δὲ b</note>
+            </quote>
+            <p>
               <lb n="17" xml:id="p176-16"/>Τινὲς μὲν τῶν ἐξηγησαμένων τοῦτο τὸ χωρίον ὑπέλαβον λέγειν τὸν<milestone type="alt-edition" unit="line" ed="Venetiis 1545" n="20"/>
               <lb n="18" xml:id="p176-17"/>Ἀριστοτέλην διὰ τούτων, ὅτιπερ ἐν ταῖς προτάσεσι ταῖς ἀντὶ τοῦ ἔστιν<note type="apparatus" n="18" target="#p176-17">ἀριστοτέλη A</note>
               <lb n="19" xml:id="p176-18"/>ἄλλο τι ῥῆμα προσκατηγορούμενον ἐχούσαις, οἷον τὸ βαδίζειν ἢ τὸ ὑγιαίνειν,<note type="apparatus" n="19-20" target="#p176-18 #p176-19">βαδίζει ἢ τὸ ὑγιαίνει F</note><note type="apparatus" n="19" target="#p176-18">ἢ om. G</note>
@@ -6967,9 +6965,9 @@
               <lb n="22" xml:id="p186-21"/>ἀπόφασις· οἷον ἆρά γε πᾶς ἄνθρωπος σοφός; οὔ· πᾶς ἄρα<note type="apparatus" n="22" target="#p186-21">ἆρα γε πᾶς ἄνθρ. οὐ σοφός; G</note>
               <lb n="23" xml:id="p186-22"/>ἄνθρωπος οὐ σοφός· τοῦτο γὰρ ψεῦδος, ἀλλὰ τὸ οὐ πᾶς ἄρα
               <lb n="24" xml:id="p186-23"/>ἄνθρωπος σοφός ἀληθές. αὕτη δέ ἐστιν ἡ ἀντικειμένη, ἐκείνη
+              <lb n="25" xml:id="p186-24"/>δὲ ἡ ἐναντία.<note type="apparatus" n="25" target="#p186-24">ἡ om. G</note>
             </quote>
             <p>
-              <lb n="25" xml:id="p186-24"/>δὲ ἡ ἐναντία.<note type="apparatus" n="25" target="#p186-24">ἡ om. G</note>
               <lb n="26" xml:id="p186-25"/>Ἀκόλουθόν ἐστι τοῦτο τὸ θεώρημα τῷ προσεχῶς παραδεδομένῳ καὶ<note type="apparatus" n="26" target="#p186-25">καὶ om. F</note><milestone type="alt-edition" unit="line" ed="Venetiis 1545" n="5"/>
               <lb n="27" xml:id="p186-26"/>δι’ ἐκείνου λαμβάνον τὴν πίστιν· πρότερον μὲν γὰρ ἐδίδασκεν ἡμᾶς ποίᾳ<note type="apparatus" n="27" target="#p186-26">μὲν om. G</note>
               <lb n="28" xml:id="p186-27"/>ἀληθεῖ καταφάσει συναληθεύσει ἀπόφασις ὁμοίως αὐτῇ κατὰ τὸ ποσὸν<note type="apparatus" n="28" target="#p186-27">συναληθεύει F</note>
@@ -7038,9 +7036,9 @@
               <lb n="17" xml:id="p188-16"/>ἄνευ ὀνόματος καὶ ῥήματος δόξαιεν ἂν εἶναι, οὐκ εἰσὶ<note type="apparatus" n="17" target="#p188-16">δόξειεν A: δόξειαν b ἂν suppl. G²</note>
               <lb n="18" xml:id="p188-17"/>δέ· ἀεὶ γὰρ ἀληθεύειν ἀνάγκη ἢ ψεύδεσθαι τὴν ἀπόφασιν, ὁ δ’
               <lb n="19" xml:id="p188-18"/>εἰπὼν οὐκ ἄνθρωπος οὐδὲν μᾶλλον τοῦ ἄνθρωπος ἀλλὰ καὶ<note type="apparatus" n="19" target="#p188-18">post τοῦ add. εἰπόντος b</note>
+              <lb n="20" xml:id="p188-19"/>ἧττον ἠλήθευκεν ἢ ἔψευσται, ἐὰν μή τι προστεθῇ.<note type="apparatus" n="20" target="#p188-19">ἠλήθευκέ τι b ἂν FG</note>
             </quote>
             <p>
-              <lb n="20" xml:id="p188-19"/>ἧττον ἠλήθευκεν ἢ ἔψευσται, ἐὰν μή τι προστεθῇ.<note type="apparatus" n="20" target="#p188-19">ἠλήθευκέ τι b ἂν FG</note>
               <lb n="21" xml:id="p188-20"/>Πρὸς μὲν τῷ συμπεράσματι τοῦ δευτέρου κεφαλαίου παραδιδοὺς ἡμῖν<note type="apparatus" n="21" target="#p188-20">τοῦ δευτ. κεφ.] p. 19b5 sq.</note><milestone type="alt-edition" unit="line" ed="Venetiis 1545" n="25"/>
               <lb n="22" xml:id="p188-21"/>τὰς ἐξ ἀορίστου τοῦ ὑποκειμένου προτάσεις ἐνεδείκνυτο, ὡς καὶ ἐν ἐκείνοις<note type="apparatus" n="22" target="#p188-21">τοῦ om. AFMa ἐδείκνυτο G¹</note>
               <lb n="23" xml:id="p188-22"/>ἐπεσημηνάμεθα, ὅτι τὰ ἀόριστα ὀνόματα ὑποπτευθεῖεν μὲν ἂν <milestone type="alt-edition" unit="folio" ed="Venetiis 1545" n="151v"/> ἀποφάσεις<note type="apparatus" n="23" target="#p188-22">ἐπεσημηνάμεθα] p. 157,10 sq. μὲν ἂν om. M: ἂν om. A</note>
@@ -7147,14 +7145,14 @@
               <lb n="8" xml:id="p191-7"/>ἀλλὰ δέδεικται ὅτι μία μιᾶς. τοῦ μὲν γὰρ ἔστι λευκὸς<note type="apparatus" n="8" target="#p191-7">ἀλλὰ — δῆλον (16) om. G</note>
               <lb n="9" xml:id="p191-8"/>ἄνθρωπος ἀπόφασις τὸ οὐκ ἔστι λευκὸς ἄνθρωπος, τοῦ δὲ<note type="apparatus" n="9" target="#p191-8">ἀπόφασις — ἄνθρωπος in mrg. suppl. F</note>
               <lb n="10" xml:id="p191-9"/>ἔστιν ἄνθρωπος λευκός, εἰ μὴ ἡ αὐτή ἐστι <milestone type="alt-edition" unit="folio" ed="Venetiis 1545" n="153v"/> τῇ ἔστι λευκός<note type="apparatus" n="10" target="#p191-9">ἀνθρ. λευκός] λευκὸς ἀνθρ. (num. corr.) A</note>
-            </quote>
-            <p>
               <lb n="11" xml:id="p191-10"/>ἄνθρωπος, ἔσται ἀπόφασις ἤτοι τὸ οὐκ ἔστιν οὐκ ἄνθρωπος
               <lb n="12" xml:id="p191-11"/>λευκός ἢ τὸ οὐκ ἔστιν λευκὸς ἄνθρωπος. ἀλλ’ ἡ ἑτέρα μέν<note type="apparatus" n="12" target="#p191-11">ἀνθρ. λευκός colloc. b</note>
               <lb n="13" xml:id="p191-12"/>ἐστιν ἀπόφασις τοῦ ἔστιν οὐκ ἄνθρωπος λευκός, ἡ ἑτέρα δὲ
               <lb n="14" xml:id="p191-13"/>τοῦ ἔστι λευκὸς ἄνθρωπος· ὥστε ἔσονται δύο μιᾶς. ὅτι μὲν<milestone type="alt-edition" unit="line" ed="Venetiis 1545" n="5"/>
               <lb n="15" xml:id="p191-14"/>οὖν μετατιθεμένου τοῦ ὀνόματος καὶ τοῦ ῥήματος ἡ αὐτὴ γίνεται<note type="apparatus" n="15" target="#p191-14">μεταθεμένου F¹</note>
               <lb n="16" xml:id="p191-15"/>κατάφασις καὶ ἀπόφασις, δῆλον.<note type="apparatus" n="16" target="#p191-15">καὶ ἀπόφασις om. F</note>
+            </quote>
+            <p>
               <lb n="17" xml:id="p191-16"/>Ἀκόλουθον καὶ τοῦτο τὸ θεώρημα τοῖς πρότερον ἡμῖν παραδεδομένοις·
               <lb n="18" xml:id="p191-17"/>διαλεχθεὶς γὰρ περὶ τῶν ἑπομένων, ταὐτὸν δὲ εἰπεῖν συναληθευουσῶν ἀλλήλαις<note type="apparatus" n="18" target="#p191-17">post εἰπεῖν add. περὶ τῶν a</note><milestone type="alt-edition" unit="line" ed="Venetiis 1545" n="10"/>
               <lb n="19" xml:id="p191-18"/>προτάσεων, διδάσκει ἡμᾶς διὰ τούτων ὅτι εἰσὶ προτάσεις τινὲς δοκοῦσαι<note type="apparatus" n="19-20" target="#p191-18 #p191-19">δοκοῦσι G¹</note>
@@ -7291,11 +7289,11 @@
               <lb n="4" xml:id="p195-3"/>ὄνομα ἓν ᾖ κείμενον, μὴ ᾖ δὲ ἕν τι ἐξ ἐκείνων, οἷον ὁ ἄνθρωπος<milestone type="alt-edition" unit="line" ed="Venetiis 1545" n="25"/><note type="apparatus" n="4" target="#p195-3">ὁ om. A</note>
               <lb n="5" xml:id="p195-4"/>ἴσως ἐστὶ καὶ ζῷον καὶ δίπουν καὶ ἥμερον, ἀλλὰ καὶ ἕν τι γίνεται
               <lb n="6" xml:id="p195-5"/>ἐκ τούτων ἐκ δὲ τοῦ λευκοῦ καὶ τοῦ ἀνθρώπου καὶ τοῦ
-            </quote>
-            <p>
               <lb n="7" xml:id="p195-6"/>βαδίζειν οὐχ ἕν. ὥστε οὔτε ἐὰν ἕν τι κατὰ τούτων καταφήσῃ
               <lb n="8" xml:id="p195-7"/>τις, μία <milestone type="alt-edition" unit="folio" ed="Venetiis 1545" n="156v"/> κατάφασις, ἀλλὰ φωνὴ μὲν μία καταφάσεις δὲ πολλαί,
               <lb n="9" xml:id="p195-8"/>οὔτε ἐὰν καθ’ ἑνὸς ταῦτα, ἀλλ’ ὁμοίως πολλαί.
+            </quote>
+            <p>
               <lb n="10" xml:id="p195-9"/>Παραδέδωκε μὲν ἡμῖν καὶ πρότερον ὁ φιλόσοφος τὴν διάκρισιν τῆς τε<note type="apparatus" n="10" target="#p195-9">μὲν om. FG</note>
               <lb n="11" xml:id="p195-10"/>ὄντως οὔσης μιᾶς προτάσεως καὶ τῆς δοκούσης μὲν εἶναι μιᾶς μὴ μέντοι<milestone type="alt-edition" unit="line" ed="Venetiis 1545" n="5"/><note type="apparatus" n="11" target="#p195-10">ὄντως om. M μὴ] οὐ G</note>
               <lb n="12" xml:id="p195-11"/>καὶ οὔσης, ἐν οἷς ἔλεγε μία δέ ἐστι κατάφασις καὶ ἀπόφασις<note type="apparatus" n="12" target="#p195-11">ἔλεγε] p. 18a13 καὶ ἀπόφασις om. G</note>
@@ -7456,11 +7454,11 @@
               <lb n="13" xml:id="p199-12"/>μία πρὸς ταῦτα (οὐδὲ γὰρ ἡ ἐρώτησις μία), οὐδ’ ἂν ᾖ ἀληθής.<milestone type="alt-edition" unit="line" ed="Venetiis 1545" n="20"/><note type="apparatus" n="13" target="#p199-12">ἐὰν b ᾖ] εἴη AF</note>
               <lb n="14" xml:id="p199-13"/>εἴρηται δὲ ἐν τοῖς Τοπικοῖς περὶ αὐτῶν. ἅμα δὲ δῆλον ὅτι
               <lb n="15" xml:id="p199-14"/>οὐδὲ τὸ τί ἐστιν ἐρώτησίς ἐστι διαλεκτική· δεῖ γὰρ δεδόσθαι
-            </quote>
-            <p>
               <lb n="16" xml:id="p199-15"/>ἐκ τῆς ἐρωτήσεως ἑλέσθαι ὁπότερον βούλεται μόριον τῆς ἀντιφάσεως<note type="apparatus" n="16-17" target="#p199-15 #p199-16">μέρος τῆς ἀντ. G: τῆς ἀντ. μόριον b</note>
               <lb n="17" xml:id="p199-16"/>ἀποφήνασθαι. ἀλλὰ δεῖ τὸν ἐρωτῶντα προσδιορίσαι
               <lb n="18" xml:id="p199-17"/>πότερον τόδε ἐστὶν ὁ ἄνθρωπος ἢ οὐ τοῦτο.<milestone type="alt-edition" unit="line" ed="Venetiis 1545" n="25"/><note type="apparatus" n="18" target="#p199-17">ὁ om. FG</note>
+            </quote>
+            <p>
               <lb n="19" xml:id="p199-18"/>Διττὸν εἶναί φασιν οἱ παλαιοὶ τῆς ἐρωτήσεως τὸ εἶδος, τὸ μὲν τῆς
               <lb n="20" xml:id="p199-19"/>διαλεκτικῆς τὸ δὲ τῆς καλουμένης πυσματικῆς. καὶ διαλεκτικὴν μὲν ἐρώτησιν<note type="apparatus" n="20" target="#p199-19">διαλεκτικῆς (alt. l.) M</note>
               <lb n="21" xml:id="p199-20"/>εἶναί φασι <milestone type="alt-edition" unit="folio" ed="Venetiis 1545" n="160r"/> πρὸς ἣν ἔστιν ἀποκρίνασθαι τὸ ναί ἢ τὸ οὔ μόνον
@@ -7854,8 +7852,6 @@
               <lb n="5" xml:id="p210-4"/>οὐκ ἀληθὲς ἀλλὰ ψεῦδος, οἷον τὸν τεθνεῶτα ἄνθρωπον ἄνθρωπον<note type="apparatus" n="5" target="#p210-4">ψευδές F</note>
               <lb n="6" xml:id="p210-5"/>εἰπεῖν, ὅταν δὲ μὴ ἐνυπάρχῃ, ἀληθές. ἢ ὅταν μὲν ἐνυπάρχῃ,
               <lb n="7" xml:id="p210-6"/>ἀεὶ οὐκ ἀληθές, ὅταν δὲ μὴ ἐνυπάρχῃ, οὐκ ἀεὶ ἀληθές.
-            </quote>
-            <p>
               <lb n="8" xml:id="p210-7"/>ὥσπερ Ὅμηρός ἐστί τι, οἷον ποιητής· ἆρα οὖν καὶ ἔστιν ἢ οὔ;
               <lb n="9" xml:id="p210-8"/>κατὰ συμβεβηκὸς γὰρ κατηγορεῖται τοῦ Ὁμήρου τὸ ἔστιν· ὅτι<note type="apparatus" n="9" target="#p210-8">τὸ ἔστιν τοῦ ὁμ. colloc. F</note><milestone type="alt-edition" unit="line" ed="Venetiis 1545" n="10"/>
               <lb n="10" xml:id="p210-9"/>γὰρ ποιητής ἐστιν, ἀλλ’ οὐ καθ’ αὑτὸ κατηγορεῖται κατὰ τοῦ
@@ -7865,6 +7861,8 @@
               <lb n="14" xml:id="p210-13"/>ἁπλῶς ἀληθές ἐστιν εἰπεῖν. τὸ δὲ μὴ ὄν, ὅτι δοξαστόν, οὐκ<note type="apparatus" n="14" target="#p210-13">ἔστιν om. F: ἔσται b δοξαστόν ἐστιν F οὐκ om. F</note>
               <lb n="15" xml:id="p210-14"/>ἀληθὲς εἰπεῖν ὄν τι· δόξα γὰρ αὐτοῦ ἐστιν οὐχ ὅτι ἔστιν, ἀλλ’<note type="apparatus" n="15" target="#p210-14">αὐτοῦ οὐκ ἔστιν ὅτι ἔστιν b (recte, cf. p. 212,30)</note>
               <lb n="16" xml:id="p210-15"/>ὅτι οὐκ ἔστιν.
+            </quote>
+            <p>
               <lb n="17" xml:id="p210-16"/>Ἐν τούτοις ζητεῖται τὸ ἀντικείμενον θεώρημα τῷ προσεχῶς παραδεδομένῳ·
               <lb n="18" xml:id="p210-17"/>πρότερον μὲν γὰρ ἐζητεῖτο πότε τὰ ἰδίᾳ κατηγορηθέντα καὶ<note type="apparatus" n="18" target="#p210-17">κατηγορηθέντα] κατηγορούμενα Ma</note><milestone type="alt-edition" unit="line" ed="Venetiis 1545" n="20"/>
               <lb n="19" xml:id="p210-18"/>ἅμα κατηγορηθῆναι δυνατόν, ἐν δέ γε τούτοις ζητεῖται πότε τὰ ἅμα κατηγορηθέντα<note type="apparatus" n="19 et 20" target="#p210-18 #p210-19">δύνανται AM: δύναται a 19 τὰ om. A</note>
@@ -8002,9 +8000,9 @@
               <lb n="2" xml:id="p214-1"/>ἀποφάσεις καὶ καταφάσεις πρὸς ἀλλήλας αἱ τοῦ δυνατὸν<note type="apparatus" n="2" target="#p214-1">καταφ. καὶ ἀποφ. colloc. a αἱ τοῦ — τινάς (5) om. M</note><milestone type="alt-edition" unit="line" ed="Venetiis 1545" n="10"/>
               <lb n="3" xml:id="p214-2"/>εἶναι καὶ μὴ δυνατὸν καὶ ἐνδεχόμενον καὶ μὴ ἐνδεχόμενον,
               <lb n="4" xml:id="p214-3"/>καὶ περὶ τοῦ ἀδυνάτου τε καὶ ἀναγκαίου· ἔχει γὰρ ἀπορίας<note type="apparatus" n="4-5" target="#p214-3 #p214-4">ἀπορίαν τινά G</note>
+              <lb n="5" xml:id="p214-4"/>τινάς.
             </quote>
             <p>
-              <lb n="5" xml:id="p214-4"/>τινάς.
               <lb n="6" xml:id="p214-5"/>Λειπομένης ἔτι πρὸς τὴν παντελῆ θεωρίαν τῶν κατὰ τήνδε τὴν<note type="apparatus" n="6" target="#p214-5">θεωρ.] ἀπορίαν A τήνδε] ταύτην FG</note>
               <lb n="7" xml:id="p214-6"/>πραγματείαν ἡμῖν προκειμένων τῆς ἐπισκέψεως τῶν μετὰ τρόπου προτάσεων,<note type="apparatus" n="7" target="#p214-6">ἡμῖν om. FG¹ προσκειμ. A</note><milestone type="alt-edition" unit="line" ed="Venetiis 1545" n="15"/>
               <lb n="8" xml:id="p214-7"/>ταύτην παραδίδωσιν ὁ Ἀριστοτέλης ἐν τούτῳ τῷ τετάρτῳ τοῦ
@@ -8623,11 +8621,11 @@
               <lb n="17" xml:id="p230-16"/>ἀναγκαῖον εἶναι, τῷ δὲ δυνατῷ μὴ εἶναι καὶ ἐνδεχομένῳ μὴ<note type="apparatus" n="17" target="#p230-16">δυνατὸν Gb καὶ] μὴ A ἐνδεχόμενον b</note>
               <lb n="18" xml:id="p230-17"/>εἶναι τὸ μὴ ἀναγκαῖον μὴ εἶναι καὶ τὸ οὐκ ἀδύνατον μὴ εἶναι,<note type="apparatus" n="18" target="#p230-17">τὸ οὐκ ἀδ. μὴ εἶναι καὶ τὸ μὴ ἀναγκ. μὴ εἶναι colloc. A (cf. p. 232, 3 sq., sed vide eorum quae hic sequuntur collocationem) οὐκ suppl. F²</note><milestone type="alt-edition" unit="line" ed="Venetiis 1545" n="25"/>
               <lb n="19" xml:id="p230-18"/>τῷ δὲ μὴ δυνατῷ εἶναι καὶ μὴ ἐνδεχομένῳ εἶναι τὸ ἀναγκαῖον<note type="apparatus" n="19" target="#p230-18">τῷ δὲ — ἀδύν. εἶναι (20) suppl. G²</note><note type="apparatus" n="19 et 20 et 21" target="#p230-18 #p230-19 #p230-20">δυνατὸν B 19 et 21 ἐνδεχόμενον b</note>
-            </quote>
-            <p>
               <lb n="20" xml:id="p230-19"/>μὴ εἶναι καὶ τὸ ἀδύνατον εἶναι, τῷ δὲ μὴ δυνατῷ μὴ εἶναι καὶ
               <lb n="21" xml:id="p230-20"/>μὴ ἐνδεχομένῳ μὴ εἶναι τὸ ἀναγκαῖον εἶναι <milestone type="alt-edition" unit="folio" ed="Venetiis 1545" n="185r"/> καὶ τὸ ἀδύνατον
               <lb n="22" xml:id="p230-21"/>μὴ εἶναι. θεωρείσθω δὲ ἐκ τῆς ὑπογραφῆς ὡς λέγομεν·<figure type="table"><table><row><cell>δυνατὸν εἶναι</cell><cell>οὐ δυνατὸν εἶναι</cell></row><row><cell>ἐνδεχόμενον εἶναι</cell><cell>οὐκ ἐνδεχόμενον εἶναι</cell></row><row><cell>οὐκ ἀδύνατον εἶναι</cell><cell>ἀδύνατον εἶναι</cell></row><row><cell>οὐκ ἀναγκαῖον εἶναι</cell><cell>ἀναγκαῖον μὴ εἶναι</cell></row><row><cell>δυνατὸν μὴ εἶναι</cell><cell>οὐ δυνατὸν μὴ εἶναι</cell></row><row><cell>ἐνδεχόμενον μὴ εἶναι</cell><cell>οὐκ ἐνδεχόμενον μὴ εἶναι</cell></row><row><cell>οὐκ ἀδύνατον μὴ εἶναι</cell><cell>ἀδύνατον μὴ εἶναι</cell></row><row><cell>οὐκ ἀναγκαῖον μὴ εἶναι</cell><cell>ἀναγκαῖον εἶναι.</cell></row></table></figure>
+            </quote>
+            <p>
               <lb n="31" xml:id="p230-22"/>Ὅτι μὲν περὶ τῆς ἀκολουθίας τῶν μετὰ τρόπου προτάσεων ὁ λόγος
               <lb n="32" xml:id="p230-23"/>ἐν τούτοις, φανερόν. τεττάρων δὲ ὄντων τῶν τρόπων, τοῦ δυνατοῦ,<note type="apparatus" n="32" target="#p230-23">ἐν] ἔστιν ἐν F: ἐστὶ G</note>
             </p>
@@ -8721,13 +8719,13 @@
               <lb n="4" xml:id="p233-3"/>εἶναι ἡ ἀπόφασις τοῦ ἀδυνάτου, τῇ δὲ ἀποφάσει ἡ κατάφασις· τῷ<note type="apparatus" n="4" target="#p233-3">post ἀδυν. add. ἀκολουθεῖ b</note><milestone type="alt-edition" unit="line" ed="Venetiis 1545" n="5"/>
               <lb n="5" xml:id="p233-4"/>γὰρ οὐ δυνατῷ εἶναι τὸ ἀδύνατον εἶναι· κατάφασις γὰρ τὸ ἀδύνατον,<note type="apparatus" n="5" target="#p233-4">δυνατῷ] δυνατὸν Gb</note><note type="apparatus" n="5-6" target="#p233-4 #p233-5">τὸ ἀδύν. εἶναι Gb</note>
               <lb n="6" xml:id="p233-5"/>τὸ δὲ οὐκ ἀδύνατον ἀπόφασις. τὸ δὲ ἀναγκαῖον πῶς,<note type="apparatus" n="6" target="#p233-5">οὐκ ἀδ.] οὐ δυνατὸν εἶναι G: οὐκ ἀδύν. εἶναι b</note>
-            </quote>
-            <p>
               <lb n="7" xml:id="p233-6"/>ὀπτέον. φανερὸν δὴ ὅτι οὐχ οὕτως, ἀλλ’ αἱ ἐναντίαι ἕπονται.<note type="apparatus" n="7" target="#p233-6">δὴ] δὲ AG οὕτως ἔχει b</note>
               <lb n="8" xml:id="p233-7"/>αἱ δὲ ἀντιφάσεις χωρίς· οὐ γάρ ἐστιν ἀπόφασις τοῦ ἀνάγκη μὴ<milestone type="alt-edition" unit="line" ed="Venetiis 1545" n="10"/>
               <lb n="9" xml:id="p233-8"/>εἶναι τὸ οὐκ ἀνάγκη εἶναι· ἐνδέχεται γὰρ ἀληθεύεσθαι ἐπὶ τοῦ<note type="apparatus" n="9" target="#p233-8">καὶ ἀληθ. FG ἐπὶ ex κατὰ corr. G</note>
               <lb n="10" xml:id="p233-9"/>αὐτοῦ ἀμφοτέρας· τὸ γὰρ ἀναγκαῖον μὴ εἶναι οὐκ ἀναγκαῖον
               <lb n="11" xml:id="p233-10"/>εἶναι.
+            </quote>
+            <p>
               <lb n="12" xml:id="p233-11"/>Δι’ ὧν τὰς μὲν τοῦ ἀδυνάτου προτάσεις καταφατικάς τε καὶ ἀποφατικὰς<note type="apparatus" n="12" target="#p233-11">τοῦ om. G</note>
               <lb n="13" xml:id="p233-12"/>ἀκολούθως ἐκκεῖσθαί φησι καὶ ὑποτετάχθαι ταῖς τοῦ δυνατοῦ καὶ<milestone type="alt-edition" unit="line" ed="Venetiis 1545" n="15"/>
               <lb n="14" xml:id="p233-13"/>τοῦ ἐνδεχομένου καταφατικαῖς τε καὶ ἀποφατικαῖς προτάσεσι, τῶν ἀποφάσεων
@@ -8778,9 +8776,9 @@
               <lb n="19" xml:id="p234-18"/>ὃ δὲ ἀδύνατον μὴ εἶναι, τοῦτο ἀνάγκη εἶναι. ὥστε εἰ ἐκεῖνα<note type="apparatus" n="19" target="#p234-18">ὃ] τὸ G: εἰ b τοῦτο om. FG ἀναγκαῖον FG</note>
               <lb n="20" xml:id="p234-19"/>ὁμοίως ἀκολουθεῖ τῷ δυνατῷ καὶ μή, ταῦτα ἐξ ἐναντίας, ἐπεὶ<note type="apparatus" n="20" target="#p234-19">ἀκολουθεῖ om. b τῶν δυνατῶν G</note>
               <lb n="21" xml:id="p234-20"/>οὐ σημαίνει γε ταὐτὸν τό τε ἀναγκαῖον καὶ τὸ ἀδύνατον, ἀλλ’,
+              <lb n="22" xml:id="p234-21"/>ὥσπερ εἴρηται, ἀντεστραμμένως.<note type="apparatus" n="22" target="#p234-21">ἀντεστραμένως F</note><milestone type="alt-edition" unit="line" ed="Venetiis 1545" n="15"/>
             </quote>
             <p>
-              <lb n="22" xml:id="p234-21"/>ὥσπερ εἴρηται, ἀντεστραμμένως.<note type="apparatus" n="22" target="#p234-21">ἀντεστραμένως F</note><milestone type="alt-edition" unit="line" ed="Venetiis 1545" n="15"/>
               <lb n="23" xml:id="p234-22"/>Ἦν μὲν ἀκόλουθον παραδοῦναι πρότερον τὴν ἑξῆς ῥηθησομένην τῆς
               <lb n="24" xml:id="p234-23"/>ἐκθέσεως τῶν προτάσεων διόρθωσιν καὶ ἐπιδεῖξαι ὅτι ἡμαρτημένως ἔχουσιν
               <lb n="25" xml:id="p234-24"/>ἐν τῷ πρότερον ἐκτεθέντι διαγράμματι αἱ τοῦ ἀναγκαίου ἀποφάσεις<milestone type="alt-edition" unit="line" ed="Venetiis 1545" n="20"/>
@@ -8834,8 +8832,6 @@
               <lb n="4" xml:id="p236-3"/>εἰ μὴ δυνατὸν εἶναι, ἀδύνατον εἶναι· ἀδύνατον ἄρα εἶναι τὸ<note type="apparatus" n="4" target="#p236-3">ἀδύνατον εἶναι om. G</note>
               <lb n="5" xml:id="p236-4"/>ἀναγκαῖον εἶναι, ὅπερ ἄτοπον. ἀλλὰ μὴν τῷ γε δυνατὸν εἶναι<note type="apparatus" n="5" target="#p236-4">τῷ] τὸ F</note>
               <lb n="6" xml:id="p236-5"/>τὸ οὐκ ἀδύνατον εἶναι ἀκολουθεῖ, τούτῳ δὲ τὸ μὴ ἀναγκαῖον<note type="apparatus" n="6-7" target="#p236-5 #p236-6">τούτῳ δὲ τὸ μὴ ἀναγκ. εἶναι om. G</note>
-            </quote>
-            <p>
               <lb n="7" xml:id="p236-6"/>εἶναι· ὥστε συμβαίνει τὸ ἀναγκαῖον εἶναι μὴ ἀναγκαῖον εἶναι,
               <lb n="8" xml:id="p236-7"/>ὅπερ ἄτοπον. ἀλλὰ μὴν οὐδὲ τὸ ἀναγκαῖον εἶναι ἀκολουθεῖ τῷ<note type="apparatus" n="8" target="#p236-7">ἀκολουθεῖ — μὴ εἶναι (9) om. G</note><milestone type="alt-edition" unit="line" ed="Venetiis 1545" n="20"/>
               <lb n="9" xml:id="p236-8"/>δυνατὸν εἶναι, οὐδὲ τὸ ἀναγκαῖον μὴ εἶναι· τῷ μὲν γὰρ ἄμφω
@@ -8849,6 +8845,8 @@
               <lb n="17" xml:id="p236-16"/>εἶναι, οὗ ἀπόφασις τὸ οὐκ ἀναγκαῖον μὴ εἶναι. ἀκολουθοῦσιν<note type="apparatus" n="17" target="#p236-16">ἡ ἀπόφ. b ἀνάγκη FG ἀκολουθοῦσί τε b</note>
               <lb n="18" xml:id="p236-17"/>ἄρα καὶ αὗται αἱ ἀντιφάσεις κατὰ τὸν εἰρημένον τρόπον, καὶ<note type="apparatus" n="18" target="#p236-17">prius καὶ om. G αἱ ἀντ. αὗται colloc. G</note>
               <lb n="19" xml:id="p236-18"/>οὐδὲν ἀδύνατον συμβαίνει τιθεμένων οὕτως.<milestone type="alt-edition" unit="line" ed="Venetiis 1545" n="5"/>
+            </quote>
+            <p>
               <lb n="20" xml:id="p236-19"/>Ἐλέγχεται μὲν διὰ τούτων ἡ προειρημένη τῶν τοῦ ἀναγκαίου ἀποφάσεων
               <lb n="21" xml:id="p236-20"/>ἔκθεσις καὶ παραδίδοται ἡ ἀκριβὴς αὐτῶν τάξις ἐν τῷ διαγράμματι
               <lb n="22" xml:id="p236-21"/>τῶν μετὰ τρόπου προτάσεων, ὥστε μηδεμίαν ἐν αὐταῖς εἶναι μήτε διαφωνίαν<milestone type="alt-edition" unit="line" ed="Venetiis 1545" n="10"/><note type="apparatus" n="22" target="#p236-21">ὥστε — ἀταξίαν (23) iter. G¹</note>
@@ -9249,10 +9247,10 @@
               <lb n="4" xml:id="p247-3"/>τὸ ἐξ ἀνάγκης ὂν κατ’ ἐνέργειάν ἐστιν, ὥστε εἰ πρότερα τὰ
               <lb n="5" xml:id="p247-4"/>ἀΐδια, καὶ ἐνέργεια δυνάμεως προτέρα. καὶ τὰ μὲν ἄνευ<milestone type="alt-edition" unit="folio" ed="Venetiis 1545" n="198r"/><note type="apparatus" n="5" target="#p247-4">ἴδια G ἡ ἐνέργ. b</note>
               <lb n="6" xml:id="p247-5"/>δυνάμεως ἐνέργειαί εἰσιν, οἷον αἱ πρῶται οὐσίαι, τὰ δὲ μετὰ
-            </quote>
-            <p>
               <lb n="7" xml:id="p247-6"/>δυνάμεως, ἃ τῇ μὲν φύσει πρότερα τῷ χρόνῳ δὲ ὕστερα, τὰ δὲ<note type="apparatus" n="7" target="#p247-6">δὲ χρ. colloc. b</note>
               <lb n="8" xml:id="p247-7"/>οὐδέποτε ἐνέργειαί εἰσιν ἀλλὰ δυνάμεις μόνον.
+            </quote>
+            <p>
               <lb n="9" xml:id="p247-8"/>Ἀκολουθότερον ἐν τούτοις καὶ θεωρητικώτερον προηγεῖσθαι ἀξιοῖ τὰς<milestone type="alt-edition" unit="line" ed="Venetiis 1545" n="5"/><note type="apparatus" n="9" target="#p247-8">ἀκολουθώτ. Α¹ θεωρηματικ. Μ</note>
               <lb n="10" xml:id="p247-9"/>τοῦ ἀναγκαίου προτάσεις ἐν τῷ διαγράμματι τῶν κατὰ τοὺς ἄλλους τρόπους
               <lb n="11" xml:id="p247-10"/>προτάσεων, ἕπεσθαι δὲ ἐκείναις ταύτας, οὐ μόνον ὅτι κοινότερον ἐλέγετο<note type="apparatus" n="11" target="#p247-10">ἐκείνας ταύταις AFMa</note>
@@ -9410,8 +9408,6 @@
               <lb n="12" xml:id="p251-11"/>ἄνθρωπος δίκαιος τῷ πᾶς ἄνθρωπος ἄδικος, οἷον ἔστι Καλλίας<note type="apparatus" n="12" target="#p251-11">οἷον — ἐναντία (24) om. a post οἷον add. ὅτι G</note><note type="apparatus" n="12-13" target="#p251-11 #p251-12">οἷον K. δίκαιός ἐστι colloc. FG</note>
               <lb n="13" xml:id="p251-12"/>δίκαιος — οὐκ ἔστι Καλλίας δίκαιος — Καλλίας ἄδικός ἐστι·<note type="apparatus" n="13" target="#p251-12">οὐκ ἔστι post δίκαιος (alt.) colloc. FG</note>
               <lb n="14" xml:id="p251-13"/>ποτέρα δὴ ἐναντία τούτων; εἰ γὰρ τὰ μὲν ἐν τῇ φωνῇ ἀκολουθεῖ<milestone type="alt-edition" unit="line" ed="Venetiis 1545" n="20"/><note type="apparatus" n="14" target="#p251-13">ποτέρα — ἐναντία (24) om. G ἀκολουθεῖ om. A</note>
-            </quote>
-            <p>
               <lb n="15" xml:id="p251-14"/>τοῖς ἐν τῇ διανοίᾳ, ἐκεῖ δὲ ἐναντία δόξα ἡ τοῦ ἐναντίου, οἷον
               <lb n="16" xml:id="p251-15"/>ὅτι πᾶς ἄνθρωπος δίκαιος τῇ πᾶς ἄνθρωπος ἄδικος, καὶ ἐπὶ τῶν
               <lb n="17" xml:id="p251-16"/>ἐν τῇ φωνῇ καταφάσεων ἀνάγκη ὁμοίως ἔχειν. εἰ δὲ μὴ ἐκεῖ ἡ<milestone type="alt-edition" unit="line" ed="Venetiis 1545" n="25"/><note type="apparatus" n="17" target="#p251-16">μὴ] μηδὲ F</note>
@@ -9422,6 +9418,8 @@
               <lb n="22" xml:id="p251-21"/>τις δόξα ἀληθὴς τοῦ ἀγαθοῦ ὅτι ἀγαθόν, ἄλλη δὲ ὅτι οὐκ ἀγαθὸν
               <lb n="23" xml:id="p251-22"/>ψευδής, ἑτέρα δὲ ὅτι κακόν· ποτέρα δὴ τούτων ἐναντία τῇ
               <lb n="24" xml:id="p251-23"/>ἀληθεῖ; καὶ εἰ ἔστι μία, καθ’ ὁποτέραν ἡ ἐναντία;
+            </quote>
+            <p>
               <lb n="25" xml:id="p251-24"/>Συμπεπλήρωται μὲν ἡ διδασκαλία τῶν ἐξ ἀρχῆς ἡμῖν ἀπηριθμημένων<note type="apparatus" n="25-26" target="#p251-24 #p251-25">ἀπηριθμημένων] p. 7, 16</note>
               <lb n="26" xml:id="p251-25"/>τεττάρων τοῦ βιβλίου κεφαλαίων καὶ τὸ Περὶ ἑρμηνείας, ὡς ἐμοὶ
               <lb n="27" xml:id="p251-26"/>φαίνεται, τὸ προσῆκον ἀπείληφε πέρας· τὰ γὰρ ἐφεξῆς ὑποπτεύω ἤτοι μὴ<milestone type="alt-edition" unit="line" ed="Venetiis 1545" n="10"/>
@@ -9667,9 +9665,9 @@
               <lb n="6" xml:id="p258-5"/>τῷ τῶν ἐναντίων εἶναι, ψεῦδος· τοῦ γὰρ ἀγαθοῦ ὅτι ἀγαθὸν <milestone type="alt-edition" unit="folio" ed="Venetiis 1545" n="206v"/><note type="apparatus" n="6" target="#p258-5">τῷ om. G τῶν om. F ψεῦδος — ἐναντίως (9) om. M τοῦ — ἐναντίως (9) om. a</note>
               <lb n="7" xml:id="p258-6"/>καὶ τοῦ κακοῦ ὅτι κακόν, ἡ αὐτὴ ἴσως καὶ ἀληθής, εἴτε<note type="apparatus" n="7" target="#p258-6">ἀληθὴς ἔσται b</note>
               <lb n="8" xml:id="p258-7"/>πλείους εἴτε μία ἐστίν· ἐναντία δὲ ταῦτα. ἀλλ’ οὐ τῷ ἐναντίων<note type="apparatus" n="8-9" target="#p258-7 #p258-8">ἐναντίων εἶναι] ἐναντίον εἶναι F¹G: om. A</note>
+              <lb n="9" xml:id="p258-8"/>εἶναι ἐναντία, ἀλλὰ μᾶλλον τῷ ἐναντίως.<note type="apparatus" n="9" target="#p258-8">τῷ] τῶν FG</note>
             </quote>
             <p>
-              <lb n="9" xml:id="p258-8"/>εἶναι ἐναντία, ἀλλὰ μᾶλλον τῷ ἐναντίως.<note type="apparatus" n="9" target="#p258-8">τῷ] τῶν FG</note>
               <lb n="10" xml:id="p258-9"/>Τὴν ἔννοιαν αὐτήν, ἀφ’ ἧς ὁρμῶνται οἱ λέγοντες ἐν ταῖς περὶ τῶν<milestone type="alt-edition" unit="line" ed="Venetiis 1545" n="5"/>
               <lb n="11" xml:id="p258-10"/>ἐναντίων δόξαις τὴν σφοδροτάτην θεωρεῖσθαι τῶν προτάσεων μάχην, βούλεται
               <lb n="12" xml:id="p258-11"/>πρῶτον διαβαλεῖν ὁ ἀντιδικεῖν πρὸς τοῦτο πειρώμενος λόγος καί<note type="apparatus" n="12" target="#p258-11">διαβάλλειν M</note>
@@ -9704,10 +9702,10 @@
               <lb n="4" xml:id="p259-3"/>τὸ μὴ ὑπάρχον δοξάζουσιν οὔθ’ ὅσαι μὴ ὑπάρχειν τὸ<note type="apparatus" n="4" target="#p259-3">οὔθ’] καὶ A</note>
               <lb n="5" xml:id="p259-4"/>ὑπάρχον (ἄπειροι γὰρ ἀμφότεραι, καὶ ὅσαι ὑπάρχειν δοξάζουσι<note type="apparatus" n="5" target="#p259-4">ἄπειροι — τὸ ὑπάρχον (6) om. A</note>
               <lb n="6" xml:id="p259-5"/>τὸ μὴ ὑπάρχον καὶ ὅσαι μὴ ὑπάρχειν τὸ ὑπάρχον), ἀλλ’ ἐν
-            </quote>
-            <p>
               <lb n="7" xml:id="p259-6"/>ὅσαις ἐστὶν ἡ ἀπάτη. αὗται δὲ ἐξ ὧν αἱ γενέσεις. ἐκ τῶν ἀντικειμένων<note type="apparatus" n="7" target="#p259-6">ὁπόσαις A δέ εἰσιν b</note><milestone type="alt-edition" unit="line" ed="Venetiis 1545" n="10"/>
               <lb n="8" xml:id="p259-7"/>δὲ αἱ γενέσεις, ὥστε καὶ αἱ ἀπάται.
+            </quote>
+            <p>
               <lb n="9" xml:id="p259-8"/>Δεύτερον μὲν τοῦτο ἐπιχείρημα παραδίδοται πρὸς τὸ προκείμενον
               <lb n="10" xml:id="p259-9"/>ἡμῖν πρόβλημα, παραβάλλον λοιπὸν τὴν ἀντίφασιν πρὸς τὴν τῶν ἐναντίων<note type="apparatus" n="10" target="#p259-9">παραβάλλων G</note>
               <lb n="11" xml:id="p259-10"/>καταφάσεων ἀντίθεσιν. πρόεισι δὲ τοῦτον τὸν τρόπον. ἐπειδὴ βουλόμεθα<milestone type="alt-edition" unit="line" ed="Venetiis 1545" n="15"/>
@@ -9785,12 +9783,12 @@
               <lb n="7" xml:id="p261-6"/>τοῦ καθ’ αὑτὸ ὑπάρχοντος ψευδής, ἡ δὲ τοῦ ὅτι κακὸν<milestone type="alt-edition" unit="line" ed="Venetiis 1545" n="10"/>
               <lb n="8" xml:id="p261-7"/>τοῦ κατὰ συμβεβηκός· ὥστε μᾶλλον ἂν εἴη ψευδὴς τοῦ ἀγαθοῦ<note type="apparatus" n="8" target="#p261-7">εἴη om. A</note>
               <lb n="9" xml:id="p261-8"/>ἡ τῆς ἀποφάσεως ἢ ἡ τοῦ ἐναντίου δόξα. διέψευσται δὲ μάλιστα
-            </quote>
-            <p>
               <lb n="10" xml:id="p261-9"/>περὶ ἕκαστον ὁ τὴν ἐναντίαν ἔχων δόξαν· τὰ γὰρ ἐναντία
               <lb n="11" xml:id="p261-10"/>τῶν πλεῖστον διαφερόντων περὶ τὸ αὐτό· εἰ οὖν ἐναντία μὲν<milestone type="alt-edition" unit="line" ed="Venetiis 1545" n="15"/>
               <lb n="12" xml:id="p261-11"/>τούτων ἡ ἑτέρα, ἐναντιωτέρα δὲ ἡ τῆς ἀποφάσεως, δῆλον ὅτι<note type="apparatus" n="12" target="#p261-11">ἀντιφάσεως A</note>
               <lb n="13" xml:id="p261-12"/>αὕτη ἂν εἴη ἐναντία.
+            </quote>
+            <p>
               <lb n="14" xml:id="p261-13"/>Ἐν τούτῳ τῷ τρίτῳ ἐπιχειρήματι τὰ ἐναντία λαβὼν τοῦ αὐτοῦ<note type="apparatus" n="14" target="#p261-13">τοῦ αὐτοῦ λαβὼν colloc. A</note>
               <lb n="15" xml:id="p261-14"/>κατηγορούμενα, οἷον τῶν ἀγαθῶν τινὸς αὐτό τε τοῦτο τὸ ἀγαθὸν καὶ τὸ<note type="apparatus" n="15" target="#p261-14">τοῦτο] πάλιν FGa</note><note type="apparatus" n="15-16" target="#p261-14 #p261-15">καὶ τὸ κακόν om. G</note>
               <lb n="16" xml:id="p261-15"/>κακόν, καταφατικῶς τε καὶ ἀποφατικῶς, ὡς διὰ ταῦτα τέτταρας γίνεσθαι<milestone type="alt-edition" unit="line" ed="Venetiis 1545" n="20"/>
@@ -9945,9 +9943,9 @@
               <lb n="8" xml:id="p265-7"/>ἀντιφάσεως ἢ οὐδαμοῦ· ὅσοις δὲ μή ἐστιν ἐναντία, περὶ τούτων
               <lb n="9" xml:id="p265-8"/>ἔστι μὲν ψευδὴς ἡ τῇ ἀληθεῖ ἀντικειμένη, οἷον ὁ τὸν<note type="apparatus" n="9" target="#p265-8">ὁ om. FG</note>
               <lb n="10" xml:id="p265-9"/>ἄνθρωπον μὴ ἄνθρωπον οἰόμενος διέψευσται. εἰ οὖν αὗται<note type="apparatus" n="10" target="#p265-9">μὴ] οὐκ b οἰόμ. ἄνθρ. colloc. FG</note><milestone type="alt-edition" unit="line" ed="Venetiis 1545" n="5"/>
+              <lb n="11" xml:id="p265-10"/>ἐναντίαι, καὶ αἱ ἄλλαι αἱ τῆς ἀντιφάσεως.
             </quote>
             <p>
-              <lb n="11" xml:id="p265-10"/>ἐναντίαι, καὶ αἱ ἄλλαι αἱ τῆς ἀντιφάσεως.
               <lb n="12" xml:id="p265-11"/>Σαφὴς μὲν ἡ ταύτης τῆς πέμπτης ἐπιχειρήσεως διάνοιά τε καὶ λέξις,<note type="apparatus" n="12" target="#p265-11">ἀσαφὴς AF1M δευτέρας A</note>
               <lb n="13" xml:id="p265-12"/>ἀξιοῦσα ἡμᾶς προσέχειν ποτέρα τῶν παραβαλλομένων πρὸς ἀλλήλας προτάσεων
               <lb n="14" xml:id="p265-13"/>χρήσιμος ἂν εἴη πρὸς τὸ δι’ ἑνὸς καθόλου κανόνος πάσῃ τῇ<note type="apparatus" n="14" target="#p265-13">κανόνος om. G</note>
@@ -9983,12 +9981,12 @@
               <lb n="5" xml:id="p266-4"/>οὐ γὰρ δὴ ἡ λέγουσα ὅτι κακόν (ἅμα γὰρ ἄν ποτε εἴη<note type="apparatus" n="5" target="#p266-4">ἅμα—ἀγαθόν (11) om. G</note><note type="apparatus" n="5-6" target="#p266-4 #p266-5">εἶεν ἀληθεῖς A1F</note><milestone type="alt-edition" unit="line" ed="Venetiis 1545" n="10"/>
               <lb n="6" xml:id="p266-5"/>ἀληθής, οὐδέποτε δὲ ἀληθὴς ἀληθεῖ ἐναντία· ἔστι γάρ τι μὴ
               <lb n="7" xml:id="p266-6"/>ἀγαθὸν κακόν, ὥστε ἐνδέχεται ἅμα ἀληθεῖς εἶναι), οὐδ’ αὖ<note type="apparatus" n="7-8" target="#p266-6 #p266-7">οὐδ’ αὖ ἡ om. F</note>
-            </quote>
-            <p>
               <lb n="8" xml:id="p266-7"/>ἡ ὅτι οὐ κακόν (ἀληθὴς γὰρ αὕτη· ἅμα γὰρ καὶ ταῦτα ἂν εἴη)·<note type="apparatus" n="8" target="#p266-7">ante αὕτη add. καὶ Ab (cf. p. 267,26) post alt. γὰρ add. ἀληθῆ F</note>
               <lb n="9" xml:id="p266-8"/>λείπεται οὖν τῇ τοῦ μὴ ἀγαθοῦ ὅτι οὐκ ἀγαθὸν ἐναντία ἡ τοῦ<note type="apparatus" n="9" target="#p266-8">δὴ οὖν A οὐκ om. A ἐναντ. εἶναι A</note><milestone type="alt-edition" unit="line" ed="Venetiis 1545" n="15"/>
               <lb n="10" xml:id="p266-9"/>μὴ ἀγαθοῦ ὅτι ἀγαθόν· ψευδὴς γὰρ αὕτη. ὥστε καὶ ἡ τοῦ<note type="apparatus" n="10" target="#p266-9">γὰρ evan. A</note>
               <lb n="11" xml:id="p266-10"/>ἀγαθοῦ ὅτι οὐκ ἀγαθὸν τῇ τοῦ ἀγαθοῦ ὅτι ἀγαθόν.<note type="apparatus" n="11" target="#p266-10">post prius ἀγαθὸν add. εἴη ἂν ἐναντία F</note>
+            </quote>
+            <p>
               <lb n="12" xml:id="p266-11"/>Ἔσχατόν ἐστι τοῦτο καὶ δυσαντιβλεπτότατον τῶν πρὸς τὸ πρόβλημα<note type="apparatus" n="12" target="#p266-11">οὐ δυσαντιβλεπτότερον Fa; an δυσαντιλεκτότατον?</note>
               <lb n="13" xml:id="p266-12"/>ἐπιχειρημάτων, ὃ κατὰ τόνδε προάγεται τὸν τρόπον. δύο λαμβάνει τοῦ<note type="apparatus" n="13" target="#p266-12">προσάγ. a</note><milestone type="alt-edition" unit="line" ed="Venetiis 1545" n="20"/>
               <lb n="14" xml:id="p266-13"/>ἀγαθοῦ ἀντιφάσεις, τὴν μὲν ὡρισμένῳ τὴν δὲ ἀορίστῳ χρωμένην τῷ ὑποκειμένῳ,<note type="apparatus" n="14" target="#p266-13">ὡρισμένην F ἀόριστον F</note>
@@ -10054,9 +10052,9 @@
               <lb n="5" xml:id="p268-4"/>ὅτι ἀγαθόν, εἰ καθόλου τὸ ἀγαθόν, ἡ αὐτή ἐστι τῇ ὅτι 〈ὃ〉 ἂν<note type="apparatus" n="5" target="#p268-4">εἰ] ἢ F τῇ om. F ὃ om. AF</note>
               <lb n="6" xml:id="p268-5"/>ᾖ ἀγαθὸν δοξαζούσῃ ὅτι ἀγαθόν. τοῦτο δὲ οὐδὲν διαφέρει
               <lb n="7" xml:id="p268-6"/>τοῦ ὅτι πᾶν ὃ ἂν ᾖ ἀγαθὸν ἀγαθόν ἐστιν. ὁμοίως δὲ καὶ ἐπὶ<note type="apparatus" n="7" target="#p268-6">ὃ] ὅτι A</note>
+              <lb n="8" xml:id="p268-7"/>τοῦ μὴ ἀγαθοῦ. <milestone type="alt-edition" unit="folio" ed="Venetiis 1545" n="213v"/>
             </quote>
             <p>
-              <lb n="8" xml:id="p268-7"/>τοῦ μὴ ἀγαθοῦ. <milestone type="alt-edition" unit="folio" ed="Venetiis 1545" n="213v"/>
               <lb n="9" xml:id="p268-8"/>Ὑποσχόμενος ἐξ ἀρχῆς ποιήσασθαι τὴν ἐπίσκεψιν τοῦ προτεθέντος<note type="apparatus" n="9-10" target="#p268-8 #p268-9">προτεθέντος om. A</note>
               <lb n="10" xml:id="p268-9"/>προβλήματος ἐπί τε τῶν καθ’ ἕκαστα καὶ τῶν καθόλου προτάσεων,
               <lb n="11" xml:id="p268-10"/>εἶτα ἐν μηδενὶ τῶν ἐπιχειρημάτων παραλαβὼν πρότασιν τῶν καθόλου<note type="apparatus" n="11" target="#p268-10">περιλαβὼν F: περιβαλὼν a</note><note type="apparatus" n="11-12" target="#p268-10 #p268-11">τινα τῶν καθ. colloc. A</note>
@@ -10174,9 +10172,9 @@
               <lb n="11" xml:id="p271-10"/>δῆλον ὅτι καὶ καταφάσει ἐναντία μὲν ἀπόφασις ἡ περὶ τοῦ<note type="apparatus" n="11" target="#p271-10">καὶ om. M ἐναντ. μὲν ἀπόφ. F: ἐναντ. μὲν ἡ ἀπόφ. G: μὲν ἐναντ. ἡ ἀπόφ. Ma: evan. A ἡ περὶ] εἴπερ ἡ G</note><milestone type="alt-edition" unit="line" ed="Venetiis 1545" n="10"/>
               <lb n="12" xml:id="p271-11"/>αὐτοῦ καθόλου, οἷον ὅτι πᾶν ἀγαθὸν ἀγαθὸν ἢ ὅτι πᾶς<note type="apparatus" n="12" target="#p271-11">οἷον — οὐ πᾶς (14) om. a οἷον τῇ b</note>
               <lb n="13" xml:id="p271-12"/>ἄνθρωπος ἀγαθὸς ἢ ὅτι οὐδὲν ἢ οὐδείς, ἀντιφατικῶς δὲ ἡ<note type="apparatus" n="13" target="#p271-12">ἀποφατ. A: ἀντιφαντ. G alt. ἡ] ἢ AFG: ὅτι ἡ b</note>
+              <lb n="14" xml:id="p271-13"/>οὐ πᾶν ἢ οὐ πᾶς.<note type="apparatus" n="14" target="#p271-13">πᾶς ἢ οὐ πᾶν colloc. AG</note>
             </quote>
             <p>
-              <lb n="14" xml:id="p271-13"/>οὐ πᾶν ἢ οὐ πᾶς.<note type="apparatus" n="14" target="#p271-13">πᾶς ἢ οὐ πᾶν colloc. AG</note>
               <lb n="15" xml:id="p271-14"/>Φανερὰ τὰ διὰ τούτων λεγόμενα· προθέμενος γὰρ ἐξ ἀρχῆς τὰς<note type="apparatus" n="15" target="#p271-14">φανερὰ — λεγόμενα om. a post φαν. add. δὲ AM</note>
               <lb n="16" xml:id="p271-15"/>κατὰ τὸν προφορικὸν λόγον ἀποφάνσεις παραβαλεῖν πρὸς ἀλλήλας καθ’ ὃν<note type="apparatus" n="16" target="#p271-15">ἀποφάσεις FG παραβάλλειν G</note><milestone type="alt-edition" unit="line" ed="Venetiis 1545" n="15"/>
               <lb n="17" xml:id="p271-16"/>εἴρηται τρόπον ἀνέδραμεν ἐπὶ τὰς δόξας καὶ ἐπὶ τούτων ἠξίωσε γυμνάσαι<note type="apparatus" n="17" target="#p271-16">ἠξίωσαι F</note>
@@ -10196,9 +10194,9 @@
               <lb n="26" xml:id="p271-25"/>ἐναντίαν εἶναι οὔτε δόξαν οὔτε ἀντίφασιν· ἐναντίαι μὲν γὰρ<note type="apparatus" n="26" target="#p271-25">ἀπόφασιν b</note>
               <lb n="27" xml:id="p271-26"/>αἱ περὶ τὰ ἀντικείμενα· περὶ τὰ αὐτὰ δὲ ἐνδέχεται ἀληθεύειν<note type="apparatus" n="27" target="#p271-26">τὰ αὐτὰ] ταῦτα AMab (cf. p. 272, 18. 20)</note><note type="apparatus" n="27-28" target="#p271-26 #p271-27">ἀληθεύειν om. M</note>
               <lb n="28" xml:id="p271-27"/>τὸν αὐτόν, ἅμα δὲ οὐκ ἐνδέχεται τὰ ἐναντία ὑπάρχειν
+              <lb n="29" xml:id="p271-28"/>τῷ αὐτῷ. <milestone type="alt-edition" unit="folio" ed="Venetiis 1545" n="216r"/>
             </quote>
             <p>
-              <lb n="29" xml:id="p271-28"/>τῷ αὐτῷ. <milestone type="alt-edition" unit="folio" ed="Venetiis 1545" n="216r"/>
               <lb n="30" xml:id="p271-29"/>Χρησάμενος ἐν τῇ ἕκτῃ ἐπιχειρήσει ὡς ἐναργεῖ τῷ τὰς συναληθευούσας
               <lb n="31" xml:id="p271-30"/>δόξας τε καὶ προτάσεις μὴ εἶναι ἐναντίας, αὐτὸ τοῦτο νῦν καίτοι<note type="apparatus" n="31" target="#p271-30">δόξας τε καὶ] expl. A</note>
             </p>

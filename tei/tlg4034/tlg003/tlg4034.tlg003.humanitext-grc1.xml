@@ -18,7 +18,7 @@
         <p>Text transcribed by OCR (Humanitext OCR v2, Gemini models) from the scans named in the source description. Structure (div, quote, head): assigned automatically from printed cues (Bekker references before lemmata, section numbers, headings, book titles, lecture headings; in the paraphrases, Aristotle's chapters located from the running heads) and reviewed by the editors at every boundary that was not certain. In works divided into lectures (Πρᾶξις, Θεωρία) the lectures are divs; topic headings that run across lectures (e.g. Περὶ οὐσίας) are marked milestone[@unit='topic'] and kept as text. Text: OCR of the page images (gemini-3-flash-preview; gemini-3.7-flash where it failed), collated word by word, page by page and in five-line blocks, with the First1KGreek transcription of the same edition (tlg4034.tlg003.1st1K-grc1). Lines on which the two disagreed, lines without a First1KGreek counterpart and lines containing a word form not attested in a Greek form lexicon (about two fifths of the lines) were read again from images of the single lines by a second model (gemini-3.8-flash); words still undecided were read line by line by a third model (gemini-3.1-pro-preview). A reading was adopted when the re-reading of the image agreed with it; the remaining words were decided on the page image by student assistants or by AI-assisted checking under the editor's supervision. Lines on which the OCR agreed word for word with First1KGreek and whose words are all attested were not re-read. No text was copied from First1KGreek (Open Greek and Latin Project, University of Leipzig; CC BY-SA 4.0): it served only as a collation witness, and every disagreement was decided from the page image of this edition. Spelling, accents and breathings follow the printed page: the models were instructed to transcribe exactly as printed and the checkers chose the printed form, but a normalised accentuation adopted by a model may occasionally remain. Later checks against the page images (line numbers, marginal references, signs and apparatus, omitted lines) are listed in the revision description. Headings inside a div (sub-headings, closing formulas, labels of tables) are ab[@type='head']. The words of diagrams and tables are not body text: each diagram or table is given once as figure after the last body line printed before it (labels, trees and tables transcribed; pure geometry described in figDesc); where the edition counts the rows of a diagram or table as lines, those line numbers are not used by any lb. Evident misprints of the printed edition, identified on the page image, are kept and given with the correct form as choice/sic/corr; mere variants of spelling or accentuation are left as printed. Misprinted numbers in milestones (Bekker references, old-edition page, folio, column and line numbers), which cannot carry choice/sic/corr, are given with the corrected value where the sequence of the numbers determines it. Line breaks: one lb per printed line; @n is the line count of the CAG page (headings included), resynchronised on the printed marginal numbers of the left margin; lines the edition does not count carry lb without @n. Words hyphenated across lines are joined and the lb is placed at the following word boundary. pb/@facs points to the image of the page in the Internet Archive item named in the source description (BookReader page image; for pages supplied from another copy, that copy). Critical-apparatus entries are attached to the line(s) they cite as note[@type='apparatus'] with @target on the lb (line level; the lemma words of an entry are not linked); entries that cannot be resolved remain as note[@type='footnote'] at the page end. References in the margins to older editions or manuscripts are milestone[@type='alt-edition'] with @unit and @ed (the edition identified from the preface of the volume); CAG's repetition of the current old-edition page or folio beside the first line of each page is not encoded. Bekker references printed before lemmata are milestone[@unit='bekker']. Marginal digits fused into the text by OCR have been removed.</p>
       </editorialDecl>
     </encodingDesc>
-    <revisionDesc><change when="2026-09-15" who="#NI">OCR of the page images in text mode (gemini-3-flash-preview; gemini-3.7-flash where it failed); body lines aligned to the physical lines of the page image; physical lines left without an OCR line read again (31 lines recovered in the corpus).</change><change when="2026-09-24" who="#NI">Line numbers anchored on the printed marginal numerals; 75 doubtful pages of the corpus checked by eye.</change><change when="2026-09-25" who="#NI">Automatic division into chapters, sections and lemmata; 459 uncertain boundaries of the corpus reviewed (273 removed, 119 added).</change><change from="2026-09-26" to="2026-09-29" who="#NI">Line numbers verified against the printed marginal numerals of every page (67,352 of 70,149 numerals agreed); page-wide shifts corrected automatically (322 pages on 2026-09-26, 129 on 2026-09-28); 227 pages reviewed by student assistants (176 corrected).</change><change from="2026-09-30" to="2026-10-02" who="#NI">Text collated with First1KGreek where a First1KGreek file could be aligned by page and line, and re-read (Gemini Batch API): 156,504 lines of the corpus by gemini-3.8-flash, 21,570 lines by gemini-3.1-pro-preview; remaining words put on review sheets.</change><change from="2026-09-30" to="2026-10-12" who="#NI">Review sheets of the re-read words answered by student assistants; the remaining words decided on the page images.</change><change from="2026-10-01" to="2026-10-08" who="#TN">All uncertain structural boundaries reviewed; conventions of the pilot works applied (lectures, book titles, topic headings).</change><change when="2026-10-02" who="#NI">Evident misprints given as choice/sic/corr; headings inside divs as ab[@type='head'].</change><change when="2026-10-13" who="#NI">Margin references to older editions and manuscripts encoded as milestone[@type='alt-edition'][@ed], the editions identified from the prefaces; irregular sequences checked on the page images.</change><change from="2026-10-13" to="2026-10-14" who="#NI">Body text lost to the footnote and figure areas found by collation from the First1KGreek side and restored (about 2,300 lines in the corpus); passages missed by the OCR read again and inserted; restored and inserted lines checked again against the images.</change><change when="2026-10-14" who="#NI">Text of diagrams encoded as figure, and lemma Bekker references whose numbers the OCR had lost read from the images (where the work has them).</change><change when="2026-10-16" who="#NI">Line numbers of the 875 pages left by the verification checked on the images (248 of them also answered by student assistants), followed by a continuity check of every page; margin references to older editions checked on 2,237 page images (944 corrections).</change><change when="2026-10-17" who="#NI">Pages whose line numbering still had gaps or repeats checked on the images (355 pages); signs (〈 〉 [ ] † * — ( )) compared with First1KGreek and 445 pages checked on the images (313 corrections in the text, 523 in the apparatus); words hyphenated across lines joined; punctuation normalised.</change><change when="2026-10-20" who="#NI">Header revised (title, source description, editorial declaration, revision description); misprinted old-edition line numbers given with the corrected value where the sequence determines them; breathings and accents written as separate signs before capitals composed with the letter; missing elision marks after ἀλλ, κατ, καθ, ἐπ, δι etc. supplied in the text; numbers left at line starts removed or encoded as old-edition milestones (image checked); working row identifiers left in 37 lines removed (one line restored from the page image); words divided at a line end that had been joined to a word two lines down corrected; every body line without a line number checked on the page images (margin labels and folio marks read as lines dropped, duplicated rows removed, numbers given to lines the edition counts); numeral signs unified as ʹ (U+0374, stored in its NFC form U+02B9); line-number jumps, old-edition milestones without an edition name and notes suspected to hold body text checked on the page images; citation by printed page and line declared (refsDecl); line coordinates of the working files realigned on the marginal numerals; printers' signatures at the foot of the page removed from the apparatus; apparatus entries for two lines joined by et kept as one note pointing at both lines; page images linked from pb/@facs.</change><change when="2026-10-21" who="#NI">Old-edition line numbers checked on the page images where the sequence skipped a number (2,100 places in the corpus) and, page by page, where it was irregular (542 pages): numbers missed by the OCR added (549), milestones not printed on the page dropped (190; mostly the CAG's own left-margin numbers or line references of the apparatus taken for old-edition numbers), misplaced ones moved (69), misread values corrected (31), page numbers taken for line numbers made page milestones (8); the edition's own skips and out-of-order numbers left as printed, the line count printed beside the repeated page or folio at the head of a page not encoded (like the repetition).</change><change when="2026-10-23" who="#NI">Quotation marks made uniform: opening single and double quotation marks, printed in the edition in the reversed (high-reversed-9) form, are encoded as ‘ and “, closing ones as ’ and ”, single and double kept as printed; opening marks read by the OCR as straight quotes, low quotes or spacing breathings, and spacing breathings or quotation marks doubled before a capital that already bears its breathing, corrected.</change><change when="2026-11-05" who="#NI">Apparatus entries printed out of numerical order (e.g. 33 … 32) separated from the preceding entry; words hyphenated across lines joined in Latin text as in Greek; words mixing Greek and Latin letters (OCR errors, about 130, including manuscript sigla) corrected on the page images; marginal folio marks left in the text removed; validated against TEI P5 version 4.12.0 (recorded in TEI/@version).</change></revisionDesc>
+    <revisionDesc><change when="2026-09-15" who="#NI">OCR of the page images in text mode (gemini-3-flash-preview; gemini-3.7-flash where it failed); body lines aligned to the physical lines of the page image; physical lines left without an OCR line read again (31 lines recovered in the corpus).</change><change when="2026-09-24" who="#NI">Line numbers anchored on the printed marginal numerals; 75 doubtful pages of the corpus checked by eye.</change><change when="2026-09-25" who="#NI">Automatic division into chapters, sections and lemmata; 459 uncertain boundaries of the corpus reviewed (273 removed, 119 added).</change><change from="2026-09-26" to="2026-09-29" who="#NI">Line numbers verified against the printed marginal numerals of every page (67,352 of 70,149 numerals agreed); page-wide shifts corrected automatically (322 pages on 2026-09-26, 129 on 2026-09-28); 227 pages reviewed by student assistants (176 corrected).</change><change from="2026-09-30" to="2026-10-02" who="#NI">Text collated with First1KGreek where a First1KGreek file could be aligned by page and line, and re-read (Gemini Batch API): 156,504 lines of the corpus by gemini-3.8-flash, 21,570 lines by gemini-3.1-pro-preview; remaining words put on review sheets.</change><change from="2026-09-30" to="2026-10-12" who="#NI">Review sheets of the re-read words answered by student assistants; the remaining words decided on the page images.</change><change from="2026-10-01" to="2026-10-08" who="#TN">All uncertain structural boundaries reviewed; conventions of the pilot works applied (lectures, book titles, topic headings).</change><change when="2026-10-02" who="#NI">Evident misprints given as choice/sic/corr; headings inside divs as ab[@type='head'].</change><change when="2026-10-13" who="#NI">Margin references to older editions and manuscripts encoded as milestone[@type='alt-edition'][@ed], the editions identified from the prefaces; irregular sequences checked on the page images.</change><change from="2026-10-13" to="2026-10-14" who="#NI">Body text lost to the footnote and figure areas found by collation from the First1KGreek side and restored (about 2,300 lines in the corpus); passages missed by the OCR read again and inserted; restored and inserted lines checked again against the images.</change><change when="2026-10-14" who="#NI">Text of diagrams encoded as figure, and lemma Bekker references whose numbers the OCR had lost read from the images (where the work has them).</change><change when="2026-10-16" who="#NI">Line numbers of the 875 pages left by the verification checked on the images (248 of them also answered by student assistants), followed by a continuity check of every page; margin references to older editions checked on 2,237 page images (944 corrections).</change><change when="2026-10-17" who="#NI">Pages whose line numbering still had gaps or repeats checked on the images (355 pages); signs (〈 〉 [ ] † * — ( )) compared with First1KGreek and 445 pages checked on the images (313 corrections in the text, 523 in the apparatus); words hyphenated across lines joined; punctuation normalised.</change><change when="2026-10-20" who="#NI">Header revised (title, source description, editorial declaration, revision description); misprinted old-edition line numbers given with the corrected value where the sequence determines them; breathings and accents written as separate signs before capitals composed with the letter; missing elision marks after ἀλλ, κατ, καθ, ἐπ, δι etc. supplied in the text; numbers left at line starts removed or encoded as old-edition milestones (image checked); working row identifiers left in 37 lines removed (one line restored from the page image); words divided at a line end that had been joined to a word two lines down corrected; every body line without a line number checked on the page images (margin labels and folio marks read as lines dropped, duplicated rows removed, numbers given to lines the edition counts); numeral signs unified as ʹ (U+0374, stored in its NFC form U+02B9); line-number jumps, old-edition milestones without an edition name and notes suspected to hold body text checked on the page images; citation by printed page and line declared (refsDecl); line coordinates of the working files realigned on the marginal numerals; printers' signatures at the foot of the page removed from the apparatus; apparatus entries for two lines joined by et kept as one note pointing at both lines; page images linked from pb/@facs.</change><change when="2026-10-21" who="#NI">Old-edition line numbers checked on the page images where the sequence skipped a number (2,100 places in the corpus) and, page by page, where it was irregular (542 pages): numbers missed by the OCR added (549), milestones not printed on the page dropped (190; mostly the CAG's own left-margin numbers or line references of the apparatus taken for old-edition numbers), misplaced ones moved (69), misread values corrected (31), page numbers taken for line numbers made page milestones (8); the edition's own skips and out-of-order numbers left as printed, the line count printed beside the repeated page or folio at the head of a page not encoded (like the repetition).</change><change when="2026-10-23" who="#NI">Quotation marks made uniform: opening single and double quotation marks, printed in the edition in the reversed (high-reversed-9) form, are encoded as ‘ and “, closing ones as ’ and ”, single and double kept as printed; opening marks read by the OCR as straight quotes, low quotes or spacing breathings, and spacing breathings or quotation marks doubled before a capital that already bears its breathing, corrected.</change><change when="2026-11-05" who="#NI">Apparatus entries printed out of numerical order (e.g. 33 … 32) separated from the preceding entry; words hyphenated across lines joined in Latin text as in Greek; words mixing Greek and Latin letters (OCR errors, about 130, including manuscript sigla) corrected on the page images; marginal folio marks left in the text removed; validated against TEI P5 version 4.12.0 (recorded in TEI/@version).</change><change when="2026-11-05" who="#NI">Extent of the lemma quotations (quote[@type='lemma']) corrected: the automatic division had closed every lemma after its first printed line, leaving the remaining lines of lemmata printed over two or more lines at the head of the following paragraph. Candidates were found from the letter-spacing of the lines on the page images (lemmata are printed spaced) and from the line geometry (centred last line, indented paragraph start), and every candidate was decided on the page image (Claude work teams; about 7,700 places in the corpus); the lines so decided are now inside the quotation, with pb inside the quotation where a lemma runs on to the next page. Where the lemma runs on in the same line as the commentary (Stephanus in De interpretatione), the quotation ends after the last spaced word and the paragraph continues in the same line without a new lb; where no lemma is printed and the paraphrase follows the Bekker reference directly (Michael in De partibus animalium from p. 37), the quotation is dropped and the division kept; centred last lines the edition does not count are inside the quotation as unnumbered lines.</change></revisionDesc>
   </teiHeader>
   <text>
     <body>
@@ -241,9 +241,9 @@
             <milestone unit="bekker" n="640b29"/>
             <quote type="lemma">
               <lb n="33" xml:id="p5-32"/>Εἰ μὲν οὖν τῷ σχήματι καὶ τῷ χρώματι ἕκαστον τῶν<milestone type="alt-edition" unit="line" ed="Victorius 1548" n="10"/>
+              <lb n="34" xml:id="p5-33"/>ζῴων.
             </quote>
             <p>
-              <lb n="34" xml:id="p5-33"/>ζῴων.
               <lb n="35" xml:id="p5-34"/>Δημόκριτος τὴν ἅπασαν ζήτησιν περὶ τῆς ὑλικῆς αἰτίας ποιούμενος
               <lb n="36" xml:id="p5-35"/>ἀπεκρίνατο, τὸ δὲ τίνος ἕνεκα ἤτοι τὴν εἰδικὴν εἴα λέγων ‘ἅπαντι δῆλόν<note type="apparatus" n="36" target="#p5-35">τὸ δὲ om. S τινος Pa ἤτοι om. S</note>
             </p>
@@ -411,9 +411,9 @@
             <milestone unit="bekker" n="642b5"/>
             <quote type="lemma">
               <lb n="29" xml:id="p9-28"/>Λαμβάνουσι δ’ ἔνιοι τὸ καθ’ ἕκαστον διαιρούμενοι τὸ
+              <lb n="30" xml:id="p9-29"/>γένος εἰς δύο διαφοράς.
             </quote>
             <p>
-              <lb n="30" xml:id="p9-29"/>γένος εἰς δύο διαφοράς.
               <lb n="31" xml:id="p9-30"/>Τὰ εἰδικώτατα εἴδη λαμβάνειν ὁ Πλάτων βουλόμενος (ταῦτα γὰρ εἶπε<note type="apparatus" n="31" target="#p9-30">ὁ Πλάτων] cf. Bonitz, Ind. Ar. p. 599 a 14</note>
               <lb n="32" xml:id="p9-31"/>καθ’ ἕκαστον) ἐλάμβανε τὸ γένος καὶ διῄρει εἰς δύο, καὶ ἑκάτερον πάλιν<note type="apparatus" n="32" target="#p9-31">ἑκάτερον scripsi: ἕκαστον libri</note>
               <lb n="33" xml:id="p9-32"/>τῶν τμημάτων εἰς δύο κἀκεῖνο, οὕτω λέγων ‘τῆς ποδότητος τὸ μέν ἐστι<milestone type="alt-edition" unit="line" ed="Victorius 1548" n="35"/>
@@ -505,9 +505,9 @@
             <milestone unit="bekker" n="642b30"/>
             <quote type="lemma">
               <lb n="1" xml:id="p12-0"/>Χαλεπὸν μὲν οὖν διαλαβεῖν καὶ εἰς τοιαύτας διαφοράς,
+              <lb n="2" xml:id="p12-1"/>ὧν ἔστιν εἴδη.
             </quote>
             <p>
-              <lb n="2" xml:id="p12-1"/>ὧν ἔστιν εἴδη.
               <lb n="3" xml:id="p12-2"/>Εἰπὼν ὅτι τοῖς διαιροῦσιν εἰς δύο τὰ γένη ἀναγκαῖον στερήσει τὴν
               <lb n="4" xml:id="p12-3"/>διαίρεσιν ποιεῖν, καὶ δὴ ποιοῦσι, καὶ εἰς ἄτοπον συνωθήσας τὸν λόγον τὸ<note type="apparatus" n="4" target="#p12-3">δὴ om. S</note>
               <lb n="5" xml:id="p12-4"/>εἴδη εἶναι τῆς στερήσεως καὶ τοῦ μὴ ὄντος, λέγει ὅτι καὶ ἐπὶ τῶν διαφορῶν
@@ -636,9 +636,9 @@
             <milestone unit="bekker" n="643b9"/>
             <quote type="lemma">
               <lb n="1" xml:id="p15-0"/>Ὅλως δὲ ὁποιανοῦν διαφορὰν μιᾷ διαιροῦντι τοῦτο<note type="apparatus" n="1" target="#p15-0">ὁποιαοῦν διαφορᾷ libri, sed cf. v. 7 et Arist. vulg.</note>
+              <lb n="2" xml:id="p15-1"/>συμβαίνειν ἀναγκαῖον.
             </quote>
             <p>
-              <lb n="2" xml:id="p15-1"/>συμβαίνειν ἀναγκαῖον.
               <lb n="3" xml:id="p15-2"/>Πρὸς τοῖς ἄλλοις ἀτόποις τοῖς τῇ ἐκ διαιρέσεως μεθόδῳ παρακολουθοῦσι<note type="apparatus" n="3" target="#p15-2">τῇ scripsi: τῆς P: om. Sa</note>
               <lb n="4" xml:id="p15-3"/>καὶ ἐκεῖνο ἕπεσθαι δείξας, τὸ συμβαίνειν τὸ αὐτὸ καὶ ἓν εἶδος ὑπὸ<note type="apparatus" n="4" target="#p15-3">ἕπεται Pa</note>
               <lb n="5" xml:id="p15-4"/>τὰ ἐναντία εὑρίσκεσθαι ἢ τὰ ἐναντία ἐν τῷ αὐτῷ (ὁ γὰρ μύρμηξ καὶ πτερωτόν
@@ -742,9 +742,9 @@
             <milestone unit="bekker" n="643b26"/>
             <quote type="lemma">
               <lb n="22" xml:id="p17-21"/>Ὅτι δ’ οὐκ ἐνδέχεται τῶν καθ’ ἕκαστον εἰδῶν λαμβάνειν
+              <lb n="23" xml:id="p17-22"/>οὐδὲν διαιροῦσι δίχα τὸ γένος, ὥσπερ τινὲς ᾠήθησαν.
             </quote>
             <p>
-              <lb n="23" xml:id="p17-22"/>οὐδὲν διαιροῦσι δίχα τὸ γένος, ὥσπερ τινὲς ᾠήθησαν.
               <lb n="24" xml:id="p17-23"/>Καὶ διὰ τούτων δείκνυσιν ὅτι ἐκ τῆς κατὰ τὴν διχοτομίαν διαιρέσεως
               <lb n="25" xml:id="p17-24"/>ἀδύνατόν ἐστι λαμβάνειν τὰ καθ’ ἕκαστα εἴδη. ἰστέον δὲ ὅτι, ὅτε ἔλεγε<milestone type="alt-edition" unit="line" ed="Victorius 1548" n="20"/>
               <lb n="26" xml:id="p17-25"/>καὶ ἐν τῷ Ζ τῶν Μετὰ τὰ φυσικὰ καὶ ἐνταῦθα μίαν εἶναι τὴν ἐλαχίστην<note type="apparatus" n="26" target="#p17-25">ἐν τῷ Ζ τῶν Μετὰ τὰ φυσικὰ] c. 12 p. 1038a19 εἶναι μίαν coll. S</note>
@@ -839,9 +839,9 @@
             <milestone unit="bekker" n="644a12"/>
             <quote type="lemma">
               <lb n="33" xml:id="p19-32"/>Ἀπορήσειε δ’ ἄν τις διὰ τί οὐκ ἄνωθεν ἑνὶ ὀνόματι
+              <lb n="34" xml:id="p19-33"/>ἐμπεριλαβόντες ἅμα ἓν γένος προσηγόρευσαν οἱ ἄνθρωποι.<note type="apparatus" n="34" target="#p19-33">ἐμπεριλαβόντες] λαβόντα P γένος προσηγόρευσαν] sic etiam Arist. S: post γένος add. ἄμφω Arist. vulg. 2*</note>
             </quote>
             <p>
-              <lb n="34" xml:id="p19-33"/>ἐμπεριλαβόντες ἅμα ἓν γένος προσηγόρευσαν οἱ ἄνθρωποι.<note type="apparatus" n="34" target="#p19-33">ἐμπεριλαβόντες] λαβόντα P γένος προσηγόρευσαν] sic etiam Arist. S: post γένος add. ἄμφω Arist. vulg. 2*</note>
               <lb n="35" xml:id="p19-34"/>Ζητήσειεν ἄν τις, φησί, διὰ τί οἱ ἄνθρωποι, ὥσπερ κόρακα, κορώνην,
               <lb n="36" xml:id="p19-35"/>ἀετόν, τὰ τοιαῦτα κοινῷ ὀνόματι τῷ ὄρνιθι προσηγόρευσαν ὄρνιθας, οὐχ<milestone type="alt-edition" unit="line" ed="Victorius 1548" n="45"/>
               <lb n="37" xml:id="p19-36"/>οὕτω καὶ τὸ πτηνὸν καὶ ἔνυδρον ἐκάλεσαν φέρε εἰπεῖν ἔμψυχον ἢ αἰσθητικόν,
@@ -1011,9 +1011,9 @@
             <milestone unit="bekker" n="645b28"/>
             <quote type="lemma">
               <lb n="30" xml:id="p23-29"/>Ὅσαι μὲν οὖν πράξεις ἄλλων ἕνεκα, δῆλον ὅτι καὶ ὧν
+              <lb n="31" xml:id="p23-30"/>αἱ πράξεις τὸν αὐτὸν τρόπον διεστᾶσι.
             </quote>
             <p>
-              <lb n="31" xml:id="p23-30"/>αἱ πράξεις τὸν αὐτὸν τρόπον διεστᾶσι.
               <lb n="32" xml:id="p23-31"/>Τὸ λεγόμενον ὧδε ἔσται φανερόν· πρᾶξίς ἐστι καρδίας τὸ γεννᾶσθαι
               <lb n="33" xml:id="p23-32"/>ἐν αὐτῇ τὸ ἔμφυτον θερμόν, πράξεις δὲ χειρός εἰσι μὲν καὶ ἄλλαι, ἀλλὰ
               <lb n="34" xml:id="p23-33"/>καὶ τὸ προσάγειν τὰ βρώματα ἐν τῷ στόματι, ὀδόντων δὲ τὸ λεαίνειν αὐτά,<milestone type="alt-edition" unit="line" ed="Victorius 1548" n="20"/>
@@ -1681,9 +1681,9 @@
             <milestone unit="bekker" n="651a36"/>
             <quote type="lemma">
               <lb n="12" xml:id="p36-11"/>Μέτρια μὲν οὖν ταῦτ’ ὄντα ἐν τοῖς μορίοις τῶν ζῴων<note type="apparatus" n="12" target="#p36-11">Μέτρια μὲν οὖν] hinc incipit versio librorum PSa</note><milestone type="alt-edition" unit="page" ed="Victorius 1548" n="83"/>
+              <lb n="13" xml:id="p36-12"/>ὠφελεῖ.
             </quote>
             <p>
-              <lb n="13" xml:id="p36-12"/>ὠφελεῖ.
               <lb n="14" xml:id="p36-13"/>Μέτρια μὲν οὖν, φησί, τὸ στέαρ καὶ ἡ πιμελὴ ἐν τοῖς τῶν ζῴων<note type="apparatus" n="14" target="#p36-13">ἐν τοῖς-μορίοις supr. v. S</note>
               <lb n="15" xml:id="p36-14"/>μορίοις ὑπάρχοντα ὠφελεῖ, ὑπερβάλλοντα δὲ βλάπτει καὶ φθείρει. καὶ πῶς
               <lb n="16" xml:id="p36-15"/>τῇ ὑπερβολῇ φθείρουσι, λέγει· τὸ ζῷον γάρ, φησί, ζῷόν ἐστι κατὰ τὸ<milestone type="alt-edition" unit="line" ed="Victorius 1548" n="5"/>
@@ -1745,10 +1745,9 @@
           </div>
           <div type="textpart" subtype="lemma" n="33">
             <milestone unit="bekker" n="652a24"/>
-            <quote type="lemma">
-              <lb n="33" xml:id="p37-32"/>Μετὰ ταῦτα λέγει περὶ ἐγκεφάλου, καί φησιν ὅτι πολλοῖς, ἐξ
-            </quote>
+            
             <p>
+              <lb n="33" xml:id="p37-32"/>Μετὰ ταῦτα λέγει περὶ ἐγκεφάλου, καί φησιν ὅτι πολλοῖς, ἐξ
               <lb n="34" xml:id="p37-33"/>ὧν καὶ ὁ Πλάτων, ὁ ἐγκέφαλος δοκεῖ μυελὸς εἶναι καὶ ἀρχὴ τοῦ<note type="apparatus" n="34" target="#p37-33">ὁ Πλάτων] Tim. p. 73 C sq.</note>
               <lb n="35" xml:id="p37-34"/>μυελοῦ, διὰ τὸ τὸν ῥαχίτην ὁρᾶν αὐτῷ συνεχῆ· τοσοῦτον δ’ οὐκ ἔστι, φησίν,<milestone type="alt-edition" unit="line" ed="Victorius 1548" n="15"/>
               <lb n="36" xml:id="p37-35"/>ὁ ἐγκέφαλος οὔτε μυελὸς οὔτε μὴν ἀρχὴ μυελοῦ, ὥστε καὶ ἐναντίος ἐστὶν ὁ
@@ -1847,10 +1846,9 @@
           </div>
           <div type="textpart" subtype="lemma" n="34">
             <milestone unit="bekker" n="653b19"/>
-            <quote type="lemma">
-              <lb n="7" xml:id="p40-6"/>Ταῦτα εἰπὼν λέγει καὶ περὶ σαρκὸς ὅτι ἐστὶν ἀρχὴ καὶ σῶμα
-            </quote>
+            
             <p>
+              <lb n="7" xml:id="p40-6"/>Ταῦτα εἰπὼν λέγει καὶ περὶ σαρκὸς ὅτι ἐστὶν ἀρχὴ καὶ σῶμα
               <lb n="8" xml:id="p40-7"/>καθ’ αὑτὸ τῶν ζῴων ἡ σάρξ. ὅτι δὲ τοιοῦτον ἡ σάρξ, δῆλον, φησί, καὶ κατὰ<note type="apparatus" n="8" target="#p40-7">καὶ om. P</note>
               <lb n="9" xml:id="p40-8"/>τὸν λόγον· ἐπειδὴ γὰρ τῷ ζῴῳ τὸ εἶναί ἐστιν ἐν τῷ αἴσθησιν ἔχειν καὶ<milestone type="alt-edition" unit="line" ed="Victorius 1548" n="40"/>
               <lb n="10" xml:id="p40-9"/>πρῶτον ἐν τῷ τὴν πρώτην ἔχειν (εἰδοποιεῖται γὰρ καὶ ὑπὸ τῶν ἄλλων<note type="apparatus" n="10" target="#p40-9">καὶ om. S</note>
@@ -1894,10 +1892,9 @@
           </div>
           <div type="textpart" subtype="lemma" n="35">
             <milestone unit="bekker" n="654a8"/>
-            <quote type="lemma">
-              <lb n="7" xml:id="p41-6"/>Τὸ δὲ ἡ δὲ χελώνη καὶ τὸ τῶν ἐμύδων γένος ὁμοίως<note type="apparatus" n="7" target="#p41-6">ἐμύδων Arist. vulg.: αἰμύδων PS Arist. ESVY: ἀμμύδων a</note><milestone type="alt-edition" unit="line" ed="Victorius 1548" n="20"/>
-            </quote>
+            
             <p>
+              <lb n="7" xml:id="p41-6"/>Τὸ δὲ ἡ δὲ χελώνη καὶ τὸ τῶν ἐμύδων γένος ὁμοίως<note type="apparatus" n="7" target="#p41-6">ἐμύδων Arist. vulg.: αἰμύδων PS Arist. ESVY: ἀμμύδων a</note><milestone type="alt-edition" unit="line" ed="Victorius 1548" n="20"/>
               <lb n="8" xml:id="p41-7"/>ἔχειν δοκεῖ τούτοις εἴρηται ἀντὶ τοῦ ὁμοίως τοῖς λεχθεῖσιν ἔχει τὸ μὲν
               <lb n="9" xml:id="p41-8"/>σαρκῶδες ἐντός, τὸ δὲ συνέχον καὶ φυλάττον ἐκτός. τὰ δ’ ἔντομα καὶ τὰ
               <lb n="10" xml:id="p41-9"/>μαλάκια ἐναντίως ἔχει καὶ ἑαυτοῖς καὶ τοῖς ἔχουσιν ἐκτὸς τὴν βοήθειαν.
@@ -1910,10 +1907,9 @@
           </div>
           <div type="textpart" subtype="lemma" n="36">
             <milestone unit="bekker" n="654a32"/>
-            <quote type="lemma">
-              <lb n="16" xml:id="p41-15"/>Ἔχει δ’ ὁμοίως ἥ τε τῶν ὀστῶν καὶ τῶν φλεβῶν φύσις.
-            </quote>
+            
             <p>
+              <lb n="16" xml:id="p41-15"/>Ἔχει δ’ ὁμοίως ἥ τε τῶν ὀστῶν καὶ τῶν φλεβῶν φύσις.
               <lb n="17" xml:id="p41-16"/>Ὥσπερ γὰρ αἱ φλέβες ἀπὸ μιᾶς εἰσιν ἀρχῆς τῆς καρδίας, οὕτως καὶ τὰ<note type="apparatus" n="17" target="#p41-16">γὰρ om. Pa</note>
               <lb n="18" xml:id="p41-17"/>ὀστᾶ ἐκ τῆς ῥάχεως. καὶ διὰ τοῦτο οὐδέν ἐστιν ὀστοῦν αὐτὸ καθ’ αὑτὸ
               <lb n="19" xml:id="p41-18"/>ἀποκεκριμένον, ἀλλὰ πᾶν συνεχές ἐστι πρὸς ἄλλο ἢ ἁπτόμενον, κἀκεῖνο<milestone type="alt-edition" unit="line" ed="Victorius 1548" n="30"/>
@@ -1950,10 +1946,9 @@
           </div>
           <div type="textpart" subtype="lemma" n="37">
             <milestone unit="bekker" n="655a20"/>
-            <quote type="lemma">
-              <lb n="11" xml:id="p42-10"/>Μετὰ ταῦτα λέγει ὅτι τοῖς ὄφεσιν ἀκανθώδης ἐστὶν ἡ
-            </quote>
+            
             <p>
+              <lb n="11" xml:id="p42-10"/>Μετὰ ταῦτα λέγει ὅτι τοῖς ὄφεσιν ἀκανθώδης ἐστὶν ἡ
               <lb n="12" xml:id="p42-11"/>τῶν ὀστῶν φύσις, πλὴν τοῖς λίαν μεγάλοις. πλὴν τῶν λίαν μεγάλων<note type="apparatus" n="12" target="#p42-11">πλὴν τῶν] τῶν γὰρ S</note>
               <lb n="13" xml:id="p42-12"/>ὄφεων ὀστώδης ἡ τοιαύτη φύσις· πρὸς γὰρ τὴν ἰσχὺν ἰσχυροτέρων<milestone type="alt-edition" unit="line" ed="Victorius 1548" n="5"/>
               <lb n="14" xml:id="p42-13"/>δεῖται τῶν στερεωμάτων. τὰ δὲ καλούμενα σελάχη τὰς ἀκάνθας ἔχει
@@ -1976,9 +1971,9 @@
             <milestone unit="bekker" n="655a34"/>
             <quote type="lemma">
               <lb n="28" xml:id="p42-27"/>Οἱ μὲν οὖν τοῖς πεζοῖς ἀμύελοι χόνδροι κεχωρισμένῳ<note type="apparatus" n="28" target="#p42-27">οὖν ἐν τοῖς Arist. κεχωρισμένοι PS</note>
+              <lb n="29" xml:id="p42-28"/>μυελῷ.
             </quote>
             <p>
-              <lb n="29" xml:id="p42-28"/>μυελῷ.
               <lb n="30" xml:id="p42-29"/>Τὸ ἑξῆς οὕτως ‘οἱ μὲν οὖν τοῖς πεζοῖς χόνδροι ἀμύελοι κεχωρισμένῳ<note type="apparatus" n="30-31" target="#p42-29 #p42-30">οἱ μὲν οὖν—μυελῷ om. S</note>
               <lb n="31" xml:id="p42-30"/>μυελῷ’. τὸ δὲ λεγόμενον κατασκευαστικόν ἐστι τοῦ διὰ τί οἱ τῶν πεζῶν<milestone type="alt-edition" unit="line" ed="Victorius 1548" n="20"/>
               <lb n="32" xml:id="p42-31"/>ζῴων χόνδροι σκληρότεροί εἰσι τῶν ἐν τοῖς σελάχεσι χόνδρων. λέγει οὖν
@@ -2002,10 +1997,9 @@
           </div>
           <div type="textpart" subtype="lemma" n="39">
             <milestone unit="bekker" n="655b28"/>
-            <quote type="lemma">
-              <lb n="10" xml:id="p43-9"/>Ταῦτα εἰπὼν οἷον πάλιν ἀπ’ ἄλλης ἀρχῆς ἀρξάμενος λέγει
-            </quote>
+            
             <p>
+              <lb n="10" xml:id="p43-9"/>Ταῦτα εἰπὼν οἷον πάλιν ἀπ’ ἄλλης ἀρχῆς ἀρξάμενος λέγει
               <lb n="11" xml:id="p43-10"/>ὅτι πᾶσι τοῖς τελείοις ζῴοις δύο τὰ ἀναγκαιότατα ὑπάρχει μόρια, ἓν μὲν ἐν
               <lb n="12" xml:id="p43-11"/>ᾧ δέχεται τὴν τροφήν, τοῦτο δ’ ἐστὶ τὸ καλούμενον στόμα, ἄλλο δὲ δι’ οὗ
               <lb n="13" xml:id="p43-12"/>ἀφιᾶσι τὸ περίττωμα. τοῦτο δὲ τὸ μόριον τὸ ἀφ’ οὗ τὸ περίττωμα ἐξέρχεται<note type="apparatus" n="13" target="#p43-12">ἀφίησι a</note><milestone type="alt-edition" unit="line" ed="Victorius 1548" n="35"/>
@@ -2121,10 +2115,9 @@
           </div>
           <div type="textpart" subtype="lemma" n="40">
             <milestone unit="bekker" n="656b26"/>
-            <quote type="lemma">
-              <lb n="5" xml:id="p46-4"/>Μετὰ ταῦτα λέγει, διὰ τί οὕτω τέτακται τὰ αἰσθητήρια.
-            </quote>
+            
             <p>
+              <lb n="5" xml:id="p46-4"/>Μετὰ ταῦτα λέγει, διὰ τί οὕτω τέτακται τὰ αἰσθητήρια.
               <lb n="6" xml:id="p46-5"/>σαφῶς δὲ καταλέγει τὰ περὶ ὀφθαλμῶν καὶ ὤτων. περὶ δὲ τῶν ῥινῶν<note type="apparatus" n="6" target="#p46-5">καταλέγει] κατὰ λέξιν P</note>
               <lb n="7" xml:id="p46-6"/>δι’ ἣν αἰτίαν οὕτω κεῖνται μέλλων εἰπεῖν, πρῶτον λέγει ὅτι ἕκαστον τῶν
               <lb n="8" xml:id="p46-7"/>αἰσθητηρίων διπλοῦν ἐστιν, εἰ καὶ ἐπὶ τῆς ἁφῆς ἄδηλον ὂν τοῦτο διὰ
@@ -2151,10 +2144,9 @@
           </div>
           <div type="textpart" subtype="lemma" n="41">
             <milestone unit="bekker" n="657a25"/>
-            <quote type="lemma">
-              <lb n="28" xml:id="p46-27"/>Μετὰ ταῦτα λέγει διὰ τί οἱ ὀφθαλμοὶ ἔχουσι φυλακὴν<milestone type="alt-edition" unit="line" ed="Victorius 1548" n="45"/>
-            </quote>
+            
             <p>
+              <lb n="28" xml:id="p46-27"/>Μετὰ ταῦτα λέγει διὰ τί οἱ ὀφθαλμοὶ ἔχουσι φυλακὴν<milestone type="alt-edition" unit="line" ed="Victorius 1548" n="45"/>
               <lb n="29" xml:id="p46-28"/>τὰ καλούμενα βλέφαρα, ὑφ’ ὧν καὶ σκαρδαμύττουσι. σκαρδαμύττειν δὲ
               <lb n="30" xml:id="p46-29"/>λέγεται τὸ συνεχῶς καὶ πυκνῶς μύειν. καὶ τὰ μὲν ἄλλα σκαρδαμύττει
               <lb n="31" xml:id="p46-30"/>ταῖς βλεφαρίσιν, οἱ δὲ ὄρνιθες δι’ ὑμένος ἐξερχομένου ἀπὸ τῶν κανθῶν
@@ -2196,10 +2188,9 @@
           </div>
           <div type="textpart" subtype="lemma" n="42">
             <milestone unit="bekker" n="657b34"/>
-            <quote type="lemma">
-              <lb n="24" xml:id="p47-23"/>Τὸ δὲ οἷον βλέποντα διὰ τοῦ βλεφάρου προσπεφυκότος<note type="apparatus" n="24" target="#p47-23">τῶν βλεφάρων S</note>
-            </quote>
+            
             <p>
+              <lb n="24" xml:id="p47-23"/>Τὸ δὲ οἷον βλέποντα διὰ τοῦ βλεφάρου προσπεφυκότος<note type="apparatus" n="24" target="#p47-23">τῶν βλεφάρων S</note>
               <lb n="25" xml:id="p47-24"/>σαφὲς ἔσται, εἰ οὕτω πως εἴποιμεν· νενοήσθω ὅτι συμπεφυκότα καὶ συνεχῆ<note type="apparatus" n="25" target="#p47-24">εἴποιμι Pa νενοήσθω] νενοείσθω P: καὶ νοήσθω a</note>
               <lb n="26" xml:id="p47-25"/>γεγονότα τὸ ἄνω καὶ κάτω βλέφαρον δύναται ὁρᾶν οὕτω τὸ ζῷον· τοιοῦτόν
               <lb n="27" xml:id="p47-26"/>τί εἰσι τὰ σκληρόφθαλμα, οἱονεὶ βλέποντα συμπεφυκότων τῶν βλεφάρων.<note type="apparatus" n="27" target="#p47-26">βλέπον P</note>
@@ -2227,10 +2218,9 @@
           </div>
           <div type="textpart" subtype="lemma" n="43">
             <milestone unit="bekker" n="658a21"/>
-            <quote type="lemma">
-              <lb n="8" xml:id="p48-7"/>Σαφῆ δὲ τὰ περὶ τριχῶν. τὸ δὲ ἀλλ’ ἀλεάζει διὰ τὴν<note type="apparatus" n="8" target="#p48-7">ἀλλὰ λεάζει Arist. ESY</note>
-            </quote>
+            
             <p>
+              <lb n="8" xml:id="p48-7"/>Σαφῆ δὲ τὰ περὶ τριχῶν. τὸ δὲ ἀλλ’ ἀλεάζει διὰ τὴν<note type="apparatus" n="8" target="#p48-7">ἀλλὰ λεάζει Arist. ESY</note>
               <lb n="9" xml:id="p48-8"/>κάμψιν ἴσον ἐστὶ τῷ θερμαίνεται διὰ τὸ κυπτάζειν. πρὸ δὲ τούτου ὅταν λέγῃ
               <lb n="10" xml:id="p48-9"/>ὅτι τὰ τετράποδα ἐν τοῖς ὑπτίοις οὐκ ἔχει τρίχας, ἢ τὸ μὴ ἔχειν εἴρηται<note type="apparatus" n="10" target="#p48-9">τὸ μὴ ἔχει a</note><milestone type="alt-edition" unit="line" ed="Victorius 1548" n="45"/>
               <lb n="11" xml:id="p48-10"/>ἀντὶ τοῦ ἥττονας ἔχουσιν ἐν τοῖς ὑπτίοις, πλείονας δὲ ἐν τοῖς πρανέσιν, ἢ
@@ -2247,10 +2237,9 @@
           </div>
           <div type="textpart" subtype="lemma" n="44">
             <milestone unit="bekker" n="658b27"/>
-            <quote type="lemma">
-              <lb n="21" xml:id="p48-20"/>Ταῦτα εἰπὼν ἐπάγει ὅτι οὐ πόρρω διέστηκεν ἀλλήλων τὸ
-            </quote>
+            
             <p>
+              <lb n="21" xml:id="p48-20"/>Ταῦτα εἰπὼν ἐπάγει ὅτι οὐ πόρρω διέστηκεν ἀλλήλων τὸ
               <lb n="22" xml:id="p48-21"/>τῆς ὀσφρήσεως αἰσθητήριον, τῷ διέστηκε χρησάμενος ἀντὶ τοῦ μὴ ἔχειν
               <lb n="23" xml:id="p48-22"/>μέγεθος. ἀλλὰ τὸ μὲν τῶν πτηνῶν καὶ τετραπόδων οὔτε μῆκος ἔχει οὐδὲ<note type="apparatus" n="23" target="#p48-22">post μέγεθος add. μηδὲ μῆκος Pa</note>
               <lb n="24" xml:id="p48-23"/>ὅλως ἐπανέστηκεν, ἀλλὰ καὶ πάντῃ ἀδιάρθρωτον τὸ τῶν πτηνῶν, τῶν δὲ
@@ -2311,10 +2300,9 @@
           </div>
           <div type="textpart" subtype="lemma" n="45">
             <milestone unit="bekker" n="660b25"/>
-            <quote type="lemma">
-              <lb n="37" xml:id="p49-36"/>Οἱ δὲ κροκόδειλοι πεπηρωμένην ἔχουσι τὴν γλῶτταν ἴσως
-            </quote>
+            
             <p>
+              <lb n="37" xml:id="p49-36"/>Οἱ δὲ κροκόδειλοι πεπηρωμένην ἔχουσι τὴν γλῶτταν ἴσως
               <lb n="38" xml:id="p49-37"/>τοῖς ἰχθύσι, διὰ ταυτηνὶ τὴν αἰτίαν· ἐπεὶ γὰρ ἐν τῇ κάτω σιαγόνι πέφυκεν ἡ<note type="apparatus" n="38" target="#p49-37">ταύτην S</note>
             </p>
             <pb n="50" facs="https://archive.org/download/p1commentariaina22akaduoft/page/n261.jpg"/>
@@ -2382,10 +2370,9 @@
           </div>
           <div type="textpart" subtype="lemma" n="1">
             <milestone unit="bekker" n="662a16"/>
-            <quote type="lemma">
-              <lb n="13" xml:id="p52-12"/>Ἔχει δέ, φησί, τὰ ζῷα τὸ στόμα ἕνεκεν τῶν ἔργων<note type="apparatus" n="13" target="#p52-12">ἔχειν S</note>
-            </quote>
+            
             <p>
+              <lb n="13" xml:id="p52-12"/>Ἔχει δέ, φησί, τὰ ζῷα τὸ στόμα ἕνεκεν τῶν ἔργων<note type="apparatus" n="13" target="#p52-12">ἔχειν S</note>
               <lb n="14" xml:id="p52-13"/>τούτων, λέγων ἔργα τὸ ἐσθίειν, τὸ ἔχειν ὀδόντας ἐν αὐτῷ, καὶ πρὸς
               <lb n="15" xml:id="p52-14"/>τούτοις χάριν <milestone type="alt-edition" unit="page" ed="Victorius 1548" n="94"/> τοῦ ἀναπνεῖν· ἀναπνεῖ γὰρ καὶ ἐκ τοῦ στόματος. ἔχει
               <lb n="16" xml:id="p52-15"/>δὲ τῶν ζῴων τινὰ μὲν τὸ στόμα χάριν τοῦ ἐσθίειν μόνον, τὰ δὲ καὶ
@@ -2402,10 +2389,9 @@
           </div>
           <div type="textpart" subtype="lemma" n="2">
             <milestone unit="bekker" n="662b23"/>
-            <quote type="lemma">
-              <lb n="26" xml:id="p52-25"/>Σαφῆ δὲ ἃ περὶ κεράτων λέγει· κατὰ δὲ τὴν λέξιν τὴν<milestone type="alt-edition" unit="line" ed="Victorius 1548" n="10"/>
-            </quote>
+            
             <p>
+              <lb n="26" xml:id="p52-25"/>Σαφῆ δὲ ἃ περὶ κεράτων λέγει· κατὰ δὲ τὴν λέξιν τὴν<milestone type="alt-edition" unit="line" ed="Victorius 1548" n="10"/>
               <lb n="27" xml:id="p52-26"/>ὅσοις δὲ μή, δέδωκεν ἡ φύσις ἄλλην ἀλκὴν πρὸς σωτηρίαν, οἷον
               <lb n="28" xml:id="p52-27"/>ταχυτῆτα σώματος λείπει τὸ ‘κέρατα δέδωκεν’, ἵν’ ᾖ τὸ πλῆρες τοιοῦτον
               <lb n="29" xml:id="p52-28"/>‘ὅσοις δὲ μὴ δέδωκεν ἡ φύσις κέρατα, δέδωκεν αὐτοῖς ἄλλην ἀλκὴν πρὸς
@@ -2439,10 +2425,9 @@
           </div>
           <div type="textpart" subtype="lemma" n="3">
             <milestone unit="bekker" n="663b22"/>
-            <quote type="lemma">
-              <lb n="15" xml:id="p53-14"/>Ταῦτα εἰπὼν λέγει ὅτι ῥητέον πῶς ἔχουσα ἡ ἀναγκαία
-            </quote>
+            
             <p>
+              <lb n="15" xml:id="p53-14"/>Ταῦτα εἰπὼν λέγει ὅτι ῥητέον πῶς ἔχουσα ἡ ἀναγκαία
               <lb n="16" xml:id="p53-15"/>καὶ ὑλικὴ φύσις λαμβάνει αὐτὴν τὸ εἶδος καὶ καταχρῆται ἕνεκά του.<note type="apparatus" n="16 et 18" target="#p53-15 #p53-17">καταχρᾶται a</note><milestone type="alt-edition" unit="line" ed="Victorius 1548" n="35"/>
               <lb n="17" xml:id="p53-16"/>καὶ λέγει ὅτι τῷ σωματώδει καὶ γεώδει, ὅπερ ἐστὶν ἡ φύσις τῶν ὀστῶν,
               <lb n="18" xml:id="p53-17"/>καταχρῆται ἡ φύσις ἐπὶ βοήθειαν καὶ τὸ συμφέρον. τὰς δὲ θηλείας
@@ -2454,10 +2439,9 @@
           </div>
           <div type="textpart" subtype="lemma" n="4">
             <milestone unit="bekker" n="664a23"/>
-            <quote type="lemma">
-              <lb n="23" xml:id="p53-22"/>Λέγει δὲ καὶ περὶ τοῦ οἰσοφάγου ὅτι οὐκ ἀναγκαῖον ἔχειν αὐτὸν
-            </quote>
+            
             <p>
+              <lb n="23" xml:id="p53-22"/>Λέγει δὲ καὶ περὶ τοῦ οἰσοφάγου ὅτι οὐκ ἀναγκαῖον ἔχειν αὐτὸν
               <lb n="24" xml:id="p53-23"/>ἕνεκα τῆς τροφῆς. οὐθὲν γὰρ παρασκευάζει πρὸς αὐτήν, τουτέστι οὐθὲν<note type="apparatus" n="24" target="#p53-23">ante ἕνεκα add. τοῦ S post τουτέστι add. περὶ a</note>
               <lb n="25" xml:id="p53-24"/>συντελεῖ πρὸς αὐτήν· οὔτε γὰρ λεαίνει ταύτην ὥσπερ οἱ ὀδόντες οὔτε πέττει<note type="apparatus" n="25" target="#p53-24">ὥσπερ οἱ ὀδόντες om. S</note><note type="apparatus" n="25-26" target="#p53-24 #p53-25">οὔτε πέττει, τὸ μὲν ὡς οἱ ὀδόντες τὸ δ’ ὡς ἡ κοιλία S</note>
               <lb n="26" xml:id="p53-25"/>ὡς ἡ κοιλία οὔτ’ ἄλλο οὐδὲν ποιεῖ πρὸς αὐτήν. ἔτι ἐπεὶ ἐνδέχεται εὐθὺς μετὰ
@@ -2481,10 +2465,9 @@
           </div>
           <div type="textpart" subtype="lemma" n="5">
             <milestone unit="bekker" n="664b14"/>
-            <quote type="lemma">
-              <lb n="6" xml:id="p54-5"/>Τὸ δὲ δῆλον δὲ ὅτι οὐκ εὐθέως εἰς τὴν κύστιν
-            </quote>
+            
             <p>
+              <lb n="6" xml:id="p54-5"/>Τὸ δὲ δῆλον δὲ ὅτι οὐκ εὐθέως εἰς τὴν κύστιν
               <lb n="7" xml:id="p54-6"/>συλλέγεται τὸ ὑγρὸν λύσις ἐστὶν ἐνστάσεως ὑπὸ τῶν ἀντιδοξούντων<note type="apparatus" n="7 et 11" target="#p54-6 #p54-10">συστέλλεται S</note>
               <lb n="8" xml:id="p54-7"/>λεγομένης. ἔφασκον γὰρ ὅτι μὴ γὰρ εἰς τὴν κοιλίαν ἀπέρχεται τὸ ποτόν,
               <lb n="9" xml:id="p54-8"/>ἵν’ ὦσιν ἐκ τοῦ πνεύμονος πόροι πρὸς αὐτήν, ἀλλ’ εἰς τὴν κύστιν. πρὸς δὴ<milestone type="alt-edition" unit="line" ed="Victorius 1548" n="10"/>
@@ -2536,10 +2519,9 @@
           </div>
           <div type="textpart" subtype="lemma" n="6">
             <milestone unit="bekker" n="665b2"/>
-            <quote type="lemma">
-              <lb n="13" xml:id="p55-12"/>Ἃ δὲ λέγει περὶ τῶν σπλάγχνων σαφῆ. τὸ δὲ ὥσπερ
-            </quote>
+            
             <p>
+              <lb n="13" xml:id="p55-12"/>Ἃ δὲ λέγει περὶ τῶν σπλάγχνων σαφῆ. τὸ δὲ ὥσπερ
               <lb n="14" xml:id="p55-13"/>τῶν ἐκτὸς μορίων οὐ πᾶσι τῶν αὐτῶν χρῆσις ἴσον ἐστὶ τῷ ‘οὐ πᾶσι<note type="apparatus" n="14" target="#p55-13">post αὐτῶν add. ἡ a</note>
               <lb n="15" xml:id="p55-14"/>τοῖς ἐκτὸς μορίοις πρὸς τὰ αὐτὰ χρώμεθα’. οὐ γὰρ οἷς χρώμεθα
               <lb n="16" xml:id="p55-15"/>μορίοις πρὸς βάδισιν, τούτοις καὶ πρὸς τὸ τὴν τροφὴν <milestone type="alt-edition" unit="page" ed="Victorius 1548" n="96"/> λεαίνειν, ἀλλ’
@@ -2632,10 +2614,9 @@
           </div>
           <div type="textpart" subtype="lemma" n="7">
             <milestone unit="bekker" n="667a4"/>
-            <quote type="lemma">
-              <lb n="22" xml:id="p57-21"/>Διὰ τί δὲ καθαρώτατον τὸ ἐν τῇ μέσῃ τῆς καρδίας κοιλίᾳ<note type="apparatus" n="22" target="#p57-21">post μέσῃ add. καρδίᾳ, sed rursus del. P</note>
-            </quote>
+            
             <p>
+              <lb n="22" xml:id="p57-21"/>Διὰ τί δὲ καθαρώτατον τὸ ἐν τῇ μέσῃ τῆς καρδίας κοιλίᾳ<note type="apparatus" n="22" target="#p57-21">post μέσῃ add. καρδίᾳ, sed rursus del. P</note>
               <lb n="23" xml:id="p57-22"/>αἷμά ἐστι, σαφῶς ἐκτίθεται λέγων δεῖ γὰρ τὴν ἀρχήν, λέγων ἀρχὴν<note type="apparatus" n="23" target="#p57-22">ἐντίθεται P</note>
               <lb n="24" xml:id="p57-23"/>τὴν αἰσθητικὴν ψυχὴν καὶ ὅλως πᾶσαν ψυχὴν τὴν ἐν τῇ καρδίᾳ καθιδρυμένην,
               <lb n="25" xml:id="p57-24"/>δεῖ οὖν, φησί, τὴν ἀρχὴν ἠρεμεῖν· ἠρεμήσειε δ’ ἂν καθαροῦ τοῦ<note type="apparatus" n="25" target="#p57-24">ἠρεμήσειε a</note>
@@ -2688,10 +2669,9 @@
           </div>
           <div type="textpart" subtype="lemma" n="8">
             <milestone unit="bekker" n="667b21"/>
-            <quote type="lemma">
-              <lb n="32" xml:id="p58-31"/>Λέγει δὲ καὶ διὰ τί δύο εἰσὶν αἱ μεγάλαι φλέβες, καὶ ἀπὸ μιᾶς<note type="apparatus" n="32" target="#p58-31">εἰσὶ δύο coll. S</note>
-            </quote>
+            
             <p>
+              <lb n="32" xml:id="p58-31"/>Λέγει δὲ καὶ διὰ τί δύο εἰσὶν αἱ μεγάλαι φλέβες, καὶ ἀπὸ μιᾶς<note type="apparatus" n="32" target="#p58-31">εἰσὶ δύο coll. S</note>
               <lb n="33" xml:id="p58-32"/>ἀρχῆς τῆς καρδίας. ἀπὸ μὲν οὖν μιᾶς ἀρχῆς λέγει εἶναι αὐτὰς διὰ τὸ καὶ τὴν
               <lb n="34" xml:id="p58-33"/>αἰσθητικὴν ψυχὴν μίαν εἶναι. μιᾶς δὲ οὔσης ταύτης τῆς ψυχῆς εὔλογον καὶ τὸ
               <lb n="35" xml:id="p58-34"/>ταύτην ἔχον μόριον ἓν εἶναι· ἀμερὴς γὰρ οὖσα καὶ ἀσώματος, πῶς ἐνδέχεται<note type="apparatus" n="35" target="#p58-34">ἀμεροῦς γὰρ οὔσης καὶ ἀσωμάτου a</note><milestone type="alt-edition" unit="line" ed="Victorius 1548" n="15"/>
@@ -2751,10 +2731,9 @@
           </div>
           <div type="textpart" subtype="lemma" n="9">
             <milestone unit="bekker" n="669a12"/>
-            <quote type="lemma">
-              <lb n="7" xml:id="p60-6"/>Ἐν δὲ τῇ λέξει τῇ ὥστε ἐν τῷ πνεύματι αὐτῶν
-            </quote>
+            
             <p>
+              <lb n="7" xml:id="p60-6"/>Ἐν δὲ τῇ λέξει τῇ ὥστε ἐν τῷ πνεύματι αὐτῶν
               <lb n="8" xml:id="p60-7"/>εἶναι τὸ τέλος τοῦ ζῆν ἴσον ἐστὶν τῷ ἕως ἂν ἀναπνέῃ, ἕως τότε καὶ<note type="apparatus" n="8" target="#p60-7">τὸ—ζῆν fort. iteranda τῷ om. a ἀναπνῇ Pa: ἀναπνεῖ S</note>
               <lb n="9" xml:id="p60-8"/>ζῇ. ὄργανον δὲ τοῦ ἀναπνεῖν ἐστιν ὁ πνεύμων· τὴν δὲ ἀρχὴν τοῦ εὐρύνεσθαι
               <lb n="10" xml:id="p60-9"/>καὶ πάλιν συστέλλεσθαι ἔχει ὁ πνεύμων ἀπὸ τῆς καρδίας. τοῦ<milestone type="alt-edition" unit="line" ed="Victorius 1548" n="10"/>
@@ -2795,10 +2774,9 @@
           </div>
           <div type="textpart" subtype="lemma" n="10">
             <milestone unit="bekker" n="669b15"/>
-            <quote type="lemma">
-              <lb n="4" xml:id="p61-3"/>Τοῦ δὲ σπληνὸς παραπλησίαν ἔχοντος τὴν φύσιν τῷ ἥπατι,
-            </quote>
+            
             <p>
+              <lb n="4" xml:id="p61-3"/>Τοῦ δὲ σπληνὸς παραπλησίαν ἔχοντος τὴν φύσιν τῷ ἥπατι,
               <lb n="5" xml:id="p61-4"/>πῇ μὲν δοκεῖ τὸ ἧπαρ μονοφυὲς εἶναι, πῇ δὲ διφυές· ᾗ μὲν γὰρ διαφέρει<note type="apparatus" n="5" target="#p61-4">γὰρ om. Pa</note>
               <lb n="6" xml:id="p61-5"/>σπληνός, ταύτῃ δόξειεν ἂν μονοφυές, ᾗ δὲ κοινωνεῖ αὐτῷ, ταύτῃ διφυές.
               <lb n="7" xml:id="p61-6"/>αἴτιον δὲ τοῦ διφυὲς εἶναι δοκεῖν καὶ μονοφυὲς τό τε διφυῆ μὲν εἶναι τὴν τοῦ
@@ -2882,10 +2860,9 @@
           </div>
           <div type="textpart" subtype="lemma" n="11">
             <milestone unit="bekker" n="670b33"/>
-            <quote type="lemma">
-              <lb n="3" xml:id="p63-2"/>Σαφῆ δὲ ἃ λέγει περὶ κύστεως, πλὴν ἐνίων· αὐτίκα δεῖται<milestone type="alt-edition" unit="line" ed="Victorius 1548" n="5"/>
-            </quote>
+            
             <p>
+              <lb n="3" xml:id="p63-2"/>Σαφῆ δὲ ἃ λέγει περὶ κύστεως, πλὴν ἐνίων· αὐτίκα δεῖται<milestone type="alt-edition" unit="line" ed="Victorius 1548" n="5"/>
               <lb n="4" xml:id="p63-3"/>ἐπιστάσεως τὸ τοῖς ἔχουσι τὸν πνεύμονα ἔναιμον καὶ μέγαν, τούτοις
               <lb n="5" xml:id="p63-4"/>ἀποδέδωκε κύστιν διὰ τοιαύτην αἰτίαν. ἀνάγκη γὰρ μεγάλου ὄντος καὶ
               <lb n="6" xml:id="p63-5"/>ἐναίμου τοῦ πνεύμονος θερμὸν αὐτὸν εἶναι, θερμοῦ δὲ τούτου ὄντος ἀνάγκη
@@ -2942,10 +2919,9 @@
           </div>
           <div type="textpart" subtype="lemma" n="12">
             <milestone unit="bekker" n="672a1"/>
-            <quote type="lemma">
-              <lb n="16" xml:id="p64-15"/>Σαφῆ δὲ τὰ περὶ τῶν νεφρῶν. εἰπὼν δὲ πῶς διὰ τὴν ὕλην<note type="apparatus" n="16" target="#p64-15">Σαφῆ—νεφρῶν fort. delenda sunt</note>
-            </quote>
+            
             <p>
+              <lb n="16" xml:id="p64-15"/>Σαφῆ δὲ τὰ περὶ τῶν νεφρῶν. εἰπὼν δὲ πῶς διὰ τὴν ὕλην<note type="apparatus" n="16" target="#p64-15">Σαφῆ—νεφρῶν fort. delenda sunt</note>
               <lb n="17" xml:id="p64-16"/>πιμελώδεις ἢ στεατώδεις γίνονται, ἐπάγει ὅτι πιμελώδεις ἢ στεατώδεις γίνονται<note type="apparatus" n="17" target="#p64-16">ἢ posterius] καὶ Pa</note>
               <lb n="18" xml:id="p64-17"/>ἐκ τῶν συμβαινόντων ἐξ ἀνάγκης, λέγων ἀνάγκην τὴν ὕλην. διὰ μὲν
               <lb n="19" xml:id="p64-18"/>τὴν ὕλην <milestone type="alt-edition" unit="page" ed="Victorius 1548" n="102"/> εἰσὶ τοιοῦτοι, ἀλλὰ καὶ διὰ τὸ εὖ· κείμενοι γὰρ κάτωθεν τοῦ νώτου
@@ -2964,10 +2940,9 @@
           </div>
           <div type="textpart" subtype="lemma" n="13">
             <milestone unit="bekker" n="672b10"/>
-            <quote type="lemma">
-              <lb n="31" xml:id="p64-30"/>Τὸ δὲ διάζωμα λέγει κεῖσθαι μεταξὺ τῆς καρδίας καὶ τῆς<note type="apparatus" n="31-32" target="#p64-30 #p64-31">κοιλίας καὶ τῆς καρδίας coll. S</note>
-            </quote>
+            
             <p>
+              <lb n="31" xml:id="p64-30"/>Τὸ δὲ διάζωμα λέγει κεῖσθαι μεταξὺ τῆς καρδίας καὶ τῆς<note type="apparatus" n="31-32" target="#p64-30 #p64-31">κοιλίας καὶ τῆς καρδίας coll. S</note>
               <lb n="32" xml:id="p64-31"/>κοιλίας, ἵνα κωλύῃ τὰ ἀνερχόμενα ἐκ τῆς κοιλίας πνεύματα, καὶ μὴ ἐᾷ
               <lb n="33" xml:id="p64-32"/>προσβάλλειν τῇ καρδίᾳ καὶ ταράττειν τὴν ἐν αὐτῇ ψυχήν. λέγει δὲ καὶ ὅτι
               <lb n="34" xml:id="p64-33"/>ἄνω ἐκεῖνο λέγομεν, οὗ χάριν ἐστὶ τὰ κάτω (διὰ γὰρ τὸ ἄνω τὰ κάτω)
@@ -3004,10 +2979,9 @@
           </div>
           <div type="textpart" subtype="lemma" n="14">
             <milestone unit="bekker" n="673a33"/>
-            <quote type="lemma">
-              <lb n="21" xml:id="p65-20"/>Λέγει δὲ καὶ τὰ σπλάγχνα ὅμοια εἶναι ἀλλήλοις, διὰ
-            </quote>
+            
             <p>
+              <lb n="21" xml:id="p65-20"/>Λέγει δὲ καὶ τὰ σπλάγχνα ὅμοια εἶναι ἀλλήλοις, διὰ
               <lb n="22" xml:id="p65-21"/>τὸ εἶναι πάντα αἱματικά· ὅμοιος γὰρ ὁ σπλὴν τῷ ἥπατι. γεγόνασι δὲ
               <lb n="23" xml:id="p65-22"/>τὰ σπλάγχνα ἐντός, ὅτι καὶ αἱ φλέβες, ἐξ ὧν τὰ σπλάγχνα, ἐντός εἰσι.
               <lb n="24" xml:id="p65-23"/>λέγει δὲ καὶ ἔνια τῶν ζῳοτόκων μὴ ἔχειν χολὴν διὰ τὴν τοῦ ἥπατος θερμότητα.<note type="apparatus" n="24" target="#p65-23">ἔχει S</note><milestone type="alt-edition" unit="line" ed="Victorius 1548" n="40"/>
@@ -3132,10 +3106,9 @@
           </div>
           <div type="textpart" subtype="lemma" n="1">
             <milestone unit="bekker" n="676b22"/>
-            <quote type="lemma">
-              <lb n="17" xml:id="p68-16"/>Ἃ δὲ ἀντιλέγει πρὸς τὸν Πλάτωνα περὶ χολῆς ἔσται δῆλα, εἰ
-            </quote>
+            
             <p>
+              <lb n="17" xml:id="p68-16"/>Ἃ δὲ ἀντιλέγει πρὸς τὸν Πλάτωνα περὶ χολῆς ἔσται δῆλα, εἰ
               <lb n="18" xml:id="p68-17"/>πρότερον τεθείη τὰ τῷ Πλάτωνι δοκοῦντα. ὁ μὲν δὴ Πλάτων ἐν τῷ ἥπατι<note type="apparatus" n="18" target="#p68-17">Πλάτων] Tim. p. 71 A sqq.</note>
               <lb n="19" xml:id="p68-18"/>λέγων εἶναι τὸ ἐπιθυμητικὸν ἔλεγεν ὅτι τὸ ἐπιθυμητικὸν πρὸς ἡδονὴν καὶ<note type="apparatus" n="19" target="#p68-18">λέγων om. Pa</note>
               <lb n="20" xml:id="p68-19"/>ἄνεσιν ἕλκον τὸ ζῷον ἐκλύει καὶ παντάπασι φθείρει αὐτό· προνοουμένη οὖν ἡ<note type="apparatus" n="20" target="#p68-19">οὖν] γὰρ P</note>
@@ -3208,10 +3181,9 @@
           </div>
           <div type="textpart" subtype="lemma" n="2">
             <milestone unit="bekker" n="677b12"/>
-            <quote type="lemma">
-              <lb n="14" xml:id="p70-13"/>Τὸ δὲ ἔπιπλον λέγει ἦρχθαι ἀπὸ μέσης τῆς κοιλίας καὶ
-            </quote>
+            
             <p>
+              <lb n="14" xml:id="p70-13"/>Τὸ δὲ ἔπιπλον λέγει ἦρχθαι ἀπὸ μέσης τῆς κοιλίας καὶ
               <lb n="15" xml:id="p70-14"/>περιέχειν τὸ ἥμισυ μέρος αὐτῆς. καὶ λέγει τὴν αἰτίαν, τίνος χάριν τὸ<note type="apparatus" n="15" target="#p70-14">αὐτῆς ante τὸ ponit S</note>
               <lb n="16" xml:id="p70-15"/>ἥμισυ περιέχει αὐτῆς, καὶ οὐχ ἅπασαν· λέγει δὲ ταύτην παρακατιών, ὅταν<milestone type="alt-edition" unit="line" ed="Victorius 1548" n="35"/>
               <lb n="17" xml:id="p70-16"/>φησὶν καὶ διὰ τοῦτο ἀπὸ μέσης ἦρκται τῆς κοιλίας, ὅτι τὸ ἐπέκεινα<note type="apparatus" n="17" target="#p70-16">ἦρκται Arist. codd.: ἦρχθαι PSa: ἤρτηται Arist. vulg.</note>
@@ -3230,10 +3202,9 @@
           </div>
           <div type="textpart" subtype="lemma" n="3">
             <milestone unit="bekker" n="678a31"/>
-            <quote type="lemma">
-              <lb n="29" xml:id="p70-28"/>Λέγει δὲ περὶ τῶν ἐντόμων καὶ πάντων τῶν ἀναίμων μὴ<note type="apparatus" n="29" target="#p70-28">ἀναίμων ex ἐναίμων corr. S</note>
-            </quote>
+            
             <p>
+              <lb n="29" xml:id="p70-28"/>Λέγει δὲ περὶ τῶν ἐντόμων καὶ πάντων τῶν ἀναίμων μὴ<note type="apparatus" n="29" target="#p70-28">ἀναίμων ex ἐναίμων corr. S</note>
               <lb n="30" xml:id="p70-29"/>ἔχειν σπλάγχνα διὰ τὸ μηδὲ αἷμα, ἐξ οὗ τὰ σπλάγχνα συνέστηκε· τοῦτο γὰρ
               <lb n="31" xml:id="p70-30"/>ἐδήλωσε διὰ τοῦ ἐξ ὧν γὰρ συνέστηκεν ἡ τῶν σπλάγχνων φύσις,<note type="apparatus" n="31 et 32" target="#p70-30 #p70-31">ἐξ ὧν] sic etiam Arist. codd.: ἐξ οὗ Arist. vulg.</note>
               <lb n="32" xml:id="p70-31"/>οὐδὲν ἔχει τούτων αἷμα. ἔσται δὲ σαφὴς ἡ λέξις, εἰ τὸ ἐξ ὧν ἀντὶ
@@ -3260,10 +3231,9 @@
           </div>
           <div type="textpart" subtype="lemma" n="4">
             <milestone unit="bekker" n="679a5"/>
-            <quote type="lemma">
-              <lb n="12" xml:id="p71-11"/>Λέγει δὲ τὴν σηπίαν πλείονα τὸν θολὸν ἔχειν, ἤπερ αἱ τευθίδες,<note type="apparatus" n="12" target="#p71-11">σηπείαν a</note><milestone type="alt-edition" unit="line" ed="Victorius 1548" n="15"/>
-            </quote>
+            
             <p>
+              <lb n="12" xml:id="p71-11"/>Λέγει δὲ τὴν σηπίαν πλείονα τὸν θολὸν ἔχειν, ἤπερ αἱ τευθίδες,<note type="apparatus" n="12" target="#p71-11">σηπείαν a</note><milestone type="alt-edition" unit="line" ed="Victorius 1548" n="15"/>
               <lb n="13" xml:id="p71-12"/>διὰ τὸ πρόσγειον εἶναι τὸν βίον αὐτῆς, λέγων πρόσγειον τὸν αἰγιαλώδη·<note type="apparatus" n="13" target="#p71-12">λέγω a</note>
               <lb n="14" xml:id="p71-13"/>ἐν γὰρ τοῖς αἰγιαλοῖς οὖσα μᾶλλον ἐπιβουλεύεται τῶν τευθίδων, πελαγίων<note type="apparatus" n="14" target="#p71-13">post πελαγίων add. περὶ πελαγίων P</note>
               <lb n="15" xml:id="p71-14"/>τούτων οὐσῶν. λέγει δὲ καὶ τὸν θολὸν ἔχειν τὴν σηπίαν κάτωθεν, διά τε<note type="apparatus" n="15" target="#p71-14">καὶ om. a</note>
@@ -3276,10 +3246,9 @@
           </div>
           <div type="textpart" subtype="lemma" n="5">
             <milestone unit="bekker" n="679b15"/>
-            <quote type="lemma">
-              <lb n="21" xml:id="p71-20"/>Μετὰ ταῦτα λέγει εἶναι καὶ εἴδη πολλὰ τῶν ὀστρακοδέρμων,
-            </quote>
+            
             <p>
+              <lb n="21" xml:id="p71-20"/>Μετὰ ταῦτα λέγει εἶναι καὶ εἴδη πολλὰ τῶν ὀστρακοδέρμων,
               <lb n="22" xml:id="p71-21"/>καὶ τὰ μὲν αὐτῶν εἶναι στρομβώδη τὰ δὲ δίθυρα, λέγων δίθυρα τὰ ἔχοντα<note type="apparatus" n="22" target="#p71-21">καὶ ταῦτα μὲν P αὐτῶν om. P</note><note type="apparatus" n="22-23" target="#p71-21 #p71-22">λέγων— ὄστρακα om. S</note>
               <lb n="23" xml:id="p71-22"/>δύο ὄστρακα, ὥσπερ οἱ κτένες, τὰ λιμνόστρεα καὶ ἄλλα πολλά, τὰ δὲ<note type="apparatus" n="23" target="#p71-22">λιμνόστρεα scripsi: λειμόστρια libri</note>
               <lb n="24" xml:id="p71-23"/>μονόθυρα, λέγων μονόθυρα τὰ ἔχοντα τὸ σαρκῶδες αὐτῶν τῇ πέτρᾳ προσπεφυκὸς<note type="apparatus" n="24" target="#p71-23">λέγων—εἰσὶν (25)] ὡς S</note><milestone type="alt-edition" unit="line" ed="Victorius 1548" n="25"/>
@@ -3323,10 +3292,9 @@
           </div>
           <div type="textpart" subtype="lemma" n="6">
             <milestone unit="bekker" n="680b3"/>
-            <quote type="lemma">
-              <lb n="22" xml:id="p72-21"/>Μετὰ ταῦτα λέγει καὶ διὰ τί πέντε ἔχουσιν οἱ ἐχῖνοι τὰ<note type="apparatus" n="22" target="#p72-21">ἔχουσι πέντε coll. a</note>
-            </quote>
+            
             <p>
+              <lb n="22" xml:id="p72-21"/>Μετὰ ταῦτα λέγει καὶ διὰ τί πέντε ἔχουσιν οἱ ἐχῖνοι τὰ<note type="apparatus" n="22" target="#p72-21">ἔχουσι πέντε coll. a</note>
               <lb n="23" xml:id="p72-22"/>καλούμενα ᾠά, καὶ οὔτε πλείονα οὔτε ἐλάττονα· καί φησιν ὅτι μία μὲν
               <lb n="24" xml:id="p72-23"/>αἰτία τοῦ ἔχειν πλείω ταῦτα τὸ μὴ εἶναι ᾠά. ζητήσειε δ’ ἄν τις, τίνος<note type="apparatus" n="24" target="#p72-23">ante ἔχειν supr. vers. ins. μὴ P</note>
               <lb n="25" xml:id="p72-24"/>ἕνεκα διὰ τὸ μὴ εἶναι ᾠὰ πλείω ἑνὸς ἔχει ταῦτα. ἢ τὸ αἴτιον δὲ οἶμαι<note type="apparatus" n="25" target="#p72-24">διὰ τὸ] τῶ S</note>
@@ -3446,10 +3414,9 @@
           </div>
           <div type="textpart" subtype="lemma" n="7">
             <milestone unit="bekker" n="681a15"/>
-            <quote type="lemma">
-              <lb n="16" xml:id="p75-15"/>Τὸν δὲ σπόγγον λέγει ὁμοίως ἔχειν τοῖς φυτοῖς· ὥσπερ
-            </quote>
+            
             <p>
+              <lb n="16" xml:id="p75-15"/>Τὸν δὲ σπόγγον λέγει ὁμοίως ἔχειν τοῖς φυτοῖς· ὥσπερ
               <lb n="17" xml:id="p75-16"/>γὰρ τὰ φυτὰ ἐν τῷ προσπεφυκέναι καὶ ἐρριζῶσθαι τῇ γῇ ζῇ, ἀπολυθέντα<milestone type="alt-edition" unit="page" ed="Victorius 1548" n="110"/>
               <lb n="18" xml:id="p75-17"/>δὲ καὶ ἀπορριζωθέντα οὐ ζῇ, οὕτω καὶ ὁ σπόγγος προσπεφυκὼς τῇ
               <lb n="19" xml:id="p75-18"/>πέτρᾳ ζῇ, ἀπολυθεὶς δὲ θνήσκει. ὁ οὖν σπόγγος, φησίν, ὁμοίως ἔχει τοῖς
@@ -3489,10 +3456,9 @@
           </div>
           <div type="textpart" subtype="lemma" n="8">
             <milestone unit="bekker" n="681b12"/>
-            <quote type="lemma">
-              <lb n="10" xml:id="p76-9"/>Καὶ τὰ μὲν οὖν μόρια τὰ περὶ τὴν τροφὴν τοῖς ὀστρακοδέρμοις<note type="apparatus" n="10" target="#p76-9">Καὶ τὰ] κατὰ P: Καὶ fort. delendum οὖν τὰ μόρια Pa</note>
-            </quote>
+            
             <p>
+              <lb n="10" xml:id="p76-9"/>Καὶ τὰ μὲν οὖν μόρια τὰ περὶ τὴν τροφὴν τοῖς ὀστρακοδέρμοις<note type="apparatus" n="10" target="#p76-9">Καὶ τὰ] κατὰ P: Καὶ fort. delendum οὖν τὰ μόρια Pa</note>
               <lb n="11" xml:id="p76-10"/>καὶ μαλακίοις καὶ τοῖς τοιούτοις τοῦτον ἔχει τὸν τρόπον. ὥσπερ δὲ<note type="apparatus" n="11" target="#p76-10">τοῦτον] τοιοῦτον a</note>
               <lb n="12" xml:id="p76-11"/>τὰ ἔναιμα τῶν ζῴων ἔχει τινὰ ἀρχήν, τοῦτο δ’ ἔστι τὸ κύριον τῶν αἰσθήσεων,<note type="apparatus" n="12" target="#p76-11">τοῦτο] τό P</note><milestone type="alt-edition" unit="line" ed="Victorius 1548" n="30"/>
               <lb n="13" xml:id="p76-12"/>τοῦτο δ’ ἐστὶν ἡ καρδία, οὕτω δεῖ καὶ τὰ ὀστρακόδερμα καὶ τὰ μαλάκια<note type="apparatus" n="13" target="#p76-12">τὰ ante μαλάκια om. Pa</note>
@@ -3566,10 +3532,9 @@
           <pb n="78" facs="https://archive.org/download/p1commentariaina22akaduoft/page/n289.jpg"/>
           <div type="textpart" subtype="lemma" n="9">
             <milestone unit="bekker" n="682a35"/>
-            <quote type="lemma">
-              <lb n="1" xml:id="p78-0"/>Ταῦτα εἰπὼν ἐφεξῆς πάλιν περὶ τῶν ἐκτὸς μορίων τῶν
-            </quote>
+            
             <p>
+              <lb n="1" xml:id="p78-0"/>Ταῦτα εἰπὼν ἐφεξῆς πάλιν περὶ τῶν ἐκτὸς μορίων τῶν
               <lb n="2" xml:id="p78-1"/>ἐντόμων λέγει, καί φησιν αὐτὰ μὴ εἶναι πολυμερῆ· οὐ γὰρ ἔχουσιν αὐχένα<note type="apparatus" n="2" target="#p78-1">αὐχένας P</note>
               <lb n="3" xml:id="p78-2"/>καὶ χεῖρας καὶ τὰ τοιαῦτα· εἰσὶ δὲ πολύποδα, καὶ τὴν αἰτίαν τῆς πολυποδίας
               <lb n="4" xml:id="p78-3"/>λέγει σαφῶς. ἔχουσι δέ, φησί, πλείονας ἐντομάς, διότι καὶ ἀρχὰς
@@ -3596,10 +3561,9 @@
           </div>
           <div type="textpart" subtype="lemma" n="10">
             <milestone unit="bekker" n="683a8"/>
-            <quote type="lemma">
-              <lb n="24" xml:id="p78-23"/>Λέγει δὲ τὰς μελίττας ἐν ἑαυταῖς ἔχειν τὸ κέντρον, ἀλλ’ οὐκ
-            </quote>
+            
             <p>
+              <lb n="24" xml:id="p78-23"/>Λέγει δὲ τὰς μελίττας ἐν ἑαυταῖς ἔχειν τὸ κέντρον, ἀλλ’ οὐκ
               <lb n="25" xml:id="p78-24"/>ἐκτός. καὶ μίαν μὲν ἐπήγαγε τοῦ ἐντὸς ἔχειν τὸ κέντρον αἰτίαν τὸ εἶναι πτηνά·
               <lb n="26" xml:id="p78-25"/>πτηνὰ γὰρ ὄντα δύναται φεύγειν τὰ ἐπιβουλεύοντα, ἕως ἂν ἐκβάλωσι τὰ<note type="apparatus" n="26" target="#p78-25">ἐκβάλλωσι a</note>
               <lb n="27" xml:id="p78-26"/>κέντρα πρὸς ἄμυναν, ὥστε οὐκ ἀνάγκη ἐκτὸς καὶ ἕτοιμον ἔχειν τὸ κέντρον.<milestone type="alt-edition" unit="line" ed="Victorius 1548" n="10"/>
@@ -3645,10 +3609,9 @@
           </div>
           <div type="textpart" subtype="lemma" n="11">
             <milestone unit="bekker" n="683b24"/>
-            <quote type="lemma">
-              <lb n="25" xml:id="p79-24"/>Λέγει δὲ ὅτι πάντα τὰ τοῦ σώματος τῶν ὀστρακοδέρμων<note type="apparatus" n="25" target="#p79-24">δὲ post λέγει om. P</note><milestone type="alt-edition" unit="line" ed="Victorius 1548" n="40"/>
-            </quote>
+            
             <p>
+              <lb n="25" xml:id="p79-24"/>Λέγει δὲ ὅτι πάντα τὰ τοῦ σώματος τῶν ὀστρακοδέρμων<note type="apparatus" n="25" target="#p79-24">δὲ post λέγει om. P</note><milestone type="alt-edition" unit="line" ed="Victorius 1548" n="40"/>
               <lb n="26" xml:id="p79-25"/>μόρια ἀνώνυμά ἐστι, πλὴν τοῦ δι’ οὗ δέχονται τὴν τροφήν· τοῦτο
               <lb n="27" xml:id="p79-26"/>γὰρ μόνον καλεῖται στόμα. τὰ δὲ μαλακόστρακα πάντα πρὸς τῷ νευστικὰ
               <lb n="28" xml:id="p79-27"/>εἶναι καὶ πορευτικά ἐστιν. ὅσα δέ, φησίν, ἔχει χηλάς, οὐ πρὸς
@@ -3676,10 +3639,9 @@
           </div>
           <div type="textpart" subtype="lemma" n="12">
             <milestone unit="bekker" n="684a6"/>
-            <quote type="lemma">
-              <lb n="12" xml:id="p80-11"/>Λέγει δὲ τὰ μαλάκια τὸ κύτος τοῦ σώματος ἔχειν ἀδιόριστον·
-            </quote>
+            
             <p>
+              <lb n="12" xml:id="p80-11"/>Λέγει δὲ τὰ μαλάκια τὸ κύτος τοῦ σώματος ἔχειν ἀδιόριστον·
               <lb n="13" xml:id="p80-12"/>οὐ γὰρ ἔχει στέρνα ὡρισμένα καὶ διηρθρωμένα πλευράς τε καὶ τὰ λοιπά, ἀλλ’<milestone type="alt-edition" unit="line" ed="Victorius 1548" n="10"/>
               <lb n="14" xml:id="p80-13"/>ἀόριστα καὶ ἄδηλα, καὶ τούτου τοῦ κύτους ἔχει τοὺς πόδας ἔμπροσθεν περὶ τὴν
               <lb n="15" xml:id="p80-14"/>κεφαλήν, ἐντὸς μέν, φησί, τῶν ὀφθαλμῶν, τουτέστιν οὐκ ἐγγὺς τῶν
@@ -3766,10 +3728,9 @@
           </div>
           <div type="textpart" subtype="lemma" n="13">
             <milestone unit="bekker" n="685a14"/>
-            <quote type="lemma">
-              <lb n="18" xml:id="p82-17"/>Λέγει δὲ τὰς σηπίας καὶ τὰς τευθίδας ἀνομοίως ἔχειν τοῖς
-            </quote>
+            
             <p>
+              <lb n="18" xml:id="p82-17"/>Λέγει δὲ τὰς σηπίας καὶ τὰς τευθίδας ἀνομοίως ἔχειν τοῖς
               <lb n="19" xml:id="p82-18"/>πολύποσι διὰ τὸ τὰς μὲν νευστικὰς μόνον εἶναι, τοὺς δὲ πολύποδας καὶ<milestone type="alt-edition" unit="line" ed="Victorius 1548" n="30"/>
               <lb n="20" xml:id="p82-19"/>νευστικοὺς καὶ πορευτικούς. καὶ λέγει πῶς ἀνομοίως ἔχουσιν, ὅτι αἱ μὲν
               <lb n="21" xml:id="p82-20"/>σηπίαι καὶ αἱ τευθίδες ὀκτάποδες οὖσαι ὥσπερ καὶ οἱ πολύποδες (ὀκτάποδες
@@ -3827,10 +3788,9 @@
           </div>
           <div type="textpart" subtype="lemma" n="14">
             <milestone unit="bekker" n="686a6"/>
-            <quote type="lemma">
-              <lb n="31" xml:id="p83-30"/>Ἀνάγκη δέ, φησί, τοῦτο τὸ μόριον, λέγων τοῦτο τὸ μόριον
-            </quote>
+            
             <p>
+              <lb n="31" xml:id="p83-30"/>Ἀνάγκη δέ, φησί, τοῦτο τὸ μόριον, λέγων τοῦτο τὸ μόριον
               <lb n="32" xml:id="p83-31"/>τὸν ἐγκέφαλον, ἀνάγκη οὖν τὸν ἐγκέφαλον ὑπάρχειν τοῖς ἐναίμοις, ἵνα καταψύχῃ<note type="apparatus" n="32" target="#p83-31">ὑπάρχειν] ὑπερέχειν S</note>
               <lb n="33" xml:id="p83-32"/>τὴν καρδίαν. ἀντικείμενον δὲ τόπον εἴρηκε τὴν κεφαλήν· ἡ γὰρ
               <lb n="34" xml:id="p83-33"/>κεφαλὴ ἀντίκειται τῷ τόπῳ, ἐν ᾧ κεῖται ἡ καρδία, ὡς τὰ πρός τι· ἡ μὲν
@@ -3890,10 +3850,9 @@
           </div>
           <div type="textpart" subtype="lemma" n="15">
             <milestone unit="bekker" n="687a7"/>
-            <quote type="lemma">
-              <lb n="6" xml:id="p85-5"/>Τὸν δὲ Ἀναξαγόραν ἱστορεῖ λέγειν τὸν ἄνθρωπον φρονιμώτατον
-            </quote>
+            
             <p>
+              <lb n="6" xml:id="p85-5"/>Τὸν δὲ Ἀναξαγόραν ἱστορεῖ λέγειν τὸν ἄνθρωπον φρονιμώτατον
               <lb n="7" xml:id="p85-6"/>εἶναι διὰ τὸ χεῖρας ἔχειν· ὁ δὲ Ἀριστοτέλης λέγει ὅτι μᾶλλον<note type="apparatus" n="7" target="#p85-6">λέγει om. S ὅτι om. P</note>
               <lb n="8" xml:id="p85-7"/>διότι φρόνιμός ἐστιν ἔχει χεῖρας, οὐ μὴν διότι χεῖρας ἔχει, ἐστὶ φρόνιμος.<note type="apparatus" n="8" target="#p85-7">ἔχει post χεῖρας om. S</note><milestone type="alt-edition" unit="line" ed="Victorius 1548" n="25"/>
               <lb n="9" xml:id="p85-8"/>ὥσπερ γὰρ ὁ φρόνιμος ἄνθρωπος τὰ ὄργανα δίδωσιν οἷον κορύνην,
@@ -3992,10 +3951,9 @@
           </div>
           <div type="textpart" subtype="lemma" n="16">
             <milestone unit="bekker" n="688b5"/>
-            <quote type="lemma">
-              <lb n="18" xml:id="p87-17"/>Λέγει δὲ τοὺς ἐλέφαντας ἄνω πρὸς ταῖς μασχάλαις ἔχειν τοὺς<note type="apparatus" n="18" target="#p87-17">post λέγει δὲ add. διὰ P</note>
-            </quote>
+            
             <p>
+              <lb n="18" xml:id="p87-17"/>Λέγει δὲ τοὺς ἐλέφαντας ἄνω πρὸς ταῖς μασχάλαις ἔχειν τοὺς<note type="apparatus" n="18" target="#p87-17">post λέγει δὲ add. διὰ P</note>
               <lb n="19" xml:id="p87-18"/>μαστούς, ὅτι ἐν τοῖς πολυτόκοις καὶ πλείονας ἔχουσι τοὺς μαστοὺς πρῶτοι οἱ
               <lb n="20" xml:id="p87-19"/>πρὸς ταῖς μασχάλαις εἰσί, καὶ τάχα διότι καὶ ἐν ἐκείνοις πρῶτοι οὗτοί εἰσιν,
               <lb n="21" xml:id="p87-20"/>ἔχει καὶ ὁ ἐλέφας τοὺς πρώτους, οἱ δὲ πρῶτοι τῶν μαστῶν ἐν τοῖς ἔχουσι<milestone type="alt-edition" unit="line" ed="Victorius 1548" n="10"/>
@@ -4096,10 +4054,9 @@
           </div>
           <div type="textpart" subtype="lemma" n="17">
             <milestone unit="bekker" n="690a9"/>
-            <quote type="lemma">
-              <lb n="31" xml:id="p89-30"/>Λέγει δὲ τὰ μώνυχα ὡς ἐπὶ πολὺ μὴ ἔχειν ἀστράγαλον<note type="apparatus" n="31" target="#p89-30">ἐπιτοπολὺ a</note>
-            </quote>
+            
             <p>
+              <lb n="31" xml:id="p89-30"/>Λέγει δὲ τὰ μώνυχα ὡς ἐπὶ πολὺ μὴ ἔχειν ἀστράγαλον<note type="apparatus" n="31" target="#p89-30">ἐπιτοπολὺ a</note>
               <lb n="32" xml:id="p89-31"/>καὶ διὰ τὸ τὴν ὕλην τὴν μέλλουσαν καταναλίσκεσθαι εἰς γένεσιν ἀστραγάλων<note type="apparatus" n="32" target="#p89-31">καὶ om. a ἀναλίσκεσθαι a</note>
               <lb n="33" xml:id="p89-32"/>ἀναλίσκεσθαι εἰς γένεσιν ὁπλῶν καὶ ὀνύχων· διά τε οὖν τοῦτο λέγει αὐτὰ<note type="apparatus" n="33" target="#p89-32">καταναλίσκεσθαι a</note>
               <lb n="34" xml:id="p89-33"/>μὴ ἔχειν ἀστράγαλον καὶ διὰ τὸ δυσκινητοτέραν εἶναι τὴν καμπὴν τοῦ
@@ -4135,10 +4092,9 @@
           </div>
           <div type="textpart" subtype="lemma" n="18">
             <milestone unit="bekker" n="690b13"/>
-            <quote type="lemma">
-              <lb n="23" xml:id="p90-22"/>Λέγει δὲ τοὺς ὄφεις παραπλησίως ἔχειν τὴν μορφὴν τοῖς<milestone type="alt-edition" unit="line" ed="Victorius 1548" n="20"/>
-            </quote>
+            
             <p>
+              <lb n="23" xml:id="p90-22"/>Λέγει δὲ τοὺς ὄφεις παραπλησίως ἔχειν τὴν μορφὴν τοῖς<milestone type="alt-edition" unit="line" ed="Victorius 1548" n="20"/>
               <lb n="24" xml:id="p90-23"/>τετράποσι καὶ ᾠοτόκοις. τετράποδα δὲ καὶ ᾠοτόκα εἰσὶν αἵ τε σαῦραι καὶ<note type="apparatus" n="24" target="#p90-23">ᾠοτόκοις Pa Arist. PUY: ζῳοτόκοις Arist. vulg.</note>
               <lb n="25" xml:id="p90-24"/>ἄλλα πολλά. λέγει δὲ καὶ τοῖς ἰχθύσι διὰ τὸ μὴ ἐνδέχεσθαι αὐτοὺς μασᾶσθαι
               <lb n="26" xml:id="p90-25"/>μηδὲ προγεύεσθαι μὴ ἐγγίνεσθαι τὴν ἀπὸ τῆς γεύσεως καὶ μασήσεως<note type="apparatus" n="26" target="#p90-25">προγεύεσθαι] προγενέσθαι a</note>
@@ -4182,10 +4138,9 @@
           </div>
           <div type="textpart" subtype="lemma" n="19">
             <milestone unit="bekker" n="691b29"/>
-            <quote type="lemma">
-              <lb n="22" xml:id="p91-21"/>Λέγει δὲ τοὺς ὄφεις μὴ ἔχειν αὐχένα διὰ τάδε· ἐπειδὴ
-            </quote>
+            
             <p>
+              <lb n="22" xml:id="p91-21"/>Λέγει δὲ τοὺς ὄφεις μὴ ἔχειν αὐχένα διὰ τάδε· ἐπειδὴ
               <lb n="23" xml:id="p91-22"/>γὰρ ὁ αὐχὴν μεταξύ ἐστι κεφαλῆς καὶ ὤμων, οἱ δὲ ὄφεις ὤμους<milestone type="alt-edition" unit="line" ed="Victorius 1548" n="5"/>
               <lb n="24" xml:id="p91-23"/>οὐκ ἔχουσιν, οὐδ’ ἂν αὐχένα ἔχοιεν· ὁ γὰρ αὐχήν, ὡς εἴρηται, τοῖς<note type="apparatus" n="24" target="#p91-23">ἔχοι P</note>
               <lb n="25" xml:id="p91-24"/>εἰρημένοις ἐσχάτοις, τουτέστι τῇ κεφαλῇ καὶ τοῖς ὤμοις διορίζεταί
@@ -4211,10 +4166,9 @@
           </div>
           <div type="textpart" subtype="lemma" n="20">
             <milestone unit="bekker" n="692b15"/>
-            <quote type="lemma">
-              <lb n="4" xml:id="p92-3"/>Οἱ δὲ ὄρνιθες, φησίν, ἔχουσι τὴν τοῦ ῥύγχους φύσιν περιττήν,<milestone type="alt-edition" unit="line" ed="Victorius 1548" n="20"/>
-            </quote>
+            
             <p>
+              <lb n="4" xml:id="p92-3"/>Οἱ δὲ ὄρνιθες, φησίν, ἔχουσι τὴν τοῦ ῥύγχους φύσιν περιττήν,<milestone type="alt-edition" unit="line" ed="Victorius 1548" n="20"/>
               <lb n="5" xml:id="p92-4"/>ἤτοι μεγάλην ἢ μᾶλλον εὖ ἔχουσαν πρὸς φυλακὴν τῶν ἐπιβουλευόντων.
               <lb n="6" xml:id="p92-5"/>λέγει δὲ αὐτοὺς ἔχειν καὶ τὸν αὐχένα τεταμένον καὶ εὐθύτατον καὶ οὐχὶ
               <lb n="7" xml:id="p92-6"/>κεκαμμένον. λέγει καὶ ὅτι εἰ εἶχον βραχὺν αὐχένα οἱ ὄρνιθες ἐπὶ σκέλεσι<note type="apparatus" n="7" target="#p92-6">λέγει δὲ ὅτι a</note>
@@ -4330,10 +4284,9 @@
           </div>
           <div type="textpart" subtype="lemma" n="21">
             <milestone unit="bekker" n="695b2"/>
-            <quote type="lemma">
-              <lb n="34" xml:id="p94-33"/>Τὸ δὲ γένος, φησί, τῶν ἰχθύων μᾶλλον τῶν πτηνῶν κεκολόβωται<milestone type="alt-edition" unit="line" ed="Victorius 1548" n="15"/>
-            </quote>
+            
             <p>
+              <lb n="34" xml:id="p94-33"/>Τὸ δὲ γένος, φησί, τῶν ἰχθύων μᾶλλον τῶν πτηνῶν κεκολόβωται<milestone type="alt-edition" unit="line" ed="Victorius 1548" n="15"/>
               <lb n="35" xml:id="p94-34"/>καὶ ἐστέρηται τῶν ἐκτὸς μορίων. οἱ μὲν γὰρ ὄρνιθες κἂν ἐστέρηνται
               <lb n="36" xml:id="p94-35"/>χειρῶν, ἀλλ’ ἔχουσιν ἀντ’ αὐτῶν πτέρυγας, οἱ δ’ ἰχθύες οὔτε σκέλη οὔτε
               <lb n="37" xml:id="p94-36"/>πτέρυγας οὔτε χεῖρας ἔχουσι. τὸ δὲ ὅλον περὶ τῇ κεφαλῇ τὸ κύτος<note type="apparatus" n="37" target="#p94-36">περὶ τῇ κεφαλῇ P Arist. SU: περὶ τὴν κεφαλὴν a: ἀπὸ τῆς κεφαλῆς Arist. vulg.</note>
@@ -4410,10 +4363,9 @@
           </div>
           <div type="textpart" subtype="lemma" n="22">
             <milestone unit="bekker" n="696b2"/>
-            <quote type="lemma">
-              <lb n="26" xml:id="p96-25"/>Εἰπὼν δὲ ὅτι τὰ ἔχοντα βράγχια τὰ μὲν ἐπικαλύμματα ἔχει
-            </quote>
+            
             <p>
+              <lb n="26" xml:id="p96-25"/>Εἰπὼν δὲ ὅτι τὰ ἔχοντα βράγχια τὰ μὲν ἐπικαλύμματα ἔχει
               <lb n="27" xml:id="p96-26"/>ἐν τοῖς βραγχίοις, οὐκ ἀνταπέδωκε τὸν μέν σύνδεσμον πρὸς τὸν δέ. ἔχει<note type="apparatus" n="27" target="#p96-26">οὐκ—τὸν δέ] cf. Arist. (p. 696 b 3) SU</note><milestone type="alt-edition" unit="line" ed="Victorius 1548" n="25"/>
               <lb n="28" xml:id="p96-27"/>οὖν πάντα τὰ σελάχη ἐπικαλύμματα τοῖς βραγχίοις· διὰ 〈γὰρ〉 τὸ εἶναι<note type="apparatus" n="28" target="#p96-27">γὰρ addidi</note>
               <lb n="29" xml:id="p96-28"/>χονδράκανθα καὶ διὰ τοῦτο μαλακόσαρκα ἀλλ’ οὐ σκληρόσαρκα οὐ κεκώλυται
@@ -4468,10 +4420,9 @@
           </div>
           <div type="textpart" subtype="lemma" n="23">
             <milestone unit="bekker" n="696b23"/>
-            <quote type="lemma">
-              <lb n="36" xml:id="p97-35"/>Τὰ δὲ στόματα τὰ μὲν ἔχει καταντικρὺ καὶ εἰς τὸ πρόσθεν,
-            </quote>
+            
             <p>
+              <lb n="36" xml:id="p97-35"/>Τὰ δὲ στόματα τὰ μὲν ἔχει καταντικρὺ καὶ εἰς τὸ πρόσθεν,
               <lb n="37" xml:id="p97-36"/>ὥσπερ λάβραξ, σκόμβρος, κέφαλος, τὰ δὲ ἐν τοῖς ὑπτίοις, ὥσπερ δελφὶς καὶ τὰ<note type="apparatus" n="37" target="#p97-36">λάβραξ scripsi: λαύραξ libri</note>
             </p>
             <pb n="98" facs="https://archive.org/download/p1commentariaina22akaduoft/page/n309.jpg"/>
