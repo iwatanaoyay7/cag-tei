@@ -18,9 +18,9 @@ A TEI P5 edition of the 59 commentaries of the *Commentaria in Aristotelem Graec
 | Files | 59 (one per commentary) |
 | Printed pages | 14,392 |
 | Lines | 474,838 (474,781 with the printed line number) |
-| Apparatus entries | 216,934 |
+| Apparatus entries | 217,041 |
 | Lemmata with Bekker reference | 12,249 |
-| Older-edition references | 71,484 |
+| Older-edition references | 71,483 |
 | Licence | CC BY 4.0 (transcription and encoding); the printed edition is in the public domain |
 
 ## Contents
