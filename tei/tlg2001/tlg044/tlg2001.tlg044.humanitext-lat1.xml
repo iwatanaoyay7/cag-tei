@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" version="4.12.0">
   <teiHeader>
     <fileDesc>
       <titleStmt><title>Themistius, In Aristotelis Metaphysicorum Librum Λ Paraphrasis (latine expressa) (CAG 05.5)</title><respStmt><resp>Responsible for the edition</resp><persName xml:id="NI" xml:lang="en">Naoya Iwata</persName></respStmt><respStmt><resp>Structuring of the text (division into chapters, sections and lemmata) and its review</resp><persName xml:id="TN" xml:lang="en">Tomomi Nakayama</persName></respStmt></titleStmt>
@@ -17,7 +17,7 @@
         <p>Text transcribed by OCR (Humanitext OCR v2, Gemini models) from the scans named in the source description. Structure (div, quote, head): transferred from a manual division of this work into chapters, sections and lemmata made by Tomomi Nakayama on a TEI file of the work derived from First1KGreek; only the positions of the divisions, the extent of the lemma quotations and the Bekker references were taken over and aligned to the OCR lines by page and opening words, and the result was reviewed in four rounds (2026-08-28 to 2026-09-29). Text: OCR of the page images with line coordinates (gemini-3-flash-preview; gemini-3.7-flash where it failed; damaged pages transcribed again). The review rounds concerned the structure, the line numbers and the placement of the apparatus, not the wording. The Latin text was neither collated nor re-read by a model; it is the OCR, with damaged pages transcribed again. Spelling follows the printed page. Later checks are listed in the revision description. Headings inside a div (sub-headings, closing formulas, labels of tables) are ab[@type='head']. The words of diagrams and tables are not body text: each diagram or table is given once as figure after the last body line printed before it (labels, trees and tables transcribed; pure geometry described in figDesc); where the edition counts the rows of a diagram or table as lines, those line numbers are not used by any lb. Evident misprints of the printed edition, identified on the page image, are kept and given with the correct form as choice/sic/corr; mere variants of spelling or accentuation are left as printed. Misprinted numbers in milestones (Bekker references, old-edition page, folio, column and line numbers), which cannot carry choice/sic/corr, are given with the corrected value where the sequence of the numbers determines it. Line breaks: one lb per printed line; @n is the line count of the CAG page (headings included), resynchronised on the printed marginal numbers of the left margin; lines the edition does not count carry lb without @n. Words hyphenated across lines are joined and the lb is placed at the following word boundary. pb/@facs points to the image of the page in the Internet Archive item named in the source description (BookReader page image; for pages supplied from another copy, that copy). Critical-apparatus entries are attached to the line(s) they cite as note[@type='apparatus'] with @target on the lb (line level; the lemma words of an entry are not linked); entries that cannot be resolved remain as note[@type='footnote'] at the page end. References in the margins to older editions or manuscripts are milestone[@type='alt-edition'] with @unit and @ed (the edition identified from the preface of the volume); CAG's repetition of the current old-edition page or folio beside the first line of each page is not encoded. Bekker references printed before lemmata are milestone[@unit='bekker']. Marginal digits fused into the text by OCR have been removed.</p>
       </editorialDecl>
     </encodingDesc>
-    <revisionDesc><change when="2026-08-27" who="#NI">OCR of the page images with line coordinates (gemini-3-flash-preview; gemini-3.7-flash where it failed); division of the text transferred onto the OCR lines.</change><change from="2026-08-28" to="2026-09-29" who="#TN">Four review rounds of the structure, line numbers and apparatus placement; damaged pages transcribed again; lines dropped by the OCR inserted.</change><change when="2026-09-24" who="#NI">Line numbers recounted from the printed marginal numerals in OCR reading order.</change><change when="2026-10-13" who="#NI">Margin references to older editions encoded as milestone[@type='alt-edition'][@ed] and checked on the images.</change><change when="2026-10-17" who="#NI">Words hyphenated across lines joined; punctuation normalised; review closed.</change><change when="2026-10-20" who="#NI">Header revised (title, source description, editorial declaration, revision description); supplement brackets normalised to 〈 〉; breathings and accents written as separate signs before capitals composed with the letter; missing elision marks after ἀλλ, κατ, καθ, ἐπ, δι etc. supplied in the text; numbers left at line starts removed or encoded as old-edition milestones (image checked); words divided at a line end that had been joined to a word two lines down corrected; every body line without a line number checked on the page images (margin labels and folio marks read as lines dropped, duplicated rows removed, a missing line restored, numbers given to lines the edition counts); numeral signs unified as ʹ (U+0374, stored in its NFC form U+02B9); line-number jumps, old-edition milestones without an edition name and notes suspected to hold body text checked on the page images; citation by printed page and line declared (refsDecl); raised dots read as apostrophes corrected (checked on the page images); line coordinates of the working files realigned on the marginal numerals; printers' signatures at the foot of the page removed from the apparatus; apparatus entries for two lines joined by et kept as one note pointing at both lines; text of diagrams and tables encoded as figure (18 pages checked on the images); page images linked from pb/@facs.</change><change when="2026-10-21" who="#NI">Old-edition line numbers checked on the page images where the sequence skipped a number (2,100 places in the corpus) and, page by page, where it was irregular (542 pages): numbers missed by the OCR added (549), milestones not printed on the page dropped (190; mostly the CAG's own left-margin numbers or line references of the apparatus taken for old-edition numbers), misplaced ones moved (69), misread values corrected (31), page numbers taken for line numbers made page milestones (8); the edition's own skips and out-of-order numbers left as printed, the line count printed beside the repeated page or folio at the head of a page not encoded (like the repetition).</change><change when="2026-10-23" who="#NI">Quotation marks made uniform: opening single and double quotation marks, printed in the edition in the reversed (high-reversed-9) form, are encoded as ‘ and “, closing ones as ’ and ”, single and double kept as printed; opening marks read by the OCR as straight quotes, low quotes or spacing breathings, and spacing breathings or quotation marks doubled before a capital that already bears its breathing, corrected.</change></revisionDesc>
+    <revisionDesc><change when="2026-08-27" who="#NI">OCR of the page images with line coordinates (gemini-3-flash-preview; gemini-3.7-flash where it failed); division of the text transferred onto the OCR lines.</change><change from="2026-08-28" to="2026-09-29" who="#TN">Four review rounds of the structure, line numbers and apparatus placement; damaged pages transcribed again; lines dropped by the OCR inserted.</change><change when="2026-09-24" who="#NI">Line numbers recounted from the printed marginal numerals in OCR reading order.</change><change when="2026-10-13" who="#NI">Margin references to older editions encoded as milestone[@type='alt-edition'][@ed] and checked on the images.</change><change when="2026-10-17" who="#NI">Words hyphenated across lines joined; punctuation normalised; review closed.</change><change when="2026-10-20" who="#NI">Header revised (title, source description, editorial declaration, revision description); supplement brackets normalised to 〈 〉; breathings and accents written as separate signs before capitals composed with the letter; missing elision marks after ἀλλ, κατ, καθ, ἐπ, δι etc. supplied in the text; numbers left at line starts removed or encoded as old-edition milestones (image checked); words divided at a line end that had been joined to a word two lines down corrected; every body line without a line number checked on the page images (margin labels and folio marks read as lines dropped, duplicated rows removed, a missing line restored, numbers given to lines the edition counts); numeral signs unified as ʹ (U+0374, stored in its NFC form U+02B9); line-number jumps, old-edition milestones without an edition name and notes suspected to hold body text checked on the page images; citation by printed page and line declared (refsDecl); raised dots read as apostrophes corrected (checked on the page images); line coordinates of the working files realigned on the marginal numerals; printers' signatures at the foot of the page removed from the apparatus; apparatus entries for two lines joined by et kept as one note pointing at both lines; text of diagrams and tables encoded as figure (18 pages checked on the images); page images linked from pb/@facs.</change><change when="2026-10-21" who="#NI">Old-edition line numbers checked on the page images where the sequence skipped a number (2,100 places in the corpus) and, page by page, where it was irregular (542 pages): numbers missed by the OCR added (549), milestones not printed on the page dropped (190; mostly the CAG's own left-margin numbers or line references of the apparatus taken for old-edition numbers), misplaced ones moved (69), misread values corrected (31), page numbers taken for line numbers made page milestones (8); the edition's own skips and out-of-order numbers left as printed, the line count printed beside the repeated page or folio at the head of a page not encoded (like the repetition).</change><change when="2026-10-23" who="#NI">Quotation marks made uniform: opening single and double quotation marks, printed in the edition in the reversed (high-reversed-9) form, are encoded as ‘ and “, closing ones as ’ and ”, single and double kept as printed; opening marks read by the OCR as straight quotes, low quotes or spacing breathings, and spacing breathings or quotation marks doubled before a capital that already bears its breathing, corrected.</change><change when="2026-11-05" who="#NI">Apparatus entries printed out of numerical order (e.g. 33 … 32) separated from the preceding entry; words hyphenated across lines joined in Latin text as in Greek; words mixing Greek and Latin letters (OCR errors, about 130, including manuscript sigla) corrected on the page images; marginal folio marks left in the text removed; validated against TEI P5 version 4.12.0 (recorded in TEI/@version).</change></revisionDesc>
   </teiHeader>
   <text>
     <body>
@@ -142,13 +142,13 @@
             <lb n="1" xml:id="p4-0"/>substantiam in duas partes, alii unam statuebant naturam.
             <lb n="2" xml:id="p4-1"/>dividentes ponebant formas dimensionesque mathematicas
             <lb n="3" xml:id="p4-2"/>priores substantias quam sensibiles, et illas quidem harum initia;
-            <lb n="4" xml:id="p4-3"/>dicentes vero intellegibilem substantiam esse unam, mathe-<note type="apparatus" n="4" target="#p4-3">dicentes codd. F; at ponebat (5) codd.</note>
-            <lb n="5" xml:id="p4-4"/>maticas dimensiones ipsas esse substantias ponebant formamque
+            <lb n="4" xml:id="p4-3"/>dicentes vero intellegibilem substantiam esse unam, mathematicas<note type="apparatus" n="4" target="#p4-3">dicentes codd. F; at ponebat (5) codd.</note>
+            <lb n="5" xml:id="p4-4"/>dimensiones ipsas esse substantias ponebant formamque
             <lb n="6" xml:id="p4-5"/>reiciebant. porro sensibilis substantia naturali scientia indiget;<note type="apparatus" n="6" target="#p4-5">reiciebant F; ABD corrupti</note>
             <lb n="7" xml:id="p4-6"/>haec enim substantia ex motu omnino non evadit; altera vero<note type="apparatus" n="7" target="#p4-6">omnino] secundum omnes eius partes F</note>
             <lb n="8" xml:id="p4-7"/>substantia ad aliam scientiam eamque nobiliorem quam sit scientia
-            <lb n="9" xml:id="p4-8"/>naturalis spectare videtur, cum nihil sit commune ipsis neque in gene-<note type="apparatus" n="9" target="#p4-8">cum nihil . . nec (10)] cf. Alex. 671,15 ἒπειδὴ οὐδαμῶς κατ’ οὐδὲν ἡ αἰσθητὴ οὐσία κοινωνεῖ τῇ νοητῇ, οὐδὲ ἔστι τις αὐταῖς ἀρχὴ κοινή</note>
-            <lb n="10" xml:id="p4-9"/>ratione ulla neque in loco neque in augmento neque in decremento nec
+            <lb n="9" xml:id="p4-8"/>naturalis spectare videtur, cum nihil sit commune ipsis neque in generatione<note type="apparatus" n="9" target="#p4-8">cum nihil . . nec (10)] cf. Alex. 671,15 ἒπειδὴ οὐδαμῶς κατ’ οὐδὲν ἡ αἰσθητὴ οὐσία κοινωνεῖ τῇ νοητῇ, οὐδὲ ἔστι τις αὐταῖς ἀρχὴ κοινή</note>
+            <lb n="10" xml:id="p4-9"/>ulla neque in loco neque in augmento neque in decremento nec
             <lb n="11" xml:id="p4-10"/>commune principium habeant, a quo producantur. nam prior
             <lb n="12" xml:id="p4-11"/>nullum habet principium, secundae vero principium est ipsa substantia
             <lb n="13" xml:id="p4-12"/>prima. neque eadem cognitione apprehenduntur; altera
@@ -186,8 +186,8 @@
           <p>
             <lb n="1" xml:id="p5-0"/>ad contraria. inest namque et locis contrarietatis quaedam species
             <lb n="2" xml:id="p5-1"/>ad modum oppositionis: ut translatio, qua pergitur ad ea, quae sunt
-            <lb n="3" xml:id="p5-2"/>ante, contraria est illi, qua itur ad ea, quae sunt post; quam contrarie-<note type="apparatus" n="3" target="#p5-2">post] Ar. 229 b</note>
-            <lb n="4" xml:id="p5-3"/>tatem nullus motus localis effugit. neque in hac mutatione duo contraria
+            <lb n="3" xml:id="p5-2"/>ante, contraria est illi, qua itur ad ea, quae sunt post; quam contrarietatem<note type="apparatus" n="3" target="#p5-2">post] Ar. 229 b</note>
+            <lb n="4" xml:id="p5-3"/>nullus motus localis effugit. neque in hac mutatione duo contraria
             <lb n="5" xml:id="p5-4"/>sufficiunt, sed in ea perinde ac in aliis corpus quoddam
             <lb n="6" xml:id="p5-5"/>subici duobus contrariis oportet, quod quidem ab altero ad alterum
             <lb n="7" xml:id="p5-6"/>moveatur, nisi quod hoc caeleste corpus diversum habetur a corpore
@@ -262,8 +262,8 @@
             <lb n="30" xml:id="p6-29"/>posset, necessarium esset, ut ex alio recipiente generaretur; similiter<note type="apparatus" n="30" target="#p6-29">ut—generaretur] subiectum utique aliquod, ex quo manente et antecedente produceretur F</note>
             <lb n="31" xml:id="p6-30"/>si corrumpi posset, in aliud corpus resolveretur.
             <lb n="32" xml:id="p6-31"/>Post haec iam expositum est unamquamque rem naturalem<note type="apparatus" n="32" target="#p6-31">posthaec F Aristotelem imitatus expositum] supra Z cap. 7 et 9</note>
-            <lb n="33" xml:id="p6-32"/>tantummodo ex sibi simili ac cognomine oriri, neque hoc in natura-<note type="apparatus" n="33" target="#p6-32">nec et sq.] Arist. a5</note>
-            <lb n="34" xml:id="p6-33"/>libus solum, ut si homo generet hominem, sed etiam in iis, quae
+            <lb n="33" xml:id="p6-32"/>tantummodo ex sibi simili ac cognomine oriri, neque hoc in naturalibus<note type="apparatus" n="33" target="#p6-32">nec et sq.] Arist. a5</note>
+            <lb n="34" xml:id="p6-33"/>solum, ut si homo generet hominem, sed etiam in iis, quae
             <lb n="35" xml:id="p6-34"/>arte fiunt. nam non generatur domus nisi domo, domus, inquam,<note type="apparatus" n="35" target="#p6-34">nam et sq.] cf. Arist. 1032b11 ὥστε συμβαίνει τρόπον τινὰ .. γίνεσθαι καὶ τὴν οἰκίαν ἐξ οἰκίας, τῆς ἄνευ ὕλης τὴν ἔχουσαν ὕλην</note>
             <lb n="36" xml:id="p6-35"/>corporea incorporea domo. ars igitur principium est unius
             <lb n="37" xml:id="p6-36"/>in altero, natura vero principium in eodem ipso est. fiunt
@@ -279,12 +279,12 @@
             <lb n="7" xml:id="p7-6"/><milestone type="alt-edition" unit="folio" ed="Finzi 1558" n="5"/> penitus et immobilis est, quae non sensu, sed intellectu dumtaxat
             <lb n="8" xml:id="p7-7"/>apprehenditur; reliquae duae sensui subiectae sunt, quarum una
             <lb n="9" xml:id="p7-8"/>perennis, altera corruptibilis existit. sed tuum est sensibilem substantiam
-            <lb n="10" xml:id="p7-9"/>corruptioni obnoxiam in tres substantias dirimere: in ele-<note type="apparatus" n="10-11" target="#p7-9 #p7-10">elementum codd. F hic et in seq. passim: l. materiam</note>
-            <lb n="11" xml:id="p7-10"/>mentum, scilicet corpus formam suscipiens, in formam et in id, quod
+            <lb n="10" xml:id="p7-9"/>corruptioni obnoxiam in tres substantias dirimere: in elementum,<note type="apparatus" n="10-11" target="#p7-9 #p7-10">elementum codd. F hic et in seq. passim: l. materiam</note>
+            <lb n="11" xml:id="p7-10"/>scilicet corpus formam suscipiens, in formam et in id, quod
             <lb n="12" xml:id="p7-11"/>ex his constat. quae tres substantiae in hoc fere conveniunt, ut
             <lb n="13" xml:id="p7-12"/>sint hoc aliquid. hoc autem magis proprium substantiae est quam
-            <lb n="14" xml:id="p7-13"/>reliquae eius proprietates. quodsi unumquidque aliorum praedica-<note type="apparatus" n="14" target="#p7-13">quodsi—debetur (16)] locus difficilis. F exhibet: accidentibus enim ne per temporaneum quidem spatium significatio super hoc suppeditabitur. verba ne—spatium om. BCD</note>
-            <lb n="15" xml:id="p7-14"/>mentorum 〈tamquam hoc aliquid〉 significamus, haec significatio substantiae
+            <lb n="14" xml:id="p7-13"/>reliquae eius proprietates. quodsi unumquidque aliorum praedicamentorum<note type="apparatus" n="14" target="#p7-13">quodsi—debetur (16)] locus difficilis. F exhibet: accidentibus enim ne per temporaneum quidem spatium significatio super hoc suppeditabitur. verba ne—spatium om. BCD</note>
+            <lb n="15" xml:id="p7-14"/>〈tamquam hoc aliquid〉 significamus, haec significatio substantiae
             <lb n="16" xml:id="p7-15"/>tantum debetur. inter substantias autem materia remotissima
             <lb n="17" xml:id="p7-16"/>ab eo est, ut sit hoc aliquid. nam materia ex sui natura est informis,
             <lb n="18" xml:id="p7-17"/>nisi quod est quodpiam optans, hoc aliquid apparere et inter<note type="apparatus" n="18" target="#p7-17">inter—numerari (19)] textus hebr. vix permittit, ut vertas cum F: et substantia numerabilis esse, licet similem invenias sententiam apud Arist. 190b</note>
@@ -479,9 +479,9 @@
             <lb n="30" xml:id="p11-29"/>Et est manifestum, quod est substantia. nam est initium substantiae;
             <lb n="31" xml:id="p11-30"/>at nihil initium est substantiae nisi substantia. et ipsum
             <lb n="32" xml:id="p11-31"/>tum substantiae initium sine dubio, tum principium erit omnium
-            <lb n="33" xml:id="p11-32"/>eorum, quae sunt; cetera namque entia nisi affectus qualitates motus-<note type="apparatus" n="33" target="#p11-32">sunt BCF: segregantur AD</note>
-            <lb n="34" xml:id="p11-33"/>que substantiae non existunt, ut superius probatum est. at quae-<note type="apparatus" n="34" target="#p11-33">superius] Z 1</note>
-            <lb n="35" xml:id="p11-34"/>rendum de hac substantia, quae universum hoc corpus movet, quid
+            <lb n="33" xml:id="p11-32"/>eorum, quae sunt; cetera namque entia nisi affectus qualitates motusque<note type="apparatus" n="33" target="#p11-32">sunt BCF: segregantur AD</note>
+            <lb n="34" xml:id="p11-33"/>substantiae non existunt, ut superius probatum est. at quaerendum<note type="apparatus" n="34" target="#p11-33">superius] Z 1</note>
+            <lb n="35" xml:id="p11-34"/>de hac substantia, quae universum hoc corpus movet, quid
             <lb n="36" xml:id="p11-35"/>sit. utrum anima ponenda est an intellectus an quid aliud ab his<note type="apparatus" n="36" target="#p11-35">anima—intellectus] corpus ponendum est aut anima C²</note>
             <lb n="37" xml:id="p11-36"/>ambobus diversum? sed cauti esse debemus, ne accidens aliquod<note type="apparatus" n="37" target="#p11-36">sed F: aut BC: cum AC; ad verbum: cum cauti providique simus</note>
             <lb n="38" xml:id="p11-37"/>de primo principio praedicemus ex his, inquam, quae cetera entia
@@ -512,8 +512,8 @@
             <lb n="21" xml:id="p12-20"/>proximae, quas sequuntur remotiores. proxima causa est ut pater,
             <lb n="22" xml:id="p12-21"/>sol vero remotior est, sole adhuc remotior est circulus declivis.
             <lb n="23" xml:id="p12-22"/>quae quidem causae non sunt ad modum materiae rei generabilis
-            <lb n="24" xml:id="p12-23"/>aut formae aut privationis, sed motrices sunt; nec con-<note type="apparatus" n="24" target="#p12-23">nec-forma (25)] οὔτε ὁμοειδές Ar. 17; verba οὔτε ὕλη ὄντα et seq. ad solem et circulum declivem tantum referuntur.</note>
-            <lb n="25" xml:id="p12-24"/>veniunt in forma neque proximae sunt ut pater, sed remotiores
+            <lb n="24" xml:id="p12-23"/>aut formae aut privationis, sed motrices sunt; nec conveniunt<note type="apparatus" n="24" target="#p12-23">nec-forma (25)] οὔτε ὁμοειδές Ar. 17; verba οὔτε ὕλη ὄντα et seq. ad solem et circulum declivem tantum referuntur.</note>
+            <lb n="25" xml:id="p12-24"/>in forma neque proximae sunt ut pater, sed remotiores
             <lb n="26" xml:id="p12-25"/>et in agendo fortiores. nam principia proximarum quoque causarum
             <lb n="27" xml:id="p12-26"/>sunt.
             <lb n="28" xml:id="p12-27"/>Amplius, dum quaerimus de prima causa, cernere oportet causarum
@@ -552,8 +552,8 @@
             <lb n="16" xml:id="p13-15"/>alterationi aut mutationi, sed continuo in suo statu permaneat. et<note type="apparatus" n="16" target="#p13-15">sed—permaneat om. F</note>
             <lb n="17" xml:id="p13-16"/>saepe diximus hoc principium non posse demonstratione cognosci.
             <lb n="18" xml:id="p13-17"/>demonstratio enim ex principiis et causis constat, prima autem
-            <lb n="19" xml:id="p13-18"/>causa, hoc est primum principium, nec causam ante se nec prin-<note type="apparatus" n="19" target="#p13-18">hoc—principium om. CD</note>
-            <lb n="20" xml:id="p13-19"/>cipium habet. sed quod volumus, hoc pacto fortasse consequemur,
+            <lb n="19" xml:id="p13-18"/>causa, hoc est primum principium, nec causam ante se nec principium<note type="apparatus" n="19" target="#p13-18">hoc—principium om. CD</note>
+            <lb n="20" xml:id="p13-19"/>habet. sed quod volumus, hoc pacto fortasse consequemur,
             <lb n="21" xml:id="p13-20"/>considerando duo necessario inesse primo omnium principio: unum
             <lb n="22" xml:id="p13-21"/>quod est aeternum, alterum quod est immobile. separemus igitur
             <lb n="23" xml:id="p13-22"/>haec et de utroque singillatim disputemus. et primo numquid detur
@@ -606,8 +606,8 @@
             <lb n="26" xml:id="p14-25"/>motum excitaverit. nam quidquid fit, ab eo tantum fit, nihil
             <lb n="27" xml:id="p14-26"/>externum impedit eum, nihil incitat. neque possumus dicere: prius
             <lb n="28" xml:id="p14-27"/>non poterat movere et mox potuit; nam sequeretur eum mutationem
-            <lb n="29" xml:id="p14-28"/>subire et aliquid praeter eum existere, quod mutaret. quodsi quis con-
-            <lb n="30" xml:id="p14-29"/>tendat eum impeditum esse, praeterquam quod vilipendit, dum aliud
+            <lb n="29" xml:id="p14-28"/>subire et aliquid praeter eum existere, quod mutaret. quodsi quis contendat
+            <lb n="30" xml:id="p14-29"/>eum impeditum esse, praeterquam quod vilipendit, dum aliud
             <lb n="31" xml:id="p14-30"/>praeter ipsum inducit, adhuc eum magis vilipendit, <milestone type="alt-edition" unit="folio" ed="Finzi 1558" n="10"/> cum necessario
             <lb n="32" xml:id="p14-31"/>hoc impediens sit eo valentius. praeterea qui fieri potest, ut haec causa
             <lb n="33" xml:id="p14-32"/>infinito tempore inhibuerit, tandem vero eum absolverit? hoc certe esse
@@ -686,8 +686,8 @@
             <lb n="19" xml:id="p16-18"/>actum natura priorem inveniemus; ipse namque potentiam extrahit
             <lb n="20" xml:id="p16-19"/>atque movet. potentiam autem praecedere actum statuerunt antiqui
             <lb n="21" xml:id="p16-20"/>theologi, qui generabant mundum ex tenebris et aere — ut dicebat<note type="apparatus" n="21" target="#p16-20">aere] luce C i. t.; i. m. laudatur Av., qui iure chao exhibet; cf. initium cap. 7</note>
-            <lb n="22" xml:id="p16-21"/>Hesiodus — itemque physici, qui materiam omnia procedere asse-<note type="apparatus" n="22" target="#p16-21">Hesiodus] Sinodes sive Sudes codd.: Dinodes Av.</note>
-            <lb n="23" xml:id="p16-22"/>verabant — veluti qui ponebant omnia simul esse vel particulas
+            <lb n="22" xml:id="p16-21"/>Hesiodus — itemque physici, qui materiam omnia procedere asseverabant<note type="apparatus" n="22" target="#p16-21">Hesiodus] Sinodes sive Sudes codd.: Dinodes Av.</note>
+            <lb n="23" xml:id="p16-22"/>— veluti qui ponebant omnia simul esse vel particulas
             <lb n="24" xml:id="p16-23"/>illas insectiles atque infinitas dari multaque alia — communis
             <lb n="25" xml:id="p16-24"/>vero error eorum est, quod adscribunt materiam huic honorabili
             <lb n="26" xml:id="p16-25"/>ac universali principio. sed quomodo materies movebitur,
@@ -876,8 +876,8 @@
             <lb n="35" xml:id="p20-34"/>quam optat, quam potest perfectissime acquirit; quemadmodum
             <lb n="36" xml:id="p20-35"/>principis vicarius nonnihil regiae dignitatis sibi acquirit, quippe qui
             <lb n="37" xml:id="p20-36"/>regi propinquus sit, non loco, sed natura. post motum autem caeli,
-            <lb n="38" xml:id="p20-37"/>qui primus motus est, sequitur motus planetarum, deinde genera-<note type="apparatus" n="38" target="#p20-37">ante planetarum add. inerrantium stellarum et motus AB et C i. m.</note><milestone type="alt-edition" unit="folio" ed="Finzi 1558" n="14"/>
-            <lb n="39" xml:id="p20-38"/>bilia et corruptibilia. et natura ipsa multorum est motuum, non
+            <lb n="38" xml:id="p20-37"/>qui primus motus est, sequitur motus planetarum, deinde generabilia<note type="apparatus" n="38" target="#p20-37">ante planetarum add. inerrantium stellarum et motus AB et C i. m.</note><milestone type="alt-edition" unit="folio" ed="Finzi 1558" n="14"/>
+            <lb n="39" xml:id="p20-38"/>et corruptibilia. et natura ipsa multorum est motuum, non
             <lb n="40" xml:id="p20-39"/>modo secundum locum, ut motus est divinorum corporum, sed etiam
           </p>
           <pb n="21" facs="https://archive.org/download/commentariaina05pt46akaduoft/page/n478.jpg"/>
@@ -910,8 +910,8 @@
             <lb n="26" xml:id="p21-25"/>quamobrem valde distat a potentia.
             <lb n="27" xml:id="p21-26"/>Necessitate igitur est ens. illud vero initium, quod hoc
             <lb n="28" xml:id="p21-27"/>pacto necessarium est, id vere initium est. nam quod non
-            <lb n="29" xml:id="p21-28"/>contingit mutari et non mutari, id necessario est et est ens. neces-<note type="apparatus" n="29" target="#p21-28">et non mutari om. C</note>
-            <lb n="30" xml:id="p21-29"/>sarium enim tribus modis dicitur. primo id, quod est coactum,
+            <lb n="29" xml:id="p21-28"/>contingit mutari et non mutari, id necessario est et est ens. necessarium<note type="apparatus" n="29" target="#p21-28">et non mutari om. C</note>
+            <lb n="30" xml:id="p21-29"/>enim tribus modis dicitur. primo id, quod est coactum,
             <lb n="31" xml:id="p21-30"/>propterea quod est praeter voluntatem; secundo id, sine
             <lb n="32" xml:id="p21-31"/>quo res non optime se habet; tertio id, quod aliter se habere
             <lb n="33" xml:id="p21-32"/>omnino non potest. ex tali necessario caelum et natura
@@ -934,8 +934,8 @@
             <lb n="5" xml:id="p22-4"/>otio languere, et sensus suavior est eius privatione et intellectus
             <lb n="6" xml:id="p22-5"/>ignorantia, protrahitur excellentia illius intellectus in gloriam et
             <lb n="7" xml:id="p22-6"/>comprehendendi dignitatem infinitam. nam quod actu est, in omnibus
-            <lb n="8" xml:id="p22-7"/>suavius est eo, quod potestate, idque naturae est cordi. qua-<note type="apparatus" n="8-9" target="#p22-7 #p22-8">quapropter] (διὰ) τοῦτο loco ταῦτα b 18</note>
-            <lb n="9" xml:id="p22-8"/>propter spes iucundissima habetur; nam optat, quod potestate est,<note type="apparatus" n="9" target="#p22-8">optat incertum</note>
+            <lb n="8" xml:id="p22-7"/>suavius est eo, quod potestate, idque naturae est cordi. quapropter<note type="apparatus" n="8-9" target="#p22-7 #p22-8">quapropter] (διὰ) τοῦτο loco ταῦτα b 18</note>
+            <lb n="9" xml:id="p22-8"/>spes iucundissima habetur; nam optat, quod potestate est,<note type="apparatus" n="9" target="#p22-8">optat incertum</note>
             <lb n="10" xml:id="p22-9"/>ad actum reduci; memoria quoque non est potestatis, sed actus.
             <lb n="11" xml:id="p22-10"/>cum igitur id, quod potentiam et actum habet, maiorem in actu
             <lb n="12" xml:id="p22-11"/>oblectationem consequitur, quamnam habebit proportionem laetitia
@@ -969,8 +969,8 @@
           </p>
           <pb n="23" facs="https://archive.org/download/commentariaina05pt46akaduoft/page/n480.jpg"/>
           <p>
-            <lb n="1" xml:id="p23-0"/>totus totum amplectitur; et tunc intellectus simul est et intelle-<note type="apparatus" n="1" target="#p23-0">totus—amplectitur] est omnium vestimentum, et ab eo omnia manant F</note>
-            <lb n="2" xml:id="p23-1"/>gibile. neque proinde sicut sensus non est idem quod sensibile,
+            <lb n="1" xml:id="p23-0"/>totus totum amplectitur; et tunc intellectus simul est et intellegibile.<note type="apparatus" n="1" target="#p23-0">totus—amplectitur] est omnium vestimentum, et ab eo omnia manant F</note>
+            <lb n="2" xml:id="p23-1"/>neque proinde sicut sensus non est idem quod sensibile,
             <lb n="3" xml:id="p23-2"/>quandoquidem imprimitur forma eius, substantia autem manet extra,
             <lb n="4" xml:id="p23-3"/>ita intellectus et ipse sese habet ad intellegibilia, quae per se insunt
             <lb n="5" xml:id="p23-4"/>ei; immo ipse fert omnes formas, nec ulla substantia foris remanet,
@@ -1068,8 +1068,8 @@
             <lb n="12" xml:id="p25-11"/>quodsi hoc potestate haberent, ut habent corpus et magnitudo, nec
             <lb n="13" xml:id="p25-12"/>perseverassent in actu, et fatigarentur procul dubio et quiete egerent.
             <lb n="14" xml:id="p25-13"/>nam stellarum corpora, ob insitam potestatem, potentias habent
-            <lb n="15" xml:id="p25-14"/>finitas; diversis enim temporibus in alio et alio loco sunt, quando-<note type="apparatus" n="15-16" target="#p25-14 #p25-15">quandoque —illic om. F</note>
-            <lb n="16" xml:id="p25-15"/>que sunt hic, quandoque illic. haec autem loca quasi motuum termini
+            <lb n="15" xml:id="p25-14"/>finitas; diversis enim temporibus in alio et alio loco sunt, quandoque<note type="apparatus" n="15-16" target="#p25-14 #p25-15">quandoque —illic om. F</note>
+            <lb n="16" xml:id="p25-15"/>sunt hic, quandoque illic. haec autem loca quasi motuum termini
             <lb n="17" xml:id="p25-16"/>sunt. impossibile namque est potentiam, quam sequatur actus, quem
             <lb n="18" xml:id="p25-17"/>ipsa appetat, finem ac terminum non habere; sed causa, quae est
             <lb n="19" xml:id="p25-18"/>potentiae omnino expers et actus continuus et omni tempore invariabilis,
@@ -1098,11 +1098,11 @@
             <lb n="38" xml:id="p25-37"/>ideas numeros esse inquiunt, interdum in infinitum eas extendunt,
             <lb n="39" xml:id="p25-38"/>interdum earum finem denarium ponunt numerum. nobis autem
             <lb n="40" xml:id="p25-39"/>est dicendum ex hisce, quae praemissa sunt atque determinata,
-            <lb n="41" xml:id="p25-40"/>primum principium unum esse non permixtum materiae, incor-
+            <lb n="41" xml:id="p25-40"/>primum principium unum esse non permixtum materiae, incorporeum,
           </p>
           <pb n="26" facs="https://archive.org/download/commentariaina05pt46akaduoft/page/n483.jpg"/>
           <p>
-            <lb n="1" xml:id="p26-0"/>poreum, primo motu continuo et perpetuo movens, omnis
+            <lb n="1" xml:id="p26-0"/>primo motu continuo et perpetuo movens, omnis
             <lb n="2" xml:id="p26-1"/>motionis atque mutationis immune. quod autem plures sunt substantiae
             <lb n="3" xml:id="p26-2"/>post hoc primum principium, quae hoc pacto sunt, id
             <lb n="4" xml:id="p26-3"/>invenitur ex ratiocinatione, et sensus attestatur. [nam] omne,
@@ -1115,8 +1115,8 @@
             <lb n="11" xml:id="p26-10"/>namque stellarum substantia quaedam perpetua est, ac id,<note type="apparatus" n="11" target="#p26-10">perpetua F: om. codd.</note>
             <lb n="12" xml:id="p26-11"/>quod eas movet, perpetuum est. prius enim est moto; quod
             <lb n="13" xml:id="p26-12"/>autem prius substantia est, substantia necessario est.
-            <lb n="14" xml:id="p26-13"/>multitudinem autem virtutum ex illa scientia, quae philoso-<note type="apparatus" n="14" target="#p26-13">virtutum] φορῶν Ar. b 4</note>
-            <lb n="15" xml:id="p26-14"/>phiae familiaris [sima] est, ex astrologia, considerare oportet.<note type="apparatus" n="15" target="#p26-14">familiaris(sima)] cf. infra</note>
+            <lb n="14" xml:id="p26-13"/>multitudinem autem virtutum ex illa scientia, quae philosophiae<note type="apparatus" n="14" target="#p26-13">virtutum] φορῶν Ar. b 4</note>
+            <lb n="15" xml:id="p26-14"/>familiaris [sima] est, ex astrologia, considerare oportet.<note type="apparatus" n="15" target="#p26-14">familiaris(sima)] cf. infra</note>
             <lb n="16" xml:id="p26-15"/>haec enim de numero motuum, quibus unaquaeque errantium
             <lb n="17" xml:id="p26-16"/>stellarum movetur, ac de numero orbium eas deferentium contemplationem
             <lb n="18" xml:id="p26-17"/>facit. numerus vero orbium deferentium stellas diversus<note type="apparatus" n="18" target="#p26-17">deferentium stellas F: qui stellas sustinent numerusque orbium qui eas regunt codd.</note>
@@ -1354,11 +1354,11 @@
             <lb n="39" xml:id="p31-38"/>ea puncto temporis, quod dimetiri non possumus, intellegit, tunc
             <lb n="40" xml:id="p31-39"/>quaestio revertitur, qua quaerebatur, utrum unum intellegibile perficiat
             <lb n="41" xml:id="p31-40"/>intellectum suum, an non perficiat maneatque imperfectus.
-            <lb n="42" xml:id="p31-41"/>praeterea impossibile est in natura omnia simul intellegi; in quibus-<note type="apparatus" n="42" target="#p31-41">praeterea et sq.] Aver. p. 336 M</note>
+            <lb n="42" xml:id="p31-41"/>praeterea impossibile est in natura omnia simul intellegi; in quibusdam<note type="apparatus" n="42" target="#p31-41">praeterea et sq.] Aver. p. 336 M</note>
           </p>
           <pb n="32" facs="https://archive.org/download/commentariaina05pt46akaduoft/page/n489.jpg"/>
           <p>
-            <lb n="1" xml:id="p32-0"/>dam fieri sane potest, in omnibus vero minime. idcirco ob
+            <lb n="1" xml:id="p32-0"/>fieri sane potest, in omnibus vero minime. idcirco ob
             <lb n="2" xml:id="p32-1"/>haec inepta a sermone illo abstinendum est, intellectum primum
             <lb n="3" xml:id="p32-2"/>semper omnia intellegere, ea autem multa esse, sed intellectio
             <lb n="4" xml:id="p32-3"/>eius tantummodo unius rei est, et haec res in summa existit
@@ -1472,8 +1472,8 @@
         </div>
         <div type="textpart" subtype="section" n="10">
           <p>
-            <lb n="23" xml:id="p34-22"/>At considerandum etiam hoc est, numquid bonum et quod prae-<note type="apparatus" n="23" target="#p34-22">numquid sq. locus corruptus</note>
-            <lb n="24" xml:id="p34-23"/>stantissimum est differant; utrum definitum quiddam unumquodque<note type="apparatus" n="24" target="#p34-23">utrum emendavit F: aut codd.</note>
+            <lb n="23" xml:id="p34-22"/>At considerandum etiam hoc est, numquid bonum et quod praestantissimum<note type="apparatus" n="23" target="#p34-22">numquid sq. locus corruptus</note>
+            <lb n="24" xml:id="p34-23"/>est differant; utrum definitum quiddam unumquodque<note type="apparatus" n="24" target="#p34-23">utrum emendavit F: aut codd.</note>
             <lb n="25" xml:id="p34-24"/>eorum, separatum ab alio sit, an differentia inter utrumque in<note type="apparatus" n="25" target="#p34-24">an scripsi: et codd.</note>
             <lb n="26" xml:id="p34-25"/>ordine tantum consistat. manifesto utroque modo fit perinde atque in<note type="apparatus" n="26" target="#p34-25">manifesto] ad verbum: per deum invisibilem</note>
             <lb n="27" xml:id="p34-26"/>exercitu. nam bonum quoque exercitus in ordine atque aequalitate
@@ -1493,8 +1493,8 @@
           <pb n="35" facs="https://archive.org/download/commentariaina05pt46akaduoft/page/n492.jpg"/>
           <p>
             <lb n="1" xml:id="p35-0"/>ordinata. sed perinde atque in administratione domus liberis
-            <lb n="2" xml:id="p35-1"/>minime licet <milestone type="alt-edition" unit="folio" ed="Finzi 1558" n="23"/> quidvis facere, servi autem et beluae non-<note type="apparatus" n="2" target="#p35-1">minime F Aristotelem secutus: non .. praeter modum (facere) codd.</note>
-            <lb n="3" xml:id="p35-2"/>nullae pauca sane ad totum conferentia faciunt, pleraque
+            <lb n="2" xml:id="p35-1"/>minime licet <milestone type="alt-edition" unit="folio" ed="Finzi 1558" n="23"/> quidvis facere, servi autem et beluae nonnullae<note type="apparatus" n="2" target="#p35-1">minime F Aristotelem secutus: non .. praeter modum (facere) codd.</note>
+            <lb n="3" xml:id="p35-2"/>pauca sane ad totum conferentia faciunt, pleraque
             <lb n="4" xml:id="p35-3"/>ex accidente [agunt]. natura namque cuiusque [ipsorum]
             <lb n="5" xml:id="p35-4"/>et principium tale est in mundo; nempe circulatio stellarum et
             <lb n="6" xml:id="p35-5"/>earum perseverantia in certo ordine atque dispositione est et ita caelestia

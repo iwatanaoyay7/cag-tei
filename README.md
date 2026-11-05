@@ -60,10 +60,6 @@ Naoya Iwata (responsible for the edition); Tomomi Nakayama (structure of the tex
 Xiaoyun SHI, Xingyu ZHOU and Itsuki AOU checked the OCR and the line numbers; Xiaoyun SHI and Itsuki AOU also
 carried out the accuracy evaluation.
 
-## Funding
-
-This work was supported by JST BOOST, Japan, Grant Number JPMJBY24B0.
-
 ## Licence
 
 The printed edition (1882–1909) is in the public domain. The transcription and encoding in this repository are

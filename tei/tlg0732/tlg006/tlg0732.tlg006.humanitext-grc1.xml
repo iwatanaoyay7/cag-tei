@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" version="4.12.0">
   <teiHeader>
     <fileDesc>
       <titleStmt><title>Alexander, In Aristotelis Topicorum Libros Octo Commentaria (CAG 02.2)</title><respStmt><resp>Responsible for the edition</resp><persName xml:id="NI" xml:lang="en">Naoya Iwata</persName></respStmt><respStmt><resp>Structuring of the text (division into chapters, sections and lemmata) and its review</resp><persName xml:id="TN" xml:lang="en">Tomomi Nakayama</persName></respStmt></titleStmt>
@@ -18,7 +18,7 @@
         <p>Text transcribed by OCR (Humanitext OCR v2, Gemini models) from the scans named in the source description. Structure (div, quote, head): assigned automatically from printed cues (Bekker references before lemmata, section numbers, headings, book titles, lecture headings; in the paraphrases, Aristotle's chapters located from the running heads) and reviewed by the editors at every boundary that was not certain. In works divided into lectures (Πρᾶξις, Θεωρία) the lectures are divs; topic headings that run across lectures (e.g. Περὶ οὐσίας) are marked milestone[@unit='topic'] and kept as text. Text: OCR of the page images (gemini-3-flash-preview; gemini-3.7-flash where it failed), collated word by word, page by page and in five-line blocks, with the First1KGreek transcription of the same edition (tlg0732.tlg006.1st1K-grc1). Lines on which the two disagreed, lines without a First1KGreek counterpart and lines containing a word form not attested in a Greek form lexicon (about two fifths of the lines) were read again from images of the single lines by a second model (gemini-3.8-flash); words still undecided were read line by line by a third model (gemini-3.1-pro-preview). A reading was adopted when the re-reading of the image agreed with it; the remaining words were decided on the page image by student assistants or by AI-assisted checking under the editor's supervision. Lines on which the OCR agreed word for word with First1KGreek and whose words are all attested were not re-read. No text was copied from First1KGreek (Open Greek and Latin Project, University of Leipzig; CC BY-SA 4.0): it served only as a collation witness, and every disagreement was decided from the page image of this edition. Spelling, accents and breathings follow the printed page: the models were instructed to transcribe exactly as printed and the checkers chose the printed form, but a normalised accentuation adopted by a model may occasionally remain. Later checks against the page images (line numbers, marginal references, signs and apparatus, omitted lines) are listed in the revision description. Headings inside a div (sub-headings, closing formulas, labels of tables) are ab[@type='head']. The words of diagrams and tables are not body text: each diagram or table is given once as figure after the last body line printed before it (labels, trees and tables transcribed; pure geometry described in figDesc); where the edition counts the rows of a diagram or table as lines, those line numbers are not used by any lb. Evident misprints of the printed edition, identified on the page image, are kept and given with the correct form as choice/sic/corr; mere variants of spelling or accentuation are left as printed. Misprinted numbers in milestones (Bekker references, old-edition page, folio, column and line numbers), which cannot carry choice/sic/corr, are given with the corrected value where the sequence of the numbers determines it (here: the Aldine line 40 at p. 499.11 (printed 30)). Line breaks: one lb per printed line; @n is the line count of the CAG page (headings included), resynchronised on the printed marginal numbers of the left margin; lines the edition does not count carry lb without @n. Words hyphenated across lines are joined and the lb is placed at the following word boundary. pb/@facs points to the image of the page in the Internet Archive item named in the source description (BookReader page image; for pages supplied from another copy, that copy). Critical-apparatus entries are attached to the line(s) they cite as note[@type='apparatus'] with @target on the lb (line level; the lemma words of an entry are not linked); entries that cannot be resolved remain as note[@type='footnote'] at the page end. References in the margins to older editions or manuscripts are milestone[@type='alt-edition'] with @unit and @ed (the edition identified from the preface of the volume); CAG's repetition of the current old-edition page or folio beside the first line of each page is not encoded. Bekker references printed before lemmata are milestone[@unit='bekker']. Marginal digits fused into the text by OCR have been removed.</p>
       </editorialDecl>
     </encodingDesc>
-    <revisionDesc><change when="2026-09-15" who="#NI">OCR of the page images in text mode (gemini-3-flash-preview; gemini-3.7-flash where it failed); body lines aligned to the physical lines of the page image; physical lines left without an OCR line read again (31 lines recovered in the corpus).</change><change when="2026-09-24" who="#NI">Line numbers anchored on the printed marginal numerals; 75 doubtful pages of the corpus checked by eye.</change><change when="2026-09-25" who="#NI">Automatic division into chapters, sections and lemmata; 459 uncertain boundaries of the corpus reviewed (273 removed, 119 added).</change><change from="2026-09-26" to="2026-09-29" who="#NI">Line numbers verified against the printed marginal numerals of every page (67,352 of 70,149 numerals agreed); page-wide shifts corrected automatically (322 pages on 2026-09-26, 129 on 2026-09-28); 227 pages reviewed by student assistants (176 corrected).</change><change from="2026-09-30" to="2026-10-02" who="#NI">Text collated with First1KGreek where a First1KGreek file could be aligned by page and line, and re-read (Gemini Batch API): 156,504 lines of the corpus by gemini-3.8-flash, 21,570 lines by gemini-3.1-pro-preview; remaining words put on review sheets.</change><change from="2026-09-30" to="2026-10-12" who="#NI">Review sheets of the re-read words answered by student assistants; the remaining words decided on the page images.</change><change from="2026-10-01" to="2026-10-08" who="#TN">All uncertain structural boundaries reviewed; conventions of the pilot works applied (lectures, book titles, topic headings).</change><change when="2026-10-02" who="#NI">Evident misprints given as choice/sic/corr; headings inside divs as ab[@type='head'].</change><change when="2026-10-13" who="#NI">Margin references to older editions and manuscripts encoded as milestone[@type='alt-edition'][@ed], the editions identified from the prefaces; irregular sequences checked on the page images.</change><change from="2026-10-13" to="2026-10-14" who="#NI">Body text lost to the footnote and figure areas found by collation from the First1KGreek side and restored (about 2,300 lines in the corpus); passages missed by the OCR read again and inserted; restored and inserted lines checked again against the images.</change><change when="2026-10-14" who="#NI">Text of diagrams encoded as figure, and lemma Bekker references whose numbers the OCR had lost read from the images (where the work has them).</change><change when="2026-10-16" who="#NI">Line numbers of the 875 pages left by the verification checked on the images (248 of them also answered by student assistants), followed by a continuity check of every page; margin references to older editions checked on 2,237 page images (944 corrections).</change><change when="2026-10-17" who="#NI">Pages whose line numbering still had gaps or repeats checked on the images (355 pages); signs (〈 〉 [ ] † * — ( )) compared with First1KGreek and 445 pages checked on the images (313 corrections in the text, 523 in the apparatus); words hyphenated across lines joined; punctuation normalised.</change><change when="2026-10-20" who="#NI">Header revised (title, source description, editorial declaration, revision description); misprinted old-edition line numbers given with the corrected value where the sequence determines them; breathings and accents written as separate signs before capitals composed with the letter; missing elision marks after ἀλλ, κατ, καθ, ἐπ, δι etc. supplied in the text; numbers left at line starts removed or encoded as old-edition milestones (image checked); working row identifiers left in 37 lines removed (one line restored from the page image); words divided at a line end that had been joined to a word two lines down corrected; every body line without a line number checked on the page images (margin labels and folio marks read as lines dropped, duplicated rows removed, numbers given to lines the edition counts); numeral signs unified as ʹ (U+0374, stored in its NFC form U+02B9); line-number jumps, old-edition milestones without an edition name and notes suspected to hold body text checked on the page images; citation by printed page and line declared (refsDecl); line coordinates of the working files realigned on the marginal numerals; printers' signatures at the foot of the page removed from the apparatus; apparatus entries for two lines joined by et kept as one note pointing at both lines; page images linked from pb/@facs.</change><change when="2026-10-21" who="#NI">Old-edition line numbers checked on the page images where the sequence skipped a number (2,100 places in the corpus) and, page by page, where it was irregular (542 pages): numbers missed by the OCR added (549), milestones not printed on the page dropped (190; mostly the CAG's own left-margin numbers or line references of the apparatus taken for old-edition numbers), misplaced ones moved (69), misread values corrected (31), page numbers taken for line numbers made page milestones (8); the edition's own skips and out-of-order numbers left as printed, the line count printed beside the repeated page or folio at the head of a page not encoded (like the repetition).</change><change when="2026-10-23" who="#NI">Quotation marks made uniform: opening single and double quotation marks, printed in the edition in the reversed (high-reversed-9) form, are encoded as ‘ and “, closing ones as ’ and ”, single and double kept as printed; opening marks read by the OCR as straight quotes, low quotes or spacing breathings, and spacing breathings or quotation marks doubled before a capital that already bears its breathing, corrected.</change></revisionDesc>
+    <revisionDesc><change when="2026-09-15" who="#NI">OCR of the page images in text mode (gemini-3-flash-preview; gemini-3.7-flash where it failed); body lines aligned to the physical lines of the page image; physical lines left without an OCR line read again (31 lines recovered in the corpus).</change><change when="2026-09-24" who="#NI">Line numbers anchored on the printed marginal numerals; 75 doubtful pages of the corpus checked by eye.</change><change when="2026-09-25" who="#NI">Automatic division into chapters, sections and lemmata; 459 uncertain boundaries of the corpus reviewed (273 removed, 119 added).</change><change from="2026-09-26" to="2026-09-29" who="#NI">Line numbers verified against the printed marginal numerals of every page (67,352 of 70,149 numerals agreed); page-wide shifts corrected automatically (322 pages on 2026-09-26, 129 on 2026-09-28); 227 pages reviewed by student assistants (176 corrected).</change><change from="2026-09-30" to="2026-10-02" who="#NI">Text collated with First1KGreek where a First1KGreek file could be aligned by page and line, and re-read (Gemini Batch API): 156,504 lines of the corpus by gemini-3.8-flash, 21,570 lines by gemini-3.1-pro-preview; remaining words put on review sheets.</change><change from="2026-09-30" to="2026-10-12" who="#NI">Review sheets of the re-read words answered by student assistants; the remaining words decided on the page images.</change><change from="2026-10-01" to="2026-10-08" who="#TN">All uncertain structural boundaries reviewed; conventions of the pilot works applied (lectures, book titles, topic headings).</change><change when="2026-10-02" who="#NI">Evident misprints given as choice/sic/corr; headings inside divs as ab[@type='head'].</change><change when="2026-10-13" who="#NI">Margin references to older editions and manuscripts encoded as milestone[@type='alt-edition'][@ed], the editions identified from the prefaces; irregular sequences checked on the page images.</change><change from="2026-10-13" to="2026-10-14" who="#NI">Body text lost to the footnote and figure areas found by collation from the First1KGreek side and restored (about 2,300 lines in the corpus); passages missed by the OCR read again and inserted; restored and inserted lines checked again against the images.</change><change when="2026-10-14" who="#NI">Text of diagrams encoded as figure, and lemma Bekker references whose numbers the OCR had lost read from the images (where the work has them).</change><change when="2026-10-16" who="#NI">Line numbers of the 875 pages left by the verification checked on the images (248 of them also answered by student assistants), followed by a continuity check of every page; margin references to older editions checked on 2,237 page images (944 corrections).</change><change when="2026-10-17" who="#NI">Pages whose line numbering still had gaps or repeats checked on the images (355 pages); signs (〈 〉 [ ] † * — ( )) compared with First1KGreek and 445 pages checked on the images (313 corrections in the text, 523 in the apparatus); words hyphenated across lines joined; punctuation normalised.</change><change when="2026-10-20" who="#NI">Header revised (title, source description, editorial declaration, revision description); misprinted old-edition line numbers given with the corrected value where the sequence determines them; breathings and accents written as separate signs before capitals composed with the letter; missing elision marks after ἀλλ, κατ, καθ, ἐπ, δι etc. supplied in the text; numbers left at line starts removed or encoded as old-edition milestones (image checked); working row identifiers left in 37 lines removed (one line restored from the page image); words divided at a line end that had been joined to a word two lines down corrected; every body line without a line number checked on the page images (margin labels and folio marks read as lines dropped, duplicated rows removed, numbers given to lines the edition counts); numeral signs unified as ʹ (U+0374, stored in its NFC form U+02B9); line-number jumps, old-edition milestones without an edition name and notes suspected to hold body text checked on the page images; citation by printed page and line declared (refsDecl); line coordinates of the working files realigned on the marginal numerals; printers' signatures at the foot of the page removed from the apparatus; apparatus entries for two lines joined by et kept as one note pointing at both lines; page images linked from pb/@facs.</change><change when="2026-10-21" who="#NI">Old-edition line numbers checked on the page images where the sequence skipped a number (2,100 places in the corpus) and, page by page, where it was irregular (542 pages): numbers missed by the OCR added (549), milestones not printed on the page dropped (190; mostly the CAG's own left-margin numbers or line references of the apparatus taken for old-edition numbers), misplaced ones moved (69), misread values corrected (31), page numbers taken for line numbers made page milestones (8); the edition's own skips and out-of-order numbers left as printed, the line count printed beside the repeated page or folio at the head of a page not encoded (like the repetition).</change><change when="2026-10-23" who="#NI">Quotation marks made uniform: opening single and double quotation marks, printed in the edition in the reversed (high-reversed-9) form, are encoded as ‘ and “, closing ones as ’ and ”, single and double kept as printed; opening marks read by the OCR as straight quotes, low quotes or spacing breathings, and spacing breathings or quotation marks doubled before a capital that already bears its breathing, corrected.</change><change when="2026-11-05" who="#NI">Apparatus entries printed out of numerical order (e.g. 33 … 32) separated from the preceding entry; words hyphenated across lines joined in Latin text as in Greek; words mixing Greek and Latin letters (OCR errors, about 130, including manuscript sigla) corrected on the page images; marginal folio marks left in the text removed; validated against TEI P5 version 4.12.0 (recorded in TEI/@version).</change></revisionDesc>
   </teiHeader>
   <text>
     <body>
@@ -51,8 +51,8 @@
             <p>
               <lb n="1" xml:id="p2-0"/>αὐτοῦ οὐ ταὐτὰ περὶ τῆς διαλεκτικῆς φέρουσιν, ἀλλὰ τίθενται μὲν αὐτὴν<note type="apparatus" n="1" target="#p2-0">ταῦτα ap</note>
               <lb n="2" xml:id="p2-1"/>μέθοδόν τινα εἶναι συλλογιστικήν, ἡγούμενοι δὲ τὸν συλλογισμόν, καθ’ ὃ συλλογισμός<note type="apparatus" n="2" target="#p2-1">ἡγούμενοι δὲ] excipit p. 3,</note>
-              <lb n="3" xml:id="p2-2"/>ἐστι, μηδὲν ἄλλον ἄλλου διαφέρειν, εἶναι δὲ αὐτῶν τὴν διαφορὰν
-              <lb n="4" xml:id="p2-3"/>τὴν μὲν κατὰ τὰ εἴδη τῶν προτάσεων, τὴν δὲ κατὰ τοὺς τρόπους καὶ τὰ<note type="apparatus" n="4" target="#p2-3">φέροντες δὲ συλλογισμὸν d 3 ἐστι, μηδὲν] spatium vacuum reliquit d αὐτῶ B</note>
+              <lb n="3" xml:id="p2-2"/>ἐστι, μηδὲν ἄλλον ἄλλου διαφέρειν, εἶναι δὲ αὐτῶν τὴν διαφορὰν<note type="apparatus" n="3" target="#p2-2">ἐστι, μηδὲν] spatium vacuum reliquit d αὐτῶ B</note>
+              <lb n="4" xml:id="p2-3"/>τὴν μὲν κατὰ τὰ εἴδη τῶν προτάσεων, τὴν δὲ κατὰ τοὺς τρόπους καὶ τὰ<note type="apparatus" n="4" target="#p2-3">φέροντες δὲ συλλογισμὸν d</note>
               <lb n="5" xml:id="p2-4"/>σχήματα, τὴν δὲ κατὰ τὴν ὕλην περὶ ἥν εἰσιν, ὧν ἡ μὲν πρώτη διαφορὰ<note type="apparatus" n="5" target="#p2-4">ὕλην περὶ ἥν] ἓν post spatium vacuum d</note><milestone type="alt-edition" unit="line" ed="Aldina 1513" n="25"/>
               <lb n="6" xml:id="p2-5"/>ποιεῖ τῶν συλλογισμῶν τοὺς μὲν δεικτικούς, οὓς κατηγορικοὺς καλοῦμεν,<note type="apparatus" n="6" target="#p2-5">δεικτικούς scripsi cf. Ind.: ἀποδεικτικούς ABd: διαλεκτικούς ap post οὓς add. καὶ d μν</note>
               <lb n="7" xml:id="p2-6"/>τοὺς δὲ ὑποθετικούς, ἡ δὲ δευτέρα καθ’ ἣν τοὺς μὲν τελείους τοὺς δὲ<note type="apparatus" n="7" target="#p2-6">καθ’ ἣν (ἣν superscr. p) delendum videtur</note>
@@ -2288,8 +2288,8 @@
               <lb n="16" xml:id="p63-15"/>πάντα ἀναγόμενα εἰς τὴν ζήτησιν τοῦ τε ‘ὅτι ἔστι’ καὶ τοῦ ‘εἰ<note type="apparatus" n="16" target="#p63-15">καὶ τὸ B</note>
               <lb n="17" xml:id="p63-16"/>ἔστιν’, ἅ ἐστι δύο τῶν τεσσάρων, ὧν εἶπεν ἀρχόμενος τοῦ δευτέρου τῶν<note type="apparatus" n="17" target="#p63-16">ὧν scripsi: ὡς ABD: ἃ a εἶπεν] Anal. post. II 1 p. 89b24</note><note type="apparatus" n="17-18" target="#p63-16 #p63-17">τῶν ὑστέρων ἀναλυτικῶν a: τῶν ἀναλυτικῶν A</note>
               <lb n="18" xml:id="p63-17"/>Ἀναλυτικῶν τῶν ὑστέρων· τὸ γὰρ ‘δι’ ὅ τι ἐστί’ καὶ ‘τί ἐστιν’ οὐ διαλεκτικὰ<note type="apparatus" n="18" target="#p63-17">διότι] διὰ τί Rose Arist. Pseud. p. 127, sed διότι Arist. l. c., cf. p. 20,7</note><milestone type="alt-edition" unit="line" ed="Aldina 1513" n="5"/>
-              <lb n="19" xml:id="p63-18"/>προβλήματα.
-              <lb n="20" xml:id="p63-19"/>Διὰ συλλογισμοῦ δὲ 〈τὸ〉 τοσαῦτα γένη τῶν προβλημάτων εἶναι ἤδη μὲν<note type="apparatus" n="20" target="#p63-19">τὸ addidi cf. p. 55,18. 19 τοσαῦτα—εἶναι om. D τοσαῦτα γένη] τὸ σὺν τῷ γένει B μὲν] δὲ B</note>
+              <lb n="19" xml:id="p63-18"/>προβλήματα.<note type="apparatus" n="19" target="#p63-18">τοσαῦτα—εἶναι om. D τοσαῦτα γένη] τὸ σὺν τῷ γένει B μὲν] δὲ B</note>
+              <lb n="20" xml:id="p63-19"/>Διὰ συλλογισμοῦ δὲ 〈τὸ〉 τοσαῦτα γένη τῶν προβλημάτων εἶναι ἤδη μὲν<note type="apparatus" n="20" target="#p63-19">τὸ addidi cf. p. 55,18.</note>
               <lb n="21" xml:id="p63-20"/>καὶ ἡμεῖς ἐφθάσαμεν ἑπόμενοι τοῖς δοκοῦσιν αὐτῷ δεδειχέναι. αὐτὸς δὲ<note type="apparatus" n="21" target="#p63-20">ἐφθάσαμεν] p. 37,31 sq.</note>
               <lb n="22" xml:id="p63-21"/>ᾧ χρῆται συλλογισμῷ, τοιοῦτός ἐστιν. ἐπειδὴ ἐν παντὶ προβλήματι καὶ<note type="apparatus" n="22" target="#p63-21">τοιοῦτόν B</note>
               <lb n="23" xml:id="p63-22"/>πάσῃ προτάσει ἐστί τι κατηγορούμενόν τινος καὶ ἀπὸ τῶν κατηγορουμένων
@@ -5873,7 +5873,7 @@
               <lb n="22" xml:id="p157-21"/>τῇ ἐγκρατείᾳ. πάλιν δ’ αὖ δεικνύναι τις δυνήσεται τὸν σπουδαῖον<milestone type="alt-edition" unit="line" ed="Aldina 1513" n="45"/>
               <lb n="23" xml:id="p157-22"/>ἐγκρατῆ μεταλαβὼν τὴν ἐγκράτειαν εἰς τὴν σωφροσύνην, εἴ γε ὁ μὲν σπουδαῖος
               <lb n="24" xml:id="p157-23"/>ἐν ὁμολογίᾳ τῶν τῆς ψυχῆς δυνάμεων πρὸς ἀλλήλας εἴη, ἡ δὲ τῶν<note type="apparatus" n="24" target="#p157-23">ante εἴη add. εἰ A ἡ δὲ om. AB</note>
-              <lb n="25" xml:id="p157-24"/>τῆς ψυχῆς δυνάμεων ὁμολογία πρὸς ἀλλήλας σωφροσύνη. οὕτως καὶ ὁ<note type="apparatus" n="25" target="#p157-24">ὁμολογ supra scriptο ος A</note>
+              <lb n="25" xml:id="p157-24"/>τῆς ψυχῆς δυνάμεων ὁμολογία πρὸς ἀλλήλας σωφροσύνη. οὕτως καὶ ὁ<note type="apparatus" n="25" target="#p157-24">ὁμολογ supra scripto ος A</note>
               <lb n="26" xml:id="p157-25"/>Δημοσθένης κατασκευάσαι βουληθείς, ὅτι <milestone type="alt-edition" unit="page" ed="Aldina 1513" n="85"/> μὴ δεῖ χάριν ἔχειν Φιλίππῳ<note type="apparatus" n="26" target="#p157-25">Δημοσθένης] Aeschines contra Ctesiph. § 83 Ἁλόννησον ἐδίδου (Φίλιππος)· ὁ δ’ (Δημοσθένης) ἀπηγόρευε μὴ λαμβάνειν, εἰ δίδωσιν ἀλλὰ μὴ ἀποδίδωσι, περὶ συλλαβῶν. διαφερόμενος cf. Περὶ Ἁλον. § 7 βουλόμενος D cf. vs. 28</note>
               <lb n="27" xml:id="p157-26"/>ὑπὲρ ὧν ἔδωκε, μετέλαβε τὸ ‘ἔδωκεν’ εἰς τὸ ‘ἀπέδωκεν’. ἀλλὰ καὶ ὁ<note type="apparatus" n="27" target="#p157-26">ἔδωκε] δέδωκε D</note>
               <lb n="28" xml:id="p157-27"/>Θουκυδίδης, βουληθεὶς παροξῦναι τοὺς Ἀθηναίους πρὸς τοὺς Μιτυληναίους,<note type="apparatus" n="28" target="#p157-27">Θουκυδίδης III 39,2 Cleonem facit dicentem καὶ ἐπανέστησαν μᾶλλον ἢ ἀπέστησαν</note>
@@ -6050,7 +6050,7 @@
               <lb n="7" xml:id="p162-6"/>ἐχρήσατο· ὁ γὰρ τὴν ψυχὴν κινεῖσθαι λέγων παρώνυμον τὸ κινεῖσθαι<milestone type="alt-edition" unit="line" ed="Aldina 1513" n="15"/>
               <lb n="8" xml:id="p162-7"/>τῆς κινήσεως ὂν τῆς ψυχῆς κατηγορεῖ. ὅμοιος δὲ ὁ λόγος, κἂν τῇ ψυχῇ<note type="apparatus" n="8" target="#p162-7">κατηγορία A ὅμοιος ABD: ὁμοίως aP</note>
               <lb n="9" xml:id="p162-8"/>ὑπάρχειν ἢ συμβεβηκέναι τὸ κινεῖσθαί τις λέγῃ. ὄντος δὴ τοιούτου τοῦ<note type="apparatus" n="9" target="#p162-8">ὑπάρχων ἢ mut. P² λέγῃ scripsi: λέγοι libri τοιούτου τοῦ BD: τοῦ τοιούτου A: τούτου τοῦ aP</note>
-              <lb n="10" xml:id="p162-9"/>προβλήματος χρὴ ἐπὶ τὰ εἴδη τῆς κινήσεως ἐπιβλέψαντα (ἔστι δὲ ταῦτα<note type="apparatus" n="10" target="#p162-9">ἐπιβλέπον supra ν scriptο τ A: προβλέψαντα B</note>
+              <lb n="10" xml:id="p162-9"/>προβλήματος χρὴ ἐπὶ τὰ εἴδη τῆς κινήσεως ἐπιβλέψαντα (ἔστι δὲ ταῦτα<note type="apparatus" n="10" target="#p162-9">ἐπιβλέπον supra ν scripto τ A: προβλέψαντα B</note>
               <lb n="11" xml:id="p162-10"/>αὔξησις, μείωσις, φορά, ἀλλοίωσις, γένεσις καὶ φθορά· κοινότερον γὰρ<note type="apparatus" n="11" target="#p162-10">φορά ex φθορά? P</note>
               <lb n="12" xml:id="p162-11"/>νῦν καὶ ταύτας κινήσεις λέγει, ὥσπερ καὶ αὐτὴν τὴν κίνησιν γένος) † εἶναι<note type="apparatus" n="12" target="#p162-11">καὶ ταύτας νῦν A εἶναι] an σκοπεῖν εἰ?</note>
               <lb n="13" xml:id="p162-12"/>ἀπό τινος τούτων οἷον τότε τῆς ψυχῆς παρώνυμον τὴν κατηγορίαν ποιεῖσθαι<note type="apparatus" n="13" target="#p162-12">post τούτων add. εἰ a οἷον τότε ABDP: οἷόν τέ γε a: οἷόν τε veri simile ante τὴν add. καὶ D</note><note type="apparatus" n="13-14" target="#p162-12 #p162-13">ποιεῖσθαι AD: ποιήσασθαι aBP</note><milestone type="alt-edition" unit="line" ed="Aldina 1513" n="20"/>
@@ -6579,7 +6579,7 @@
               <lb n="20" xml:id="p176-19"/>οὐδὲ προαιρεῖται. πάλιν θέλοντες δεῖξαι, ὅτι ὁ σώφρων οὐκ ἔστιν ἐγκρατής,<note type="apparatus" n="20" target="#p176-19">θέλοντες δεῖξαι — ἀκολάστου (27) Suidas sub v. ἐγκράτεια οὐκ ἔστιν ὁ σώφρων D</note>
               <lb n="21" xml:id="p176-20"/>μεταληψόμεθα τὸν ἐγκρατῆ εἰς τὸν ἑαυτοῦ κρατοῦντα (τοῦτο γὰρ σημαίνει<note type="apparatus" n="21" target="#p176-20">αὐτοῦ κρατοῦντα A: αὐτοκρατοῦντα P</note>
               <lb n="22" xml:id="p176-21"/>τὸ ὄνομα), καὶ δείξαντες ὅτι ἔνθα τὸ κρατοῦν, ἐνταῦθα καὶ κρατούμενόν τι<note type="apparatus" n="22" target="#p176-21">ante κρατούμενόν add. τὸ aAB</note>
-              <lb n="23" xml:id="p176-22"/>ἔσται, τὸ δὲ κρατούμενον ἀντισπῶν καὶ μαχόμενον κρατεῖται, ἔνθα δὴ τὸ<note type="apparatus" n="23" target="#p176-22">δὴ scripsi: δὲ libri: om. Suid. τὰ pro alterο τὸ B</note>
+              <lb n="23" xml:id="p176-22"/>ἔσται, τὸ δὲ κρατούμενον ἀντισπῶν καὶ μαχόμενον κρατεῖται, ἔνθα δὴ τὸ<note type="apparatus" n="23" target="#p176-22">δὴ scripsi: δὲ libri: om. Suid. τὰ pro altero τὸ B</note>
               <lb n="24" xml:id="p176-23"/>μὲν κρατούμενον τὸ δὲ κρατοῦν ἐστι τῆς ψυχῆς, οὐκ ἔστιν ἐνταῦθα ὁμολογία,<note type="apparatus" n="24" target="#p176-23">post μὲν add. ἂν ᾖ aB κρατοῦν — κρατούμενον aP Suid.</note><milestone type="alt-edition" unit="line" ed="Aldina 1513" n="40"/>
               <lb n="25" xml:id="p176-24"/>ὁ δὲ σώφρων ὁμολογοῦντα ἔχει τὰ τῆς ψυχῆς μέρη πρὸς ἄλληλα,<note type="apparatus" n="25" target="#p176-24">ὁμολογοῦντα] φρονοῦντα B τῆς om. A</note>
               <lb n="26" xml:id="p176-25"/>εἴημεν ἂν δεδειχότες τὸ προκείμενον. ὁ αὐτὸς λόγος καὶ ἐπὶ τοῦ ἀκρατοῦς
@@ -6827,7 +6827,7 @@
               <lb n="25" xml:id="p183-24"/>τὰ ἐναντία ὥσπερ ἡ ἀντίφασις. ἐπεὶ τοίνυν ἡ δευτέρα συζυγία ἡ ἀμφοτέρας<note type="apparatus" n="25" target="#p183-24">τἀνάντια B κατάφασις B post τοίνυν add. καὶ A δευτέρα om. A</note><milestone type="alt-edition" unit="line" ed="Aldina 1513" n="15"/>
               <lb n="26" xml:id="p183-25"/>τὰς συμπλοκὰς φευκτὰς ἔχουσα ἀμφοτέρας τὰς συμπλοκὰς ἔχει ψευδεῖς,<note type="apparatus" n="26" target="#p183-25">τὰς συμπλοκὰς ἔχει ψευδεῖς D: ἔχει post ψευδεῖς habet A, post ἀμφοτέρας aBP</note>
               <lb n="27" xml:id="p183-26"/>ὃ οὐκ ἔστιν ἀδύνατον περὶ τὰ ἐναντία, διὰ τοῦτο πρὸς τὸ μὴ εἶναι αὐτὰς<note type="apparatus" n="27" target="#p183-26">ὃ om. B τἀναντία B</note>
-              <lb n="28" xml:id="p183-27"/>ἐναντίας ἐχρήσατο δείξει τῇ ὅτι φευκτὸν φευκτῷ οὐκ ἔστιν ἐναντία ἀλλήλοις,<note type="apparatus" n="28" target="#p183-27">τῇ om. D ἐναντία aAP: ἐναντίον D: comπ pend. B</note>
+              <lb n="28" xml:id="p183-27"/>ἐναντίας ἐχρήσατο δείξει τῇ ὅτι φευκτὸν φευκτῷ οὐκ ἔστιν ἐναντία ἀλλήλοις,<note type="apparatus" n="28" target="#p183-27">τῇ om. D ἐναντία aAP: ἐναντίον D: compend. B</note>
               <lb n="29" xml:id="p183-28"/>ἀλλ’ ἢ ἐν μόνοις ἐν οἷς περὶ ταὐτόν τι τὸ μὲν ὑπερβάλλει τὸ<note type="apparatus" n="29-30" target="#p183-28 #p183-29">ὑπερβάλλειν — ἐλλει A</note>
               <lb n="30" xml:id="p183-29"/>δὲ ἐλλείπει. ἔτι ἐναργές τέ ἐστι καὶ καθόλου ἀληθὲς ὅτι ἀγαθὸν<note type="apparatus" n="30" target="#p183-29">ἔτι] ὅτι B ὅτι — ἀληθὲς (p. 184,1) om. D</note>
             </p>
@@ -8364,8 +8364,8 @@
               <lb n="1" xml:id="p227-0"/>βελτίων ἐπιστήμη φιλοσοφία τεκτονικῆς, καὶ ἁπλῶς αἱρετώτερα τὰ κατὰ<milestone type="alt-edition" unit="line" ed="Aldina 1513" n="30"/>
               <lb n="2" xml:id="p227-1"/>φιλοσοφίαν τῶν κατὰ τεκτονικήν· τῷ μέντοι τέκτονι τὰ κατὰ τεκτονικὴν<note type="apparatus" n="2" target="#p227-1">ante φιλοσοφίαν et ante τεκτονικήν prius add. τὴν A</note>
               <lb n="3" xml:id="p227-2"/>τῶν κατὰ φιλοσοφίαν, καὶ τῷ δεομένῳ τεκτονικοῦ τινος αἱρετώτερον τὸ<note type="apparatus" n="3" target="#p227-2">(δεο)μένῳ —</note>
-              <lb n="4" xml:id="p227-3"/>τῷ τέκτονι δοκοῦν. δύναταί τις καὶ ὡς τόπῳ χρῆσθαι τῷ εἰρημένῳ πρὸς
-              <lb n="5" xml:id="p227-4"/>ἐπίκρισιν τοῦ ἁπλῶς αἱρετωτέρου.<note type="apparatus" n="5" target="#p227-4">αἱρε(τωτέρου) initio paginae P³ τεκτονικῆς a 4 χρήσασθαι A προειρημένω A πρὸς] εἰς a</note><note type="apparatus" n="5" target="#p227-4">τοῦ superscr. B</note>
+              <lb n="4" xml:id="p227-3"/>τῷ τέκτονι δοκοῦν. δύναταί τις καὶ ὡς τόπῳ χρῆσθαι τῷ εἰρημένῳ πρὸς<note type="apparatus" n="4" target="#p227-3">χρήσασθαι A προειρημένω A πρὸς] εἰς a</note>
+              <lb n="5" xml:id="p227-4"/>ἐπίκρισιν τοῦ ἁπλῶς αἱρετωτέρου.<note type="apparatus" n="5" target="#p227-4">αἱρε(τωτέρου) initio paginae P³ τεκτονικῆς a</note><note type="apparatus" n="5" target="#p227-4">τοῦ superscr. B</note>
             </p>
           </div>
           <div type="textpart" subtype="lemma" n="4">
@@ -8676,8 +8676,8 @@
               <lb n="3" xml:id="p235-2"/>Καὶ τὸ τοῦ βελτίονος ἴδιον βέλτιον ἢ τὸ τοῦ χείρονος.<note type="apparatus" n="3" target="#p235-2">καὶ — ἴδιον iterat A βέλτιον om. B</note>
             </quote>
             <p>
-              <lb n="4" xml:id="p235-3"/>Παραδοὺς τόπον ἀπὸ τοῦ τῷ βελτίονι αἱρετοῦ συνιστάντα τὸ αἱρετώτερον,<note type="apparatus" n="4" target="#p235-3">post τόπον add. τὸν aP2 τὸ in ras.</note>
-              <lb n="5" xml:id="p235-4"/>ἐπεὶ οὐ πάντως τὸ αἱρετόν τινι ἤδη καὶ ἴδιόν ἐστιν αὐτοῦ (ὑγεία<note type="apparatus" n="5" target="#p235-4">lit. P 4. 5 αἱρετώτερον] ἕτερον A</note><note type="apparatus" n="5" target="#p235-4">τινι] τῳ P αὐτοῦ ἐστιν D</note>
+              <lb n="4" xml:id="p235-3"/>Παραδοὺς τόπον ἀπὸ τοῦ τῷ βελτίονι αἱρετοῦ συνιστάντα τὸ αἱρετώτερον,<note type="apparatus" n="4" target="#p235-3">post τόπον add. τὸν aP2 τὸ in ras.</note><note type="apparatus" n="4-5" target="#p235-3 #p235-4">αἱρετώτερον] ἕτερον A</note>
+              <lb n="5" xml:id="p235-4"/>ἐπεὶ οὐ πάντως τὸ αἱρετόν τινι ἤδη καὶ ἴδιόν ἐστιν αὐτοῦ (ὑγεία<note type="apparatus" n="5" target="#p235-4">lit. P</note><note type="apparatus" n="5" target="#p235-4">τινι] τῳ P αὐτοῦ ἐστιν D</note>
               <lb n="6" xml:id="p235-5"/>γὰρ αἱρετὸν μὲν ἀνθρώπῳ, οὐ μὴν καὶ ἴδιον τὸ ὑγιαίνειν ἀνθρώπου), νῦν<note type="apparatus" n="6" target="#p235-5">ἀνθρώπου aABP: ἀνθρώπῳ D</note>
               <lb n="7" xml:id="p235-6"/>ἀπὸ τοῦ ἰδίου τόπον παραδίδωσι (τὸ γὰρ τοῦ βελτίονος ἴδιον βέλτιον<milestone type="alt-edition" unit="line" ed="Aldina 1513" n="30"/>
               <lb n="8" xml:id="p235-7"/>τοῦ ὃ ἴδιόν ἐστι τοῦ χείρονος), οὐκέτι κατὰ τὸ αἱρετώτερον τὴν σύγκρίσιν<note type="apparatus" n="8" target="#p235-7">post οὐκέτι add. δὲ A</note>
@@ -8966,7 +8966,7 @@
               <lb n="1" xml:id="p243-0"/>καλλίω εἶναι δι’ αὑτὰ καὶ τιμιώτερα καὶ ἐπαινετώτερα αἱρετώτερά ἐστιν,<note type="apparatus" n="1" target="#p243-0">αὐτὰ AP¹ (corr. P²)</note><milestone type="alt-edition" unit="line" ed="Aldina 1513" n="10"/>
               <lb n="2" xml:id="p243-1"/>ὄντων καὶ ἐκείνων αἱρετῶν τῇ αὑτῶν φύσει. τὸ δὲ οὐδεὶς γὰρ τιμᾷ<note type="apparatus" n="2" target="#p243-1">αὑτῶν a: αὐτῶν ABDP</note>
               <lb n="3" xml:id="p243-2"/>τὸν πλοῦτον δι’ αὑτὸν ἀλλὰ δι’ ἕτερον οὐκ ἔστιν ἀναιρετικὸν τοῦ τῇ<note type="apparatus" n="3" target="#p243-2">αὐτὸν AP</note>
-              <lb n="4" xml:id="p243-3"/>αὑτοῦ φύσει αἱρετὸν εἶναι τὸν πλοῦτον. καθ’ ὅσον μὲν γὰρ ὄργανον, τοιοὗτο·<note type="apparatus" n="4 et 5" target="#p243-3 #p243-4">αὑτοῦ a: αὐτοῦ BDP: αὐτῇ A 4. 5 τοιοῦτον AB</note>
+              <lb n="4" xml:id="p243-3"/>αὑτοῦ φύσει αἱρετὸν εἶναι τὸν πλοῦτον. καθ’ ὅσον μὲν γὰρ ὄργανον, τοιοὗτο·<note type="apparatus" n="4 et 5" target="#p243-3 #p243-4">αὑτοῦ a: αὐτοῦ BDP: αὐτῇ A</note><note type="apparatus" n="4-5" target="#p243-3 #p243-4">τοιοῦτον AB</note>
               <lb n="5" xml:id="p243-4"/>καθ’ ὅσον δὲ ἐν τῇ αὑτοῦ φύσει ἔχει τὸ εἶναι τῷ σπουδαίῳ πρὸς<note type="apparatus" n="5" target="#p243-4">ἐν om. D τῷ σπουδαίῳ] utrumque φ in ras. P³</note>
               <lb n="6" xml:id="p243-5"/>τὰς κατ’ ἀρετὴν ἐνεργείας ὄργανον, ἀλλ’ οὐχ ὑπὸ τοῦ σπουδαίου πρὸς τὰς
               <lb n="7" xml:id="p243-6"/>κατ’ ἀρετὴν ἐνεργείας ὄργανον γίνεται, καθ’ αὑτόν ἐστιν ἀγαθός τε καὶ αἱρετος·<note type="apparatus" n="7" target="#p243-6">post γίνεται add. τοιοῦτος aP, corr. ex τοιοῦτον B</note><milestone type="alt-edition" unit="line" ed="Aldina 1513" n="15"/>
@@ -9174,7 +9174,7 @@
               <lb n="11" xml:id="p248-10"/>ἐστιν ἐν ἐκείνῳ τῷ καιρῷ ἐν ᾧ πλεῖον δύναται. δύναται δὲ ἕκαστον
               <lb n="12" xml:id="p248-11"/>πλεῖον, ὅτε καὶ μάλιστά ἐστιν αὐτοῦ χρεία· δείκνυσι γὰρ τὴν ἑκάστου δύναμιν<note type="apparatus" n="12" target="#p248-11">ante ὅτε add. τότε AB ὅτε] ὅ in ras. 2 lit. P καὶ om. aP</note><note type="apparatus" n="12-13" target="#p248-11 #p248-12">δύναμιν post μάλιστα transposuit B</note><milestone type="alt-edition" unit="line" ed="Aldina 1513" n="45"/>
               <lb n="13" xml:id="p248-12"/>ἡ χρεία μάλιστα, καὶ εἰκότως. τὸν γὰρ πεπληρωμένον ἤδη οὔτε<note type="apparatus" n="13" target="#p248-12">ἤ χρει B πεπληρωμένον B</note>
-              <lb n="14" xml:id="p248-13"/>ἥδεσθαι οὔτε λυπεῖσθαι λέγει, ἥδεσθαι δὲ τὸν ἐν ἐνδείᾳ τρεφόμενον. καὶ<note type="apparatus" n="14" target="#p248-13">λέγει] an Plato Gorg. p. 494 A ? sed suspectα τὸν (13) — ὤν (16). δὲ om. A</note>
+              <lb n="14" xml:id="p248-13"/>ἥδεσθαι οὔτε λυπεῖσθαι λέγει, ἥδεσθαι δὲ τὸν ἐν ἐνδείᾳ τρεφόμενον. καὶ<note type="apparatus" n="14" target="#p248-13">λέγει] an Plato Gorg. p. 494 A ? sed suspecta τὸν (13) — ὤν (16). δὲ om. A</note>
               <lb n="15" xml:id="p248-14"/>ὁ μὲν μὴ ὁρῶν τι ἡδὺ ἢ μὴ ἀκούων τινὸς τοιούτου οὔτε ἥδεται οὔτε λυπεῖται,<note type="apparatus" n="15" target="#p248-14">ἢ μὴ aAP: μήτε D: ἢ B</note>
               <lb n="16" xml:id="p248-15"/>ἥδεται δὲ ὁ ἐν τούτοις ὤν. οἷον ἐπεὶ αἱρετὸν ἡ ἀλυπία, εἰσὶ<note type="apparatus" n="16" target="#p248-15">ὁ om. B</note>
               <lb n="17" xml:id="p248-16"/>δὲ οἱ γέροντες τῶν νέων ἐπιλυπότεροι (ἡ γὰρ νεότης φαιδρότητα ἔχει<note type="apparatus" n="17" target="#p248-16">ἀλυπότεροι B</note><milestone type="alt-edition" unit="page" ed="Aldina 1513" n="130"/>
@@ -9328,7 +9328,7 @@
             <p>
               <lb n="9" xml:id="p252-8"/>αἱρετώτερον, καὶ τὸ ὁμοιότερον τῷ ἀγαθῷ.<note type="apparatus" n="9" target="#p252-8">ὅμοιον B</note>
               <lb n="10" xml:id="p252-9"/>Οὗτοι εἰ ὡς δύο τόποι λαμβάνοιντο, εἴη ἂν πρῶτος, ὁ λέγων τὸ<note type="apparatus" n="10" target="#p252-9">fort. εἷς, ὁ</note>
-              <lb n="11" xml:id="p252-10"/>ἐγγυτέρω τοῦ ἀγαθοῦ βέλτιον, ὁ αὐτὸς τῷ ἤδη προειρημένῳ τῷ “καὶ<note type="apparatus" n="11 et 12" target="#p252-10 #p252-11">ἐγγύτερον A 11 τῷ ἤδη προειρημένῳ] p. 116b23 ἤδη om. A</note><milestone type="alt-edition" unit="line" ed="Aldina 1513" n="40"/>
+              <lb n="11" xml:id="p252-10"/>ἐγγυτέρω τοῦ ἀγαθοῦ βέλτιον, ὁ αὐτὸς τῷ ἤδη προειρημένῳ τῷ “καὶ<note type="apparatus" n="11 et 12" target="#p252-10 #p252-11">ἐγγύτερον A</note><note type="apparatus" n="11" target="#p252-10">τῷ ἤδη προειρημένῳ] p. 116b23 ἤδη om. A</note><milestone type="alt-edition" unit="line" ed="Aldina 1513" n="40"/>
               <lb n="12" xml:id="p252-11"/>δυοῖν τὸ ἔγγιον τοῦ τέλους”· ἴσον γὰρ τὸ ἐγγυτέρω τοῦ ἀγαθοῦ καὶ<note type="apparatus" n="12" target="#p252-11">τῶ pro altero τὸ D</note>
               <lb n="13" xml:id="p252-12"/>τὸ “ἔγγιον τοῦ τέλους”. δῆλον γὰρ ὅτι τοῦ ἀγαθοῦ ὡς τέλους λέγει·<note type="apparatus" n="13" target="#p252-12">ἀγαθοῦ ὡς scripsi: inv. ord. libri τέλος (post ὡς) aA</note>
               <lb n="14" xml:id="p252-13"/>πῶς γὰρ ἄλλως ἐγγυτέρω ἂν ἡ δικαιοσύνη ληφθείη τῷ ἀγαθῷ, εἰ μή τις<note type="apparatus" n="14" target="#p252-13">πῶς —</note>
@@ -9730,7 +9730,7 @@
               <lb n="19" xml:id="p262-18"/>τῶν ἐκτός τε καὶ σωματικῶν ἀγαθῶν δεικνύοιτ’ ἄν * * * * * τὸ δὲ μᾶλλον<note type="apparatus" n="19" target="#p262-18">ἐκτός τε] ἐ ex σ corr., κτός τε in ras. 5 lit. P¹ ἀγαθῶν ADP: ἡδονῶν B: ὧν a desideratur τῷ μᾶλλον ἀγαθὸν εἶναι τὸ ἀγαθὸν ποιοῦν τὸν ἔχοντα αὐτὸ τοῦ μὴ</note>
               <lb n="20" xml:id="p262-19"/>ἀγαθὸν καὶ αἱρετώτερον εἶναι, ὡς τὸ θερμαῖνόν τε καὶ θερμὰ ποιοῦν τοῦ<note type="apparatus" n="20" target="#p262-19">ὡς add. P²: fort. ὡς 〈καὶ〉</note>
               <lb n="21" xml:id="p262-20"/>μὴ 〈θερμότερον〉· θερμότερον γὰρ τὸ πῦρ τῆς χιόνος, ἐχούσης καὶ ταύτης<note type="apparatus" n="21" target="#p262-20">θερμότερον addidi</note>
-              <lb n="22" xml:id="p262-21"/>θερμότητα, ὅτι τὸ μὲν θερμαίνει ἡ δ’ οὔ, ἢ τὸ μὲν μᾶλλον ἢ δ’ ἧττον.<note type="apparatus" n="22" target="#p262-21">τὸ pro alterο ἡ A</note>
+              <lb n="22" xml:id="p262-21"/>θερμότητα, ὅτι τὸ μὲν θερμαίνει ἡ δ’ οὔ, ἢ τὸ μὲν μᾶλλον ἢ δ’ ἧττον.<note type="apparatus" n="22" target="#p262-21">τὸ pro altero ἡ A</note>
               <lb n="23" xml:id="p262-22"/>εἰ δὲ ἀμφότερα ἀγαθοὺς ποιεῖ τῇ παρουσίᾳ τὰ συγκρινόμενα, αἱρετώτερον<milestone type="alt-edition" unit="line" ed="Aldina 1513" n="40"/>
               <lb n="24" xml:id="p262-23"/>τὸ μᾶλλον ποιοῦν ἀγαθόν. εἴη δ’ ἂν καὶ κατὰ τοῦτο ἡ τέλειος ἀρετὴ<note type="apparatus" n="24 et 26" target="#p262-23 #p262-25">τελεία B 25 μᾶλλον αἱρετωτέρα δεικνυμένη D ἀγαθὰ supra scripto οὓς D</note>
               <lb n="25" xml:id="p262-24"/>τῆς φυσικῆς δεικνυμένη αἱρετωτέρα· ἄμφω μὲν γὰρ ἀγαθοὺς ποιοῦσι τοὺς
@@ -10010,8 +10010,8 @@
             <p>
               <lb n="20" xml:id="p269-19"/>διὰ θάτερον μόνον.
               <lb n="21" xml:id="p269-20"/>[Αἱρετώτερόν φησιν εἶναι τὸ δι’ ἀμφότερα αἱρετὸν τοῦ διὰ δόξαν<note type="apparatus" n="21" target="#p269-20">αἱρετώτερον —</note>
-              <lb n="22" xml:id="p269-21"/>μόνην, οἶμαι καὶ τοῦ δι’ αὑτό, ἐὰν ἐπὶ τοῦ αὐτοῦ παραληφθῇ· τὸ γὰρ
-              <lb n="23" xml:id="p269-22"/>δι’ ἄμφω αἱρετώτερον πρόδηλον.] ἐπεὶ καὶ τὸ δι’ αὑτὸ μόνον τοῦ πρὸς<note type="apparatus" n="23" target="#p269-22">πρόδηλον delevi αἱρετώτερως A ἀμφοτέρων A 22 μόνην] non liquet A οἶμαι — παραληφθῇ in mrg. add. P2 (sed pleraque perierunt) δι’ αὐτὸ aA γὰρ om. BP1 (add. P2)</note><note type="apparatus" n="23" target="#p269-22">immo αἱρετώτερον 〈ὂν〉 αὐτὸ aDP2: αὐτὸ ABP1</note>
+              <lb n="22" xml:id="p269-21"/>μόνην, οἶμαι καὶ τοῦ δι’ αὑτό, ἐὰν ἐπὶ τοῦ αὐτοῦ παραληφθῇ· τὸ γὰρ<note type="apparatus" n="22" target="#p269-21">μόνην] non liquet A οἶμαι — παραληφθῇ in mrg. add. P2 (sed pleraque perierunt) δι’ αὐτὸ aA γὰρ om. BP1 (add. P2)</note>
+              <lb n="23" xml:id="p269-22"/>δι’ ἄμφω αἱρετώτερον πρόδηλον.] ἐπεὶ καὶ τὸ δι’ αὑτὸ μόνον τοῦ πρὸς<note type="apparatus" n="23" target="#p269-22">πρόδηλον delevi αἱρετώτερως A ἀμφοτέρων A</note><note type="apparatus" n="23" target="#p269-22">immo αἱρετώτερον 〈ὂν〉 αὐτὸ aDP2: αὐτὸ ABP1</note>
               <lb n="24" xml:id="p269-23"/>δόξαν αἱρετώτερον, καὶ τὸ δι’ ἄμφω, φησί, τοῦ πρὸς θάτερον μόνον· τὸ<note type="apparatus" n="24" target="#p269-23">αἱρετωτέρα A</note>
               <lb n="25" xml:id="p269-24"/>γὰρ διὰ δύο τοῦ διὰ τὸ ἕτερον αὐτῶν αἱρετοῦ αἱρετώτερον. οὕτως ἡ μετὰ<note type="apparatus" n="25" target="#p269-24">ante δύο add. τὰ D τὸ] του A</note><milestone type="alt-edition" unit="line" ed="Aldina 1513" n="5"/>
             </p>
@@ -11659,8 +11659,8 @@
               <lb n="22" xml:id="p312-21"/>ὥσπερ καὶ τὸ ὡς εἶδος κείμενον· πάντα γὰρ τὰ γενικώτερα τῶν<note type="apparatus" n="22" target="#p312-21">ὡς om. B, superscr. P</note>
               <lb n="23" xml:id="p312-22"/>ἐσχάτων καὶ ὑπ’ αὐτὰ ἐν τῷ τί ἐστι κατηγορεῖται. πρὸς μὲν οὖν ἀνασκευὴν<note type="apparatus" n="23" target="#p312-22">οὖν om. B</note>
               <lb n="24" xml:id="p312-23"/>χρήσιμον εὑρεθὲν τὸ ὡς γένος ἀποδοθὲν μὴ κατηγορούμενον τῶν<note type="apparatus" n="24" target="#p312-23">κατηγορούμενον —</note>
-              <lb n="25" xml:id="p312-24"/>ὑπὸ τὸ ἀποδοθὲν εἶδος εἰδῶν ἐν τῷ τί ἐστιν ἢ αὐτὸ ἢ τῶν τούτου γενῶν
-              <lb n="26" xml:id="p312-25"/>τι. εἰ γὰρ τῶν ὑπὸ τὴν ἀρετὴν εἰδῶν μὴ κατηγορεῖται ἡ ἐπιστήμη, οὐκ<note type="apparatus" n="26" target="#p312-25">ἀρετὴν εἰδ(ῶν) initio paginae P³ 25 ἢ alterum om. A</note><note type="apparatus" n="26" target="#p312-25">ὑπὸ] ἐπὶ A μὴ post γὰρ transposuit D ἡ om. B</note><milestone type="alt-edition" unit="line" ed="Aldina 1513" n="10"/>
+              <lb n="25" xml:id="p312-24"/>ὑπὸ τὸ ἀποδοθὲν εἶδος εἰδῶν ἐν τῷ τί ἐστιν ἢ αὐτὸ ἢ τῶν τούτου γενῶν<note type="apparatus" n="25" target="#p312-24">ἢ alterum om. A</note>
+              <lb n="26" xml:id="p312-25"/>τι. εἰ γὰρ τῶν ὑπὸ τὴν ἀρετὴν εἰδῶν μὴ κατηγορεῖται ἡ ἐπιστήμη, οὐκ<note type="apparatus" n="26" target="#p312-25">ἀρετὴν εἰδ(ῶν) initio paginae P³</note><note type="apparatus" n="26" target="#p312-25">ὑπὸ] ἐπὶ A μὴ post γὰρ transposuit D ἡ om. B</note><milestone type="alt-edition" unit="line" ed="Aldina 1513" n="10"/>
               <lb n="27" xml:id="p312-26"/>ἂν εἴη γένος τῆς ἀρετῆς, οἷον ἢ ἀνδρείας ἢ σωφροσύνης ἤ τινος ἄλλης
               <lb n="28" xml:id="p312-27"/>ἀρετῆς. πρὸς δὲ κατασκευὴν χρήσιμον εὑρεθὲν τὸ ἀποδοθὲν γένος ἐν τῷ
               <lb n="29" xml:id="p312-28"/>τί ἐστι κατηγορούμενον τῶν ὑπὸ τὸ κείμενον εἶδος εἰδῶν. εἰ γὰρ καὶ τὸ<note type="apparatus" n="29" target="#p312-28">ὑπὸ τὸ ὑποκείμενον aB εἰδῶν om. aP</note>
@@ -13964,7 +13964,7 @@
             <ab type="head"><lb n="9" xml:id="p372-8"/>Καθάπερ ἀρετῆς πρὸς ἐπιστήμην, ὅτι τὸ μὲν ἐν πλείοσι.<note type="apparatus" n="9" target="#p372-8">ἀρετῆς Arist. cf. vs. 1: ἀρετὴ libri ὅτι — πλείοσι ABDP: om. a</note></ab>
             <p>
               <lb n="10" xml:id="p372-9"/>Ὅτι ἡ μὲν ἀρετὴ ἐν πλείοσι δυνάμεσι τῆς ψυχῆς γίνεται (καὶ γὰρ ἐν<note type="apparatus" n="10" target="#p372-9">ὅτι — πλείοσι a: ἡ δὲ ἀρετὴ ἐν μόνῳ τῷ λογιστικῷ: ἐν πλείοσι D: om. ABP δυνάμεσι τῆς ψυχῆς γίνεται om. a, sed cf. n. ad p. 370,26</note>
-              <lb n="11" xml:id="p372-10"/>τῷ παθητικῷ καὶ τῷ λογιστικῷ), ἡ δὲ ἐπιστήμη ἐν μόνῳ τῷ λογιστικῷ.<note type="apparatus" n="11" target="#p372-10">ἡ — λογιστικῷ om. DP λογιστικῷ alterum aΔ: λογικῶ B</note>
+              <lb n="11" xml:id="p372-10"/>τῷ παθητικῷ καὶ τῷ λογιστικῷ), ἡ δὲ ἐπιστήμη ἐν μόνῳ τῷ λογιστικῷ.<note type="apparatus" n="11" target="#p372-10">ἡ — λογιστικῷ om. DP λογιστικῷ alterum aD: λογικῶ B</note>
             </p>
           </div>
           <div type="textpart" subtype="lemma" n="4">
@@ -14185,8 +14185,8 @@
               <lb n="31" xml:id="p376-30"/>Κατασκευάζοντα δὲ εἰ διὰ γνωριμωτέρων κεῖται τὸ<note type="apparatus" n="31-32" target="#p376-30 #p376-31">lemma om. a κεῖται e κινεῖται corr. P</note>
             </quote>
             <p>
-              <lb n="32" xml:id="p376-31"/>ἴδιον.
-              <lb n="33" xml:id="p376-32"/>Ὅτι δεῖ τὸν κατασκευάζοντα διὰ γνωριμωτέρων καθ’ ἑκάτερον<note type="apparatus" n="33" target="#p376-32">— p. 377, 7 post p. 375, 9 collocat a 32 ὅτι δεῖ] δεῖ γὰρ a</note>
+              <lb n="32" xml:id="p376-31"/>ἴδιον.<note type="apparatus" n="32" target="#p376-31">ὅτι δεῖ] δεῖ γὰρ a</note>
+              <lb n="33" xml:id="p376-32"/>Ὅτι δεῖ τὸν κατασκευάζοντα διὰ γνωριμωτέρων καθ’ ἑκάτερον<note type="apparatus" n="33" target="#p376-32">— p. 377, 7 post p. 375, 9 collocat a</note>
               <lb n="34" xml:id="p376-33"/>τῶν τρόπων τὴν ἀπόδοσιν τοῦ ἰδίου ποιεῖσθαι τῷ αὐτοῦ τοῦ πράγματος<note type="apparatus" n="34" target="#p376-33">τῶν τρόπων aD Arist.: τὸν τρόπον A: τρόπον BP τὴν superscr. P: om. B τῷ aD: τὸ ABP τοῦ αὐτοῦ BP</note>
             </p>
             <pb n="377" facs="https://archive.org/download/pt2commentariain02akaduoft/page/n432.jpg"/>
@@ -18021,7 +18021,7 @@
             </quote>
             <p>
               <lb n="12" xml:id="p472-11"/>Οὗτος ὁ τόπος σχεδὸν ὁ αὐτός ἐστι τῷ τεσσαρακοστῷ ἐννάτῳ· καὶ<note type="apparatus" n="12" target="#p472-11">ἐστὶν ὁ αὐτὸς B λθ’ A; respicit c. 9 p. 147a12 sq.</note>
-              <lb n="13" xml:id="p472-12"/>γὰρ ἀξιοῖ νῦν ὅτι ταῖς πτώσεσι τοῦ ὁριστοῦ τὰς πτώσεις τοῦ ὁρισμοῦ<note type="apparatus" n="13" target="#p472-12">ὅτι ABDP: om. a cf. p. 241,43 Ald. ταῖς τοῦ ὁριστοῦ πτώσεσι B post πτώσεσι add. ταῖς ΔP τὰς πτώσεις] εἰς P</note>
+              <lb n="13" xml:id="p472-12"/>γὰρ ἀξιοῖ νῦν ὅτι ταῖς πτώσεσι τοῦ ὁριστοῦ τὰς πτώσεις τοῦ ὁρισμοῦ<note type="apparatus" n="13" target="#p472-12">ὅτι ABDP: om. a cf. p. 241,43 Ald. ταῖς τοῦ ὁριστοῦ πτώσεσι B post πτώσεσι add. ταῖς DP τὰς πτώσεις] εἰς P</note>
               <lb n="14" xml:id="p472-13"/>ἐφαρμόζειν δεῖ· εἰ γὰρ μὴ ἐφαρμόζουσιν, οὐκ ἂν εἴη καλῶς ἀποδεδομένος<note type="apparatus" n="14" target="#p472-13">δεῖ D: om. aABP μὴ ἐφαρμόσουσιν a</note>
               <lb n="15" xml:id="p472-14"/>ὁ ὁρισμός. σαφὲς δὲ ποιεῖ τοῦτο διὰ τοῦ παραδείγματος.<note type="apparatus" n="15" target="#p472-14">ὁ om. A: ὁ λόγος ἤτοι B σαφὲς — παραδείγματος a: om. ABDP</note>
             </p>
@@ -18731,8 +18731,8 @@
               <lb n="6" xml:id="p490-5"/>τῷ ὅλῳ τῷ ἐκ πάντων ἐστὶ συνώνυμον. οἷον ἀρετή ἐστιν ἀνδρία, δικαιοσύνη<note type="apparatus" n="6" target="#p490-5">τῷ ὅλῳ om. A συν τῷ alterum aAP: τὸ BD συνώνυμόν ἐστιν a οἷον —</note><milestone type="alt-edition" unit="line" ed="Aldina 1513" n="5"/>
               <lb n="7" xml:id="p490-6"/>καὶ φρόνησις· ἕκαστον γὰρ τούτων ἀρετὴ λέγεται συνωνύμως τῷ
               <lb n="8" xml:id="p490-7"/>ὅλῳ. οὐ δεῖ οὖν τὸ ὅλον συνώνυμον εἶναι τοῖς μέρεσι, καθάπερ οὐδὲ ἐπὶ
-              <lb n="9" xml:id="p490-8"/>τῶν συλλαβῶν· ἑκάστη γὰρ τῶν συλλαβῶν οὐκ ἔστι συνώνυμος τοῖς συντιθεῖσιν
-              <lb n="10" xml:id="p490-9"/>αὐτὴν στοιχείοις.<note type="apparatus" n="10" target="#p490-9">aN 9 ὁμώνυμος N</note>
+              <lb n="9" xml:id="p490-8"/>τῶν συλλαβῶν· ἑκάστη γὰρ τῶν συλλαβῶν οὐκ ἔστι συνώνυμος τοῖς συντιθεῖσιν<note type="apparatus" n="9" target="#p490-8">ὁμώνυμος N</note>
+              <lb n="10" xml:id="p490-9"/>αὐτὴν στοιχείοις.<note type="apparatus" n="10" target="#p490-9">aN</note>
             </p>
           </div>
           <div type="textpart" subtype="lemma" n="109">
@@ -19406,8 +19406,8 @@
               <lb n="4" xml:id="p507-3"/>ἢ αἱ αὐταὶ διαφοραί εἰσιν.<note type="apparatus" n="4" target="#p507-3">αἱ αὐταὶ corr. ex αὗται P²</note>
               <lb n="5" xml:id="p507-4"/>Εἰπὼν τὴν ἔνστασιν ἐπήνεγκεν ἀληθὲς εἶναι καθόλου τὸ τῶν ἐναντίων<note type="apparatus" n="5" target="#p507-4">ante εἰπὼν add. καὶ ὅτι ὁ A, ὅτι ὁ P, ὅτι B εἰπὼν —</note>
               <lb n="6" xml:id="p507-5"/>ἢ τὰς αὐτὰς ἢ ἐναντίας εἶναι διαφορὰς ὥσπερ καὶ γένη· καὶ γὰρ τὸ<note type="apparatus" n="6" target="#p507-5">γένη ABDP: τοῦτο δ’ ἐπήγαγε μετὰ τὴν ἔνστασιν, ὡσανεὶ λέγων ὅτι τῶν ἐναντίων ἐπεὶ ἐναντίαι εἰσὶν αἱ διαφοραὶ ἢ αἱ αὐταί, ὁμοίως ἔσται καὶ τὰ γένη ἢ ἐναντία ἢ τὰ αὐτά aN 5 καθόλου scripsi cf. p. 508,9: καθὸ libri</note><note type="apparatus" n="6" target="#p507-5">ὥσπερ scripsi: ὥστε libri γένη A: γένος BP: τὸ γένος D καὶ γὰρ —</note><milestone type="alt-edition" unit="page" ed="Aldina 1513" n="244"/>
-              <lb n="7" xml:id="p507-6"/>γένος ἢ ταὐτὸν ἢ ἐναντίον. ὥστε, εἰ εἴη τις διαφορὰ τοῦ ἐναντίου τῷ
-              <lb n="8" xml:id="p507-7"/>προκειμένῳ, μὴ εἴη δὲ καὶ τοῦτο ὑπὸ τὴν αὐτὴν διαφορὰν δυνάμενον εἶναι,<note type="apparatus" n="8" target="#p507-7">προκειμένῳ om. A 7 εἰ εἴη — 10 γένους] φανερὸν ὡς εἰ μὲν τοῦ ἐναντίου ἡ ἐναντία κατηγορεῖται διαφορά, τοῦ δὲ προκειμένου οὐ κατηγορεῖται ἡ αὐτὴ διαφορά, ἡ εἰρημένη ἤγουν ἡ ἐναντία κατηγορηθήσεται αὐτοῦ. διὰ τοῦτο καὶ τίθησι καθόλου μέθοδον, λέγων ὡς ἐπεὶ ὁ ὁρισμὸς ἐκ γένους ἐστὶ καὶ διαφορῶν aN τις D: om. BP</note><note type="apparatus" n="8" target="#p507-7">μὴ et καὶ AD: om. BP</note>
+              <lb n="7" xml:id="p507-6"/>γένος ἢ ταὐτὸν ἢ ἐναντίον. ὥστε, εἰ εἴη τις διαφορὰ τοῦ ἐναντίου τῷ<note type="apparatus" n="7" target="#p507-6">εἰ εἴη — 10 γένους] φανερὸν ὡς εἰ μὲν τοῦ ἐναντίου ἡ ἐναντία κατηγορεῖται διαφορά, τοῦ δὲ προκειμένου οὐ κατηγορεῖται ἡ αὐτὴ διαφορά, ἡ εἰρημένη ἤγουν ἡ ἐναντία κατηγορηθήσεται αὐτοῦ. διὰ τοῦτο καὶ τίθησι καθόλου μέθοδον, λέγων ὡς ἐπεὶ ὁ ὁρισμὸς ἐκ γένους ἐστὶ καὶ διαφορῶν aN τις D: om. BP</note>
+              <lb n="8" xml:id="p507-7"/>προκειμένῳ, μὴ εἴη δὲ καὶ τοῦτο ὑπὸ τὴν αὐτὴν διαφορὰν δυνάμενον εἶναι,<note type="apparatus" n="8" target="#p507-7">προκειμένῳ om. A</note><note type="apparatus" n="8" target="#p507-7">μὴ et καὶ AD: om. BP</note>
               <lb n="9" xml:id="p507-8"/>εἴη ἂν ὑπὸ τὴν ἐναντίαν ἐκείνῃ.<note type="apparatus" n="9" target="#p507-8">ἐκείνην B</note>
             </p>
           </div>
@@ -20032,12 +20032,12 @@
               <lb n="8" xml:id="p523-7"/>ὅτι ἀνωτάτω, τουτέστιν ἐπὶ τὰ καθολικώτερα καὶ κοινότερα, ἐὰν<note type="apparatus" n="8" target="#p523-7">ὅτι om. Δ: ὡς D ἐπεὶ A</note>
               <lb n="9" xml:id="p523-8"/>διὰ συλλογισμοῦ τὴν λῆψιν τῶν ἀναγκαίων ποιώμεθα. ἐὰν δὲ μὴ τιθῇ,<note type="apparatus" n="9" target="#p523-8">τὴν om. B</note>
               <lb n="10" xml:id="p523-9"/>δι’ ἐπαγωγῆς ληπτέον, τουτέστιν ἐὰν τὸ καθόλου καὶ ἀνώτερον τῆς<note type="apparatus" n="10" target="#p523-9">δι’ ἐπαγωγῆς: — ἐὰν δὲ φησὶ τὸ Δ ὅτι τουτέστιν, sed ante 9 ἐὰν, A post καὶ add. τὸ a ἀνωτέρω aAP</note>
-              <lb n="11" xml:id="p523-10"/>ἀναγκαίας προτάσεως βουλώμεθα λαβεῖν, μὴ συγχωρῇ δὲ ὁ ἀποκρινόμενος,<note type="apparatus" n="11" target="#p523-10">βουλόμεθα B συγχωρεῖ AB δὲ om. BΔ</note>
+              <lb n="11" xml:id="p523-10"/>ἀναγκαίας προτάσεως βουλώμεθα λαβεῖν, μὴ συγχωρῇ δὲ ὁ ἀποκρινόμενος,<note type="apparatus" n="11" target="#p523-10">βουλόμεθα B συγχωρεῖ AB δὲ om. BD</note>
               <lb n="12" xml:id="p523-11"/>πειρατέον δι’ ἐπαγωγῆς λαβεῖν, οὐ τὴν καθόλου καὶ ἀνωτέραν ἀλλὰ τὴν<milestone type="alt-edition" unit="line" ed="Aldina 1513" n="15"/>
               <lb n="13" xml:id="p523-12"/>ἀναγκαίαν· ἐργωδέστερον γὰρ τὸ κοινότερον τῶν ἐλαττόνως κοινῶν ὄντων ὑπ’<note type="apparatus" n="13" target="#p523-12">ἐλαττόνως (sic) a: ἐλαττόνων ABDP κοινῶν ὄντων scripsi: κοινῶν δ’ ὄντων Δ: κοινῶν δὲ D: κοινῶν ABP: ὃν δὲ a</note>
               <lb n="14" xml:id="p523-13"/>ἐκεῖνο δι’ ἐπαγωγῆς λαβεῖν. αὐτὸ δὴ τὸ προκείμενον καὶ ἀναγκαῖον χρὴ<note type="apparatus" n="14" target="#p523-13">λαβεῖν. αὐτὸ δὴ scripsi: αὐτὸ (om. B) δεῖ λαβεῖν libri</note><note type="apparatus" n="14-15" target="#p523-13 #p523-14">χρὴ—λαμβάνειν om. a</note>
               <lb n="15" xml:id="p523-14"/>πειρᾶσθαι δι’ ἐπαγωγῆς λαμβάνειν. ἦν δὲ τοῦτο 〈τὸ〉 τῶν ἐναντίων εἶναι<note type="apparatus" n="15" target="#p523-14">δι’ ἐπαγωγῆς om. Δ post ἐπαγωγῆς expunxit αὐτὸ D τὸ addidi</note>
-              <lb n="16" xml:id="p523-15"/>μίαν ἐπιστήμην· ληψόμεθα δὴ ‘καὶ ἀρτίου καὶ περιττοῦ ἐναντίων ὄντων ἡ<note type="apparatus" n="16" target="#p523-15">δὴ καὶ scripsi: δὲ καὶ ABD: ras. 4 lit. P: om. a ἐναντίων aDP²: ἐναντία A: ἐναντίον BP¹ ὄντων aΔ, in ras. P²: om. ABD</note><note type="apparatus" n="16-17" target="#p523-15 #p523-16">ἡ αὐτὴ in ras. P²</note>
+              <lb n="16" xml:id="p523-15"/>μίαν ἐπιστήμην· ληψόμεθα δὴ ‘καὶ ἀρτίου καὶ περιττοῦ ἐναντίων ὄντων ἡ<note type="apparatus" n="16" target="#p523-15">δὴ καὶ scripsi: δὲ καὶ ABD: ras. 4 lit. P: om. a ἐναντίων aDP²: ἐναντία A: ἐναντίον BP¹ ὄντων aD, in ras. P²: om. ABD</note><note type="apparatus" n="16-17" target="#p523-15 #p523-16">ἡ αὐτὴ in ras. P²</note>
               <lb n="17" xml:id="p523-16"/>αὐτὴ ἐπιστήμη· ἀριθμητικὴ γάρ· καὶ ἡρμοσμένου καὶ ἀναρμόστου· μουσικὴ<note type="apparatus" n="17" target="#p523-16">ἐπιστήμη om. aP ἀριθμητικὸν γὰρ A: om. P καὶ ἡρμοσμένου καὶ ἀναρμόστου om. aP</note><note type="apparatus" n="17-18" target="#p523-16 #p523-17">μουσικὴ γάρ om. aAP</note>
               <lb n="18" xml:id="p523-17"/>γάρ· καὶ εὐεκτικοῦ καὶ καχεκτικοῦ· γυμναστικὴ γάρ· καὶ ἀρετῆς καὶ<note type="apparatus" n="18" target="#p523-17">καὶ εὐε- in ras. P² εὐεκτικὴ—καχεκτικὴ Δ</note>
               <lb n="19" xml:id="p523-18"/>κακίας· ἠθικὴ γὰρ φιλοσοφία· καὶ πλούτου καὶ πενίας· ποριστικὴ γάρ’·
@@ -20057,7 +20057,7 @@
             </p>
             <note type="footnote">
               (δὲ add. a) ἔσται τότε (τ. D: om. aABP) τῷ διαλεκτικῷ (τὸ add. a) πρὸς τὸν καιρὸν χρῆσθαι (χρήσασθαι aP) τῇ κρύψει καὶ πρὸς τὸ οὕτως ἐρωτᾶν (ἐρ. οὕτως B) aABDP
-              32 sq. νῦν BD: om. aAΔP ἄξιον Δ
+              32 sq. νῦν BD: om. aADP ἄξιον Δ
             </note>
             <pb n="524" facs="https://archive.org/download/pt2commentariain02akaduoft/page/n579.jpg"/>
             <p>
@@ -20067,7 +20067,7 @@
               <lb n="4" xml:id="p524-3"/>ἐπὶ τῶν οὐ γνωρίμων. ὅσαι γάρ, φησί, λίαν προφανεῖς τῶν ἀναγκαίων,<note type="apparatus" n="4" target="#p524-3">οὐ add. D²</note>
               <lb n="5" xml:id="p524-4"/>χρὴ αὐτὰς προτείνειν· οὐ γὰρ ἀπαναισχυντοῦσιν ἀντιλέγειν πρὸς τὰ<note type="apparatus" n="5" target="#p524-4">αὐτὰς AD: ταύτας aBP ἀνεπαισχυντοῦσιν Δ</note>
               <lb n="6" xml:id="p524-5"/>ἐναργῆ· οἷον ὅτι πᾶς ἀριθμὸς ἢ ἄρτιος ἢ περιττός· περιίστανται γάρ,<note type="apparatus" n="6" target="#p524-5">post ἄρτιος add. ἐστὶν aABP περιΐσταται a</note>
-              <lb n="7" xml:id="p524-6"/>κἂν ἀγωνίζωνται, πρὸς τὰ ἐναργῆ δοκοῦντα ἐνίστασθαι, φυλαττόμενοι τὴν<note type="apparatus" n="7" target="#p524-6">καὶ B ἀγωνίζονται BP, Apr. τὰ] τὴν A ἐν ἀρχῇ B δοκοῦντα ΔP (οῦντα in ras. P²): δοκεῖν aABD</note>
+              <lb n="7" xml:id="p524-6"/>κἂν ἀγωνίζωνται, πρὸς τὰ ἐναργῆ δοκοῦντα ἐνίστασθαι, φυλαττόμενοι τὴν<note type="apparatus" n="7" target="#p524-6">καὶ B ἀγωνίζονται BP, Apr. τὰ] τὴν A ἐν ἀρχῇ B δοκοῦντα DP (οῦντα in ras. P²): δοκεῖν aABD</note>
               <lb n="8" xml:id="p524-7"/>ἀπὸ τῶν ἀκουόντων ἐπιτίμησιν.<note type="apparatus" n="8" target="#p524-7">ἀπὸ om. D (non Δ) ἀποτίμησιν A</note>
             </p>
           </div>
@@ -20080,12 +20080,12 @@
               <lb n="10" xml:id="p524-9"/>Εἰπὼν πῶς δεῖ τὰς ἀναγκαίας λαμβάνειν προτάσεις, ἂν μὴ λίαν ὦσι
               <lb n="11" xml:id="p524-10"/>προφανεῖς, ὅτι διὰ συλλογισμοῦ τὰ ἀνώτερα λαμβάνοντας ἢ δι’ ἐπαγωγῆς,<note type="apparatus" n="11" target="#p524-10">τὸ ἀνωτέρω A: τὸ ἀνώτερον Δ</note>
               <lb n="12" xml:id="p524-11"/>νῦν τὴν αἰτίαν τοῦ δεῖν οὕτως λαμβάνειν ἀποδίδωσιν. ἀδηλότερον γάρ,<note type="apparatus" n="12" target="#p524-11">νῦν AD: γοῦν aB τοῦ δεῖν οὕτως AD: δι’ ἣν οὕτω χρὴ a et omisso χρὴ B λαμβάνει B: λαβεῖν Δ</note>
-              <lb n="13" xml:id="p524-12"/>φησί, γίνεται τὸ συμβησόμενόν τε καὶ συναχθησόμενον ἐν τῇ ἀποστάσει,<note type="apparatus" n="13" target="#p524-12">τε aBΔ: om. AD καὶ ἀχθησόμενον aB: om. A</note>
+              <lb n="13" xml:id="p524-12"/>φησί, γίνεται τὸ συμβησόμενόν τε καὶ συναχθησόμενον ἐν τῇ ἀποστάσει,<note type="apparatus" n="13" target="#p524-12">τε aBD: om. AD καὶ ἀχθησόμενον aB: om. A</note>
               <lb n="14" xml:id="p524-13"/>τουτέστιν ἐν τῇ τοῦ καθολικωτέρου λήψει, καὶ ἐν τῇ ἐπαγωγῇ.<note type="apparatus" n="14" target="#p524-13">ἐν alterum superscr. D: om. Arist.: ἐν τῇ om. A</note><note type="apparatus" n="14-15" target="#p524-13 #p524-14">ἀπαγωγῇ A</note>
               <lb n="15" xml:id="p524-14"/>διά τε οὖν τὸ ἀδηλότερον εἶναι τὸ συμβησόμενον ἐκείνως λαμβάνομεν<note type="apparatus" n="15" target="#p524-14">ἐκείνως scripsi: ἐκεῖνο aABD: ἐκεῖ Δ</note>
               <lb n="16" xml:id="p524-15"/>τὰς ἀναγκαίας καὶ διὰ τὸ μὴ κεκωλῦσθαι, εἰ μὴ ἐκείνῃ τῇ ὁδῷ<note type="apparatus" n="16" target="#p524-15">τὰς ἀναγκαίας Δ: τῶν ἀναγκαίων aABD διὰ τοῦ A</note><milestone type="alt-edition" unit="line" ed="Aldina 1513" n="35"/>
               <lb n="17" xml:id="p524-16"/>χρωμένοις πρὸς τὴν τῶν ἀναγκαίων λῆψιν συγχωροίη τις, τοῦ αὐτὰς<note type="apparatus" n="17" target="#p524-16">χρωμένοις scripsi: χρωμένους aABD: compend. Δ ante πρὸς add. τῇ aABD: om. Δ τοῦ αὐτὰς Δ: τοιαύτας aABD</note>
-              <lb n="18" xml:id="p524-17"/>τὰς ἀναγκαίας τε καὶ χρησίμους προτείνοντας ἀξιοῦν λαμβάνειν.<note type="apparatus" n="18" target="#p524-17">προτεινομένας aB post λαμβάνειν add. χρησίμους δὲ (δὲ D: om. AB) φησί, τουτέστι τὰς ἀναγκαίας (εἶναι add. AD) ABD: om. aΔ cf. ad vs. 9</note>
+              <lb n="18" xml:id="p524-17"/>τὰς ἀναγκαίας τε καὶ χρησίμους προτείνοντας ἀξιοῦν λαμβάνειν.<note type="apparatus" n="18" target="#p524-17">προτεινομένας aB post λαμβάνειν add. χρησίμους δὲ (δὲ D: om. AB) φησί, τουτέστι τὰς ἀναγκαίας (εἶναι add. AD) ABD: om. aD cf. ad vs. 9</note>
               <lb n="19" xml:id="p524-18"/>[Εἰς τὸ αὐτό. τὸ ἀδηλότερον γὰρ ἀεὶ ἐν τῇ ἀποστάσει κατασκευαστικόν<note type="apparatus" n="19" target="#p524-18">— p. 525, 7 aN</note><note type="apparatus" n="19" target="#p524-18">εἰς τὸ αὐτὸ om. N post τὸ add. δὲ N</note>
               <lb n="20" xml:id="p524-19"/>ἐστι τοῦ ἐπάνω, ὅτι δεῖ πρὸς τὸ καθολικώτερον ἀνατρέχειν
               <lb n="21" xml:id="p524-20"/>ἢ χρῆσθαι τῇ ἐπαγωγῇ. ὅσον γὰρ χρῆταί τις τοῖς καθολικωτέροις, καὶ<note type="apparatus" n="21" target="#p524-20">ὅσον N: ὅσῳ a</note>
@@ -20113,7 +20113,7 @@
             <p>
               <lb n="9" xml:id="p525-8"/>χάριν.
               <lb n="10" xml:id="p525-9"/>Εἰπὼν περὶ τῶν ἀναγκαίων, πῶς χρὴ ταύτας προτείνειν τε καὶ λαμβάνειν,<note type="apparatus" n="10" target="#p525-9">προτείνειν ταύτας καὶ Δ</note>
-              <lb n="11" xml:id="p525-10"/>λέγει καὶ περὶ τῶν οὐκ ἀναγκαίων, αἳ διὰ τέσσαρας τὰς προειρημένας<note type="apparatus" n="11" target="#p525-10">καὶ om. aΔP οὐκ add. P2 τέσσαρας post προειρ. transposuit a: om. P</note>
+              <lb n="11" xml:id="p525-10"/>λέγει καὶ περὶ τῶν οὐκ ἀναγκαίων, αἳ διὰ τέσσαρας τὰς προειρημένας<note type="apparatus" n="11" target="#p525-10">καὶ om. aDP οὐκ add. P2 τέσσαρας post προειρ. transposuit a: om. P</note>
               <lb n="12" xml:id="p525-11"/>αἰτίας καὶ αὐταὶ ὑπὸ τῶν διαλεκτικῶν παραλαμβάνονται. καὶ φησὶ<note type="apparatus" n="12" target="#p525-11">αὐταὶ aP: αὗται ABD λαμβάνονται Δ</note><milestone type="alt-edition" unit="line" ed="Aldina 1513" n="5"/>
               <lb n="13" xml:id="p525-12"/>κοινὸν μὲν καὶ καθόλου περὶ αὐτῶν τὸ δεῖν αὐτὰς τῶν ἀναγκαίων παραλαμβάνειν<note type="apparatus" n="13" target="#p525-12">καθόλου post αὐτῶν transposuit A</note><note type="apparatus" n="13-14" target="#p525-12 #p525-13">παραλαμβάνειν om. Δ</note>
               <lb n="14" xml:id="p525-13"/>χάριν, ἰδίᾳ δὲ πῶς ἑκάστῃ χρηστέον, ἑξῆς προστίθησιν.
@@ -20138,7 +20138,7 @@
             </quote>
             <p>
               <lb n="21" xml:id="p525-20"/>καὶ τὰ ἑξῆς.<note type="apparatus" n="21" target="#p525-20">τὰ om. A</note>
-              <lb n="22" xml:id="p525-21"/>Ἐνδέχεται γάρ τινα τοῖς σοφοῖς γνωριμώτερα τῶν αἰσθητῶν εἶναι<note type="apparatus" n="22" target="#p525-21">τινα aΔP2: om. ABDP1 γνωριμώτερον A</note>
+              <lb n="22" xml:id="p525-21"/>Ἐνδέχεται γάρ τινα τοῖς σοφοῖς γνωριμώτερα τῶν αἰσθητῶν εἶναι<note type="apparatus" n="22" target="#p525-21">τινα aDP2: om. ABDP1 γνωριμώτερον A</note>
               <lb n="23" xml:id="p525-22"/>τῷ δι’ ἀποδείξεως αὐτὰ εἰδέναι.<note type="apparatus" n="23" target="#p525-22">τῷ corr. ex τὸ P ταῦτα ἔχειν Δ</note>
             </p>
           </div>
@@ -20170,7 +20170,7 @@
               <lb n="9" xml:id="p526-8"/>“μόνου τοῦ ἐσχάτου ῥηθέντος συμπεράσματος”. τῷ μὲν οὖν ἄδηλον<note type="apparatus" n="9" target="#p526-8">ῥηθέντος om. D (non Δ) τῷ] τὸ D</note>
               <lb n="10" xml:id="p526-9"/>εἶναι τὸ δεικνύμενον ὑπὸ τῶν οὕτως ἐρωτωμένων συγχωροῦσι ταῖς
               <lb n="11" xml:id="p526-10"/>προτάσεσι· τῷ δὲ συγχωρηθείσαις αὐταῖς δείκνυσθαι διὰ τῆς ἀναλύσεως τοῦ<note type="apparatus" n="11" target="#p526-10">τῷ aA, in ras. P: τὸ BD: ταῖς Δ συγχωρηθείσας aB αὐτὰς B: om. aP</note><milestone type="alt-edition" unit="line" ed="Aldina 1513" n="20"/>
-              <lb n="12" xml:id="p526-11"/>λόγου ἑπόμενα τὰ συνακτικὰ τοῦ προκειμένου οὐκέτι ἀνανεύειν ἔχουσιν.<note type="apparatus" n="12" target="#p526-11">ἑπόμενα ΔP: ἑπόμενον ὅτι aABD συνεκτικὰ D (non Δ): νακ in ras. P²</note>
+              <lb n="12" xml:id="p526-11"/>λόγου ἑπόμενα τὰ συνακτικὰ τοῦ προκειμένου οὐκέτι ἀνανεύειν ἔχουσιν.<note type="apparatus" n="12" target="#p526-11">ἑπόμενα DP: ἑπόμενον ὅτι aABD συνεκτικὰ D (non Δ): νακ in ras. P²</note>
             </p>
           </div>
           <div type="textpart" subtype="lemma" n="14">
@@ -20194,7 +20194,7 @@
             <p>
               <lb n="20" xml:id="p526-19"/>Τοῦτο δέ φησι μάλιστα ἂν γίνεσθαι, καθάπερ εἴρηται, εἰ χωρὶς τῶν<note type="apparatus" n="20" target="#p526-19">φησι om. Δ κάλιστα (sic) A ἂν Δ: om. aABDP</note>
               <lb n="21" xml:id="p526-20"/>οἰκείων συμπερασμάτων λαβών τις τὰς προτάσεις πάσας, δι’ ὧν δείκνυται<note type="apparatus" n="21" target="#p526-20">λαβών AD: λαμβάνων aBP</note>
-              <lb n="22" xml:id="p526-21"/>τὸ προκείμενον, τὸ ἔσχατον ἐπενέγκῃ συμπέρασμα μόνον. ποιεῖ δὲ αὐτὸ<note type="apparatus" n="22" target="#p526-21">post τὸ alterum add. δ’ AΔ</note>
+              <lb n="22" xml:id="p526-21"/>τὸ προκείμενον, τὸ ἔσχατον ἐπενέγκῃ συμπέρασμα μόνον. ποιεῖ δὲ αὐτὸ<note type="apparatus" n="22" target="#p526-21">post τὸ alterum add. δ’ AD</note>
               <lb n="23" xml:id="p526-22"/>γνώριμον ἡ ἀνάλυσις τοῦ λόγου.<milestone type="alt-edition" unit="line" ed="Aldina 1513" n="25"/>
               <lb n="24" xml:id="p526-23"/>[Ἑτέρου. οὕτω γὰρ ἄν. Οὕτω γὰρ ποιῶν καὶ λαμβάνων τὰς προτάσεις<note type="apparatus" n="24" target="#p526-23">— p. 527,22 aN</note>
               <lb n="25" xml:id="p526-24"/>τῶν προσυλλογισμῶν καὶ τοὺς προσυλλογισμοὺς τῶν προσυλλογισμῶν καὶ μὴ
@@ -20222,7 +20222,7 @@
               <lb n="17" xml:id="p527-16"/>τουτέστι μὴ καθ’ ἕκαστον τῶν προσυλλογισμῶν τοῦ συμπεράσματος λεγομένου.
               <lb n="18" xml:id="p527-17"/>ἥκιστα δ’ ἄν, φησί, διαρθρωθείη καὶ γνώριμος γένοιτο ὁ συλλογισμός,<note type="apparatus" n="18" target="#p527-17">δ’ Arist.: γὰρ aN διαρθροῖτο Arist. (διαρθρωθείη Cc, rc. u)</note>
               <lb n="19" xml:id="p527-18"/>ποῖός ἐστι τοῦδε τοῦ συναχθέντος συμπεράσματος, ἡμῶν μὴ τιθέντων τὰ<milestone type="alt-edition" unit="line" ed="Aldina 1513" n="45"/>
-              <lb n="20" xml:id="p527-19"/>λήμματα, ἤγουν μὴ λαμβανόντων τὰς ἀναγκαίας προτάσεις, αἵτινές εἰσι<note type="apparatus" n="20" target="#p527-19">λήματα a 23—30 aBΔP: om. AD</note>
+              <lb n="20" xml:id="p527-19"/>λήμματα, ἤγουν μὴ λαμβανόντων τὰς ἀναγκαίας προτάσεις, αἵτινές εἰσι<note type="apparatus" n="20" target="#p527-19">λήματα a 23—30 aBDP: om. AD</note>
               <lb n="21" xml:id="p527-20"/>συμπεράσματα τῶν προσυλλογισμῶν, ἀλλὰ τὰς τῶν προσυλλογισμῶν προτάσεις,
               <lb n="22" xml:id="p527-21"/>δι’ ὧν γίνεται ὁ συλλογισμός.]
             </p>
@@ -20248,7 +20248,7 @@
               <lb n="31" xml:id="p527-30"/>Χρὴ δὲ καὶ ὁρισμὸν λαμβάνειν.<note type="apparatus" n="31" target="#p527-30">ὁρισμῷ Arist. post λαμβάνειν add. ἐφ’ ὧν ἐνδέχεται aP</note>
             </quote>
             <p>
-              <lb n="32" xml:id="p527-31"/>Δεῖ, φησί, καὶ ὁρισμὸν πειρᾶσθαι λαμβάνειν, ἐφ’ ὧν ἐνδέχεται δι’<note type="apparatus" n="32" target="#p527-31">δεῖν aP ὁρισμοὺς A: δι’ ὁρισμοῦ BΔ post ἐνδέχεται add. καὶ A</note>
+              <lb n="32" xml:id="p527-31"/>Δεῖ, φησί, καὶ ὁρισμὸν πειρᾶσθαι λαμβάνειν, ἐφ’ ὧν ἐνδέχεται δι’<note type="apparatus" n="32" target="#p527-31">δεῖν aP ὁρισμοὺς A: δι’ ὁρισμοῦ BD post ἐνδέχεται add. καὶ A</note>
               <lb n="33" xml:id="p527-32"/>ὁρισμοῦ λαβεῖν τὴν καθόλου πρότασιν, ὁριζόμενον μέντοι μὴ αὐτὸ<note type="apparatus" n="33" target="#p527-32">καθόλου] προκειμένην B</note>
             </p>
             <pb n="528" facs="https://archive.org/download/pt2commentariain02akaduoft/page/n583.jpg"/>
@@ -20259,7 +20259,7 @@
               <lb n="4" xml:id="p528-3"/>προκειμένων οὐ διδόασιν οἱ ἀποκρινόμενοι τῷ ὁρᾶν τὸ συμβησόμενον, ταῦτα<note type="apparatus" n="4" target="#p528-3">οὐ om. A τῷ] τὸ A</note>
               <lb n="5" xml:id="p528-4"/>ἐπὶ τῶν συστοίχων τῷ προκειμένῳ διδόασι· τούτου δὲ δοθέντος καὶ τὸ
               <lb n="6" xml:id="p528-5"/>προκείμενον δοθήσεται διὰ τὸ ἀληθῆ εἶναι τὸν τῶν συστοίχων τόπον. τὸ<note type="apparatus" n="6" target="#p528-5">ἀληθὲς D</note>
-              <lb n="7" xml:id="p528-6"/>δ’ ἐπ’ αὐτοῦ τοῦ προκειμένου λαμβανόμενον ἔχει ἔνστασίν τινα οὐκ ἀληθῆ<note type="apparatus" n="7" target="#p528-6">ἐπ’] ε in ras. P2 λαμβανόμενον aΔP, sed ανόμενον in ras. P2: λαμβάνειν BD: λαμβάνει A</note>
+              <lb n="7" xml:id="p528-6"/>δ’ ἐπ’ αὐτοῦ τοῦ προκειμένου λαμβανόμενον ἔχει ἔνστασίν τινα οὐκ ἀληθῆ<note type="apparatus" n="7" target="#p528-6">ἐπ’] ε in ras. P2 λαμβανόμενον aDP, sed ανόμενον in ras. P2: λαμβάνειν BD: λαμβάνει A</note>
               <lb n="8" xml:id="p528-7"/>μὲν ἴσως πιθανὴν μέντοι πρὸς τὸ μὴ δοκεῖν ἀλόγως ἀνανεύειν πρὸς<note type="apparatus" n="8" target="#p528-7">πιθανὸν A: ὴν infra ras. P μέντοι ABD: δὲ aP ἀνευλόγως D (non Δ): ἀλλόγως (sic) a</note>
               <lb n="9" xml:id="p528-8"/>τὸ προτεινόμενον. οὐκέτι δὲ ὁμοίως εὔπορον τῷ ἐπὶ τοῦ συστοίχου<note type="apparatus" n="9-10" target="#p528-8 #p528-9">τῷ — ὁριζομένῳ scripsi: τὸ — ὁριζόμενον libri</note>
               <lb n="10" xml:id="p528-9"/>ὁριζομένῳ ἐνστῆναι.<note type="apparatus" n="10" target="#p528-9">συστῆναι Δ</note><milestone type="alt-edition" unit="line" ed="Aldina 1513" n="15"/>
@@ -20268,7 +20268,7 @@
           <div type="textpart" subtype="lemma" n="18">
             <milestone unit="bekker" n="156b4"/>
             <quote type="lemma">
-              <lb n="11" xml:id="p528-10"/>Ἔτι τὸ προτείνειν μὴ ὡς δι’ αὐτὸ ἀλλ’ ἄλλου χάριν.<note type="apparatus" n="11" target="#p528-10">τὸ om. Δ μὴ ὡς ABD Arist.: ὡς οὐ aΔ, in ras. P2(uq) δι’ αὐτὸ Δ Arist.: δι’ αὐτοῦ ABD: δι’ αὐτὸ a, in ras. P2(Af)</note>
+              <lb n="11" xml:id="p528-10"/>Ἔτι τὸ προτείνειν μὴ ὡς δι’ αὐτὸ ἀλλ’ ἄλλου χάριν.<note type="apparatus" n="11" target="#p528-10">τὸ om. Δ μὴ ὡς ABD Arist.: ὡς οὐ aD, in ras. P2(uq) δι’ αὐτὸ Δ Arist.: δι’ αὐτοῦ ABD: δι’ αὐτὸ a, in ras. P2(Af)</note>
             </quote>
             <p>
               <lb n="12" xml:id="p528-11"/>Κρυπτικὸν καὶ τὸ τὰ χρήσιμα πρὸς τὴν τοῦ προκειμένου δεῖξιν<note type="apparatus" n="12" target="#p528-11">τοῦ om. B δεῖξιν P2: δεῖν P1</note>
@@ -20288,15 +20288,15 @@
               <lb n="19" xml:id="p528-18"/>εἶναι ἄγνοια τοῦ ποτέρα τῶν ἀποκρίσεων χρήσιμός ἐστι πρὸς τὸ προκείμενον·
               <lb n="20" xml:id="p528-19"/>γίνεται δὲ τοῦτο καὶ παρὰ τὸν τῆς ἐρωτήσεως τρόπον, ὃ νῦν<note type="apparatus" n="20" target="#p528-19">καὶ τοῦτο A ὃ aD: ὃν ABP</note>
               <lb n="21" xml:id="p528-20"/>ἀξιοῖ ποιεῖν. ἂν γὰρ τῇ ἐρωτήσει μὴ διασημαίνωμεν, ὃ βουλόμεθα λαβεῖν,<note type="apparatus" n="21" target="#p528-20">ἀξιοῖ λαβεῖν Δ post γὰρ add. ἐν aP, μὴ B διαμείνωμεν B</note>
-              <lb n="22" xml:id="p528-21"/>ἢ τῷ μόνον αὐτὸ τιθέναι ἢ τῷ δείκνυσθαι ἄτοπον τὸ ἀντικείμενον λέγειν,<note type="apparatus" n="22" target="#p528-21">τῷ μόνον — ποιοῦμεν (23) om. A τῷ — τῷ ΔP: τὸ — τὸ aBD μόνον BD: μάλιστα aP, sed άλιστα in ras. P2: πάλιστα Δ αὐτὸ P1: αὐτῷ ΔP2 τιθέναι] λαμβάνειν D (non Δ) τὸ ἀντικείμενον P1: παντὶ κείμενον ΔP2</note>
-              <lb n="23" xml:id="p528-22"/>ἄδηλον ποιοῦμεν πότερον ὡς χρήσιμον ἡμῖν εἰς τὸ προκείμενον λαβεῖν<note type="apparatus" n="23" target="#p528-22">ἄδηλον aΔP, sed ἄ in ras. P2: ὡς δῆλον BD εἰς aDP: εἰ AB</note>
+              <lb n="22" xml:id="p528-21"/>ἢ τῷ μόνον αὐτὸ τιθέναι ἢ τῷ δείκνυσθαι ἄτοπον τὸ ἀντικείμενον λέγειν,<note type="apparatus" n="22" target="#p528-21">τῷ μόνον — ποιοῦμεν (23) om. A τῷ — τῷ DP: τὸ — τὸ aBD μόνον BD: μάλιστα aP, sed άλιστα in ras. P2: πάλιστα Δ αὐτὸ P1: αὐτῷ DP2 τιθέναι] λαμβάνειν D (non Δ) τὸ ἀντικείμενον P1: παντὶ κείμενον DP2</note>
+              <lb n="23" xml:id="p528-22"/>ἄδηλον ποιοῦμεν πότερον ὡς χρήσιμον ἡμῖν εἰς τὸ προκείμενον λαβεῖν<note type="apparatus" n="23" target="#p528-22">ἄδηλον aDP, sed ἄ in ras. P2: ὡς δῆλον BD εἰς aDP: εἰ AB</note>
               <lb n="24" xml:id="p528-23"/>βουλόμεθα. ἂν μὲν γὰρ θέλοντες δεῖξαι ὅτι ἡ ψυχὴ ἀθάνατος λαβεῖν<note type="apparatus" n="24" target="#p528-23">— p. 529,1 ἂν — βουλώμεθα om. B</note><milestone type="alt-edition" unit="line" ed="Aldina 1513" n="25"/>
             </p>
             <pb n="529" facs="https://archive.org/download/pt2commentariain02akaduoft/page/n584.jpg"/>
             <p>
               <lb n="1" xml:id="p529-0"/>βουλώμεθα ὅτι ἡ ψυχὴ αὐτοκίνητος * * * *, ὑποσημαίνομεν διὰ τοῦ τρόπου<note type="apparatus" n="1" target="#p529-0">βουλόμεθα A ante ὅτι add. τὸ BD (non Δ) excidit velut καὶ ἐρωτῶμεν ‘ἆρ’ οὐ δοκεῖ σοι ἡ ψυχὴ αὐτοκίνητος;’ τοῦ om. B τόπου Δ</note>
               <lb n="2" xml:id="p529-1"/>τῆς ἐρωτήσεως ὅτι τοῦτο βουλόμεθα λαβεῖν· ἐὰν δὲ εἴπωμεν οὕτως ‘ἆρά<note type="apparatus" n="2" target="#p529-1">τοῦτο om. Δ οὔ Δ: ὅτι aBDP: ὡς A ἄρα B</note>
-              <lb n="3" xml:id="p529-2"/>σοι δοκεῖ ἡ ψυχὴ ἣν κινεῖται κίνησιν ὑπ’ ἄλλου κινεῖσθαι ἢ οὔ;’, οὐκέτι<note type="apparatus" n="3" target="#p529-2">κίνησις A ἄλλης Δ κινεῖσθαι aAΔP, sed εῖσθαι in ras. P2: κινεῖται BD</note>
+              <lb n="3" xml:id="p529-2"/>σοι δοκεῖ ἡ ψυχὴ ἣν κινεῖται κίνησιν ὑπ’ ἄλλου κινεῖσθαι ἢ οὔ;’, οὐκέτι<note type="apparatus" n="3" target="#p529-2">κίνησις A ἄλλης Δ κινεῖσθαι aADP, sed εῖσθαι in ras. P2: κινεῖται BD</note>
               <lb n="4" xml:id="p529-3"/>ἐνδεικνύμεθα διὰ τῆς ἐρωτήσεως πότερον ὃ προετείναμεν βουλόμεθα λαβεῖν<note type="apparatus" n="4" target="#p529-3">ἂν δεικνύμεθα A προετείνομεν D (non Δ): προελόμεθα A</note>
               <lb n="5" xml:id="p529-4"/>ἢ τὴν ἀπόφασιν αὐτοῦ.
             </p>
@@ -20315,7 +20315,7 @@
               <lb n="12" xml:id="p529-11"/>τὴν ὁμοιότητα. ἀξιοῖ οὖν διὰ τῆς τοῦ ὁμοίου τῷ προκειμένῳ παραθέσεως
               <lb n="13" xml:id="p529-12"/>πειρᾶσθαι λαμβάνειν τὸ προκείμενον. λέγει δὲ τοῦτο ὅμοιον εἶναι ἐπαγωγῇ,<note type="apparatus" n="13" target="#p529-12">φησὶ δὲ Δ</note><note type="apparatus" n="13-14" target="#p529-12 #p529-13">ὅμοιον ἐπαγωγῇ· οὐ μὴν εἶναι τοιοῦτον Δ</note>
               <lb n="14" xml:id="p529-13"/>οὐ μὴν ταὐτόν· ἡ μὲν γὰρ ἐπαγωγὴ διὰ τῆς τῶν καθ’ ἕκαστα<note type="apparatus" n="14" target="#p529-13">τῶν om. Δ</note>
-              <lb n="15" xml:id="p529-14"/>ὁμοιότητος τὸ καθόλου λαμβάνει, ἡ δὲ κατὰ τὴν τοῦ ὁμοίου μετάβασιν<note type="apparatus" n="15" target="#p529-14">fort. κατὰ τὴν ὁμοιότητα μετάβασις τοῦ aABΔ: om. DP</note>
+              <lb n="15" xml:id="p529-14"/>ὁμοιότητος τὸ καθόλου λαμβάνει, ἡ δὲ κατὰ τὴν τοῦ ὁμοίου μετάβασιν<note type="apparatus" n="15" target="#p529-14">fort. κατὰ τὴν ὁμοιότητα μετάβασις τοῦ aABD: om. DP</note>
               <lb n="16" xml:id="p529-15"/>γινομένη ἀπὸ τοῦ ὁμοίου τῷ προκειμένῳ τὸ προκείμενον λαμβάνει, ἀλλ’ οὐκ<note type="apparatus" n="16" target="#p529-15">γενομένη A τῷ προκειμένῳ om. Δ ante λαμβάνει add. καθόλου ex vs. 15 Δ οὐχὶ aP</note>
               <lb n="17" xml:id="p529-16"/>ἀπὸ τῶν ὑπ’ αὐτὸ τὸ προκείμενον. διὰ δὲ τοῦ εἰπεῖν τὸ καθόλου τὸ<note type="apparatus" n="17" target="#p529-16">ὑπ’ αὐτὸ (in ras.) τὸ superscr. P</note><note type="apparatus" n="17-18" target="#p529-16 #p529-17">διὰ — ἐσήμανε om. Δ</note>
               <lb n="18" xml:id="p529-17"/>προκείμενον ἐσήμανε.
@@ -20327,7 +20327,7 @@
               <lb n="19" xml:id="p529-18"/>Δεῖ δὲ καὶ αὐτόν ποτε ἑαυτῷ ἔνστασιν φέρειν.<note type="apparatus" n="19" target="#p529-18">ἑαυτῷ om. Δ</note><milestone type="alt-edition" unit="line" ed="Aldina 1513" n="35"/>
             </quote>
             <p>
-              <lb n="20" xml:id="p529-19"/>Κρυπτικόν φησιν εἶναι πρὸς τὸ ῥᾷον ὃ βούλεταί τις συγχωρηθῆναι<note type="apparatus" n="20" target="#p529-19">κρυπτικόν ex vs. 7 illatum suspicor; χρήσιμον conicio post εἶναι add. λέγειν B αὐτῷ aΔP2: om. ABDP1</note>
+              <lb n="20" xml:id="p529-19"/>Κρυπτικόν φησιν εἶναι πρὸς τὸ ῥᾷον ὃ βούλεταί τις συγχωρηθῆναι<note type="apparatus" n="20" target="#p529-19">κρυπτικόν ex vs. 7 illatum suspicor; χρήσιμον conicio post εἶναι add. λέγειν B αὐτῷ aDP2: om. ABDP1</note>
               <lb n="21" xml:id="p529-20"/>αὐτῷ ὑπὸ τοῦ ἀποκρινομένου τὸ καὶ αὐτόν ποτε ἑαυτῷ πρός τι ἐρωτῶντα<note type="apparatus" n="21" target="#p529-20">ἀποκριναμένου A καὶ —</note>
               <lb n="22" xml:id="p529-21"/>ἐνίστασθαι· δοκοῦσι γὰρ οἱ τοῦτο ποιοῦντες δικαίως καὶ φιλαλήθως ἐπιχειρεῖν<note type="apparatus" n="22" target="#p529-21">οἱ om. B αὐτὸ ἑαυτῶ ποτε A</note><note type="apparatus" n="22" target="#p529-21">ἐν — in ras. P2 δικαίως] ῥᾳδίως A</note>
               <lb n="23" xml:id="p529-22"/>πρὸς τὸ προκείμενον. πρὸς δὴ τοὺς οὕτω μεταχειριζομένους τοὺς<note type="apparatus" n="23" target="#p529-22">μεταχειριζομένου A</note><note type="apparatus" n="23-24" target="#p529-22 #p529-23">τὸν λόγον AB1 (corr. B2)</note>
@@ -20350,7 +20350,7 @@
               <lb n="5" xml:id="p530-4"/>βούλονται καὶ κρυπτικὸν τὸ προστιθέναι τὸ σύνηθες καὶ λεγόμενον·<note type="apparatus" n="5" target="#p530-4">κρυπτὸν P καὶ σύνηθες, omisso τὸ, B</note>
               <lb n="6" xml:id="p530-5"/>οἷον ‘ἆρά γε δοκεῖ σοι ἡ ὑγεία αἱρετὸν εἶναι, ὡς πᾶσι δοκεῖ;’, ‘ἆρά<note type="apparatus" n="6" target="#p530-5">ἆρα utrobique B γε in ras. D¹ post δοκεῖ prius ras. 1 lit. D σοι δοκεῖ Δ ἡ om. B</note>
               <lb n="7" xml:id="p530-6"/>σοι δοκεῖ ὁ ἀγαθὸς κριτὴς ἄριστος εἶναι, ὡς πᾶσι σύνηθες λέγειν;’. οὕτως<note type="apparatus" n="7" target="#p530-6">δοκεῖ σοι aP ὁ om. AD εἶναι ante ἄριστος collocat Δ: ἐστίν A οὕτω A: τούτῳ conicio</note>
-              <lb n="8" xml:id="p530-7"/>καὶ Σωκράτης πρὸς Καλλικλέα κέχρηται εἰπόντα τοὺς σώφρονας ἠλιθίους·<note type="apparatus" n="8" target="#p530-7">post Καλλικλέα delevit λέγει B κέχρηται] πεποίηκεν N εἰπόντος aAP, Δpr. ἠλιθίους] τὴν ἠλιθιότητα περικειμένους A</note><milestone type="alt-edition" unit="line" ed="Aldina 1513" n="45"/>
+              <lb n="8" xml:id="p530-7"/>καὶ Σωκράτης πρὸς Καλλικλέα κέχρηται εἰπόντα τοὺς σώφρονας ἠλιθίους·<note type="apparatus" n="8" target="#p530-7">post Καλλικλέα delevit λέγει B κέχρηται] πεποίηκεν N εἰπόντος aAP, Dpr. ἠλιθίους] τὴν ἠλιθιότητα περικειμένους A</note><milestone type="alt-edition" unit="line" ed="Aldina 1513" n="45"/>
               <lb n="9" xml:id="p530-8"/>οὐ γὰρ συνήθης ἡ τοιαύτη περὶ σωφροσύνης ὑπόληψις· τοῦτο γὰρ δύναται<note type="apparatus" n="9" target="#p530-8">οὐ γὰρ οὐ σύνηθες A</note>
               <lb n="10" xml:id="p530-9"/>αὐτῷ ἡ ἀπόκρισις ἡ “οὐδεὶς ἂν ἀγνοοίη ὅτι οὐ τοῦτο λέγω”. οὕτως<note type="apparatus" n="10" target="#p530-9">ἡ alterum scripsi: ἢ libri ἡ—λέγω om. Δ: memoriter citat Gorg. c. 46 p. 491 E οὐδεὶς ὅστις οὐκ ἂν γνοίη ὅτι οὐ τοῦτο λέγω οὐδεὶς ἂν ἀγνοοίη post οὕτως transposuit A ἂν om. D ἀγνοοίη om. B τοῦτο B Plato: τούτους aADP</note>
               <lb n="11" xml:id="p530-10"/>κἂν φιλοπλάτων τις ᾖ, ῥᾷον λήψεται παρ’ αὐτοῦ ὁ ἐρωτῶν ὃ βούλεται,<note type="apparatus" n="11" target="#p530-10">κἂν D: καὶ Δ: καὶ εἰ aABP ᾖ AD: ἦν B: εἴη aP: ὢν Δ ὃ βούλεται ἐρωτῶν B</note>
@@ -20365,10 +20365,10 @@
             <p>
               <lb n="14" xml:id="p530-13"/>Κἂν ὅλως χρήσιμον ᾖ [πρὸς τὴν θέσιν], φησί, τὸ προτεινόμενον<note type="apparatus" n="14" target="#p530-13">κἂν—θέσιν om. Δ ᾖ χρήσιμον B πρὸς τὴν θέσιν, quod ante χρήσιμον transposuit A, delevi φησὶ Δ: φησὶν ὅτι aABDP</note>
               <lb n="15" xml:id="p530-14"/>εἰς τὴν τοῦ προκειμένου δεῖξιν, οὐ δεῖ φαίνεσθαι σπουδάζοντα περὶ τὸ δοθῆναι<note type="apparatus" n="15" target="#p530-14">σπουδάζοντας Δ</note>
-              <lb n="16" xml:id="p530-15"/>αὐτό· κρυπτικὸν γὰρ καὶ τοῦτο. πρὸς γὰρ ἃ σπουδάζουσι λαβεῖν οἱ ἐρωτῶντες,<note type="apparatus" n="16" target="#p530-15">αὐτῶ D (non Δ) πρὸς—αὐτά (18) aΔ, mrg. P¹ aut P⁵: om. ABD</note>
+              <lb n="16" xml:id="p530-15"/>αὐτό· κρυπτικὸν γὰρ καὶ τοῦτο. πρὸς γὰρ ἃ σπουδάζουσι λαβεῖν οἱ ἐρωτῶντες,<note type="apparatus" n="16" target="#p530-15">αὐτῶ D (non Δ) πρὸς—αὐτά (18) aD, mrg. P¹ aut P⁵: om. ABD</note>
               <lb n="17" xml:id="p530-16"/>μᾶλλον ἀντιτείνουσιν οἱ ἀποκρινόμενοι· διὸ ζητοῦσιν ἔνστασιν
               <lb n="18" xml:id="p530-17"/>φέρειν πρὸς αὐτά. γίνοιτο δ’ ἂν τοῦτο, εἰ ὡς ἐνδοιάζοντες καὶ αὐτοὶ<milestone type="alt-edition" unit="line" ed="Aldina 1513" n="5"/>
-              <lb n="19" xml:id="p530-18"/>ἐρωτῷεν καὶ ὡς οὐκ εἰδότες· ὃ πολλάκις ὁ Σωκράτης ποιεῖ παρὰ τῷ<note type="apparatus" n="19" target="#p530-18">ἐρωτῷεν aBΔ, Pcorr.: ἐρωτῶμεν AD, Ppr. πολλάκις post σωκράτης transposuit D ὁ aBΔP: om. AD ποιεῖ post πλάτωνι transposuit D τῷ om. aBΔ, at cf. p. 158,7 361,4</note>
+              <lb n="19" xml:id="p530-18"/>ἐρωτῷεν καὶ ὡς οὐκ εἰδότες· ὃ πολλάκις ὁ Σωκράτης ποιεῖ παρὰ τῷ<note type="apparatus" n="19" target="#p530-18">ἐρωτῷεν aBD, Pcorr.: ἐρωτῶμεν AD, Ppr. πολλάκις post σωκράτης transposuit D ὁ aBDP: om. AD ποιεῖ post πλάτωνι transposuit D τῷ om. aBD, at cf. p. 158,7 361,4</note>
               <lb n="20" xml:id="p530-19"/>Πλάτωνι· ὡς γὰρ οὐκ εἰδὼς τὸ συμβησόμενον καὶ ὡς τοῦτο ληψόμενος, ὃ<note type="apparatus" n="20" target="#p530-19">καὶ om. A</note>
               <lb n="21" xml:id="p530-20"/>ἂν ἐκ τοῦ λόγου φαίνηται ἄριστα ἔχειν, οὕτως ἐρωτᾷ.<note type="apparatus" n="21" target="#p530-20">φαίνεται aB</note>
             </p>
@@ -20379,7 +20379,7 @@
               <lb n="22" xml:id="p530-21"/>Καὶ τὸ ὡς ἐν παραβολῇ προτείνειν.
             </quote>
             <p>
-              <lb n="23" xml:id="p530-22"/>Κρυπτικόν ἐστι καὶ τὸ ὃ βούλεταί τις λαβεῖν ὡς ἐν παραβολῇ ἐρωτᾶν<note type="apparatus" n="23" target="#p530-22">κρυπτὸν D: κρυπτικὸν γὰρ B ὃ—λαβεῖν aΔ, superscr. P¹: om. ABD post παραβολῇ add. τὲ A ἐρωτᾶν post λαμβάνοντα collocat Δ</note>
+              <lb n="23" xml:id="p530-22"/>Κρυπτικόν ἐστι καὶ τὸ ὃ βούλεταί τις λαβεῖν ὡς ἐν παραβολῇ ἐρωτᾶν<note type="apparatus" n="23" target="#p530-22">κρυπτὸν D: κρυπτικὸν γὰρ B ὃ—λαβεῖν aD, superscr. P¹: om. ABD post παραβολῇ add. τὲ A ἐρωτᾶν post λαμβάνοντα collocat Δ</note>
             </p>
             <pb n="531" facs="https://archive.org/download/pt2commentariain02akaduoft/page/n586.jpg"/>
             <p>
@@ -20397,9 +20397,9 @@
             </quote>
             <p>
               <lb n="7" xml:id="p531-6"/>ἕπεται ἐξ ἀνάγκης.<note type="apparatus" n="7" target="#p531-6">post ἀνάγκης add. ex Arist. μᾶλλον γὰρ συγχωροῦσι Δ</note>
-              <lb n="8" xml:id="p531-7"/>Ἐπεί εἰσί τινα ἑπόμενά τισιν ἐξ ἀνάγκης, ὡς τῷ τὴν ἀρετὴν ἐπιστήμην<note type="apparatus" n="8" target="#p531-7">ἐπεί N: om. aABDP τῷ aBΔP: τὸ AD</note>
+              <lb n="8" xml:id="p531-7"/>Ἐπεί εἰσί τινα ἑπόμενά τισιν ἐξ ἀνάγκης, ὡς τῷ τὴν ἀρετὴν ἐπιστήμην<note type="apparatus" n="8" target="#p531-7">ἐπεί N: om. aABDP τῷ aBDP: τὸ AD</note>
               <lb n="9" xml:id="p531-8"/>εἶναι τὸ διδακτὸν εἶναι τὴν ἀρετήν, κρυπτικόν φησιν εἶναι καὶ τὸ<note type="apparatus" n="9" target="#p531-8">διδακτὸν Δ: διδακτὴν D: διδακτικὸν aABP</note>
-              <lb n="10" xml:id="p531-9"/>μὴ ἐρωτᾶν αὐτὸ ὃ λαβεῖν βουλόμεθα, ἀλλ’ ᾧ τοῦτο ἕπεται. ῥᾷόν τε<note type="apparatus" n="10" target="#p531-9">βουλόμεθα λαβεῖν B ὃ τούτω AB post ἕπεται add. ἐξ ἀνάγκης a τε aΔ: om. ABDP</note>
+              <lb n="10" xml:id="p531-9"/>μὴ ἐρωτᾶν αὐτὸ ὃ λαβεῖν βουλόμεθα, ἀλλ’ ᾧ τοῦτο ἕπεται. ῥᾷόν τε<note type="apparatus" n="10" target="#p531-9">βουλόμεθα λαβεῖν B ὃ τούτω AB post ἕπεται add. ἐξ ἀνάγκης a τε aD: om. ABDP</note>
               <lb n="11" xml:id="p531-10"/>γὰρ τοῖς τοιούτοις συγχωροῦσιν ὡς οὐκ ἔχουσί τι πρὸς τὸ προκείμενον<note type="apparatus" n="11" target="#p531-10">τοῖς om. Δ, superscr. P: τὴν A τού | Δ</note><milestone type="alt-edition" unit="line" ed="Aldina 1513" n="15"/>
               <lb n="12" xml:id="p531-11"/>χρήσιμον, καὶ οὐδὲν ἧττον αὐτῶν δοθέντων περαίνεται τὸ προκείμενον διὰ<note type="apparatus" n="12" target="#p531-11">χρήσιμον scripsi cf. p. 532,8: γνώριμον libri post καὶ add. ὡς AD (non Δ) δοθέντων αὐτῶν Δ: αὐτῶ δοθέντος B post αὐτῶν superscr. καὶ μὴ D</note>
               <lb n="13" xml:id="p531-12"/>τὴν ἀκολουθίαν.
@@ -20415,8 +20415,8 @@
               <lb n="16" xml:id="p531-15"/>ὡς τοῦ προκειμένου χάριν ἐρωτώμενα καὶ ὄντα ἀναγκαῖα μάλιστα ἐνίστανται,<note type="apparatus" n="16" target="#p531-15">χάριν] πάλιν A</note>
               <lb n="17" xml:id="p531-16"/>ἐπεὶ καὶ σχεδὸν οἱ προσδιαλεγόμενοι ταῦτα πρῶτον ἐρωτῶσι. δεῖ οὖν,<note type="apparatus" n="17" target="#p531-16">ἐπεὶ δὴ Δ πρῶτα D: om. Δ</note>
               <lb n="18" xml:id="p531-17"/>φησίν, ἄλλα τινὰ ἐρωτᾶν πρότερον καὶ προεκλύσαντα δι’ αὐτῶν τὸ ἐνστατικὸν<note type="apparatus" n="18" target="#p531-17">προερωτᾶν τινα, omisso πρότερον, Δ διεκλύσαντα B</note><milestone type="alt-edition" unit="line" ed="Aldina 1513" n="20"/>
-              <lb n="19" xml:id="p531-18"/>τῶν ἀποκρινομένων ἔσχατον ἐρωτᾶν τὰ χρήσιμα. οὐ πρὸς πάντας δέ φησι<note type="apparatus" n="19" target="#p531-18">τὸ χρήσιμον Bpr. πάντα AΔ: compend. D</note>
-              <lb n="20" xml:id="p531-19"/>δεῖν χρῆσθαι τούτῳ τῷ τρόπῳ τῆς ἐρωτήσεως· εἰσὶ γάρ τινες οἳ τοῖς πρώτοις<note type="apparatus" n="20" target="#p531-19">δεῖ aΔP</note>
+              <lb n="19" xml:id="p531-18"/>τῶν ἀποκρινομένων ἔσχατον ἐρωτᾶν τὰ χρήσιμα. οὐ πρὸς πάντας δέ φησι<note type="apparatus" n="19" target="#p531-18">τὸ χρήσιμον Bpr. πάντα AD: compend. D</note>
+              <lb n="20" xml:id="p531-19"/>δεῖν χρῆσθαι τούτῳ τῷ τρόπῳ τῆς ἐρωτήσεως· εἰσὶ γάρ τινες οἳ τοῖς πρώτοις<note type="apparatus" n="20" target="#p531-19">δεῖ aDP</note>
               <lb n="21" xml:id="p531-20"/>συγχωρήσαντες, ἂν μὴ σφόδρα φανερὰ ᾖ, ὡς εὐπροσίτους ἑαυτοὺς ἐν τῇ<note type="apparatus" n="21" target="#p531-20">φανερὸν A</note>
               <lb n="22" xml:id="p531-21"/>κοινολογίᾳ παρέχοντες, ὕστερον ἀνατρέχουσι πρὸς τὸ οἰκεῖον ἐλάττωμα.
             </p>
@@ -20427,14 +20427,14 @@
               <lb n="23" xml:id="p531-22"/>Ὁμοίως δὲ καὶ ὅσοι οἴονται δριμεῖς εἶναι.<note type="apparatus" n="23" target="#p531-22">οἷόν τε Dpr. post εἶναι add. ἐν τῶ Δ</note>
             </quote>
             <p>
-              <lb n="24" xml:id="p531-23"/>Εἰσὶν οἳ δι’ οἴησιν δριμύτητος, ὡς οὐδὲν πεισόμενοι συγχωρήσαντες τὰ<note type="apparatus" n="24" target="#p531-23">δι’ BDP²: διὰ aΔ: δ’ AP¹ ὡς aDP²: om. ABDP¹ συγχωρήσαντες ABD: διὰ τοῦ διδόναι (9 lit. eras. P) καὶ συγχωρεῖν (εῖν supra ras. P²) aΔP 34*</note><milestone type="alt-edition" unit="line" ed="Aldina 1513" n="25"/>
+              <lb n="24" xml:id="p531-23"/>Εἰσὶν οἳ δι’ οἴησιν δριμύτητος, ὡς οὐδὲν πεισόμενοι συγχωρήσαντες τὰ<note type="apparatus" n="24" target="#p531-23">δι’ BDP²: διὰ aD: δ’ AP¹ ὡς aDP²: om. ABDP¹ συγχωρήσαντες ABD: διὰ τοῦ διδόναι (9 lit. eras. P) καὶ συγχωρεῖν (εῖν supra ras. P²) aDP 34*</note><milestone type="alt-edition" unit="line" ed="Aldina 1513" n="25"/>
             </p>
             <pb n="532" facs="https://archive.org/download/pt2commentariain02akaduoft/page/n587.jpg"/>
             <p>
               <lb n="1" xml:id="p532-0"/>ἐρωτώμενα, τοῖς πρώτοις οὐκ ἐνίστανται, εἶτα ἐπὶ τέλει φλυαροῦσι καὶ<note type="apparatus" n="1" target="#p532-0">ἐνίσταται P post τέλει add. τερθρεύονται, τουτέστι Δ</note>
-              <lb n="2" xml:id="p532-1"/>πειρῶνται διαστρέφοντες τὰ δεδομένα δεικνύναι ὅτι μὴ ἐκ τῶν συγχωρηθέντων<note type="apparatus" n="2" target="#p532-1">διαστρέφειν Δpr.</note>
+              <lb n="2" xml:id="p532-1"/>πειρῶνται διαστρέφοντες τὰ δεδομένα δεικνύναι ὅτι μὴ ἐκ τῶν συγχωρηθέντων<note type="apparatus" n="2" target="#p532-1">διαστρέφειν Dpr.</note>
               <lb n="3" xml:id="p532-2"/>τὸ ἐπιφερόμενον δείκνυται, ἢ τὴν λέξιν διαστρέφοντες ἢ ἀμφιβολίας<note type="apparatus" n="3" target="#p532-2">τὸ om. B</note>
-              <lb n="4" xml:id="p532-3"/>τινὰς ἐξηγούμενοι. τοὺς δὴ τοιούτους φησὶ δεῖν πρῶτον τὰ ἀναγκαῖα<note type="apparatus" n="4" target="#p532-3">δὴ om. Δ φασὶ A δεῖ BΔ</note>
+              <lb n="4" xml:id="p532-3"/>τινὰς ἐξηγούμενοι. τοὺς δὴ τοιούτους φησὶ δεῖν πρῶτον τὰ ἀναγκαῖα<note type="apparatus" n="4" target="#p532-3">δὴ om. Δ φασὶ A δεῖ BD</note>
               <lb n="5" xml:id="p532-4"/>ἐρωτᾶν καὶ ὧν τις μάλιστα συγχωρουμένων δεῖται.
             </p>
           </div>
@@ -20452,7 +20452,7 @@
               <lb n="12" xml:id="p532-11"/>γὰρ καὶ ἀφανέστερον τὸ ψεῦδος ἐν πλείοσι καὶ ἐν παραβύστῳ<note type="apparatus" n="12" target="#p532-11">ἀσαφέστερον B ἐν παρ’ αὐτὸ Δ</note>
               <lb n="13" xml:id="p532-12"/>τεθέν· ὡς γὰρ ἀχρήστοις οὖσι τοῖς ἐρωτωμένοις πρὸς τὸ προκείμενον<note type="apparatus" n="13" target="#p532-12">τοῖς ἐρωτωμένοις om. A</note>
               <lb n="14" xml:id="p532-13"/>συγχωροῦντες οἱ ἀποκρινόμενοι λανθάνουσι καὶ τὰ χρήσιμα διδόντες σὺν<note type="apparatus" n="14" target="#p532-13">λαμβάνουσι A σὺν superscr. B</note><milestone type="alt-edition" unit="line" ed="Aldina 1513" n="35"/>
-              <lb n="15" xml:id="p532-14"/>αὐτοῖς. ἀλλὰ καὶ ἐπιταράττεσθαι συμβαίνει αὐτοῖς ὑπὸ τοῦ πλήθους τῶν<note type="apparatus" n="15-16" target="#p532-14 #p532-15">ἐπιταράττεσθαι — ἐρωτήσεων] ταῖς πολλαῖς ἐρωτήσεσιν ἐπιταράττονται A</note><note type="apparatus" n="15" target="#p532-14">αὐτοῖς alterum aΔP: αὐτοὺς BD ἀπὸ P τοῦ om. B post</note>
+              <lb n="15" xml:id="p532-14"/>αὐτοῖς. ἀλλὰ καὶ ἐπιταράττεσθαι συμβαίνει αὐτοῖς ὑπὸ τοῦ πλήθους τῶν<note type="apparatus" n="15-16" target="#p532-14 #p532-15">ἐπιταράττεσθαι — ἐρωτήσεων] ταῖς πολλαῖς ἐρωτήσεσιν ἐπιταράττονται A</note><note type="apparatus" n="15" target="#p532-14">αὐτοῖς alterum aDP: αὐτοὺς BD ἀπὸ P τοῦ om. B post</note>
               <lb n="16" xml:id="p532-15"/>ἐρωτήσεων, ὡς μὴ διορᾶν ἐκ τίνων συμβαίνει τὸ προκείμενον.<note type="apparatus" n="16" target="#p532-15">add. εἰς μὲν οὖν κρύψιν τοῖς εἰρημένοις: — τίσι χρηστέον εἰς κόσμον τῆς ἐρωτήσεως καὶ τίσιν εἰς σαφήνειαν: — Δ 17—21 Δ: om. aABDP</note>
             </p>
           </div>
@@ -20474,12 +20474,12 @@
               <lb n="22" xml:id="p532-21"/>Ἡ μὲν οὖν ἐπαγωγὴ ὁποῖόν τί ἐστι, δῆλον.<note type="apparatus" n="22" target="#p532-21">εἰς δὲ σαφήνειαν παραδείγματα καὶ παραβολάς: — ὅτι εἰς σαφήνειαν παραδείγματα καὶ παραβολὰς οἰστέον Δ ὁποῖόν τί ἐστι om. A τί om. D δηλοῖ D</note>
             </quote>
             <p>
-              <lb n="23" xml:id="p532-22"/>Ὅτι τὸ παράδειγμα τῆς ἐπαγωγῆς ἄλλο, καὶ ἐν τῇ Ἀναλυτικῇ εἴρηται.<note type="apparatus" n="23" target="#p532-22">post ὅτι add. δὲ ΔP τὸ παράδειγμα — σημαίνουσα (p. 533,11) Suidas sub v. παράδειγμα ἐν τοῖς ἀναλυτικοῖς A: ἐναλυτικῇ B εἴρηται] Anal. Pr. II 24</note>
+              <lb n="23" xml:id="p532-22"/>Ὅτι τὸ παράδειγμα τῆς ἐπαγωγῆς ἄλλο, καὶ ἐν τῇ Ἀναλυτικῇ εἴρηται.<note type="apparatus" n="23" target="#p532-22">post ὅτι add. δὲ DP τὸ παράδειγμα — σημαίνουσα (p. 533,11) Suidas sub v. παράδειγμα ἐν τοῖς ἀναλυτικοῖς A: ἐναλυτικῇ B εἴρηται] Anal. Pr. II 24</note>
               <lb n="24" xml:id="p532-23"/>ἡ μὲν γὰρ ἐπαγωγὴ ἐκ τῶν καθ’ ἕκαστά ἐστιν ἐπὶ τὸ καθόλου<note type="apparatus" n="24" target="#p532-23">ἐκ om. A ἕκαστον A: compend. Δ τὸ ABD: τὰ aP Suid.</note>
             </p>
             <pb n="533" facs="https://archive.org/download/pt2commentariain02akaduoft/page/n588.jpg"/>
             <p>
-              <lb n="1" xml:id="p533-0"/>ἔφοδος· παράδειγμα δὲ γίνεται τὸ ὅμοιον καὶ γνωριμώτερον τοῦ ὁμοίου<note type="apparatus" n="1" target="#p533-0">ἔφοδος ABD (cf. p. 105a 13): ὁδὸς aΔPSuid. καὶ παράδειγμα, omisso δὲ, A γίνεται τὸ] τινὸς Δ</note><milestone type="alt-edition" unit="line" ed="Aldina 1513" n="40"/>
+              <lb n="1" xml:id="p533-0"/>ἔφοδος· παράδειγμα δὲ γίνεται τὸ ὅμοιον καὶ γνωριμώτερον τοῦ ὁμοίου<note type="apparatus" n="1" target="#p533-0">ἔφοδος ABD (cf. p. 105a 13): ὁδὸς aDPSuid. καὶ παράδειγμα, omisso δὲ, A γίνεται τὸ] τινὸς Δ</note><milestone type="alt-edition" unit="line" ed="Aldina 1513" n="40"/>
               <lb n="2" xml:id="p533-1"/>καὶ ἧττον γνωρίμου. διὸ ἐπαγωγὴ μὲν δι’ ἑνὸς οὐ γίνεται· τὸ δὲ παράδειγμα
               <lb n="3" xml:id="p533-2"/>ἀρκεῖ καὶ δι’ ἑνὸς εἶναι. καὶ ἔστιν ἡ μὲν ἐπαγωγὴ τῷ διαλεκτικῷ<note type="apparatus" n="3" target="#p533-2">ἀρκεῖ om. A εἶναι] γίνεται A ἔστιν om. A τοῦ διαλεκτικοῦ A</note>
               <lb n="4" xml:id="p533-3"/>οἰκειοτέρα, τὸ δὲ παράδειγμα τῷ ῥήτορι. προσχρῆται μέντοι καὶ ὁ διαλεκτικὸς<note type="apparatus" n="4" target="#p533-3">οἰκειοτέρα om. A τοῦ ῥήτορος A 4—6 κέχρηται (προσχρῆται scripsi cf. ad p. 441,15) — πυνθάνεσθαι aBDP: σαφηνίζων δὲ πολλάκις τὸ λεγόμενον καὶ ὁ διαλεκτικὸς κέχρηται παραδείγμασιν A ἡ διαλεκτικὴ D (non Δ)</note>
@@ -20491,8 +20491,8 @@
               <lb n="10" xml:id="p533-9"/>τοῦτο ἀδήλου, ἡ δὲ παραβολὴ εἰκών ἐστιν ὁμοιότητα πρός τι γεγονὸς<note type="apparatus" n="10" target="#p533-9">ἀδήλου mrg. Δ εἰκός A ὁμοιότητος B εἰς τί Δ: πρότερον B</note>
               <lb n="11" xml:id="p533-10"/>σημαίνουσα. ἔοικε μέντοι αὐτὸς νῦν ἐπὶ τοῦ αὐτοῦ κεχρῆσθαι τῷ παραδείγματι<note type="apparatus" n="11" target="#p533-10">σημαῖνον A αὐτὴν B νῦν post αὐτοῦ transposuit D (non Δ)</note>
               <lb n="12" xml:id="p533-11"/>καὶ τῇ παραβολῇ δι’ ὧν <milestone type="alt-edition" unit="page" ed="Aldina 1513" n="255"/> λέγει παραδείγματα δὲ οἰκεῖα
-              <lb n="13" xml:id="p533-12"/>καὶ ἐξ ὧν ἴσμεν, οἷα Ὅμηρος, μὴ οἷα Χοιρίλος· ἐναργεῖς γὰρ καὶ<note type="apparatus" n="13" target="#p533-12">καὶ prius AΔ Arist.: om. aBDP οἷα prius] ἐξ ὧν B ὁμήρου D (non Δ) Χοιρίλλος Δ: χοιρίλου ἐστίν D: χειρίλλος ἐστίν A</note><note type="apparatus" n="13-14" target="#p533-12 #p533-13">καὶ διὰ γνωρίμων om. A</note>
-              <lb n="14" xml:id="p533-13"/>διὰ γνωρίμων αἱ παρ’ Ὁμήρῳ παραβολαί· οὐ τοιαῦται δὲ αἱ Χοιρίλου.<note type="apparatus" n="14" target="#p533-13">Χοιρίλλου ΔP post</note><note type="apparatus" n="14" target="#p533-13">add. καὶ ἐφ’ ὧν μὴ κεῖται τοῖς ὁμοίοις ὄνομα κοινόν, πειρατέον ὀνοματοποιεῖν τοὺς διαλεγομένους (διαλεκτικοὺς A), ἵνα μὴ παρακρούωνται (παρακοῦωνται AB) ἀλλήλους ABD: om. aΔP</note>
+              <lb n="13" xml:id="p533-12"/>καὶ ἐξ ὧν ἴσμεν, οἷα Ὅμηρος, μὴ οἷα Χοιρίλος· ἐναργεῖς γὰρ καὶ<note type="apparatus" n="13" target="#p533-12">καὶ prius AD Arist.: om. aBDP οἷα prius] ἐξ ὧν B ὁμήρου D (non Δ) Χοιρίλλος Δ: χοιρίλου ἐστίν D: χειρίλλος ἐστίν A</note><note type="apparatus" n="13-14" target="#p533-12 #p533-13">καὶ διὰ γνωρίμων om. A</note>
+              <lb n="14" xml:id="p533-13"/>διὰ γνωρίμων αἱ παρ’ Ὁμήρῳ παραβολαί· οὐ τοιαῦται δὲ αἱ Χοιρίλου.<note type="apparatus" n="14" target="#p533-13">Χοιρίλλου DP post</note><note type="apparatus" n="14" target="#p533-13">add. καὶ ἐφ’ ὧν μὴ κεῖται τοῖς ὁμοίοις ὄνομα κοινόν, πειρατέον ὀνοματοποιεῖν τοὺς διαλεγομένους (διαλεκτικοὺς A), ἵνα μὴ παρακρούωνται (παρακοῦωνται AB) ἀλλήλους ABD: om. aDP</note>
             </p>
           </div>
           <div type="textpart" subtype="lemma" n="31">
@@ -20506,7 +20506,7 @@
               <lb n="18" xml:id="p533-17"/>πρῶτον μὲν δυσχέρειάν τινα πολλάκις ἐπὶ τῶν ἐπακτικῶν λόγων ἀπαντῶσαν<note type="apparatus" n="18" target="#p533-17">πολλάκις om. D, mrg. Δ</note><milestone type="alt-edition" unit="line" ed="Aldina 1513" n="5"/>
               <lb n="19" xml:id="p533-18"/>μηνύει, ἣν ἀξιοῖ φυλάττεσθαι ἐπανορθοῦσθαι πειρωμένους. ἔστι δὲ ἡ δυσγέρεια
               <lb n="20" xml:id="p533-19"/>αὕτη· ἐπεὶ ἐπί τινων τὸ καθόλου τε καὶ κοινὸν οὐκ ὠνόμασται,<note type="apparatus" n="20" target="#p533-19">τινος B</note>
-              <lb n="21" xml:id="p533-20"/>οἷον τίνα ἐστὶ τῶν ζῴων τετράποδα (τῷ μὲν γὰρ δίποδι πεζῷ ἄνθρωπος<note type="apparatus" n="21" target="#p533-20">τίνα BΔ: τινά aADP μὲν om. A γὰρ om. Δ ante ἄνθρωπος add. ὁ D (non Δ)</note>
+              <lb n="21" xml:id="p533-20"/>οἷον τίνα ἐστὶ τῶν ζῴων τετράποδα (τῷ μὲν γὰρ δίποδι πεζῷ ἄνθρωπος<note type="apparatus" n="21" target="#p533-20">τίνα BD: τινά aADP μὲν om. A γὰρ om. Δ ante ἄνθρωπος add. ὁ D (non Δ)</note>
               <lb n="22" xml:id="p533-21"/>ὄνομα, τοῖς δὲ τετράποσι πεζοῖς οὐκ ἔστιν ἓν ὄνομα τὴν ὁμοιότητα περιέχον<note type="apparatus" n="22" target="#p533-21">τετράποδοις B</note>
               <lb n="23" xml:id="p533-22"/>αὐτῶν), οἱ τὰς ἐπαγωγὰς ἐπὶ τούτων ποιούμενοι λαβόντες τινὰ τῶν ὑπὸ τὸ<note type="apparatus" n="23" target="#p533-22">αὐτοῖς D (non Δ) τούτου A λαμβάνοντες aBP ὑπὸ τὸ ABD: ἀπὸ τῶν aP</note>
             </p>
@@ -20517,11 +20517,11 @@
               <lb n="3" xml:id="p534-2"/>πολλάκις ἀλλήλους παρακρούονται οἱ διαλεγόμενοι, 〈οἱ μὲν〉 τὰ τοῖς<note type="apparatus" n="3" target="#p534-2">οἱ Ν: καὶ οἱ ABD: καὶ aP οἱ μὲν addidi cf. Arist.</note>
               <lb n="4" xml:id="p534-3"/>εἰλημμένοις διὰ τῆς ἐπαγωγῆς ἀνόμοια ἐπάγοντες ὡς ὅμοια καὶ περιεχόμενα<note type="apparatus" n="4" target="#p534-3">ὑπάγοντες Δ</note>
               <lb n="5" xml:id="p534-4"/>ἐν τῷ 〈τοιούτῳ τῷ〉 τοιαῦτα δοκεῖν εἶναι διά τινα βραχεῖαν ὁμοιότητα,<note type="apparatus" n="5" target="#p534-4">τοιούτῳ τῷ addidi cf. vs. 2 ἰδιότητα D (non Δ)</note>
-              <lb n="6" xml:id="p534-5"/>οἱ δὲ τὰ ὅμοια οὐκ ἀξιοῦντες ὅμοια εἶναι οὐδὲ συγκεχωρῆσθαι τὰ τοιαῦτα<note type="apparatus" n="6" target="#p534-5">τὰ ὅμοια δὲ A εἶναι ὅμοια aP post συγκεχωρῆσθαι add. τῷ aBΔP, τοῦ A: om. D τὰ alterum om. A</note>
-              <lb n="7" xml:id="p534-6"/>διά τινα κατά τι ἄλλο ἀνομοιότητα. παραινεῖ οὖν τὰ τοιαῦτα φυλάττεσθαι<note type="apparatus" n="7" target="#p534-6">τινων B οὖν om. ΔP</note>
+              <lb n="6" xml:id="p534-5"/>οἱ δὲ τὰ ὅμοια οὐκ ἀξιοῦντες ὅμοια εἶναι οὐδὲ συγκεχωρῆσθαι τὰ τοιαῦτα<note type="apparatus" n="6" target="#p534-5">τὰ ὅμοια δὲ A εἶναι ὅμοια aP post συγκεχωρῆσθαι add. τῷ aBDP, τοῦ A: om. D τὰ alterum om. A</note>
+              <lb n="7" xml:id="p534-6"/>διά τινα κατά τι ἄλλο ἀνομοιότητα. παραινεῖ οὖν τὰ τοιαῦτα φυλάττεσθαι<note type="apparatus" n="7" target="#p534-6">τινων B οὖν om. DP</note>
               <lb n="8" xml:id="p534-7"/>πειρωμένους, εἰ οἷόν τε, ὀνοματοποιεῖν αὐτοὺς καὶ κοινῷ ὀνόματι περιλαμβάνειν<note type="apparatus" n="8" target="#p534-7">πειρώμενοι Δ</note><milestone type="alt-edition" unit="line" ed="Aldina 1513" n="15"/>
               <lb n="9" xml:id="p534-8"/>τὰ τοῖς εἰλημμένοις διὰ τῆς ἐπαγωγῆς ὅμοια, οἷον ὡς πάντα, ἃ<note type="apparatus" n="9" target="#p534-8">διὰ τῆς] δι’ B ἃ scripsi: τὰ libri</note>
-              <lb n="10" xml:id="p534-9"/>κερασφόρα οὐκ ἔστιν, ἀμφόδοντα. ἐπ’ ἐνίων μὲν οὖν ῥᾴδιον εὐπορεῖν<note type="apparatus" n="10" target="#p534-9">ἔστιν Δ: om. aABDP ἀμφόδοντα D cf. Ind.: ἀμφώδοντα aAΔP: ἄμφοδα ὄντα B μὲν Δ: om. aABDP οὖν] οὐ B ἀπορεῖν B</note>
+              <lb n="10" xml:id="p534-9"/>κερασφόρα οὐκ ἔστιν, ἀμφόδοντα. ἐπ’ ἐνίων μὲν οὖν ῥᾴδιον εὐπορεῖν<note type="apparatus" n="10" target="#p534-9">ἔστιν Δ: om. aABDP ἀμφόδοντα D cf. Ind.: ἀμφώδοντα aADP: ἄμφοδα ὄντα B μὲν Δ: om. aABDP οὖν] οὐ B ἀπορεῖν B</note>
               <lb n="11" xml:id="p534-10"/>ὀνομάτων, ὡς ἐπὶ τῶν εἰρημένων· ἐπ’ ἐνίων δ’ οὐ ῥᾴδιον. οὐ μὴν ἀλλ’<note type="apparatus" n="11" target="#p534-10">ὀνομάτων A: ὀνόματα B: ὀνόματος aP: compend. D</note>
               <lb n="12" xml:id="p534-11"/>ἴσως χρή, εἰ καὶ μὴ ὀνόματι ἑνὶ δυνατὸν αὐτὰ περιλαβεῖν, ἀλλὰ λόγῳ γε<note type="apparatus" n="12" target="#p534-11">γε om. AB</note>
               <lb n="13" xml:id="p534-12"/>σαφῶς περιορίζοντας ἐπιφέρειν· γνώριμον γὰρ καὶ τοῦτο καὶ ἧττον ἀφορμὰς<note type="apparatus" n="13" target="#p534-12">περιορίζοντας Δ cf. vs. 8: περιορίζοντα aBDP: περιορίζοντι A καὶ prius om. aP</note><note type="apparatus" n="13-14" target="#p534-12 #p534-13">ἀφορμὴν περιέχον A</note>
@@ -20538,7 +20538,7 @@
               <lb n="17" xml:id="p534-16"/>τοῦ ἀποκρινομένου καὶ πότε οὐκ εὔλογον. ὅταν μὲν γὰρ τοῦ ἐρωτῶντος
               <lb n="18" xml:id="p534-17"/>ἐπακτικῶς ἐπὶ πολλῶν τὸν λόγον ποιησαμένου μὴ συγχωρῇ ὁ ἀποκρινόμενος<note type="apparatus" n="18" target="#p534-17">τὸν λόγον P, Dcorr. (aut Dpr.), post ἐπακτικῶς Δ: τῶν λόγων AB, Dpr. (aut Dcorr.): λόγον a</note>
               <lb n="19" xml:id="p534-18"/>τὸ καθόλου, τότε εὔλογον ἀπαιτεῖν αὐτὸν ἔνστασιν ἐπὶ τίνος οὐχ οὕτως.<note type="apparatus" n="19" target="#p534-18">post καθόλου add. δὲ A τὴν ἔνστασιν αὐτὸν B</note>
-              <lb n="20" xml:id="p534-19"/>ἐὰν δέ τις χωρὶς τοῦ τὴν πίστιν διὰ τῶν καθ’ ἕκαστα ποιήσασθαι τοῦ καθόλου<note type="apparatus" n="20" target="#p534-19">ἐὰν AD: ἂν aBΔP post τις add. τούτων B τοῦ prius] τούτων A τὴν om. B τοῦ alterum corr. ex τὸ B post τοῦ eras. 12 lit. P</note>
+              <lb n="20" xml:id="p534-19"/>ἐὰν δέ τις χωρὶς τοῦ τὴν πίστιν διὰ τῶν καθ’ ἕκαστα ποιήσασθαι τοῦ καθόλου<note type="apparatus" n="20" target="#p534-19">ἐὰν AD: ἂν aBDP post τις add. τούτων B τοῦ prius] τούτων A τὴν om. B τοῦ alterum corr. ex τὸ B post τοῦ eras. 12 lit. P</note>
               <lb n="21" xml:id="p534-20"/>τὸ καθόλου λαμβάνῃ, ἀνανεύοντος δὲ ἔνστασιν ἀπαιτῇ, οὐκ εὔλογος ἡ ἔνστασις·<note type="apparatus" n="21" target="#p534-20">λαμβάνῃ τὸ καθόλου aP δὲ om. Δ εὔλογον A</note><milestone type="alt-edition" unit="line" ed="Aldina 1513" n="25"/>
               <lb n="22" xml:id="p534-21"/>δεῖ γὰρ ἐπάγοντα πρῶτον οὕτως τὴν ἔνστασιν ἀπαιτεῖν.
             </p>
@@ -20555,7 +20555,7 @@
             </p>
             <pb n="535" facs="https://archive.org/download/pt2commentariain02akaduoft/page/n590.jpg"/>
             <p>
-              <lb n="1" xml:id="p535-0"/>τὰς ἐνστάσεις χρωμένοις πρὸς τὴν ἀναίρεσιν τῷ καθόλου, ἐὰν μὴ ἓν μόνον<note type="apparatus" n="1" target="#p535-0">τὴν ἔνστασιν AD (non Δ) χρωμένοις N: τοὺς χρωμένους aABDP¹: τὰς χρωμένας ΔP² περὶ A τῷ scripsi: τῶν AD: τοῦ aBΔP</note>
+              <lb n="1" xml:id="p535-0"/>τὰς ἐνστάσεις χρωμένοις πρὸς τὴν ἀναίρεσιν τῷ καθόλου, ἐὰν μὴ ἓν μόνον<note type="apparatus" n="1" target="#p535-0">τὴν ἔνστασιν AD (non Δ) χρωμένοις N: τοὺς χρωμένους aABDP¹: τὰς χρωμένας DP² περὶ A τῷ scripsi: τῶν AD: τοῦ aBDP</note>
               <lb n="2" xml:id="p535-1"/>ᾖ τοιοῦτον.<note type="apparatus" n="2" target="#p535-1">τὸ τοιοῦτον Arist.: τὸ τοῦ πράγματος Δ</note>
             </p>
           </div>
@@ -20569,29 +20569,29 @@
               <lb n="5" xml:id="p535-4"/>Ἐπεί τινες πειρῶνται πρὸς τὸ καθόλου τὸ διὰ τῶν ἐπαγωγῶν λαμβανόμενον<note type="apparatus" n="5" target="#p535-4">τὸ alterum om. aP: τῷ Δ</note><note type="apparatus" n="5-6" target="#p535-4 #p535-5">λαμβανομένω Δ</note>
               <lb n="6" xml:id="p535-5"/>ἐνίστασθαι, ποιούμενοι τὰς ἐνστάσεις οὐκ ἐπὶ τούτων περὶ ὧν ὁ<note type="apparatus" n="6-7" target="#p535-5 #p535-6">ἄλογος Δ</note>
               <lb n="7" xml:id="p535-6"/>λόγος καὶ ἡ ἐρώτησις, ἀλλ’ ἐπὶ ὁμωνύμων αὐτοῖς τινων, δεῖ πρὸς τὴν<note type="apparatus" n="7" target="#p535-6">δεῖ BD: δὴ A: om. aP</note>
-              <lb n="8" xml:id="p535-7"/>προφυλακὴν τῶν τοιούτων ἐνστάσεων, μηδὲν φερουσῶν πρὸς τὸ προκείμενον<note type="apparatus" n="8" target="#p535-7">φυλακὴν BΔ διαφερουσῶν Δ</note>
+              <lb n="8" xml:id="p535-7"/>προφυλακὴν τῶν τοιούτων ἐνστάσεων, μηδὲν φερουσῶν πρὸς τὸ προκείμενον<note type="apparatus" n="8" target="#p535-7">φυλακὴν BD διαφερουσῶν Δ</note>
               <lb n="9" xml:id="p535-8"/>φαντασίαν δὲ ἀποτελεῖν δυναμένων ποτὲ ὡς οὐσῶν ἐνστάσεων, διελόμενον<note type="apparatus" n="9" target="#p535-8">ποτὲ post ἐνστάσεων collocat Δ</note>
               <lb n="10" xml:id="p535-9"/>τὴν ὁμωνυμίαν ἐπὶ τούτων τὴν ἐρώτησιν ποιεῖσθαι, ἃ ἔξω πίπτει<note type="apparatus" n="10-11" target="#p535-9 #p535-10">ἐπὶ—ὁμωνυμίας om. A</note>
               <lb n="11" xml:id="p535-10"/>τῆς πρὸς τὰ μὴ οὕτως ἔχοντα ὁμωνυμίας, ὡς ἐπὶ τοῦ τοῦτό τι ἔχειν,<note type="apparatus" n="11" target="#p535-10">τῆς om. D</note><note type="apparatus" n="11-12" target="#p535-10 #p535-11">ἐπὶ —αὐτ(ῷ) initio paginae P³ τοῦ τοῦτό τι ἔχειν scripsi: τοῦτο ἀλλ’ ὅτι ἔχει B: τοῦτο ἄλλου τί ἔχειν Δ: τοῦτο δ’ ἡ δὶ (sic) ἔχει P³: τούτου A: τούτων: — D: τοῦ ἔχειν ὅπερ πολλαχῶς λέγεται a</note><milestone type="alt-edition" unit="line" ed="Aldina 1513" n="35"/>
-              <lb n="12" xml:id="p535-11"/>πῶς ἔχει, εἰ ὡς μέρος ἐν αὐτῷ ἢ ὡς ἕξιν ἢ ὡς πάθος ἢ ὡς κτῆμα.<note type="apparatus" n="12" target="#p535-11">πῶς ἔχει, εἰ scripsi: πᾶς ἔχει ἢ A: πᾶν ὃ ἔχει ἢ D: ἢ aBΔP ἐν om. AP³ αὐτῷ aBDP³: compend. A ἕξις A ἢ ὡς πάθος om. aB post κτῆμα add. ἔχει D</note>
+              <lb n="12" xml:id="p535-11"/>πῶς ἔχει, εἰ ὡς μέρος ἐν αὐτῷ ἢ ὡς ἕξιν ἢ ὡς πάθος ἢ ὡς κτῆμα.<note type="apparatus" n="12" target="#p535-11">πῶς ἔχει, εἰ scripsi: πᾶς ἔχει ἢ A: πᾶν ὃ ἔχει ἢ D: ἢ aBDP ἐν om. AP³ αὐτῷ aBDP³: compend. A ἕξις A ἢ ὡς πάθος om. aB post κτῆμα add. ἔχει D</note>
             </p>
           </div>
           <div type="textpart" subtype="lemma" n="35">
             <milestone unit="bekker" n="157b8"/>
             <quote type="lemma">
-              <lb n="13" xml:id="p535-12"/>Ἐὰν δὲ μὴ ἐν τῷ ὁμωνύμῳ ἀλλ’ ἐν αὐτῷ ἐνιστάμενος.<note type="apparatus" n="13" target="#p535-12">ἀλλ’ ἐν αὐτῷ ἐνιστάμενος om. aΔ</note>
+              <lb n="13" xml:id="p535-12"/>Ἐὰν δὲ μὴ ἐν τῷ ὁμωνύμῳ ἀλλ’ ἐν αὐτῷ ἐνιστάμενος.<note type="apparatus" n="13" target="#p535-12">ἀλλ’ ἐν αὐτῷ ἐνιστάμενος om. aD</note>
             </quote>
             <p>
               <lb n="14" xml:id="p535-13"/>Εἰπὼν πῶς φυλαξόμεθα τὰς ἐπὶ τῶν ὁμωνύμων ἐνστάσεις, ὅτι διαιρούμενοι,<note type="apparatus" n="14" target="#p535-13">εἰπεῖν A ὡς Δ</note><note type="apparatus" n="14-15" target="#p535-13 #p535-14">διαιρούμενον A: διαιρουμένοις Δ</note>
               <lb n="15" xml:id="p535-14"/>προστίθησι πῶς, εἰ μὴ ἐπί τινος ὁμωνύμου ἡ ἔνστασις γένοιτο<note type="apparatus" n="15" target="#p535-14">εἰ a, superscr. P: εἴη Δ: om. ABD μὴ ἐπί τινος ὁμωνύμου ἡ ἔνστασις N: ἐπί τινος ἡ ἔνστασις μὴ ὁμωνύμου aP, itemque, sed ὁμώνυμος, ABD</note>
-              <lb n="16" xml:id="p535-15"/>ἀλλ’ ἐπί τινος τῶν ὑπὸ τὸ καθόλου, ὃ λαβεῖν βουλόμεθα διὰ τῆς ἐπαγωγῆς,<note type="apparatus" n="16" target="#p535-15">ὑπὸ aΔP: ἐπὶ ABD τὸ] τῶν D (non Δ) ὁ λαβεῖν βουλόμεθα iterata expunxit Δ</note>
+              <lb n="16" xml:id="p535-15"/>ἀλλ’ ἐπί τινος τῶν ὑπὸ τὸ καθόλου, ὃ λαβεῖν βουλόμεθα διὰ τῆς ἐπαγωγῆς,<note type="apparatus" n="16" target="#p535-15">ὑπὸ aDP: ἐπὶ ABD τὸ] τῶν D (non Δ) ὁ λαβεῖν βουλόμεθα iterata expunxit Δ</note>
               <lb n="17" xml:id="p535-16"/>φυλαξόμεθα καὶ τὴν τοιαύτην ἔνστασιν καὶ περανοῦμεν τὸ<note type="apparatus" n="17" target="#p535-16">καίπερ ἀναιροῦμεν A: καὶ συμπερανοῦμεν P, συμ add. P³</note>
               <lb n="18" xml:id="p535-17"/>προκείμενον. ἐπὶ γὰρ τούτου ἀφαιροῦντας ἀξιοῖ ἐκεῖνο ἀπὸ τοῦ καθόλου,<note type="apparatus" n="18" target="#p535-17">ἐπὶ.(τ)ὸ supra ἀπὸ τοῦ scriptum Δ post καθόλου add. λαβεῖν A</note><milestone type="alt-edition" unit="line" ed="Aldina 1513" n="40"/>
               <lb n="19" xml:id="p535-18"/>καθ’ ὃ ἡ ἔνστασις γίνεται, ἢ προσδιορίζοντας περὶ τοῦ καταλειπομένου<note type="apparatus" n="19" target="#p535-18">ὃ] οὗ A ἡ superscr. P</note>
               <lb n="20" xml:id="p535-19"/>ἐρωτᾶν καθόλου. οἷον εἰ δι’ ἐπαγωγῆς ἡμῖν λαμβάνουσιν, ὅτι λήθη ἐστὶν<note type="apparatus" n="20" target="#p535-19">ἐρωτᾶν] ἐν τῷ Δ δι’] δ’ a λαμβάνει B</note>
               <lb n="21" xml:id="p535-20"/>ἡ τῆς ἐπιστήμης ἀποβολή, ἐνίσταταί τις λέγων τοὺς ἔχοντάς τινος πράγματος<note type="apparatus" n="21" target="#p535-20">ἐνίστατό Δ: fort. ἐνίσταιτο τις] τ| P¹: ὅπος add. P³ post τοὺς add. οὕτως B τινος] εὖ A</note><note type="apparatus" n="21-22" target="#p535-20 #p535-21">πράγματα ἐπιστήμης A</note>
               <lb n="22" xml:id="p535-21"/>ἐπιστήμην μεταβάλλοντος τοῦ πράγματος ἀποβάλλειν μὲν τὴν ἐπιστήμην<note type="apparatus" n="22" target="#p535-21">μεταβαλόντος Δ</note>
-              <lb n="23" xml:id="p535-22"/>αὐτοῦ μὴ μέντοι ἐπιλελῆσθαι, ἀφελόντα χρὴ τοῦτο, καθ’ ὃ ἡ ἔνστασις, τὸ<note type="apparatus" n="23" target="#p535-22">χρὴ τοῦτο aΔP: inv. ord. ABD</note><note type="apparatus" n="23-24" target="#p535-22 #p535-23">τὸ καθόλου λοιπὸν A</note>
+              <lb n="23" xml:id="p535-22"/>αὐτοῦ μὴ μέντοι ἐπιλελῆσθαι, ἀφελόντα χρὴ τοῦτο, καθ’ ὃ ἡ ἔνστασις, τὸ<note type="apparatus" n="23" target="#p535-22">χρὴ τοῦτο aDP: inv. ord. ABD</note><note type="apparatus" n="23-24" target="#p535-22 #p535-23">τὸ καθόλου λοιπὸν A</note>
               <lb n="24" xml:id="p535-23"/>λοιπὸν καθόλου λαβεῖν. ἀφαιροῖτο δ’ ἄν, εἰ προσθείημεν τῷ τὴν τῆς ἐπιστήμης<note type="apparatus" n="24" target="#p535-23">εἰ] ἢ A τῷ τὴν Δ: τὸ τὴν AB: τὸ aDP</note><milestone type="alt-edition" unit="line" ed="Aldina 1513" n="45"/>
             </p>
             <pb n="536" facs="https://archive.org/download/pt2commentariain02akaduoft/page/n591.jpg"/>
@@ -20961,7 +20961,7 @@
               <lb n="4" xml:id="p545-3"/>μαθήμασιν ἔνια δι’ ὁρισμοῦ ἔλλειψιν δυσαπολόγητά ἐστιν· τὸ γὰρ<note type="apparatus" n="4" target="#p545-3">ἔνια —</note>
               <lb n="5" xml:id="p545-4"/>οὐ ῥᾴδιον ἀπογράφεσθαι εἶπεν ἀντὶ τοῦ ‘οὐ ῥᾴδιον ἀποδείκνυσθαι’,<note type="apparatus" n="5" target="#p545-4">ἀποδείκνυσθαι, extrema paginae verba, add. P³ (eadem scripsisse videtur P¹)</note><note type="apparatus" n="5" target="#p545-4">immo ῥᾳδίως γράφεσθαι—ῥᾳδίως τοῦ om. P³ (habuisse videtur P¹)</note>
               <lb n="6" xml:id="p545-5"/>συνιστὰς ὅτι ἐν πολλοῖς τῶν ὄντων προβλήμασιν ὁρισμοῦ δεῖ. παραδείγμα<note type="apparatus" n="6-7" target="#p545-5 #p545-6">παράδειγμα— δεικνύμενα—ἀσαφῆ Ζ</note>
-              <lb n="7" xml:id="p545-6"/><milestone type="alt-edition" unit="page" ed="Aldina 1513" n="260"/>τι δὲ τοῦδε ὡς δεικνυμένῳ καὶ ἀσαφεῖ κέχρηται τῷ ὅτι ἡ παρὰ<note type="apparatus" n="7" target="#p545-6">παρὰ Ζ: περὶ aΔP</note>
+              <lb n="7" xml:id="p545-6"/><milestone type="alt-edition" unit="page" ed="Aldina 1513" n="260"/>τι δὲ τοῦδε ὡς δεικνυμένῳ καὶ ἀσαφεῖ κέχρηται τῷ ὅτι ἡ παρὰ<note type="apparatus" n="7" target="#p545-6">παρὰ Ζ: περὶ aDP</note>
               <lb n="8" xml:id="p545-7"/>τὴν πλευρὰν τέμνουσα τὸ ἐπίπεδον ὁμοίως διαιρεῖ τήν τε
               <lb n="9" xml:id="p545-8"/>γραμμὴν καὶ τὸ χωρίον. ἔστι δὲ τὸ λεγόμενον, ὅτι ἐὰν ἐπίπεδον<note type="apparatus" n="9" target="#p545-8">ἔστι —ὅτι om. Δ</note>
               <lb n="10" xml:id="p545-9"/>παραλληλόγραμμον ᾖ, ἀχθῇ δ’ ἐν αὐτῷ μιᾷ τῶν πλευρῶν παράλληλος, ἡ<note type="apparatus" n="10" target="#p545-9">ᾖ, ἀχθῇ scripsi: εἴη, ἀχθείη libri μιᾷ Waitz Organ. II p. X: μία libri</note>
@@ -20970,11 +20970,11 @@
               <lb n="13" xml:id="p545-12"/>ῥηθέντος μέντοι τοῦ ὁρισμοῦ τοῦ ἀνάλογον γνώριμον γίνεται ὅτι ἀνάλόγον<note type="apparatus" n="13" target="#p545-12">post γίνεται add. τὸ εἰρημένον aPZ</note>
               <lb n="14" xml:id="p545-13"/>ὑπὸ τῆς ἀχθείσης παραλλήλου τέμνεται ἥ τε γραμμὴ καὶ τὸ<note type="apparatus" n="14" target="#p545-13">ἥ τε Δ: ἡ aPZ</note>
               <lb n="15" xml:id="p545-14"/>χωρίον. ἔστι δὲ ὁρισμὸς τῶν ἀναλόγων, ᾧ οἱ ἀρχαῖοι ἐχρῶντο, οὗτος·<note type="apparatus" n="15" target="#p545-14">ἔστι — λέγεται (18) Suidas sub v. ἀνάλογον</note>
-              <lb n="16" xml:id="p545-15"/>ἀνάλογον ἔχει μεγέθη πρὸς ἄλληλα ὧν ἡ αὐτὴ ἀνθυφαίρεσις· αὐτὸς δὲ τὴν<note type="apparatus" n="16" target="#p545-15">post ἄλληλα ex vs. 18 intulerunt καὶ ὁμοίως ἔχειν (sic P¹: ἔχει aDP²Z) πρὸς ἄλληλα aΔPZ: om. Suid. ὁ δὲ Ἀριστοτέλης Δ Suid. τὴν superscr. Δ</note>
+              <lb n="16" xml:id="p545-15"/>ἀνάλογον ἔχει μεγέθη πρὸς ἄλληλα ὧν ἡ αὐτὴ ἀνθυφαίρεσις· αὐτὸς δὲ τὴν<note type="apparatus" n="16" target="#p545-15">post ἄλληλα ex vs. 18 intulerunt καὶ ὁμοίως ἔχειν (sic P¹: ἔχει aDP²Z) πρὸς ἄλληλα aDPZ: om. Suid. ὁ δὲ Ἀριστοτέλης Δ Suid. τὴν superscr. Δ</note>
               <lb n="17" xml:id="p545-16"/>ἀνθυφαίρεσιν ἀνταναίρεσιν εἴρηκε. τὰ δ’ ἀνάλογον ἔχοντα πρὸς ἄλληλα<note type="apparatus" n="17" target="#p545-16">ἀνταναίρεσιν Δ Arist. Suid., mrg. B: ἀναίρεσιν aPZ εἶπεν Δ τὰ δ’ — 20 ὅτι om. Δ</note><milestone type="alt-edition" unit="line" ed="Aldina 1513" n="10"/>
               <lb n="18" xml:id="p545-17"/>καὶ ὁμοίως ἔχειν πρὸς ἄλληλα λέγεται· διὸ εἶπεν ἔστι δὲ ὁρισμὸς τοῦ<note type="apparatus" n="18-19" target="#p545-17 #p545-18">τοῦ αὐτοῦ λόγου Ζ Arist.: οὕτως τοῦ αὐτοῦ λόγος πρῶτος aP</note>
               <lb n="19" xml:id="p545-18"/>αὐτοῦ λόγου οὗτος ἀντὶ τοῦ ‘ἔστι δὲ ὁρισμὸς τοῦ ἀνάλογον’. οὗ ῥηθέντος<note type="apparatus" n="19" target="#p545-18">ἀντὶ δὲ τοῦ ἔστι Ζ</note>
-              <lb n="20" xml:id="p545-19"/>τοῦ ὅρου δῆλον γίνεται ὅτι ἡ παράλληλος ἀγομένη πλευρᾷ ἐν παραλληλογράμμῳ<note type="apparatus" n="20" target="#p545-19">ἡ παράλληλος οὖν λεγομένη Δ πλευρᾷ Waitz l. c.: πλευρὰ aΔPZ</note>
+              <lb n="20" xml:id="p545-19"/>τοῦ ὅρου δῆλον γίνεται ὅτι ἡ παράλληλος ἀγομένη πλευρᾷ ἐν παραλληλογράμμῳ<note type="apparatus" n="20" target="#p545-19">ἡ παράλληλος οὖν λεγομένη Δ πλευρᾷ Waitz l. c.: πλευρὰ aDPZ</note>
               <lb n="21" xml:id="p545-20"/>χωρίῳ ὁμοίως τέμνει καὶ ἀνάλογον τήν τε γραμμὴν καὶ τὸ χωρίον.
               <lb n="22" xml:id="p545-21"/>[ἄλλως. Ἔοικε, φησίν, ἐν τοῖς μαθηματικοῖς μὴ ῥᾳδίως καταγράφεσθαί<note type="apparatus" n="22" target="#p545-21">— 31 aN</note><milestone type="alt-edition" unit="line" ed="Aldina 1513" n="15"/>
               <lb n="23" xml:id="p545-22"/>τινα διὰ τὸ ἐλλιπῆ τὸν ὅρον ἀποδοθῆναι. οἷον ἡ γραμμὴ ἡ τέμνουσα τὸ
@@ -21150,9 +21150,9 @@
             <pb n="550" facs="https://archive.org/download/pt2commentariain02akaduoft/page/n605.jpg"/>
             <p>
               <lb n="1" xml:id="p550-0"/>εἰπεῖν τὴν ψυχὴν μὴ εἶναι ἀθάνατον, ἐπεὶ μάχεται τῇ Πλάτωνος δόξῃ·<note type="apparatus" n="1" target="#p550-0">Πλάτωνος Suid.: πάντων Δ: τοῦ Πλάτωνος aPZ</note>
-              <lb n="2" xml:id="p550-1"/>οὔτε δὲ ἔνδοξον οὔτε ἄδοξόν ἐστι πρόβλημα περὶ οὗ ἤτοι οὐδετέρως<note type="apparatus" n="2" target="#p550-1">δὲ post ἔνδοξον collocat a: om. P ante πρόβλημα add. τὸ aP ἤτοι aΔP: οὗτοι Suid.: om. Z</note>
+              <lb n="2" xml:id="p550-1"/>οὔτε δὲ ἔνδοξον οὔτε ἄδοξόν ἐστι πρόβλημα περὶ οὗ ἤτοι οὐδετέρως<note type="apparatus" n="2" target="#p550-1">δὲ post ἔνδοξον collocat a: om. P ante πρόβλημα add. τὸ aP ἤτοι aDP: οὗτοι Suid.: om. Z</note>
               <lb n="3" xml:id="p550-2"/>δοξάζουσιν, οἷον τὸ περιττοὺς ἢ ἀρτίους εἶναι τοὺς ἀστέρας, ἢ περὶ οὗ<note type="apparatus" n="3" target="#p550-2">περιττοὺς εἶναι τοὺς ἀστέρας ἢ ἀρτίους ἢ τὰς τρίχας τῆς κεφαλῆς ἢ περὶ Suid.</note>
-              <lb n="4" xml:id="p550-3"/>ἐπ’ ἴσης ἀμφοτέρως, οἷον περὶ τοῦ ἄπειρον εἶναι ἢ μὴ εἶναι, ἢ τὸ εἶναι<note type="apparatus" n="4" target="#p550-3">ἢ prius aΔPZ: καὶ Suid.</note>
+              <lb n="4" xml:id="p550-3"/>ἐπ’ ἴσης ἀμφοτέρως, οἷον περὶ τοῦ ἄπειρον εἶναι ἢ μὴ εἶναι, ἢ τὸ εἶναι<note type="apparatus" n="4" target="#p550-3">ἢ prius aDPZ: καὶ Suid.</note>
               <lb n="5" xml:id="p550-4"/>ἐπιστήμας τὰς ἀρετὰς ἢ πάλιν μὴ εἶναι. διαφέρειν δ’ οὐδὲν ἔφη, ἄν τε<note type="apparatus" n="5" target="#p550-4">post ἀρετὰς add. ἢ εἶναι ἐπιστήμας ἀρτίας Δ, τὸ ἀντιβόλιν ἐπιστήμας ἀρτίας P cf. ad p. 548, 18 πάλιν om. Δ</note><milestone type="alt-edition" unit="line" ed="Aldina 1513" n="30"/>
               <lb n="6" xml:id="p550-5"/>ἁπλῶς τὸ πρόβλημα ἔνδοξον ἢ, ἄδοξον ᾖ, ὑπὲρ οὗ τὸν λόγον ὁ ἀποκρινόμενος<note type="apparatus" n="6" target="#p550-5">ᾖ P: om. a</note>
               <lb n="7" xml:id="p550-6"/>ὑπέχει, ἄν τε ὡρισμένως· ἐπ’ ἀμφοτέρων γὰρ ὁ αὐτὸς τρόπος
@@ -21273,13 +21273,13 @@
           <div type="textpart" subtype="lemma" n="57">
             <milestone unit="bekker" n="159b37"/>
             <quote type="lemma">
-              <lb n="6" xml:id="p553-5"/>Ἐπεὶ δὲ ἀνάγκη πᾶν τὸ ἐρωτώμενον ἢ ἔνδοξον εἶναι<note type="apparatus" n="6" target="#p553-5">— 12 μὴ διδόναι Δ ἀνάγκη aBΔ Arist.: om. ADP πᾶν P¹: πάντως δεῖ P³ ἢ om. Δ εἶναι post ἄδοξον collocat Δ(u) post εἶναι add. ἁπλῶς D</note><milestone type="alt-edition" unit="line" ed="Aldina 1513" n="5"/>
+              <lb n="6" xml:id="p553-5"/>Ἐπεὶ δὲ ἀνάγκη πᾶν τὸ ἐρωτώμενον ἢ ἔνδοξον εἶναι<note type="apparatus" n="6" target="#p553-5">— 12 μὴ διδόναι Δ ἀνάγκη aBD Arist.: om. ADP πᾶν P¹: πάντως δεῖ P³ ἢ om. Δ εἶναι post ἄδοξον collocat Δ(u) post εἶναι add. ἁπλῶς D</note><milestone type="alt-edition" unit="line" ed="Aldina 1513" n="5"/>
             </quote>
             <p>
               <lb n="7" xml:id="p553-6"/>ἢ ἄδοξον ἢ μηδέτερον.<note type="apparatus" n="7" target="#p553-6">ἢ μηδέτερον om. Δ</note>
-              <lb n="8" xml:id="p553-7"/>Εἰπὼν τὰς τῶν προβλημάτων διαφορὰς καὶ διδάξας πῶς πρὸς ἕκαστον<note type="apparatus" n="8" target="#p553-7">δείξας aΔP ἑκάστην Δ</note>
+              <lb n="8" xml:id="p553-7"/>Εἰπὼν τὰς τῶν προβλημάτων διαφορὰς καὶ διδάξας πῶς πρὸς ἕκαστον<note type="apparatus" n="8" target="#p553-7">δείξας aDP ἑκάστην Δ</note>
               <lb n="9" xml:id="p553-8"/>αὐτῶν χρὴ τὰς ἀποκρίσεις ποιεῖσθαι καὶ τίνων στοχάζεσθαι, νῦν περὶ<note type="apparatus" n="9" target="#p553-8">δεῖ Δ τίνος aP</note>
-              <lb n="10" xml:id="p553-9"/>αὐτῶν τῶν ἐρωτωμένων λέγει, καὶ τούτων τὴν διαίρεσιν ποιεῖται, καὶ<note type="apparatus" n="10" target="#p553-9">λέγων B: τῷ λέγει A καὶ prius aΔP: ἐκ ABD</note>
+              <lb n="10" xml:id="p553-9"/>αὐτῶν τῶν ἐρωτωμένων λέγει, καὶ τούτων τὴν διαίρεσιν ποιεῖται, καὶ<note type="apparatus" n="10" target="#p553-9">λέγων B: τῷ λέγει A καὶ prius aDP: ἐκ ABD</note>
               <lb n="11" xml:id="p553-10"/>δείκνυσι πρὸς τίνα χρὴ βλέποντα ἑκάστην τῶν ἐρωτωμένων προτάσεων ἢ<note type="apparatus" n="11" target="#p553-10">πρὸς superscr. B τίνα ex corr. B ἑκάστην superscr. P¹: ἑκάστων A πρότασιν BD</note>
               <lb n="12" xml:id="p553-11"/>διδόναι ἢ μὴ διδόναι· οὕτως γὰρ διὰ τοῦ τοῦτο ποιεῖν δυνησόμεθα τοῦ προκειμένου<note type="apparatus" n="12" target="#p553-11">διὰ —</note><milestone type="alt-edition" unit="line" ed="Aldina 1513" n="10"/>
               <lb n="13" xml:id="p553-12"/>σκοποῦ τυγχάνειν. ἔστι δὲ καὶ τῶν ἐρωτωμένων τὰ μὲν ἔνδοξα ἐρωτώμενα,
@@ -21481,7 +21481,7 @@
               <lb n="27" xml:id="p558-26"/>δεικνύντι. οὐ γάρ, εἰ δεικνύντος τινὸς δι’ ἐπαγωγῆς, ὅτι πᾶν ζῷον κινητόν<milestone type="alt-edition" unit="line" ed="Aldina 1513" n="45"/>
               <lb n="28" xml:id="p558-27"/>ἐστι καὶ κινεῖται, ἀντεπιχειρῶν τις τὸν Ζήνωνος λόγον * τὸν ἀναιροῦντα<note type="apparatus" n="28" target="#p558-27">adde λέγοι</note>
               <lb n="29" xml:id="p558-28"/>κίνησιν διὰ τὸ δεῖν τὸν κινούμενόν τι διάστημα πρῶτον αὐτοῦ τὸ ἥμισυ<note type="apparatus" n="29" target="#p558-28">δεῖν — 32 διεξελθεῖν Δ</note>
-              <lb n="30" xml:id="p558-29"/>διελθεῖν, τοῦτο δὲ μὴ οἷόν τε τῷ κἀκείνου πάλιν ὀφείλειν αὐτὸν τὸ ἥμισυ<note type="apparatus" n="30" target="#p558-29">τοῦτο — τῷ om. Δ αὐτὸν aΔ: αὐτὸ P</note><milestone type="alt-edition" unit="page" ed="Aldina 1513" n="267"/>
+              <lb n="30" xml:id="p558-29"/>διελθεῖν, τοῦτο δὲ μὴ οἷόν τε τῷ κἀκείνου πάλιν ὀφείλειν αὐτὸν τὸ ἥμισυ<note type="apparatus" n="30" target="#p558-29">τοῦτο — τῷ om. Δ αὐτὸν aD: αὐτὸ P</note><milestone type="alt-edition" unit="page" ed="Aldina 1513" n="267"/>
               <lb n="31" xml:id="p558-30"/>διελθεῖν, κἀκείνου πάλιν ὁμοίως, ἀπείρων δὲ ὄντων τῶν ἡμίσεων ἀδύνατον<note type="apparatus" n="31-32" target="#p558-30 #p558-31">ἀπειρῶν δὲ οὐσῶν τῶν κινήσεων, ἀδύνατον πάντα διελθεῖν Δ</note>
               <lb n="32" xml:id="p558-31"/>εἶναι πάντα αὐτὰ διεξελθεῖν (τὸ γὰρ μέγεθος ἐπ’ ἄπειρον διαιρετόν, ἀδύνατον<note type="apparatus" n="32-33" target="#p558-31 #p558-32">τὸ γὰρ — διελθεῖν a: om. P</note>
               <lb n="33" xml:id="p558-32"/>δὲ ἐν πεπερασμένῳ τὰ ἄπειρα διελθεῖν), οὐ δεῖ διὰ τοῦτο μὴ συγχωρεῖν
