@@ -70,7 +70,8 @@ records the details of its production; what is said here holds for all 59 files.
 
 ## 4. Text
 
-- Transcribed from the page images by OCR (Gemini models, line by line, with coordinates) and corrected: collated with
+- Transcribed from the page images by OCR (Gemini models; the 15 pilot works line by line with coordinates, the other 44
+  as text aligned to the physical lines of the page image) and corrected: collated with
   First1KGreek where available (used as a collation witness only; no text was copied), re-read, and checked on the
   page images. Spelling, accents, breathings, punctuation and brackets follow the printed page.
 - Signs: supplements of the editor `〈 〉`, deletions `[ ]`, cruces `†`, lacunae `* * *` are kept as printed characters.

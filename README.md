@@ -34,7 +34,8 @@ CITATION.cff
 
 ## How the text was made
 
-OCR of the page images with a vision-language model (Gemini), line by line with coordinates; collation with
+OCR of the page images with vision-language models (Gemini): the 15 pilot works line by line with coordinates, the
+other 44 as text aligned to the physical lines of the page image; collation with
 First1KGreek where a file of the same edition exists (as a collation witness only: no text was copied, every
 disagreement was decided on the page image); re-reading of doubtful lines; checks of line numbers, structure,
 apparatus and older-edition references on the page images by the editors, student assistants and AI-assisted checking
