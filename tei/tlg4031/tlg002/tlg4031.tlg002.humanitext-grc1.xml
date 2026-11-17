@@ -7,7 +7,7 @@
         <publisher>Humanitext</publisher>
         <availability><licence target="https://creativecommons.org/licenses/by/4.0/">Public domain source; transcription CC BY 4.0 (Humanitext)</licence></availability>
       </publicationStmt>
-      <sourceDesc><bibl>Eustratius, Michael Ephesius et Anonymi, In Ethica Nicomachea Commentaria. Commentaria in Aristotelem Graeca XX, ed. G. Heylbut, Berlin: Reimer 1892, pp. 1–620. Scan: Internet Archive commentariainari20bero (University of Toronto). Transcription: Humanitext OCR v2 (Gemini), 2026; structure: humanitext-cag-structuring.</bibl><bibl type="collation">First1KGreek tlg4031.tlg002.1st1K-grc1 (Open Greek and Latin Project, University of Leipzig; CC BY-SA 4.0), used only as a collation witness.</bibl></sourceDesc>
+      <sourceDesc><bibl>Eustratius, Michael Ephesius et Anonymi, In Ethica Nicomachea Commentaria. Commentaria in Aristotelem Graeca XX, ed. G. Heylbut, Berlin: Reimer 1892, pp. 1–620. Scan: Internet Archive commentariainari20bero (PIMS, University of Toronto). Transcription: Humanitext OCR v2 (Gemini), 2026; structure: humanitext-cag-structuring.</bibl><bibl type="collation">First1KGreek tlg4031.tlg002.1st1K-grc1 (Open Greek and Latin Project, University of Leipzig; CC BY-SA 4.0), used only as a collation witness.</bibl></sourceDesc>
     </fileDesc>
     <encodingDesc>
       <refsDecl n="CTS">
