@@ -3,12 +3,27 @@
   "upload_type": "dataset",
   "description": "A TEI P5 edition of the 59 commentaries of the Commentaria in Aristotelem Graeca (CAG I–XXIII, Berlin 1882–1909), transcribed from page images, with citation by CAG page and line, lemmata with Bekker references, the critical apparatus attached to the lines, references to older editions, and links to the page images.",
   "creators": [
-    {"name": "Nakayama, Tomomi"},
-    {"name": "Iwata, Naoya", "affiliation": "Graduate School of Humanities, Nagoya University"}
+    {
+      "name": "Nakayama, Tomomi",
+      "affiliation": "Graduate School of Humanities, Nagoya University"
+    },
+    {
+      "name": "Iwata, Naoya",
+      "affiliation": "Graduate School of Humanities, Nagoya University",
+      "orcid": "0000-0002-2648-220X"
+    }
   ],
   "license": "cc-by-4.0",
   "access_right": "open",
   "language": "grc",
-  "keywords": ["Aristotle", "Greek commentators", "Commentaria in Aristotelem Graeca", "TEI", "critical apparatus", "OCR"],
-  "notes": "Supported by JST BOOST, Japan, Grant Number JPMJBY24B0."
+  "keywords": [
+    "Aristotle",
+    "Greek commentators",
+    "Commentaria in Aristotelem Graeca",
+    "TEI",
+    "critical apparatus",
+    "OCR"
+  ],
+  "notes": "Supported by JST BOOST, Japan, Grant Number JPMJBY24B0.",
+  "version": "1.0.0"
 }

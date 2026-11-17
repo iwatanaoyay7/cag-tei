@@ -1,7 +1,6 @@
 # CAG-TEI: the *Commentaria in Aristotelem Graeca* in TEI
 
-*Pre-release (2026-10-29). This repository stays private until the data paper is submitted; v1.0.0 will then be
-released with a Zenodo DOI. Version, DOI and the reference to the data paper are to be filled in at release.*
+*Version 1.0.0. Releases are archived on Zenodo with a DOI (see the release page of this repository and `CITATION.cff`).*
 
 A TEI P5 edition of the 59 commentaries of the *Commentaria in Aristotelem Graeca* (CAG I–XXIII, Berlin: Reimer
 1882–1909; 57 Greek, 2 Latin), transcribed from page images and encoded with:
@@ -12,6 +11,8 @@ A TEI P5 edition of the 59 commentaries of the *Commentaria in Aristotelem Graec
 - the references to **older editions** printed in the margin (Aldine and other early editions, Bonitz, Karsten, …),
   each with its edition, unit (page, folio, column, line) and number;
 - a link from every page to its **page image** (Internet Archive).
+
+All files validate against the TEI `tei_all` schema (P5 version 4.12.0).
 
 | | |
 |---|---|
@@ -40,12 +41,12 @@ First1KGreek where a file of the same edition exists (as a collation witness onl
 disagreement was decided on the page image); re-reading of doubtful lines; checks of line numbers, structure,
 apparatus and older-edition references on the page images by the editors, student assistants and AI-assisted checking
 under the editors' supervision. The `teiHeader` of each file records its procedure (`editorialDecl`) and history
-(`revisionDesc`). Accuracy, measured on a stratified sample against the page images, is reported in the data paper
-[reference to be added].
+(`revisionDesc`). Accuracy, measured on a stratified sample against the page images, is reported in the accompanying data paper
+(Nakayama & Iwata, in preparation).
 
 ## Citing
 
-Please cite the data paper and this dataset (DOI to be added); see `CITATION.cff`.
+Please cite this dataset by the DOI of its Zenodo record (and the data paper, once published); see `CITATION.cff`.
 To cite a passage, use the CAG page and line (e.g. *in APr.* 17.4), which the files resolve through
 `refsDecl n="page-line"`, or the CTS URN of the lemma.
 
