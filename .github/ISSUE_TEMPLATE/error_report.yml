@@ -1,0 +1,35 @@
+name: Report an error in the text or encoding
+description: A wrong reading, line number, division, apparatus entry or older-edition reference
+labels: ["error report"]
+body:
+  - type: input
+    id: work
+    attributes:
+      label: Work
+      description: Author and work, or the file name / URN (e.g. Alexander, in APr.; tlg0732.tlg005)
+    validations:
+      required: true
+  - type: input
+    id: place
+    attributes:
+      label: CAG page and line
+      description: e.g. 105.17
+    validations:
+      required: true
+  - type: textarea
+    id: now
+    attributes:
+      label: What the file has
+    validations:
+      required: true
+  - type: textarea
+    id: should
+    attributes:
+      label: What the printed page has
+      description: Please check the page image linked from the pb element of that page.
+    validations:
+      required: true
+  - type: textarea
+    id: note
+    attributes:
+      label: Notes

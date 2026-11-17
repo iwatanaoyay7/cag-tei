@@ -31,6 +31,7 @@ tei/              59 TEI files, <textgroup>/<work>/<urn>.xml (e.g. tei/tlg0732/t
 metadata/works.tsv   one row per file: CAG volume, title, editor, year, pages, URN, scans, counts
 docs/encoding.md     how the printed page is encoded
 CITATION.cff
+CHANGELOG.md
 ```
 
 ## How the text was made
@@ -49,6 +50,12 @@ under the editors' supervision. The `teiHeader` of each file records its procedu
 Please cite this dataset by the DOI of its Zenodo record (and the data paper, once published); see `CITATION.cff`.
 To cite a passage, use the CAG page and line (e.g. *in APr.* 17.4), which the files resolve through
 `refsDecl n="page-line"`, or the CTS URN of the lemma.
+
+## Reporting errors
+
+Errors in the text or the encoding can be reported through the Issues of this repository (work, CAG page and line,
+the reading of the file and the reading of the printed page). Corrections are published as new versions; see
+`CHANGELOG.md`.
 
 ## Related resources
 
