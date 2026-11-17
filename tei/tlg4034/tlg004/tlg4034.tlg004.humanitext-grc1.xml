@@ -57,6 +57,7 @@
       <change when="2026-10-23" who="#NI">Errors found by the accuracy evaluation (sample checked against the page images by student assistants, readings confirmed by the editor) corrected: 1 in the apparatus.</change>
       <change when="2026-11-05" who="#NI">Apparatus entries printed out of numerical order (e.g. 33 … 32) separated from the preceding entry; words hyphenated across lines joined in Latin text as in Greek; words mixing Greek and Latin letters (OCR errors, about 130, including manuscript sigla) corrected on the page images; marginal folio marks left in the text removed; validated against TEI P5 version 4.12.0 (recorded in TEI/@version).</change>
       <change when="2026-11-05" who="#NI">Extent of the lemma quotations (quote[@type='lemma']) corrected: the automatic division had closed every lemma after its first printed line, leaving the remaining lines of lemmata printed over two or more lines at the head of the following paragraph. Candidates were found from the letter-spacing of the lines on the page images (lemmata are printed spaced) and from the line geometry (centred last line, indented paragraph start), and every candidate was decided on the page image (Claude work teams; about 7,700 places in the corpus); the lines so decided are now inside the quotation, with pb inside the quotation where a lemma runs on to the next page. Where the lemma runs on in the same line as the commentary (Stephanus in De interpretatione), the quotation ends after the last spaced word and the paragraph continues in the same line without a new lb; where no lemma is printed and the paraphrase follows the Bekker reference directly (Michael in De partibus animalium from p. 37), the quotation is dropped and the division kept; centred last lines the edition does not count are inside the quotation as unnumbered lines.</change>
+      <change when="2026-11-17" who="#NI">The last page (p. 131: lines 1–5 and its apparatus) added. The page OCR had returned no text for it, so that the text broke off at p. 130, 29. Transcribed from the page image (AI-assisted) and collated with First1KGreek; the two disagreements (l. 2 ἢ γὰρ, l. 3 the comma after τοιαύτη) were decided on the page image. Found when the chunks made from the file were checked for units that end in mid-sentence.</change>
     </revisionDesc>
   </teiHeader>
   <text>
@@ -1218,10 +1219,17 @@
             <p>
               <lb n="29" xml:id="p130-28"/>Ἐπειδὴ πολλάκις νοήσαντες γυναῖκα ἢ ἐχθρόν, κινεῖται τὸ αἰδοῖον καὶ<note type="apparatus" n="29" target="#p130-28">νοήσαντες] νοησάντων ἡμῶν CPR</note>
             </p>
-            </div>
+            <pb n="131" facs="https://archive.org/download/p1commentariaina22akaduoft/page/n342.jpg"/>
+            <p>
+              <lb n="1" xml:id="p131-0"/>ἡ καρδία, πολλάκις δὲ νοήσαντες οὐ κινεῖται, αἴτιον, φησί, τοῦ ποτὲ μὲν<note type="apparatus" n="1" target="#p131-0">νοησάντων PR φησὶν αἴτιον coll. CPR</note>
+              <lb n="2" xml:id="p131-1"/>κινεῖσθαι ποτὲ δὲ μὴ ἡ ὕλη. ἢ γὰρ οὐκ ἔστιν ὅλως ὕλη καὶ διὰ τοῦτο
+              <lb n="3" xml:id="p131-2"/>οὐ κινεῖται τὸ αἰδοῖον, ἢ ἔστι μέν, ἀλλ’ οὐ τοσαύτη καὶ τοιαύτη, ὥστε
+              <lb n="4" xml:id="p131-3"/>δύνασθαι κινῆσαι. ὧδε οὖν πεπλήρωται καὶ ἡ Περὶ ζῴων κινήσεως πραγματεία<note type="apparatus" n="4-5" target="#p131-3 #p131-4">ὧδε—σχολαί om. CPR subscr. Τέλος τῶν σχολίων εἰς τὸ περὶ ζώων κινήσεως ἀριστοτέλους a: ἐνταῦθα τέρμα τοῦ παρόντος βιβλίου C</note>
+              <lb n="5" xml:id="p131-4"/>καὶ αἱ εἰς αὐτὴν σχολαί.
+            </p>
+          </div>
         </div>
       </div>
-    <pb n="131" facs="https://archive.org/download/p1commentariaina22akaduoft/page/n342.jpg"/>
-          </body>
+    </body>
   </text>
 </TEI>

@@ -1,6 +1,6 @@
 # CAG-TEI: the *Commentaria in Aristotelem Graeca* in TEI
 
-*Version 1.0.0 (2026-11-17). DOI of this version: [10.5281/zenodo.24301131](https://doi.org/10.5281/zenodo.24301131); DOI of the latest version: [10.5281/zenodo.24301130](https://doi.org/10.5281/zenodo.24301130).*
+*Version 1.0.1 (2026-11-17). DOI of the latest version: [10.5281/zenodo.24301130](https://doi.org/10.5281/zenodo.24301130).*
 
 A TEI P5 edition of the 59 commentaries of the *Commentaria in Aristotelem Graeca* (CAG I–XXIII, Berlin: Reimer
 1882–1909; 57 Greek, 2 Latin), transcribed from page images and encoded with:
@@ -18,8 +18,8 @@ All files validate against the TEI `tei_all` schema (P5 version 4.12.0).
 |---|---|
 | Files | 59 (one per commentary) |
 | Printed pages | 14,392 |
-| Lines | 474,838 (474,781 with the printed line number) |
-| Apparatus entries | 217,041 |
+| Lines | 474,843 (474,786 with the printed line number) |
+| Apparatus entries | 217,043 |
 | Lemmata with Bekker reference | 12,249 |
 | Older-edition references | 71,483 |
 | Licence | CC BY 4.0 (transcription and encoding); the printed edition is in the public domain |
