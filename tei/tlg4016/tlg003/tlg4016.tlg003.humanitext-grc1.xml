@@ -51,6 +51,7 @@
       <change when="2026-10-23" who="#NI">Quotation marks made uniform: opening single and double quotation marks, printed in the edition in the reversed (high-reversed-9) form, are encoded as ‘ and “, closing ones as ’ and ”, single and double kept as printed; opening marks read by the OCR as straight quotes, low quotes or spacing breathings, and spacing breathings or quotation marks doubled before a capital that already bears its breathing, corrected.</change>
       <change when="2026-11-05" who="#NI">Apparatus entries printed out of numerical order (e.g. 33 … 32) separated from the preceding entry; words hyphenated across lines joined in Latin text as in Greek; words mixing Greek and Latin letters (OCR errors, about 130, including manuscript sigla) corrected on the page images; marginal folio marks left in the text removed; validated against TEI P5 version 4.12.0 (recorded in TEI/@version).</change>
       <change when="2026-11-05" who="#NI">Extent of the lemma quotations (quote[@type='lemma']) checked on the page images: lemmata closed before their last printed line (the quotation was closed when the collation text was covered, so a short centred last line could be left out) extended; abbreviated lemmata (Ἀλλὰ … γένη.) whose quotation had taken in the first line of the commentary shortened (11 places in the pilot works); candidates found from the letter-spacing of the lines on the page images and the line geometry and decided on the page images (Claude work teams).</change>
+      <change when="2026-11-18" who="#NI">Bekker references of 2 lemmata misread by the OCR corrected on the page images: p. 29 (16ai9 → 16a19), p. 266 (32b32 → 23b32).</change>
     </revisionDesc>
   </teiHeader>
   <text>
@@ -1108,7 +1109,7 @@
             </p>
           </div>
           <div type="textpart" subtype="lemma" n="5">
-            <milestone unit="bekker" n="16ai9"/>
+            <milestone unit="bekker" n="16a19"/>
             <quote type="lemma">
               <lb n="29" xml:id="p29-28"/>Ὄνομα μὲν οὖν ἐστι φωνὴ σημαντικὴ κατὰ συνθήκην<note type="apparatus" n="29" target="#p29-28">ante lemma add. tit. Περὶ ὀνόματος AGMa, (in mrg.) F οὖν om. F</note><note type="apparatus" n="29-30" target="#p29-28 #p29-29">σημαντ. — κεχωρισμένον om. M</note>
               <lb n="30" xml:id="p29-29"/>ἄνευ χρόνου, ἧς μηδὲν μέρος σημαντικόν ἐστι κεχωρισμένον.<note type="apparatus" n="30" target="#p29-29">ἐστὶ σημ. colloc. ab ἐστι eicias (cf. p. 32, 25)</note>
@@ -10005,7 +10006,7 @@
             </div>
           <pb n="266" facs="https://archive.org/download/commentariainari04akaduoft/page/n795.jpg"/>
           <div type="textpart" subtype="lemma" n="62">
-            <milestone unit="bekker" n="32b32"/>
+            <milestone unit="bekker" n="23b32"/>
             <quote type="lemma">
               <lb n="1" xml:id="p266-0"/>Ἔτι ὁμοίως ἔχει ἡ τοῦ ἀγαθοῦ ὅτι ἀγαθὸν καὶ ἡ τοῦ<note type="apparatus" n="1" target="#p266-0">ἡ τοῦ ἀγ.—ταύταις (2) om. G ἀγαθὸν—ἀγαθόν (11) om. M alt. ἡ om. A</note>
               <lb n="2" xml:id="p266-1"/>μὴ ἀγαθοῦ ὅτι οὐκ ἀγαθόν, καὶ πρὸς ταύταις ἡ τοῦ ἀγαθοῦ

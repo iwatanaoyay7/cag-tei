@@ -56,6 +56,7 @@
       <change when="2026-10-23" who="#NI">Quotation marks made uniform: opening single and double quotation marks, printed in the edition in the reversed (high-reversed-9) form, are encoded as ‘ and “, closing ones as ’ and ”, single and double kept as printed; opening marks read by the OCR as straight quotes, low quotes or spacing breathings, and spacing breathings or quotation marks doubled before a capital that already bears its breathing, corrected.</change>
       <change when="2026-11-05" who="#NI">Apparatus entries printed out of numerical order (e.g. 33 … 32) separated from the preceding entry; words hyphenated across lines joined in Latin text as in Greek; words mixing Greek and Latin letters (OCR errors, about 130, including manuscript sigla) corrected on the page images; marginal folio marks left in the text removed; validated against TEI P5 version 4.12.0 (recorded in TEI/@version).</change>
       <change when="2026-11-05" who="#NI">Extent of the lemma quotations (quote[@type='lemma']) corrected: the automatic division had closed every lemma after its first printed line, leaving the remaining lines of lemmata printed over two or more lines at the head of the following paragraph. Candidates were found from the letter-spacing of the lines on the page images (lemmata are printed spaced) and from the line geometry (centred last line, indented paragraph start), and every candidate was decided on the page image (Claude work teams; about 7,700 places in the corpus); the lines so decided are now inside the quotation, with pb inside the quotation where a lemma runs on to the next page. Where the lemma runs on in the same line as the commentary (Stephanus in De interpretatione), the quotation ends after the last spaced word and the paragraph continues in the same line without a new lb; where no lemma is printed and the paraphrase follows the Bekker reference directly (Michael in De partibus animalium from p. 37), the quotation is dropped and the division kept; centred last lines the edition does not count are inside the quotation as unnumbered lines.</change>
+      <change when="2026-11-18" who="#NI">Bekker references of 2 lemmata misread by the OCR corrected on the page images: p. 17 (1a → 1a1), p. 68 (3a → 3a29).</change>
     </revisionDesc>
   </teiHeader>
   <text>
@@ -671,7 +672,7 @@
             </p>
           </div>
           <div type="textpart" subtype="lemma" n="4">
-            <milestone unit="bekker" n="1a"/>
+            <milestone unit="bekker" n="1a1"/>
             <quote type="lemma">
               <lb n="26" xml:id="p17-25"/>Λέγεται.
             </quote>
@@ -2580,7 +2581,7 @@
             </p>
           </div>
           <div type="textpart" subtype="lemma" n="19">
-            <milestone unit="bekker" n="3a"/>
+            <milestone unit="bekker" n="3a29"/>
             <quote type="lemma">
               <lb n="10" xml:id="p68-9"/>Μὴ ταραττέτω δὲ ἡμᾶς τὰ μέρη τῶν οὐσιῶν ὡς ἐν
               <lb n="11" xml:id="p68-10"/>ὑποκειμένοις ὄντα τοῖς ὅλοις, μήποτε ἀναγκασθῶμεν οὐκ

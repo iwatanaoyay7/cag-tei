@@ -57,6 +57,7 @@
       <change when="2026-10-23" who="#NI">Errors found by the accuracy evaluation (sample checked against the page images by student assistants, readings confirmed by the editor) corrected: 2 in the apparatus.</change>
       <change when="2026-11-05" who="#NI">Apparatus entries printed out of numerical order (e.g. 33 … 32) separated from the preceding entry; words hyphenated across lines joined in Latin text as in Greek; words mixing Greek and Latin letters (OCR errors, about 130, including manuscript sigla) corrected on the page images; marginal folio marks left in the text removed; validated against TEI P5 version 4.12.0 (recorded in TEI/@version).</change>
       <change when="2026-11-05" who="#NI">Extent of the lemma quotations (quote[@type='lemma']) corrected: the automatic division had closed every lemma after its first printed line, leaving the remaining lines of lemmata printed over two or more lines at the head of the following paragraph. Candidates were found from the letter-spacing of the lines on the page images (lemmata are printed spaced) and from the line geometry (centred last line, indented paragraph start), and every candidate was decided on the page image (Claude work teams; about 7,700 places in the corpus); the lines so decided are now inside the quotation, with pb inside the quotation where a lemma runs on to the next page. Where the lemma runs on in the same line as the commentary (Stephanus in De interpretatione), the quotation ends after the last spaced word and the paragraph continues in the same line without a new lb; where no lemma is printed and the paraphrase follows the Bekker reference directly (Michael in De partibus animalium from p. 37), the quotation is dropped and the division kept; centred last lines the edition does not count are inside the quotation as unnumbered lines.</change>
+      <change when="2026-11-18" who="#NI">Bekker reference of 1 lemma misread by the OCR corrected on the page image: p. 379 (52a → 52a24).</change>
     </revisionDesc>
   </teiHeader>
   <text>
@@ -17045,7 +17046,7 @@
             </p>
           </div>
           <div type="textpart" subtype="lemma" n="100">
-            <milestone unit="bekker" n="52a"/>
+            <milestone unit="bekker" n="52a24"/>
             <quote type="lemma">
               <lb n="10" xml:id="p379-9"/>Ἐπεὶ δὲ δῆλον ὅτι ἕτερον σημαίνει τὸ ἔστιν οὐ λευκόν
               <lb n="11" xml:id="p379-10"/>καὶ τὸ οὐκ ἔστι λευκόν, καὶ τὸ μὲν κατάφασις τὸ δὲ ἀπόφασις,<note type="apparatus" n="11" target="#p379-10">τὸ δὲ κτλ. om. Y</note>

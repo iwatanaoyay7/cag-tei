@@ -50,6 +50,7 @@
       <change when="2026-10-23" who="#NI">Quotation marks made uniform: opening single and double quotation marks, printed in the edition in the reversed (high-reversed-9) form, are encoded as ‘ and “, closing ones as ’ and ”, single and double kept as printed; opening marks read by the OCR as straight quotes, low quotes or spacing breathings, and spacing breathings or quotation marks doubled before a capital that already bears its breathing, corrected.</change>
       <change when="2026-11-05" who="#NI">Apparatus entries printed out of numerical order (e.g. 33 … 32) separated from the preceding entry; words hyphenated across lines joined in Latin text as in Greek; words mixing Greek and Latin letters (OCR errors, about 130, including manuscript sigla) corrected on the page images; marginal folio marks left in the text removed; validated against TEI P5 version 4.12.0 (recorded in TEI/@version).</change>
       <change when="2026-11-05" who="#NI">Extent of the lemma quotations (quote[@type='lemma']) checked on the page images: lemmata closed before their last printed line (the quotation was closed when the collation text was covered, so a short centred last line could be left out) extended; abbreviated lemmata (Ἀλλὰ … γένη.) whose quotation had taken in the first line of the commentary shortened (11 places in the pilot works); candidates found from the letter-spacing of the lines on the page images and the line geometry and decided on the page images (Claude work teams).</change>
+      <change when="2026-11-18" who="#NI">Bekker references of 2 lemmata misread by the OCR corrected on the page images: p. 146 (1804a2 → 1084a2), p. 148 (1804a18 → 1084a18).</change>
     </revisionDesc>
   </teiHeader>
   <text>
@@ -6898,7 +6899,7 @@
             </p>
           </div>
           <div type="textpart" subtype="lemma" n="92">
-            <milestone unit="bekker" n="1804a2"/>
+            <milestone unit="bekker" n="1084a2"/>
             <quote type="lemma">
               <lb n="7" xml:id="p146-6"/>Ὅτι μὲν... ἀεί ἐστιν.
             </quote>
@@ -7004,7 +7005,7 @@
             </p>
           </div>
           <div type="textpart" subtype="lemma" n="97">
-            <milestone unit="bekker" n="1804a18"/>
+            <milestone unit="bekker" n="1084a18"/>
             <quote type="lemma">
               <lb n="11" xml:id="p148-10"/>Ἅμα . . . ἄνθρωποί γε.
             </quote>

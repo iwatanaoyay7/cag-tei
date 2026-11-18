@@ -52,6 +52,7 @@
       <change when="2026-10-24" who="#NI">p. 639, l. 23, dropped when the TEI was built as a supposed repetition of the nearly identical l. 26, restored (found when the remaining line-number gaps were checked on the page images).</change>
       <change when="2026-11-05" who="#NI">Apparatus entries printed out of numerical order (e.g. 33 … 32) separated from the preceding entry; words hyphenated across lines joined in Latin text as in Greek; words mixing Greek and Latin letters (OCR errors, about 130, including manuscript sigla) corrected on the page images; marginal folio marks left in the text removed; validated against TEI P5 version 4.12.0 (recorded in TEI/@version).</change>
       <change when="2026-11-05" who="#NI">Extent of the lemma quotations (quote[@type='lemma']) checked on the page images: lemmata closed before their last printed line (the quotation was closed when the collation text was covered, so a short centred last line could be left out) extended; abbreviated lemmata (Ἀλλὰ … γένη.) whose quotation had taken in the first line of the commentary shortened (11 places in the pilot works); candidates found from the letter-spacing of the lines on the page images and the line geometry and decided on the page images (Claude work teams).</change>
+      <change when="2026-11-18" who="#NI">Bekker references of 3 lemmata misread by the OCR corrected on the page images: p. 284 (100a8 → 1007a8), p. 547 (1024b9 → 1042b9), p. 683 (107a11 → 1071a11).</change>
     </revisionDesc>
   </teiHeader>
   <text>
@@ -11248,7 +11249,7 @@
             </div>
           <pb n="284" facs="https://archive.org/download/p1commentariainari01bero/page/n303.jpg"/>
           <div type="textpart" subtype="lemma" n="38">
-            <milestone unit="bekker" n="100a8"/>
+            <milestone unit="bekker" n="1007a8"/>
             <quote type="lemma">
               <lb n="1" xml:id="p284-0"/>Ἐὰν δὲ προστιθῇ ἐρωτῶντος ἁπλῶς καὶ τὰς ἀποφάσεις.<note type="apparatus" n="1" target="#p284-0">ἀποφάσεις LF: ἀπὸ ἀντιφάσεως A</note>
             </quote>
@@ -22587,7 +22588,7 @@
             </p>
           </div>
           <div type="textpart" subtype="lemma" n="3">
-            <milestone unit="bekker" n="1024b9"/>
+            <milestone unit="bekker" n="1042b9"/>
             <quote type="lemma">
               <lb n="29" xml:id="p547-27"/>Ἐπειδὴ ἡ μὲν ὡς ὑποκειμένη καὶ ὡς ὕλη ὁμολογεῖται
               <lb n="30" xml:id="p547-28"/>οὐσία εἶναι.
@@ -28736,7 +28737,7 @@
             </p>
           </div>
           <div type="textpart" subtype="lemma" n="15">
-            <milestone unit="bekker" n="107a11"/>
+            <milestone unit="bekker" n="1071a11"/>
             <quote type="lemma">
               <lb n="10" xml:id="p683-9"/>Ἄλλως δὲ ἐνεργείᾳ καὶ δυνάμει διαφέρει, ὧν μή ἐστιν<milestone type="alt-edition" unit="line" ed="Bonitz 1847" n="20"/>
               <lb n="11" xml:id="p683-10"/>ἡ αὐτὴ ὕλη, ὧν οὐκ ἔστι τὸ αὐτὸ εἶδος.
