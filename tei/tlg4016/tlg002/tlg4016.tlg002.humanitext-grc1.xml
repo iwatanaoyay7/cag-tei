@@ -49,6 +49,7 @@
       <change when="2026-10-23" who="#NI">Quotation marks made uniform: opening single and double quotation marks, printed in the edition in the reversed (high-reversed-9) form, are encoded as ‘ and “, closing ones as ’ and ”, single and double kept as printed; opening marks read by the OCR as straight quotes, low quotes or spacing breathings, and spacing breathings or quotation marks doubled before a capital that already bears its breathing, corrected.</change>
       <change when="2026-11-05" who="#NI">Apparatus entries printed out of numerical order (e.g. 33 … 32) separated from the preceding entry; words hyphenated across lines joined in Latin text as in Greek; words mixing Greek and Latin letters (OCR errors, about 130, including manuscript sigla) corrected on the page images; marginal folio marks left in the text removed; validated against TEI P5 version 4.12.0 (recorded in TEI/@version).</change>
       <change when="2026-11-05" who="#NI">Extent of the lemma quotations (quote[@type='lemma']) checked on the page images: lemmata closed before their last printed line (the quotation was closed when the collation text was covered, so a short centred last line could be left out) extended; abbreviated lemmata (Ἀλλὰ … γένη.) whose quotation had taken in the first line of the commentary shortened (11 places in the pilot works); candidates found from the letter-spacing of the lines on the page images and the line geometry and decided on the page images (Claude work teams).</change>
+      <change when="2026-11-22" who="#NI">Readings questioned by the review of the translations collated on the page images (read independently, at least twice wherever the print does not have the proposed form, by a language model, Claude; the 28 places in all works that it could not settle were read by the editor): 6 errors of the transcription corrected; 4 evident misprints of the edition given as choice/sic/corr; 3 evident misprints of the edition in a word broken at the line end (which cannot carry choice/sic/corr) corrected in the text.</change>
     </revisionDesc>
   </teiHeader>
   <text>
@@ -117,10 +118,10 @@
               <lb n="8" xml:id="p3-7"/>ὀνομάζονται δὲ καὶ ἀπό τινος συμβεβηκότος, ὡς οἱ ἀπὸ τοῦ Περιπάτου·<note type="apparatus" n="8" target="#p3-7">ὀνομάζονται δὲ] ἕκτον ἢ ὀνομάζονται F: ἕκτον ὀνομάζεται b οἱ om. M</note>
               <lb n="9" xml:id="p3-8"/>ἐπειδὴ γὰρ ὁ Πλάτων ἐξηγούμενος ἐβάδιζε θέλων τὸ ἑαυτοῦ σῶμα<note type="apparatus" n="9" target="#p3-8">ὁ θεῖος πλάτων M ἐθέλων M</note>
               <lb n="10" xml:id="p3-9"/>γυμνάζειν, ὡς ἂν μὴ ἀσθενέστερον γεγονὸς ἐμποδὼν γένοιτο ταῖς ψυχικαῖς<note type="apparatus" n="10" target="#p3-9">εὐσθενέστερον M: ἀθενέστ. b</note>
-              <lb n="11" xml:id="p3-10"/><milestone type="alt-edition" unit="column" ed="Brandis 1836" n="35b" cert="low"/>ἐνεργείαις, οἱ διαδεξάμενοι αὐτόν, ἤγουν ὁ Ξενοκράτης καὶ ὁ Ἀριστοτέλης. 35ᵇ<note type="apparatus" n="11" target="#p3-10">ἤγουν — ἀριστοτέλης om. Mb</note>
+              <lb n="11" xml:id="p3-10"/><milestone type="alt-edition" unit="column" ed="Brandis 1836" n="35b" cert="low"/>ἐνεργείαις, οἱ διαδεξάμενοι αὐτόν, ἤγουν ὁ Ξενοκράτης καὶ ὁ Ἀριστοτέλης,<note type="apparatus" n="11" target="#p3-10">ἤγουν — ἀριστοτέλης om. Mb</note>
               <lb n="12" xml:id="p3-11"/>ὠνομάσθησαν οὕτως, οἱ ἀπὸ τοῦ Περιπάτου, ὧν ὁ μὲν Ἀριστοτέλης ἐν<note type="apparatus" n="12" target="#p3-11">post περιπάτου add. διεδέξαντο δὲ ξενοκράτης τε καὶ ἀριστοτέλης M: διεδ. δὲ ὁ Ξεν. καὶ ὁ Ἀρ. b</note><note type="apparatus" n="12-13" target="#p3-11 #p3-12">ὧν ὁ μὲν ἐν λ. ἐπαίδ. ὁ ἀριστοτέλης M: ὧν ἐν Λυκ. μὲν ἐπαίδευσεν Ἀρ. b</note>
               <lb n="13" xml:id="p3-12"/>Λυκείῳ ἐπαίδευεν, ὁ δὲ Ξενοκράτης ἐν Ἀκαδημίᾳ· ὕστερον δὲ τοῖς μὲν ὁ
-              <lb n="14" xml:id="p3-13"/>τόπος ἐξέλιπε καὶ ὠνομάσθησαν ἀπὸ τῆς ἐνεργείας τοῦ διδασκάλου Περιπαπατητικοί,<milestone type="alt-edition" unit="line" ed="Brandis 1836" n="5"/>
+              <lb n="14" xml:id="p3-13"/>τόπος ἐξέλιπε καὶ ὠνομάσθησαν ἀπὸ τῆς ἐνεργείας τοῦ διδασκάλου Περιπατητικοί,<milestone type="alt-edition" unit="line" ed="Brandis 1836" n="5"/>
               <lb n="15" xml:id="p3-14"/>τοῖς δὲ ἡ ἐνέργεια καὶ ὠνομάσθησαν ἀπὸ τοῦ τόπου Ἀκαδημαϊκοί.<note type="apparatus" n="15" target="#p3-14">ἀκαδδημιακοί M</note>
               <lb n="16" xml:id="p3-15"/>ἢ ἀπὸ τοῦ τέλους τῆς φιλοσοφίας, ὡς οἱ Ἡδονικοί· οὗτοι γὰρ
               <lb n="17" xml:id="p3-16"/>ἔλεγον τέλος εἶναι τοῦ βίου τὴν ἡδονήν, οὐχ ἡδονὴν δὲ ταύτην ἣν ὑπολαμβάνουσιν<note type="apparatus" n="17" target="#p3-16">ταύτην] αὐτὴν M ἦν — δὴ (18) om. F</note>
@@ -207,7 +208,7 @@
             <pb n="6" facs="https://archive.org/download/commentariainari04akaduoft/page/n335.jpg"/>
             <p>
               <lb n="1" xml:id="p6-0"/>ἠθικῆς ἄρξασθαι πραγματείας, ὡς ἂν πρότερον τὰ ἑαυτῶν ἤθη κοσμήσαντες<milestone type="alt-edition" unit="line" ed="Brandis 1836" n="45"/>
-              <lb n="2" xml:id="p6-1"/><milestone type="alt-edition" unit="column" ed="Brandis 1836" n="36b" cert="low"/>οὕτω τῶν ἄλλων ἐντὸς γενώμεθα λόγων. ἀλλ’ ἐπειδὴ  καὶ ἐν ἐκείνῃ 36ᵇ<note type="apparatus" n="2" target="#p6-1">γινώμεθα M ἐκείνοις Mb</note>
+              <lb n="2" xml:id="p6-1"/><milestone type="alt-edition" unit="column" ed="Brandis 1836" n="36b" cert="low"/>οὕτω τῶν ἄλλων ἐντὸς γενώμεθα λόγων. ἀλλ’ ἐπειδὴ  καὶ ἐν ἐκείνῃ<note type="apparatus" n="2" target="#p6-1">γινώμεθα M ἐκείνοις Mb</note>
               <lb n="3" xml:id="p6-2"/>κέχρηται ἀποδείξεσι καὶ συλλογισμοῖς, ἐμέλλομεν δὲ αὐτοὺς ἀγνοεῖν ἀνήκοοι
               <lb n="4" xml:id="p6-3"/>τῶν τοιούτων ὑπάρχοντες λόγων, διὰ τοῦτο ἄρα ἀπὸ τῆς λογικῆς ἀρκτέον,
               <lb n="5" xml:id="p6-4"/>προκοσμήσαντας μέντοι τὰ ἑαυτῶν ἤθη καὶ δίχα τῆς ἠθικῆς πραγματείας.<note type="apparatus" n="5" target="#p6-4">μέντοι] μὲν Fb</note>
@@ -307,7 +308,7 @@
               <lb n="17" xml:id="p9-16"/>Ἔστιν οὖν σκοπὸς ἐνταῦθα τῷ φιλοσόφῳ διαλαβεῖν περὶ φωνῶν σημαινουσῶν<milestone type="alt-edition" unit="line" ed="Brandis 1836" n="10"/>
               <lb n="18" xml:id="p9-17"/>πράγματα διὰ μέσων νοημάτων. ὅτι δὲ ἀνάγκη τὸν λέγοντα<note type="apparatus" n="18" target="#p9-17">δὲ καὶ ἀνάγκη Mb</note>
               <lb n="19" xml:id="p9-18"/>περὶ ἑνὸς τούτων τῶν εἰρημένων εἶναι τὸν σκοπὸν συνάγειν καὶ τὰ λοιπὰ<note type="apparatus" n="19" target="#p9-18">τούτων om. Mb συνεισάγειν M</note>
-              <lb n="20" xml:id="p9-19"/>δύο, ταύτῃ δείξομεν· ὅτε γὰρ περὶ φωνῶν λέγων περὶ σημαντικῶν λέγει<note type="apparatus" n="20" target="#p9-19">ταύτῃ] ταυτὶ F γὰρ] δὲ b λέγων — πράγματα (22)] λέγω ἢ (ἢ om. b) περὶ ἀσήμων φησὶν (φημὶ b) ἢ περὶ (περὶ om. b) σημαντικῶν, ἀλλὰ περὶ μὲν (μὲν om. b) ἀσήμων οὔ φησι (φημὶ b), περὶ τούτων γὰρ οὐδὲ εἷς λόγος τοῖς φιλοσόφοις, περὶ σημαντικῶν δ’ (δ’ om. b) ἄρα. σημαίνουσι δ’ αὗται πράγματα Mb</note>
+              <lb n="20" xml:id="p9-19"/>δύο, ταύτῃ δείξομεν· <choice><sic>ὅτε</sic><corr>ὅ τε</corr></choice> γὰρ περὶ φωνῶν λέγων περὶ σημαντικῶν λέγει<note type="apparatus" n="20" target="#p9-19">ταύτῃ] ταυτὶ F γὰρ] δὲ b λέγων — πράγματα (22)] λέγω ἢ (ἢ om. b) περὶ ἀσήμων φησὶν (φημὶ b) ἢ περὶ (περὶ om. b) σημαντικῶν, ἀλλὰ περὶ μὲν (μὲν om. b) ἀσήμων οὔ φησι (φημὶ b), περὶ τούτων γὰρ οὐδὲ εἷς λόγος τοῖς φιλοσόφοις, περὶ σημαντικῶν δ’ (δ’ om. b) ἄρα. σημαίνουσι δ’ αὗται πράγματα Mb</note>
               <lb n="21" xml:id="p9-20"/>(καὶ γὰρ περὶ ἀσήμων οὐδὲ εἷς παρὰ τοῖς φιλοσόφοις λόγος), αὗται δὲ<milestone type="alt-edition" unit="line" ed="Brandis 1836" n="15"/>
               <lb n="22" xml:id="p9-21"/>αἱ σημαντικαὶ σημαίνουσι πράγματα διὰ μέσων δηλονότι νοημάτων (ὁ γὰρ
               <lb n="23" xml:id="p9-22"/>λέγων τι πρᾶγμα τὴν περὶ αὐτοῦ πρῶτον ἔννοιαν ἔχων τότε αὐτό φησιν),
@@ -691,7 +692,7 @@
               <lb n="8" xml:id="p21-7"/>Τὸ ζῴῳ εἶναι, ἴδιον ἑκατέρῳ.<note type="apparatus" n="8" target="#p21-7">lemmatis loco exhibet καὶ ταῦτα μὲν οὕτως. καιρὸς ἂν εἴη εἰπεῖν M ἑκατέρου Arist.</note>
             </quote>
             <p>
-              <lb n="9" xml:id="p21-8"/>Καὶ διὰ τί οὐκ εἶπε ζῷον εἶναι ἀλλὰ ζῴῳ; καὶ λέγομεν ὅτι τὰ πραγματα<note type="apparatus" n="9" target="#p21-8">καὶ διὰ τί] δι’ ἣν αἰτίαν M ζῴῳ] τὸ ζῴῳ εἶναι M καὶ (alt.) om. M ὅτι om. F</note>
+              <lb n="9" xml:id="p21-8"/>Καὶ διὰ τί οὐκ εἶπε ζῷον εἶναι ἀλλὰ ζῴῳ; καὶ λέγομεν ὅτι τὰ πράγματα<note type="apparatus" n="9" target="#p21-8">καὶ διὰ τί] δι’ ἣν αἰτίαν M ζῴῳ] τὸ ζῴῳ εἶναι M καὶ (alt.) om. M ὅτι om. F</note>
               <lb n="10" xml:id="p21-9"/>ἢ ἀπὸ τῆς ὕλης χαρακτηρίζεται ἢ ἀπὸ τοῦ εἴδους ἢ ἀπὸ τοῦ συναμφοτέρου,
               <lb n="11" xml:id="p21-10"/>τοῦτ’ ἔστιν ἀπὸ τῆς ὕλης καὶ τοῦ εἴδους· εἰ οὖν εἶπε ζῷον,<note type="apparatus" n="11" target="#p21-10">ἀπὸ ὕλης καὶ εἴδους M</note>
               <lb n="12" xml:id="p21-11"/>ἐσήμανεν ἂν τὴν ὕλην καὶ τὸ εἶδος, εἰπὼν δὲ τὸ ζῴῳ εἶναι ἐσήμανε
@@ -757,7 +758,7 @@
             <pb n="23" facs="https://archive.org/download/commentariainari04akaduoft/page/n352.jpg"/>
             <p>
               <lb n="1" xml:id="p23-0"/>δὲ καὶ περὶ τὸ πρᾶγμα· * καὶ γὰρ ὁ γραμματικὸς οὐσία ἐστίν, ἡ δὲ γραμματικὴ<note type="apparatus" n="1" target="#p23-0">περὶ] κατὰ M post πρᾶγμα ex Olympiodoro inseras ἔστι γὰρ καὶ κοινωνία πράγματος, καθὸ ὁ τῆς γραμματικῆς μετέχων γραμματικὸς λέγεται, ἔστι δὲ καὶ διαφορὰ πράγματος. καὶ γὰρ — συμβ. (2)] κοινωνία τις καὶ διαφορά M</note>
-              <lb n="2" xml:id="p23-1"/>ἐπιστήμη· τις ἤγουν ποιότης καὶ κατὰ συμβεβηκός. ἐὰν γὰρ ἓν<note type="apparatus" n="2" target="#p23-1">post τις add. οὖσα del. F</note>
+              <lb n="2" xml:id="p23-1"/>ἐπιστήμη τις ἤγουν ποιότης καὶ κατὰ συμβεβηκός. ἐὰν γὰρ ἓν<note type="apparatus" n="2" target="#p23-1">post τις add. οὖσα del. F</note>
               <lb n="3" xml:id="p23-2"/>τούτων ἀπολειφθῇ, οὐκ ἔστι παρώνυμα· ἔστω γὰρ περὶ τὸ ὄνομα κοινωνία<note type="apparatus" n="3" target="#p23-2">παρώνυμον M</note>
               <lb n="4" xml:id="p23-3"/>καὶ διαφορά, ἔστω δὲ καὶ ἡ περὶ τὸ πρᾶγμα κοινωνία, διαφορὰ δὲ μὴ εἴη,
               <lb n="5" xml:id="p23-4"/>καὶ οὐκ ἔσται παρώνυμα, οἷον πλάτανος καὶ πλατάνιστος· ἐνταῦθα γὰρ οὐκ
@@ -1287,7 +1288,7 @@
           <div type="textpart" subtype="lemma" n="2">
             <milestone unit="bekker" n="2a12"/>
             <quote type="lemma">
-              <lb n="22" xml:id="p36-21"/>Ἢ μήτε καθ’ ὑποκειμένου τινὸς λέγεται.
+              <lb n="22" xml:id="p36-21"/>Ἣ μήτε καθ’ ὑποκειμένου τινὸς λέγεται.
             </quote>
             <p>
               <lb n="23" xml:id="p36-22"/>Ζητοῦσι δέ τινες τί δή ποτε δι’ ἀποφάσεων τὸ τιμιώτερον ὡρίσατο,<note type="apparatus" n="23" target="#p36-22">τινες om. F δι’ ἀποφάσεων scripsi: δι’ ἀποφάσεως F: ἀποφάσει (post τιμιώτερον colloc.) M</note>
@@ -2294,7 +2295,7 @@
               <lb n="22" xml:id="p60-21"/>ὁ πόλεμος ἔν τινι χρόνῳ γέγονεν οἷον ἐν δέκα ἔτεσι, λέγομεν <milestone type="alt-edition" unit="folio" ed="cod. Laurentianus 71,3" n="110r"/> 〈δὲ〉 τὸν<note type="apparatus" n="22" target="#p60-21">λέγ. δὲ Philop.: καὶ διὰ τοῦτο λέγ. F: λέγ. M</note>
               <lb n="23" xml:id="p60-22"/>χρόνον μακρὸν εἶναι, διὰ τοῦτο καὶ τὴν πρᾶξιν κατὰ συμβεβηκὸς μακρὰν<note type="apparatus" n="23" target="#p60-22">χρόνον] πόλεμον F διὰ τοῦτο καὶ τὴν πρ.] ὁμοίως καὶ τὴν πρ. διὰ τοῦτο F</note><note type="apparatus" n="23-24" target="#p60-22 #p60-23">λέγ. μακράν (εἶναι om.) M</note>
               <lb n="24" xml:id="p60-23"/>εἶναι λέγομεν. καὶ ἡ κίνησις πολλὴ λέγεται τῷ τὸν χρόνον πολὺν εἶναι· ὁ<note type="apparatus" n="24" target="#p60-23">καὶ ἡ κίνησις — πολὺν εἶναι] ὥστε τὰ κυρίως λεγόμενα ποσὰ μόνα τὰ εἰρημένα ἐστί, τὰ δ’ ἄλλα κατὰ συμβεβηκὸς λέγεται. tum lemma τῷ γε τὸν χρόνον πολὺν εἶναι M</note><note type="apparatus" n="24-25" target="#p60-23 #p60-24">ὁ γὰρ χρ. M</note>
-              <lb n="25" xml:id="p60-24"/>χρόνος γὰρ μέτρον ἐστὶ κινήσεως· μῆνα γὰρ λέγομεν τὴν τῆς σηλήνης
+              <lb n="25" xml:id="p60-24"/>χρόνος γὰρ μέτρον ἐστὶ κινήσεως· μῆνα γὰρ λέγομεν τὴν τῆς <choice><sic>σηλήνης</sic><corr>σελήνης</corr></choice>
               <lb n="26" xml:id="p60-25"/>ἀποκατάστασιν, ἐνιαυτὸν δὲ τὴν τοῦ ἡλίου, νυχθήμερον δὲ τὴν τοῦ παντὸς<note type="apparatus" n="26" target="#p60-25">τὴν τοῦ ἡλίου — τὴν τοῦ om. F</note>
               <lb n="27" xml:id="p60-26"/>οὐρανοῦ· ἐὰν γάρ τις ἐρωτηθῇ πόση τίς ἐστιν ἡ πρᾶξις, τὸν χρόνον<note type="apparatus" n="27" target="#p60-26">οὐρανοῦ om. M τις (prius) om. F</note>
               <lb n="28" xml:id="p60-27"/>ἀποκρίνεται, οἷον δεκαετής. ὁμοίως δὲ καὶ ἐπὶ τῆς ἐπιφανείας· ὅση γὰρ
@@ -3607,7 +3608,7 @@
             </quote>
             <p>
               <lb n="10" xml:id="p88-9"/>Δόξειεν εἶναί φησιν, ἐπεὶ κατὰ ἀλήθειαν οὐκ εἰσὶ ποιότητες· πυκνὸν<note type="apparatus" n="10" target="#p88-9">δόξειαν μὲν εἶναί φ. ποιότης ἐπεὶ F</note>
-              <lb n="11" xml:id="p88-10"/>γάρ ἐστιν οὗ τὰ μόρια σύνεγγυς κεῖται ὡς μὴ δύνασθαι δέξασθαι ἕτερογενὲς<note type="apparatus" n="11" target="#p88-10">ἐκ τοῦ σύνεγγυς F</note>
+              <lb n="11" xml:id="p88-10"/>γάρ ἐστιν οὗ τὰ μόρια σύνεγγυς κεῖται ὡς μὴ δύνασθαι δέξασθαι ἑτερογενὲς<note type="apparatus" n="11" target="#p88-10">ἐκ τοῦ σύνεγγυς F</note>
               <lb n="12" xml:id="p88-11"/>σῶμα, μανὸν δὲ τὸ διεστηκότα ἔχον τὰ μόρια ὡς δύνασθαι δέξασθαι<note type="apparatus" n="12" target="#p88-11">ἐπιδέξασθαι M</note>
               <lb n="13" xml:id="p88-12"/>ἑτερογενὲς σῶμα. <milestone type="alt-edition" unit="folio" ed="cod. Laurentianus 71,3" n="126r"/> οὐκοῦν θέσιν τινὰ μᾶλλον φαίνεται τὰ μόρια αὐτῶν
               <lb n="14" xml:id="p88-13"/>δηλοῦντα. μανὸν δὲ ἔλαβε τὸ ἐξ ἐπιτεχνήσεως, οἷον ἐάν τις τὴν χεῖρα
@@ -3622,7 +3623,7 @@
               <lb n="18" xml:id="p88-17"/>Ἴσως μὲν οὖν καὶ ἄλλος.<note type="apparatus" n="18" target="#p88-17">οὖν] ἄν τις εἴη F</note>
             </quote>
             <p>
-              <lb n="19" xml:id="p88-18"/>Παραστήσας ἡμῖν τὰ τέσσαρα τῆς ποιότητος εἴδη ἐπάγει τὸ συμπερασμα<note type="apparatus" n="19" target="#p88-18">τὰ om. F</note>
+              <lb n="19" xml:id="p88-18"/>Παραστήσας ἡμῖν τὰ τέσσαρα τῆς ποιότητος εἴδη ἐπάγει τὸ συμπέρασμα<note type="apparatus" n="19" target="#p88-18">τὰ om. F</note>
               <lb n="20" xml:id="p88-19"/>καί φησιν ὅτι οὗτοι οἱ τρόποι τῆς ποιότητος. βουλόμενος δὲ ἡμᾶς
               <lb n="21" xml:id="p88-20"/>μὴ ἐπαναπαύεσθαι τοῖς παρὰ τῶν ἀρχαίων λεγομένοις μηδ’ ἀργοὺς μένειν
               <lb n="22" xml:id="p88-21"/>ἀλλὰ καθ’ αὑτοὺς ζητεῖν, φησὶν ὅτι ἴσως ἂν καὶ ἄλλος φανείη<note type="apparatus" n="22" target="#p88-21">καθ’ αὑτοὺς] καὶ ἡμᾶς αὐτοὺς M ὅτι καὶ F ἄλλως F</note>
@@ -3665,7 +3666,7 @@
               <lb n="10" xml:id="p89-9"/>Ἐνίοτε δὲ καὶ ὀνόματος κειμένου.
             </quote>
             <p>
-              <lb n="11" xml:id="p89-10"/>Πολλάκις δὲ καὶ ὀνόματος κειμένου τῇ ποιότητι οὐ λέγεται παρωνύμῶς<note type="apparatus" n="11" target="#p89-10">πολλάκις — κειμένου om. F</note>
+              <lb n="11" xml:id="p89-10"/>Πολλάκις δὲ καὶ ὀνόματος κειμένου τῇ ποιότητι οὐ λέγεται παρωνύμως<note type="apparatus" n="11" target="#p89-10">πολλάκις — κειμένου om. F</note>
               <lb n="12" xml:id="p89-11"/>ἐξ αὐτῆς ὁ μετέχων αὐτῆς· οὐδὲ γὰρ λέγομεν ἀρεταῖον ἀλλὰ σπουδαῖον.
               <lb n="13" xml:id="p89-12"/>
             </p>
@@ -4353,7 +4354,7 @@
               <lb n="1" xml:id="p104-0"/>Τῶν γὰρ ἀντιστρεφόντων κατὰ τήν.<note type="apparatus" n="1" target="#p104-0">ᾗ] εἴη F: evan. M</note>
             </quote>
             <p>
-              <lb n="2" xml:id="p104-1"/>Ἐὰν γάρ, φησί, τῶν ἀντιστρεφόντων τὸ ἕτερου τοῦ ἑτέρου αἴτιον ᾖ
+              <lb n="2" xml:id="p104-1"/>Ἐὰν γάρ, φησί, τῶν ἀντιστρεφόντων τὸ <choice><sic>ἕτερου</sic><corr>ἕτερον</corr></choice> τοῦ ἑτέρου αἴτιον ᾖ
               <lb n="3" xml:id="p104-2"/>τοῦ εἶναι, εἰκότως πρότερον λέγοιτ’ ἄν, οἷον πατὴρ υἱοῦ ἐστι πατήρ, ἀλλὰ
               <lb n="4" xml:id="p104-3"/>καὶ πρὸς 〈ἄλληλα〉 ἀντιστρέφει· ὁ υἱὸς πατρός ἐστιν υἱός· εἰ οὖν ὁ πατὴρ<note type="apparatus" n="4" target="#p104-3">ἄλληλα ex Philopono inserui ὁ υἱὸς — υἱός om. M εἰ οὖν — λέγοιτο ἄν (5)] εἰ οὖν ὁ ἕτερος εὑρεθείη αἴτιος τοῦ τὸν ἕτερον εἶναι, εἰκότως λέγοιτ’ ἂν τῇ φύσει πρότερος. εὑρίσκεται τοίνυν ὁ πατὴρ αἴτιος τοῦ εἶναι τὸν υἱόν. οὐκοῦν οὗτος τῇ φύσει πρότερος τοῦ υἱοῦ. M</note>
               <lb n="5" xml:id="p104-4"/>αἴτιος τοῦ εἶναι τῷ υἱῷ, εἰκότως πρότερον τῇ φύσει τοῦ υἱοῦ λέγοιτο ἄν.
@@ -4429,7 +4430,7 @@
               <lb n="21" xml:id="p105-20"/>Εἰ γὰρ ἦν ἡ αὐτή, ἔδει τὸ ἀλλοιούμενον.<note type="apparatus" n="21" target="#p105-20">γὰρ καὶ ἦν F</note>
             </quote>
             <p>
-              <lb n="22" xml:id="p105-21"/>Ἐπὶ τῶν ἄλλων οὐδὲν κατασκευάσας ὡς προφανῶν περὶ τῆς ἀλοιώσεως<note type="apparatus" n="22" target="#p105-21">ἐπὶ τῶν ἄλλων — ἀλλοιοῦσθαι (24) om. F</note>
+              <lb n="22" xml:id="p105-21"/>Ἐπὶ τῶν ἄλλων οὐδὲν κατασκευάσας ὡς προφανῶν περὶ τῆς <choice><sic>ἀλοιώσεως</sic><corr>ἀλλοιώσεως</corr></choice><note type="apparatus" n="22" target="#p105-21">ἐπὶ τῶν ἄλλων — ἀλλοιοῦσθαι (24) om. F</note>
               <lb n="23" xml:id="p105-22"/>τοῦτο ποιεῖ καί φησιν ὅτι εἰ ἡ αὐτὴ ἦν ἡ ἀλλοίωσις τῇ αὐξήσει, ἔδει τὸ<note type="apparatus" n="23" target="#p105-22">ἡ (prius) Vat. 247: om. M</note>
               <lb n="24" xml:id="p105-23"/>αὐξανόμενον πάντως ἀλλοιοῦσθαι, ὅπερ οὐ γίνεται· τὸ γὰρ τετράγωνον
               <lb n="25" xml:id="p105-24"/>γνώμονος αὐτῷ περιτεθέντος αὔξεται μὲν ἀλλοιοῦται δὲ οὐδαμῶς· μένει<note type="apparatus" n="25" target="#p105-24">περιθέντος F</note>

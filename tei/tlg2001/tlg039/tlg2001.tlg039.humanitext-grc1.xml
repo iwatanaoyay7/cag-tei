@@ -50,6 +50,7 @@
       <change when="2026-10-24" who="#NI">p. 236 (four lines) numbered 1–4 (had been 4–7), so that its apparatus is attached to the lines (found when the remaining line-number gaps were checked on the page images).</change>
       <change when="2026-11-05" who="#NI">Apparatus entries printed out of numerical order (e.g. 33 … 32) separated from the preceding entry; words hyphenated across lines joined in Latin text as in Greek; words mixing Greek and Latin letters (OCR errors, about 130, including manuscript sigla) corrected on the page images; marginal folio marks left in the text removed; validated against TEI P5 version 4.12.0 (recorded in TEI/@version).</change>
       <change when="2026-11-05" who="#NI">Extent of the lemma quotations (quote[@type='lemma']) checked on the page images: lemmata closed before their last printed line (the quotation was closed when the collation text was covered, so a short centred last line could be left out) extended; abbreviated lemmata (Ἀλλὰ … γένη.) whose quotation had taken in the first line of the commentary shortened (11 places in the pilot works); candidates found from the letter-spacing of the lines on the page images and the line geometry and decided on the page images (Claude work teams).</change>
+      <change when="2026-11-22" who="#NI">Readings questioned by the review of the translations collated on the page images (read independently, at least twice wherever the print does not have the proposed form, by a language model, Claude; the 28 places in all works that it could not settle were read by the editor): 65 errors of the transcription corrected; 6 evident misprints of the edition given as choice/sic/corr; 5 evident misprints of the edition in a word broken at the line end (which cannot carry choice/sic/corr) corrected in the text.</change>
     </revisionDesc>
   </teiHeader>
   <text>
@@ -396,7 +397,7 @@
               <lb n="19" xml:id="p10-18"/>δὴ οὕτως ἔχοντος καὶ τοῦ λευκοῦ παντελῶς μὴ ὄντος, εἰ λέγοιμεν
               <lb n="20" xml:id="p10-19"/>ὑπάρχειν αὐτὸ τῷ ὅπερ ὄντι, τῷ μάλιστα ὄντι τὸ μάλιστα μὴ ὂν ὑπάρχειν
               <lb n="21" xml:id="p10-20"/>ἐροῦμεν. ἄτοπον μὲν δή, καὶ τοῦτο προσέτι δέ, εἰ τὸ ὅπερ ὂν ἔσται<milestone type="alt-edition" unit="line" ed="Spengel 1866" n="30"/>
-              <lb n="22" xml:id="p10-21"/>λευκόν, τὸ λευκὸν δὲ οὐκ ὄν, τὸ ὅπερ ὂν ἔσται οὐκ ὄν. καὶ μηδεὶς ὑπολάβη<note type="apparatus" n="22-23" target="#p10-21 #p10-22">ὑπολάβοι L</note><milestone type="alt-edition" unit="page" ed="Spengel 1866" n="120"/>
+              <lb n="22" xml:id="p10-21"/>λευκόν, τὸ λευκὸν δὲ οὐκ ὄν, τὸ ὅπερ ὂν ἔσται οὐκ ὄν. καὶ μηδεὶς ὑπολάβῃ<note type="apparatus" n="22-23" target="#p10-21 #p10-22">ὑπολάβοι L</note><milestone type="alt-edition" unit="page" ed="Spengel 1866" n="120"/>
               <lb n="23" xml:id="p10-22"/>παραλογίζεσθαι ἡμᾶς· οὐ γὰρ ἐπειδὴ συμβεβηκός ἐστι τὸ λευκόν, ᾧ<note type="apparatus" n="23" target="#p10-22">οὐ] οὐδὲ L post ἐπειδὴ add. καὶ BL</note>
               <lb n="24" xml:id="p10-23"/>τὸ λευκὸν ὑπάρχει, ἐκεῖνο ἔσται συμβεβηκός· οὐδὲν γὰρ ὅμοιον παραβάλλεται.<milestone type="alt-edition" unit="line" ed="Spengel 1866" n="5"/>
               <lb n="25" xml:id="p10-24"/>ὁ μὲν γὰρ λέγων συμβεβηκὸς τὸ λευκὸν εἶναί τι καὶ αὐτὸ δίδωσι
@@ -513,7 +514,7 @@
               <lb n="18" xml:id="p13-17"/>μὲν οὐδέν, ἄλλο δὲ ὃ πυρὸς μὲν πυκνότερον ἀέρος δὲ λεπτότερον, ὡς Ἀναξίμανδρος.<milestone type="alt-edition" unit="line" ed="Spengel 1866" n="20"/>
               <lb n="19" xml:id="p13-18"/>οὗτος δὲ οὐκέτι ἀλλοιώσει χρῆται πρὸς τὴν γένεσιν τῶν ἐφεξῆς,
               <lb n="20" xml:id="p13-19"/>ἀλλ’ ἐκκρίνεσθαί φησιν ἐξ ἀπείρου τοῦ στοιχείου τὰς ἐναντιότητας ἐνυπαρχούσας,
-              <lb n="21" xml:id="p13-20"/>ὥσπερ γε καὶ οἱ πολλὰς ὑποθέμενοι τὰς ἀρχάς, ἓν δ αἴτιον<milestone type="alt-edition" unit="line" ed="Spengel 1866" n="25"/><note type="apparatus" n="21" target="#p13-20">πολλοὶ Β τὰς ἀρχὰς] τὰ ὄντα E Aristot. 187a 22; cf. Diels Zur Textgesch. p. 16</note>
+              <lb n="21" xml:id="p13-20"/>ὥσπερ γε καὶ οἱ πολλὰς ὑποθέμενοι τὰς ἀρχάς, ἓν δ’ αἴτιον<milestone type="alt-edition" unit="line" ed="Spengel 1866" n="25"/><note type="apparatus" n="21" target="#p13-20">πολλοὶ Β τὰς ἀρχὰς] τὰ ὄντα E Aristot. 187a 22; cf. Diels Zur Textgesch. p. 16</note>
               <lb n="22" xml:id="p13-21"/>τὸ ποιητικόν, Ἀναξαγόρας τε καὶ Ἐμπεδοκλῆς, ὁ μὲν τάς τε ὁμοιομερείας
               <lb n="23" xml:id="p13-22"/>καὶ τὸν νοῦν, ὁ δὲ τὰ στοιχεῖα τὰ τέσσαρα καὶ τὸν σφαῖρον· καὶ γὰρ οὗτοι
               <lb n="24" xml:id="p13-23"/>παραπλησίως Ἀναξιμάνδρῳ οὐ κέχρηνται πρὸς τὴν γένεσιν ἀλλοιώσει, ἀλλ’
@@ -856,7 +857,7 @@
             </p>
             <pb n="23" facs="https://archive.org/download/commentariaina05pt13akaduoft/page/n174.jpg"/>
             <p>
-              <lb n="1" xml:id="p23-0"/>φυτὰ· δὲ γενόμενα ἐκ τῶν στοιχείων, ὡς εἶναι φανερὰν τὴν εἰς ἄλληλα<note type="apparatus" n="1" target="#p23-0">γινόμενα B</note>
+              <lb n="1" xml:id="p23-0"/>φυτὰ δὲ γενόμενα ἐκ τῶν στοιχείων, ὡς εἶναι φανερὰν τὴν εἰς ἄλληλα<note type="apparatus" n="1" target="#p23-0">γινόμενα B</note>
               <lb n="2" xml:id="p23-1"/>πάντων μεταβολήν· εἰ δὲ δύο μὲν ποιήσαιμεν ἐναντιώσεις, ἓν δὲ τὸ ὑποκείμενον,
               <lb n="3" xml:id="p23-2"/>εἰ μὲν μεταβάλλοιεν εἰς ἀλλήλας, τὰ αὐτὰ πάλιν ἄτοπα ἀκολουθήσει·<milestone type="alt-edition" unit="line" ed="Spengel 1866" n="25"/>
               <lb n="4" xml:id="p23-3"/>εἰ δὲ καὶ γίγνονται ἐξ ἀλλήλων, περιττὴ πάλιν εὐθὺς ἡ ἑτέρα· αἱ<note type="apparatus" n="4" target="#p23-3">δὲ om. L γίγνοιτο L₁, γίγνοντε L₂: γίγνοντο a (unde de γίγνοιντο cogit. Spengel)</note>
@@ -931,8 +932,8 @@
               <lb n="3" xml:id="p25-2"/>ναῦν, οὐ τὰ ξύλα γίνεσθαι ναῦν. καίτοι φαίης ἂν οἰκειότερον εἶναι τὸ μὲν
               <lb n="4" xml:id="p25-3"/>ἐκ τοῦδε’ τῇ στερήσει, θάτερον δὲ τῷ ὑπομένοντι καὶ τῇ ὕλῃ· σημαίνει
               <lb n="5" xml:id="p25-4"/>μὲν γὰρ μᾶλλον ἐκείνη ἡ πτῶσις τὸ ἐκχωροῦν, ἡ δὲ δὴ καὶ ὑφιστάμενον·<milestone type="alt-edition" unit="page" ed="Spengel 1866" n="143"/><note type="apparatus" n="5" target="#p25-4">μὲν om. BL ἐκείνη M: μὲν ἐκείνη W: ἐκείνη μὲν BL ἡ δὲ δὴ scripsi: ἤδη δὲ MW: ἥδε δὲ BL καὶ ὑφιστάμενον M: τὸ ὑφιστάμενον WBL</note>
-              <lb n="6" xml:id="p25-5"/>ἀλλ’ ὅμως λέγεται τὸ ἐκ τοῦδε’ καὶ ἐπὶ τῆς ὕλης ὡς προειρήκαμεν, λέγεται
-              <lb n="7" xml:id="p25-6"/>δὲ ἐπ’ ἐκείνων ἐφ’ ὧν οὐκ ἔστιν ὠνομασμένον τὸ ἀντικείμενον, ἀλλ’ ἐνυπἀρχει
+              <lb n="6" xml:id="p25-5"/>ἀλλ’ ὅμως λέγεται τὸ ‘ἐκ τοῦδε’ καὶ ἐπὶ τῆς ὕλης ὡς προειρήκαμεν, λέγεται
+              <lb n="7" xml:id="p25-6"/>δὲ ἐπ’ ἐκείνων ἐφ’ ὧν οὐκ ἔστιν ὠνομασμένον τὸ ἀντικείμενον, ἀλλ’ ἐνυπάρχει
               <lb n="8" xml:id="p25-7"/>μὲν τῇ ὕλῃ, δῆλον δὲ οὐκ ἔστιν. τότε γὰρ τὸ ‘ἐκ τοῦδε’ κατὰ τῆς<milestone type="alt-edition" unit="line" ed="Spengel 1866" n="5"/><note type="apparatus" n="8" target="#p25-7">τὸ om. L</note>
               <lb n="9" xml:id="p25-8"/>ὕλης κατηγοροῦμεν ὡς ἐχούσης ἐν αὑτῇ καὶ τὸ ἐναντίον τῇ μελλούσῃ<note type="apparatus" n="9" target="#p25-8">ἑαυτῷ W</note>
               <lb n="10" xml:id="p25-9"/>μορφῇ· τὴν γὰρ ἀντικειμένην ἀμορφίαν τῷ σχήματι τοῦ ἀνδριάντος οὐκ
@@ -994,7 +995,7 @@
               <lb n="26" xml:id="p26-25"/>εἶναι τῶν ἐναντίων· ὥσπερ γὰρ τοῦ εἴδους, οὕτως καὶ τῆς στερήσεως
               <lb n="27" xml:id="p26-26"/>ἐστι δεκτική. πῶς οὖν ἄποιος καθ’ ἑαυτήν; ὅτι νὴ Δία μὴ στέρησιν ἐνταῦθα<note type="apparatus" n="27" target="#p26-26">καὶ ante καθ’ add. L₂a αὐτὴν L νὴ Δία om. L₁</note>
               <lb n="28" xml:id="p26-27"/>ποιότητος σημαίνει τὸ ἄποιον, ἀλλ’ ἀπόφασιν ὡς τὸ ἀγράμματον,<milestone type="alt-edition" unit="line" ed="Spengel 1866" n="25"/>
-              <lb n="29" xml:id="p26-28"/>ὡς τὸ ἄμουσον ἀντὶ τοῦ μὴ γραμματικοῦ καὶ μὴ μουσικοῦ. εἰ δὲ ἐσήμαίνε
+              <lb n="29" xml:id="p26-28"/>ὡς τὸ ἄμουσον ἀντὶ τοῦ μὴ γραμματικοῦ καὶ μὴ μουσικοῦ. εἰ δὲ ἐσήμαινε
             </p>
             <pb n="27" facs="https://archive.org/download/commentariaina05pt13akaduoft/page/n178.jpg"/>
             <p>
@@ -1025,7 +1026,7 @@
               <lb n="25" xml:id="p27-24"/>καθολικώτερον περὶ πάντων τῶν γιγνομένων ἐπισκεψώμεθα, γένοιτο ἂν<note type="apparatus" n="25" target="#p27-24">ἐπισκεψόμεθα Laur. 85,14, Par. 1888, Vindob. 110: ἐπισκεψαίμεθα Spengel</note>
               <lb n="26" xml:id="p27-25"/>φανερόν· εὑρήσομεν γὰρ καὶ ἑκάστην τῶν λοιπῶν οὐσιῶν ἔκ τινος γιγνομένην<milestone type="alt-edition" unit="line" ed="Spengel 1866" n="5"/>
               <lb n="27" xml:id="p27-26"/>ὑποκειμένου, ὥσπερ τὰ ζῷα καὶ τὰ φυτὰ ἐκ τοῦ σπέρματος. καθόλου
-              <lb n="28" xml:id="p27-27"/>τοίνυν ἅπαντα τὰ γιγνόμενα ἢ μετασχηματίσει γίγνεται μόνη ὡς<note type="apparatus" n="28" target="#p27-27">σχηματίσει Par. 1888 et Vindob. 110 ut M Philoponi 156,20</note>
+              <lb n="28" xml:id="p27-27"/>τοίνυν ἅπαντα τὰ γιγνόμενα ἢ μετασχηματίσει γίγνεται μόνῃ ὡς<note type="apparatus" n="28" target="#p27-27">σχηματίσει Par. 1888 et Vindob. 110 ut M Philoponi 156,20</note>
               <lb n="29" xml:id="p27-28"/>ἀνδριάς (οὐδὲν γὰρ ἕτερον ἐξαλλάττεται ἐν τῷ χαλκῷ πλὴν τοῦ σχήματος<note type="apparatus" n="29" target="#p27-28">apud Aristot. 190b6 post ἀνδριὰς add. in I ἐκ χαλκοῦ, sed omittunt haec verba EF; cf. Philop. 156,24</note>
               <lb n="30" xml:id="p27-29"/>καὶ τῆς θέσεως τῶν μερῶν), ἢ προσθέσει ὡς τὰ αὐξανόμενα, ἢ ἀφαιρέσει<note type="apparatus" n="30" target="#p27-29">αὐξόμενα L</note><milestone type="alt-edition" unit="line" ed="Spengel 1866" n="10"/>
               <lb n="31" xml:id="p27-30"/>ὡς ἐκ λίθου Ἑρμῆς, ἢ συνθέσει ὡς οἰκία, ἢ ἀλλοιώσει τῇ τε κατά τινα<note type="apparatus" n="31" target="#p27-30">ὡς ἐκ λίθου ἑρμῆς Μ (sim. E Aristot. 190b7): ὡς ἐκ λίθου ὁ ἑρμῆς BL (in quo ὡς ex ὁ corr. man. 2) et sim. Aristot. vulg. cum Philop. 156,32: ὡς ὁ ἐκ λίθου ἑρμῆς W</note>
@@ -1068,7 +1069,7 @@
               <lb n="1" xml:id="p29-0"/>ἀρχή. διόπερ κυρίως μὲν λέγων δύο ἐρεῖς εἶναι τὰ αἴτια προηγουμένως<note type="apparatus" n="1" target="#p29-0">τὰ αἴτια] τὰς ἀρχὰς FI Arist. 190 b 30: om. E μὲν om. M₁ (et Laur. 85,18) τὰ om. L</note>
               <lb n="2" xml:id="p29-1"/>τήν τε ὕλην καὶ τὴν μορφήν, εἴποις δ’ ἂν αὐτὰ καὶ τρία διὰ τὴν στέρησιν
               <lb n="3" xml:id="p29-2"/>καὶ ἔστι μὲν ὡς τἀναντία εἰσὶν ἀρχαί (λέγω δὲ ἁπλούστερον νῦν<note type="apparatus" n="3" target="#p29-2">εἰσὶν] αἱ L: εἰσὶν αἱ Par. 1888 et Vindob. 110</note>
-              <lb n="4" xml:id="p29-3"/>ἐναντία τὴν <milestone type="alt-edition" unit="page" ed="Spengel 1866" n="149"/> στέρησιν καὶ τὸ εἶδος· μετὰ ταῦτα γὰρ ὅπως ἀλλήλοις ἀντίκεῖται
+              <lb n="4" xml:id="p29-3"/>ἐναντία τὴν <milestone type="alt-edition" unit="page" ed="Spengel 1866" n="149"/> στέρησιν καὶ τὸ εἶδος· μετὰ ταῦτα γὰρ ὅπως ἀλλήλοις ἀντίκειται
               <lb n="5" xml:id="p29-4"/>ἐπιδείξω), ἔστι δὲ ὡς οὐ τὰ ἐναντία· πάσχειν γὰρ αὐτὰ ὑπ’ ἀλλήλων<note type="apparatus" n="5" target="#p29-4">τἀναντία L: delevit Spengel</note>
               <lb n="6" xml:id="p29-5"/>ἀδύνατον. ἀλλὰ καὶ τοῦτο διεσωσάμεθα ὑποτιθέντες τὴν ὕλην αὐτοῖς.<note type="apparatus" n="6" target="#p29-5">ὑποθέντες L (e Philop. 165,13)</note>
               <lb n="7" xml:id="p29-6"/>πόσαι μὲν οὖν εἰσὶν ἀρχαὶ τῶν περὶ γένεσιν φυσικῶν καὶ ὅπως πόσαι,<note type="apparatus" n="7" target="#p29-6">εἰσὶν] sic I Aristot. 191 a 3: εἰσὶν αἱ Paris. 1888 et Vindob. 110; E Aristot.: αἱ F Aristot. et Philop. 166,7 (MK₂; om. K₁L), Simpl. 219,20 ὅπως] πῶς Spengel ex Aristot. 191 a 4</note><milestone type="alt-edition" unit="line" ed="Spengel 1866" n="5"/>
@@ -1120,7 +1121,7 @@
               <lb n="16" xml:id="p30-15"/>μέλανος, ὃ συμβεβήκει αὐτῷ. καὶ τοίνυν τὸ ἐκ μὴ ὄντος γίγνεσθαι ἢ τὸ<note type="apparatus" n="16" target="#p30-15">ᾧ] ᾧ M συμβέβηκε W, συμβεβήκοι B</note>
               <lb n="17" xml:id="p30-16"/>μὴ ὂν γίγνεσθαι δύο σημαίνει· ἓν μὲν ὡς ἐνυπάρχοντος τοῦ μὴ ὄντος καὶ<milestone type="alt-edition" unit="line" ed="Spengel 1866" n="5"/>
               <lb n="18" xml:id="p30-17"/>δεχομένου τὸ εἶναι, ὅπερ ἐστὶν ἀδύνατον· καὶ τοῦτό ἐστιν ὃ σημαίνει τὸ ἐκ<note type="apparatus" n="18-19" target="#p30-17 #p30-18">ἐκ μὴ] sic E Aristot. 191 b 9: μὴ ἐξ FI</note>
-              <lb n="19" xml:id="p30-18"/>μὴ ὄντος γίγνεσθαι ἢ μὴ ὄν. τοῦτο δὲ ᾤοντο δηλοῦσθαι μόνον ἐκ τῆς
+              <lb n="19" xml:id="p30-18"/>μὴ ὄντος γίγνεσθαι ᾗ μὴ ὄν. τοῦτο δὲ ᾤοντο δηλοῦσθαι μόνον ἐκ τῆς
               <lb n="20" xml:id="p30-19"/>φωνῆς ταύτης οἱ παλαιοὶ καὶ διὰ τοῦτο ἀνῄρουν γένεσιν. ἕτερον δέ, ὡς
               <lb n="21" xml:id="p30-20"/>ἐξισταμένου τοῦ μὴ ὄντος καὶ ἐκχωροῦντος τῷ ἐσομένῳ, ὡς ἐκ τοῦ ἀμούσου<milestone type="alt-edition" unit="line" ed="Spengel 1866" n="10"/>
               <lb n="22" xml:id="p30-21"/>τὸ μουσικόν· καὶ τοῦτό ἐστι κατὰ συμβεβηκὸς ἐκ τοῦ μὴ ὄντος· τὸ<note type="apparatus" n="22" target="#p30-21">τοῦ om. L</note>
@@ -1406,7 +1407,7 @@
               <lb n="10" xml:id="p39-9"/>καὶ τὸ ζῷον φύσει μὲν εἶναι λεχθήσεται, οὐκέτι δὲ φύσις. καθ’ ἑαυτὸ<note type="apparatus" n="10" target="#p39-9">οὐκ ἔστι L καθ’ αὑτὸ L</note>
               <lb n="11" xml:id="p39-10"/>μέντοι γε ἕκαστον καὶ ἰδίᾳ λαμβάνοντι μᾶλλον φύσις τὸ εἶδος τῆς ὕλης.<milestone type="alt-edition" unit="line" ed="Spengel 1866" n="10"/><note type="apparatus" n="11" target="#p39-10">φύσις] αὕτη φύσις E Aristot. 193 b 6: φύσις αὕτη FI</note>
               <lb n="12" xml:id="p39-11"/>εἰ γοῦν ἔτι γίγνοιτό τι καὶ φύοιτο πρὶν ἅπαν τὸ εἶδος ἀπολαβεῖν, λέγομεν
-              <lb n="13" xml:id="p39-12"/>οὔπω τὴν αὑτοῦ φύσιν ἔχει’ · ἕκαστον γὰρ τότε καὶ ἔστι καὶ εἶναί τι λέγεται,<note type="apparatus" n="13" target="#p39-12">ἑαυτοῦ B ‘malim ἔχειν’ Spengel ἕκαστον—(16) φ φύσις] ex Alexandro (cf. Simpl. 277,31 sqq.)</note>
+              <lb n="13" xml:id="p39-12"/>‘οὔπω τὴν αὑτοῦ φύσιν ἔχει’ · ἕκαστον γὰρ τότε καὶ ἔστι καὶ εἶναί τι λέγεται,<note type="apparatus" n="13" target="#p39-12">ἑαυτοῦ B ‘malim ἔχειν’ Spengel ἕκαστον—(16) φ φύσις] ex Alexandro (cf. Simpl. 277,31 sqq.)</note>
               <lb n="14" xml:id="p39-13"/>ὅταν ᾖ ἐντελεχείᾳ, τουτέστιν ὅταν ἀπειλήφῃ τὴν αὑτοῦ φύσιν καὶ<note type="apparatus" n="14" target="#p39-13">ἀπειλήφη L: ἀπειλη B: ἀπειλήφει MW</note>
               <lb n="15" xml:id="p39-14"/>τελειότητα, τὸ δὲ εἶδος ἡ τελειότης, ὥστε καὶ συλλογισαίμεθα ἄν, οὗ τῇ<milestone type="alt-edition" unit="line" ed="Spengel 1866" n="15"/><note type="apparatus" n="15" target="#p39-14">συλλογισαίμεθα—(17) φύσις exscr. Philop. 209,33 sqq.</note>
               <lb n="16" xml:id="p39-15"/>παρουσίᾳ τὰ φύσει ὄντα φύσει ἐστί, τοῦτο ἔστι φύσις· τῇ δὲ τοῦ εἴδους<note type="apparatus" n="16" target="#p39-15">ante παρουσίᾳ add. τ (compendio ambiguo) B</note>
@@ -1435,8 +1436,8 @@
               <lb n="7" xml:id="p40-6"/>ὁδὸς εἰς θερμότητα, ἀπὸ τῶν τεχνῶν ὀνομάζεται, οὕτως ἡ φύσις ὅτι ὁδὸς
               <lb n="8" xml:id="p40-7"/>εἰς φύσιν ἐστί, διὰ τοῦτο καλεῖται φύσις. ἐπεὶ οὖν ἐδείξαμεν ὅτι τὸ εἶδος
               <lb n="9" xml:id="p40-8"/>μᾶλλον τῆς ὕλης φύσις ἐστίν, γνωστέον ὅτι ἡ φύσις ἡ ὡς μορφὴ λέγεται<note type="apparatus" n="9" target="#p40-8">τῆς ὕλης μᾶλλον W ἡ pr. superscr. B</note><milestone type="alt-edition" unit="line" ed="Spengel 1866" n="20"/>
-              <lb n="10" xml:id="p40-9"/>διχῶς’ καὶ γὰρ ἡ στέρησις εἶδός πώς ἐστι, διὸ φύσει καὶ τὰ πηρώματα.
-              <lb n="11" xml:id="p40-10"/>ἀλλὰ τοῦτο μὲν ὅπως ἐνδέχεται λέγεσθαι, ὕστερον ἐπισκεψόμεθα’ ἐπισκεψόμεθα<note type="apparatus" n="11" target="#p40-10">ὅπως BL: ὥσπερ MW (‘fortasse πῶς’ Diels) λέγεσθαι] σημαίνεσθαι L</note>
+              <lb n="10" xml:id="p40-9"/>διχῶς· καὶ γὰρ ἡ στέρησις εἶδός πώς ἐστι, διὸ φύσει καὶ τὰ πηρώματα.
+              <lb n="11" xml:id="p40-10"/>ἀλλὰ τοῦτο μὲν ὅπως ἐνδέχεται λέγεσθαι, ὕστερον ἐπισκεψόμεθα· ἐπισκεψόμεθα<note type="apparatus" n="11" target="#p40-10">ὅπως BL: ὥσπερ MW (‘fortasse πῶς’ Diels) λέγεσθαι] σημαίνεσθαι L</note>
               <lb n="12" xml:id="p40-11"/>δὲ καὶ πῶς ἡ στέρησις ἐναντίον τῷ εἴδει καὶ πῶς ἐξ ἀντικειμένων<note type="apparatus" n="12" target="#p40-11">καὶ post δὲ om. L</note>
               <lb n="13" xml:id="p40-12"/>ἡ γένεσις ἁπλῆ καὶ ἡ τῆς οὐσίας.<note type="apparatus" n="13" target="#p40-12">ἁπλῆ M: ἡ ἁπλῆ WBL</note><milestone type="alt-edition" unit="line" ed="Spengel 1866" n="25"/>
             </p>
@@ -1444,7 +1445,7 @@
           <div type="textpart" subtype="section" n="2">
             <p>
               <lb n="14" xml:id="p40-13"/>2. Νῦν δὲ ἴσως οὐκ ἀπὸ τρόπου θεωρῆσαι, τίνι διαφέρει ὁ μαθηματικὸς<note type="apparatus" n="14" target="#p40-13">νυνὶ L</note>
-              <lb n="15" xml:id="p40-14"/>τοῦ φυσικοῦ’ περὶ σώματα γὰρ ἄμφω καὶ τὰ σώματι συμβεβηκότα,<note type="apparatus" n="15" target="#p40-14">σώμα BL, σώματα W; ‘fort. σώμασι’ Spengel (at cf. Simpl. 290,34)</note>
+              <lb n="15" xml:id="p40-14"/>τοῦ φυσικοῦ· περὶ σώματα γὰρ ἄμφω καὶ τὰ σώματι συμβεβηκότα,<note type="apparatus" n="15" target="#p40-14">σώμα BL, σώματα W; ‘fort. σώμασι’ Spengel (at cf. Simpl. 290,34)</note>
               <lb n="16" xml:id="p40-15"/>οἷον μήκη <milestone type="alt-edition" unit="page" ed="Spengel 1866" n="165"/> καὶ στιγμὰς καὶ στερεὰ καὶ ἐπίπεδα, ἢ οὐχ ὁμοίως; ἀλλ’ ὁ
               <lb n="17" xml:id="p40-16"/>μὲν φυσικὸς ὡς ἀεὶ μεθ’ ὕλης ὄντα θεωρεῖ, ὁ δὲ χωρίζει τῷ λόγῳ τῆς<note type="apparatus" n="17" target="#p40-16">ὡς om. W</note>
               <lb n="18" xml:id="p40-17"/>ὕλης· καὶ ὁ μὲν τῆς θεωρίας ἔχει τὴν ἀναφορὰν ἐπὶ τὸ φυσικὸν σῶμα τὸ<note type="apparatus" n="18" target="#p40-17">ἀναφορὰν BL: διαφορὰν MW (cf. 167, 19)</note>
@@ -1467,14 +1468,14 @@
               <lb n="2" xml:id="p41-1"/>αὐτῶν, οὐδὲ ὅτι βέλτιον οὕτως· τῷ φυσικῷ δὲ περὶ ταῦτα καὶ ἐκ
               <lb n="3" xml:id="p41-2"/>τούτων ἡ θεωρία. καὶ ὅλως ἄμφω μὲν περὶ κινουμένων τῶν θείων σωμάτων<note type="apparatus" n="3" target="#p41-2">post περὶ add. τ̄ B (compendio ambiguo)</note>
               <lb n="4" xml:id="p41-3"/>τὸν λόγον ποιοῦνται, ἀλλ’ ὁ μὲν τὸ ποσὸν τῆς κινήσεως, ὁ δὲ τὸ<note type="apparatus" n="4" target="#p41-3">ὁ μὲν τὸ ποσὸν κτλ.] ex Alexandro (cf. Simpl. 291,30 sqq.); Philoponus (221,1sqq.) Themistium sequi videtur</note>
-              <lb n="5" xml:id="p41-4"/>ποιὸν ἐξετάζει, ὁ. μὲν ὅτι ὁ ἥλιος ἐν τοσῷδε χρόνῳ τοσόνδε κινεῖται, ὁ δὲ
+              <lb n="5" xml:id="p41-4"/>ποιὸν ἐξετάζει, <choice><sic>ὁ.</sic><corr>ὁ</corr></choice> μὲν ὅτι ὁ ἥλιος ἐν τοσῷδε χρόνῳ τοσόνδε κινεῖται, ὁ δὲ
               <lb n="6" xml:id="p41-5"/><milestone type="alt-edition" unit="page" ed="Spengel 1866" n="166" cert="low"/>ὅτι κύκλῳ φέρεται ἢ τοιῶσδε εἰ τύχοι, διὰ τὴν τοιαύτην οὐσίαν. καὶ τὸ<note type="apparatus" n="6" target="#p41-5">τοιῶδε B</note>
               <lb n="7" xml:id="p41-6"/>σχῆμα δὲ ὅτι σφαιρικόν, ὁ μὲν ἐπειδὴ μὴ πύρινον μηδὲ γήϊνον ἀλλ’ αἰθέριον,<note type="apparatus" n="7" target="#p41-6">ἐπειδὴ] ὅτι W</note>
-              <lb n="8" xml:id="p41-7"/>ὁ δὲ ἐπειδὴ πανταχόθεν ὁμοίως ὁρᾶται’ ὅλως γὰρ τὴν ὕλην οὐ
+              <lb n="8" xml:id="p41-7"/>ὁ δὲ ἐπειδὴ πανταχόθεν ὁμοίως ὁρᾶται· ὅλως γὰρ τὴν ὕλην οὐ
               <lb n="9" xml:id="p41-8"/>προσποιοῦνται οἱ μαθηματικοὶ παντελῶς, ἀλλὰ τὸ τρίγωνον αὐτὸ ἢ κύβον<note type="apparatus" n="9" target="#p41-8">ἀλλș αὐτὸ τρίγωνον L</note>
               <lb n="10" xml:id="p41-9"/>λαβόντες οὕτως θεωροῦσιν ἄνευ ὕλης τε καὶ κινήσεως. ταῦτα δὲ εἰ μὲν
-              <lb n="11" xml:id="p41-10"/>καὶ καθ’ ὑπόστασιν ἐχώριζον, ἀδύνατα ἂν ὑπετίθεντο’ οὐ γάρ ἐστιν ὑπόστασις<note type="apparatus" n="11" target="#p41-10">καὶ om. WB ἀδύνατόν L</note>
-              <lb n="12" xml:id="p41-11"/>τῶν περάτων καθ’ ἑαυτὰ χωρὶς ὧν ἐστιν πέρατα’ νῦν δὲ ἐπειδὴ<note type="apparatus" n="12" target="#p41-11">αὐτὰ L</note>
+              <lb n="11" xml:id="p41-10"/>καὶ καθ’ ὑπόστασιν ἐχώριζον, ἀδύνατα ἂν ὑπετίθεντο· οὐ γάρ ἐστιν ὑπόστασις<note type="apparatus" n="11" target="#p41-10">καὶ om. WB ἀδύνατόν L</note>
+              <lb n="12" xml:id="p41-11"/>τῶν περάτων καθ’ ἑαυτὰ χωρὶς ὧν ἐστιν πέρατα· νῦν δὲ ἐπειδὴ<note type="apparatus" n="12" target="#p41-11">αὐτὰ L</note>
               <lb n="13" xml:id="p41-12"/>τῷ λόγῳ μόνον αὐτὰ διαιροῦσιν, ὡς πέφυκε καὶ χωρίζεσθαι, οὐδὲν αὐτοῖς
               <lb n="14" xml:id="p41-13"/>ἕπεται ψεῦδος· οἱ δὲ τὰς ἰδέας λέγοντες ἃ μηδὲ τῷ λόγῳ χωριστά, ταῦτα<note type="apparatus" n="14" target="#p41-13">περὶ ante τὰς ἰδέας add. F Aristot. 193 b 36 μηδὲ WBL (cf. Philop. 225,3. 227,13 et Simpl. 293,29; infra v. 29): μὴ M</note>
               <lb n="15" xml:id="p41-14"/>καὶ ὑποστάσει χωρίζουσι. καίτοι περιττὸν μὲν καὶ ἄρτιον καὶ εὐθὺ καὶ
@@ -1482,13 +1483,13 @@
               <lb n="17" xml:id="p41-16"/>ἐν τῷ λόγῳ κίνησιν καὶ ὕλην, σαρκὸς δὲ καὶ ὀστοῦ καὶ ἀνθρώπου λόγον
               <lb n="18" xml:id="p41-17"/>ἀποδοῦναι ἢ τοῦ τοιοῦδε σώματος καὶ ὅλως τῆς ὕλης ἐκλαθόμενον ὁμοίως
               <lb n="19" xml:id="p41-18"/>ἀδύνατον, ὥσπερ τοῦ σιμοῦ χωρὶς τῆς ῥινὸς καὶ τοῦ βλαισοῦ χωρὶς τῶν<note type="apparatus" n="19" target="#p41-18">βλαισοῦ Spengel: βλαισσοῦ MWB: βλεσοῦ L; cf. discrepantiam scripturae ad Simpl. 124,8</note>
-              <lb n="20" xml:id="p41-19"/>σκελῶν. ὅτι δὲ τοῦτο ἀληθές, δηλοῖ καὶ τῶν μαθημάτων ὅσα ἐστὶ φυσικώτερα’
+              <lb n="20" xml:id="p41-19"/>σκελῶν. ὅτι δὲ τοῦτο ἀληθές, δηλοῖ καὶ τῶν μαθημάτων ὅσα ἐστὶ φυσικώτερα·
               <lb n="21" xml:id="p41-20"/>προσχρῆται γὰρ κινήσει τε καὶ αἰσθήσει, οἷον ὀπτικὴ καὶ ἁρμονικὴ καὶ<note type="apparatus" n="21" target="#p41-20">προσχρῆται] cf. Philop. 226,16; Simpl. 294,25</note>
-              <lb n="22" xml:id="p41-21"/>ἀστρονομία’ γραμμὴν γὰρ λαβοῦσαι παρὰ γεωμετρίας, ἣν ἐκείνη φυσικὴν<note type="apparatus" n="22" target="#p41-21">λαβοῦσα L παρὰ] περὶ fortasse M</note>
-              <lb n="23" xml:id="p41-22"/>οὖσαν οὐχ ὡς φυσικὴν ἐξετάζει, ἀλλὰ χωρίσασα τῆς ὕλης τῷ λόγῳ’ λαβοῦσαι<note type="apparatus" n="23" target="#p41-22">λαβοῦσαι Laur. 85,18 et Vatic. 1025: λαβοῦσα MWBL</note>
+              <lb n="22" xml:id="p41-21"/>ἀστρονομία· γραμμὴν γὰρ λαβοῦσαι παρὰ γεωμετρίας, ἣν ἐκείνη φυσικὴν<note type="apparatus" n="22" target="#p41-21">λαβοῦσα L παρὰ] περὶ fortasse M</note>
+              <lb n="23" xml:id="p41-22"/>οὖσαν οὐχ ὡς φυσικὴν ἐξετάζει, ἀλλὰ χωρίσασα τῆς ὕλης τῷ λόγῳ· λαβοῦσαι<note type="apparatus" n="23" target="#p41-22">λαβοῦσαι Laur. 85,18 et Vatic. 1025: λαβοῦσα MWBL</note>
               <lb n="24" xml:id="p41-23"/>οὖν τὴν τοιαύτην γραμμήν, ἐπειδὴ χρήζουσιν αὐτῆς κατ’ ἐνέργειαν ὑφεστώσης,
               <lb n="25" xml:id="p41-24"/>οὐκέτι χωρίζουσι κινήσεως τε καὶ ὕλης, ἀλλὰ καὶ κέχρηνται ὡς φυσικῇ<note type="apparatus" n="25" target="#p41-24">τε om. L καὶ post ἀλλὰ om. L</note>
-              <lb n="26" xml:id="p41-25"/>τε καὶ κινουμένῃ’ τῇ γὰρ διόπτρας εὐθείᾳ μεθ’ ὕλης ἤδη χρῶνται καὶ<note type="apparatus" n="26" target="#p41-25">ante διόπτρας add. ἐκ τῆς L</note>
+              <lb n="26" xml:id="p41-25"/>τε καὶ κινουμένῃ· τῇ γὰρ διόπτρας εὐθείᾳ μεθ’ ὕλης ἤδη χρῶνται καὶ<note type="apparatus" n="26" target="#p41-25">ante διόπτρας add. ἐκ τῆς L</note>
               <lb n="27" xml:id="p41-26"/>κινήσεως. εἰ δὴ καὶ ὅσα τῷ λόγῳ δυνατὸν χωρίζειν ὅλως, ὅταν ἐνεργείᾳ<note type="apparatus" n="27" target="#p41-26">εἰ — (29) χωριστά;] exscr. Philop. 227,11 sqq. δὴ] οὖν Philop.</note><milestone type="alt-edition" unit="page" ed="Spengel 1866" n="167"/>
               <lb n="28" xml:id="p41-27"/>ὄντα λαμβάνηται, οὐδὲ τῷ λόγῳ χωρίζεται, πόσῳ μᾶλλον φυλακτέον ἐστὶ<note type="apparatus" n="28" target="#p41-27">ὄντα] ὄντος L; ὑφεστηκότα Philop.</note>
               <lb n="29" xml:id="p41-28"/>χωρίζειν ἐνεργείᾳ τὰ μηδὲ κατ’ ἐπίνοιαν χωριστά;<note type="apparatus" n="29" target="#p41-28">ἐνεργείᾳ] τῇ ὑποστάσει Philop. e Them. (v. 15) μηδὲ Spengel, ut Philop. 227,13 (cf. 224,10; 225,2): μήτε libri; at cum apud Philop. 224,20 μηδὲ τῷ λόγῳ καὶ τῇ ἐπινοίᾳ legatur, Themistium μήτε κατὰ λόγον μήτε κατș ἐπίνοιαν scripsisse haud inepte conicias</note>
@@ -1738,7 +1739,7 @@
               <lb n="9" xml:id="p49-8"/>ὡς οὕτω συνέκυρσε θέων τότε, πολλάκι δ’ ἄλλως,<note type="apparatus" n="9" target="#p49-8">Emp. 167 Stein πολλάκις WL</note>
               <lb n="10" xml:id="p49-9"/>καὶ τὰ μόρια τῶν ζῴων τὰ πλεῖστα ἀπὸ τύχης γενέσθαι φησίν. ἀλλ’<note type="apparatus" n="10" target="#p49-9">φησίν] φησὶν οὗτος E Aristot. 196 a 24</note><milestone type="alt-edition" unit="line" ed="Spengel 1866" n="15"/>
               <lb n="11" xml:id="p49-10"/>οὗτος μὲν εἰς μικρὰ αὐτῇ καταχρώμενος, εἰ μηδένα αὐτῆς πεποίηται λόγον,<note type="apparatus" n="11" target="#p49-10">μηδὲν a</note>
-              <lb n="12" xml:id="p49-11"/>ἧττονός ἄξιος κατηγορίας ἂν εἴη, Δημοκρίτῳ δὲ καὶ τοῖς ἄλλοις πῶς<note type="apparatus" n="12" target="#p49-11">κατηγορίας] cf. Philop. 261,31 (ἐπιστάσεως Simpl. 331,16) δημοκρίτῳ BL: δημόκριτος MW</note>
+              <lb n="12" xml:id="p49-11"/>ἥττονος ἄξιος κατηγορίας ἂν εἴη, Δημοκρίτῳ δὲ καὶ τοῖς ἄλλοις πῶς<note type="apparatus" n="12" target="#p49-11">κατηγορίας] cf. Philop. 261,31 (ἐπιστάσεως Simpl. 331,16) δημοκρίτῳ BL: δημόκριτος MW</note>
               <lb n="13" xml:id="p49-12"/>οὐκ ἄξιον ἐγκαλεῖν; οἳ τὰ μέγιστα αὐτῇ προστιθέντες οὐδὲ ἐλαχίστου
               <lb n="14" xml:id="p49-13"/>λόγου μεταδεδώκασιν ἀνθρώποις τοὺς ἀπείρους οὐρανοὺς καὶ τὴν δίνην<note type="apparatus" n="14" target="#p49-13">λόγοις W δίνην L et Paris. 1888 corr.: δίκην MBW</note><milestone type="alt-edition" unit="line" ed="Spengel 1866" n="20"/>
               <lb n="15" xml:id="p49-14"/>καὶ τὴν κατέχουσαν τάξιν εἰς ἄλλο μὲν οὐδὲν αἴτιον ἀναφέροντες, τύχης
@@ -1866,28 +1867,28 @@
             </p>
             <pb n="53" facs="https://archive.org/download/commentariaina05pt13akaduoft/page/n204.jpg"/>
             <p>
-              <lb n="1" xml:id="p53-0"/>διόπερ ἐν ὅσοις διάνοια, ἐν τούτοις καὶ τύχη’ ἡ γὰρ προαίρεσις οὐκ ἄνευ<note type="apparatus" n="1" target="#p53-0">καὶ MWB: ἡ L</note>
+              <lb n="1" xml:id="p53-0"/>διόπερ ἐν ὅσοις διάνοια, ἐν τούτοις καὶ τύχη· ἡ γὰρ προαίρεσις οὐκ ἄνευ<note type="apparatus" n="1" target="#p53-0">καὶ MWB: ἡ L</note>
               <lb n="2" xml:id="p53-1"/>διανοίας. ἀόριστα μὲν οὖν τὰ αἴτια ἀνάγκη εἶναι ἀφ’ ὧν γένοιτο ἂν τὸ
-              <lb n="3" xml:id="p53-2"/>ἀπὸ τύχης, ὅθεν δοκεῖ ἡ τύχη ἀόριστον εἶναι’ πάντα γὰρ τὰ κατὰ συμβεβηκὸς<note type="apparatus" n="3" target="#p53-2">ἀπὸ τῆς τύχης ὅθεν καὶ ἡ τύχη — εἶναι δοκεῖ E Aristot. 197 a 9 ἀόριστον ML (cf. Aristot. ib. τοῦ ἀορίστου): ἀόριστος WB</note><milestone type="alt-edition" unit="line" ed="Spengel 1866" n="5"/>
+              <lb n="3" xml:id="p53-2"/>ἀπὸ τύχης, ὅθεν δοκεῖ ἡ τύχη ἀόριστον εἶναι· πάντα γὰρ τὰ κατὰ συμβεβηκὸς<note type="apparatus" n="3" target="#p53-2">ἀπὸ τῆς τύχης ὅθεν καὶ ἡ τύχη — εἶναι δοκεῖ E Aristot. 197 a 9 ἀόριστον ML (cf. Aristot. ib. τοῦ ἀορίστου): ἀόριστος WB</note><milestone type="alt-edition" unit="line" ed="Spengel 1866" n="5"/>
               <lb n="4" xml:id="p53-3"/>αἴτια τὸ ὡρισμένον οὐκ ἔχει· ταύτῃ γὰρ μάλιστα τῶν καθ’ αὑτὰ<note type="apparatus" n="4" target="#p53-3">ταύτῃ — (6) οὔ] exscr. Simpl. 340,22 sqq. τῶν καθ’ αὑτὰ BL: τῆς καθ’ αὑτὰ MW</note>
               <lb n="5" xml:id="p53-4"/>διαφέρει, ὅτι ἐπ’ ἐκείνων μὲν ἔστιν ὁρίσαντας εἰπεῖν τόδε τοῦδε αἴτιον,<note type="apparatus" n="5" target="#p53-4">ὅτι] καθὸ Simpl. μὲν om. Simpl. post αἴτιον add. εἶναι Simpl.</note>
               <lb n="6" xml:id="p53-5"/>οἷον τὸν οἰκοδόμον τῆς οἰκίας, ἐπὶ δὲ τῶν κατὰ συμβεβηκὸς οὔ· οὐκέτι<note type="apparatus" n="6" target="#p53-5">οἷον — οἰκίας om. Simpl. οὔ] οὐκέτι Simpl.</note>
               <lb n="7" xml:id="p53-6"/>γὰρ μᾶλλον ὁ λευκὸς ἢ ὁ μουσικός. οὕτως οὖν καὶ τοῦ κομίσασθαι τὸ<milestone type="alt-edition" unit="line" ed="Spengel 1866" n="10"/>
-              <lb n="8" xml:id="p53-7"/>ἀργύριον προελθόντα ἄπειρα τὸ πλῆθος αἴτια’ καὶ γὰρ ἰδεῖν τινα καὶ βουλόμενος<note type="apparatus" n="8" target="#p53-7">καὶ ante βουλόμενος om. BL</note>
+              <lb n="8" xml:id="p53-7"/>ἀργύριον προελθόντα ἄπειρα τὸ πλῆθος αἴτια· καὶ γὰρ ἰδεῖν τινα καὶ βουλόμενος<note type="apparatus" n="8" target="#p53-7">καὶ ante βουλόμενος om. BL</note>
               <lb n="9" xml:id="p53-8"/>καὶ διώκων καὶ φεύγων καὶ θεασάμενος. εἰ μὲν οὖν τὰ καθ’<note type="apparatus" n="9" target="#p53-8">καὶ θεασάμενος M₁WBL: καὶ θεασόμενος M₂ Spengel e coni.; om. haec verba E Aristot. 197 a 17, ante καὶ φεύγων leg. in FI; cf. Diels Zur Textgesch. p. 6</note>
               <lb n="10" xml:id="p53-9"/>αὑτὰ αἴτια λέγει, οὐδὲν ἂν γίνεσθαι δόξειεν ἀπὸ τύχης. παράλογον δὲ οὐδὲν<note type="apparatus" n="10" target="#p53-9">post τύχης ins. WBL haec: εἰ δὲ καὶ τὰ (τὰ om. W) κατὰ συμβεβηκὸς παραδέχοιτο, γίγνοιτ’ ἄν τι καὶ ἀπὸ τύχης, quae ex Aristot. 197 a</note><milestone type="alt-edition" unit="line" ed="Spengel 1866" n="15"/>
               <lb n="11" xml:id="p53-10"/>θαυμαστὸν τὴν τύχην λέγεσθαι (ὁ γὰρ λόγος ἐν τοῖς ἐξ ἀνάγκης ἢ ὡς ἐπὶ
               <lb n="12" xml:id="p53-11"/>τὸ πολύ), ἀλλ’ ἐπεὶ κατὰ συμβεβηκὸς αἴτιον ἡ τύχη, ἀεὶ δὲ ἐν τούτοις ἦν<note type="apparatus" n="12" target="#p53-11">sqq. ficta esse videntur. ceterum qui sententiarum ordinem apud Themistium ab Aristotelis verbis valde discrepantem respexerit, non sine veritatis specie coniciat in Themistii libris hic nonnulla turbata esse; cf. etiam Simpl. 341,20</note><note type="apparatus" n="12" target="#p53-11">ἀεὶ δὲ ἐν Diels: οὐδὲ ἐν M: ἐν δὲ WBL; cf. Philop. 277,24 sqq.</note>
               <lb n="13" xml:id="p53-12"/>τινα ἐγγυτέρω τε καὶ πορρωτέρω (ἐγγυτέρω μὲν ὁ Πολύκλειτος αἴτιος τοῦ<note type="apparatus" n="13" target="#p53-12">περαιτέρω W ἐγγύτερον L</note><milestone type="alt-edition" unit="line" ed="Spengel 1866" n="20"/>
               <lb n="14" xml:id="p53-13"/>ἀνδριάντος, πορρωτέρω δὲ ἄνθρωπος), οὕτω γένοιτο ἂν καὶ ἐν τοῖς ἀπὸ<note type="apparatus" n="14" target="#p53-13">πορρώτερον WL ἄνθρωπος MBL: ὁ ἄνθρωπος W, Simpl. 342,30</note>
-              <lb n="15" xml:id="p53-14"/>τύχης αἰτίοις, οἷον ὑγείας αἴτιον ἐγένετο τῷ νοσοῦντι ἢ πνεῦμα ἢ εἴληθέρησις<note type="apparatus" n="15" target="#p53-14">αἰτίοις fort. delendum (cf. Simpl. 342,28)</note>
+              <lb n="15" xml:id="p53-14"/>τύχης αἰτίοις, οἷον ὑγείας αἴτιον ἐγένετο τῷ νοσοῦντι ἢ πνεῦμα ἢ εἰληθέρησις<note type="apparatus" n="15" target="#p53-14">αἰτίοις fort. delendum (cf. Simpl. 342,28)</note>
               <lb n="16" xml:id="p53-15"/>ἢ τὸ κείρασθαι καὶ ἀραιωθῆναι τὴν κεφαλὴν μηδὲν τούτων ἕνεκα<milestone type="alt-edition" unit="line" ed="Spengel 1866" n="25"/>
               <lb n="17" xml:id="p53-16"/>τῆς ὑγείας ποιήσαντι, ἀλλ’ ἢ τοῦ πρᾶξαι χάριν ἢ τοῦ θεάσασθαί τινα ἢ
-              <lb n="18" xml:id="p53-17"/>τοῦ τὴν κόμην ἀποθέσθαι’ καὶ γὰρ ἐνταῦθα προσεχέστερον τῆς ὑγείας τὸ
+              <lb n="18" xml:id="p53-17"/>τοῦ τὴν κόμην ἀποθέσθαι· καὶ γὰρ ἐνταῦθα προσεχέστερον τῆς ὑγείας τὸ
               <lb n="19" xml:id="p53-18"/>πνεῦμα αἴτιον τοῦ κείρασθαι. ὅταν μὲν οὖν τὰ κατὰ συμβεβηκὸς ἀλλήλοις<note type="apparatus" n="19" target="#p53-18">αἴτιον M (Par. 1888 in marg.), Spengel e coni.: αἰτίου WBL τοῦ] τὸ W ὅταν κτλ.] cf. Simpl. 343,10 sqq.</note>
-              <lb n="20" xml:id="p53-19"/>ἀντεξετάσωμεν, <milestone type="alt-edition" unit="page" ed="Spengel 1866" n="184"/> ἔστιν εὑρεῖν προσεχέστερα καὶ πορρώτερα’ ὅταν δὲ<note type="apparatus" n="20" target="#p53-19">ὅταν — (22) δύναται] exscr. Simpl. 343,12 sqq.</note>
+              <lb n="20" xml:id="p53-19"/>ἀντεξετάσωμεν, <milestone type="alt-edition" unit="page" ed="Spengel 1866" n="184"/> ἔστιν εὑρεῖν προσεχέστερα καὶ πορρώτερα· ὅταν δὲ<note type="apparatus" n="20" target="#p53-19">ὅταν — (22) δύναται] exscr. Simpl. 343,12 sqq.</note>
               <lb n="21" xml:id="p53-20"/>ἁπλῶς ζητήσωμεν, τί ἂν αἴτιον γένοιτο τοῦ ἀπὸ τύχης, οὐκ ἔστιν ὁρίσαντας<note type="apparatus" n="21" target="#p53-20">γίγνοιτο L, Simpl. τοῦ] τῶν Simpl. ante οὐκ add. τότε Simpl.</note>
-              <lb n="22" xml:id="p53-21"/>εἰπεῖν τόδε τι’ ἄπειρα γὰρ καὶ ἀόριστα ληφθῆναι δύναται, καθάπερ
+              <lb n="22" xml:id="p53-21"/>εἰπεῖν τόδε τι· ἄπειρα γὰρ καὶ ἀόριστα ληφθῆναι δύναται, καθάπερ
               <lb n="23" xml:id="p53-22"/>ἔφθημεν πολλάκις προειρηκότες.<milestone type="alt-edition" unit="line" ed="Spengel 1866" n="5"/><note type="apparatus" n="23" target="#p53-22">ἔφημεν W</note>
               <lb n="24" xml:id="p53-23"/>Εὐτυχία δέ ἐστιν, ὅταν τοιοῦτόν τι ἀπαντήσῃ τέλος, οἷον ἄν τις καὶ<note type="apparatus" n="24" target="#p53-23">Εὐτυχία — (25) τοιοῦτον] paraphrasis sunt eorum quae in cod. E Aristot. ante 197 a</note>
               <lb n="25" xml:id="p53-24"/>προείλετο ἐξ ἀρχῆς, ἀτυχία δέ, ὅταν μὴ τοιοῦτον. τύχη δὲ ἀγαθὴ μὲν<note type="apparatus" n="25" target="#p53-24">leguntur (cf. Diels Zur Textgesch. p. 36); mirum in modum Themistii verba cum iis quae sequuntur confusa reddidit Philop. 279,17 sqq.</note>
@@ -1930,7 +1931,7 @@
             <pb n="55" facs="https://archive.org/download/commentariaina05pt13akaduoft/page/n206.jpg"/>
             <p>
               <lb n="1" xml:id="p55-0"/>πολεμίων, ὅτι ἦλθε μὲν τοῦ πιεῖν ἕνεκεν, ἐλθὼν δὲ ἐσώθη παρὰ τοῦ<note type="apparatus" n="1" target="#p55-0">ἕνεκα L παρὰ ML: ὑπὸ (cf. Simpl. 346,6) margo MWB</note>
-              <lb n="2" xml:id="p55-1"/>δεσπότου· καὶ ὁ τρίπους ἐκ ταὐτομάτου κεῖται οὕτως ὥστε καθῆσθαι ἐπ<note type="apparatus" n="2" target="#p55-1">καθεῖσθαι B₁: καθεα σθῆναι L</note>
+              <lb n="2" xml:id="p55-1"/>δεσπότου· καὶ ὁ τρίπους ἐκ ταὐτομάτου κεῖται οὕτως ὥστε καθῆσθαι ἐπ’<note type="apparatus" n="2" target="#p55-1">καθεῖσθαι B₁: καθεα σθῆναι L</note>
               <lb n="3" xml:id="p55-2"/>αὐτοῦ, οὐ τούτου κατέπεσεν ἕνεκεν· καὶ τὸ τέλος δὲ τὸ ἀπαντῆσαν ἔξωθεν<note type="apparatus" n="3" target="#p55-2">ἕνεκ B καὶ — (8) πυρὸς exscr. Simpl. 347,14 sqq. καὶ τὸ τέλος δὲ τὸ ἀπαντῆσαν] καλῶς δὲ τὸ ἀπαντῆσαν τέλος Simpl. ἀπαντῆσαν BL: ἀπαρτῆσαν Μ: ἀπαρτίσαν W</note>
               <lb n="4" xml:id="p55-3"/>εἶναι δεῖ καὶ οὐκ ἐν τῇ φύσει τοῦ πράγματος· εἰ γὰρ ὁ πεσὼν λίθος<milestone type="alt-edition" unit="line" ed="Spengel 1866" n="25"/><note type="apparatus" n="4" target="#p55-3">δεῖ MWB (δεῖν φησι Simpl.): δοκεῖ L post πράγματος add. Simpl. εἴπερ ἐκ ταὐτομάτου γίνοιτο εἰ γὰρ — (8) πυρὸς] exscr. Philop. 288,19 sqq.</note>
               <lb n="5" xml:id="p55-4"/>κυβικὸν ἔχει τὸ σχῆμα, οὐκ ἐκ ταὐτομάτου κεῖται πρὸς τὸ καθέζεσθαι<note type="apparatus" n="5" target="#p55-4">ἔχει libri Themistii et Simplicii (ἔχοι E corr.): πέσοι — ἔχων Philop. τὸ om. L κεῖται — (6) ἐπιτηδείως] ἂν λέγοιτο πρὸς καθέδραν ἐπιτηδείως καταπεσεῖν Simpl. καθέζεσθαι· ἐπιτήδειος γὰρ ἐν τῇ φύσει Philop.</note>
@@ -1958,7 +1959,7 @@
             <p>
               <lb n="1" xml:id="p56-0"/>διαφέρει δὲ τὸ ἀπὸ ταὐτομάτου τοῦ μάτην, ᾗ καὶ τελικὸν τοῦ ποιητικοῦ,<note type="apparatus" n="1" target="#p56-0">διαφέρει — (13) τέλος] exscr. Philop. 290, 25 sqq. τὸ ἀπὸ ταὐτομάτου τοῦ μάτην W: Philop. τὸ ἀπὸ ταὐτ. τοῖς μάτην M: τὸ ἀπὸ ταὐτ. τὸ μάτην B: τοῦ ἀπὸ ταὐτ. τὸ μάτην L τὸ ante τελικὸν add. BL Philop.; τελικὸν αἴτιον Alexander apud Simpl. 349,18 (ex quo totum hunc locum sumpsit Themistius)</note>
               <lb n="2" xml:id="p56-1"/>καθάπερ καὶ τὸ ἀπὸ τύχης τῆς τύχης. ὅλως γὰρ ὅταν <milestone type="alt-edition" unit="page" ed="Spengel 1866" n="187"/> τι τοιοῦτον
-              <lb n="3" xml:id="p56-2"/>ἀποβῇ, ὅπερ ἔχει μὲν οἰκεῖα ποιητικά, γίνεται δὲ μὴ τῶν οἰκείων προὕπαρξάντων,<note type="apparatus" n="3" target="#p56-2">post ἀποβῇ add. τέλος Philop. post ποιητικά add. αἴτια, item post οἰκεῖον (v. 4) αἰτίων Philop.</note>
+              <lb n="3" xml:id="p56-2"/>ἀποβῇ, ὅπερ ἔχει μὲν οἰκεῖα ποιητικά, γίνεται δὲ μὴ τῶν οἰκείων προϋπαρξάντων,<note type="apparatus" n="3" target="#p56-2">post ἀποβῇ add. τέλος Philop. post ποιητικά add. αἴτια, item post οἰκεῖον (v. 4) αἰτίων Philop.</note>
               <lb n="4" xml:id="p56-3"/>ἀλλ’ ἑτέρων τινῶν, οἷς καὶ αὐτοῖς ἕτερον οἰκεῖον ἠκολούθει
               <lb n="5" xml:id="p56-4"/>τέλος, τότε τὰ μὲν προϋπάρξαντα μάτην λέγεται γεγονέναι, ὅτι μὴ γέγονεν ἐξ
               <lb n="6" xml:id="p56-5"/>αὐτῶν ἅπερ προέκειτο· τὰ δὲ ἐπισυμβάντα ἐκ ταὐτομάτου ὅτι μὴ προϋπαρξάσης<milestone type="alt-edition" unit="line" ed="Spengel 1866" n="5"/><note type="apparatus" n="6" target="#p56-5">ἅπερ M: ὃ WBL, Philop. ἐκ ταὐτομάτου L, Philop.: ἐξ αὐτομάτου MWB</note>
@@ -1970,7 +1971,7 @@
               <lb n="12" xml:id="p56-11"/>κατὰ συμβεβηκὸς τὸ μὲν αἴτιον, τὸ δὲ τέλος. ὁ δὲ προϊὼν μὲν ὑπὲρ τοῦ<milestone type="alt-edition" unit="line" ed="Spengel 1866" n="15"/>
               <lb n="13" xml:id="p56-12"/>πρᾶξαί τι, πληγεὶς δὲ καὶ ἀναστρέψας μάτην μὲν προῆλθεν, ἀπὸ ταὐτομάτου
               <lb n="14" xml:id="p56-13"/>δὲ ἐπλήγη, τάχα δὲ οὗτος καὶ ἀπὸ τύχης· τὸ ἀπὸ ταὐτομάτου γὰρ ἐπὶ<note type="apparatus" n="14" target="#p56-13">οὗτος MWB: οὕτως L</note>
-              <lb n="15" xml:id="p56-14"/>πλέον. γνοίης δ ἂν κἀκεῖθεν· ὅταν γάρ τι παρὰ φύσιν γένηται, οἷον
+              <lb n="15" xml:id="p56-14"/>πλέον. γνοίης δ’ ἂν κἀκεῖθεν· ὅταν γάρ τι παρὰ φύσιν γένηται, οἷον
               <lb n="16" xml:id="p56-15"/>πολλὰ τέρατα τίκτεται, τότε οὐκ ἀπὸ τύχης, ἀλλ’ ἐκ ταὐτομάτου φαμὲν<milestone type="alt-edition" unit="line" ed="Spengel 1866" n="20"/>
               <lb n="17" xml:id="p56-16"/>γεγονέναι, οἷον τὸν ἑξαδάκτυλον ἢ στρουθοκέφαλον· ἢ ταῦτα οὐκ ἔστιν ἀπὸ
               <lb n="18" xml:id="p56-17"/>ταὐτομάτου; ἔχει γὰρ οἰκείαν αἰτίαν τὴν προϋπάρξασαν ἐν αὐτοῖς· ἢ γὰρ<note type="apparatus" n="18" target="#p56-17">ἔχει — (22) οὔ] exscr. Philop. 291,13 spp. προϋπάρξασαν MWB: προϋπάρχουσαν L</note>
@@ -2201,7 +2202,7 @@
           <div type="textpart" subtype="section" n="9">
             <p>
               <lb n="15" xml:id="p63-14"/>9. Μετὰ δὲ ταῦτα σκεπτέον, πῶς ἐν τοῖς φύσει τὸ ἀναγκαῖον καὶ<note type="apparatus" n="15" target="#p63-14">δὲ om. L</note>
-              <lb n="16" xml:id="p63-15"/>πότερον τὰ φύσει γινόμενα ἁπλῶς ἐξ ἀνάγκης γίνεται, ὡς τὸ τέλος ἁπλῶν
+              <lb n="16" xml:id="p63-15"/>πότερον τὰ φύσει γινόμενα ἁπλῶς ἐξ ἀνάγκης γίνεται, ὡς τὸ τέλος <choice><sic>ἁπλῶν</sic><corr>ἁπλῶς</corr></choice>
               <lb n="17" xml:id="p63-16"/>ἕπεσθαι τοῖς πρὸ αὐτοῦ γενομένοις, ἢ ὡς ἐνόμιζον οἱ φυσικοί, ἐν ταῖς τῆς<milestone type="alt-edition" unit="line" ed="Spengel 1866" n="10"/><note type="apparatus" n="17" target="#p63-16">γενομένοις MWB: γινομένοις L et Philop. 326,9</note>
               <lb n="18" xml:id="p63-17"/>ὕλης κινήσεσιν ἕπεσθαι τὰ γιγνόμενα ἐξ ἀνάγκης οἰόμενοι. ἔστι μὲν πῶς
               <lb n="19" xml:id="p63-18"/>τὸ ἀναγκαῖον ἐν τοῖς φυσικοῖς, οὐχ οὕτως δὲ ὡς ἐκεῖνοι λέγουσιν. ἐκεῖνοι<note type="apparatus" n="19" target="#p63-18">δὲ om. B</note>
@@ -2386,7 +2387,7 @@
               <lb n="12" xml:id="p69-11"/>ἀλλ’ αὕτη μὴν ἡ ἐντελέχεια οὐκέτι σῳζομένης ἐστὶ τῆς δυνάμεως καθ’<note type="apparatus" n="12" target="#p69-11">αὕτη L: αὐτὴ MWB (item v. 18)</note>
               <lb n="13" xml:id="p69-12"/>ἣν ἠδύνατο γενέσθαι ἀνδριάς. ἤδη γάρ ἐστιν καὶ οὐκέτι ἔχει τὸ δυνάμει,
               <lb n="14" xml:id="p69-13"/>διὸ καὶ τελειότης οὐ τῆς δυνάμεως αὕτη (πῶς γὰρ ἣν φθείρει;), ἀλλὰ τοῦ
-              <lb n="15" xml:id="p69-14"/>πράγματος ἐν ἡ ἡ δύναμις ἦν. ἡ δὴ πρότερον ῥηθεῖσα ἐντελέχεια καθ’<milestone type="alt-edition" unit="line" ed="Spengel 1866" n="20"/><note type="apparatus" n="15" target="#p69-14">δὴ M(W?)B: δὲ L</note>
+              <lb n="15" xml:id="p69-14"/>πράγματος ἐν ᾧ ἡ δύναμις ἦν. ἡ δὴ πρότερον ῥηθεῖσα ἐντελέχεια καθ’<milestone type="alt-edition" unit="line" ed="Spengel 1866" n="20"/><note type="apparatus" n="15" target="#p69-14">δὴ M(W?)B: δὲ L</note>
               <lb n="16" xml:id="p69-15"/>ἣν ἐγίνετο ἀνδριάς, εἰ τὸ δυνάμει διαφυλάττει τὴν τοιαύτην ἐντελέχειαν,<note type="apparatus" n="16" target="#p69-15">ἐγένετο MWB: ἐγίνετο L τοιαύτην MWB: ταύτην L</note>
               <lb n="17" xml:id="p69-16"/>κίνησιν λέγω καὶ τελειότητα τῆς δυνάμεως. πᾶσα γὰρ τελειότης σῴζει ὃ<note type="apparatus" n="17" target="#p69-16">τελεότητα M₁</note>
               <lb n="18" xml:id="p69-17"/>τελειοῖ· ἕως μὲν γὰρ ἡ δύναμις σῴζεται, σῴζεται καὶ ἡ κίνησις, παυσαμένης<note type="apparatus" n="18" target="#p69-17">σῴζεται alterum om. a καὶ ἡ κίνησις om. W</note><note type="apparatus" n="18-19" target="#p69-17 #p69-18">παυσαμένης] cf. Simpl. 414,6</note>
@@ -2474,12 +2475,12 @@
             </p>
             <pb n="72" facs="https://archive.org/download/commentariaina05pt13akaduoft/page/n223.jpg"/>
             <p>
-              <lb n="1" xml:id="p72-0"/>οἰκοδομῆται, ποτὲ δ οὔ, οἷον εἰ κέοιντο ἁπλῶς οἱ λίθοι καὶ ὁ πηλὸς<note type="apparatus" n="1" target="#p72-0">οἷον ἐν κτλ.] cf. Philop. 351,5 sqq. et 358, 24 sqq. ἡ πηλὸς WB₁: om. artic. M Simplicii p. 1132</note>
+              <lb n="1" xml:id="p72-0"/>οἰκοδομῆται, ποτὲ δ’ οὔ, οἷον εἰ κέοιντο ἁπλῶς οἱ λίθοι καὶ ὁ πηλὸς<note type="apparatus" n="1" target="#p72-0">οἷον ἐν κτλ.] cf. Philop. 351,5 sqq. et 358, 24 sqq. ἡ πηλὸς WB₁: om. artic. M Simplicii p. 1132</note>
               <lb n="2" xml:id="p72-1"/>μηδέπω κινούμενοι ὑπὸ τοῦ τεχνίτου. ἔστιν οὖν τις αὐτοῦ ἐνέργεια ἡ<note type="apparatus" n="2" target="#p72-1">μηδέπω Μ: μήπω WBL, Simpl. utroque loco τις om. W</note><milestone type="alt-edition" unit="line" ed="Spengel 1866" n="15"/>
               <lb n="3" xml:id="p72-2"/>φυλάσσουσα αὐτὸ οἰκοδομητὸν ἔτι. αὕτη δέ ἐστιν οἰκοδόμησις· εἰ γὰρ μὴ
               <lb n="4" xml:id="p72-3"/>αὕτη, τίς ἄλλη; οὐ γὰρ δὴ τὴν οἰκίαν εἴποι τις ἄν· οὐ γὰρ ἔτι οἰκοδομητὸν
               <lb n="5" xml:id="p72-4"/>αὕτη λαβοῦσά γε ἅπαξ τὴν μορφήν, ἡ δὲ οἰκοδόμησις σῳζομένου τοῦ<note type="apparatus" n="5" target="#p72-4">αὕτη ML: αὐτὴ WB</note><milestone type="alt-edition" unit="line" ed="Spengel 1866" n="20"/>
-              <lb n="6" xml:id="p72-5"/>οἰκοδομητοῦ γίνεται. ὥστε αὕτη ἐστὶν ἡ ἐνέργεια τοῦ οἰκοδομητοῦ. ἀλλ<note type="apparatus" n="6" target="#p72-5">ἡ (post ἐστὶν) om. EF Arist. 201 b</note>
+              <lb n="6" xml:id="p72-5"/>οἰκοδομητοῦ γίνεται. ὥστε αὕτη ἐστὶν ἡ ἐνέργεια τοῦ οἰκοδομητοῦ. ἀλλ’<note type="apparatus" n="6" target="#p72-5">ἡ (post ἐστὶν) om. EF Arist. 201 b</note>
               <lb n="7" xml:id="p72-6"/>αὕτη ἡ ἐνέργεια κίνησις. οὔτε οὖν πρότερον, ἡνίκα μόνον οἰκοδομητὸν ἦν,
               <lb n="8" xml:id="p72-7"/>ἐκινεῖτο οὔτε ὕστερον ἡνίκα ᾠκοδομήθη, ἀλλ’ ἐν τῷ μεταξὺ χρόνῳ, ἡνίκα
               <lb n="9" xml:id="p72-8"/>ἐκ τοῦ δυνάμει ἐπὶ τὴν ἐντελέχειαν ἐπορεύετο.
@@ -2537,7 +2538,7 @@
               <lb n="1" xml:id="p74-0"/>οὔτε τὸ γενόμενον πηχυαῖον ἤδη, οὔτε τὸ δυνάμενον ἐλθεῖν Μέγαράδε<milestone type="alt-edition" unit="page" ed="Spengel 1866" n="212"/><note type="apparatus" n="1" target="#p74-0">μέγαρά δε BL: με δέ M, μεγάλα δὲ W</note>
               <lb n="2" xml:id="p74-1"/>ἔρχεται ἐξ ἀνάγκης οὔτε τὸ ἐλθὸν ἤδη, οὔτε τὸ δυνάμει λευκὸν λευκαίνεται<note type="apparatus" n="2" target="#p74-1">ἐλθὸν WB: ἐλθεῖν ML</note>
               <lb n="3" xml:id="p74-2"/>οὔτε τὸ λευκανθὲν ἤδη. ἀλλ’ οὔτε στέρησιν εἰπεῖν αὐτήν ἐστιν<milestone type="alt-edition" unit="line" ed="Spengel 1866" n="10"/><note type="apparatus" n="3" target="#p74-2">οὔτε] οὐδὲ Spengel αὐτὴν εἰπεῖν W ἐστιν om. W</note>
-              <lb n="4" xml:id="p74-3"/>οἷόν τε’ ἐν ὑπάρξει γάρ ἐστιν ἡ κίνησις, οὐ στερήσει, καὶ ἅμα οὐ πᾶν τὸ<note type="apparatus" n="4" target="#p74-3">ἐστιν om. W</note>
+              <lb n="4" xml:id="p74-3"/>οἷόν τε· ἐν ὑπάρξει γάρ ἐστιν ἡ κίνησις, οὐ στερήσει, καὶ ἅμα οὐ πᾶν τὸ<note type="apparatus" n="4" target="#p74-3">ἐστιν om. W</note>
               <lb n="5" xml:id="p74-4"/>ἐστερημένον κινεῖται. διὰ τοῦτο δὲ χαλεπὸν ἐνομίσθη τὸ λαβεῖν αὐτὴν καὶ
               <lb n="6" xml:id="p74-5"/>γνῶναι τί ἐστιν. εἰ γὰρ ἢ εἰς στέρησιν ἀναγκαῖον θεῖναι αὐτὴν ἢ εἰς<milestone type="alt-edition" unit="line" ed="Spengel 1866" n="15"/><note type="apparatus" n="6" target="#p74-5">στέρησίν ἐστιν L θεῖναι M (ϑ in ras.)</note>
               <lb n="7" xml:id="p74-6"/>δύναμιν ἢ εἰς ἐνέργειαν, τούτων δὲ οὐδὲν φαίνεται ἐνδεχόμενον τοῖς ἁπλῶς
@@ -2824,7 +2825,7 @@
               <lb n="15" xml:id="p82-14"/>ἐπὶ τούτων τοῦ εἶναι οὐδὲν διαφέρει· οὐ γὰρ ἔχει τὸ ἄλλο τε<note type="apparatus" n="15" target="#p82-14">τοῦ] ᾗ E Aristot. ib.</note>
               <lb n="16" xml:id="p82-15"/>ἄλλως, ὥστε εἰ ἄπειρον κενόν, ἄπειρον καὶ σῶμα. ἀμέλει καὶ λέγουσιν<milestone type="alt-edition" unit="line" ed="Spengel 1866" n="25"/><note type="apparatus" n="16" target="#p82-15">εἰ om. M (εἰ ἄπειρον τὸ κενόν Simpl. 467,24)</note>
               <lb n="17" xml:id="p82-16"/>οὕτως ἀπείρους εἶναι τοὺς κόσμους καὶ πανταχοῦ εἶναι τοῦ κενοῦ, τί γὰρ
-              <lb n="18" xml:id="p82-17"/>μᾶλλον ἐνταῦθα; ὥσπερ εἴπερ ἐνταῦθα, ·καὶ πολλαχοῦ. ἔχει δὲ ὄντως<note type="apparatus" n="18" target="#p82-17">ἐνταῦθα; ὥσπερ] ἐνταῦθα ἢ ἐνταῦθα, ὥστε W πολλαχοῦ MW: ἀλλαχοῦ BL (πανταχοῦ Aristot. 203 b 28) ὄντως MWB: οὕτως L</note>
+              <lb n="18" xml:id="p82-17"/>μᾶλλον ἐνταῦθα; ὥσπερ εἴπερ <choice><sic>ἐνταῦθα, ·καὶ</sic><corr>ἐνταῦθα,καὶ</corr></choice> πολλαχοῦ. ἔχει δὲ ὄντως<note type="apparatus" n="18" target="#p82-17">ἐνταῦθα; ὥσπερ] ἐνταῦθα ἢ ἐνταῦθα, ὥστε W πολλαχοῦ MW: ἀλλαχοῦ BL (πανταχοῦ Aristot. 203 b 28) ὄντως MWB: οὕτως L</note>
               <lb n="19" xml:id="p82-18"/>ἀπορίαν ἡ τοῦ ἀπείρου θεωρία· καὶ γὰρ μὴ εἶναι τιθεμένοις αὐτὸ πολλὰ
               <lb n="20" xml:id="p82-19"/>ἄτοπα ἀκολουθεῖ· ἀναιρεῖται γὰρ τὰ μαθήματα, ἀναιρεῖται ἡ αὔξησις τοῦ<milestone type="alt-edition" unit="page" ed="Spengel 1866" n="225"/>
               <lb n="21" xml:id="p82-20"/>ἀριθμοῦ, ἀναιρεῖται ἡ αὔξησις τοῦ χρόνου. ταῦτα δὲ ὁ κινῶν οὐ τῶν
@@ -3030,7 +3031,7 @@
               <lb n="17" xml:id="p88-16"/>δεδόσθω μένειν. καὶ καθ’ ὅλον καὶ κατὰ μόρια τοίνυν ἡ κίνησις οὐκ<note type="apparatus" n="17" target="#p88-16">ὅλον] ‘immo ὅλου’ Spengel</note><milestone type="alt-edition" unit="line" ed="Spengel 1866" n="20"/>
               <lb n="18" xml:id="p88-17"/>ἔσται, πρᾶγμα οὕτως ἐναργὲς καὶ οὐδὲ λόγου δεόμενον, εἰ μὴ πρὸς ἀκινήτους<note type="apparatus" n="18" target="#p88-17">πρᾶγμα — δεόμενον] exscr. Philop. 438,15 οὕτως BL et Philop.: οὔτε MW</note>
               <lb n="19" xml:id="p88-18"/>γε ὄντως δεόμεθα λόγου.<note type="apparatus" n="19" target="#p88-18">λόγους B</note>
-              <lb n="20" xml:id="p88-19"/>’’Ἔστω δὴ πάλιν ἀνομοιοειδὲς τὲ ἄπειρον καὶ οὐχ ἁπλοῦν. σύνθετον<note type="apparatus" n="20" target="#p88-19">ἀνομοιοειδὲς WL</note><milestone type="alt-edition" unit="line" ed="Spengel 1866" n="25"/>
+              <lb n="20" xml:id="p88-19"/>’’Ἔστω δὴ πάλιν ἀνομοιοειδὲς τὸ ἄπειρον καὶ οὐχ ἁπλοῦν. σύνθετον<note type="apparatus" n="20" target="#p88-19">ἀνομοιοειδὲς WL</note><milestone type="alt-edition" unit="line" ed="Spengel 1866" n="25"/>
               <lb n="21" xml:id="p88-20"/>ἄρα καὶ τῷ ἅπτεσθαι ἕν. οὔκουν οὐδὲ εἷς αὐτῷ κατὰ φύσιν τόπος, ἀλλ’
               <lb n="22" xml:id="p88-21"/>ἑκάστῳ τῶν σωμάτων οἰκεῖος τόπος, ἐξ ὧν σύγκειται τὸ ὅλον. καὶ <milestone type="alt-edition" unit="page" ed="Spengel 1866" n="234"/><note type="apparatus" n="22" target="#p88-21">ἑκάστῳ] ἔστω L</note>
               <lb n="23" xml:id="p88-22"/>κίνησις μὲν δὴ σῴζοιτ’ ἄν· ὅρα δὲ τὰ λοιπά. τὰ ἀνομοιοειδῆ ταῦτα<note type="apparatus" n="23" target="#p88-22">κινήσεις et σῴζοιντ’ L ἀνομοιοειδῆ MWB: ἀνομοιοειδῆ L</note>
@@ -3321,7 +3322,7 @@
               <lb n="3" xml:id="p97-2"/>γίνεσθαι τὸ ἄπειρον, οὐκ ἐν τῷ εἶναι· καὶ γὰρ ἡ ὕλη ῥεῖ καὶ οὐχ ἵσταται. ὁ μὲν<milestone type="alt-edition" unit="line" ed="Spengel 1866" n="5"/>
               <lb n="4" xml:id="p97-3"/>οὖν ἀριθμὸς διὰ τὴν ὕλην ἔχει τὸ ἄπειρον, διὰ δὲ τὸν ἀριθμὸν ἐν τοῖς μεγέθεσιν
               <lb n="5" xml:id="p97-4"/>οὐκ ἔστι τὸ ἄπειρον ἐπὶ τὸ μεῖζον, ὅτι προχωροῦσιν ἐπὶ τὸ μεῖζον τὸ<note type="apparatus" n="5" target="#p97-4">ὅτι — (6) ἑνάς] exscr. Simpl. 507, 18 sqq. (qui iam inde a 506, 26 hic vel illic singula Themistii verba vel sententias expilasse videtur)</note>
-              <lb n="6" xml:id="p97-5"/>ὅλον ἅπαντα καὶ πᾶν, ὥσπερ ἐν τοῖς ἀριθμοῖς ἡ ἑνάς. οὐ γάρ ἐστιν τὸ πᾶν<milestone type="alt-edition" unit="line" ed="Spengel 1866" n="10"/>
+              <lb n="6" xml:id="p97-5"/>ὅλον ἀπαντᾷ καὶ πᾶν, ὥσπερ ἐν τοῖς ἀριθμοῖς ἡ ἑνάς. οὐ γάρ ἐστιν τὸ πᾶν<milestone type="alt-edition" unit="line" ed="Spengel 1866" n="10"/>
               <lb n="7" xml:id="p97-6"/>αὔξεσθαι δυνάμενον· οὕτω γὰρ ἄν εἴη τι τοῦ οὐρανοῦ μεῖζον, ἀλλὰ τὸ ὅλον
               <lb n="8" xml:id="p97-7"/>ὥρισται εἴπερ ὅλον. εἰ δέ τι ἦν δυνατὸν προστιθέναι παντὶ σώματι, οὐδὲν<note type="apparatus" n="8" target="#p97-7">εἰ — (10) σῶμα] exscr. Simpl. 507, 21 sqq. προστεθῆναι aF Simplicii</note><note type="apparatus" n="8-9" target="#p97-7 #p97-8">οὐδὲν ἂν] οὐδέ γ’ ἂν W</note>
               <lb n="9" xml:id="p97-8"/>ἂν ἦν πᾶν οὐδὲ ὅλον, ἀλλ’ οἷον οἱ φυσικοὶ λέγουσι τὸ ἄπειρον, ἐνεργείᾳ<milestone type="alt-edition" unit="line" ed="Spengel 1866" n="15"/>
@@ -3360,7 +3361,7 @@
               <lb n="8" xml:id="p98-7"/>πάσχειν τὸ κινεῖσθαι τὰς ἄλλας κατηγορίας, αὐτὰ μόνα καθ’ <milestone type="alt-edition" unit="page" ed="Spengel 1866" n="248"/> ἑαυτὰ τὰ
               <lb n="9" xml:id="p98-8"/>διαστήματα ἐξετάζομεν καὶ τὸ ποσὸν τὸ ὡς συνεχὲς ἐν αὐτοῖς. εἰ μὲν
               <lb n="10" xml:id="p98-9"/>οὖν προσεχρώμεθα πρὸς τὴν καταγραφὴν τοῦ ἰσοπλεύρου τριγώνου τόπῳ
-              <lb n="11" xml:id="p98-10"/>τινὶ καὶ χώρᾳ γραμμῆς, ὁ τὸν τόπον αὐτοῦ ἀφαιρούμενος συναπαιροῖτο ἂν<note type="apparatus" n="11" target="#p98-10">γραμμῆς et 20 δηλοῖ — 21 λόγων) omissis exscr. Simpl. 512,21 sqq. 8 ἑαυτὰ MWB: αὐτὰ L τὰ om. M</note><note type="apparatus" n="11" target="#p98-10">συναφηρεῖτο W</note><milestone type="alt-edition" unit="line" ed="Spengel 1866" n="5"/>
+              <lb n="11" xml:id="p98-10"/>τινὶ καὶ χώρᾳ γραμμῆς, ὁ τὸν τόπον αὐτοῦ ἀφαιρούμενος <choice><sic>συναπαιροῖτο</sic><corr>συναφαιροῖτο</corr></choice> ἂν<note type="apparatus" n="11" target="#p98-10">γραμμῆς et 20 δηλοῖ — 21 λόγων) omissis exscr. Simpl. 512,21 sqq. 8 ἑαυτὰ MWB: αὐτὰ L τὰ om. M</note><note type="apparatus" n="11" target="#p98-10">συναφηρεῖτο W</note><milestone type="alt-edition" unit="line" ed="Spengel 1866" n="5"/>
               <lb n="12" xml:id="p98-11"/>καὶ τὴν ἀπόδειξιν. νῦν δὲ οὐδαμοῦ λέγομεν, ἐπειδὴ κεῖται ἐνθάδε ἢ
               <lb n="13" xml:id="p98-12"/>ἐνθάδε ἡ δοθεῖσα γραμμή, ἀνάγκη ταδὶ συμβαίνειν. ὥσπερ οὖν Δημόκριτος
               <lb n="14" xml:id="p98-13"/>κατασκευάζειν ἐπιχειρῶν, ὅτι τὰ χρώματα οὐ συνυπάρχει φύσει
@@ -3432,7 +3433,7 @@
               <lb n="9" xml:id="p100-8"/>ὥστε παλαιότερον ὄντα εἰσποιήσασθαι καὶ ὑποβάλλεσθαι μικραῖς τισι καὶ
               <lb n="10" xml:id="p100-9"/>φαύλαις προσθήκαις, καθάπερ οἱ τὰ φώρια μετασχηματίζοντες ὑπὲρ τοῦ
               <lb n="11" xml:id="p100-10"/>λανθάνειν. εἶεν. ἀλλ’ ἐπειδὴ καὶ τὸ πρός τι περαίνειν ἐπ’ ἐκείνων ἐστίν,
-              <lb n="12" xml:id="p100-11"/>ὧν ἀεί τι λαβεῖν ἔστιν ἔξω, οὗ δ ἦν λαβεῖν ἔξω, τοῦτο ἄπειρον ἡμῖν<milestone type="alt-edition" unit="line" ed="Spengel 1866" n="10"/>
+              <lb n="12" xml:id="p100-11"/>ὧν ἀεί τι λαβεῖν ἔστιν ἔξω, οὗ δ’ ἦν λαβεῖν ἔξω, τοῦτο ἄπειρον ἡμῖν<milestone type="alt-edition" unit="line" ed="Spengel 1866" n="10"/>
               <lb n="13" xml:id="p100-12"/>διωμολόγηται, εἰ τοῖς πεπερασμένοις ὑπάρχει τὸ πρός τι περαίνειν, ὑπάρχοι<note type="apparatus" n="13" target="#p100-12">ὑπάρχοι WL: ὑπάρχει MB</note>
               <lb n="14" xml:id="p100-13"/>ἂν τοῖς πεπερασμένοις ἀπείροις εἶναι. ἢ τοίνυν δεικτέον αὐτοῖς, ὅτι τὸ
               <lb n="15" xml:id="p100-14"/>πρός τι περαίνειν οὐ ταὐτόν ἐστιν τῷ ἀεί τι ἔξωθεν ἔχειν, ἢ οὐ καλῶς<note type="apparatus" n="15" target="#p100-14">ταὐτό ἔστι B</note><milestone type="alt-edition" unit="line" ed="Spengel 1866" n="15"/>
@@ -3573,14 +3574,14 @@
               <lb n="3" xml:id="p105-2"/>παρὰ τὴν ἐπιφάνειαν, καὶ περιέχον σημεῖον καὶ αὐτὸς σημεῖόν ἐστιν καί,<milestone type="alt-edition" unit="line" ed="Spengel 1866" n="15"/><note type="apparatus" n="3" target="#p105-2">περιέχων W₂ αὐτὸς MWB: αὐτὸ L</note>
               <lb n="4" xml:id="p105-3"/>ὅταν σώματος γένηται χώρα, σῶμα γενήσεται. ὅλως δὲ τῶν ὄντων ἕκαστον<note type="apparatus" n="4" target="#p105-3">ὅλως B</note>
               <lb n="5" xml:id="p105-4"/>ἢ στοιχεῖόν ἐστιν ἢ ἐκ στοιχείων συνέστηκεν, εἴτε σῶμά τις εἴτε ἀσώματον
-              <lb n="6" xml:id="p105-5"/>λέγει’ ἔστι δὲ τῶν μὲν σωμάτων σώματα καὶ τὰ στοιχεῖα, τῶν δὲ ἀσωμάτων<note type="apparatus" n="6" target="#p105-5">λέγει MW₁: λέγοι W₂BL τὰ om. a</note>
+              <lb n="6" xml:id="p105-5"/>λέγει· ἔστι δὲ τῶν μὲν σωμάτων σώματα καὶ τὰ στοιχεῖα, τῶν δὲ ἀσωμάτων<note type="apparatus" n="6" target="#p105-5">λέγει MW₁: λέγοι W₂BL τὰ om. a</note>
               <lb n="7" xml:id="p105-6"/>ἀσώματα, ἐν οὐδενὶ δὲ τούτων ὁ τόπος οὐδὲ ἐν τοῖς νοητοῖς (μέγεθος<milestone type="alt-edition" unit="line" ed="Spengel 1866" n="20"/><note type="apparatus" n="7-8" target="#p105-6 #p105-7">οὐδὲ—οὐδὲ] ‘malim οὔτε—οὔτε’ Spengel (v.</note>
               <lb n="8" xml:id="p105-7"/>γὰρ ἔχει) οὐδὲ ἐν τοῖς σώμασι (σώματα μὲν γὰρ ὡς προειρήκαμεν<note type="apparatus" n="8" target="#p105-7">οὔτε W)</note><note type="apparatus" n="8" target="#p105-7">ἐν τοῖς σώμασι MW: ἐν σώματι BL γὰρ superscr. B</note>
               <lb n="9" xml:id="p105-8"/>δέχεται). τὸ δὲ καὶ πρῶτον λέγειν τὸν τόπον καὶ ὡς ἀρχὴν πορρωτέρω<note type="apparatus" n="9" target="#p105-8">post δέχεται add. σῶμα δὲ οὐκ ἔστιν W δὲ καὶ MWB: δὲ κἂν L</note>
               <lb n="10" xml:id="p105-9"/>σφαλλομένων ἐστίν· πῶς γὰρ ἔσται ἀρχή; πότερον ὡς ὕλη; τί οὖν ἐξ
               <lb n="11" xml:id="p105-10"/>αὐτοῦ συνέστηκεν; ἀλλ’ ὡς εἶδος; ἀλλ’ ὡς τὸ κινοῦν; ἀλλ’ ὡς οὗ ἕνεκεν;<note type="apparatus" n="11" target="#p105-10">αὐτοῦ MWB (in L compendium scripturae), Aristot. 209ᵃ21: αὐτῆς Laur. 85,18: αὐτῷ a</note><milestone type="alt-edition" unit="line" ed="Spengel 1866" n="25"/>
               <lb n="12" xml:id="p105-11"/>ἀλλὰ πῶς; ἔχοι δ’ ἄν τινα λόγον καὶ ἡ Ζήνωνος ἀπορία, ὡς εἰ εἴη τῶν<note type="apparatus" n="12" target="#p105-11">εἰ om. B₁</note><note type="apparatus" n="12-13" target="#p105-11 #p105-12">τι τῶν ὄντων FG Aristot. 209ᵃ23; cf. Diels Zur Textgesch. p. 10</note>
-              <lb n="13" xml:id="p105-12"/>ὄντων ὁ τόπος, καὶ αὐτὸς ἂν ἐν τόπῳ εἴη καὶ ἡ τούτου τοῦ τόπου τόπος
+              <lb n="13" xml:id="p105-12"/>ὄντων ὁ τόπος, καὶ αὐτὸς ἂν ἐν τόπῳ εἴη καὶ <choice><sic>ἡ</sic><corr>ὁ</corr></choice> τούτου τοῦ τόπου τόπος
               <lb n="14" xml:id="p105-13"/>καὶ τοῦτο εἰς ἄπειρον. εἰ δὲ τὸ κενόν τις ἀναιροίη παντάπασιν, ὥσπερ<note type="apparatus" n="14" target="#p105-13">ἀναιροῖ B ὥσπερ MW: ὥσπερ οὖν BL</note><milestone type="alt-edition" unit="line" ed="Spengel 1866" n="30"/>
               <lb n="15" xml:id="p105-14"/>ἔχει καὶ τἀληθές, <milestone type="alt-edition" unit="page" ed="Spengel 1866" n="258"/> δῆλον ὡς, εἰ τόπος ἐστίν, οὐκ ἂν εἴη ποτὲ κενὸς
               <lb n="16" xml:id="p105-15"/>σώματος, ἀλλὰ πᾶς ἐμπέπλησται τόπος· εἰ δὲ τοῦτο ἀληθές, περὶ τῶν
@@ -3806,7 +3807,7 @@
             <p>
               <lb n="1" xml:id="p112-0"/>τὰ καθ’ αὑτὰ κινούμενα μόνα. καθ’ αὑτὰ δὲ κινεῖται, ὅσα ἀπολελυμένα<milestone type="alt-edition" unit="page" ed="Spengel 1866" n="267"/><note type="apparatus" n="1" target="#p112-0">καθ’ αὑτὰ δὲ — (2) συνεχῆ] cf. Simpl. 568,10</note>
               <lb n="2" xml:id="p112-1"/>τοῦ περιέχοντος ἅπτεται αὐτοῦ, οὐκ ὄντα αὐτῷ συνεχῆ, ἡ δὲ χεὶρ κινεῖται<milestone type="alt-edition" unit="line" ed="Spengel 1866" n="5"/><note type="apparatus" n="2" target="#p112-1">αὐτῷ] αὐτὰ M (nescio an recte) χεὶρ] cf. Philop. 546,17</note>
-              <lb n="3" xml:id="p112-2"/>μὲν γράφουσα. νῦν δίχα τοῦ λοιποῦ σώματος, οὐκ ἀπολέλυται δὲ τοῦ σώματος,<note type="apparatus" n="3" target="#p112-2">μὲν] μὲν νῦν Β</note>
+              <lb n="3" xml:id="p112-2"/>μὲν γράφουσα· νῦν δίχα τοῦ λοιποῦ σώματος, οὐκ ἀπολέλυται δὲ τοῦ σώματος,<note type="apparatus" n="3" target="#p112-2">μὲν] μὲν νῦν Β</note>
               <lb n="4" xml:id="p112-3"/>ἀλλὰ συνεχὴς αὐτῷ καὶ οὐχ ἅπτεται τοῦ ὤμου. οὐκοῦν οὐδὲ<note type="apparatus" n="4" target="#p112-3">ἅπτεται] cf. Mt Philoponi 545,20. 21, et quae adn. Vitelli</note>
               <lb n="5" xml:id="p112-4"/>κινεῖται κατὰ τοῦτο τὸ μέρος καθ’ αὑτὴν οὐδὲ ἐστὶν ἐν τόπῳ, ἀλλ’ ὅπερ<note type="apparatus" n="5" target="#p112-4">καθ’ αὑτὸ MW: καθ’ αὐτὰ BL</note>
               <lb n="6" xml:id="p112-5"/>εἶπον, ἐκ τῶν καθ’ αὑτὸ κινουμένων ἀναμφιλέκτως θηρευτέον τὴν φύσιν<milestone type="alt-edition" unit="line" ed="Spengel 1866" n="10"/>
@@ -3878,7 +3879,7 @@
               <lb n="5" xml:id="p114-4"/>ἅπτεται ἕτερον σῶμα ἀσυγχύτου φυλαττομένης, τὸ δὴ τὸ σῶμα τοῦτο ἐν<note type="apparatus" n="5" target="#p114-4">δὴ] δὲ L τὸ om. L</note>
               <lb n="6" xml:id="p114-5"/>διαστήματι εἶναι διὰ τοῦτο καὶ ἐκείνης ἀεὶ διάστημα μεταξὺ εἶναί φασιν.<note type="apparatus" n="6" target="#p114-5">φασιν MW: φησιν BL</note>
               <lb n="7" xml:id="p114-6"/>Ἀλλ’ ὑποθώμεθα ἐξαιρεθέντος τοῦ ὕδατος μηδὲν ἕτερον εἰσρυῆναι<note type="apparatus" n="7" target="#p114-6">Ἀλλ’—(12) ἐννοεῖς exscr. Simpl. 573, 19 sqq. et (cum Themistio nominatim litigans) Philop. 576, 13 sqq. ἐξαρθέντος Philop.</note><milestone type="alt-edition" unit="line" ed="Spengel 1866" n="10"/>
-              <lb n="8" xml:id="p114-7"/>σῶμα. μένει τοίνυν μεταξὺ τῆς ἐπιφανείας διάστημα κεχωρισμένον. ἀλλ<note type="apparatus" n="8" target="#p114-7">μεταξὺ libri et Philop.: τὸ μεταξὺ Simpl. indeque Spengel</note><note type="apparatus" n="8-9" target="#p114-7 #p114-8">ἀλλ’ ἄλογος Philop.: ἀλλὰ λόγος MW: ἀλλὰ ἄλογος BL, Simpl.</note>
+              <lb n="8" xml:id="p114-7"/>σῶμα. μένει τοίνυν μεταξὺ τῆς ἐπιφανείας διάστημα κεχωρισμένον. ἀλλ’<note type="apparatus" n="8" target="#p114-7">μεταξὺ libri et Philop.: τὸ μεταξὺ Simpl. indeque Spengel</note><note type="apparatus" n="8-9" target="#p114-7 #p114-8">ἀλλ’ ἄλογος Philop.: ἀλλὰ λόγος MW: ἀλλὰ ἄλογος BL, Simpl.</note>
               <lb n="9" xml:id="p114-8"/>ἄλογος ἡ ὑπόθεσις, ὦ σοφώτατε Γαληνέ (αὐτὸ γὰρ ὑποτίθεται ὃ ζητοῦμεν)·<note type="apparatus" n="9" target="#p114-8">ὑποτίθεται libri, Simpl., Philop.: ὑποτίθεσαι Spengel (ὑποτίθεισαι Gt Philoponi)</note>
               <lb n="10" xml:id="p114-9"/>ζητούντων γὰρ ἡμῶν, εἰ δύναται εἶναι διάστημα κεχωρισμένον, πλάττεις<note type="apparatus" n="10" target="#p114-9">πλάττεις] πλάτεις L. ante hoc vocabulum Simpl. add. ὑποτίθεται εἶναι διάστημα κεχωρισμένον οὐχ ὅτι ἔστι δεικνὺς (cf. v. 11. 12), ‘ὑποθώμεθα’, λέγεις, ‘εἶναι διάστημα κεχωρισμένον’; quorum simile quippiam apud Themistium excidisse suspicor</note>
               <lb n="11" xml:id="p114-10"/>σεαυτῷ καὶ ἀναζωγραφεῖς, ὃ βούλει εἶναι διάστημα κεχωρισμένον, οὐχ ὅτι<milestone type="alt-edition" unit="line" ed="Spengel 1866" n="15"/>
@@ -3986,7 +3987,7 @@
               <lb n="6" xml:id="p117-5"/>διαστήματι μετατεθέντος τοῦ ἀμφορέως. ἆρ’ οὖν ταὐτὰ ἄτοπα ἀπαντᾷ<note type="apparatus" n="6" target="#p117-5">ὅρ’ — (28) μετακομίζεσθαι] cf. Simpl. 576,6 sqq. ταῦτα ἄτοπα libri (᾽aut ταὐτὰ aut ταῦτα τὰ Spengel᾽): τὰ αὐτὰ ἄτοπα Simpl.: τοῦτο τὸ ἄτοπον Philop. ἀπαντᾶν (ut vid.) M τόπον MW: τὸν τόπον BL, Philop., Simpl.</note>
               <lb n="7" xml:id="p117-6"/>τοῖς τὸ ἔσχατον τοῦ περιέχοντος λέγουσι τόπον; οὐδαμῶς. διὰ τί; οὐκέτι
               <lb n="8" xml:id="p117-7"/>γὰρ ἂν εἴποιμι ἐν ἄλλῳ τόπῳ γίνεσθαι τὸ ὕδωρ καὶ τὰ <milestone type="alt-edition" unit="page" ed="Spengel 1866" n="275"/> τοῦ ὕδατος<note type="apparatus" n="8" target="#p117-7">γίνεσθαι MW, Simpl.: γενέσθαι BL, Philop. καὶ M: ἢ WBL, Simpl.</note>
-              <lb n="9" xml:id="p117-8"/>μόρια κινουμένου τοῦ ἀμφορέως· ἐν. τῇ αὐτῇ γάρ ἐστιν ἐπιφανείᾳ καὶ<note type="apparatus" n="9" target="#p117-8">μόρια om. L αὐτῇ ML (ἐν τῷ αὐτῷ Simpl., ὑπὸ τῆς αὐτῆς — ἐπιφανείας Philop.): αὖ B: αὐτοῦ W (et Laur. 85,18)</note>
+              <lb n="9" xml:id="p117-8"/>μόρια κινουμένου τοῦ ἀμφορέως· ἐν τῇ αὐτῇ γάρ ἐστιν ἐπιφανείᾳ καὶ<note type="apparatus" n="9" target="#p117-8">μόρια om. L αὐτῇ ML (ἐν τῷ αὐτῷ Simpl., ὑπὸ τῆς αὐτῆς — ἐπιφανείας Philop.): αὖ B: αὐτοῦ W (et Laur. 85,18)</note>
               <lb n="10" xml:id="p117-9"/>οὐκ ἐξαλλάξει ταύτην οὐδὲ ἑτέραν προσεπιλαμβάνει τινά, ὥσπερ ἕτερον
               <lb n="11" xml:id="p117-10"/>καὶ διάστημα. ‘πῶς οὖν, εἰ τὸν αὐτὸν κατέχει τόπον ὁ οἶνος, καὶ καθ’<milestone type="alt-edition" unit="line" ed="Spengel 1866" n="5"/><note type="apparatus" n="11-12" target="#p117-10 #p117-11">καθ’ ὅλου L (et a Simplicii)</note>
               <lb n="12" xml:id="p117-11"/>ὅλον καὶ κατὰ μόρια κινεῖται ἐνθένδε κἀκεῖσε ἐκ τοῦ οἰκήματος εἰς τὸ<note type="apparatus" n="12" target="#p117-11">καὶ κατὰ BL, Simpl.: κατὰ M₁: καὶ τὰ M₂ W</note>
@@ -4038,7 +4039,7 @@
               <lb n="25" xml:id="p118-24"/>μεταφορητὸς δὲ οὐχ ἁπλῶς ἀλλὰ κατὰ συμβεβηκός· τὸ γὰρ σῶμα μεταφέρεται,
               <lb n="26" xml:id="p118-25"/>λέγω δὲ τὸ κεράμειον ἢ ὁ κάδδος, οὗ πέρας ἐστίν. ἔστι δὲ ὥσπερ<note type="apparatus" n="26" target="#p118-25">κεράμιον WL κάδδος] cf. quae adnot. ad 112,22</note>
               <lb n="27" xml:id="p118-26"/>τὸ ἀγγεῖον τόπος μεταφορητός, οὕτως ὁ τόπος ἀγγεῖον ἀμετακίνητον·<note type="apparatus" n="27" target="#p118-26">οὕτως] οὗτος M₁: οὕτω καὶ E Aristot. 212 a 15</note><milestone type="alt-edition" unit="line" ed="Spengel 1866" n="10"/>
-              <lb n="28" xml:id="p118-27"/>διόπερ ἐπειδὰν ἐν κινουμένῳ τι κινῆται ὡς πλοῖον ἐν ποταμῷ, τῷ περιἔχοντι<note type="apparatus" n="28" target="#p118-27">κινῆται M, Spengel e coni.: κινεῖται WBL</note>
+              <lb n="28" xml:id="p118-27"/>διόπερ ἐπειδὰν ἐν κινουμένῳ τι κινῆται ὡς πλοῖον ἐν ποταμῷ, τῷ περιέχοντι<note type="apparatus" n="28" target="#p118-27">κινῆται M, Spengel e coni.: κινεῖται WBL</note>
               <lb n="29" xml:id="p118-28"/>ὡς ἀγγείῳ χρῆται μεταφορητῷ μᾶλλον ἢ ὡς τόπῳ. βούλεται δὲ
               <lb n="30" xml:id="p118-29"/>ἀκίνητος εἶναι ὁ τόπος καθ’ αὑτόν, εἰκότως (πέρας γάρ ἐστιν), καὶ ἅμα τῷ<note type="apparatus" n="30" target="#p118-29">ὁ τόπος εἶναι GI Aristot. 212 a 18</note>
             </p>
@@ -4156,7 +4157,7 @@
               <lb n="6" xml:id="p122-5"/>μὴ βίᾳ ἁπτόμενά τε ἀλλήλων καὶ περιέχοντα ἄλληλα συγγενῆ, οἷον ὕδωρ<note type="apparatus" n="6" target="#p122-5">οἷον ὕδωρ κτλ.] cf. Simpl. 597,15 sqq. τὸ] malim τῷ</note><milestone type="alt-edition" unit="line" ed="Spengel 1866" n="5"/>
               <lb n="7" xml:id="p122-6"/>μὲν γῇ, ἀὴρ δὲ ὕδατι, πῦρ δὲ ἀέρι, συγγενῆ δέ, ὅτι ῥᾷστα εἰς ἄλληλα τὰ
               <lb n="8" xml:id="p122-7"/>ἐφεξῆς μεταβάλλει· ἔχει γάρ τι κοινόν. φερόμενα οὖν ἐπὶ τὰ συγγενῆ
-              <lb n="9" xml:id="p122-8"/>σώματα φέρεται ἐπὶ τοὺς οἰκείους τόπους· ὑπὸ γὰρ τῶν συγγενῶν περιέγεται·
+              <lb n="9" xml:id="p122-8"/>σώματα φέρεται ἐπὶ τοὺς οἰκείους τόπους· ὑπὸ γὰρ τῶν συγγενῶν περιέχεται·
               <lb n="10" xml:id="p122-9"/>τὸ γὰρ ἅπτεσθαι ἀλλήλων καὶ ἔστιν ἐν τόπῳ καὶ ποιεῖ καὶ πάσχει<milestone type="alt-edition" unit="line" ed="Spengel 1866" n="10"/>
               <lb n="11" xml:id="p122-10"/>εἰς ἄλληλα, ἐπεὶ τῶν γε συμπεφυκότων καὶ ἡνωμένων τὰ μόρια οὔτε ἐν
               <lb n="12" xml:id="p122-11"/>τόπῳ καθ’ αὑτὰ οὔτε πάσχει τι ὑπ’ ἀλλήλων. καὶ μένει δὲ ἐν τῷ<note type="apparatus" n="12" target="#p122-11">δὲ] δὴ φύσει πᾶν Aristot. 212 b 33</note>
@@ -4233,14 +4234,14 @@
               <lb n="8" xml:id="p124-7"/>οὖσαν δι’ ὅλου χωρεῖν τοῦ σώματος, πλὴν εἰ μὴ κενόν τι παρενείροιμεν
               <lb n="9" xml:id="p124-8"/>τοῖς σώμασιν. οὕτω μὲν οὖν ἐκ τῆς κινήσεως ἐπιχειροῦσιν, ἄλλον δὲ<milestone type="alt-edition" unit="line" ed="Spengel 1866" n="10"/>
               <lb n="10" xml:id="p124-9"/>τρόπον, ὅτι φαίνεται ἔνια συνιόντα καὶ πιλούμενα εἰς ἐλάττονα ὄγκον μένοντα
-              <lb n="11" xml:id="p124-10"/>ἐπὶ τῆς αὐτῆς οὐσίας· οἱ γὰρ πίθοι τὸν ἴσον δέχονται οἶνον καθ
+              <lb n="11" xml:id="p124-10"/>ἐπὶ τῆς αὐτῆς οὐσίας· οἱ γὰρ πίθοι τὸν ἴσον δέχονται οἶνον καθ’
               <lb n="12" xml:id="p124-11"/>αὑτόν τε καὶ εἰς ἀσκοὺς ἐμβληθέντα μετὰ τῶν ἀσκῶν, δῆλον ὡς κενῶν<milestone type="alt-edition" unit="line" ed="Spengel 1866" n="15"/>
               <lb n="13" xml:id="p124-12"/>τινων ὄντων ἐν τῷ οἴνῳ, εἰς ἃ σύνεισι καὶ πυκνοῦται ἐκθλιβόμενος ὑπὸ τῆς
               <lb n="14" xml:id="p124-13"/>βίας. μαρτύριον δὲ ποιοῦνται καὶ τὸ περὶ τῆς τέφρας, ἣ δέχεται ἴσον
-              <lb n="15" xml:id="p124-14"/>ὕδωρ, ὅσον τὸ ἀγγεῖον κενόν. ὅλως τε οὔτ ἂν διαιρεῖσθαι τὰ σώματα<note type="apparatus" n="15" target="#p124-14">τὸ ἀγγεῖον τὸ κενόν Aristot. 213 b 22 τε om. W</note>
-              <lb n="16" xml:id="p124-15"/>οὔτ ἂν ἀπ’ ἀλλήλων διακεκρίσθαι, εἰ μὴ παρενέπιπτε τὸ κενόν, καὶ ἐκώλυεν<milestone type="alt-edition" unit="line" ed="Spengel 1866" n="20"/>
+              <lb n="15" xml:id="p124-14"/>ὕδωρ, ὅσον τὸ ἀγγεῖον κενόν. ὅλως τε οὔτ’ ἂν διαιρεῖσθαι τὰ σώματα<note type="apparatus" n="15" target="#p124-14">τὸ ἀγγεῖον τὸ κενόν Aristot. 213 b 22 τε om. W</note>
+              <lb n="16" xml:id="p124-15"/>οὔτ’ ἂν ἀπ’ ἀλλήλων διακεκρίσθαι, εἰ μὴ παρενέπιπτε τὸ κενόν, καὶ ἐκώλυεν<milestone type="alt-edition" unit="line" ed="Spengel 1866" n="20"/>
               <lb n="17" xml:id="p124-16"/>αὐτὰ πάντα ἀλλήλοις ἡνῶσθαι· ταύτην γὰρ καὶ οἱ Πυθαγόρειοι τὴν<note type="apparatus" n="17" target="#p124-16">πυθαγόριοι WB₁ τὴν om. L</note>
-              <lb n="18" xml:id="p124-17"/>αἰτίαν τῷ κενῷ προστιθέασιν, οὐκ οἶδ ὅπως αὐτὸ καὶ εἰσπνεῖσθαι λέγοντες<note type="apparatus" n="18" target="#p124-17">αὐτῷ G Aristot. 213 b 23; cf. Diels Zur Textgesch. p. 18</note>
+              <lb n="18" xml:id="p124-17"/>αἰτίαν τῷ κενῷ προστιθέασιν, οὐκ οἶδ’ ὅπως αὐτὸ καὶ εἰσπνεῖσθαι λέγοντες<note type="apparatus" n="18" target="#p124-17">αὐτῷ G Aristot. 213 b 23; cf. Diels Zur Textgesch. p. 18</note>
               <lb n="19" xml:id="p124-18"/>ὑπὸ τοῦ παντὸς ἔξωθεν περικεχυμένον, ἐπεὶ καὶ τῶν ἀριθμῶν τὴν φύσιν<milestone type="alt-edition" unit="line" ed="Spengel 1866" n="25"/><note type="apparatus" n="19" target="#p124-18">ἀπὸ τοῦ ἔξωθεν περικεχυμένου Simpl. 651,28</note>
               <lb n="20" xml:id="p124-19"/>μίαν εἶναι διωρισμένην, μᾶλλον δὲ μηδ’ ἂν ἀριθμοὺς εἶναι μὴ τοῦ κενοῦ<note type="apparatus" n="20" target="#p124-19">μίαν BL: μὴ MW</note>
               <lb n="21" xml:id="p124-20"/>διακρίνοντος τὰς μονάδας.
@@ -4975,8 +4976,8 @@
               <lb n="13" xml:id="p145-12"/>ὅταν χρόνος τις δοκῇ γεγονέναι, ἅμα καὶ κίνησίς τις γεγονέναι δοκεῖ. οἷον<milestone type="alt-edition" unit="line" ed="Spengel 1866" n="15"/><note type="apparatus" n="13" target="#p145-12">ὅταν] sic FH Aristot. 219 a 7: ὅταν γε EGI γεγονέναι (pr.)] sic EGH Aristot. ib.: γενέσθαι FI δοκεῖ] sic E Aristot. 219 a 8: φαίνεται FGHI; cf. Diels Zur Textgesch. p. 15</note>
               <lb n="14" xml:id="p145-13"/>‘δύο ὧραι παρεληλύθασι’. πόθεν τοῦτο δῆλον; ‘ἐβαδίσαμεν τοσονδί,
               <lb n="15" xml:id="p145-14"/>γεγράφαμεν τοσονδί’. ἀχώριστον ἄρα ἑκατέρου. ὁ μὲν οὖν πρότερος<note type="apparatus" n="15" target="#p145-14">‘fort. ἀχώριστος’ Spengel</note><note type="apparatus" n="15-16" target="#p145-14 #p145-15">πρότερον λόγον a (in L comp. script.)</note>
-              <lb n="16" xml:id="p145-15"/>λόγος οὐκ εἶναι ταὐτὸν κίνησιν ἔφη καὶ χρόνον, ὁ δ ἐφεξῆς οὐκ εἶναι τὸν<milestone type="alt-edition" unit="line" ed="Spengel 1866" n="20"/><note type="apparatus" n="16" target="#p145-15">ἔφη κίνησιν W</note>
-              <lb n="17" xml:id="p145-16"/>χρόνον δίχα κινήσεως. ἆρ οὖν τι συμβεβηκὸς ἢ πάθος ἢ ὑπάρχον ὅλως<note type="apparatus" n="17" target="#p145-16">τι Laur. 85,14: τὸ MW: om. SL (cf. Philop. 716,10)</note>
+              <lb n="16" xml:id="p145-15"/>λόγος οὐκ εἶναι ταὐτὸν κίνησιν ἔφη καὶ χρόνον, ὁ δ’ ἐφεξῆς οὐκ εἶναι τὸν<milestone type="alt-edition" unit="line" ed="Spengel 1866" n="20"/><note type="apparatus" n="16" target="#p145-15">ἔφη κίνησιν W</note>
+              <lb n="17" xml:id="p145-16"/>χρόνον δίχα κινήσεως. ἆρ’ οὖν τι συμβεβηκὸς ἢ πάθος ἢ ὑπάρχον ὅλως<note type="apparatus" n="17" target="#p145-16">τι Laur. 85,14: τὸ MW: om. SL (cf. Philop. 716,10)</note>
               <lb n="18" xml:id="p145-17"/>τι τῇ κινήσει θετέον τὸν χρόνον; καὶ γὰρ ταῦτ’ ἀχώριστα μὲν τῶν ὑποκειμένων,<note type="apparatus" n="18" target="#p145-17">θετέον MW: δετέον (sic) S: οἰητέον L ταῦτ’ ἀχωριστὰ L₂a: ταῦτα χώριστα (sic) M: ταῦτα χωριστὰ WSL₁</note>
               <lb n="19" xml:id="p145-18"/>οὐ τὰ αὐτὰ δέ. λέγωμεν οὖν ἄνωθεν ἀναλαβόντες· πᾶν τὸ<note type="apparatus" n="19" target="#p145-18">λέγωμεν — ἀναλαβόντες] cf. Eudemus apud Simpl. 710,35</note>
               <lb n="20" xml:id="p145-19"/>κινούμενον κατὰ τόπον, ὥσπερ ἔκ τινος εἴς τι κινεῖται, οὕτω καὶ ἐπί τινος<milestone type="alt-edition" unit="line" ed="Spengel 1866" n="25"/>
@@ -5005,7 +5006,7 @@
               <lb n="12" xml:id="p146-11"/>ἐκ τῶν εἰρημένων· πότερον δὲ [κίνησις] ταὐτὸν ἢ διαφέρει τῆς κινήσεως,<note type="apparatus" n="12" target="#p146-11">κίνησις delevi: κινήσει Laur. 85,14 (e Simpl. 712,16) ταὐτὸν MWS: ταῦτα L</note>
               <lb n="13" xml:id="p146-12"/>ἐπισκεπτέον. ἢ τῷ μὲν ὑποκειμένῳ κίνησις ἄμφω τὸ πρότερον καὶ ὕστερον,<note type="apparatus" n="13" target="#p146-12">ἢ τῷ μὲν — (14) διαφέρει] exscr. Simpl. 712,18 sq. κίνησιν M et fort. W (certe Par. 1888, in cuius marg. κινήσεις adn. man. alt.)</note><milestone type="alt-edition" unit="line" ed="Spengel 1866" n="25"/>
               <lb n="14" xml:id="p146-13"/>τῷ λόγῳ δὲ διαφέρει τῆς κινήσεως. οὐ γὰρ ταὐτὸν κινήσει τε εἶναι καὶ<note type="apparatus" n="14" target="#p146-13">οὐ γὰρ — (16) μεγέθει] exscr. Simpl. 712,16 sqq.</note>
-              <lb n="15" xml:id="p146-14"/>πρότερῳ τε καὶ ὑστέρῳ, ὥσπερ καὶ τὸ τῇ θέσει πρότερόν τε καὶ ὕστερον
+              <lb n="15" xml:id="p146-14"/><choice><sic>πρότερῳ</sic><corr>προτέρῳ</corr></choice> τε καὶ ὑστέρῳ, ὥσπερ καὶ τὸ τῇ θέσει πρότερόν τε καὶ ὕστερον
               <lb n="16" xml:id="p146-15"/>τῷ μὲν ὑποκειμένῳ μεγέθει, τὸ δὲ εἶναι προτέρῳ καὶ μεγέθει εἶναι οὐ<milestone type="alt-edition" unit="line" ed="Spengel 1866" n="30"/>
               <lb n="17" xml:id="p146-16"/>ταὐτόν· τὸ μὲν γὰρ πρότερον ἀποδιδοὺς τὴν κατὰ τόπον θέσιν συμπαραλήψῃ,<note type="apparatus" n="17-18" target="#p146-16 #p146-17">συμπαραλήψῃ M: συμπαραλήψαι S et (—λῆψαι) L: οὐ παραλήψῃ W</note>
               <lb n="18" xml:id="p146-17"/>τὸ μέγεθος δὲ ὁριζόμενος οὐ συνεφάψῃ τοῦ  τόπου. ὁμοίως τοίνυν
@@ -5555,7 +5556,7 @@
               <lb n="12" xml:id="p163-11"/>καὶ οὗτος κινήσεώς τινος ἔσται μέτρον. πᾶς γὰρ χρόνος μέτρον κινήσεως· εἰ δὴ<note type="apparatus" n="12" target="#p163-11">πᾶς γὰρ χρόνος μέτρον κινήσεως MW (cf. Simpl. 768, 2 sqq.): πῶς γὰρ χρόνος κινήσεως SL</note>
               <lb n="13" xml:id="p163-12"/>λάβοιμέν τινα κίνησιν, ἣ τῶν ἄλλων κινήσεων ἔσται μέτρον, δῆλον ὅτι καὶ ὁ ταύτης<milestone type="alt-edition" unit="line" ed="Spengel 1866" n="20"/>
               <lb n="14" xml:id="p163-13"/>χρόνος τοῦ χρόνου μέτρον φανήσεται. τίς οὖν αὕτη ἡ κίνησις; ἀλλοίωσις μὲν
-              <lb n="15" xml:id="p163-14"/>οὖν ἡ αὔξησις ἢ γένεσις οὐ πάντη εἰσὶν ὁμαλεῖς, φορὰ δέ ἐστι καὶ φορᾶς ἡ τοῦ
+              <lb n="15" xml:id="p163-14"/>οὖν ἢ αὔξησις ἢ γένεσις οὐ πάντη εἰσὶν ὁμαλεῖς, φορὰ δέ ἐστι καὶ φορᾶς ἡ τοῦ
               <lb n="16" xml:id="p163-15"/>παντὸς κυκλοφορία, ἅμα δὲ καὶ γνωριμώτατος ὁ ταύτης ἀριθμός. αὕτη ἄρα μέτρον<milestone type="alt-edition" unit="line" ed="Spengel 1866" n="25"/><note type="apparatus" n="16" target="#p163-15">γνωριμώτατα a</note>
               <lb n="17" xml:id="p163-16"/>ἐστὶν τῶν κινήσεων, μέτρον δὲ γίνεται ἀριθμηθεῖσα ὑπό τινος χρόνου καὶ<note type="apparatus" n="17" target="#p163-16">γίνεται] sic E Simplicii 768,12: γίνεται κινήσεως aF</note>
               <lb n="18" xml:id="p163-17"/>γενομένη τοσήδε· ὁ γὰρ ἐνιαυτὸς καὶ ὁ μὴν καὶ ἡ ἡμέρα χρόνου τε ὀνόματα
@@ -5739,7 +5740,7 @@
               <lb n="19" xml:id="p169-18"/>μὴ ὄντα κινεῖσθαι, εἰ δὲ τοῦτο, ἀδύνατον καὶ τὴν γένεσιν κίνησιν εἶναι.
               <lb n="20" xml:id="p169-19"/>οὐκοῦν οὐδὲ κινεῖται οὐδὲ ἠρεμεῖ τὸ μὴ ὄν· οὐδὲ γὰρ ἐν τόπῳ. οὐ μόνον
               <lb n="21" xml:id="p169-20"/>δὲ ἡ γένεσις οὐκ ἔστι κίνησις, ἀλλ’ οὐδὲ ἡ φθορά· κινήσει γὰρ ἢ κίνησίς<note type="apparatus" n="21" target="#p169-20">ἡ γένεσις κτλ.] cf. Simpl. 819,20 sqq. ἡ κίνησίς] sic I Aristot. 225 a 33: ἡ κίνησις EH: κίνησις F</note><milestone type="alt-edition" unit="line" ed="Spengel 1866" n="25"/>
-              <lb n="22" xml:id="p169-21"/>ἐστιν ἐναντίον ἢ ἠρεμία, εἰ δὲ κίνησις ἡ φθορά, ἡ γένεσις εἴη ἂν ἡ κίνησις<note type="apparatus" n="22" target="#p169-21">φορά S ἡ γένεσις WL₂a: ἡ γένεσις MSL₁ ἡ κίνησις MWS₂L₂a: ἡ κίνησις S₁L₁</note>
+              <lb n="22" xml:id="p169-21"/>ἐστιν ἐναντίον ἢ ἠρεμία, εἰ δὲ κίνησις ἡ φθορά, ἡ γένεσις εἴη ἂν ἢ κίνησις<note type="apparatus" n="22" target="#p169-21">φορά S ἡ γένεσις WL₂a: ἡ γένεσις MSL₁ ἡ κίνησις MWS₂L₂a: ἡ κίνησις S₁L₁</note>
               <lb n="23" xml:id="p169-22"/>ἢ ἠρεμία. συλλογίσασθαι δὴ λοιπὸν ἅπαντα χρὴ τὰ εἰρημένα· πᾶσα κίνησις
               <lb n="24" xml:id="p169-23"/>μεταβολή, πᾶσα μεταβολὴ ἐξ ἐναντίου εἰς ἐναντίον ἢ κατ’ ἀντίφασιν, <milestone type="alt-edition" unit="page" ed="Spengel 1866" n="350"/><note type="apparatus" n="24" target="#p169-23">ἐξ] οὐκ ἐξ M</note>
               <lb n="25" xml:id="p169-24"/>πᾶσα ἄρα κίνησις ἐξ ἐναντίου εἰς ἐναντίον ἢ κατὰ ἀντίφασιν. ἀλλὰ μὴν
@@ -5761,10 +5762,10 @@
               <lb n="3" xml:id="p170-2"/>ἐκ σπέρματος τὸ ζῷον γίνεσθαι λέγοντας οἴεσθαι τὴν μεταβολὴν ἐξ οὐσίας<milestone type="alt-edition" unit="line" ed="Spengel 1866" n="15"/><note type="apparatus" n="3" target="#p170-2">γενέσθαι S τὴν μεταβολὴν M: τὴν τοιαύτην μεταβολὴν WSL (e Simpl. 833,29; at cf. infra v. 18)</note>
               <lb n="4" xml:id="p170-3"/>εἰς οὐσίαν κίνησιν ἐπιδεικνύναι, πάλιν ἐπὶ τὴν γένεσιν καταφερομένων ἐστίν,
               <lb n="5" xml:id="p170-4"/>ἣν οὐκ οὖσαν κίνησιν ἀπεδείξαμεν· τί γάρ ἐστι τὸ κινούμενον ἐν τῇ τοιαύτῃ<note type="apparatus" n="5" target="#p170-4">ἔστι Μ: ἔσται Simpl.: ἔστι καὶ WSL</note>
-              <lb n="6" xml:id="p170-5"/>μεταβολή· οὐκ ἔσται γὰρ τὸ ζῷον (οὐ γάρ ἔστι πω, γίνεται γάρ)<note type="apparatus" n="6" target="#p170-5">ἔστι πω scripsi: ἐστὶν τὸ MSL₁: ἔστι W: ἐστιν L₂a</note>
+              <lb n="6" xml:id="p170-5"/>μεταβολῇ· οὐκ ἔσται γὰρ τὸ ζῷον (οὐ γάρ ἔστι πω, γίνεται γάρ)<note type="apparatus" n="6" target="#p170-5">ἔστι πω scripsi: ἐστὶν τὸ MSL₁: ἔστι W: ἐστιν L₂a</note>
               <lb n="7" xml:id="p170-6"/>οὔτε τὸ σπέρμα (οὐ γὰρ ὑπομένει· διαφθείρεται γάρ)· πῶς γὰρ ἐναντίον τὸ<milestone type="alt-edition" unit="line" ed="Spengel 1866" n="20"/>
-              <lb n="8" xml:id="p170-7"/>σπέρμα τῶν ζῴων; ἐξ ἐναντίων δὲ ἡ κίνησις εἰς ἐναντία. ἀλλὰ φήσαι τό-<note type="apparatus" n="8-9" target="#p170-7 #p170-8">φήσαι τόδε τις ἄν scripsi: φήσαι τό τις ἄν Μ: φήσαι τις ἄν S₂: φῆσαί τις ἄν S₁L₂a: φησί τις ἄν L₁: φαίη ἄν τις W</note>
-              <lb n="9" xml:id="p170-8"/>〈δε〉 τις ἂν ἴσως ‘ὅταν ὕδωρ εἰς πῦρ μεταβάλλῃ, κίνησις ἂν γένοιτο κατ’<note type="apparatus" n="9" target="#p170-8">μεταβάλλει L κίνησιν a</note>
+              <lb n="8" xml:id="p170-7"/>σπέρμα τῶν ζῴων; ἐξ ἐναντίων δὲ ἡ κίνησις εἰς ἐναντία. ἀλλὰ φήσαι τό〈δε〉<note type="apparatus" n="8-9" target="#p170-7 #p170-8">φήσαι τόδε τις ἄν scripsi: φήσαι τό τις ἄν Μ: φήσαι τις ἄν S₂: φῆσαί τις ἄν S₁L₂a: φησί τις ἄν L₁: φαίη ἄν τις W</note>
+              <lb n="9" xml:id="p170-8"/>τις ἂν ἴσως ‘ὅταν ὕδωρ εἰς πῦρ μεταβάλλῃ, κίνησις ἂν γένοιτο κατ’<note type="apparatus" n="9" target="#p170-8">μεταβάλλει L κίνησιν a</note>
               <lb n="10" xml:id="p170-9"/>οὐσίαν· ἐξ ἐναντίων γὰρ εἰς ἐναντία’. πρὸς δὲ τοῦτο ὁ μὲν Ἀλέξανδρος<milestone type="alt-edition" unit="line" ed="Spengel 1866" n="25"/><note type="apparatus" n="10" target="#p170-9">πρὸς τοῦτο δὲ SL Ἀλέξανδρος κτλ.] eadem fere sine auctoris nomine adfert Simpl. 834,7 sqq.</note>
               <lb n="11" xml:id="p170-10"/>ἀντιλέγει ἐνίας μὲν ποιότητας τοῦ πυρὸς ἐνίαις ποιότησι τοῦ ὕδατος ἐναντίας
               <lb n="12" xml:id="p170-11"/>εἶναι διδούς, οἷον τὴν ψυχρότητα καὶ ὑγρότητα τῇ ξηρότητι καὶ θερμότητι,<note type="apparatus" n="12" target="#p170-11">ξυρότητι Μ</note>
@@ -5913,9 +5914,9 @@
               <lb n="17" xml:id="p174-16"/>4. Μία δὲ κίνησις λέγεται πλεοναχῶς· τὸ γὰρ ἓν πολλαχῶς λέγομεν.<note type="apparatus" n="17" target="#p174-16">πλεοναχῶς MW: πολλαχῶς SL (ex Aristot. 227 b 3 vel Simpl. 881,18)</note>
               <lb n="18" xml:id="p174-17"/>γένει μὲν οὖν μία κίνησις καὶ τῇ αὐτῇ κατηγορίᾳ, οἷον φορὰ πᾶσα πρὸς<note type="apparatus" n="18" target="#p174-17">γένει — (19) ποιότητι] exscr. Simpl. 882,7 sqq. καὶ] ἡ ἐν Simpl.</note>
               <lb n="19" xml:id="p174-18"/>φορὰν (ἐν γὰρ τῷ ποῦ), ἀλλοίωσις πρὸς ἀλλοίωσιν (ἐν γὰρ ποιότητι).<milestone type="alt-edition" unit="line" ed="Spengel 1866" n="20"/><note type="apparatus" n="19" target="#p174-18">τῷ ποῦ WSL: τὸ ποῦ M: τῇ ποῦ κατηγορίᾳ Simpl.: fortasse τῇ ποῦ vel τόπῳ scribendum</note>
-              <lb n="20" xml:id="p174-19"/>εἴδει δὲ μία ἐν ταὐτῷ τῆς κατηγορίας εἴδει, ὅταν ἄτομον ᾖ̓ καὶ πρῶτον<note type="apparatus" n="20" target="#p174-19">εἴδει δὲ κτλ.] cf. Simpl. 882,13 sqq.</note>
+              <lb n="20" xml:id="p174-19"/>εἴδει δὲ μία ἐν ταὐτῷ τῆς κατηγορίας εἴδει, ὅταν ἄτομον ᾖ καὶ πρῶτον<note type="apparatus" n="20" target="#p174-19">εἴδει δὲ κτλ.] cf. Simpl. 882,13 sqq.</note>
               <lb n="21" xml:id="p174-20"/>ἀπὸ τῶν αἰσθητῶν, ὡς λεύκανσις ἔχει πρὸς λεύκανσιν· ἡ γὰρ λευκότης ἓν<note type="apparatus" n="21" target="#p174-20">λευκότης] λεύκανσις coni. Spengel; at cf. Simpl. 882,26</note>
-              <lb n="22" xml:id="p174-21"/>εἶδος καὶ ἄτομον. εἰ δ ἔστιν ἄττα, ἃ καὶ γένει ἅμα † γὰρ καὶ εἴδει, δῆλον<note type="apparatus" n="22" target="#p174-21">ἃ καὶ γένει ἅμα γὰρ καὶ εἴδει] sic M: γὰρ (in quo γίνεται latere recte perspexit Diels) om. SL et (ἃ καὶ γένη ἅμα καὶ εἴδη ἐστὶ) W (ex Aristot. 227 b 12)</note>
+              <lb n="22" xml:id="p174-21"/>εἶδος καὶ ἄτομον. εἰ δ’ ἔστιν ἄττα, ἃ καὶ γένει ἅμα † γὰρ καὶ εἴδει, δῆλον<note type="apparatus" n="22" target="#p174-21">ἃ καὶ γένει ἅμα γὰρ καὶ εἴδει] sic M: γὰρ (in quo γίνεται latere recte perspexit Diels) om. SL et (ἃ καὶ γένη ἅμα καὶ εἴδη ἐστὶ) W (ex Aristot. 227 b 12)</note>
               <lb n="23" xml:id="p174-22"/>ὅτι ἔστι τις κίνησις πὼς μὲν εἴδει μία, πὼς δὲ οὔ. ζητήσειε δ’ ἄν τις,<note type="apparatus" n="23" target="#p174-22">τίς κίνησις MS: τὶς κινήσει W: τῆς κινήσεως L; de Aristotelis verbis cf. Torstrik Philol. XII, 527 et Bonitz Aristotel. Studien I, 241 adn. 1</note><milestone type="alt-edition" unit="line" ed="Spengel 1866" n="25"/>
               <lb n="24" xml:id="p174-23"/>εἰ μία κίνησις αὕτη τῷ εἴδει, ὅταν εἰς ταὐτὸν ἐκ ταὐτοῦ μεταβάλλῃ ταὐτὸν<note type="apparatus" n="24-25" target="#p174-23 #p174-24">ταὐτὸ W: τὸ αὐτὸ Aristot. 227 b 15</note>
               <lb n="25" xml:id="p174-24"/>κινούμενον· εἰ γὰρ ἁπλῶς τοῦτο συγχωρηθείη καὶ τούτῳ τὴν αὐτὴν
@@ -6054,7 +6055,7 @@
               <lb n="17" xml:id="p178-16"/>τόπον μεταβολῆς τὸ τοιοῦτον ἄν τις εὕροι λίαν ἐμφανῶς. τῇ γὰρ γῇ κατὰ
               <lb n="18" xml:id="p178-17"/>φύσιν μὲν κίνησις ἡ εἰς τὸ κάτω, παρὰ φύσιν δὲ ἡ εἰς τὸ ἄνω καὶ μονὴ
               <lb n="19" xml:id="p178-18"/>μὲν κατὰ φύσιν ἡ εἰς τὸ κάτω, παρὰ φύσιν δὲ ἡ εἰς τὸ ἄνω. ἐπὶ δὲ<milestone type="alt-edition" unit="line" ed="Spengel 1866" n="15"/><note type="apparatus" n="19" target="#p178-18">ἐν τῷ κάτω Simpl. 910,11 εἰς τὸ ἄνω S: ἐν τῷ ἄνω MWL et Simpl. (fortasse utroque loco ἐν τῷ Themistio reddendum</note>
-              <lb n="20" xml:id="p178-19"/>ἀλλοιώσεώς τε καὶ αὐξήσεως οὐκέτ ἂν δόξειεν εἶναι τὸ κατὰ φύσιν καὶ
+              <lb n="20" xml:id="p178-19"/>ἀλλοιώσεώς τε καὶ αὐξήσεως οὐκέτ’ ἂν δόξειεν εἶναι τὸ κατὰ φύσιν καὶ
               <lb n="21" xml:id="p178-20"/>παρὰ φύσιν· οὐδὲν γὰρ μᾶλλον τοῦ μελαίνεσθαι τὸ λευκαίνεσθαι κατὰ
               <lb n="22" xml:id="p178-21"/>φύσιν ἢ παρὰ φύσιν ἢ τὸ ὑγιάζεσθαι τοῦ νοσάζεσθαι· ὁμοίως γὰρ δοκεῖ
               <lb n="23" xml:id="p178-22"/>τὸ σῶμα τῶν ζῴων ἀμφοτέρων εἶναι δεκτικόν, ἀλλ’ οὔτε ἡ μὲν αὔξησις<note type="apparatus" n="23" target="#p178-22">ἡ μὲν ἡ αὔξησις L</note><milestone type="alt-edition" unit="line" ed="Spengel 1866" n="20"/>
@@ -6315,7 +6316,7 @@
               <lb n="27" xml:id="p186-26"/>καὶ μηδὲν ἔσχατον ἔχων, ὡς ἀδιεξίτητον καὶ τὸ μῆκος, εἰ δὲ τῷ διαιρεῖσθαι
               <lb n="28" xml:id="p186-27"/>καὶ τέμνεσθαι, πάλιν καὶ τὸ μῆκος παραπλησίως, εἰ δὲ ἐν ἀμφοῖν,<note type="apparatus" n="28" target="#p186-27">ante καὶ τὸ μῆκος add. τῇ διαιρέσει et post εἰ δὲ (ἐν om.) ἀμφοῖν add. ὁ χρόνος FHIK Aristot. 233 a 20 om. utraque E)</note>
               <lb n="29" xml:id="p186-28"/>ἐν ἀμφοῖν καὶ τὸ μέγεθος.
-              <lb n="30" xml:id="p186-29"/>Τοῦτο δὲ ἀγνοεῖ Ζήνων ἢ προσποιεῖται, ὅταν οἴηται τὴν κίνησιν ἀναἱρεῖν
+              <lb n="30" xml:id="p186-29"/>Τοῦτο δὲ ἀγνοεῖ Ζήνων ἢ προσποιεῖται, ὅταν οἴηται τὴν κίνησιν ἀναιρεῖν
               <lb n="31" xml:id="p186-30"/>ἐκ τοῦ μὴ δυνατὸν εἶναι λέγειν ἐν πεπερασμένῳ τῷ χρόνῳ τὰ
               <lb n="32" xml:id="p186-31"/>ἄπειρα διελθεῖν τὸ κινούμενον καὶ ἅψασθαι τὸ Α ἀπείρων καὶ καθ’ ἕκαστον,<note type="apparatus" n="32" target="#p186-31">τὸ Α] α’ om. W₁ ἄπειρον SL: τῶν ἀπείρων (del. εἰς καὶ) coni. Spengel</note>
               <lb n="33" xml:id="p186-32"/>εἰ τὸ μὲν μῆκος τὸ ποδιαῖον εἰς ἄπειρα διαιρετὸν καὶ ἐπ’ ἄπειρον, ὁ δὲ<note type="apparatus" n="33" target="#p186-32">εἰς S (s in ras.): ὡς W</note>
@@ -6377,7 +6378,7 @@
               <lb n="21" xml:id="p188-20"/>μόνως τοίνυν ἐνδέχεται ἐν ἀπείρῳ χρόνῳ πεπερασμένον κινεῖσθαι διάστημα,<milestone type="alt-edition" unit="line" ed="Spengel 1866" n="30"/>
               <lb n="22" xml:id="p188-21"/>εἰ τὸ αὐτὸ πάλιν <milestone type="alt-edition" unit="page" ed="Spengel 1866" n="377"/> καὶ πάλιν κινοῖτο, ὥσπερ ὁρῶμεν καὶ τὰ θεῖα σώματα. εἰ<note type="apparatus" n="22" target="#p188-21">κινοῖτο MW, Simpl.: κινεῖτο SL (unde κινεῖται tacite Spengel)</note>
               <lb n="23" xml:id="p188-22"/>δὲ οὐ δίεισιν ἄπειρον διάστημα ἐν πεπερασμένῳ χρόνῳ τὸ πεπερασμένον
-              <lb n="24" xml:id="p188-23"/>σῶμα, φανερὸν ὡς οὐδὲ τὸ ἄπειρον σῶμα, εἰ κινούμενον ὑποθοίμεθα, διἔλθοι<note type="apparatus" n="24" target="#p188-23">ὡς] ὅτι aF Simplicii οὐδὲ S (δ in ras.)</note>
+              <lb n="24" xml:id="p188-23"/>σῶμα, φανερὸν ὡς οὐδὲ τὸ ἄπειρον σῶμα, εἰ κινούμενον ὑποθοίμεθα, διέλθοι<note type="apparatus" n="24" target="#p188-23">ὡς] ὅτι aF Simplicii οὐδὲ S (δ in ras.)</note>
               <lb n="25" xml:id="p188-24"/>ἂν πεπερασμένον διάστημα ἐν πεπερασμένῳ χρόνῳ. ἡνίκα γὰρ ἂν<note type="apparatus" n="25" target="#p188-24">τὸ πεπερασμένον CM Simplicii</note><milestone type="alt-edition" unit="line" ed="Spengel 1866" n="5"/>
               <lb n="26" xml:id="p188-25"/>διίῃ τὸ ἄπειρον σῶμα τὴν πεπερασμένην γραμμήν, δῆλον ὡς τηνικαῦτα<note type="apparatus" n="26" target="#p188-25">ἂν om. aCM Simplicii διίῃ A Simplicii: δίεισι Themistii libri et aF Simplicii: δίοι CM Simplicii</note>
               <lb n="27" xml:id="p188-26"/>καὶ ἡ πεπερασμένη γραμμὴ τὸ ἄπειρον σῶμα διέξεισιν, ἀλλ’ ἀποδέδεικται
@@ -7186,7 +7187,7 @@
             <pb n="212" facs="https://archive.org/download/commentariaina05pt13akaduoft/page/n363.jpg"/>
             <p>
               <lb n="1" xml:id="p212-0"/>ἵνα τὰ ἄλλα παρῶ, τίς οὐκ οἶδεν, ὅτι οὔτε τὸ νῦν ἄνευ χρόνου οὔτε ὁ<milestone type="alt-edition" unit="page" ed="Spengel 1866" n="412"/>
-              <lb n="2" xml:id="p212-1"/>χρόνος ἄνευ τοῦ νῦν" μεσότης γὰρ χρόνου τὸ νῦν καὶ ἀρχήν τινος χρόνου<milestone type="alt-edition" unit="line" ed="Spengel 1866" n="25"/><note type="apparatus" n="2" target="#p212-1">καὶ (ante ἀρχὴν)] sic EK Aristot. 251 b 21: om. FHI χρόνου post ἐσομένου coll. EHIK Aristot. ib.: om. F</note>
+              <lb n="2" xml:id="p212-1"/>χρόνος ἄνευ τοῦ νῦν· μεσότης γὰρ χρόνου τὸ νῦν καὶ ἀρχήν τινος χρόνου<milestone type="alt-edition" unit="line" ed="Spengel 1866" n="25"/><note type="apparatus" n="2" target="#p212-1">καὶ (ante ἀρχὴν)] sic EK Aristot. 251 b 21: om. FHI χρόνου post ἐσομένου coll. EHIK Aristot. ib.: om. F</note>
               <lb n="3" xml:id="p212-2"/>καὶ τελευτὴν ἔχον ἅμα, ἀρχὴν μὲν τοῦ ἐσομένου, τελευτὴν δὲ τοῦ παρελθόντος,<note type="apparatus" n="3" target="#p212-2">ἔχον Vindob. 110 et Laur. 85,14 ex Aristot. ib.: ἔχων cett. libri</note><note type="apparatus" n="3-4" target="#p212-2 #p212-3">παρεληλυθότος C (ut FHI Aristot. 251 b 22)</note>
               <lb n="4" xml:id="p212-3"/>ὃ μόνον ἐστὶ τοῦ χρόνου δυνατὸν λαβεῖν. εἰ οὖν ἐφ’ ἁπάσης
               <lb n="5" xml:id="p212-4"/>γενέσεως καὶ ἐφ’ ἅπαντος γινομένου τοῦ νῦν <milestone type="alt-edition" unit="page" ed="Spengel 1866" n="413"/> συνεπινοεῖν ἀναγκαῖον,<note type="apparatus" n="5" target="#p212-4">τὸ νῦν Laur. 85,14 et Spengel e coni.</note>
@@ -7414,14 +7415,14 @@
               <lb n="2" xml:id="p218-1"/>ἑαυτῷ ἔχει καὶ τὸ κινοῦν καὶ τὸ κινούμενον. ἐπὶ δὲ τῶν ἀψύχων, ὅταν<note type="apparatus" n="2" target="#p218-1">δὲ MC: δὲ δὴ SL</note>
               <lb n="3" xml:id="p218-2"/>κατὰ φύσιν κινῆται, χαλεπὸν ἀποδοῦναι, ὑπὸ τίνος· οὔτε γὰρ ὑπ’ ἄλλου
               <lb n="4" xml:id="p218-3"/>καὶ ἔξωθεν, ὡς τὰ παρὰ φύσιν, οὐδ’ ὑπὸ τῆς ἔνδον ἀρχῆς ἐν ἑαυτοῖς καὶ<note type="apparatus" n="4" target="#p218-3">οὐδ’ M: οὐδὲ S: οὔθ’ CL</note><milestone type="alt-edition" unit="line" ed="Spengel 1866" n="5"/>
-              <lb n="5" xml:id="p218-4"/>αἰτίας, ὥσπερ ὁρῶμεν τὰ ἔμψυχα’ οὐδὲ γὰρ ἔστιν ἐν ἑαυτοῖς τὸ μὲν κινοῦν<note type="apparatus" n="5" target="#p218-4">οὐδὲ] οὔτε Spengel</note>
+              <lb n="5" xml:id="p218-4"/>αἰτίας, ὥσπερ ὁρῶμεν τὰ ἔμψυχα· οὐδὲ γὰρ ἔστιν ἐν ἑαυτοῖς τὸ μὲν κινοῦν<note type="apparatus" n="5" target="#p218-4">οὐδὲ] οὔτε Spengel</note>
               <lb n="6" xml:id="p218-5"/>τὸ δὲ κινούμενον, οὔτε διῄρηται εἰς τὸ πάσχον καὶ τὸ ποιοῦν, ὥσπερ τὰ
-              <lb n="7" xml:id="p218-6"/>ζῷα εἰς ψυχὴν καὶ σῶμα’ οὐδὲ γὰρ διῄρηται ὅλως, ἀλλ’ ἔστι συνεχῆ καὶ<milestone type="alt-edition" unit="line" ed="Spengel 1866" n="10"/>
-              <lb n="8" xml:id="p218-7"/>ἡνωμένα’ ἄλλως τε εἴπερ εἶχεν ἐν ἑαυτοῖς τὴν αἰτίαν τῆς κινήσεως, οἷόν
+              <lb n="7" xml:id="p218-6"/>ζῷα εἰς ψυχὴν καὶ σῶμα· οὐδὲ γὰρ διῄρηται ὅλως, ἀλλ’ ἔστι συνεχῆ καὶ<milestone type="alt-edition" unit="line" ed="Spengel 1866" n="10"/>
+              <lb n="8" xml:id="p218-7"/>ἡνωμένα· ἄλλως τε εἴπερ εἶχεν ἐν ἑαυτοῖς τὴν αἰτίαν τῆς κινήσεως, οἷόν
               <lb n="9" xml:id="p218-8"/>τινα ψυχήν, οὐ κινεῖν αὐτὰ μόνον, ἀλλὰ καὶ ἱστάναι δύνασθαι, ὥσπερ ἐπὶ<note type="apparatus" n="9" target="#p218-8">post κινεῖν add. ἂν L μόνον CL: μόνα MS ἑστᾶναι Vindob. 110: ἵστασθαι a δύνασθαι MCS, quod non attigi, cum e συμβαίνει pendere videatur: ἐδύνατο L ex Aristot. 255 a 7 (δύναιτο F)</note>
               <lb n="10" xml:id="p218-9"/>τῶν ζῴων, συμβαίνει. καὶ οὐ καθ’ ἕνα τρόπον ἐκινεῖτο ἄν, ἀλλὰ κατὰ<note type="apparatus" n="10" target="#p218-9">ἕνα] ἕτερον C</note>
-              <lb n="11" xml:id="p218-10"/>πλείους, ὥσπερ τὰ ζῷα’ καὶ γὰρ βαδίζει καὶ τρέχει καὶ πηδᾷ καὶ ὀρχεῖται<milestone type="alt-edition" unit="line" ed="Spengel 1866" n="15"/>
-              <lb n="12" xml:id="p218-11"/>καὶ φέρεται ἄνω καὶ κάτω’ ταῦτα δὲ ἁπλῆν καὶ μίαν κινεῖται κίνησιν,<note type="apparatus" n="12" target="#p218-11">δὲ om. C</note>
+              <lb n="11" xml:id="p218-10"/>πλείους, ὥσπερ τὰ ζῷα· καὶ γὰρ βαδίζει καὶ τρέχει καὶ πηδᾷ καὶ ὀρχεῖται<milestone type="alt-edition" unit="line" ed="Spengel 1866" n="15"/>
+              <lb n="12" xml:id="p218-11"/>καὶ φέρεται ἄνω καὶ κάτω· ταῦτα δὲ ἁπλῆν καὶ μίαν κινεῖται κίνησιν,<note type="apparatus" n="12" target="#p218-11">δὲ om. C</note>
               <lb n="13" xml:id="p218-12"/>ὥσπερ ἠναγκασμένην. ἆρ’ οὖν ὑπό τινος καὶ ταῦτα; σκεπτέον δή, πῶς.<note type="apparatus" n="13" target="#p218-12">post ὑπό τινος add. ἀεὶ Aristot. 255 a 19 praeter I</note>
               <lb n="14" xml:id="p218-13"/>Ἔστι καὶ τῶν κινούντων τὰ μὲν κατὰ φύσιν κινητικὰ τὴν ἑαυτῶν τὰ<note type="apparatus" n="14" target="#p218-13">ante τῶν add. δὲ (ex Aristot. 255 a 20) L₂a τὴν αὐτῶν L₂a: αὐτῶν Aristot. 255 a 21</note><milestone type="alt-edition" unit="line" ed="Spengel 1866" n="20"/>
               <lb n="15" xml:id="p218-14"/>δὲ παρὰ φύσιν· παρὰ φύσιν μέν, ὡς ὁ μοχλὸς κινεῖ τὸν λίθον· οὐ γὰρ ᾗ<note type="apparatus" n="15" target="#p218-14">παρὰ φύσιν alt. om. C</note>
@@ -7573,7 +7574,7 @@
               <lb n="23" xml:id="p222-22"/>Ὅτι δ’ ἔστι τι τὸ κινοῦν μὲν ἀκίνητον δέ, καὶ ἄλλως ἂν δόξειεν εὔλογον<note type="apparatus" n="23" target="#p222-22">Ὅτι κτλ.] Arist. 256 b 3</note>
               <lb n="24" xml:id="p222-23"/>εἶναι. εἰ γάρ τινα ἀμφοῖν μετέχει τοῦ κινεῖν καὶ κινεῖσθαι, τινὰ δὲ<milestone type="alt-edition" unit="line" ed="Spengel 1866" n="5"/><note type="apparatus" n="24" target="#p222-23">τινα MC: τινα μὲν SL ἀμφοῖν μετέχει κτλ.] cf. Simpl. 1227,17 sqq. μετέχειν C τινὰ — (25) κινεῖσθαι om. C</note>
               <lb n="25" xml:id="p222-24"/>θατέρου τοῦ κινεῖσθαι μόνον, εὔλογον (ἵνα μὴ εἴπωμεν ἀναγκαῖον) καὶ τοῦ<note type="apparatus" n="25" target="#p222-24">εὔλογον — (26) μόνον om. L₁: restituit L₂, sed ita, ut post μόνον (v. 25) addiderit μετέχει, alterum μόνον (v. 26) omiserit; itemque a εἴπομεν L₂a</note>
-              <lb n="26" xml:id="p222-25"/>λειπομένου τινὰ μόνον μετέχειν, λέγω δὲ τοῦ κινεῖν, μὴ κινεῖσθαι δέ· ἐφ<milestone type="alt-edition" unit="line" ed="Spengel 1866" n="10"/><note type="apparatus" n="26" target="#p222-25">λοιπομένου L₂a</note>
+              <lb n="26" xml:id="p222-25"/>λειπομένου τινὰ μόνον μετέχειν, λέγω δὲ τοῦ κινεῖν, μὴ κινεῖσθαι δέ· ἐφ’<milestone type="alt-edition" unit="line" ed="Spengel 1866" n="10"/><note type="apparatus" n="26" target="#p222-25">λοιπομένου L₂a</note>
             </p>
             <pb n="223" facs="https://archive.org/download/commentariaina05pt13akaduoft/page/n374.jpg"/>
             <p>
@@ -7626,7 +7627,7 @@
               <lb n="9" xml:id="p224-8"/>κινήσεις, ἃς τὰ ζῷα κινεῖται, ἀλλὰ μόνη ἡ κατὰ τόπον· αὕτη γὰρ καὶ<note type="apparatus" n="9" target="#p224-8">ἃς ML: αἳ S: ἃ C</note>
               <lb n="10" xml:id="p224-9"/>μόνη καθ’ ὁρμήν, αἱ πλεῖσται δὲ ἔξωθεν καὶ φυσικαί, αὔξησις φθίσις ἀναπνοή,
               <lb n="11" xml:id="p224-10"/>ἃς κινεῖται τῶν ζῴων ἕκαστον οὐχ ὑπὸ τῆς ἐν αὑτῷ ἀρχῆς, ἀλλ’<note type="apparatus" n="11" target="#p224-10">ἕκαστον om. S</note>
-              <lb n="12" xml:id="p224-11"/>· ὑπὸ τοῦ περιέχοντος τῆς εἰσιούσης τροφῆς. ἀλλ’ οὖν καὶ ἣν δοκεῖ μόνην<milestone type="alt-edition" unit="line" ed="Spengel 1866" n="15"/>
+              <lb n="12" xml:id="p224-11"/>ὑπὸ τοῦ περιέχοντος τῆς εἰσιούσης τροφῆς. ἀλλ’ οὖν καὶ ἣν δοκεῖ μόνην<milestone type="alt-edition" unit="line" ed="Spengel 1866" n="15"/>
               <lb n="13" xml:id="p224-12"/>κίνησιν ὑφ’ ἑαυτῶν κινεῖσθαι, λέγω δὲ τὴν κατὰ τόπον, καὶ ταύτης τὸ
               <lb n="14" xml:id="p224-13"/>ἐνδόσιμον ἔξωθεν, ὥσπερ ὅταν τῆς τροφῆς διακριθείσης ἐγείρωνται, ὅθεν
               <lb n="15" xml:id="p224-14"/>οὐδὲ συνεχῶς οἷά τε κινεῖσθαι ταύτην τὴν κίνησιν· ὁ γὰρ ὕπνος διὰ τὴν
@@ -7795,7 +7796,7 @@
             <p>
               <lb n="1" xml:id="p229-0"/>καὶ πέρας, καὶ ἅμα κατ’ ἐνέργειαν μέσον καὶ στάσις ἐπ’ αὐτοῦ· οὐ γὰρ<milestone type="alt-edition" unit="page" ed="Spengel 1866" n="438"/><note type="apparatus" n="1" target="#p229-0">ἐνέργειαν — (2) πέρας καὶ om. S οὐ γὰρ — (2. 3) ἐπ’ αὐτοῦ om. L</note>
               <lb n="2" xml:id="p229-1"/>ἂν ἦν ἀρχὴ καὶ πέρας καὶ ἐνεργείᾳ σημεῖον μὴ γενομένης στάσεως ἐπ
-              <lb n="3" xml:id="p229-2"/>αὐτοῦ· ὅταν δὲ συνεχῶς φέρηται, οὔτε γεγονέναι οὔτ ἀπογεγονέναι τὸ φερομενον
+              <lb n="3" xml:id="p229-2"/>αὐτοῦ· ὅταν δὲ συνεχῶς φέρηται, οὔτε γεγονέναι οὔτ ἀπογεγονέναι τὸ φερόμενον
               <lb n="4" xml:id="p229-3"/>οἷόν τε κατὰ σημεῖον, ἀλλὰ μόνον εἶναι ἐν τῷ νῦν, ἐν χρόνῳ δὲ
               <lb n="5" xml:id="p229-4"/>οὐδενὶ πλὴν εἰ λέγοι τις οὕτως ἐν χρόνῳ, ὅτι τὸ νῦν χρόνου τί ἐστιν·<milestone type="alt-edition" unit="line" ed="Spengel 1866" n="20"/>
               <lb n="6" xml:id="p229-5"/>διαίρεσις γὰρ τοῦ ὅλου. ἆρ οὖν ὁμοίως καὶ ἐπὶ τῶν περάτων τῆς ὅλης
@@ -7872,7 +7873,7 @@
               <lb n="8" xml:id="p231-7"/>〈ἓν καὶ ταὐτό〉; οὔτε γὰρ τὸ μελανθῆναι τοῦ λευκαίνεσθαι πέρας οὔτε τὸ<note type="apparatus" n="8" target="#p231-7">ἓν καὶ ταὐτό addidi e Simpl. 1307,5; ante πέρας ins. τὸ αὐτὸ L (ex Aristot. ib.)</note>
               <lb n="9" xml:id="p231-8"/>λευκανθῆναι τοῦ μελαίνεσθαι.
               <lb n="10" xml:id="p231-9"/>Ταῖς μὲν τοίνυν ἄλλαις κινήσεσιν, εἰ μὲν συνεχεῖς ὑποτεθῶσι, τοσαῦτα
-              <lb n="11" xml:id="p231-10"/>ἀδύνατα ἕπεται· μόνη δὲ τῇ κύκλῳ καὶ ἐπὶ γραμμῆς περιφεροῦς οὐδὲν<milestone type="alt-edition" unit="line" ed="Spengel 1866" n="5"/>
+              <lb n="11" xml:id="p231-10"/>ἀδύνατα ἕπεται· μόνῃ δὲ τῇ κύκλῳ καὶ ἐπὶ γραμμῆς περιφεροῦς οὐδὲν<milestone type="alt-edition" unit="line" ed="Spengel 1866" n="5"/>
               <lb n="12" xml:id="p231-11"/>ἄτοπον ἀκολουθεῖ. τὸ γὰρ ἐκ τοῦ Α κινούμενον ἅμα καὶ εἰς τὸ Α κινήσεται
               <lb n="13" xml:id="p231-12"/>κατὰ τὴν αὐτὴν πρόθεσιν καὶ ὁρμήν· οὐ γὰρ εἰς ἄλλο πρότερον ἥξει<milestone type="alt-edition" unit="line" ed="Spengel 1866" n="10"/><note type="apparatus" n="13" target="#p231-12">οὐ] καὶ S</note>
               <lb n="14" xml:id="p231-13"/>σημεῖον (οὐδὲ γὰρ ἐνεργείᾳ σημεῖον ἐπὶ τοῦ κύκλου) οὐδὲ ἀνακάμψει ποθὲν<note type="apparatus" n="14" target="#p231-13">ἀνακάμπτει M</note>
@@ -7955,7 +7956,7 @@
           <div type="textpart" subtype="section" n="10">
             <p>
               <lb n="14" xml:id="p233-13"/>10. Ὅτι μὲν οὖν ἀΐδιον καὶ ἀκίνητον τὸ πρῶτον κινοῦν, ἐν τοῖς ἔμπροσθεν<note type="apparatus" n="14" target="#p233-13">quae leguntur apud Aristot. Ὅτι δ’ (265 b 17) — φαμεν (266 a 5) praetermisit Themistius</note>
-              <lb n="15" xml:id="p233-14"/>ἀποδέδεικται· ὅτι δ ἀμερὲς καὶ ἀσώματον, λέγομεν ἤδη. κείσθω<note type="apparatus" n="15" target="#p233-14">λέγωμεν Spengel (ut ElK Aristot. 266 a 11) κείσθω L2a: κινείσθω MCSL1</note>
+              <lb n="15" xml:id="p233-14"/>ἀποδέδεικται· ὅτι δ’ ἀμερὲς καὶ ἀσώματον, λέγομεν ἤδη. κείσθω<note type="apparatus" n="15" target="#p233-14">λέγωμεν Spengel (ut ElK Aristot. 266 a 11) κείσθω L2a: κινείσθω MCSL1</note>
               <lb n="16" xml:id="p233-15"/>δὴ πᾶν τὸ κινούμενον ὑπὸ σώματος μὴ κατὰ τὴν ἑαυτοῦ φύσιν κινεῖσθαι,<milestone type="alt-edition" unit="line" ed="Spengel 1866" n="20"/><note type="apparatus" n="16" target="#p233-15">κινεῖσθαι om. C</note>
               <lb n="17" xml:id="p233-16"/>ἀλλὰ βίᾳ καὶ ἔξωθεν· ὁρῶμεν δὲ ἐπὶ τῶν οὕτω κινούντων τε καὶ κινουμένων
               <lb n="18" xml:id="p233-17"/>ἀεὶ τὴν μείζονα δύναμιν τῆς ἐλάττονος ἐπὶ πλέονά τε χρόνον δυναμένην<note type="apparatus" n="18" target="#p233-17">πλέον ἅτε C</note>

@@ -49,6 +49,7 @@
       <change when="2026-10-23" who="#NI">Quotation marks made uniform: opening single and double quotation marks, printed in the edition in the reversed (high-reversed-9) form, are encoded as ‘ and “, closing ones as ’ and ”, single and double kept as printed; opening marks read by the OCR as straight quotes, low quotes or spacing breathings, and spacing breathings or quotation marks doubled before a capital that already bears its breathing, corrected.</change>
       <change when="2026-11-05" who="#NI">Apparatus entries printed out of numerical order (e.g. 33 … 32) separated from the preceding entry; words hyphenated across lines joined in Latin text as in Greek; words mixing Greek and Latin letters (OCR errors, about 130, including manuscript sigla) corrected on the page images; marginal folio marks left in the text removed; validated against TEI P5 version 4.12.0 (recorded in TEI/@version).</change>
       <change when="2026-11-05" who="#NI">Extent of the lemma quotations (quote[@type='lemma']) checked on the page images: lemmata closed before their last printed line (the quotation was closed when the collation text was covered, so a short centred last line could be left out) extended; abbreviated lemmata (Ἀλλὰ … γένη.) whose quotation had taken in the first line of the commentary shortened (11 places in the pilot works); candidates found from the letter-spacing of the lines on the page images and the line geometry and decided on the page images (Claude work teams).</change>
+      <change when="2026-11-22" who="#NI">Readings questioned by the review of the translations collated on the page images (read independently, at least twice wherever the print does not have the proposed form, by a language model, Claude; the 28 places in all works that it could not settle were read by the editor): 13 errors of the transcription corrected.</change>
     </revisionDesc>
   </teiHeader>
   <text>
@@ -127,7 +128,7 @@
           <div type="textpart" subtype="section" n="0">
             <head><lb n="1" xml:id="p4-0"/>Δεξίππου Πλατωνικοῦ φιλοσόφου τῶν εἰς τὰς Ἀριστοτέλους κατηγορίας<milestone type="alt-edition" unit="page" ed="Spengel 1859" n="4"/><note type="apparatus" n="1" target="#p4-0">φιλοσόφου 1-4 tit. exhib. CR: om. AM</note>
 <lb n="2" xml:id="p4-1"/>ἀποριῶν τε καὶ λύσεων τὸ πρῶτον. ἔστι δὲ διαλογικὸν<note type="apparatus" n="2" target="#p4-1">ἔστι C: ἔτι R</note>
-<lb n="3" xml:id="p4-2"/>τὸ σύγγραμμα καὶ τὰ τοῦ διαλόγου πρόσωπα αὐτὸς οὗτος Δεξιππος<note type="apparatus" n="3" target="#p4-2">οὗτος R: οὗτος Πλατωνικοῦ colloc. C</note>
+<lb n="3" xml:id="p4-2"/>τὸ σύγγραμμα καὶ τὰ τοῦ διαλόγου πρόσωπα αὐτὸς οὗτος Δέξιππος<note type="apparatus" n="3" target="#p4-2">οὗτος R: οὗτος Πλατωνικοῦ colloc. C</note>
 <lb n="4" xml:id="p4-3"/>καὶ Σέλευκος.</head>
             <p>
               <lb n="5" xml:id="p4-4"/>Ὄκνος τις ἔχει με μάλα καλὴν καὶ γενναίαν χάριν αἰτῆσαι προθυμούμενον,<milestone type="alt-edition" unit="line" ed="Spengel 1859" n="5"/>
@@ -405,7 +406,7 @@
               <lb n="30" xml:id="p11-29"/>ἔτι τοίνυν αἱ ἀνωτάτω τῶν γενῶν διαστάσεις ἢ εἰ οὕτω τις βούλοιτο<milestone type="alt-edition" unit="line" ed="Spengel 1859" n="20"/>
               <lb n="31" xml:id="p11-30"/>λέγειν τῶν γενικωτάτων λέξεων οὐδὲν ἔχουσι κοινὸν πρὸς ἀλλήλας·
               <lb n="32" xml:id="p11-31"/>οὔκουν οὐδὲν ἕξουσιν οὐσιῶδες ἐφ’ ἑαυτῷ ὂν ἢ λεγόμενον κατηγόρημα<note type="apparatus" n="32" target="#p11-31">οὐκοῦν AC</note>
-              <lb n="33" xml:id="p11-32"/>ἕτερον ἀνωτέρω. κατὰ δὴ τοῦτον τὸν διορισμὸν δεῖ τοὺς ὀρθῶς θηρεύοντὰς<note type="apparatus" n="33" target="#p11-32">ὀρθῶς CMR: ὄρθους (sic) A</note>
+              <lb n="33" xml:id="p11-32"/>ἕτερον ἀνωτέρω. κατὰ δὴ τοῦτον τὸν διορισμὸν δεῖ τοὺς ὀρθῶς θηρεύοντας<note type="apparatus" n="33" target="#p11-32">ὀρθῶς CMR: ὄρθους (sic) A</note>
               <lb n="34" xml:id="p11-33"/>τὰς κατηγορίας μήτε τὸ ὂν ὡς κοινὸν καθ’ ὅλων ἀποδεικνύναι (εἰ δὲ<note type="apparatus" n="34" target="#p11-33">τὸ AM: om. CR</note><milestone type="alt-edition" unit="line" ed="Spengel 1859" n="25"/>
             </p>
             <pb n="12" facs="https://archive.org/download/commentariainari04akaduoft/page/n27.jpg"/>
@@ -1273,7 +1274,7 @@
               <lb n="10" xml:id="p32-9"/>τοὺς περιττεύειν λέγοντας τὴν τῶν κατηγοριῶν διάταξιν, <milestone type="alt-edition" unit="page" ed="Spengel 1859" n="39"/> ἀπάντησον δὲ<note type="apparatus" n="10" target="#p32-9">ἀπάντησιν C</note>
               <lb n="11" xml:id="p32-10"/>καὶ πρὸς τοὺς ἐλλείπειν αὐτὴν ἀποφαινομένους· διὰ τί γάρ φασι τῷ μὲν<note type="apparatus" n="11" target="#p32-10">μὲν AM: Simpl. (f. 15v34): μὲν τὸ C: μέντοι R</note>
               <lb n="12" xml:id="p32-11"/>ποιεῖν τὸ πάσχειν ἀντέταξεν, οὐκέτι δὲ τῷ ἔχειν τὸ ἔχεσθαι;<note type="apparatus" n="12" target="#p32-11">ante τὸ πάσχειν add. καὶ CR: om. AM Simpl.: inclus. s τῷ ἔχειν τὸ ἔχεσθαι AM Simpl.: τὸ ἔχειν τῷ ἔχεσθαι CR</note>
-              <lb n="13" xml:id="p32-12"/>Οὗτοι παραλείπων αὐτήν, ὡς ἡμεῖς ἂν εἴποιμεν δικαιολογούμενοι, ἀλλ’<note type="apparatus" n="13" target="#p32-12">οὗτοι CR: οὔτι AM</note>
+              <lb n="13" xml:id="p32-12"/>Οὔτοι παραλείπων αὐτήν, ὡς ἡμεῖς ἂν εἴποιμεν δικαιολογούμενοι, ἀλλ’<note type="apparatus" n="13" target="#p32-12">οὗτοι CR: οὔτι AM</note>
               <lb n="14" xml:id="p32-13"/>ὅτι ἐνέπιπτεν εἰς τὴν τοῦ κεῖσθαι κατηγορίαν τὴν ἤδη προωρισμένην. ἔχει<note type="apparatus" n="14" target="#p32-13">τὴν (prius) CR Simpl.: om. AM ἤδη AM Simpl.: om. CR προωρισμένην A"CRM: προωριζομένην A!: διωρισμένην Simpl. (fort. rectius)</note><milestone type="alt-edition" unit="line" ed="Spengel 1859" n="5"/>
               <lb n="15" xml:id="p32-14"/>μὲν γάρ τις τὴν ἀσπίδα, ἔχεται δὲ ἡ ἀσπὶς ἐν τῷ οὑτωσὶ περικεῖσθαι·
               <lb n="16" xml:id="p32-15"/>οὐκ ἄλλο τι οὖν ἔσται ἡ θέσις ἢ τάξις τῶν ἐχομένων.<note type="apparatus" n="16" target="#p32-15">ἄλλο τι οὖν CR: ἀλλ’ ὁτιοῦν AM ἔσται CR: ἐστὶν AM θέσις CMR Simpl.: σύνθεσις A</note>
@@ -1513,13 +1514,13 @@
               <lb n="14" xml:id="p39-13"/>τέ ἐστι λαβεῖν μήτε τὰς διαιρετικὰς διαφοράς, οὐκ ἔστι διαίρεσιν καλεῖν
               <lb n="15" xml:id="p39-14"/>τὴν τοιαύτην ἀπαρίθμησιν.
               <lb n="16" xml:id="p39-15"/>Ἆρ’ οὖν τοῖς ἐπὶ στρατιᾶς ἔοικεν ἡ διαίρεσις οἷον τοῖς κατὰ<note type="apparatus" n="16" target="#p39-15">στρατιᾶς R Simpl.: στρατείας ACM</note><note type="apparatus" n="16-17" target="#p39-15 #p39-16">κατὰ λόχου C *18 ἐνταῦθα CR: om. AM</note>
-              <lb n="17" xml:id="p39-16"/>λόγους συντεταγμένοις; καὶ γὰρ ἐκεῖ ἑκάστου λόχου ἕκαστος λοχαγὸς<milestone type="alt-edition" unit="line" ed="Spengel 1859" n="20"/>
+              <lb n="17" xml:id="p39-16"/>λόχους συντεταγμένοις; καὶ γὰρ ἐκεῖ ἑκάστου λόχου ἕκαστος λοχαγὸς<milestone type="alt-edition" unit="line" ed="Spengel 1859" n="20"/>
               <lb n="18" xml:id="p39-17"/>ἐξηγεῖται, καὶ ἐνταῦθα ἡ μὲν οὐσία τῶν οὐσιῶν, αἱ δ’ ἄλλαι κατηγορίαι<milestone type="alt-edition" unit="page" ed="Spengel 1859" n="48"/>
               <lb n="19" xml:id="p39-18"/>τῶν ὑφ’ ἑαυτὰς τὸ κῦρος τῆς ἡγεμονίας προειλήφασιν;
               <lb n="20" xml:id="p39-19"/>Ἀλλ’ ἐὰν τοῦτο λέγωμεν, διεσπαρμένον τι πλῆθος ἔσται τὸ τῶν<note type="apparatus" n="20" target="#p39-19">διεσπαρμένον CR: διεσπασμένον AM τὸ] τὲ Α</note>
               <lb n="21" xml:id="p39-20"/>ὄντων καὶ ἐοικὸς τοῖς ἐκ διεστηκυιῶν φυλῶν καὶ φρατριῶν συναγομένοις<note type="apparatus" n="21" target="#p39-20">διεστηκυιῶν scripsi: διεστηκότων codd. s φατριῶν Μ</note><note type="apparatus" n="21-22" target="#p39-20 #p39-21">συναγομένοις CR mrg. A mrg. M: συγκειμένοις ΑM</note>
               <lb n="22" xml:id="p39-21"/>εἰς ἓν δήμοις. τοῦτο δὲ τὴν συνέχειαν καὶ ἀλληλουχίαν ἀναιρεῖ<milestone type="alt-edition" unit="line" ed="Spengel 1859" n="5"/><note type="apparatus" n="22" target="#p39-21">εἰς ἓν δήμοις CMR: ἐνδήμοις Α</note>
-              <lb n="23" xml:id="p39-22"/>τῆς διακοσμήσεως. βέλτιον οὖν ἀφορίζεσθαι μὲν τὰ γένη κατά τινας πρώτὰς
+              <lb n="23" xml:id="p39-22"/>τῆς διακοσμήσεως. βέλτιον οὖν ἀφορίζεσθαι μὲν τὰ γένη κατά τινας πρώτας
             </p>
             <pb n="40" facs="https://archive.org/download/commentariainari04akaduoft/page/n55.jpg"/>
             <p>
@@ -1747,7 +1748,7 @@
               <lb n="3" xml:id="p45-2"/>ια. Περὶ δὲ τὸ αὐτὸ ζήτημα κἀκεῖνο στρέφεται, διὰ τί ἐν μὲν τοῖς<note type="apparatus" n="3-4" target="#p45-2 #p45-3">ἐν τοῖς Φυσικοῖς] cf. A 1 p. 184 a 23</note>
               <lb n="4" xml:id="p45-3"/>Φυσικοῖς τὰ κοινὰ προτάττει ὡς πρῶτα, ἐνταῦθα δὲ τὰ καθ’ ἕκαστα.<note type="apparatus" n="4" target="#p45-3">προτάττει C2 MR2: προστάττει AC1 R1</note>
               <lb n="5" xml:id="p45-4"/>Ὅτι αὐτῷ διχῶς λέγεται τὸ πρότερον καὶ δεύτερον, ἤτοι τῇ φύσει ἢ<milestone type="alt-edition" unit="line" ed="Spengel 1859" n="15"/><note type="apparatus" n="5" target="#p45-4">καὶ τὸ δεύτερον C Simpl.</note>
-              <lb n="6" xml:id="p45-5"/>πρὸς ἡμᾶς. πρὸς ἡμᾶς μὲν οὖν τὰ καθ’ ἕκαστα πρῶτα (πρώτοις γὰρ τούτοῖς<note type="apparatus" n="6" target="#p45-5">τὰ καθ’ ἕκαστον πρότερα Simpl.</note>
+              <lb n="6" xml:id="p45-5"/>πρὸς ἡμᾶς. πρὸς ἡμᾶς μὲν οὖν τὰ καθ’ ἕκαστα πρῶτα (πρώτοις γὰρ τούτοις<note type="apparatus" n="6" target="#p45-5">τὰ καθ’ ἕκαστον πρότερα Simpl.</note>
               <lb n="7" xml:id="p45-6"/>προσβάλλομεν), τῇ φύσει δὲ τὰ κοινὰ πρότερον, ὑπὸ γὰρ τὰ καθόλου<note type="apparatus" n="7" target="#p45-6">πρότερον] πρότερα Simpl., quod reponas</note>
               <lb n="8" xml:id="p45-7"/>τὰ καθ’ ἕκαστον τέτακται. εἰ μὲν οὖν ἀπὸ τῆς φύσεως ἄρχοιτό τις, τὰ<note type="apparatus" n="8" target="#p45-7">τὰ καθ’ ἕκαστα Simpl. (sed cf. v. 6 not.)</note>
               <lb n="9" xml:id="p45-8"/>ἁπλᾶ, τὰ αἴτια, τὰ καθ’ αὑτὰ παρ’ αὑτῶν ἔχοντα τὸ εἶναι, τὰ καθόλου,<note type="apparatus" n="9" target="#p45-8">αὐτῶν AC</note><milestone type="alt-edition" unit="line" ed="Spengel 1859" n="20"/>
@@ -1801,7 +1802,7 @@
               <lb n="9" xml:id="p46-8"/>δεῖξαι τὴν πρώτην οὐσίαν μὴ οὖσαν μᾶλλον καὶ ἧττον οὐσίαν, εἶθ’ οὕτως
               <lb n="10" xml:id="p46-9"/>τῶν εἰδῶν τὸ μᾶλλον καὶ ἧττον.<note type="apparatus" n="10" target="#p46-9">τῶν εἰδῶν CR Simpl. (f. 23r24): τοῦ εἴδους AM</note><milestone type="alt-edition" unit="page" ed="Spengel 1859" n="56"/>
               <lb n="11" xml:id="p46-10"/>Ἔστι δὲ καὶ πρὸς τοῦτο ἡ αὐτὴ ἀπολογία, ὡς ἤδη προειλημμένον
-              <lb n="12" xml:id="p46-11"/>εἴγε τὸ μὴ εἶναι μᾶλλον καὶ ἧττον τὴν πρώτην οὐσίαν, ὅτε πρώτως αὐτὴν
+              <lb n="12" xml:id="p46-11"/>εἶχε τὸ μὴ εἶναι μᾶλλον καὶ ἧττον τὴν πρώτην οὐσίαν, ὅτε πρώτως αὐτὴν
               <lb n="13" xml:id="p46-12"/>καὶ μάλιστα καὶ κυριώτατα οὐσίαν εἶναι ἀπεφαίνετο· πάντα γὰρ τὰ τοιαῦτα<note type="apparatus" n="13" target="#p46-12">καὶ (ante κυριώτατα) AM: om. CR</note>
               <lb n="14" xml:id="p46-13"/>ὥρισται καὶ οὐκ ἔχει τὴν τοῦ μᾶλλον καὶ ἧττον ἀπειρίαν. τὸ μὲν γὰρ<milestone type="alt-edition" unit="line" ed="Spengel 1859" n="5"/><note type="apparatus" n="14" target="#p46-13">ἀπειρίαν AMR: ἀπορίαν C</note>
               <lb n="15" xml:id="p46-14"/>μᾶλλον καὶ ἧττον πρόεισιν ἀεὶ ἀπαύστως, τὸ δὲ μάλιστα ἵσταται κατὰ τὴν<note type="apparatus" n="15" target="#p46-14">ἵσταται AM: ὕσταται R: ὕστατον C</note>
@@ -1933,9 +1934,9 @@
               <lb n="7" xml:id="p49-6"/>προστιθέναι εἰς τὸν ὅρον τοῦ ἐν ὑποκειμένῳ τὸ οὐδὲν συντελοῦντος εἰς τὴν<note type="apparatus" n="7" target="#p49-6">συντελοῦν Brand.</note>
               <lb n="8" xml:id="p49-7"/>οὐσίαν τοῦ ὑποκειμένου· τὸ γὰρ εἶδος συντελεῖ τι καὶ ἡ διαφορά. ἐπειδὴ<milestone type="alt-edition" unit="line" ed="Spengel 1859" n="15"/>
               <lb n="9" xml:id="p49-8"/>τοίνυν ταῦτα προειλήφαμεν, ἀναλάβωμεν τὰς λύσεις τῶν παλαιῶν φιλοσόφων
-              <lb n="10" xml:id="p49-9"/>περὶ τῆς διαφορᾶς. μία μὲν δόξα γένοιτ ἂν ἡ ποιότητα τιθεμένη<note type="apparatus" n="10" target="#p49-9">τῆς om. C</note>
+              <lb n="10" xml:id="p49-9"/>περὶ τῆς διαφορᾶς. μία μὲν δόξα γένοιτ’ ἂν ἡ ποιότητα τιθεμένη<note type="apparatus" n="10" target="#p49-9">τῆς om. C</note>
               <lb n="11" xml:id="p49-10"/>τὴν διαφοράν, ποιότητα δὲ οὐσιώδη καὶ συμπληρωτικὴν τῆς οὐσίας· ἄλλη<note type="apparatus" n="11-12" target="#p49-10 #p49-11">ἄλλη δ’ ἡ AM: ἀλλ’ ἤδη CR</note>
-              <lb n="12" xml:id="p49-11"/>δ ἡ μέσον ποιότητος καὶ οὐσίας τὴν διαφορὰν ὑπολαμβάνουσα, κοινόν<note type="apparatus" n="12" target="#p49-11">οὐσίας τὴν supra scr. C διαφορὰν] ἂν in lit. C</note>
+              <lb n="12" xml:id="p49-11"/>δ’ ἡ μέσον ποιότητος καὶ οὐσίας τὴν διαφορὰν ὑπολαμβάνουσα, κοινόν<note type="apparatus" n="12" target="#p49-11">οὐσίας τὴν supra scr. C διαφορὰν] ἂν in lit. C</note>
               <lb n="13" xml:id="p49-12"/>τινα σύνδεσμον παρεχομένην ταῖς μὲν οὐσίαις πρὸς τὰ οὐσιώδη συμβεβηκότα,<milestone type="alt-edition" unit="line" ed="Spengel 1859" n="20"/><note type="apparatus" n="13" target="#p49-12">παρεχομένην C Simpl.: παρεχομένη AMRs</note>
               <lb n="14" xml:id="p49-13"/>τοῖς δὲ συμβεβηκόσι πρὸς τὰς οὐσίας. ἡ γὰρ φύσις οὐκ εὐθὺς μεταβαίνει
               <lb n="15" xml:id="p49-14"/>ἀπὸ τῶν ἐναντίων ἐπὶ τὰ ἐναντία, οἷον ἀπὸ τῶν ζῴων ἐπὶ τὰ φυτά,<note type="apparatus" n="15" target="#p49-14">φυτά] ἁ in lit. R²</note>
@@ -1943,7 +1944,7 @@
               <lb n="17" xml:id="p49-16"/>ἀμφοτέρων τῶν ἄκρων καὶ συμπληρωτικὴν καὶ συνδετικὴν αὐτῶν πρὸς<milestone type="alt-edition" unit="line" ed="Spengel 1859" n="25"/><note type="apparatus" n="17" target="#p49-16">συνδετικὴν καὶ συμπληρωτικὴν colloc. M (corr. numeris superscr.) συνδετικὴν CMR Simpl.: συνδεκτικὴν A: σύνδεσμον Brand.</note>
               <lb n="18" xml:id="p49-17"/>ἄλληλα. καὶ ἐνταῦθα τοίνυν τῶν διαφόρων γενῶν οἷον οὐσίας καὶ συμβεβηκότος
               <lb n="19" xml:id="p49-18"/>μέσον τι ἔσται κατὰ μέν τινας ὡς μετέχον ἀμφοτέρων τούτων,
-              <lb n="20" xml:id="p49-19"/>κατ’ ἄλλους δὲ ὡς κεχωρισμένον ἀμφοῖν. ἄλλη δ ἂν γένοιτο δόξα τῶν
+              <lb n="20" xml:id="p49-19"/>κατ’ ἄλλους δὲ ὡς κεχωρισμένον ἀμφοῖν. ἄλλη δ’ ἂν γένοιτο δόξα τῶν
               <lb n="21" xml:id="p49-20"/>λεγόντων μὴ μόνον συμπληρωτικὴν εἶναι τῆς οὐσίας τὴν διαφοράν, ἀλλὰ<milestone type="alt-edition" unit="page" ed="Spengel 1859" n="60"/>
               <lb n="22" xml:id="p49-21"/>καὶ μέρος αὐτῆς, ἤτοι τὴν κατὰ τὴν ἐμπερίληψιν τοῦ ὑποκειμένου θεωρουμένην,<note type="apparatus" n="22" target="#p49-21">τὴν (post ἤτοι) CR: om. AM Simpl.</note>
               <lb n="23" xml:id="p49-22"/>μέρος οὖσαν τῆς κατὰ τὸ εἶδος οὐσίας ἢ συναλλοιουμένην ταῖς περὶ<note type="apparatus" n="23" target="#p49-22">ἢ μέρος Simpl.</note>
@@ -2078,7 +2079,7 @@
               <lb n="24" xml:id="p52-23"/>κοινῷ γὰρ χρῆται τῷ τῆς ἐναντιώσεως ὀνόματι καὶ ἐπὶ τῶν
               <lb n="25" xml:id="p52-24"/>ἄλλων ἀντιθέσεων. ἔστι μὲν οὖν καὶ αὕτη ἡ λύσις οὐκ ἀπόβλητος, ὡς<note type="apparatus" n="25" target="#p52-24">ἀπόβλητον AM ὡς ἔμοιγε CR: ὥς γέ μοι AM</note>
               <lb n="26" xml:id="p52-25"/>ἔμοιγε δοκεῖ· κάλλιον δ’ εἴη ἂν καὶ Ἀριστοτελικώτερον μᾶλλον οὕτω λύειν<note type="apparatus" n="26" target="#p52-25">εἴη ἂν scripsi: εἶναι libri, quod delendum coni. Spengel μᾶλλον CR: om. AM οὕτω post ταύτην (27) transp. AM</note>
-              <lb n="27" xml:id="p52-26"/>τὴν ἀπορίαν ταύτην, ὅτι τὸ εἶδος τῇ στερήσει οὐχ ὡς οὐσία οὐσίᾳ ἀντίκεῖται,
+              <lb n="27" xml:id="p52-26"/>τὴν ἀπορίαν ταύτην, ὅτι τὸ εἶδος τῇ στερήσει οὐχ ὡς οὐσία οὐσίᾳ ἀντίκειται,
               <lb n="28" xml:id="p52-27"/>ἀλλ’ ὡς τὸ ὂν πρὸς τὸ μὴ ὂν τῷ εἴδει ἢ ὡς ἀρχὴ πρὸς τὸ ἔσχατον<note type="apparatus" n="28" target="#p52-27">τῷ εἴδει om. Simpl. (fort. recte)</note>
               <lb n="29" xml:id="p52-28"/>καὶ τὸ ἀγαθὸν πρὸς τὸ <milestone type="alt-edition" unit="page" ed="Spengel 1859" n="64"/> κακὸν ἕξει κατὰ παντελῆ ἀπόστασιν ἢ ὕφεσιν
               <lb n="30" xml:id="p52-29"/>τελέαν τὴν ἐναντίωσιν. οὕτω γὰρ ἡμῶν διαιρουμένων οὐσιῶν μὲν ἐναντίωσις<note type="apparatus" n="30" target="#p52-29">τελείαν Simpl. (fort. recte, cf. p. 53, 9. 14)</note>
@@ -2331,7 +2332,7 @@
               <lb n="21" xml:id="p58-20"/>οὐσίαν τὸ δέχεσθαι ἀνὰ μέρος τὰ ἐναντία, ὥστε ὃ μέν ἐστιν ἡ οὐσία
               <lb n="22" xml:id="p58-21"/>οὐκ εἴρηκεν, οὐδὲ ὅπερ ἀεὶ ὑπάρχει ἰδίως παρέστησεν ὁ Ἀριστοτέλης, ὃ<milestone type="alt-edition" unit="line" ed="Spengel 1859" n="5"/>
               <lb n="23" xml:id="p58-22"/>δὲ ἄλλως αὐτῇ παρηκολούθηκε, δεδήλωκε.
-              <lb n="24" xml:id="p58-23"/>Φήσομεν οὖν πρὸς τὸν ἄνδρα τὸν ταῦτ’ ἀποροῦντα, ὡς κρεῖττόν τι ἡ<note type="apparatus" n="24-25" target="#p58-23 #p58-24">κρεῖττόν τι ἢ κατὰ correxi ex Simpl. (ἀόρατόν τι ζητεῖ καὶ κρεῖττον ἢ κατὰ): κριτήν τινα καὶ CRs: καὶ (κριτήν τινα in lac. om.) AM</note>
+              <lb n="24" xml:id="p58-23"/>Φήσομεν οὖν πρὸς τὸν ἄνδρα τὸν ταῦτ’ ἀποροῦντα, ὡς κρεῖττόν τι ἢ<note type="apparatus" n="24-25" target="#p58-23 #p58-24">κρεῖττόν τι ἢ κατὰ correxi ex Simpl. (ἀόρατόν τι ζητεῖ καὶ κρεῖττον ἢ κατὰ): κριτήν τινα καὶ CRs: καὶ (κριτήν τινα in lac. om.) AM</note>
               <lb n="25" xml:id="p58-24"/>κατὰ τὴν αἰσθητὴν οὐσίαν ἀπαιτεῖ, ὃ μέλλει ταὐτὸ παρέχειν πᾶσιν οὐσίας<note type="apparatus" n="25" target="#p58-24">αἰσθητὴν CMR: αἴσθησιν A ἀπαιτεῖ] ἀπαίτει MR: ἀπάντησιν C: ἀπαιτεῖν s: in lac. om. A μέλει A ταὐτὸ CR: ταὐτὸν AM Simpl. (fort. recte)</note>
               <lb n="26" xml:id="p58-25"/>εἶδος, οὐ προσποιεῖται δέ, ὅτι συμπεφορημένης ταύτης οὔσης δεῖ καὶ τὰ<note type="apparatus" n="26" target="#p58-25">προσποιεῖται ex προσωποιεῖται corr. M: προσποιεῖσθαι coni. Spengel ταύτης συμπεφ. οὔσης colloc. AM: συμπεφ. οὔσης ταύτης colloc. C</note><milestone type="alt-edition" unit="line" ed="Spengel 1859" n="10"/>
               <lb n="27" xml:id="p58-26"/>ἰδιώματα τοιαῦτα εἶναι, ὁποία αὐτή ἐστιν. ἐπεὶ καὶ νῦν ὁ Ἀριστοτέλης
@@ -2679,7 +2680,7 @@
               <lb n="25" xml:id="p68-24"/>εἶδος· ὅσα δὲ ἄυλά ἐστιν εἴδη καὶ ἀσύνθετα, ταῦτα ἀποδείκνυσιν ἐν πάσαις
               <lb n="26" xml:id="p68-25"/>αὐτοῦ ταῖς ἀκροάσεσι ταὐτὸν ἔχοντα τό τε εἶναι κατὰ τὴν οὐσίαν καὶ τὸ<note type="apparatus" n="26" target="#p68-25">αὐτοῦ] αὐτῶ (superscr οῦ) A</note>
               <lb n="27" xml:id="p68-26"/>ἐν τοῖς δεδεγμένοις αὐτὰ εἶναι καὶ φαίνεσθαι. ἐὰν οὖν χωρίζων ὁ Πλωτῖνος<milestone type="alt-edition" unit="line" ed="Spengel 1859" n="25"/>
-              <lb n="28" xml:id="p68-27"/>τοὺς νοητοὺς καὶ τοὺς μετέχοντας αὐτῶν ἀριθμοὺς τὴν ἰδιότητα ἑκάτέρων
+              <lb n="28" xml:id="p68-27"/>τοὺς νοητοὺς καὶ τοὺς μετέχοντας αὐτῶν ἀριθμοὺς τὴν ἰδιότητα ἑκατέρων
               <lb n="29" xml:id="p68-28"/>χωρὶς ἀφορίζηται, ἰδίας ὑποθέσεις γυμνάζει, ἡμεῖς δὲ ὑπομιμνήσκομεν<note type="apparatus" n="29" target="#p68-28">γυμάζει A</note>
               <lb n="30" xml:id="p68-29"/>ἑαυτούς, ὡς αὐταῖς ταῖς οὐσίαις τῶν ὄντων ὑπάρχουσι κατ’ Ἀριστοτέλην<note type="apparatus" n="30" target="#p68-29">ἑαυτοὺς ex αὐτοὺς corr. C</note>
               <lb n="31" xml:id="p68-30"/>οἱ ἀριθμοὶ οὔτε πρότεροι οὔτε ὕστεροι αὐτῶν, ἀλλ’ ἅμα <milestone type="alt-edition" unit="page" ed="Spengel 1859" n="84"/> σὺν

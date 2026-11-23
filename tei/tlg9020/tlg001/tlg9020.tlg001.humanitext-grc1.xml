@@ -56,6 +56,7 @@
       <change when="2026-10-23" who="#NI">Errors found by the accuracy evaluation (sample checked against the page images by student assistants, readings confirmed by the editor) corrected: 1 in the text.</change>
       <change when="2026-11-05" who="#NI">Apparatus entries printed out of numerical order (e.g. 33 … 32) separated from the preceding entry; words hyphenated across lines joined in Latin text as in Greek; words mixing Greek and Latin letters (OCR errors, about 130, including manuscript sigla) corrected on the page images; marginal folio marks left in the text removed; validated against TEI P5 version 4.12.0 (recorded in TEI/@version).</change>
       <change when="2026-11-05" who="#NI">Extent of the lemma quotations (quote[@type='lemma']) corrected: the automatic division had closed every lemma after its first printed line, leaving the remaining lines of lemmata printed over two or more lines at the head of the following paragraph. Candidates were found from the letter-spacing of the lines on the page images (lemmata are printed spaced) and from the line geometry (centred last line, indented paragraph start), and every candidate was decided on the page image (Claude work teams; about 7,700 places in the corpus); the lines so decided are now inside the quotation, with pb inside the quotation where a lemma runs on to the next page. Where the lemma runs on in the same line as the commentary (Stephanus in De interpretatione), the quotation ends after the last spaced word and the paragraph continues in the same line without a new lb; where no lemma is printed and the paraphrase follows the Bekker reference directly (Michael in De partibus animalium from p. 37), the quotation is dropped and the division kept; centred last lines the edition does not count are inside the quotation as unnumbered lines.</change>
+      <change when="2026-11-22" who="#NI">Readings questioned by the review of the translations collated on the page images (read independently, at least twice wherever the print does not have the proposed form, by a language model, Claude; the 28 places in all works that it could not settle were read by the editor): 12 errors of the transcription corrected.</change>
     </revisionDesc>
   </teiHeader>
   <text>
@@ -315,7 +316,7 @@
               <lb n="23" xml:id="p269-22"/>οἱ ἄριστοι καὶ κρατήσουσιν ἴσως τῆς πόλεως καὶ γενήσεται ἀριστοκρατία
               <lb n="24" xml:id="p269-23"/>καὶ ἡ δημοκρατία ἀναιρεθήσεται. ὥστε καὶ ὑπὸ τῆς ὑπερβολῆς αὑτοῦ καὶ<note type="apparatus" n="24" target="#p269-23">utrum V praebeat ἀναιρεθήσεται an ἀναιρηθήσεται, dubium est</note>
               <lb n="25" xml:id="p269-24"/>ὑπὸ τῆς ἐλλείψεως αὐτοῦ φθείρεται τὸ φθειρόμενον. βελτίστη δὲ πολιτεία<milestone type="alt-edition" unit="line" ed="Cramer, Anecd. Paris. I" n="20"/>
-              <lb n="26" xml:id="p269-25"/>ἢ ἡ βασιλεία ἡ ἐκείνη, ἐν ᾗ συντρέχει τὸ καὶ βασιλείαν εἶναι καὶ δημοκρατίαν<note type="apparatus" n="26" target="#p269-25">ἢ (ante ἡ) om. c</note>
+              <lb n="26" xml:id="p269-25"/>ἢ ἡ βασιλεία ἢ ἐκείνη, ἐν ᾗ συντρέχει τὸ καὶ βασιλείαν εἶναι καὶ δημοκρατίαν<note type="apparatus" n="26" target="#p269-25">ἢ (ante ἡ) om. c</note>
               <lb n="27" xml:id="p269-26"/>καὶ ἀριστοκρατίαν· ἄρχει γὰρ ὁ βασιλεύς, ἀλλὰ καὶ οἱ ἄριστοι
               <lb n="28" xml:id="p269-27"/>τῶν ἀνδρῶν παραδυναστεύουσιν αὐτῷ φρόνιμοι ὄντες καὶ τὰ συμφέροντα
               <lb n="29" xml:id="p269-28"/>ὑποτιθέμενοι. ἀλλὰ καὶ δημοκρατίαν ἔστιν ἰδεῖν· παρὰ γὰρ τῷ ἐπάρχῳ<milestone type="alt-edition" unit="line" ed="Cramer, Anecd. Paris. I" n="25"/>
@@ -435,7 +436,7 @@
               <lb n="18" xml:id="p272-17"/>ἀεὶ καθ’ ἑκάστην ἡμέραν ἀπήρχετο μονώτατος εἰς τόνδε τὸν τόπον ἐπὶ<milestone type="alt-edition" unit="line" ed="Cramer, Anecd. Paris. I" n="5"/>
               <lb n="19" xml:id="p272-18"/>ἐνιαυτοὺς πεντήκοντα, εἶτα κατὰ τὴν τρίτην τοῦ Ἀπριλλίου μηνὸς ἐκεῖνος<note type="apparatus" n="19" target="#p272-18">ἐνιαυτὸν c</note>
               <lb n="20" xml:id="p272-19"/>μὲν οὐκ ἦλθεν εἰς τὸν τόπον ἐκεῖνον κατὰ τὸ ἔθος, ἄνδρες δὲ ἑκατὸν ἦλθον<note type="apparatus" n="20" target="#p272-19">ἔθος c: ἦθος V</note>
-              <lb n="21" xml:id="p272-20"/>ἐπὶ τὸν τόπον ἐκεῖνον καὶ χάσμα γέγονε γῆς καὶ κατεπόθησαν ἅπαξπαντες,
+              <lb n="21" xml:id="p272-20"/>ἐπὶ τὸν τόπον ἐκεῖνον καὶ χάσμα γέγονε γῆς καὶ κατεπόθησαν ἁπαξάπαντες,
               <lb n="22" xml:id="p272-21"/>εὐτυχὴς ὁ Πλάτων, ὅτι ἀεὶ ἐρχόμενος σήμερον οὐκ ἦλθεν ἢ οὐ
               <lb n="23" xml:id="p272-22"/>συνῆλθε κἂν ἐκείνοις τοῖς ἀπολομένοις ἀνθρώποις.<note type="apparatus" n="23" target="#p272-22">συνῆλθεν ἐκείνοις cod. Paris. gr. 1951</note><milestone type="alt-edition" unit="line" ed="Cramer, Anecd. Paris. I" n="10"/>
             </p>
@@ -519,9 +520,9 @@
               <lb n="17" xml:id="p274-16"/>καὶ τὰ πολλὰ τῶν ἀναλωμάτων θελῆσαι ὑποχωρῆσαι οὕτω μηδὲν ἀνύσαντας<note type="apparatus" n="17" target="#p274-16">ἀνύσαντες c 9</note><milestone type="alt-edition" unit="line" ed="Cramer, Anecd. Paris. I" n="15"/>
               <lb n="18" xml:id="p274-17"/>φορτικόν ἐστιν, ὥσπερ καὶ εἴ τις μακρόθεν ὑδρευσάμενος καὶ πολλὰ κεκοπιακώς,
               <lb n="19" xml:id="p274-18"/>ὥστε τὸ ὕδωρ ἀγαγεῖν, καὶ πολλὴν ὁδὸν ἐξανύσας ἐν τῇ θύρᾳ γεγονὼς<note type="apparatus" n="19" target="#p274-18">ἀναγεῖν c</note>
-              <lb n="20" xml:id="p274-19"/>ἐξ ἀπροσεξίας θραύσει τὸ ἀγγεῖον τοῦ ὕδατος· μάτην γὰρ ἐκεῖνος ἐκακοπαθῆσεν
+              <lb n="20" xml:id="p274-19"/>ἐξ ἀπροσεξίας θραύσει τὸ ἀγγεῖον τοῦ ὕδατος· μάτην γὰρ ἐκεῖνος ἐκακοπάθησεν
               <lb n="21" xml:id="p274-20"/>ἐν αὐτῷ σχεδὸν τῷ τέλει ῥᾳθυμήσας καὶ ἀπροσεκτήσας.<milestone type="alt-edition" unit="line" ed="Cramer, Anecd. Paris. I" n="20"/>
-              <lb n="22" xml:id="p274-21"/>[1363 a 26] Ἐὰν ᾖ λανθάνῃ ἡ τιμωρία ἢ μικρὰ ᾖ. ἐν γὰρ<note type="apparatus" n="22" target="#p274-21">λαν V</note>
+              <lb n="22" xml:id="p274-21"/>[1363 a 26] Ἐὰν ἢ λανθάνῃ ἡ τιμωρία ἢ μικρὰ ᾖ. ἐν γὰρ<note type="apparatus" n="22" target="#p274-21">λαν V</note>
               <lb n="23" xml:id="p274-22"/>πολέμῳ κἂν τραυματίζωνται οἱ μαχόμενοι, ἀλλ’ οὖν ἀποκρύπτονται αὐτοῖς τὰ
               <lb n="24" xml:id="p274-23"/>τραύματα ὑπὸ τῶν βασιλικῶν ἀναρρήσεων καὶ ἀξιωμάτων καὶ φιλοτιμιῶν.
               <lb n="25" xml:id="p274-24"/>[1363 a 27] Καὶ τὰ ἴδια καὶ ἃ μηδείς. οὕτως ἐγὼ ὡς ἓν ταῦτα νοῶ·<milestone type="alt-edition" unit="line" ed="Cramer, Anecd. Paris. I" n="25"/>
@@ -603,7 +604,7 @@
               <lb n="18" xml:id="p276-17"/>φθινύθουσι, καὶ οὐ μόνον τοῦτο, ἀλλὰ καὶ τὰ τέκνα δέσμια ἄγονται καὶ αἰχμάλωτα,
               <lb n="19" xml:id="p276-18"/>καὶ οὐ μόνον τοῦτο, ἀλλὰ καὶ αἱ γυναῖκες τοῖς πολεμίοις δοῦλαι.
               <lb n="20" xml:id="p276-19"/>[1365 a 28] Ἐξ ὧν ὑπῆρξε ταῦτα, ἤγουν ἐξ οἵων γονέων εὐτελῶν<note type="apparatus" n="20" target="#p276-19">εὐτελὴς c</note><milestone type="alt-edition" unit="line" ed="Cramer, Anecd. Paris. I" n="5"/>
-              <lb n="21" xml:id="p276-20"/>ὧν ὑπῆρξεν ὁ Ἰφικράτης ταῦτα ἤγουν τὸ στρατιώτης, τὸ ἀνδρεῖος, τὸ
+              <lb n="21" xml:id="p276-20"/>ὢν ὑπῆρξεν ὁ Ἰφικράτης ταῦτα ἤγουν τὸ στρατιώτης, τὸ ἀνδρεῖος, τὸ
               <lb n="22" xml:id="p276-21"/>ὑπερπολεμῶν τῆς πατρίδος.
               <lb n="23" xml:id="p276-22"/>[1365 a 30] Ὁ ποιητὴς Πίνδαρος ἦν αὐτοδίδακτος, ἤτοι ‘ἐκ<note type="apparatus" n="23" target="#p276-22">Πίνδαρος] cf. infra p. 278,22</note>
               <lb n="24" xml:id="p276-23"/>γενετῆς εἰμι σοφός’, φησί, ‘καὶ οὐκ ἀπὸ διδασκάλου τοιοῦτος γέγονα’.<milestone type="alt-edition" unit="line" ed="Cramer, Anecd. Paris. I" n="10"/>
@@ -624,7 +625,7 @@
             <pb n="277" facs="https://archive.org/download/commentariaina21pt12akaduoft/page/n614.jpg"/>
             <p>
               <lb n="1" xml:id="p277-0"/>Ἀλθαίας κατὰ τοῦ ἀνεψιοῦ αὐτῶν Μελεάγρου ὡς μὴ αὐτοῖς συγκυνηγέταις
-              <lb n="2" xml:id="p277-1"/>ουσι δωρησαμένου τὴν δορὰν, ἀλλὰ τῇ παλλακῇ, καὶ συνάραντες λόγους
+              <lb n="2" xml:id="p277-1"/>οὖσι δωρησαμένου τὴν δορὰν, ἀλλὰ τῇ παλλακῇ, καὶ συνάραντες λόγους
               <lb n="3" xml:id="p277-2"/>ἀπεκτάνθησαν παρὰ Μελεάγρου. οἱ γοῦν Καλυδώνιοι (τῆς γὰρ Καλυδῶνος
               <lb n="4" xml:id="p277-3"/>ἦρχον οἱ φονευθέντες) ἐστράτευσαν κατὰ τῆς Αἰτωλίας. ὁ γοῦν Μελέαγρος<milestone type="alt-edition" unit="line" ed="Cramer, Anecd. Paris. I" n="30"/>
               <lb n="5" xml:id="p277-4"/>ἀναγκαζόμενος παρὰ τῆς μητρὸς ἐξελθεῖν εἰς τὸν πόλεμον οὐκ ἤκουσεν
@@ -771,7 +772,7 @@
               <lb n="12" xml:id="p281-11"/>τοὺς Ἀθηναίους ὡς ψευδόμενοι· συκοφάντας γὰρ ἐπαινοῦσι καὶ ἀπανθρώπους<milestone type="alt-edition" unit="line" ed="Cramer, Anecd. Paris. I" n="15"/>
               <lb n="13" xml:id="p281-12"/>καὶ σκληροὺς ἀνθρώπους καὶ μηδεμίαν πρός τινας ἀνθρώπους φιλίαν
               <lb n="14" xml:id="p281-13"/>ἔχοντας.
-              <lb n="15" xml:id="p281-14"/>[1367 b 9] Δεῖ δὲ τὸ παρ’ ἑκάστοις τίμιον καὶ ὂν καὶ εὐαπόδεκτὸν<note type="apparatus" n="15" target="#p281-14">τίμιον Arist. vulg. τίμιον ὂν Arist. A</note>
+              <lb n="15" xml:id="p281-14"/>[1367 b 9] Δεῖ δὲ τὸ παρ’ ἑκάστοις τίμιον καὶ ὂν καὶ εὐαπόδεκτον<note type="apparatus" n="15" target="#p281-14">τίμιον Arist. vulg. τίμιον ὂν Arist. A</note>
               <lb n="16" xml:id="p281-15"/>φαινόμενον λέγειν, ὅτι ἔχουσι τοῦτο οὗτοι· οἷον ἐπεὶ Λακεδαιμονίοις<note type="apparatus" n="16" target="#p281-15">οὗτοι V: καὶ c</note>
               <lb n="17" xml:id="p281-16"/>τὸ κομᾶν ζηλωτόν, εἰπὲ ‘ὑμεῖς εὐχάριτες, ὦ Λακεδαιμόνιοι, ἐστέ,<milestone type="alt-edition" unit="line" ed="Cramer, Anecd. Paris. I" n="20"/>
               <lb n="18" xml:id="p281-17"/>ἐμπρέποντες τῇ κόμῃ’, ἐπεὶ Σκύθαις τὸ τοξεύειν, ἐπανατίθου τούτοις αὐτὸ
@@ -1210,7 +1211,7 @@
             </note>
             <pb n="292" facs="https://archive.org/download/commentariaina21pt12akaduoft/page/n629.jpg"/>
             <p>
-              <lb n="1" xml:id="p292-0"/>ποτέ, ὃν ἀντεπάγεις μοι ὅρκον, ἀλλὰ σὺ ὄμοσον· κρεῖττον γὰρ ἔγω<note type="apparatus" n="1" target="#p292-0">μοι V: μου c</note>
+              <lb n="1" xml:id="p292-0"/>ποτέ, ὃν ἀντεπάγεις μοι ὅρκον, ἀλλὰ σὺ ὄμοσον· κρεῖττον γὰρ ἔχω<note type="apparatus" n="1" target="#p292-0">μοι V: μου c</note>
               <lb n="2" xml:id="p292-1"/>ἀπολέσαι με τὰ πράγματά μου μὴ ὀμόσαντα καὶ τὸ σοὶ εἶναι τὸ θεῖον
               <lb n="3" xml:id="p292-2"/>ἐχθρόν τε καὶ τιμωρόν. ἐγὼ οὖν τὸν ὅρκον σου ἀντὶ τῶν χρημάτων
               <lb n="4" xml:id="p292-3"/>μου’.
@@ -1275,7 +1276,7 @@
               <lb n="22" xml:id="p293-21"/>γίνωσκε ὅτι, εἰ ψεύσῃ, οἱ θεοὶ τιμωρήσουσί σε, ἐμὲ δὲ πλουτίσουσιν.’<milestone type="alt-edition" unit="line" ed="Cramer, Anecd. Paris. I" n="10"/>
               <lb n="23" xml:id="p293-22"/>[1377 a 27] Ἔνια οὖν τῶν ἀντιγράφων ἔχουσιν αὐτῷ γὰρ δίδωσι<note type="apparatus" n="23-24" target="#p293-22 #p293-23">αὐτῷ γὰρ δίδωσι κρίνειν Arist. vulg.: τούτῳ γὰρ δίδωσι κρίσιν Arist. A: ipsis enim dat iudicium Arist. Tr.</note>
               <lb n="24" xml:id="p293-23"/>κρίνειν, ἄλλα δὲ ἔχουσιν αὐτοῖς γὰρ δίδωσι κρίνειν. τὸ μὲν οὖν
-              <lb n="25" xml:id="p293-24"/>αὐτοῖς νόει ἀντὶ τοῦ ‘τοῖς θεοῖς’· τὸ δὲ αὐτῷ νόησον οὕτω· λέγω ὁ ἐναγων<note type="apparatus" n="25" target="#p293-24">λέγω Vc: fort. λέγει</note>
+              <lb n="25" xml:id="p293-24"/>αὐτοῖς νόει ἀντὶ τοῦ ‘τοῖς θεοῖς’· τὸ δὲ αὐτῷ νόησον οὕτω· λέγω ὁ ἐνάγων<note type="apparatus" n="25" target="#p293-24">λέγω Vc: fort. λέγει</note>
               <lb n="26" xml:id="p293-25"/>‘οὐκ ὀμόσω, ὦ ἐναγόμενε, ποτὲ ἐγώ, ἀλλὰ σὺ ποίησον τὴν κρίσιν·
               <lb n="27" xml:id="p293-26"/>δίκασον ἐν τῷ συνειδότι σου καὶ ὄμοσον καὶ ἕπομαί σοι· εἰ γὰρ κατὰ τὸν<milestone type="alt-edition" unit="line" ed="Cramer, Anecd. Paris. I" n="15"/>
               <lb n="28" xml:id="p293-27"/>ἔσω ἄνθρωπον ἐξετάσεις, οὐκ ἂν ὀμόσῃς πάντως, ἀλλὰ δώσεις μοι, ἅ μοι<note type="apparatus" n="28" target="#p293-27">δώσῃς c</note>
@@ -1302,7 +1303,7 @@
               <lb n="7" xml:id="p294-6"/>ἐναντίος ἤτοι ψευδὴς καὶ διὰ τοῦτο ὡς ἐπίορκος σήμερον ὁ ἐνάγων διαβάλλεται
               <lb n="8" xml:id="p294-7"/>καὶ παρὰ τοῦτο οὐδὲ παραδεκτέος εἰς τὸ ὀμόσαι τῷ ἐναγομένῳ<note type="apparatus" n="8" target="#p294-7">παρὰ V: διὰ c</note>
               <lb n="9" xml:id="p294-8"/>νομίζεται, πῶς ἐπιχειρήσει ὑπὲρ ἑαυτοῦ καὶ ὑπεραπολογήσεται τοῦ μὴ
-              <lb n="10" xml:id="p294-9"/>ἐπίορκος εἶναι;’ καίτοι εἴπῃ ‘εἰ καὶ ψευδής, ὡς λέγεις, ὁ ὅρκος μου ἐκεινος<milestone type="alt-edition" unit="line" ed="Cramer, Anecd. Paris. I" n="5"/>
+              <lb n="10" xml:id="p294-9"/>ἐπίορκος εἶναι;’ καίτοι εἴπῃ ‘εἰ καὶ ψευδής, ὡς λέγεις, ὁ ὅρκος μου ἐκεῖνος<milestone type="alt-edition" unit="line" ed="Cramer, Anecd. Paris. I" n="5"/>
               <lb n="11" xml:id="p294-10"/>ἐφάνη, ἀλλ’ ἐγὼ οὐκ ἐπιώρκησα· τὸ γὰρ ἐπιορκεῖν ἀδικεῖν ἐστι,
               <lb n="12" xml:id="p294-11"/>τὸ δὲ ἀδικεῖν ἐστι τὸ ἑκουσίως καὶ εἰδότα τινὰ ἀδικεῖν, ἐγὼ δέ, εἰ καὶ
               <lb n="13" xml:id="p294-12"/>ὤμοσα τότε, ἀλλ’ ἄκων καὶ βιασθεὶς ἢ παρὰ τυράννων ἢ παρὰ δικαστῶν
@@ -1868,7 +1869,7 @@
               <lb n="18" xml:id="p309-17"/>ἡττήθη κἀντεῦθεν αὐτοῖς ἡ διαμάχη ξυνέπεσεν. <milestone type="alt-edition" unit="page" ed="Cramer, Anecd. Paris. I" n="301"/> [1403 b 27] ἔστιν<note type="apparatus" n="18" target="#p309-17">συνέπεσεν c</note>
               <lb n="19" xml:id="p309-18"/>οὖν ὑπόκρισις τὸ ἑκάστῳ πάθει κατάλληλον τὴν ἐξαγγελίαν διὰ τῆς ποιᾶς
               <lb n="20" xml:id="p309-19"/>φωνῆς ποιεῖσθαι· εἰ μὲν γὰρ τύραννον ἢ Πολυμήστορα μιμοῖτο, δεῖ μεγάλῃ
-              <lb n="21" xml:id="p309-20"/>χρῆσθαι φωνῇ, εἰ δὲ γυναῖκα οἷον Ἑκάβην ἢ Πολυξένην, μικρὰ καὶ οἷον
+              <lb n="21" xml:id="p309-20"/>χρῆσθαι φωνῇ, εἰ δὲ γυναῖκα οἷον Ἑκάβην ἢ Πολυξένην, μικρᾷ καὶ οἷον
               <lb n="22" xml:id="p309-21"/>ὑπὸ τοῦ πάθους διακοπτομένῃ. ἀλλὰ καὶ τοῖς τόνοις χρηστέον ἁρμοζόντως.<milestone type="alt-edition" unit="line" ed="Cramer, Anecd. Paris. I" n="5"/>
               <lb n="23" xml:id="p309-22"/>διὰ τοῦτο καὶ οἱ τὰ ἅγια εὐαγγέλια ἀναγινώσκειν μανθάνοντες
               <lb n="24" xml:id="p309-23"/>μυοῦνται πρῶτον τοὺς τόνους, ὀξεῖαν καὶ συρματικὴν καὶ βαρεῖαν καὶ
@@ -2206,7 +2207,7 @@
             <pb n="318" facs="https://archive.org/download/commentariaina21pt12akaduoft/page/n655.jpg"/>
             <p>
               <lb n="1" xml:id="p318-0"/>ἐστίν, ὡς αἱ τρεῖς βραχεῖαι τοῦ πρώτου παιᾶνος πρὸς τὴν πρώτην τὴν
-              <lb n="2" xml:id="p318-1"/>μακράν, ἢ δύο χρόνων ἐστίν. ἐκείνων δὲ τῶν δύο ὁ μὲν ἡρῷός ἐστιν<note type="apparatus" n="2" target="#p318-1">ἢ β’ V: β’ om. c</note>
+              <lb n="2" xml:id="p318-1"/>μακράν, ἣ δύο χρόνων ἐστίν. ἐκείνων δὲ τῶν δύο ὁ μὲν ἡρῷός ἐστιν<note type="apparatus" n="2" target="#p318-1">ἢ β’ V: β’ om. c</note>
               <lb n="3" xml:id="p318-2"/>ἓν πρὸς ἓν ἤγουν ἴσον πρὸς ἴσον· αἱ γὰρ δύο βραχεῖαι συλλαβαὶ τὸν<note type="apparatus" n="3" target="#p318-2">πρὸς ἓν om. c</note><milestone type="alt-edition" unit="line" ed="Cramer, Anecd. Paris. I" n="25"/>
               <lb n="4" xml:id="p318-3"/>αὐτὸν λόγον ἔχουσιν, ὃν καὶ ἡ πρώτη ἡ δύο χρόνων οὖσα· τετράχρονος
               <lb n="5" xml:id="p318-4"/>γὰρ ὁ ἡρῷος, δύο πρὸς δύο, ἴσον πρὸς ἴσον· ὃ ἐδήλωσε διὰ τοῦ εἰπεῖν

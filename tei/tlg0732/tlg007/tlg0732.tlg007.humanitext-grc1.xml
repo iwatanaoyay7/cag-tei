@@ -56,6 +56,7 @@
       <change when="2026-10-23" who="#NI">Quotation marks made uniform: opening single and double quotation marks, printed in the edition in the reversed (high-reversed-9) form, are encoded as ‘ and “, closing ones as ’ and ”, single and double kept as printed; opening marks read by the OCR as straight quotes, low quotes or spacing breathings, and spacing breathings or quotation marks doubled before a capital that already bears its breathing, corrected.</change>
       <change when="2026-11-05" who="#NI">Apparatus entries printed out of numerical order (e.g. 33 … 32) separated from the preceding entry; words hyphenated across lines joined in Latin text as in Greek; words mixing Greek and Latin letters (OCR errors, about 130, including manuscript sigla) corrected on the page images; marginal folio marks left in the text removed; validated against TEI P5 version 4.12.0 (recorded in TEI/@version).</change>
       <change when="2026-11-05" who="#NI">Extent of the lemma quotations (quote[@type='lemma']) corrected: the automatic division had closed every lemma after its first printed line, leaving the remaining lines of lemmata printed over two or more lines at the head of the following paragraph. Candidates were found from the letter-spacing of the lines on the page images (lemmata are printed spaced) and from the line geometry (centred last line, indented paragraph start), and every candidate was decided on the page image (Claude work teams; about 7,700 places in the corpus); the lines so decided are now inside the quotation, with pb inside the quotation where a lemma runs on to the next page. Where the lemma runs on in the same line as the commentary (Stephanus in De interpretatione), the quotation ends after the last spaced word and the paragraph continues in the same line without a new lb; where no lemma is printed and the paraphrase follows the Bekker reference directly (Michael in De partibus animalium from p. 37), the quotation is dropped and the division kept; centred last lines the edition does not count are inside the quotation as unnumbered lines.</change>
+      <change when="2026-11-22" who="#NI">Readings questioned by the review of the translations collated on the page images (read independently, at least twice wherever the print does not have the proposed form, by a language model, Claude; the 28 places in all works that it could not settle were read by the editor): 31 errors of the transcription corrected; 3 evident misprints of the edition given as choice/sic/corr; 2 evident misprints of the edition in a word broken at the line end (which cannot carry choice/sic/corr) corrected in the text.</change>
     </revisionDesc>
   </teiHeader>
   <text>
@@ -96,7 +97,7 @@
               <lb n="8" xml:id="p2-7"/>ψυχῆς θεωρίᾳ [ὅτι] ἡ περὶ τῶν ζῴων καὶ τῶν ἐμψύχων πάντων καὶ [ἡ]<note type="apparatus" n="8" target="#p2-7">post θεωρίᾳ habent libri addito iterum ὅτι: del. Usener et βιβλίου 〈δείκνυσιν〉 coni. (cf. p. 3,3) λέγῃ a (corr. M) ἀκόλουθος VN: ἀκόλουθον TAa: T anceps. τῇ] ἡ V</note><note type="apparatus" n="8" target="#p2-7">ὅτι MTVAN: om. a prius ἡ VAN: ἥ τε Ma καὶ τῶν Ta: καὶ ἡ περὶ τῶν VAN καὶ (post πάντων) om. A ἡ delevi, cf. p. 3,5</note>
               <lb n="9" xml:id="p2-8"/>περὶ τῶν ἐνεργειῶν αὐτῶν, τῶν τε κοινῶν καὶ τῶν ἰδίων καθ’ ἕκαστον
               <lb n="10" xml:id="p2-9"/>εἶδος αὐτῶν· ἀρχὴ γὰρ τῶν ψυχὴν ἐχόντων ἁπάντων ἡ ψυχή. λέγει δὲ<note type="apparatus" n="10" target="#p2-9">ψυχὴν ἐχόντων TVAN: ἐμψύχων a</note><milestone type="alt-edition" unit="line" ed="Thurot 1875" n="5"/>
-              <lb n="11" xml:id="p2-10"/>καὶ τινες μὲν αὐτῶν κοιναί, τινὲς δὲ ἴδιαι. τοῦ δὲ περὶ τῶν τῆς ψυχῆς<note type="apparatus" n="11" target="#p2-10">αὐτῶν TVAN: αὐτῷ a τοῦ VAN: τὸν a</note>
+              <lb n="11" xml:id="p2-10"/>καὶ τίνες μὲν αὐτῶν κοιναί, τίνες δὲ ἴδιαι. τοῦ δὲ περὶ τῶν τῆς ψυχῆς<note type="apparatus" n="11" target="#p2-10">αὐτῶν TVAN: αὐτῷ a τοῦ VAN: τὸν a</note>
               <lb n="12" xml:id="p2-11"/>ἐνεργειῶν λέγοντα εὐλόγως λέγειν περὶ τῶν ἐνεργειῶν τῶν τε ζῴων καὶ<note type="apparatus" n="12" target="#p2-11">λέγοντος V: ambiguo comp. A εὐλόγως VAN: εὔλογον Ta</note>
               <lb n="13" xml:id="p2-12"/>τῶν ζωὴν ἐχόντων αἰτίαν ἀποδέδωκε τὴν ὅτι αἱ ἐνέργειαι αὐτῶν αἵ τε<note type="apparatus" n="13-14" target="#p2-12 #p2-13">ὅτι ἐνέργεια αὐτῶν, tum sp. XII litt. rel., καὶ αἱ καθ’ V</note>
               <lb n="14" xml:id="p2-13"/>κοιναὶ καὶ αἱ καθ’ ἕκαστον ἴδιοι σχεδὸν πᾶσαι κοιναὶ τῆς τε ψυχῆς καὶ<note type="apparatus" n="14" target="#p2-13">〈εἶδος〉 ἴδιοι conicio, cf. v. 10 et p. 3,6 πᾶσι AN τε om. V</note>
@@ -132,7 +133,7 @@
               <lb n="12" xml:id="p3-11"/>καὶ ὡρίσατο αὐτήν, ὡς ἦν οἷόν τε τὰ ἔχοντα ἐν αὑτοῖς τὸ μέν τι πρῶτον<note type="apparatus" n="12" target="#p3-11">οἷόν τε ἦν V ἔχοντα TV: ἐχόμενα ANa αὐτοῖς libri μέν τι Va: μέντοι AN: om. T</note>
               <lb n="13" xml:id="p3-12"/>καὶ ἀτελέστερον τὸ δὲ δεύτερον καὶ τελειότερον ὁρίσασθαι· ἔπειτα περὶ<note type="apparatus" n="13" target="#p3-12">τὸ δὲ] et T ἀτελέστερον] ἀτέλευτον a τελεότερον N ὡρίσασθαι A</note>
               <lb n="14" xml:id="p3-13"/>ἑκάστης τῶν δυνάμεων διεξῆλθε, περὶ τῆς θρεπτικῆς, περὶ τῆς αἰσθητικῆς,<note type="apparatus" n="14-15" target="#p3-13 #p3-14">post θρεπτικῆς, αἰσθητικῆς, φανταστικῆς add. et T</note>
-              <lb n="15" xml:id="p3-14"/>περὶ τῆς φανταστικῆς, περὶ τῶν ἄλλων ἑκάστης. ἡ περὶ ψυχῆς καθ’<note type="apparatus" n="15" target="#p3-14">ἑκάστων a (corr. M) post ἢ add. καὶ a</note>
+              <lb n="15" xml:id="p3-14"/>περὶ τῆς φανταστικῆς, περὶ τῶν ἄλλων ἑκάστης. ἢ περὶ ψυχῆς καθ’<note type="apparatus" n="15" target="#p3-14">ἑκάστων a (corr. M) post ἢ add. καὶ a</note>
               <lb n="16" xml:id="p3-15"/>ἑαυτήν, ὅτι μὴ καὶ περὶ τοῦ σώματος, σὺν ᾧ τῇ ψυχῇ καὶ τὸ εἶναι·<note type="apparatus" n="16" target="#p3-15">ἑαυτὴν TVAN: αὐτὸ a τοῦ om. V alt. καὶ om. T</note><milestone type="alt-edition" unit="line" ed="Thurot 1875" n="10"/>
               <lb n="17" xml:id="p3-16"/>διὰ τοῦτο γὰρ νῦν περὶ τῶν αἰσθητηρίων ἐρεῖ. εἰπὼν δὲ περὶ τῶν ζῴων<note type="apparatus" n="17" target="#p3-16">τῶν] om. V</note>
               <lb n="18" xml:id="p3-17"/>ἑπόμενον εἶναι τὴν ἐπίσκεψιν ποιήσασθαι, προσέθηκε τὸ καὶ περὶ<note type="apparatus" n="18" target="#p3-17">τὸ VA: τί a: om. Thurot N(?)</note>
@@ -187,7 +188,7 @@
               <lb n="5" xml:id="p5-4"/>τε καὶ αἰσθητῶν λέγων, μετὰ ταῦτα περὶ ζωῆς τε καὶ θανάτου
               <lb n="6" xml:id="p5-5"/>καὶ ὕπνου καὶ ἐγρηγόρσεως καὶ τῆς καθ’ ὕπνον μαντικῆς, εἶθ’ ὕστερον<milestone type="alt-edition" unit="line" ed="Thurot 1875" n="10"/>
               <lb n="7" xml:id="p5-6"/>περὶ ζῴων, ἀλλὰ καὶ ταῦτα τῆς προτεθείσης ἔχεται πραγματείας (ἔστι γὰρ
-              <lb n="8" xml:id="p5-7"/>τῶν κοινῶν τὰ μὲν τοῖς ζῴοις πᾶσι, τὰ δὲ καὶ τοῖς ζωὴν ἔχουσιν ὑπάργοντα),
+              <lb n="8" xml:id="p5-7"/>τῶν κοινῶν τὰ μὲν τοῖς ζῴοις πᾶσι, τὰ δὲ καὶ τοῖς ζωὴν ἔχουσιν ὑπάρχοντα),
               <lb n="9" xml:id="p5-8"/>αὐτὸς ἐδήλωσε δι’ ὧν ἐπιφέρει. εἰπὼν γὰρ τὰ μὲν εἰρημένα<note type="apparatus" n="9" target="#p5-8">ἐδήλωσε Va: ἐδήλου AN</note>
               <lb n="10" xml:id="p5-9"/>περὶ ψυχῆς ὑποκείσθω, περὶ δὲ τῶν λοιπῶν, φησί, λέγωμεν καὶ <milestone type="alt-edition" unit="page" ed="Thurot 1875" n="13"/><note type="apparatus" n="10" target="#p5-9">φησί deleam λέγομεν VA (Arist. codd. EY)</note>
               <lb n="11" xml:id="p5-10"/>πρῶτον περὶ τῶν πρώτων, εἰπὼν ἐπιφέρει· φαίνεται δὲ τὰ μέγιστα<note type="apparatus" n="11" target="#p5-10">post πρῶτον add. δὲ A, γε N εἰπὼν del. vel ἔπειτα scrib. (cf. p. 9,19)</note>
@@ -195,7 +196,7 @@
               <lb n="13" xml:id="p5-12"/>τοῦ σώματος. ἔστι δὲ ὃ λέγει ὅτι τὰ [μὲν] μέγιστα τῶν κατὰ τὰς τῶν<note type="apparatus" n="13" target="#p5-12">μὲν del. Usener</note>
               <lb n="14" xml:id="p5-13"/>ζῴων ἐνεργείας τάς τε κοινὰς αὐτῶν καὶ τὰς ἰδίας ἑκάστου γένους φαίνεται<note type="apparatus" n="14" target="#p5-13">ἰδίους V ἑκάστου] ἑκατέρου a</note>
               <lb n="15" xml:id="p5-14"/>κοινὰ εἶναι ψυχῆς τε καὶ σώματος, καὶ οὐ τῆς ψυχῆς αὐτῆς καθ’ αὑτήν,<note type="apparatus" n="15" target="#p5-14">εἶναι κοινὰ a αὐτῆς Ta: αὐτὴν VAN</note><milestone type="alt-edition" unit="line" ed="Thurot 1875" n="5"/>
-              <lb n="16" xml:id="p5-15"/>δεικνὺς ἡμῖν ὅτι καὶ τὴν περὶ αὐτῶν θεωρίαν οὕτω χρὴ ποιεῖσθαι, συνἐπισκεπτομένους<note type="apparatus" n="16" target="#p5-15">δεικνὺς Va: δείκνυσι A: δείκνυσιν N: ostenditque T (unde δείκνυσι τε Thurot); δεικνὺς fort. ad ἐπιφέρει (v. 11) referendum, ut v. 13 — 15 in parenthesi ponantur καὶ a: κατὰ TAN: om. V</note><note type="apparatus" n="16-17" target="#p5-15 #p5-16">συνεπισκεπτομένους VAN: συνεπισκεπτομένου a: συνεπισκεπτομένων M</note>
+              <lb n="16" xml:id="p5-15"/>δεικνὺς ἡμῖν ὅτι καὶ τὴν περὶ αὐτῶν θεωρίαν οὕτω χρὴ ποιεῖσθαι, συνεπισκεπτομένους<note type="apparatus" n="16" target="#p5-15">δεικνὺς Va: δείκνυσι A: δείκνυσιν N: ostenditque T (unde δείκνυσι τε Thurot); δεικνὺς fort. ad ἐπιφέρει (v. 11) referendum, ut v. 13 — 15 in parenthesi ponantur καὶ a: κατὰ TAN: om. V</note><note type="apparatus" n="16-17" target="#p5-15 #p5-16">συνεπισκεπτομένους VAN: συνεπισκεπτομένου a: συνεπισκεπτομένων M</note>
               <lb n="17" xml:id="p5-16"/>καὶ τὰ τοῦ σώματος μόρια, ἐν οἷς καὶ δι’ ὧν αἱ τῶν<note type="apparatus" n="17" target="#p5-16">τὰ] τῶν M μορίων M</note>
               <lb n="18" xml:id="p5-17"/>ψυχὴν ἐχόντων ἐνέργειαι. ὅτι δὲ αἱ πλεῖσται τῶν ψυχικῶν ἐνεργειῶν διὰ<note type="apparatus" n="18" target="#p5-17">ante ψυχὴν add. τὴν V</note>
               <lb n="19" xml:id="p5-18"/>σώματος καὶ ἐν τοῖς Περὶ ψυχῆς προείρηκε.
@@ -436,7 +437,7 @@
               <lb n="23" xml:id="p12-22"/>τῶν κοινῶν αἰσθητῶν μάλιστά ἐστιν αἰσθητική· μάλιστα γὰρ τοῖς σώμασι
               <lb n="24" xml:id="p12-23"/>παρακολουθεῖ, ὧν αἰσθάνεται. μέγεθος γὰρ καὶ σχῆμα καὶ κίνησις καὶ<note type="apparatus" n="24" target="#p12-23">παρακολουθεῖ N: παρακολου V: παρακολουθοῦσιν Aa καὶ κίνησις om. T</note><milestone type="alt-edition" unit="line" ed="Thurot 1875" n="10"/>
               <lb n="25" xml:id="p12-24"/>ἀριθμὸς ἐν τούτοις πρώτως τε καὶ κυρίως. ἀπὸ γὰρ τῶν ἀριθμητῶν καὶ<note type="apparatus" n="25" target="#p12-24">τούτω V</note>
-              <lb n="26" xml:id="p12-25"/>καὶ ἡ τοῦ ἀριθμοῦ ἐπίνοια, ἀριθμητὰ δὲ τὰ αἰσθητά, ἃ τῷ κεχωρισμένα<note type="apparatus" n="26" target="#p12-25">δὲ om. V κεχωρισμένω N: κεχρωσμένα a</note>
+              <lb n="26" xml:id="p12-25"/><choice><sic>καὶ ἡ</sic><corr>ἡ</corr></choice> τοῦ ἀριθμοῦ ἐπίνοια, ἀριθμητὰ δὲ τὰ αἰσθητά, ἃ τῷ κεχωρισμένα<note type="apparatus" n="26" target="#p12-25">δὲ om. V κεχωρισμένω N: κεχρωσμένα a</note>
               <lb n="27" xml:id="p12-26"/>ἀλλήλων ὁρᾶσθαι καὶ ἀριθμητά ἐστιν. ἡ δὲ αἴσθησις αὕτη καὶ μεγέθους<note type="apparatus" n="27" target="#p12-26">ἀλλήλων] εἶναι a ὁρᾶταί τε καὶ M</note>
               <lb n="28" xml:id="p12-27"/>καὶ κινήσεως καὶ σχήματος καὶ ἀριθμοῦ αἰσθάνεται διὰ τῆς τῶν χρωμάτων<note type="apparatus" n="28" target="#p12-27">διὰ TVa: μὲν, διὰ δὲ M: δὲ διὰ AN: 〈αἰσθάνεται〉 δὲ διὰ coniciebam</note><note type="apparatus" n="28-29" target="#p12-27 #p12-28">τοῦ χρώματος T</note>
               <lb n="29" xml:id="p12-28"/>ἀντιλήψεως. πλείστας οὖν διαφορὰς ἡ ὄψις ἡμῖν μηνύει, ἐξ ὧν τὸ<milestone type="alt-edition" unit="page" ed="Thurot 1875" n="30"/>
@@ -795,7 +796,7 @@
           <div type="textpart" subtype="lemma" n="8">
             <milestone unit="bekker" n="438a7"/>
             <quote type="lemma">
-              <lb n="1" xml:id="p25-0"/>Καὶ ἔστιν οὐκ ἐν ἐκείνῳ, ἀλλ’ ἐν <milestone type="alt-edition" unit="page" ed="Thurot 1875" n="52"/> τῷ ὁρῶντι· ἀνάκλάσις<note type="apparatus" n="1" target="#p25-0">ὁρᾶν τι N</note>
+              <lb n="1" xml:id="p25-0"/>Καὶ ἔστιν οὐκ ἐν ἐκείνῳ, ἀλλ’ ἐν <milestone type="alt-edition" unit="page" ed="Thurot 1875" n="52"/> τῷ ὁρῶντι· ἀνάκλασις<note type="apparatus" n="1" target="#p25-0">ὁρᾶν τι N</note>
               <lb n="2" xml:id="p25-1"/>γὰρ τὸ πάθος.
             </quote>
             <p>
@@ -805,7 +806,7 @@
               <lb n="6" xml:id="p25-5"/>τουτέστι τῷ ἔχοντι τὴν ὁρατικὴν δύναμιν· ἡ γὰρ ἔμφασις ἀνάκλασίς τίς<milestone type="alt-edition" unit="line" ed="Thurot 1875" n="5"/>
               <lb n="7" xml:id="p25-6"/>ἐστι καὶ πάθος’. ἢ τὸ καὶ ἔστιν οὐκ ἐν ἐκείνῳ, ἀλλ’ ἐν τῷ ὁρῶντι·<note type="apparatus" n="7" target="#p25-6">ἢ τὸ Va: ἤτοι AN: que T</note>
               <lb n="8" xml:id="p25-7"/>ἀνάκλασις γὰρ τὸ πάθος ἴσον ἐστὶ τῷ ‘καὶ ἔστιν οὐκ ἐν τῇ ἐμφάσει<note type="apparatus" n="8" target="#p25-7">τῷ Ta: τὸ V: τοῦ AN</note>
-              <lb n="9" xml:id="p25-8"/>τὸ ὁρᾶν, ἀλλ’ ἐν τῷ ὁρῶντι ἡ ἔμφασις’· οὐ δεικτικὸν τὸ ἐπενεχθὲν τὸ ἀνάκλάσις<note type="apparatus" n="9" target="#p25-8">prius τὸ] τοῦ AN ἐμφάνεια AN</note>
+              <lb n="9" xml:id="p25-8"/>τὸ ὁρᾶν, ἀλλ’ ἐν τῷ ὁρῶντι ἡ ἔμφασις’· οὗ δεικτικὸν τὸ ἐπενεχθὲν τὸ ἀνάκλασις<note type="apparatus" n="9" target="#p25-8">prius τὸ] τοῦ AN ἐμφάνεια AN</note>
               <lb n="10" xml:id="p25-9"/>γὰρ τὸ πάθος. ἐν γὰρ τῷ ὀφθαλμῷ, ὅς ἐστιν ὁ ὁρῶν, ἡ<note type="apparatus" n="10" target="#p25-9">γὰρ τὸ πάθος MT: πάθος γὰρ Va: πάθος γὰρ τὸ AN ἐν γὰρ TVAN: τὸ ἐν M: ἐν a</note>
               <lb n="11" xml:id="p25-10"/>ἔμφασις, διότι λεῖος. ἡ γὰρ ἔμφασις πάθος τί ἐστι κατὰ ἀνάκλασιν γινόμενον<note type="apparatus" n="11" target="#p25-10">prius ἐμφάνεια M διότι VAN: ὅτι Ma post κατὰ add. τὴν a</note><milestone type="alt-edition" unit="line" ed="Thurot 1875" n="10"/>
               <lb n="12" xml:id="p25-11"/>ἐν τοῖς λείοις τε καὶ σύστασίν τινα ἔχουσιν, ὡς δύνασθαι σῴζειν
@@ -1009,7 +1010,7 @@
               <lb n="10" xml:id="p31-9"/>τὸ ἐκπεμπόμενον εἶναι, δεικτέον αὐτοῖς ὅτι τε ἀσώματον καὶ οὐχ <milestone type="alt-edition" unit="page" ed="Thurot 1875" n="66"/> οἷόν τε<note type="apparatus" n="10" target="#p31-9">δείκνυται a (corr. M) τε om. M καὶ οὐχ om. M</note>
               <lb n="11" xml:id="p31-10"/>ἐκπέμπεσθαι καὶ προχεῖσθαι, ὡς φασι. γίνεται γὰρ κατὰ σχέσιν τοῦ φωτίζεσθαι
               <lb n="12" xml:id="p31-11"/>πεφυκότος πρὸς τὸ φωτίζειν δυνάμενον· διὸ οὐδὲ κίνησις φωτός<note type="apparatus" n="12" target="#p31-11">πεφυκότως a</note>
-              <lb n="13" xml:id="p31-12"/>ἐστιν. ἅμα γοῦν ὁρῶμεν καὶ τὰ ἐγγὺς καὶ τὰ πόρρω τοῦ φωτίζειν πεφυκοτος
+              <lb n="13" xml:id="p31-12"/>ἐστιν. ἅμα γοῦν ὁρῶμεν καὶ τὰ ἐγγὺς καὶ τὰ πόρρω τοῦ φωτίζειν πεφυκότος
               <lb n="14" xml:id="p31-13"/>φωτιζόμενα, ὅσα ἀπὸ τοῦ αὐτοῦ διαστήματος οἷά τε φωτίζεσθαι ὑπ’<note type="apparatus" n="14" target="#p31-13">οἷάγε V ὑπ’] ἀπ’ V</note><milestone type="alt-edition" unit="line" ed="Thurot 1875" n="5"/>
               <lb n="15" xml:id="p31-14"/>αὐτοῦ· ὃ ἦν ἂν ἀδύνατον, εἰ ἦν τὸ φῶς σῶμα. ὅτι δὲ σχέσις τις καὶ<note type="apparatus" n="15" target="#p31-14">καὶ TVAN: ἐστι a: ἐστὶ καὶ M</note>
               <lb n="16" xml:id="p31-15"/>κατὰ σχέσιν τοῦ φωτίζοντος πρὸς τὸ φωτιζόμενον καὶ μὴ οὐσία τις καὶ<note type="apparatus" n="16" target="#p31-15">τοῦ φωτιζομένου πρὸς τὸ φωτίζον T (cf. v. 12) πρὸς MTVAN: om. a</note>
@@ -1102,7 +1103,7 @@
               <lb n="11" xml:id="p34-10"/>τῷ ἐκτὸς φωτί, ἵνα αἴσθηται ἡ ψυχή, τοῦτο δὲ ἀδύνατον μὴ εἰσιόντος<note type="apparatus" n="11" target="#p34-10">τῷ] τὸ a (corr. M)</note>
               <lb n="12" xml:id="p34-11"/>φωτὸς πρὸς αὐτήν, οὐδ’ ἂν ὁρῴη. εἰ γὰρ τῷ μιχθέντι φωτὶ ὁρῶμεν,<note type="apparatus" n="12" target="#p34-11">ὁρῴης AN</note>
               <lb n="13" xml:id="p34-12"/>τὸ δὲ ἐντὸς οὐ μίγνυται τῷ ἐκτός, οὐδ’ ἂν ὁρῴημεν ἐκείνῳ· οὐ γὰρ δὴ<note type="apparatus" n="13" target="#p34-12">δὲ om. a (habet etiam M) ἐκεῖνο a</note><milestone type="alt-edition" unit="line" ed="Thurot 1875" n="10"/>
-              <lb n="14" xml:id="p34-13"/>ἄκρα ὀψόμεθα τῇ κόρῃ. μήνιγγα δὲ ἂν λέγοι τὸν τὴν κόρην περιέχοντα<note type="apparatus" n="14" target="#p34-13">ἄκρα om. T ὀψοίμεθα a</note>
+              <lb n="14" xml:id="p34-13"/>ἄκρᾳ ὀψόμεθα τῇ κόρῃ. μήνιγγα δὲ ἂν λέγοι τὸν τὴν κόρην περιέχοντα<note type="apparatus" n="14" target="#p34-13">ἄκρα om. T ὀψοίμεθα a</note>
               <lb n="15" xml:id="p34-14"/>χιτῶνα· οὕτω καὶ Ἐμπεδοκλῆς λέγων ἐδείχθη πρὸ ὀλίγου ὡς δ’ ὁπότ’<note type="apparatus" n="15" target="#p34-14">λέγων om. T ἐδείχθαι N πρὸ ὀλίγου] Arist. p. 437 b 32 δ’ ὁπότ’ M: δ’ ὁπότε VANa (dopote T): δὲ τότ’ (ὅτε S) Arist. codd.</note>
               <lb n="16" xml:id="p34-15"/>ἐν μή<milestone type="alt-edition" unit="page" ed="Thurot 1875" n="73"/>νιγξιν ἐεργμένον ὠγύγιον φῶς. ὥστε ἄμεινον μὲν τοῦ ἐκπέμπεσθαι<note type="apparatus" n="16" target="#p34-15">ἐν—φῶς om. in spatio T ἐν M: om. VANa μῆνιγξ V ἐεργμένον Arist.: εἰργμένον N: εἰργόμενον Aa: ἐρυσμένον V τοῦ] τὸ a (τοῦ etiam M)</note>
               <lb n="17" xml:id="p34-16"/>λέγειν τὸ ἐντὸς φῶς πρὸς τὸ ἐκτὸς εὐθὺς τῇ ἐντὸς † χώρᾳ<note type="apparatus" n="17" target="#p34-16">ἐκτὸς 〈τὸ〉 conicio εὐθὺς om. T τῇ] ἐν τῇ ex T Thurot τῷ ἐντὸς κόρης (cf. v. 1 et p. 32,26) aut τῇ ἐντὸς κόρῃ (cf. p. 35,18) conicio</note>
@@ -1490,7 +1491,7 @@
               <lb n="12" xml:id="p46-11"/>ταύτην ἔχει, καίεται· τοιοῦτον γὰρ καὶ ὁ καπνός. ἡ δὲ γῆ πορρωτάτω<note type="apparatus" n="12" target="#p46-11">ταύτης AN γῆ] τῇ N 13—15 repetuntur De an. p. 149,20—23</note>
               <lb n="13" xml:id="p46-12"/>ἀφέστηκεν αὐτοῦ (διὸ καὶ ἥκιστα αὕτη διαφανής)· διὸ καὶ εἰκότως τὴν τῆς<note type="apparatus" n="13" target="#p46-12">τὴν] τὰ N</note>
               <lb n="14" xml:id="p46-13"/>στερήσεώς πως τοῦ φωτὸς χώραν ἔχει, οὔτε αὐτὴ δεχομένη τὸ φῶς ἐν<note type="apparatus" n="14" target="#p46-13">πως om. T De an. χωρὶς N δεχομένως a</note><milestone type="alt-edition" unit="line" ed="Thurot 1875" n="5"/>
-              <lb n="15" xml:id="p46-14"/>αὕτη, ὅτῳ τ’ ἂν ἄλλῳ μιχθῇ, ἀντιφράττουσα αὐτῷ καὶ κωλύουσα φωτίζεσθαι<note type="apparatus" n="15" target="#p46-14">αὑτῇ T De an: αὐτή a: αὐτῶ ἢ VAN ὅτῳ τ’ ἂν De an.: τῷ ὅτε ἐν VAN: aut quia quando in T: καὶ ὅτε ἐν a: καὶ ὅτῳ ἂν coni. Thurot, sed οὔτε . . . καὶ stare non potest αὐτὸ Va (om., sed post κωλύουσα add. αὐτὸ De an.)</note>
+              <lb n="15" xml:id="p46-14"/>αὑτῇ, ὅτῳ τ’ ἂν ἄλλῳ μιχθῇ, ἀντιφράττουσα αὐτῷ καὶ κωλύουσα φωτίζεσθαι<note type="apparatus" n="15" target="#p46-14">αὑτῇ T De an: αὐτή a: αὐτῶ ἢ VAN ὅτῳ τ’ ἂν De an.: τῷ ὅτε ἐν VAN: aut quia quando in T: καὶ ὅτε ἐν a: καὶ ὅτῳ ἂν coni. Thurot, sed οὔτε . . . καὶ stare non potest αὐτὸ Va (om., sed post κωλύουσα add. αὐτὸ De an.)</note>
               <lb n="16" xml:id="p46-15"/>δι’ ὅλου, ὡς ὁρῶμεν ἐπὶ τοῦ ἀέρος ἐν ᾧ καπνός ἐστι· πολὺ γὰρ τὸ<note type="apparatus" n="16" target="#p46-15">διότι ὡς a: διότι οὐχ M 16—22 cf. De an. p. 149,23—29</note><note type="apparatus" n="16" target="#p46-15">ὁ καπνὸς a, sed. v. De an. p. 149,23 τὸ om. a</note>
               <lb n="17" xml:id="p46-16"/>γεῶδες ἐν τῷ καπνῷ. οὐδὲ ἡ φλὸξ δίοπτος, διότι καὶ αὐτὴ γεῶδές τι ἔχει<note type="apparatus" n="17" target="#p46-16">γαιῶδες V οὐδὲ] καὶ M δίοπτος e libro De an. corr. Thurot: δὲ libri γαιῶδες V</note>
               <lb n="18" xml:id="p46-17"/>μεμιγμένον, εἴγ’ ἐστὶ καπνὸς καιόμενος καὶ ἡ φλόξ. διὸ οὐ κονιορτοῦ ὄντος<note type="apparatus" n="18" target="#p46-17">εἴγ’ Ta: εἴτ’ VAN ἔτι a</note><note type="apparatus" n="18-19" target="#p46-17 #p46-18">διὸ — μένει bene post καπνῷ v. 17 transpon. Thurot, quod liber De an. commendare videtur</note>
@@ -1708,7 +1709,7 @@
           <div type="textpart" subtype="lemma" n="19">
             <milestone unit="bekker" n="439b18"/>
             <quote type="lemma">
-              <lb n="9" xml:id="p53-8"/>Περὶ δὲ τῶν ἄλλων χρωμάτων ἤδη διελομένοις ποσαφῶς<note type="apparatus" n="9" target="#p53-8">ἤδη om. T διελομένους Arist. codd. praeter L (T? dividentem)</note>
+              <lb n="9" xml:id="p53-8"/>Περὶ δὲ τῶν ἄλλων χρωμάτων ἤδη διελομένοις ποσαχῶς<note type="apparatus" n="9" target="#p53-8">ἤδη om. T διελομένους Arist. codd. praeter L (T? dividentem)</note>
               <lb n="10" xml:id="p53-9"/>ἐνδέχεται γίνεσθαι λεκτέον.
             </quote>
             <p>
@@ -1817,7 +1818,7 @@
             <p>
               <lb n="8" xml:id="p56-7"/>Ἐκθέμενος τὰς δόξας τὰς δύο, καθ’ ἃς αἱ τῶν πλειόνων χρωμάτων
               <lb n="9" xml:id="p56-8"/>φαντασίαι κατὰ μῖξιν τῶν ἐναντίων, τοῦ τε λευκοῦ καὶ τοῦ μέλανος, γίνεσθαι<note type="apparatus" n="9-10" target="#p56-8 #p56-9">γίνονται e T Thurot</note>
-              <lb n="10" xml:id="p56-9"/>† δοκεῖ ἐν ᾗ ἦν δόξα προκαταβεβλημένη περὶ τοῦ ὁρᾶν ὑπὸ τῶν ἀργαίων,<note type="apparatus" n="10" target="#p56-9">δοκοῦσιν conicio ἐν ᾗ ἦν VAa: ἐνίην N: περιῆν Diels: ἀναλαβεῖν (resumere T) τὴν ex T Thurot: δοκεῖ ὀλίγον τι ἐκβαίνειν, ἐπεὶ ἦν e. gr. Usener: ἐναντιοῦται (vel ἀντιλέγει) δόξῃ προκαταβεβλημένῃ conicio δόξαν προκαταβεβλημένην TN(?)</note>
+              <lb n="10" xml:id="p56-9"/>† δοκεῖ ἐν ᾗ ἦν δόξα προκαταβεβλημένη περὶ τοῦ ὁρᾶν ὑπὸ τῶν ἀρχαίων,<note type="apparatus" n="10" target="#p56-9">δοκοῦσιν conicio ἐν ᾗ ἦν VAa: ἐνίην N: περιῆν Diels: ἀναλαβεῖν (resumere T) τὴν ex T Thurot: δοκεῖ ὀλίγον τι ἐκβαίνειν, ἐπεὶ ἦν e. gr. Usener: ἐναντιοῦται (vel ἀντιλέγει) δόξῃ προκαταβεβλημένῃ conicio δόξαν προκαταβεβλημένην TN(?)</note>
               <lb n="11" xml:id="p56-10"/>ὡς ἄρα τοῦ ὁρᾶν κατὰ τὴν ἀπὸ τῶν ὁρωμένων ἀπόρροιαν γινομένου·<note type="apparatus" n="11" target="#p56-10">ὡς] οἳ M ἄρα τοῦ ὁρᾶν om. M τὴν] τῶν N ἀπὸ om. T</note><note type="apparatus" n="11-12" target="#p56-10 #p56-11">γινομένων a</note><milestone type="alt-edition" unit="line" ed="Thurot 1875" n="10"/>
               <lb n="12" xml:id="p56-11"/>εἴδωλα γάρ τινα ὁμοιόμορφα ἀπὸ τῶν ὁρωμένων συνεχῶς ἀπορρέοντα<note type="apparatus" n="12" target="#p56-11">γάρ om. a</note>
               <lb n="13" xml:id="p56-12"/>καὶ ἐμπίπτοντα τῇ ὄψει τοῦ ὁρᾶν ᾐτιῶντο. τοιοῦτοι δὲ ἦσαν οἵ<note type="apparatus" n="13" target="#p56-12">πίπτοντα a ᾐτιῶντο a: ᾐτέων N: αἰτίων A: αἰτία ἦν V: αἰτία T τοιοῦτον N</note>
@@ -1860,7 +1861,7 @@
               <lb n="24" xml:id="p57-23"/>ἑκάστην γὰρ φορὰν εἰδώλου τοσοῦτον ἀέρα δέξεται, ὅσος ἐστὶν ὁ μεταξὺ<note type="apparatus" n="24" target="#p57-23">φορὰν Usener: διαφορὰν libri ὃς a</note>
               <lb n="25" xml:id="p57-24"/>αὐτοῦ τε καὶ τοῦ ὁρωμένου); εἶτα ἕξει τινὰ ἰσχὺν τὰ ἀπορρέοντα εἴδωλα,<note type="apparatus" n="25" target="#p57-24">αὐτῆς conicio εἶτα] ἔπειτα coni. Usener τίνα ἕξει coni. Thurot</note><milestone type="alt-edition" unit="line" ed="Thurot 1875" n="10"/>
               <lb n="26" xml:id="p57-25"/>ὡς τοῦτον προωθεῖν δύνασθαι; εἶτα πῶς, ὅταν ἄνεμος ᾖ, τοῦτο ἔτι σωθήσεται;<note type="apparatus" n="26" target="#p57-25">πῶς om. T</note>
-              <lb n="27" xml:id="p57-26"/>ὁ γὰρ ἄνεμος ὁρᾶται παρασύρων τὸν μεταξὺ ἀέρα. εἰ δὴ τὰ εἴδωλα λεπτοτερα<note type="apparatus" n="27" target="#p57-26">δὲ coni. Thurot et Usener</note><note type="apparatus" n="27-28" target="#p57-26 #p57-27">λεπτότατα a, sed v. De an. 136,22</note>
+              <lb n="27" xml:id="p57-26"/>ὁ γὰρ ἄνεμος ὁρᾶται παρασύρων τὸν μεταξὺ ἀέρα. εἰ δὴ τὰ εἴδωλα λεπτότερα<note type="apparatus" n="27" target="#p57-26">δὲ coni. Thurot et Usener</note><note type="apparatus" n="27-28" target="#p57-26 #p57-27">λεπτότατα a, sed v. De an. 136,22</note>
               <lb n="28" xml:id="p57-27"/>ὄντα διαδύε<milestone type="alt-edition" unit="page" ed="Thurot 1875" n="121"/>ται τὴν τῶν ἀνέμων βίαν, πῶς οὐχὶ διὰ τοῦ ἀέρος διαδύσεται;<note type="apparatus" n="28" target="#p57-27">διαδύεται] spat. vii litt. T ἡ ... βία coni. Thurot (T?) 28. 58,1 διαδύσεται om. T</note>
             </p>
             <pb n="58" facs="https://archive.org/download/p1commentariainari03bero/page/n83.jpg"/>
@@ -1929,7 +1930,7 @@
               <lb n="22" xml:id="p59-21"/>μῖξίν τε καὶ φύσιν ἀνατιθεῖσιν, ἔτι δὲ τὸ ὁρᾶν τῇ ἀπὸ τῶν ὁρωμένων<note type="apparatus" n="22" target="#p59-21">ἀνατιθῆσι N: ἀνατίθησιν A</note>
               <lb n="23" xml:id="p59-22"/>ἀπορροίᾳ γίνεσθαι λέγουσιν ἕπεται, ὥσπερ σῶμά τι καὶ μέγεθος λαμβάνουσιν<note type="apparatus" n="23" target="#p59-22">λέγει A σώματι a: τι σῶμα V: om. T</note>
               <lb n="24" xml:id="p59-23"/>ἀόρατον τῇ αὑτοῦ φύσει, οὕτως λέγειν καὶ χρόνον τινὰ ἀναίσθητον εἶναι.<note type="apparatus" n="24" target="#p59-23">αὐτοῦ ANa: αὐτῇ V</note>
-              <lb n="25" xml:id="p59-24"/>πᾶσα μὲν <milestone type="alt-edition" unit="page" ed="Thurot 1875" n="125"/> γὰρ κίνησις ἐν χρόνῳ. διὸ καὶ ἡ ἀπὸ τῶν ὁρωμένων ἀπορροια<note type="apparatus" n="25" target="#p59-24">ἐν om. VA διότι a ἀπὸ om. a</note>
+              <lb n="25" xml:id="p59-24"/>πᾶσα μὲν <milestone type="alt-edition" unit="page" ed="Thurot 1875" n="125"/> γὰρ κίνησις ἐν χρόνῳ. διὸ καὶ ἡ ἀπὸ τῶν ὁρωμένων ἀπόρροια<note type="apparatus" n="25" target="#p59-24">ἐν om. VA διότι a ἀπὸ om. a</note>
               <lb n="26" xml:id="p59-25"/>διὰ κινήσεως ἐπὶ τὰς ὄψεις ἀφικνουμένη δηλονότι ἐν χρόνῳ ἄν τινι<note type="apparatus" n="26" target="#p59-25">ad visum T ἐν χρόνῳ om. AN</note>
               <lb n="27" xml:id="p59-26"/>ἀφικνοῖτο. τοῦ δὲ τοῦτον τὸν χρόνον ἀναίσθητον αὐτοῖς ἀναγκαῖον εἶναι<note type="apparatus" n="27" target="#p59-26">ἀφικνεῖτο N τοῦ δὲ τοῦτον scripsi: τοῦτον δὲ TANa: τοιοῦτον δὲ V ἀναίσθητον Na: οὐκ αἰσθητὸν V: αἰσθητὸν TA</note>
               <lb n="28" xml:id="p59-27"/>λέγειν καὶ τὴν αἰτίαν παρατίθησιν.<note type="apparatus" n="28" target="#p59-27">λέγειν om. N(?)a καὶ Na: οὗ TVA</note>
@@ -2122,7 +2123,7 @@
               <lb n="22" xml:id="p65-21"/>Εἰπὼν δὲ ταῦτα, διὰ ποίαν αἰτίαν τὰ εἴδη τῶν χρωμάτων ἐστὶν ὡρισμένα,
               <lb n="23" xml:id="p65-22"/>ἀλλ’ οὐχὶ ἄπειρα, ὁμοίως δὲ καὶ τῶν ἄλλων αἰσθητῶν, χυμῶν τε<note type="apparatus" n="23" target="#p65-22">post ἄλλων add. τῶν AN ἀναισθήτων N</note>
               <lb n="24" xml:id="p65-23"/>καὶ ψόφων καὶ τῶν ὀσφραντῶν τε καὶ ἁπτῶν, ὕστερόν φησιν ἐπισκεπτέον·<note type="apparatus" n="24" target="#p65-23">ὀσφραντῶν a: ὀσφρητῶν VAN</note><milestone type="alt-edition" unit="line" ed="Thurot 1875" n="5"/>
-              <lb n="25" xml:id="p65-24"/>ἐρεῖ δὲ τὴν αἰτίαν προϊών. ὧν γάρ ἐστι τὰ πέρατα καὶ τὰ ἔσχατα ὡριμένα,<note type="apparatus" n="25" target="#p65-24">ὧν γὰρ T (cf. Arist. p. 445b23): τί γὰρ ὧν V: ὅτε γὰρ ὧν AN: ὅτι γὰρ ὧν a</note>
+              <lb n="25" xml:id="p65-24"/>ἐρεῖ δὲ τὴν αἰτίαν προϊών. ὧν γάρ ἐστι τὰ πέρατα καὶ τὰ ἔσχατα ὡρισμένα,<note type="apparatus" n="25" target="#p65-24">ὧν γὰρ T (cf. Arist. p. 445b23): τί γὰρ ὧν V: ὅτε γὰρ ὧν AN: ὅτι γὰρ ὧν a</note>
               <lb n="26" xml:id="p65-25"/>τούτων ἀνάγκη καὶ τὰ μεταξὺ ὡρίσθαι. ἐν οἷς δὲ γένεσίς ἐστιν<note type="apparatus" n="26" target="#p65-25">ἀναγκαῖον Arist. codd. EYM τὰ om. a ὥρισται V γένεσίς] spat. III litt. AN</note>
             </p>
             <note type="footnote">
@@ -2293,14 +2294,14 @@
               <lb n="21" xml:id="p70-20"/>ταύτης τῆς δόξης τὸ ὑπὸ τοῦ θερμοῦ λέγειν μόνου ἐν τῷ ὕδατι γίνεσθαι<note type="apparatus" n="21" target="#p70-20">cave mutes ταύτην τὴν δόξαν (sic T) τοῦ ὑπὸ (v. p. 74,22) τὸ] τῷ T μόνους N (μόνον Aristoteli restituendum cum LP, v. p. 71,14. 20)</note>
               <lb n="22" xml:id="p70-21"/>χυμούς· συνεργὸν μὲν γὰρ καὶ τὸ πῦρ καὶ τὸ θερμὸν τῇ τῶν χυμῶν γενέσει,<note type="apparatus" n="22" target="#p70-21">συνεργὸν TAN (cf. p. 71,14): συνεργεῖν Va: συνεργεῖ Thurot μὲν om. T καὶ—καὶ om. T post πῦρ add. τε Aa τῇ] τῷ a (τῇ etiam M)</note>
               <lb n="23" xml:id="p70-22"/>ὡς γῆ, ἐν τῷ ὕδατι, ὡς καὶ αὐτός φησιν, οὐ μὴν μόνον αὐτὸ δύναται<note type="apparatus" n="23" target="#p70-22">ὡς γῆ om. a alt. ὡς Ta: om. VAN, quos neque hic neque infra (δύνασθαι) secutus sum, ne cogerer vocem γῆ in γῆν mutare δύναται T: δύνασθαι VANa</note>
-              <lb n="24" xml:id="p70-23"/>ποιητικὸν εἶναι τῶν χυμῶν. ὃ δεικνὺς λαμβάνει ὅτι λεπτότατον πάντῶν<note type="apparatus" n="24" target="#p70-23">ὅτε N 24. 72,1 τῶν πάντων male Arist. codd. EMY</note><milestone type="alt-edition" unit="line" ed="Thurot 1875" n="10"/>
+              <lb n="24" xml:id="p70-23"/>ποιητικὸν εἶναι τῶν χυμῶν. ὃ δεικνὺς λαμβάνει ὅτι λεπτότατον πάντων<note type="apparatus" n="24" target="#p70-23">ὅτε N 24. 72,1 τῶν πάντων male Arist. codd. EMY</note><milestone type="alt-edition" unit="line" ed="Thurot 1875" n="10"/>
             </p>
             <pb n="71" facs="https://archive.org/download/p1commentariainari03bero/page/n96.jpg"/>
             <p>
               <lb n="1" xml:id="p71-0"/>τῶν οὕτως ὑγρῶν, τουτέστι τῶν ἀναπληστικῶν, τὸ ὕδωρ ἐστί. διὸ<note type="apparatus" n="1" target="#p71-0">οὕτως] om. a (Arist.): ὄντως V, cf. v. 4</note>
               <lb n="2" xml:id="p71-1"/>οὐδὲ παχύνεται θερμαινόμενον καθ’ αὑτό. εἰ δὲ μὴ παχύνεται, οὐδὲ χυμόν
               <lb n="3" xml:id="p71-2"/>τινα λαμβάνει αὐτὸ καθ’ αὑτὸ θερμαινόμενόν τε καὶ ἑψόμενον· πάντες<note type="apparatus" n="3" target="#p71-2">πάντες Va (Arist.): πάντως TAN</note>
-              <lb n="4" xml:id="p71-3"/>γὰρ οἱ χυμοὶ πάχος ἔχουσι. εἰπὼν δὲ λεπτότατον εἶναι πάντων τῶν τοιοὕτων<note type="apparatus" n="4" target="#p71-3">πάχος] πάντος A: πάντως N</note>
+              <lb n="4" xml:id="p71-3"/>γὰρ οἱ χυμοὶ πάχος ἔχουσι. εἰπὼν δὲ λεπτότατον εἶναι πάντων τῶν τοιούτων<note type="apparatus" n="4" target="#p71-3">πάχος] πάντος A: πάντως N</note>
               <lb n="5" xml:id="p71-4"/>ὑγρῶν τὸ ὕδωρ, τὸ ἔλαιον ἐπιπολάζειν τῷ ὕδατί φησιν οὐ διὰ λεπτότητα,<milestone type="alt-edition" unit="line" ed="Thurot 1875" n="15"/>
               <lb n="6" xml:id="p71-5"/>ἀλλὰ <milestone type="alt-edition" unit="page" ed="Thurot 1875" n="148"/> διὰ γλισχρότητα, καὶ ταύτῃ καὶ ἐπεκτείνεσθαι ἐπὶ
               <lb n="7" xml:id="p71-6"/>πλέον καὶ ἀναπληστικὸν μᾶλλον τοῦ ὕδατος εἶναι διὰ τὴν αὐτὴν αἰτίαν.
@@ -2322,7 +2323,7 @@
               <lb n="23" xml:id="p71-22"/>τοιοῦτόν φασι τὸ ὕδωρ εἶναι, δι’ οἵας ἄν γῆς πορεύηται, ὡς παρὰ<note type="apparatus" n="23" target="#p71-22">πορεύηται ex Arist. Thurot: πορεύοιτο VANa ὡς om. A παρὰ] περὶ V</note>
               <lb n="24" xml:id="p71-23"/>τῆς γῆς τοῦ ὕδατος τὸν χυμὸν λαμβάνοντος, ἀλλὰ καὶ [ἐκ] τῇ ἐναργείᾳ. τά τε<note type="apparatus" n="24" target="#p71-23">τῇ ἐναργείᾳ scripsi: ἐκ τῆς ἐναργείας V: ἐκ τῆς ἐνεργείας TAN (sed T om. καὶ, unde ortum est interpolatum ἐκ): ἐκ τῆς ἐ. 〈τῇ πίστει〉 male coni. Thurot</note>
               <lb n="25" xml:id="p71-24"/>γὰρ ἁλμυρὰ τῶν ὑδάτων τῷ διὰ τῆς τοιαύτης γῆς διηθεῖσθαι τοιαῦτά<note type="apparatus" n="25" target="#p71-24">τῶν ὑδάτων MTVAN: om. a τῆς τοιαύτης M: τοιαύτης TVAN: τῆς αὐτῆς a διηγεῖσθαι V: διαθεῖσθαι AN</note>
-              <lb n="26" xml:id="p71-25"/>ἐστιν (οἱ γὰρ ἅλες εἶδός τι τῆς γῆς εἰσι, δι’ ὧν τὸ διηθούμενον ὕδωρ ἁλὑγρὸν<note type="apparatus" n="26" target="#p71-25">γὰρ] μὲν V ἅλλες AN τῆς om. V ἐστι V</note>
+              <lb n="26" xml:id="p71-25"/>ἐστιν (οἱ γὰρ ἅλες εἶδός τι τῆς γῆς εἰσι, δι’ ὧν τὸ διηθούμενον ὕδωρ ἁλμυρὸν<note type="apparatus" n="26" target="#p71-25">γὰρ] μὲν V ἅλλες AN τῆς om. V ἐστι V</note>
               <lb n="27" xml:id="p71-26"/>γίνεται), καὶ καθόλου ὁποία ἄν ἡ τῆς γῆς ποιότης ᾖ, τοιοῦτος καὶ<note type="apparatus" n="27" target="#p71-26">ἡ Va: ᾖ A: ἦν N ᾖ om. N</note><milestone type="alt-edition" unit="line" ed="Thurot 1875" n="10"/>
               <lb n="28" xml:id="p71-27"/>ὁ χυμὸς τοῦ δι’ αὐτῆς ῥέοντος γινόμενος ὁρᾶται, διὰ μὲν ἀσφαλτώδους<note type="apparatus" n="28" target="#p71-27">ὕδατος add. T, fort. recte</note><note type="apparatus" n="28-29" target="#p71-27 #p71-28">σφαλτώδους σφαλτώδης V</note>
               <lb n="29" xml:id="p71-28"/>ἀσφαλτώδης, διὰ δὲ πικρᾶς πικρός· τὰ γοῦν διὰ τῆς τέφρας διηθούμενα
@@ -2536,12 +2537,12 @@
               <lb n="8" xml:id="p78-7"/>τὸ ψυχρὸν πέψεως καὶ ἀπεψίας αἴτιον, ὧν ἡ μὲν πέψις προσκρίσεώς τε καὶ<note type="apparatus" n="8" target="#p78-7">αἰτία a</note>
               <lb n="9" xml:id="p78-8"/>αὐξήσεως αἰτία, ἡ δὲ ἀπεψία φθίσεώς τε καὶ ἀτροφίας. συνεργεῖ δὲ πρὸς<note type="apparatus" n="9" target="#p78-8">τε om. V</note>
               <lb n="10" xml:id="p78-9"/>τὴν σύμφυτον ἐν τοῖς ζῴοις θερμότητα, δι’ ἧς αἱ πέψεις, τῇ θρεπτικῇ<note type="apparatus" n="10" target="#p78-9">τὴν om. AN</note>
-              <lb n="11" xml:id="p78-10"/>ψυχὴ (τούτῳ γὰρ ὀργάνῳ πρὸς τὴν πέψιν ἡ δύναμις αὕτη χρῆται) καὶ ἡ<milestone type="alt-edition" unit="line" ed="Thurot 1875" n="5"/>
+              <lb n="11" xml:id="p78-10"/>ψυχῇ (τούτῳ γὰρ ὀργάνῳ πρὸς τὴν πέψιν ἡ δύναμις αὕτη χρῆται) καὶ ἡ<milestone type="alt-edition" unit="line" ed="Thurot 1875" n="5"/>
               <lb n="12" xml:id="p78-11"/>τῶν προσφερομένων θερμότης τε καὶ ψυχρότης. ὥστε κατὰ μὲν τὸ πάθος<note type="apparatus" n="12" target="#p78-11">τῶν τρεφομένων a (corr. M) τε καὶ ψυχρότης suspecta habet Thurot</note>
               <lb n="13" xml:id="p78-12"/>τοῦτο τὸ ἁπτὸν γινόμενον καὶ αὐτὸ ὑπὸ τοῦ ξηροῦ ἐν τῷ ὑγρῷ (ἐκ τούτων<note type="apparatus" n="13" target="#p78-12">τὸ om. P</note>
               <lb n="14" xml:id="p78-13"/>γὰρ ἡ τροφὴ οὖσα καὶ ἁπτή ἐστιν) οὐκ εἰσιν οἱ χυμοί. δύναται γὰρ ἡ<note type="apparatus" n="14" target="#p78-13">εἰσὶ δὲ χυμοί Pa γὰρ Pa: om. TVAN: δὲ conicio</note>
               <lb n="15" xml:id="p78-14"/>τροφή, καθόσον ἁπτή ἐστιν, αὐξήσεως εἰρῆσθαι αἰτία, ὅτι τὸ σῶμα ἁπτόν·<note type="apparatus" n="15" target="#p78-14">ἁπτή] αὐτὴ V αἰτίαν N</note>
-              <lb n="16" xml:id="p78-15"/>ἡ γὰρ ἀντιτυπία ἁπτόν, ἐν ᾗ τῷ σώματι τὸ εἶναι· ἀλλὰ καὶ ἀφ’ ὧν εἴδοποιεῖται<note type="apparatus" n="16" target="#p78-15">ἀντιτυπία] spat. vi litt. T ἁπτή APa καὶ om. T</note><note type="apparatus" n="16-17" target="#p78-15 #p78-16">εἰδοποιεῖσθαι a (corr. M)</note><milestone type="alt-edition" unit="line" ed="Thurot 1875" n="10"/>
+              <lb n="16" xml:id="p78-15"/>ἡ γὰρ ἀντιτυπία ἁπτόν, ἐν ᾗ τῷ σώματι τὸ εἶναι· ἀλλὰ καὶ ἀφ’ ὧν εἰδοποιεῖται<note type="apparatus" n="16" target="#p78-15">ἀντιτυπία] spat. vi litt. T ἁπτή APa καὶ om. T</note><note type="apparatus" n="16-17" target="#p78-15 #p78-16">εἰδοποιεῖσθαι a (corr. M)</note><milestone type="alt-edition" unit="line" ed="Thurot 1875" n="10"/>
               <lb n="17" xml:id="p78-16"/>τὰ πρῶτα σώματα, ἐν οἷς αὐτοῖς τὸ εἶναι, ἁπτὰ καὶ ταῦτα. κατὰ<note type="apparatus" n="17" target="#p78-16">τὸ εἶναι αὐτοῖς AN</note>
               <lb n="18" xml:id="p78-17"/>δὲ σώματος προσθήκην τε καὶ ἀπουσίαν αἱ αὐξήσεις τε καὶ αἱ μειώσεις.<note type="apparatus" n="18" target="#p78-17">alt. αἱ om. Pa</note>
               <lb n="19" xml:id="p78-18"/>ὥστε ἡ τροφή, καθὸ μὲν σῶμα, αὔξει, ὡς ἐν τοῖς Περὶ γενέσεως εἶπε <milestone type="alt-edition" unit="page" ed="Thurot 1875" n="165"/><note type="apparatus" n="19" target="#p78-18">μὲν om. a (habet etiam M) ἐν τοῖς Περὶ γενέσεως] A 5 p. 322 a 25—28 (cf. Olympiodori Comm. p. 120,14 ss. V.)</note>
@@ -2604,7 +2605,7 @@
               <lb n="14" xml:id="p80-13"/>φησίν, οὐχ ὡς τρόφιμοι καθ’ ἑαυτούς, ὥσπερ τὸ ἁλμυρὸν καὶ τὸ ὀξύ· ὡς<note type="apparatus" n="14" target="#p80-13">αὑτοὺς V</note>
               <lb n="15" xml:id="p80-14"/>γὰρ τούτους τοὺς χυμοὺς ἡδύσματος χάριν τοῖς γλυκέσι παραμεμιγμένους<note type="apparatus" n="15" target="#p80-14">παραμεμιγμένους T: παραμεμιγμένοις a: παραμεμιγμένοι VANP</note>
               <lb n="16" xml:id="p80-15"/>ὁρῶμεν παραμυθουμένους τὴν καθ’ ἑκάστην γεῦσιν ὑπερβολὴν τῆς γλυκύτητος,<note type="apparatus" n="16" target="#p80-15">περιμυθουμένους V καθ’ om. a (habet iam M)</note>
-              <lb n="17" xml:id="p80-16"/>οὕτως καὶ τοὺς ἄλλους χυμοὺς τῆς χρείας χάριν ταύτης τοῖς γλυκεσιν<milestone type="alt-edition" unit="page" ed="Thurot 1875" n="169"/>
+              <lb n="17" xml:id="p80-16"/>οὕτως καὶ τοὺς ἄλλους χυμοὺς τῆς χρείας χάριν ταύτης τοῖς γλυκέσιν<milestone type="alt-edition" unit="page" ed="Thurot 1875" n="169"/>
               <lb n="18" xml:id="p80-17"/>ἀναμίγνυσθαι ἀντισπῶντας τὸ τοῦ γλυκέος ἐπιπολαστικόν, ἀλλ’ οὐχ<note type="apparatus" n="18" target="#p80-17">ἀντισπῶντας TVa: ἀντειπὼν AN: κολάζοντας, sed supra scr. ἀντειπόντας P (ἀντισπᾶν τῷ Arist. cum Bekkero restituendum e LSVP, Sophonia p. 96,8 H.) τὸ om. a (habet etiam M)</note>
               <lb n="19" xml:id="p80-18"/>ὡς τροφίμους καθ’ αὑτούς. ἀφ’ ὧν δῆλον ὅτι τὸ ἔνδον θερμὸν τοῖς γλυκέσι
               <lb n="20" xml:id="p80-19"/>τρέφει καθ’ ὃν καὶ προείρηκε τρόπον.<note type="apparatus" n="20" target="#p80-19">καὶ om. Ta προειρήκαμεν a</note>
@@ -2860,7 +2861,7 @@
               <lb n="9" xml:id="p88-8"/>διασαφεῖ. ὃ μὲν γὰρ προεῖπεν ἔστι· “περὶ δὲ ὀσμῆς καὶ χυμοῦ λεκτέον·<note type="apparatus" n="9" target="#p88-8">νῦν] nunc autem T προεῖπε MA (sc. 440b28): εἶπε a: εἶπεν TVP ἔστι om. Ma δὲ om. a (habet etiam M) καὶ om. P post χυμοῦ add. νῦν Arist. codd. EMYL v. ad p. 66,18</note>
               <lb n="10" xml:id="p88-9"/>σχεδὸν γάρ ἐστι τὸ αὐτὸ πάθος, οὐκ ἐν τοῖς αὐτοῖς δέ ἐστιν ἑκάτερον<note type="apparatus" n="10" target="#p88-9">ἑκατέρας V</note><milestone type="alt-edition" unit="line" ed="Thurot 1875" n="5"/>
               <lb n="11" xml:id="p88-10"/>αὐτῶν,” τοῦτο δὲ νῦν πῶς ἐν ἐκείνοις εἶπε δείκνυσι. τὸν αὐτὸν γάρ, <milestone type="alt-edition" unit="page" ed="Thurot 1875" n="185"/><note type="apparatus" n="11" target="#p88-10">post δὲ add. ὃν P αὐτὸν om. V 12—14 γινομένη—ἐναποπλυνόμενον om. a (habet etiam M)</note>
-              <lb n="12" xml:id="p88-11"/>φησί, τρόπον δεῖ νοῆσαι γινομένην τὴν ὀσμήν, ὃν τρόπον ἐδείχθη γινόμένος
+              <lb n="12" xml:id="p88-11"/>φησί, τρόπον δεῖ νοῆσαι γινομένην τὴν ὀσμήν, ὃν τρόπον ἐδείχθη γινόμενος
               <lb n="13" xml:id="p88-12"/>καὶ ὁ χυμός. ὡς γὰρ τὸν χυμὸν ἐποίει τὸ ξηρὸν τὸ ἐν τῇ γῇ<note type="apparatus" n="13" target="#p88-12">prius τὸ V: om. AP alt. τὸ] εἰ M</note>
               <lb n="14" xml:id="p88-13"/>μιγνύμενόν πως καὶ ἐναποπλυνόμενον τῷ ὕδατι ὑπὸ θερμότητος συνεργούμενον,<note type="apparatus" n="14-15" target="#p88-13 #p88-14">cooperans P</note>
               <lb n="15" xml:id="p88-14"/>οὕτω φησὶ τὸ ὑγρὸν τὸ ἤδη χυμὸν ἔχον, τοῦτο δ’ ἐστὶ τὸ ξηρῷ<note type="apparatus" n="15" target="#p88-14">alt. τὸ om. a τοῦτο Pa: τοῦτον TVA δ’ ἐστὶ τὸ Usener: δ’ ἐπὶ τὸ VA (autem in T): δὲ πως Pa</note><milestone type="alt-edition" unit="line" ed="Thurot 1875" n="5"/>
@@ -3072,7 +3073,7 @@
               <lb n="16" xml:id="p94-15"/>ἀμφοτέρων, τοῦ τε χυμοῦ καὶ τῆς ὀσμῆς, καὶ 〈τῆς ὀσμῆς〉 ἐστι τὸ ἐν τοῖς<note type="apparatus" n="16" target="#p94-15">τῆς ὀσμῆς add. Thurot ἐστὶ] etiam quod T</note>
               <lb n="17" xml:id="p94-16"/>χυμοῖς ξηρὸν ποιητικόν, φανερὸν ὅτι ἀνάλογον δεῖ εἶναι τὰς ὀσμὰς<note type="apparatus" n="17" target="#p94-16">ὅτι] ἔτι Arist. codd. EMY δεῖ ἀνάλογον Arist.</note>
               <lb n="18" xml:id="p94-17"/>τοῖς χυμοῖς. ἢ τὸ λεγόμενόν ἐστιν ὅτι, εἰ τὸ ἔγχυμον ξηρὸν ἐναποπλυνόμενον<note type="apparatus" n="18" target="#p94-17">ἢ] εἰ AP ἐστιν om. T</note><milestone type="alt-edition" unit="line" ed="Thurot 1875" n="10"/>
-              <lb n="19" xml:id="p94-18"/>τῷ τε ὕδατι καὶ τῷ ἀέρι ὁμοίως ποιεῖ τὰς ὀσμάς, δῆλον ὡς ἀνάλόγον<note type="apparatus" n="19" target="#p94-18">τε om. V ποιεῖται A</note><note type="apparatus" n="19-20" target="#p94-18 #p94-19">ἀνάλογος Va</note>
+              <lb n="19" xml:id="p94-18"/>τῷ τε ὕδατι καὶ τῷ ἀέρι ὁμοίως ποιεῖ τὰς ὀσμάς, δῆλον ὡς ἀνάλογον<note type="apparatus" n="19" target="#p94-18">τε om. V ποιεῖται A</note><note type="apparatus" n="19-20" target="#p94-18 #p94-19">ἀνάλογος Va</note>
               <lb n="20" xml:id="p94-19"/>ἔσονται καὶ αἱ ὀσμαὶ τοῖς χυμοῖς ὑφ’ ὧν γίνονται. κατὰ γὰρ τὰς<note type="apparatus" n="20" target="#p94-19">καὶ om. a (habet etiam M)</note>
               <lb n="21" xml:id="p94-20"/>τῶν χυμῶν διαφορὰς ἔσονται καὶ ὀσμῶν διαφοραί, εἴγε ὑπὸ τούτων<note type="apparatus" n="21" target="#p94-20">post εἴγε add. καὶ Pa</note><milestone type="alt-edition" unit="page" ed="Thurot 1875" n="198"/>
               <lb n="22" xml:id="p94-21"/>ἐκεῖναι γίνονται, ὡς ἕπεσθαι ἐκείνῳ ὃ φίλον ἐκείνῳ, εἰ οὕτως ἔχοι.<note type="apparatus" n="22" target="#p94-21">ἐκεῖναι] alii T (corr. illi) ὀφείλων V ἔχοι TVA: ἔχει Pa ἔτι δ’ Diels: τις libri, cum ἔχοι coniunctum</note>
@@ -3080,12 +3081,12 @@
               <lb n="24" xml:id="p94-23"/>ἐνίων συμβέβηκε, καὶ πῶς λέγει. καὶ γὰρ δριμεῖαι καὶ γλυκεῖαι<note type="apparatus" n="24" target="#p94-23">καὶ-λέγει om. a</note>
               <lb n="25" xml:id="p94-24"/>καὶ αὐστηραὶ καὶ στρυφναὶ καὶ λιπαραί εἰσιν ὀσμαί, ὥσπερ καὶ<milestone type="alt-edition" unit="line" ed="Thurot 1875" n="5"/>
               <lb n="26" xml:id="p94-25"/>χυμοί, ἀναλογίαν ἑκάστης ὀσμῆς πρὸς ἕκαστον τῶν χυμῶν τούτων σῳζούσης.<note type="apparatus" n="26" target="#p94-25">οἱ χυμοὶ a</note>
-              <lb n="27" xml:id="p94-26"/>ἀλλὰ καὶ αἱ τῶν διασεσηπότων ὀσμαὶ τοῖς πικροῖς τῶν χυμῶν ἀνάλόγοι<note type="apparatus" n="27" target="#p94-26">ταῖς πικραῖς Arist. codd. EMY</note>
+              <lb n="27" xml:id="p94-26"/>ἀλλὰ καὶ αἱ τῶν διασεσηπότων ὀσμαὶ τοῖς πικροῖς τῶν χυμῶν ἀνάλογοι<note type="apparatus" n="27" target="#p94-26">ταῖς πικραῖς Arist. codd. EMY</note>
               <lb n="28" xml:id="p94-27"/>ἂν εἶεν. καὶ δεικνὺς τὴν ἀναλογίαν αὐτῶν εἶπεν· ὡς οἱ χυμοὶ οἱ<note type="apparatus" n="28" target="#p94-27">εἰπὼν V.</note>
             </p>
             <pb n="95" facs="https://archive.org/download/p1commentariainari03bero/page/n120.jpg"/>
             <p>
-              <lb n="1" xml:id="p95-0"/>πικροὶ καὶ δυσκατάποτοι, οὕτω καὶ αἱ σαπραὶ ὀσμαὶ δυσανάπνευστοι. a<note type="apparatus" n="1" target="#p95-0">prius καὶ om. T, fort. recte</note>
+              <lb n="1" xml:id="p95-0"/>πικροὶ καὶ δυσκατάποτοι, οὕτω καὶ αἱ σαπραὶ ὀσμαὶ δυσανάπνευστοι. ἃ<note type="apparatus" n="1" target="#p95-0">prius καὶ om. T, fort. recte</note>
               <lb n="2" xml:id="p95-1"/>λαβὼν ὡς φανερῶς οὕτως ἔχοντα, δι’ αὐτῶν πιστοῦται τὰ προειρημένα,<note type="apparatus" n="2" target="#p95-1">ποιοῦνται V</note><milestone type="alt-edition" unit="line" ed="Thurot 1875" n="10"/>
               <lb n="3" xml:id="p95-2"/>ὅτι 〈ὅπερ〉 ἐν τῷ ὕδατι ὁ χυμός ἐστι γινόμενος ὑπὸ τοῦ γεώδους ξηροῦ,<note type="apparatus" n="3" target="#p95-2">ὅπερ M (Arist.): om. TVPa ὁ om. V γιγνόμενος a, tum γίνεται γὰρ ὁ χυμὸς add. V, ὁ δὲ χυμὸς APa (del. M), et quod sapor T ἀπὸ τοῦ γαιώδους V</note>
               <lb n="4" xml:id="p95-3"/>τοῦτο ἐν τῷ ἀέρι καὶ ὕδατι ἡ ὀσμὴ γινομένη ὑπὸ τῆς ξηρότητος τῆς<note type="apparatus" n="4" target="#p95-3">ante ἐν add. καὶ P ἀέρι καὶ ὕδατι T (Arist.): ὕδ. καὶ ἀέρι VPa: ἀέρι A</note>
@@ -3669,7 +3670,7 @@
             </p>
             <pb n="113" facs="https://archive.org/download/p1commentariainari03bero/page/n138.jpg"/>
             <p>
-              <lb n="1" xml:id="p113-0"/>“Ἃ εἰπὼν ἐπιφέρει ἀλλ’ ἀδύνατα † ὧν ἐστι τὰ ἄλλα δυνατὰ τὰ ὑπ’<note type="apparatus" n="1" target="#p113-0">ἀλλ’ ἀδύνατον TV (Arist. codd. MP) ὧν—δυνατὰ V: ὧν ἐστι τῶ ἀλλ’ ἀδύνατα A: τὸ ἀλλ’ ἀδύνατα Pa: om. T, fort. scrib. ὡς ἔστι (ὅ ἔστι Diels) τὰ ἀλλ’ ἀδύνατα</note>
+              <lb n="1" xml:id="p113-0"/>Ἃ εἰπὼν ἐπιφέρει ἀλλ’ ἀδύνατα † ὧν ἐστι τὰ ἄλλα δυνατὰ τὰ ὑπ’<note type="apparatus" n="1" target="#p113-0">ἀλλ’ ἀδύνατον TV (Arist. codd. MP) ὧν—δυνατὰ V: ὧν ἐστι τῶ ἀλλ’ ἀδύνατα A: τὸ ἀλλ’ ἀδύνατα Pa: om. T, fort. scrib. ὡς ἔστι (ὅ ἔστι Diels) τὰ ἀλλ’ ἀδύνατα</note>
               <lb n="2" xml:id="p113-1"/>ἐκείνων λεγόμενα. ὃ καὶ αὐτοὶ εἴποιεν ἂν λύειν τὰ ἀπορούμενα θέλοντες·<note type="apparatus" n="2" target="#p113-1">ὃ TVAP: ἃ a ἐθέλοντες a</note>
               <lb n="3" xml:id="p113-2"/>ἀδύνατα γὰρ ἐροῦσι καὶ αὐτοὶ ταῦτά γε ἐκείνοις λέγοντες. φησὶ δὲ εἰρῆσθαι<note type="apparatus" n="3" target="#p113-2">ἀδύνατον a ταὐτά Thurot: ταῦτα VAPA: hoc T δὲ om. V</note><milestone type="alt-edition" unit="line" ed="Thurot 1875" n="10"/>
               <lb n="4" xml:id="p113-3"/>περὶ τῶν τὰ ἄτομα ὑποτιθεμένων σώματα ὅτι ἀδύνατα λέγουσιν ἐν τοῖς<note type="apparatus" n="4" target="#p113-3">τὰ om. A σωμάτων APa</note>
@@ -3961,7 +3962,7 @@
               <lb n="17" xml:id="p122-16"/>οὐ μέγιστον, ὥσπερ οὐδέ τι αἰσθητὸν ἐλάχιστον, εἰ καὶ ἔστι τι ἀνεπαίσθητον·<note type="apparatus" n="17" target="#p122-16">magnum T τι scripsi: τὸ VA: om. T</note><note type="apparatus" n="17-18" target="#p122-16 #p122-17">εἰ—ἀνεπαίσθητον del. Thurot</note>
               <lb n="18" xml:id="p122-17"/>ἔτι δὲ εἰ πᾶν μέγεθος δυνάμει ἐστὶν αἰσθητόν (τὸ γὰρ ἀνεπαίσθητον<note type="apparatus" n="18" target="#p122-17">ἔτι] ἔστι A</note><note type="apparatus" n="18-19" target="#p122-17 #p122-18">ἔτι — ἀνεπαίσθητον om. T</note><milestone type="alt-edition" unit="line" ed="Thurot 1875" n="5"/>
               <lb n="19" xml:id="p122-18"/>οὐ τῇ ἑαυτοῦ φύσει τοιοῦτον, ἀλλὰ διὰ τὴν τῆς αἰσθήσεως<note type="apparatus" n="19" target="#p122-18">αἰσθήσεως MTVP: φύσεως Aa</note>
-              <lb n="20" xml:id="p122-19"/>ἀσθένειαν),· οὐκ ἂν εἴη ἀνεπαίσθητόν τι μέγεθος τῇ αὑτοῦ φύσει· ὥστε<note type="apparatus" n="20" target="#p122-19">αὐτοῦ libri post φύσει add. ἀνεπαίσθητον, tum spat. M</note><note type="apparatus" n="20-21" target="#p122-19 #p122-20">ὥστε—φύσει om. Pa (habet etiam M)</note>
+              <lb n="20" xml:id="p122-19"/><choice><sic>ἀσθένειαν),·</sic><corr>ἀσθένειαν),</corr></choice> οὐκ ἂν εἴη ἀνεπαίσθητόν τι μέγεθος τῇ αὑτοῦ φύσει· ὥστε<note type="apparatus" n="20" target="#p122-19">αὐτοῦ libri post φύσει add. ἀνεπαίσθητον, tum spat. M</note><note type="apparatus" n="20-21" target="#p122-19 #p122-20">ὥστε—φύσει om. Pa (habet etiam M)</note>
               <lb n="21" xml:id="p122-20"/>οὐδὲ μέγιστον. εἰ δὲ μήτε ἐλάχιστόν τί ἐστιν αἰσθητὸν τῇ αὑτοῦ φύσει<note type="apparatus" n="21" target="#p122-20">μέγιστον V: μέγα MTA αὐτοῦ VA: om. M (. . . M teste Thurot)</note>
               <lb n="22" xml:id="p122-21"/>μήτε μέγιστον ἀνεπαίσθητον, οὐδ’ ἂν ἐλάχιστόν τι ὂν τῇ αὑτοῦ φύσει<note type="apparatus" n="22" target="#p122-21">μέγα T οὐδ’ Thurot: οὔτ’ VAPa αὐτοῦ libri</note>
               <lb n="23" xml:id="p122-22"/>μέγεθος δεικνύοιτο, ὡς οἴεται ὁ Διόδωρος δεικνύναι.<note type="apparatus" n="23" target="#p122-22">Διόδωρος] Cronus v. Zeller II 1⁴ p. 267², eisdem verbis utitur Simpl. in Phys. p. 926,20 D. δεικνύσθαι A</note><milestone type="alt-edition" unit="line" ed="Thurot 1875" n="10"/>
@@ -4030,7 +4031,7 @@
             </quote>
             <p>
               <lb n="22" xml:id="p124-21"/>Εἰπὼν ὅτι δοκεῖ εὔλογον εἶναι τὸ πρῶτον ἐν τῷ μεταξὺ τὸ αἰσθητὸν<note type="apparatus" n="22" target="#p124-21">post ὅτι add. οὐ Pa δοκεῖ om. V πρῶτον] πρῶτα καὶ V post μεταξὺ add. καὶ Pa (om. etiam M)</note>
-              <lb n="23" xml:id="p124-22"/>γίνεσθαι φερόμενον πρὸς τὰς αἰσθήσεις πρὸ τοῦ ἡμᾶς αἰθάνεσθαι αὐτοῦ<note type="apparatus" n="23" target="#p124-22">ad sensum T</note>
+              <lb n="23" xml:id="p124-22"/>γίνεσθαι φερόμενον πρὸς τὰς αἰσθήσεις πρὸ τοῦ ἡμᾶς <choice><sic>αἰθάνεσθαι</sic><corr>αἰσθάνεσθαι</corr></choice> αὐτοῦ<note type="apparatus" n="23" target="#p124-22">ad sensum T</note>
               <lb n="24" xml:id="p124-23"/>καὶ τοῦτο ὥσπερ ἐπὶ τῶν ἄλλων αἰσθήσεων, οὕτως δὲ καὶ ἐπὶ τῶν ὁρατῶν,<note type="apparatus" n="24" target="#p124-23">δὲ om. MV</note>
             </p>
             <pb n="125" facs="https://archive.org/download/p1commentariainari03bero/page/n150.jpg"/>
@@ -4040,7 +4041,7 @@
               <lb n="3" xml:id="p125-2"/>τὰς αἰσθήσεις φέρεται. τῶν γὰρ οὐκ ἀεὶ ὄντων τὰ μὲν ὅσα διὰ <milestone type="alt-edition" unit="page" ed="Thurot 1875" n="262"/> γενέσεως
               <lb n="4" xml:id="p125-3"/>εἰς τὸ εἶναι πρόεισιν οὐχ ἅμα γίνεται τε καὶ ἔστιν, ἀλλὰ προϋπάρχει τῆς<note type="apparatus" n="4" target="#p125-3">τε] τι P τε καὶ ἔστιν om. T προϋπάρχειν a</note>
               <lb n="5" xml:id="p125-4"/>οὐσίας ἡ γένεσις αὐτῶν. διὸ καὶ ἔστι μέν τι αὐτῶν, ὅτε γίνεται, ἔστ’ ἂν<note type="apparatus" n="5" target="#p125-4">ὅτε] ὅτι T ἔστ’ ἂν] quando T, item infra v. 9. 10</note>
-              <lb n="6" xml:id="p125-5"/>ἢ γινόμενον. τά τε γὰρ κατὰ φύσιν γινόμενα οὕτως γίνεται (οἷον ἵππος<note type="apparatus" n="6" target="#p125-5">τε om. V γὰρ] vero T</note>
+              <lb n="6" xml:id="p125-5"/>ᾖ γινόμενον. τά τε γὰρ κατὰ φύσιν γινόμενα οὕτως γίνεται (οἷον ἵππος<note type="apparatus" n="6" target="#p125-5">τε om. V γὰρ] vero T</note>
               <lb n="7" xml:id="p125-6"/>οὐχ ἅμα γίνεται τε καὶ ἔστιν, ἀλλ’ ἕως ἂν γένηται, οὐδέπω μέν ἐστιν<note type="apparatus" n="7" target="#p125-6">τε] τι APa οὔπω A</note><milestone type="alt-edition" unit="line" ed="Thurot 1875" n="5"/>
               <lb n="8" xml:id="p125-7"/>ἵππος, ἔστι δέ τι αὐτοῦ), ἀλλὰ καὶ τὰ κατὰ τέχνην· οἰκία τε γὰρ οὕτως<note type="apparatus" n="8" target="#p125-7">τὰ om. Pa τέχνην VAa: τὴν τέχνην P</note>
               <lb n="9" xml:id="p125-8"/>καὶ ἱμάτιον καὶ ὑπόδημα. τότε γὰρ ἔστι ταῦτα, ἃ λέγεται γίνεσθαι, ἔστ’<note type="apparatus" n="9" target="#p125-8">ἱμάτιον] ἱμάτια a (corr. M)</note><note type="apparatus" n="9-10" target="#p125-8 #p125-9">ἔστ’—παύσηται om. a</note>
@@ -4878,7 +4879,7 @@
               <lb n="18" xml:id="p151-17"/>λέγωμεν ὅτι ὁρᾶται ἁπλῶς· τῷ γὰρ μόριον αὐτῆς ὁρᾶσθαι οὕτω λέγεται<note type="apparatus" n="18" target="#p151-17">ὅτι MTVAP: τὸ a αὐτοῦ V</note>
               <lb n="19" xml:id="p151-18"/>ὁρᾶσθαι ἡ γῆ· ὁμοίως καὶ ἐν τῷ ἐνιαυτῷ λέγεται τῷδε τὰ Ὀλύμπια, ὅτι<note type="apparatus" n="19" target="#p151-18">τῷδε] τὸ δὲ P: om. T, fort. recte</note>
               <lb n="20" xml:id="p151-19"/>ἐν τῷδε τῷ μορίῳ αὐτοῦ. εἰ οὖν τις ὅλης τῆς ΑΒ ἐν τῷ ΑΒ χρόνῳ<note type="apparatus" n="20" target="#p151-19">τις TP: τῆς VAa ὅλης τῆς AB om. T</note>
-              <lb n="21" xml:id="p151-20"/>συνεχῶς αἰσθάνεται, ἔχει δὲ ὁ χρόνος ἐν αὑτῷ μόριά τινα 〈ἀν〉αίσθητα (τοῦτου<note type="apparatus" n="21" target="#p151-20">συνεχῆ V αὐτῶ libri τινα om. V ἀναίσθητα Thurot: αἰσθητά libri</note>
+              <lb n="21" xml:id="p151-20"/>συνεχῶς αἰσθάνεται, ἔχει δὲ ὁ χρόνος ἐν αὑτῷ μόριά τινα 〈ἀν〉αίσθητα (τούτου<note type="apparatus" n="21" target="#p151-20">συνεχῆ V αὐτῶ libri τινα om. V ἀναίσθητα Thurot: αἰσθητά libri</note>
               <lb n="22" xml:id="p151-21"/>γὰρ δηλωτικὴ ἡ λέξις ἡ λέγουσα οὕτως ὅτι ἐν τούτου τινί), εἰ<note type="apparatus" n="22" target="#p151-21">ὅτι V: eius quod T: τοῦ APa: om. M: τῷ coni. Thurot (cf. p. 150,13), sed dubium est, utrum ad Arist. p. 448b5 an ad 448b2 respiciat τούτου a: τούτω TVP: τῶ A (cf. ad v. 16)</note><note type="apparatus" n="22-23" target="#p151-21 #p151-22">εἰ δὴ T: εἴδη A: εἰ δὲ V: ἤδη Pa</note><milestone type="alt-edition" unit="line" ed="Thurot 1875" n="10"/>
               <lb n="23" xml:id="p151-22"/>δὴ ἔχει ὁ ΑΒ χρόνος, ἐν ᾧ συνεχῶς κεῖται [τι] αἰσθάνεσθαί τινος, ἀναίσθητά<note type="apparatus" n="23" target="#p151-22">si igitur AB habet tempus T ὁ Thurot: ὅτι ὁ V: ἡ Pa: om. A χρόνον Pa(T?) τι om. T</note>
               <lb n="24" xml:id="p151-23"/>τινα ἐν αὑτῷ, ἀφῃρήσθω ταῦτα· <milestone type="alt-edition" unit="page" ed="Thurot 1875" n="319"/> καὶ ἔστω τοῦτο τὸ ΓΒ μέρος τοῦ<note type="apparatus" n="24" target="#p151-23">αὐτῶ libri ἔστω V: ἤτω A: sit T: εἰ Pa: ἦ M</note>
@@ -5078,10 +5079,10 @@
               <lb n="4" xml:id="p158-3"/>αἰσθανόμεθα, ἀλλ’ ὡς παντὶ τούτῳ ᾧ αἰσθανόμεθα ἑνὶ ὄντι καὶ συνεχεῖ<note type="apparatus" n="4" target="#p158-3">ᾧ] quod T</note>
               <lb n="5" xml:id="p158-4"/>αὐτῷ ἐκ διαφερόντων συγκειμένῳ μερῶν.<note type="apparatus" n="5" target="#p158-4">ἐκ] ἐν V συγκειμένῳ T: συγκειμένων VAPa</note>
               <lb n="6" xml:id="p158-5"/>Ὅτι δὲ μὴ οἷόν τε οὕτω πλειόνων ἅμα αἰσθάνεσθαι ἑξῆς δείκνυσι διὰ<note type="apparatus" n="6" target="#p158-5">μὴ δὲ A ἐξ ἧς P</note><milestone type="alt-edition" unit="line" ed="Thurot 1875" n="10"/>
-              <lb n="7" xml:id="p158-6"/>του, εἰ οὕτω γίνοιτο ἡ τῶν πλειόνων αἴσθησις, ὡς ἄλλῳ καὶ ἄλλῳ μορίῳ<note type="apparatus" n="7" target="#p158-6">τοῦ TA: τὸ MVPa εἰ οὕτω TPa: ἢ οὕτω V: εἰπὼν A: εἰπεῖν εἰ οὕτω M γίνοιτο a (corr. M)</note>
+              <lb n="7" xml:id="p158-6"/>τοῦ, εἰ οὕτω γίνοιτο ἡ τῶν πλειόνων αἴσθησις, ὡς ἄλλῳ καὶ ἄλλῳ μορίῳ<note type="apparatus" n="7" target="#p158-6">τοῦ TA: τὸ MVPa εἰ οὕτω TPa: ἢ οὕτω V: εἰπὼν A: εἰπεῖν εἰ οὕτω M γίνοιτο a (corr. M)</note>
               <lb n="8" xml:id="p158-7"/>τῆς ψυχῆς τῶν πλειόνων γίνεσθαι τὴν ἀντίληψιν, ὅταν πλειόνων ὁμοειδῶν<note type="apparatus" n="8" target="#p158-7">γενέσθαι Pa τὴν om. a (habet etiam M)</note><note type="apparatus" n="8-9" target="#p158-7 #p158-8">ἅμα ὁμοειδῶν a</note>
               <lb n="9" xml:id="p158-8"/>ἅμα αἰσθανώμεθα, πλείω μέρη ἔσεσθαι αἰσθητικὰ ὁμοειδῆ ἀλλήλοις· οἷον<note type="apparatus" n="9" target="#p158-8">ἔσεσθαι—μέρη (10) om. T 9—11 οἷον εἰ—ἀλλήλοις MA (εἴη—ἀλλήλοις T): om. VPa</note>
-              <lb n="10" xml:id="p158-9"/>εἰ πλείω εἴη τὰ ὁρώμενα, πλείω 〈ἂν〉 μέρη εἴη τὰ ὁρατικὰ καὶ ταῦτα ὁμοειδὴ<note type="apparatus" n="10" target="#p158-9">ἂν addidi εἴη] ἔσται Thurot</note>
+              <lb n="10" xml:id="p158-9"/>εἰ πλείω εἴη τὰ ὁρώμενα, πλείω 〈ἂν〉 μέρη εἴη τὰ ὁρατικὰ καὶ ταῦτα ὁμοειδῆ<note type="apparatus" n="10" target="#p158-9">ἂν addidi εἴη] ἔσται Thurot</note>
               <lb n="11" xml:id="p158-10"/>ἀλλήλοις· <milestone type="alt-edition" unit="page" ed="Thurot 1875" n="333"/> ὁμοειδῶν γὰρ ὄντων τῶν αἰσθητῶν ὁμοειδῆ ἂν καὶ τὰ<note type="apparatus" n="11" target="#p158-10">τὰ] αὐτὰ V</note>
               <lb n="12" xml:id="p158-11"/>μέρη τὰ οἷς αἰσθανόμεθα αὐτῶν εἴη. εἰ γὰρ εἴη πλείω ἅμα ὁρῶν τις, εἴη<note type="apparatus" n="12" target="#p158-11">εἶεν πλείους M: sunt plures T ὁρῶν τις VP: ὁρῶντες TAa</note>
               <lb n="13" xml:id="p158-12"/>δὲ ἄλλου ἄλλῳ αἰσθανόμενος, πλείω μέρη ἔσται τῆς ὄψεως, τουτέστι πλείους<note type="apparatus" n="13" target="#p158-12">ἄλλου ἄλλω TPa: ἄλλω ἄλλου VA μέρος a</note>
@@ -5266,7 +5267,7 @@
               <lb n="2" xml:id="p164-1"/>ὃ ἀπορήσας ἐπιφέρει ἀνάγκη ἄρα ἕν τι εἶναι τῆς ψυχῆς, ᾧ <milestone type="alt-edition" unit="page" ed="Thurot 1875" n="346"/> πάντα<note type="apparatus" n="2" target="#p164-1">ὁ V: om. TAPa ὡς V</note>
               <lb n="3" xml:id="p164-2"/>αἰσθάνεται, λέγων διὰ τούτου ὅτι ἀνάγκη ἕν τι εἶναι μέρος ᾧ πάντων<note type="apparatus" n="3" target="#p164-2">τούτου V: τοῦτο TAPa εἶναι V: om. TAPa μέρος] μέγεθος V</note>
               <lb n="4" xml:id="p164-3"/>τῶν αἰσθητῶν αἰσθάνεται, ἄλλο δὲ γένος αἰσθητὸν δι’ ἄλλου ὀργάνου.<note type="apparatus" n="4" target="#p164-3">γένος] λέγει A αἰσθητοῦ V</note>
-              <lb n="5" xml:id="p164-4"/>Ἑξῆς δὲ λέγει πῶς ἄλλως, τίνος τὸ αἰσθητικὸν τοῦτο ἑνός ἐστιν ὑποκείμένου<note type="apparatus" n="5" target="#p164-4">ἄλλως TPa: ἄλλης A: ὅλως V: om. M (Thurot, qui πῶς τινος scribit) τὸ om. VA αἰσθητοῦ τούτου V</note><note type="apparatus" n="5-6" target="#p164-4 #p164-5">ὑποκειμένου TA: ὑποκείμενον VPa</note>
+              <lb n="5" xml:id="p164-4"/>Ἑξῆς δὲ λέγει πῶς ἄλλως, τίνος τὸ αἰσθητικὸν τοῦτο ἑνός ἐστιν ὑποκειμένου<note type="apparatus" n="5" target="#p164-4">ἄλλως TPa: ἄλλης A: ὅλως V: om. M (Thurot, qui πῶς τινος scribit) τὸ om. VA αἰσθητοῦ τούτου V</note><note type="apparatus" n="5-6" target="#p164-4 #p164-5">ὑποκειμένου TA: ὑποκείμενον VPa</note>
               <lb n="6" xml:id="p164-5"/>καὶ τίνος σώματος αἰσθητικὴ δύναμίς ἐστι. διαφέροντα γὰρ τὰ<note type="apparatus" n="6" target="#p164-5">τίνος] ἑνὸς coni. Thurot αἰσθητικὴ TAP: αἰσθητοῦ V: αἰσθητικόν a ἔσται V γὰρ TVA: γάρ ἐστι Pa</note><milestone type="alt-edition" unit="line" ed="Thurot 1875" n="5"/>
               <lb n="7" xml:id="p164-6"/>αἰσθητήρια δι’ ὧν καὶ ἡ ἀντίληψις, καὶ οὐδὲν ἐξ αὐτῶν γίνεται. εἰπὼν<note type="apparatus" n="7" target="#p164-6">prius καὶ om. T ἓν post οὐδὲν add. Thurot (cf. p. 163,19), sed deest etiam in Arist. codd. praeter LP</note>
               <lb n="8" xml:id="p164-7"/>δὲ τοῦτο, τὸ μὲν ἑνὸς τίνος οὐ λέγει, λέγει δὲ περὶ τῆς δυνάμεως ὅτι<note type="apparatus" n="8" target="#p164-7">τοῦτο om. T</note>
@@ -5339,7 +5340,7 @@
               <lb n="20" xml:id="p166-19"/>μὲν τῷ γένει διαφόρους, τὰς δὲ τῷ εἴδει, ὡς ἔχει τὰ αἰσθητὰ πρὸς ἄλληλα·<note type="apparatus" n="20" target="#p166-19">διαφόρους TP: διαφοράς Aa: διαφέρειν V αἰσθητήρια a (corr. M)</note>
               <lb n="21" xml:id="p166-20"/>ἡ μὲν γὰρ χρωμάτων διαφορὰ τῷ εἴδει ἐστὶν ἑτέρα, ἡ δὲ χρωμάτων καὶ<note type="apparatus" n="21" target="#p166-20">εἴδη a</note>
               <lb n="22" xml:id="p166-21"/>ψόφων τῷ γένει. οὕτως δ’ ἂν εἴη ἡ ψυχὴ ἕν, ἡ μὲν κατὰ τὸ ὑποκείμενον<milestone type="alt-edition" unit="line" ed="Thurot 1875" n="10"/>
-              <lb n="23" xml:id="p166-22"/>πάντων αἰσθανομένη καὶ πολλάκις γε καὶ πλειόνων ἅμα τε δεχομένη, τουτἐστι<note type="apparatus" n="23" target="#p166-22">et saepe et plura simul suscipiens T πλείω scripsit et τε om. cum T Thurot δὴ ἐχομένη A: δὴ δεχομένη Pa</note>
+              <lb n="23" xml:id="p166-22"/>πάντων αἰσθανομένη καὶ πολλάκις γε καὶ πλειόνων ἅμα τε δεχομένη, τουτέστι<note type="apparatus" n="23" target="#p166-22">et saepe et plura simul suscipiens T πλείω scripsit et τε om. cum T Thurot δὴ ἐχομένη A: δὴ δεχομένη Pa</note>
             </p>
             <pb n="167" facs="https://archive.org/download/p1commentariainari03bero/page/n192.jpg"/>
             <p>
@@ -5363,7 +5364,7 @@
               <lb n="18" xml:id="p167-17"/>ἐχόντων κοινόν. ἀλλὰ εἰ μὴ ἅμα τῶν ἐναντίων αἰσθησόμεθα, οὐδ’ ὅτι
               <lb n="19" xml:id="p167-18"/>ἐναντία ἐστὶ κρινοῦμεν, εἴγε ὧν μὴ ἅμα τι αἰσθάνεται, τούτων οὐδὲ τῆς<note type="apparatus" n="19" target="#p167-18">ἐναντία MTAP²: ἐναντίον VP¹a εἴτε a: εἶτα M αἰσθάνεσθαι a, tum περὶ add. a (corr. M)</note><milestone type="alt-edition" unit="line" ed="Thurot 1875" n="5"/>
               <lb n="20" xml:id="p167-19"/>διαφορᾶς τῆς πρὸς ἄλληλα αἰσθάνεσθαι δύναται· μνήμης γὰρ ἐκεῖνο, οὐκ<note type="apparatus" n="20" target="#p167-19">ante μνήμης lacunam suspicor ante οὐκ add. καὶ a</note>
-              <lb n="21" xml:id="p167-20"/>αἰσθήσεως, ἐλέγομεν ἐν τοῖς Περὶ ψυχῆς. ἡ ἡ αἴσθησις, εἰ καὶ δοκεῖ διὰ<note type="apparatus" n="21" target="#p167-20">ante ἐλέγομεν add. ὡς P (Thurot, μνήμης— αἰσθήσεως in parenthesi ponens) Περὶ ψυχῆς] cf. Alex. De an. p. 62,22 ss. ἢ om. A ἢ ἡ αἴσθησις] sensus vero T 21—168,4 cf. Quaest. p. 97,25—98,15 De an. p. 64,4—22</note><note type="apparatus" n="21" target="#p167-20">videatur T</note>
+              <lb n="21" xml:id="p167-20"/>αἰσθήσεως, ἐλέγομεν ἐν τοῖς Περὶ ψυχῆς. ἢ ἡ αἴσθησις, εἰ καὶ δοκεῖ διὰ<note type="apparatus" n="21" target="#p167-20">ante ἐλέγομεν add. ὡς P (Thurot, μνήμης— αἰσθήσεως in parenthesi ponens) Περὶ ψυχῆς] cf. Alex. De an. p. 62,22 ss. ἢ om. A ἢ ἡ αἴσθησις] sensus vero T 21—168,4 cf. Quaest. p. 97,25—98,15 De an. p. 64,4—22</note><note type="apparatus" n="21" target="#p167-20">videatur T</note>
               <lb n="22" xml:id="p167-21"/>πάθους τινὸς γίνεσθαι, ἀλλ’ αὐτή γε κρίσις ἐστίν (ἄλλο δὲ τὸ ἐν πάθει<note type="apparatus" n="22" target="#p167-21">τινὸς MTVAP: om. a αὐτό a γε om. T ἄλλο δὲ τὸ ἐν (ἓν A²) VA²: ἄλλα δὲ τὰ ἐν P²a: ἀλλὰ δοτέον TA¹P¹</note>
               <lb n="23" xml:id="p167-22"/>ἐναντίον καὶ ἄλλο τὸ ἐν κρίσει. ἐν πάθει μὲν γὰρ τὸ λευκὸν τῷ μέλανι,<note type="apparatus" n="23" target="#p167-22">ἐναντία P²a καὶ om. AP¹ καὶ ἄλλο] aut quod T ἄλλα τὰ P²a</note><milestone type="alt-edition" unit="line" ed="Thurot 1875" n="10"/>
               <lb n="24" xml:id="p167-23"/>ἐν κρίσει δὲ οὐχ ἡ κρίσις ἡ περὶ τοῦ λευκοῦ ὅτι λευκὸν οὐδ’ ἡ τοῦ μέλανος<note type="apparatus" n="24" target="#p167-23">ἡ κρίσις] individua T (iudicia Thurot) 24—27 οὐδ’—λευκὸν rep. A</note>

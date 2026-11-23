@@ -56,6 +56,7 @@
       <change when="2026-10-23" who="#NI">Quotation marks made uniform: opening single and double quotation marks, printed in the edition in the reversed (high-reversed-9) form, are encoded as ‘ and “, closing ones as ’ and ”, single and double kept as printed; opening marks read by the OCR as straight quotes, low quotes or spacing breathings, and spacing breathings or quotation marks doubled before a capital that already bears its breathing, corrected.</change>
       <change when="2026-11-05" who="#NI">Apparatus entries printed out of numerical order (e.g. 33 … 32) separated from the preceding entry; words hyphenated across lines joined in Latin text as in Greek; words mixing Greek and Latin letters (OCR errors, about 130, including manuscript sigla) corrected on the page images; marginal folio marks left in the text removed; validated against TEI P5 version 4.12.0 (recorded in TEI/@version).</change>
       <change when="2026-11-05" who="#NI">Extent of the lemma quotations (quote[@type='lemma']) corrected: the automatic division had closed every lemma after its first printed line, leaving the remaining lines of lemmata printed over two or more lines at the head of the following paragraph. Candidates were found from the letter-spacing of the lines on the page images (lemmata are printed spaced) and from the line geometry (centred last line, indented paragraph start), and every candidate was decided on the page image (Claude work teams; about 7,700 places in the corpus); the lines so decided are now inside the quotation, with pb inside the quotation where a lemma runs on to the next page. Where the lemma runs on in the same line as the commentary (Stephanus in De interpretatione), the quotation ends after the last spaced word and the paragraph continues in the same line without a new lb; where no lemma is printed and the paraphrase follows the Bekker reference directly (Michael in De partibus animalium from p. 37), the quotation is dropped and the division kept; centred last lines the edition does not count are inside the quotation as unnumbered lines.</change>
+      <change when="2026-11-22" who="#NI">Readings questioned by the review of the translations collated on the page images (read independently, at least twice wherever the print does not have the proposed form, by a language model, Claude; the 28 places in all works that it could not settle were read by the editor): 6 errors of the transcription corrected; 6 evident misprints of the edition given as choice/sic/corr; 3 evident misprints of the edition in a word broken at the line end (which cannot carry choice/sic/corr) corrected in the text.</change>
     </revisionDesc>
   </teiHeader>
   <text>
@@ -163,7 +164,7 @@
               <lb n="27" xml:id="p3-26"/>ὅτι κατὰ δέκα σημαινομένων φέρεται, ἤγουν κατὰ τῶν δέκα κατηγοριῶν.<note type="apparatus" n="27" target="#p3-26">τῶν om. KT</note>
               <lb n="28" xml:id="p3-27"/>καὶ δεύτερον ζητοῦμεν περὶ ποίου σημαινομένου ἐστὶν ὁ λόγος, ἆρα περὶ
               <lb n="29" xml:id="p3-28"/>οὐσίας ἢ περὶ ποσοῦ ἢ περὶ ποιοῦ ἢ περὶ τῶν ἑξῆς κατηγοριῶν. τότε<note type="apparatus" n="29" target="#p3-28">κατηγοριῶν om. V</note><note type="apparatus" n="29-30" target="#p3-28 #p3-29">τότε ζητοῦμεν] καὶ τότε τὸ ζητούμενον V</note>
-              <lb n="30" xml:id="p3-29"/>ζητοῦμεν ὁρισμῷ ἢ ὑπογραφῇ καθυποβάλλειν. εἰ ἄρα οὖν ὁρισμῷ καθὑποβάλλεται,<note type="apparatus" n="30" target="#p3-29">pr. ὁρισμῷ] ὅρῳ V καθυποβάλλομεν (pr. l.) V</note>
+              <lb n="30" xml:id="p3-29"/>ζητοῦμεν ὁρισμῷ ἢ ὑπογραφῇ καθυποβάλλειν. εἰ ἄρα οὖν ὁρισμῷ καθυποβάλλεται,<note type="apparatus" n="30" target="#p3-29">pr. ὁρισμῷ] ὅρῳ V καθυποβάλλομεν (pr. l.) V</note>
               <lb n="31" xml:id="p3-30"/>δῆλον ὅτι οὐκ ἔστιν ἄγνωστον τὸ ὄν.<note type="apparatus" n="31" target="#p3-30">τὸ ὄν om. KT 1*</note>
               <lb n="32" xml:id="p3-31"/>Τὸ δὲ δεύτερον ἐπιχείρημα τῶν ἀνατρεπόντων τὴν φιλοσοφίαν προέρχεται
               <lb n="33" xml:id="p3-32"/>τοῦτον τὸν τρόπον· τὰ ὄντα ἐν ῥοῇ καὶ ἀπορροῇ εἰσι καὶ στάσεως οὐδεμιᾶς
@@ -311,7 +312,7 @@
               <lb n="26" xml:id="p7-25"/>‘κατὰ τὸν αὐτὸν χρόνον’, ἐπειδὴ ἐν τῷ αὐτῷ μορίῳ δύναται καὶ τὸ λευκὸν
               <lb n="27" xml:id="p7-26"/>θεωρεῖσθαι καὶ τὸ μέλαν κατ’ ἄλλον καὶ ἄλλον χρόνον. πρόσκειται δὲ<note type="apparatus" n="27" target="#p7-26">ante χρ. add. τὸν T post χρόνον add. δύναται γὰρ τὸ αὐτὸ μόριον καὶ λευκὸν εἶναι καὶ μέλαν κατὰ ἄλλον χρόνον γίνεσθαι ἀπὸ ἡλιοκαΐας V</note>
               <lb n="28" xml:id="p7-27"/>‘ἀμιγῆ καὶ ἄκρατα ὄντα’ διὰ τὸ φαιόν, ὅ ἐστι τὸ μύινον, ἐπειδὴ ἐν τούτῳ<note type="apparatus" n="28" target="#p7-27">τὸ (ante μύινον) om. KT</note>
-              <lb n="29" xml:id="p7-28"/>θεωρεῖται καὶ τὸ μέλαν κεὶ τὸ λευκόν, ἀλλ’ οὐκ εἰσὶν ἐκεῖ ἀμιγῆ καὶ<note type="apparatus" n="29" target="#p7-28">ἐκεῖ om. KT</note>
+              <lb n="29" xml:id="p7-28"/>θεωρεῖται καὶ τὸ μέλαν <choice><sic>κεὶ</sic><corr>καὶ</corr></choice> τὸ λευκόν, ἀλλ’ οὐκ εἰσὶν ἐκεῖ ἀμιγῆ καὶ<note type="apparatus" n="29" target="#p7-28">ἐκεῖ om. KT</note>
               <lb n="30" xml:id="p7-29"/>ἄκρατα· οὔτε γὰρ ἡ φύσις τοῦ λευκοῦ τελείως σώζεται οὔτε ἡ τοῦ μέλανος·<note type="apparatus" n="30" target="#p7-29">τελεία V</note>
               <lb n="31" xml:id="p7-30"/>τὸ γὰρ φαιὸν μῖγμά ἐστι τοῦ λευκοῦ καὶ μέλανος. καὶ ὅμως εἰ καὶ τὰ<note type="apparatus" n="31" target="#p7-30">τοῦ] ἐκ T: om. K</note>
               <lb n="32" xml:id="p7-31"/>ἐναντία ἀμιγῆ καὶ ἄκρατα ὄντα οὐ δύναται ἐν τῷ αὐτῷ μορίῳ κατὰ τὸν
@@ -363,7 +364,7 @@
             <p>
               <lb n="1" xml:id="p9-0"/>δὲ ὡς μὴ κατειληφότες, τίς ὑμῖν πιστεύσει τοιαῦτα λέγουσιν, ἃ μὴ κατελάβετε<note type="apparatus" n="1" target="#p9-0">μὴ ὡς colloc. K πιστεύει V</note><note type="apparatus" n="1-2" target="#p9-0 #p9-1">ἃ—ἐπίστασθε] μὴ καταλαβοῦσι μηδ’ ἐπισταμένοις V</note>
               <lb n="2" xml:id="p9-1"/>μηδὲ ἐπίστασθε; καὶ ὁ Ἀριστοτέλης δὲ ἔν τινι Προτρεπτικῷ αὐτοῦ<note type="apparatus" n="2" target="#p9-1">ὁ Ἀριστοτέλης] cf. Arist. frg. 51 (Rose)</note>
-              <lb n="3" xml:id="p9-2"/>συγράμματι, ἐν ᾧ προτρέπεται τοὺς νέους ἐπὶ φιλοσοφίαν, λέγει ὅτι εἴτε<note type="apparatus" n="3" target="#p9-2">νέους om. T ἐπὶ φιλοσοφίαν] φιλοσοφεῖν V</note>
+              <lb n="3" xml:id="p9-2"/><choice><sic>συγράμματι</sic><corr>συγγράμματι</corr></choice>, ἐν ᾧ προτρέπεται τοὺς νέους ἐπὶ φιλοσοφίαν, λέγει ὅτι εἴτε<note type="apparatus" n="3" target="#p9-2">νέους om. T ἐπὶ φιλοσοφίαν] φιλοσοφεῖν V</note>
               <lb n="4" xml:id="p9-3"/>μὴ φιλοσοφητέον, φιλοσοφητέον, εἴτε φιλοσοφητέον, φιλοσοφητέον· πάντως<note type="apparatus" n="4" target="#p9-3">εἴτε φιλ. φιλ. εἴτε μὴ φιλ. φιλ. TV</note>
               <lb n="5" xml:id="p9-4"/>δὲ φιλοσοφητέον. τοῦτ’ ἔστιν εἴτε λέγει τις μὴ εἶναι φιλοσοφίαν, ἀποδείξεσι<note type="apparatus" n="5" target="#p9-4">post ἔστιν add. ὅτι T εἴτε (ante λέγει)] εἰ V</note>
               <lb n="6" xml:id="p9-5"/>κέχρηται, δι’ ὧν ἀναιρεῖ τὴν φιλοσοφίαν· εἰ δὲ ἀποδείξεσι κέχρηται, δῆλον<note type="apparatus" n="6" target="#p9-5">δι’ ὧν—κέχρηται om. V</note>
@@ -473,7 +474,7 @@
               <lb n="27" xml:id="p11-26"/>ὁρισμῷ τούτῳ τοῦ ὁρισμοῦ ὁ μὲν ‘λόγος’ ἀντὶ γένους εἴληπται (κοινότερος<note type="apparatus" n="27" target="#p11-26">τοῦ ὁρισμοῦ ὁ μὲν λόγος scripsi: ὁ τοῦ ὁρισμοῦ μὲν λόγος K: ὁ τοῦ ὁρισμοῦ λόγος T: τοῦ ὁρισμοῦ μὲν λόγος K</note>
               <lb n="28" xml:id="p11-27"/>γάρ ἐστι καὶ κατὰ πλειόνων φέρεται· φέρεται γὰρ κατά τε τοῦ ἐνδιαθέτου
               <lb n="29" xml:id="p11-28"/>καὶ προφορικοῦ), αἱ δὲ λοιπαὶ λέξεις ἀντὶ συστατικῶν διαφορῶν παραλαμβάνονται.<note type="apparatus" n="29" target="#p11-28">καὶ τοῦ προφορ. V</note>
-              <lb n="30" xml:id="p11-29"/>ἔλθωμεν οὖν καὶ ἐξηγησώμεθα. ἰστέον ὅτι ὁ λόγος πρόσκεῖται<note type="apparatus" n="30" target="#p11-29">ὁ om. KT</note>
+              <lb n="30" xml:id="p11-29"/>ἔλθωμεν οὖν καὶ ἐξηγησώμεθα. ἰστέον ὅτι ὁ λόγος πρόσκειται<note type="apparatus" n="30" target="#p11-29">ὁ om. KT</note>
               <lb n="31" xml:id="p11-30"/>πρὸς ἀντιδιαστολὴν τοῦ ὀνόματος· καὶ γὰρ καὶ τὸ ὄνομα δηλοῖ τὴν<note type="apparatus" n="31" target="#p11-30">καὶ (post γὰρ) om. K</note>
               <lb n="32" xml:id="p11-31"/>φύσιν τοῦ ὑποκειμένου πράγματος, οἷον τὸ ἄνθρωπος, καὶ ὅπερ ὁ ὅρος
               <lb n="33" xml:id="p11-32"/>ποιεῖ διὰ πλειόνων λέξεων, τοῦτο τὸ ὄνομα ποιεῖ διὰ μιᾶς λέξεως. ὅθεν
@@ -803,7 +804,7 @@
               <lb n="10" xml:id="p20-9"/>τέλους μόνου’, ἐπειδὴ ἔστιν ὅτε εὑρίσκεται καὶ ὁ ἐκ τοῦ ὑποκειμένου<note type="apparatus" n="10" target="#p20-9">καὶ ὁ om. T ἐκ] ἀπὸ T</note>
               <lb n="11" xml:id="p20-10"/>μόνου λαμβανόμενος ὅρος τέλειος, οἷον ὡς ἐπὶ τῆς ὑαλουργικῆς· ἐὰν γὰρ
               <lb n="12" xml:id="p20-11"/>εἴπωμεν ὅτι ὑαλουργική ἐστι τέχνη περὶ ὕαλον καταγινομένη, τέλειός ἐστιν<note type="apparatus" n="12" target="#p20-11">ὅτι om. T</note>
-              <lb n="13" xml:id="p20-12"/>ὅρος· εἴ τι μὲν γὰρ ὑαλουργική ἐστι, τοῦτο τέχνη περὶ ὕαλον καταταγινομένη,<note type="apparatus" n="13" target="#p20-12">ὁ ὅρος V γὰρ om. T ἐστὶ om. T</note>
+              <lb n="13" xml:id="p20-12"/>ὅρος· εἴ τι μὲν γὰρ ὑαλουργική ἐστι, τοῦτο τέχνη περὶ ὕαλον καταγινομένη,<note type="apparatus" n="13" target="#p20-12">ὁ ὅρος V γὰρ om. T ἐστὶ om. T</note>
               <lb n="14" xml:id="p20-13"/>καὶ εἴ τι περὶ ὕαλον καταγινομένη, τοῦτο τέχνη ἐστὶν ὑαλουργική·<note type="apparatus" n="14" target="#p20-13">ἐστὶν om. T</note>
               <lb n="15" xml:id="p20-14"/>τῇ γὰρ ὑαλουργικῇ μόνῃ ὑπόκειται ὁ ὕαλος. ἐπὶ δὲ τῆς φιλοσοφίας καὶ<note type="apparatus" n="15" target="#p20-14">μόνης K</note>
               <lb n="16" xml:id="p20-15"/>ἀπὸ τοῦ τέλους μόνου καὶ ἀπὸ τοῦ ὑποκειμένου τέλειός ἐστιν ὁρισμός.<note type="apparatus" n="16" target="#p20-15">ὁ ὁρισμός TV</note>
@@ -821,7 +822,7 @@
           <head><lb n="24" xml:id="p20-23"/>Πρᾶξις ζʹ.</head>
           <div type="textpart" subtype="section" n="0">
             <p>
-              <lb n="25" xml:id="p20-24"/>Μεμαθηκότες τὸ πέμπτον καφάλαιον ζητήσωμεν καὶ τὸ ἕκτον, ἐν ᾧ<note type="apparatus" n="25" target="#p20-24">ante τὸ πέμπτ. add. καὶ T</note>
+              <lb n="25" xml:id="p20-24"/>Μεμαθηκότες τὸ πέμπτον <choice><sic>καφάλαιον</sic><corr>κεφάλαιον</corr></choice> ζητήσωμεν καὶ τὸ ἕκτον, ἐν ᾧ<note type="apparatus" n="25" target="#p20-24">ante τὸ πέμπτ. add. καὶ T</note>
               <lb n="26" xml:id="p20-25"/>λέγομεν πόσοι καὶ ποῖοι τῆς φιλοσοφίας εἰσὶν ὁρισμοί. εἰσὶ δὲ οὗτοι·<note type="apparatus" n="26" target="#p20-25">ἐλέγομεν V οἱ ὁρισμοὶ T</note>
               <lb n="27" xml:id="p20-26"/>πρῶτος μὲν ὁ λέγων ‘φιλοσοφία ἐστὶ γνῶσις τῶν ὄντων ᾗ ὄντα ἐστί’,<note type="apparatus" n="27" target="#p20-26">πρῶτον T ἐστί Brand.: εἰσί KTV (cf. p. 28,16)</note>
               <lb n="28" xml:id="p20-27"/>δεύτερος δὲ ‘γνῶσις θείων τε καὶ ἀνθρωπίνων πραγμάτων’, τρίτος ‘μελέτη<note type="apparatus" n="28" target="#p20-27">post δὲ add. ἐστι KV γνῶσις post πραγμ. coll. T τε om. T 28—30 τρίτον . . τέταρτον . . πέμπτον . . ἔκτον T</note>
@@ -1167,7 +1168,7 @@
               <lb n="23" xml:id="p29-22"/>πρὸς θεωρίαν ἀνατείνεται καὶ ἄρχεται θεολογεῖν· εἰ μὴ γὰρ νέκρωσιν τῶν
               <lb n="24" xml:id="p29-23"/>παθῶν ἀπεργάσηται καὶ καθαρθῇ τὴν ψυχήν, οὐ δύναται θεολογῆσαι·<note type="apparatus" n="24" target="#p29-23">ἀπεργάσεται libri</note>
               <lb n="25" xml:id="p29-24"/>κατὰ γὰρ τὸν Πλάτωνα ‘τὸ μὴ καθαρὸν καθαροῦ ἐφάπτεσθαι οὐχὶ θεμιτόν’.<note type="apparatus" n="25" target="#p29-24">Πλάτωνα] Phaedo. p. 67 B</note>
-              <lb n="26" xml:id="p29-25"/>τοῦτα μὲν ἐν τούτοις.
+              <lb n="26" xml:id="p29-25"/><choice><sic>τοῦτα</sic><corr>ταῦτα</corr></choice> μὲν ἐν τούτοις.
               <lb n="27" xml:id="p29-26"/>Ἀποροῦσι δέ τινες πρὸς τὸν Πλάτωνα λέγοντα τὴν φιλοσοφίαν μελέτην<note type="apparatus" n="27" target="#p29-26">Πλάτωνα om. K λέγοντες V</note>
               <lb n="28" xml:id="p29-27"/>θανάτου λέγοντες· τί φής, ὦ Πλάτων; ὁ φιλόσοφος ἐξάγει ἤγουν ἀναιρεῖ<note type="apparatus" n="28" target="#p29-27">θανάτου εἶναι K post Πλάτ. add. λέγοντες V</note>
               <lb n="29" xml:id="p29-28"/>ἑαυτὸν καὶ τυραννίδα μελετᾷ κατὰ τοῦ δημιουργοῦ βουλόμενος λῦσαι τὸν
@@ -1509,13 +1510,13 @@
               <lb n="25" xml:id="p38-24"/>τὰς ἄλλας ἀρετὰς συμπεριέλαβε· καὶ γὰρ αἱ ἐπιστημονικαὶ ἀρεταὶ ἤγουν<note type="apparatus" n="25" target="#p38-24">ἤγουν om. T</note>
               <lb n="26" xml:id="p38-25"/>αἱ μετὰ λόγου ἀλλήλαις ἕπονται· καὶ γὰρ ὁ μετὰ λόγου ὢν σώφρων, τοῦτ’<note type="apparatus" n="26" target="#p38-25">ὁ om. T</note>
               <lb n="27" xml:id="p38-26"/>ἔστιν ὁ γινώσκων διὰ τί ἐστι σώφρων, οἷον ὁ γινώσκων ὅτι δεῖ τινα εἶναι
-              <lb n="28" xml:id="p38-27"/>σώφρονα, ἐπειδὴ ἐκ τῆς ἀκολασίας ἀδικίαι καὶ πλεονεξίαι γίνονται, ὁ τοιοὗτος
+              <lb n="28" xml:id="p38-27"/>σώφρονα, ἐπειδὴ ἐκ τῆς ἀκολασίας ἀδικίαι καὶ πλεονεξίαι γίνονται, ὁ τοιοῦτος
               <lb n="29" xml:id="p38-28"/>ἐξ ἀνάγκης καὶ ἀνδρεῖός ἐστι, διότι τὰ πάθη ὑποτάττει, ὁ τοιοῦτος<note type="apparatus" n="29" target="#p38-28">διότι] ὅτι K</note>
               <lb n="30" xml:id="p38-29"/>δὲ καὶ φρόνιμός ἐστιν (οἶδε γὰρ τὴν αἰτίαν, δι’ ἣν δεῖ τινα εἶναι σώφρονα),
               <lb n="31" xml:id="p38-30"/>ὁ τοιοῦτος δὲ καὶ δίκαιός ἐστι· καὶ γὰρ ἐκ τῶν σωματικῶν ἡδυπαθειῶν
               <lb n="32" xml:id="p38-31"/>ἀδικίαι γίνονται. πρόσκειται δὲ ‘αἱ ἐπιστημονικαὶ ἀρεταί’ διὰ τὰς φυσικάς·<note type="apparatus" n="32" target="#p38-31">πρόσκεινται V αἱ om. KT</note>
               <lb n="33" xml:id="p38-32"/>φυσικαὶ δέ εἰσιν αἱ ἀπὸ κράσεως οὖσαι· αὗται γὰρ οὐχ ἕπονται ἀλλήλαις·
-              <lb n="34" xml:id="p38-33"/>καὶ γὰρ ὁ ἀπὸ κράσεως ὢν σώφρων οὐ πάντως ἐστὶ καὶ ἀνδρεῖος ἢ φρονιμος<note type="apparatus" n="34" target="#p38-33">ὢν om. T πάντως T alt. καὶ Vat. 2253: ἢ KTV</note>
+              <lb n="34" xml:id="p38-33"/>καὶ γὰρ ὁ ἀπὸ κράσεως ὢν σώφρων οὐ πάντως ἐστὶ καὶ ἀνδρεῖος ἢ φρόνιμος<note type="apparatus" n="34" target="#p38-33">ὢν om. T πάντως T alt. καὶ Vat. 2253: ἢ KTV</note>
             </p>
             <pb n="39" facs="https://archive.org/download/commentariaina18pt13akaduoft/page/n394.jpg"/>
             <p>
@@ -1763,7 +1764,7 @@
               <lb n="4" xml:id="p45-3"/>ἐξαίφνης ἐτράπη τὸ κατάστημα τοῦ ἀέρος καὶ τὸ ὑποκείμενον ῥευστὸν ὂν
               <lb n="5" xml:id="p45-4"/>ἄλλως ἔσχε, καὶ δεδωκότος τοῦ ἰατροῦ τὸ καθάρσιον οὐδὲν ὠφελήθη ὁ
               <lb n="6" xml:id="p45-5"/>κάμνων διὰ τὸ στέγνωσιν γενέσθαι περὶ τὴν ἐπιφάνειαν καὶ μὴ γενέσθαι
-              <lb n="7" xml:id="p45-6"/>ἔκκρισιν δι’ ἱδρώτων. καὶ ὅσον μὲν κατὰ τοὺς λόγους τῆς ἰατρικῆς ὠφέλεῖτο<note type="apparatus" n="7" target="#p45-6">ὅσω V</note><note type="apparatus" n="7-8" target="#p45-6 #p45-7">ὠφελεῖται V</note>
+              <lb n="7" xml:id="p45-6"/>ἔκκρισιν δι’ ἱδρώτων. καὶ ὅσον μὲν κατὰ τοὺς λόγους τῆς ἰατρικῆς ὠφελεῖτο<note type="apparatus" n="7" target="#p45-6">ὅσω V</note><note type="apparatus" n="7-8" target="#p45-6 #p45-7">ὠφελεῖται V</note>
               <lb n="8" xml:id="p45-7"/>πάντως ὁ κάμνων, ἀλλ’ ἐπειδὴ τὸ ὑποκείμενον ῥευστόν ἐστι καὶ ἄλλως
               <lb n="9" xml:id="p45-8"/>ἔσχε, τούτου χάριν ἐγένετο ἡ ἀποτυχία. ἡ δὲ ἐπιστήμη περὶ τὰ ἀεὶ ὡσαύτως
               <lb n="10" xml:id="p45-9"/>ἔχοντα καταγίνεται· διαλαμβάνει γὰρ περὶ τοῦ καθόλου ἀνθρώπου καὶ
@@ -1892,7 +1893,7 @@
               <lb n="16" xml:id="p48-15"/>τέσσαρές εἰσι διαφοραὶ τῶν ὁρισμῶν τῆς φιλοσοφίας· οἱ μὲν γὰρ ἀπὸ τοῦ
               <lb n="17" xml:id="p48-16"/>ὑποκειμένου ἐλήφθησαν, οἷον ὁ λέγων ὅτι ‘φιλοσοφία ἐστὶ γνῶσις τῶν ὄντων<note type="apparatus" n="17" target="#p48-16">ὅτι φιλ. ἐστὶ om. T: ὅτι om. K: ἐστὶ om. V</note>
               <lb n="18" xml:id="p48-17"/>ᾗ ὄντα ἐστί’ καὶ ὁ λέγων ὅτι ‘φιλοσοφία ἐστὶ γνῶσις θείων τε καὶ ἀνθρωπίνων<note type="apparatus" n="18" target="#p48-17">ὅτι φιλ. ἐστὶ om. T</note>
-              <lb n="19" xml:id="p48-18"/>πραγμάτων’, οἱ δὲ ἐκ τοῦ τέλους, ὁ λέγων ὅτι φιλοσοφία ἐστὶ μελέτη θανάτοῦ’<note type="apparatus" n="19" target="#p48-18">ὁ λέγων ὅτι φιλ. ἐστὶ om. T: ὅτι om. K</note>
+              <lb n="19" xml:id="p48-18"/>πραγμάτων’, οἱ δὲ ἐκ τοῦ τέλους, ὁ λέγων ὅτι φιλοσοφία ἐστὶ μελέτη θανάτου’<note type="apparatus" n="19" target="#p48-18">ὁ λέγων ὅτι φιλ. ἐστὶ om. T: ὅτι om. K</note>
               <lb n="20" xml:id="p48-19"/>καὶ ὁ λέγων ὅτι ‘φιλοσοφία ἐστὶ ὁμοίωσις θεῷ κατὰ τὸ δυνατὸν ἀνθρώπῳ’,<note type="apparatus" n="20" target="#p48-19">ὅτι φιλ. ἐστὶ om. T</note>
               <lb n="21" xml:id="p48-20"/>ὁ δὲ ἐκ τῆς ὑπεροχῆς ὁ λέγων ὅτι ‘φιλοσοφία ἐστὶ τέχνη τεχνῶν καὶ ἐπιστήμη
               <lb n="22" xml:id="p48-21"/>ἐπιστημῶν’, ὁ δὲ ἐκ τῆς ἐτυμολογίας ὁ λέγων ὅτι ‘φιλοσοφία ἐστὶ φιλία
@@ -2603,7 +2604,7 @@
               <lb n="13" xml:id="p67-12"/>οἱ δὲ μέλανες οὐκ ἔστι διαίρεσις ἀπὸ οὐσίας εἰς συμβεβηκότα ἀλλ’ ἀπὸ<note type="apparatus" n="13" target="#p67-12">ἔστι] ἐγένετο V ἡ διαίρεσις V</note><note type="apparatus" n="13-14" target="#p67-12 #p67-13">ἀλλ’—συμβεβηκότα in mrg. suppl. V²</note>
               <lb n="14" xml:id="p67-13"/>οὐσίας εἰς οὐσίας ἐχούσας συμβεβηκότα· εἰς γὰρ ἀνθρώπους μέλανας καὶ
               <lb n="15" xml:id="p67-14"/>λευκοὺς ἐγένετο ἡ διαίρεσις, οἵτινες οὐσίαι εἰσίν. ἀλλ’ οὔτε δὲ ἀπὸ συμβεβηκότος<note type="apparatus" n="15" target="#p67-14">δὲ] καὶ V</note>
-              <lb n="16" xml:id="p67-15"/>εἰς συμβεβηκότα γίνεται διαίρεσις· ἡ γὰρ ἀπὸ γένους εἰς εἴδη
+              <lb n="16" xml:id="p67-15"/>εἰς συμβεβηκότα γίνεται διαίρεσις· ἢ γὰρ ἀπὸ γένους εἰς εἴδη
               <lb n="17" xml:id="p67-16"/>γίνεται ἡ διαίρεσις, ὡς ὅταν εἴπωμεν ὅτι τὸ χρῶμα διαιρεῖται εἰς εἴδη<note type="apparatus" n="17" target="#p67-16">γίνεται om. V ὅτι om. V</note><note type="apparatus" n="17-18" target="#p67-16 #p67-17">εἰς εἴδη εἰς V (bis)</note>
               <lb n="18" xml:id="p67-17"/>λευκὸν καὶ μέλαν (τὸ χρῶμα γὰρ γένος ἐστὶ καὶ διαιρεῖται εἰς εἴδη<note type="apparatus" n="18-19" target="#p67-17 #p67-18">τὸ χρῶμα—μέλαν in mrg. suppl. V²</note><note type="apparatus" n="18" target="#p67-17">γὰρ χρῶμα colloc. V</note>
               <lb n="19" xml:id="p67-18"/>λευκὸν καὶ μέλαν, ὅπερ ἀνάγεται ὑπὸ τὸν διαιρετικὸν τρόπον τὸν ἀπὸ<note type="apparatus" n="19" target="#p67-18">ὅπερ ἀνάγεται] ὅστις ἐπάγεται V¹: καὶ ἀνάγεται V²</note>
@@ -2843,7 +2844,7 @@
               <lb n="20" xml:id="p73-19"/>μὲν οὐ λέγονται ὁμωνύμως (οὔτε γὰρ ἡ ἀριθμητικὴ λέγεται μουσικὴ οὔτε<note type="apparatus" n="20-21" target="#p73-19 #p73-20">οὔτε γὰρ—ἀστρονομία om. T</note>
               <lb n="21" xml:id="p73-20"/>ἡ γεωμετρία ἀστρονομία), τῷ ὅλῳ ὁμωνύμως λέγονται· πάντα γὰρ ὁμωνύμως
               <lb n="22" xml:id="p73-21"/>τῇ μαθηματικῇ μαθηματικὰ λέγονται καὶ τούτου χάριν κωλύονται<note type="apparatus" n="22" target="#p73-21">μαθητικὴ μαθητικὰ V</note>
-              <lb n="23" xml:id="p73-22"/>καὶ ἀνομοιομερῆ εἶναι καὶ ὁμοιομερῆ. καὶ ὁμοιμερῆ μέν, ἐπειδή, ὡς εἴρηται,
+              <lb n="23" xml:id="p73-22"/>καὶ ἀνομοιομερῆ εἶναι καὶ ὁμοιομερῆ. καὶ <choice><sic>ὁμοιμερῆ</sic><corr>ὁμοιομερῆ</corr></choice> μέν, ἐπειδή, ὡς εἴρηται,
               <lb n="24" xml:id="p73-23"/>τὰ ὁμοιομερῆ καὶ ἀλλήλοις καὶ τῷ ὅλῳ ὁμωνύμως λέγονται, ταῦτα
               <lb n="25" xml:id="p73-24"/>δὲ μόνῳ τῷ ὅλῳ ὁμωνύμως λέγονται. ἀνομοιομερῆ δὲ κωλύονται εἶναι,
               <lb n="26" xml:id="p73-25"/>ἐπειδή, ὡς εἴρηται, τὰ ἀνομοιομερῆ οὔτε τῷ ὅλῳ οὔτε ἀλλήλοις ὁμωνύμως<note type="apparatus" n="26" target="#p73-25">τοῖς ἀλλήλοις V</note>
@@ -2992,7 +2993,7 @@
               <lb n="13" xml:id="p77-12"/>ποιεῖ ἡ δὲ ξέστην καὶ τὰ τοιαῦτα ἡ δὲ οἶκον, ἅτινα τῶν ἐκτὸς καὶ τῶν<note type="apparatus" n="13" target="#p77-12">τῶν (ante ἐκτὸς) om. K</note><note type="apparatus" n="13-14" target="#p77-12 #p77-13">τῶν περιουσιῶν V2: τῶν περὶ οὐσίας KV1: τῆς περιουσίας T</note>
               <lb n="14" xml:id="p77-13"/>περιουσιῶν εἰσιν. ἡ δὲ φιλοσοφία περὶ τὴν ψυχὴν ἐνεργεῖ· καὶ γὰρ τὸ τῆς<note type="apparatus" n="14" target="#p77-13">εἰσὶν post ἐκτὸς transp. KV2</note>
               <lb n="15" xml:id="p77-14"/>ψυχῆς ὄμμα ὑπὸ τῶν σωματικῶν ἡδυπαθειῶν ἀμβλυῶττον καὶ ἐπισκοτιζόμενον<note type="apparatus" n="15" target="#p77-14">ἀμβλυῶτον V</note>
-              <lb n="16" xml:id="p77-15"/>διὰ τῆς φιλοσοφίας ἐγείρεσθαί καὶ φωτίζεσθαι πέφυκεν. αὕτη δὲ ἡ<note type="apparatus" n="16" target="#p77-15">διὰ τῆς φιλ. post πέφυκεν colloc. T post αὕτη δὲ add. φημὶ δὲ KV</note><note type="apparatus" n="16-17" target="#p77-15 #p77-16">ἡ περὶ τὴν ψυχὴν iter. V</note>
+              <lb n="16" xml:id="p77-15"/>διὰ τῆς φιλοσοφίας ἐγείρεσθαι καὶ φωτίζεσθαι πέφυκεν. αὕτη δὲ ἡ<note type="apparatus" n="16" target="#p77-15">διὰ τῆς φιλ. post πέφυκεν colloc. T post αὕτη δὲ add. φημὶ δὲ KV</note><note type="apparatus" n="16-17" target="#p77-15 #p77-16">ἡ περὶ τὴν ψυχὴν iter. V</note>
               <lb n="17" xml:id="p77-16"/>περὶ τὴν ψυχὴν ἐνέργεια ἀναγκαιοτέρα τῶν ἐνεργειῶν ἐστι τῶν περὶ τὸ σῶμα<note type="apparatus" n="17" target="#p77-16">τὴν om. K ἀναγκ. τῶν περὶ τὸ σῶμα ἐνεργειῶν ἐστι T ἐστὶ om. V</note>
               <lb n="18" xml:id="p77-17"/>καὶ τὰ ἐκτὸς καταγινομένων, ὅσον ἐστὶ ψυχὴ σώματος καὶ τῶν ἐκτὸς ἀναγκαιοτέρα.<note type="apparatus" n="18" target="#p77-17">ante τὰ ἐκτὸς add. περὶ τ. τοσοῦτον ὅσον T</note>
               <lb n="19" xml:id="p77-18"/>ὥστε οὖν κυρίως μόνη ἡ φιλοσοφία πρακτικὴ λέγεται.
@@ -3058,7 +3059,7 @@
               <lb n="12" xml:id="p79-11"/>φαντασία καὶ δόξα ἡ ἄλογος· καὶ γὰρ καὶ ἡ ἄλογος αἴσθησις καὶ ἐν τοῖς<note type="apparatus" n="12" target="#p79-11">καὶ (post γὰρ) om. K</note>
               <lb n="13" xml:id="p79-12"/>ἀλόγοις ζῴοις θεωρεῖται καὶ ἡ φαντασία ὁμοίως· καὶ γὰρ τὸ ἄλογον ζῷον ἐὰν<note type="apparatus" n="13" target="#p79-12">θεωρ. ζῴοις colloc. T καὶ ἡ φαντ. post αἴσθησις transp. ὁμοίως omisso T</note>
               <lb n="14" xml:id="p79-13"/>πολλάκις παρέλθῃ ἐκ τόπου, φαντάζεται αὐτὸν καὶ γνωρίζει αὐτόν, ὅθεν
-              <lb n="15" xml:id="p79-14"/>καὶ τὰ πολλὰ τῶν ἀλόγων ζῴων ἀφ’ ἑαυτῶν εἰς τὴν οἰκείαν φάτμην ἐπέρχονται.<note type="apparatus" n="15-16" target="#p79-14 #p79-15">ἐπέρχ. V: ἀπέρχ. K: εἰσέρχ. T</note>
+              <lb n="15" xml:id="p79-14"/>καὶ τὰ πολλὰ τῶν ἀλόγων ζῴων ἀφ’ ἑαυτῶν εἰς τὴν οἰκείαν <choice><sic>φάτμην</sic><corr>φάτνην</corr></choice> ἐπέρχονται.<note type="apparatus" n="15-16" target="#p79-14 #p79-15">ἐπέρχ. V: ἀπέρχ. K: εἰσέρχ. T</note>
               <lb n="16" xml:id="p79-15"/>ἡ δὲ ἄλογος δόξα ἄλογος λέγεται οὐ διότι καὶ ἐν τοῖς ἀλόγοις
               <lb n="17" xml:id="p79-16"/>ζῴοις θεωρεῖται, ἀλλ’ ἄλογος λέγεται διότι αἰτίας ἐστέρηται, οἷον ὡς ὅταν<note type="apparatus" n="17" target="#p79-16">ἀλλ’ ἀλ. λέγ.] ἀλλὰ T</note>
               <lb n="18" xml:id="p79-17"/>τις δοξάζῃ τὴν ψυχὴν ἀθάνατον εἶναι, μὴ λέγων αἰτίαν, ἀλλὰ λέγων<note type="apparatus" n="18" target="#p79-17">εἶναι] καὶ T λέγων] λέγει (bis) T</note>

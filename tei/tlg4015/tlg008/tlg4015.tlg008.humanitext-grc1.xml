@@ -56,6 +56,7 @@
       <change when="2026-10-23" who="#NI">Quotation marks made uniform: opening single and double quotation marks, printed in the edition in the reversed (high-reversed-9) form, are encoded as ‘ and “, closing ones as ’ and ”, single and double kept as printed; opening marks read by the OCR as straight quotes, low quotes or spacing breathings, and spacing breathings or quotation marks doubled before a capital that already bears its breathing, corrected.</change>
       <change when="2026-11-05" who="#NI">Apparatus entries printed out of numerical order (e.g. 33 … 32) separated from the preceding entry; words hyphenated across lines joined in Latin text as in Greek; words mixing Greek and Latin letters (OCR errors, about 130, including manuscript sigla) corrected on the page images; marginal folio marks left in the text removed; validated against TEI P5 version 4.12.0 (recorded in TEI/@version).</change>
       <change when="2026-11-05" who="#NI">Extent of the lemma quotations (quote[@type='lemma']) corrected: the automatic division had closed every lemma after its first printed line, leaving the remaining lines of lemmata printed over two or more lines at the head of the following paragraph. Candidates were found from the letter-spacing of the lines on the page images (lemmata are printed spaced) and from the line geometry (centred last line, indented paragraph start), and every candidate was decided on the page image (Claude work teams; about 7,700 places in the corpus); the lines so decided are now inside the quotation, with pb inside the quotation where a lemma runs on to the next page. Where the lemma runs on in the same line as the commentary (Stephanus in De interpretatione), the quotation ends after the last spaced word and the paragraph continues in the same line without a new lb; where no lemma is printed and the paraphrase follows the Bekker reference directly (Michael in De partibus animalium from p. 37), the quotation is dropped and the division kept; centred last lines the edition does not count are inside the quotation as unnumbered lines.</change>
+      <change when="2026-11-22" who="#NI">Readings questioned by the review of the translations collated on the page images (read independently, at least twice wherever the print does not have the proposed form, by a language model, Claude; the 28 places in all works that it could not settle were read by the editor): 84 errors of the transcription corrected; 8 evident misprints of the edition given as choice/sic/corr; 3 evident misprints of the edition in a word broken at the line end (which cannot carry choice/sic/corr) corrected in the text; 2 lines that are not text (letters of a diagram, a mark at the foot of the page, a line of the apparatus) taken out of the text.</change>
     </revisionDesc>
   </teiHeader>
   <text>
@@ -122,7 +123,7 @@
             </p>
             <pb n="3" facs="https://archive.org/download/commentariaina15akaduoft/page/n32.jpg"/>
             <p>
-              <lb n="1" xml:id="p3-0"/>τῶν ἐν ἡμῖν, ὅτι ὅταν καὶ σχολὴν ἀπὸ τῶν περισλκῶν τοῦ σώματος<note type="apparatus" n="1" target="#p3-0">περιελκόντων σωμάτων D, sed corr. in mrg. περὶ ὁλκων τοῦ σωματος D¹</note>
+              <lb n="1" xml:id="p3-0"/>τῶν ἐν ἡμῖν, ὅτι ὅταν καὶ σχολὴν ἀπὸ τῶν περιολκῶν τοῦ σώματος<note type="apparatus" n="1" target="#p3-0">περιελκόντων σωμάτων D, sed corr. in mrg. περὶ ὁλκων τοῦ σωματος D¹</note>
               <lb n="2" xml:id="p3-1"/>μικρὸν ἀγάγωμεν καὶ θελήσωμεν τῇ θεωρίᾳ τῶν θείων σχολάσαι, παρεμπίπτουσα<note type="apparatus" n="2" target="#p3-1">μικρὸν D Pal.: μικρῶν t</note>
               <lb n="3" xml:id="p3-2"/>ἡ φαντασία θόρυβον ἡμῖν κινεῖ, ὑπονοεῖν διδοῦσα ὅτι σῶμά ἐστι<milestone type="alt-edition" unit="line" ed="Trincavelli 1535" n="40"/>
               <lb n="4" xml:id="p3-3"/>τὸ θεῖον, καὶ μέγεθος ἔχει καὶ σχῆμα, καὶ οὐκ ἐᾷ ἡμᾶς ἀσωμάτως καὶ<note type="apparatus" n="4" target="#p3-3">καὶ μέγεθος ἔχει καὶ σχῆμα Pal. t: μέγεθος ἔχει, σχῆμα ἔχει D</note><milestone type="alt-edition" unit="folio" ed="Trincavelli 1535" n="a 1v"/>
@@ -348,7 +349,7 @@
               <lb n="32" xml:id="p8-31"/>ποσοῦ θρέψαι ἢ τῇ αὐξητικῇ αὐξῆσαι. ἀλλ’ οὐδὲ τῇ γεννητικῇ· διὸ καὶ<note type="apparatus" n="32" target="#p8-31">ποσοῦ scripsi: πόσου libri τῇ γεννητικῇ ex τὴν γεννητικὴν ut vid. corr. D</note>
               <lb n="33" xml:id="p8-32"/>ἀβουλήτως πολλάκις ὀνειρώττομεν· εἰ δὲ καὶ μετριωτέραν ποιοῦμεν τὴν
               <lb n="34" xml:id="p8-33"/>γεννητικήν, δῆλον ὅτι οὐχ ἁπλῶς αὐτὴν τὴν δύναμιν, ἀλλὰ τὴν ἐπιθυμίαν
-              <lb n="35" xml:id="p8-34"/>καταστέλλομεν· ἡ γὰρ δύναμις οὐδὲν ἧττον μένει καὶ μὴ ἐνεργοῦσα. αὖται<milestone type="alt-edition" unit="line" ed="Trincavelli 1535" n="40"/>
+              <lb n="35" xml:id="p8-34"/>καταστέλλομεν· ἡ γὰρ δύναμις οὐδὲν ἧττον μένει καὶ μὴ ἐνεργοῦσα. αὗται<milestone type="alt-edition" unit="line" ed="Trincavelli 1535" n="40"/>
             </p>
             <pb n="9" facs="https://archive.org/download/commentariaina15akaduoft/page/n38.jpg"/>
             <p>
@@ -581,7 +582,7 @@
               <lb n="34" xml:id="p14-33"/>οἶδεν ἑαυτὴν ἡ ὄψις ἢ ἡ ἀκοὴ ἢ ἁπλῶς ἡ αἴσθησις οὐδὲ ζητεῖ ποίας<milestone type="alt-edition" unit="line" ed="Trincavelli 1535" n="20"/>
               <lb n="35" xml:id="p14-34"/>ἐστὶ φύσεως, ἀλλ’ ὁ λόγος ἐστὶν ὁ περὶ αὐτῶν ζητῶν. ἡ μέντοι ψυχὴ ἡ
               <lb n="36" xml:id="p14-35"/>λογικὴ αὐτὴ ἑαυτὴν γινώσκει· αὐτὴ γοῦν ἐστιν ἡ ζητοῦσα, αὐτὴ ἡ ζητουμένη,<note type="apparatus" n="36 et 37" target="#p14-35 #p14-36">αὐτὴ ubique Pal.: αὕτη (post γινώσκει et reliquis deinceps locis) DRt</note>
-              <lb n="37" xml:id="p14-36"/>αὐτὴ ἡ εὑρίσκουσα, αὐτὴ ἡ εὑρισκομένη, ἡ γινώσκουσα καὶ γινώσκομένη·
+              <lb n="37" xml:id="p14-36"/>αὐτὴ ἡ εὑρίσκουσα, αὐτὴ ἡ εὑρισκομένη, ἡ γινώσκουσα καὶ γινωσκομένη·
               <lb n="38" xml:id="p14-37"/>ἀσώματος ἄρα ἐναργῶς ἀποδέδεικται. ἔτι αἱ ἐν ὑποκειμένῳ τῷ<note type="apparatus" n="38" target="#p14-37">ἔτι Pal.: om. DRt</note>
             </p>
             <pb n="15" facs="https://archive.org/download/commentariaina15akaduoft/page/n44.jpg"/>
@@ -741,7 +742,7 @@
             </p>
             <pb n="19" facs="https://archive.org/download/commentariaina15akaduoft/page/n48.jpg"/>
             <p>
-              <lb n="1" xml:id="p19-0"/>ἐκείνου καὶ ἐπὶ τὸ παχὺ τοῦτο σῶμα, ὥσπερ καὶ ἀπὸ τοῦ νοῦ ἐλέγομεν α
+              <lb n="1" xml:id="p19-0"/>ἐκείνου καὶ ἐπὶ τὸ παχὺ τοῦτο σῶμα, ὥσπερ καὶ ἀπὸ τοῦ νοῦ ἐλέγομεν
               <lb n="2" xml:id="p19-1"/>φοιτᾶν ἐπὶ πάντας τὰς κοινὰς ἐννοίας. ὅτι γὰρ καὶ μέχρι τούτου τοῦ σώματος
               <lb n="3" xml:id="p19-2"/>ἐλλάμψεις φοιτῶσι τῆς ἀλόγου ζωῆς, δῆλον. ὁ μὲν γὰρ θυμὸς
               <lb n="4" xml:id="p19-3"/>κινεῖ τὸ περικάρδιον αἷμα καὶ ζέσιν τινὰ αὐτοῦ ποιεῖ, ἡ δὲ ἐπιθυμία τὸ
@@ -888,7 +889,7 @@
               <lb n="16" xml:id="p22-15"/>τὴν τῆς ψυχῆς ἱστορίαν εὐλόγως ἂν ἐν πρώτοις τιθείημεν.<note type="apparatus" n="16" target="#p22-15">τιθείημεν ex τίθεμεν corr. D¹</note>
             </quote>
             <p>
-              <lb n="17" xml:id="p22-16"/>‘Ἡ ὅλη τοῦ προοιμίου διάνοια ὧδε ἔχει. πᾶσαν μὲν γνῶσιν, φησί,
+              <lb n="17" xml:id="p22-16"/>Ἡ ὅλη τοῦ προοιμίου διάνοια ὧδε ἔχει. πᾶσαν μὲν γνῶσιν, φησί,
               <lb n="18" xml:id="p22-17"/>καλὴν καὶ τιμίαν εἶναι ὑπολαμβάνομεν, εἶναι δὲ ἄλλην ἄλλης τιμιωτέραν
               <lb n="19" xml:id="p22-18"/>τε καὶ καλλίω δι’ αἰτίας δύο, ἢ τῷ τὸ ὑποκείμενον περὶ οὗ ἡ γνῶσις
               <lb n="20" xml:id="p22-19"/>κρεῖττον εἶναι ἢ τῷ τὴν γνῶσιν ἀκριβεστέραν· οἷον ἀστρονομίαν ἰατρικῆς<note type="apparatus" n="20" target="#p22-19">κρεῖττον Rt: κρείττω D ἀστρονομίαν DR: ἀστρονομία t</note>
@@ -1302,7 +1303,7 @@
             </p>
             <pb n="32" facs="https://archive.org/download/commentariaina15akaduoft/page/n61.jpg"/>
             <p>
-              <lb n="1" xml:id="p32-0"/>γὰρ δεήσει γὰρ λαβεῖν περὶ ἕκαστον τίς ὁ τρόπος τοῦτο σημαίνει, a<note type="apparatus" n="1" target="#p32-0">δεήσει γὰρ R: γὰρ om. Dt</note>
+              <lb n="1" xml:id="p32-0"/>γὰρ δεήσει γὰρ λαβεῖν περὶ ἕκαστον τίς ὁ τρόπος τοῦτο σημαίνει,<note type="apparatus" n="1" target="#p32-0">δεήσει γὰρ R: γὰρ om. Dt</note>
               <lb n="2" xml:id="p32-1"/>ποίᾳ μεθόδῳ ἐπὶ ποίων πραγμάτων χρηστέον.
             </p>
           </div>
@@ -1614,7 +1615,7 @@
             </p>
             <pb n="39" facs="https://archive.org/download/commentariaina15akaduoft/page/n68.jpg"/>
             <p>
-              <lb n="1" xml:id="p39-0"/>τὸ ὅλον τῶν μερῶν· πάλιν δόξειε τὸ δεῖν μᾶλλον ἐκ τῶν μερῶν ἄρχεσθαι b<note type="apparatus" n="1" target="#p39-0">τὸ δεῖν μέλλον R</note>
+              <lb n="1" xml:id="p39-0"/>τὸ ὅλον τῶν μερῶν· πάλιν δόξειε τὸ δεῖν μᾶλλον ἐκ τῶν μερῶν ἄρχεσθαι<note type="apparatus" n="1" target="#p39-0">τὸ δεῖν μέλλον R</note>
               <lb n="2" xml:id="p39-1"/>ὡς ἁπλουστέρων· δεῖ γὰρ τὸν μέλλοντα εἰδέναι τι σύνθετον ἐκεῖνα εἰδέναι<note type="apparatus" n="2" target="#p39-1">ἐκεῖνα D: om. Rt</note>
               <lb n="3" xml:id="p39-2"/>πρότερον τὰ ἐξ ὧν συνέστηκε. πάλιν ἐπειδὴ αἱ δυνάμεις ἔχουσιν ἔργα τινά,
               <lb n="4" xml:id="p39-3"/>λέγω δὴ τὰς ἐνεργείας (πᾶσα γὰρ ἐνέργεια ἐκ δυνάμεως), πάλιν ζητητέον<milestone type="alt-edition" unit="line" ed="Trincavelli 1535" n="50"/>
@@ -1975,7 +1976,7 @@
             </p>
             <pb n="47" facs="https://archive.org/download/commentariaina15akaduoft/page/n76.jpg"/>
             <p>
-              <lb n="1" xml:id="p47-0"/>δὲ μάτην οὔτε ὁ θεὸς ποιεῖ οὔτε ἡ φύσις, ὥστε πᾶσα ἀνάγκη ἀχωρίστων b
+              <lb n="1" xml:id="p47-0"/>δὲ μάτην οὔτε ὁ θεὸς ποιεῖ οὔτε ἡ φύσις, ὥστε πᾶσα ἀνάγκη ἀχωρίστων
               <lb n="2" xml:id="p47-1"/>οὐσῶν τῶν ἐνεργειῶν ἀχωρίστους εἶναι καὶ τὰς οὐσίας. οἱ μὲν οὖν κανόνες
               <lb n="3" xml:id="p47-2"/>οὗτοι, οὓς ἀποδέχονται κοινῶς πάντες καὶ οἱ θνητὴν εἶναι λέγοντες τὴν<note type="apparatus" n="3" target="#p47-2">εἶναι om. R</note><milestone type="alt-edition" unit="line" ed="Trincavelli 1535" n="30"/>
               <lb n="4" xml:id="p47-3"/>ψυχὴν καὶ οἱ ἀθάνατον. ἐνστάσεις δὲ φέρονται πρὸς τοὺς κανόνας τούτους
@@ -2031,7 +2032,7 @@
               <lb n="23" xml:id="p48-22"/>πάσης ψυχῆς κοινὸν ὁρισμὸν ἤτοι λόγον ἀναλογοῦντα ὁρισμῷ, καὶ εἰπὼν<note type="apparatus" n="23" target="#p48-22">ὁρισμῷ] ὁρισμὸν R</note>
               <lb n="24" xml:id="p48-23"/>ὅτι ἔστιν ἐντελέχεια σώματος φυσικοῦ ὀργανικοῦ δυνάμει ζωὴν ἔχοντος,
               <lb n="25" xml:id="p48-24"/>ζητεῖ ὅτι πῶς εἴπομεν ἐντελέχειαν εἶναι; πότερον, ὡς ἀχώριστος<milestone type="alt-edition" unit="line" ed="Trincavelli 1535" n="10"/>
-              <lb n="26" xml:id="p48-25"/>ἐντελέχειά ἐστιν ἡ ψυχὴ ἢ ὡς πλωτὴρ πλοίου; ὥστε οἶδε καὶ αὐτὸς ἐντελέχείάν<note type="apparatus" n="26" target="#p48-25">πλωτὴρ R: ὁ πλωτὴρ Dt</note>
+              <lb n="26" xml:id="p48-25"/>ἐντελέχειά ἐστιν ἡ ψυχὴ ἢ ὡς πλωτὴρ πλοίου; ὥστε οἶδε καὶ αὐτὸς ἐντελέχειάν<note type="apparatus" n="26" target="#p48-25">πλωτὴρ R: ὁ πλωτὴρ Dt</note>
               <lb n="27" xml:id="p48-26"/>τινα χωριστήν, καθὸ βούλεται εἶναι τὴν ψυχὴν ἐντελέχειαν. πάλιν
               <lb n="28" xml:id="p48-27"/>ζητοῦσι, διὰ τί εἰπὼν ὅτι εἰ μὲν οὖν ἔστι τι τῶν τῆς ψυχῆς ἔργων<note type="apparatus" n="28" target="#p48-27">ὅτι ἡ μέν ἐστι τῶν R</note>
               <lb n="29" xml:id="p48-28"/>ἢ παθημάτων ἴδιον, ἐπήγαγεν ἐνδέχοιτο ἂν αὐτὴν χωρίζεσθαι·
@@ -2099,7 +2100,7 @@
               <lb n="10" xml:id="p50-9"/>ψυχὴ ἄρα χωρισθεῖσα τοῦ σώματος, εἰ καὶ μὴ τῶν αἰσθητῶν εἰδῶν ἀντιλήψεται,
               <lb n="11" xml:id="p50-10"/>ἀλλ’ οὖν τῶν νοητῶν καὶ ἀύλων. τὸ δὲ πολλὰ συμβαίνει
               <lb n="12" xml:id="p50-11"/>φέρ’ εἰπεῖν τὸ ἐφεξῆς ἔχειν πάντα τὰ σημεῖα κείμενα, τὸ ἐφαρμόζειν<note type="apparatus" n="12" target="#p50-11">ἔχει R κειμενα (sic) corr. D² ex κειμένη; sequitur rasura τῷ ἐφαρμόζειν R</note>
-              <lb n="13" xml:id="p50-12"/>ἑτέρᾳ εὐθεῖα καὶ τὰ ὅμοια.
+              <lb n="13" xml:id="p50-12"/>ἑτέρᾳ εὐθείᾳ καὶ τὰ ὅμοια.
             </p>
           </div>
           <div type="textpart" subtype="lemma" n="33">
@@ -2737,7 +2738,7 @@
               <lb n="4" xml:id="p64-3"/>τὸ τρίγωνον καὶ τὰ τοιαῦτα, καθὸ τοιαῦτά ἐστι, χωριστά ἐστι, εἰ καὶ τὴν<note type="apparatus" n="4" target="#p64-3">εἰ om. R</note>
               <lb n="5" xml:id="p64-4"/>ὕπαρξιν ἔχει ἀχώριστον· διὸ καὶ οἱ ὁρισμοὶ αὐτῶν ἀποδίδονται ἄνευ τῆς
               <lb n="6" xml:id="p64-5"/>ὕλης. ἐπειδὴ οὖν θυμός ἐστι καὶ ἐν τῷ λόγῳ, ἔστι καὶ ἐν τῷ πνεύματι,
-              <lb n="7" xml:id="p64-6"/>ἔστι καὶ ἐν τῷ ἐξωωμένῳ σώματι, οἷον τοῦ μὲν <milestone type="alt-edition" unit="folio" ed="Trincavelli 1535" n="b 7r"/> λόγου ἐπιτρέποντος τῷ
+              <lb n="7" xml:id="p64-6"/>ἔστι καὶ ἐν τῷ ἐζωωμένῳ σώματι, οἷον τοῦ μὲν <milestone type="alt-edition" unit="folio" ed="Trincavelli 1535" n="b 7r"/> λόγου ἐπιτρέποντος τῷ
               <lb n="8" xml:id="p64-7"/>πνεύματι τὴν ὄρεξιν, τοῦ δὲ πνεύματος τῇ ὀρέξει κινοῦντος τὸ περικάρδιον
               <lb n="9" xml:id="p64-8"/>αἷμα τοῦ ζῴου, ὥσπερ ἔχει καὶ ἐπὶ βασιλέως καὶ στρατηγοῦ καὶ στρατιωτῶν
               <lb n="10" xml:id="p64-9"/>(ὁ μὲν γὰρ βασιλεὺς ἐπιτρέπει τῷ στρατηγῷ ἀμύνασθαι τούσδε τινάς, ὁ δὲ
@@ -2745,16 +2746,16 @@
               <lb n="12" xml:id="p64-11"/>θυμός, ἵνα μὴ νομίσωμεν λέγειν αὐτὸν περὶ τοῦ ἐν τῷ λόγῳ ὅτι ἀχώριστός<note type="apparatus" n="12" target="#p64-11">νομίσωμεν DR: νοήσωμεν t ὅτι ὁ ἀχώριστος D²</note>
               <lb n="13" xml:id="p64-12"/>ἐστι τοῦ ζῴου (οὗτος γὰρ χωριστὸς παντὸς σώματος) ἢ τοῦ ἐν τῷ πνεύματι<note type="apparatus" n="13" target="#p64-12">ᾗ D²t: om. D¹R</note><milestone type="alt-edition" unit="line" ed="Trincavelli 1535" n="5"/>
               <lb n="14" xml:id="p64-13"/>(καὶ οὗτος γὰρ εἰ καὶ μὴ παντός, ἀλλ’ οὖν τοῦ γεώδους ἐστὶ χωριστὸς
-              <lb n="15" xml:id="p64-14"/>σώματος), διὰ τοῦτο εἶπε τὸ ἢ δὴ τοιαῦτά ἐστι, τουτέστιν ᾗ ζέσις τοῦ<note type="apparatus" n="15" target="#p64-14">ᾗ (ante ζέσις) scripsi: ἡ libri</note>
+              <lb n="15" xml:id="p64-14"/>σώματος), διὰ τοῦτο εἶπε τὸ ᾗ δὴ τοιαῦτά ἐστι, τουτέστιν ᾗ ζέσις τοῦ<note type="apparatus" n="15" target="#p64-14">ᾗ (ante ζέσις) scripsi: ἡ libri</note>
               <lb n="16" xml:id="p64-15"/>περικαρδίου αἵματος· οὗτος γὰρ δηλονότι ὁ θυμὸς ἀχώριστός ἐστι τούτου
-              <lb n="17" xml:id="p64-16"/>τοῦ ἐξωωμένου σώματος.
+              <lb n="17" xml:id="p64-16"/>τοῦ ἐζωωμένου σώματος.
             </p>
           </div>
           <div type="textpart" subtype="lemma" n="51">
             <milestone unit="bekker" n="403b20"/>
             <quote type="lemma">
-              <lb n="18" xml:id="p64-17"/>Ἐπισκοποῦντας δὲ περὶ ψυχῆς ἀναγκαῖον ἅμα διαπο<note type="apparatus" n="18" target="#p64-17">ἀναγκαῖος t</note>
-              <lb n="19" xml:id="p64-18"/>ροῦντας περὶ ὧν εὐπορεῖν δεῖ καὶ τὰ ἑξῆς.<note type="apparatus" n="19" target="#p64-18">καὶ τὰ ἑξῆς om. t lemmate usque ad εὐλαβηθῶμεν (p. 403b 24) perscripto</note>
+              <lb n="18" xml:id="p64-17"/>Ἐπισκοποῦντας δὲ περὶ ψυχῆς ἀναγκαῖον ἅμα διαποροῦντας<note type="apparatus" n="18" target="#p64-17">ἀναγκαῖος t</note>
+              <lb n="19" xml:id="p64-18"/>περὶ ὧν εὐπορεῖν δεῖ καὶ τὰ ἑξῆς.<note type="apparatus" n="19" target="#p64-18">καὶ τὰ ἑξῆς om. t lemmate usque ad εὐλαβηθῶμεν (p. 403b 24) perscripto</note>
             </quote>
             <p>
               <lb n="20" xml:id="p64-19"/>Ὃ λέγει τοῦτό ἐστι· τὴν οὐσίαν τῆς ψυχῆς ἐπιζητοῦντας καὶ προαποροῦντας<note type="apparatus" n="20" target="#p64-19">ὃ δὴ λέγει Rt τοῦτό D: τοιοῦτόν Rt</note><milestone type="alt-edition" unit="line" ed="Trincavelli 1535" n="11"/>
@@ -2781,23 +2782,23 @@
               <lb n="2" xml:id="p65-1"/>ὑπάρχειν αὐτῇ κατὰ φύσιν.
             </quote>
             <p>
-              <lb n="3" xml:id="p65-2"/>Ὅπερ προέθετο ποιῆσαι τοῦτο ποιεῖ, λέγω δὴ ἐκ τῶν καθ’ αὑτὸ
+              <lb n="3" xml:id="p65-2"/>Ὅπερ προέθετο ποιῆσαι τοῦτο ποιεῖ, λέγω δὴ ἐκ τῶν καθ’ αὑτὸ<note type="apparatus" n="3" target="#p65-2">ποιῆσαι τοῦτο R: τοῦτο ποιῆσαι Dt</note>
               <lb n="4" xml:id="p65-3"/>συμβεβηκότων τῇ ψυχῇ τὸν ὁρισμὸν αὐτῆς εὑρεῖν. εἶπε γὰρ ὅτι οὐ μόνα<milestone type="alt-edition" unit="line" ed="Trincavelli 1535" n="25"/>
               <lb n="5" xml:id="p65-4"/>τὰ συμβεβηκότα καθ’ αὑτὸ ἐκ τοῦ ὁρισμοῦ μανθάνομεν, ἀλλὰ πολλάκις
               <lb n="6" xml:id="p65-5"/>καὶ ἀνάπαλιν ἐκ τῶν συμβεβηκότων τὸν ὁρισμόν, ὅταν σαφέστερα ᾖ ταῦτα
               <lb n="7" xml:id="p65-6"/>τοῦ ὁρισμοῦ. λαμβάνει οὖν τὰ δοκοῦντα τῇ ψυχῇ ὑπάρχειν, τοῦτο δέ ἐστι
-              <lb n="8" xml:id="p65-7"/>τὸ κινεῖν καὶ τὸ αἰσθάνεσθαι. πιστοῦται δὲ ταῦτα ἐκ τῶν ὑστέρων μὲν τῇ<note type="apparatus" n="8" target="#p65-7">ὕστερον R 3 ποιῆσαι τοῦτο R: τοῦτο ποιῆσαι Dt</note><note type="apparatus" n="8" target="#p65-7">ὕστερον R</note>
+              <lb n="8" xml:id="p65-7"/>τὸ κινεῖν καὶ τὸ αἰσθάνεσθαι. πιστοῦται δὲ ταῦτα ἐκ τῶν ὑστέρων μὲν τῇ<note type="apparatus" n="8" target="#p65-7">ὕστερον R</note>
               <lb n="9" xml:id="p65-8"/>φύσει, ἡμῖν δὲ σαφεστέρων, ἐπεὶ καὶ πρότερα ἡμῖν γινώσκεται τὰ τῇ φύσει
               <lb n="10" xml:id="p65-9"/>ὕστερα, λέγω δὴ τοῦ ἐμψύχου· τὸ γὰρ ἔμψυχον τῇ φύσει ὕστερον τῆς
-              <lb n="11" xml:id="p65-10"/>ψυχῆς. φησὶν οὖν ὅτι ᾧ δἂν εὑρεθῇ διαφέρον τοῦ ἀψύχου τὸ ἔμψυχον,<note type="apparatus" n="11" target="#p65-10">ᾧ δἂν Diels: ὡς δ’ ἂν libri ων (21) om. D</note><milestone type="alt-edition" unit="line" ed="Trincavelli 1535" n="30"/>
+              <lb n="11" xml:id="p65-10"/>ψυχῆς. φησὶν οὖν ὅτι ᾧ δἂν εὑρεθῇ διαφέρον τοῦ ἀψύχου τὸ ἔμψυχον,<note type="apparatus" n="11" target="#p65-10">ᾧ δἂν Diels: ὡς δ’ ἂν libri διαφέρον R: διαφέρων Dt</note><milestone type="alt-edition" unit="line" ed="Trincavelli 1535" n="30"/>
               <lb n="12" xml:id="p65-11"/>τοῦτο τῆς ψυχῆς ἂν εἴη. εἰ γὰρ τὸ αὐτὸ πρᾶγμα νῦν ἔμψυχον ὂν γένοιτο
               <lb n="13" xml:id="p65-12"/>ἄψυχον, πρότερον μὲν αἰσθόμενον καὶ κινούμενον κατὰ τόπον, ἡνίκα ἦν
               <lb n="14" xml:id="p65-13"/>ἔμψυχον, ὅτε ἄψυχον γέγονεν, οὔτε κινηθήσεται οὔτε αἰσθήσεται· οὐκοῦν
               <lb n="15" xml:id="p65-14"/>κίνησις καὶ αἴσθησις ψυχῆς ἔργα. καὶ τέως μέν φησιν ταῦτα συμβεβηκέναι
-              <lb n="16" xml:id="p65-15"/>ἁπλῶς τῇ ψυχῇ, οὐκ αὐτὸς ἀρεσκόμενος τῷ λόγῳ, ἀλλ’ ὅτι πάντες
+              <lb n="16" xml:id="p65-15"/>ἁπλῶς τῇ ψυχῇ, οὐκ αὐτὸς ἀρεσκόμενος τῷ λόγῳ, ἀλλ’ ὅτι πάντες<note type="apparatus" n="16" target="#p65-15">ἁπλῶς post φησιν (15) habent Rt</note>
               <lb n="17" xml:id="p65-16"/>οἱ πρὸ αὐτοῦ ταύτης τῆς δόξης ἐγένοντο. μέλλει δὲ εὐθὺς καταριθμεῖσθαι
               <lb n="18" xml:id="p65-17"/>τῶν πρὸ αὐτοῦ τὰς δόξας λέγων ὅτι τὰ δύο ταῦτα παρειλήφαμεν περὶ ψυχῆς<milestone type="alt-edition" unit="line" ed="Trincavelli 1535" n="35"/>
-              <lb n="19" xml:id="p65-18"/>παρὰ τῶν παλαιοτέρων· διὸ οὐδὲ εἶπε τὰ μάλιστα ὑπάρχοντα αὐτῇ κατὰ
+              <lb n="19" xml:id="p65-18"/>παρὰ τῶν παλαιοτέρων· διὸ οὐδὲ εἶπε τὰ μάλιστα ὑπάρχοντα αὐτῇ κατὰ<note type="apparatus" n="19" target="#p65-18">διὸ — παλαιοτέων (21) om. D</note>
               <lb n="20" xml:id="p65-19"/>φύσιν, ἀλλὰ τὰ μάλιστα δοκοῦντα ὑπάρχειν αὐτῇ. ἐπεὶ οὖν οὔπω
               <lb n="21" xml:id="p65-20"/>τὴν ἑαυτοῦ δόξαν ἐκκαλύπτει, ἀλλὰ 〈τὴν〉 τῶν παλαιοτέρων γυμνάζει, διὰ τοῦτο<note type="apparatus" n="21" target="#p65-20">τὴν ante τῶν add. Diels</note>
               <lb n="22" xml:id="p65-21"/>αἴσθησιν καὶ κίνησιν εἶπε κοινῶς ὑπάρχειν τῇ ψυχῇ. ταῦτα δὲ οὐ πάσῃ
@@ -2817,11 +2818,13 @@
               <lb n="36" xml:id="p65-35"/>ἐπειδὰν ἐν τῷ παρὰ φύσιν ὑπάρχῃ τόπῳ. ἕκαστον γὰρ ἐν τῇ ὁλότητι τῇ<note type="apparatus" n="36" target="#p65-35">ὑπάρχει t ρων (21) om. D 21 τὴν ante τῶν add. Diels 25 ἐγγίνεται R</note><note type="apparatus" n="36" target="#p65-35">ὑπάρχει t</note>
               <lb n="37" xml:id="p65-36"/>ἑαυτοῦ ἕστηκεν· αἱ γὰρ ὁλότητες ἢ ἑστάναι βούλονται ἢ κύκλῳ κινεῖσθαι,
               <lb n="38" xml:id="p65-37"/>διότι καὶ ἡ κύκλῳ κίνησις στάσις ἐστίν. ἡ γὰρ πυρία σφαῖρα καὶ ὁ περὶ
-              <lb n="39" xml:id="p65-38"/>διαφέρον R: διαφέρων Dt 16 ἁπλῶς post φησιν (15) habent Rt 19 διὸ — παλαιοτέαὐτὴν
             </p>
+            <note type="footnote">
+              διαφέρον R: διαφέρων Dt 16 ἁπλῶς post φησιν (15) habent Rt 19 διὸ — παλαιοτέ8 ὕστερον R
+            </note>
             <pb n="66" facs="https://archive.org/download/commentariaina15akaduoft/page/n95.jpg"/>
             <p>
-              <lb n="1" xml:id="p66-0"/>ἀὴρ συγκινούμενα τῷ παντὶ βίαιον μὲν ἔχει ταύτην τὴν κίνησιν,
+              <lb n="1" xml:id="p66-0"/>αὐτὴν ἀὴρ συγκινούμενα τῷ παντὶ βίαιον μὲν ἔχει ταύτην τὴν κίνησιν,
               <lb n="2" xml:id="p66-1"/>οὐκ ἐξιστῶσαν δὲ τοῦ κατὰ φύσιν· φυλάττει γὰρ τὰ κύκλῳ κινούμενα τὸν<milestone type="alt-edition" unit="line" ed="Trincavelli 1535" n="50"/>
               <lb n="3" xml:id="p66-2"/>οἰκεῖον τόπον· οὐ γὰρ δὴ γίνεται ἐν τῷ παρὰ φύσιν, λέγω δὴ τῷ περὶ
               <lb n="4" xml:id="p66-3"/>τὴν γῆν, ἀλλ’ ἔχει τὴν οἰκείαν λῆξιν καὶ κύκλῳ κινούμενα. τὸ 〈δὲ〉 μερικὸν<note type="apparatus" n="4" target="#p66-3">δὲ addidi</note>
@@ -3143,7 +3146,7 @@
               <lb n="24" xml:id="p72-23"/>ὡς εἴπομεν. οὐ δὴ χρῆται τῷ νῷ ὡς δυνάμει τινὶ περὶ τὴν
               <lb n="25" xml:id="p72-24"/>ἀλήθειαν· οὕτω γὰρ καὶ ὁ ἀληθὴς ἔχει λόγος, τὸν νοῦν δύναμιν εἶναι
               <lb n="26" xml:id="p72-25"/>ψυχῆς ᾗ τὴν ἀλήθειαν γινώσκει· ἀλλ’ αὐτὸ ψυχὴν εἶναι τὸν νοῦν ἔλεγον<note type="apparatus" n="26" target="#p72-25">ᾗ scripsi: ὧι R: ὃς Dt νοῦν ἔλεγον R: νοῦν εἶναι ἔλεγον Dt</note>
-              <lb n="27" xml:id="p72-26"/>Ἀναξαγόρας ταὶ Δημόκριτος.
+              <lb n="27" xml:id="p72-26"/>Ἀναξαγόρας <choice><sic>ταὶ</sic><corr>καὶ</corr></choice> Δημόκριτος.
             </p>
           </div>
           <div type="textpart" subtype="lemma" n="65">
@@ -3378,7 +3381,7 @@
             </p>
             <pb n="78" facs="https://archive.org/download/commentariaina15akaduoft/page/n107.jpg"/>
             <p>
-              <lb n="1" xml:id="p78-0"/>τετράδα δὲ αὐτὸ τὸ στερεόν, ἤτοι πάλιν ὅτι πρῶτον τῶν στερεῶν σχήματων<note type="apparatus" n="1" target="#p78-0">αὐτὸ R: δι’ αὐτὸ Dt</note>
+              <lb n="1" xml:id="p78-0"/>τετράδα δὲ αὐτὸ τὸ στερεόν, ἤτοι πάλιν ὅτι πρῶτον τῶν στερεῶν σχημάτων<note type="apparatus" n="1" target="#p78-0">αὐτὸ R: δι’ αὐτὸ Dt</note>
               <lb n="2" xml:id="p78-1"/>ἡ πυραμίς, ἥτις γίνεται ἐκ τεσσάρων τριγώνων, ἢ πάλιν κατὰ τὴν
               <lb n="3" xml:id="p78-2"/>αὐτὴν ἀναλογίαν· ὡς γὰρ τὸ σημεῖον ῥυὲν κατὰ μῆκος ἐγέννησεν ἄλλο
               <lb n="4" xml:id="p78-3"/>σημεῖον, καὶ πάλιν καὶ κατὰ πλάτος ῥυὲν ἐγέννησεν ἕτερον, οὕτως ἐὰν ῥυῇ<note type="apparatus" n="4" target="#p78-3">καὶ κατὰ D: καὶ om. Rt</note>
@@ -3637,7 +3640,7 @@
             <milestone unit="bekker" n="405a5"/>
             <quote type="lemma">
               <lb n="10" xml:id="p83-9"/>Ὅθεν ἔδοξέ τισι πῦρ εἶναι· καὶ γὰρ τοῦτο λεπτομερέστατόν
-              <lb n="11" xml:id="p83-10"/>τε καὶ μάλιστα τῶν στοιχείων ἀσώ<milestone type="alt-edition" unit="folio" ed="Trincavelli 1535" n="c 3v"/>ματον. c<milestone type="alt-edition" unit="line" ed="Trincavelli 1535" n="3"/>
+              <lb n="11" xml:id="p83-10"/>τε καὶ μάλιστα τῶν στοιχείων ἀσώ<milestone type="alt-edition" unit="folio" ed="Trincavelli 1535" n="c 3v"/>ματον.
             </quote>
             <p>
               <lb n="12" xml:id="p83-11"/>Εἰπὼν ὅτι καὶ οἱ τὴν ψυχὴν κινητικώτατον ὑπολαβόντες εἶναι καὶ
@@ -3654,7 +3657,7 @@
               <lb n="23" xml:id="p83-22"/>Ἵππασον. ἀλλ’ Ἡρακλείτου μὲν μετ’ ὀλίγον μνημονεύσει καὶ τῆς δόξης<milestone type="alt-edition" unit="line" ed="Trincavelli 1535" n="10"/>
               <lb n="24" xml:id="p83-23"/>αὐτοῦ, νῦν δὲ τὴν Δημοκρίτου δόξαν ἐκθήσεται, ὅτι εἰ καὶ πολλάς, μᾶλλον
               <lb n="25" xml:id="p83-24"/>δὲ ἀπείρους ὑπετίθετο τὰς ἀρχάς, ἀλλ’ οὖν καὶ αὐτὸς ἐκ τῶν παρ’ αὐτῷ
-              <lb n="26" xml:id="p83-25"/>κινητικωτάτων τὴν ψυχὴν ἐποίει·, λέγω δὴ ἐκ τῶν σφαιρικῶν, ὅθεν καὶ
+              <lb n="26" xml:id="p83-25"/>κινητικωτάτων τὴν ψυχὴν <choice><sic>ἐποίει·, λέγω</sic><corr>ἐποίει·λέγω</corr></choice> δὴ ἐκ τῶν σφαιρικῶν, ὅθεν καὶ
               <lb n="27" xml:id="p83-26"/>τὸ πῦρ. ἀσώματον δὲ εἶπε τὸ πῦρ, οὐ κυρίως ἀσώματον (οὐδεὶς γὰρ αὐτῶν
               <lb n="28" xml:id="p83-27"/>τοῦτο ἔλεγε), ἀλλ’ ὡς ἐν σώμασιν ἀσώματον διὰ λεπτομέρειαν. ἀπορήσειε
               <lb n="29" xml:id="p83-28"/>δ’ ἄν τις πρὸς τὸ ἐκ τῶν ἀρχῶν λέγεσθαι τὴν ψυχὴν ὅτι καί τι
@@ -3902,7 +3905,7 @@
               <lb n="28" xml:id="p88-27"/>(τὸ γὰρ ὑγρὸν ἐν ᾧ τὸ ὕδωρ ἔχει τὸ εἶναι παθητικόν), τῇ δὲ ψυχῇ
               <lb n="29" xml:id="p88-28"/>τὸ ποιεῖν μᾶλλον ἢ τὸ πάσχειν προσήκει. ἐνόμισε δέ, φησίν, οὗτος τὴν
               <lb n="30" xml:id="p88-29"/>ψυχὴν ὕδωρ εἶναι διὰ τὸ τὴν γονὴν πάντων ὑγρὰν εἶναι· καὶ γὰρ τῶν<note type="apparatus" n="30" target="#p88-29">ὕδωρ ὑπάρχειν διὰ R</note><milestone type="alt-edition" unit="line" ed="Trincavelli 1535" n="40"/>
-              <lb n="31" xml:id="p88-30"/>καρπῶν τὰ σπέρματα ὑγρὰ πρῶτον γίνεται. καὶ ἀντέλεγε, φησί, τοῖς αἵμα
+              <lb n="31" xml:id="p88-30"/>καρπῶν τὰ σπέρματα ὑγρὰ πρῶτον γίνεται. καὶ ἀντέλεγε, φησί, τοῖς αἷμα
               <lb n="32" xml:id="p88-31"/>λέγουσιν εἶναι τὴν ψυχὴν λέγων ὅτι ἡ γονή, ἐξ ἧς τὸ εἶναι καὶ τὸ ζῆν
               <lb n="33" xml:id="p88-32"/>τοῖς ἐμψύχοις, ὕδωρ ἐστὶ καὶ οὐχ αἷμα. καίτοι εἰ ἁπλῶς τὸ ὑγρὸν ψυχὴ
               <lb n="34" xml:id="p88-33"/>ἦν, ἔδει πᾶν ὑγρὸν ψυχὴν εἶναι. καὶ ἡ γονὴ δὲ οὐχ ᾗ ὑγρὸν ἔμψυχόν
@@ -4393,7 +4396,6 @@
               <lb n="36" xml:id="p99-35"/>ἡ γραμμὴ καὶ τὸ ἐπίπεδον καθ’ αὑτὸ μεριστὸν λέγεται, ἀλλὰ τῷ λόγῳ,
               <lb n="37" xml:id="p99-36"/>τῇ μέντοι ὑποστάσει καὶ τῇ οὐσίᾳ μόνον τὸ σῶμα μεριστόν ἐστιν. ὥστε<milestone type="alt-edition" unit="line" ed="Trincavelli 1535" n="5"/>
               <lb n="38" xml:id="p99-37"/>εἰ κινεῖται ἡ ψυχὴ καθ’ αὑτό, μεριστὸν ἔσται καὶ σῶμα. καὶ τέως μὲν
-              <lb n="39" xml:id="p99-38"/>χ
             </p>
             <pb n="100" facs="https://archive.org/download/commentariaina15akaduoft/page/n129.jpg"/>
             <p>
@@ -4993,7 +4995,7 @@
               <lb n="16" xml:id="p113-15"/>καὶ γὰρ ἀνάγκη πᾶσα κατὰ τοὺς λέγοντας ἀσώματον εἶναι τὴν<milestone type="alt-edition" unit="line" ed="Trincavelli 1535" n="15"/>
               <lb n="17" xml:id="p113-16"/>ψυχὴν καὶ αὐτοκίνητον τὴν κίνησιν κατ’ οὐσίαν λαμβάνειν. τεσσάρων γὰρ
               <lb n="18" xml:id="p113-17"/>οὐσῶν μεταβολῶν, ὡς πολλάκις εἴρηται, κατ’ οὐσίαν, κατὰ ποσόν, κατὰ
-              <lb n="19" xml:id="p113-18"/>ποιόν, κατὰ τόπον, εἰ μὲν κατὰ τόπον ἢ ποσὸν μεταβάλλοι ἡ ψυχή, πρόδῆλον<note type="apparatus" n="19" target="#p113-18">μεταβάλλοι DRt: μεταβάλλει A</note>
+              <lb n="19" xml:id="p113-18"/>ποιόν, κατὰ τόπον, εἰ μὲν κατὰ τόπον ἢ ποσὸν μεταβάλλοι ἡ ψυχή, πρόδηλον<note type="apparatus" n="19" target="#p113-18">μεταβάλλοι DRt: μεταβάλλει A</note>
               <lb n="20" xml:id="p113-19"/>ὡς σῶμα ἔσται· σωμάτων γὰρ καὶ τὸ ποσὸν καὶ ὁ τόπος· οὐδὲν δὲ<note type="apparatus" n="20" target="#p113-19">καὶ (post γὰρ) om. R</note>
               <lb n="21" xml:id="p113-20"/>ἧττον καὶ ἡ κατὰ τὸ ποιὸν μεταβολὴ σωμάτων ἐστίν, ὡς ἤδη εἴπομεν, εἴ
               <lb n="22" xml:id="p113-21"/>γε κατὰ τὰς παθητικὰς ποιότητας ἡ μεταβολή, αὗται δὲ αἰσθηταί, τὸ δὲ
@@ -5846,7 +5848,7 @@
               <lb n="1" xml:id="p133-0"/>ἀεικίνητον ἀεί τι νοήσει, διὰ δὲ τὸ ἀίδιον ἀνάγκη διὰ τὴν ἀπειρίαν <milestone type="alt-edition" unit="folio" ed="Trincavelli 1535" n="d 7r"/><note type="apparatus" n="1" target="#p133-0">διὰ (ante τὴν) om. R</note>
               <lb n="2" xml:id="p133-1"/>τοῦ χρόνου εἰς τὸ αὐτὸ πάλιν ἀνακάμπτειν καὶ ταύτῃ κύκλον μιμεῖσθαι·
               <lb n="3" xml:id="p133-2"/>οὐκ ἄπειρα μέντοι νοήσει, ἐπειδὴ μηδὲ τὰ νοητὰ ἄπειρα. μήποτε<note type="apparatus" n="3" target="#p133-2">ἐπειδὴ] ἐπεὶ t</note>
-              <lb n="4" xml:id="p133-3"/>οὖν τοῦτό φησι ὅτι τὸ αὐτὸ ἀεὶ νοήσει τῷ μηδέποτε ὅλον νενοηκέναι· ἢ
+              <lb n="4" xml:id="p133-3"/>οὖν τοῦτό φησι ὅτι τὸ αὐτὸ ἀεὶ νοήσει τῷ μηδέποτε ὅλον νενοηκέναι· ἡ
               <lb n="5" xml:id="p133-4"/>γὰρ ὁμοία καὶ ὡσαύτως ἔχουσα περιφορὰ περὶ ταὐτοῦ τινος ἔσται. δεήσει<note type="apparatus" n="5" target="#p133-4">δεήσει — ἔσται (6) Rt: om. D</note>
               <lb n="6" xml:id="p133-5"/>οὖν τοιοῦτον εἶναι τὸ νοούμενον, ὃ οὐδέποτε νενοημένον ἔσται. τί οὖν
               <lb n="7" xml:id="p133-6"/>τοῦτό ἐστιν; ὅτι δὲ οὐδεμία ἐστὶν ἄπειρος νόησις διὰ τῶν ἑξῆς ἐπάγει.<note type="apparatus" n="7" target="#p133-6">δὲ R: om. Dt</note>
@@ -6064,7 +6066,7 @@
             </quote>
             <p>
               <lb n="18" xml:id="p137-17"/>Πῶς βίᾳ καὶ παρὰ φύσιν ἡ κίνησις καὶ οὐ ῥᾳδία, διὰ τούτων ἐδήλωσε·
-              <lb n="19" xml:id="p137-18"/>διὰ γὰρ τὸ συμπεπλέχθαι τῷ σώματι καὶ συνεπισπᾶσθαι αὐτῷ ἐπιπονον<note type="apparatus" n="19" target="#p137-18">αὐτῷ R: αὐτὸ Dt</note>
+              <lb n="19" xml:id="p137-18"/>διὰ γὰρ τὸ συμπεπλέχθαι τῷ σώματι καὶ συνεπισπᾶσθαι αὐτῷ ἐπίπονον<note type="apparatus" n="19" target="#p137-18">αὐτῷ R: αὐτὸ Dt</note>
               <lb n="20" xml:id="p137-19"/>ἴσχει τὴν κίνησιν, τὰ Ἰξίονος τρόπον τινὰ ὑπομένουσα. εἰ γὰρ<note type="apparatus" n="20" target="#p137-19">τῷ ἰξίονος R</note>
               <lb n="21" xml:id="p137-20"/>συμπέπλεκται πρὸς τὸν οὐρανόν, ἵνα τῇ ἑαυτῆς κινήσει κἀκεῖνον συμπεριάγῃ,<milestone type="alt-edition" unit="folio" ed="Trincavelli 1535" n="d 8r"/>
               <lb n="22" xml:id="p137-21"/>ἐπίπονον καὶ οὐ ῥᾳδίαν ἴσχει τὴν κίνησιν· τοῦτο δ’ οὐ μακάριον.
@@ -6179,7 +6181,7 @@
               <lb n="26" xml:id="p139-25"/>σῶμα οὔτε τὸ τυχὸν σῶμα ὑπὸ τῆς τυχούσης ψυχῆς πείσεται. εἰ γὰρ
               <lb n="27" xml:id="p139-26"/>κατ’ εἶδος διαφέρουσιν ἀλλήλων τὰ ζῷα, εἶδος δὲ τῶν ἐμψύχων ἡ ἑκάστου<note type="apparatus" n="27" target="#p139-26">ἀλλήλων om. R</note>
               <lb n="28" xml:id="p139-27"/>ψυχή (αὕτη γὰρ τελειοῖ τὸ ὑποκείμενον), τὸ δὲ αὐτὸ εἶδος ἐν διαφόρῳ<note type="apparatus" n="28" target="#p139-27">αὕτη t: αὐτὴ DR</note>
-              <lb n="29" xml:id="p139-28"/>οὐ γενήσεται ὕλη (ἑκάστου γὰρ εἴδους ἰδία ὕλη· ἄλλη γὰρ χαλκοῦ
+              <lb n="29" xml:id="p139-28"/>οὐ γενήσεται ὕλῃ (ἑκάστου γὰρ εἴδους ἰδία ὕλη· ἄλλη γὰρ χαλκοῦ
               <lb n="30" xml:id="p139-29"/>καὶ ἄλλη λίθου, καὶ τῶν ἄλλων ὁμοίως), οὐδὲ ψυχὴ ἄρα ἡ τυχοῦσα ἐν τῷ
               <lb n="31" xml:id="p139-30"/>τυχόντι γενήσεται σώματι. ὥσπερ οὖν καὶ τὸν φυσιολογοῦντα περὶ χαλκοῦ
               <lb n="32" xml:id="p139-31"/>οὐ μόνον δεῖ τὸ εἶδος αὐτοῦ λέγειν, ἀλλὰ καὶ τὴν ὕλην, ὥσπερ καὶ αὐτὸς<note type="apparatus" n="32" target="#p139-31">καὶ (post ὥσπερ) om. R</note><milestone type="alt-edition" unit="line" ed="Trincavelli 1535" n="10"/>
@@ -6229,7 +6231,7 @@
             <pb n="141" facs="https://archive.org/download/commentariaina15akaduoft/page/n170.jpg"/>
             <p>
               <lb n="1" xml:id="p141-0"/>μικτὸν τῆς ἀνθρωπείας φύσεως, φημὶ δὴ τὸ ἐκ λόγου καὶ ἀλογίας καὶ<note type="apparatus" n="1" target="#p141-0">φύσεως DR: ψυχῆς mg. R¹t φημὶ δὲ t</note>
-              <lb n="2" xml:id="p141-1"/>θνητῆς τε καὶ ἀθανάτου ζωῆς. ὅσαι μὲν γὰρ τῶν ζῴων ἀθάνατοι μόνως,<note type="apparatus" n="2-3" target="#p141-1 #p141-2">μόνον αὗται καὶ μόνου t</note>
+              <lb n="2" xml:id="p141-1"/>θνητῆς τε καὶ ἀθανάτου ζωῆς. ὅσαι μὲν γὰρ τῶν ζωῶν ἀθάνατοι μόνως,<note type="apparatus" n="2-3" target="#p141-1 #p141-2">μόνον αὗται καὶ μόνου t</note>
               <lb n="3" xml:id="p141-2"/>αὗται καὶ μόνως σφαιρικοῦ ἔτυχον σώματος· οἰκεῖον γὰρ τῷ ἀιδίῳ τὸ<note type="apparatus" n="3" target="#p141-2">ἀιδίῳ DR: ἰδίῳ t</note>
               <lb n="4" xml:id="p141-3"/>κυκλικὸν σχῆμα μήτε ἀρχὴν ἔχον μήτε τέλος· ὅσαι δὲ τῶν ζωῶν μόνως<note type="apparatus" n="4-5" target="#p141-3 #p141-4">μόνον θνηταὶ t</note><milestone type="alt-edition" unit="line" ed="Trincavelli 1535" n="40"/>
               <lb n="5" xml:id="p141-4"/>θνηταὶ ὡς αἱ τῶν ἀλόγων, μόνως ὄρθια σώματα εἰλήχασιν (εὐθείᾳ γὰρ<note type="apparatus" n="5" target="#p141-4">εὐθείᾳ t: εὐθεῖα D: εὐθεῖαι R</note>
@@ -6712,11 +6714,11 @@
               <lb n="29" xml:id="p151-28"/>τῶν λοιπῶν μορίων εἴδη συνανῄρηται, ὀστῶν καὶ νεύρων καὶ τῶν λοιπῶν,
               <lb n="30" xml:id="p151-29"/>ἅμα δὲ τούτοις καὶ ἡ ψυχή· ἐπεὶ οὐ μόνον τῆς σαρκὸς ἀναιρεθείσης ἕπεται
               <lb n="31" xml:id="p151-30"/>ἡ τῶν λοιπῶν ἀναίρεσις, ἀλλὰ καὶ ἑνὸς τῶν ἄλλων τῶν εἰρημένων. // οὕτω
-              <lb n="32" xml:id="p151-31"/>δὲ ἐξηγεῖται ὁ Ἀλέξανδρος πάνυ προσφυῶς, ἵνα ἡ ἀπορία αὕτη ἅμα ἐπίλύσις
+              <lb n="32" xml:id="p151-31"/>δὲ ἐξηγεῖται ὁ Ἀλέξανδρος πάνυ προσφυῶς, ἵνα ἡ ἀπορία αὕτη ἅμα ἐπίλυσις
             </p>
             <pb n="152" facs="https://archive.org/download/commentariaina15akaduoft/page/n181.jpg"/>
             <p>
-              <lb n="1" xml:id="p152-0"/>ἦ καὶ τῶν λοιπῶν τῶν κατὰ τῆς ἁρμονίας εἰρημένων, μᾶλλον δὲ
+              <lb n="1" xml:id="p152-0"/>ᾖ καὶ τῶν λοιπῶν τῶν κατὰ τῆς ἁρμονίας εἰρημένων, μᾶλλον δὲ
               <lb n="2" xml:id="p152-1"/>τοῦ ἑνὸς τοῦ λέγοντος ἐκ τοῦ τὴν ψυχὴν ἁρμονίαν λέγειν συμβαίνειν<note type="apparatus" n="2" target="#p152-1">ante λέγειν add. εἶναι R συμβαίνει t</note>
               <lb n="3" xml:id="p152-2"/>πολλὰς ψυχὰς ἔχειν τὸ ζῷον. εἰ γὰρ μὴ εἴη, φησίν, ἡ ψυχὴ ἁρμονία
               <lb n="4" xml:id="p152-3"/>ἀλλ’ ἕτερόν τι τῆς μίξεως, διὰ τί τῆς μίξεως τῆς σαρκὸς φθειρομένης καὶ<note type="apparatus" n="4" target="#p152-3">διὰ τί τῆς μίξεως om. D</note>
@@ -6982,7 +6984,7 @@
               <lb n="3" xml:id="p158-2"/>πάθος διαδίδοσθαι ἐπὶ τῶν αἰσθήσεων λεγόμεθα τῇ ψυχῇ κινεῖσθαι, ὅτι
               <lb n="4" xml:id="p158-3"/>διά τε τὴν ψυχὴν τὸ ζῷον αἰσθάνεται καὶ μέχρις αὐτῆς διαβαίνει τὸ πάθος.
               <lb n="5" xml:id="p158-4"/>ἡ μέντοι ἀνάμνησις ἀρξαμένη ἀπὸ τῆς ψυχῆς διαβαίνει καὶ ἐπὶ<note type="apparatus" n="5-6" target="#p158-4 #p158-5">ἐπὶ τὸ Rt: ἐπὶ τῷ D</note>
-              <lb n="6" xml:id="p158-5"/>τὸ ἐξωωμένον σῶμα. ἀναμνησθέντες γὰρ φοβεροῦ τινος ἡμῖν γενομένου<milestone type="alt-edition" unit="line" ed="Trincavelli 1535" n="20"/>
+              <lb n="6" xml:id="p158-5"/>τὸ ἐζωωμένον σῶμα. ἀναμνησθέντες γὰρ φοβεροῦ τινος ἡμῖν γενομένου<milestone type="alt-edition" unit="line" ed="Trincavelli 1535" n="20"/>
               <lb n="7" xml:id="p158-6"/>ὠχριάσαμεν πολλάκις καὶ τοῦ πλοῦ ἀναμνησθέντες ἐναυτιάσαμεν. πῶς δὲ
               <lb n="8" xml:id="p158-7"/>λέγομεν ἀπὸ τῆς ψυχῆς ἄρξασθαι τὴν κίνησιν ἐπὶ τῆς ἀναμνήσεως; οὐχ<note type="apparatus" n="8" target="#p158-7">οὐχ DRt: ἢ οὐχ A Suid. s. v. Ἀνάμνησις</note>
               <lb n="9" xml:id="p158-8"/>ὡς ἐκείνης αὐτῆς καθ’ αὑτὴν ἀναμιμνησκομένης, ἀλλ’ ὥσπερ ἐπὶ τῶν αἰσθήσεων<note type="apparatus" n="9" target="#p158-8">αὐτῆς Dt: αὐτὴν R</note>
@@ -7076,7 +7078,7 @@
               <lb n="19" xml:id="p160-18"/>ἔχουσιν αἱ δυνάμεις ἐκεῖναι ἐνέργειαν χωριστὴν σώματος, εἰκότως ἀχώριστοι<milestone type="alt-edition" unit="line" ed="Trincavelli 1535" n="20"/>
               <lb n="20" xml:id="p160-19"/>ἔσονται τοῦ σώματος. ὡς τούτου οὖν δεδειγμένου εἰκότως ζητεῖ
               <lb n="21" xml:id="p160-20"/>περὶ τοῦ νοῦ, πῶς ἔχει. φησὶν οὖν ὅτι ἔοικεν ὁ νοῦς οὐχ οὕτως ἔχειν,<note type="apparatus" n="21" target="#p160-20">ἔχειν — καὶ ἐγγίνεσθαι (22) Rt: εἶναι οὐσία τίς ἐστιν ἢ ἐγγίνεσθαι D</note>
-              <lb n="22" xml:id="p160-21"/>ἀλλ’ οὐσία τις εἶναι καὶ ἐγγίνεσθαι καὶ οὐ φθείρεσθαι σκόπει τὴν<note type="apparatus" n="22" target="#p160-21">καὶ (ante σκόπει) om. R</note>
+              <lb n="22" xml:id="p160-21"/>ἀλλ’ οὐσία τις εἶναι καὶ ἐγγίνεσθαι καὶ οὐ φθείρεσθαι. καὶ σκόπει τὴν<note type="apparatus" n="22" target="#p160-21">καὶ (ante σκόπει) om. R</note>
               <lb n="23" xml:id="p160-22"/>λέξιν. εἰπὼν γὰρ ἔοικεν ἐγγίνεσθαι μάλιστα μὲν ἐσήμανεν οὐκ ἐκ τοῦ
               <lb n="24" xml:id="p160-23"/>σώματος ἢ τῆς πρὸς τοῦτο τῆς ψυχῆς συμπλοκῆς αὐτὸν ἀναβλαστάνειν,
               <lb n="25" xml:id="p160-24"/>ἀλλὰ θύραθεν ἐπεισιέναι, ὡς ἐν τοῖς ἑξῆς φησιν· ἔπειτα ἐπεὶ δοκεῖ καὶ
@@ -7849,7 +7851,7 @@
             </p>
             <pb n="178" facs="https://archive.org/download/commentariaina15akaduoft/page/n207.jpg"/>
             <p>
-              <lb n="1" xml:id="p178-0"/>γῆ ὑποτίθεται. τῶν δύο τῶν ὀκτὼ μοιράων λάχε Νήστιδος αἴγλης.<note type="apparatus" n="1" target="#p178-0">ὀκτὼ] ἐκ τῶν D μοιράων t, ut p. 176, 26 libri: μοιρῶν R: μορέων ex μερέων corr. D¹</note>
+              <lb n="1" xml:id="p178-0"/>γῇ ὑποτίθεται. τῶν δύο τῶν ὀκτὼ μοιράων λάχε Νήστιδος αἴγλης.<note type="apparatus" n="1" target="#p178-0">ὀκτὼ] ἐκ τῶν D μοιράων t, ut p. 176, 26 libri: μοιρῶν R: μορέων ex μερέων corr. D¹</note>
               <lb n="2" xml:id="p178-1"/>λέγει δὲ ὕδατος καὶ ἀέρος δύο μοίρας ἐν τῇ γῇ ἐμβληθῆναι. σημαίνει δὲ<note type="apparatus" n="2" target="#p178-1">δὲ (post λέγει) om. R ἐμβληθῆναι Dt: βληθῆναι R δὲ (ante διὰ) Dt: οὖν R</note>
               <lb n="3" xml:id="p178-2"/>διὰ τοῦ μὲν Νήστιδος παρὰ τὸ νάειν τὸ ὑγρὸν τοῦ ὕδατος καὶ τοῦ ἀέρος,<note type="apparatus" n="3" target="#p178-2">διὰ τοῦ μὲν D: διὰ μὲν τῆς Rt</note>
               <lb n="4" xml:id="p178-3"/>διὰ δὲ τῆς αἴγλης τὸ διαφανές. τέσσαρα δέ, φησίν, Ἡφαίστοιο. ὥστε
@@ -8510,7 +8512,7 @@
           <div type="textpart" subtype="lemma" n="200">
             <milestone unit="bekker" n="411a26"/>
             <quote type="lemma">
-              <lb n="19" xml:id="p192-18"/>Ἐπεὶ δὲ τὸ γινώσκειν τῆς ψυχῆς ἐστι καὶ τὸ αἰσθάἐστι<note type="apparatus" n="19" target="#p192-18">ἐπεὶ δὲ Arist. vulg. et infra p. 195,24 D: ἐπειδὴ δὲ R Arist. UWy, corr. E: ἐπειδὴ Dt τῆς DR Arist. vulg.: om. t Arist. TWy ἔστι om. D</note><milestone type="alt-edition" unit="line" ed="Trincavelli 1535" n="35"/>
+              <lb n="19" xml:id="p192-18"/>Ἐπεὶ δὲ τὸ γινώσκειν τῆς ψυχῆς ἐστι καὶ τὸ αἰσθάνεσθαί<note type="apparatus" n="19" target="#p192-18">ἐπεὶ δὲ Arist. vulg. et infra p. 195,24 D: ἐπειδὴ δὲ R Arist. UWy, corr. E: ἐπειδὴ Dt τῆς DR Arist. vulg.: om. t Arist. TWy ἔστι om. D</note><milestone type="alt-edition" unit="line" ed="Trincavelli 1535" n="35"/>
               <lb n="20" xml:id="p192-19"/>τε καὶ δοξάζειν.<note type="apparatus" n="20" target="#p192-19">τε] τι R</note>
             </quote>
             <p>
@@ -8811,7 +8813,7 @@
             <p>
               <lb n="1" xml:id="p200-0"/>φησιν· εἰ δὲ τοῦτο, καὶ ἀθάνατον, ὃ καὶ αὐτὸς εἶπε πολλάκις. καὶ τὰς
               <lb n="2" xml:id="p200-1"/>χρήσεις ἡμεῖς ἐν τοῖς προοιμίοις παρεθέμεθα. ἐν τούτῳ δὲ τῷ χωρίῳ ὁ
-              <lb n="3" xml:id="p200-2"/>Αλέ<milestone type="alt-edition" unit="folio" ed="Trincavelli 1535" n="f 6r"/>ξανδρος ἀπορήσας παντελῶς εἰπεῖν τι τοῦ ἰδίου σκοποῦ ἐχόμενον,<note type="apparatus" n="3" target="#p200-2">εἶπεν D ἐχόμενον Rt: ἔχομεν D</note>
+              <lb n="3" xml:id="p200-2"/>Ἀλέ<milestone type="alt-edition" unit="folio" ed="Trincavelli 1535" n="f 6r"/>ξανδρος ἀπορήσας παντελῶς εἰπεῖν τι τοῦ ἰδίου σκοποῦ ἐχόμενον,<note type="apparatus" n="3" target="#p200-2">εἶπεν D ἐχόμενον Rt: ἔχομεν D</note>
               <lb n="4" xml:id="p200-3"/>σιωπῇ παρῆκε τὸ χωρίον. καὶ ἐξ αὐτῶν ἄρα τῶν ἐνταῦθα λεγομένων
               <lb n="5" xml:id="p200-4"/>δῆλός ἐστιν ὁ Ἀριστοτέλης ἑτέρας οὐσίας εἶναι λέγων τὸν νοῦν καὶ
               <lb n="6" xml:id="p200-5"/>χωριστόν.
@@ -9439,7 +9441,7 @@
           <div type="textpart" subtype="lemma" n="10">
             <milestone unit="bekker" n="412a16"/>
             <quote type="lemma">
-              <lb n="1" xml:id="p215-0"/>Ἐπεὶ δέ ἐστι σῶμα καὶ τοιόνδε τὸ ζωὴν ἔχον, οὐκ g1v<note type="apparatus" n="1" target="#p215-0">καὶ D Arist. codd. plerique: om. t Arist. ET τοιονδί Arist. codd. plerique τὸ ζωὴν D: ζωὴν γὰρ t Arist.</note>
+              <lb n="1" xml:id="p215-0"/>Ἐπεὶ δέ ἐστι σῶμα καὶ τοιόνδε τὸ ζωὴν ἔχον, οὐκ<note type="apparatus" n="1" target="#p215-0">καὶ D Arist. codd. plerique: om. t Arist. ET τοιονδί Arist. codd. plerique τὸ ζωὴν D: ζωὴν γὰρ t Arist.</note>
               <lb n="2" xml:id="p215-1"/>ἂν εἴη τὸ σῶμα ἡ ψυχή· οὐ γάρ ἐστι τῶν καθ’ ὑποκειμένου τὸ<note type="apparatus" n="2" target="#p215-1">ἡ D Arist. codd. plerique: om. t Arist. ET</note>
               <lb n="3" xml:id="p215-2"/>σῶμα, μᾶλλον δὲ ὡς ὑποκείμενον καὶ ὕλη.
             </quote>
@@ -9472,7 +9474,7 @@
               <lb n="29" xml:id="p215-28"/>μέγεθος, οὐδὲ σῶμα· ἐπὶ πλέον γὰρ τὸ μέγεθος τοῦ σώματος), ἀλλὰ τὸ νῦν
               <lb n="30" xml:id="p215-29"/>δεικνύμενόν ἐστιν ὅτι εἶδος καὶ οὐχ ὕλη ἐστί, τὸ δὲ σῶμα ὑποκείμενον καὶ<note type="apparatus" n="30" target="#p215-29">ὅτι om. D post ὕλη ἐστὶ add. ἡ ψυχή t</note>
               <lb n="31" xml:id="p215-30"/>ὕλη. ἔπειτα καὶ ἐκ τῆς προσθήκης τοῦ ἄρθρου δῆλον· οὐ γὰρ εἶπεν οὐκ
-              <lb n="32" xml:id="p215-31"/>ἂν εἴη <milestone type="alt-edition" unit="folio" ed="Trincavelli 1535" n="g 2r"/> σῶμα ἡ ψυχὴ ἀλλὰ τὸ σῶμα· τὸ γὰρ ἄρθρον ὡρισμένου ἐστί g<note type="apparatus" n="32" target="#p215-31">ὡρισμένον D</note>
+              <lb n="32" xml:id="p215-31"/>ἂν εἴη <milestone type="alt-edition" unit="folio" ed="Trincavelli 1535" n="g 2r"/> σῶμα ἡ ψυχὴ ἀλλὰ τὸ σῶμα· τὸ γὰρ ἄρθρον ὡρισμένου ἐστί<note type="apparatus" n="32" target="#p215-31">ὡρισμένον D</note>
               <lb n="33" xml:id="p215-32"/>τινος δηλωτικόν, ἡ δὲ ψυχὴ καθάπαξ ἔστιν ἀσώματος· ἀλλ’ ὡς εἴπομεν, τὸ<note type="apparatus" n="33" target="#p215-32">δηλωτική t</note>
               <lb n="34" xml:id="p215-33"/>σῶμα δηλοῖ αὐτῷ τὸ ὑποκείμενον καὶ τὴν ὕλην. δῆλον δὲ καὶ ἐκ τούτων<note type="apparatus" n="34" target="#p215-33">αὐτῷ] αὐτὸ t δῆλον δ’ ἐκ t</note>
               <lb n="35" xml:id="p215-34"/>ὅτι εἶδος ἡ ψυχή· ᾧ γὰρ διαφέρει ἀλλήλων τὰ ὁμογενῆ, τοῦτο εἶδος αὐτῶν·
@@ -9631,7 +9633,7 @@
             <p>
               <lb n="1" xml:id="p219-0"/>ζητητέον τί τὸ ἑνοῦν τὴν ψυχὴν τῷ σώματι, λέγω δὴ ὡς ἓν ὑπάρχον καὶ
               <lb n="2" xml:id="p219-1"/>συνεκτικόν· αὐτὸ γὰρ τοῦτο φύσις εἴδους ἐστὶ καὶ ὕλης τὸ τόδε ἐν<note type="apparatus" n="2" target="#p219-1">συνεκτικόν scripsi: συνδεκτικόν Dt</note>
-              <lb n="3" xml:id="p219-2"/>τῷ’ εἶναι.
+              <lb n="3" xml:id="p219-2"/>τῷδ’ εἶναι.
             </p>
           </div>
           <div type="textpart" subtype="lemma" n="16">
@@ -9762,7 +9764,7 @@
             </p>
             <pb n="222" facs="https://archive.org/download/commentariaina15akaduoft/page/n251.jpg"/>
             <p>
-              <lb n="1" xml:id="p222-0"/>ὅλου αἰσθητικοῦ σώματος εἶδος ἂν εἴη. τὸ δὲ <milestone type="alt-edition" unit="folio" ed="Trincavelli 1535" n="g 3v"/> ᾗ τοιοῦτον ἀντὶ g
+              <lb n="1" xml:id="p222-0"/>ὅλου αἰσθητικοῦ σώματος εἶδος ἂν εἴη. τὸ δὲ <milestone type="alt-edition" unit="folio" ed="Trincavelli 1535" n="g 3v"/> ᾗ τοιοῦτον ἀντὶ
               <lb n="2" xml:id="p222-1"/>τοῦ ᾗ αἰσθητικόν· οὐ γὰρ καθὸ βαρὺ τὸ σῶμα ἢ λευκὸν ἤ τι τῶν
               <lb n="3" xml:id="p222-2"/>τοιούτων, εἰδοποιεῖται ὑπὸ τῆς ψυχῆς, ἀλλ’ ᾗ αἰσθητικόν. τούτου δ’
               <lb n="4" xml:id="p222-3"/>ἐπιλαβόμενοι τοῦ ῥητοῦ οἱ πᾶσαν ψυχὴν ἀπαθανατίζειν βουλόμενοι, λέγω
@@ -10181,7 +10183,7 @@
               <lb n="17" xml:id="p231-16"/>τοιούτῳ· ὁ θυμούμενος ὀρέγεται ἀντιλυπῆσαι τοῦτον ᾧ ὀργίζεται· τοῦ<note type="apparatus" n="17" target="#p231-16">ᾧ scripsi: ὃν (sed ὃ in lit. D²) Dt ὁρίζεται t</note>
               <lb n="18" xml:id="p231-17"/>ὀρεγομένου ἀντιλυπῆσαι ζεῖ τὸ περὶ τὴν καρδίαν αἷμα· εἶτα τὸ συμπέρασμα<note type="apparatus" n="18-19 et 26" target="#p231-17 #p231-18 #p231-25">ζεῖ Diels: ζῇ ADt 18 τὴν om. t</note>
               <lb n="19" xml:id="p231-18"/>‘τοῦ θυμουμένου ἄρα ζεῖ τὸ περικάρδιον αἷμα’. τούτου οὖν τοῦ συλλογισμοῦ
-              <lb n="20" xml:id="p231-19"/>καὶ τῆς ἀποδείξεως ὁ μὲν ἐκ τῆς ὕλης ὁρισμὸς τοῦ θυμοῦ συμπερασμά
+              <lb n="20" xml:id="p231-19"/>καὶ τῆς ἀποδείξεως ὁ μὲν ἐκ τῆς ὕλης ὁρισμὸς τοῦ θυμοῦ συμπέρασμά
               <lb n="21" xml:id="p231-20"/>ἐστιν, ὁ δὲ ἐκ τοῦ εἴδους ἀρχή· ἔστι γὰρ ἡ πρώτη πρότασις ἡ
               <lb n="22" xml:id="p231-21"/>λέγουσα ὁ θυμούμενος ὀρέγεται ἀντιλυπήσεως· ὁ μέντοι ἐκ τοῦ συναμφοτέρου
               <lb n="23" xml:id="p231-22"/>ὁρισμὸς συλλογισμός ἐστιν ἤτοι ἀπόδειξις τῇ θέσει μόνῃ διαφέρουσα,<milestone type="alt-edition" unit="line" ed="Trincavelli 1535" n="35"/>
@@ -10540,7 +10542,7 @@
               <lb n="14" xml:id="p239-13"/>τοὺς σπουδαιοτέρους λεπτῆς, καὶ ἀπέχεσθαι πολλῶν ἐδωδίμων, ὅσα<note type="apparatus" n="14" target="#p239-13">ἐδοδίμων t</note><milestone type="alt-edition" unit="line" ed="Trincavelli 1535" n="15"/>
               <lb n="15" xml:id="p239-14"/>παχύτερον αὐτὸ ποιεῖ· ὑπὸ γὰρ ἀτμῶν καὶ αὐτὸ τρέφεσθαι. // ἀλλὰ πρὸς
               <lb n="16" xml:id="p239-15"/>τοῦτο εἴποιμι ἂν ὅτι εἰ μὴ διωργάνωται τὸ πνεῦμα, οὐχ ὑποπεσεῖται τῷ
-              <lb n="17" xml:id="p239-16"/>ὅρῳ ἡ ἐν αὐτῷ ψυχή· ὀργανικοῦ γὰρ σώματος εἶπεν εἶναι τὴν ψυχὴν ἐντελέγειαν·<note type="apparatus" n="17" target="#p239-16">εἶπεν scripsi: εἰπὼν Dt</note>
+              <lb n="17" xml:id="p239-16"/>ὅρῳ ἡ ἐν αὐτῷ ψυχή· ὀργανικοῦ γὰρ σώματος εἶπεν εἶναι τὴν ψυχὴν ἐντελέχειαν·<note type="apparatus" n="17" target="#p239-16">εἶπεν scripsi: εἰπὼν Dt</note>
               <lb n="18" xml:id="p239-17"/>ταύτῃ γὰρ διέκρινε τῶν εἰδῶν τῶν ἀψύχων αὐτήν. καὶ γὰρ
               <lb n="19" xml:id="p239-18"/>ἐκείνων τὸ εἶδος ἐντελέχειά ἐστιν, ἀλλ’ οὐκ ὀργανικὸν σῶμα λίθος καὶ τὰ
               <lb n="20" xml:id="p239-19"/>ὅμοια. εἰ μὲν οὖν καὶ ἡ ἐν τῷ πνεύματι ψυχὴ ὑποπίπτει τῷ ὅρῳ, ἀνάγκη
@@ -11594,7 +11596,7 @@
               <lb n="27" xml:id="p261-26"/>περὶ τοῦ ἡμετέρου. καλῶς δέ φησιν ἕτερον λόγον εἶναι περὶ τούτου· ὡς
               <lb n="28" xml:id="p261-27"/>γὰρ εἶπον πολλάκις, αὐτός φησιν ἔν τε τῇ Περὶ μορίων καὶ ἐν τῷ Ε τῆς<note type="apparatus" n="28" target="#p261-27">ἔν τε τῇ Περὶ μορίων -- Μετὰ τὰ φυσικά (29)] de Part. anim. Α 1 p. 641a33 sqq., Metaph. Ε 1 p. 1026a5</note>
               <lb n="29" xml:id="p261-28"/>Μετὰ τὰ φυσικά, ὅτι φυσικοῦ τὸ διαλεχθῆναι περὶ ψυχῆς οὐ πάσης, ἀλλ’
-              <lb n="30" xml:id="p261-29"/>ὅση μὴ ἄνευ τῆς ὕλης· ἐπεὶ οὖν ὁ θεωρητικὸς νοῦς χωριστός ἐστιν, εἴκότως<milestone type="alt-edition" unit="folio" ed="Trincavelli 1535" n="h 5r"/>
+              <lb n="30" xml:id="p261-29"/>ὅση μὴ ἄνευ τῆς ὕλης· ἐπεὶ οὖν ὁ θεωρητικὸς νοῦς χωριστός ἐστιν, εἰκότως<milestone type="alt-edition" unit="folio" ed="Trincavelli 1535" n="h 5r"/>
               <lb n="31" xml:id="p261-30"/>φησὶν ἕτερον λόγον εἶναι περὶ αὐτοῦ· θεολόγου γὰρ τὸ περὶ τῶν
               <lb n="32" xml:id="p261-31"/>χωριστῶν εἰδῶν διαλέγεσθαι. ἀλλ’ ὅμως, ὥσπερ εἴωθεν, καθάπερ ἐν τῇ<note type="apparatus" n="32-33" target="#p261-31 #p261-32">ἐν τῇ Φυσικῇ] Θ 6</note>
               <lb n="33" xml:id="p261-32"/>Φυσικῇ πρὸς τῷ τέλει ἀνήγαγεν ἑαυτὸν ἐπὶ τὴν χωριστὴν αἰτίαν τῶν φυσικῶν
@@ -12356,7 +12358,7 @@
             <p>
               <lb n="1" xml:id="p279-0"/>τε καὶ τροφῇ χρῆσθαι”, κἀνταῦθα πάλιν ἐπειδὴ ἡ αὐτὴ δύναμίς ἐστι
               <lb n="2" xml:id="p279-1"/>θρεπτική τε καὶ γεννητική, περὶ τροφῆς ἀναγκαῖον διωρίσθαι πρῶτον.<milestone type="alt-edition" unit="line" ed="Trincavelli 1535" n="15"/>
-              <lb n="3" xml:id="p279-2"/>γάρ φησι, τοιοῦτόν ἐστιν· ἐπειδὴ μία τίς ἐστι καὶ ἡ αὐτὴ δύναμις ἡ φυτική,
+              <lb n="3" xml:id="p279-2"/>ὃ γάρ φησι, τοιοῦτόν ἐστιν· ἐπειδὴ μία τίς ἐστι καὶ ἡ αὐτὴ δύναμις ἡ φυτική,
               <lb n="4" xml:id="p279-3"/>ἧς ἐστιν ἔργα γεννῆσαί τε καὶ τροφῇ χρῆσθαι (διὰ τῶν ἄκρων καὶ τὸ
               <lb n="5" xml:id="p279-4"/>μέσον περιλαμβάνων τὸ αὔξειν καὶ εἰς τὸ τέλειον μέτρον ἄγειν τὰ αὐξόμενα),
               <lb n="6" xml:id="p279-5"/>εἴπομεν δέ, φησί, περὶ τοῦ τέλους τῆς γεννητικῆς ἐνεργείας, ἀναγκαῖον
@@ -12403,7 +12405,7 @@
           <div type="textpart" subtype="lemma" n="80">
             <milestone unit="bekker" n="416a21"/>
             <quote type="lemma">
-              <lb n="1" xml:id="p280-0"/>Δοκεῖ δὲ εἶναι ἡ τροφὴ τὸ ἐναντίον τῷ ἐναντίῳ, οὐ i1r<note type="apparatus" n="1" target="#p280-0">τῷ ἐναντίῳ D Arist. (cod. E pr. m.): τῶν ἐναντίων t Arist. corr. E</note>
+              <lb n="1" xml:id="p280-0"/>Δοκεῖ δὲ εἶναι ἡ τροφὴ τὸ ἐναντίον τῷ ἐναντίῳ, οὐ<note type="apparatus" n="1" target="#p280-0">τῷ ἐναντίῳ D Arist. (cod. E pr. m.): τῶν ἐναντίων t Arist. corr. E</note>
               <lb n="2" xml:id="p280-1"/>πᾶν δὲ παντί, ἀλλ’ ὅσα τῶν ἐναντίων μὴ μόνον γένεσιν ἐξ<note type="apparatus" n="2" target="#p280-1">post γένεσιν add. εἶναι D</note><milestone type="alt-edition" unit="line" ed="Trincavelli 1535" n="41"/>
               <lb n="3" xml:id="p280-2"/>ἀλλήλων ἔχουσιν ἀλλὰ καὶ αὔξησιν.
             </quote>
@@ -12649,7 +12651,7 @@
               <lb n="21" xml:id="p285-20"/>τοῖς Περὶ γενέσεως, ὅτι οὐ κατὰ τὸ αὐτὸ τρεφόμεθά τε καὶ αὐξόμεθα.<milestone type="alt-edition" unit="line" ed="Trincavelli 1535" n="20"/>
               <lb n="22" xml:id="p285-21"/>ἐπειδὴ γὰρ τὸ τρεφόμενον καὶ εἶδός ἐστι καὶ ποσόν τι, ὁμοίως δὲ καὶ ἡ
               <lb n="23" xml:id="p285-22"/>τροφή * * τρέφει τὸ τρεφόμενον (τροφῆς γὰρ ἴδιον τὸ σώζειν τὸ εἶδος, 〈καὶ〉<note type="apparatus" n="23" target="#p285-22">lacunam indicavi: addendum est tale quid ᾗ μὲν δυνάμει ἐστὶν ὅπερ τὸ τρεφόμενον ἡ τροφή καὶ addidi</note>
-              <lb n="24" xml:id="p285-23"/>μέχρι τούτου ἐστίν, ἕως ἂν τρέφηται τὰ τρεφόμενα, κἂν μὴ αὐξάνῃ), ἡ δὲ
+              <lb n="24" xml:id="p285-23"/>μέχρι τούτου ἐστίν, ἕως ἂν τρέφηται τὰ τρεφόμενα, κἂν μὴ αὐξάνῃ), ᾗ δὲ
               <lb n="25" xml:id="p285-24"/>ποσόν, αὔξει τῷ τρεφομένῳ προστιθεμένη ἡ τροφή. οὐκ αὔξεται δὲ ἀεὶ τὸ
               <lb n="26" xml:id="p285-25"/>τρεφόμενον, ὅταν ἡ ἀπόκρισις ἢ ἴση ᾖ ἢ πλείων τῆς ἐκ τῆς τροφῆς γινομένης<note type="apparatus" n="26" target="#p285-25">πλείων scripsi: πλείω Dt</note>
               <lb n="27" xml:id="p285-26"/>προσκρίσεως, ὡς εἶπεν ἐν τῷ Περὶ γενέσεως· καὶ οὕτως μέντοι ἡ
@@ -13092,7 +13094,7 @@
               <lb n="4" xml:id="p296-3"/>αἰσθάνονται, καὶ ἀποδοὺς τὴν αἰτίαν τούτου ὅτι μὴ πάρεστι τὸ ποιητικόν,
               <lb n="5" xml:id="p296-4"/>μεταβαίνει ἐπὶ τὸ δεῖξαι, πῶς πάσχον πῇ μὲν ὡς ὑπὸ ὁμοουσίου πάσχει,<note type="apparatus" n="5" target="#p296-4">fort. πῶς τὸ πάσχον</note>
               <lb n="6" xml:id="p296-5"/>πῇ δὲ ὡς ὑπὸ ἀνομοίου. δυνάμει μὲν οὖν ἡ λύσις τῆς δευτέρας ἀπορίας
-              <lb n="7" xml:id="p296-6"/>ἐπελύσατο καὶ τοῦτο, ὥσπερ ἐδείξαμεν· ἐταῦθα μέντοι καὶ ἰδίᾳ αὐτὸ τοῦτο
+              <lb n="7" xml:id="p296-6"/>ἐπελύσατο καὶ τοῦτο, ὥσπερ ἐδείξαμεν· <choice><sic>ἐταῦθα</sic><corr>ἐνταῦθα</corr></choice> μέντοι καὶ ἰδίᾳ αὐτὸ τοῦτο
               <lb n="8" xml:id="p296-7"/>δείκνυσιν. ἐπειδὴ οὖν τὸ ἐνταῦθα λεγόμενον ἀκόλουθον τῇ λέξει τῇ “φασὶ<note type="apparatus" n="8" target="#p296-7">ἐπειδὴ οὖν] fort. εἴη δ’ ἂν τῇ (post λέξει) om. t</note>
               <lb n="9" xml:id="p296-8"/>δὲ καὶ τὸ ὅμοιον ὑπὸ τοῦ ὁμοίου πάσχειν· τοῦτο δὲ πῶς δυνατὸν ἢ<note type="apparatus" n="9" target="#p296-8">δὲ (post φασὶ) om. t δέ τινες καὶ Arist.</note>
               <lb n="10" xml:id="p296-9"/>ἀδύνατον, εἴρηται μὲν καὶ ἐν τοῖς καθόλου λόγοις περὶ τοῦ ποιεῖν καὶ τοῦ<milestone type="alt-edition" unit="line" ed="Trincavelli 1535" n="50"/>
@@ -13480,7 +13482,7 @@
               <lb n="30" xml:id="p304-29"/>τὸ πάθος διαιρῶν τὸ μὲν εἶπεν ἐπὶ τῶν ἐξ ἐναντίας ἕξεως εἰς ἐναντίαν
               <lb n="31" xml:id="p304-30"/>μεταβαλλόντων καὶ οὕτω λεγομένων δυνάμει, τὸ δὲ ἐπὶ τῶν ἀπὸ τῆς<milestone type="alt-edition" unit="line" ed="Trincavelli 1535" n="50"/>
               <lb n="32" xml:id="p304-31"/>ἕξεως εἰς τὴν ἐνέργειαν προχωρούντων· νῦν δ’ οὐχ οὕτως, ἀλλὰ τὸ μὲν
-              <lb n="33" xml:id="p304-32"/>δεύτερον οὐδ’ ὅλως ἐστὶ πάθος οὐδ’ ἀλλοίωσις (διὸ οὐδὲ κίνησις δἂν<note type="apparatus" n="33" target="#p304-32">δἂν] δ’ ἂν Dt</note>
+              <lb n="33" xml:id="p304-32"/>δεύτερον οὐδ’ ὅλως ἐστὶ πάθος οὐδ’ ἀλλοίωσις (διὸ οὐδὲ κίνησις <choice><sic>δἂν</sic><corr>ἂν</corr></choice><note type="apparatus" n="33" target="#p304-32">δἂν] δ’ ἂν Dt</note>
               <lb n="34" xml:id="p304-33"/>εἴη οὐδὲ διδασκαλία ἡ κατὰ τοῦτο μεταβολή), τὸ δὲ ἐπὶ τοῦ προτέρου
               <lb n="35" xml:id="p304-34"/>δυνάμει διχῶς διεῖλεν, εἴς τε τὸ εἰς στέρησιν μεταβάλλειν, ὅπερ εἶπεν
             </p>
@@ -13572,13 +13574,13 @@
             </p>
             <pb n="307" facs="https://archive.org/download/commentariaina15akaduoft/page/n336.jpg"/>
             <p>
-              <lb n="1" xml:id="p307-0"/>αὐτὸς ἑαυτὸν προάγει. ἀποδίδωσιν οὖν τούτου τὴν αἰτίαν, ὅτι ἡ μὲν ἱ
+              <lb n="1" xml:id="p307-0"/>αὐτὸς ἑαυτὸν προάγει. ἀποδίδωσιν οὖν τούτου τὴν αἰτίαν, ὅτι ἡ μὲν
               <lb n="2" xml:id="p307-1"/>αἴσθησις μερικοῦ τινος τὴν ἀντίληψιν ἔχει, τὸ δὲ μερικὸν σῶμά τί ἐστιν·
               <lb n="3" xml:id="p307-2"/>εἰκότως οὖν ἔξωθεν· ὁ δὲ νοῦς τῶν καθόλου ἀντιλαμβάνεται, τὰ δὲ καθόλου
               <lb n="4" xml:id="p307-3"/>λόγοι, οὗτοι δὲ οὐκ ἔξωθεν, ἀλλ’ ἐν αὐτῇ τῇ ψυχῇ· διὸ οὐ δέεται<note type="apparatus" n="4" target="#p307-3">οὐ δέεται] οὐδὲ ἔσται A, qui post τινὸς (5) add. δεόμενος</note>
               <lb n="5" xml:id="p307-4"/>ὁ νοῦς ἔξωθέν τινος τοῦ τελειοῦντος. εἶπεν δ’ εὐθὺς ἔχειν ἤδη ὥσπερ
               <lb n="6" xml:id="p307-5"/>ἐπιστήμην καὶ τὸ αἰσθάνεσθαι, οὐχ ὡς εὐθὺς τῷ γεννηθῆναι τῶν ζῴων
-              <lb n="7" xml:id="p307-6"/>ἐπιστήμην ἐχόν<milestone type="alt-edition" unit="folio" ed="Trincavelli 1535" n="i 7v"/>των, ἀλλὰ τὸ διττὸν τῆς αἰσθήσεως δηλῶσαι βουληθείς, τό ἱ
+              <lb n="7" xml:id="p307-6"/>ἐπιστήμην ἐχόν<milestone type="alt-edition" unit="folio" ed="Trincavelli 1535" n="i 7v"/>των, ἀλλὰ τὸ διττὸν τῆς αἰσθήσεως δηλῶσαι βουληθείς, τό
               <lb n="8" xml:id="p307-7"/>τε κατὰ τὴν ἕξιν καὶ τὸ κατὰ τὴν ἐνέργειαν, τὴν κατὰ τὴν ἕξιν αἴσθησιν
               <lb n="9" xml:id="p307-8"/>ὁμοίαν εἶπεν εἶναι τῇ τῆς ἐπιστήμης παρουσίᾳ· ὥστε παραδείγματος ἕνεκεν<note type="apparatus" n="9" target="#p307-8">εἶναι εἶπεν t</note>
               <lb n="10" xml:id="p307-9"/>τὴν ἐπιστήμην παρέθετο. ἔχει γὰρ ἡ αἴσθησις τὴν αἰσθητικὴν δύναμιν
@@ -13656,7 +13658,7 @@
               <lb n="23" xml:id="p308-22"/>ἐποιήσατο τοῦ δυνάμει καὶ τοῦ ἐνεργείᾳ, ὑπομιμνήσκει ἡμᾶς· ὑπὲρ
               <lb n="24" xml:id="p308-23"/>γὰρ τοῦ δεῖξαι, πῶς λέγεται τὰ ζῷα, ὅτε μὴ αἰσθάνεται, δυνάμει αἴσθησιν
               <lb n="25" xml:id="p308-24"/>ἔχειν· κατὰ γὰρ τὴν δευτέραν δύναμιν, ἥτις ἤδη ἐπὶ τῶν τὰς ἕξεις
-              <lb n="26" xml:id="p308-25"/>ἐχόντων κατηγορεῖται, ἐφ’ ὧν οὔτε τὸ πάσχειν οὔτε τὸ ἀλλοιοῦσθαι λέγθείη
+              <lb n="26" xml:id="p308-25"/>ἐχόντων κατηγορεῖται, ἐφ’ ὧν οὔτε τὸ πάσχειν οὔτε τὸ ἀλλοιοῦσθαι λεχθείη
               <lb n="27" xml:id="p308-26"/>ἂν κυρίως· εἰς αὐτὸ γὰρ ἡ ἐπίδοσις καὶ οὐκ εἰς τὸ ἐναντίον ἡ
               <lb n="28" xml:id="p308-27"/>μεταβολή, ὡς εἶπεν.
             </p>
@@ -14042,7 +14044,7 @@
             </p>
             <pb n="317" facs="https://archive.org/download/commentariaina15akaduoft/page/n346.jpg"/>
             <p>
-              <lb n="1" xml:id="p317-0"/>ἢ διακρίνεται τὰ αἰσθητήρια, ἡ ἁφὴ καὶ ἡ ὄψις, ἢ μέγεθος τοσόνδε<note type="apparatus" n="1" target="#p317-0">ᾖ A: ἡ Dt</note>
+              <lb n="1" xml:id="p317-0"/>ἢ διακρίνεται τὰ αἰσθητήρια, ἡ ἁφὴ καὶ ἡ ὄψις, ᾗ μέγεθος τοσόνδε<note type="apparatus" n="1" target="#p317-0">ᾖ A: ἡ Dt</note>
               <lb n="2" xml:id="p317-1"/>ἔχει ἤγουν ἐν τοσῷδε μεγέθει ἐστίν, ἤπερ ὑπὸ τοῦ ἐν ἐλάττονι μεγέθει<note type="apparatus" n="2" target="#p317-1">τῶσῶδε (sic) D ἤπερ scripsi: εἴπερ ADt</note>
               <lb n="3" xml:id="p317-2"/>ὁμοίως ὄντος λευκοῦ. καίτοι καθὸ λευκὸν ἢ καθὸ θερμὸν γίνεται, 〈τί〉<note type="apparatus" n="3" target="#p317-2">τί addidi</note><milestone type="alt-edition" unit="line" ed="Trincavelli 1535" n="45"/>
               <lb n="4" xml:id="p317-3"/>μᾶλλον δράσει τὸ μέγα τοῦ μικροῦ καὶ τὸ πολὺ τοῦ ὀλίγου; ἀλλὰ καὶ<note type="apparatus" n="4" target="#p317-3">καὶ τὸ A: καὶ om. Dt</note>
@@ -14675,7 +14677,7 @@
               <lb n="29" xml:id="p331-28"/>ἀνακλᾶσθαι πρὸς τὸ ὄμμα; εἰ οὖν ταῦτα μὲν κοινῶς καὶ ἐκεῖνοι
               <lb n="30" xml:id="p331-29"/>καὶ ὁ Ἀριστοτέλους ὑποτίθεται λόγος, ἀλλ’ ὁ μὲν ἐπὶ τῶν ἐνεργειῶν, οἱ
               <lb n="31" xml:id="p331-30"/>δ’ ἐπὶ τῶν ὄψεων, μυρία δὲ ἀδύνατα τῇ τῶν ὄψεων ὑποθέσει ἀκολουθεῖ,
-              <lb n="32" xml:id="p331-31"/>αἱρετέον μᾶλλον τὴν Ἀριστοτέλους ὑπόθεσιν, ἣ καὶ τὰ φαινόμενα σώζει 5 / νοῦ
+              <lb n="32" xml:id="p331-31"/>αἱρετέον μᾶλλον τὴν Ἀριστοτέλους ὑπόθεσιν, ἣ καὶ τὰ φαινόμενα σώζει
               <lb n="33" xml:id="p331-32"/>καὶ τὰ ἄτοπα ἐκκλίνει. πόθεν οὖν ἡ θέρμη ἐν τῷ ἀέρι γίνεται, εἴ γε ὁ
               <lb n="34" xml:id="p331-33"/>μὲν ἥλιος θερμὸς οὐκ ἔστιν, αἱ δὲ ἀκτῖνες οὐ σῶμα; εἰ γὰρ μή εἰσι
               <lb n="35" xml:id="p331-34"/>σῶμα, παράτριψις οὐκ ἔστι· παρατρίψεως δὲ μὴ οὔσης πῶς ὁ ἀὴρ θερμανθήσεται;
@@ -14736,7 +14738,7 @@
               <lb n="7" xml:id="p333-6"/>δὲ λοιπῶν αἱ πλησιαίτεραι τοῦ κατὰ κορυφὴν ἐλάττους, αἱ δὲ λοιπαὶ
               <lb n="8" xml:id="p333-7"/>μείζους. ἐν δὲ τῷ θερμῷ καὶ πλείονα χρόνον ὑπὲρ γῆν διατρίβων μᾶλλον<note type="apparatus" n="8" target="#p333-7">θερμῷ Dt: ἀέρι A: fort. θέρει; cf. v.</note>
               <lb n="9" xml:id="p333-8"/>θερμαίνει. πέφυκε γὰρ τὸ φῶς ὅταν προσπέσῃ εἰς λεῖόν τι καὶ στιλπνὸν
-              <lb n="10" xml:id="p333-9"/>σῶμα, ὁρᾶν εἰς αὐτὸ οὕτως ὥστε καὶ αὐτὸ τὴν ὁμοίαν ἐνέργειαν ἀντιπέμπειν,
+              <lb n="10" xml:id="p333-9"/>σῶμα, δρᾶν εἰς αὐτὸ οὕτως ὥστε καὶ αὐτὸ τὴν ὁμοίαν ἐνέργειαν ἀντιπέμπειν,
               <lb n="11" xml:id="p333-10"/>ὥσπερ ἐν ἀργυρίῳ καὶ ἐν τοῖς ἐσόπτροις καὶ ἐν ὕδατι καὶ ὑέλοις καὶ ἄλλοις<milestone type="alt-edition" unit="line" ed="Trincavelli 1535" n="45"/>
               <lb n="12" xml:id="p333-11"/>πλείστοις. πᾶν μὲν οὖν σῶμα τὴν τοῦ φωτὸς δεχόμενον ἐνέργειαν πέφυκε καὶ
               <lb n="13" xml:id="p333-12"/>αὐτὸ τὴν αὐτὴν ἀντιπέμπειν, ἐξαιρέτως δὲ τὰ λεῖα σώματα, ὥσπερ τὰ εἰρημένα.
@@ -14972,7 +14974,7 @@
             </p>
             <pb n="339" facs="https://archive.org/download/commentariaina15akaduoft/page/n368.jpg"/>
             <p>
-              <lb n="1" xml:id="p339-0"/>ὅταν παρὰ φύσιν ἔχωσι, τὸ αὐτῶν πάθος τοῖς αἰσθητοῖς ὑπάρχειν δοκεῖ, 7 kr<note type="apparatus" n="1" target="#p339-0">δοκεῖ D¹: δοκῇ D²t</note>
+              <lb n="1" xml:id="p339-0"/>ὅταν παρὰ φύσιν ἔχωσι, τὸ αὐτῶν πάθος τοῖς αἰσθητοῖς ὑπάρχειν δοκεῖ,<note type="apparatus" n="1" target="#p339-0">δοκεῖ D¹: δοκῇ D²t</note>
               <lb n="2" xml:id="p339-1"/>καίτοι μὴ γενομένου ἐπὶ ἐκείνων κατὰ ἐκπομπὴν τοῦ αἰσθάνεσθαι, εὔλογον<note type="apparatus" n="2" target="#p339-1">ἐκείνων scripsi: ἐκείνου Dt</note>
               <lb n="3" xml:id="p339-2"/>καὶ ἐπὶ τῆς ὄψεως τὸ αὐτὸ συμβαίνειν, οὐκ ἄρα διὰ τὸ ἔξω τοῦ ἰδίου<milestone type="alt-edition" unit="line" ed="Trincavelli 1535" n="35"/>
               <lb n="4" xml:id="p339-3"/>πάθους ἀντιλαμβάνεσθαι τὸ αἰσθητήριον πνεύματα ἐξιέναι ἐκ τοῦ ὄμματος
@@ -15751,7 +15753,7 @@
               <lb n="4" xml:id="p356-3"/>ὕδατος ποιοῦντος. ἐὰν δὲ ὀλίγου πλῆρες ᾖ τὸ ποτήριον ὕδατος, καὶ ῥανίδες<note type="apparatus" n="4" target="#p356-3">ὀλίγου scripsi: ὀλίγω Dt</note>
               <lb n="5" xml:id="p356-4"/>πλεῖσται ἀναρριπτοῦνται καὶ συνεχεῖς. καὶ ἐὰν μὲν ἐκ τοῦ πυθμένος
               <lb n="6" xml:id="p356-5"/>κατέχῃ τις τὸ ποτήριον, συμβαίνει τὰ εἰρημένα· ἐὰν μέντοι μὴ ἐκ τοῦ
-              <lb n="7" xml:id="p356-6"/>πυθμένος, ἀλλ’ αὐτὸ κατέχῃ τις τὸ ποτήριον, οὐδ’ ὅλως ἦχος γίνεται περιἀγομένου<note type="apparatus" n="7-8" target="#p356-6 #p356-7">περαγομένου t</note><milestone type="alt-edition" unit="line" ed="Trincavelli 1535" n="40"/>
+              <lb n="7" xml:id="p356-6"/>πυθμένος, ἀλλ’ αὐτὸ κατέχῃ τις τὸ ποτήριον, οὐδ’ ὅλως ἦχος γίνεται περιαγομένου<note type="apparatus" n="7-8" target="#p356-6 #p356-7">περαγομένου t</note><milestone type="alt-edition" unit="line" ed="Trincavelli 1535" n="40"/>
               <lb n="8" xml:id="p356-7"/>τοῦ δακτύλου. τοῦτο δὲ διότι δεῖ κραδαίνεσθαι ἠρέμα τὸ πληττόμενον,
               <lb n="9" xml:id="p356-8"/>ἵνα μὴ ἐξωθῆται ὁ ἀήρ, ἀλλὰ ἀνακλώμενος εἰς τὸ ἔνδον συνεχῶς<note type="apparatus" n="9" target="#p356-8">εἰς] εἰ t</note>
               <lb n="10" xml:id="p356-9"/>καὶ πλήττων τοῦ ποτηρίου τοὺς τοίχους καὶ ἀντωθούμενος εἰς ἕτερον
@@ -15983,7 +15985,7 @@
               <lb n="26" xml:id="p360-25"/>ἄντρα, συνεχὴς ὢν καὶ ἀδιασκέδαστος μείνας διὰ τὸ περιέχεσθαι ὑπὸ τοῦ<note type="apparatus" n="26" target="#p360-25">ἀδιασκέδαστος A Suid. v. Ἠχώ: διασκεδαστός Dt</note>
               <lb n="27" xml:id="p360-26"/>κοιλώματος τούτου, ὃ ἀγγεῖον ὠνόμασε, προσπεσὼν αὐτῷ ἀντιτύπῳ ὄντι
               <lb n="28" xml:id="p360-27"/>σώματι ὠθεῖται εἰς τὸ ἔμπαλιν, ὥσπερ ἡ ῥιπτουμένη κατὰ τοίχου σφαῖρα,<note type="apparatus" n="28" target="#p360-27">ῥιπτομένη t</note>
-              <lb n="29" xml:id="p360-28"/>καὶ οὕτω χωρεῖ ἐπὶ τὸν πλήξαντα, ἐνεργοῦντος δηλονότι τοῦ ἀέρος δι
+              <lb n="29" xml:id="p360-28"/>καὶ οὕτω χωρεῖ ἐπὶ τὸν πλήξαντα, ἐνεργοῦντος δηλονότι τοῦ ἀέρος <choice><sic>δι</sic><corr>δι’</corr></choice>
               <lb n="30" xml:id="p360-29"/>ἀμφοτέρων κατὰ τὴν διηχῆ αὐτοῦ δύναμιν. οὐ μόνον γὰρ διὰ τὸ μὴ
               <lb n="31" xml:id="p360-30"/>συγχωρεῖσθαι ὑπὸ τοῦ κοίλου τόπου διασκεδασθῆναι <milestone type="alt-edition" unit="folio" ed="Trincavelli 1535" n="l 4v"/> οἷος ἠνέχθη ὑπὸ
               <lb n="32" xml:id="p360-31"/>τῆς ἀντιτυπίας τοῦ σκληροῦ σώματος εἰς τοὐναντίον ἀπωθεῖται, ἀλλ’ ὅτι
@@ -16429,7 +16431,7 @@
             </quote>
             <p>
               <lb n="12" xml:id="p370-11"/>Ὅτι οὐ τὸ ἕτερόν ἐστι τὸ ψοφοῦν, ἀλλ’ ἀμφότερα, δείκνυσι διὰ τούτων.
-              <lb n="13" xml:id="p370-12"/>ἐπεὶ γὰρ ὁ ψόφος ἐστὶ κίνησις ἀθρόου τοῦ ἀέρος ὥσπερ ἀφαλλόμένου,<milestone type="alt-edition" unit="line" ed="Trincavelli 1535" n="25"/>
+              <lb n="13" xml:id="p370-12"/>ἐπεὶ γὰρ ὁ ψόφος ἐστὶ κίνησις ἀθρόου τοῦ ἀέρος ὥσπερ ἀφαλλομένου,<milestone type="alt-edition" unit="line" ed="Trincavelli 1535" n="25"/>
               <lb n="14" xml:id="p370-13"/>καθάπερ τὰ ἐκπυρηνιζόμενα ἀπό τινων λείων σωμάτων, τοῦτο δὲ
               <lb n="15" xml:id="p370-14"/>οὐχ οἷός τε ἀφ’ ἑαυτοῦ ποιεῖν ὁ ἀήρ, δεῖ ἄρα λεῖόν τι εἶναι ἀφ’ οὗ δεῖ
               <lb n="16" xml:id="p370-15"/>αὐτὸν ἀφάλλεσθαι. ἀλλ’ ἐπειδὴ πάλιν ἀφάλλεσθαι αὐτὸν ἀπό τινος λείου
@@ -17135,7 +17137,7 @@
               <lb n="6" xml:id="p385-5"/>καὶ τῆς ἁφῆς· τοῦτο δὲ ἐπειδὴ καὶ μέσην εἴληχε φύσιν τῶν ἄλλων κατά
               <lb n="7" xml:id="p385-6"/>τε τὰς ἐνεργείας καὶ κατὰ τὰ ὑποκείμενα. κατὰ μὲν τὰς ἐνεργείας, ὅτι ἡ
               <lb n="8" xml:id="p385-7"/>μὲν ὄψις τῶν πορρωτάτω ἀντιλαμβάνεται, ἡ δὲ ἀκοὴ καὶ αὐτὴ μὲν τῶν<note type="apparatus" n="8" target="#p385-7">αὐτὴ A: αὕτη Dt</note><milestone type="alt-edition" unit="line" ed="Trincavelli 1535" n="30"/>
-              <lb n="9" xml:id="p385-8"/>πόρρω, ἧττον δὲ τὴν ὄψεως (οὐδὲ γὰρ ἐκ τοῦ αὐτοῦ διαστήματος, ἀφ’
+              <lb n="9" xml:id="p385-8"/>πόρρω, ἧττον δὲ <choice><sic>τῆν</sic><corr>τῆς</corr></choice> ὄψεως (οὐδὲ γὰρ ἐκ τοῦ αὐτοῦ διαστήματος, ἀφ’
               <lb n="10" xml:id="p385-9"/>οὗπερ ὁρῶμεν, ἀπὸ τοῦ αὐτοῦ καὶ ψόφων ἀκούομεν. οὕτω γοῦν ἐν τοῖς<note type="apparatus" n="10" target="#p385-9">οὕτω γοῦν — ἀκούομεν (11) iterat D</note><note type="apparatus" n="10-11" target="#p385-9 #p385-10">ἐν τοῖς Μετεώροις] Meteorol. B 9 p. 369 b 7 sqq.</note>
               <lb n="11" xml:id="p385-10"/>Μετεώροις ἐλέγετο ὅτι διὰ τοῦτο τῆς βροντῆς ὕστερον ἀκούομεν, τὴν δὲ
               <lb n="12" xml:id="p385-11"/>ἀστραπὴν πρῶτον ὁρῶμεν, ὅτι θᾶττον ὁρᾶν ἢ καὶ ἀκούειν δυνάμεθα. τοῦ<note type="apparatus" n="12" target="#p385-11">ὅτι θᾶττον ὁρᾶν ἢ om. D</note>
@@ -18433,7 +18435,7 @@
               <lb n="22" xml:id="p414-21"/>ἀλλοτρίου σώματος τῇ σαρκὶ περικειμένου οὐδὲν ἐμπόδιον γέγονε πρὸς τὴν
               <lb n="23" xml:id="p414-22"/>ἄχρονον ἀντίληψιν, πολλῷ μᾶλλον τῆς σαρκὸς συμπεφυκυίας τῷ αἰσθητηρίῳ<milestone type="alt-edition" unit="line" ed="Trincavelli 1535" n="35"/>
               <lb n="24" xml:id="p414-23"/>οὐδὲν ἔδει ἐμποδίζεσθαι τὴν ἀντίληψιν τῶν αἰσθητῶν. οὐκ ἄρα τὸ
-              <lb n="25" xml:id="p414-24"/>ἄχρονον τῆς ἀντιλήψεως αἰσθητήριον εἶναι τὴν σάρκα δείκυσι. πρὸς δὲ
+              <lb n="25" xml:id="p414-24"/>ἄχρονον τῆς ἀντιλήψεως αἰσθητήριον εἶναι τὴν σάρκα <choice><sic>δείκυσι</sic><corr>δείκνυσι</corr></choice>. πρὸς δὲ
               <lb n="26" xml:id="p414-25"/>τὸν δεύτερον λόγον τὸν λέγοντα μηδὲ φαίνεσθαι ἄλλο τι αἰσθητήριον παρὰ
               <lb n="27" xml:id="p414-26"/>τὴν σάρκα ἐκεῖνό φησιν· ὥσπερ, φησίν, εἰ ὁ ἀὴρ ἡμῖν περιεπεφύκει παχυνθεὶς<note type="apparatus" n="27" target="#p414-26">εἰ om. D</note>
               <lb n="28" xml:id="p414-27"/>οὕτως ὡς ἀποκρύπτειν τό τε ὀπτικὸν καὶ ἀκουστικὸν καὶ ὀσφραντικὸν
@@ -18478,7 +18480,7 @@
               <lb n="26" xml:id="p415-25"/>ἕν. εἰ δὲ ἕν, ἀνάγκη πᾶσα τὴν σάρκα εἶναι· οὐδὲν γὰρ τῶν ὁμοιομερῶν<note type="apparatus" n="26" target="#p415-25">οὐδὲν] οὖσα t</note>
               <lb n="27" xml:id="p415-26"/>δι’ ὅλου τοῦ ζῴου κατὰ συνέχειαν πεφοίτηκεν οὕτως ὡς ἡ σάρξ. οὕτω
               <lb n="28" xml:id="p415-27"/>μὲν οὖν καὶ τὸν δεύτερον τῶν λόγων ὁ Ἀριστοτέλης ἀνεσκεύασε, καὶ ἡμεῖς
-              <lb n="29" xml:id="p415-28"/>πρὸς τοῦτον ἀντείπομεν. τὸν δὲ τρίτον τῶν λόγων ἀνασκευάζει τοῦτον 3°<note type="apparatus" n="29" target="#p415-28">ἀντίπομεν (sic), πομεν in ras. XV fere litterarum D</note>
+              <lb n="29" xml:id="p415-28"/>πρὸς τοῦτον ἀντείπομεν. τὸν δὲ τρίτον τῶν λόγων ἀνασκευάζει τοῦτον<note type="apparatus" n="29" target="#p415-28">ἀντίπομεν (sic), πομεν in ras. XV fere litterarum D</note>
               <lb n="30" xml:id="p415-29"/>τὸν τρόπον· ἦν δὲ ὁ τὸν ἐνιστάμενον τοῖς τὴν σάρκα βουλομένοις αἰσθητήριον<note type="apparatus" n="30" target="#p415-29">τὸν (post ὁ) scripsi: τὸ Dt</note><milestone type="alt-edition" unit="line" ed="Trincavelli 1535" n="10"/>
               <lb n="31" xml:id="p415-30"/>εἶναι ἐπιλυόμενος. ἡ δ’ ἔνστασις ἦν ὅτι οὐ σῴζει ἡ σὰρξ τὴν ἐπὶ
               <lb n="32" xml:id="p415-31"/>τῶν ἄλλων αἰσθητηρίων ἀναλογίαν, λέγω δὴ τὴν διὰ τοῦ μεταξὺ ἀντίληψιν·
@@ -18561,7 +18563,7 @@
               <lb n="29" xml:id="p417-28"/>συνδιίσταται δὲ καὶ συσχηματίζεται τῷ ὑποκειμένῳ σώματι, οὕτω<note type="apparatus" n="29" target="#p417-28">καὶ οὐ σχηματίζεται D</note><note type="apparatus" n="29-30" target="#p417-28 #p417-29">οὐ σχηματίζεται (sic) — δὲ καὶ iterat D</note>
               <lb n="30" xml:id="p417-29"/>δὲ καὶ ἡ ἄλογος ψυχὴ ἔχει μὲν κατ’ οὐσίαν τὸ ἀμερὲς καὶ ἀδιάστατον
               <lb n="31" xml:id="p417-30"/>(ἐπεὶ πῶς ἂν ἅμα κατὰ ταὐτὸν τοῦ λευκοῦ καὶ τοῦ μέλανος ἀντελαμβάνετο;)
-              <lb n="32" xml:id="p417-31"/>μεριστὴ δὲ γίνεται περὶ τὰ σώματα συνδισταμένη αὐτοῖς. ἐπεὶ οὖν<note type="apparatus" n="32" target="#p417-31">διϊσταμένη t</note>
+              <lb n="32" xml:id="p417-31"/>μεριστὴ δὲ γίνεται περὶ τὰ σώματα συνδιισταμένη αὐτοῖς. ἐπεὶ οὖν<note type="apparatus" n="32" target="#p417-31">διϊσταμένη t</note>
               <lb n="33" xml:id="p417-32"/>ἀμερής ἐστι κατά τι καὶ μεριστή, εἰκότως καὶ μία λέγοιτ’ ἂν καὶ πολλαί.<milestone type="alt-edition" unit="line" ed="Trincavelli 1535" n="5"/>
               <lb n="34" xml:id="p417-33"/>καὶ διὰ τοῦτο οὖν καὶ ἑκάστη τῶν δυνάμεων αὐτῆς καὶ μία εἴη καὶ πολλαὶ
               <lb n="35" xml:id="p417-34"/>ὡς συμμεριζομένη τῷ ὑποκειμένῳ καὶ ἄλλῳ μορίῳ ἄλλου αἰσθητοῦ ἀντιλαμβανομένη.<note type="apparatus" n="35" target="#p417-34">ἄλλῳ] ἄλλο D</note>
@@ -18897,7 +18899,7 @@
               <lb n="18" xml:id="p425-17"/>παρ’ ἡμῶν τοῦ συνημμένου ἔλεγχον τίθησιν ὁ Ἀριστοτέλης καὶ συνεχῆ<note type="apparatus" n="18" target="#p425-17">ὁ ἀπ’ ἀριστοτέλης t</note>
               <lb n="19" xml:id="p425-18"/>ποιεῖ τῷ νῦν ἐπιχειρήματι καὶ ἠρτημένον αὐτοῦ. ἵνα δὲ τοῦτο δείξωμεν,
               <lb n="20" xml:id="p425-19"/>λέγω δὴ ὅτι καὶ διὰ τῶν προκειμένων ῥήσεων τὸ συνημμένον τοῦ συλλογισμοῦ
-              <lb n="21" xml:id="p425-20"/>διελέγχεται, ἄνωθεν τὴν λέξιν τὴν προκειμένην καὶ ἐκθησόμεν καὶ
+              <lb n="21" xml:id="p425-20"/>διελέγχεται, ἄνωθεν τὴν λέξιν τὴν προκειμένην καὶ ἐκθήσομεν καὶ
               <lb n="22" xml:id="p425-21"/>ἐξηγησόμεθα. διὸ τὸ τοιοῦτο μόριον τοῦ σώματος ἔοικεν οὕτως
               <lb n="23" xml:id="p425-22"/>ἔχειν, ὥσπερ εἰ κύκλῳ ἡμῖν περιεπεφύκει ὁ ἀήρ· ἐδοκοῦμεν ἂν<note type="apparatus" n="23" target="#p425-22">ἡμῖν om. t ἐδοκοῦμεν] ἐδόκει μὲν D: ἐδόκειμεν t</note><milestone type="alt-edition" unit="line" ed="Trincavelli 1535" n="40"/>
               <lb n="24" xml:id="p425-23"/>[ἢ] ἑνί τινι αἰσθάνεσθαι καὶ ψόφου καὶ χρώματος καὶ ὀσμῆς, καὶ<note type="apparatus" n="24" target="#p425-23">ἦ delevi</note>
@@ -19969,7 +19971,7 @@
             </p>
             <pb n="450" facs="https://archive.org/download/commentariaina15akaduoft/page/n479.jpg"/>
             <p>
-              <lb n="1" xml:id="p450-0"/>οὐδὲν οὖν αἰσθητὸν λείπει. εἰ δὲ αἰσθητὸν οὐ λείπει, ο<milestone type="alt-edition" unit="folio" ed="Trincavelli 1535" n="o 2r"/>
+              <lb n="1" xml:id="p450-0"/>οὐδὲν οὖν αἰσθητὸν λείπει. εἰ δὲ αἰσθητὸν οὐ λείπει,<milestone type="alt-edition" unit="folio" ed="Trincavelli 1535" n="o 2r"/>
               <lb n="2" xml:id="p450-1"/>δῆλον ὅτι οὐδὲ αἰσθητήριον· τῇ γὰρ σὺν ἀντιθέσει ἀντιστροφῇ τοῦτο
               <lb n="3" xml:id="p450-2"/>δείκνυται. οὗτός ἐστι καὶ ὁ δεύτερος λόγος Ἀριστοτέλους μὴ ὢν ἀναγκαῖος.
               <lb n="4" xml:id="p450-3"/>ἔστω γὰρ τῶν πόρρω ἡμᾶς ἀντιλαμβάνεσθαι· πόθεν δῆλον, εἰ καὶ πάντων<note type="apparatus" n="4-5" target="#p450-3 #p450-4">πόθεν — ἀντιλαμβανόμεθα] πόθεν δὲ δῆλον εἰ καὶ πάντων; ὡσαύτως καὶ περὶ τῶν πλησίον A, fort. recte</note>
@@ -20059,10 +20061,10 @@
             </p>
             <pb n="452" facs="https://archive.org/download/commentariaina15akaduoft/page/n481.jpg"/>
             <p>
-              <lb n="1" xml:id="p452-0"/>ἀπορήσας φησίν. ἔχει δὲ οὕτως ἡ λύσις ὅτι δι’ ἑνὸς αἰσθητηρίου πλειόνων ο
+              <lb n="1" xml:id="p452-0"/>ἀπορήσας φησίν. ἔχει δὲ οὕτως ἡ λύσις ὅτι δι’ ἑνὸς αἰσθητηρίου πλειόνων
               <lb n="2" xml:id="p452-1"/>αἰσθητῶν ἀντιλαμβάνεται, ἅπερ αἰσθητὰ τῷ γένει διαφέρειν εἶπεν· ψόφος<note type="apparatus" n="2" target="#p452-1">ἀντιλαμβάνηται t</note>
               <lb n="3" xml:id="p452-2"/>γὰρ καὶ ὀσμὴ ἑτερογενῆ. ἀνάγκη γάρ, φησί, τὸν ἀέρα ὄντα ἐν ἀκοῇ καὶ
-              <lb n="4" xml:id="p452-3"/>ὀσφρήσει τῶν δύο ἀντιλαμβάνεσθαι καὶ ψόφου καὶ ὀσμῆς. καὶ ὀφείλων ο<milestone type="alt-edition" unit="folio" ed="Trincavelli 1535" n="o 2v"/>
+              <lb n="4" xml:id="p452-3"/>ὀσφρήσει τῶν δύο ἀντιλαμβάνεσθαι καὶ ψόφου καὶ ὀσμῆς. καὶ ὀφείλων<milestone type="alt-edition" unit="folio" ed="Trincavelli 1535" n="o 2v"/>
               <lb n="5" xml:id="p452-4"/>εἰπεῖν ὀσμὴν χρόαν εἶπεν ἀντὶ ὀσμῆς, ἵνα μὴ φύγῃ τὴν ἀσφάλειαν. καὶ
               <lb n="6" xml:id="p452-5"/>οὕτω μέν τινες ἐξηγήσαντο. ἕτεροι δέ φασιν ὅτι μᾶλλον πρὸς τὸν Ἐμπεδοκλέα<note type="apparatus" n="6" target="#p452-5">φησιν t</note>
               <lb n="7" xml:id="p452-6"/>ἐνίσταται, ὡς λέγοντος ἐκείνου ὅτι εἰ μὴ δύναται, Ἀριστότελες,<note type="apparatus" n="7" target="#p452-6">ἀριστοτέλης t</note>
@@ -20174,7 +20176,7 @@
             </p>
             <pb n="454" facs="https://archive.org/download/commentariaina15akaduoft/page/n483.jpg"/>
             <p>
-              <lb n="1" xml:id="p454-0"/>τοῦτον τὸν τρόπον. εἰ τὰ κοινὰ αἰσθητὰ ἴδιά ἐστι ταύτης τῆς ἰδικῆς ο
+              <lb n="1" xml:id="p454-0"/>τοῦτον τὸν τρόπον. εἰ τὰ κοινὰ αἰσθητὰ ἴδιά ἐστι ταύτης τῆς ἰδικῆς
               <lb n="2" xml:id="p454-1"/>αἰσθήσεως, οὐκοῦν τῶν πέντε τούτων κατὰ συμβεβηκός ἐστιν αἰσθητά. εἰ<milestone type="alt-edition" unit="line" ed="Trincavelli 1535" n="50"/>
               <lb n="3" xml:id="p454-2"/>γὰρ πρᾶγμα δύο τισὶν ὑπάρχει καὶ τοῦ ἑνὸς ἴδιόν ἐστι, δῆλον ὅτι τῷ<note type="apparatus" n="3" target="#p454-2">πρᾶγμα δύο τισὶν Α: δύο πράγματά τισιν Dt</note><note type="apparatus" n="3-4" target="#p454-2 #p454-3">τῷ ἄλλῳ D: τῷ ἄλλων t: τὸ ἄλλο Α</note>
               <lb n="4" xml:id="p454-3"/>ἄλλῳ κατὰ συμβεβηκὸς ὑπάρχει· εἰ γὰρ καὶ τοῦ ἄλλου ἴδιον, οὐκέτι ἐστὶν
@@ -20183,7 +20185,7 @@
               <lb n="7" xml:id="p454-6"/>ἐστιν αἰσθητά. ἀλλὰ μὴν οὔκ εἰσι ταῖς πέντε ταύταις κατὰ συμβεβηκὸς<note type="apparatus" n="7" target="#p454-6">ἔστιν t: εἰσὶν D: εἰσὶν ////// A</note>
               <lb n="8" xml:id="p454-7"/>αἰσθητά, ὡς δείξω· οὐκ ἄρα ἐστὶν ἕκτη αἴσθησις, ἧς ἴδιά ἐστιν
               <lb n="9" xml:id="p454-8"/>αἰσθητὰ ταῦτα τὰ λεγόμενα κοινὰ αἰσθητά. ὅτι δὲ οὐκ ἔστι κατὰ συμβεβηκὸς
-              <lb n="10" xml:id="p454-9"/>αἰσθητὰ <milestone type="alt-edition" unit="folio" ed="Trincavelli 1535" n="o 3r"/> ταῖς πέντε αἰσθήσεσι τὰ κοινὰ αἰσθητά, πάλιν τοῦτο ο
+              <lb n="10" xml:id="p454-9"/>αἰσθητὰ <milestone type="alt-edition" unit="folio" ed="Trincavelli 1535" n="o 3r"/> ταῖς πέντε αἰσθήσεσι τὰ κοινὰ αἰσθητά, πάλιν τοῦτο
               <lb n="11" xml:id="p454-10"/>ὑποθετικῶς κατασκευάζει λέγων οὕτως· τὰ κατὰ συμβεβηκὸς αἰσθητὰ οὐ<note type="apparatus" n="11" target="#p454-10">ὑποθετικῶς scripsi: ὑποθετικὸς D: ὑποθετικῷ t</note>
               <lb n="12" xml:id="p454-11"/>ποιοῦσιν πάθος εἰς τὴν αἴσθησιν, ὡς δείξω· ταῦτα δὲ ποιοῦσι περὶ τὴν
               <lb n="13" xml:id="p454-12"/>αἴσθησιν πάθος· οὐκ ἄρα κατὰ συμβεβηκός εἰσιν αἰσθητά. καὶ πόθεν
@@ -20216,7 +20218,7 @@
             </p>
             <pb n="455" facs="https://archive.org/download/commentariaina15akaduoft/page/n484.jpg"/>
             <p>
-              <lb n="1" xml:id="p455-0"/>μὲν γὰρ κατὰ συμβεβηκὸς αἰσθητὰ οὐ ποιοῦσιν πάθος περὶ τὴν αἴσθησιν, ο
+              <lb n="1" xml:id="p455-0"/>μὲν γὰρ κατὰ συμβεβηκὸς αἰσθητὰ οὐ ποιοῦσιν πάθος περὶ τὴν αἴσθησιν,
               <lb n="2" xml:id="p455-1"/>τὰ δὲ κοινὰ αἰσθητὰ ποιοῦσι πάθος περὶ τὰς αἰσθήσεις. ἔδειξε τοῦτο ἐκ
               <lb n="3" xml:id="p455-2"/>τοῦ εἰπεῖν ὅτι 〈τὰ〉 κατὰ συμβεβηκὸς αἰσθητὰ διττά ἐστιν· ἢ γὰρ τὸ ὑπὸ<note type="apparatus" n="3" target="#p455-2">τὰ addidi</note>
               <lb n="4" xml:id="p455-3"/>ἄλλης τινὸς αἰσθήσεως γινωσκόμενον καθ’ αὑτὸ ἄλλης δὲ κατὰ συμβεβηκός,
@@ -20356,7 +20358,7 @@
               <lb n="13" xml:id="p458-12"/>μὴν κατὰ τὸ αἰσθητικὸν ἰδίωμα. εἰ γὰρ καὶ ἐκινήθη ἐν ἐμοὶ ὁ τύπος<note type="apparatus" n="13-14" target="#p458-12 #p458-13">εἰ γὰρ — δίωμα A: om. D</note>
               <lb n="14" xml:id="p458-13"/>τοῦ γλυκέος, ἀλλ’ οὐ κατὰ τὸ αἰσθητικὸν ἰδίωμα· οὐδὲ γὰρ διὰ τῆς γλώττης<note type="apparatus" n="14" target="#p458-13">οὐδὲν t</note>
               <lb n="15" xml:id="p458-14"/>ἐκινήθη ἐν ἐμοὶ ἡ γλυκύτης. τὰ μέντοι γε ἴδια αἰσθητὰ δι’ αὐτοῦ τοῦ
-              <lb n="16" xml:id="p458-15"/>αἰσθητικοῦ <milestone type="alt-edition" unit="folio" ed="Trincavelli 1535" n="o 4r"/> ἰδιώματος γινώσκω· ὁρῶ γὰρ τὸ λευκὸν καὶ γεύομαι τῶν ο<note type="apparatus" n="16" target="#p458-15">γεύωμαι t</note>
+              <lb n="16" xml:id="p458-15"/>αἰσθητικοῦ <milestone type="alt-edition" unit="folio" ed="Trincavelli 1535" n="o 4r"/> ἰδιώματος γινώσκω· ὁρῶ γὰρ τὸ λευκὸν καὶ γεύομαι τῶν<note type="apparatus" n="16" target="#p458-15">γεύωμαι t</note>
               <lb n="17" xml:id="p458-16"/>γλυκέων, ὡσαύτως καὶ ἐπὶ τῶν ἄλλων. ὅρα δὲ ὅτι τὰ πέντε κοινὰ αἰσθητὰ
               <lb n="18" xml:id="p458-17"/>τῶν πέντε δέδωκεν αἰσθήσεων εἶναι κοινά· οὐκ ἔστι δὲ εἰ μὴ τὰ τρία
               <lb n="19" xml:id="p458-18"/>κοινά, ὡς εἴρηται, εἰ μὴ ἄρα εἴποις ὅτι μέγεθος λέγει τὸ ἐν ἑκάστῃ
@@ -20482,7 +20484,7 @@
           <div type="textpart" subtype="lemma" n="17">
             <milestone unit="bekker" n="425a28"/>
             <quote type="lemma">
-              <lb n="23" xml:id="p460-22"/>Οὐκ ἄρα ἐστὶν ἰδία· οὐδαμῶς γὰρ ἂν ᾐσθανόμεθα ο<note type="apparatus" n="23" target="#p460-22">ἂν om. D</note>
+              <lb n="23" xml:id="p460-22"/>Οὐκ ἄρα ἐστὶν ἰδία· οὐδαμῶς γὰρ ἂν ᾐσθανόμεθα<note type="apparatus" n="23" target="#p460-22">ἂν om. D</note>
               <lb n="24" xml:id="p460-23"/>ἀλλ’ ἢ οὕτως ὥσπερ εἴρηται τὸν Κλέωνος υἱὸν ἡμᾶς ὁρᾶν.<note type="apparatus" n="24" target="#p460-23">ἢ D Arist. vulg.: om. t Arist. ELTV</note>
             </quote>
             <p>
@@ -20584,7 +20586,7 @@
             <milestone unit="bekker" n="425b12"/>
             <quote type="lemma">
               <lb n="24" xml:id="p462-23"/>Ἐπειδὴ αἰσθανόμεθα ὅτι ὁρῶμεν καὶ ἀκούομεν,<note type="apparatus" n="24" target="#p462-23">ἐπειδὴ D: ἐπεὶ δ’ t Arist.</note>
-              <lb n="25" xml:id="p462-24"/>ἀνάγκη ἢ τῇ ὄψει αἰσθάνεσθαι ὅτι ὁρᾷ ἢ ἑτέρα, καὶ τὰ λοιπά.<note type="apparatus" n="25" target="#p462-24">ἕτερα D</note>
+              <lb n="25" xml:id="p462-24"/>ἀνάγκη ἢ τῇ ὄψει αἰσθάνεσθαι ὅτι ὁρᾷ ἢ ἑτέρᾳ, καὶ τὰ λοιπά.<note type="apparatus" n="25" target="#p462-24">ἕτερα D</note>
             </quote>
             <p>
               <lb n="26" xml:id="p462-25"/>Ἐπειδὴ ἐν τοῖς προλαβοῦσιν ἔδειξεν ὅτι οὐκ ἔστιν ἕκτη αἴσθησις, ἥτις
@@ -20806,7 +20808,7 @@
             </p>
             <pb n="468" facs="https://archive.org/download/commentariaina15akaduoft/page/n497.jpg"/>
             <p>
-              <lb n="1" xml:id="p468-0"/>ἄλλη ἔστι δύναμις ἡ αἰσθανομένη τῆς ἐνεργείας. ὥστε ἐπὶ τῆς πρώτης ο
+              <lb n="1" xml:id="p468-0"/>ἄλλη ἔστι δύναμις ἡ αἰσθανομένη τῆς ἐνεργείας. ὥστε ἐπὶ τῆς πρώτης
               <lb n="2" xml:id="p468-1"/>τοῦτο ποιητέον, ὡσεὶ ἔλεγεν ὅτι δεῖ στῆναι ἐπὶ τῆς πρώτης καὶ εἰπεῖν
               <lb n="3" xml:id="p468-2"/>ὅτι αὐτὴ ἑαυτῆς ἀντιλαμβάνεται καὶ γινώσκει ἡ ὄψις ὅτι αἰσθάνεται τοῦ<note type="apparatus" n="3" target="#p468-2">ἀντιλαμβάνηται t</note>
               <lb n="4" xml:id="p468-3"/>χρώματος, ὁμοίως καὶ ἡ ἀκοὴ τοῦ ἀκουστοῦ, ὡσαύτως καὶ αἱ λοιπαί. εἰ<milestone type="alt-edition" unit="line" ed="Trincavelli 1535" n="25"/>
@@ -20942,7 +20944,7 @@
             </p>
             <pb n="471" facs="https://archive.org/download/commentariaina15akaduoft/page/n500.jpg"/>
             <p>
-              <lb n="1" xml:id="p471-0"/>μὲν γὰρ αἴσθησις πάσχει, τὸ δὲ αἰσθητὸν ποιεῖ· ὥστε οὐ προσίεμαι τοῦτο, ο
+              <lb n="1" xml:id="p471-0"/>μὲν γὰρ αἴσθησις πάσχει, τὸ δὲ αἰσθητὸν ποιεῖ· ὥστε οὐ προσίεμαι τοῦτο,
               <lb n="2" xml:id="p471-1"/>ὦ Ἀλέξανδρε, ὅτι καθὸ ἡ αὐτή ἐστι τῷ κατ’ ἐνέργειαν αἰσθητῷ ἡ κατ’
               <lb n="3" xml:id="p471-2"/>ἐνέργειαν αἴσθησις, κατὰ τοῦτο γινώσκει. εἰ δὲ καὶ τοῦτο συγχωρήσω
               <lb n="4" xml:id="p471-3"/>σοι (αἰσθάνεται γὰρ ἡ κατ’ ἐνέργειαν αἴσθησις οὐ τῆς σχέσεως, ἀλλ’<note type="apparatus" n="4-5" target="#p471-3 #p471-4">οὐ — ἀλλ’ ἐκ- in ras. D¹</note>
@@ -20961,7 +20963,7 @@
               <lb n="17" xml:id="p471-16"/>οὐκ εἰσιν ἅμα· καὶ αὐτὰ γὰρ κατὰ τὸν νόμον τῶν πρός τί εἰσι, καὶ<note type="apparatus" n="17" target="#p471-16">αὐτὰ scripsi: αὐτὸ Dt</note>
               <lb n="18" xml:id="p471-17"/>εἰ ἔστιν ἡ δυνάμει αἴσθησις, ἔστι καὶ τὸ δυνάμει αἰσθητόν, καὶ εἰ
               <lb n="19" xml:id="p471-18"/>μή ἐστιν αὕτη, οὐδὲ ἐκεῖνο ἔσται· ὥστε κατὰ μὲν τὸ εἶναι συμφωνεῖ<note type="apparatus" n="19" target="#p471-18">οὐδὲ scripsi: οὔτε Dt</note>
-              <lb n="20" xml:id="p471-19"/>τὸ δυνάμει αἰσθη<milestone type="alt-edition" unit="folio" ed="Trincavelli 1535" n="o 7r"/>τὸν τῷ ἐνεργείᾳ αἰσθητῷ καὶ ἡ δυνάμει αἴσθησις ο
+              <lb n="20" xml:id="p471-19"/>τὸ δυνάμει αἰσθη<milestone type="alt-edition" unit="folio" ed="Trincavelli 1535" n="o 7r"/>τὸν τῷ ἐνεργείᾳ αἰσθητῷ καὶ ἡ δυνάμει αἴσθησις
               <lb n="21" xml:id="p471-20"/>τῇ ἐνεργείᾳ αἰσθήσει· διαφωνεῖ δὲ καθὸ ἡ μὲν ἐνεργείᾳ αἴσθησις ἡ αὐτή
               <lb n="22" xml:id="p471-21"/>ἐστι τῷ ἐνεργείᾳ αἰσθητῷ, ἡ δὲ δυνάμει αἴσθησις οὐκ ἔστιν ἡ αὐτὴ τῷ
               <lb n="23" xml:id="p471-22"/>δυνάμει αἰσθητῷ, καὶ τοῦτο εἰκότως· οὔτε γάρ ἐστιν ἐνταῦθα τὸ συμφύον
@@ -20994,7 +20996,7 @@
               <lb n="10" xml:id="p472-9"/>τῶν ς ἀφέλῃς ἕν, οὐ φυλάττεται τὸ διπλάσιον· ὁ γὰρ λόγος οὐκ ἀνέχεται<note type="apparatus" n="10" target="#p472-9">ς scripsi: ς’ δύο t: ὃ D: πέντε A ὁ] οὐ D</note>
               <lb n="11" xml:id="p472-10"/>ἑνὸς ὅρου προσθήκης ἢ ἐλλείψεως. καλῶς δὲ εἶπεν ἑνὸς ὅρου· εἰ γὰρ<note type="apparatus" n="11 et 14" target="#p472-10 #p472-13">προσθήκην et ἔλλειψιν t 12 τὸ μὲν γ’ t</note><milestone type="alt-edition" unit="line" ed="Trincavelli 1535" n="20"/>
               <lb n="12" xml:id="p472-11"/>ἀμφοτέροις προσθῇς, οἷον τῷ μὲν γ ἕν, τῷ δὲ ς δύο, πάλιν ὁ τοῦ διπλασίου
-              <lb n="13" xml:id="p472-12"/>λόγος φυλάττεται ἢ πρὸς δ, διὸ εἴρηται ἑνός. εἰ οὖν ὁ λόγος οὐκ ἀνεχεται
+              <lb n="13" xml:id="p472-12"/>λόγος φυλάττεται ἢ πρὸς δ, διὸ εἴρηται ἑνός. εἰ οὖν ὁ λόγος οὐκ ἀνέχεται
               <lb n="14" xml:id="p472-13"/>προσθήκης ἑνὸς ὅρου ἢ ἐλλείψεως, ἐπεὶ φθείρεται, οὐκ ἄρα οὐδὲ ἡ<note type="apparatus" n="14" target="#p472-13">ἡ om. t</note>
               <lb n="15" xml:id="p472-14"/>αἴσθησις προσδέχεται ἔλλειψιν ἢ πρόσθεσιν τοῦ αἰσθητοῦ, ἐπεὶ φθείρεται.
               <lb n="16" xml:id="p472-15"/>ἀλλ’ ἡ μὲν ὑπερβολὴ ἀθρόως φθείρει (ἅμα γὰρ 〈ἐὰν〉 ἀντιλάβηται, πάσχει ἢ<note type="apparatus" n="16" target="#p472-15">ἐὰν addidi ἀντιλάβῃ (superscr. τ) D: ἀντιλάβοιτο At</note>
@@ -21020,7 +21022,7 @@
             </p>
             <pb n="473" facs="https://archive.org/download/commentariaina15akaduoft/page/n502.jpg"/>
             <p>
-              <lb n="1" xml:id="p473-0"/>συμφωνία λόγος, ὁ δὲ λόγος οὐκ ἀνέχεται ἑνὸς ὅρου προσθήκης, καὶ ο<note type="apparatus" n="1" target="#p473-0">προσθήκης D: προσθήκην t: προσθήκας A</note>
+              <lb n="1" xml:id="p473-0"/>συμφωνία λόγος, ὁ δὲ λόγος οὐκ ἀνέχεται ἑνὸς ὅρου προσθήκης, καὶ<note type="apparatus" n="1" target="#p473-0">προσθήκης D: προσθήκην t: προσθήκας A</note>
               <lb n="2" xml:id="p473-1"/>τὰ λοιπὰ ὡς ἀνωτέρω εἴρηται. ἔδοξε δὲ Συριανῷ εἰπεῖν ὅτι κἂν μὴ
               <lb n="3" xml:id="p473-2"/>ἐμνήσθη ἐν τῇ πλοκῇ τῆς φωνῆς, οὐκ ἔλειπεν ὁ λόγος. εἰ γὰρ εἶπεν<note type="apparatus" n="3" target="#p473-2">ἔλειπεν D: ἔλιπεν t</note>
               <lb n="4" xml:id="p473-3"/>‘ἡ κατ’ ἐνέργειαν ἀκοὴ συμφωνία ἐστί,’ δῆλον ὅτι συμφωνία ἐστὶν ἡ ἀκοὴ<note type="apparatus" n="4" target="#p473-3">δῆλον ὅτι iterat D</note>
@@ -21049,7 +21051,7 @@
             <p>
               <lb n="21" xml:id="p473-20"/>Εἰπὼν ὅτι ἡ κατ’ ἐνέργειαν αἴσθησις καὶ τὸ κατ’ ἐνέργειαν αἰσθητὸν
               <lb n="22" xml:id="p473-21"/>τῷ ὑποκειμένῳ ταὐτόν εἰσιν, ἐπεὶ κατὰ τὸ εἶναι, τουτέστι κατὰ τὸν λόγον,
-              <lb n="23" xml:id="p473-22"/>διαφέρουσιν, ὥσπερ ἀνάβασις καὶ κατάβασις ταὐτὸν τῷ ὑποκειμένῳ (ἐν ο<note type="apparatus" n="23" target="#p473-22">καὶ] ἡ t</note><milestone type="alt-edition" unit="folio" ed="Trincavelli 1535" n="o 7v"/>
+              <lb n="23" xml:id="p473-22"/>διαφέρουσιν, ὥσπερ ἀνάβασις καὶ κατάβασις ταὐτὸν τῷ ὑποκειμένῳ (ἐν<note type="apparatus" n="23" target="#p473-22">καὶ] ἡ t</note><milestone type="alt-edition" unit="folio" ed="Trincavelli 1535" n="o 7v"/>
               <lb n="24" xml:id="p473-23"/>κλίμακι γὰρ ἄμφω) τῷ δὲ λόγῳ διάφορα (ἄλλο γάρ ἐστιν ἀνάβασις καὶ
               <lb n="25" xml:id="p473-24"/>ἄλλο κατάβασις), φησὶν ὅτι τοῦτο μόνον ἁρμόζει ἐπὶ τῶν κατ’ ἐνέργειαν,
               <lb n="26" xml:id="p473-25"/>ἐπεί τοί γε ἐπὶ τῶν δυνάμει οὔ. ἔστι γὰρ καὶ δυνάμει αἴσθησις καὶ δυνάμει<note type="apparatus" n="26" target="#p473-25">αἴσθησις] αἴσθησιν t</note>
@@ -21070,7 +21072,7 @@
             </p>
             <pb n="474" facs="https://archive.org/download/commentariaina15akaduoft/page/n503.jpg"/>
             <p>
-              <lb n="1" xml:id="p474-0"/>ὅπου μὲν κίνησις, ἐκεῖ καὶ ποίησις, οὐχ ὅπου δὲ ποίησις, ἐκεῖ καὶ κίνησις. ὁ<note type="apparatus" n="1" target="#p474-0">μὲν] μὴ t</note>
+              <lb n="1" xml:id="p474-0"/>ὅπου μὲν κίνησις, ἐκεῖ καὶ ποίησις, οὐχ ὅπου δὲ ποίησις, ἐκεῖ καὶ κίνησις.<note type="apparatus" n="1" target="#p474-0">μὲν] μὴ t</note>
               <lb n="2" xml:id="p474-1"/>ὁ γὰρ δημιουργὸς ποιεῖ μέν, ἀκίνητος δὲ ὢν ποιεῖ. καὶ τὸ πάθος δὲ καὶ<milestone type="alt-edition" unit="line" ed="Trincavelli 1535" n="11"/>
               <lb n="3" xml:id="p474-2"/>ἡ ποίησις κινήσεις εἰσίν, ἀλλ’ αὕτη ἡ κίνησις, εἰ μὲν πρὸς τὸ ποιοῦν
               <lb n="4" xml:id="p474-3"/>παραβάλλεται, ποίησις λέγεται, εἰ δὲ πρὸς τὸ πάσχον, πάθησις. ἐν τῷ
@@ -21116,7 +21118,7 @@
             </p>
             <pb n="475" facs="https://archive.org/download/commentariaina15akaduoft/page/n504.jpg"/>
             <p>
-              <lb n="1" xml:id="p475-0"/>ἐκ τοῦ ἔχοντος ἄλλο χρῶμα, ὥστε οὐκ ἐξ αὐτοῦ τοῦ ὑποκειμένου ἐστίν, ο
+              <lb n="1" xml:id="p475-0"/>ἐκ τοῦ ἔχοντος ἄλλο χρῶμα, ὥστε οὐκ ἐξ αὐτοῦ τοῦ ὑποκειμένου ἐστίν,
               <lb n="2" xml:id="p475-1"/>ἡ δὲ ψόφησις ἐξ αὐτοῦ ἐστι τοῦ ὑποκειμένου. εἶτα πάλιν ζητοῦμεν, διὰ<milestone type="alt-edition" unit="line" ed="Trincavelli 1535" n="40"/>
               <lb n="3" xml:id="p475-2"/>τί μὴ λέγομεν χύμωσιν ἐκ τοῦ ὑποκειμένου τῇ γεύσει, ὥσπερ λέγομεν
               <lb n="4" xml:id="p475-3"/>γεῦσιν ἐκ τῆς αἰσθήσεως. εἰπὲ πρὸς τοῦτο ὅτι τὸ τῆς χυμώσεως ὄνομα
@@ -21149,7 +21151,7 @@
               <lb n="17" xml:id="p475-16"/>εἶναι· ἀνάγκη γὰρ καὶ αὐτὰ τῷ νόμῳ τῶν πρός τι ἅμα εἶναι. τὸ δυνάμει
               <lb n="18" xml:id="p475-17"/>γὰρ αἰσθητὸν ἅμα ἐστὶ τῇ δυνάμει αἰσθήσει, ὥσπερ καὶ τὸ ἐνεργείᾳ
               <lb n="19" xml:id="p475-18"/>αἰσθητὸν τῇ ἐνεργείᾳ αἰσθήσει. τί οὖν λέγει τὸ οὐκ ἀνάγκη; ἢ δῆλον ὅτι
-              <lb n="20" xml:id="p475-19"/>τὸ πρῶτον, ὅτι οὐκ ἀνάγκη τὴν δυνάμει αἴσθησιν τὴν αὐτὴν εἶναι ο<note type="apparatus" n="20-21" target="#p475-19 #p475-20">εἶναι καὶ τῷ D</note><milestone type="alt-edition" unit="folio" ed="Trincavelli 1535" n="o 8r"/>
+              <lb n="20" xml:id="p475-19"/>τὸ πρῶτον, ὅτι οὐκ ἀνάγκη τὴν δυνάμει αἴσθησιν τὴν αὐτὴν εἶναι<note type="apparatus" n="20-21" target="#p475-19 #p475-20">εἶναι καὶ τῷ D</note><milestone type="alt-edition" unit="folio" ed="Trincavelli 1535" n="o 8r"/>
               <lb n="21" xml:id="p475-20"/>τῷ δυνάμει αἰσθητῷ, ὡς ἐν τῇ θεωρίᾳ εἴρηται.
             </p>
           </div>
@@ -21232,7 +21234,7 @@
             </p>
             <pb n="477" facs="https://archive.org/download/commentariaina15akaduoft/page/n506.jpg"/>
             <p>
-              <lb n="1" xml:id="p477-0"/>λόγος ὑπερβολῆς οὐκ ἀνέχεται· διὰ τοῦτο οὐδὲ ἡ αἴσθησις ὡς λόγος καὶ ο<note type="apparatus" n="1" target="#p477-0">οὐδὲ] δὲ t</note>
+              <lb n="1" xml:id="p477-0"/>λόγος ὑπερβολῆς οὐκ ἀνέχεται· διὰ τοῦτο οὐδὲ ἡ αἴσθησις ὡς λόγος καὶ<note type="apparatus" n="1" target="#p477-0">οὐδὲ] δὲ t</note>
               <lb n="2" xml:id="p477-1"/>συμμετρία τις.
             </p>
           </div>
@@ -21277,7 +21279,7 @@
               <lb n="22" xml:id="p477-21"/>ἄλλη αἴσθησις ἕκτη ἀντιδιῃρημένη ταῖς πέντε ταύταις, ἵνα μή τις οἰηθῇ ὅτι
               <lb n="23" xml:id="p477-22"/>τούτῳ τῷ λόγῳ οὐδὲ ἡ κοινή ἐστιν αἴσθησις, βούλεται διὰ τούτων δεῖξαι<note type="apparatus" n="23" target="#p477-22">οὐδὲ scripsi: οὔτε ADt</note>
               <lb n="24" xml:id="p477-23"/>ὅτι ἔστιν ἡ κοινὴ αἴσθησις, καὶ οὐ μόνον τοῦτο, ἀλλ’ ὅτι καὶ ἀσώματός
-              <lb n="25" xml:id="p477-24"/>ἔστιν αὕτη ἡ κοινὴ αἴσθησις, <milestone type="alt-edition" unit="folio" ed="Trincavelli 1535" n="o 8v"/> τρίτον πρὸς τούτοις, ὅτι ἀχρόνως ἐνεργεῖ· ο
+              <lb n="25" xml:id="p477-24"/>ἔστιν αὕτη ἡ κοινὴ αἴσθησις, <milestone type="alt-edition" unit="folio" ed="Trincavelli 1535" n="o 8v"/> τρίτον πρὸς τούτοις, ὅτι ἀχρόνως ἐνεργεῖ·
               <lb n="26" xml:id="p477-25"/>οὔτε γὰρ ἐν ἄλλῳ χρόνῳ οἶδεν τὸ γλυκύ, ἐν ἄλλῳ δὲ τὸ λευκόν, ἀλλ’ ἐν τῷ<note type="apparatus" n="26-27" target="#p477-25 #p477-26">ἀλλ’ ἐν τῷ — λευκόν At: om. D</note>
               <lb n="27" xml:id="p477-26"/>αὐτῷ νῦν γινώσκει ὅτι τόδε μὲν γλυκύ ἐστι, τόδε δὲ λευκόν. // τέταρτον δὲ<note type="apparatus" n="27" target="#p477-26">τόδε δὲ A: τὸ δὲ t δὲ post τέταρτον At: om. D</note>
               <lb n="28" xml:id="p477-27"/>ἀπορίαν προβάλλεται πρὸς τὴν κοινὴν αἴσθησιν καὶ λύει τὴν ἀπορίαν ψευδῶς,
@@ -21287,7 +21289,7 @@
             </p>
             <pb n="478" facs="https://archive.org/download/commentariaina15akaduoft/page/n507.jpg"/>
             <p>
-              <lb n="1" xml:id="p478-0"/>τὸν τρόπον τοῦτον. ἐπειδήπερ οὐ μόνον ἴσμεν τὴν διαφορὰν τῶν ὁμογενῶν, ο
+              <lb n="1" xml:id="p478-0"/>τὸν τρόπον τοῦτον. ἐπειδήπερ οὐ μόνον ἴσμεν τὴν διαφορὰν τῶν ὁμογενῶν,
               <lb n="2" xml:id="p478-1"/>οἷον λευκοῦ καὶ μέλανος καὶ φαιοῦ καὶ ξανθοῦ καὶ τῶν τοιούτων, ἀλλὰ
               <lb n="3" xml:id="p478-2"/>καὶ τῶν ἀνομοιοειδῶν, οἷον λευκοῦ καὶ γλυκέος, ζητητέον ποῖόν ἐστι μόριον<note type="apparatus" n="3" target="#p478-2">ἀνομοιοειδῶν A: ὁμοειδῶν Dt: fort. ἀνομογενῶν, cf. v. 25</note>
               <lb n="4" xml:id="p478-3"/>τῆς ψυχῆς τὸ γινῶσκον ταύτην τὴν διαφοράν. κἂν γὰρ ὁ νοῦς γινώσκῃ
@@ -22482,7 +22484,7 @@
             </p>
             <pb n="504" facs="https://archive.org/download/commentariaina15akaduoft/page/n533.jpg"/>
             <p>
-              <lb n="1" xml:id="p504-0"/>ὡς μέση τούτων ἑκατέρων τῶν ἄκρων τὴν γνῶσιν ἀποφυγεῖν καὶ εἰπειν
+              <lb n="1" xml:id="p504-0"/>ὡς μέση τούτων ἑκατέρων τῶν ἄκρων τὴν γνῶσιν ἀποφυγεῖν καὶ εἰπεῖν
               <lb n="2" xml:id="p504-1"/>τὸν ἥλιον ἑκατονταπλάσιον εἶναι τῆς γῆς. ἀλλὰ μὴν οὐ λέγει τοῦτο·
               <lb n="3" xml:id="p504-2"/>οὐκ ἄρα κρᾶσίς ἐστιν ἡ φαντασία δόξης τε καὶ αἰσθήσεως. καὶ ταῦτα μὲν
               <lb n="4" xml:id="p504-3"/>ἐν τούτοις. φαίνεται δὲ πρὸς Πλάτωνα ταῦτα λέγων ὁ Ἀριστοτέλης ὅτι<milestone type="alt-edition" unit="line" ed="Trincavelli 1535" n="20"/>
@@ -22502,7 +22504,7 @@
               <lb n="18" xml:id="p504-17"/>τοῦτο· εἰ οὖν περὶ τὸ μὴ ὂν καταγίνομαι, ἔστιν ἄρα τὸ μὴ ὄν.’ ταῦτα
               <lb n="19" xml:id="p504-18"/>τοῦ σοφιστοῦ εἰπόντος ὁ Σωκράτης ἀντεῖπεν, ὅτι πολλαχῶς τὸ μὴ ὄν·<milestone type="alt-edition" unit="line" ed="Trincavelli 1535" n="30"/>
               <lb n="20" xml:id="p504-19"/>ἢ γὰρ τὸ ἄρρητον τὸ μηδαμῇ μηδαμῶς ὄν, ἢ τὸ καθ’ ἑτερότητα ἢ τὸ
-              <lb n="21" xml:id="p504-20"/>κρεῖττον οὐσίας, ὃ ὑπερούσιον λέγεται, ἢ τὸ χεῖρον οὐσίας, ὁ μετούσιον
+              <lb n="21" xml:id="p504-20"/>κρεῖττον οὐσίας, ὃ ὑπερούσιον λέγεται, ἢ τὸ χεῖρον οὐσίας, <choice><sic>ὁ</sic><corr>ὃ</corr></choice> μετούσιον
               <lb n="22" xml:id="p504-21"/>λέγεται· λέγεται δὲ μὴ ὂν καὶ τὸ ψεῦδος. καὶ πολλὰς διαφορὰς λέγων
               <lb n="23" xml:id="p504-22"/>ἐκεῖ τοῦ ψεύδους λέγει καὶ ἓν εἶδος ψεύδους τὸ περὶ τὰ δοκοῦντα ἀληθῆ,
               <lb n="24" xml:id="p504-23"/>ὡς ἐν τῇ κεκλασμένῃ κώπῃ, ὅπερ ψεῦδος εἶπε φαντασίαν ἀπὸ δόξης καὶ<note type="apparatus" n="24" target="#p504-23">ὡς D2: γὰρ t κοπῇ D</note>
@@ -24057,7 +24059,7 @@
               <lb n="35" xml:id="p537-34"/>πρώτη αἰτία κατ’ οὐδένα τρόπον δυνάμει ἐστίν. / καὶ πάλιν φησὶ περὶ<note type="apparatus" n="35" target="#p537-34">οὐδὲν t</note>
               <lb n="36" xml:id="p537-35"/>αὐτοῦ Ἀριστοτέλης ὅτι τῷ μὲν ὑποκειμένῳ ὁ αὐτός ἐστι, τῷ δὲ χρόνῳ
               <lb n="37" xml:id="p537-36"/>διάφορος παρὰ τὸ δυνάμει καὶ ἐνεργείᾳ· ἡ δὲ πρώτη αἰτία κατ’ οὐδένα
-              <lb n="38" xml:id="p537-37"/>τρόπον πρότερον ἑαυτῆς τι ἔχει ἡ δυνάμει ἢ ἐνεργείᾳ. // ἄλλως τε δὲ καὶ<note type="apparatus" n="38" target="#p537-37">ἡ δυνάμει t</note><milestone type="alt-edition" unit="line" ed="Trincavelli 1535" n="10"/>
+              <lb n="38" xml:id="p537-37"/>τρόπον πρότερον ἑαυτῆς τι ἔχει ἢ δυνάμει ἢ ἐνεργείᾳ. // ἄλλως τε δὲ καὶ<note type="apparatus" n="38" target="#p537-37">ἡ δυνάμει t</note><milestone type="alt-edition" unit="line" ed="Trincavelli 1535" n="10"/>
               <lb n="39" xml:id="p537-38"/>ἐπιλανθάνεσθαι λέγει τὸν νοῦν· τοῦτο δὲ ποῦ ὑπάρξει τῷ θύραθεν; ὁ γὰρ<note type="apparatus" n="39" target="#p537-38">τῷ] τὸ t</note>
               <lb n="40" xml:id="p537-39"/>ἐν ἡμῖν νοῦς ἐστιν ὁ ἐπιλανθανόμενος διὰ τὴν πρὸς τὸ σῶμα σχέσιν ἐμποδιζόμενος.
               <lb n="41" xml:id="p537-40"/>πάντα οὖν ὅσα λέγει ἁρμόζειν Ἀριστοτέλης τῷ ἐνεργείᾳ νῷ,
@@ -24093,7 +24095,7 @@
               <lb n="27" xml:id="p538-26"/>κρείττονος, ὥσπερ ἀπὸ ἑνὸς τιμιωτέρου πολλάκις τὸ πᾶν δηλοῦμεν, ὡς τὸ<note type="apparatus" n="27" target="#p538-26">τὸ πᾶν Pal.: τὸ om. Dt</note>
               <lb n="28" xml:id="p538-27"/>“Τεῦκρε, φίλη κεφαλή”. καὶ τοῦτο οὖν ἁρμόττει τῷ ἐνεργείᾳ νῷ τοῦ ἀνθρώπου·<note type="apparatus" n="28" target="#p538-27">Τεῦκρε — κεφαλή] Il. Θ 281</note>
               <lb n="29" xml:id="p538-28"/>ἐνεργείᾳ γὰρ ὢν νοεῖ· ὁ δὲ θύραθεν αὐτόθεν ἐνέργειά ἐστιν. ὅτι<note type="apparatus" n="29" target="#p538-28">ἐνέργειά Pal.: ἐνεργείᾳ Dt</note>
-              <lb n="30" xml:id="p538-29"/>δὲ κατὰ τὸ τίμιον ἔλαβε τὴν οὐσίαν, δηλοῖ εἰπὼν ὅτι γὰρ τοῦτο οὕτω,
+              <lb n="30" xml:id="p538-29"/>δὲ κατὰ τὸ τίμιον ἔλαβε τὴν οὐσίαν, δηλοῖ εἰπὼν ‘ὅτι γὰρ τοῦτο οὕτω,
               <lb n="31" xml:id="p538-30"/>δῆλον· τὸ γὰρ ποιοῦν τοῦ πάσχοντος τιμιώτερον, καὶ ἡ ἀρχὴ τῆς ὕλης’.
               <lb n="32" xml:id="p538-31"/>ὥστε τὴν οὐσίαν ὡς τιμιωτέραν παρέλαβε. καὶ τὸ τρίτον δὲ ἁρμόζει αὐτῷ,
               <lb n="33" xml:id="p538-32"/>ὅτι ὁ νοῦς ἀεὶ νοεῖ, οὐχ ὡς Πλωτῖνος οἴεται, ὅτι ἀεὶ διὰ παντὸς ὁ<note type="apparatus" n="33" target="#p538-32">Πλωτῖνος] Enn. V 9,5</note>
@@ -24721,15 +24723,15 @@
           <div type="textpart" subtype="lemma" n="136">
             <milestone unit="bekker" n="430b20"/>
             <quote type="lemma">
-              <lb n="1" xml:id="p552-0"/>Ἡ δὲ στιγμὴ καὶ πᾶσα διαίρεσις. r1v
+              <lb n="1" xml:id="p552-0"/>Ἡ δὲ στιγμὴ καὶ πᾶσα διαίρεσις.
             </quote>
             <p>
               <lb n="2" xml:id="p552-1"/>Ἐντεῦθεν ἄλλο ἐστὶ σημαινόμενον τοῦ ἀδιαιρέτου, τὸ ἐν ποσῷ ἀδιαίρετον,
               <lb n="3" xml:id="p552-2"/>ταὐτὸν δὲ εἰπεῖν περὶ τῶν πάντῃ ἀδιαιρέτων. ἀλλ’ ἐπειδὴ τῶν<note type="apparatus" n="3 et 4" target="#p552-2 #p552-3">ἀδιαιρέτων scripsi: διαιρετῶν Dt</note>
               <lb n="4" xml:id="p552-3"/>πάντῃ ἀδιαιρέτων τὰ μὲν κατὰ στέρησιν γινώσκεται, τὰ δὲ καθ’ αὑτά,
               <lb n="5" xml:id="p552-4"/>πρῶτον περὶ τῶν κατὰ στέρησιν λέγει ὡς γνωριμωτέρων ἡμῖν ὄντων, οἷον,<note type="apparatus" n="5" target="#p552-4">οἷον] οἳ D</note>
-              <lb n="6" xml:id="p552-5"/>φησί, στιγμή· αὕτη γάρ, ὡς ἐν τῇ θεωρίᾳ εἴρηται, τῇ ἀποφάσει τοῦ συνεγοῦς<milestone type="alt-edition" unit="line" ed="Trincavelli 1535" n="35"/>
-              <lb n="7" xml:id="p552-6"/>γινώσκεται. καὶ μετὰ τὴν στιγμὴν ἐπάγει καὶ τὸ οὕτως ἀδιαιρετον,
+              <lb n="6" xml:id="p552-5"/>φησί, στιγμή· αὕτη γάρ, ὡς ἐν τῇ θεωρίᾳ εἴρηται, τῇ ἀποφάσει τοῦ συνεχοῦς<milestone type="alt-edition" unit="line" ed="Trincavelli 1535" n="35"/>
+              <lb n="7" xml:id="p552-6"/>γινώσκεται. καὶ μετὰ τὴν στιγμὴν ἐπάγει καὶ τὸ οὕτως ἀδιαίρετον,
               <lb n="8" xml:id="p552-7"/>ἵνα εἴπῃ γραμμὴν καὶ ἐπιφάνειαν· ταῦτα γὰρ ἑτέρων ἐστὶ πέρατα.<note type="apparatus" n="8" target="#p552-7">εἴπῃ] εἰπὲ t ἐπιφάνεια t</note>
               <lb n="9" xml:id="p552-8"/>καὶ ἴσως ἔστιν εἰπεῖν ‘τί οὖν; ἡ γραμμὴ καὶ τὸ ἐπίπεδον ἀδιαίρετά ἐστι; καὶ<note type="apparatus" n="9" target="#p552-8">ἔστιν scripsi: τινὰ Dt</note>
               <lb n="10" xml:id="p552-9"/>λέγομεν ὅτι, καθὸ μὲν ἑτέρων εἰσὶ πέρατα, ἀδιαίρετά εἰσιν· ὅλως δὲ τούτων
@@ -25010,7 +25012,7 @@
             </p>
             <pb n="558" facs="https://archive.org/download/commentariaina15akaduoft/page/n587.jpg"/>
             <p>
-              <lb n="1" xml:id="p558-0"/>ἐν ἄλλῳ ἐστὶν ἐνεργείᾳ ὄντι ἄλλο τι, οἷον τὸ σπέρμα δυνάμει ἐστὶν ἔμβρυον, r
+              <lb n="1" xml:id="p558-0"/>ἐν ἄλλῳ ἐστὶν ἐνεργείᾳ ὄντι ἄλλο τι, οἷον τὸ σπέρμα δυνάμει ἐστὶν ἔμβρυον,
               <lb n="2" xml:id="p558-1"/>ἐνεργείᾳ δὲ σπέρμα, καὶ ὁ ἄρτος δυνάμει ἐστὶν αἷμα, ἐνεργείᾳ δὲ ἄρτος.
               <lb n="3" xml:id="p558-2"/>νομίζω δὲ μὴ καλῶς λέγειν αὐτούς· οὐδὲν γὰρ μόνως ἀεὶ ἐντελέχειά ἐστιν<milestone type="alt-edition" unit="line" ed="Trincavelli 1535" n="15"/>
               <lb n="4" xml:id="p558-3"/>ἐξ οὗ πάντα προάγεται, εἰ μὴ μόνος ὁ δημιουργός. ἐνταῦθα δὲ γενόμενος
@@ -26197,7 +26199,7 @@
             </p>
             <pb n="583" facs="https://archive.org/download/commentariaina15akaduoft/page/n612.jpg"/>
             <p>
-              <lb n="1" xml:id="p583-0"/>μόνιμα τῶν ζῴων τὰ ὀργανικὰ μόρια τῆς πορείας, τέλεια ὄντα καὶ μὴ 5 Ir<note type="apparatus" n="1" target="#p583-0">ὄντα καὶ μὴ] ἔχειν καὶ μὴ εἶναι D</note>
+              <lb n="1" xml:id="p583-0"/>μόνιμα τῶν ζῴων τὰ ὀργανικὰ μόρια τῆς πορείας, τέλεια ὄντα καὶ μὴ<note type="apparatus" n="1" target="#p583-0">ὄντα καὶ μὴ] ἔχειν καὶ μὴ εἶναι D</note>
               <lb n="2" xml:id="p583-1"/>πηρώματα. ὅτι δὲ πηρώματα οὐκ ἔστι, σημεῖον τὸ γεννητικὸν καὶ τὸ
               <lb n="3" xml:id="p583-2"/>ἀκμὴν ἔχειν καὶ φθίσιν.
             </p>
@@ -26497,11 +26499,11 @@
               <lb n="23" xml:id="p588-22"/>κίνησις. τοιαύτη δέ ἐστιν ἡ κατ’ ἀγκῶνα τῶν χειρῶν ἡμῶν διάρθρωσις.
               <lb n="24" xml:id="p588-23"/>ἐπεὶ οὖν τὸ πνεῦμα καὶ ἐζωωμένον ἐστὶ καὶ ἁπλῶς πνεῦμα, καὶ ταῦτα τῷ<milestone type="alt-edition" unit="line" ed="Trincavelli 1535" n="5"/>
               <lb n="25" xml:id="p588-24"/>μὲν λόγῳ καὶ τῇ σχέσει διάφορά ἐστι, τῷ δὲ ὑποκειμένῳ τὰ αὐτά (ἐν τῷ
-              <lb n="26" xml:id="p588-25"/>πνεύματι γὰρ ἡ ζωή, καὶ κινεῖται τοῦτο ὡς πνεῦμα, οὐχ ὡς ἐξωωμένον
+              <lb n="26" xml:id="p588-25"/>πνεύματι γὰρ ἡ ζωή, καὶ κινεῖται τοῦτο ὡς πνεῦμα, οὐχ ὡς ἐζωωμένον
               <lb n="27" xml:id="p588-26"/>πνεῦμα· τὴν γὰρ ψυχὴν ἀκίνητον λέγει Ἀριστοτέλης), διὰ τοῦτο οὖν
               <lb n="28" xml:id="p588-27"/>γιγγλύμῳ αὐτὸ ἀπεικάζει, ἐπειδὴ ὥσπερ ἐν τῷ γιγγλύμῳ ἔστι τι κινοῦν
               <lb n="29" xml:id="p588-28"/>καὶ ἀκίνητον, καὶ ταῦτα τῷ μὲν λόγῳ καὶ τῇ σχέσει διάφορα, τῷ δὲ ὑποκειμένῳ
-              <lb n="30" xml:id="p588-29"/>τὰ αὐτά, οὕτω καὶ ἐν τῷ πνεύματί ἐστί τι ἀκίνητον, τὸ ἐξωωμένον,
+              <lb n="30" xml:id="p588-29"/>τὰ αὐτά, οὕτω καὶ ἐν τῷ πνεύματί ἐστί τι ἀκίνητον, τὸ ἐζωωμένον,
               <lb n="31" xml:id="p588-30"/>καὶ κινούμενον, τὸ πνεῦμα, ταῦτα δὲ τῷ λόγῳ διαφέρει, οὐ τῷ ὑποκειμένῳ.<milestone type="alt-edition" unit="line" ed="Trincavelli 1535" n="10"/>
               <lb n="32" xml:id="p588-31"/>παρεικάζει δὲ αὐτὸ καὶ τῇ κατὰ φύσιν κινήσει. ὥσπερ γὰρ ἐν
               <lb n="33" xml:id="p588-32"/>τῇ κατὰ φύσιν κινήσει ἔστι τι μένον καὶ ἄλλο κινούμενον· οἱ γὰρ ἄνθρωποι
@@ -26538,7 +26540,7 @@
               <lb n="22" xml:id="p589-21"/>καὶ μᾶλλον τοῦτο τὸ παράδειγμα πρόσφορόν ἐστιν· ἐν ἑκάστῳ γὰρ μέρει<milestone type="alt-edition" unit="line" ed="Trincavelli 1535" n="30"/>
               <lb n="23" xml:id="p589-22"/>τοῦ κύκλου ἐστὶ σημεῖον, ὃ καὶ πρῶτον ὂν δύναται ἕλκειν καὶ ὕστερον ὂν<note type="apparatus" n="23" target="#p589-22">ὕστερον ὂν] πτερὸν ὂν D</note>
               <lb n="24" xml:id="p589-23"/>δύναται ὠθεῖν· ἑκάστου γὰρ σημείου ἐστὶ καὶ πρῶτον καὶ ὕστερον. ἐπεὶ
-              <lb n="25" xml:id="p589-24"/>οὖν καὶ τὸ πνεῦμα ἐν ἑκάστῳ μέρει ἑαυτοῦ καὶ ἐξωωμένον * * *<note type="apparatus" n="25" target="#p589-24">lacunam indicavi: fort. addendum coll. p. 588,24.</note>
+              <lb n="25" xml:id="p589-24"/>οὖν καὶ τὸ πνεῦμα ἐν ἑκάστῳ μέρει ἑαυτοῦ καὶ ἐζωωμένον * * *<note type="apparatus" n="25" target="#p589-24">lacunam indicavi: fort. addendum coll. p. 588,24.</note>
               <lb n="26" xml:id="p589-25"/>δικαίως κύκλῳ ὡμοίωται.<note type="apparatus" n="26-30" target="#p589-25 #p589-26 #p589-27 #p589-28 #p589-29">ἐστὶ καὶ ἁπλῶς πνεῦμα</note><note type="apparatus" n="26" target="#p589-25">κύκλῳ om. D</note>
               <lb n="27" xml:id="p589-26"/>Ταῦτα εἰπὼν περὶ τοῦ ᾧ κινεῖ ἔρχεται καὶ ἐπὶ τὸ κινούμενον καί<note type="apparatus" n="27" target="#p589-26">καὶ (ante ἐπὶ) om. t</note>
               <lb n="28" xml:id="p589-27"/>φησιν ὅτι κινοῦνται καὶ τὰ ζῷα καὶ τὰ ζωόφυτα. καὶ ἀπορεῖ πρὸς τὰ
@@ -26865,7 +26867,7 @@
               <lb n="32" xml:id="p596-31"/>τῶν μερικῶν καὶ τῶν καθόλου ἡ αἴσθησις. εἶτα ὁ Πλούταρχος οὐκ ἀναγινώσκει
               <lb n="33" xml:id="p596-32"/>τὴν λέξιν ὡς Ἀλέξανδρος, ἀλλ’ οὕτω ‘διὰ τί γὰρ τὰ οὐράνια οὐχ
               <lb n="34" xml:id="p596-33"/>ἕξει αἴσθησιν; ἢ γὰρ τῇ ψυχῇ αὐτῶν βέλτιόν ἐστι τὸ μὴ ἔχειν αἴσθησιν’.<note type="apparatus" n="34" target="#p596-33">ἢ γὰρ scripsi: ἦ γὰρ Dt post αἴσθησιν fort. addendum ἢ τῷ σώματι</note>
-              <lb n="35" xml:id="p596-34"/>καὶ τοσαῦτα μὲν περὶ τῆς λέξεως καὶ τῆς ἐν αὐτῇ τῶν ἐξηγητῶν διαφονίας.
+              <lb n="35" xml:id="p596-34"/>καὶ τοσαῦτα μὲν περὶ τῆς λέξεως καὶ τῆς ἐν αὐτῇ τῶν ἐξηγητῶν διαφωνίας.
               <lb n="36" xml:id="p596-35"/>ἔξεστι δὲ ἐκ τῶν Ἀριστοτελικῶν ὁρμωμένους ἀποδεῖξαι τὰ οὐράνια
               <lb n="37" xml:id="p596-36"/>ἀμοιροῦντα αἰσθήσεως· ἔξεστι δὲ καὶ τῶν ἐπιχειρημάτων ἁπάντων ἐκ τῶν
               <lb n="38" xml:id="p596-37"/>Πλατωνικῶν ἐπενέγκαι τὸν ἔλεγχον. φέρε οὖν, εἰ δοκεῖ, τοῦτο ποιήσωμεν.<note type="apparatus" n="38" target="#p596-37">ποιήσομεν t</note><milestone type="alt-edition" unit="line" ed="Trincavelli 1535" n="20"/>
@@ -26876,7 +26878,7 @@
               <lb n="1" xml:id="p597-0"/>αὐτῶν· ἡ γὰρ ἐν τῷ αὐτῷ κυκλικὴ κίνησις ὑπ’ οὐδενὸς ἂν γένοιτο, πλὴν
               <lb n="2" xml:id="p597-1"/>ὑπὸ λόγου. περὶ δὲ τῆς αἰσθητικῆς διεφώνησαν· οἱ μὲν γὰρ Ἀριστοτελικοί
               <lb n="3" xml:id="p597-2"/>φασιν ὡς οὐκ ἔστιν ἐν τούτοις αἴσθησις, εἴ γε ταῦτα μὲν ἀπαθῆ, πάσχει
-              <lb n="4" xml:id="p597-3"/>δὲ τῆς αἰσθήσεως τὸ ὑποκείμενον. ἀλλά, φαῖεν ἂν οἱ Πλατωνικοί, ᾧ
+              <lb n="4" xml:id="p597-3"/>δὲ τῆς αἰσθήσεως τὸ ὑποκείμενον. ἀλλά, φαῖεν ἂν οἱ Πλατωνικοί, ὦ
               <lb n="5" xml:id="p597-4"/>Ἀριστότελες, ἐφ’ ἡμῶν πάσχοντος τοῦ ὑποκειμένου κρίνει τὸ πάθος ἡ<note type="apparatus" n="5" target="#p597-4">ἀριστοτέλης D</note>
               <lb n="6" xml:id="p597-5"/>δύναμις, ἐπὶ δὲ τῶν οὐρανίων μόνη κρίσις ἐστὶ τῶν εἰδῶν ἄνευ πάθους.<milestone type="alt-edition" unit="line" ed="Trincavelli 1535" n="25"/>
               <lb n="7" xml:id="p597-6"/>πῶς γὰρ οὐκ ἄτοπον τὸν μὲν ἀέρα καὶ τὸ ὕδωρ ἄνευ πάθους διακονεῖν
@@ -26907,7 +26909,7 @@
               <lb n="32" xml:id="p597-31"/>δῆλον ὅτι καὶ τὴν ζωτικὴν αὐτῆς ἕξει δύναμιν, θυμὸν λέγω καὶ ἐπιθυμίαν.
               <lb n="33" xml:id="p597-32"/>ἄτοπον δὲ τὰ οὐράνια λέγειν ἢ ἐπιθυμεῖν ἢ θυμοῦσθαι, ἐπεὶ
               <lb n="34" xml:id="p597-33"/>καὶ ἐφθείροντ’ ἄν. πρὸς ὃ φασιν οἱ Πλατωνικοὶ ὅτι ἔχουσιν ἐπιθυμίαν<note type="apparatus" n="34" target="#p597-33">ἐφθείροντ’ ἄν scripsi: φθείρονται Dt</note>
-              <lb n="35" xml:id="p597-34"/>τὰ οὐράνια· ἐφίενται γὰρ τῆς πρὸς τὸν νοῦν μιμήσεως, εἴ γε ὁ μὲν πανταγοῦ<note type="apparatus" n="35" target="#p597-34">ἐφίεται t τῆς om. t</note><milestone type="alt-edition" unit="line" ed="Trincavelli 1535" n="45"/>
+              <lb n="35" xml:id="p597-34"/>τὰ οὐράνια· ἐφίενται γὰρ τῆς πρὸς τὸν νοῦν μιμήσεως, εἴ γε ὁ μὲν πανταχοῦ<note type="apparatus" n="35" target="#p597-34">ἐφίεται t τῆς om. t</note><milestone type="alt-edition" unit="line" ed="Trincavelli 1535" n="45"/>
               <lb n="36" xml:id="p597-35"/>ἐστι, τὰ δὲ πανταχοῦ γίνεται, εἰ καὶ μὴ ἅμα, ἀλλὰ κατὰ μέρος·
               <lb n="37" xml:id="p597-36"/>θυμὸν δὲ οὐκ ἔχουσιν· οὐ γὰρ ἀνάγκη. ἰδοὺ γὰρ καὶ τὰ ζῳόφυτα ἔχοντα
               <lb n="38" xml:id="p597-37"/>ἐπιθυμίαν· ἀνιᾶται γὰρ καὶ ἥδεται· οὐ θυμοῦται· οὐ γὰρ φαίνεται ἀμυνόμενα.

@@ -56,6 +56,7 @@
       <change when="2026-10-23" who="#NI">Quotation marks made uniform: opening single and double quotation marks, printed in the edition in the reversed (high-reversed-9) form, are encoded as ‘ and “, closing ones as ’ and ”, single and double kept as printed; opening marks read by the OCR as straight quotes, low quotes or spacing breathings, and spacing breathings or quotation marks doubled before a capital that already bears its breathing, corrected.</change>
       <change when="2026-11-05" who="#NI">Apparatus entries printed out of numerical order (e.g. 33 … 32) separated from the preceding entry; words hyphenated across lines joined in Latin text as in Greek; words mixing Greek and Latin letters (OCR errors, about 130, including manuscript sigla) corrected on the page images; marginal folio marks left in the text removed; validated against TEI P5 version 4.12.0 (recorded in TEI/@version).</change>
       <change when="2026-11-05" who="#NI">Extent of the lemma quotations (quote[@type='lemma']) corrected: the automatic division had closed every lemma after its first printed line, leaving the remaining lines of lemmata printed over two or more lines at the head of the following paragraph. Candidates were found from the letter-spacing of the lines on the page images (lemmata are printed spaced) and from the line geometry (centred last line, indented paragraph start), and every candidate was decided on the page image (Claude work teams; about 7,700 places in the corpus); the lines so decided are now inside the quotation, with pb inside the quotation where a lemma runs on to the next page. Where the lemma runs on in the same line as the commentary (Stephanus in De interpretatione), the quotation ends after the last spaced word and the paragraph continues in the same line without a new lb; where no lemma is printed and the paraphrase follows the Bekker reference directly (Michael in De partibus animalium from p. 37), the quotation is dropped and the division kept; centred last lines the edition does not count are inside the quotation as unnumbered lines.</change>
+      <change when="2026-11-22" who="#NI">Readings questioned by the review of the translations collated on the page images (read independently, at least twice wherever the print does not have the proposed form, by a language model, Claude; the 28 places in all works that it could not settle were read by the editor): 6 errors of the transcription corrected; 3 evident misprints of the edition given as choice/sic/corr.</change>
     </revisionDesc>
   </teiHeader>
   <text>
@@ -225,7 +226,7 @@
             </p>
             <pb n="5" facs="https://archive.org/download/p1commentariaina22akaduoft/page/n420.jpg"/>
             <p>
-              <lb n="1" xml:id="p5-0"/>μεσότης καὶ τίνων μεσότης ἐστί, συλλογιζόμενος οὕτως· εἰ ὁ ἄδικος παρανομος
+              <lb n="1" xml:id="p5-0"/>μεσότης καὶ τίνων μεσότης ἐστί, συλλογιζόμενος οὕτως· εἰ ὁ ἄδικος παράνομος
               <lb n="2" xml:id="p5-1"/>καὶ ὁ παράνομος πλεονέκτης, ὁ δὲ πλεονέκτης ἄνισος, ὁ ἄδικος ἄρα<note type="apparatus" n="2" target="#p5-1">δὲ om. Ba</note><note type="apparatus" n="2-3" target="#p5-1 #p5-2">ἄνισος ἄρα ἄδικος Ba</note>
               <lb n="3" xml:id="p5-2"/>ἄνισος. οὕτως καὶ τὸ ἄδικον ἄνισον, τὸ δὲ ἄνισον περιέχει τὸ πλέον καὶ<note type="apparatus" n="3" target="#p5-2">οὕτως] ὥστε S</note>
               <lb n="4" xml:id="p5-3"/>ἔλαττον καὶ κοινῶς κατηγορεῖται κατ’ ἀμφοῖν, τοῦ τε πλείονος καὶ τοῦ<milestone type="alt-edition" unit="line" ed="Aldina 1536" n="10"/>
@@ -377,7 +378,7 @@
               <lb n="11" xml:id="p8-10"/>Τουτέστιν ἅπαν κακὸν πόρρω τῆς δικαιοσύνης. ἡ δὲ παροιμία Θεόγνιδός<note type="apparatus" n="11" target="#p8-10">ἡ δὲ παροιμία] ἐστί. τὸ δὲ δικαιοσύνη σύμπασα συλλήβδην ἀρετὴ ἔνι S</note><note type="apparatus" n="11-12" target="#p8-10 #p8-11">Θεόγνιδος] v. 147 Bergk</note>
               <lb n="12" xml:id="p8-11"/>ἐστιν, ὡς Θεόφραστός φησιν ἐν τῷ πρώτῳ Περὶ ἠθῶν λέγων, ἐν δὲ
               <lb n="13" xml:id="p8-12"/>τῷ πρώτῳ τῶν Ἠθικῶν ὡς Φωκυλίδης αὐτοῦ μέμνηται, καὶ οὐδὲν θαυμαστὸν<note type="apparatus" n="13" target="#p8-12">Φωκυλίδης] fr. 17 Bergk: Φωκιλλίδους S: Φωκυλιδείου Bergk, at cf. Anonym. vol. XX p. 210, 17</note>
-              <lb n="14" xml:id="p8-13"/>καὶ Φωκυλίδην αὐτῷ καὶ Θέογνιν γνήσασθαι. πολλοὶ γὰρ ἐν
+              <lb n="14" xml:id="p8-13"/>καὶ Φωκυλίδην αὐτῷ καὶ Θέογνιν <choice><sic>χνήσασθαι</sic><corr>χρήσασθαι</corr></choice>. πολλοὶ γὰρ ἐν
               <lb n="15" xml:id="p8-14"/>μὲν τοῖς οἰκείοις δύνανται τῇ ἀρετῇ χρῆσθαι. οὐχ ὥσπερ ἐν ταῖς<note type="apparatus" n="15" target="#p8-14">ὥσπερ] ὥστε Ba</note>
               <lb n="16" xml:id="p8-15"/>θεωρητικαῖς ἐπιστήμαις ἐν γνώσει τὸ τέλος ἐχούσαις ὁμοία ἐστὶν ἡ γνῶσις<milestone type="alt-edition" unit="line" ed="Aldina 1536" n="5"/>
               <lb n="17" xml:id="p8-16"/>τοῦ γνωστοῦ αὐτῷ τε ἐφ’ ἑαυτοῦ καὶ ἐπ’ ἄλλων, οὕτως καὶ ἐπὶ τῶν<note type="apparatus" n="17" target="#p8-16">τοῦ γνωστοῦ om. S αὐτὸ S</note>
@@ -733,7 +734,7 @@
               <lb n="32" xml:id="p16-31"/>ιβ, ὁ θ· κἀνταῦθα ὡς ὁ ις πρὸς τὸν ὑπ’ αὐτὸν ιβ, οὕτω καὶ ὁ ιβ πρὸς<note type="apparatus" n="32" target="#p16-31">ιβ post αὐτὸν om. BS καὶ om. S</note>
               <lb n="33" xml:id="p16-32"/>τὸν θ· ἐν ἐπιτρίτῳ γὰρ λόγῳ. ἔχει γὰρ ὁ ις τὸν ιβ καὶ τὸ τρίτον τοῦ
               <lb n="34" xml:id="p16-33"/>ιβ τὰ δ, ὁμοίως καὶ ὁ ιβ τὸν θ καὶ τὸ τρίτον τοῦ θ τὰ γ. κἀν τούτοις
-              <lb n="35" xml:id="p16-34"/>ἡ τῶν λόγων ποιότης [καὶ <choice><sic>ταυτότης]</sic><corr>ταὐτότης</corr></choice> ἡ αὐτή, ἡ δὲ μεταξὺ τῶν ὅρων ποσότης<note type="apparatus" n="35" target="#p16-34">καὶ ταυτότης delevi</note>
+              <lb n="35" xml:id="p16-34"/>ἡ τῶν λόγων ποιότης [καὶ <choice><sic>ταυτότης</sic><corr>ταὐτότης</corr></choice>] ἡ αὐτή, ἡ δὲ μεταξὺ τῶν ὅρων ποσότης<note type="apparatus" n="35" target="#p16-34">καὶ ταυτότης delevi</note>
               <lb n="36" xml:id="p16-35"/>ἑτέρα· ὁ μὲν γὰρ ις τοῦ ιβ τετράδι διαφέρει, ὁ δὲ ιβ τοῦ θ τριάδι. ἔστι
               <lb n="37" xml:id="p16-36"/>δὲ ἡ ἀναλογία αὕτη συνημμένη· δὶς γὰρ ὁ ιβ λαμβάνεται. διεζευγμένη δὲ<milestone type="alt-edition" unit="line" ed="Aldina 1536" n="40"/>
               <lb n="38" xml:id="p16-37"/>ἥδε· ὡς ὁ ις πρὸς τὸν η, ὁ δ πρὸς τὸν β ἐν διπλασίονι λόγῳ, καὶ ὁ
@@ -827,7 +828,7 @@
             </p>
             <pb n="19" facs="https://archive.org/download/p1commentariaina22akaduoft/page/n434.jpg"/>
             <p>
-              <lb n="1" xml:id="p19-0"/>γῇ. λέγει γὰρ ἐν ταῖς Πολιτείαις καὶ τοιαύτην ἰσότητα, λέγει καὶ τὴν<note type="apparatus" n="1" target="#p19-0">ἐν ταῖς Πολιτείαις] cf. Polit. E</note><note type="apparatus" n="1" target="#p19-0">sqq.</note>
+              <lb n="1" xml:id="p19-0"/>γῆ. λέγει γὰρ ἐν ταῖς Πολιτείαις καὶ τοιαύτην ἰσότητα, λέγει καὶ τὴν<note type="apparatus" n="1" target="#p19-0">ἐν ταῖς Πολιτείαις] cf. Polit. E</note><note type="apparatus" n="1" target="#p19-0">sqq.</note>
               <lb n="2" xml:id="p19-1"/>εἰρημένην· τὸ γὰρ κατ’ ἀξίαν διδόμενόν τινι ἴσον ἐκείνῳ ἐστίν. ἐπεὶ γὰρ<note type="apparatus" n="2" target="#p19-1">ἐπειδὴ S</note>
               <lb n="3" xml:id="p19-2"/>ἴσα ἐστὶ κατὰ τοὺς γεωμέτρας τὰ προσαρμόζοντα καὶ μήθ’ ὑπερέχοντα μήτ’<milestone type="alt-edition" unit="line" ed="Aldina 1536" n="50"/>
               <lb n="4" xml:id="p19-3"/>ἐλλείποντα, εἰ ἔστιν ὁ Ἀχιλλεὺς διπλασίων τοῦ Αἴαντος, δοθῇ δὲ τῷ μὲν
@@ -1704,7 +1705,7 @@
             <pb n="38" facs="https://archive.org/download/p1commentariaina22akaduoft/page/n453.jpg"/>
             <p>
               <lb n="1" xml:id="p38-0"/>μετὰ τῆς οἰκίας διὰ τὴν τῶν ἀλλασσομένων ἀνισότητα. ὅτι δὲ δύναται
-              <lb n="2" xml:id="p38-1"/>ἰσασθῆναι τὰ ὑποδήματα τῇ οἰκίᾳ, εἴρηται· διὰ γὰρ τῶν νομισμάτων ἡ
+              <lb n="2" xml:id="p38-1"/>ἰσασθῆναι τὰ ὑποδήματα τῇ οἰκίᾳ, εἴρηται· διὰ γὰρ τῶν νομισμάτων ἢ
               <lb n="3" xml:id="p38-2"/>ἄλλου τινός. σαφέστατον δὲ τὸ διάγραμμα διὰ τὸ πολλάκις εἰρῆσθαι περὶ
               <lb n="4" xml:id="p38-3"/>αὐτοῦ, καὶ οὐ δεῖ μάτην περὶ αὐτοῦ <milestone type="alt-edition" unit="folio" ed="Aldina 1536" n="69v"/> λέγειν πάλιν.
             </p>
@@ -1858,7 +1859,7 @@
               <lb n="10" xml:id="p41-9"/>ἀγαθῶν τὸ πλέον αἱρεῖται καὶ λαμβάνει, ἐπὶ δὲ τῶν κακῶν τὸ ἔλαττον, ὁ
               <lb n="11" xml:id="p41-10"/>δὲ δίκαιος ἐπὶ πάντων τὸ ἀναλογοῦν ἑαυτῷ. εἴη ἂν οὖν δικαιοσύνη ἕξις<note type="apparatus" n="11" target="#p41-10">ἡ δικαιοσύνη ἡ ἕξις S</note>
               <lb n="12" xml:id="p41-11"/>ἀφ’ ἧς πρακτικοί τε καὶ προαιρετικοὶ γίνονται τοῦ ἐν ταῖς διανομαῖς καὶ ταῖς<note type="apparatus" n="12" target="#p41-11">πρακτική τε καὶ προαιρετικὴ γίνεται S</note>
-              <lb n="13" xml:id="p41-12"/>ἐπανορθώσεσιν ἴσου, ἡ δ’ ἀδικία τοὐναντίον, ἀφ’ ἧς πρακτικοὶ καὶ πραιρετικοὶ<note type="apparatus" n="13" target="#p41-12">τοὐναντίου B</note>
+              <lb n="13" xml:id="p41-12"/>ἐπανορθώσεσιν ἴσου, ἡ δ’ ἀδικία τοὐναντίον, ἀφ’ ἧς πρακτικοὶ καὶ <choice><sic>πραιρετικοὶ</sic><corr>προαιρετικοὶ</corr></choice><note type="apparatus" n="13" target="#p41-12">τοὐναντίου B</note>
               <lb n="14" xml:id="p41-13"/>τοῦ ἀνίσου.
             </p>
           </div>
@@ -2398,7 +2399,7 @@
               <lb n="28" xml:id="p52-27"/>τὸ γὰρ ἁπλῶς ἀδικεῖν ἦν ἐν τῷ ἑκόντι αὐτὰ πράττειν. λαβὼν δὲ ὅτι ἐν<note type="apparatus" n="28" target="#p52-27">πράττειν] ποιεῖν S</note>
               <lb n="29" xml:id="p52-28"/>τοῖς ἑκουσίως γινομένοις ἐστὶ τὸ δικαιοπραγεῖν καὶ τὸ ἀδικεῖν, ἑξῆς τῶν<note type="apparatus" n="29" target="#p52-28">ἑκουσίοις S</note>
               <lb n="30" xml:id="p52-29"/>ἑκουσίως γινομένων διαφοράν τινα ποιεῖται λέγων τῶν ἑκουσίως πραττομένων<milestone type="alt-edition" unit="line" ed="Aldina 1536" n="50"/>
-              <lb n="31" xml:id="p52-30"/>τὰ μὲν προελόμενοι καὶ μετὰ πραιρέσεως ποιοῦμεν, τὰ δὲ οὐ
+              <lb n="31" xml:id="p52-30"/>τὰ μὲν προελόμενοι καὶ μετὰ <choice><sic>πραιρέσεως</sic><corr>προαιρέσεως</corr></choice> ποιοῦμεν, τὰ δὲ οὐ
               <lb n="32" xml:id="p52-31"/>προελόμενοι. τὰ γὰρ διὰ θυμὸν γινόμενα ἀπροβούλευτα· ἑκόντες μὲν<note type="apparatus" n="32" target="#p52-31">μὲν om. S</note>
               <lb n="33" xml:id="p52-32"/>γὰρ ποιοῦμεν ταῦτα, οὐ προβουλευσάμενοι δέ.
             </p>
@@ -2427,7 +2428,7 @@
               <lb n="16" xml:id="p53-15"/>εἰ τοξεύοντος ἐν τοιούτῳ τόπῳ ἐν ᾧ οὐδεὶς εἴωθε πορεύεσθαι, ἄφνω τις<note type="apparatus" n="16" target="#p53-15">τοξεύοντος scripsi: τοξεύων τις libri post τοιούτῳ add. τινὶ S</note><milestone type="alt-edition" unit="line" ed="Aldina 1536" n="20"/>
               <lb n="17" xml:id="p53-16"/>ἔκ τινος τύχης ἐκεῖσε διερχόμενος ἐτρώθη τῷ ἀφεθέντι βέλει. τὰ γὰρ
               <lb n="18" xml:id="p53-17"/>τοιαῦτα παράλογά τε καὶ ἀπροσδόκητα· πῶς γὰρ ἄν προσεδόκησεν ὁ τοξεύων
-              <lb n="19" xml:id="p53-18"/>ἐκεῖσέ τινα διελθεῖν ἐν ᾧ οὐδεὶς οὐδέποτε ὦπται οἰῶν; ὅσα δὲ μὴ
+              <lb n="19" xml:id="p53-18"/>ἐκεῖσέ τινα διελθεῖν ἐν ᾧ οὐδεὶς οὐδέποτε ὦπται διιών; ὅσα δὲ μὴ
               <lb n="20" xml:id="p53-19"/>ἔστι παράλογα, ἀγνοοῦντος μέντοι τοῦ πράξαντος γίνεται, ταῦτα λεγέσθω
               <lb n="21" xml:id="p53-20"/>ἁμαρτήματα. ὁ γὰρ ἐν ὁδῷ ἀκοντίζων ἢ ἔν τινι χωρίῳ, ἐν ᾧ ἐνδέχεται
               <lb n="22" xml:id="p53-21"/>τινας εἶναι, καὶ βαλών τινα ἡμάρτηκε, καὶ καλοῦνται αἱ τοιαῦται τῶν<milestone type="alt-edition" unit="line" ed="Aldina 1536" n="25"/>
@@ -3168,7 +3169,7 @@
               <lb n="7" xml:id="p70-6"/>γὰρ ὁ ὡς πλεονέκτης ἄδικος ἄνισός ἐστιν, ὡς δέδεικται, ἄνισος δὲ ὡς τὸ<note type="apparatus" n="7" target="#p70-6">ὡς post ὁ om. BS δὲ ὁ τὸ a</note><milestone type="alt-edition" unit="folio" ed="Aldina 1536" n="78v"/>
               <lb n="8" xml:id="p70-7"/>πλέον ἔχων (τοῦτο γὰρ τοῦ πλεονέκτου τὸ ἔχειν τὸ πλέον τοῦ ἀγαθοῦ),
               <lb n="9" xml:id="p70-8"/>εἰ ἀδικεῖ τις ἑαυτὸν κατὰ ταύτην τὴν ἀδικίαν, πλεονεκτοίη ἂν ἑαυτόν, καὶ<note type="apparatus" n="9" target="#p70-8">τις] τί a</note>
-              <lb n="10" xml:id="p70-9"/>ἔχοι ἂν ὡς πλεονέκτης τὸ πλέον, ὡς δὲ πλεονεκτούμενος τοὔλαττον, καὶ ὁ<note type="apparatus" n="10" target="#p70-9">ἂν om. a ὡς ὁ πλεονέκτης a</note>
+              <lb n="10" xml:id="p70-9"/>ἔχοι ἂν ὡς πλεονέκτης τὸ πλέον, ὡς δὲ πλεονεκτούμενος τοὔλαττον, καὶ ὃ<note type="apparatus" n="10" target="#p70-9">ἂν om. a ὡς ὁ πλεονέκτης a</note>
               <lb n="11" xml:id="p70-10"/>ἀφῄρηται ὡς ἀδικούμενος, τοῦτο ἕξει ὡς ἀδικῶν, καὶ ἔχοι ἂν ἅμα τὸ<note type="apparatus" n="11" target="#p70-10">ἀφήρητο S</note>
               <lb n="12" xml:id="p70-11"/>αὐτὸ καὶ οὐκ ἔχοι. ἀδύνατον δὲ τοῦτο, ὥστε καὶ τὸ ἀδικεῖν ἑαυτὸν ἀδύνατον.<milestone type="alt-edition" unit="line" ed="Aldina 1536" n="5"/>
             </p>

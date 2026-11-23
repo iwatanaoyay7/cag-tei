@@ -49,6 +49,7 @@
       <change when="2026-10-23" who="#NI">Quotation marks made uniform: opening single and double quotation marks, printed in the edition in the reversed (high-reversed-9) form, are encoded as ‘ and “, closing ones as ’ and ”, single and double kept as printed; opening marks read by the OCR as straight quotes, low quotes or spacing breathings, and spacing breathings or quotation marks doubled before a capital that already bears its breathing, corrected.</change>
       <change when="2026-11-05" who="#NI">Apparatus entries printed out of numerical order (e.g. 33 … 32) separated from the preceding entry; words hyphenated across lines joined in Latin text as in Greek; words mixing Greek and Latin letters (OCR errors, about 130, including manuscript sigla) corrected on the page images; marginal folio marks left in the text removed; validated against TEI P5 version 4.12.0 (recorded in TEI/@version).</change>
       <change when="2026-11-05" who="#NI">Extent of the lemma quotations (quote[@type='lemma']) checked on the page images: lemmata closed before their last printed line (the quotation was closed when the collation text was covered, so a short centred last line could be left out) extended; abbreviated lemmata (Ἀλλὰ … γένη.) whose quotation had taken in the first line of the commentary shortened (11 places in the pilot works); candidates found from the letter-spacing of the lines on the page images and the line geometry and decided on the page images (Claude work teams).</change>
+      <change when="2026-11-22" who="#NI">Readings questioned by the review of the translations collated on the page images (read independently, at least twice wherever the print does not have the proposed form, by a language model, Claude; the 28 places in all works that it could not settle were read by the editor): 33 errors of the transcription corrected; 4 evident misprints of the edition given as choice/sic/corr; 2 evident misprints of the edition in a word broken at the line end (which cannot carry choice/sic/corr) corrected in the text.</change>
     </revisionDesc>
   </teiHeader>
   <text>
@@ -61,7 +62,7 @@
             <p>
               <lb n="2" xml:id="p1-1"/>Μέλλοντας ἡμᾶς ἄρχεσθαι φιλοσόφων λόγων ἀναγκαῖόν ἐστι μαθεῖν<milestone type="alt-edition" unit="line" ed="ed. princeps Venetiis 1500" n="5"/><note type="apparatus" n="2" target="#p1-1">φιλοσόφων ἄρχεσθαι colloc. p</note>
               <lb n="3" xml:id="p1-2"/>τί ποτέ ἐστι φιλοσοφία. δεῖ γὰρ τὸν ἀρχόμενόν του πρότερον μαθεῖν τί<note type="apparatus" n="3" target="#p1-2">πρότερον Dp: πρῶτον EM: oblitt. V</note>
-              <lb n="4" xml:id="p1-3"/>ὃν τυγχάνει· οὕτω γὰρ καὶ σπουδαιότερον ἀντιλήψεται τοῦ πράγματος.<note type="apparatus" n="4" target="#p1-3">καὶ D: om. EMVp ἀντιλήψεται DMV: ἀνθέξεται Ep</note>
+              <lb n="4" xml:id="p1-3"/>ὂν τυγχάνει· οὕτω γὰρ καὶ σπουδαιότερον ἀντιλήψεται τοῦ πράγματος.<note type="apparatus" n="4" target="#p1-3">καὶ D: om. EMVp ἀντιλήψεται DMV: ἀνθέξεται Ep</note>
               <lb n="5" xml:id="p1-4"/>μανθάνομεν δὲ τὰ πράγματα ἐκ τῶν ὁρισμῶν. καὶ πῶς δυνατὸν δι’ ὁρισμοῦ<note type="apparatus" n="5" target="#p1-4">δὲ DEp: γὰρ MV</note>
               <lb n="6" xml:id="p1-5"/>μαθεῖν πρᾶγμα ἀγνοουμένου τοῦ τί ἐστιν ὁρισμός; ὁρισμὸς τοίνυν ἐστὶ λόγος<note type="apparatus" n="6" target="#p1-5">ὁ ὁρισμός (prius) E</note>
               <lb n="7" xml:id="p1-6"/>σύντομος δεικνὺς τὴν τοῦ πράγματος φύσιν. ὁρισμὸς δὲ λέγεται ἀπὸ μεταφορᾶς<milestone type="alt-edition" unit="line" ed="ed. princeps Venetiis 1500" n="10"/>
@@ -171,7 +172,7 @@
             </p>
             <pb n="5" facs="https://archive.org/download/commentariainari04akaduoft/page/n174.jpg"/>
             <p>
-              <lb n="1" xml:id="p5-0"/>ἐν ἀπορρήτοις περὶ αὐτῶν λεγόμενος λόγος. ὡς ἔν τινι φρουρᾷ ἐσμεν οἱ<note type="apparatus" n="1" target="#p5-0">λεγόμενος περὶ αὐτῶν colloc. Plat. αὐτὸν E</note>
+              <lb n="1" xml:id="p5-0"/>ἐν ἀπορρήτοις περὶ αὐτῶν λεγόμενος λόγος, ὡς ἔν τινι φρουρᾷ ἐσμεν οἱ<note type="apparatus" n="1" target="#p5-0">λεγόμενος περὶ αὐτῶν colloc. Plat. αὐτὸν E</note>
               <lb n="2" xml:id="p5-1"/>ἄνθρωποι καὶ οὐ δεῖ ἑαυτοὺς ἐκ ταύτης ἐξάγειν οὐδὲ ἀποδιδράσκειν, μέγας<note type="apparatus" n="2" target="#p5-1">ἑαυτοὺς D: αὐτοὺς EMVp: ἑαυτὸν Plat. ἐκ ταύτης αὐτοὺς colloc. M ἐξάγειν] λύειν Plat. οὐδὲ EMVp Plat.: μηδὲ D</note>
               <lb n="3" xml:id="p5-2"/>τίς μοι φαίνεται καὶ οὐ ῥᾴδιος διιδεῖν’. οὐ δεῖ δὴ ἐξάγειν ἑαυτόν· ὥσπερ<note type="apparatus" n="3" target="#p5-2">ῥᾴδιον p δὴ D: δὲ EMp: oblitt. V ἑαυτὸν D: ἑαυτοὺς EMp: oblitt. V</note>
               <lb n="4" xml:id="p5-3"/>γὰρ ὁ ἐν φρουρᾷ ὑπάρχων καὶ καταδεθεὶς διά τι πλημμέλημα, εἰ βουληθείη<note type="apparatus" n="4" target="#p5-3">καταδεθεὶς Dp: κατατεθεὶς EMV</note>
@@ -217,7 +218,7 @@
               <lb n="11" xml:id="p6-10"/>ἰατρικὴ μικτὴ οὖσα, ὅταν μὲν κατὰ μόνον τὸ θεωρητικὸν αὐτῆς ὁρίζηται,<note type="apparatus" n="11" target="#p6-10">ὁρίζεται DE</note>
               <lb n="12" xml:id="p6-11"/>λέγεται ἐπιστήμη περὶ τὰ ἀνθρώπινα σώματα καταγινομένη (καὶ εἰκότως
               <lb n="13" xml:id="p6-12"/>ἐκ τοῦ ὑποκειμένου αὐτῆς τὸν ὁρισμόν φαμεν τοῦτον), ὅταν δὲ κατὰ τὸ<note type="apparatus" n="13" target="#p6-12">τὸν ὁρ. φαμὲν τοῦτον D: τὸν τοιοῦτον φαμὲν ὁρ. EMVp κατὰ τὸ EMVp: τοῦ D</note>
-              <lb n="14" xml:id="p6-13"/>οὗ ἕνεκεν τοιαύτη χρῆται θεωρίᾳ, ὑγείας εἶναι περιποιητική, καὶ ἐκ τοῦ<milestone type="alt-edition" unit="line" ed="ed. princeps Venetiis 1500" n="5"/><note type="apparatus" n="14" target="#p6-13">ἕνεκεν DV: ἕνεκα EMp τοιαύτη Laur. 72,7: τῇ αὐτῇ DEMV: τῇ ἑαυτῆς p περιποιητική EM: περιποιητικήν Dp: oblitt. V</note>
+              <lb n="14" xml:id="p6-13"/>οὗ ἕνεκεν τοιαύτῃ χρῆται θεωρίᾳ, ὑγείας εἶναι περιποιητική, καὶ ἐκ τοῦ<milestone type="alt-edition" unit="line" ed="ed. princeps Venetiis 1500" n="5"/><note type="apparatus" n="14" target="#p6-13">ἕνεκεν DV: ἕνεκα EMp τοιαύτη Laur. 72,7: τῇ αὐτῇ DEMV: τῇ ἑαυτῆς p περιποιητική EM: περιποιητικήν Dp: oblitt. V</note>
               <lb n="15" xml:id="p6-14"/>τέλους εἶναι τοῦτον λέγομεν τὸν ὁρισμόν. ἡ δὲ φιλοσοφία ἁπλοῦν ἔχουσα
               <lb n="16" xml:id="p6-15"/>τὸ θεωρητικὸν εἶδος (αὐτοῦ γὰρ καὶ μόνου ἕνεκεν γίνεται τοῦ γνῶναι τὰ
               <lb n="17" xml:id="p6-16"/>πράγματα) οὐκ ἂν ἄλλον μὲν ἐκ τοῦ ὑποκειμένου δέξαιτο ὁρισμόν, ἄλλον<note type="apparatus" n="17" target="#p6-16">δέξαιτο scripsi: δέξηται libri</note>
@@ -274,7 +275,7 @@
               <lb n="1" xml:id="p8-0"/>τὰ στοιχεῖα, ταῦτα δὴ τὰ πολυθρύλλητα, καὶ οὔτε πλείονα οὔτε ἐλάττονα,
               <lb n="2" xml:id="p8-1"/>ἐκεῖνοι ὡμολογημένον τοῦτο λαμβάνοντες ἐκ τούτων προσεχῆ στοιχεῖα τοὺς<note type="apparatus" n="2" target="#p8-1">ἐκεῖνο (ι eras.) E</note><milestone type="alt-edition" unit="line" ed="ed. princeps Venetiis 1500" n="5"/>
               <lb n="3" xml:id="p8-2"/>τέσσαρας χυμοὺς γεννᾶσθαί φασι ἀναλόγως ἐκείνοις τοῖς πορρωτέρω στοιχείοις<note type="apparatus" n="3" target="#p8-2">χυμοὺς post φασι transpos. EMVp γεννᾶσθαι EMp: γενέσθαι D: oblitt. V πορρωτέροις D (fort. recte)</note>
-              <lb n="4" xml:id="p8-3"/>τούτους λαμβάνοντες. ἔτι μὴν καὶ ῥητορικὴ φιλοσοφία τὰς ἀρχὰς<note type="apparatus" n="4" target="#p8-3">τούτους Dp: τούτοις E: ταῦτα MV γε μὴν p μὴν] μὲν E τῇ ῥητορ. ἡ φιλοσ. Mp; cf. v. 17. 22</note>
+              <lb n="4" xml:id="p8-3"/>τούτους λαμβάνοντες. ἔτι μὴν καὶ ῥητορικῇ φιλοσοφία τὰς ἀρχὰς<note type="apparatus" n="4" target="#p8-3">τούτους Dp: τούτοις E: ταῦτα MV γε μὴν p μὴν] μὲν E τῇ ῥητορ. ἡ φιλοσ. Mp; cf. v. 17. 22</note>
               <lb n="5" xml:id="p8-4"/>δίδωσιν· ἀναλόγως γὰρ τῇ τε ἐπαγωγῇ καὶ τῷ συλλογισμῷ τὸ παράδειγμα<note type="apparatus" n="5" target="#p8-4">τε om. D</note>
               <lb n="6" xml:id="p8-5"/>καὶ τὸ ἐνθύμημα ὁ ῥήτωρ λαμβάνει· ὥσπερ γὰρ ὁ συλλογισμὸς ἀληθής
               <lb n="7" xml:id="p8-6"/>ἐστιν, ἐπειδὴ τὸ ἀναγκαῖον ἔχει, οὕτως καὶ τὸ ἐνθύμημα ἀληθὲς βούλεται<note type="apparatus" n="7" target="#p8-6">ἔχει τὸ ἀναγκαῖον colloc. EMVp</note>
@@ -346,7 +347,7 @@
               <lb n="9" xml:id="p10-8"/>διδαξάντων οὖν ἡμῶν τί ἐστι διαίρεσις, τί ἐπιδιαίρεσις καὶ τί ὑποδιαίρεσις,<note type="apparatus" n="9" target="#p10-8">οὖν om. M καὶ τί ἐπιδιαίρεσις EMp</note>
               <lb n="10" xml:id="p10-9"/>ἀκόλουθον καὶ περὶ τῆς ἐν τῇ φιλοσοφίᾳ διαιρέσεως λέγειν. [διαιρεῖται<note type="apparatus" n="10" target="#p10-9">τῇ (ante φιλοσ.) om. MV λέγειν DEM: εἰπεῖν Vp διαιρεῖται — συμμεταβάλλεσθαι (p. 11,5) inclusi (cf. quae Wellmann ad Galeni q. f. de part. phil. p. 23,12 adnotavit)</note>
               <lb n="11" xml:id="p10-10"/>γάρ, ὡς ἀνωτάτω διελεῖν ἔστι, κατὰ μέν τινας εἰς δύο, κατὰ δὲ ἑτέρους
-              <lb n="12" xml:id="p10-11"/>εἰς τρία· τινὲς γὰρ εἰς τρία διαιροῦσι τὸν φιλοσοφίαν, εἰς θεωρητικὸν καὶ<note type="apparatus" n="12" target="#p10-11">τέσσαρα τρία E καὶ γάρ τινες p καὶ EM: εἰς D: om. p: oblitt. V</note>
+              <lb n="12" xml:id="p10-11"/>εἰς τρία· τινὲς γὰρ εἰς τρία διαιροῦσι <choice><sic>τὸν</sic><corr>τὴν</corr></choice> φιλοσοφίαν, εἰς θεωρητικὸν καὶ<note type="apparatus" n="12" target="#p10-11">τέσσαρα τρία E καὶ γάρ τινες p καὶ EM: εἰς D: om. p: oblitt. V</note>
               <lb n="13" xml:id="p10-12"/>πρακτικὸν καὶ λογικόν. εἰ δ’ οὕτως ἔχει ἢ μή, ἐπισκεψώμεθα. ἰστέον ὅτι<note type="apparatus" n="13" target="#p10-12">λογικόν EMp: θεολογικόν D: oblitt. V ἐπισκεψώμεθα D: εἰσόμεθα EMp: oblitt. V ἰστέον δὲ MV</note>
               <lb n="14" xml:id="p10-13"/>τῆς διαιρέσεως τῇ ἀληθείᾳ τὸ θεολογικὸν πρῶτόν ἐστιν· ἀρχαὶ γὰρ πάντων<note type="apparatus" n="14" target="#p10-13">γὰρ Dp: δὲ EMV</note><milestone type="alt-edition" unit="line" ed="ed. princeps Venetiis 1500" n="20"/>
               <lb n="15" xml:id="p10-14"/>τὰ θεῖα. διὸ καὶ οὐκ ἀκαίρως οἱ παλαιοὶ τοῦτο προέθηκαν. τὸ δὲ φυσιολογικὸν<note type="apparatus" n="15" target="#p10-14">προέθηκαν MV: προσέθηκαν DEp</note>
@@ -446,7 +447,7 @@
               <lb n="15" xml:id="p13-14"/>σχέσιν ἔχουσι πρὸς ἄλληλα, οἷον ὁ ἓξ πρὸς τὰ τρία τὸν διπλάσιον ἔχει<note type="apparatus" n="15" target="#p13-14">ἔχει p ἓξ DM: ἕκτος Ep: oblitt. V τὰ τρία DEM: τὸν τρίτον p: oblitt. V</note>
               <lb n="16" xml:id="p13-15"/>λόγον καὶ ὁ ἐννέα πρὸς τὸν ἓξ τὸν ἡμιόλιον. ἔτι γε μὴν καὶ τὰς γενέσεις<note type="apparatus" n="16" target="#p13-15">ὁ ἐννέα πρὸς τὸν ἓξ DMV: ὁ ἔννατος πρὸς τὸν ἕκτον Ep γενήσεις D</note>
               <lb n="17" xml:id="p13-16"/>τῶν ἀριθμῶν τοῦ τε ἀρτίου καὶ τοῦ περιττοῦ καὶ τοῦ περισσαρτίου καὶ<note type="apparatus" n="17" target="#p13-16">τοῦ (ante περισσαρτίου) om. M περισαρτίου D</note>
-              <lb n="18" xml:id="p13-17"/>ἄλλα πολλὰ τῶν τοιούτων ἐπισκέπεται), ἡ δὲ γεωμετρία τὰ μεγέθη καὶ
+              <lb n="18" xml:id="p13-17"/>ἄλλα πολλὰ τῶν τοιούτων <choice><sic>ἐπισκέπεται</sic><corr>ἐπισκέπτεται</corr></choice>), ἡ δὲ γεωμετρία τὰ μεγέθη καὶ
               <lb n="19" xml:id="p13-18"/>τὰ σχήματα, ἡ δὲ μουσικὴ τὰς τῶν χορδῶν συμφωνίας. ἐπιτηδεύει δὲ
               <lb n="20" xml:id="p13-19"/>καί τινα μέλη κοιμίζοντα μὲν τὰ τῆς ψυχῆς πάθη, διεγείροντα δὲ αὐτὴν
               <lb n="21" xml:id="p13-20"/>ἐπὶ ἀρετήν. ὅτι δὲ τοῦτο οὕτως ἔχει, δηλοῖ τὰ ἔτι σωζόμενα ἴχνη καὶ<note type="apparatus" n="21" target="#p13-20">σωζόμενα ἔτι colloc. V</note><note type="apparatus" n="21-22" target="#p13-20 #p13-21">καὶ αἱ οἷον MV (fort. recte)</note>
@@ -472,7 +473,7 @@
               <lb n="7" xml:id="p14-6"/>συνεχὲς ἐν θέσει ἀκίνητόν ἐστιν ἡ γῆ, περὶ ἣν καταγίνεται ἡ γεωμετρία·
               <lb n="8" xml:id="p14-7"/>ἔστιν οὖν ἡ γεωμετρία γνῶσις ποσοῦ συνεχοῦς ἀκινήτου ἐν θέσει. ποσὸν
               <lb n="9" xml:id="p14-8"/>ἀεικίνητόν ἐστιν ὁ οὐρανός, περὶ ὃν καταγίνεται ἡ ἀστρονομία· καὶ ἔστιν ἡ<note type="apparatus" n="9" target="#p14-8">ἀεικίνητον MVp: ἀκίνητον DE ὁ superscr. E</note>
-              <lb n="10" xml:id="p14-9"/>ἀστρονομία γνῶσις ποσοῦ συνεχοῦς ἀεικινήτου. καταγίνεται δὲ ἡ ἀστρομία<note type="apparatus" n="10" target="#p14-9">ἡ (prius) om. E</note>
+              <lb n="10" xml:id="p14-9"/>ἀστρονομία γνῶσις ποσοῦ συνεχοῦς ἀεικινήτου. καταγίνεται δὲ ἡ ἀστρονομία<note type="apparatus" n="10" target="#p14-9">ἡ (prius) om. E</note>
               <lb n="11" xml:id="p14-10"/>καὶ ἡ γεωμετρία περὶ τὸ συνεχὲς ποσόν, συνεχὲς δέ ἐστιν οὗ τὰ μόρια<milestone type="alt-edition" unit="line" ed="ed. princeps Venetiis 1500" n="35"/><note type="apparatus" n="11" target="#p14-10">τὸ συνεχὲς ποσόν D: ποσὸν συνεχές EMVp</note>
               <lb n="12" xml:id="p14-11"/>πρός τινα κοινὸν ὅρον συνάπτει. ἐλέγομεν δὲ καὶ τοῦ διωρισμένου ποσοῦ
               <lb n="13" xml:id="p14-12"/>τὸ μὲν εἶναι καθ’ αὑτὸ τὸ δὲ πρός τι· ποσὸν διωρισμένον καθ’ αὑτό ἐστιν
@@ -526,7 +527,7 @@
               <lb n="4" xml:id="p16-3"/>καὶ περὶ μὲν τοῦ οἰκονομικοῦ καὶ πολιτικοῦ καὶ κατὰ τὸν οἰκεῖον καιρὸν εἰρήσεται.<note type="apparatus" n="4" target="#p16-3">οἰκουμενικοῦ E¹ καὶ (ante κατὰ) om. Mp (fort. recte)</note>
               <lb n="5" xml:id="p16-4"/>Νυνὶ δὲ περὶ τῆς τοῦ ἠθικοῦ διαιρέσεως δεῖ εἰπεῖν, καὶ πρῶτόν γε<milestone type="alt-edition" unit="line" ed="ed. princeps Venetiis 1500" n="30"/><note type="apparatus" n="5" target="#p16-4">νυνὶ D: νῦν EMVp</note>
               <lb n="6" xml:id="p16-5"/>τί ἐστιν ἦθος. ἦθος τοίνυν ἐστὶν ἀνθρώπου κόσμος, κόσμος δὲ ἡ ἑκάστου
-              <lb n="7" xml:id="p16-6"/>τελειότης, ἢ διὰ τῆς τῶν ἄκρων στερήσεως ἤγουν παρατηρήσεως κατορθοῦται<note type="apparatus" n="7-8" target="#p16-6 #p16-7">κατορθοῦται V</note>
+              <lb n="7" xml:id="p16-6"/>τελειότης, ἣ διὰ τῆς τῶν ἄκρων στερήσεως ἤγουν παρατηρήσεως κατορθοῦται<note type="apparatus" n="7-8" target="#p16-6 #p16-7">κατορθοῦται V</note>
               <lb n="8" xml:id="p16-7"/>τῆς τε ὑπεροχῆς καὶ τῆς ἐνδείας. ἀκοσμία γὰρ ὅ τε πλεονασμὸς<note type="apparatus" n="8" target="#p16-7">τῆς (ante ἐνδείας) Dp: om. EMV</note>
               <lb n="9" xml:id="p16-8"/>καὶ ἡ ἔλλειψις· καὶ γὰρ εἴποι τις ἄκοσμον τὸν ἄνθρωπον ἐνδεᾶ τινος μορίου<note type="apparatus" n="9" target="#p16-8">ἡ om. E γὰρ Dp: γοῦν EM: oblitt. V ante εἴποι add. εἰ p; ἂν coni. Wellmann ἐνδεᾶ D: ἐνδεία EMVp</note>
               <lb n="10" xml:id="p16-9"/>οἷον χειρὸς ἢ ἑτέρου μορίου, εἴποι δὲ ἄκοσμον πάλιν καὶ τὸν περιττεύοντα<note type="apparatus" n="10" target="#p16-9">μορίου DV: om. EMp δὲ ἄκοσμον πάλιν D: δ’ αὖ ἄκοσμον EMVp</note>
@@ -768,7 +769,7 @@
               <lb n="15" xml:id="p24-14"/>μεῖζον ἀγαθὸν ἀναφερόμενον· λέγομεν γὰρ ‘εἰ μέλλει ὑγιαίνειν, ἀνάγκη<note type="apparatus" n="15" target="#p24-14">λέγομεν] λέγει p μέλλει EVp: μέλλοι DM; an μέλλεις? ὑγιᾶναι V</note>
               <lb n="16" xml:id="p24-15"/>φλεβοτομεῖσθαι’. διὸ οὕτως εἶπεν ἀναγκαῖον, ἐπειδὴ ὡς πρὸς τι ἄλλο<note type="apparatus" n="16" target="#p24-15">τὸ φλεβοτομηθῆναι V διὸ D: διὰ τοῦτο EMp: oblitt. V εἶπεν] εἰπεῖν D post εἶπεν add. ὁ πορφύριος EM: om. Dp: locus oblitt. V ἐπειδὴ] ἐπεὶ V</note><note type="apparatus" n="16-17" target="#p24-15 #p24-16">τέλος ἄλλο colloc. Mp δηλαδὴ D: om. EMp: oblitt. V</note>
               <lb n="17" xml:id="p24-16"/>τέλος ἀναφέρεται τὸ βιβλίον, δηλαδὴ τὰς Κατηγορίας, καὶ οὐκ ἔστιν ἀγαθὸν
-              <lb n="18" xml:id="p24-17"/>ὡς τέλος ἀλλ’ ὡς πρὸς ἄλλο παραλαμβόμενον. καὶ ἁπλῶς εἰπεῖν<note type="apparatus" n="18" target="#p24-17">παραλαμβόμενον DEM: συμβαλλόμενον p: oblitt. V</note>
+              <lb n="18" xml:id="p24-17"/>ὡς τέλος ἀλλ’ ὡς πρὸς ἄλλο <choice><sic>παραλαμβόμενον</sic><corr>παραλαμβανόμενον</corr></choice>. καὶ ἁπλῶς εἰπεῖν<note type="apparatus" n="18" target="#p24-17">παραλαμβόμενον DEM: συμβαλλόμενον p: oblitt. V</note>
               <lb n="19" xml:id="p24-18"/>ἀναγκαῖον ἐνταῦθα λέγει τὸ βιβλίον ὡς πρὸς μεῖζον ἀγαθὸν αὐτὸ ἀνάγων.<note type="apparatus" n="19" target="#p24-18">λέγει p: λέγεται DE: om. M: oblitt. V ἀνάγων Vp: ἀνάγον DEM</note>
               <lb n="20" xml:id="p24-19"/>καὶ ἤτοι ὡς χρήσιμον ἢ ὡς καθ’ αὑτὸ ἀναγκαῖον καὶ χωρὶς αὐτοῦ τὰ<note type="apparatus" n="20-21" target="#p24-19 #p24-20">καὶ χωρὶς — συγγράμματα eicias, nisi malis ὡς pro καὶ scribere</note>
               <lb n="21" xml:id="p24-20"/>ἄλλα μὴ δύνασθαι τῶν φιλοσόφων ἀναλέγεσθαι συγγράμματα· ἰστέον γὰρ<milestone type="alt-edition" unit="line" ed="ed. princeps Venetiis 1500" n="15"/>
@@ -1143,7 +1144,7 @@
               <lb n="16" xml:id="p37-15"/>σύγκειται· οὐκοῦν ὁ ἀναλύων εἰς πλείονα ἀναλύει. ψεῦδος ἄρα τὸ τὴν<note type="apparatus" n="16" target="#p37-15">ὁ ἀναλύων ἐὰν εἰς πλείονα ἀναλύῃ V post ψεῦδος add. ἦν EMVp</note><note type="apparatus" n="16-17" target="#p37-15 #p37-16">τὴν ἀνάλυσιν D: τὸν ἀνάλυτον E1: τὸν ἀναλύτην E2MV: τὸν ἀναλύοντα p</note>
               <lb n="17" xml:id="p37-16"/>ἀνάλυσιν εἰς ἁπλοῦν ἀναλύειν τὸ σύνθετον. καὶ τοῦτο μὲν ἐγγὺς ἀληθές,<note type="apparatus" n="17" target="#p37-16">ante ἁπλοῦν add. ἓν p τὸ σύνθετον DVp: τὰ σύνθετα EM καὶ D: om. EMVp</note>
               <lb n="18" xml:id="p37-17"/>πλὴν ἔστιν εἰπεῖν, ὅτι εἰς προσεχῆ μὲν πλείονα ἀναλύει, τὸ δὲ ἔσχατον<note type="apparatus" n="18" target="#p37-17">ἐγγὺς ἀληθές D: ἐγγὺς ἦν ἀληθείας EMp: ἐγγὺς ἀληθείας V (fort. rectius) εἰς] εἰ M προσεχῆ μὲν πλεῖον ἀνάλυσις D εἰς ἓν EMVp: οὐ D</note>
-              <lb n="19" xml:id="p37-18"/>οὔ. ἔδει οὖν εἰδέναι, ὡς σαφῶς εἰπεῖν, ὅτι τὸ ἁπλοῦν μὲν εἰς πολλὰ σύντίθεται,<note type="apparatus" n="19" target="#p37-18">ἔδει DEV: δεῖ Mp</note>
+              <lb n="19" xml:id="p37-18"/>οὔ. ἔδει οὖν εἰδέναι, ὡς σαφῶς εἰπεῖν, ὅτι τὸ ἁπλοῦν μὲν εἰς πολλὰ συντίθεται,<note type="apparatus" n="19" target="#p37-18">ἔδει DEV: δεῖ Mp</note>
               <lb n="20" xml:id="p37-19"/>εἰς οὐδὲν δὲ ἀναλύεται, τὸ δὲ ἔσχατον συντεθὲν ἀναλύεται μὲν εἰς<milestone type="alt-edition" unit="line" ed="ed. princeps Venetiis 1500" n="35"/>
               <lb n="21" xml:id="p37-20"/>πλείονα, εἰς τὸ ἀνώτατον δὲ συντίθεται οὐκέτι. ἀποροῦσι δέ τινες, διὰ τί<note type="apparatus" n="21" target="#p37-20">ante πλείονα add. προσεχῆ EMVp: om. D ἀνωτάτω EV post δὲ (prius) add. ἓν Vp δὲ (alterum)] οὖν V</note>
               <lb n="22" xml:id="p37-21"/>τὸν ὁρισμὸν ὕστερον ὄντα τῆς διαιρέσεως προέταξε. καί φαμεν ὅτι πρῶτον<note type="apparatus" n="22" target="#p37-21">ὄντα ὕστερον colloc. V ὅτι om. E</note>
@@ -1174,7 +1175,7 @@
             </quote>
             <p>
               <lb n="10" xml:id="p38-9"/>Ἐπειδὴ ἔστι καὶ ἄλλη σύντομος παράδοσις ὑπομνήσεως χάριν κεφαλαιώδης,<note type="apparatus" n="10" target="#p38-9">ἐστὶ post ἄλλη transp. M: post παράδοσις p ante σύντομος add. τις M</note>
-              <lb n="11" xml:id="p38-10"/>ἢ σφόδρα ἐστὶ σύντομος καὶ πάνυ διὰ βραχέων γινομένη, διὰ<note type="apparatus" n="11" target="#p38-10">χρησίμός τε καὶ σύντομος V</note>
+              <lb n="11" xml:id="p38-10"/>ἣ σφόδρα ἐστὶ σύντομος καὶ πάνυ διὰ βραχέων γινομένη, διὰ<note type="apparatus" n="11" target="#p38-10">χρησίμός τε καὶ σύντομος V</note>
               <lb n="12" xml:id="p38-11"/>τοῦτο εἶπε σύντομον ὡς ἐν εἰσαγωγῆς τρόπῳ.<note type="apparatus" n="12" target="#p38-11">εἰσαγωγῆς] ab—αγωγῆς inc. F post τρόπῳ add. Ἐν προοιμίοις ὁ πορφύριος παραστήσας ἡμῖν τὸν σκοπόν τε καὶ τὸ χρειῶδες τοῦ προκειμένου συγγράμματος, νῦν ἐπὶ τὸν τρόπον ἦλθε τῆς διδασκαλίας καί φησιν ὁποίῳ τρόπῳ κέχρηται, ὅτι τὸ κεφαλαιότερον εἰπεῖν, εἰσαγωγικωτέρῳ. εἰ γὰρ μήκους μὲν ἀπέχεται λόγου, βάθους δὲ φείδεται θεωρημάτων, καὶ σαφέσι προσεπιτούτοις (sic) λέξεσι φωτίζει τὸν λόγον, συνάγοιτο τοῖς εἰσαγομένοις ἡ προκειμένη γραφή M</note>
             </p>
           </div>
@@ -1223,7 +1224,7 @@
               <lb n="2" xml:id="p40-1"/>καὶ αὐτὰ συμπαύεται· οὐ γάρ ἐστιν ὁ ἱπποκένταυρος ἐν ὑποστάσει, ἀλλὰ<note type="apparatus" n="2" target="#p40-1">ante καὶ add. ἀλλὰ V συμπ.] παύεται E ante οὐ add. οἷον ἱπποκένταυρος EMVp ὁ ἱπποκένταυρος om. EMVp</note>
               <lb n="3" xml:id="p40-2"/>θεασάμενοι ἵππον καὶ ἄνθρωπον ἀνεπλάσαμεν τῇ ἐπινοίᾳ σύνθετόν τι τὸν ἱπποκένταυρον.<note type="apparatus" n="3" target="#p40-2">ἄνθρωπον E Elias: ταῦρον DFM: κένταυρον Vp ἐπινοίᾳ DEMV: διανοίᾳ Fp</note><note type="apparatus" n="3-4" target="#p40-2 #p40-3">ante τὸν ἱπποκ. add. τοῦτον p</note>
               <lb n="4" xml:id="p40-3"/>ὁμοίως δὲ καὶ τράγον μὲν ἐποίησεν ἡ φύσις καὶ ἔλαφον, ἀναπλάσαντες<note type="apparatus" n="4" target="#p40-3">ὁμοίως δὲ καὶ EFM: ὁμοίως καὶ Dp: ὁμοίως V</note>
-              <lb n="5" xml:id="p40-4"/>δὲ καθ’ ἑαυτοὺς τῇ ἐπινοίᾳ ἀποτελοῦμεν σύνθετόν τι τὸν τραγἔλαφον,<milestone type="alt-edition" unit="line" ed="ed. princeps Venetiis 1500" n="35"/><note type="apparatus" n="5" target="#p40-4">καθ’ ἑαυτοὺς EFMVp: om. D ἐπινοίᾳ DEFMV: διανοίᾳ p (cf. v. 3) ἀποτελοῦμεν DEFMV: ἀνεπλάσαμεν p τι σύνθετον colloc. p τὸν om. Dp</note>
+              <lb n="5" xml:id="p40-4"/>δὲ καθ’ ἑαυτοὺς τῇ ἐπινοίᾳ ἀποτελοῦμεν σύνθετόν τι τὸν τραγέλαφον,<milestone type="alt-edition" unit="line" ed="ed. princeps Venetiis 1500" n="35"/><note type="apparatus" n="5" target="#p40-4">καθ’ ἑαυτοὺς EFMVp: om. D ἐπινοίᾳ DEFMV: διανοίᾳ p (cf. v. 3) ἀποτελοῦμεν DEFMV: ἀνεπλάσαμεν p τι σύνθετον colloc. p τὸν om. Dp</note>
               <lb n="6" xml:id="p40-5"/>καὶ ταύτῃ τὸ εἶναι ἔχει. ὁ τοίνυν Ἀντισθένης ἔλεγε τὰ γένη<note type="apparatus" n="6" target="#p40-5">καὶ ταύτῃ—ἔχει om. E; recte nisi forte corrigere mavis ὃς ἐν ταύτῃ (cf. p. 19,5) ταύτῃ] ταῦτα V Ἀντισθένης] cf. Antisthenis fr. XIII, 3 ed. Winckelmann (Turici 1842)</note>
               <lb n="7" xml:id="p40-6"/>καὶ τὰ εἴδη ἐν ψιλαῖς ἐπινοίαις εἶναι λέγων ὅτι “ἵππον μὲν ὁρῶ, ἱππότητα<note type="apparatus" n="7" target="#p40-6">ψιλαῖς ἐπινοίαις DFp: ψιλῇ ἐπινοίᾳ EM: ἐπινοίαις ψιλαῖς V λέγων DEp: λέγει γὰρ F: λέγων τοῦτο MV</note>
               <lb n="8" xml:id="p40-7"/>δὲ οὐχ ὁρῶ” καὶ πάλιν “ἄνθρωπον μὲν ὁρῶ, ἀνθρωπότητα δὲ οὐχ ὁρῶ.”<note type="apparatus" n="8" target="#p40-7">καὶ πάλιν—οὐχ ὁρῶ om. V ἄνθρωπον μὲν FMp: ἄνθρωπον DEV</note>
@@ -1237,13 +1238,13 @@
               <lb n="16" xml:id="p40-15"/>ἑτέροις ὡς ἡ λευκότης καὶ τὰ σχήματα· ταῦτα οὖν οἱ μὲν καθ’ αὑτά, οἱ<note type="apparatus" n="16" target="#p40-15">οὖν οἱ μὲν] δὲ ὃν in ras. M (in mrg. m.² οἱ μὲν)</note>
               <lb n="17" xml:id="p40-16"/>δὲ ἐν τοῖς αἰσθητοῖς ὑφεστάναι ἔλεγον. πάλιν δὲ ἐπειδὴ τὰ ἐν τοῖς αἰσθητοῖς
               <lb n="18" xml:id="p40-17"/>ὑφεστῶτα ἀσώματα ἢ δι’ ὅλου ἐστὶν ὡς ἡ ἐν τῷ ψιμμυθίῳ λευκότης<note type="apparatus" n="18" target="#p40-17">ὑφεστῶτα EFMVp: ὑφεστηκότα D ἀσώματα] σώματα M ψιμμυθίῳ DF: ψιμμιθίω E²MVp: ψιμυθίω E¹ (cf. p. 19,8)</note>
-              <lb n="19" xml:id="p40-18"/>ἢ κατὰ τὴν ἐπιφάνειαν ὡς τὸ σφαιροειδὲς σχῆμα, τῶν λεγόντῶν<note type="apparatus" n="19" target="#p40-18">κατὰ τὴν] κατ’ M ἐπιφάνειαν ἐστὶν FMp</note><note type="apparatus" n="19-20" target="#p40-18 #p40-19">τῶν λεγόντων—ἐπιφάνειαν (21) om. E: τῶν λεγόντων—ὑφεστάναι om. p τῶν οὖν λεγόντων V</note>
+              <lb n="19" xml:id="p40-18"/>ἢ κατὰ τὴν ἐπιφάνειαν ὡς τὸ σφαιροειδὲς σχῆμα, τῶν λεγόντων<note type="apparatus" n="19" target="#p40-18">κατὰ τὴν] κατ’ M ἐπιφάνειαν ἐστὶν FMp</note><note type="apparatus" n="19-20" target="#p40-18 #p40-19">τῶν λεγόντων—ἐπιφάνειαν (21) om. E: τῶν λεγόντων—ὑφεστάναι om. p τῶν οὖν λεγόντων V</note>
               <lb n="20" xml:id="p40-19"/>ἐν τοῖς αἰσθητοῖς ὑφεστάναι οἱ μὲν αὐτὰ δι’ ὅλου ἔλεγον εἶναι, οἱ δὲ
               <lb n="21" xml:id="p40-20"/>κατὰ τὴν ἐπιφάνειαν. ἕτεροι δὲ πάλιν περὶ τὰ ὑφεστῶτα ἔλεγον αὐτὰ<milestone type="alt-edition" unit="line" ed="ed. princeps Venetiis 1500" n="10"/>
               <lb n="22" xml:id="p40-21"/>ὑφεστηκότων τὰ μέν ἐστι σώματα, τὰ δὲ ἀσώματα. καὶ πάλιν τῶν ἀσωμάτων τὰ μὲν χωριστὰ
               <lb n="23" xml:id="p40-22"/>ὡς ἡ λογικὴ ψυχὴ καὶ ὁ ἄγγελος, τὰ δὲ σώματος ἀχώριστα ὡς λευκότης μελανία καὶ ὡς
               <lb n="24" xml:id="p40-23"/>ἄλογοι ψυχαί. τῶν δὲ καθ’ αὑτὰ τὰ μὲν πρὸ τῶν πολλῶν, τὰ δὲ ὑστερογενῆ καὶ ἐν τῇ ψυχῇ
-              <lb n="25" xml:id="p40-24"/>τῇ ἡμετέρᾳ. τῶν ὄντων τὰ μὲν ὑφέστηκε, τὰ δὲ ἐν ψιλῇ ἐπινοίᾳ λέγεται εἶναι p
+              <lb n="25" xml:id="p40-24"/>τῇ ἡμετέρᾳ. τῶν ὄντων τὰ μὲν ὑφέστηκε, τὰ δὲ ἐν ψιλῇ ἐπινοίᾳ λέγεται εἶναι
             </p>
             <pb n="41" facs="https://archive.org/download/commentariainari04akaduoft/page/n210.jpg"/>
             <p>
@@ -1514,7 +1515,7 @@
             <p>
               <lb n="18" xml:id="p49-17"/>Πρῶτον σημαινόμενον τοῦ γένους φησί, τοῦτο δέ ἐστι, καθ’ ὃ δύο σχέσεις<note type="apparatus" n="18" target="#p49-17">φησὶ τοῦ γένους colloc. EFMVp δὲ om. M</note>
               <lb n="19" xml:id="p49-18"/>λαμβάνει, πλήθους πρὸς πλῆθος καὶ πλήθους πρὸς ἕνα, οἷον τῶν<note type="apparatus" n="19" target="#p49-18">πλήθους (utrobique) p: πλῆθος codd. ἕνα] ἕν F</note><note type="apparatus" n="19-20" target="#p49-18 #p49-19">τῶν Ἡρακλ.] τὸν Ἡρακλέους M</note>
-              <lb n="20" xml:id="p49-19"/>Ἡρακλειδῶν πρὸς Ηρακλέα, καθὸ ἐξ ἐκείνου λέγονται ἔχειν τὸ γένος, καὶ<milestone type="alt-edition" unit="line" ed="ed. princeps Venetiis 1500" n="35"/><note type="apparatus" n="20" target="#p49-19">λέγεται M</note>
+              <lb n="20" xml:id="p49-19"/>Ἡρακλειδῶν πρὸς Ἡρακλέα, καθὸ ἐξ ἐκείνου λέγονται ἔχειν τὸ γένος, καὶ<milestone type="alt-edition" unit="line" ed="ed. princeps Venetiis 1500" n="35"/><note type="apparatus" n="20" target="#p49-19">λέγεται M</note>
               <lb n="21" xml:id="p49-20"/>αὐτῶν τούτων πρὸς ἀλλήλους, καθὸ ἀλλήλοις λέγονται θεῖοι καὶ ἀνεψιοὶ
               <lb n="22" xml:id="p49-21"/>ἢ ὁπωσοῦν ἄλλως. τὸ δὲ πὼς προσέθηκεν καλῶς· ἄλλῳ γὰρ ἄλλη ἔσται<note type="apparatus" n="22" target="#p49-21">καλῶς προσέθηκε colloc. EFMVp ἄλλῃ γὰρ ἄλλω EFMVp ἔσται] ἐστὶ EV</note>
             </p>
@@ -1628,23 +1629,23 @@
           </div>
           <div type="textpart" subtype="section" n="18">
             <quote type="lemma">
-              <lb n="3" xml:id="p53-2"/>p. 2, 10 ’’Ἄλλως δὲ πάλιν γένος λέγεται, ᾧ ὑποτάσσεται τὲ εἶδος,
+              <lb n="3" xml:id="p53-2"/>p. 2, 10 ’’Ἄλλως δὲ πάλιν γένος λέγεται, ᾧ ὑποτάσσεται τὸ εἶδος,
               <lb n="4" xml:id="p53-3"/>καθ’ ὁμοιότητα ἴσως τούτων εἰρημένον.<note type="apparatus" n="4" target="#p53-3">εἰρημένων DE</note>
             </quote>
             <p>
               <lb n="5" xml:id="p53-4"/>Τρίτον ἀπαριθμεῖται σημαινόμενον τοῦ γένους, περὶ οὗ καὶ τοῖς φιλοσόφοις<note type="apparatus" n="5" target="#p53-4">ante τρίτον add. εἰρηκὰς καθ’ ὁμοιότητα καλῶς προσέθηκε τὲ ἴσως, ἐπειδὴ οὐκ ἴσμεν ἀκριβῶς ποῖον ἐκ ποίου εἴρηται γένος D</note>
               <lb n="6" xml:id="p53-5"/>ὁ λόγος. ὁμοιότητα δέ τινα ἔχει πρὸς τὰ πρὸ αὐτοῦ· ὥσπερ γὰρ<note type="apparatus" n="6" target="#p53-5">πρὸς om. M</note>
-              <lb n="7" xml:id="p53-6"/>τὲ πρῶτον σημαινόμενον τοῦ γένους δύο τινὰς ἔχει σχέσεις, τὴν πολλῶν<note type="apparatus" n="7" target="#p53-6">τὴν Ep: τῶν DFΙΙV</note>
-              <lb n="8" xml:id="p53-7"/>πρὸς ἕνα καὶ τὴν αὐτῶν πρὸς αὐτούς, οὕτω τὰ εἴδη σχέσιν καὶ πρὸς τὲ<note type="apparatus" n="8" target="#p53-7">τὴν EFMVp: τῶν D καὶ τὰ εἴδη p καὶ (ante πρὸς τὲ γένος)] ὡς M</note><milestone type="alt-edition" unit="line" ed="ed. princeps Venetiis 1500" n="20"/>
-              <lb n="9" xml:id="p53-8"/>γένος καὶ πρὸς ἄλληλα ἔχει. πάλιν ὥσπερ τὲ δεύτερον σημαινόμενον σχέσιν<note type="apparatus" n="9" target="#p53-8">ἔχει ante σχέσιν (8) transp. E: post σχέσιν Mp: ἔχουσι (post σχέσιν) V πάλιν καὶ ὠσπερ V</note>
+              <lb n="7" xml:id="p53-6"/>τὸ πρῶτον σημαινόμενον τοῦ γένους δύο τινὰς ἔχει σχέσεις, τὴν πολλῶν<note type="apparatus" n="7" target="#p53-6">τὴν Ep: τῶν DFΙΙV</note>
+              <lb n="8" xml:id="p53-7"/>πρὸς ἕνα καὶ τὴν αὐτῶν πρὸς αὐτούς, οὕτω τὰ εἴδη σχέσιν καὶ πρὸς τὸ<note type="apparatus" n="8" target="#p53-7">τὴν EFMVp: τῶν D καὶ τὰ εἴδη p καὶ (ante πρὸς τὲ γένος)] ὡς M</note><milestone type="alt-edition" unit="line" ed="ed. princeps Venetiis 1500" n="20"/>
+              <lb n="9" xml:id="p53-8"/>γένος καὶ πρὸς ἄλληλα ἔχει. πάλιν ὥσπερ τὸ δεύτερον σημαινόμενον σχέσιν<note type="apparatus" n="9" target="#p53-8">ἔχει ante σχέσιν (8) transp. E: post σχέσιν Mp: ἔχουσι (post σχέσιν) V πάλιν καὶ ὠσπερ V</note>
               <lb n="10" xml:id="p53-9"/>ἔχει ἑνὸς πρὸς ἕνα καὶ τὴν τοῦ αἰτίου καὶ τοῦ αἰτιατοῦ, οὕτω καὶ τοῦτο<note type="apparatus" n="10" target="#p53-9">καὶ τὴν — ἑνα (11) om. E καὶ (ante τὴν) om. Mp (recte) τοῦ (ante αἰτιατοῦ) om. MVp (fort. recte)</note>
               <lb n="11" xml:id="p53-10"/>σχέσιν ἔχει ἑνὸς πρὸς ἕνα, οἷον τοῦ ζῴου πρὸς ἄνθρωπον, αἰτιατοῦ πρὸς<note type="apparatus" n="11" target="#p53-10">ἔχει σχέσιν colloc. V τὸν ἄνθρ. (sed τὸν eras.) D ante αἰτιατοῦ add. καὶ Mp; αἰτ. πρὸς αἴτιον eicias</note>
               <lb n="12" xml:id="p53-11"/>αἴτιον. ἴσως μὲν οὖν οἱ ὀνοματοθέται πρῶτοι τὰς διαφόρους τῶν ἀνθρώπων<note type="apparatus" n="12" target="#p53-11">νομοθέται Μ¹: ὀνομοθέται Μ²</note>
-              <lb n="13" xml:id="p53-12"/>γενέσεις διακρῖναι βουλόμενοι ἐκάλεσαν τὲ μὲν Ἡρακλειδῶν γένος τὲ
-              <lb n="14" xml:id="p53-13"/>δὲ Αἰακιδῶν τὲ δὲ Πελοπιδῶν, εἶθ’ ὕστερον οἱ φιλόσοφοι κατὰ μίμησιν<note type="apparatus" n="14" target="#p53-13">πελοπιδῶν τὲ δὲ αἰακιδῶν colloc. V</note><note type="apparatus" n="14-15" target="#p53-13 #p53-14">κατὰ τὴν τούτων μίμησιν p</note><note type="apparatus" n="14" target="#p53-13">post μίμησιν add. μὲν F</note><milestone type="alt-edition" unit="line" ed="ed. princeps Venetiis 1500" n="25"/>
+              <lb n="13" xml:id="p53-12"/>γενέσεις διακρῖναι βουλόμενοι ἐκάλεσαν τὸ μὲν Ἡρακλειδῶν γένος τὸ
+              <lb n="14" xml:id="p53-13"/>δὲ Αἰακιδῶν τὸ δὲ Πελοπιδῶν, εἶθ’ ὕστερον οἱ φιλόσοφοι κατὰ μίμησιν<note type="apparatus" n="14" target="#p53-13">πελοπιδῶν τὲ δὲ αἰακιδῶν colloc. V</note><note type="apparatus" n="14-15" target="#p53-13 #p53-14">κατὰ τὴν τούτων μίμησιν p</note><note type="apparatus" n="14" target="#p53-13">post μίμησιν add. μὲν F</note><milestone type="alt-edition" unit="line" ed="ed. princeps Venetiis 1500" n="25"/>
               <lb n="15" xml:id="p53-14"/>τὴν τούτων τὰ παρ’ αὐτοῖς ὠνόμασαν γένη· ὡς γὰρ Ἡρακλειδῶν γένος οἱ<note type="apparatus" n="15" target="#p53-14">ὠνόμασαν γένη τὰ π. αὐτοῖς colloc. E ὡς γὰρ] ὠσπερ V</note>
-              <lb n="16" xml:id="p53-15"/>ἐξ Ἡρακλέους γενόμενοι, οὕτω δὴ λέγεται καὶ τὲ ζῷον γένος· τῶν γὰρ<note type="apparatus" n="16" target="#p53-15">ἐξ] ἐκ τοῦ V γινόμενοι V δὴ om. MV</note>
-              <lb n="17" xml:id="p53-16"/>μερικῶν ζῴων, ἀνθρώπου κυνὸς ἵππου καὶ τῶν ἄλλων, γένος λέγεται τὲ<note type="apparatus" n="17" target="#p53-16">ἵππου κυνὸς colloc. M ἄλλων DE: λοιπῶν FMVp post γένος add. ἀληθῶς V</note>
+              <lb n="16" xml:id="p53-15"/>ἐξ Ἡρακλέους γενόμενοι, οὕτω δὴ λέγεται καὶ τὸ ζῷον γένος· τῶν γὰρ<note type="apparatus" n="16" target="#p53-15">ἐξ] ἐκ τοῦ V γινόμενοι V δὴ om. MV</note>
+              <lb n="17" xml:id="p53-16"/>μερικῶν ζῴων, ἀνθρώπου κυνὸς ἵππου καὶ τῶν ἄλλων, γένος λέγεται τὸ<note type="apparatus" n="17" target="#p53-16">ἵππου κυνὸς colloc. M ἄλλων DE: λοιπῶν FMVp post γένος add. ἀληθῶς V</note>
               <lb n="18" xml:id="p53-17"/>ἁπλῶς ζῷον. πολλάκις δὲ οἱ φιλόσοφοι εὗρον πρότερον τὰ παρ’ αὐτοῖς<note type="apparatus" n="18" target="#p53-17">εὗρον πρότερον DFp: πρότερα εὗρον E: πρῶτον εὗρον M: πρότερον εὗρον V αὐτοῖς] ἑαυτοῖς Mp</note>
               <lb n="19" xml:id="p53-18"/>γένη, εἶθ’ ὕστερον ἐπιγινόμενοι οἱ ὀνοματοθέται κατὰ μίμησιν τούτων τὰ<note type="apparatus" n="19" target="#p53-18">ἐπιγενόμενοι M</note><note type="apparatus" n="19-22" target="#p53-18 #p53-19 #p53-20 #p53-21">νομοθέται M</note>
               <lb n="20" xml:id="p53-19"/>ἐν τῇ συνηθείᾳ τῶν ἀνθρώπων γένη ὠνόμασαν· δυνατὸν γὰρ ἑκάτερον<note type="apparatus" n="20" target="#p53-19">ἐν om. F ὠνόμασαν γένη colloc. V β</note>
@@ -1928,7 +1929,7 @@
               <lb n="10" xml:id="p63-9"/>p. 2, 18 Καὶ τὸ οὗτος καὶ τὸ τοῦτο.<note type="apparatus" n="10" target="#p63-9">οὗτος ex οὕτως corr. E</note>
             </quote>
             <p>
-              <lb n="11" xml:id="p63-10"/>Καὶ γὰρ ταῦτα μερικὰ ὑπάρχει· καθ’ ἑνὸς γὰρ μόνου λέγεται’ δεικνύοντες<note type="apparatus" n="11" target="#p63-10">καὶ γὰρ ταῦτα μερικὰ ὑπάρχει. τὰ δὲ κατὰ πλειόνων ὡς τὰ γένη καὶ τὰ εἴδη καὶ αἱ διαφοραὶ καὶ τὰ ἴδια. καὶ γὰρ καὶ ταῦτα μερικὰ ὑπάρχει D καὶ ταῦτα γὰρ V: καὶ γὰρ καὶ ταῦτα p ὑπάρχει] ὑπάρχουσι Ε: εἰσὶ V λέγεται Mp: λέγονται DEFV</note>
+              <lb n="11" xml:id="p63-10"/>Καὶ γὰρ ταῦτα μερικὰ ὑπάρχει· καθ’ ἑνὸς γὰρ μόνου λέγεται· δεικνύοντες<note type="apparatus" n="11" target="#p63-10">καὶ γὰρ ταῦτα μερικὰ ὑπάρχει. τὰ δὲ κατὰ πλειόνων ὡς τὰ γένη καὶ τὰ εἴδη καὶ αἱ διαφοραὶ καὶ τὰ ἴδια. καὶ γὰρ καὶ ταῦτα μερικὰ ὑπάρχει D καὶ ταῦτα γὰρ V: καὶ γὰρ καὶ ταῦτα p ὑπάρχει] ὑπάρχουσι Ε: εἰσὶ V λέγεται Mp: λέγονται DEFV</note>
               <lb n="12" xml:id="p63-11"/>γάρ φαμεν τοῦτο καὶ ἐκεῖνο καὶ τὸ ἄλλο. καὶ καλῶς οἱ φιλόσοφοι<note type="apparatus" n="12" target="#p63-11">καὶ (post τοῦτο)] ἢ Μ: om. V καὶ καλῶς] καλῶς οὖν Μ</note>
               <lb n="13" xml:id="p63-12"/>κατὰ τῶν μερικῶν ἤγαγον τὸν λόγον τοῦτον· ταῦτα γὰρ καὶ τῇ δείξει<milestone type="alt-edition" unit="line" ed="ed. princeps Venetiis 1500" n="25"/><note type="apparatus" n="13" target="#p63-12">μερικῶν] μερῶν Μ</note>
               <lb n="14" xml:id="p63-13"/>καὶ τῇ αἰσθήσει ὑποπίπτουσιν. ὁ γὰρ καθόλου ἄνθρωπος καὶ τὸ καθόλου<note type="apparatus" n="14-15" target="#p63-13 #p63-14">ὁ γὰρ καθόλου ... ὑποπίπτουσιν in mrg. suppl. D</note><note type="apparatus" n="14" target="#p63-13">ὁ γὰρ Dp: οὐ γὰρ EF: οὐ γὰρ ὁ MV καὶ (alterum) DVp: οὐδὲ Ε: οὔτε FM</note>
@@ -1936,7 +1937,7 @@
               <lb n="16" xml:id="p63-15"/>καλῶς οὖν τὰ καθ’ ἕκαστα ὑπὸ τὴν δεῖξιν ἀνήγαγον, οὐ γὰρ
               <lb n="17" xml:id="p63-16"/>τὰ καθόλου. ἄτομα δὲ λέγεται ταῦτα, ἐπεὶ μὴ τέμνεται μήτε εἰς ὁμοιοειδῆ<note type="apparatus" n="17" target="#p63-16">μὴ] οὐ p μήτε] εἴτε Μ: οὔτε p: om. V</note><note type="apparatus" n="17-18" target="#p63-16 #p63-17">ὁμοιοειδῆ DF: ὁμοειδῆ EMVp</note>
               <lb n="18" xml:id="p63-17"/>μήτε εἰς ἀνομοιοειδῆ, ὥσπερ τὰ γένη καὶ τὰ εἴδη, ἀλλ’ ἅμα τῇ τομῇ<note type="apparatus" n="18" target="#p63-17">μήτε] οὔτε p ἀνομοιοειδῆ DEFV: ὁμοιοειδῆ Μ: ἀνομοειδῆ p ὥσπερ] ὡς D τὰ εἴδη καὶ τὰ γένη colloc. FMV ἀλλ’ om. E</note>
-              <lb n="19" xml:id="p63-18"/>φθείρεται’ τὸ γὰρ ἐν ἐμοὶ ζῷον οὐκ ἔστι κοινόν, ἀλλ’ ἐν ἐμοί περιγέγραπται,<milestone type="alt-edition" unit="line" ed="ed. princeps Venetiis 1500" n="30"/>
+              <lb n="19" xml:id="p63-18"/>φθείρεται· τὸ γὰρ ἐν ἐμοὶ ζῷον οὐκ ἔστι κοινόν, ἀλλ’ ἐν ἐμοί περιγέγραπται,<milestone type="alt-edition" unit="line" ed="ed. princeps Venetiis 1500" n="30"/>
               <lb n="20" xml:id="p63-19"/>ὁμοίως καὶ τὸ λογικόν· καὶ τὸ ἐκ πάντων σύγκριμα ὁ ἄνθρωπος<note type="apparatus" n="20" target="#p63-19">λογικόν] ἀργικόν (?) Ε ἐκ] ἐν F ὁ om. E</note>
               <lb n="21" xml:id="p63-20"/>περιώρισται.
             </p>
@@ -2126,7 +2127,7 @@
               <lb n="6" xml:id="p69-5"/>ἐννοηματικοῦ γένους. ἐννοηματικὸν δὲ γένος ἐστί, καθ’ ἣν ἔννοιαν λαμβάνοντες<note type="apparatus" n="6" target="#p69-5">δὲ] γὰρ V</note>
               <lb n="7" xml:id="p69-6"/>τὰ πράγματα πρὸς αὐτὴν ὁριζόμεθα, οἷον λαμβάνομεν κατὰ τὴν
               <lb n="8" xml:id="p69-7"/>οἰκείαν διάνοιαν τὸν ἄνθρωπον καὶ πρὸς αὐτὴν ἀναλογιζόμενοι λέγομεν, ὅτι<milestone type="alt-edition" unit="line" ed="ed. princeps Venetiis 1500" n="15"/><note type="apparatus" n="8" target="#p69-7">διάνοιαν F ἀναλογιζόμεθα λέγοντες p</note>
-              <lb n="9" xml:id="p69-8"/>ὁ ἄνθρωπός ἐστι ζῷον λογικὸν θνητόν. φησὶν οὖν ὁ Πορφύριος ὅτι ταύτῆς<note type="apparatus" n="9" target="#p69-8">ὁ (prius) om. V post οὖν add. ὅτι expunx. E</note>
+              <lb n="9" xml:id="p69-8"/>ὁ ἄνθρωπός ἐστι ζῷον λογικὸν θνητόν. φησὶν οὖν ὁ Πορφύριος ὅτι ταύτης<note type="apparatus" n="9" target="#p69-8">ὁ (prius) om. V post οὖν add. ὅτι expunx. E</note>
               <lb n="10" xml:id="p69-9"/>τῆς ἐννοίας οὐδὲν ὑπερβάλλον οὐδὲ ἐλλεῖπον ἔχει ἡ τοῦ γένους ὑπογραφή.<note type="apparatus" n="10-11" target="#p69-9 #p69-10">ἡ ὑπογραφὴ τοῦ γένους MV</note>
               <lb n="11" xml:id="p69-10"/>
             </p>
@@ -2173,7 +2174,7 @@
               <lb n="19" xml:id="p70-18"/>γένη τὰ αὐτὰ καλοῦνται καὶ εἴδη, εἴδη μὲν τῶν πρὸ αὐτῶν, γένη δὲ τῶν<note type="apparatus" n="19" target="#p70-18">τὰ] καὶ p καλοῦσι V</note>
               <lb n="20" xml:id="p70-19"/>μετ’ αὐτά. κοινῶς μὲν οὖν πάντα τὰ εἴδη τά τε εἰδικώτατα καὶ τὰ ὑπάλληλα<note type="apparatus" n="20" target="#p70-19">μετ’ αὐτά] μετὰ ταῦτα E οὖν om. V τὰ εἴδη πάντα colloc. V</note>
               <lb n="21" xml:id="p70-20"/>ἡ προτέρα ὑπογραφὴ περιέχει ἡ λέγουσα εἶδος εἶναι τὸ ὑπὸ τὸ γένος<note type="apparatus" n="21" target="#p70-20">γραφὴ E: ἐπιγραφὴ p εἶδος om. F</note><milestone type="alt-edition" unit="line" ed="ed. princeps Venetiis 1500" n="10"/>
-              <lb n="22" xml:id="p70-21"/>πεπτωκὸς ἧι οὗ τὸ γένος ἐν τῷ τί ἐστι κατηγορεῖται· τούτων γὰρ τῶν
+              <lb n="22" xml:id="p70-21"/>πεπτωκὸς ἢ οὗ τὸ γένος ἐν τῷ τί ἐστι κατηγορεῖται· τούτων γὰρ τῶν
               <lb n="23" xml:id="p70-22"/>ὑπογραφῶν ἑκατέρα τῷ μὲν ὑποκειμένῳ ἡ αὐτή ἐστι τῇ λοιπῇ, τῇ δὲ<note type="apparatus" n="23" target="#p70-22">ἡ om. FM</note>
               <lb n="24" xml:id="p70-23"/>σχέσει μόνον ἀλλήλων διαφέρουσι. πολλὰ γὰρ ἔστι καὶ ἄλλα πράγματα,<note type="apparatus" n="24" target="#p70-23">διαφέρουσα F: διαφέρει M εἰσι DEV</note>
               <lb n="25" xml:id="p70-24"/>ἅτινα τῷ μὲν ὑποκειμένῳ ταὐτά ἐστι, τῇ δὲ σχέσει διάφορα, ὡς ἡ ἀνάβασίς<note type="apparatus" n="25" target="#p70-24">ἅτινα] ἃ D μὲν om. D ταῦτα εἰσί E διάφορα DEF: διαφέρει M: διαφέρουσι V</note>
@@ -2228,7 +2229,7 @@
             <p>
               <lb n="1" xml:id="p72-0"/>τοῦ τετραγώνου πρῶτον· τὸ μὲν γὰρ ἐκ τριῶν ἐστι γραμμῶν τὸ δὲ ἐκ τεττάρων,<note type="apparatus" n="1" target="#p72-0">ἐστὶ post γραμμῶν transp. E: om. D</note><note type="apparatus" n="1-2" target="#p72-0 #p72-1">τεσσάρων (priore loco) EV</note>
               <lb n="2" xml:id="p72-1"/>τὰ δὲ τρία τῶν τεσσάρων πρῶτα. καὶ ἄλλως· πᾶν τετράγωνον εἰς<note type="apparatus" n="2" target="#p72-1">τεττάρων (altero loco) Fp πᾶν] που E τετράγωνον om. E</note>
-              <lb n="3" xml:id="p72-2"/>δύο τρίγωνα ὀρθογώνια διαιρεῖται (ἡ γὰρ τοῦ ᾱ β̄ γ̄ δ̄ <milestone type="alt-edition" unit="folio" ed="ed. princeps Venetiis 1500" n="21r"/> τετραγώνου ἐπιζευξις<note type="apparatus" n="3" target="#p72-2">ἡ γὰρ — ὀρθογώνια (v. 4) om. E</note>
+              <lb n="3" xml:id="p72-2"/>δύο τρίγωνα ὀρθογώνια διαιρεῖται (ἡ γὰρ τοῦ ᾱ β̄ γ̄ δ̄ <milestone type="alt-edition" unit="folio" ed="ed. princeps Venetiis 1500" n="21r"/> τετραγώνου ἐπίζευξις<note type="apparatus" n="3" target="#p72-2">ἡ γὰρ — ὀρθογώνια (v. 4) om. E</note>
               <lb n="4" xml:id="p72-3"/>τῇ ᾱ γ̄ διαμέτρῳ διαιρεθήσεται εἰς δύο τρίγωνα ὀρθογώνια τό τε ᾱ<note type="apparatus" n="4" target="#p72-3">τῇ τοῦ α γ V</note>
               <lb n="5" xml:id="p72-4"/>β̄ γ̄ καὶ τὸ ᾱ δ̄ γ̄)· ὥστε ἀναιρουμένου τοῦ τετραγώνου οὐκ ἀναιρεῖται τὸ<note type="apparatus" n="5" target="#p72-4">post ἀναιρουμένου add. μὲν Mp (fort. recte) τοῦ om. F</note>
               <lb n="6" xml:id="p72-5"/>τρίγωνον, τριγώνου δὲ ἀναιρεθέντος ἀδύνατον εἶναι τετράγωνον· ὥστε πρῶτον<note type="apparatus" n="6-7" target="#p72-5 #p72-6">τὸ πρῶτον F</note>
@@ -2239,7 +2240,7 @@
               <lb n="11" xml:id="p72-10"/>δεύτερα, τὸ ἄρα κατὰ τούτων κοινῶς κατηγορούμενον, λέγω δὴ τὸ σχῆμα,<note type="apparatus" n="11" target="#p72-10">κατηγ. κοινῶς (sed num. superscr. corr.) colloc. F</note>
               <lb n="12" xml:id="p72-11"/>οὐκ ἔστιν αὐτῶν γένος, οὔκουν οὐδὲ ταῦτα ἐκείνου εἴδη. λείπεται τοίνυν<note type="apparatus" n="12" target="#p72-11">γένος αὐτῶν colloc. M γένη E οὐκοῦν om. EV οὐδὲ M Urb. 35: οὔτε DEF Vp τοίνυν] οὖν M post τοίνυν add. ἡμῖν EF: ἡμῖν τὸ V</note>
               <lb n="13" xml:id="p72-12"/>μὴ κυρίως εἰρηκέναι τὸν Πορφύριον τὸ τρίγωνον τοῦ σχήματος εἶδος. πρὸς<note type="apparatus" n="13" target="#p72-12">ante πρὸς add. rubro ἀλλὰ D</note>
-              <lb n="14" xml:id="p72-13"/>τοῦτο πάντες ἠπόρησαν ἀπολογίας οἱ ἐξηγηταὶ καί φασιν αὐτὸν ὑπόδειγματος<note type="apparatus" n="14" target="#p72-13">ἀπολογίας] ἀπολόγου E: om. M φασιν] φαμεν E αὐτὸν] αὐτὸ F</note><milestone type="alt-edition" unit="line" ed="ed. princeps Venetiis 1500" n="10"/>
+              <lb n="14" xml:id="p72-13"/>τοῦτο πάντες ἠπόρησαν ἀπολογίας οἱ ἐξηγηταὶ καί φασιν αὐτὸν ὑποδείγματος<note type="apparatus" n="14" target="#p72-13">ἀπολογίας] ἀπολόγου E: om. M φασιν] φαμεν E αὐτὸν] αὐτὸ F</note><milestone type="alt-edition" unit="line" ed="ed. princeps Venetiis 1500" n="10"/>
               <lb n="15" xml:id="p72-14"/>χάριν καταχρηστικώτερον γένος καλέσαι τοῦ τριγώνου τὸ σχῆμα. ἐπιλυόμενοι<note type="apparatus" n="15" target="#p72-14">εἶδος καλέσαι τὸ τρίγωνον τοῦ σχήματος M</note>
               <lb n="16" xml:id="p72-15"/>δὲ ἡμεῖς τὴν ἀπορίαν φαμὲν ὅτι εἰ μὲν στοιχεῖα ἦν τῷ ὄντι τοῦ<note type="apparatus" n="16-17" target="#p72-15 #p72-16">στοιχεῖον . . . τὸ τρίγωνον M</note><note type="apparatus" n="16-17" target="#p72-15 #p72-16">τῶν τετραγώνων V</note>
               <lb n="17" xml:id="p72-16"/>τετραγώνου τὰ τρίγωνα, ὡς μὴ ἄλλως τετράγωνον ἐνδέχεσθαι γενέσθαι,<note type="apparatus" n="17" target="#p72-16">τὸ τετράγωνον E: τετράγωνα MV ἐνδέχεται E ἐκ τριγώνου M συγκέοιτο M Urb. 35</note>
@@ -2926,7 +2927,7 @@
               <lb n="23" xml:id="p91-22"/>p. 8,8 Διαφορὰ δὲ κοινῶς τε καὶ ἰδίως καὶ ἰδιαίτατα λεγέσθω.<note type="apparatus" n="23" target="#p91-22">ἡ διαφορὰ δὲ D</note>
             </quote>
             <p>
-              <lb n="24" xml:id="p91-23"/>Ὅτι μὲν ἡ διαφορὰ προτέρα ἐστὶ τοῦ εἴδους καὶ δι’ ἣν αἰτίαν προτερον<note type="apparatus" n="24" target="#p91-23">ὅτι μὲν om. D</note><note type="apparatus" n="24-25" target="#p91-23 #p91-24">πρότερον DFp: προτέρα MV: om. E</note>
+              <lb n="24" xml:id="p91-23"/>Ὅτι μὲν ἡ διαφορὰ προτέρα ἐστὶ τοῦ εἴδους καὶ δι’ ἣν αἰτίαν πρότερον<note type="apparatus" n="24" target="#p91-23">ὅτι μὲν om. D</note><note type="apparatus" n="24-25" target="#p91-23 #p91-24">πρότερον DFp: προτέρα MV: om. E</note>
               <lb n="25" xml:id="p91-24"/>περὶ τοῦ εἴδους διελέχθη, ἤδη λέλεκται. νῦν οὖν περὶ τῆς διαφορᾶς<note type="apparatus" n="25" target="#p91-24">περὶ] παρὰ V: om. M διελέχθη DMVP: διειλέχθη EF</note><milestone type="alt-edition" unit="line" ed="ed. princeps Venetiis 1500" n="5"/>
             </p>
             <pb n="92" facs="https://archive.org/download/commentariainari04akaduoft/page/n261.jpg"/>
@@ -2965,7 +2966,7 @@
               <lb n="3" xml:id="p93-2"/>ἄλλο, ἡ μὲν κοινῶς καὶ ἰδίως λεγομένη διαφορὰ ἀλλοῖον (ἀλλοῖον γὰρ τὸ
               <lb n="4" xml:id="p93-3"/>καθέζεσθαι καὶ τὸ ἑστάναι καὶ ἀλλοῖον τὸ σιμὸν καὶ τὸ γρυπόν), αἱ δὲ<note type="apparatus" n="4" target="#p93-3">τὸ (ante ἑστάναι) om. V</note>
               <lb n="5" xml:id="p93-4"/>ἰδιαίτατα ἄλλο· ἄλλο γὰρ τὸ λογικὸν καὶ ἄλλο τὸ ἄλογον. τὸ μὲν γὰρ<note type="apparatus" n="5" target="#p93-4">τὸ (ante λογ. et ἄλογον) om. FV</note>
-              <lb n="6" xml:id="p93-5"/>ἀλλοῖον κατά τι τῶν πράγματος ἐναλλαγὴν ποιεῖται, τὸ δὲ ἄλλο πάντως<note type="apparatus" n="6" target="#p93-5">τῶν τοῦ πράγματος ἐναλλαγὴν D: τῶν πραγμάτων τὴν ἐναλλ. E: τῶν τοῦ πράγματος τὴν ἐναλλ. FMp: oblitt. V</note><note type="apparatus" n="6-7" target="#p93-5 #p93-6">πάντῃ p</note>
+              <lb n="6" xml:id="p93-5"/>ἀλλοῖον κατά τι τῶν τοῦ πράγματος ἐναλλαγὴν ποιεῖται, τὸ δὲ ἄλλο πάντως<note type="apparatus" n="6" target="#p93-5">τῶν τοῦ πράγματος ἐναλλαγὴν D: τῶν πραγμάτων τὴν ἐναλλ. E: τῶν τοῦ πράγματος τὴν ἐναλλ. FMp: oblitt. V</note><note type="apparatus" n="6-7" target="#p93-5 #p93-6">πάντῃ p</note>
               <lb n="7" xml:id="p93-6"/>ἕτερον ποιεῖ· τὸ μὲν γὰρ λογικὸν ζῷον ἄλλο παρὰ τὸ ἄλογον, ὁ δὲ
               <lb n="8" xml:id="p93-7"/>καθεζόμενος τοῦ ἑστῶτος οὐκ ἄλλο, ἀλλοῖον δέ, ὁμοίως καὶ ὁ γρυπὸς τοῦ<milestone type="alt-edition" unit="line" ed="ed. princeps Venetiis 1500" n="35"/>
               <lb n="9" xml:id="p93-8"/>σιμοῦ. τριχῶς οὖν τῶν διαφορῶν λεγομένων τῶν μὲν κοινῶς τῶν δὲ ἰδίως
@@ -3167,7 +3168,7 @@
             <p>
               <lb n="9" xml:id="p98-8"/>Αἱ διαφοραὶ αἱ τῆς οὐσίας συμπληρωτικαί. αὗται δὲ καὶ τῶν ὁρισμῶν<note type="apparatus" n="9" target="#p98-8">αἱ (ante διαφοραὶ) om. Vp αὗται δὲ] ἀλλὰ M</note>
               <lb n="10" xml:id="p98-9"/>εἰσι συμπληρωτικαί· οἱ δὲ ὁρισμοὶ τοῦ αὐτοῦ οἱ αὐτοί εἰσιν ἀεί· οὐ γὰρ<note type="apparatus" n="10" target="#p98-9">εἰσι συμπληρωτικαί om. M ἀεί] ἄν F</note>
-              <lb n="11" xml:id="p98-10"/>ποτὲ μὲν ζῷον λογικὸν ὁ ἄνθρωπος ποτὲ δὲ οὔ,· ἀλλ’ ἀεὶ ὡσαύτως οὔτε<note type="apparatus" n="11" target="#p98-10">ὁ ἄνθρωπος λογικὸν colloc. V post λογικὸν add. θνητὸν p οὗ] ἄλλο V ἀλλ’ ἀεί] ἀλλ’ ἢ F post ὡσαύτως add. ἔχει V</note><note type="apparatus" n="11-12" target="#p98-10 #p98-11">οὔτε ἐπίτασιν — μελανώτερον (v. 15) om. M</note><milestone type="alt-edition" unit="line" ed="ed. princeps Venetiis 1500" n="20"/>
+              <lb n="11" xml:id="p98-10"/>ποτὲ μὲν ζῷον λογικὸν ὁ ἄνθρωπος ποτὲ δὲ οὔ, ἀλλ’ ἀεὶ ὡσαύτως οὔτε<note type="apparatus" n="11" target="#p98-10">ὁ ἄνθρωπος λογικὸν colloc. V post λογικὸν add. θνητὸν p οὗ] ἄλλο V ἀλλ’ ἀεί] ἀλλ’ ἢ F post ὡσαύτως add. ἔχει V</note><note type="apparatus" n="11-12" target="#p98-10 #p98-11">οὔτε ἐπίτασιν — μελανώτερον (v. 15) om. M</note><milestone type="alt-edition" unit="line" ed="ed. princeps Venetiis 1500" n="20"/>
               <lb n="12" xml:id="p98-11"/>ἐπίτασιν οὔτε ἄνεσιν ἐπιδεχόμενος.<note type="apparatus" n="12" target="#p98-11">ἄνεσιν οὔτε ἐπίτασιν colloc. V post ἐπιδεχόμενος add. οὐ γὰρ ποτὲ μὲν μᾶλλον ζῶον λογικὸν (θνητὸν add. p) ἐστὶν ὁ ἄνθρωπος, ποτὲ δὲ ἧττον (ἧττον δὲ ποτέ V) Vp</note>
             </p>
           </div>
@@ -3213,7 +3214,7 @@
               <lb n="17" xml:id="p99-16"/>Σκύλλης ὁ ποιητὴς λέγειν<note type="apparatus" n="17" target="#p99-16">ὁ ποιητὴς] Hom. μ 118</note>
               <lb n="18" xml:id="p99-17"/>ἀλλ’ ἀθάνατον κακόν ἐστιν,
               <lb n="19" xml:id="p99-18"/>ἢ οὔ· οἱ μὲν γάρ φασιν εἶναί τι δαιμονίων ἀλόγων γένος ἀθάνατον, ὅπερ<note type="apparatus" n="19" target="#p99-18">ἄλογον V ἀθάν. γένος colloc. M</note>
-              <lb n="20" xml:id="p99-19"/>δὴ μείονα ἐπέχει τάξιν, οὓς καὶ ἀποτρεπόμεθα. οἱ δέ φασι καὶ τὸ τοιοὗτον<note type="apparatus" n="20" target="#p99-19">δὴ μείονα] δημίων V ἐπέχει DEM: ἐπέχειν φησὶ F: φασὶ ἐπέχειν V: ἐπέχειν φασὶ p</note>
+              <lb n="20" xml:id="p99-19"/>δὴ μείονα ἐπέχει τάξιν, οὓς καὶ ἀποτρεπόμεθα. οἱ δέ φασι καὶ τὸ τοιοῦτον<note type="apparatus" n="20" target="#p99-19">δὴ μείονα] δημίων V ἐπέχει DEM: ἐπέχειν φησὶ F: φασὶ ἐπέχειν V: ἐπέχειν φασὶ p</note>
               <lb n="21" xml:id="p99-20"/>γένος θνητὸν εἶναι· ὃ γάρ ἐστιν ἀθάνατον, καὶ λογικόν ἐστι πάντως.<note type="apparatus" n="21" target="#p99-20">γάρ ἐστὶν] γὰρ ἂν ᾖ p</note><note type="apparatus" n="21-22" target="#p99-20 #p99-21">ἐστὶ πάντως DFV: πάντως ἐστίν EM: εἶναι πάντως p</note>
               <lb n="22" xml:id="p99-21"/>ἔλθωμεν καὶ ἐπὶ τὴν οὐσίαν, καὶ τὰ αὐτὰ εὑρήσομεν· καὶ γὰρ καὶ<note type="apparatus" n="22" target="#p99-21">post ἔλθωμεν add. τοίνυν p καὶ (ante ἐπὶ) om. E τὰ αὐτὰ] ταῦτα V πάντως εὑρήσομεν M εὑρίσκομεν FV καὶ γὰρ καὶ DVp: καὶ γὰρ EFM</note>
               <lb n="23" xml:id="p99-22"/>ἐνταῦθα δύο οὐσῶν ἀντιθέσεων, ἐμψύχου καὶ ἀψύχου, αἰσθητικοῦ καὶ ἀναισθήτου,<note type="apparatus" n="23" target="#p99-22">post ἐμψύχου add. φημὶ p καὶ (ante ἀψύχου) om. F αἰσθητικῆς D αἰσθητικοῦ τὲ ||||αισθήτου (partim oblitt.) M</note>
@@ -3267,7 +3268,7 @@
           </div>
           <div type="textpart" subtype="section" n="74">
             <quote type="lemma">
-              <lb n="5" xml:id="p101-4"/>p. 10,22 Ἄς δὴ καὶ ὁριζόμενοί φαμεν· διαφορά ἐστιν ᾗ περισσεύει<note type="apparatus" n="5" target="#p101-4">φαμεν] φασι Porph.</note>
+              <lb n="5" xml:id="p101-4"/>p. 10,22 Ἃς δὴ καὶ ὁριζόμενοί φαμεν· διαφορά ἐστιν ᾗ περισσεύει<note type="apparatus" n="5" target="#p101-4">φαμεν] φασι Porph.</note>
               <lb n="6" xml:id="p101-5"/>τὸ εἶδος τοῦ γένους.
             </quote>
             <p>
@@ -3301,7 +3302,7 @@
               <lb n="3" xml:id="p102-2"/>Ἀπορήσας τοίνυν ἐπιλύεται τὴν ἀπορίαν περιπατητικῶς· λέγει γὰρ ὁ<note type="apparatus" n="3" target="#p102-2">τῶν περιπατητικῶν M</note>
               <lb n="4" xml:id="p102-3"/>Πορφύριος, ὅτι τὰ ἐναντία ἐν τῷ αὐτῷ κατὰ τὸν αὐτὸν χρόνον ἐνεργείᾳ
               <lb n="5" xml:id="p102-4"/>μὲν εἶναι οὐ δύναται, δυνάμει μέντοι δύναται εἶναι. ἵνα δὲ σαφῆ γένηται<note type="apparatus" n="5" target="#p102-4">εἶναι om. V δύνανται (priore loco) DEFMV μέντοι] δὲ p εἶναι δύν. colloc. M</note><note type="apparatus" n="5-6" target="#p102-4 #p102-5">σαφές γέν. τὸ λεγόμενον p γένηται post λεγόμ. transp. M</note>
-              <lb n="6" xml:id="p102-5"/>τὰ λεγόμενα, εἴπωμεν οὕτως· ἄλλο τί ἐστι τὸ δυνάμει εἶναί καὶ ἄλλο<note type="apparatus" n="6" target="#p102-5">τι (post ἄλλο) om. FVp</note>
+              <lb n="6" xml:id="p102-5"/>τὰ λεγόμενα, εἴπωμεν οὕτως· ἄλλο τί ἐστι τὸ δυνάμει εἶναί τι καὶ ἄλλο<note type="apparatus" n="6" target="#p102-5">τι (post ἄλλο) om. FVp</note>
               <lb n="7" xml:id="p102-6"/>τὸ ἐνεργείᾳ· δυνάμει μὲν γὰρ λέγεται τὸ ἀτελὲς καὶ μὴ προαχθὲν εἰς ἐνέργειαν,<note type="apparatus" n="7" target="#p102-6">μὲν om. V</note><milestone type="alt-edition" unit="line" ed="ed. princeps Venetiis 1500" n="25"/>
               <lb n="8" xml:id="p102-7"/>δυνάμενον μέντοι καὶ ἐπιτηδείως ἔχον ἐνεχθῆναι ἐπὶ τὸ ἐνεργείᾳ·<note type="apparatus" n="8" target="#p102-7">μέντοι] δὲ FV ἐπιτηδειότητα FV ἐνεχθ.] ἐγχωρεῖν M τὸ ἐναργές M: τὰς ἐνεργείας V</note>
               <lb n="9" xml:id="p102-8"/>οἷον τὸ παιδίον δυνάμει μὲν γραμματικόν ἐστι (δύναται γὰρ γενέσθαι γραμματικόν)<note type="apparatus" n="9" target="#p102-8">γραμμ. δυνάμει ἐστί (μὲν om.) V γραμματικόν oblitt. M</note><note type="apparatus" n="9-10" target="#p102-8 #p102-9">γραμμ. γενέσθαι colloc. D γεν. γραμματικός M</note>
@@ -3482,7 +3483,7 @@
               <lb n="14" xml:id="p107-13"/>οὕτω κατὰ μὲν τὸ γένος, καθ’ ὃ ζῷά ἐσμεν, οὐδὲν διαφέρει ἄνθρωπος,<note type="apparatus" n="14" target="#p107-13">καθ’ ὃ καὶ ζῶα V</note>
               <lb n="15" xml:id="p107-14"/>ἵππος, κύων καὶ τὰ ἄλλα, κατὰ μέντοι τὰς διαφορὰς διαφέρει· τὸ γὰρ<note type="apparatus" n="15" target="#p107-14">καὶ ἵππος καὶ κύων F μέντοι] δὲ p διαφέρουσιν F</note><milestone type="alt-edition" unit="line" ed="ed. princeps Venetiis 1500" n="35"/>
               <lb n="16" xml:id="p107-15"/>ζῷον δεξάμενον τὸ λογικὸν καὶ τὸ θνητὸν ποιεῖ τὸν ἄνθρωπον, τὸ δ’ ἄλογον
-              <lb n="17" xml:id="p107-16"/>καὶ τὸ θνητὸν πάλιν δεξάμενον ποιεῖ τὸν ἵππον. ὥστε ὕλη μὲν ἀναλογεῖ<note type="apparatus" n="17" target="#p107-16">πάλιν δεξ. πάλιν ποιεῖ D τὸν om. F</note>
+              <lb n="17" xml:id="p107-16"/>καὶ τὸ θνητὸν πάλιν δεξάμενον ποιεῖ τὸν ἵππον. ὥστε ὕλῃ μὲν ἀναλογεῖ<note type="apparatus" n="17" target="#p107-16">πάλιν δεξ. πάλιν ποιεῖ D τὸν om. F</note>
               <lb n="18" xml:id="p107-17"/>τὸ γένος, εἴδει δὲ αἱ διαφοραί. ἐπεὶ οὖν ἡ μὲν ὕλη ἑκάστῳ τὸ εἶναι<note type="apparatus" n="18" target="#p107-17">εἴδη M τὸ εἶναι ἑκάστῳ colloc. FV</note>
               <lb n="19" xml:id="p107-18"/>παρέχει, τὸ δ’ <milestone type="alt-edition" unit="folio" ed="ed. princeps Venetiis 1500" n="30v"/> εἶδος τὸ τοιόνδε καὶ τὸ τοιόνδε, εἰκότως τὸ μὲν γένος ἐν<note type="apparatus" n="19" target="#p107-18">τὸ τοιόνδε καὶ τὸ τοιόνδε F: τὸ ποῖον καὶ τὸ τοιόνδε DEp: τὸ τοῖον καὶ τοιόνδε M: τὸ τοιόνδε καὶ τοιόνδε V</note>
               <lb n="20" xml:id="p107-19"/>τῷ τί ἐστι κατηγορεῖται ὡς ἀναλογοῦν τῇ ὕλῃ, ἡ δὲ διαφορὰ ἐν τῷ ὁποῖόν
@@ -3562,7 +3563,7 @@
               <lb n="5" xml:id="p109-4"/>καὶ τὰ οὐσιώδη (καὶ γὰρ ταῦτα καὶ πᾶσι καὶ ἀεὶ ὑπάρχει, οἷς ὑπάρχει),<note type="apparatus" n="5" target="#p109-4">καὶ γὰρ καὶ V</note>
               <lb n="6" xml:id="p109-5"/>κοινωνεῖ δὲ καὶ τοῖς συμβεβηκόσιν, ὅτι ὥσπερ ἐκεῖνα τῇ ἐπινοίᾳ χωρίζεται
               <lb n="7" xml:id="p109-6"/>τοῦ ὑποκειμένου, οὕτω καὶ τὸ ἴδιον τῇ ἐπινοίᾳ χωρίζεται. πάλιν δὲ κατὰ<note type="apparatus" n="7" target="#p109-6">χωρίζονται V</note>
-              <lb n="8" xml:id="p109-7"/>τὸ αὐτὸν τύπον τῆς διδασκαλίας πρότερον τὰ σημαινόμενα ἀπαριθμεῖται,<note type="apparatus" n="8" target="#p109-7">τύπον DEF Vp: τρόπον M post πρότερον add. αὐτοῦ FVp ἀπαριθμεῖ M</note>
+              <lb n="8" xml:id="p109-7"/><choice><sic>τὸ</sic><corr>τὸν</corr></choice> αὐτὸν τύπον τῆς διδασκαλίας πρότερον τὰ σημαινόμενα ἀπαριθμεῖται,<note type="apparatus" n="8" target="#p109-7">τύπον DEF Vp: τρόπον M post πρότερον add. αὐτοῦ FVp ἀπαριθμεῖ M</note>
               <lb n="9" xml:id="p109-8"/>καὶ οὕτως λέγει ποίου πέρι τοῖς φιλοσόφοις ὁ λόγος. τρόπον οὖν τινα<note type="apparatus" n="9" target="#p109-8">ποίου πέρι D: ποίου περὶ E: περὶ ποίου FMVp</note>
               <lb n="10" xml:id="p109-9"/>διαιρεῖ εἰς τέσσαρα τὸ ἴδιον καί φησιν οὕτως· τὸ ἴδιον ἢ μόνῳ τινὶ εἴδει<note type="apparatus" n="10" target="#p109-9">διαιρεῖται V εἴδει om. DEM: post ὑπάρχει (11) transp. p</note><milestone type="alt-edition" unit="line" ed="ed. princeps Venetiis 1500" n="30"/>
               <lb n="11" xml:id="p109-10"/>ὑπάρχει ἢ οὐ μόνῳ, καὶ εἰ μόνῳ, ἢ παντὶ τῷ εἴδει ἢ οὐ παντί, καὶ εἰ<note type="apparatus" n="11" target="#p109-10">post εἴδει add. ὑπάρχει Vp post παντί addas ἢ ἀεὶ ἢ οὐκ ἀεί</note>
@@ -3607,7 +3608,7 @@
             </quote>
             <p>
               <lb n="10" xml:id="p110-9"/>Τῶν προκειμένων πραγμάτων πρὸς τὴν διδασκαλίαν ὑστάτην τάξιν<note type="apparatus" n="10" target="#p110-9">ὑστάτην scripsi: ὑστέραν libri</note>
-              <lb n="11" xml:id="p110-10"/>ἔγει τὸ συμβεβηκός· λείπεται τοίνυν περὶ τούτου τὸν λόγον ποιήσασθαι.<note type="apparatus" n="11" target="#p110-10">ποιεῖσθαι FV</note>
+              <lb n="11" xml:id="p110-10"/>ἔχει τὸ συμβεβηκός· λείπεται τοίνυν περὶ τούτου τὸν λόγον ποιήσασθαι.<note type="apparatus" n="11" target="#p110-10">ποιεῖσθαι FV</note>
               <lb n="12" xml:id="p110-11"/>ἰστέον δὲ ὅτι οὐ κατὰ τὴν εἰωθυῖαν διδασκαλίαν καὶ περὶ τούτου ἐδίδαξεν·<note type="apparatus" n="12" target="#p110-11">οὐ MVp: om. DF: superscr. E</note>
               <lb n="13" xml:id="p110-12"/>ἐπὶ μὲν γὰρ τῶν ἄλλων φωνῶν πρότερον ἀπηριθμήσατο τὰ διάφορα αὐτῶν<note type="apparatus" n="13" target="#p110-12">διάφορα] δια iter. V αὐτῶν] τούτων V</note><milestone type="alt-edition" unit="line" ed="ed. princeps Venetiis 1500" n="20"/>
               <lb n="14" xml:id="p110-13"/>σημαινόμενα καὶ τότε ἔλεγε περὶ ποίου τοῖς φιλοσόφοις ὁ λόγος· ἐνταῦθα
@@ -3634,8 +3635,8 @@
               <lb n="6" xml:id="p111-5"/>νοήσῃς τὴν ῥῖνα, μένει ῥὶς οὐδὲν ἧττον.<note type="apparatus" n="6" target="#p111-5">τὴν ῥῖνα νοήσῃς colloc. V</note>
               <lb n="7" xml:id="p111-6"/>Εἴωθε δέ τινα περὶ τοῦ ἀποδιδομένου ὁρισμοῦ ἀπορεῖσθαι· φασὶ γάρ,<note type="apparatus" n="7" target="#p111-6">ἀποδεδομένου F</note>
               <lb n="8" xml:id="p111-7"/>ὡς ἤδη εἴρηται, μὴ πᾶσιν ἁρμόζειν τοῖς συμβεβηκόσι τὸν ὁρισμὸν ἀλλὰ
-              <lb n="9" xml:id="p111-8"/>τοῖς χωριστοῖς, τὸ γίνεσθαι καὶ ἀπογίνεσθαι· τὸ γὰρ ἐν τῷ Αἰθίο<milestone type="alt-edition" unit="folio" ed="ed. princeps Venetiis 1500" n="31v"/>πιἢ<note type="apparatus" n="9" target="#p111-8">τὸ γίνεσθαι λέγω FVp (fort. recte) καὶ τὸ ἀπογίν. D</note>
-              <lb n="10" xml:id="p111-9"/>τῷ κόρακι μέλαν ἀδύνατον ἀπογίνεσθαι χωρὶς τῆς τοῦ ὑποκειμένου φθορᾶς.<note type="apparatus" n="10" target="#p111-9">ἀπογενέσθαι FVp</note>
+              <lb n="9" xml:id="p111-8"/>τοῖς χωριστοῖς, τὸ γίνεσθαι καὶ ἀπογίνεσθαι· τὸ γὰρ ἐν τῷ Αἰθίο<milestone type="alt-edition" unit="folio" ed="ed. princeps Venetiis 1500" n="31v"/>πι<note type="apparatus" n="9" target="#p111-8">τὸ γίνεσθαι λέγω FVp (fort. recte) καὶ τὸ ἀπογίν. D</note>
+              <lb n="10" xml:id="p111-9"/>ἢ τῷ κόρακι μέλαν ἀδύνατον ἀπογίνεσθαι χωρὶς τῆς τοῦ ὑποκειμένου φθορᾶς.<note type="apparatus" n="10" target="#p111-9">ἀπογενέσθαι FVp</note>
               <lb n="11" xml:id="p111-10"/>εἴπομεν δὲ ἤδη ὅτι εἰ καὶ μὴ κατ’ ἐνέργειαν ἀπογίνεται, ἀλλ’ οὖν<note type="apparatus" n="11" target="#p111-10">εἴπωμεν V εἰ καὶ μὴ FVp: εἰ μὴ DEM</note>
               <lb n="12" xml:id="p111-11"/>τῇ ἐπινοίᾳ ὁ κόραξ καὶ ὁ Αἰθίοψ λευκός, τοῦ δὲ ἀνθρώπου τὸ ζῷον οὐδὲ<note type="apparatus" n="12" target="#p111-11">λευκός] τοῦ μέλανος χωρίζεται V</note>
               <lb n="13" xml:id="p111-12"/>τῇ ἐπινοίᾳ χωρίσαι δυνατόν· ἅμα γὰρ τῷ νοῆσαι ἄνθρωπον μὴ εἶναι ζῷον<note type="apparatus" n="13" target="#p111-12">τὸ νοῆσαι Dp τὸν ἄνθρ. FVp</note>
@@ -4221,7 +4222,7 @@
               <lb n="15" xml:id="p125-14"/>εἴδους γένεσιν τοῦ ἀνθρώπου τὸ λογικὸν καὶ τὸ θνητὸν καὶ τὸ νοῦ καὶ
               <lb n="16" xml:id="p125-15"/>ἐπιστήμης δεκτικόν, καὶ οὐκ ἐβλάβησαν ὑπό τινος τούτων. ἵππος δὲ καὶ<note type="apparatus" n="16" target="#p125-15">καὶ (prius) om. F ἐβλάβησαν DEMV: ἐβλάφθησαν F: ἐκρύφθησαν p</note>
               <lb n="17" xml:id="p125-16"/>ὄνος συνελθόντες καὶ ἀποτελέσαντες ἡμίονον διὰ τὸ μὴ εἶναι εἴδη ἀλλὰ
-              <lb n="18" xml:id="p125-17"/>ἄτομα οὐδὲ τὴν φύσιν τὴν ἑαυτῶν εἰλικρινῆ ἐφύλαξαν ἐν τῇ ἡμιόνῳ’ ἄλλο<note type="apparatus" n="18" target="#p125-17">τὴν ἑαυτῶν φύσιν V τὴν ἑαυτῶν εἰλικρινῶς φύσιν ἐφύλαξαν p ἐφύλαξαν εἰλικρινῆ colloc. D τῷ ἡμιόνω p</note>
+              <lb n="18" xml:id="p125-17"/>ἄτομα οὐδὲ τὴν φύσιν τὴν ἑαυτῶν εἰλικρινῆ ἐφύλαξαν ἐν τῇ ἡμιόνῳ· ἄλλο<note type="apparatus" n="18" target="#p125-17">τὴν ἑαυτῶν φύσιν V τὴν ἑαυτῶν εἰλικρινῶς φύσιν ἐφύλαξαν p ἐφύλαξαν εἰλικρινῆ colloc. D τῷ ἡμιόνω p</note>
               <lb n="19" xml:id="p125-18"/>γάρ τι παρ’ ἀμφοτέροις τῆς ἑκάστου οὐσίας φθαρείσης γέγονεν. ὥστε<note type="apparatus" n="19" target="#p125-18">παρ’ ἀμφοτέροις DEM: παρ’ ἀμφοτέρων FV: ἀμφοτέρων p ὥστε] ὡς τὸ F: ὥστε τὸ Vp</note><milestone type="alt-edition" unit="line" ed="ed. princeps Venetiis 1500" n="20"/>
               <lb n="20" xml:id="p125-19"/>εἶδος εἴδει οὐ συνέρχεται.
             </p>

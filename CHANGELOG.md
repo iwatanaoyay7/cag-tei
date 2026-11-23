@@ -5,6 +5,22 @@ Each file's `revisionDesc` records the changes to that file. Version numbers: th
 readings and numbers, the second for additions to the encoding or larger revisions of the divisions, the first for
 changes that affect how passages are cited.
 
+## 1.0.3 (2026-11-23)
+
+- The Greek text of 57 of the 59 files corrected on the page images. The four translations made for the Humanitext
+  Reader were reviewed by a language model, and the review questioned about 3,190 readings of the Greek. Each was
+  collated with the page image (read independently, at least twice wherever the print does not have the proposed form,
+  by a language model, Claude; the 28 places it could not settle were read by the editor):
+  - 2,349 errors of the transcription (OCR) corrected;
+  - 457 evident misprints of the edition kept and given with the correct form (`<choice><sic>…</sic><corr>…</corr></choice>`);
+  - 188 evident misprints in a word broken at the line end, which cannot carry `choice`, corrected in the text;
+  - 49 lines that are not text (letters of a diagram, a mark at the foot of the page, a line of the apparatus) taken
+    out of the text, and one line of text restored.
+  Where the print has the questioned form and it is no evident misprint, the text is left as printed.
+  Recorded in each file's `revisionDesc` with the counts for that file.
+- Not changed: `tlg2034.tlg006` and `tlg4026.tlg003` (nothing to correct).
+- `metadata/works.tsv` and the counts in the README follow (lines 474,795; apparatus entries 217,044).
+
 ## 1.0.2 (2026-11-18)
 
 - Bekker references of 13 lemmata, misread by the OCR, corrected on the page images

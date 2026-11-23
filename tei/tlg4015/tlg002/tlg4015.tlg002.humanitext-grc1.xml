@@ -58,6 +58,7 @@
       <change when="2026-11-05" who="#NI">Apparatus entries printed out of numerical order (e.g. 33 … 32) separated from the preceding entry; words hyphenated across lines joined in Latin text as in Greek; words mixing Greek and Latin letters (OCR errors, about 130, including manuscript sigla) corrected on the page images; marginal folio marks left in the text removed; validated against TEI P5 version 4.12.0 (recorded in TEI/@version).</change>
       <change when="2026-11-05" who="#NI">Extent of the lemma quotations (quote[@type='lemma']) corrected: the automatic division had closed every lemma after its first printed line, leaving the remaining lines of lemmata printed over two or more lines at the head of the following paragraph. Candidates were found from the letter-spacing of the lines on the page images (lemmata are printed spaced) and from the line geometry (centred last line, indented paragraph start), and every candidate was decided on the page image (Claude work teams; about 7,700 places in the corpus); the lines so decided are now inside the quotation, with pb inside the quotation where a lemma runs on to the next page. Where the lemma runs on in the same line as the commentary (Stephanus in De interpretatione), the quotation ends after the last spaced word and the paragraph continues in the same line without a new lb; where no lemma is printed and the paraphrase follows the Bekker reference directly (Michael in De partibus animalium from p. 37), the quotation is dropped and the division kept; centred last lines the edition does not count are inside the quotation as unnumbered lines.</change>
       <change when="2026-11-18" who="#NI">Bekker reference of 1 lemma misread by the OCR corrected on the page image: p. 379 (52a → 52a24).</change>
+      <change when="2026-11-22" who="#NI">Readings questioned by the review of the translations collated on the page images (read independently, at least twice wherever the print does not have the proposed form, by a language model, Claude; the 28 places in all works that it could not settle were read by the editor): 28 errors of the transcription corrected; 14 evident misprints of the edition given as choice/sic/corr; 4 evident misprints of the edition in a word broken at the line end (which cannot carry choice/sic/corr) corrected in the text.</change>
     </revisionDesc>
   </teiHeader>
   <text>
@@ -115,7 +116,7 @@
               <lb n="20" xml:id="p2-19"/>ἢ ἐκ τοῦ νοῦ 〈ἢ ἐκ δόξης〉 ἢ ἐξ αἰσθήσεως καὶ φαντασίας· μονὴ γὰρ αἰσθήσεως<note type="apparatus" n="20" target="#p2-19">ἢ ἐκ δόξης addidi cf. vs. 22</note><milestone type="alt-edition" unit="line" ed="Trincavelli 1536" n="30"/>
               <lb n="21" xml:id="p2-20"/>ἡ φαντασία· διὸ μᾶλλον δεῖ λέγειν ἐκ φαντασίας, ἐπεὶ καὶ μύων τις συλλογιεῖται<note type="apparatus" n="21" target="#p2-20">μύων Qt: μεῖον V</note>
               <lb n="22" xml:id="p2-21"/>τὰς ἀρχὰς ἐκ φαντασίας δεξάμενος [ἤγουν ἐκ δόξης]. σκόπει οὖν ὡς<note type="apparatus" n="22" target="#p2-21">ἤγουν ἐκ δόξης delevi</note>
-              <lb n="23" xml:id="p2-22"/>ἐκ τῶν εἰρημένων ἀνάγκη πᾶσα μύνα τὰ τρία εἴδη τῶν συλλογισμῶν ἀναφαίνεσθαι
+              <lb n="23" xml:id="p2-22"/>ἐκ τῶν εἰρημένων ἀνάγκη πᾶσα <choice><sic>μύνα</sic><corr>μόνα</corr></choice> τὰ τρία εἴδη τῶν συλλογισμῶν ἀναφαίνεσθαι
               <lb n="24" xml:id="p2-23"/>καὶ μήτε πλείονα μήτε ἐλάττονα. ἢ γὰρ ἐκ τοῦ νοῦ τὰς ἀρχὰς<note type="apparatus" n="24" target="#p2-23">πλείω Q</note>
               <lb n="25" xml:id="p2-24"/>δεξαμένη ἡ διάνοια συλλογίζεται, ἃς καὶ καλοῦμεν κοινὰς ἐννοίας, καὶ ποιεῖ<note type="apparatus" n="25" target="#p2-24">συλλογιεῖται Vt</note>
               <lb n="26" xml:id="p2-25"/>τὸν ἀποδεικτικὸν συλλογισμὸν ἀεὶ ἀληθῆ ὄντα καὶ μηδέποτε ψευδόμενον,
@@ -388,7 +389,7 @@
               <lb n="21" xml:id="p9-20"/>Πρῶτον εἰπεῖν.<note type="apparatus" n="21" target="#p9-20">ante lemma add. ἀρχὴ τοῦ κειμένου Q</note>
             </quote>
             <p>
-              <lb n="22" xml:id="p9-21"/>Κατὰ τὸ Ἀττικὸν ἔθος τὸ ‘χρή’ παρέλειψε· τοῦ γὰρ ‘χρή’ καὶ δεῖ’<note type="apparatus" n="22" target="#p9-21">ante κατὰ repetit πρῶτον εἰπεῖν t παράλειψε Q</note><milestone type="alt-edition" unit="line" ed="Trincavelli 1536" n="51"/>
+              <lb n="22" xml:id="p9-21"/>Κατὰ τὸ Ἀττικὸν ἔθος τὸ ‘χρή’ παρέλειψε· τοῦ γὰρ ‘χρή’ καὶ <choice><sic>δεῖ</sic><corr>‘δεῖ</corr></choice>’<note type="apparatus" n="22" target="#p9-21">ante κατὰ repetit πρῶτον εἰπεῖν t παράλειψε Q</note><milestone type="alt-edition" unit="line" ed="Trincavelli 1536" n="51"/>
               <lb n="23" xml:id="p9-22"/>πρὸς τὰ ἀπαρέμφατα συνταττομένου, οἷον χρὴ γράφειν, δεῖ ἀναγινώσκειν, καὶ<note type="apparatus" n="23" target="#p9-22">μετὰ ἀπαρεμφάτου Q οἷον R: om. QVt</note>
               <lb n="24" xml:id="p9-23"/>τῆς προκειμένης συντάξεως τοῦτο ἀπαιτούσης, πρῶτον εἰπεῖν χρή, ἔθος
               <lb n="25" xml:id="p9-24"/>Ἀττικοῖς κατ’ ἔλλειψιν τοῦ ‘χρή’ καὶ ‘δεῖ’ τὰ τοιαῦτα προφέρεσθαι.<note type="apparatus" n="25" target="#p9-24">ἀττικῆς V κατάλειψιν t</note>
@@ -737,7 +738,7 @@
               <lb n="5" xml:id="p18-4"/>διαφορὰν παραληψόμεθα τὸ καταφατικὸν ἢ ἀποφατικόν, ὡς ἕν τι τὸ
               <lb n="6" xml:id="p18-5"/>συναμφότερον δεκτέον· εἰ γὰρ διαζευκτικῶς ἀκούσομεν, διαιρετικαὶ ἔσονται τῆς<note type="apparatus" n="6" target="#p18-5">δεικτέον Vt δὲ Q ἀκούσωμεν t</note>
               <lb n="7" xml:id="p18-6"/>προτάσεως διαφοραί, οὐ συστατικαί· ὡς ἓν δὲ ἀκουόντων ἐξισάζει. εἰ δέ<note type="apparatus" n="7" target="#p18-6">ἐξιζάζει V</note><milestone type="alt-edition" unit="line" ed="Trincavelli 1536" n="45"/>
-              <lb n="8" xml:id="p18-7"/>τις καὶ μὴ παραδέξοιτο ταύτην τὸν ἐξήγησιν, ἀλλὰ διαζευκτικῶς εἰρῆσθαι<note type="apparatus" n="8" target="#p18-7">τις om. Vt παραδέξοιτο] εξ corr. nescio unde Q1: παραδέξαιτο b</note>
+              <lb n="8" xml:id="p18-7"/>τις καὶ μὴ παραδέξοιτο ταύτην <choice><sic>τὸν</sic><corr>τὴν</corr></choice> ἐξήγησιν, ἀλλὰ διαζευκτικῶς εἰρῆσθαι<note type="apparatus" n="8" target="#p18-7">τις om. Vt παραδέξοιτο] εξ corr. nescio unde Q1: παραδέξαιτο b</note>
               <lb n="9" xml:id="p18-8"/>φαίη τὸ καταφατικὸς ἢ ἀποφατικός, οὐδὲ οὕτως ἐλεγχθήσεται ὁ ὁρισμός·<note type="apparatus" n="9" target="#p18-8">καταφατικός (κατα supra ἀπο deletum scr.) ἢ ἀποφατικός V: καταφατικὸν ἢ ἀποφατικὸν Q: καταφατικῶς ἢ ἀποφατικῶς t ἐλεγχθήσεται pr. Q, ex ἐλελεγχθήσεται corr. V</note>
               <lb n="10" xml:id="p18-9"/>οὐ γὰρ εἰς τὸν ὁρισμὸν συντελεῖν ταῦτα φήσομεν ἀλλ’ εἰς διάκρισιν τῶν<note type="apparatus" n="10" target="#p18-9">post ὁρισμὸν del. οὕτως φ Q1</note>
               <lb n="11" xml:id="p18-10"/>διαφόρων τῆς προτάσεως εἰδῶν. ἤρκει γὰρ καὶ οὕτως ὁρίσασθαι, ὅτι πρότασίς<note type="apparatus" n="11" target="#p18-10">εἰδῶν τῆς προτάσεως Q</note><note type="apparatus" n="11-12" target="#p18-10 #p18-11">ἔστι πρότασις Vt</note>
@@ -814,7 +815,7 @@
             <pb n="20" facs="https://archive.org/download/commentariaina13pt12akaduoft/page/n315.jpg"/>
             <p>
               <lb n="1" xml:id="p20-0"/>ἐστι κατηγορούμενον. εἰ δὲ καὶ οὗτος ὁ ὅρος μὴ ἐφαρμόσει ταῖς εἰδικωτάταις<note type="apparatus" n="1" target="#p20-0">οὕτως pr. Q, corr. Q¹ ἐφαρμόσει V: ἐφαρμόση corr. ex ἐφαρμόσειν Q¹: ἐφαρμόσοι t</note>
-              <lb n="2" xml:id="p20-1"/>διαφοραῖς, ἀλλ’ οὖν οἱ ἄλλοι ὅροι ἐφαρμόσουσι, “διαφορά ἐστιν ἡ περιττεύει<note type="apparatus" n="2" target="#p20-1">ὅροι om. Q ante διαφορά addiderim οἷον; an aliae definitiones exciderunt? διαφορά κτλ.] Porph. Isag. p. 10,22</note>
+              <lb n="2" xml:id="p20-1"/>διαφοραῖς, ἀλλ’ οὖν οἱ ἄλλοι ὅροι ἐφαρμόσουσι, “διαφορά ἐστιν ᾗ περιττεύει<note type="apparatus" n="2" target="#p20-1">ὅροι om. Q ante διαφορά addiderim οἷον; an aliae definitiones exciderunt? διαφορά κτλ.] Porph. Isag. p. 10,22</note>
               <lb n="3" xml:id="p20-2"/>τὸ εἶδος τοῦ γένους”.
               <lb n="4" xml:id="p20-3"/>Τινὸς κατά τινος. τινὰ τῶν ἀντιγράφων καὶ τινὸς ἀπό τινος ἔχει.
               <lb n="5" xml:id="p20-4"/>ἀλλ’ ἄμεινον τὸ πρῶτον μόνον. εἰ δέ τις εἴποι ‘ἀλλὰ μόνης τῆς καταφάσεως
@@ -1330,7 +1331,7 @@
               <lb n="7" xml:id="p32-6"/>ἐδεήθη τῶν συλλογισμῶν ἡ ψυχή, ἵνα τοῦτο αὐτὸ διακρίνῃ καὶ γνῷ ποῖα μὲν τὰ<note type="apparatus" n="7" target="#p32-6">τοῦτο αὐτὸ διακρίνῃ (η ex ει corr.) καὶ Q: om. Vt</note>
               <lb n="8" xml:id="p32-7"/>κοινωνοῦντα, ποῖα δὲ τὰ διαφέροντα ἀλλήλων. διακρίνει δὲ τοῦτο λαμβάνουσα
               <lb n="9" xml:id="p32-8"/>μεταξὺ τῶν ζητουμένων κοινὸν ὅρον ἢ κοινωνίαν ἔχοντα πρὸς τὰ δύο ἄκρα ἢ
-              <lb n="10" xml:id="p32-9"/>πρὸς μὲν θάτερον κοινωνοῦντα διεστῶτα δὲ τοῦ λοιποῦ, καὶ διὰ τοῦ μέσου ἡ
+              <lb n="10" xml:id="p32-9"/>πρὸς μὲν θάτερον κοινωνοῦντα διεστῶτα δὲ τοῦ λοιποῦ, καὶ διὰ τοῦ μέσου ἢ
               <lb n="11" xml:id="p32-10"/>συνδεῖ τὰ ἄκρα ἢ διίστησιν. εἰ δὲ ἦσαν πάντα ἕτερα τὰ πράγματα, οὐκ ἂν τοῦτο<milestone type="alt-edition" unit="line" ed="Trincavelli 1536" n="15"/>
               <lb n="12" xml:id="p32-11"/>ποιῆσαι ἐδύνατο κοινοῦ τινος ὅρου μὴ ὑπάρχοντος εἰς τὸ τὴν τῶν ἄκρων<note type="apparatus" n="12" target="#p32-11">ἠδύνατο Q post κοινοῦ add. μὲν Qt</note>
               <lb n="13" xml:id="p32-12"/>κοινωνίαν δειχθῆναι· ἀλλὰ μὴν οὐδ’ ὅτι διαφέρουσιν ἀποδείξεως ἔδει προφανοῦς
@@ -1352,7 +1353,7 @@
               <lb n="29" xml:id="p32-28"/>τῶν ἑτερογενῶν λαμβάνεται τὸ γένος ἐν τοῖς ὁρισμοῖς, πρὸς δὲ<note type="apparatus" n="29" target="#p32-28">post δὲ add. τὴν V</note>
               <lb n="30" xml:id="p32-29"/>τῶν ἑτεροειδῶν διάκρισιν λαμβάνονται αἱ διαφοραί. γένος οὖν τοῦ συλλογισμοῦ
               <lb n="31" xml:id="p32-30"/>ὁ λόγος, διαφοραὶ δὲ τὰ ἐν τῷ συλλογισμῷ λοιπά. θεωροῦνται δὲ<note type="apparatus" n="31" target="#p32-30">διαφορὰ Vt δὲ prius om. V λοιπὰ e λοιπῶ corr. Q¹</note>
-              <lb n="32" xml:id="p32-31"/>αὗται ἐν τῇ ὕλῃ καὶ τῷ εἴδει, ὕλη μὲν ταῖς προτάσεσιν, εἴδει δὲ τῷ συμπεράσματι,<note type="apparatus" n="32" target="#p32-31">τῇ om. Vt post καὶ add. ἐν Vt</note><note type="apparatus" n="32-33" target="#p32-31 #p32-32">συμπεράσματι Y: συμπέρασμα QVt</note>
+              <lb n="32" xml:id="p32-31"/>αὗται ἐν τῇ ὕλῃ καὶ τῷ εἴδει, ὕλῃ μὲν ταῖς προτάσεσιν, εἴδει δὲ τῷ συμπεράσματι,<note type="apparatus" n="32" target="#p32-31">τῇ om. Vt post καὶ add. ἐν Vt</note><note type="apparatus" n="32-33" target="#p32-31 #p32-32">συμπεράσματι Y: συμπέρασμα QVt</note>
               <lb n="33" xml:id="p32-32"/>ἐπειδὴ αἱ προτάσεις τοῦ συμπεράσματος ἕνεκεν παραλαμβάνονται,<note type="apparatus" n="33" target="#p32-32">λαμβάνονται Vt</note><milestone type="alt-edition" unit="line" ed="Trincavelli 1536" n="30"/>
               <lb n="34" xml:id="p32-33"/>ὥσπερ ἡ ὕλη τοῦ εἴδους· τὸ μὲν γὰρ τεθέντων καὶ τὸ τινῶν ἐκ τῆς
               <lb n="35" xml:id="p32-34"/>ὕλης τῶν συλλογισμῶν, τουτέστι τῶν προτάσεων, εἴληπται, τὸ δὲ ἕτερόν
@@ -1858,7 +1859,7 @@
               <lb n="24" xml:id="p45-23"/>τετάρτην δὲ τὴν μερικὴν ἀποφατικήν. καὶ πρότερον ζητήσωμεν τίνος χάριν<note type="apparatus" n="24" target="#p45-23">ἀποφατικήν om. Q ζητήσομεν Vt</note>
               <lb n="25" xml:id="p45-24"/>ἡ καθόλου ἀποφατικὴ προτέτακται τῆς καθόλου καταφατικῆς καίτοι τιμιωτέρας<note type="apparatus" n="25" target="#p45-24">καταφατικῆς] κατα supra ἀπο scr. V</note>
               <lb n="26" xml:id="p45-25"/>οὔσης. ἐροῦμεν οὖν ὅτι οὐ καθὸ ἀπόφασις προτετίμηται τῆς καταφάσεως,<note type="apparatus" n="26" target="#p45-25">post οὔσης add. τῆς καταφάσεως ἤπερ τῆς ἀποφάσεως P</note><milestone type="alt-edition" unit="line" ed="Trincavelli 1536" n="25"/>
-              <lb n="27" xml:id="p45-26"/>ἀλλὰ καθὸ αὐτὴ μὲν πρὸς ἑαυτὴν ἀντιστρέφει, ἡ δὲ καθόλου καταφασις
+              <lb n="27" xml:id="p45-26"/>ἀλλὰ καθὸ αὐτὴ μὲν πρὸς ἑαυτὴν ἀντιστρέφει, ἡ δὲ καθόλου κατάφασις
               <lb n="28" xml:id="p45-27"/>οὐκέτι πρὸς ἑαυτὴν ἀλλὰ πρὸς τὴν μερικὴν καταφατικήν. καὶ τίνος<note type="apparatus" n="28" target="#p45-27">οὐκέτι QVt: οὐκ ἀντιστρέφει P</note>
               <lb n="29" xml:id="p45-28"/>χάριν μὴ προτέτακται τῆς καθόλου καταφατικῆς μὴ ἀντιστρεφούσης πρὸς<note type="apparatus" n="29-30" target="#p45-28 #p45-29">πρὸς ἑαυτὴν om. V</note>
               <lb n="30" xml:id="p45-29"/>ἑαυτὴν ἡ μερικὴ καταφατικὴ πρὸς ἑαυτὴν ἀντιστρέφουσα; ἐροῦμεν ὅτι, εἰ
@@ -2226,7 +2227,7 @@
               <lb n="18" xml:id="p54-17"/>ἡ ‘οὐκ ἀνάγκη τινί’, ὡς δὲ ἐνταῦθα ἡ ‘ἐνδέχεται μηδενί’. τί οὖν φαμεν;<note type="apparatus" n="18" target="#p54-17">post δὲ add. κατὰ τὰ Vt ἡ alt. EF: om. PVt post μηδενί add. ἐνδέχεται μὴ παντί. ἐνδέχεται μηδενί. οὐκ ἐνδέχεται παντί. οὐκ ἐνδέχεται τινί. ἐνδέχεται παντί. ἐνδέχεται τινί. ἀνάγκη μὴ παντί. ἀνάγκη μηδενί EF eademque tabellae iustar P</note>
               <lb n="19" xml:id="p54-18"/>δύο μιᾷ ἀντίκεινται. οὕτως ἄδικος ἡ φύσις ὡς ἀντιτάξαι ἑνὶ δύο; λέγομεν<note type="apparatus" n="19" target="#p54-18">ἀντίκειται EFPV ὡς om. V</note><note type="apparatus" n="19-20" target="#p54-18 #p54-19">λέγομεν—δύο om. Vt</note>
               <lb n="20" xml:id="p54-19"/>ὅτι ἀντίκεινται μιᾷ δύο οὐχ ὡς μαχόμεναι ἀλλ’ ὡς ἰσοδυναμοῦσαι· τῇ<note type="apparatus" n="20" target="#p54-19">ὅτι PQ: τοίνυν EF ἀντίκειται FP μάχομαι V ὡς alt. om. V</note>
-              <lb n="21" xml:id="p54-20"/>γὰρ ‘οὐκ ἀνάγκη παντί’ ἡ ‘ἐνδέχεται μὴ παντί’ ἰσοδυναμεῖ· ὁ γὰρ οὐκ<note type="apparatus" n="21" target="#p54-20">οὐκ prius PQVt: τοῦ EF ὦ EFP οὐκ alt. om. Q</note>
+              <lb n="21" xml:id="p54-20"/>γὰρ ‘οὐκ ἀνάγκη παντί’ ἡ ‘ἐνδέχεται μὴ παντί’ ἰσοδυναμεῖ· ὃ γὰρ οὐκ<note type="apparatus" n="21" target="#p54-20">οὐκ prius PQVt: τοῦ EF ὦ EFP οὐκ alt. om. Q</note>
               <lb n="22" xml:id="p54-21"/>ἀνάγκη παντί, τοῦτο ἐνδέχεται μὴ παντί· οἷον εἰ οὐκ ἀνάγκη παντὶ ἀνθρώπῳ<note type="apparatus" n="22" target="#p54-21">τοῦτο—ἀνάγκη παντί om. V ἀνθρώπω παντὶ E</note>
               <lb n="23" xml:id="p54-22"/>τὸ λευκὸν ὑπάρχειν, ἐνδέχεται μὴ παντὶ ὑπάρχειν. πάλιν τῇ ‘οὐκ ἀνάγκη<note type="apparatus" n="23" target="#p54-22">μηδὲ EF post παντὶ add. ἀνω EF</note>
               <lb n="24" xml:id="p54-23"/>τινί’ ἡ ‘ἐνδέχεται μηδενί’ ἰσοδυναμεῖ· εἰ γὰρ οὐκ ἐξ ἀνάγκης τινὶ ἀνθρώπῳ<milestone type="alt-edition" unit="line" ed="Trincavelli 1536" n="20"/>
@@ -2362,9 +2363,9 @@
               <lb n="7" xml:id="p58-6"/>μάχεται δὲ καὶ ἡ ‘ἐνδέχεται παντί’. ἀλλ’ ἡ μὲν ‘ἐνδέχεται μηδενί’ δι’
               <lb n="8" xml:id="p58-7"/>ἑαυτὴν μάχεται ἔχουσα ἀντικείμενον τρόπον τρόπῳ, ποσὸν ποσῷ, ποιὸν<note type="apparatus" n="8" target="#p58-7">ἔχουσαν V</note>
               <lb n="9" xml:id="p58-8"/>ποιῷ· ἡ δ’ ‘ἐνδέχεται παντί’ ὡς ἰσοδυναμοῦσα τῇ ‘ἐνδέχεται μηδενί’. πάλιν<note type="apparatus" n="9" target="#p58-8">ὡς om. EFP μηδενί in ras. V</note>
-              <lb n="10" xml:id="p58-9"/>τῇ ‘ἀνάγκῃ μὴ παντί’ μάχεται μὲν δι’ ἑαυτὴν ἡ ‘ἐνδέχεται παντί’, διὰ ταύτὴν<note type="apparatus" n="10" target="#p58-9">post τῇ del. ἐνδέχεται Q¹ μὴ om. Q post ἐνδέχεται add. μὴ Q</note><milestone type="alt-edition" unit="line" ed="Trincavelli 1536" n="45"/>
+              <lb n="10" xml:id="p58-9"/>τῇ ‘ἀνάγκῃ μὴ παντί’ μάχεται μὲν δι’ ἑαυτὴν ἡ ‘ἐνδέχεται παντί’, διὰ ταύτην<note type="apparatus" n="10" target="#p58-9">post τῇ del. ἐνδέχεται Q¹ μὴ om. Q post ἐνδέχεται add. μὴ Q</note><milestone type="alt-edition" unit="line" ed="Trincavelli 1536" n="45"/>
               <lb n="11" xml:id="p58-10"/>δὲ καὶ ἡ ‘ἐνδέχεται μηδενί’ ὡς ἰσοδυναμοῦσα. εἰ τοίνυν αἱ δύο<note type="apparatus" n="11" target="#p58-10">μηδενί] παντί Q</note>
-              <lb n="12" xml:id="p58-11"/>καθόλου τοῦ ἐνδεχομένου προτάσεις ἑκατέρα τῶν μερικῶν τοῦ ἀναγκαίου<note type="apparatus" n="12" target="#p58-11">τοῦ alt. om. P</note>
+              <lb n="12" xml:id="p58-11"/>καθόλου τοῦ ἐνδεχομένου προτάσεις ἑκατέρᾳ τῶν μερικῶν τοῦ ἀναγκαίου<note type="apparatus" n="12" target="#p58-11">τοῦ alt. om. P</note>
               <lb n="13" xml:id="p58-12"/>ἀντίκεινται ὡς ἰσοδυναμοῦσαι, ἐὰν ἀντὶ τῆς ἐνδεχομένης καθόλου ἀποφατικῆς<note type="apparatus" n="13" target="#p58-12">ἀντίκειται EFP</note>
               <lb n="14" xml:id="p58-13"/>μεταλάβωμεν τὴν ‘ἐνδέχεται παντί’ ὡς ἰσοδυναμοῦσαν, οὐκ ἀπάξομεν εἰς<note type="apparatus" n="14" target="#p58-13">μεταλάβω EFP: μεταλαβὼν Vt</note>
               <lb n="15" xml:id="p58-14"/>ἄτοπον τὸν λόγον μεταληφθείσης τῆς ‘ἐνδέχεται μηδενί’ εἰς τὴν ‘ἐνδέχεται<note type="apparatus" n="15-16" target="#p58-14 #p58-15">aut μεταληφθείσης— ἰσοδυναμοῦσι delendum aut γὰρ e vs. 16 post μεταλ. transponendum videtur</note>
@@ -2738,7 +2739,7 @@
               <lb n="31" xml:id="p66-30"/>γεωμετρίαν, καὶ διὰ τοῦτο τοῖς ἐκεῖσε ὀνόμασι κατὰ ἀναλογίαν κἀνταῦθα
               <lb n="32" xml:id="p66-31"/>κέχρηται. τρία γάρ ἐστι ταῦτα ἐφεξῆς ἀλλήλοις ἐν γεωμετρίᾳ, τὰ σημεῖα,
               <lb n="33" xml:id="p66-32"/>αἱ γραμμαί, τὰ σχήματα. καὶ τὰ μὲν σημεῖα μόνως πέρατά φασιν οὐδαμῶς<note type="apparatus" n="33" target="#p66-32">μὲν om. Q φασιν pr. P: φησιν QVt, corr. P¹</note>
-              <lb n="34" xml:id="p66-33"/>περατούμενα, τὰς δὲ γραμμὰς εὐθὺς μετὰ τὰ σημεῖα πρώτην διαστασιν<note type="apparatus" n="34" target="#p66-33">post περατούμενα add. καὶ μόνως ὅροις οὐδαμῶς ὁριζόμενα P</note><milestone type="alt-edition" unit="line" ed="Trincavelli 1536" n="35"/>
+              <lb n="34" xml:id="p66-33"/>περατούμενα, τὰς δὲ γραμμὰς εὐθὺς μετὰ τὰ σημεῖα πρώτην διάστασιν<note type="apparatus" n="34" target="#p66-33">post περατούμενα add. καὶ μόνως ὅροις οὐδαμῶς ὁριζόμενα P</note><milestone type="alt-edition" unit="line" ed="Trincavelli 1536" n="35"/>
               <lb n="35" xml:id="p66-34"/>ἐσχηκέναι, τὴν κατὰ μῆκος μόνην, τῶν σημείων ἀδιαστάτων ὄντων
               <lb n="36" xml:id="p66-35"/>παντελῶς καὶ προσεχῶς τὰς γραμμὰς περατούντων, ἃς καλοῦσι καὶ διαστήματα·<note type="apparatus" n="36" target="#p66-35">καὶ alt. om. QVt</note>
             </p>
@@ -3219,7 +3220,7 @@
             </quote>
             <p>
               <lb n="22" xml:id="p77-21"/>Προσυπακουστέον τῷ πρὸς τὸ ἔλαττον ‘τὸ καθόλου τεθῇ’. ἀδύνατον<note type="apparatus" n="22" target="#p77-21">τῷ scripsi: τοῦ Q: τὸ Pt: om. V πρὸς om. V</note>
-              <lb n="23" xml:id="p77-22"/>δὲ οὕτω γενέθαι συλλογισμὸν διὰ τὸ τὴν μείζονα ἀπολωλεκέναι τὸ<note type="apparatus" n="23" target="#p77-22">ἀπολελωκέναι V</note>
+              <lb n="23" xml:id="p77-22"/>δὲ οὕτω <choice><sic>γενέθαι</sic><corr>γενέσθαι</corr></choice> συλλογισμὸν διὰ τὸ τὴν μείζονα ἀπολωλεκέναι τὸ<note type="apparatus" n="23" target="#p77-22">ἀπολελωκέναι V</note>
               <lb n="24" xml:id="p77-23"/>ἴδιον, τουτέστι τὸ καθόλου· εἰρηκὼς γὰρ ‘ὅταν τὸ καθόλου τεθῇ πρὸς τὸ
               <lb n="25" xml:id="p77-24"/>ἔλαττον ἄκρον’ ἐσήμανε τὴν μείζονα μερικὴν οὖσαν, ἐπείπερ ὁ λόγος αὐτῷ
               <lb n="26" xml:id="p77-25"/>νῦν περὶ τῆς ἑτέρας καθόλου τῆς δὲ ἑτέρας μερικῆς. τὸ δὲ ἢ καὶ ἄλλως<milestone type="alt-edition" unit="line" ed="Trincavelli 1536" n="5"/>
@@ -4510,7 +4511,7 @@
               <lb n="19" xml:id="p105-18"/>τοῦτο ἐβουλόμεθα δεῖξαι, εἰ τὸ Ρ τινὶ τῷ Π ὑπάρχει, ἀλλ’ εἰ τὸ Π τινὶ<note type="apparatus" n="19" target="#p105-18">βουλόμεθα P</note>
               <lb n="20" xml:id="p105-19"/>τῷ Ρ. εἰ τοίνυν ἀντιστρέφει ἡ μερικὴ καταφατική, καὶ τὸ Π τινὶ τῷ Ρ<note type="apparatus" n="20" target="#p105-19">καταφατική om. V τῶι—τὸ P</note>
               <lb n="21" xml:id="p105-20"/>ὑπάρξει, ὅπερ ἔδει δεῖξαι. ἔστι δὲ οὗτος τρίτος τρόπος συλλογιστικὸς ἐν<note type="apparatus" n="21" target="#p105-20">τρόπος τρίτος οὗτος V</note>
-              <lb n="22" xml:id="p105-21"/>τρίτῳ σχήματι. εὐπορήσεις δὲ κἀνταῦθα ὑλῶν εἰδός τι καὶ γένος λαμβάνων<milestone type="alt-edition" unit="line" ed="Trincavelli 1536" n="35"/>
+              <lb n="22" xml:id="p105-21"/>τρίτῳ σχήματι. εὐπορήσεις δὲ κἀνταῦθα ὑλῶν <choice><sic>εἰδός</sic><corr>εἶδός</corr></choice> τι καὶ γένος λαμβάνων<milestone type="alt-edition" unit="line" ed="Trincavelli 1536" n="35"/>
               <lb n="23" xml:id="p105-22"/>καὶ κοινὸν ἀμφοῖν καὶ τὸ μὲν εἶδος μείζονα ὅρον τιθείς, τὸ δὲ
               <lb n="24" xml:id="p105-23"/>γένος μέσον, τὸ δὲ κοινὸν ἀμφοῖν ἐλάττονα· οἷον ἄνθρωπος τινὶ ζῴῳ,<note type="apparatus" n="24" target="#p105-23">κοινῶν Vt post οἷον add. ὁ Vt</note>
               <lb n="25" xml:id="p105-24"/>ἔμψυχον παντὶ ζῴῳ, καὶ ἄνθρωπος τινὶ ἐμψύχῳ. εἰ γὰρ ὁ ἄνθρωπος τινὶ<note type="apparatus" n="25-26" target="#p105-24 #p105-25">εἰ γὰρ—ἀνθρώπῳ om. P</note><note type="apparatus" n="25" target="#p105-24">τὸ prius om. V</note>
@@ -5037,7 +5038,7 @@
               <lb n="27" xml:id="p116-26"/>δι’ ἐκείνων εἰς τοὺς ἐν πρώτῳ καθόλου ἀνάγονται, ὥσπερ οἱ μερικοὶ<note type="apparatus" n="27" target="#p116-26">post ἐν add. τῷ V</note>
               <lb n="28" xml:id="p116-27"/>τοῦ πρώτου σχήματος τῇ εἰς ἄτοπον ἀπαγωγῇ ἐπὶ τὸ δεύτερον σχῆμα<note type="apparatus" n="28" target="#p116-27">ἐπὶ corr. ex ἐπὶ οὖν P: ἐποίουν Vt</note>
               <lb n="29" xml:id="p116-28"/>καὶ δι’ ἐκείνου εἰς τοὺς καθόλου ἀνήγοντο, ἀλλὰ ἀμέσως δι’ αὐτῶν περαίνονται.<note type="apparatus" n="29-30" target="#p116-28 #p116-29">περαίνονται scripsi: περαιούνται libri</note><milestone type="alt-edition" unit="line" ed="Trincavelli 1536" n="25"/>
-              <lb n="30" xml:id="p116-29"/>ἐπειδὴ γὰρ ὁ μὲν καταφατικὸν ὁ δὲ ἀποφατικὸν ἐπὶ μέρους συναγουσι,
+              <lb n="30" xml:id="p116-29"/>ἐπειδὴ γὰρ ὁ μὲν καταφατικὸν ὁ δὲ ἀποφατικὸν ἐπὶ μέρους συνάγουσι,
               <lb n="31" xml:id="p116-30"/>δῆλον ὅτι, ἡνίκα ἂν τὰ ἀντικείμενα τούτοις λαμβάνοιτο, τῷ μὲν<note type="apparatus" n="31" target="#p116-30">τούτοις P: τοῦ γʹ Vt</note>
               <lb n="32" xml:id="p116-31"/>ἐπὶ μέρους καταφατικῷ τὸ καθόλου ἀποφατικὸν ἀντίκειται, τῷ δὲ ἐπὶ<note type="apparatus" n="32" target="#p116-31">ἀποφατικὸν] ἀπο in ras. P</note>
               <lb n="33" xml:id="p116-32"/>μέρους ἀποφατικῷ τὸ καθόλου καταφατικόν· ὥστε ἐπεὶ ἐν ἀμφοῖν οἱ δύο
@@ -5649,7 +5650,7 @@
               <lb n="7" xml:id="p132-6"/>ἀδύνατον ἕπεται οὔτε ἐνταῦθα οὔτε ἐπὶ τῶν καθόλου προτάσεων, τῷ δὲ
               <lb n="8" xml:id="p132-7"/>ἀναγκαίῳ ἀκολουθεῖ. εἰ γὰρ τὸ Α παντὶ τῷ Β ὑπάρχει, τὸ δὲ Β τινὶ τῷ
               <lb n="9" xml:id="p132-8"/>Γ ἐξ ἀνάγκης ὑπάρχει, καὶ τὸ Α τινὶ τῷ Γ ὑπάρξει. καὶ τὴν <milestone type="alt-edition" unit="folio" ed="Trincavelli 1536" n="XXXVr"/> αἰτίαν
-              <lb n="10" xml:id="p132-9"/>προστιθείς φησιν οὐδὲν· γὰρ ἀδύνατον συμπίπτει καθάπερ οὐδ’ ἐν<note type="apparatus" n="10" target="#p132-9">προσθεὶς V οὐ γὰρ Vt καθὰ B οὐδ’ om. V</note>
+              <lb n="10" xml:id="p132-9"/>προστιθείς <choice><sic>φησιν οὐδὲν·</sic><corr>φησιν· οὐδὲν</corr></choice> γὰρ ἀδύνατον συμπίπτει καθάπερ οὐδ’ ἐν<note type="apparatus" n="10" target="#p132-9">προσθεὶς V οὐ γὰρ Vt καθὰ B οὐδ’ om. V</note>
               <lb n="11" xml:id="p132-10"/>τοῖς καθόλου συλλογισμοῖς· ἡνίκα γὰρ ἐπ’ ἐκείνων ἐλαμβάνομεν τὴν<note type="apparatus" n="11" target="#p132-10">γὰρ om. V ἐλαμβάνομεν S: ἐλάβομεν B: ἐλάμβανε Vt</note>
               <lb n="12" xml:id="p132-11"/>ἐλάττονα ἐξ ἀνάγκης καὶ ὑπετιθέμεθα ὑπάρχον συνάγεσθαι τὸ συμπέρασμα,<note type="apparatus" n="12" target="#p132-11">ἐπετιθέμεθα V</note>
               <lb n="13" xml:id="p132-12"/>οὐδὲν ψεῦδος εἵπετο· εἰ δὲ ἀναγκαῖον ὑπεθέμεθα συνάγεσθαι συμπέρασμα,<note type="apparatus" n="13" target="#p132-12">ὑποθέμεθα V: fort. ὑπετιθέμεθα συνάγειν B</note>
@@ -6917,7 +6918,7 @@
               <lb n="14" xml:id="p159-13"/>παντὶ καὶ τὸ ἐνδέχεται μηδενὶ καὶ τὸ ἐνδέχεται μὴ παντί· πάλιν εἰ συνάγεται<note type="apparatus" n="14" target="#p159-13">μὴ om. B</note>
               <lb n="15" xml:id="p159-14"/>τὸ ἀνάγκη μηδενί, ἀναιρήσει τό τε ἀνάγκη παντὶ καὶ τὸ τινὶ 〈καὶ τὸ ἐνδέχεται<note type="apparatus" n="15" target="#p159-14">καὶ τὸ—16 τινί addidi</note>
               <lb n="16" xml:id="p159-15"/>παντὶ καὶ τὸ τινί〉. εἰ τοίνυν πάντα ἀναιροῦνται, ἔοικε μηδὲν συνάγεσθαι<note type="apparatus" n="16" target="#p159-15">μηδενὶ Vt</note>
-              <lb n="17" xml:id="p159-16"/>ἐκ τούτων τῶν ὅρων. ἀσυλλόγισοι ἄρα πᾶσαι αἱ τοιαῦται συζυγίαι ἐοίκασιν<note type="apparatus" n="17" target="#p159-16">post ὅρων add. καὶ B πᾶσαι post ἀσυλλ. collocat V: om. t</note>
+              <lb n="17" xml:id="p159-16"/>ἐκ τούτων τῶν ὅρων. <choice><sic>ἀσυλλόγισοι</sic><corr>ἀσυλλόγιστοι</corr></choice> ἄρα πᾶσαι αἱ τοιαῦται συζυγίαι ἐοίκασιν<note type="apparatus" n="17" target="#p159-16">post ὅρων add. καὶ B πᾶσαι post ἀσυλλ. collocat V: om. t</note>
               <lb n="18" xml:id="p159-17"/>εἶναι. δειχθήσεται δὲ καὶ ἐπὶ τῶν ὅρων τὸ τοιοῦτον οὕτως ἔχον. οἱ μὲν οὖν<note type="apparatus" n="18" target="#p159-17">εἶναι om. B οὕτως ἔχον τὸ τοιοῦτον V</note>
               <lb n="19" xml:id="p159-18"/>ὅροι, οὓς αὐτὸς λαμβάνει, οὐ πάνυ σαφὲς ἡμῖν τὸ θεώρημα ποιοῦσιν. ἔστωσαν<note type="apparatus" n="19" target="#p159-18">αὐτοὺς t post θεώρημα add. τοῦτο B</note><milestone type="alt-edition" unit="line" ed="Trincavelli 1536" n="20"/>
               <lb n="20" xml:id="p159-19"/>οὖν ὅροι τοῦ μὲν παντὶ ἐξ ἀνάγκης λευκόν, περιπατητικόν, κύκνος· λευκὸν γὰρ<note type="apparatus" n="20" target="#p159-19">μὲν om. B κύκνος—21 περιπατητικὸν om. V</note>
@@ -7447,7 +7448,7 @@
               <lb n="16" xml:id="p172-15"/>μὴ παντὶ ὑπάρχειν. εἴπερ οὖν καὶ ὑμεῖς, φασί, μετελάβετε τὴν ἐνδεχομένην<note type="apparatus" n="16" target="#p172-15">εἴπερ scripsi: ὥσπερ BSVt καὶ (superscr. V) ὑμεῖς (υ ex η corr. V) φασιν SV: φασὶ καὶ ὑμεῖς Bt μεταλαμβάνετε e μεταλάβετε corr. V²</note>
               <lb n="17" xml:id="p172-16"/>εἰς ὑπάρχουσαν, ὅπερ ψεῦδος μέν ἐστιν οὐ μέντοι ἀδύνατον, τί ἄτοπον, εἰ
               <lb n="18" xml:id="p172-17"/>ἐκ προτάσεως ψευδοῦς μὲν οὐκ ἀδυνάτου δὲ ψευδὲς συναχθείη συμπέρασμα<note type="apparatus" n="18" target="#p172-17">ψευδὲς συναχθείη συμπέρασμα BS: inv. ord. Vt</note>
-              <lb n="19" xml:id="p172-18"/>καὶ οὐκ ἀδύνατον; τί οὖν πρὸς ταῦτα ἡμεῖς λέγομεν; ὅτι ἡ μὲν μετάλῆψις<note type="apparatus" n="19" target="#p172-18">τί om., λέγομεν ante οὖν colloc. B</note>
+              <lb n="19" xml:id="p172-18"/>καὶ οὐκ ἀδύνατον; τί οὖν πρὸς ταῦτα ἡμεῖς λέγομεν; ὅτι ἡ μὲν μετάληψις<note type="apparatus" n="19" target="#p172-18">τί om., λέγομεν ante οὖν colloc. B</note>
               <lb n="20" xml:id="p172-19"/>τῆς ἐνδεχομένης εἰς τὴν ὑπάρχουσαν οὐκ ἐπὶ τοῦ αὐτοῦ χρόνου<milestone type="alt-edition" unit="folio" ed="Trincavelli 1536" n="XLIVr"/>
               <lb n="21" xml:id="p172-20"/>οὐδὲ μενούσης τῆς ἐνδεχομένης [ἐνδεχομένη] γέγονε [καὶ ὑπάρχουσα] (τοῦτο<note type="apparatus" n="21" target="#p172-20">ἐνδεχομένη et καὶ ὑπάρχουσα delevi</note>
               <lb n="22" xml:id="p172-21"/>γὰρ οὐ μόνον ἐστὶ ψεῦδος ἀλλὰ καὶ ἀδύνατον τὴν αὐτὴν ἐνδεχομένην τε
@@ -7463,7 +7464,7 @@
             </p>
             <pb n="173" facs="https://archive.org/download/commentariaina13pt12akaduoft/page/n468.jpg"/>
             <p>
-              <lb n="1" xml:id="p173-0"/>αὐτῷ καὶ παντὶ καὶ μὴ παντὶ ὑπάρχειν· ὥστε οὐ μόνον ψευδὲς τὸ τοιοὗτον
+              <lb n="1" xml:id="p173-0"/>αὐτῷ καὶ παντὶ καὶ μὴ παντὶ ὑπάρχειν· ὥστε οὐ μόνον ψευδὲς τὸ τοιοῦτον
               <lb n="2" xml:id="p173-1"/>ἀλλὰ καὶ ἀδύνατον.
               <lb n="3" xml:id="p173-2"/>Ἴδωμεν οὖν πόθεν τὸ ἀδύνατον ἠκολούθησε. δύο ὑποθέσεων κειμένων,<note type="apparatus" n="3" target="#p173-2">εἴδωμεν t</note><milestone type="alt-edition" unit="line" ed="Trincavelli 1536" n="10"/>
               <lb n="4" xml:id="p173-3"/>μιᾶς μὲν τῆς λεγούσης τὸ Α τῷ Γ οὐκ ἐνδέχεσθαι παντί,<note type="apparatus" n="4" target="#p173-3">ἐνδέχεσθαι B: ἐνδέχεται Vt cf. vs. 13</note>
@@ -7545,7 +7546,7 @@
               <lb n="4" xml:id="p175-3"/>ὡς πολλάκις διὰ τῶν προλαβόντων ἐδείξαμεν. ἐνταῦθα δὲ τὴν ‘οὐκ ἐνδέχεται<note type="apparatus" n="4" target="#p175-3">ὡς—ἐδείξαμεν om. B διὰ τῶν προλ.] velut p. 37,25 sq. 47,14 sq.</note>
               <lb n="5" xml:id="p175-4"/>παντί’ οὐκ ἐποίησε μέρος τοῦ συλλογισμοῦ, ἀλλὰ τὰς κειμένας προτάσεις<note type="apparatus" n="5" target="#p175-4">ἐποίησε B: ἐποιήσατο V: ἐποίησας t ἀντικειμένας B</note>
               <lb n="6" xml:id="p175-5"/>ἀντιστρέψας καὶ μεταλαβὼν εἰς ἀλλήλας καὶ δείξας συναγόμενον τὸ
-              <lb n="7" xml:id="p175-6"/>ἐνδέχεσθαι παντὶ τῷ Γ τὸ Α ὑπάρχειν ἐπήγαγεν ὅτι, εἰ κατὰ τὴν ὑπόθέσιν<note type="apparatus" n="7-8" target="#p175-6 #p175-7">ἐπήγαγεν—ὑπάρχειν om. Vt</note><milestone type="alt-edition" unit="line" ed="Trincavelli 1536" n="5"/>
+              <lb n="7" xml:id="p175-6"/>ἐνδέχεσθαι παντὶ τῷ Γ τὸ Α ὑπάρχειν ἐπήγαγεν ὅτι, εἰ κατὰ τὴν ὑπόθεσιν<note type="apparatus" n="7-8" target="#p175-6 #p175-7">ἐπήγαγεν—ὑπάρχειν om. Vt</note><milestone type="alt-edition" unit="line" ed="Trincavelli 1536" n="5"/>
               <lb n="8" xml:id="p175-7"/>δῶμεν τὸ μὴ ἐνδέχεσθαι παντὶ τῷ Γ τὸ Α ὑπάρχειν συνάγεσθαι,<note type="apparatus" n="8-9" target="#p175-7 #p175-8">συνάγεσθαι—ἀδύνατον iterat, iterata del. V</note>
               <lb n="9" xml:id="p175-8"/>εἰς ἀντίφασιν περιπεσούμεθα, ὅπερ ἀδύνατον. ἰστέον δὲ ὅτι, κἂν μίαν τῶν<note type="apparatus" n="9" target="#p175-8">post ἀντίφασιν add. φησι t: priore loco superser. V² δ B κἂν BS: εἰ καὶ Vt</note><note type="apparatus" n="9-10" target="#p175-8 #p175-9">μόνην τῶν προτάσεων B</note>
               <lb n="10" xml:id="p175-9"/>προτάσεων μόνην ἀντιστρέψωμεν πρὸς τὴν ἑτέραν, ὡσαύτως τὸ αὐτὸ δείξομεν<note type="apparatus" n="10" target="#p175-9">ἀντιστρέψομεν SV post ὡσαύτως add. ἀπόχρη Vt: om. BS δείξομεν BS: δεῖξαι Vt</note>
@@ -7562,7 +7563,7 @@
             <milestone unit="bekker" n="34b7"/>
             <quote type="lemma">
               <lb n="18" xml:id="p175-17"/>Δεῖ δὲ λαμβάνειν τὸ παντὶ ὑπάρχειν μὴ κατὰ χρόνον<note type="apparatus" n="18" target="#p175-17">οὐ V</note>
-              <lb n="19" xml:id="p175-18"/>ὁρίσαντας, οἷον νῦν ἢ ἐν τῷδε τῷ χρόνῳ, ἀλλ’ ἁπλῶς· διὰ τοιοὕτων<note type="apparatus" n="19" target="#p175-18">ἢ om. V post διὰ add. τῶν Vt: om. B Arist.</note>
+              <lb n="19" xml:id="p175-18"/>ὁρίσαντας, οἷον νῦν ἢ ἐν τῷδε τῷ χρόνῳ, ἀλλ’ ἁπλῶς· διὰ τοιούτων<note type="apparatus" n="19" target="#p175-18">ἢ om. V post διὰ add. τῶν Vt: om. B Arist.</note>
               <lb n="20" xml:id="p175-19"/>γὰρ προτάσεων καὶ τοὺς συλλογισμοὺς ποιοῦμεν.
             </quote>
             <p>
@@ -7598,7 +7599,7 @@
               <lb n="11" xml:id="p176-10"/>μόνον ζῷα εἴη, κινούμενον δὲ παντὶ ἀνθρώπῳ ἐνδέχεται ὑπάρχειν, συνάγεται<note type="apparatus" n="11" target="#p176-10">ζῶα μόνον Vt</note>
               <lb n="12" xml:id="p176-11"/>δῆλον ὅτι ζῷον παντὶ ἀνθρώπῳ ἐξ ἀνάγκης ὑπάρχειν. καὶ τὸ μὲν<note type="apparatus" n="12" target="#p176-11">ὑπάρχει Bt</note>
               <lb n="13" xml:id="p176-12"/>ἀντιφατικῶς ἀντικείμενον τῷ ἐνδέχεσθαι παντὶ τὸ ἐξ ἀνάγκης οὐδενί ἐστιν,<milestone type="alt-edition" unit="line" ed="Trincavelli 1536" n="35"/>
-              <lb n="14" xml:id="p176-13"/>ὅπερ ἔδειξεν ἐν τοῖς πρὸ τούτου ὅροις. ἐπειδὴ δὲ ὅλως εὐπόρησεν ὅρων συνἀγόντων<note type="apparatus" n="14" target="#p176-13">ὃ B ἐπεὶ B ηὐπόρησεν ex ἠπόρησεν corr. B2: εὐπορήσομεν pr. V</note>
+              <lb n="14" xml:id="p176-13"/>ὅπερ ἔδειξεν ἐν τοῖς πρὸ τούτου ὅροις. ἐπειδὴ δὲ ὅλως εὐπόρησεν ὅρων συναγόντων<note type="apparatus" n="14" target="#p176-13">ὃ B ἐπεὶ B ηὐπόρησεν ex ἠπόρησεν corr. B2: εὐπορήσομεν pr. V</note>
               <lb n="15" xml:id="p176-14"/>καὶ τὸ ἐξ ἀνάγκης παντί, τούτου χάριν καὶ τοῦτο ἐπήγαγεν. πόθεν<note type="apparatus" n="15" target="#p176-14">καὶ τούτου V</note>
               <lb n="16" xml:id="p176-15"/>δὲ ὅλως εὐπόρησε τὸ ἐξ ἀνάγκης παντὶ συναγαγεῖν; διότι ἔλαβε τὸν ἐλάττονα<note type="apparatus" n="16" target="#p176-15">ηὐπόρησε ex ἠπόρησε corr. B2 16</note>
               <lb n="17" xml:id="p176-16"/>ὅρον εἶδος ὄντα τοῦ μείζονος. ὥστε δεῖ μήτε τὸν μείζονα ὅρον λαμβάνειν<note type="apparatus" n="17" target="#p176-16">ἐλάσσονα B</note>
@@ -7901,7 +7902,7 @@
               <lb n="6" xml:id="p184-5"/>ἐνδεχόμενον.
             </quote>
             <p>
-              <lb n="7" xml:id="p184-6"/>Ὅρους ἐκτίθεται, δι’ ὧν δείκνυσι τέως μὲν ὅτι οὐ συνάγεται τὸ ἐνδέχεται
+              <lb n="7" xml:id="p184-6"/>Ὅρους ἐκτίθεται, δι’ ὧν δείκνυσι τέως μὲν ὅτι οὐ συνάγεται τὸ ‘ἐνδέχεται
               <lb n="8" xml:id="p184-7"/>μηδενί’, κόρακα, διανοούμενον, ἄνθρωπον· μείζων κόραξ, ἐλάττων<note type="apparatus" n="8" target="#p184-7">διανώμενον pr. B., corr. B²</note>
               <lb n="9" xml:id="p184-8"/>ἄνθρωπος. κόραξ μὲν γάρ, φησίν, οὐδενὶ διανοουμένῳ ὑπάρχει, διανοούμενον<note type="apparatus" n="9" target="#p184-8">γάρ om. B</note><milestone type="alt-edition" unit="line" ed="Trincavelli 1536" n="10"/>
               <lb n="10" xml:id="p184-9"/>δὲ ἐνδέχεται παντὶ ἀνθρώπῳ, καὶ συνάγεται κόραξ οὐδενὶ ἀνθρώπῳ
@@ -8180,7 +8181,7 @@
             <milestone unit="bekker" n="35b2"/>
             <quote type="lemma">
               <lb n="11" xml:id="p190-10"/>Ἔσται δὲ συλλογισμὸς διὰ τῆς ἀντιστροφῆς, καὶ ὅταν ἡ<note type="apparatus" n="11" target="#p190-10">post συλλογισμὸς add. καὶ B</note>
-              <lb n="12" xml:id="p190-11"/>μὲν καθόλου πρὸς τὸ μεῖζον ἄκρον τεθεῖσα σημαίνῃ τὸ ὑπάργειν<note type="apparatus" n="12" target="#p190-11">τεθεῖσα πρὸς τὸ ἄκρον μεῖζον UVt</note><milestone type="alt-edition" unit="line" ed="Trincavelli 1536" n="50"/>
+              <lb n="12" xml:id="p190-11"/>μὲν καθόλου πρὸς τὸ μεῖζον ἄκρον τεθεῖσα σημαίνῃ τὸ ὑπάρχειν<note type="apparatus" n="12" target="#p190-11">τεθεῖσα πρὸς τὸ ἄκρον μεῖζον UVt</note><milestone type="alt-edition" unit="line" ed="Trincavelli 1536" n="50"/>
               <lb n="13" xml:id="p190-12"/>ἢ μὴ ὑπάρχειν, ἡ δ’ ἐν μέρει στερητικὴ οὖσα τὸ ἐνδέχεσθαι
               <lb n="14" xml:id="p190-13"/>λαμβάνῃ. <milestone type="alt-edition" unit="folio" ed="Trincavelli 1536" n="XLVIIIr"/><note type="apparatus" n="14" target="#p190-13">λαμβάνει UVt</note>
             </quote>
@@ -8974,7 +8975,7 @@
               <lb n="25" xml:id="p207-24"/>δύνασθαι εἰς τὴν καταφατικὴν μήτε τὴν ἐνδεχομένην καταφατικὴν<note type="apparatus" n="25" target="#p207-24">τὴν prius om. Ut</note><note type="apparatus" n="25-26" target="#p207-24 #p207-25">ἀποφατικὴν εἰς τὴν καταφατικὴν t</note><milestone type="alt-edition" unit="line" ed="Trincavelli 1536" n="40"/>
               <lb n="26" xml:id="p207-25"/>εἰς τὴν ἀποφατικὴν κατὰ τὰ Ἀριστοτέλει δοκοῦντα, κἂν ἀποφατικὴ ᾖ ἡ<note type="apparatus" n="26" target="#p207-25">post δοκοῦντα add. ἀλλὰ t</note>
               <lb n="27" xml:id="p207-26"/>ἐνδεχομένη, δύνασθαι ταύτην εἰς καταφατικὴν μεταληφθῆναι καὶ ποιεῖν
-              <lb n="28" xml:id="p207-27"/>ἀνομοισχήμονα τὴν συζυγίαν. δεῖ δὲ τὴν ἀποφατικὴν ὑπάρχουσαν καθόλου
+              <lb n="28" xml:id="p207-27"/><choice><sic>ἀνομοισχήμονα</sic><corr>ἀνομοιοσχήμονα</corr></choice> τὴν συζυγίαν. δεῖ δὲ τὴν ἀποφατικὴν ὑπάρχουσαν καθόλου
               <lb n="29" xml:id="p207-28"/>εἶναι διὰ τὸ ἀντιστρέφειν πρὸς ἑαυτήν· εἰ γὰρ μερικὴ εἴη, οὐ πάντως ποιεῖ
               <lb n="30" xml:id="p207-29"/>συλλογισμόν, ὡς μαθησόμεθα ἐν τῷ τόπῳ.<note type="apparatus" n="30" target="#p207-29">τῷ Ut: om. B</note>
             </p>
@@ -9242,7 +9243,7 @@
             <pb n="214" facs="https://archive.org/download/commentariaina13pt12akaduoft/page/n509.jpg"/>
             <p>
               <lb n="1" xml:id="p214-0"/>ἐπειδὴ τοίνυν μὴ πᾶσιν ἀναγκαίως ὑπάρχει, διὰ τοῦτο ἀληθὲς τὸ λέγειν
-              <lb n="2" xml:id="p214-1"/>ὅτι ἀνάγκη μὴ παντί· [ὥστε] ἐπειδὴ 〈δὲ〉 καὶ τισὶν ἀναγκαίως ὑπάρχει, ἀληψεύσει<note type="apparatus" n="2" target="#p214-1">ὥστε delevi, δὲ addidi post ἀναγκαίως add. οὐχ BU: om. t ἀληθεύει, ut videtur, pr. B</note>
+              <lb n="2" xml:id="p214-1"/>ὅτι ἀνάγκη μὴ παντί· [ὥστε] ἐπειδὴ 〈δὲ〉 καὶ τισὶν ἀναγκαίως ὑπάρχει, ἀληθεύσει<note type="apparatus" n="2" target="#p214-1">ὥστε delevi, δὲ addidi post ἀναγκαίως add. οὐχ BU: om. t ἀληθεύει, ut videtur, pr. B</note>
               <lb n="3" xml:id="p214-2"/>καὶ τὸ ἀνάγκη τινί. ὥστε, φησί, τῷ ἐνδέχεσθαι παντὶ τὰ ἀντικείμενα,<note type="apparatus" n="3" target="#p214-2">τῷ BU: τοῦ t ἐνδέχεσθαι t Arist.: ἀνάγκη BU</note>
               <lb n="4" xml:id="p214-3"/>ἐπειδὴ τοῦτο ὑποθέσθαι ἐβούλοντο, δύο εἰσὶ τὸ ‘ἀνάγκη τινί’ καὶ<note type="apparatus" n="4" target="#p214-3">ὑποτίθεσθαι B ἠβούλετο t post καὶ addiderim τὸ, at cf. vs. 17</note>
               <lb n="5" xml:id="p214-4"/>‘ἀνάγκη μὴ παντί’. ὁμοίως δὲ καὶ τῷ ἐνδέχεσθαι μηδενί.<note type="apparatus" n="5" target="#p214-4">τῷ Arist.: τὸ BUt ἐνδέχεται U</note>
@@ -9417,7 +9418,7 @@
           <div type="textpart" subtype="lemma" n="143">
             <milestone unit="bekker" n="37b10"/>
             <quote type="lemma">
-              <lb n="31" xml:id="p217-30"/>Ὁμοίως δὲ δειχθήσεται, κἂν ἀνάπαλιν τεθῇ τὰ στερητικόν,<note type="apparatus" n="31" target="#p217-30">καὶ ἀνάπαλιν ὅταν t τεθῇ t Arist.: τεθείη BU</note>
+              <lb n="31" xml:id="p217-30"/>Ὁμοίως δὲ δειχθήσεται, κἂν ἀνάπαλιν τεθῇ τὸ στερητικόν,<note type="apparatus" n="31" target="#p217-30">καὶ ἀνάπαλιν ὅταν t τεθῇ t Arist.: τεθείη BU</note>
               <lb n="32" xml:id="p217-31"/>καὶ ἐὰν ἀμφότεραι καταφατικαὶ ληφθῶσιν ἢ στερητικαί·<note type="apparatus" n="32" target="#p217-31">καὶ ἐὰν BU: κἂν t Arist. ληφθῶσιν t Arist.: τεθῶσιν BU</note>
               <lb n="33" xml:id="p217-32"/>διὰ γὰρ τῶν αὐτῶν ὅρων ἔσται ἡ ἀπόδειξις.
             </quote>
@@ -10003,7 +10004,7 @@
               <lb n="2" xml:id="p229-1"/>ἐνδεχόμενον.
             </quote>
             <p>
-              <lb n="3" xml:id="p229-2"/>Τοιοῦτον καὶ ἐν τοῖς προλαβοῦσιν ἐπεσημήματο, ὅτι οὐ τὸ κατὰ τὸν<note type="apparatus" n="3" target="#p229-2">ἐν τοῖς προλαβ.] c. 16 p. 35 b 30 c. 19 p. 38 a 14</note><milestone type="alt-edition" unit="line" ed="Trincavelli 1536" n="45"/>
+              <lb n="3" xml:id="p229-2"/>Τοιοῦτον καὶ ἐν τοῖς προλαβοῦσιν <choice><sic>ἐπεσημήματο</sic><corr>ἐπεσημήνατο</corr></choice>, ὅτι οὐ τὸ κατὰ τὸν<note type="apparatus" n="3" target="#p229-2">ἐν τοῖς προλαβ.] c. 16 p. 35 b 30 c. 19 p. 38 a 14</note><milestone type="alt-edition" unit="line" ed="Trincavelli 1536" n="45"/>
               <lb n="4" xml:id="p229-3"/>διορισμὸν ἐνδεχόμενον ἐν τοῖς συμπεράσμασιν εἴληπται ἀλλὰ τὸ ἑπόμενον
               <lb n="5" xml:id="p229-4"/>τῷ ὑπάρχοντι καὶ κατ’ αὐτοῦ λεγόμενον ἀληθῶς.
             </p>
@@ -10803,7 +10804,7 @@
               <lb n="7" xml:id="p246-6"/>οὐχὶ καὶ σύμμετρος καὶ ἀσύμμετρος, καὶ ὅτι ἡ γραμμὴ τῇ γραμμῇ οὐκ<note type="apparatus" n="7" target="#p246-6">οὐκ BUt: οὐχὶ καὶ S</note><milestone type="alt-edition" unit="line" ed="Trincavelli 1536" n="10"/>
               <lb n="8" xml:id="p246-7"/>ἴση καὶ μείζων καὶ ἐλάττων. λέγω οὖν ὅτι, ὅταν οὕτω προφερώμεθα, τὸν
               <lb n="9" xml:id="p246-8"/>τρίτον τρόπον ποιοῦμεν· πλὴν περιττὸν τὸ οὕτω προφέρεσθαι, ὅταν ἐξὸν<note type="apparatus" n="9" target="#p246-8">ὅταν om. fort. recte S ἐξ’ ὧν Ut</note>
-              <lb n="10" xml:id="p246-9"/>ἢ διαιρετικῶς προφέρεσθαι. ὥστε διακέκρινται μὲν οἱ ὑποθετικοὶ τρόποι<note type="apparatus" n="10" target="#p246-9">ἢ SU: fort. del. μὲν om. t post τρόποι add. συλλογισμοί U</note>
+              <lb n="10" xml:id="p246-9"/>ᾖ διαιρετικῶς προφέρεσθαι. ὥστε διακέκρινται μὲν οἱ ὑποθετικοὶ τρόποι<note type="apparatus" n="10" target="#p246-9">ἢ SU: fort. del. μὲν om. t post τρόποι add. συλλογισμοί U</note>
               <lb n="11" xml:id="p246-10"/>μάλιστα μὲν τοῖς πράγμασιν, ὡς ἤδη διείλομεν, ἔπειτα καὶ τῷ σχήματι
               <lb n="12" xml:id="p246-11"/>τῆς ἀγωγῆς αὐτῆς καὶ τῆς προφορᾶς. εἰ δὲ τοῦτο, οὐδὲν θαυμαστὸν καὶ<note type="apparatus" n="12" target="#p246-11">ἀγωγῆς SU: ἀναγωγῆς Bt</note>
               <lb n="13" xml:id="p246-12"/>τὸν τέταρτον καὶ πέμπτον διῃρημένους οὐ πραγματωδῶς, ἐπειδὰν προφερώμεθα<note type="apparatus" n="13" target="#p246-12">τὸν δεύτερον U διῃρημένους B: διῃρημένου St: διειρημένου U πραγματωδῶς S: πραγματειωδῶς BUt</note>
@@ -12941,7 +12942,7 @@
               <lb n="31" xml:id="p289-30"/>τὸ ζῷον κατηγορεῖται τὸ ἔμψυχον, καὶ τῷ ζῴῳ διὰ τὸ λογικὸν ὑπόκειται
               <lb n="32" xml:id="p289-31"/>ὁ ἄνθρωπος. ἐν μέντοι τῇ ἐκθέσει τοῦ μέσου ἀξιῶν εἰς τὰ καθολικώτατα<note type="apparatus" n="32" target="#p289-31">ὁ om. Ut</note><milestone type="alt-edition" unit="line" ed="Trincavelli 1536" n="15"/>
               <lb n="33" xml:id="p289-32"/>ἀποβλέπειν, εἰ οἷόν τε, ὑποδείγματος μόνου ἕνεκεν καὶ σαφηνείας ὡς μερικωτέρῳ<note type="apparatus" n="33" target="#p289-32">μόνον B</note>
-              <lb n="34" xml:id="p289-33"/>τῷ Γ ἐχρήσατο, ἵνα διδάξῃ μὴ εἰς μόνα τὰ ἀπογεγραμμένα προσἔχειν<note type="apparatus" n="34" target="#p289-33">μόνον εἰς τὰ U</note><note type="apparatus" n="34-35" target="#p289-33 #p289-34">ἐπιβλέπειν U</note>
+              <lb n="34" xml:id="p289-33"/>τῷ Γ ἐχρήσατο, ἵνα διδάξῃ μὴ εἰς μόνα τὰ ἀπογεγραμμένα προσέχειν<note type="apparatus" n="34" target="#p289-33">μόνον εἰς τὰ U</note><note type="apparatus" n="34-35" target="#p289-33 #p289-34">ἐπιβλέπειν U</note>
               <lb n="35" xml:id="p289-34"/>ἐκλεγομένους τὸν μέσον, ἀλλ’ ἐπιβλέπειν εἴ τί ἐστι τῶν ὑποκειμένων<note type="apparatus" n="35" target="#p289-34">κειμένων U</note>
               <lb n="36" xml:id="p289-35"/>καθολικώτερον, καὶ εἰ ἐνδέχεται τούτῳ μέσῳ κατὰ τὴν παραδεδομένην
               <lb n="37" xml:id="p289-36"/>μέθοδον χρήσασθαι, τοῦτο λαμβάνειν.
@@ -13565,7 +13566,7 @@
               <lb n="29" xml:id="p302-28"/>πολλάκις δὲ καὶ ἀμφότερα. ὥστε εἰ δεῖ καὶ τούτους τῷ ὄντι συλλογισμοὺς
               <lb n="30" xml:id="p302-29"/>γενέσθαι, ὑπὸ τὴν αὐτὴν πεσοῦνται τῆς εὐπορίας τῶν προτάσεων
               <lb n="31" xml:id="p302-30"/>μέθοδον, τοῦ συνημμένου καθ’ ἑκάστην πρότασιν κατασκευασθέντος, εἰ<milestone type="alt-edition" unit="line" ed="Trincavelli 1536" n="30"/>
-              <lb n="32" xml:id="p302-31"/>ἄδηλον ἦ, ἢ τῆς προσλήψεως ἀλλὰ μὴν τὸ Α’ ἢ ἀμφοτέρων.
+              <lb n="32" xml:id="p302-31"/>ἄδηλον ἦ, ἢ τῆς προσλήψεως ‘ἀλλὰ μὴν τὸ Α’ ἢ ἀμφοτέρων.
             </p>
           </div>
           <div type="textpart" subtype="lemma" n="62">
@@ -13766,7 +13767,7 @@
             <milestone unit="bekker" n="46a28"/>
             <quote type="lemma">
               <lb n="22" xml:id="p306-21"/>Καθόλου μὲν οὖν, ὃν δεῖ τρόπον τὰς προτάσεις ἐκλέγειν,
-              <lb n="23" xml:id="p306-22"/>εἴρηται σχεδόν· δι’ ἀκριβείας δὲ διεληλύθαμεν ἐν τῇ πράγματείᾳ<milestone type="alt-edition" unit="line" ed="Trincavelli 1536" n="30"/>
+              <lb n="23" xml:id="p306-22"/>εἴρηται σχεδόν· δι’ ἀκριβείας δὲ διεληλύθαμεν ἐν τῇ πραγματείᾳ<milestone type="alt-edition" unit="line" ed="Trincavelli 1536" n="30"/>
               <lb n="24" xml:id="p306-23"/>τῇ περὶ τὴν διαλεκτικήν.
             </quote>
             <p>
@@ -14316,7 +14317,7 @@
             <p>
               <lb n="28" xml:id="p318-27"/>Εὐχερέστερον γὰρ τὸ διελεῖν εἰς μεγάλα μόρια ἢ τὸ εἰς μικρότερα·<milestone type="alt-edition" unit="line" ed="Trincavelli 1536" n="45"/>
               <lb n="29" xml:id="p318-28"/>διό, φησί, δεῖ ἡμᾶς εἰς τὰ δύο μεγάλα μόρια τοῦ συλλογισμοῦ, λέγω δὴ
-              <lb n="30" xml:id="p318-29"/>τὰ συνεκτικὰς αὐτοῦ δύο προτάσεις, τὴν διαίρεσιν ποιεῖσθαι. ἀντικειμένως
+              <lb n="30" xml:id="p318-29"/>τὰς συνεκτικὰς αὐτοῦ δύο προτάσεις, τὴν διαίρεσιν ποιεῖσθαι. ἀντικειμένως
               <lb n="31" xml:id="p318-30"/>δὲ ἔχει τῷ πλήθει τὸ μέγεθος· ὅταν γὰρ ἡ διαίρεσις εἰς μεγάλα τῷ μεγέθει
               <lb n="32" xml:id="p318-31"/>γένηται, εἰς ἐλάττονα γίνεται τῷ πλήθει, ὅταν δὲ εἰς πλείονα τῷ πλήθει,
               <lb n="33" xml:id="p318-32"/>εἰς ἐλάττονα τῷ μεγέθει. ἐὰν γὰρ εἰς δύο διέλω τὸ πηχυαῖον ξύλον καὶ<note type="apparatus" n="33" target="#p318-32">διέλωμεν t</note>
@@ -14951,7 +14952,7 @@
               <lb n="12" xml:id="p333-11"/>ἐπειδὴ γὰρ οὐ κεῖται ἐν τῇ συνηθείᾳ τῷ μέσῳ ὄνομα, οὐ παντὸς δέ ἐστιν<note type="apparatus" n="12" target="#p333-11">πάντως Bt δέ ἐστιν] τι t</note>
               <lb n="13" xml:id="p333-12"/>εὑρίσκειν λόγον ἑρμηνευτικὸν τῆς φύσεως τῶν πραγμάτων, δυσχερὴς ἡ ἀνάλυσις<note type="apparatus" n="13" target="#p333-12">post πραγμάτων add. διὸ Y</note>
               <lb n="14" xml:id="p333-13"/>γίνεται. τὰ μὲν οὖν λεγόμενα ἐν τούτοις ταῦτά ἐστι. τὰ δὲ τῆς<milestone type="alt-edition" unit="line" ed="Trincavelli 1536" n="35"/>
-              <lb n="15" xml:id="p333-14"/>λέξεως λοιπὸν δῆλα. τὸ δὲ ὡς τόδε τι ἀντὶ τοῦ ‘ὡς ὄνομα’, οἶον ἄνθρωπος,
+              <lb n="15" xml:id="p333-14"/>λέξεως λοιπὸν δῆλα. τὸ δὲ ὡς τόδε τι ἀντὶ τοῦ ‘ὡς ὄνομα’, <choice><sic>οἶον</sic><corr>οἷον</corr></choice> ἄνθρωπος,
               <lb n="16" xml:id="p333-15"/>ἵππος, βαδίζει, φιλοσοφεῖ.<note type="apparatus" n="16" target="#p333-15">φιλοσοφεῖ· βαδίζει t</note>
             </p>
           </div>
@@ -16508,7 +16509,7 @@
             </quote>
             <p>
               <lb n="12" xml:id="p366-11"/>Ἐπειδὴ τὸ μὲν ‘ἔστι λευκόν’ καὶ ‘ἔστιν οὐ λευκόν’, περὶ ὧν ἡ
-              <lb n="13" xml:id="p366-12"/>σκέψις, τὸ ἔστιν εἴγε ῥῆμα, τὸ δὲ ‘δύναται βαδίζειν’ καὶ ‘δύναται μὴ βαδίζειν’<note type="apparatus" n="13" target="#p366-12">ἔχει S</note>
+              <lb n="13" xml:id="p366-12"/>σκέψις, τὸ ἔστιν εἶχε ῥῆμα, τὸ δὲ ‘δύναται βαδίζειν’ καὶ ‘δύναται μὴ βαδίζειν’<note type="apparatus" n="13" target="#p366-12">ἔχει S</note>
               <lb n="14" xml:id="p366-13"/>καὶ ‘ἐπίσταται τὸ ἀγαθόν’ καὶ ‘ἐπίσταται τὸ μὴ ἀγαθόν’ οὐκ εἶχον<note type="apparatus" n="14" target="#p366-13">ἔχουσι S</note>
               <lb n="15" xml:id="p366-14"/>τὸ ἔστιν, ἐκ δὲ τῆς πρὸς ταῦτα ἀναλογίας δεῖξαι βούλεται ὅτι οὐκ ἔστι<note type="apparatus" n="15" target="#p366-14">ἐπὶ δὲ B</note>
               <lb n="16" xml:id="p366-15"/>τῆς ἁπλῆς καταφάσεως τῆς ‘ἔστι λευκόν’ ἀπόφασις ἡ ἐκ μεταθέσεως κατάφασις<milestone type="alt-edition" unit="line" ed="Trincavelli 1536" n="10"/>
@@ -16867,7 +16868,7 @@
               <lb n="25" xml:id="p374-24"/>μὴ βαδίζειν· οὐδέποτε δὲ ταῖς καταφάσεσιν ἀκολουθοῦσιν αἱ ἀποφάσεις,
               <lb n="26" xml:id="p374-25"/>οἷον τῇ ‘δύναται βαδίζειν’ ἡ ‘οὐ δύναται μὴ βαδίζειν’ ἢ τῇ ‘δύναται μὴ<note type="apparatus" n="26-27" target="#p374-25 #p374-26">ἢ τῇ δύναται μὴ βαδίζειν om. P</note>
               <lb n="27" xml:id="p374-26"/>βαδίζειν’ ἡ ‘οὐ δύναται βαδίζειν’· ἀσυνύπαρκτα γὰρ ταῦτα ἐπὶ τοῦ αὐτοῦ.
-              <lb n="28" xml:id="p374-27"/>ἀλλ’ οὐδὲ αἱ ἀποφάσεις συναληθεύουσί ποτε, ἡ οὐ δύναται βαδίζειν’ καὶ ἡ<note type="apparatus" n="28" target="#p374-27">ἡ alt. om. Pt</note>
+              <lb n="28" xml:id="p374-27"/>ἀλλ’ οὐδὲ αἱ ἀποφάσεις συναληθεύουσί ποτε, ἡ <choice><sic>οὐ</sic><corr>‘οὐ</corr></choice> δύναται βαδίζειν’ καὶ ἡ<note type="apparatus" n="28" target="#p374-27">ἡ alt. om. Pt</note>
               <lb n="29" xml:id="p374-28"/>‘οὐ δύναται μὴ βαδίζειν’, ἀλλὰ κἀνταῦθα κἀκεῖσε ἐπὶ τῶν ἐκ τρίτου προσκατηγορουμένου<note type="apparatus" n="29-30" target="#p374-28 #p374-29">προσκατηγορουμένων P</note>
               <lb n="30" xml:id="p374-29"/>ἡ τοιαύτη λέγεται ἀκολούθησις. οὕτω γοῦν καὶ ἐν ἐκείνοις<note type="apparatus" n="30" target="#p374-29">ἐν ἐκείνοις] c. 10 p. 19b19</note><milestone type="alt-edition" unit="line" ed="Trincavelli 1536" n="50"/>
               <lb n="31" xml:id="p374-30"/>ἔλεγεν “ὅταν δὲ τὸ ἔστι τρίτον προσκατηγορῆται, ἤδη διχῶς λέγονται αἱ<note type="apparatus" n="31" target="#p374-30">προσκατηγορεῖται Pt</note>
@@ -16902,7 +16903,7 @@
               <lb n="26" xml:id="p375-25"/>ὃ γὰρ ἀνάγκη ἀναπνεῖν, τοῦτο οὐκ ἀνάγκη μὴ ἀναπνεῖν, καὶ ὃ<note type="apparatus" n="26" target="#p375-25">post γὰρ ἀνάγκη add. μὴ Pt</note>
               <lb n="27" xml:id="p375-26"/>ἀνάγκη μὴ ἀναπνεῖν, τοῦτο οὐκ ἀνάγκη ἀναπνεῖν. καὶ αἱ μὲν καταφάσεις
               <lb n="28" xml:id="p375-27"/>οὐδέποτε συναληθεύουσιν, ἡ ‘ἀνάγκη ἀναπνεῖν’ καὶ ἡ ‘ἀνάγκη μὴ<note type="apparatus" n="28" target="#p375-27">ἡ alt. om. BPt</note>
-              <lb n="29" xml:id="p375-28"/>ἀναπνεῖν· τὰς δὲ ἀποφάσεις ἐνδέχεται· τὸ γὰρ μὴ ὂν ὅλως ἀληθὲς εἰπεῖν
+              <lb n="29" xml:id="p375-28"/><choice><sic>ἀναπνεῖν</sic><corr>ἀναπνεῖν’</corr></choice>· τὰς δὲ ἀποφάσεις ἐνδέχεται· τὸ γὰρ μὴ ὂν ὅλως ἀληθὲς εἰπεῖν
               <lb n="30" xml:id="p375-29"/>καὶ ὅτι οὐκ ἀνάγκη ἀναπνεῖν καὶ ὅτι οὐκ ἀνάγκη μὴ ἀναπνεῖν, τουτέστιν
               <lb n="31" xml:id="p375-30"/>οὐκ ἀνάγκη τῶν μὴ ἀναπνεόντων εἶναι. ἐπισκεπτέον δὲ μή ποτε οὐκ ἐνδέχεται
               <lb n="32" xml:id="p375-31"/>ἐπὶ τούτων οὐδὲ τὰς ἀποφάσεις συναληθεύειν. ὅσα δ’ εἴρηται ἐπὶ<note type="apparatus" n="32" target="#p375-31">δ’ P: om. BYt</note><milestone type="alt-edition" unit="line" ed="Trincavelli 1536" n="20"/>
@@ -17163,7 +17164,7 @@
               <lb n="8" xml:id="p381-7"/>Ἀναλαμβάνει πάλιν τὰ περὶ τῆς ἀκολουθήσεως τῶν προτάσεων τῶν<note type="apparatus" n="8" target="#p381-7">ἀκολουθίας B</note>
               <lb n="9" xml:id="p381-8"/>τε ἁπλῶν καὶ τῶν ἐκ μεταθέσεως· ἐπειδὴ γὰρ ἀνωτέρω ἐπὶ ὕλης τινὸς
               <lb n="10" xml:id="p381-9"/>ἐγύμνασε τὸν λόγον ξύλον λευκὸν λαβὼν καὶ ξύλον οὐ λευκόν, ἐνταῦθα<note type="apparatus" n="10" target="#p381-9">ἐγυμνάσατο Y: ἐγύμναζε t βαλὼν Y</note><milestone type="alt-edition" unit="line" ed="Trincavelli 1536" n="50"/>
-              <lb n="11" xml:id="p381-10"/>καθολικωτέραν ποιῶν τὴν δεῖξιν ἐπὶ τῶν στοιχείων προάγει τὴν ἀκολουθησιν.<note type="apparatus" n="11-12" target="#p381-10 #p381-11">ἀκολουθίαν B</note>
+              <lb n="11" xml:id="p381-10"/>καθολικωτέραν ποιῶν τὴν δεῖξιν ἐπὶ τῶν στοιχείων προάγει τὴν ἀκολούθησιν.<note type="apparatus" n="11-12" target="#p381-10 #p381-11">ἀκολουθίαν B</note>
               <lb n="12" xml:id="p381-11"/>λαμβάνει οὖν πάλιν τὰς δύο ἀντιφάσεις, τήν τε ἁπλῆν καὶ τὴν ἐκ
               <lb n="13" xml:id="p381-12"/>μεταθέσεως, μίαν μὲν ἀντίφασιν τὴν ΑΒ, ἑτέραν δὲ τὴν ΓΔ. ὅτι οὖν
               <lb n="14" xml:id="p381-13"/>ταῖς μὲν καταφάσεσιν αἱ ἀποφάσεις ἕπονται καὶ οὐκ ἀντιστρέφουσι, καὶ ὅτι
@@ -17211,7 +17212,7 @@
               <lb n="28" xml:id="p382-27"/>τὸ Α, ἐπὶ τούτων ἐνδέχεται καὶ τὸ Δ, ἐφ’ ὧν δὲ τὸ Δ, ἐπὶ τούτων πάντως
               <lb n="29" xml:id="p382-28"/>καὶ τὸ Β, ἐφ’ ὧν ἄρα τὸ Α, ἐπὶ τούτων καὶ τὸ Β, ὅπερ ἐστὶν ἀδύνατον·<milestone type="alt-edition" unit="line" ed="Trincavelli 1536" n="25"/>
               <lb n="30" xml:id="p382-29"/>ἀντιφατικῶς γὰρ ἀντίκεινται. οὐκ ἄρα ἕψεται τῷ Δ τὸ Β.
-              <lb n="31" xml:id="p382-30"/>‘Απλῶς δὲ ὅταν οὕτως ἔχῃ τὸ Α καὶ τὸ Β ὥστε ἅμα μὲν τῷ<note type="apparatus" n="31" target="#p382-30">ὥστε κτλ. om. Y</note>
+              <lb n="31" xml:id="p382-30"/>Ἁπλῶς δὲ ὅταν οὕτως ἔχῃ τὸ Α καὶ τὸ Β ὥστε ἅμα μὲν τῷ<note type="apparatus" n="31" target="#p382-30">ὥστε κτλ. om. Y</note>
               <lb n="32" xml:id="p382-31"/>αὐτῷ μὴ ἐνδέχεσθαι παντὶ δὲ ἐξ ἀνάγκης θάτερον, καὶ πάλιν
               <lb n="33" xml:id="p382-32"/>τὸ Γ καὶ τὸ Δ ὡσαύτως. αἱ πρῶται δύο ὑποθέσεις, ὅτι τε ἀντιφατικῶς<note type="apparatus" n="33" target="#p382-32">ὡσαύτως t Arist.: om. B θέσεις Y</note>
               <lb n="34" xml:id="p382-33"/>ἀντίκεινται τὸ Α καὶ τὸ Β καὶ ἔτι τὸ Γ καὶ τὸ Δ, καὶ ὅτι παντὶ ἐξ
@@ -17691,7 +17692,7 @@
               <lb n="27" xml:id="p393-26"/>ψευδὴς ἡ δὲ μείζων ἀληθής. καὶ εἰ ἡ μείζων ψευδὴς ἡ δ’ ἐλάττων<note type="apparatus" n="27" target="#p393-26">καὶ εἰ—28 ἀληθής mrg. U</note>
               <lb n="28" xml:id="p393-27"/>ἀληθής, ἢ ὅλη ψευδής, καὶ ποιεῖ δύο συζυγίας, καταφατικὴν καὶ ἀποφατικήν, ἢ
               <lb n="29" xml:id="p393-28"/>ἐπί τι ψευδής, καὶ ποιεῖ ἄλλας δύο, μίαν καταφατικὴν καὶ μίαν ἀποφατικήν.<note type="apparatus" n="29" target="#p393-28">μίαν utrumque om. B</note>
-              <lb n="30" xml:id="p393-29"/>εἰ δὲ ἡ ἡ μείζων ἀληθὴς ἡ δὲ ἐλάττων ψευδής, πάλιν ἢ ὅλη ψευδής, καὶ<note type="apparatus" n="30" target="#p393-29">εἰ δὲ—32 ἀποφατικήν om. B ἢ A: ἢ Ut ἡ δὲ At: καὶ ἡ U ψευδὴς alt. superscr. U: ἀληθὴς pr. U, t</note><milestone type="alt-edition" unit="line" ed="Trincavelli 1536" n="20"/>
+              <lb n="30" xml:id="p393-29"/>εἰ δὲ <choice><sic>ᾗ</sic><corr>ᾖ</corr></choice> ἡ μείζων ἀληθὴς ἡ δὲ ἐλάττων ψευδής, πάλιν ἢ ὅλη ψευδής, καὶ<note type="apparatus" n="30" target="#p393-29">εἰ δὲ—32 ἀποφατικήν om. B ἢ A: ἢ Ut ἡ δὲ At: καὶ ἡ U ψευδὴς alt. superscr. U: ἀληθὴς pr. U, t</note><milestone type="alt-edition" unit="line" ed="Trincavelli 1536" n="20"/>
               <lb n="31" xml:id="p393-30"/>ποιεῖ ἄλλας δύο συζυγίας, ἢ ἐπί τι ψευδής, καὶ ποιεῖ ἄλλας δύο, καταφατικὴν<note type="apparatus" n="31" target="#p393-30">ψευδὴς scripsi: ἀληθής Ut</note>
               <lb n="32" xml:id="p393-31"/>καὶ ἀποφατικήν, ὥστε γίνεσθαι τὰς πάσας δεκαέξ. ταύτας διέξεισιν ὁ<note type="apparatus" n="32" target="#p393-31">post πάσας add. συζυγίας B</note>
             </p>
@@ -18030,7 +18031,7 @@
               <lb n="11" xml:id="p400-10"/>ἀληθές.
             </quote>
             <p>
-              <lb n="12" xml:id="p400-11"/>Επλήρωσε περὶ τῶν δύο συζυγιῶν τῶν ἐχουσῶν τὴν μείζονα ὅλην<note type="apparatus" n="12" target="#p400-11">ἐχόντων Ut itemque vs. sq.</note>
+              <lb n="12" xml:id="p400-11"/>Ἐπλήρωσε περὶ τῶν δύο συζυγιῶν τῶν ἐχουσῶν τὴν μείζονα ὅλην<note type="apparatus" n="12" target="#p400-11">ἐχόντων Ut itemque vs. sq.</note>
               <lb n="13" xml:id="p400-12"/>ψευδῆ τὴν δὲ ἐλάττονα ἀληθῆ· νῦν λέγει περὶ τῶν ἐχουσῶν τὴν μείζω ἐπί<note type="apparatus" n="13" target="#p400-12">ἐλάττω B itemque vs. sq. post νῦν add. δὲ U</note><note type="apparatus" n="13-14" target="#p400-12 #p400-13">ἐπί τι in ras. U</note>
               <lb n="14" xml:id="p400-13"/>τι ψευδῆ τὴν δὲ ἐλάττονα ἀληθῆ. καὶ πρῶτον τὸ καταφατικὸν συνάγει<note type="apparatus" n="14" target="#p400-13">πρώτως B</note><milestone type="alt-edition" unit="line" ed="Trincavelli 1536" n="50"/>
               <lb n="15" xml:id="p400-14"/>οὕτως· οἷον τὸ ζῷον παντὶ καλῷ· ἰδοὺ ἐπί τι ψευδής, ἐπειδὴ τινὶ καλῷ
@@ -19131,7 +19132,7 @@
           <div type="textpart" subtype="lemma" n="99">
             <milestone unit="bekker" n="58b27"/>
             <quote type="lemma">
-              <lb n="4" xml:id="p420-3"/>Ἦν δὲ μὴ καθόλου ὁ συλλογισμὸς ᾖ, ἡ μὲν ἐν ὅλῳ<note type="apparatus" n="4" target="#p420-3">ἦν t Arist.: εἰ BMU (ABCnu)</note><milestone type="alt-edition" unit="line" ed="Trincavelli 1536" n="20"/>
+              <lb n="4" xml:id="p420-3"/>Ἢν δὲ μὴ καθόλου ὁ συλλογισμὸς ᾖ, ἡ μὲν ἐν ὅλῳ<note type="apparatus" n="4" target="#p420-3">ἦν t Arist.: εἰ BMU (ABCnu)</note><milestone type="alt-edition" unit="line" ed="Trincavelli 1536" n="20"/>
               <lb n="5" xml:id="p420-4"/>πρότασις οὐ δείκνυται διὰ τὴν αὐτὴν αἰτίαν.
             </quote>
             <p>
@@ -19853,7 +19854,7 @@
               <lb n="1" xml:id="p433-0"/>παντί· εἶτα προσληφθήτω ἤτοι μείζων πρότασις ἄλλη ἢ ἐλάττων. εἰ μὲν<note type="apparatus" n="1" target="#p433-0">ἡ ἐλάττων Bt an μὲν 〈οὖν〉?</note>
               <lb n="2" xml:id="p433-1"/>προσληφθῇ οἱαδήποτε μείζων ἄλλη, ἀσυλλόγιστος γίνεται ἡ συζυγία διὰ<note type="apparatus" n="2" target="#p433-1">ἄλλη BU: ἂν ᾖ T</note><milestone type="alt-edition" unit="line" ed="Trincavelli 1536" n="25"/>
               <lb n="3" xml:id="p433-2"/>τὸ τὴν ἐλάττω εἶναι ἀποφατικὴν καθόλου ἢ μερικὴν ἀποφατικήν. εἰ δὲ
-              <lb n="4" xml:id="p433-3"/>ἐλάττων προσληφθῇ πρότασις ὥστε εἶναι τὸ Β παντὶ τὸ Δ, εἰ μὲν ἡ<note type="apparatus" n="4" target="#p433-3">προσληφθείη U β ε δ, ut videtur, corr. B post μὲν add. καὶ BUt: om. T</note>
+              <lb n="4" xml:id="p433-3"/>ἐλάττων προσληφθῇ πρότασις ὥστε εἶναι τὸ Β παντὶ <choice><sic>τὸ Δ</sic><corr>τῷ Δ</corr></choice>, εἰ μὲν ἡ<note type="apparatus" n="4" target="#p433-3">προσληφθείη U β ε δ, ut videtur, corr. B post μὲν add. καὶ BUt: om. T</note>
               <lb n="5" xml:id="p433-4"/>μείζων καθόλου ἀποφατικὴ εἴη, συνάγεται συλλογισμὸς ἀποφατικός· εἰ δὲ<note type="apparatus" n="5" target="#p433-4">εἴη om. U: ᾖ t</note>
               <lb n="6" xml:id="p433-5"/>μερικὴ εἴη ἀποφατική, οὐ συνάγεται διὰ τὸ τὴν μείζω μερικὴν γενέσθαι.
               <lb n="7" xml:id="p433-6"/>ἐὰν οὖν προσληφθῇ τὸ Β παντὶ τῷ Δ τοῦ Α ὄντος οὐδενὶ τῷ Β, ψευδὲς
@@ -20618,7 +20619,7 @@
             </quote>
             <p>
               <lb n="10" xml:id="p447-9"/>Ἐὰν ἡ μείζων ἀποφατικὴ ἡ δὲ ἐλάττων καταφατική, τὸ αὐτὸ καὶ<milestone type="alt-edition" unit="line" ed="Trincavelli 1536" n="35"/>
-              <lb n="11" xml:id="p447-10"/>εἶναι καὶ μὴ εἶναι δειχθήσεται· οἷον ἡ ὑπόληψις οὐδεμιᾷ ἐπιστήμῃ, ὑπόλῆψις
+              <lb n="11" xml:id="p447-10"/>εἶναι καὶ μὴ εἶναι δειχθήσεται· οἷον ἡ ὑπόληψις οὐδεμιᾷ ἐπιστήμῃ, ὑπόληψις
               <lb n="12" xml:id="p447-11"/>πάσῃ ἰατρικῇ ἐπιστήμῃ· συμπέρασμα ὅτι οὐδεμία ἰατρικὴ ἐπιστήμη
               <lb n="13" xml:id="p447-12"/>ἐπιστήμη ἐστίν.
             </p>
@@ -21336,7 +21337,7 @@
               <lb n="21" xml:id="p461-20"/>προτάσει ἐνστῆναι τῇ τὴν σὴν ὑπόθεσιν ἀναιρούσῃ. ἐὰν γὰρ ἐκείνῃ ἐνστῇς,<note type="apparatus" n="21" target="#p461-20">τῇ B: ὀφείλεις U: om. t</note><milestone type="alt-edition" unit="line" ed="Trincavelli 1536" n="45"/>
               <lb n="22" xml:id="p461-21"/>ἀδύνατον γενέσθαι ἔλεγχον· ἄλλο γὰρ οὐ δύναται. οἷον εἰ συνῆξας<note type="apparatus" n="22" target="#p461-21">immo ἄλλως sive ἄλλῃ</note>
               <lb n="23" xml:id="p461-22"/>σὺ τὸ παντί, πάντως αὐτὸς ἢ τὸ οὐδενὶ βούλεται δεῖξαι ἢ τὸ οὐ παντί·<note type="apparatus" n="23" target="#p461-22">τῶ (ante παντί) U</note>
-              <lb n="24" xml:id="p461-23"/>οὐκοῦν ἀνθίστασαι τῇ προτάσει τῇ ἀναιρούσῃ τὴν σὴν ὑπόθεσιν τῇ ἀποφατική.<note type="apparatus" n="24" target="#p461-23">ἀνθίσταται Bt: fort. ἀνθίστασο</note>
+              <lb n="24" xml:id="p461-23"/>οὐκοῦν ἀνθίστασαι τῇ προτάσει τῇ ἀναιρούσῃ τὴν σὴν ὑπόθεσιν τῇ ἀποφατικῇ.<note type="apparatus" n="24" target="#p461-23">ἀνθίσταται Bt: fort. ἀνθίστασο</note>
               <lb n="25" xml:id="p461-24"/>
             </p>
           </div>
@@ -22236,7 +22237,7 @@
             <pb n="477" facs="https://archive.org/download/commentariaina13pt12akaduoft/page/n772.jpg"/>
             <p>
               <lb n="1" xml:id="p477-0"/>πρῶτον ὅρον, εὐθύγραμμον δεύτερον, κύκλον τρίτον. ὅτι μὲν τὸ εὐθύγραμμον
-              <lb n="2" xml:id="p477-1"/>τετραγωνίζεται, δῆλον· ἀφανὲς δέ ἐστιν εἰ ὁ κύκλος εὐθυγράμματίζεται,<note type="apparatus" n="2-3" target="#p477-1 #p477-2">εὐθυγραμμίζεται U</note>
+              <lb n="2" xml:id="p477-1"/>τετραγωνίζεται, δῆλον· ἀφανὲς δέ ἐστιν εἰ ὁ κύκλος εὐθυγραμματίζεται,<note type="apparatus" n="2-3" target="#p477-1 #p477-2">εὐθυγραμμίζεται U</note>
               <lb n="3" xml:id="p477-2"/>ὅπερ ἐστὶν ἡ ἐλάττων πρότασις. καὶ τοῦτο πειρῶνται δεικνύειν
               <lb n="4" xml:id="p477-3"/>διὰ τῶν μηνοειδῶν σχημάτων καὶ μηνίσκων. ἐπειδὴ οὖν δι’ ἑνὸς πειρῶνται
               <lb n="5" xml:id="p477-4"/>δεικνύειν, ἀπαγωγή ἐστιν.

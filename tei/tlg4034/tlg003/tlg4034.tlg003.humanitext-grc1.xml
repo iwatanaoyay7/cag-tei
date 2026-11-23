@@ -56,6 +56,7 @@
       <change when="2026-10-23" who="#NI">Quotation marks made uniform: opening single and double quotation marks, printed in the edition in the reversed (high-reversed-9) form, are encoded as ‘ and “, closing ones as ’ and ”, single and double kept as printed; opening marks read by the OCR as straight quotes, low quotes or spacing breathings, and spacing breathings or quotation marks doubled before a capital that already bears its breathing, corrected.</change>
       <change when="2026-11-05" who="#NI">Apparatus entries printed out of numerical order (e.g. 33 … 32) separated from the preceding entry; words hyphenated across lines joined in Latin text as in Greek; words mixing Greek and Latin letters (OCR errors, about 130, including manuscript sigla) corrected on the page images; marginal folio marks left in the text removed; validated against TEI P5 version 4.12.0 (recorded in TEI/@version).</change>
       <change when="2026-11-05" who="#NI">Extent of the lemma quotations (quote[@type='lemma']) corrected: the automatic division had closed every lemma after its first printed line, leaving the remaining lines of lemmata printed over two or more lines at the head of the following paragraph. Candidates were found from the letter-spacing of the lines on the page images (lemmata are printed spaced) and from the line geometry (centred last line, indented paragraph start), and every candidate was decided on the page image (Claude work teams; about 7,700 places in the corpus); the lines so decided are now inside the quotation, with pb inside the quotation where a lemma runs on to the next page. Where the lemma runs on in the same line as the commentary (Stephanus in De interpretatione), the quotation ends after the last spaced word and the paragraph continues in the same line without a new lb; where no lemma is printed and the paraphrase follows the Bekker reference directly (Michael in De partibus animalium from p. 37), the quotation is dropped and the division kept; centred last lines the edition does not count are inside the quotation as unnumbered lines.</change>
+      <change when="2026-11-22" who="#NI">Readings questioned by the review of the translations collated on the page images (read independently, at least twice wherever the print does not have the proposed form, by a language model, Claude; the 28 places in all works that it could not settle were read by the editor): 9 errors of the transcription corrected; 4 evident misprints of the edition given as choice/sic/corr; 1 evident misprint of the edition in a word broken at the line end (which cannot carry choice/sic/corr) corrected in the text.</change>
     </revisionDesc>
   </teiHeader>
   <text>
@@ -465,7 +466,7 @@
               <lb n="1" xml:id="p10-0"/>ἐναντίας διαφοράς, ὡς δείξει, ὅπερ οὐ καλόν· ἡ γὰρ διαίρεσις ἐπὶ τούτῳ
               <lb n="2" xml:id="p10-1"/>γίνεται, ἵνα ἐν θατέρῳ τμήματι τὸ ζητούμενον ἐμπεσεῖται, ἀλλ’ οὐκ ἐν τοῖς<note type="apparatus" n="2" target="#p10-1">γίνεται] γέγονεν S ἐμπεσῆται Pa τοῖς rurs. del. P</note><milestone type="alt-edition" unit="line" ed="Victorius 1548" n="40"/>
               <lb n="3" xml:id="p10-2"/>ἀμφοτέροις· γίνεται δὲ τοῦτο διὰ τὸ τὴν διαίρεσιν εἰς δύο βούλεσθαι ποιεῖν.
-              <lb n="4" xml:id="p10-3"/>πῶς δὲ δεῖ τὰς διαιρέσεις ποιεῖσθαι, αὐτὸς ἐρεῖ μετὰ τὰς πρὸς τὴν Πλάτωνα
+              <lb n="4" xml:id="p10-3"/>πῶς δὲ δεῖ τὰς διαιρέσεις ποιεῖσθαι, αὐτὸς ἐρεῖ μετὰ τὰς πρὸς <choice><sic>τὴν</sic><corr>τὸν</corr></choice> Πλάτωνα
               <lb n="5" xml:id="p10-4"/>ἀντιλογίας. ἃ δὲ νῦν λέγει ταῦτα ἂν εἴη· λαμβάνειν, φησί, πειρῶνται τὸ<note type="apparatus" n="5" target="#p10-4">post εἴη add. λέγων S</note>
               <lb n="6" xml:id="p10-5"/>καθ’ ἕκαστον ἤτοι τὸ εἰδικώτατον εἶδος, διαιροῦντες τὸ γένος εἰς δύο διαφοράς·
               <lb n="7" xml:id="p10-6"/>τὸ δὲ οὕτω λαμβάνειν αὐτὸ πειρᾶσθαι τῇ μέν ἐστιν οὐ ῥᾴδιον, τῇ
@@ -533,7 +534,7 @@
               <lb n="30" xml:id="p11-29"/>εἶναι εἴδη. δεῖ δὲ καὶ ἔχειν εἴδη, εἴπερ ἐστὶ καθόλου διαφορά· εἰ γὰρ μὴ<note type="apparatus" n="30" target="#p11-29">εἴδη εἶναι coll. S</note>
               <lb n="31" xml:id="p11-30"/>ἔχει εἴδη, διὰ τί ἄν εἴη τῶν καθόλου καὶ οὐ τῶν καθ’ ἕκαστα; τὰ μὲν
               <lb n="32" xml:id="p11-31"/>οὖν λεγόμενα οἶμαι τοιαῦτα· κατὰ δὲ τὴν λέξιν τὴν οὐκ ἔστι δὲ διαφορὰ<note type="apparatus" n="32" target="#p11-31">δὲ post οὐκ ἔστι om. P</note>
-              <lb n="33" xml:id="p11-32"/>στερήσεως ἡ στέρησις τὸ διαφορὰ ἀντὶ τοῦ εἶδος εἶπεν· ἔδει γὰρ εἰπεῖν
+              <lb n="33" xml:id="p11-32"/>στερήσεως ᾗ στέρησις τὸ διαφορὰ ἀντὶ τοῦ εἶδος εἶπεν· ἔδει γὰρ εἰπεῖν
               <lb n="34" xml:id="p11-33"/>‘οὐκ ἔστι δὲ εἶδος στερήσεως’. τοῦτο δὲ εἶπε διὰ τὸ τὰ εἴδη ὑπὸ τῶν διαφορῶν<milestone type="alt-edition" unit="line" ed="Victorius 1548" n="45"/>
               <lb n="35" xml:id="p11-34"/>συνίστασθαί τε καὶ οὐσιῶσθαι.
             </p>
@@ -617,7 +618,7 @@
               <lb n="26" xml:id="p13-25"/>τῇ αὐτῇ διαφορᾷ· τοῦτο δὲ ταὐτόν ἐστι τῷ εἶναι εἴδη τῶν διαφορῶν, ὥστε
               <lb n="27" xml:id="p13-26"/>καὶ τῶν στερήσεων, εἴπερ καὶ αὗται διαφοραί. εἰ οὖν ἴδιοι καὶ ἄτομοί<milestone type="alt-edition" unit="line" ed="Victorius 1548" n="45"/>
               <lb n="28" xml:id="p13-27"/>εἰσιν αἱ διαφοραί, οὐκ ἔσται οὐδεμία κοινή, ἢ εἰ ἔσονται κοιναί, τὰ ἕτερα<note type="apparatus" n="28" target="#p13-27">ante οὐκ add. καὶ S</note>
-              <lb n="29" xml:id="p13-28"/>τῷ εἴδει εἰς τὴν αὐτὴν βαδιεῖται καὶ ἔσται καὶ τῆς στερήσεως. ὡς πολλάκις
+              <lb n="29" xml:id="p13-28"/>τῷ εἴδει εἰς τὴν αὐτὴν βαδιεῖται καὶ ἔσται καὶ τῆς <choice><sic>στερήσεως.</sic><corr>στερήσεως,</corr></choice> ὡς πολλάκις
               <lb n="30" xml:id="p13-29"/>εἴπομεν, εἴδη’. ταῦτα εἰπὼν προσδιορίζεται λέγων δεῖ δὲ οὔτε τὸ αὐτὸ
               <lb n="31" xml:id="p13-30"/>καὶ ἄτομον εἰς ἑτέραν καὶ ἑτέραν ἰέναι διαφοράν, ὥσπερ ὁ μύρμηξ
               <lb n="32" xml:id="p13-31"/>εἰς τὸ πτερωτὸν καὶ ἄπτερον, οὔτε εἰς τὴν αὐτὴν τὰ ἕτερα, ὥσπερ ὁ<note type="apparatus" n="32" target="#p13-31">τὸ πτερὸν καὶ P εἰς αὐτὰ τὰ ἕτερα S</note>
@@ -647,7 +648,7 @@
               <lb n="16" xml:id="p14-15"/>αἱ εἰδοποιοὶ διαφοραί, χωρὶς ὕλης ἤτοι χωρὶς τοῦ γένους ζῷον ποιοῦσιν
               <lb n="17" xml:id="p14-16"/>οὔτε ἡ ὕλη καὶ τὸ γένος χωρὶς τῶν εἰδῶν.
               <lb n="18" xml:id="p14-17"/>Ἔτι δεῖ τὰς διαιρέσεις ποιεῖσθαι τοῖς ἐν τῇ οὐσίᾳ, τουτέστι διὰ τῶν<note type="apparatus" n="18" target="#p14-17">τοῖς ἐν] ἐν τοῖς coll. S: ἐν τοῖς ἐν P</note>
-              <lb n="19" xml:id="p14-18"/>οὐσιωδῶς ὑπαρχόντων, ἀλλ’ οὐ τοῖς καθ’ αὑτὸ συμβεβηκόσιν, ὡς οὗτοι ποιοὖσιν,<note type="apparatus" n="19" target="#p14-18">et 22 καθ’ αὑτὰ Pa</note><note type="apparatus" n="19" target="#p14-18">οὗτοι] αὐτοὶ S</note><milestone type="alt-edition" unit="line" ed="Victorius 1548" n="20"/>
+              <lb n="19" xml:id="p14-18"/>οὐσιωδῶς ὑπαρχόντων, ἀλλ’ οὐ τοῖς καθ’ αὑτὸ συμβεβηκόσιν, ὡς οὗτοι ποιοῦσιν,<note type="apparatus" n="19" target="#p14-18">et 22 καθ’ αὑτὰ Pa</note><note type="apparatus" n="19" target="#p14-18">οὗτοι] αὐτοὶ S</note><milestone type="alt-edition" unit="line" ed="Victorius 1548" n="20"/>
               <lb n="20" xml:id="p14-19"/>ἐξ οὗ μάλιστα συμβαίνει τὸ καὶ τὸ αὐτὸ εἶδος ὑπὸ τὰς ἐναντίας<note type="apparatus" n="20" target="#p14-19">ἐξ ὧν S</note>
               <lb n="21" xml:id="p14-20"/>πίπτειν διαφορὰς καὶ εἶναι τῶν στερήσεων εἴδη. τὸ γὰρ πτερωτὸν καὶ
               <lb n="22" xml:id="p14-21"/>ἄπτερον, καὶ ἄπουν καὶ ὑπόπουν τῶν καθ’ αὑτὸ συμβεβηκότων εἰσὶ τῷ<note type="apparatus" n="22" target="#p14-21">ὑπόπουν καὶ ἄπουν coll. S</note>
@@ -978,7 +979,7 @@
             <p>
               <lb n="1" xml:id="p22-0"/>μίαν τινὰ φύσιν καὶ ἕν τι γένος τετάχασι διὰ τὸ μὴ πολὺ διεστάναι ἀπ’
               <lb n="2" xml:id="p22-1"/>ἀλλήλων, ὁποῖόν ἐστιν ὁ ὄρνις (τοῦτον γὰρ ὡς ἕν τι γένος καὶ μίαν φύσιν<note type="apparatus" n="2" target="#p22-1">τοῦτο γὰρ Pa</note>
-              <lb n="3" xml:id="p22-2"/>νομίζεσθαι ἔθοντο διὰ τὸ μὴ πολὺ διεστηκέναι κόρακα κορώνης, καὶ τοὺς<note type="apparatus" n="3" target="#p22-2">τὸ] τοῦ (ex τὸ) S²</note>
+              <lb n="3" xml:id="p22-2"/>νομίζεσθαι <choice><sic>ἔθοντο</sic><corr>ἔθεντο</corr></choice> διὰ τὸ μὴ πολὺ διεστηκέναι κόρακα κορώνης, καὶ τοὺς<note type="apparatus" n="3" target="#p22-2">τὸ] τοῦ (ex τὸ) S²</note>
               <lb n="4" xml:id="p22-3"/>ἄλλους ὄρνιθας ἀπ’ ἀλλήλων), ὅσα μὲν οὖν τοιαῦτα, δεῖ περὶ τούτων κοινῶς<note type="apparatus" n="4" target="#p22-3">post ἀλλήλων spatium XXVI litt. vacuum rel. S</note><note type="apparatus" n="4-5" target="#p22-3 #p22-4">λέγειν κοινῶς coll. S</note>
               <lb n="5" xml:id="p22-4"/>λέγειν, ὅσα δὲ μὴ τοιαῦτα, καθ’ ἕκαστον, τουτέστι χωρὶς περὶ ἑνὸς
               <lb n="6" xml:id="p22-5"/>ἑκάστου, οἷον χωρὶς μὲν περὶ ἀνθρώπου, ἰδίως δὲ περὶ ἵππου’. τίνα δέ<note type="apparatus" n="6" target="#p22-5">ἰδίως δὲ] καὶ ἰδίως Pa</note><milestone type="alt-edition" unit="line" ed="Victorius 1548" n="15"/>
@@ -1111,7 +1112,7 @@
               <lb n="19" xml:id="p25-18"/>θερμοῦ καὶ ἔτι ξηροῦ καὶ ὑγροῦ, μᾶλλον δὲ τῶν πρώτων ὡς ποιητικῶν
               <lb n="20" xml:id="p25-19"/>ἢ ἐκ τῶν δευτέρων ὡς παθητικῶν· τέως δὲ ἐκ τῶν τεσσάρων ποιοτήτων
               <lb n="21" xml:id="p25-20"/>καὶ δυνάμεων, καθὼς καὶ ἐν τῷ Περὶ γενέσεως καὶ φθορᾶς ἔλεγε. καὶ<note type="apparatus" n="21" target="#p25-20">ἐν τῷ Περὶ γενέσεως καὶ φθορᾶς] Β 2</note>
-              <lb n="22" xml:id="p25-21"/>αὕτη μὲν ἡ πρώτη σύνθεσις ἡ ἐν τῶν δυνάμεων· αἱ γὰρ δυνάμεις διὰ
+              <lb n="22" xml:id="p25-21"/>αὕτη μὲν ἡ πρώτη σύνθεσις ἡ <choice><sic>ἐν</sic><corr>ἐκ</corr></choice> τῶν δυνάμεων· αἱ γὰρ δυνάμεις διὰ
               <lb n="23" xml:id="p25-22"/>ταύτας εἰσί. δευτέρα σύστασις καὶ σύνθεσις ἡ ἐκ τῶν ὁμοιομερῶν καὶ
               <lb n="24" xml:id="p25-23"/>τρίτη ἡ ἐκ τῶν ἀνομοιομερῶν. πᾶσαι δὲ αἱ ἄλλαι δυνάμεις ἀπὸ τούτων,<note type="apparatus" n="24" target="#p25-23">πᾶσαι scripsi: πῶς F</note>
             </p>
@@ -1743,7 +1744,7 @@
               <lb n="32" xml:id="p36-31"/>τοῦ πλείονος.
               <lb n="33" xml:id="p36-32"/>Μετὰ ταῦτα λέγει καὶ περὶ μυελοῦ, οὐ τοῦ καλουμένου ἐγκεφάλου
               <lb n="34" xml:id="p36-33"/>(περὶ γὰρ τούτου μετὰ ταῦτα ἐρεῖ καὶ δείξει ὅτι ὁ ἐγκέφαλος οὐκ ἔστι<milestone type="alt-edition" unit="line" ed="Victorius 1548" n="20"/>
-              <lb n="35" xml:id="p36-34"/>μυελός), ἀλλὰ τοῦ ἐν τοῖς ὀστοῖς ἐνόντος, καί φησιν ὅτι ὁ μυελὸς αἷματός
+              <lb n="35" xml:id="p36-34"/>μυελός), ἀλλὰ τοῦ ἐν τοῖς ὀστοῖς ἐνόντος, καί φησιν ὅτι ὁ μυελὸς αἵματός
             </p>
             <pb n="37" facs="https://archive.org/download/p1commentariaina22akaduoft/page/n248.jpg"/>
             <p>
@@ -1920,7 +1921,7 @@
             </p>
             <pb n="41" facs="https://archive.org/download/p1commentariaina22akaduoft/page/n252.jpg"/>
             <p>
-              <lb n="1" xml:id="p41-0"/>αἰσθητήριον ἀπειργάσατο. σωματῶδες οὖν εἴρηκε τὴν σάρκα αἰσθηθήριον<milestone type="alt-edition" unit="line" ed="Victorius 1548" n="15"/>
+              <lb n="1" xml:id="p41-0"/>αἰσθητήριον ἀπειργάσατο. σωματῶδες οὖν εἴρηκε τὴν σάρκα αἰσθητήριον<milestone type="alt-edition" unit="line" ed="Victorius 1548" n="15"/>
               <lb n="2" xml:id="p41-1"/>ἀντὶ τοῦ σύνθετον καὶ ἐκ πλειόνων συγκείμενον. ἀλλὰ κατὰ μὲν<note type="apparatus" n="2" target="#p41-1">ante ἀντὶ add. ἢ a</note>
               <lb n="3" xml:id="p41-2"/>τὸν λόγον οὕτω δῆλον ὅτι ἡ σὰρξ πρῶτόν ἐστι καὶ ἀρχή, κατὰ δὲ τὴν
               <lb n="4" xml:id="p41-3"/>αἴσθησιν οὕτως, ἐπειδὴ τἆλλα πάντα, οἷον νεῦρα [σάρκες] τρίχες, τὰ<note type="apparatus" n="4" target="#p41-3">σάρκες delevi</note>
@@ -2676,7 +2677,7 @@
               <lb n="2" xml:id="p58-1"/>τοῖς ἄρθροις εὑρίσκεσθαι περικειμένας. ἀλλ’ αἱ μὲν τῶν αἰσθητικῶν καρδίαι,<milestone type="alt-edition" unit="line" ed="Victorius 1548" n="35"/>
               <lb n="3" xml:id="p58-2"/>φησίν, εἰσὶν ἀρθρωδέστεραι, τουτέστιν ἔχουσιν εἰς βάθος ἐνσεσημασμένας
               <lb n="4" xml:id="p58-3"/>καὶ διὰ τοῦτο διαδηλοτέρας τὰς τοιαύτας ῥαφάς, τῶν δὲ νωθροτέρων
-              <lb n="5" xml:id="p58-4"/>ἀναρθρότεροι ἤγουν ἐπιπόλαιοι αἱ ῥαφαὶ τούτων εἰσί, καὶ οὐ διαδηλοι,<note type="apparatus" n="5" target="#p58-4">ἐπιπόλοι a</note>
+              <lb n="5" xml:id="p58-4"/>ἀναρθρότεροι ἤγουν ἐπιπόλαιοι αἱ ῥαφαὶ τούτων εἰσί, καὶ οὐ διάδηλοι,<note type="apparatus" n="5" target="#p58-4">ἐπιπόλοι a</note>
               <lb n="6" xml:id="p58-5"/>ἀλλ’ ἀμαυραί. λέγει δὲ καὶ διὰ τί τὰ μεγάλας ἔχοντα τὰς καρδίας<note type="apparatus" n="6" target="#p58-5">μεγάλην ἔχοντα τὴν καρδίαν S</note><note type="apparatus" n="6 et 11" target="#p58-5 #p58-10">τὰς om. a</note>
               <lb n="7" xml:id="p58-6"/>δειλά ἐστι, καί φησιν ὅτι ἐπεὶ ὁ φόβος γίνεται ψυχρανθέντος τοῦ αἵματος,
               <lb n="8" xml:id="p58-7"/>ἐν δὲ τῇ μεγάλῃ καρδίᾳ μικρὸν ὂν τὸ αἷμα (λέγει μικρὸν τὸ ὀλίγον)<milestone type="alt-edition" unit="line" ed="Victorius 1548" n="40"/>
@@ -3470,7 +3471,7 @@
               <lb n="29" xml:id="p75-28"/>οὕτως εἰσὶν ἔνια τῶν ἐπιγείων φυτῶν, καὶ ζῇ ἀπολυθέντα καὶ γίνεται,
               <lb n="30" xml:id="p75-29"/>τουτέστι βλαστάνει· τὰ γὰρ κρόμμυα ἐν τῷ παττάλῳ κρεμάμενα βλαστάνει.<note type="apparatus" n="30" target="#p75-29">κρόμμυα Sa</note>
               <lb n="31" xml:id="p75-30"/>ἀλλὰ καὶ βοτάνη τις ἀνώνυμος κοπεῖσα καὶ ἐπάνω τοῦ θύμου ὡς ἔτυχε
-              <lb n="32" xml:id="p75-31"/>τεθεῖσα βλαστάνει, καὶ γίνεται τὸ καλούμενον ἐπίθυμον, σύνθετον ὃν τρόπον
+              <lb n="32" xml:id="p75-31"/>τεθεῖσα βλαστάνει, καὶ γίνεται τὸ καλούμενον ἐπίθυμον, σύνθετον ὂν τρόπον
               <lb n="33" xml:id="p75-32"/>τινὰ ἐκ τοῦ θύμου καὶ τῆς ἐπιτεθείσης ἀνωνύμου βοτάνης. ἀλλὰ τὸ μὲν<milestone type="alt-edition" unit="line" ed="Victorius 1548" n="15"/>
               <lb n="34" xml:id="p75-33"/>κρόμμυον καὶ τὸ ἐπίπετρον καὶ ἄλλ’ ἄττα ἀπολυθέντα τῆς γῆς καὶ ἐν
               <lb n="35" xml:id="p75-34"/>παττάλῳ κρεμάμενα ζῇ καὶ βλαστάνει, τὸ δ’ ἐπίθυμον ἐν ἑτέρῳ οὐκ ἐγκεντρισθέν,<note type="apparatus" n="35" target="#p75-34">κρεμώμενα S: κρεμόμενα a</note><note type="apparatus" n="35-36" target="#p75-34 #p75-35">ἐκκεντρισθὲν S</note>
@@ -3623,7 +3624,7 @@
               <lb n="2" xml:id="p79-1"/>τὸ ὁρᾶν, ἀλλ’ ὥσπερ εἴρηται, ἄλλο μὲν πρὸς τὴν ἄκουσιν, ἄλλο δὲ πρὸς
               <lb n="3" xml:id="p79-2"/>τὴν ὅρασιν ἀποδίδωσιν. οὐ γάρ ἐστιν ἡ φύσις εὐτελὴς καὶ φειδωλός,<note type="apparatus" n="3" target="#p79-2">ἀποδίδοται P</note>
               <lb n="4" xml:id="p79-3"/>ἵνα τὸ αὐτὸ καὶ ἓν ὄργανον ἀπεργάσηται πρὸς δύο πράξεις ὥσπερ ἡ χαλκευτική·
-              <lb n="5" xml:id="p79-4"/>ἐκείνη γὰρ διὰ μικροπρέπειαν καὶ φειδωλίαν ἀπεργάζεται προμηκες<note type="apparatus" n="5-6" target="#p79-4 #p79-5">πρόμηκες σιδήριον om. S</note>
+              <lb n="5" xml:id="p79-4"/>ἐκείνη γὰρ διὰ μικροπρέπειαν καὶ φειδωλίαν ἀπεργάζεται πρόμηκες<note type="apparatus" n="5-6" target="#p79-4 #p79-5">πρόμηκες σιδήριον om. S</note>
               <lb n="6" xml:id="p79-5"/>σιδήριον, καὶ χρῆται τῷ αὐτῷ καὶ ἑνὶ προμήκει σιδηρίῳ καὶ ὡς<note type="apparatus" n="6" target="#p79-5">σίδηρον P σιδήρῳ P</note>
               <lb n="7" xml:id="p79-6"/>λύχνῳ καὶ ὡς ὀβελίσκῳ, ὃ δὴ καὶ ὀβελισκολύχνιον ἐπονομάζεται. σαφῆ<note type="apparatus" n="7" target="#p79-6">λύχνῳ in ras. al. m. S ὀνομάζεται Sa</note><milestone type="alt-edition" unit="line" ed="Victorius 1548" n="25"/>
               <lb n="8" xml:id="p79-7"/>δὲ τὰ ἑξῆς. τὸ δὲ ἀεὶ γὰρ χαρακίζουσιν αἱ μυῖαι τοῖς προσθίοις<note type="apparatus" n="8-9" target="#p79-7 #p79-8">αἱ μυῖαι—χαρακίζουσιν om. S</note>
@@ -3796,7 +3797,7 @@
               <lb n="2" xml:id="p83-1"/>ἄνωθεν τῶν ὀδόντων δύο πόδες ἐφ’ ᾧ Α, οἱ δὲ ἐφεξῆς τούτων ἐφ’ ᾧ<note type="apparatus" n="2" target="#p83-1">ἑξῆς P</note><milestone type="alt-edition" unit="page" ed="Victorius 1548" n="116"/>
               <lb n="3" xml:id="p83-2"/>Β, οἱ δὲ ἐφεξῆς τοῖς Β ἐφ’ ᾧ Γ, καὶ ἔτι οἱ ἐφεξῆς τοῖς Γ ἐφ’ ᾧ Δ. οἱ<note type="apparatus" n="3" target="#p83-2">ἐφεξῆς τῆς β ἐφ’ ᾧ τὸ γ P ἐφεξῆς τῆς γ P</note>
               <lb n="4" xml:id="p83-3"/>μὲν οὖν ἐφ’ ᾧ Δ, οἳ καὶ ἔσχατοί εἰσι, μείζους τῶν λοιπῶν τυγχάνουσιν<note type="apparatus" n="4" target="#p83-3">οἳ καὶ—ἐφ’ ᾧ Δ (6) om. S</note>
-              <lb n="5" xml:id="p83-4"/>ὄξ· οἱ δὲ ἐφ’ ᾧ Γ μείζους μὲν τῶν ἐφ’ ᾧ Β ὡς συνυπηρετοῦντες τοῖς<note type="apparatus" n="5" target="#p83-4">μὲν om. P</note>
+              <lb n="5" xml:id="p83-4"/>ἕξ· οἱ δὲ ἐφ’ ᾧ Γ μείζους μὲν τῶν ἐφ’ ᾧ Β ὡς συνυπηρετοῦντες τοῖς<note type="apparatus" n="5" target="#p83-4">μὲν om. P</note>
               <lb n="6" xml:id="p83-5"/>ἐσχάτοις τοῖς ἐφ’ ᾧ Δ, ἐλάττονες δὲ τῶν ἐφ’ ᾧ Α. σαφῆ δὲ τὰ ἑξῆς.<note type="apparatus" n="6" target="#p83-5">δὲ ante τῶν om. S</note>
               <lb n="7" xml:id="p83-6"/>κοτυληδόνες δὲ καὶ πλεκτάναι ἐκ παραλλήλου κεῖνται τὸ αὐτὸ σημαίνουσαι.<milestone type="alt-edition" unit="line" ed="Victorius 1548" n="5"/>
               <lb n="8" xml:id="p83-7"/>ὥσπερ δέ, φησί, τὰ πλεγμάτια, ἃ ἐποίουν οἱ ἀρχαῖοι ἰατροί, δύναμιν
@@ -3833,7 +3834,7 @@
               <lb n="33" xml:id="p83-32"/>τὴν καρδίαν. ἀντικείμενον δὲ τόπον εἴρηκε τὴν κεφαλήν· ἡ γὰρ
               <lb n="34" xml:id="p83-33"/>κεφαλὴ ἀντίκειται τῷ τόπῳ, ἐν ᾧ κεῖται ἡ καρδία, ὡς τὰ πρός τι· ἡ μὲν
               <lb n="35" xml:id="p83-34"/>γὰρ ἄνω, ὁ δὲ κάτω. εἰπὼν δὲ καὶ περὶ τῆς κεφαλῆς καὶ τοῦ αὐχένος λέγει<note type="apparatus" n="35" target="#p83-34">ὁ δὲ] ἡ δὲ S καὶ post δὲ om. P</note><milestone type="alt-edition" unit="line" ed="Victorius 1548" n="30"/>
-              <lb n="36" xml:id="p83-35"/>ἔτι δὲ τρίτον μόριον ὑπέθετο τὸ τὴν τῆς τροφῆς εἴσοδον δημιουργγοῦν,<note type="apparatus" n="36" target="#p83-35">τὸ om. Sa</note><note type="apparatus" n="36-37" target="#p83-35 #p83-36">δημιουργοῦν om. Sa 6*</note>
+              <lb n="36" xml:id="p83-35"/>ἔτι δὲ τρίτον μόριον ὑπέθετο τὸ τὴν τῆς τροφῆς εἴσοδον δημιουργοῦν,<note type="apparatus" n="36" target="#p83-35">τὸ om. Sa</note><note type="apparatus" n="36-37" target="#p83-35 #p83-36">δημιουργοῦν om. Sa 6*</note>
               <lb n="37" xml:id="p83-36"/>τοῦτο δ’ ἐστὶ τὸ στόμα. καὶ λέγει τὰς αἰτίας δι’ ἃς τὸ στόμα ἐνταῦθα
             </p>
             <pb n="84" facs="https://archive.org/download/p1commentariaina22akaduoft/page/n295.jpg"/>
@@ -4246,7 +4247,7 @@
             <pb n="93" facs="https://archive.org/download/p1commentariaina22akaduoft/page/n304.jpg"/>
             <p>
               <lb n="1" xml:id="p93-0"/>πάντα τὰ ἔναιμα τέτρασι σημείοις κινεῖται, ὡς ἐν τοῖς Περὶ ζῴων πορείας<note type="apparatus" n="1" target="#p93-0">ἐν τοῖς Περὶ ζῴων πορείας] c. 6. 7</note>
-              <lb n="2" xml:id="p93-1"/>δέδεικται, ἐξ ἀνάγκης ἐστὶ δίπουν τὸ τῶν ὀρνίθων γένος. εἰ γὰρ ἦν τετράποῦν,<milestone type="alt-edition" unit="line" ed="Victorius 1548" n="5"/>
+              <lb n="2" xml:id="p93-1"/>δέδεικται, ἐξ ἀνάγκης ἐστὶ δίπουν τὸ τῶν ὀρνίθων γένος. εἰ γὰρ ἦν τετράπουν,<milestone type="alt-edition" unit="line" ed="Victorius 1548" n="5"/>
               <lb n="3" xml:id="p93-2"/>ἐκινεῖτο ἂν πλείοσι τῶν τεττάρων σημείων, τοῖς τέτρασι ποσὶ καὶ
               <lb n="4" xml:id="p93-3"/>ταῖς δυσὶ πτέρυξιν· οὐδὲν δὲ ἔναιμον πλείοσι τῶν τεττάρων σημείων κινεῖται,
               <lb n="5" xml:id="p93-4"/>ὡς ἐν ἐκείνοις δέδεικται. ὅτι δὲ καὶ ὁ ἄνθρωπος τέτρασι σημείοις κινεῖται,<note type="apparatus" n="5" target="#p93-4">ἐν ἐκείνοις] c. 6 p. 707 a 20</note>

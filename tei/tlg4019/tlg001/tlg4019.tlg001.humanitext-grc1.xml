@@ -56,6 +56,7 @@
       <change when="2026-10-23" who="#NI">Quotation marks made uniform: opening single and double quotation marks, printed in the edition in the reversed (high-reversed-9) form, are encoded as ‘ and “, closing ones as ’ and ”, single and double kept as printed; opening marks read by the OCR as straight quotes, low quotes or spacing breathings, and spacing breathings or quotation marks doubled before a capital that already bears its breathing, corrected.</change>
       <change when="2026-11-05" who="#NI">Apparatus entries printed out of numerical order (e.g. 33 … 32) separated from the preceding entry; words hyphenated across lines joined in Latin text as in Greek; words mixing Greek and Latin letters (OCR errors, about 130, including manuscript sigla) corrected on the page images; marginal folio marks left in the text removed; validated against TEI P5 version 4.12.0 (recorded in TEI/@version).</change>
       <change when="2026-11-05" who="#NI">Extent of the lemma quotations (quote[@type='lemma']) corrected: the automatic division had closed every lemma after its first printed line, leaving the remaining lines of lemmata printed over two or more lines at the head of the following paragraph. Candidates were found from the letter-spacing of the lines on the page images (lemmata are printed spaced) and from the line geometry (centred last line, indented paragraph start), and every candidate was decided on the page image (Claude work teams; about 7,700 places in the corpus); the lines so decided are now inside the quotation, with pb inside the quotation where a lemma runs on to the next page. Where the lemma runs on in the same line as the commentary (Stephanus in De interpretatione), the quotation ends after the last spaced word and the paragraph continues in the same line without a new lb; where no lemma is printed and the paraphrase follows the Bekker reference directly (Michael in De partibus animalium from p. 37), the quotation is dropped and the division kept; centred last lines the edition does not count are inside the quotation as unnumbered lines.</change>
+      <change when="2026-11-22" who="#NI">Readings questioned by the review of the translations collated on the page images (read independently, at least twice wherever the print does not have the proposed form, by a language model, Claude; the 28 places in all works that it could not settle were read by the editor): 1 error of the transcription corrected; 2 evident misprints of the edition given as choice/sic/corr.</change>
     </revisionDesc>
   </teiHeader>
   <text>
@@ -215,7 +216,7 @@
               <lb n="30" xml:id="p4-29"/>ἔστι δὲ εἰπεῖν πρὸς αὐτοὺς ὡς οὐκ ὀρθὰ πρεσβεύετε μὴ λέγοντες συγκινεῖσθαι<note type="apparatus" n="30" target="#p4-29">πρεσβεύεται M</note>
               <lb n="31" xml:id="p4-30"/>τοῖς πράγμασι τὴν ψυχήν· ὅτι μὲν γὰρ οὐκ ἔχει στάσιν τὰ γεννητὰ καὶ
               <lb n="32" xml:id="p4-31"/>φθαρτὰ δῆλον, ὡς καὶ αὐτὴ ἡ φύσις τῶν πραγμάτων μαρτυρεῖ καὶ ἔτι
-              <lb n="33" xml:id="p4-32"/>μέντοι γε τὸ ἀπόφθεγμά τινος ἀρχαίου τὸ λέγον ὅτι ὃν τρόπον ἀδυνατόν<note type="apparatus" n="33" target="#p4-32">τινος ἀρχαίου] cf. Heracliti frg. 41 Byw. 12 et 91 Diels</note><note type="apparatus" n="33" target="#p4-32">ἕτερος] Cratylus; cf. Arist. Metaph. Γ 5 p. 1010 a 14</note>
+              <lb n="33" xml:id="p4-32"/>μέντοι γε τὸ ἀπόφθεγμά τινος ἀρχαίου τὸ λέγον ὅτι ὃν τρόπον <choice><sic>ἀδυνατόν</sic><corr>ἀδύνατόν</corr></choice><note type="apparatus" n="33" target="#p4-32">τινος ἀρχαίου] cf. Heracliti frg. 41 Byw. 12 et 91 Diels</note><note type="apparatus" n="33" target="#p4-32">ἕτερος] Cratylus; cf. Arist. Metaph. Γ 5 p. 1010 a 14</note>
               <lb n="34" xml:id="p4-33"/>ἐστιν ἐν τῷ αὐτῷ ποταμῷ δὶς ἐμβῆναι κατὰ τὸν αὐτὸν χρόνον κατὰ τὸ
               <lb n="35" xml:id="p4-34"/>αὐτὸ ὑποκείμενον (καὶ τί λέγω, φησὶν ἕτερος, [εἶπεν] ὅτι οὐ δυνατὸν δὶς<note type="apparatus" n="35" target="#p4-34">εἶπεν delevi</note>
               <lb n="36" xml:id="p4-35"/>ἐμβῆναι εἰς τὸ αὐτὸ ὕδωρ, ὅπου γε καὶ οὐδὲ ἅπαξ; ἄλλῳ γὰρ ὕδατι κλύζονται
@@ -551,7 +552,7 @@
               <lb n="31" xml:id="p12-30"/>ἰατροῖς τὰ δηλητήρια οὐ πρὸς χρῆσιν, ἀλλὰ πρὸς φυγὴν παραδίδοται. τὴν
               <lb n="32" xml:id="p12-31"/>δὲ τάξιν ζητοῦμεν οὐ τὴν καθολικήν (ἤδη γὰρ ταύτην μεμαθήκαμεν, ὅτε
               <lb n="33" xml:id="p12-32"/>ἐλέγομεν τὴν μὲν λογικὴν προηγεῖσθαι, ἕπεσθαι δὲ τὴν ἠθικήν, μετὰ δὲ<note type="apparatus" n="33" target="#p12-32">ἐλέγομεν] p. 9,9</note>
-              <lb n="34" xml:id="p12-33"/>ταύτην τὴν φυσικήν, καὶ μετὰ τὴν φυσικὴν τὴν μαθηματικήν, μετὰ δὲ ταύτὴν
+              <lb n="34" xml:id="p12-33"/>ταύτην τὴν φυσικήν, καὶ μετὰ τὴν φυσικὴν τὴν μαθηματικήν, μετὰ δὲ ταύτην
               <lb n="35" xml:id="p12-34"/>τὴν θεολογίαν), ἀλλὰ τὴν μερικήν, οἷον τὴν ἐν τοῖς ὁμοστοίχοις· εἰ
               <lb n="36" xml:id="p12-35"/>λογικὸν ὑπάρχοι τὸ σύγγραμμα, τὴν ἐν τοῖς λογικοῖς ὑπάρχουσαν τάξιν δῆλον
               <lb n="37" xml:id="p12-36"/>ὅτι ζητοῦμεν, ὡσαύτως δὲ καὶ ἐπὶ τῶν φυσικῶν. τὴν δὲ αἰτίαν τῆς ἐπιγραφῆς
@@ -1011,7 +1012,7 @@
               <lb n="26" xml:id="p23-25"/>πράγματα. ἐν μὲν οὖν Φυσικοῖς λόγοις ἐξετάζων τὴν σχέσιν αὐτῶν ἅμα<note type="apparatus" n="26" target="#p23-25">πράγματα scripsi: πρᾶγμα M</note>
               <lb n="27" xml:id="p23-26"/>τῇ φύσει λέγει εἶναι τὰ πρός τι, ἐνταῦθα δὲ ὡς πράγματα αὐτὰ βασανίζων
               <lb n="28" xml:id="p23-27"/>οὐχ ἅμα αὐτὰ λέγει εἶναι. τετάρτη αἰτία· τοσοῦτον, φασί, νόθον ἐστὶ τὸ<note type="apparatus" n="28" target="#p23-27">φησί M</note>
-              <lb n="29" xml:id="p23-28"/>βιβλίον, ὅτι ἐν μὲν ταῖς ἄλλαις αὐτοῦ πραγματείας τὴν καθόλου οὐσίαν<note type="apparatus" n="29" target="#p23-28">ἐν ταῖς ἄλλαις αὐτοῦ πραγμ.] cf. Zelleri Ph. Gr. IIb p. 240 sq.</note>
+              <lb n="29" xml:id="p23-28"/>βιβλίον, ὅτι ἐν μὲν ταῖς ἄλλαις αὐτοῦ <choice><sic>πραγματείας</sic><corr>πραγματείαις</corr></choice> τὴν καθόλου οὐσίαν<note type="apparatus" n="29" target="#p23-28">ἐν ταῖς ἄλλαις αὐτοῦ πραγμ.] cf. Zelleri Ph. Gr. IIb p. 240 sq.</note>
               <lb n="30" xml:id="p23-29"/>προτιμᾷ τῆς μερικῆς, ἐνταῦθα δὲ τὸ ἀνάπαλιν τὴν μερικὴν προτάττει τῆς
               <lb n="31" xml:id="p23-30"/>καθόλου οὐσίας. δυοῖν οὖν θάτερον· ἢ πάσας τὰς πραγματείας αὐτοῦ δίκαιον<note type="apparatus" n="31" target="#p23-30">θάττερον M</note>
               <lb n="32" xml:id="p23-31"/><milestone type="alt-edition" unit="folio" ed="cod. Mutinensis 69" n="23v"/> νοθεῦσαι ἢ τὴν προκειμένην· ἀλλὰ μὴν ἀδύνατόν ἐστιν ἡμᾶς νοθεῦσαι

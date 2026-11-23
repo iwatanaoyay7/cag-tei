@@ -46,6 +46,7 @@
       <change when="2026-10-23" who="#NI">Quotation marks made uniform: opening single and double quotation marks, printed in the edition in the reversed (high-reversed-9) form, are encoded as ‘ and “, closing ones as ’ and ”, single and double kept as printed; opening marks read by the OCR as straight quotes, low quotes or spacing breathings, and spacing breathings or quotation marks doubled before a capital that already bears its breathing, corrected.</change>
       <change when="2026-11-05" who="#NI">Apparatus entries printed out of numerical order (e.g. 33 … 32) separated from the preceding entry; words hyphenated across lines joined in Latin text as in Greek; words mixing Greek and Latin letters (OCR errors, about 130, including manuscript sigla) corrected on the page images; marginal folio marks left in the text removed; validated against TEI P5 version 4.12.0 (recorded in TEI/@version).</change>
       <change when="2026-11-05" who="#NI">Extent of the lemma quotations (quote[@type='lemma']) checked on the page images: lemmata closed before their last printed line (the quotation was closed when the collation text was covered, so a short centred last line could be left out) extended; abbreviated lemmata (Ἀλλὰ … γένη.) whose quotation had taken in the first line of the commentary shortened (11 places in the pilot works); candidates found from the letter-spacing of the lines on the page images and the line geometry and decided on the page images (Claude work teams).</change>
+      <change when="2026-11-22" who="#NI">Readings questioned by the review of the translations collated on the page images (read independently, at least twice wherever the print does not have the proposed form, by a language model, Claude; the 28 places in all works that it could not settle were read by the editor): 1 error of the transcription corrected; 2 evident misprints of the edition given as choice/sic/corr; 1 evident misprint of the edition in a word broken at the line end (which cannot carry choice/sic/corr) corrected in the text.</change>
     </revisionDesc>
   </teiHeader>
   <text>
@@ -255,7 +256,7 @@
           </p>
           <pb n="6" facs="https://archive.org/download/commentariaina05pt46akaduoft/page/n463.jpg"/>
           <p>
-            <lb n="1" xml:id="p6-0"/>in eius natura habilitas quaedam varia, quam cernimus multitudinem f.4
+            <lb n="1" xml:id="p6-0"/>in eius natura habilitas quaedam varia, quam cernimus multitudinem
             <lb n="2" xml:id="p6-1"/>ex eo non emanaret. nam quod vere unum est, non suscipit multitudinem,
             <lb n="3" xml:id="p6-2"/>sed oportet habeat primum potestatem adnexam, qua,
             <lb n="4" xml:id="p6-3"/>tametsi unum sit, multitudinem recipere queat. quodsi recipiens
@@ -869,7 +870,7 @@
           <pb n="20" facs="https://archive.org/download/commentariaina05pt46akaduoft/page/n477.jpg"/>
           <p>
             <lb n="1" xml:id="p20-0"/>primus veritasque. omnis autem operatio, quae ab intellectu manat,
-            <lb n="2" xml:id="p20-1"/>sapientia est atque mens; cum igitur operatio intellectũs sit substantia,
+            <lb n="2" xml:id="p20-1"/>sapientia est atque mens; cum igitur operatio intellectus sit substantia,
             <lb n="3" xml:id="p20-2"/>necessario substantia primae quoque causae sapientia erit atque
             <lb n="4" xml:id="p20-3"/>mens, et ab ea ordo et rectitudo entium proveniet, et erit illa, quam
             <lb n="5" xml:id="p20-4"/>omnia, quae sequuntur, appetunt, quaedam eminus, quaedam cominus
@@ -883,7 +884,7 @@
             <lb n="13" xml:id="p20-12"/>prope accedant et qualis ipsa est evadant, is iam metam hac sua
             <lb n="14" xml:id="p20-13"/>consideratione transiit; perinde ac si quis id esse diceret instar
             <lb n="15" xml:id="p20-14"/>appetentiae, qua animal cibum appetit. at res non ita se habet.
-            <lb n="16" xml:id="p20-15"/>sed species quidem desiderii multae sunt, el multa sunt ea ipsa,
+            <lb n="16" xml:id="p20-15"/>sed species quidem desiderii multae sunt, <choice><sic>el</sic><corr>et</corr></choice> multa sunt ea ipsa,
             <lb n="17" xml:id="p20-16"/>quae amantur et desiderantur. etenim appetitus alimenti diversus
             <lb n="18" xml:id="p20-17"/>est ab appetitu rei desiderabilis; similiter etiam sanitatis amor<note type="apparatus" n="18" target="#p20-17">ab—desiderabilis] fort.: a desiderio amati et similiter infra (20) amatum . . ut eum</note>
             <lb n="19" xml:id="p20-18"/>diversus est certa ratione ab amore viae rectae. nam cibum<note type="apparatus" n="19" target="#p20-18">certa ratione B: (ab amore) dignitatis ac FC; cf. infra</note>
@@ -1566,7 +1567,7 @@
           </p>
           <pb n="36" facs="https://archive.org/download/commentariaina05pt46akaduoft/page/n493.jpg"/>
           <p>
-            <lb n="1" xml:id="p36-0"/>caalescunt. similiter ii quoque, qui veluti rex vel tyrannus multitudinem
+            <lb n="1" xml:id="p36-0"/><choice><sic>caalescunt</sic><corr>coalescunt</corr></choice>. similiter ii quoque, qui veluti rex vel tyrannus multitudinem
             <lb n="2" xml:id="p36-1"/>appetunt, eam ideo tantum appetunt, ut in unum congregent.
             <lb n="3" xml:id="p36-2"/>Nemo autem antiquorum quicquam opportunum asseverasse
             <lb n="4" xml:id="p36-3"/>reperitur de primo principio, quod quidem vere primum est; sed

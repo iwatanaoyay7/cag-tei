@@ -51,6 +51,7 @@
       <change when="2026-10-24" who="#NI">Spengel p. 69 placed at the bar printed inside ἑκά|στῳ (p. 43, l. 14), found in the adjudication of the accuracy evaluation.</change>
       <change when="2026-11-05" who="#NI">Apparatus entries printed out of numerical order (e.g. 33 … 32) separated from the preceding entry; words hyphenated across lines joined in Latin text as in Greek; words mixing Greek and Latin letters (OCR errors, about 130, including manuscript sigla) corrected on the page images; marginal folio marks left in the text removed; validated against TEI P5 version 4.12.0 (recorded in TEI/@version).</change>
       <change when="2026-11-05" who="#NI">Extent of the lemma quotations (quote[@type='lemma']) checked on the page images: lemmata closed before their last printed line (the quotation was closed when the collation text was covered, so a short centred last line could be left out) extended; abbreviated lemmata (Ἀλλὰ … γένη.) whose quotation had taken in the first line of the commentary shortened (11 places in the pilot works); candidates found from the letter-spacing of the lines on the page images and the line geometry and decided on the page images (Claude work teams).</change>
+      <change when="2026-11-22" who="#NI">Readings questioned by the review of the translations collated on the page images (read independently, at least twice wherever the print does not have the proposed form, by a language model, Claude; the 28 places in all works that it could not settle were read by the editor): 14 errors of the transcription corrected; 1 evident misprint of the edition given as choice/sic/corr.</change>
     </revisionDesc>
   </teiHeader>
   <text>
@@ -160,11 +161,11 @@
             </p>
             <pb n="4" facs="https://archive.org/download/commentariaina05pt13akaduoft/page/n25.jpg"/>
             <p>
-              <lb n="1" xml:id="p4-0"/>ὃ μηδὲ εἰ τρίγωνόν ἐστιν ἴσμεν, οὔτ αὖ πάλιν ἁπλῶς ἀγνοεῖν, οὗ τὸ καθόλου
+              <lb n="1" xml:id="p4-0"/>ὃ μηδὲ εἰ τρίγωνόν ἐστιν ἴσμεν, οὔτ’ αὖ πάλιν ἁπλῶς ἀγνοεῖν, οὗ τὸ καθόλου
               <lb n="2" xml:id="p4-1"/>κοινότερον ἐπιστάμεθα. διὰ ταῦτα οὖν οὐ φοβητέον ἐκείνους τοὺς
-              <lb n="3" xml:id="p4-2"/>λόγους οὓς ἐγκεκαλυμμένους ὀνομάζουσιν οἱ σοφισταί· ‘ἆρ οἶδας ἅπασαν<note type="apparatus" n="3" target="#p4-2">ἐκκεκαλυμμένους SW σοφοί A</note>
+              <lb n="3" xml:id="p4-2"/>λόγους οὓς ἐγκεκαλυμμένους ὀνομάζουσιν οἱ σοφισταί· ‘ἆρ’ οἶδας ἅπασαν<note type="apparatus" n="3" target="#p4-2">ἐκκεκαλυμμένους SW σοφοί A</note>
               <lb n="4" xml:id="p4-3"/>δυάδα ὅτι ἀρτία;’ φήσαντος δὲ ναί, ‘καὶ μὴν ταύτην οὐκ οἶδας ἣν κατέχομεν<milestone type="alt-edition" unit="line" ed="Spengel 1866" n="20"/>
-              <lb n="5" xml:id="p4-4"/>ἐν ταῖν χεροῖν, οὔθ ὅτι δυάς, οὔθ ὅτι ἀρτία, ὥστε τὸ αὐτὸ οἶδάς<note type="apparatus" n="5" target="#p4-4">ταῖς W αὐτὸ] ὑτὸ in ras., ut videtur, A</note>
+              <lb n="5" xml:id="p4-4"/>ἐν ταῖν χεροῖν, οὔθ’ ὅτι δυάς, οὔθ’ ὅτι ἀρτία, ὥστε τὸ αὐτὸ οἶδάς<note type="apparatus" n="5" target="#p4-4">ταῖς W αὐτὸ] ὑτὸ in ras., ut videtur, A</note>
               <lb n="6" xml:id="p4-5"/>τε καὶ οὐκ οἶδας’. ἀλλ’ οὐδὲν ἄτοπον· οἶδα μὲν γὰρ τὸ καθόλου πάθος<note type="apparatus" n="6" target="#p4-5">γὰρ om. C</note>
               <lb n="7" xml:id="p4-6"/>πάσης δυάδος· εἰ δὲ αὕτη δυάς, ἀγνοῶ. οὐχ ὅπερ οὖν ἐπίσταμαι, τοῦτο<note type="apparatus" n="7" target="#p4-6">αὐτὴ A: αὐτὸ C</note>
               <lb n="8" xml:id="p4-7"/>ἀγνοῶ, ἀλλ’ ἐπίσταμαι μὲν τὸ καθόλου, ἀγνοῶ δὲ τὸ καθ’ ἕκαστον, ὥσπερ<milestone type="alt-edition" unit="line" ed="Spengel 1866" n="25"/>
@@ -209,7 +210,7 @@
               <lb n="7" xml:id="p5-6"/>διὰ τῶν συμβεβηκότων τῷ πράγματι εἴτε καθ’ ἕτερον τρόπον, ἐπιστήμην
               <lb n="8" xml:id="p5-7"/>ὀνομάζωμεν· κυρίως δὲ καὶ ἁπλῶς ἐστιν ἐπιστήμη, ὅταν τήν τε αἰτίαν<milestone type="alt-edition" unit="line" ed="Spengel 1866" n="15"/><note type="apparatus" n="8" target="#p5-7">ὀνομάζωμεν C: ὀνομάζομεν A: ὀνομαζομένην SW ἐπιστήμων SW τε om. SW</note>
               <lb n="9" xml:id="p5-8"/>οἰώμεθα γινώσκειν δι’ ἣν τὸ πρᾶγμά ἐστιν, ὅτι ἐκείνου αἰτία ἐστί, καὶ
-              <lb n="10" xml:id="p5-9"/>ὅταν αὐτὸ μὴ ἐνδέχεσθαι ἄλλως ἔχειν ὑπολαμβάνωμεν. δῆλον δὲ ὅτι τοιοὗτόν<note type="apparatus" n="10" target="#p5-9">ἐνδέχηται A ἔχειν om. C ὑπολαμβάνομεν, supra νο compend. ειν deletum A δὲ om. W</note><note type="apparatus" n="10-11" target="#p5-9 #p5-10">ante τοιοῦτόν add. τὸ C</note>
+              <lb n="10" xml:id="p5-9"/>ὅταν αὐτὸ μὴ ἐνδέχεσθαι ἄλλως ἔχειν ὑπολαμβάνωμεν. δῆλον δὲ ὅτι τοιοῦτόν<note type="apparatus" n="10" target="#p5-9">ἐνδέχηται A ἔχειν om. C ὑπολαμβάνομεν, supra νο compend. ειν deletum A δὲ om. W</note><note type="apparatus" n="10-11" target="#p5-9 #p5-10">ante τοιοῦτόν add. τὸ C</note>
               <lb n="11" xml:id="p5-10"/>ἐστι τὸ ἐπίστασθαι· ἅπαντες γὰρ οἱ τινὸς ἐπιστήμης μεταποιούμενοι<note type="apparatus" n="11" target="#p5-10">τινὲς C pr., corr. C¹</note>
               <lb n="12" xml:id="p5-11"/>οἱ μὲν οἴονται δεῖν οὕτως ἔχειν περὶ τοῦ πράγματος, οἱ δὲ καὶ ἔχουσιν<milestone type="alt-edition" unit="line" ed="Spengel 1866" n="20"/><note type="apparatus" n="12" target="#p5-11">οἷόν τε pr. W</note>
               <lb n="13" xml:id="p5-12"/>οὕτως. εἰσὶ μὲν οὖν καὶ ἕτεροι τοῦ κυρίως ἐπίστασθαι τρόποι· καὶ γὰρ<note type="apparatus" n="13" target="#p5-12">κυρίως om. S</note>
@@ -1248,7 +1249,7 @@
               <lb n="16" xml:id="p32-15"/>οὐχ ὁμοίως λέγοντες καὶ τὸν ἄνθρωπον εἶναι λευκόν· ὁ μὲν γὰρ
               <lb n="17" xml:id="p32-16"/>τὸν ἄνθρωπον λευκὸν εἰπὼν οὐ τὸ ἑτέρῳ ὑπάρχον ὑπέθηκεν οὐδὲ τὸ δι’<note type="apparatus" n="17" target="#p32-16">οὐ SW: οὐδὲ C τὸ prius CS: τῷ Ws ὑπερέθηκεν SW</note><milestone type="alt-edition" unit="line" ed="Spengel 1866" n="5"/>
               <lb n="18" xml:id="p32-17"/>ἕτερον ὑφεστώς· οὐσία γὰρ καθ’ αὑτὴν ὁ ἄνθρωπος· ὁ δὲ τὸ λευκὸν ἄνθρωπον<note type="apparatus" n="18" target="#p32-17">ὑφεστὸς s</note>
-              <lb n="19" xml:id="p32-18"/>εἰπὼν ὑποκείμενον ἔλαβε τὸ λευκόν, ὃ τὸ εἶναι παρὰ τοῦ ᾧ συμββέβηκεν
+              <lb n="19" xml:id="p32-18"/>εἰπὼν ὑποκείμενον ἔλαβε τὸ λευκόν, ὃ τὸ εἶναι παρὰ τοῦ ᾧ συμβέβηκεν
               <lb n="20" xml:id="p32-19"/>ἔχει. τοῖς μὲν οὖν διαλεκτικῶς ἐπιχειροῦσι ληπτέον καὶ τὰς<note type="apparatus" n="20" target="#p32-19">ἔχειν C διαλεκτικοῖς W</note><note type="apparatus" n="20-21" target="#p32-19 #p32-20">καὶ τὰς τοιαύτας om. C</note><milestone type="alt-edition" unit="line" ed="Spengel 1866" n="10"/>
               <lb n="21" xml:id="p32-20"/>τοιαύτας κατηγορίας, ὅταν ὦσιν ἔνδοξοι καὶ γνώριμοι· τῷ δὲ ἀποδεικτικῷ
               <lb n="22" xml:id="p32-21"/>μᾶλλον παντὸς φυλακτέον τὰς παρὰ φύσιν κατηγορίας καὶ ὅλως τὰς κατὰ<note type="apparatus" n="22" target="#p32-21">πάντως μᾶλλον SW: fort. παντὸς μᾶλλον</note>
@@ -1586,7 +1587,7 @@
               <lb n="19" xml:id="p40-18"/>ἡ μὲν ἄλλως ἡ δὲ ἄλλως, καὶ ὅτι διὰ τῶν αὐτῶν προτάσεων ἡ
               <lb n="20" xml:id="p40-19"/>μὲν ὡς ἐνδεχομένων ἡ δὲ ὡς ἀναγκαίων. ὡς μέντοι γε τὰς αὐτὰς ἀλλήλαις
               <lb n="21" xml:id="p40-20"/>εἶναι τὴν δόξαν τε καὶ τὴν ἐπιστήμην ἀδύνατον· ἄλλο γὰρ τὸ τί ἦν<milestone type="alt-edition" unit="line" ed="Spengel 1866" n="25"/>
-              <lb n="22" xml:id="p40-21"/>εἶναι ἑκάστη καὶ πολὺ διαφέρων ὁ τρόπος τῆς ὑπολήψεως, ὥσπερ δόξαν<note type="apparatus" n="22" target="#p40-21">διαφέρειν SW post ὥσπερ add. καὶ s</note>
+              <lb n="22" xml:id="p40-21"/>εἶναι ἑκάστῃ καὶ πολὺ διαφέρων ὁ τρόπος τῆς ὑπολήψεως, ὥσπερ δόξαν<note type="apparatus" n="22" target="#p40-21">διαφέρειν SW post ὥσπερ add. καὶ s</note>
               <lb n="23" xml:id="p40-22"/>ἀληθῆ μὲν καὶ ψευδῆ περὶ τοῦ αὐτοῦ [μὲν] εἶναι ἐνδέχεται, οὐ τὰς αὐτὰς<note type="apparatus" n="23" target="#p40-22">μὲν alt. CSW: om. as</note>
               <lb n="24" xml:id="p40-23"/>δέ· <milestone type="alt-edition" unit="page" ed="Spengel 1866" n="66"/> οὐ γὰρ ταὐτὸν τὸ ἀβέβαιον τῷ βεβαίῳ καὶ τῷ μεταπεσεῖν δυναμένῳ
               <lb n="25" xml:id="p40-24"/>τὸ ἀμετάπτωτον. διόπερ οὐδ’ οἷόν τε τὸν αὐτὸν περὶ τοῦ αὐτοῦ καὶ δόξαν<note type="apparatus" n="25" target="#p40-24">ἀμετάστατον C</note>
@@ -2006,8 +2007,8 @@
               <lb n="13" xml:id="p52-12"/>διὰ τί καθήκει Σωκράτει γαμεῖν; ὅτι παίδων ἐφίεσθαι αὐτῷ καθήκει· ἢ<note type="apparatus" n="13" target="#p52-12">σωκράτη A γαμεῖν as: φαμὲν SW: τὰ μὲν A: om. C ὅτι] διότι C παιδίων CW αὐτῶν A: αὐτὸν s καθήκειν (post αὐτῷ) A</note>
               <lb n="14" xml:id="p52-13"/>διὰ τί πεποίηκε τὸν κόσμον ὁ θεός; ὅτι ἀγαθὸς ἦν· τοῦτο δέ ἐστι τὸ οὗ<note type="apparatus" n="14" target="#p52-13">πεποίηκε AC (ε prius superscr. in ras. C²): ἐποίησε SW τοῦ οὗ A</note>
               <lb n="15" xml:id="p52-14"/>ἕνεκα. ἡ γένεσις οὖν τοῦ μέσου καὶ αἰτίου τὴν αὐτὴν οὐκ ἔχει τάξιν ἐφ’<milestone type="alt-edition" unit="line" ed="Spengel 1866" n="20"/>
-              <lb n="16" xml:id="p52-15"/>ἁπάντων, ἀλλ’ οὐ μὲν πρώτην, ὡς ἐπὶ τῶν κινητικῶν, οὐ δὲ τελευταίαν,<note type="apparatus" n="16" target="#p52-15">πρώτων SW</note>
-              <lb n="17" xml:id="p52-16"/>ὡς ἐπὶ τῶν τελῶν καὶ ὧν ἕνεκεν, οὐ δ’ ἅμα, ὡς ἐπὶ τῶν ὁρισμῶν καὶ<note type="apparatus" n="17" target="#p52-16">τελῶν corr. W οὗ (post καὶ) ci. Spengel ἕνεκα s οὐδ’ C</note>
+              <lb n="16" xml:id="p52-15"/>ἁπάντων, ἀλλ’ οὗ μὲν πρώτην, ὡς ἐπὶ τῶν κινητικῶν, οὗ δὲ τελευταίαν,<note type="apparatus" n="16" target="#p52-15">πρώτων SW</note>
+              <lb n="17" xml:id="p52-16"/>ὡς ἐπὶ τῶν τελῶν καὶ ὧν ἕνεκεν, οὗ δ’ ἅμα, ὡς ἐπὶ τῶν ὁρισμῶν καὶ<note type="apparatus" n="17" target="#p52-16">τελῶν corr. W οὗ (post καὶ) ci. Spengel ἕνεκα s οὐδ’ C</note>
               <lb n="18" xml:id="p52-17"/>τοῦ τί ἦν εἶναι. οὐδὲν δὲ κωλύει τὸ αὐτὸ καὶ ἕνεκά τινος εἶναι καὶ ἐξ<note type="apparatus" n="18" target="#p52-17">εἶναι alt. om. S</note>
               <lb n="19" xml:id="p52-18"/>ἀνάγκης τὴν ὕλην αἰτίαν δεικνυμένοις, οἷον διὰ τί δίεισι διὰ τοῦ λαμπτῆρος<note type="apparatus" n="19" target="#p52-18">δεικνύμενος A: δεικνύμενον C διὰ alt. W: om. ACS</note><milestone type="alt-edition" unit="line" ed="Spengel 1866" n="25"/>
               <lb n="20" xml:id="p52-19"/>τὸ φῶς; καὶ γὰρ ἐξ ἀνάγκης διέρχεται τὸ λεπτομερέστερον διὰ τῶν μειζόνων<note type="apparatus" n="20" target="#p52-19">μικροοῖ μερέστερον Arist. (sed λεπτομερέστερον D)</note>
@@ -2146,7 +2147,7 @@
               <lb n="9" xml:id="p56-8"/>τοῖς ἁπάντων ὁρισμοῖς ἔνεστιν, ἐκλεκτέον. οἷον τί εὐθεῖα γραμμή; μῆκος<note type="apparatus" n="9" target="#p56-8">τοῖς om. W ἁπάντων W: ἀπ’ αὐτῶν AC: αὐτῶν s</note><milestone type="alt-edition" unit="line" ed="Spengel 1866" n="15"/>
               <lb n="10" xml:id="p56-9"/>ἀπλατὲς οὗ τὰ μέσα ἐπιπροσθεῖ τοῖς ἄκροις. τί περιφερὴς γραμμή; μῆκος<note type="apparatus" n="10" target="#p56-9">οὗ—11 ἀπλατὲς om. W οὗ as: ἧς AC post μέσα add. μὴ C</note>
               <lb n="11" xml:id="p56-10"/>ἀπλατὲς πρὸς ὅπερ ἀφ’ ἑνὸς σημείου πᾶσαι αἱ προσπίπτουσαι εὐθεῖαι ἴσαι<note type="apparatus" n="11" target="#p56-10">post ἴσαι add. ἀλλήλαις corr. W</note>
-              <lb n="12" xml:id="p56-11"/>εἰσί; τί κεκλασμένη γραμμή; μῆκος ἀπλατὲς τοιόνδε. ἐν δὴ πᾶσι τούτοις<note type="apparatus" n="12" target="#p56-11">post ἀπλατὲς add. καὶ As πᾶσι (πάσῃ pr.) δὴ W</note><milestone type="alt-edition" unit="line" ed="Spengel 1866" n="20"/>
+              <lb n="12" xml:id="p56-11"/><choice><sic>εἰσί;</sic><corr>εἰσί.</corr></choice> τί κεκλασμένη γραμμή; μῆκος ἀπλατὲς τοιόνδε. ἐν δὴ πᾶσι τούτοις<note type="apparatus" n="12" target="#p56-11">post ἀπλατὲς add. καὶ As πᾶσι (πάσῃ pr.) δὴ W</note><milestone type="alt-edition" unit="line" ed="Spengel 1866" n="20"/>
               <lb n="13" xml:id="p56-12"/>τοῖς ὁρισμοῖς τὸ μῆκος ἀπλατὲς κοινὸν ἐνυπάρχει· τοῦτο οὖν ἔχοντας ἀνατρέχειν
               <lb n="14" xml:id="p56-13"/>αὖθις ἐπὶ τὴν γραμμὴν καὶ σκοπεῖν ἐν ποίᾳ κατηγορίᾳ, καὶ ἐπειδὴ<note type="apparatus" n="14" target="#p56-13">post γραμμὴν add. δεῖ s post κατηγορίᾳ add. ἐστί s</note>
               <lb n="15" xml:id="p56-14"/>ἐν ποσῷ, τούτῳ συνθετέον τῷ γένει ὅσα κοινὰ εὕρομεν ἐν τοῖς τῶν ἀτόμων<note type="apparatus" n="15" target="#p56-14">τούτων A: ταῦτα s σύνθετον A εὕρομεν as : εὕροιμεν ACW</note>
@@ -2212,7 +2213,7 @@
               <lb n="2" xml:id="p58-1"/>ἅπαντα ὄρνιν, ἰχθύος δὲ εἰς ἅπαντα ἰχθύν. οὕτω γὰρ βαδίζοντί σοι κατὰ<note type="apparatus" n="2" target="#p58-1">δὲ om. Ws</note>
               <lb n="3" xml:id="p58-2"/>τὴν τοιαύτην ὁδόν τε καὶ τάξιν ἔστι γινώσκειν ὅτι μηδὲν παραλείπεις· ἄλλως<note type="apparatus" n="3" target="#p58-2">ἔνεστιν W παραλίπῃς A</note>
               <lb n="4" xml:id="p58-3"/>δὲ ἀναγκαῖον καὶ παραλιπεῖν καὶ μὴ εἰδέναι. Σπεύσιππος δὲ οὐ καλῶς<note type="apparatus" n="4" target="#p58-3">πεύσιππος AC</note><milestone type="alt-edition" unit="line" ed="Spengel 1866" n="15"/>
-              <lb n="5" xml:id="p58-4"/>λέγει φάσκων ἀναγκαῖον εἶναι τὸν ὁριζόμενον πάντα εἰδέναι’ δεῖ μὲν γάρ,<note type="apparatus" n="5" target="#p58-4">an ὁριζόμενόν 〈τι〉?</note>
+              <lb n="5" xml:id="p58-4"/>λέγει φάσκων ἀναγκαῖον εἶναι τὸν ὁριζόμενον πάντα εἰδέναι· δεῖ μὲν γάρ,<note type="apparatus" n="5" target="#p58-4">an ὁριζόμενόν 〈τι〉?</note>
               <lb n="6" xml:id="p58-5"/>φησί, γινώσκειν τὰς διαφορὰς αὐτοῦ πάσας, αἷς τῶν ἄλλων διενήνοχεν,
               <lb n="7" xml:id="p58-6"/>ἀδύνατον δὲ εἰδέναι τὰς διαφορὰς τὰς πρὸς ἕκαστον μὴ εἰδότας αὐτὸ<note type="apparatus" n="7" target="#p58-6">εἰδότα ci. Spengel</note><milestone type="alt-edition" unit="line" ed="Spengel 1866" n="20"/>
               <lb n="8" xml:id="p58-7"/>ἕκαστον. πρῶτον μὲν οὖν οὐκ ἀναγκαῖον πάσας εἰδέναι τὰς διαφοράς·
@@ -2295,7 +2296,7 @@
               <lb n="2" xml:id="p60-1"/>πάντων γὰρ τὸ αὐτὸ μέσον τε καὶ αἴτιον, ἡ ἀντιπερίστασις, ὡς φησὶ Πλάτων.<milestone type="alt-edition" unit="line" ed="Spengel 1866" n="20"/><note type="apparatus" n="2" target="#p60-1">φησὶν ὁ A Πλάτων] cf. Tim. 59 A 79 B</note>
               <lb n="3" xml:id="p60-2"/>ἔστι δὲ ταὐτὸν τὸ μέσον ἢ εἴδει ἢ γένει· εἴδει μὲν ὃ προείρηται· ἀέρος
               <lb n="4" xml:id="p60-3"/>γὰρ ἀντιπερίστασις ἁπάντων αἰτία· γένει δὲ οἷον διὰ τί ἠχώ; καὶ διὰ τί<note type="apparatus" n="4" target="#p60-3">τί prius superscr. A</note>
-              <lb n="5" xml:id="p60-4"/>ἐν τοῖς κατόπτροις ἑαυτοὺς ὁρῶμεν; καὶ διὰ τί ἶρις; πάντα μὲν γὰρ δι<milestone type="alt-edition" unit="line" ed="Spengel 1866" n="25"/><note type="apparatus" n="5" target="#p60-4">τί superscr. A</note>
+              <lb n="5" xml:id="p60-4"/>ἐν τοῖς κατόπτροις ἑαυτοὺς ὁρῶμεν; καὶ διὰ τί ἶρις; πάντα μὲν γὰρ δι’<milestone type="alt-edition" unit="line" ed="Spengel 1866" n="25"/><note type="apparatus" n="5" target="#p60-4">τί superscr. A</note>
               <lb n="6" xml:id="p60-5"/>ἀνάκλασιν, ἀλλ’ οὗ μὲν ἀέρος, οὗ δὲ ὄψεως, οὗ δὲ φωτός. ὥστε καὶ τὰ
               <lb n="7" xml:id="p60-6"/>προβλήματα ἀκολουθήσει τῷ μέσῳ, καὶ τὰ μὲν τῷ εἴδει τὰ αὐτὰ ἔσται,<note type="apparatus" n="7" target="#p60-6">ταυτὰ A ἐστι C</note>
               <lb n="8" xml:id="p60-7"/>τὰ δὲ τῷ γένει. ἔστι δὲ καὶ καθ’ ἕτερον τρόπον τὰ αὐτὰ ἀλλήλοις προβλήματα,<milestone type="alt-edition" unit="page" ed="Spengel 1866" n="96"/>
@@ -2317,7 +2318,7 @@
               <lb n="20" xml:id="p60-19"/>τοῦ συμπεράσματος ὄντος τόδε ἐστὶν ἐξ ἀνάγκης τὸ αἴτιον. εἰ μὲν γὰρ
               <lb n="21" xml:id="p60-20"/>οὕτως, ἀντιστρέφει τε ἀλλήλοις καὶ κύκλῳ αὐτὰ δείκνυσθαι δυνατόν, ὥσπερ<milestone type="alt-edition" unit="line" ed="Spengel 1866" n="20"/><note type="apparatus" n="21" target="#p60-20">an δυνατόν, 〈οἷον〉?</note>
               <lb n="22" xml:id="p60-21"/>ὅτι ἐκλείπει ἡ σελήνη διὰ τὸ τὴν γῆν ἐν μέσῳ εἶναι, οὕτως ὅτι ἡ γῆ ἐν<note type="apparatus" n="22" target="#p60-21">ἐν prius superscr. A</note>
-              <lb n="23" xml:id="p60-22"/>μέσῳ ἐστὶ διὰ τὸ τὴν σελήνην ἐκλείπειν. ἀλλ’ ἄτοπον ἐν ἀποδείξει τὸ δι<note type="apparatus" n="23" target="#p60-22">διὰ τοῦ A</note>
+              <lb n="23" xml:id="p60-22"/>μέσῳ ἐστὶ διὰ τὸ τὴν σελήνην ἐκλείπειν. ἀλλ’ ἄτοπον ἐν ἀποδείξει τὸ δι’<note type="apparatus" n="23" target="#p60-22">διὰ τοῦ A</note>
               <lb n="24" xml:id="p60-23"/>ἀλλήλων καὶ ἅμα. ἀλλ’ οὐδὲ δι’ αἰτίου θάτερον οὐδὲ διὰ προτέρου τῇ ἐπινοίᾳ·<note type="apparatus" n="24" target="#p60-23">ἀλλ’ οὐδὲ scripsi: οὐ ACW: ἀλλ’ οὐ s</note>
               <lb n="25" xml:id="p60-24"/>οὐ γάρ ἐστιν αἴτιον τοῦ τὴν γῆν ἐν μέσῳ εἶναι τὸ τὴν σελήνην ἐκλείπειν,<milestone type="alt-edition" unit="line" ed="Spengel 1866" n="25"/>
               <lb n="26" xml:id="p60-25"/>ἀλλὰ μέσον τοῦ συλλογισμοῦ καὶ τοῦ συμπεράσματος ἴσως αἴτιον, τοῦ<note type="apparatus" n="26" target="#p60-25">μέσον τοῦ as: μὲν τοῦ W: τοῦ μέσου AC post ἴσως add. τὸ W</note>
@@ -2325,9 +2326,9 @@
               <lb n="28" xml:id="p60-27"/>τοῦ μέσην εἶναι ἡ ἔκλειψις ἐμφαίνεται τῆς σελήνης, ἀλλ’ ἐν τῷ ὁρισμῷ<milestone type="alt-edition" unit="line" ed="Spengel 1866" n="30"/><note type="apparatus" n="28" target="#p60-27">μέσου C ἐκφαίνεται A</note>
               <lb n="29" xml:id="p60-28"/>τῆς ἐκλείψεως τὸ τὴν γῆν ἐν μέσῳ εἶναι. εἰ <milestone type="alt-edition" unit="page" ed="Spengel 1866" n="97"/> δὲ οὐκ ἀντιστρέφει καὶ τὸ<note type="apparatus" n="29-30" target="#p60-28 #p60-29">καὶ τῶ μὲν αἰτίω ταυτὸν συμπεράσματι δὲ οὐκ ἔτι δὲ ταυτὸν τὸ μέσον W</note>
               <lb n="30" xml:id="p60-29"/>μὲν αἰτιατόν, 〈τὸ〉 συμπέρασμα, τὸ δὲ οὐκ αἰτιατόν, τὸ μέσον τε καὶ αἴτιον,<note type="apparatus" n="30" target="#p60-29">τὸ primum addidi τε om. C post καὶ add. τὸ ACs</note>
-              <lb n="31" xml:id="p60-30"/>πλείω μέσα ἐνδέχεται εἶναι καὶ αἴτια τοῦ αὐτοῦ συμπεράσματος. ἀλλ<note type="apparatus" n="31" target="#p60-30">καὶ αἴτια post συμπεράσματος collocat C</note>
+              <lb n="31" xml:id="p60-30"/>πλείω μέσα ἐνδέχεται εἶναι καὶ αἴτια τοῦ αὐτοῦ συμπεράσματος. ἀλλ’<note type="apparatus" n="31" target="#p60-30">καὶ αἴτια post συμπεράσματος collocat C</note>
               <lb n="32" xml:id="p60-31"/>ἀδύνατον· καθόλου γάρ ἐστι τό τε αἴτιον καὶ οὗ αἴτιον, καὶ ἄμφω ὁμοίως<milestone type="alt-edition" unit="line" ed="Spengel 1866" n="5"/>
-              <lb n="33" xml:id="p60-32"/>ὑπάρχειν ὀφείλει τῇ ὑποκειμένῃ φύσει, ἥτις ποτ ἂν ᾖ· οἷον εἰ τοῖς δένδροις<note type="apparatus" n="33" target="#p60-32">ὀφείλει ὑπάρχειν C ᾖ C: ἦν AWs</note>
+              <lb n="33" xml:id="p60-32"/>ὑπάρχειν ὀφείλει τῇ ὑποκειμένῃ φύσει, ἥτις ποτ’ ἂν ᾖ· οἷον εἰ τοῖς δένδροις<note type="apparatus" n="33" target="#p60-32">ὀφείλει ὑπάρχειν C ᾖ C: ἦν AWs</note>
             </p>
             <pb n="61" facs="https://archive.org/download/commentariaina05pt13akaduoft/page/n82.jpg"/>
             <p>
@@ -2341,7 +2342,7 @@
           <div type="textpart" subtype="section" n="17">
             <p>
               <lb n="6" xml:id="p61-5"/>17. Πλείω δὲ ταὐτοῦ μέσα τε καὶ αἴτια εἶναι οὐχ οἷόν τε, εἰ μὴ ἄρα διὰ<note type="apparatus" n="6" target="#p61-5">πλεῖσται W τοῦ αὐτοῦ Cs</note><milestone type="alt-edition" unit="line" ed="Spengel 1866" n="15"/>
-              <lb n="7" xml:id="p61-6"/>συμβεβηκότος ἡ δεῖξις ἢ διὰ σημείου προϊοι· οἷον διὰ τί τὰ δένδρα φυλλορροεῖ;
+              <lb n="7" xml:id="p61-6"/>συμβεβηκότος ἡ δεῖξις ἢ διὰ σημείου προΐοι· οἷον διὰ τί τὰ δένδρα φυλλορροεῖ;
               <lb n="8" xml:id="p61-7"/>διότι ῥυτιδοῦται ἢ διότι λευκαίνεται· ἢ τὸ πῦρ κέκαυται; διότι ἄνθρακες<note type="apparatus" n="8" target="#p61-7">διότι alt. pr. W: διὰ τί W corr., s</note>
               <lb n="9" xml:id="p61-8"/>ὑπολείπονται ἢ διότι τέφρα. ἀλλ’ εἴρηται πολλάκις ὅτι οὐδὲ ἀπόδειξις<note type="apparatus" n="9-10" target="#p61-8 #p61-9">οὔτε—οὔτε ci. Spengel</note><milestone type="alt-edition" unit="line" ed="Spengel 1866" n="20"/>
               <lb n="10" xml:id="p61-9"/>τὸ τοιοῦτον οὐδὲ αἴτια τοῦ πράγματος τὰ τοιαῦτα, ἀλλὰ τοῦ συμπεράσματος<note type="apparatus" n="10" target="#p61-9">ἀλλὰ—11 τὰ τοιαῦτα C: om. AW</note>
@@ -2465,7 +2466,7 @@
               <lb n="7" xml:id="p64-6"/>κοινόν. ὥστε τρόπον τινὰ καὶ αἴσθησις τοῦ καθόλου, ἀλλ’ οὐχ οὕτως ὥστε<note type="apparatus" n="7" target="#p64-6">ὥσπερ pr. W αἴσθησιν C post καθόλου add. ἀντιλαμβάνεσθαι C οὐχ om. A</note>
               <lb n="8" xml:id="p64-7"/>αὐτὸ χωρίσαι καὶ ἀφελεῖν καὶ καθ’ ἑαυτὸ γνῶναι, ἀλλὰ συγκεχυμένον τε τῷ<milestone type="alt-edition" unit="line" ed="Spengel 1866" n="15"/><note type="apparatus" n="8" target="#p64-7">αὐτὰ C ἑαυτὰ C τε τῷ as: τε τὸ A: τὸ CW</note>
               <lb n="9" xml:id="p64-8"/>καθ’ ἕκαστον καὶ μᾶλλον εἰς ἐκεῖνο ἀποτετραμμένον. ἀλλ’ ἑτέρα δύναμίς<note type="apparatus" n="9" target="#p64-8">ἀνατετραμμένον A</note>
-              <lb n="10" xml:id="p64-9"/>ἐστιν, ἢ τῆς αἰσθήσεως περὶ τὸ κατὰ μέρος ἐνεργούσης τὸ ἓν ἐκ πολλῶν
+              <lb n="10" xml:id="p64-9"/>ἐστιν, ἣ τῆς αἰσθήσεως περὶ τὸ κατὰ μέρος ἐνεργούσης τὸ ἓν ἐκ πολλῶν
               <lb n="11" xml:id="p64-10"/>καὶ τὸ ἀδιάφορον ἐκ διαφόρων καὶ ταὐτὸν ἐξ ἑτέρων συνάγει, οἷον τὸν ἄνθρωπον<milestone type="alt-edition" unit="line" ed="Spengel 1866" n="20"/><note type="apparatus" n="11" target="#p64-10">τὸ διάφορον W συλλέγει W</note>
               <lb n="12" xml:id="p64-11"/>ἐκ Καλλίου καὶ Ἀρίστωνος καὶ τὸ ζῷον ἐξ ἀνθρώπου καὶ λέοντος
               <lb n="13" xml:id="p64-12"/>καὶ τὴν οὐσίαν ἐκ φυτοῦ καὶ ζῴου· ἄνεισι γὰρ μέχρις ἂν εἰς ἓν παντελῶς<note type="apparatus" n="13" target="#p64-12">παντελῶς om. W</note>

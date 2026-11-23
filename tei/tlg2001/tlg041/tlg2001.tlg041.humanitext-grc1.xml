@@ -50,6 +50,7 @@
       <change when="2026-10-23" who="#NI">Errors found by the accuracy evaluation (sample checked against the page images by student assistants, readings confirmed by the editor) corrected: 1 in the apparatus.</change>
       <change when="2026-11-05" who="#NI">Apparatus entries printed out of numerical order (e.g. 33 … 32) separated from the preceding entry; words hyphenated across lines joined in Latin text as in Greek; words mixing Greek and Latin letters (OCR errors, about 130, including manuscript sigla) corrected on the page images; marginal folio marks left in the text removed; validated against TEI P5 version 4.12.0 (recorded in TEI/@version).</change>
       <change when="2026-11-05" who="#NI">Extent of the lemma quotations (quote[@type='lemma']) checked on the page images: lemmata closed before their last printed line (the quotation was closed when the collation text was covered, so a short centred last line could be left out) extended; abbreviated lemmata (Ἀλλὰ … γένη.) whose quotation had taken in the first line of the commentary shortened (11 places in the pilot works); candidates found from the letter-spacing of the lines on the page images and the line geometry and decided on the page images (Claude work teams).</change>
+      <change when="2026-11-22" who="#NI">Readings questioned by the review of the translations collated on the page images (read independently, at least twice wherever the print does not have the proposed form, by a language model, Claude; the 28 places in all works that it could not settle were read by the editor): 6 errors of the transcription corrected; 3 evident misprints of the edition given as choice/sic/corr; 1 evident misprint of the edition in a word broken at the line end (which cannot carry choice/sic/corr) corrected in the text.</change>
     </revisionDesc>
   </teiHeader>
   <text>
@@ -399,7 +400,7 @@
               <lb n="10" xml:id="p10-9"/>ἀρχῆς ζητήσας τις συνείρει καὶ ἀναμιμνήσκεται τὰ ἑξῆς (ἀκολουθοῦσι γὰρ<note type="apparatus" n="10" target="#p10-9">τὸ ἐφεξῆς Arist. Mich.</note>
               <lb n="11" xml:id="p10-10"/>τῷ ἔθει αἱ κινήσεις, ὡς εἴρηται, καὶ ἥδε μετὰ τήνδε), οὕτω καὶ ὅταν τις<milestone type="alt-edition" unit="line" ed="Spengel 1866" n="5"/><note type="apparatus" n="11" target="#p10-10">prius καὶ om. Mich. del. Freud. p. 409 cf. 8,15. 11,31 μετὰ τὴν τήνδε A</note>
               <lb n="12" xml:id="p10-11"/>ἀναμιμνήσκηται ὧν πάλαι τὴν ἐπιστήμην ἔλαβε. ζητήσει γὰρ κἀκεῖ ἀρχὴν
-              <lb n="13" xml:id="p10-12"/>λαβέσθαι κινήσεως, μεθ’ ἣν ἐκείνη ἔσται. διὸ τάχιστα καὶ κάλλιστα γινονται<note type="apparatus" n="13" target="#p10-12">λαβεῖν Arist. (Spengel) μεθ’] καθ’ C</note>
+              <lb n="13" xml:id="p10-12"/>λαβέσθαι κινήσεως, μεθ’ ἣν ἐκείνη ἔσται. διὸ τάχιστα καὶ κάλλιστα γίνονται<note type="apparatus" n="13" target="#p10-12">λαβεῖν Arist. (Spengel) μεθ’] καθ’ C</note>
               <lb n="14" xml:id="p10-13"/>ἀπ’ ἀρχῆς αἱ ἀναμνήσεις. ὡς γὰρ ἔχει τὰ πράγματα πρὸς ἄλληλα τῷ<milestone type="alt-edition" unit="line" ed="Spengel 1866" n="10"/><note type="apparatus" n="14" target="#p10-13">ἔχουσι Arist. libri praeter L πρὸς ἄλληλα hic habet B (Arist.): post ἔχει ACa</note>
               <lb n="15" xml:id="p10-14"/>ἐφεξῆς, οὕτω καὶ αἱ κινήσεις, καὶ ἔστιν εὐμνημόνευτα ὅσα τάξιν τινὰ ἔχει
               <lb n="16" xml:id="p10-15"/>καὶ πρῶτον καὶ δεύτερον, ὥσπερ τὰ μαθήματα καὶ μάλιστα τὰ γεωμετρικά,
@@ -515,7 +516,7 @@
               <lb n="11" xml:id="p13-10"/>ὁ ἐλάττων χρόνος πρὸς τὸν μείζονα ὁμοίως ἕξει, καὶ ἐναλλάξ, ὡς τὸ πρᾶγμα<milestone type="alt-edition" unit="line" ed="Spengel 1866" n="25"/>
               <lb n="12" xml:id="p13-11"/>ἅπαν πρὸς ἅπαντα τὸν χρόνον ἔχει, καὶ τὰ μέρη πρὸς τὰ μέρη.<note type="apparatus" n="12" target="#p13-11">ἅπαν πρὸς om. a</note>
               <lb n="13" xml:id="p13-12"/>Δῆλον δ’ ἂν εἴη μᾶλλον ἐπὶ τῆς διαγραφῆς. <milestone type="alt-edition" unit="page" ed="Spengel 1866" n="251"/> ἐκκείσθωσαν δύο τρίγωνα
-              <lb n="14" xml:id="p13-13"/>κάτω τὰς κορυφὰς ἔχοντα καὶ ἐμβεβλημένον ἔν ἑτέρῳ τὸ ἕτερον καὶ
+              <lb n="14" xml:id="p13-13"/>κάτω τὰς κορυφὰς ἔχοντα καὶ ἐμβεβλημένον <choice><sic>ἔν</sic><corr>ἐν</corr></choice> ἑτέρῳ τὸ ἕτερον καὶ
               <lb n="15" xml:id="p13-14"/>περιέχον μὲν ἔστω τὸ ΚΜΝ, τὸ δὲ ΑΒΕ
               <lb n="16" xml:id="p13-15"/>περιεχόμενον, καὶ τετμήσθω ἡ ΑΒ κατὰ τὰ
               <lb n="17" xml:id="p13-16"/>ΓΖ σημεῖα, καὶ ἐπεζεύχθωσαν κατὰ τὴν<milestone type="alt-edition" unit="line" ed="Spengel 1866" n="5"/>
@@ -622,7 +623,7 @@
               <lb n="2" xml:id="p16-1"/>λόγοις· ὅταν γὰρ διὰ στόματος αὐτῶν γένηταί τι σφόδρα, παυσαμένοις καὶ<note type="apparatus" n="2" target="#p16-1">αὐτῶν γένηταί τι cum Arist. U (γένηταί τι αὐτῶν M, τι αὐτῶν γένηται LS, γένηταί τις EY)</note>
               <lb n="3" xml:id="p16-2"/>οὐ βουλομένοις πάλιν ᾄδειν ἢ λέγειν ἐπέρχεται. εἰσὶ δὲ καὶ οἱ τὰ ἄνω<note type="apparatus" n="3" target="#p16-2">οἱ om. Arist. LU</note>
               <lb n="4" xml:id="p16-3"/>μείζω ἔχοντες καὶ οἱ νανώδεις ἀμνημονέστεροι τῶν ἐναντίων διὰ τὸ πολὺ βάρος<milestone type="alt-edition" unit="line" ed="Spengel 1866" n="5"/>
-              <lb n="5" xml:id="p16-4"/>ἔχειν ἐπὶ τῷ αἰσθητικῷ καὶ μήτ ἐξ ἀρχῆς τὰς κινήσεις δύνασθαι ἐμμένειν,
+              <lb n="5" xml:id="p16-4"/>ἔχειν ἐπὶ τῷ αἰσθητικῷ καὶ μήτ’ ἐξ ἀρχῆς τὰς κινήσεις δύνασθαι ἐμμένειν,
               <lb n="6" xml:id="p16-5"/>ἀλλὰ διαλύεσθαι, μήτε ἐν τῷ ἀναμιμνήσκεσθαι ῥᾳδίως εὐθυπορεῖν. οἱ δὲ
               <lb n="7" xml:id="p16-6"/>πάμπαν νέοι καὶ οἱ λίαν γέροντες ἀμνήμονες διὰ τὴν κίνησιν· οἱ μὲν γὰρ<milestone type="alt-edition" unit="line" ed="Spengel 1866" n="10"/><note type="apparatus" n="7" target="#p16-6">καὶ λίαν Arist.</note>
               <lb n="8" xml:id="p16-7"/>ἐν αὐξήσει, οἱ δὲ ἐν φθίσει πολλῇ εἰσιν. ἔτι δὲ τά γε παιδία καὶ νανώδη<note type="apparatus" n="8" target="#p16-7">εἰσιν om. Arist. LSU post ἔτι add. δὲ Ca (Arist. MLSU): om. AB γε AB (Arist.): om. Ca</note>
@@ -679,7 +680,7 @@
               <lb n="7" xml:id="p18-6"/>ἐστὶν ἴδιον, οὔτ’ ἄψυχον σῶμα δυνατὸν αἰσθάνεσθαι, ἀλλὰ τοῦ συναμφοτέρου.<note type="apparatus" n="7" target="#p18-6">τοῦ συναμφοτέρου e Mich. p. 43,21 12—17 Mich. p. 43,31—44,18 17—19 ipse addidit 19. 20 cf. Mich. p. 44,18—21 20—27 Mich. p. 44,29—45,7 27. 28 cf. Arist. p. 454a28--32 28. 29 ipse addidit 29—32 Mich. p. 45,10—12 32—p. 19,11 Mich. p. 46,4—2</note><note type="apparatus" n="7" target="#p18-6">ἐστὶν om. B</note>
               <lb n="8" xml:id="p18-7"/>διωρισμένων δὲ περὶ τῶν λεγομένων ὡς μορίων πρότερον καὶ τοῦ μὲν<note type="apparatus" n="8" target="#p18-7">δὲ περὶ τῶν λεγομένων B Arist.: om. A: δ’ Ca πρότερον posuit ut Arist. EMY</note>
               <lb n="9" xml:id="p18-8"/>θρεπτικοῦ χωριζομένου τῶν ἄλλων, τῶν δ’ ἄλλων οὐδενὸς ἄνευ τούτου
-              <lb n="10" xml:id="p18-9"/>ὄντος, δῆλον ὡς ὅσα μὲν αὐξήσεως καὶ φθίσεως μετέχει μόνον τῶν ζών,<milestone type="alt-edition" unit="line" ed="Spengel 1866" n="25"/><note type="apparatus" n="10" target="#p18-9">ὄντος om. Arist. libri praeter U</note>
+              <lb n="10" xml:id="p18-9"/>ὄντος, δῆλον ὡς ὅσα μὲν αὐξήσεως καὶ φθίσεως μετέχει μόνον τῶν ζώντων,<milestone type="alt-edition" unit="line" ed="Spengel 1866" n="25"/><note type="apparatus" n="10" target="#p18-9">ὄντος om. Arist. libri praeter U</note>
               <lb n="11" xml:id="p18-10"/>οἷον τὰ φυτά, τούτοις οὐχ ὑπάρχει ὕπνος οὐδὲ ἐγρήγορσις· οὐ γὰρ
               <lb n="12" xml:id="p18-11"/>ἔχουσι τὸ αἰσθητικὸν μόριον, ἐν ᾧ ταῦτα. τὸ δὲ αἰσθητικὸν τοῦ θρεπτικοῦ
               <lb n="13" xml:id="p18-12"/>ὅτι ἕτερον τῷ εἶναι καὶ τῇ δυνάμει, φανερόν. εἰ δὲ καὶ τῷ ὑποκειμένῳ,<milestone type="alt-edition" unit="line" ed="Spengel 1866" n="30"/><note type="apparatus" n="13" target="#p18-12">τῇ] τὸ B δὲ ABa: om. C</note>
@@ -689,7 +690,7 @@
               <lb n="17" xml:id="p18-16"/>ζῷον ἀμφοτέρων στερούμενον· τοῦτο γάρ ἐστι τῶν ἀψύχων. ὑπεξαιρείσθω<milestone type="alt-edition" unit="line" ed="Spengel 1866" n="5"/>
               <lb n="18" xml:id="p18-17"/>μέντοι κἀν τούτοις τὰ θεῖα ἐνεργοῦντα ἀεί· ἡ γὰρ ἐν αὐτοῖς ἐγρήγορσις
               <lb n="19" xml:id="p18-18"/>ἀναντίθετος. ὕπνος δὲ καὶ ἐγρήγορσις, ὡς πολλάκις εἴρηται, πάθη περὶ<note type="apparatus" n="19" target="#p18-18">ἀναντίλεκτος coni. Spengel, sed v. Soph. Comm. XXIII 2 p. 23,21</note>
-              <lb n="20" xml:id="p18-19"/>αἴσθησιν του πρώτου αἰσθητικοῦ, τῆς καρδίας. ἔτι ὅσων ἐστὶν ἔργον τι<milestone type="alt-edition" unit="line" ed="Spengel 1866" n="10"/>
+              <lb n="20" xml:id="p18-19"/>αἴσθησιν <choice><sic>του</sic><corr>τοῦ</corr></choice> πρώτου αἰσθητικοῦ, τῆς καρδίας. ἔτι ὅσων ἐστὶν ἔργον τι<milestone type="alt-edition" unit="line" ed="Spengel 1866" n="10"/>
               <lb n="21" xml:id="p18-20"/>κατὰ φύσιν, ὅταν ὑπερβάλλῃ τὸν χρόνον, καθ’ ὃν πέφυκε τοῦτο ποιεῖν,<note type="apparatus" n="21" target="#p18-20">ὑπερβάλλῃ Ca (Mich. Sa): ὑπερβάλῃ AB (Mich. CRP)</note>
               <lb n="22" xml:id="p18-21"/>ἀνάγκη κάμνειν καὶ μὴ δυνάμενον πρόσω βαίνειν παύεσθαι. φέρουσι γὰρ
               <lb n="23" xml:id="p18-22"/>τὰ ὑποζύγια φόρτον ἄχρι τινός, ἢν δέ τις περαιτέρω βιάσαιτο, πίπτουσι·<note type="apparatus" n="23" target="#p18-22">βιάσηται Mich.</note>
@@ -744,7 +745,7 @@
             <p>
               <lb n="31" xml:id="p19-30"/>Διὰ τί δὲ καθεύδει καὶ ἐγρήγορε, καὶ διὰ ποίαν τινὰ αἴσθησιν, ἢ<note type="apparatus" n="31" target="#p19-30">ποίαν om. Arist. EMY</note>
               <lb n="32" xml:id="p19-31"/>καὶ ποίας, εἰ καὶ διὰ πλείους, σκεπτέον. ἐπεὶ δ’ ἔνια μὲν τῶν ζῴων ἔχει<note type="apparatus" n="32" target="#p19-31">τῶν ζῴων om. Arist. EMUY</note>
-              <lb n="33" xml:id="p19-32"/>τὰς αἰσθήσεις πάσας, ἔνια δ’ οὐκ ἔχουσιν, οἷον ὄψιν, τὴν δ’ ἀφὴν καὶ τὴν<note type="apparatus" n="33" target="#p19-32">οἷον om. Arist. LMSU</note><milestone type="alt-edition" unit="line" ed="Spengel 1866" n="10"/>
+              <lb n="33" xml:id="p19-32"/>τὰς αἰσθήσεις πάσας, ἔνια δ’ οὐκ ἔχουσιν, οἷον ὄψιν, τὴν δ’ ἁφὴν καὶ τὴν<note type="apparatus" n="33" target="#p19-32">οἷον om. Arist. LMSU</note><milestone type="alt-edition" unit="line" ed="Spengel 1866" n="10"/>
               <lb n="34" xml:id="p19-33"/>γεῦσιν πάντ’ ἔχει, καὶ μάλιστα κοινοτάτη πασῶν ἡ ἁφή, ὡς ἐν τοῖς Περὶ
             </p>
             <note type="footnote">
@@ -935,7 +936,7 @@
               <lb n="30" xml:id="p24-29"/>ἀγαγὸν ἄνω τὰ ὑγρὰ καὶ σωματώδη, συρρέουσιν ἅμα αὐτῷ καὶ ταῦτα, καὶ οὕτω
               <lb n="31" xml:id="p24-30"/>γίνεται ὁ ὕπνος, καὶ τότε τὸ ζῷον καθεύδει. σημεῖον δέ, ὡς τὰ ὑγρὰ καὶ σωματώδη
               <lb n="32" xml:id="p24-31"/>βαρύνουσι τὴν κεφαλήν, καὶ ἀπὸ τῶν ὑπνωτικῶν· πάντα γὰρ ἐπιδήλως
-              <lb n="33" xml:id="p24-32"/>καρηβαρεῖν ποιοῦσι τῇ παχύτητι τῆς ἀναφορᾶς τῶν παρ’ αὐτοῖς σωματοεἰδῶν
+              <lb n="33" xml:id="p24-32"/>καρηβαρεῖν ποιοῦσι τῇ παχύτητι τῆς ἀναφορᾶς τῶν παρ’ αὐτοῖς σωματοειδῶν
               <lb n="34" xml:id="p24-33"/>ὑγρῶν, καὶ τὰ ποτὰ καὶ τὰ βρωτά, μήκων, μανδραγόρας, οἶνος, αἶραι.
             </p>
             <pb n="25" facs="https://archive.org/download/commentariaina05pt46akaduoft/page/n574.jpg"/>
@@ -1074,7 +1075,7 @@
               <lb n="20" xml:id="p28-19"/>αἰσθητηρίου κατάληψις πρὸς τὸ μὴ δύνασθαι ἐνεργεῖν ἐξ ἀνάγκης μὲν γινόμενον<note type="apparatus" n="20-21" target="#p28-19 #p28-20">γινόμενον ABa (Arist. LU, γινόμενος EMY): γινομένη C</note>
               <lb n="21" xml:id="p28-20"/>(οὐ γὰρ ἐνδέχεται τὸ ζῷον εἶναι μὴ συμβαινόντων τῶν ἀπεργαζομένων
               <lb n="22" xml:id="p28-21"/>καὶ συντηρούντων αὐτό. ὧν ἓν ἡ τροφή, ἐξ ἧς ἡ ἀναθυμίασις), ἕνεκα δὲ
-              <lb n="23" xml:id="p28-22"/>σωτηρίας· σῴζει γὰρ ἡ ἀνάπαυσις. 1)
+              <lb n="23" xml:id="p28-22"/>σωτηρίας· σῴζει γὰρ ἡ ἀνάπαυσις.
             </p>
             </div>
         </div>
@@ -1312,7 +1313,7 @@
               <lb n="5" xml:id="p35-4"/>ἄμφω εἶχον μίαν, κἂν ἐκρίνομεν τὸ ἓν δύο. τοῦ δὲ διαψεύδεσθαι αἴτιον,<note type="apparatus" n="5" target="#p35-4">διεψεῦσθαι Arist. praeter LS</note>
               <lb n="6" xml:id="p35-5"/>ὅτι οὐ μόνον τοῦ αἰσθητοῦ κινουμένου φαίνεται ἁδήποτε, ἀλλὰ καὶ τῆς<note type="apparatus" n="6" target="#p35-5">αἰσθητικοῦ a (corr. iam Spengel)</note><milestone type="alt-edition" unit="line" ed="Spengel 1866" n="30"/>
               <lb n="7" xml:id="p35-6"/>αἰσθήσεως κινουμένης αὐτῆς, ἐὰν ὡσαύτως κινῆται, ὥσπερ ὑπὸ τοῦ<note type="apparatus" n="7" target="#p35-6">ὡσαύτως om. Arist. EMY post ὥσπερ add. καὶ Arist. EMY</note><milestone type="alt-edition" unit="page" ed="Spengel 1866" n="283"/>
-              <lb n="8" xml:id="p35-7"/>αἰσθητοῦ; λέγω δ’ οἷον ἡ γῆ δοκεῖ τοῖς πλέουσι κινεῖσθαι κινουμένης τῆς<note type="apparatus" n="8" target="#p35-7">τοῖς πλέουσι δοκεῖ B, sed v. Arist.</note>
+              <lb n="8" xml:id="p35-7"/><choice><sic>αἰσθητοῦ;</sic><corr>αἰσθητοῦ·</corr></choice> λέγω δ’ οἷον ἡ γῆ δοκεῖ τοῖς πλέουσι κινεῖσθαι κινουμένης τῆς<note type="apparatus" n="8" target="#p35-7">τοῖς πλέουσι δοκεῖ B, sed v. Arist.</note>
               <lb n="9" xml:id="p35-8"/>ὄψεως ὑπ’ ἄλλου.
             </p>
           </div>
@@ -1485,7 +1486,7 @@
               <lb n="26" xml:id="p39-25"/>τῆς ἡλικίας ἰδεῖν πρότερον μὴ ἑωρακόσι. <milestone type="alt-edition" unit="page" ed="Spengel 1866" n="290"/> τὸ δ’ αἴτιον τοῦ μὴ
               <lb n="27" xml:id="p39-26"/>γίνεσθαι πρότερον παραπλήσιον φαίνεται τῷ ἐπὶ τῶν παίδων καὶ μετὰ τὴν<note type="apparatus" n="27" target="#p39-26">φαίνεται τῷ—τροφήν (28) cum Arist. EMYc i m (sed παιδίων), τι δεῖ νομίζειν, ὅτι οὐδὲ μετὰ τὴν τροφὴν LSU τῷ] τῶν Ca (corr. Spengel)</note><note type="apparatus" n="27-28" target="#p39-26 #p39-27">τὰς τροφὰς Ca</note>
               <lb n="28" xml:id="p39-27"/>τροφήν· ὅσοις γὰρ συνέστηκεν ἡ φύσις, ὥστε πολλὴν ἀναθυμίασιν πρὸς τὸν<note type="apparatus" n="28" target="#p39-27">post γὰρ add. τοῦτον τὸν τρόπον Arist. LSU</note>
-              <lb n="29" xml:id="p39-28"/>ἄνω τόπον ἀναφέρεσθαι, ἢ καταφερομένη ποιεῖ πλῆθος κινήσεως, τούτοις<note type="apparatus" n="29" target="#p39-28">ἀναφέρεσθαι om., προσπίπτειν (vel προσεμπ.) ante ἀναθυμίασιν add. Arist. LSU</note><milestone type="alt-edition" unit="line" ed="Spengel 1866" n="5"/>
+              <lb n="29" xml:id="p39-28"/>ἄνω τόπον ἀναφέρεσθαι, ἣ καταφερομένη ποιεῖ πλῆθος κινήσεως, τούτοις<note type="apparatus" n="29" target="#p39-28">ἀναφέρεσθαι om., προσπίπτειν (vel προσεμπ.) ante ἀναθυμίασιν add. Arist. LSU</note><milestone type="alt-edition" unit="line" ed="Spengel 1866" n="5"/>
               <lb n="30" xml:id="p39-29"/>εὐλόγως οὐδὲν φαίνεται φάντασμα, προϊούσης δὲ τῆς ἡλικίας οὐδὲν ἄτοπον<note type="apparatus" n="30" target="#p39-29">οὐδὲ A</note>
               <lb n="31" xml:id="p39-30"/>τὸ φανῆναι ἐνύπνιον· μεταβολῆς γάρ τινος γινομένης ἢ καθ’ ἡλικίαν ἢ<note type="apparatus" n="31" target="#p39-30">τὸ om. Ca (Arist. praeter LS) γενομένης Arist. LSU</note>
               <lb n="32" xml:id="p39-31"/>πάθος ἀναγκαῖον συμβῆναι τὴν ἐναντίωσιν ταύτην.

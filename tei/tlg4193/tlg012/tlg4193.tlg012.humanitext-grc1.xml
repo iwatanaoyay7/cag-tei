@@ -57,6 +57,7 @@
       <change when="2026-10-23" who="#NI">Errors found by the accuracy evaluation (sample checked against the page images by student assistants, readings confirmed by the editor) corrected: 2 in the text and 1 in the apparatus.</change>
       <change when="2026-11-05" who="#NI">Apparatus entries printed out of numerical order (e.g. 33 … 32) separated from the preceding entry; words hyphenated across lines joined in Latin text as in Greek; words mixing Greek and Latin letters (OCR errors, about 130, including manuscript sigla) corrected on the page images; marginal folio marks left in the text removed; validated against TEI P5 version 4.12.0 (recorded in TEI/@version).</change>
       <change when="2026-11-05" who="#NI">Extent of the lemma quotations (quote[@type='lemma']) corrected: the automatic division had closed every lemma after its first printed line, leaving the remaining lines of lemmata printed over two or more lines at the head of the following paragraph. Candidates were found from the letter-spacing of the lines on the page images (lemmata are printed spaced) and from the line geometry (centred last line, indented paragraph start), and every candidate was decided on the page image (Claude work teams; about 7,700 places in the corpus); the lines so decided are now inside the quotation, with pb inside the quotation where a lemma runs on to the next page. Where the lemma runs on in the same line as the commentary (Stephanus in De interpretatione), the quotation ends after the last spaced word and the paragraph continues in the same line without a new lb; where no lemma is printed and the paraphrase follows the Bekker reference directly (Michael in De partibus animalium from p. 37), the quotation is dropped and the division kept; centred last lines the edition does not count are inside the quotation as unnumbered lines.</change>
+      <change when="2026-11-22" who="#NI">Readings questioned by the review of the translations collated on the page images (read independently, at least twice wherever the print does not have the proposed form, by a language model, Claude; the 28 places in all works that it could not settle were read by the editor): 6 errors of the transcription corrected; 3 evident misprints of the edition given as choice/sic/corr.</change>
     </revisionDesc>
   </teiHeader>
   <text>
@@ -829,7 +830,7 @@
               <lb n="21" xml:id="p19-20"/>ἕτερον ὂν ἐκείνων, ὅπερ οὐκ ἦν ἐν τοῖς ἀναιτίοις, καὶ μὴ συναριθμεῖσθαι<note type="apparatus" n="21" target="#p19-20">ἐν τοῖς ἐναντίοις M</note>
               <lb n="22" xml:id="p19-21"/>τὸ ἐξ ἀρχῆς, ὅπερ οὐκ ἔχουσιν οἱ παρὰ τὴν αἴτησιν τοῦ ἐν ἀρχῇ.
               <lb n="23" xml:id="p19-22"/>Οἱ δὲ παρὰ τὸ ἑπόμενον μέρος εἰσὶ τοῦ συμβεβηκότος, καὶ εἰ ἐκεῖνοι
-              <lb n="24" xml:id="p19-23"/>πίπτουσι τοῦ διορισμοῦ ἐκτός, καὶ οὗτοι· οὐ γὰρ τὸ ὅλον, καὶ τὸ μέρος.<note type="apparatus" n="24" target="#p19-23">οὐ γὰρ N</note>
+              <lb n="24" xml:id="p19-23"/>πίπτουσι τοῦ διορισμοῦ ἐκτός, καὶ οὗτοι· οὗ γὰρ τὸ ὅλον, καὶ τὸ μέρος.<note type="apparatus" n="24" target="#p19-23">οὐ γὰρ N</note>
               <lb n="25" xml:id="p19-24"/>διαφέρουσι δὲ καὶ ἀλλήλων τῷ τοὺς μὲν κατὰ συμβεβηκὸς περαίνειν ἁπλῶς<milestone type="alt-edition" unit="line" ed="Spengel 1842" n="20"/>
               <lb n="26" xml:id="p19-25"/>καὶ μὴ ἀντιστρέφειν, τοὺς δὲ παρὰ τὸ ἑπόμενον ἀντιστρέφειν, καὶ ὥσπερ
               <lb n="27" xml:id="p19-26"/>δὶς τὸ αὐτὸ λαμβάνειν τῇ μεταποιήσει. διὰ τοῦτο καὶ τὸν μὲν ἐφ’ ἑνὸς
@@ -1564,7 +1565,7 @@
               <lb n="33" xml:id="p36-32"/>τὸν τρία περιττὸν ἀριθμὸν ἠδολέσχησε· δὶς γὰρ ἐν ἑκατέροις ἔφθεγκται τὸ
               <lb n="34" xml:id="p36-33"/>αὐτό, τῷ ἐνεῖναι δυνάμει κἀν τῷ σιμῷ τὴν ῥῖνα καὶ τῷ περιττῷ τὸν ἀριθμόν·<note type="apparatus" n="34" target="#p36-33">κἂν M</note>
               <lb n="35" xml:id="p36-34"/>καὶ ὁ λέγων ἥδε ἡ ῥὶς σιμή, τοῦτο δὲ κοίλανσις ῥινός, συμπερανεῖ ‘ἔστιν ἄρα
-              <lb n="36" xml:id="p36-35"/>ῥὶς ῥὶς κοίλη.’ ἀπαντήσοι δ’ ἄν τις κἀνταῦθα πρὸς ταῦτα, ὡς ἐρχῆν δήπου<milestone type="alt-edition" unit="line" ed="Spengel 1842" n="20"/>
+              <lb n="36" xml:id="p36-35"/>ῥὶς ῥὶς κοίλη.’ ἀπαντήσοι δ’ ἄν τις κἀνταῦθα πρὸς ταῦτα, ὡς <choice><sic>ἐρχῆν</sic><corr>ἐχρῆν</corr></choice> δήπου<milestone type="alt-edition" unit="line" ed="Spengel 1842" n="20"/>
               <lb n="37" xml:id="p36-36"/>τὸν σοφιστὴν προπυνθάνεσθαι τὸν προσδιαλεγόμενον, εἰ σημαίνειν οἴεταί τι<note type="apparatus" n="37" target="#p36-36">προσπυνθάνεσθαι Aristoteles</note>
               <lb n="38" xml:id="p36-37"/>καθ’ αὑτὸ τὸ διπλάσιον χωρὶς τοῦ ἡμίσεος ἢ μή, δόντος δὲ σημαίνειν προσθεῖναι,
               <lb n="39" xml:id="p36-38"/>πότερον τὸ αὐτὸ ὃ κἂν μετὰ τοῦ ἡμίσεος, ἢ ἕτερον, καὶ φήσαντος
@@ -1608,7 +1609,7 @@
               <lb n="31" xml:id="p37-30"/>αἰτιατικῇ, οἷον ἔστι τοῦτο Κορίσκος, εἶναι τοῦτο Κορίσκον· ἀλλαττόμενα δὲ
               <lb n="32" xml:id="p37-31"/>σολοικίζει. καὶ ἐπὶ τῶν λεγομένων σκευῶν, ἐχόντων δὲ ἄρρενος ἢ θηλείας
               <lb n="33" xml:id="p37-32"/>κλῆσιν, ὡς ἀσκὸς καὶ κλίνη· οἰκεία γὰρ τῶν σκευῶν κατάληξις ἐν οὐδετέροις<milestone type="alt-edition" unit="line" ed="Spengel 1842" n="20"/>
-              <lb n="34" xml:id="p37-33"/>ἢ εἰς ο τυγχάνει καὶ ν, οἷον ξύλον, σχοινίον. καὶ τρόπον τινὰ ὅμοιός<note type="apparatus" n="34" target="#p37-33">καὶ ν] τὸ ν N</note>
+              <lb n="34" xml:id="p37-33"/>ἡ εἰς ο τυγχάνει καὶ ν, οἷον ξύλον, σχοινίον. καὶ τρόπον τινὰ ὅμοιός<note type="apparatus" n="34" target="#p37-33">καὶ ν] τὸ ν N</note>
               <lb n="35" xml:id="p37-34"/>ἐστιν ὁ σολοικισμὸς τοῖς παρὰ τὸ τὰ μὴ ὅμοια ὁμοίως λεγομένοις ἐλέγχοις,
               <lb n="36" xml:id="p37-35"/>οὓς καὶ παρὰ τὸ σχῆμα τῆς λέξεως ὀνομάζομεν. ὡς γὰρ ἐν ἐκείνοις ἐπὶ
               <lb n="37" xml:id="p37-36"/>τῶν πραγμάτων, τούτοις ἐπὶ τῶν ὀνομάτων συμπίπτει τὸ σολοικίζειν.
@@ -1617,7 +1618,7 @@
             <pb n="38" facs="https://archive.org/download/commentariainari23akaduoft/page/n507.jpg"/>
             <p>
               <lb n="1" xml:id="p38-0"/>Εἴδη μὲν οὖν ταῦτα τῶν ἀγωνιστικῶν λόγων καὶ μέρη τῶν εἰδῶν καὶ
-              <lb n="2" xml:id="p38-1"/>τρόποι οἱ εἰρημένοι. δ <milestone type="alt-edition" unit="page" ed="Spengel 1842" n="77"/> δὲ ἐν τοῖς Τοπικοῖς εἴρηται, ὡς οὐ τὰς ἀρχὰς<note type="apparatus" n="2-10" target="#p38-1 #p38-2 #p38-3 #p38-4 #p38-5 #p38-6 #p38-7 #p38-8 #p38-9">ἐν τοῖς Τοπικοῖς] Θ 1</note>
+              <lb n="2" xml:id="p38-1"/>τρόποι οἱ εἰρημένοι. <choice><sic>δ</sic><corr>ὃ</corr></choice> <milestone type="alt-edition" unit="page" ed="Spengel 1842" n="77"/> δὲ ἐν τοῖς Τοπικοῖς εἴρηται, ὡς οὐ τὰς ἀρχὰς<note type="apparatus" n="2-10" target="#p38-1 #p38-2 #p38-3 #p38-4 #p38-5 #p38-6 #p38-7 #p38-8 #p38-9">ἐν τοῖς Τοπικοῖς] Θ 1</note>
               <lb n="3" xml:id="p38-2"/>τῶν ἐπιχειρημάτων εὑρεῖν καθάπαξ ἀρκεῖ, ἀλλὰ καὶ ἐρωτηματίσαι τοιῶσδε
               <lb n="4" xml:id="p38-3"/>μεγάλα συμβάλλεται πρὸς τὸ ῥᾷον τυχεῖν συμπεράσματος, τοῦτο δὴ κἀνταῦθα<note type="apparatus" n="4" target="#p38-3">ῥᾷον om. MN</note>
               <lb n="5" xml:id="p38-4"/>λέγομεν· διαφέρει γὰρ οὐ μικρόν, ἐὰν ταχθῇ πως τὰ περὶ τὴν ἐρώτησιν
@@ -1927,7 +1928,7 @@
               <lb n="3" xml:id="p45-2"/>τῶν ὅρων, ἤ τινι τῶν αὐτοῦ καὶ ὅλως σύνεγγυς), οὐ δεῖ πρὸς τὸν ἐρωτῶντα
               <lb n="4" xml:id="p45-3"/>πρότερον ἀποκρίνεσθαι, πρὶν ἀναιρῆσαι τὸ ἐν ἀρχῇ προτεινόμενον. ὅταν δὲ
               <lb n="5" xml:id="p45-4"/>τοιοῦτον ἀξιοῖ τις συμπεραινόμενος δ’ ἀναγκαῖον μὲν συμβαίνειν ὡς ἐκ τῶν
-              <lb n="6" xml:id="p45-5"/>κειμένων προτάσεων συναγόμενον, ἢ δὲ ψεῦδος ἄλλως καὶ ἄδοξον, ῥητέον<note type="apparatus" n="6" target="#p45-5">καὶ ἄλλως MN</note>
+              <lb n="6" xml:id="p45-5"/>κειμένων προτάσεων συναγόμενον, ᾖ δὲ ψεῦδος ἄλλως καὶ ἄδοξον, ῥητέον<note type="apparatus" n="6" target="#p45-5">καὶ ἄλλως MN</note>
               <lb n="7" xml:id="p45-6"/>ὡς πολὺ πρότερον ψευδῆ καὶ ἄδοξα τὰ ἐξ ὧν. τὰ δὲ ἐξ ἀνάγκης συμβαίνοντα<milestone type="alt-edition" unit="line" ed="Spengel 1842" n="10"/>
               <lb n="8" xml:id="p45-7"/>τῆς αὐτῆς εἶναι δοκεῖ θέσεως, καὶ τὰ συμπεράσματα ἀκολουθεῖ ταῖς
               <lb n="9" xml:id="p45-8"/>προτάσεσιν. ἔτι ὅταν τὸ καθόλου μὴ ὀνόματι ἀλλὰ παραβολῇ ληφθῇ,
@@ -2290,7 +2291,7 @@
               <lb n="19" xml:id="p53-18"/>ἔχει ὡς δεξιάν, ὡδὶ δὲ ἔχει ὡς ἀριστεράν. ὥστε <milestone type="alt-edition" unit="page" ed="Spengel 1842" n="109"/> οὐ λύσις τῶν σοφισμάτων<note type="apparatus" n="19" target="#p53-18">λύουσις N</note>
               <lb n="20" xml:id="p53-19"/>ἣν ἐπῆγον ἐκεῖνοι, ἀλλ’ ἣν ἡμεῖς.<note type="apparatus" n="20" target="#p53-19">ὑμεῖς N</note>
               <lb n="21" xml:id="p53-20"/>Ἔτι δ’ εἰσὶ καὶ οἵδε τῶν λόγων τοῦ αὐτοῦ σχήματος· ‘ἆρ’ ὃ γέγραπται
-              <lb n="22" xml:id="p53-21"/>γεγραφέ τις;’ ναί. ‘γέγραπται δὲ λόγος ὅτι νῦν σὺ κάθησαι ψευδής. ἦν<note type="apparatus" n="22" target="#p53-21">post δὲ add. νῦν MN</note>
+              <lb n="22" xml:id="p53-21"/><choice><sic>γεγραφέ</sic><corr>γέγραφέ</corr></choice> τις;’ ναί. ‘γέγραπται δὲ λόγος ὅτι νῦν σὺ κάθησαι ψευδής. ἦν<note type="apparatus" n="22" target="#p53-21">post δὲ add. νῦν MN</note>
               <lb n="23" xml:id="p53-22"/>δὲ ἀληθὴς ὅτε ἐγράφετο· ἅμα ἄρα ἐγράφετο ψευδὴς καὶ ἀληθής.’ ἢ τὴν<note type="apparatus" n="23" target="#p53-22">ὅτι MN</note>
               <lb n="24" xml:id="p53-23"/>μὲν πρότασιν ἠρώτησεν ἐπὶ ποσοῦ, ἐπὶ λόγου λέξεις ἔχοντος καὶ συλλαβὰς
               <lb n="25" xml:id="p53-24"/>ὄντα ποσά, καὶ ἥντινα συλλαβὴν ἢ λέξιν γέγραφέ τις καὶ γέγραπται· τὸ δὲ<milestone type="alt-edition" unit="line" ed="Spengel 1842" n="10"/>
@@ -2710,7 +2711,7 @@
               <lb n="34" xml:id="p62-33"/>εἰπεῖν σιμὴ ἢ κοίλη. ἔτι οὐ δοτέον τὴν λέξιν κατ’ εὐθύ· ψεῦδος γὰρ τῷ
               <lb n="35" xml:id="p62-34"/>μὴ εἶναι τὸ σιμὸν ῥῖνα κοίλην, ἀλλὰ ῥινὸς τοδὶ οἷον πάθος, ὥστε οὐδὲν
               <lb n="36" xml:id="p62-35"/>ἄτοπον εἰ ἡ ῥὶς σιμὴ ῥίς ἐστιν ἔχουσα κοιλότητα ῥινός· οὐ γὰρ δὶς τὸ<milestone type="alt-edition" unit="line" ed="Spengel 1842" n="20"/>
-              <lb n="37" xml:id="p62-36"/>αὑτὸ κατὰ ταὐτὸ λέγει.<note type="apparatus" n="37" target="#p62-36">λέγειν N</note>
+              <lb n="37" xml:id="p62-36"/>αὐτὸ κατὰ ταὐτὸ λέγει.<note type="apparatus" n="37" target="#p62-36">λέγειν N</note>
             </p>
           </div>
           <div type="textpart" subtype="section" n="32">
@@ -2794,7 +2795,7 @@
               <lb n="26" xml:id="p64-25"/>τέξεται; οὐδετέρα, ἀλλ’ ὄπισθεν ἄμφω.’ καὶ ‘καθαρὸς ὁ βορέας; οὐ δῆτα·<milestone type="alt-edition" unit="line" ed="Spengel 1842" n="10"/>
               <lb n="27" xml:id="p64-26"/>ἀπέκτεινε γὰρ τὸν πτωχὸν καὶ τὸν ὠνούμενον.’ τό τε γὰρ ἔμπροσθεν καὶ
               <lb n="28" xml:id="p64-27"/>ἐπὶ τοῦ χρόνου καὶ ἐπὶ τοῦ μέρους τοῦ σώματος λέγεται, καὶ καθαρὸν τόν<note type="apparatus" n="28" target="#p64-27">τοῦ μέρους L cf. Alex. f. 59: om. MN</note>
-              <lb n="29" xml:id="p64-28"/>τε ὑγιεινὸν καὶ τὸν ἀμόλυντον λέγομεν. καὶ ‘ἆρ’ Εὔαργος οὗτος; οὐ δῆτα,
+              <lb n="29" xml:id="p64-28"/>τε ὑγιεινὸν καὶ τὸν ἀμόλυντον λέγομεν. καὶ ‘ἆρ’ Εὔαρχος οὗτος; οὐ δῆτα,
               <lb n="30" xml:id="p64-29"/>ἀλλ’ Ἀπολλωνίδης·’ τόν τε γὰρ εὖ ἄρχοντα εὔαρχον ἔλεγον καὶ τὸν Ἀπολλωνίδην.
               <lb n="31" xml:id="p64-30"/>τὸν αὐτὸν δὲ τρόπον καὶ τῶν ἄλλων σχεδὸν οἱ πλεῖστοι. σημεῖον
               <lb n="32" xml:id="p64-31"/>δὲ τούτων καὶ ὡς λανθάνουσι καὶ τοὺς ἐπιστήμονας τῶν παρὰ τὴν ὁμωνυμίαν
@@ -2926,7 +2927,7 @@
               <lb n="31" xml:id="p67-30"/>μὲν ἄτεχνος δ’ ἦν ἡ διδασκαλία τοῖς μανθάνουσι παρ’ αὐτῶν· οὐ<milestone type="alt-edition" unit="line" ed="Spengel 1842" n="20"/>
               <lb n="32" xml:id="p67-31"/>γὰρ τέχνην ἀλλὰ τὰ ἀπὸ τῆς τέχνης διδόντες παιδεύειν ὑπελάμβανον,
               <lb n="33" xml:id="p67-32"/>ὥσπερ ἄν τις ἐπιστήμην φάσκων παραδώσειν ἐπὶ τῷ μηδὲν πονεῖν τοὺς
-              <lb n="34" xml:id="p67-33"/>πόδας εἶτα σκυτοτομικὴν μὲν μὴ διδάσκη μηδ’ ὅθεν δυνήσεται πορίζεσθαι
+              <lb n="34" xml:id="p67-33"/>πόδας εἶτα σκυτοτομικὴν μὲν μὴ διδάσκῃ μηδ’ ὅθεν δυνήσεται πορίζεσθαι
               <lb n="35" xml:id="p67-34"/>τὰ τοιαῦτα, δοίη δὲ πολλὰ γένη παντοδαπῶν ὑποδημάτων. οὗτος βεβοήθηκε
               <lb n="36" xml:id="p67-35"/>μὲν πρὸς τὴν χρείαν, τέχνην δὲ οὐ παρέδωκε. καὶ περὶ μὲν <milestone type="alt-edition" unit="page" ed="Spengel 1842" n="139"/> τῶν
               <lb n="37" xml:id="p67-36"/>ῥητορικῶν ὑπῆρχε πολλὰ καὶ παλαιὰ τὰ λεγόμενα, περὶ δὲ τοῦ συλλογίζεσθαι

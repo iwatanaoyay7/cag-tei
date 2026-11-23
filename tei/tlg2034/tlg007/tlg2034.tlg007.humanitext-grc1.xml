@@ -51,6 +51,7 @@
       <change when="2026-10-23" who="#NI">Quotation marks made uniform: opening single and double quotation marks, printed in the edition in the reversed (high-reversed-9) form, are encoded as ‘ and “, closing ones as ’ and ”, single and double kept as printed; opening marks read by the OCR as straight quotes, low quotes or spacing breathings, and spacing breathings or quotation marks doubled before a capital that already bears its breathing, corrected.</change>
       <change when="2026-11-05" who="#NI">Apparatus entries printed out of numerical order (e.g. 33 … 32) separated from the preceding entry; words hyphenated across lines joined in Latin text as in Greek; words mixing Greek and Latin letters (OCR errors, about 130, including manuscript sigla) corrected on the page images; marginal folio marks left in the text removed; validated against TEI P5 version 4.12.0 (recorded in TEI/@version).</change>
       <change when="2026-11-05" who="#NI">Extent of the lemma quotations (quote[@type='lemma']) checked on the page images: lemmata closed before their last printed line (the quotation was closed when the collation text was covered, so a short centred last line could be left out) extended; abbreviated lemmata (Ἀλλὰ … γένη.) whose quotation had taken in the first line of the commentary shortened (11 places in the pilot works); candidates found from the letter-spacing of the lines on the page images and the line geometry and decided on the page images (Claude work teams).</change>
+      <change when="2026-11-22" who="#NI">Readings questioned by the review of the translations collated on the page images (read independently, at least twice wherever the print does not have the proposed form, by a language model, Claude; the 28 places in all works that it could not settle were read by the editor): 5 errors of the transcription corrected; 4 evident misprints of the edition given as choice/sic/corr; 2 evident misprints of the edition in a word broken at the line end (which cannot carry choice/sic/corr) corrected in the text.</change>
     </revisionDesc>
   </teiHeader>
   <text>
@@ -99,7 +100,7 @@
                 <lb n="4" xml:id="p56-3"/>κεφαλὴν ὥσπερ ἐχῖνοι καὶ ἀκαλῆφαι καὶ ὅσα τοιαῦτα. διὸ καὶ αὐτός ἔφη·<note type="apparatus" n="4" target="#p56-3">αὐτὸς ἔφη] Categ. 7 p. 7 a 5</note>
                 <lb n="5" xml:id="p56-4"/>‘ἐνίοτε καὶ ὀνοματοποιεῖν δεῖ’. τὸ οὖν τῆς κατηγορίας ὄνομα κείμενον<note type="apparatus" n="5" target="#p56-4">post. ἐνίοτε add. δὲ p Aristot.: om. M</note><note type="apparatus" n="5" target="#p56-4">δεῖ] ἴσως ἀναγκαῖον Aristot.</note>
                 <lb n="6" xml:id="p56-5"/>ἐν τῇ συνηθείᾳ ἐπὶ δικαιολογίας ἐλεγκτικῆς, τῆς διὰ λόγων μηνύσεως, λαβὼν<note type="apparatus" n="6" target="#p56-5">ἐγκλητικῆς superscr. M: ἐλεγκτικῆς M¹p</note>
-                <lb n="7" xml:id="p56-6"/>αὐτὸς τὰς τῶν λέξεων τῶν σημαντικῶν κατὰ τῶν πραγμάτων ἀγορεύρεύσεις
+                <lb n="7" xml:id="p56-6"/>αὐτὸς τὰς τῶν λέξεων τῶν σημαντικῶν κατὰ τῶν πραγμάτων ἀγορεύσεις
                 <lb n="8" xml:id="p56-7"/>κατηγορίας προσείπεν. ὥστε πᾶσα ἁπλῆ λέξις σημαντικὴ ὅταν κατὰ<note type="apparatus" n="8-9" target="#p56-7 #p56-8">κατὰ τοῦ p: καθ’ οὗ M</note>
                 <lb n="9" xml:id="p56-8"/>τοῦ σημαινομένου πράγματος ἀγορευθῇ τε καὶ λεχθῇ, λέγεται κατηγορία. οἷον
                 <lb n="10" xml:id="p56-9"/>ὄντος πράγματος τοῦδε τοῦ δεικνυμένου λίθου, οὗ ἁπτόμεθα ἢ ὃ βλέπομεν,<note type="apparatus" n="10" target="#p56-9">ὃ M: ὃν p</note>
@@ -191,7 +192,7 @@
                 <lb n="29" xml:id="p57-28"/>τῶν τοιούτων τῆς φωνῆς ψόφων. τεθεισῶν δὲ τοῖς πράγμασι συμβολικῶς
                 <lb n="30" xml:id="p57-29"/>τινων λέξεων προηγουμένως, πάλιν ὁ ἄνθρωπος κατὰ δευτέραν ἐπιβολὴν
                 <lb n="31" xml:id="p57-30"/>ἐπανελθὼν (αὐτὰς τὰς τεθείσας λέξεις θεωρήσας) τὰς μὲν τοιοῦτον φέρε τύπον<milestone type="alt-edition" unit="line" ed="ed. princeps Paris. 1543" n="10"/>
-                <lb n="32" xml:id="p57-31"/>ἐχούσας, ὥστε ἄρθροις συνάπτεσθαι τοιοῖσδε, ‘’ὀνόματα’ κέκληκε, τὰς δὲ τοιαύτας<note type="apparatus" n="32" target="#p57-31">post τοιοῖσδε desideratur οἷον ὁ, ἡ</note><note type="apparatus" n="32-33" target="#p57-31 #p57-32">τοιαύτας compendiose M: τοιάσδε p</note>
+                <lb n="32" xml:id="p57-31"/>ἐχούσας, ὥστε ἄρθροις συνάπτεσθαι τοιοῖσδε, ὀνόματα κέκληκε, τὰς δὲ τοιαύτας<note type="apparatus" n="32" target="#p57-31">post τοιοῖσδε desideratur οἷον ὁ, ἡ</note><note type="apparatus" n="32-33" target="#p57-31 #p57-32">τοιαύτας compendiose M: τοιάσδε p</note>
                 <lb n="33" xml:id="p57-32"/>οἷον τὸ περιπατῶ, περιπατεῖς, περιπατεῖ, ‘’ῥήματα,’ δηλώματα τῶν
                 <lb n="34" xml:id="p57-33"/>ποιῶν τύπων παριστὰς τῶν φωνῶν διὰ τοῦ τὰς μὲν ὀνόματα καλέσαι τὰς
                 <lb n="35" xml:id="p57-34"/>δὲ ῥήματα. ὥστε τόδε μέν τι τὸ πρᾶγμα καλέσαι χρυσὸν καὶ τὴν τοιαύτην<milestone type="alt-edition" unit="line" ed="ed. princeps Paris. 1543" n="15"/>
@@ -331,7 +332,7 @@
                 <lb n="19" xml:id="p60-18"/>τῶν πραγμάτων καὶ δι’ ὀνόματος καὶ διὰ λόγου τοῦ ὁριστικοῦ καὶ
                 <lb n="20" xml:id="p60-19"/>παραστατικοῦ τῆς οὐσίας αὐτοῦ, ὡς ὅταν τὴν φωνὴν λέγωμεν τὸ ἴδιον αἰσθητὸν
                 <lb n="21" xml:id="p60-20"/>ἀκοῆς· παντὸς οὖν πράγματος καὶ ὄνομα καὶ λόγον ὁριστικὸν ἔχοντος
-                <lb n="22" xml:id="p60-21"/>σχέσεις ἐν τοῖς πράγμασι τῶν τοιούτων λόγων πρὸς τὰ ὀνόματα γινονται
+                <lb n="22" xml:id="p60-21"/>σχέσεις ἐν τοῖς πράγμασι τῶν τοιούτων λόγων πρὸς τὰ ὀνόματα γίνονται
                 <lb n="23" xml:id="p60-22"/>τέσσαρες· τὰ γὰρ πράγματα ἢ καὶ τοῦ ὀνόματος καὶ τοῦ λόγου τοῦ
                 <lb n="24" xml:id="p60-23"/>αὐτοῦ κοινωνεῖ, ἢ τοῦ μὲν ὀνόματος οὐ μέντοι τοῦ λόγου, ἢ τοῦ μὲν λόγου
                 <lb n="25" xml:id="p60-24"/>τοῦ δὲ ὀνόματος οὔ, ἢ οὔτε τοῦ λόγου οὔτε τοῦ ὀνόματος. καὶ ὅταν μὲν<milestone type="alt-edition" unit="line" ed="ed. princeps Paris. 1543" n="30"/>
@@ -1844,7 +1845,7 @@
             <div type="textpart" subtype="EA" n="93">
               <p>
                 <lb n="19" xml:id="p87-18"/>Ἐ. Τί οὖν ἐστιν παραδοῦναι;<note type="apparatus" n="19" target="#p87-18">ἔστιν M: om. p</note>
-                <lb n="20" xml:id="p87-19"/>Ἀ. Παραδείγματα καὶ τὰ ἴδια, ὡς καὶ Αριστοτέλης νῦν μὲν διδοὺς
+                <lb n="20" xml:id="p87-19"/>Ἀ. Παραδείγματα καὶ τὰ ἴδια, ὡς καὶ Ἀριστοτέλης νῦν μὲν διδοὺς
                 <lb n="21" xml:id="p87-20"/>παραδείγματα, ὕστερον δὲ καθ’ ἑκάστην κατηγορίαν ζητήσας καὶ δείξας
                 <lb n="22" xml:id="p87-21"/>τινα ἑκάστης ἴδια.
               </p>
@@ -2059,7 +2060,7 @@
                 <lb n="22" xml:id="p90-21"/>ζῴου δὲ πάντως ἀναιρεθέντος οὐδ’ ἂν εἴη Σωκράτης. οὔκουν τί ἐκ τούτου
                 <lb n="23" xml:id="p90-22"/>συνάγεται; εἰ γὰρ πρῶτά ἐστι ταῦτα, ἃ συναναιρεῖ μέν, οὐ συναναιρεῖται
                 <lb n="24" xml:id="p90-23"/>δέ, τὸ δὲ ζῷον καὶ ὁ ἄνθρωπος συναναιρεῖ μὲν τὸν Σωκράτην, οὐ<note type="apparatus" n="24" target="#p90-23">δὲ (ante ζῷον) M: om. p</note>
-                <lb n="25" xml:id="p90-24"/>συναναιρεῖται, δὲ σὺν τῷ Σωκράτει, οὐχ ὁ Σωκράτης ἂν εἴη οὐσία πρώτη
+                <lb n="25" xml:id="p90-24"/><choice><sic>συναναιρεῖται,</sic><corr>συναναιρεῖται</corr></choice> δὲ σὺν τῷ Σωκράτει, οὐχ ὁ Σωκράτης ἂν εἴη οὐσία πρώτη
                 <lb n="26" xml:id="p90-25"/>ἀλλὰ τὰ γένη καὶ τὰ εἴδη. τί οὖν πρὸς τὴν τοιαύτην ἀπορίαν εἴποις ἄν;
                 <lb n="27" xml:id="p90-26"/>Ἀ. Φημὶ ὅτι οὐ κατὰ λόγον τὸ εἰρημένον προήγαγες.
               </p>
@@ -2944,7 +2945,7 @@
               <p>
                 <lb n="7" xml:id="p106-6"/>Ἐ. Ἀλλὰ τίνα μὲν τὰ κυρίως ποσά, τίνα δὲ τὰ κατὰ συμβεβηκός,
                 <lb n="8" xml:id="p106-7"/>ἀποδέδωκας, τίνα τε θέσιν ἔχοντα τῶν μορίων καὶ τίνα τὰ θέσιν οὐκ<note type="apparatus" n="8" target="#p106-7">τε M: δὲ p, corrigas τε 〈τὰ〉</note><milestone type="alt-edition" unit="line" ed="ed. princeps Paris. 1543" n="30"/>
-                <lb n="9" xml:id="p106-8"/>ἔχοντα, ἔτι τε τίνα τὰ συνεχῆ καὶ τίνα τὰ διωρισμέναι· τὸ δὲ ἴδιον ἀφορίσαι<milestone type="alt-edition" unit="folio" ed="ed. princeps Paris. 1543" n="32v"/>
+                <lb n="9" xml:id="p106-8"/>ἔχοντα, ἔτι τε τίνα τὰ συνεχῆ καὶ τίνα τὰ <choice><sic>διωρισμέναι</sic><corr>διωρισμένα</corr></choice>· τὸ δὲ ἴδιον ἀφορίσαι<milestone type="alt-edition" unit="folio" ed="ed. princeps Paris. 1543" n="32v"/>
                 <lb n="10" xml:id="p106-9"/>χρὴ τί ἂν εἴη τοῦ ποσοῦ.
                 <lb n="11" xml:id="p106-10"/>Ἀ. Φημὶ τοίνυν ὅτι ὑπάρχει τῷ ποσῷ τὸ μηθὲν ἔχειν ἐναντίον.
               </p>
@@ -3224,7 +3225,7 @@
               <p>
                 <lb n="14" xml:id="p110-13"/>Ἐ. Ἆρα οὖν διὰ τοῦτο ἴδιον τοῦ ποσοῦ τοῦτο;
                 <lb n="15" xml:id="p110-14"/>Ἀ. Οὐδαμῶς· οὐδὲ γὰρ ἐπὶ τῆς οὐσίας ἐδείχθη ἐναντίωσις, καὶ ἐπὶ<note type="apparatus" n="15" target="#p110-14">οὐδὲ M: οὔτε p</note><milestone type="alt-edition" unit="line" ed="ed. princeps Paris. 1543" n="30"/>
-                <lb n="16" xml:id="p110-15"/>τινῶν δὲ τῶν τοῦ ποιοῦ δειχθήσεται μὴ προσουσα ἐναντίωσις, ὥστε οὐκ
+                <lb n="16" xml:id="p110-15"/>τινῶν δὲ τῶν τοῦ ποιοῦ δειχθήσεται μὴ προσοῦσα ἐναντίωσις, ὥστε οὐκ
                 <lb n="17" xml:id="p110-16"/>ἴδιον τοῦ ποσοῦ τοῦτο, κἂν παντὶ ποσῷ μηδὲν ᾖ ἐναντίον.<milestone type="alt-edition" unit="folio" ed="ed. princeps Paris. 1543" n="35r"/>
               </p>
             </div>
@@ -3451,7 +3452,7 @@
             <div type="textpart" subtype="EA" n="18">
               <p>
                 <lb n="29" xml:id="p113-28"/>Ἐ. Ὥσπερ τοίνυν ἐπὶ τῆς οὐσίας καὶ τοῦ ποσοῦ ζητῶν τὸ ἴδιον<note type="apparatus" n="29" target="#p113-28">ζητῶν Zp: ζητῶ M</note><milestone type="alt-edition" unit="line" ed="ed. princeps Paris. 1543" n="20"/>
-                <lb n="30" xml:id="p113-29"/>πρῶτον ἐζήτησας, τὸ ἔχειν ἐναντίον ἢ μὴ ἔχειν εἰ ἴδιον αὐτῶν, ἐστιν καὶ<note type="apparatus" n="30" target="#p113-29">αὐτῶν M: αὐτῷ p</note>
+                <lb n="30" xml:id="p113-29"/>πρῶτον ἐζήτησας, τὸ ἔχειν ἐναντίον ἢ μὴ ἔχειν εἰ ἴδιον <choice><sic>αὐτῶν, ἐστιν</sic><corr>αὐτῶν ἐστιν,</corr></choice> καὶ<note type="apparatus" n="30" target="#p113-29">αὐτῶν M: αὐτῷ p</note>
                 <lb n="31" xml:id="p113-30"/>ζητήσας ἀπέδειξας ὅτι μὴ ἦν ἴδιον αὐτῶν τὸ μὴ ἔχειν ἐναντίον, οὕτως καὶ<note type="apparatus" n="31" target="#p113-30">ἀπέδειξας Felic.: ἀπέδειξα Mp τὸ μὴ ἔχειν M: τὸ ἔχειν p post ἐναντίον add. ἢ τὸ μὴ ἔχειν p: om. M</note>
                 <lb n="32" xml:id="p113-31"/>ἐπὶ τῶν πρός τι ζήτησον, μὴ ἴδιον αὐτῶν τὸ ἔχειν ἐναντίον ἢ τὸ μὴ
                 <lb n="33" xml:id="p113-32"/>ἔχειν.
@@ -4268,7 +4269,7 @@
             </div>
             <div type="textpart" subtype="EA" n="7">
               <p>
-                <lb n="16" xml:id="p128-15"/>Ἐ. Ἀλλ εἰ τὰ ὁμωνύμως λεγόμενά φησιν αὐτὸς πλεοναχῶς λέγεσθαι,<milestone type="alt-edition" unit="line" ed="ed. princeps Paris. 1543" n="20"/>
+                <lb n="16" xml:id="p128-15"/>Ἐ. Ἀλλ’ εἰ τὰ ὁμωνύμως λεγόμενά φησιν αὐτὸς πλεοναχῶς λέγεσθαι,<milestone type="alt-edition" unit="line" ed="ed. princeps Paris. 1543" n="20"/>
                 <lb n="17" xml:id="p128-16"/>πῶς πλεοναχῶς λέγεσθαι τὴν ποιότητά φησιν ὁ Ἀριστοτέλης;<note type="apparatus" n="17" target="#p128-16">φησιν Zp: φασιν M</note>
                 <lb n="18" xml:id="p128-17"/>Ἀ. Οὐχὶ τῶν ὁμωνύμων λέγω ἂν εἶναι τὴν ποιότητα· τῶν δὲ ὁμωνύμων<note type="apparatus" n="18" target="#p128-17">ἂν M: om. p</note><note type="apparatus" n="18-20" target="#p128-17 #p128-18 #p128-19">τῶν δὲ ὁμωνύμων—γένος transponas post λέγεσθαι (v. 16. 17)</note>
                 <lb n="19" xml:id="p128-18"/>κατὰ ταὐτὸν οὐδὲν δήπου γένος, ὥστε οὐδὲ τῆς ποιότητος ἓν ἂν εἴη
@@ -4729,7 +4730,7 @@
             </div>
             <div type="textpart" subtype="EA" n="50">
               <p>
-                <lb n="19" xml:id="p136-18"/>Ἐ. Πῶς.<note type="apparatus" n="19" target="#p136-18">πῶς M: om. p</note>
+                <lb n="19" xml:id="p136-18"/>Ἐ. <choice><sic>Πῶς.</sic><corr>Πῶς;</corr></choice><note type="apparatus" n="19" target="#p136-18">πῶς M: om. p</note>
                 <lb n="20" xml:id="p136-19"/>Ἀ. Εἰ γὰρ ἡ δικαιοσύνη ἐναντία τῇ ἀδικίᾳ ἐστὶ καὶ ἡ δικαιοσύνη
                 <lb n="21" xml:id="p136-20"/>ποιότης, καὶ ἡ ἀδικία πάντως ποιότης ἔσται.
               </p>
@@ -4738,7 +4739,7 @@
               <p>
                 <lb n="22" xml:id="p136-21"/>Ἐ. Διὰ τί οὖν ἔφη 〈εἰ〉 ἡ δικαιοσύνη ἐναντία τῇ ἀδικίᾳ καὶ<note type="apparatus" n="22" target="#p136-21">εἰ interposui: om. Mp τῇ ἀδικίᾳ καὶ οὐχὶ paene oblitt. M: καὶ δίκαιον οὐχὶ Zp</note>
                 <lb n="23" xml:id="p136-22"/>οὐχὶ ἐπεὶ ἡ δικαιοσύνη ἐναντία τῇ ἀδικίᾳ;
-                <lb n="24" xml:id="p136-23"/>Ἀ. Ὅτι ἦσάν τινες οἳ τῇ δικαιοσύνη οὐκ ἐδίδοσαν ἐναντίαν εἶναι τὴν<note type="apparatus" n="24-25" target="#p136-23 #p136-24">τὴν ἀδικίαν M: τῇ ἀδικίᾳ p</note>
+                <lb n="24" xml:id="p136-23"/>Ἀ. Ὅτι ἦσάν τινες οἳ τῇ δικαιοσύνῃ οὐκ ἐδίδοσαν ἐναντίαν εἶναι τὴν<note type="apparatus" n="24-25" target="#p136-23 #p136-24">τὴν ἀδικίαν M: τῇ ἀδικίᾳ p</note>
                 <lb n="25" xml:id="p136-24"/>ἀδικίαν, ἀλλὰ τὴν μὲν ἐναντίαν ἕξιν ἀνώνυμον εἶναι, τὴν δὲ ἀδικίαν στέρησιν<milestone type="alt-edition" unit="line" ed="ed. princeps Paris. 1543" n="15"/>
                 <lb n="26" xml:id="p136-25"/>εἶναι καὶ οὐχ ἕξιν· τὰς γὰρ ἕξεις καταφατικῶς δεῖν προσαγορεύειν,
                 <lb n="27" xml:id="p136-26"/>τὰς δὲ στερήσεις ἀρνητικῶς.

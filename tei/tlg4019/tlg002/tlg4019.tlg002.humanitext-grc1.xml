@@ -56,6 +56,7 @@
       <change when="2026-10-23" who="#NI">Quotation marks made uniform: opening single and double quotation marks, printed in the edition in the reversed (high-reversed-9) form, are encoded as ‘ and “, closing ones as ’ and ”, single and double kept as printed; opening marks read by the OCR as straight quotes, low quotes or spacing breathings, and spacing breathings or quotation marks doubled before a capital that already bears its breathing, corrected.</change>
       <change when="2026-11-05" who="#NI">Apparatus entries printed out of numerical order (e.g. 33 … 32) separated from the preceding entry; words hyphenated across lines joined in Latin text as in Greek; words mixing Greek and Latin letters (OCR errors, about 130, including manuscript sigla) corrected on the page images; marginal folio marks left in the text removed; validated against TEI P5 version 4.12.0 (recorded in TEI/@version).</change>
       <change when="2026-11-05" who="#NI">Extent of the lemma quotations (quote[@type='lemma']) corrected: the automatic division had closed every lemma after its first printed line, leaving the remaining lines of lemmata printed over two or more lines at the head of the following paragraph. Candidates were found from the letter-spacing of the lines on the page images (lemmata are printed spaced) and from the line geometry (centred last line, indented paragraph start), and every candidate was decided on the page image (Claude work teams; about 7,700 places in the corpus); the lines so decided are now inside the quotation, with pb inside the quotation where a lemma runs on to the next page. Where the lemma runs on in the same line as the commentary (Stephanus in De interpretatione), the quotation ends after the last spaced word and the paragraph continues in the same line without a new lb; where no lemma is printed and the paraphrase follows the Bekker reference directly (Michael in De partibus animalium from p. 37), the quotation is dropped and the division kept; centred last lines the edition does not count are inside the quotation as unnumbered lines.</change>
+      <change when="2026-11-22" who="#NI">Readings questioned by the review of the translations collated on the page images (read independently, at least twice wherever the print does not have the proposed form, by a language model, Claude; the 28 places in all works that it could not settle were read by the editor): 5 errors of the transcription corrected; 13 evident misprints of the edition given as choice/sic/corr; 1 evident misprint of the edition in a word broken at the line end (which cannot carry choice/sic/corr) corrected in the text.</change>
     </revisionDesc>
   </teiHeader>
   <text>
@@ -448,7 +449,7 @@
               <lb n="12" xml:id="p34-11"/>οὐ διὰ αὐτὴν τὴν διάνοιαν ἑκατέροις κειμένου τοῦ ὀνόματος, ἀλλὰ κατά
               <lb n="13" xml:id="p34-12"/>τινα τύχην. ἀλλὰ τούτων τῶν κατὰ τύχην οὐκ ἔστι διαίρεσις, διότι αἱ
               <lb n="14" xml:id="p34-13"/>διαιρέσεις ἢ ἀπὸ τέχνης ἢ ἀπὸ ἐπιστήμης <milestone type="alt-edition" unit="folio" ed="cod. Mutinensis 69" n="32v"/> προβάλλονται, τὰ δὲ κατὰ
-              <lb n="15" xml:id="p34-14"/>τύχην οὐδὲ τέχνη, πολλῷ δὲ μᾶλλον οὐδὲ ἐπιστήμη ὑποπέπτωκεν διὰ τὸ
+              <lb n="15" xml:id="p34-14"/>τύχην οὐδὲ τέχνῃ, πολλῷ δὲ μᾶλλον οὐδὲ ἐπιστήμῃ ὑποπέπτωκεν διὰ τὸ
               <lb n="16" xml:id="p34-15"/>τὰς μὲν τέχνας καὶ τὰς ἐπιστήμας ὡρισμένας εἶναι, τὰ δὲ κατὰ τύχην<note type="apparatus" n="16" target="#p34-15">ὁρισμένας M</note>
               <lb n="17" xml:id="p34-16"/>ἀόριστα εἶναι, τὰ δὲ ἀόριστα διαιρέσει οὐχ ὑποβάλλονται. καὶ ὅτι ταῦτα
               <lb n="18" xml:id="p34-17"/>οὕτως ἔχει, δηλοῖ καὶ 〈ὁ〉 ἐν Γοργίᾳ Σωκράτης· ἐμπειρία γάρ 〈φησι〉 τὸ<note type="apparatus" n="18" target="#p34-17">ὁ inseruit Vitelli (cf. Amm. in Interpr. p. 47,3) Γοργίᾳ] p. 448 C (cf. El. p. 140,3) φησι addidi</note>
@@ -511,7 +512,7 @@
               <lb n="36" xml:id="p35-35"/>Αἴας ὁ Τελαμώνιος τῷ Ὀϊλέως Αἴαντι ὁμώνυμόν ἐστι καὶ συνώνυμον, κατὰ
               <lb n="37" xml:id="p35-36"/>μὲν τὸ Αἴας ὁμώνυμον κατὰ δὲ τὸ ἄνθρωπος συνώνυμον· ἰδοὺ ὁ αὐτὸς
               <lb n="38" xml:id="p35-37"/>Αἴας ὁ Τελαμώνιος τῷ αὐτῷ Αἴαντι, τοῦτ’ ἔστι τῷ Ὀϊλέως, κατ’ ἄλλο
-              <lb n="39" xml:id="p35-38"/>καὶ ἄλλο, τοῦτ’ ἔστι κατὸ τὸ Αἴας καὶ κατὰ τὸ ἄνθρωπος, ὁμώνυμόν ἐστι<note type="apparatus" n="39" target="#p35-38">ἄνθρωπος M 3*</note>
+              <lb n="39" xml:id="p35-38"/>καὶ ἄλλο, τοῦτ’ ἔστι <choice><sic>κατὸ</sic><corr>κατὰ</corr></choice> τὸ Αἴας καὶ κατὰ τὸ ἄνθρωπος, ὁμώνυμόν ἐστι<note type="apparatus" n="39" target="#p35-38">ἄνθρωπος M 3*</note>
             </p>
             <pb n="36" facs="https://archive.org/download/commentariaina12pt12akaduoft/page/n53.jpg"/>
             <p>
@@ -699,7 +700,7 @@
               <lb n="34" xml:id="p39-33"/>χορδῶν ἀρίστη ᾖ ἡ κατασκευή, ἀναρμοστία δὲ γίνεται καὶ διὰ κακίαν μιᾶς,<note type="apparatus" n="34" target="#p39-33">μιᾶς corr. Vitelli: ἰλίας (sic) M</note>
               <lb n="35" xml:id="p39-34"/>οὕτω καὶ ταυτότης μὲν οὐκ ἂν γένοιτο, εἰ μὴ κατὰ πάντα κοινωνοῖεν τὰ
               <lb n="36" xml:id="p39-35"/>μέλλοντα λέγεσθαι ταὐτά, ἑτερότης δὲ συμβαίνει καὶ μιᾶς ὁπωσοῦν διαφορᾶς
-              <lb n="37" xml:id="p39-36"/>οὔσης. ἐπεὶ οὖν ἐν τοῖς παρωνύμοις ἐστὶν ὁπωσοῦν διαφορά, τὰ δὲ ὁπωσοὖν
+              <lb n="37" xml:id="p39-36"/>οὔσης. ἐπεὶ οὖν ἐν τοῖς παρωνύμοις ἐστὶν ὁπωσοῦν διαφορά, τὰ δὲ ὁπωσοῦν
               <lb n="38" xml:id="p39-37"/>διαφέροντα ἕτερά ἐστι, εἰκότως ἐπὶ τὰ ἑτερώνυμα ἀνάγονται ταῦτα.
               <lb n="39" xml:id="p39-38"/>ἔστι δὲ καὶ ἄλλως εἰπεῖν· ἰστέον ὅτι ἐλέγομεν τὰ παρώνυμα νενοθευμένα<note type="apparatus" n="39" target="#p39-38">ἐλέγομεν] p. 38,32</note>
               <lb n="40" xml:id="p39-39"/>εἶναι, τὴν μέντοι διαίρεσιν ἐποιησάμεθα τῶν γνησίων, οὐ τῶν νόθων· εἰ
@@ -1928,7 +1929,7 @@
               <lb n="11" xml:id="p65-10"/>φαμὲν τὴν ἀπορίαν ὅτι ὁ φιλόσοφος πρὸς τὴν αἰτίαν τούτων ἀποβλέψας τὴν
               <lb n="12" xml:id="p65-11"/>κοινήν, τοῦτ’ ἔστι τὸ κατηγορεῖσθαι, μιᾶς ἠξίωσε ταῦτα προσηγορίας·
               <lb n="13" xml:id="p65-12"/>κοινὴν γὰρ αἰτίαν ἔχουσι τὸ κοινῶς κατηγορεῖσθαι κατὰ τῆς πρώτης οὐσίας.
-              <lb n="14" xml:id="p65-13"/>πρὸς τοῦτο ἀποβλέψας ἀμφοτέρας δευτέρας ἐκάλεσιν, οὐ πρὸς τὸ τὴν μὲν
+              <lb n="14" xml:id="p65-13"/>πρὸς τοῦτο ἀποβλέψας ἀμφοτέρας δευτέρας <choice><sic>ἐκάλεσιν</sic><corr>ἐκάλεσεν</corr></choice>, οὐ πρὸς τὸ τὴν μὲν
               <lb n="15" xml:id="p65-14"/>μᾶλλον οὐσίαν εἶναι τὴν δὲ ἧττον. <milestone type="alt-edition" unit="folio" ed="cod. Mutinensis 69" n="60r"/> ἀλλ’ ἐκ ταύτης τῆς ἐπιλύσεως τρίτη
               <lb n="16" xml:id="p65-15"/>τις ἡμῖν ἀναφαίνεται ἀπορία, ἡ λέγουσα ὅτι εἰ καὶ τὰ εἴδη καὶ τὰ γένη
               <lb n="17" xml:id="p65-16"/>διὰ τὴν κοινὴν αἰτίαν, τοῦτ’ ἔστι διὰ τὸ συμβάλλεσθαι τούτοις τὰς πρώτας<note type="apparatus" n="17" target="#p65-16">συμβάλεσθαι M</note>
@@ -1953,12 +1954,12 @@
               <lb n="36" xml:id="p65-35"/>οὖν ἴδιον τῆς οὐσίας τὸ μὴ ἐν ὑποκειμένῳ εἶναι. ἐπειδὴ δὲ τὸ ἴδιον καὶ
               <lb n="37" xml:id="p65-36"/>μόνῳ καὶ παντὶ βούλεται ἐφαρμόζειν, ζητήσωμεν ἐπὶ τοῦ παρόντος ἰδίου
               <lb n="38" xml:id="p65-37"/>εἰ πρόσεστιν αὐτῷ ταῦτα. ἀλλ’ εἰ μὲν μόνῃ ἢ οὐ μόνῃ ἐφαρμόζει, ἑτέρᾳ
-              <lb n="39" xml:id="p65-38"/>θεωρίᾳ φυλάξωμεν· εἰ δὲ πάσῃ 〈καὶ〉 πῶς πάσῃ ἐφαρμόσει, ἐπὶ τῆς παροὔσης<note type="apparatus" n="39" target="#p65-38">καὶ inserui an ἐφαρμόζει?</note>
+              <lb n="39" xml:id="p65-38"/>θεωρίᾳ φυλάξωμεν· εἰ δὲ πάσῃ 〈καὶ〉 πῶς πάσῃ ἐφαρμόσει, ἐπὶ τῆς παρούσης<note type="apparatus" n="39" target="#p65-38">καὶ inserui an ἐφαρμόζει?</note>
               <lb n="40" xml:id="p65-39"/>θεωρίας ζητήσωμεν. λέγω τοίνυν ὅτι πάσαις ταῖς οὐσίαις ὑπάρχει,
             </p>
             <pb n="66" facs="https://archive.org/download/commentariaina12pt12akaduoft/page/n83.jpg"/>
             <p>
-              <lb n="1" xml:id="p66-0"/>ὡς δηλώσομεν ἐκ διαιρέσεως τοῦτον ἐχούσης τὸν τρόπον· ἡ οὐσία ἡ πρώτη
+              <lb n="1" xml:id="p66-0"/>ὡς δηλώσομεν ἐκ διαιρέσεως τοῦτον ἐχούσης τὸν τρόπον· ἡ οὐσία ἢ πρώτη
               <lb n="2" xml:id="p66-1"/>ἐστὶν ἢ δευτέρα. καὶ εἰ μὲν πρώτη, οὔτε καθ’ ὑποκειμένου ἐστὶν οὔτε ἐν
               <lb n="3" xml:id="p66-2"/>ὑποκειμένῳ, ὡς ἐδίδαξεν ὁ φιλόσοφος. εἰ δὲ δευτέρα, καθ’ ὑποκειμένου μέν
               <lb n="4" xml:id="p66-3"/>ἐστιν, ἐν ὑποκειμένῳ δὲ οὐκ ἔστιν. καὶ ἀμφότεραι αὗται κατὰ μὲν τὸ καθ’
@@ -2376,7 +2377,7 @@
               <lb n="26" xml:id="p74-25"/>ὁμοίως καὶ ἡ φύσις βουλομένη ὀφθαλμὸν δημιουργῆσαι ἅμα προβάλλεται
               <lb n="27" xml:id="p74-26"/>λόγον λευκοῦ καὶ μέλανος. <milestone type="alt-edition" unit="folio" ed="cod. Mutinensis 69" n="68v"/> ἐπεὶ οὖν ἐδείξαμεν μήτε ἐν νῷ μήτε ἐν ψυχῇ
               <lb n="28" xml:id="p74-27"/>μήτε ἐν φύσει ὄντα τὰ μαχόμενα, δῆλον ὅτι περὶ ὕλην μάχονται.
-              <lb n="29" xml:id="p74-28"/>Καὶ ταῦτα μὲν περὶ τοῦ πάσῃ οὐσίᾳ ἁμόττειν τοῦτο τὸ ἴδιον. ζητήσωμεν
+              <lb n="29" xml:id="p74-28"/>Καὶ ταῦτα μὲν περὶ τοῦ πάσῃ οὐσίᾳ <choice><sic>ἁμόττειν</sic><corr>ἁρμόττειν</corr></choice> τοῦτο τὸ ἴδιον. ζητήσωμεν
               <lb n="30" xml:id="p74-29"/>δὲ εἰ μόνῃ· τοῦτο γάρ ἐστι τὸ μᾶλλον χαρακτηριστικὸν τοῦ ἰδίου. φαμὲν οὖν<note type="apparatus" n="30-32" target="#p74-29 #p74-30 #p74-31">φαμὲν οὖν et φασὶν οὖν τινες inter se permutanda sunt, ut scribatur φασὶν οὖν τινες ὅτι οὐ μόνῃ κτλ. φαμὲν οὖν ὅτι οὐκ ἔστιν ἴδιον τοῦτο τῶν εἰδ. τ. ποσοῦ (cf. p. 75,2)</note>
               <lb n="31" xml:id="p74-30"/>ὅτι οὐ μόνῃ ὑπάρχει τὸ μὴ ἔχειν ἐναντία, ἀλλὰ καὶ τοῖς εἴδεσι τοῦ ποσοῦ
               <lb n="32" xml:id="p74-31"/>τοῦτο ἴδιόν ἐστι. φασὶν οὖν τινες ὅτι οὐκ ἔστιν ἴδιον τοῦτο τῶν εἰδῶν
@@ -2410,7 +2411,7 @@
               <lb n="18" xml:id="p75-17"/>εἶναι, ὅπερ ἦν πρὸ τοῦ ἐπιδέξασθαι τὸ μᾶλλον. δῆλον οὖν ἐντεῦθεν ὅτι<note type="apparatus" n="18" target="#p75-17">ἐπιδέξασθαι scripsi: ἐπιδέξεται M</note>
               <lb n="19" xml:id="p75-18"/>οὐκ αὐτὸς ὁ ἀὴρ καὶ τὸ πῦρ ἐπιδέχεται τὸ μᾶλλον καὶ τὸ ἧττον, ἀλλὰ τὰ
               <lb n="20" xml:id="p75-19"/>σώματα τὰ ὑποκείμενα τούτοις.
-              <lb n="21" xml:id="p75-20"/>Ἕκτον καὶ τελευταῖαν ἴδιον ἀποδίδωσιν ὁ φιλόσοφος τῆς οὐσίας τὸ ἓν
+              <lb n="21" xml:id="p75-20"/>Ἕκτον καὶ <choice><sic>τελευταῖαν</sic><corr>τελευταῖον</corr></choice> ἴδιον ἀποδίδωσιν ὁ φιλόσοφος τῆς οὐσίας τὸ ἓν
               <lb n="22" xml:id="p75-21"/>καὶ ταὐτὸν τῷ ἀριθμῷ ὑπάρχον τῶν ἐναντίων εἶναι δεκτικόν. ἀνάγκη δὲ<note type="apparatus" n="22" target="#p75-21">ὑπάρχειν M</note>
               <lb n="23" xml:id="p75-22"/>πάλιν ἐπὶ τούτοις ὁμοίως τὰ παρεπόμενα τοῖς ἰδίοις ζητεῖν, τοῦτ’ ἔστιν<note type="apparatus" n="23" target="#p75-22">τοῖς παρεπομένοις M</note>
               <lb n="24" xml:id="p75-23"/>εἰ πάσῃ ὑπάρχει καὶ μόνῃ ἢ οὔ. ἀλλ’ εὐθὺς ἀποροῦσί τινες λέγοντες ὅτι
@@ -2757,7 +2758,7 @@
               <lb n="27" xml:id="p82-26"/>Ἀρχύτας γράψας Περὶ τῶν δέκα γενῶν τὰ καθόλου προέταξε τῶν μερικῶν.
               <lb n="28" xml:id="p82-27"/>τοῖς δὲ καθόλου ἁρμόζει τὸ ποιόν. καὶ τούτου χάριν <milestone type="alt-edition" unit="folio" ed="cod. Mutinensis 69" n="75v"/> πρῶτον ἔταξε τὸ
               <lb n="29" xml:id="p82-28"/>ποιόν. ὁ δὲ Ἀριστοτέλης, ὡς ἴσμεν, τὰς μερικὰς οὐσίας προέταξεν, αἷς
-              <lb n="30" xml:id="p82-29"/>τὸ ποσὸν μᾶλλον ἁρμόζει. ὥστεκατὰ τὴν ἰδίαν ἀρχὴν τοῦ συγγράμματος
+              <lb n="30" xml:id="p82-29"/>τὸ ποσὸν μᾶλλον ἁρμόζει. <choice><sic>ὥστεκατὰ</sic><corr>ὥστε κατὰ</corr></choice> τὴν ἰδίαν ἀρχὴν τοῦ συγγράμματος
               <lb n="31" xml:id="p82-30"/>ἕκαστος τούτων οὐδὲν διήμαρτεν, οὔτε ὁ τῷ ποσῷ συναγωνιζόμενος οὔτε
               <lb n="32" xml:id="p82-31"/>ὁ τῷ ποιῷ συμμαχῶν. καὶ ταῦτα μὲν περὶ τῆς τάξεως.
               <lb n="33" xml:id="p82-32"/>Διαιρεῖται δὲ τὸ ποσὸν Ἀριστοτέλης εἰς συνεχὲς καὶ διωρισμένον.
@@ -3128,7 +3129,7 @@
               <lb n="17" xml:id="p90-16"/>λέγεσθαι, ἐνταῦθα δὲ οὐδὲν ἴδιον ἀποδέδωκε πρὸ τούτου τοῦ ἰδίου· οὐκ
               <lb n="18" xml:id="p90-17"/>ἄρα καλῶς ἔγκειται τοῦτο τὸ πρόσρημα. πρὸς τοῦτό φαμεν ὅτι οὐ μάτην
               <lb n="19" xml:id="p90-18"/>ὁ φιλόσοφος τέθεικεν τοῦτο· εἰ γὰρ καὶ μὴ φανερῶς εἶπεν ἕτερον ἴδιον
-              <lb n="20" xml:id="p90-19"/>τοῦ ποσοῦ, ἀλλ’ οὖν λεληθότως ἔλεγεν ἄνω ἴδιον εἶναι τοῦ ποσοῦ τὰ καταμετρεῖσθαι,<note type="apparatus" n="20-21" target="#p90-19 #p90-20">καταμετρῆσθαι M</note>
+              <lb n="20" xml:id="p90-19"/>τοῦ ποσοῦ, ἀλλ’ οὖν λεληθότως ἔλεγεν ἄνω ἴδιον εἶναι τοῦ ποσοῦ <choice><sic>τὰ</sic><corr>τὸ</corr></choice> καταμετρεῖσθαι,<note type="apparatus" n="20-21" target="#p90-19 #p90-20">καταμετρῆσθαι M</note>
               <lb n="21" xml:id="p90-20"/>ὅπου ἔλεγε τὸν λόγον ποσὸν ὄντα καταμετρεῖσθαι βραχείᾳ καὶ<note type="apparatus" n="21" target="#p90-20">ἔλεγε] p. 4b33</note>
               <lb n="22" xml:id="p90-21"/>μακρᾷ συλλαβῇ. καὶ αὕτη μὲν ἡ πρώτη ἀπορία τε καὶ ἐπίλυσις. δευτέραν
               <lb n="23" xml:id="p90-22"/>δὲ ἀπορίαν πάλιν προφέρουσι λέγοντες ὅτι εἰ ἄνω περὶ τῆς οὐσίας διαλεγόμενος
@@ -3693,7 +3694,7 @@
               <lb n="10" xml:id="p102-9"/>μέρος δέ τι αὐτοῦ κάθηται καὶ καλεῖται καθέδρα), τὸ δὲ ἀνακεκλίσθαι<note type="apparatus" n="10-11" target="#p102-9 #p102-10">ἀνακεῖσθαι et καθῆσθαι Arist.</note>
               <lb n="11" xml:id="p102-10"/>ἢ ἑστάναι ἢ καθέζεσθαι ταῦτα, φησίν, οὔκ εἰσιν θέσεις, εἴ γε ἡ θέσις<note type="apparatus" n="11" target="#p102-10">εἴ Amm.: ἤ M</note>
               <lb n="12" xml:id="p102-11"/>τῶν πρός τί ἐστιν, ταῦτα δὲ θέσεις μὲν οὔκ εἰσιν, παρωνύμως δὲ ἀπὸ τῶν
-              <lb n="13" xml:id="p102-12"/>εἰρημένων εἰδῶν τῆς θέσεως μετηνέχθησαν, ἀπὸ μὲν τῆς στάσνως τὸ ἑστάναι,
+              <lb n="13" xml:id="p102-12"/>εἰρημένων εἰδῶν τῆς θέσεως μετηνέχθησαν, ἀπὸ μὲν τῆς <choice><sic>στάσνως</sic><corr>στάσεως</corr></choice> τὸ ἑστάναι,
               <lb n="14" xml:id="p102-13"/>ἀπὸ δὲ τῆς ἀνακλίσεως τὸ ἀνακεκλίσθαι, ἀπὸ δὲ τῆς καθέδρας τὸ καθέζεσθαι.
               <lb n="15" xml:id="p102-14"/>ὥσπερ δὲ ταῦτα ἀπὸ τῶν εἰδῶν τῆς θέσεως μετηνέχθησαν, οὕτως καὶ
               <lb n="16" xml:id="p102-15"/>ἀπὸ τοῦ γένους τούτων, τοῦτ’ ἔστι τῆς θέσεως, μετηνέχθη τὸ κεῖσθαι, ἥτις<note type="apparatus" n="16" target="#p102-15">τῆς θέσεως Amm.: τῶν θέσεων M ἥτις M2: εἴ τις M1</note>
@@ -3864,7 +3865,7 @@
               <lb n="5" xml:id="p106-4"/>πάντως· ἐὰν γὰρ ἀποδῶ τὸν δοῦλον πρὸς δεσπότην, ἀνέλω δὲ τὰ παρεπόμενα
               <lb n="6" xml:id="p106-5"/>τῷ δεσπότῃ, τοῦτ’ ἔστι τὸν Σωκράτην, τὸν Ἀθηναῖον, τὸν σιμόν,<note type="apparatus" n="6" target="#p106-5">σημόν M</note>
               <lb n="7" xml:id="p106-6"/>τὸν προγάστορα, τὸν φαλακρόν, τὸν Σωφρονίσκου Ἀρχιμήδους, οὐδ’ ἓν<note type="apparatus" n="7" target="#p106-6">ἀρχημήδους M</note>
-              <lb n="8" xml:id="p106-7"/>παρέβλαψα τὴν δεσποτικὴν σχέσιν, ἀλλ’ ἔτι καὶ πάντων τούτων ἀναιρούμένων
+              <lb n="8" xml:id="p106-7"/>παρέβλαψα τὴν δεσποτικὴν σχέσιν, ἀλλ’ ἔτι καὶ πάντων τούτων ἀναιρουμένων
               <lb n="9" xml:id="p106-8"/>ὁ δοῦλος δεσπότου δοῦλός ἐστιν. εἰ δὲ πάλιν ἀποδῶμεν τὸν δοῦλον
               <lb n="10" xml:id="p106-9"/>πρὸς Σωκράτην, ἀνέλω δὲ τὰ παρεπόμενα τῷ Σωκράτει, μὴ μέντοι γε<note type="apparatus" n="10" target="#p106-9">τοῦ σωκράτους (alt. l.) M</note>
               <lb n="11" xml:id="p106-10"/>πάντα, ἀλλ’ ἓν καὶ μόνον τὸ δεσπότην <milestone type="alt-edition" unit="folio" ed="cod. Mutinensis 69" n="92r"/> εἶναι, ἠφάνισα δηλονότι καὶ τὴν
@@ -4251,7 +4252,7 @@
               <lb n="9" xml:id="p114-8"/>ἁπλᾶ ἀεὶ τῶν συνθέτων’. διὰ τὰς δύο τοίνυν ταύτας αἰτίας τοιαύτην
               <lb n="10" xml:id="p114-9"/>ἔλαχε τάξιν. [ἔστι δὲ καὶ τρίτη αἰτία τούτου, δι’ ἣν ἡ ποιότης τοιαύτην<note type="apparatus" n="10" target="#p114-9">ἔστι—νοῦν (16) delevi</note>
               <lb n="11" xml:id="p114-10"/>ἔλαχε τάξιν· φαμὲν ὅτι περὶ τοῦ ποιεῖν καὶ πάσχειν μένει τὸν λόγον
-              <lb n="12" xml:id="p114-11"/>ποιεῖσθαι. αὗται δέ, τοῦτ’ ἔστι τὸ πάθη καὶ ἐνέργειαι, κατὰ τὰς ποιότητας<note type="apparatus" n="12" target="#p114-11">αὗται] an ταῦτα?</note>
+              <lb n="12" xml:id="p114-11"/>ποιεῖσθαι. αὗται δέ, τοῦτ’ ἔστι <choice><sic>τὸ</sic><corr>τὰ</corr></choice> πάθη καὶ ἐνέργειαι, κατὰ τὰς ποιότητας<note type="apparatus" n="12" target="#p114-11">αὗται] an ταῦτα?</note>
               <lb n="13" xml:id="p114-12"/>γίνονται. ἀδύνατον δὲ γνῶναι τὸ κατὰ ποιότητα γινόμενον μὴ πρότερον
               <lb n="14" xml:id="p114-13"/>μαθόντα τὴν τῆς ποιότητος φύσιν. τούτου χάριν προτέτακται, ἵνα μαθόντες
               <lb n="15" xml:id="p114-14"/>τί ἐστιν ποιότης, οὕτως ἀκριβέστερον τοῖς λεγομένοις περὶ τοῦ ποιεῖν καὶ
@@ -4785,7 +4786,7 @@
               <lb n="5" xml:id="p125-4"/>λέγομεν. τὸ μὲν πυκτικοὺς ἢ δρομικοὺς παράδειγμά ἐστι τοῦ
               <lb n="6" xml:id="p125-5"/>δύνασθαι ποιεῖν, τὸ δὲ ὑγιεινοὺς παράδειγμά ἐστι τοῦ δύνασθαι μὴ πάσχειν,
               <lb n="7" xml:id="p125-6"/>τὸ δὲ νοσώδεις <milestone type="alt-edition" unit="folio" ed="cod. Mutinensis 69" n="115r"/> παράδειγμά ἐστι τοῦ μὴ δύνασθαι πάσχειν· τὸ γὰρ μὴ
-              <lb n="8" xml:id="p125-7"/>δύνασθαι ποιεῖν παρέλειψεν ἐνταῦθα ὁ Ἀριστοτέλης ὡς ἐξ ἡμῖν προσυπακουόμενον.
+              <lb n="8" xml:id="p125-7"/>δύνασθαι ποιεῖν παρέλειψεν ἐνταῦθα ὁ Ἀριστοτέλης ὡς ἐξ <choice><sic>ἡμῖν</sic><corr>ἡμῶν</corr></choice> προσυπακουόμενον.
               <lb n="9" xml:id="p125-8"/>ἐκεῖνο δὲ σημειωτέον ὅτι οὐ ταὐτόν ἐστιν πύκτης καὶ πυκτικός,
               <lb n="10" xml:id="p125-9"/>ἀλλὰ πύκτης μὲν ὁ ἐνεργείᾳ ἔχων τὴν πυκτικὴν ἐπιστήμην, πυκτικὸς δὲ ὁ
               <lb n="11" xml:id="p125-10"/>μήπω μὲν ἐνεργείᾳ ἔχων ἐπιτήδειος δὲ ὢν πρὸς τὸ παρασκευάσασθαι<note type="apparatus" n="11" target="#p125-10">παρασκευάσ- supplevi: evan. M</note>
@@ -4810,7 +4811,7 @@
               <lb n="23" xml:id="p125-22"/>δύο σημαίνει, τήν τε παθητικὴν ποιότητα τὴν ἀπὸ πάθους γιγνομένην καὶ
               <lb n="24" xml:id="p125-23"/>τὴν ποιοῦσαν περὶ τὴν αἴσθησιν, ἐκ διαιρέσεως ἐν τῇ θεωρίᾳ ἐδείξαμεν.
               <lb n="25" xml:id="p125-24"/>οὐδὲν δὲ ἄτοπον καὶ νῦν ταύτης μνησθῆναι· ἡ παθητικὴ ποιότης ἢ συμπληροῖ
-              <lb n="26" xml:id="p125-25"/>τὸ εἶδος ἢ οὐ συμπληροῖ. καὶ εἰ μὲν συμπληροῖ, γίγνεται ἢ πάθος
+              <lb n="26" xml:id="p125-25"/>τὸ εἶδος ἢ οὐ συμπληροῖ. καὶ εἰ μὲν συμπληροῖ, γίγνεται ἡ πάθος
               <lb n="27" xml:id="p125-26"/>ποιοῦσα περὶ τὴν αἴσθησιν, εἰ δὲ οὐ συμπληροῖ τὸ εἶδος, ἢ παντὶ <milestone type="alt-edition" unit="folio" ed="cod. Mutinensis 69" n="115v"/> τῷ
               <lb n="28" xml:id="p125-27"/>εἴδει ὑπάρχει, ὡς ἡ λευκότης ἡ ἐν τῷ κύκνῳ, ἢ οὐ παντὶ τῷ εἴδει, ὡς
               <lb n="29" xml:id="p125-28"/>ἡ ἐν ἀνθρώπῳ λευκότης, πλὴν ὡς ἂν ᾖ τὴν παθητικὴν ποιότητα ποιεῖ<note type="apparatus" n="29" target="#p125-28">πλὴν scripsi (cf. p. 123,21): πολὺ M ᾖ] εἴη M (cf. p. 123,22)</note>
@@ -4866,7 +4867,7 @@
           <div type="textpart" subtype="lemma" n="5">
             <milestone unit="bekker" n="10a25"/>
             <quote type="lemma">
-              <lb n="23" xml:id="p126-22"/>Ἴσως μὲν οὐκ καὶ ἄλλος ἄν τις φανείη τρόπος ποιότητος,
+              <lb n="23" xml:id="p126-22"/>Ἴσως μὲν <choice><sic>οὐκ</sic><corr>οὖν</corr></choice> καὶ ἄλλος ἄν τις φανείη τρόπος ποιότητος,
               <lb n="24" xml:id="p126-23"/>ἀλλ’ οἵ γε λεγόμενοι μάλιστα σχεδὸν τοιοῦτοί εἰσιν.<note type="apparatus" n="24" target="#p126-23">μάλ. λεγ. coll. Arist. τοιοῦτ.] οὗτοι Arist.</note>
             </quote>
             <p>
@@ -5464,7 +5465,7 @@
               <lb n="17" xml:id="p138-16"/>αἴσθησιν κρίνοντες τοῦτο λέγουσιν, οἱ δὲ φιλόσοφοι πρὸς τὴν φύσιν ἀφορῶντες
               <lb n="18" xml:id="p138-17"/>τοιοῦτον λέγουσιν· φασὶ γὰρ ὅτι τὸ σῶμα ἢ κατὰ φύσιν ἔχει καὶ<note type="apparatus" n="18" target="#p138-17">φησὶ M</note>
               <lb n="19" xml:id="p138-18"/>λέγεται ὑγιαίνειν, ἢ παρὰ φύσιν καὶ λέγεται νοσεῖν, καὶ ἀναγκαῖον θάτερον
-              <lb n="20" xml:id="p138-19"/>ὑπάρχειν ἐν τῷ τῷ τοῦ ζῴου σώματι, ἢ νόσον ἢ ὑγείαν.
+              <lb n="20" xml:id="p138-19"/>ὑπάρχειν <choice><sic>ἐν τῷ</sic><corr>ἐν</corr></choice> τῷ τοῦ ζῴου σώματι, ἢ νόσον ἢ ὑγείαν.
             </p>
           </div>
           <div type="textpart" subtype="lemma" n="7">
@@ -5774,7 +5775,7 @@
               <lb n="36" xml:id="p144-35"/>ἀξιώματι, ὥσπερ τινές φασι τοὺς τιμιωτέρους τῶν φίλων προτέρους εἶναι
               <lb n="37" xml:id="p144-36"/>τῶν μὴ τοιούτων παρ’ αὐτοῖς. λέγεται δὲ πρότερον καὶ τὸ αἴτιον τοῦ αἰτιατοῦ.
               <lb n="38" xml:id="p144-37"/>ἀλλὰ ἀποροῦμεν ἐνταῦθα λέγοντες ὅτι εἰ τοῦτο διαφέρει τὸ πέμπτον
-              <lb n="39" xml:id="p144-38"/>ση<milestone type="alt-edition" unit="folio" ed="cod. Mutinensis 69" n="134r"/>μαινόμενον τοῦ δευτέρου σημαινομομένου τοῦ προτέρου, φημὶ δὲ τοῦ<note type="apparatus" n="39" target="#p144-38">δὲ evan. Μ</note>
+              <lb n="39" xml:id="p144-38"/>ση<milestone type="alt-edition" unit="folio" ed="cod. Mutinensis 69" n="134r"/>μαινόμενον τοῦ δευτέρου <choice><sic>σημαινομομένου</sic><corr>σημαινομένου</corr></choice> τοῦ προτέρου, φημὶ δὲ τοῦ<note type="apparatus" n="39" target="#p144-38">δὲ evan. Μ</note>
             </p>
             <pb n="145" facs="https://archive.org/download/commentariaina12pt12akaduoft/page/n162.jpg"/>
             <p>
@@ -5871,7 +5872,7 @@
               <lb n="3" xml:id="p147-2"/>ὀκτὼ τρόπων δύο καὶ μόνοι ὑπὸ τὴν ἔχειν κατηγορίαν ἀνάγονται, οἱ δηλοῦντες
               <lb n="4" xml:id="p147-3"/>οὐσίας περὶ οὐσίαν περίθεσιν, τοῦτ’ ἔστιν ὁ δεύτερος καὶ ὁ τρίτος, τὸ<note type="apparatus" n="4" target="#p147-3">παρ’ οὐσίαν παράθεσιν M (cf. Philop. p. 204,27)</note>
               <lb n="5" xml:id="p147-4"/>ἱμάτιον ἔχειν καὶ τὸ δακτύλιον ἔχειν. ὁ δὲ πρῶτος τρόπος ὑπὸ τὴν ποιότητα
-              <lb n="6" xml:id="p147-5"/>ἀνάγεται, ὁ δὲ τελευταῖος καὶ ἐπὶ μέντοι γε ὁ ἐν ἀγγείῳ ὑπὸ τὴν ποῦ
+              <lb n="6" xml:id="p147-5"/>ἀνάγεται, ὁ δὲ τελευταῖος καὶ <choice><sic>ἐπὶ</sic><corr>ἔτι</corr></choice> μέντοι γε ὁ ἐν ἀγγείῳ ὑπὸ τὴν ποῦ
               <lb n="7" xml:id="p147-6"/>κατηγορίαν ἀνάγονται, οἱ δὲ λοιποὶ ὑπὸ τὰ πρός τι. τοῦτο <milestone type="alt-edition" unit="folio" ed="cod. Mutinensis 69" n="136r"/> πέρας τῆς
               <lb n="8" xml:id="p147-7"/>θεωρίας καὶ τοῦ παντὸς συγγράμματος.
             </p>

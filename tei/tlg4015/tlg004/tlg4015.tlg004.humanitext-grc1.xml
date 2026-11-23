@@ -58,6 +58,7 @@
       <change when="2026-10-23" who="#NI">Errors found by the accuracy evaluation (sample checked against the page images by student assistants, readings confirmed by the editor) corrected: 1 in the text.</change>
       <change when="2026-11-05" who="#NI">Apparatus entries printed out of numerical order (e.g. 33 … 32) separated from the preceding entry; words hyphenated across lines joined in Latin text as in Greek; words mixing Greek and Latin letters (OCR errors, about 130, including manuscript sigla) corrected on the page images; marginal folio marks left in the text removed; validated against TEI P5 version 4.12.0 (recorded in TEI/@version).</change>
       <change when="2026-11-05" who="#NI">Extent of the lemma quotations (quote[@type='lemma']) corrected: the automatic division had closed every lemma after its first printed line, leaving the remaining lines of lemmata printed over two or more lines at the head of the following paragraph. Candidates were found from the letter-spacing of the lines on the page images (lemmata are printed spaced) and from the line geometry (centred last line, indented paragraph start), and every candidate was decided on the page image (Claude work teams; about 7,700 places in the corpus); the lines so decided are now inside the quotation, with pb inside the quotation where a lemma runs on to the next page. Where the lemma runs on in the same line as the commentary (Stephanus in De interpretatione), the quotation ends after the last spaced word and the paragraph continues in the same line without a new lb; where no lemma is printed and the paraphrase follows the Bekker reference directly (Michael in De partibus animalium from p. 37), the quotation is dropped and the division kept; centred last lines the edition does not count are inside the quotation as unnumbered lines.</change>
+      <change when="2026-11-22" who="#NI">Readings questioned by the review of the translations collated on the page images (read independently, at least twice wherever the print does not have the proposed form, by a language model, Claude; the 28 places in all works that it could not settle were read by the editor): 35 errors of the transcription corrected; 11 evident misprints of the edition given as choice/sic/corr; 9 evident misprints of the edition in a word broken at the line end (which cannot carry choice/sic/corr) corrected in the text.</change>
     </revisionDesc>
   </teiHeader>
   <text>
@@ -417,7 +418,7 @@
               <lb n="26" xml:id="p10-25"/>πρότασις τὸ ὑπάρχειν ἄλλο ἄλλῳ σημαίνει.<milestone type="alt-edition" unit="line" ed="Aldina 1534" n="15"/>
               <lb n="27" xml:id="p10-26"/>Εἰδέναι δὲ δεῖ κἀκεῖνο, ὅτι τῶν [ἄλλων] ἀξιωμάτων τὰ μὲν κοινῶς<note type="apparatus" n="27" target="#p10-26">ἄλλων delevi</note>
               <lb n="28" xml:id="p10-27"/>πάσαις ἐπιστήμαις ὑποβέβληται, τὰ δὲ τισί, τὰ δὲ καὶ μιᾷ μόνῃ. οἷον τὸ
-              <lb n="29" xml:id="p10-28"/>μὲν ‘ἐπὶ παντὸς ἢ ἡ κατάφασις ἢ ἡ ἀπόφασις ἐπὶ’ πάσης ἐπιστήμης χώραν<note type="apparatus" n="29" target="#p10-28">ἢ prius om. Va τὴν κατάφασιν a ἢ ἀπόφασις V: ἢ τὴν ἀπόφασιν ἀληθεύειν a: om. R πάση ἐπιστήμη V</note>
+              <lb n="29" xml:id="p10-28"/>μὲν ‘ἐπὶ παντὸς ἢ ἡ κατάφασις ἢ ἡ <choice><sic>ἀπόφασις ἐπὶ’</sic><corr>ἀπόφασις’ ἐπὶ</corr></choice> πάσης ἐπιστήμης χώραν<note type="apparatus" n="29" target="#p10-28">ἢ prius om. Va τὴν κατάφασιν a ἢ ἀπόφασις V: ἢ τὴν ἀπόφασιν ἀληθεύειν a: om. R πάση ἐπιστήμη V</note>
               <lb n="30" xml:id="p10-29"/>ἕξει· καὶ γὰρ καὶ ἐν ταῖς κοιναῖς τέχναις καὶ ταῖς πρὸς ἀλλήλους ὁμιλίαις<note type="apparatus" n="30" target="#p10-29">ἀλλήλα V</note>
               <lb n="31" xml:id="p10-30"/>τῷ τοιούτῳ χρώμεθα ἀξιώματι. τὸ μέντοι ‘τὰ τῷ αὐτῷ ἴσα καὶ ἀλλήλοις<note type="apparatus" n="31" target="#p10-30">χρώματ V, ατ ἀ V² καὶ om. V</note>
               <lb n="32" xml:id="p10-31"/>ἐστὶν ἴσα’ καὶ ‘ἐὰν ἀπὸ τῶν ἴσων ἴσα ἀφαιρεθῇ, τὰ καταλειπόμενά ἐστιν ἴσα’<note type="apparatus" n="32" target="#p10-31">ἐστὶν om. a καὶ et τῶν om. V ἴσα ἐστὶ V</note>
@@ -842,7 +843,7 @@
               <lb n="15" xml:id="p21-14"/>μὴ κλέπτην δέ, καὶ γάλα ἔχειν, μὴ τετοκέναι δέ. ἀλλ’ ἐπειδὴ<note type="apparatus" n="15" target="#p21-14">δὲ alt. om. V</note><note type="apparatus" n="15-16" target="#p21-14 #p21-15">ἐπεὶ οἱ σοφιστικοὶ V</note>
               <lb n="16" xml:id="p21-15"/>οἱ σοφισταὶ παραλογιζόμενοι τὰ τοῖς συμβεβηκόσιν ὑπάρχοντα καὶ τοῖς
               <lb n="17" xml:id="p21-16"/>ὑποκειμένοις φασὶν ὑπάρχειν καὶ ἔμπαλιν τὰ τοῖς ὑποκειμένοις καὶ τοῖς<note type="apparatus" n="17" target="#p21-16">καὶ alt. om. V</note>
-              <lb n="18" xml:id="p21-17"/>συμβεβηκόσιν, οἶον τὸ λευκὸν ἐκεῖνο κύκνος ἐστίν, ὁ κύκνος ζῷόν ἐστι, τὸ<note type="apparatus" n="18" target="#p21-17">post ὁ add. δὲ Ra</note><milestone type="alt-edition" unit="line" ed="Aldina 1534" n="40"/>
+              <lb n="18" xml:id="p21-17"/>συμβεβηκόσιν, οἷον τὸ λευκὸν ἐκεῖνο κύκνος ἐστίν, ὁ κύκνος ζῷόν ἐστι, τὸ<note type="apparatus" n="18" target="#p21-17">post ὁ add. δὲ Ra</note><milestone type="alt-edition" unit="line" ed="Aldina 1534" n="40"/>
               <lb n="19" xml:id="p21-18"/>λευκὸν ἄρα ζῷόν ἐστι, τὸ δὲ λευκὸν χρῶμά ἐστι, τὸ ἄρα χρῶμα ζῷόν ἐστι,<note type="apparatus" n="19" target="#p21-18">δὲ om. R</note>
               <lb n="20" xml:id="p21-19"/>τὸ τῷ ὑποκειμένῳ ὑπάρχον (ὑπάρχει γὰρ τῷ κύκνῳ τὸ ζῷον) τῷ συμβεβηκότι<note type="apparatus" n="20" target="#p21-19">τῷ (post τὸ) om. a ὑπάρχειν (ante γὰρ) R</note>
               <lb n="21" xml:id="p21-20"/>λέγοντες ὑπάρχειν [τὸ ὑποκείμενον], καὶ ἔμπαλιν οὕτω· τὸ ψιμμύθιον<note type="apparatus" n="21" target="#p21-20">post συμβεβηκότι add. δὲ UV λέγει V: λέγουσιν a τὸ ὑποκείμενον delevi</note><note type="apparatus" n="21 et 22" target="#p21-20 #p21-21">ψιμύθιον V</note>
@@ -1146,7 +1147,7 @@
               <lb n="9" xml:id="p29-8"/>γὰρ κατ’ αἴσθησιν ἐνεργοῦντες ταῦτα πρώτως γινώσκομεν. εἰ τοίνυν ἐκ<note type="apparatus" n="9" target="#p29-8">post ἐνεργοῦντες add. εἰς τὰ μερικὰ R πρῶτον R: πρῶτα V</note><milestone type="alt-edition" unit="line" ed="Aldina 1534" n="50"/>
               <lb n="10" xml:id="p29-9"/>τῶν τῇ φύσει πρώτων δεῖ τὸν ἀποδεικτικὸν συλλογισμὸν γίνεσθαι, πρῶτα<note type="apparatus" n="10" target="#p29-9">πρῶτον (post γίν.) V</note>
               <lb n="11" xml:id="p29-10"/>ἄρα ἐνταῦθα παρείληπται οὐ τὰ ἡμῖν πρῶτα καὶ γνωριμώτερα ἀλλὰ τὰ<note type="apparatus" n="11" target="#p29-10">ἐνταῦθα om. V an πρότερα? τὰ alt. om. V</note>
-              <lb n="12" xml:id="p29-11"/>τῇ φύσει. καὶ ἀντίκειμενα ταῦτα ἀλλήλοις· τὸ γὰρ τῇ φύσει σαφὲς καὶ<note type="apparatus" n="12" target="#p29-11">ταῦτα δὲ ἀντίκεινται, om. καὶ a</note>
+              <lb n="12" xml:id="p29-11"/>τῇ φύσει. καὶ <choice><sic>ἀντίκειμενα</sic><corr>ἀντικείμενα</corr></choice> ταῦτα ἀλλήλοις· τὸ γὰρ τῇ φύσει σαφὲς καὶ<note type="apparatus" n="12" target="#p29-11">ταῦτα δὲ ἀντίκεινται, om. καὶ a</note>
               <lb n="13" xml:id="p29-12"/>πρῶτον ἡμῖν ὕστερον καὶ ἀσαφέστερον, τὸ δὲ τῇ φύσει ἀσαφέστερον καὶ<note type="apparatus" n="13" target="#p29-12">τὸ Va: καὶ τὸ δὲ RU</note>
               <lb n="14" xml:id="p29-13"/>ὕστερον πρὸς ἡμᾶς πρότερον καὶ σαφέστερον. <milestone type="alt-edition" unit="folio" ed="Aldina 1534" n="9r"/><note type="apparatus" n="14" target="#p29-13">ἡμῖν, om. πρὸς R</note>
             </p>
@@ -2314,7 +2315,7 @@
               <lb n="6" xml:id="p58-5"/>Ἐπεὶ δ’ ἀδύνατον ἄλλως ἔχειν οὗ ἔστιν ἐπιστήμη ἁπλῶς,
               <lb n="7" xml:id="p58-6"/>ἀναγκαῖον ἂν εἴη τὸ ἐπιστητὸν τὸ κατὰ τὴν ἀποδεικτικὴν<note type="apparatus" n="7" target="#p58-6">ἀναγκαῖον—8 ἐπιστήμην om. a</note>
               <lb n="8" xml:id="p58-7"/>ἐπιστήμην. ὅτι μὲν τὸ ἀδύνατον ἄλλως ἔχειν καὶ τὸ ἀναγκαῖον<note type="apparatus" n="8" target="#p58-7">post μὲν add. οὖν a ἀναγκαῖον Ra: δυνατὸν U</note><milestone type="alt-edition" unit="line" ed="Aldina 1534" n="35"/>
-              <lb n="9" xml:id="p58-8"/>οὕτως ἔχειν ταὐτόν, δῆλον. ἀλλ’ ἔστιν ἡμῖν σαφέστερον καὶ μᾶλλον ἐνἀργῶς<note type="apparatus" n="9" target="#p58-8">δηλοῖ R</note>
+              <lb n="9" xml:id="p58-8"/>οὕτως ἔχειν ταὐτόν, δῆλον. ἀλλ’ ἔστιν ἡμῖν σαφέστερον καὶ μᾶλλον ἐναργῶς<note type="apparatus" n="9" target="#p58-8">δηλοῖ R</note>
               <lb n="10" xml:id="p58-9"/>παριστᾷ τὴν διάνοιαν τὴν ἑαυτοῦ τὸ ἀδύνατον· ἀμέλει γοῦν λέγοντες<note type="apparatus" n="10" target="#p58-9">τὴν ἑαυτοῦ RU: αὐτοῦ a</note>
               <lb n="11" xml:id="p58-10"/>πολλάκις ἀναγκαῖον εἶναι τὸ τὸν κάμνοντα φλεβοτομηθῆναι εἰς πλείονα<note type="apparatus" n="11" target="#p58-10">τὸ om. R φλεβοτομηθῆναι τὸν κάμνοντα a</note>
               <lb n="12" xml:id="p58-11"/>παράστασιν τῆς τοῦ ἀναγκαίου σημασίας ἐπιφέρομεν τὸ ἀδύνατον, λέγοντες
@@ -2930,7 +2931,7 @@
               <lb n="30" xml:id="p71-29"/>καθ’ αὑτὸ τούτου καθόλου ἐστίν.
             </quote>
             <p>
-              <lb n="31" xml:id="p71-30"/>Ὧ, φησί, καὶ πρώτῳ καὶ τῷ τυχόντι ὑπάρχει τὸ κατηγορούμενον,
+              <lb n="31" xml:id="p71-30"/><choice><sic>Ὧ</sic><corr>ᾯ</corr></choice>, φησί, καὶ πρώτῳ καὶ τῷ τυχόντι ὑπάρχει τὸ κατηγορούμενον,
             </p>
             <pb n="72" facs="https://archive.org/download/commentariaina13pt3akaduoft/page/n107.jpg"/>
             <p>
@@ -3208,7 +3209,7 @@
             <p>
               <lb n="1" xml:id="p78-0"/>δεικνὺς ἐπὶ ἑκάστου καὶ μηδὲν <milestone type="alt-edition" unit="folio" ed="Aldina 1534" n="19r"/> παραλίπῃ τῶν εἰδῶν, ὅτι οὕτως καθόλου<note type="apparatus" n="1" target="#p78-0">παραλείπει U ante οὕτως add. οὐχ RSa</note>
               <lb n="2" xml:id="p78-1"/>ἀπέδειξεν, οὐ φαμὲν τὸ τοιοῦτον ἀπόδειξιν εἶναι, διότι μὴ ὡς ἐπί τινος
-              <lb n="3" xml:id="p78-2"/>κοινοῦ, ᾧ πρώτῳ ὑπάρχει τὸ σύμπτωμα, ἔδειξεν, ἀλλ’ ἔοικέ πως ὁ τοιοὗτος
+              <lb n="3" xml:id="p78-2"/>κοινοῦ, ᾧ πρώτῳ ὑπάρχει τὸ σύμπτωμα, ἔδειξεν, ἀλλ’ ἔοικέ πως ὁ τοιοῦτος
               <lb n="4" xml:id="p78-3"/>τρόπος τὸν σοφιστικὸν τρόπον δεικνύναι ἐκ τῶν μερικῶν περὶ τῶν
               <lb n="5" xml:id="p78-4"/>καθόλου συλλογιζόμενος καὶ οἱονεὶ ἐκ τῶν συμβεβηκότων τὰς κατασκευὰς
               <lb n="6" xml:id="p78-5"/>ποιούμενος. κἂν γάρ, ὡς εἶπον, πάντα ἐπέλθῃ τὰ ὑπὸ τὸ τρίγωνον εἴδη,<milestone type="alt-edition" unit="line" ed="Aldina 1534" n="5"/>
@@ -3578,7 +3579,7 @@
             <pb n="86" facs="https://archive.org/download/commentariaina13pt3akaduoft/page/n121.jpg"/>
             <p>
               <lb n="1" xml:id="p86-0"/>ἔχειν, οὐκοῦν ἂν ἀποδεικνύναι ἐλέγοντο οἱ οὕτω συλλογιζόμενοι· εἰ δὲ μή<note type="apparatus" n="1" target="#p86-0">οὐκοῦν ἂν scripsi: οὐκ ἂν οὖν RSUa¹: οὐκοῦν a² οἷον om. RSa¹</note>
-              <lb n="2" xml:id="p86-1"/>στί τις ὡρισμένη φύσις ἐπιστήμης ἀλλὰ πᾶσα ἐπιστήμη οἷον ἢ γεωμετρία ἢ<note type="apparatus" n="2" target="#p86-1">ἢ prius RSa¹: ἡ Ua² γεωμετρίας RSa¹ post ἢ alt. add. ἡ Ua²</note>
+              <lb n="2" xml:id="p86-1"/><choice><sic>στί</sic><corr>’στί</corr></choice> τις ὡρισμένη φύσις ἐπιστήμης ἀλλὰ πᾶσα ἐπιστήμη οἷον ἢ γεωμετρία ἢ<note type="apparatus" n="2" target="#p86-1">ἢ prius RSa¹: ἡ Ua² γεωμετρίας RSa¹ post ἢ alt. add. ἡ Ua²</note>
               <lb n="3" xml:id="p86-2"/>ἀστρονομία ἢ ἑκάστη τῶν κατὰ μέρος, οὐκ ἄρα τις ἔχων ἐπιστήμην καὶ<note type="apparatus" n="3" target="#p86-2">ἀστρονομίας ἢ ἑκάστης RSa¹ τινὰ ἔχοντα RSa¹</note>
               <lb n="4" xml:id="p86-3"/>ἁπλῶς τί ἐστιν ἐπιστήμη εἴσεται. ὥστε ὁ γεωμέτρης γεωμετρικὴν μὲν ἐπιστήμην<note type="apparatus" n="4" target="#p86-3">ἔσται U μὲν om. S</note>
               <lb n="5" xml:id="p86-4"/>ἔχει, καὶ αὕτη τί ποτε ἐστιν οἶδεν· ἁπλῶς δὲ τί ἐστιν ἐπιστήμη,<note type="apparatus" n="5" target="#p86-4">ἔχειν U αὐτὴ libri τίς alt. l. U</note>
@@ -3862,7 +3863,7 @@
               <lb n="20" xml:id="p92-19"/>δὲ οὖσα σκιὰν οὐ ποιεῖ· σκιὰν δὲ μὴ ποιοῦσα ἐν πανσελήνῳ ἐκλείπει·<note type="apparatus" n="20" target="#p92-19">δὲ prius om. U post ποιεῖ add. εἰ U</note>
               <lb n="21" xml:id="p92-20"/>ἡ σελήνη ἄρα ἐκλείπει. ἐνταῦθα οὖν ἄμεσος ὁ συλλογισμὸς μηκέτι ἑτέρου
               <lb n="22" xml:id="p92-21"/>μέσου δεόμενος ἀλλ’ ἔχων τὸ ἐκλελοιπέναι αὐτὴν διὰ τῶν εἰρημένων ὅρων ἀποδεδειγμένον.<note type="apparatus" n="22" target="#p92-21">μέσου om. S</note>
-              <lb n="23" xml:id="p92-22"/>ὁμοίως ἐπὶ τοῦ διότι ἔμμεσος μὲν ἂν εἴη συλλογισμὸς τοιοὗτος·<note type="apparatus" n="23" target="#p92-22">post ὁμοίως add. καὶ U post εἴη add. ὁ S</note><note type="apparatus" n="23-24" target="#p92-22 #p92-23">οὗτος RS</note>
+              <lb n="23" xml:id="p92-22"/>ὁμοίως ἐπὶ τοῦ διότι ἔμμεσος μὲν ἂν εἴη συλλογισμὸς τοιοῦτος·<note type="apparatus" n="23" target="#p92-22">post ὁμοίως add. καὶ U post εἴη add. ὁ S</note><note type="apparatus" n="23-24" target="#p92-22 #p92-23">οὗτος RS</note>
               <lb n="24" xml:id="p92-23"/>ἡ σελήνη κατὰ διάμετρόν ἐστι τῷ ἡλίῳ· κατὰ διάμετρον δὲ οὖσα
               <lb n="25" xml:id="p92-24"/>ἐκλείπει· ἡ σελήνη ἄρα ἐκλείπει. ἰδοὺ γὰρ ἐν τούτῳ τὴν αἰτίαν μὲν τῆς<milestone type="alt-edition" unit="line" ed="Aldina 1534" n="20"/>
               <lb n="26" xml:id="p92-25"/>ἐκλείψεως εἴπομεν, οὐκ ἄμεσον δέ· τί γάρ, εἴ τις λέγοι ‘πόθεν ὅτι ἡ κατὰ
@@ -3918,7 +3919,7 @@
               <lb n="26" xml:id="p93-25"/>τῶν ἀχωρίστων συμβεβηκότων εἶναι ἀπόδειξιν, αὐτὸ τοῦτο προσδιορίζεται<note type="apparatus" n="26" target="#p93-25">τὸ ἀχώριστον συμβεβηκὸς ἀπόδειξιν ἔχειν Sa</note>
               <lb n="27" xml:id="p93-26"/>ἐν τούτοις, ὡς οὐκ ἔστι πάντων ἁπλῶς τῶν συμβεβηκότων τῶν ἀχωρίστων<note type="apparatus" n="27-28" target="#p93-26 #p93-27">ἀπόδειξις τῶν συμβεβηκότων ἀχωρίστως Sa</note>
               <lb n="28" xml:id="p93-27"/>ἀπόδειξις, κἂν ἀεὶ ὑπάρχωσι τῷ ὑποκειμένῳ, ἀλλὰ μόνων ἐκείνων ὅσα
-              <lb n="29" xml:id="p93-28"/>καθ’ αὑτὸ ταῖς ὑποκειμέναις οὐσίαις ὑπάρχει· ταῦτα δέ ἐστι τὰ ὡρισμένη
+              <lb n="29" xml:id="p93-28"/>καθ’ αὑτὸ ταῖς ὑποκειμέναις οὐσίαις ὑπάρχει· ταῦτα δέ ἐστι τὰ ὡρισμένῃ
             </p>
             <pb n="94" facs="https://archive.org/download/commentariaina13pt3akaduoft/page/n129.jpg"/>
             <p>
@@ -4061,7 +4062,7 @@
               <lb n="8" xml:id="p97-7"/>πρότερον ἡμᾶς ὑπομιμνήσκει τῶν δεδειγμένων, ὅτι ἐκ τῶν καθ’ αὑτὸ καὶ<note type="apparatus" n="8" target="#p97-7">ἀποδεδειγμένων Sa</note><milestone type="alt-edition" unit="line" ed="Aldina 1534" n="15"/>
               <lb n="9" xml:id="p97-8"/>τῶν ἐξ ἀνάγκης αἱ ἀποδείξεις.
               <lb n="10" xml:id="p97-9"/>Ἐπεὶ δὲ ἐξ ἀνάγκης ὑπάρχει περὶ ἕκαστον γένος ὅσα καθ’<note type="apparatus" n="10-11" target="#p97-9 #p97-10">lemma om. S</note><note type="apparatus" n="10" target="#p97-9">ὅσα κτλ. om. a</note>
-              <lb n="11" xml:id="p97-10"/>αὑτὸ ὑπάρχει καὶ ᾗ ἕκαστον, φανερόν. τὰ καθ’ αὑτό, φησίν, ὑπάργοντα<note type="apparatus" n="11" target="#p97-10">αὐτὰ Arist. cf. p. 96,27 φησὶν οὖν ante τὰ Sa αὐτὸ alt. SU: αὐτὰ Ra</note>
+              <lb n="11" xml:id="p97-10"/>αὑτὸ ὑπάρχει καὶ ᾗ ἕκαστον, φανερόν. τὰ καθ’ αὑτό, φησίν, ὑπάρχοντα<note type="apparatus" n="11" target="#p97-10">αὐτὰ Arist. cf. p. 96,27 φησὶν οὖν ante τὰ Sa αὐτὸ alt. SU: αὐτὰ Ra</note>
               <lb n="12" xml:id="p97-11"/>ἑκάστῳ γένει, ταῦτα ἐξ ἀνάγκης ὑπάρχει, ἐπειδὴ καὶ μόνα ταῦτα<note type="apparatus" n="12" target="#p97-11">γένει, ταῦτα om. S ταύτῃ (ante ἐξ) R</note>
               <lb n="13" xml:id="p97-12"/>ἐστι τὰ ἐξ ἀνάγκης ὑπάρχοντα, ὡς ἐδείχθη ἀνωτέρω. εἰ δὲ αἱ ἀποδείξεις<note type="apparatus" n="13" target="#p97-12">ἀνωτέρω] c. 6 p. 74 b 5 sq.</note>
               <lb n="14" xml:id="p97-13"/>ἀναγκαῖαί τέ εἰσι καὶ ἐξ ἀναγκαίων, ἐκ τῶν καθ’ αὑτὸ ἄρα ἡ ἀπόδειξις
@@ -4469,7 +4470,7 @@
               <lb n="23" xml:id="p106-22"/>αὑτὸ ἔσται οὔτε τῶν καθόλου. τὴν μὲν γὰρ μείζονα ἀνάγκη πάντως ἐν
               <lb n="24" xml:id="p106-23"/>παντὶ συλλογισμῷ καθόλου εἶναι. φθαρτοῦ δὲ ὄντος τοῦ προβλήματος, ὡς<note type="apparatus" n="24" target="#p106-23">post ὄντος add. καὶ S</note>
               <lb n="25" xml:id="p106-24"/>εἶπον, φθαρτὴν ἀνάγκη καὶ τὴν ἐλάττονα πρότασιν εἶναι, καὶ διὰ τοῦτο οὔτε
-              <lb n="26" xml:id="p106-25"/>καθ’ αὑτὸ ὑπάρχει αὐτῇ τὸ κατηγορούμενον οὔτε καθόλου διὰ τὸ ἐνδέθεσθαί
+              <lb n="26" xml:id="p106-25"/>καθ’ αὑτὸ ὑπάρχει αὐτῇ τὸ κατηγορούμενον οὔτε καθόλου διὰ τὸ ἐνδέχεσθαί
               <lb n="27" xml:id="p106-26"/>ποτε καὶ μὴ ὑπάρχειν. μερικῆς οὖν γινομένης τῆς ἐλάττονος<milestone type="alt-edition" unit="line" ed="Aldina 1534" n="45"/>
               <lb n="28" xml:id="p106-27"/>προτάσεως καὶ μὴ ἀναγκαίας καὶ τὸ συμπέρασμα μερικὸν ἔσται καὶ οὐκ
               <lb n="29" xml:id="p106-28"/>ἀναγκαῖον. οὐκ ἄρα ἐνδέχεται τῶν φθαρτῶν ἀπόδειξιν γενέσθαι ἀλλ’, ὡς<note type="apparatus" n="29" target="#p106-28">ὡς om. RSa</note>
@@ -4528,7 +4529,7 @@
             <pb n="108" facs="https://archive.org/download/commentariaina13pt3akaduoft/page/n143.jpg"/>
             <p>
               <lb n="1" xml:id="p108-0"/>γὰρ ἀνθρώπῳ τὸ ζῷον. ἢ εἰ οὕτω φησὶ τοῦ καθόλου, κατὰ τὰ ἐνταῦθα<note type="apparatus" n="1" target="#p108-0">ἢ—7 συμβεβηκός om. Sa¹ ἢ om. a² τοῦ καθόλου scripsi: inv. ord. RUa²</note>
-              <lb n="2" xml:id="p108-1"/>παραδεδομένα λέγοι ἂν οὐ πρώτως τὸ ζῷον κατηγορεῖται· τοῦτο δέ ἐστι<note type="apparatus" n="2" target="#p108-1">κατηγορῆται R</note>
+              <lb n="2" xml:id="p108-1"/>παραδεδομένα λέγοι ἂν οὗ πρώτως τὸ ζῷον κατηγορεῖται· τοῦτο δέ ἐστι<note type="apparatus" n="2" target="#p108-1">κατηγορῆται R</note>
               <lb n="3" xml:id="p108-2"/>τὸ αἰσθητικόν· κατὰ παντὸς γὰρ τούτου τὸ ζῷον. ἐπεὶ οὖν ἐπὶ τούτου
               <lb n="4" xml:id="p108-3"/>κυρίως ἡ ἀπόδειξις ὅτι ζῷον, διὰ τοῦτο λέγοιτο ἂν καὶ ἐπὶ Σωκράτους
               <lb n="5" xml:id="p108-4"/>δείκνυσθαι ὅτι ζῷον. τὸ δὲ ποτὲ καὶ πῶς ὡσαύτως ὡς καὶ ἐν τῇ ἑτέρᾳ<note type="apparatus" n="5" target="#p108-4">ὡς om. R</note>
@@ -4612,7 +4613,7 @@
             </p>
             <pb n="110" facs="https://archive.org/download/commentariaina13pt3akaduoft/page/n145.jpg"/>
             <p>
-              <lb n="1" xml:id="p110-0"/>ἡ ἀπόδειξις θέσει μόνῃ διαφέρουσα, δέδεικται δὲ ὅτι τῶν φθαρτῶν
+              <lb n="1" xml:id="p110-0"/>ἢ ἀπόδειξις θέσει μόνῃ διαφέρουσα, δέδεικται δὲ ὅτι τῶν φθαρτῶν
               <lb n="2" xml:id="p110-1"/>οὐκ ἔστιν ἀπόδειξις, συναποδεδειγμένον ἂν εἴη ὅτι οὐδὲ ὁρισμὸν τῶν φθαρτῶν<milestone type="alt-edition" unit="line" ed="Aldina 1534" n="10"/>
               <lb n="3" xml:id="p110-2"/>οἷόν τε ἀποδοῦναι. εἰ γάρ τις εἴποι τὸν Σωκράτην ζῷον εἶναι λογικὸν<note type="apparatus" n="3" target="#p110-2">τὸν om. U</note>
               <lb n="4" xml:id="p110-3"/>θνητόν, οὐ τὸν Σωκράτην ὡρίσατο ἀλλὰ τὸν ἄνθρωπον ἁπλῶς, εἴ γε ὁ μὲν<note type="apparatus" n="4" target="#p110-3">οὐ om. RU</note>
@@ -6649,7 +6650,7 @@
               <lb n="24" xml:id="p157-23"/>ὡς οὐκ εἶεν κύκλοι, ἀλλὰ καθολικῶς ἐνίστασθαι ὅτι οὐδὲν ἔπος
               <lb n="25" xml:id="p157-24"/>κύκλος. ὥσπερ γὰρ οὐδὲ πρότασίς ἐστιν ἀποδεικτικὴ ἣ μή ἐστι καθόλου,<note type="apparatus" n="25" target="#p157-24">εἰ μή a²</note>
               <lb n="26" xml:id="p157-25"/>διότι ἐκ τῶν καθόλου ὁ συλλογισμός, οὕτως οὐδὲ ἔνστασίς ἐστιν<note type="apparatus" n="26" target="#p157-25">συλλογισμῶν, ὁ om. R</note><milestone type="alt-edition" unit="line" ed="Aldina 1534" n="20"/>
-              <lb n="27" xml:id="p157-26"/>ἐπιστημονικὴ ἢ μὴ ἐστι καθόλου· ἡ γὰρ ἔνστασις, φησίν, αὐτὴ καὶ τοῦ<note type="apparatus" n="27" target="#p157-26">εἰ μή Ua²</note>
+              <lb n="27" xml:id="p157-26"/>ἐπιστημονικὴ ἣ μή ἐστι καθόλου· ἡ γὰρ ἔνστασις, φησίν, αὐτὴ καὶ τοῦ<note type="apparatus" n="27" target="#p157-26">εἰ μή Ua²</note>
               <lb n="28" xml:id="p157-27"/>συλλογισμοῦ μέρος γίνεται. εἰ μὲν γὰρ πρὸς τὸ συμπέρασμα ἐνστῇ τις, ἡ<note type="apparatus" n="28" target="#p157-27">εἰ μὲν—p. 158,1 ἡ ἔνστασις om. a πρὸς—p. 158,1 μὲν γὰρ om. R</note>
               <lb n="29" xml:id="p157-28"/>ἔνστασις ἀρχὴ γίνεται συλλογισμοῦ· εἰ δὲ πρὸς τὴν πρότασιν, συμπέρασμα
             </p>
@@ -6848,8 +6849,8 @@
               <lb n="19" xml:id="p162-18"/>δι’ ἧς εὑρίσκομεν τὰς προτάσεις δι’ ὧν τοῦτο συνήχθη, ἀνάλυσίν φασι.
               <lb n="20" xml:id="p162-19"/>νῦν μὲν γὰρ προτεθέντος, πῶς ἂν συσταίη τρίγωνον ἰσόπλευρον, διὰ τῶν
               <lb n="21" xml:id="p162-20"/>προτάσεων εὑρήσομεν τὸ συμπέρασμα ἀπό τινων ὡμολογημένων ἀρξάμενοι<note type="apparatus" n="21" target="#p162-20">εὑρήσομεν scripsi: εὕρομεν RUa</note><milestone type="alt-edition" unit="line" ed="Aldina 1534" n="5"/>
-              <lb n="22" xml:id="p162-21"/>καὶ λήξαντες εἰς τὸ ζητούμενον, καὶ καλεῖται τὸ τοιοῦτον σύνθεσις. ἡ ἀνάλυσις
-              <lb n="23" xml:id="p162-22"/>.δὲ ἔμπαλιν ἔχει τῇ συνθέσει· λαβόντες γὰρ τὸ πάλαι ζητούμενον<note type="apparatus" n="23" target="#p162-22">λαβόντες a: λαβὼν RU πρότερον a</note>
+              <lb n="22" xml:id="p162-21"/>καὶ λήξαντες εἰς τὸ ζητούμενον, καὶ καλεῖται τὸ τοιοῦτον σύνθεσις. ἡ ἀνάλυσιςδὲ
+              <lb n="23" xml:id="p162-22"/>ἔμπαλιν ἔχει τῇ συνθέσει· λαβόντες γὰρ τὸ πάλαι ζητούμενον<note type="apparatus" n="23" target="#p162-22">λαβόντες a: λαβὼν RU πρότερον a</note>
               <lb n="24" xml:id="p162-23"/>ὡς ὁμολογούμενον, ὅτι τόδε τρίγωνόν ἐστιν ἰσόπλευρον, ζητοῦμεν τίνες ἂν
               <lb n="25" xml:id="p162-24"/>εἶεν αἱ προτάσεις δι’ ὧν τοῦτο κατεσκευάσθη, ἵνα ἐξ αὐτοῦ ἀναλύοντες<note type="apparatus" n="25" target="#p162-24">αὐτῶν Ra</note>
               <lb n="26" xml:id="p162-25"/>εὑρίσκωμεν αὐτάς, ἕως οὗ φθάσωμεν εἰς τινα ὁμολογούμενα καὶ τὰς ἀρχὰς<note type="apparatus" n="26" target="#p162-25">εὑρήσωμεν R: εὕρωμεν a φθάσομεν R</note>
@@ -7005,7 +7006,7 @@
           <div type="textpart" subtype="lemma" n="246">
             <milestone unit="bekker" n="78a17"/>
             <quote type="lemma">
-              <lb n="3" xml:id="p166-2"/>Οἷον ἔστιν ἀριθμὸς ποσὸς ἢ καὶ ἄπειρος τοῦτο ἐφ’ ί Α.<note type="apparatus" n="3" target="#p166-2">καὶ om. R</note>
+              <lb n="3" xml:id="p166-2"/>Οἷον ἔστιν ἀριθμὸς ποσὸς ἢ καὶ ἄπειρος τοῦτο ἐφ’ ᾧ Α.<note type="apparatus" n="3" target="#p166-2">καὶ om. R</note>
             </quote>
             <p>
               <lb n="4" xml:id="p166-3"/>Τὸν ἀριθμὸν ἁπλῶς ἀόριστον λαμβάνει, εἴτε ἄπειρος εἴη ὁ ἀριθμὸς εἴτε
@@ -7027,7 +7028,7 @@
               <lb n="8" xml:id="p166-7"/>Περιττὸς ἀριθμὸς ἐφ’ οὗ Γ.<note type="apparatus" n="8" target="#p166-7">ἀριθμὸς περιττὸς R Arist.</note>
             </quote>
             <p>
-              <lb n="9" xml:id="p166-8"/>ᾙρισμένος περιττός, οἷον ὁ τρία, ὁ πέντε καὶ οἱ ὅμοιοι.<note type="apparatus" n="9" target="#p166-8">ὡρισμένος— ὁ (τοῦ add. R) τρία—ὅμοιοι RUa2: ἔστιν ἄρα τὸ ᾱ κατὰ τοῦ γ̄ a1</note>
+              <lb n="9" xml:id="p166-8"/>Ὡρισμένος περιττός, οἷον ὁ τρία, ὁ πέντε καὶ οἱ ὅμοιοι.<note type="apparatus" n="9" target="#p166-8">ὡρισμένος— ὁ (τοῦ add. R) τρία—ὅμοιοι RUa2: ἔστιν ἄρα τὸ ᾱ κατὰ τοῦ γ̄ a1</note>
             </p>
           </div>
           <div type="textpart" subtype="lemma" n="249">
@@ -7045,7 +7046,7 @@
               <lb n="12" xml:id="p166-11"/>Ὁ ἄρτιος ἀριθμὸς ἐφ’ οὗ τὸ Ε.<note type="apparatus" n="12" target="#p166-11">τὸ om. a1 Arist.</note>
             </quote>
             <p>
-              <lb n="13" xml:id="p166-12"/>ᾙρισμένος ἄρτιος, οἷον ὁ ἓξ ἢ ὁ Ὀκτὸ καὶ οἱ λοιποί.<note type="apparatus" n="13" target="#p166-12">ὡρισμένος—λοιποί RUa2: ἔστιν ἄρα τὸ ᾱ κατὰ τοῦ ε̄ a1 ἢ ὁ ἓξ Ὀκτὸ R</note>
+              <lb n="13" xml:id="p166-12"/>Ὡρισμένος ἄρτιος, οἷον ὁ ἓξ ἢ ὁ ὀκτὼ καὶ οἱ λοιποί.<note type="apparatus" n="13" target="#p166-12">ὡρισμένος—λοιποί RUa2: ἔστιν ἄρα τὸ ᾱ κατὰ τοῦ ε̄ a1 ἢ ὁ ἓξ Ὀκτὸ R</note>
             </p>
           </div>
           <div type="textpart" subtype="lemma" n="251">
@@ -7054,14 +7055,14 @@
               <lb n="14" xml:id="p166-13"/>Τὸ δὲ ὅτι διαφέρει καὶ τὸ διότι ἐπίστασθαι.<note type="apparatus" n="14" target="#p166-13">lemma om. a1 τὸ διότι Ua2 Arist.: τί R</note>
             </quote>
             <p>
-              <lb n="15" xml:id="p166-14"/>Τὸ προκείμενόν ἐστι διὸ τούτων δεῖξαι, τί διαφέρουσιν οἱ τὸ ὅτι<note type="apparatus" n="15" target="#p166-14">Πρόκειται τῷ φιλοσόφῳ διὰ a1</note><milestone type="alt-edition" unit="line" ed="Aldina 1534" n="35"/>
+              <lb n="15" xml:id="p166-14"/>Τὸ προκείμενόν ἐστι διὰ τούτων δεῖξαι, τί διαφέρουσιν οἱ τὸ ὅτι<note type="apparatus" n="15" target="#p166-14">Πρόκειται τῷ φιλοσόφῳ διὰ a1</note><milestone type="alt-edition" unit="line" ed="Aldina 1534" n="35"/>
               <lb n="16" xml:id="p166-15"/>κατασκευάζοντες συλλογισμοὶ τῶν τὸ διότι κατασκευαζόντων. φησὶν οὖν ὅτι<note type="apparatus" n="16" target="#p166-15">καὶ φησὶν ὅτι a1</note>
-              <lb n="17" xml:id="p166-16"/>καθ’ ἔνα μὲν τρόπον διαφέρουσι τῷ τοὶς μὲν τὸ ὅτι κατασκευάζοντας ἑτέρας<note type="apparatus" n="17-18" target="#p166-16 #p166-17">τὸν μὲν—κατασκευάζοντα—τὸν δὲ a1 et a2</note>
+              <lb n="17" xml:id="p166-16"/>καθ’ ἕνα μὲν τρόπον διαφέρουσι τῷ τοὶς μὲν τὸ ὅτι κατασκευάζοντας ἑτέρας<note type="apparatus" n="17-18" target="#p166-16 #p166-17">τὸν μὲν—κατασκευάζοντα—τὸν δὲ a1 et a2</note>
               <lb n="18" xml:id="p166-17"/>εἶναι ἐπιστήμης, τοὶς δὲ τὸ διότι, τουτέστι τὴν αἰτίαν τοῦ πράγματος, ἑτέρας·<note type="apparatus" n="18" target="#p166-17">ἑτέρας om. R: τῆς ἀποδεικτικῆς a1</note>
-              <lb n="19" xml:id="p166-18"/>ταῦτα δὲ πῶς ἔχει, ἐφεξῆς λέγει· καθ’ ἔτερον δὲ τῷ ὅτι καὶ ἐπὶ τῆς<note type="apparatus" n="19" target="#p166-18">ἐφεξῆς] p. 78b34 sq. καθ’—21 κατασκευάζοντα om. a1 τῷ—20 διότι om. R</note>
+              <lb n="19" xml:id="p166-18"/>ταῦτα δὲ πῶς ἔχει, ἐφεξῆς λέγει· καθ’ ἕτερον δὲ τῷ ὅτι καὶ ἐπὶ τῆς<note type="apparatus" n="19" target="#p166-18">ἐφεξῆς] p. 78b34 sq. καθ’—21 κατασκευάζοντα om. a1 τῷ—20 διότι om. R</note>
               <lb n="20" xml:id="p166-19"/>αὐτῆς μὲν ἐπιστήμης ἔστιν εὑρεῖν καὶ τὸν τὸ ὅτι καὶ τὸν τὸ διότι κατασκευάζοντα,
               <lb n="21" xml:id="p166-20"/>διαφέρουσι δὲ οὗτοι, οἱ ἐπὶ τῆς αὐτῆς λέγω ἐπιστήμης, κατὰ<note type="apparatus" n="21" target="#p166-20">ἐπὶ—22 ἔνα μὲν RUa2: συλλογισμοί, καὶ καθ’ ἔτερον τρόπον a1</note>
-              <lb n="22" xml:id="p166-21"/>δύο τρόπους. καθ’ ἔνα μέν, ὅτι ὁ μὲν τὸ διότι κατασκευάζων δι’ ἀμέσων<note type="apparatus" n="22" target="#p166-21">οἱ—κατασκευάζοντες—p. 167,1 συμπεραίνονται a1</note>
+              <lb n="22" xml:id="p166-21"/>δύο τρόπους. καθ’ ἕνα μέν, ὅτι ὁ μὲν τὸ διότι κατασκευάζων δι’ ἀμέσων<note type="apparatus" n="22" target="#p166-21">οἱ—κατασκευάζοντες—p. 167,1 συμπεραίνονται a1</note>
             </p>
             <pb n="167" facs="https://archive.org/download/inaristotelisana00phil/page/n202.jpg"/>
             <p>
@@ -7178,7 +7179,7 @@
           <div type="textpart" subtype="lemma" n="253">
             <milestone unit="bekker" n="78a23"/>
             <quote type="lemma">
-              <lb n="6" xml:id="p170-5"/>Ἔνα μὲν τρόπον, ἐὰν μὴ δι’ ἀμέσων γίνηται ὁ συλλογισμός.<note type="apparatus" n="6" target="#p170-5">γίνεται U</note>
+              <lb n="6" xml:id="p170-5"/>Ἕνα μὲν τρόπον, ἐὰν μὴ δι’ ἀμέσων γίνηται ὁ συλλογισμός.<note type="apparatus" n="6" target="#p170-5">γίνεται U</note>
               <lb n="7" xml:id="p170-6"/>
             </quote>
             <p>
@@ -7931,7 +7932,7 @@
               <lb n="9" xml:id="p187-8"/>Τὸ μὲν Β ὑποκείμενον ὅρον λαμβάνει, τὸ δὲ Α ἀποφασκόμενον τοῦ
               <lb n="10" xml:id="p187-9"/>Β, καὶ φησίν, ὅταν ᾖ θάτερος αὐτῶν ἔν τινι καθολικωτέρῳ, τουτέστιν
               <lb n="11" xml:id="p187-10"/>ὅταν ἔχῃ τι ἑαυτοῦ κατηγορούμενον, ἢ καὶ ἀμφότεροι, οὐκ ἔστιν ἡ
-              <lb n="12" xml:id="p187-11"/>τοιαύτη ἀπόφασις ἄμεσος· οὐ γὰρ πρώτως ἀπαφάσκεται τοῦ Β τὸ Α<note type="apparatus" n="12" target="#p187-11">πρώτη pr. U</note>
+              <lb n="12" xml:id="p187-11"/>τοιαύτη ἀπόφασις ἄμεσος· οὐ γὰρ πρώτως <choice><sic>ἀπαφάσκεται</sic><corr>ἀποφάσκεται</corr></choice> τοῦ Β τὸ Α<note type="apparatus" n="12" target="#p187-11">πρώτη pr. U</note>
               <lb n="13" xml:id="p187-12"/>ἀλλὰ διὰ μέσου ἄλλου.
             </p>
           </div>
@@ -8686,8 +8687,8 @@
               <lb n="17" xml:id="p203-16"/>γάρ, φησίν, ἐνδέχεται τὸ Γ τοῦ μὲν καταφῆσαι παντὸς ψευδῶς τοῦ δὲ<note type="apparatus" n="17" target="#p203-16">πάντως R</note>
               <lb n="18" xml:id="p203-17"/>ἀποφῆσαι <milestone type="alt-edition" unit="folio" ed="Aldina 1534" n="45r"/> παντὸς ψευδῶς, δῆλον ὅτι αἱ ἐναντίαι αὐταῖς ἀληθεῖς ἔσονται.<note type="apparatus" n="18" target="#p203-17">καταφῆσαι R</note>
               <lb n="19" xml:id="p203-18"/>εἰ γὰρ τὸ Γ μηδενὶ τῷ Α ψευδῶς, παντὶ ἀληθῶς ἔσται· ὁμοίως, εἰ τῷ Β<note type="apparatus" n="19" target="#p203-18">εἰ—ἔσται om. R post ὁμοίως add. γὰρ Ua</note>
-              <lb n="20" xml:id="p203-19"/>παντὶ ὑπάρχει ψευδῶς, οὐδενὶ ὑπάρξει ἀληθῶς. ὥστε τοῦ μὲν κατηγορηθήσηται<note type="apparatus" n="20" target="#p203-19">post ὑπάρχει add. τὸ γ a</note>
-              <lb n="21" xml:id="p203-20"/>παντὸς ἀληθῶς τοῦ δὲ ἀποφαθήσεται· τοῦτο δὲ δέδεικται ἀδύματον.<note type="apparatus" n="21" target="#p203-20">πάντως R ψευδῶς a ἀποφαθήσεται scripsi cf. p. 202,31: ἀποφανθήσεται libri δὲ om. R</note>
+              <lb n="20" xml:id="p203-19"/>παντὶ ὑπάρχει ψευδῶς, οὐδενὶ ὑπάρξει ἀληθῶς. ὥστε τοῦ μὲν κατηγορηθήσεται<note type="apparatus" n="20" target="#p203-19">post ὑπάρχει add. τὸ γ a</note>
+              <lb n="21" xml:id="p203-20"/>παντὸς ἀληθῶς τοῦ δὲ ἀποφαθήσεται· τοῦτο δὲ δέδεικται ἀδύνατον.<note type="apparatus" n="21" target="#p203-20">πάντως R ψευδῶς a ἀποφαθήσεται scripsi cf. p. 202,31: ἀποφανθήσεται libri δὲ om. R</note>
               <lb n="22" xml:id="p203-21"/>ταῖς μὲν γὰρ καθόλου ψευδέσι προτάσεσιν αἱ ἀντικείμεναι ἀληθεῖς
               <lb n="23" xml:id="p203-22"/>ἐναντίαι εἰσί, τουτέστι καθόλου· ταῖς δὲ ἐπί τι ψευδέσιν αἱ ἀντικείμεναι<note type="apparatus" n="23" target="#p203-22">ante καθόλου add. αἱ R</note><milestone type="alt-edition" unit="line" ed="Aldina 1534" n="5"/>
               <lb n="24" xml:id="p203-23"/>ἀληθεῖς ἀντιφατικαί εἰσιν. εἰ γὰρ ‘ὁ λίθος παντὶ ἀνθρώπῳ’ ψεῦδος, τὸ ἀντικείμενον<note type="apparatus" n="24" target="#p203-23">post ἀληθεῖς add. αἱ Ua ψευδῶς R</note>
@@ -10038,7 +10039,7 @@
             </quote>
             <p>
               <lb n="29" xml:id="p232-28"/>Ἐπειδὴ ὡς ἐπὶ ἑκάστου ἰδίᾳ σχήματος ἐποιήσατο τὰς ἀποδείξεις, κἂν
-              <lb n="30" xml:id="p232-29"/>μὴ δι’ ἑνὸς σχήματος, φησί, προϊοιεν οἱ συλλογισμοὶ ἀλλ’, εἰ τύχοι, ἡ μὲν<note type="apparatus" n="30" target="#p232-29">φησι σχήματος a τύχη R μὲν a: om. RU</note>
+              <lb n="30" xml:id="p232-29"/>μὴ δι’ ἑνὸς σχήματος, φησί, προΐοιεν οἱ συλλογισμοὶ ἀλλ’, εἰ τύχοι, ἡ μὲν<note type="apparatus" n="30" target="#p232-29">φησι σχήματος a τύχη R μὲν a: om. RU</note>
               <lb n="31" xml:id="p232-30"/>ἀποφατικὴ πρότασις δειχθείη διὰ τοῦ πρώτου σχήματος, ἡ δὲ ἀποφατικὴ<note type="apparatus" n="31" target="#p232-30">ἀποφατικὴ prius R: καταφατικὴ Ua</note>
             </p>
             <pb n="233" facs="https://archive.org/download/commentariaina13pt3akaduoft/page/n268.jpg"/>
@@ -10084,7 +10085,7 @@
               <lb n="25" xml:id="p233-24"/>τὸ κάτω. καὶ μάλιστά γε δείκνυσιν ὅτι οὐχ οἷόν τε ἐπ’ ἄπειρον ἐπὶ τὸ<note type="apparatus" n="25" target="#p233-24">ἐπὶ τὸ —</note>
               <lb n="26" xml:id="p233-25"/>ἄνω ἰέναι· τοῦτο γὰρ μάλιστά ἐστι καὶ τὸ δειχθῆναι δεόμενον. τὸ γὰρ
               <lb n="27" xml:id="p233-26"/>μὴ ἐπὶ τὸ κάτω ἐπ’ ἄπειρον ἰέναι τὰς κατηγορίας σχεδὸν προφανὲς ἅπασι·<note type="apparatus" n="27" target="#p233-26">ἐπ’ ἄπειρον om. Ra²</note><note type="apparatus" n="27" target="#p233-26">εἶναι Ra²</note>
-              <lb n="28" xml:id="p233-27"/>τις γὰρ οὐκ οἶδεν ὅτι ἔσχατα μὲν ἐν ταῖς κατηγορίαις τὰ ἄτομα, ταῦτα<note type="apparatus" n="28" target="#p233-27">ὅτι a: om. RU ante τὰ add. ὄντα R</note>
+              <lb n="28" xml:id="p233-27"/>τίς γὰρ οὐκ οἶδεν ὅτι ἔσχατα μὲν ἐν ταῖς κατηγορίαις τὰ ἄτομα, ταῦτα<note type="apparatus" n="28" target="#p233-27">ὅτι a: om. RU ante τὰ add. ὄντα R</note>
               <lb n="29" xml:id="p233-28"/>δὲ <milestone type="alt-edition" unit="folio" ed="Aldina 1534" n="52r"/> κατ’ οὐδενὸς κατηγορεῖται; εἰ μέντοι ἐπ’ ἄπειρον ἐνδέχεται ἐπὶ τὸ<note type="apparatus" n="29" target="#p233-28">post οὐδενὸς add. ἄλλου R κατηγορεῖται a: κατηγορεῖσθαι RU</note>
               <lb n="30" xml:id="p233-29"/>ἄνω ἀνελθεῖν ἢ οὔ, καὶ μέχρι πόσου, οὐ ῥᾴδιον συνιδεῖν. τοῦτο οὖν<note type="apparatus" n="30" target="#p233-29">ἐλθεῖν U οὐ Ua²: ἀνάγκη Ra¹</note>
               <lb n="31" xml:id="p233-30"/>δείκνυσι διὰ πλειόνων ἐπιχειρημάτων, καὶ πρῶτον μὲν λογικώτερον, ἔπειτα
@@ -10393,7 +10394,7 @@
               <lb n="10" xml:id="p241-9"/>ὅπερ τὸ κατηγορούμενον ἐστὶ μήτε ὅπερ τοῦ κατηγορουμένου τι. ὅταν γὰρ<note type="apparatus" n="10" target="#p241-9">τὸ κατηγορούμενόν τι a</note>
               <lb n="11" xml:id="p241-10"/>εἴπω τὸν ἄνθρωπον λευκὸν εἶναι, οὔτε ὅπερ λευκὸν ἐστὶν ὁ ἄνθρωπος οὔτε
               <lb n="12" xml:id="p241-11"/>ὅπερ τι λευκόν· διὸ συμβέβηκε τῷ ἀνθρώπῳ τὸ λευκὸν μηδὲν συντελοῦν<note type="apparatus" n="12" target="#p241-11">λευκόν τι a διὸ συμβέβηκε R: inv. ord. U: συμβέβηκε γὰρ a</note>
-              <lb n="13" xml:id="p241-12"/>εἰς τὸν εἶναι αὐτοῦ.
+              <lb n="13" xml:id="p241-12"/>εἰς τὸ εἶναι αὐτοῦ.
             </p>
           </div>
           <div type="textpart" subtype="lemma" n="381">
@@ -10920,7 +10921,7 @@
             <milestone unit="bekker" n="83b26"/>
             <quote type="lemma">
               <lb n="8" xml:id="p253-7"/>Καθ’ ὧν μὲν γὰρ λέγεται τὰ συμβεβηκότα, ὅσα ἐν τῇ
-              <lb n="9" xml:id="p253-8"/>οὐσία ἑκάστου· ταῦτα δὲ οὐκ ἄπειρα.
+              <lb n="9" xml:id="p253-8"/>οὐσίᾳ ἑκάστου· ταῦτα δὲ οὐκ ἄπειρα.
             </quote>
             <p>
               <lb n="10" xml:id="p253-9"/>Εἰπὼν ὅτι οὔτ’ ἐπὶ τὸ ἄνω οὔτ’ ἐπὶ τὸ κάτω τὸ ἄπειρον, ἑκάτερον<note type="apparatus" n="10" target="#p253-9">τὰ ἄνω—τὰ κάτω a ἐπὶ alt. a: εἰς RU</note>
@@ -11161,7 +11162,7 @@
               <lb n="30" xml:id="p258-29"/>τὸ γὰρ ἄπειρα ὑπάρχειν τῷ ἑνί φησι, τῷ ὑποκειμένῳ, ὡς δείξομεν<note type="apparatus" n="30" target="#p258-29">τὸ συμβαίνει γὰρ οὕτω ἄπειρα a¹ τῷ ἑνὶ bis a² φησι τῷ om. a¹</note>
               <lb n="31" xml:id="p258-30"/>τὴν λέξιν ἐπεξιόντες· εἰς ὁρισμὸν δὲ τοῦ ἀριθμοῦ παραλαμβάνονται τὰ καθ’<note type="apparatus" n="31" target="#p258-30">post εἰς add. τὸν a παραλαμβάνεται a</note>
               <lb n="32" xml:id="p258-31"/>αὐτὰ ὑπάρχοντα αὐτῷ. ὥστε οὐ πρὸς τοὺς ὁρισμοὺς αὐτῷ συντείνει ὁ λόγος,<note type="apparatus" n="32" target="#p258-31">αὐτὸ R οὐ om. Ua post λόγος add. οὐχ b</note>
-              <lb n="33" xml:id="p258-32"/>ὅτι μὴ ἐνδέχεται τούτους ἐξ ἀπείρων συνεστηκέναι, ἀλλ’ ὅτι εἰ τὰ ὑπαρχοντα
+              <lb n="33" xml:id="p258-32"/>ὅτι μὴ ἐνδέχεται τούτους ἐξ ἀπείρων συνεστηκέναι, ἀλλ’ ὅτι εἰ τὰ ὑπάρχοντα
               <lb n="34" xml:id="p258-33"/>τῷ ἀριθμῷ ἄπειρα εἶεν, ταῦτα δὲ καθ’ αὑτὸ αὐτῷ ὑπάρχει, ἀδύνατον<note type="apparatus" n="34" target="#p258-33">αὐτῶ U: om. Ra</note><milestone type="alt-edition" unit="line" ed="Aldina 1534" n="5"/>
               <lb n="35" xml:id="p258-34"/>〈δ’ αὐτὸν〉 γνῶναι τὸν μὴ εἰδότα πάντα τὰ καθ’ αὑτὸ αὐτῷ ὑπάρχοντα (οὐ γὰρ<note type="apparatus" n="35" target="#p258-34">δ’ αὐτὸν addidi</note>
             </p>
@@ -11172,7 +11173,7 @@
               <lb n="3" xml:id="p259-2"/>τὰ δὲ ἄπειρα γνῶναι καὶ διεξελθεῖν ἀδύνατον, ἀδύνατον ἄρα γνῶσιν τῶν<note type="apparatus" n="3" target="#p259-2">post γνῶσιν add. εἶναι R</note>
               <lb n="4" xml:id="p259-3"/>πραγμάτων ἔχειν. ὥστε εἰ τοῦτο ἄτοπον, ἀδύνατον ἄρα τῷ ἑνὶ ἄπειρα καθ’<note type="apparatus" n="4-5" target="#p259-3 #p259-4">ὑπάρχειν καθ’ αὑτό a</note>
               <lb n="5" xml:id="p259-4"/>αὑτὸ ὑπάρχειν. προστίθησι δὲ τούτοις καὶ ἕτερον ὁ Ἀλέξανδρος δεικνὺς
-              <lb n="6" xml:id="p259-5"/>μὴ ἐνδέχεσθαι ἄπειρα εἶναι τὰ κατὰ τὸν δεύτερον τρόπον καθ’ αὑτὸ ὑπάργοντα·<note type="apparatus" n="6-7" target="#p259-5 #p259-6">τὰ καθ’ αὑτὸ ὑπάρχοντα κατὰ τὸν δεύτερον τρόπον a</note><milestone type="alt-edition" unit="line" ed="Aldina 1534" n="10"/>
+              <lb n="6" xml:id="p259-5"/>μὴ ἐνδέχεσθαι ἄπειρα εἶναι τὰ κατὰ τὸν δεύτερον τρόπον καθ’ αὑτὸ ὑπάρχοντα·<note type="apparatus" n="6-7" target="#p259-5 #p259-6">τὰ καθ’ αὑτὸ ὑπάρχοντα κατὰ τὸν δεύτερον τρόπον a</note><milestone type="alt-edition" unit="line" ed="Aldina 1534" n="10"/>
               <lb n="7" xml:id="p259-6"/>ταῦτα γάρ, φησίν, ἀεὶ ἐπὶ τὸ ἔλαττον πρόεισιν. ὥσπερ γὰρ τοῦ
               <lb n="8" xml:id="p259-7"/>ἀριθμοῦ τὸ περιττὸν ἐπ’ ἔλαττον καὶ τὸ πρῶτον ἐπ’ ἔλαττον τοῦ περιττοῦ,
               <lb n="9" xml:id="p259-8"/>οὕτως, εἰ καὶ τῷ πρώτῳ ἕτερόν τι ὑπῆρχεν, ἐπ’ ἔλαττον ἂν ἦν κἀκεῖνο<note type="apparatus" n="9" target="#p259-8">ἐπ’ om. R</note>
@@ -12836,7 +12837,7 @@
               <lb n="22" xml:id="p294-21"/>ὑπάρχειν. εἰ οὖν τοῦτο ψεῦδος, τὸ ἀντικείμενον ἀληθὲς ἔσται, λέγω δὴ
               <lb n="23" xml:id="p294-22"/>τὸ οὐ παντί· οὐ τοῦτο δὲ ἦν ὃ ἐβουλόμεθα δεῖξαι, ἀλλ’ ὅτι τὸ Α οὐδενὶ
               <lb n="24" xml:id="p294-23"/>τῶν Β ὑπάρχει.<note type="apparatus" n="24" target="#p294-23">τῷ β a</note>
-              <lb n="25" xml:id="p294-24"/>Ἀ μὲν οὖν ἐγκαλοῦσι τῷ λόγῳ εὐλόγως οἱ ἐξηγηταί, ταῦτά ἐστι. ἔστι<note type="apparatus" n="25" target="#p294-24">εὐλόγως RUa²: δοκοῦντες εὔλογα λέγειν a¹ ἔστι—26 τρόπον RUa²: ἃ δ’ ὑπὲρ ἀριστοτέλους ἡμῖν ἀπολογήσασθαι πρόκειται, οὕτως ἔχουσιν a¹</note>
+              <lb n="25" xml:id="p294-24"/><choice><sic>Ἁ</sic><corr>Ἃ</corr></choice> μὲν οὖν ἐγκαλοῦσι τῷ λόγῳ εὐλόγως οἱ ἐξηγηταί, ταῦτά ἐστι. ἔστι<note type="apparatus" n="25" target="#p294-24">εὐλόγως RUa²: δοκοῦντες εὔλογα λέγειν a¹ ἔστι—26 τρόπον RUa²: ἃ δ’ ὑπὲρ ἀριστοτέλους ἡμῖν ἀπολογήσασθαι πρόκειται, οὕτως ἔχουσιν a¹</note>
               <lb n="26" xml:id="p294-25"/>μέντοι ἀπολογήσασθαι ὑπὲρ Ἀριστοτέλους τοῦτον τὸν τρόπον, ὅτι ὃν τρόπον
               <lb n="27" xml:id="p294-26"/>τὴν διαφορὰν τῶν τριῶν σχημάτων ἐν τῷ πρώτῳ τῶν Ἀναλυτικῶν<note type="apparatus" n="27" target="#p294-26">ἐν τῷ πρώτῳ τῶν Ἀναλ.] c. 4—6</note><milestone type="alt-edition" unit="line" ed="Aldina 1534" n="10"/>
               <lb n="28" xml:id="p294-27"/>ἐνδείξασθαι ἡμῖν βουλόμενος διάφορα παρέλαβε στοιχεῖα, ἐπὶ μὲν τοῦ
@@ -13112,7 +13113,7 @@
             </p>
             <pb n="300" facs="https://archive.org/download/commentariaina13pt3akaduoft/page/n335.jpg"/>
             <p>
-              <lb n="1" xml:id="p300-0"/>καθ’ ὑποκειμένου δὲ οὐ λέγει τὸ καθόλου· οὕτω γὰρ συνέβαινε τοὐναντιον<note type="apparatus" n="1" target="#p300-0">τὸν a post καθόλου add. ὡς ἐν ταῖς κατηγορίαις παρέδωκεν a</note>
+              <lb n="1" xml:id="p300-0"/>καθ’ ὑποκειμένου δὲ οὐ λέγει τὸ καθόλου· οὕτω γὰρ συνέβαινε τοὐναντίον<note type="apparatus" n="1" target="#p300-0">τὸν a post καθόλου add. ὡς ἐν ταῖς κατηγορίαις παρέδωκεν a</note>
               <lb n="2" xml:id="p300-1"/>εἶναι· οὐ γὰρ βούλεται τῆς περὶ τῶν καθόλου ἐπιστήμης ἀκριβεστέραν<note type="apparatus" n="2" target="#p300-1">εἶναι RU: λέγειν οὐ βούλεται a</note><milestone type="alt-edition" unit="line" ed="Aldina 1534" n="20"/>
               <lb n="3" xml:id="p300-2"/>εἶναι τὴν τῶν μερικῶν καὶ καθ’ ἕκαστα. νῦν δὲ μὴ καθ’ ὑποκειμένου
               <lb n="4" xml:id="p300-3"/>φησίν, ὡς διὰ τῶν παραδεδειγμένων ἐδήλωσε, τὰ νοητὰ καὶ ἄυλα, καθ’<note type="apparatus" n="4" target="#p300-3">τὰ ἄυλα καὶ νοητά a</note><note type="apparatus" n="4-5" target="#p300-3 #p300-4">καθ’ ὑποκειμένου a¹: ὑποκείμενα RUa²</note>
@@ -13493,7 +13494,7 @@
               <lb n="19" xml:id="p308-18"/>τοῦ πρώτου αἰτίου· κρείττων γὰρ ἡ περὶ αὐτοῦ γνῶσις πάσης ἐπιστήμης.<note type="apparatus" n="19" target="#p308-18">ἐπιστήμης πάσης R</note>
               <lb n="20" xml:id="p308-19"/>Ἐπὶ τούτοις δὲ ἀπορεῖ, πῶς, εἴπερ οὐκ ἔστιν ἡ αἴσθησις ἐπιστήμη,
               <lb n="21" xml:id="p308-20"/>ἐν τοῖς ἔμπροσθεν ἐλέγομεν ὅτι, εἰ αἴσθησίς τις ἐκλείπει, ἀνάγκη καὶ ἐπιστήμην<note type="apparatus" n="21" target="#p308-20">ἐν τοῖς ἔμπροσθεν] c. 18 p. 81 a 38 sq.</note>
-              <lb n="22" xml:id="p308-21"/>τινὰ ἐκλείπειν. ταῦτα γὰρ οὐ συνέπεται ἀλλήλοις· εἰ γὰρ ἐκλείπούσης<note type="apparatus" n="22" target="#p308-21">συνέσεται R: fort. συνάσεται cf. p. 278,23</note>
+              <lb n="22" xml:id="p308-21"/>τινὰ ἐκλείπειν. ταῦτα γὰρ οὐ συνέπεται ἀλλήλοις· εἰ γὰρ ἐκλειπούσης<note type="apparatus" n="22" target="#p308-21">συνέσεται R: fort. συνάσεται cf. p. 278,23</note>
               <lb n="23" xml:id="p308-22"/>αἰσθήσεώς τινος καὶ ἐπιστήμην τινὰ ἐκλείπειν ἀνάγκη, ἔοικεν ἡ<note type="apparatus" n="23" target="#p308-22">ἀνάγκη ἐκλείπειν U</note><note type="apparatus" n="23-24" target="#p308-22 #p308-23">αἴσθησις ἡ U</note>
               <lb n="24" xml:id="p308-23"/>αἴσθησις ἐπιστήμη εἶναι. φησὶν οὖν ὅτι, εἰ καὶ ἐκλειπούσης αἰσθήσεώς<note type="apparatus" n="24" target="#p308-23">καὶ φησίν, om. οὖν U</note>
               <lb n="25" xml:id="p308-24"/>τινος ἀνάγκη καὶ ἐπιστήμην τινὰ ἐκλείπειν, ἀλλ’ οὖν οὐ διὰ τοῦτο ἡ αἴσθησις<note type="apparatus" n="25" target="#p308-24">τινος om. U</note><milestone type="alt-edition" unit="line" ed="Aldina 1534" n="15"/>
@@ -14860,7 +14861,7 @@
               <lb n="23" xml:id="p338-22"/>ἡ ἔκλειψις ἐν τῇ σελήνῃ θεωρεῖται κατὰ συμβεβηκός, τὸ δὲ σφαιρικὸν
               <lb n="24" xml:id="p338-23"/>σχῆμα καθ’ αὑτό. τὸ δὲ ἢ ἐν μέσῳ ἢ μή, τοῦτο δηλοῖ ὡς ἆρά γε<note type="apparatus" n="24" target="#p338-23">ἢ prius CEFa (A d): εἰ Arist.</note>
               <lb n="25" xml:id="p338-24"/>ἔστι τις αἰτία τοῦ εἶναι τὴν γῆν μέσην ἢ οὐκ ἔστι; κέντρου γὰρ λόγον<note type="apparatus" n="25" target="#p338-24">κενταύρου (quod correxit b) a</note>
-              <lb n="26" xml:id="p338-25"/>ἐπέγει· καθ’ ἧς γῆς τὸ μὲν αἰσθητὸν κατηγορεῖται κατὰ συμβεβηκός, τὸ
+              <lb n="26" xml:id="p338-25"/>ἐπέχει· καθ’ ἧς γῆς τὸ μὲν αἰσθητὸν κατηγορεῖται κατὰ συμβεβηκός, τὸ
               <lb n="27" xml:id="p338-26"/>δὲ ἐν τῷ μέσῳ εἶναι τόπῳ καθ’ αὑτό. καὶ πάλιν τῷ τριγώνῳ ὑπάρχει τὸ<note type="apparatus" n="27" target="#p338-26">καὶ πάλιν —</note>
               <lb n="28" xml:id="p338-27"/>ἴσον καθ’ αὑτό· ἔχει γὰρ τὰς τρεῖς γωνίας δυσὶν ὀρθαῖς ἴσας καθ’ αὑτό·<note type="apparatus" n="28" target="#p338-27">ἴσας καθ’ αὑτό om. a</note>
               <lb n="29" xml:id="p338-28"/>τὸ δὲ ἔχειν τὰς δύο πλευρὰς ἀνίσους, ἤγουν μείζους τῆς μιᾶς, κατὰ συμβεβηκός.<milestone type="alt-edition" unit="line" ed="Aldina 1534" n="35"/>
@@ -15596,7 +15597,7 @@
               <lb n="21" xml:id="p353-20"/>ὁρισμῶν τῶν ἀπὸ διαιρέσεως εὑρεθέντων. οἷον εἰ ἔστιν ὁρισμὸς τοῦ<note type="apparatus" n="21" target="#p353-20">τοῦ om. a</note>
               <lb n="22" xml:id="p353-21"/>ἀνθρώπου τὸ ζῷον θνητὸν ὑπόπουν δίπουν ἄπτερον, ἔξεστι τῷ<note type="apparatus" n="22" target="#p353-21">ὑπόπουν θνητὸν EF</note><milestone type="alt-edition" unit="line" ed="Aldina 1534" n="10"/>
               <lb n="23" xml:id="p353-22"/>ἀκροατῇ ἐρωτᾶν παρ’ ἑκάστην πρόσθεσιν, ἤγουν μέρος ἕκαστον τοῦ<note type="apparatus" n="23" target="#p353-22">καθ’ a πρόθεσιν a post ἤγουν add. τὸ a ἕκαστον CEF: πᾶν a</note>
-              <lb n="24" xml:id="p353-23"/>ὁρισμοῦ, οἷον διὰ τί θνητὸν ἢ ὑπόπουν; ἐρεῖ γὰρ ὁ διαιρετικὸς καὶ δὲξει
+              <lb n="24" xml:id="p353-23"/>ὁρισμοῦ, οἷον διὰ τί θνητὸν ἢ ὑπόπουν; ἐρεῖ γὰρ ὁ διαιρετικὸς καὶ δείξει
               <lb n="25" xml:id="p353-24"/>ὡς οἴεται ὅτι πᾶν ζῷον ἢ θνητὸν ἢ ἀθάνατον, ὁ δὲ ἄνθρωπος<note type="apparatus" n="25" target="#p353-24">ἢ prius om. a</note>
               <lb n="26" xml:id="p353-25"/>θνητός, οὐκ ἄρα ἀθάνατος. ἀλλ’ ἐπεὶ ἀσυλλογίστως ταῦτα ἔλαβεν, ἐρωτήσει
               <lb n="27" xml:id="p353-26"/>αὐτὸν διὰ τί θνητὸν ὁ ἄνθρωπος καὶ οὐκ ἀθάνατον; ὁ δὲ τοιοῦτος<note type="apparatus" n="27" target="#p353-26">αὐτὸν om. a</note>
@@ -15696,7 +15697,7 @@
               <lb n="18" xml:id="p355-17"/>τῆς ἐλάττονος· ἀπὸ δὲ τοῦ εἰπεῖν μέρος ἐδήλωσε τὴν ἐλάττονα περιεχομένην<milestone type="alt-edition" unit="line" ed="Aldina 1534" n="50"/>
               <lb n="19" xml:id="p355-18"/>ὑπὸ τῆς μείζονος. δύο γοῦν εἰσιν αἱ προτάσεις ἐξ ὧν ὁ συλλογισμὸς
               <lb n="20" xml:id="p355-19"/>περαίνεται. ἐν οὐδεμιᾷ γοῦν τῶν δύο ὁ ὁρισμὸς τοῦ συλλογισμοῦ
-              <lb n="21" xml:id="p355-20"/>κεῖται, ὅστις ἐστὶ “λόγος ἐν ᾡ τεθέντων τινῶν”.
+              <lb n="21" xml:id="p355-20"/>κεῖται, ὅστις ἐστὶ “λόγος ἐν ᾧ τεθέντων τινῶν”.
             </p>
           </div>
           <div type="textpart" subtype="lemma" n="42">
@@ -15710,7 +15711,7 @@
               <lb n="25" xml:id="p355-24"/>Ἀλλὰ χωρὶς εἶναι τοῦτο, ἤγουν τὸν ὁρισμὸν τοῦ ὁρισμοῦ ἢ τὸν<note type="apparatus" n="25" target="#p355-24">ἤγουν CEF: ἢ a</note>
               <lb n="26" xml:id="p355-25"/>ὁρισμὸν τοῦ συλλογισμοῦ δεῖ εἶναι ἐκτὸς τῶν κειμένων καὶ ληφθεισῶν<milestone type="alt-edition" unit="line" ed="Aldina 1534" n="5"/>
               <lb n="27" xml:id="p355-26"/>προτάσεων. πρὸς δὲ τὸν ἀμφισβητοῦντα καὶ ἐνιστάμενον, ὡς οὐ<note type="apparatus" n="27-28" target="#p355-26 #p355-27">καλῶς οὐ περιέβη a</note>
-              <lb n="28" xml:id="p355-27"/>καλῶς προέβη ὁ συλλογισμὸς ἢ ὅτι οὐ τόδε ὁ ἀπέδειξας ὁρισμός ἐστι τοῦδε,<note type="apparatus" n="28" target="#p355-27">οὐ evan. F: οὐδὲ a τότε a</note>
+              <lb n="28" xml:id="p355-27"/>καλῶς προέβη ὁ συλλογισμὸς ἢ ὅτι οὐ τόδε ὃ ἀπέδειξας ὁρισμός ἐστι τοῦδε,<note type="apparatus" n="28" target="#p355-27">οὐ evan. F: οὐδὲ a τότε a</note>
               <lb n="29" xml:id="p355-28"/>ἀπαντᾶν τε καὶ προβάλλεσθαι τοῦτο, ὅτι καλῶς συλλελόγισμαι· τοῦτο<note type="apparatus" n="29" target="#p355-28">τε om. Ea post ὅτι add. οὐ C συλλελόγισμαι] σμ supra στ scr. E 30. p. 356,1 ἕτερόν τι τῶν κειμένων bis, semel del. F 23*</note>
               <lb n="30" xml:id="p355-29"/>γάρ ἐστιν ὁ συλλογισμός, “λόγος ἐν ᾧ τεθέντων τινῶν ἕτερόν τι τῶν
             </p>
@@ -15929,7 +15930,7 @@
               <lb n="7" xml:id="p360-6"/>ὄνομα ἢ ὁ λόγος ὁ λέγων ‘ζῷον ἐκ τράγου καὶ ἐλάφου συγκείμενον’· τὸ δὲ<note type="apparatus" n="7" target="#p360-6">ζῷον om. a</note><note type="apparatus" n="7-8" target="#p360-6 #p360-7">τί δὲ a</note>
               <lb n="8" xml:id="p360-7"/>τί ἐστιν ἡ φύσις καὶ ἡ αἰτία τοῦ τραγελάφου ἀδύνατον εἰδέναι· ἀνυπόστατον
               <lb n="9" xml:id="p360-8"/>γὰρ οὗτος καὶ ψιλὸν διανοίας ἀνάπλασμα.<note type="apparatus" n="9" target="#p360-8">τοῦτο a ψιλῆς a ἀπόπλασμα a</note>
-              <lb n="10" xml:id="p360-9"/>λλὰ μὴν εἰ δείξει τις τὸ τί ἐστι, ἤγουν τὸν ὁρισμόν, ἀδύνατον<note type="apparatus" n="10" target="#p360-9">Ἀλλὰ μὴν εἰ δείξει τί ἐστι, καὶ—δείξει lemma a</note><milestone type="alt-edition" unit="line" ed="Aldina 1534" n="10"/>
+              <lb n="10" xml:id="p360-9"/>Ἀλλὰ μὴν εἰ δείξει τις τὸ τί ἐστι, ἤγουν τὸν ὁρισμόν, ἀδύνατον<note type="apparatus" n="10" target="#p360-9">Ἀλλὰ μὴν εἰ δείξει τί ἐστι, καὶ—δείξει lemma a</note><milestone type="alt-edition" unit="line" ed="Aldina 1534" n="10"/>
               <lb n="11" xml:id="p360-10"/>συναποδεικνύεσθαι τούτῳ καὶ τὸ ὅτι ἔστι. τοῦτο δὲ φέρει πρὸς τὸν<note type="apparatus" n="11" target="#p360-10">συναποδείκνυσθαι E τὸ om. a</note>
               <lb n="12" xml:id="p360-11"/>ἐνιστάμενον, ὅτι συναποδεικνύεται τῷ τί ἐστι τὸ ὅτι ἔστι· πῶς γὰρ δυνατὸν<note type="apparatus" n="12" target="#p360-11">ante τῷ add. καὶ a τὸ ὅτι ἔστι om. a</note>
               <lb n="13" xml:id="p360-12"/>τῷ αὐτῷ λόγῳ καὶ τρόπῳ τῆς ἀποδείξεως δεικνύεσθαι καὶ τὸ τί ἐστι<note type="apparatus" n="13-14" target="#p360-12 #p360-13">τί ἐστι καὶ τὸ om. a</note>
@@ -16360,7 +16361,7 @@
               <lb n="12" xml:id="p368-11"/>εἶναι ἢ ὁμιλητικόν, καὶ ψυχὴν εἶναι γνωρίζομεν διὰ τὸ τὸ ἔμψυχον<note type="apparatus" n="12" target="#p368-11">τὸ alt. om. a</note>
               <lb n="13" xml:id="p368-12"/>σῶμα μεταμείβειν ἐκ τόπου εἰς τόπον μὴ τινος ἔξωθεν κινοῦντος αὐτό.<milestone type="alt-edition" unit="folio" ed="Aldina 1534" n="83v"/>
               <lb n="14" xml:id="p368-13"/>ἐπεὶ οὖν ἐκ τῶν τοιούτων ἔχομεν τὴν γνῶσιν τοῦ εἰ ἔστιν οὐδ’ ὅλως ἡμῖν
-              <lb n="15" xml:id="p368-14"/>παριστῶσαν αὐτό, διὰ τοῦτο οὐδὲ τὴν τοῦ τί ἐστι γνῶσιν ἔξομεν.<note type="apparatus" n="15" target="#p368-14">παριστῶσα a τί ἐστι CEF: ὅτι a</note>
+              <lb n="15" xml:id="p368-14"/>παριστῶσαν αὐτό, διὰ τοῦτο οὐδὲ τὴν τοῦ τί ἐστι γνῶσιν ἕξομεν.<note type="apparatus" n="15" target="#p368-14">παριστῶσα a τί ἐστι CEF: ὅτι a</note>
             </p>
           </div>
           <div type="textpart" subtype="lemma" n="73">
@@ -16378,7 +16379,7 @@
               <lb n="23" xml:id="p368-22"/>τούτων τίθησι, πρῶτον μέν, ὅταν τὸ αἴτιον ᾖ οὐσιῶδες, εἶθ’ οὕτω καὶ ὅτε<note type="apparatus" n="23" target="#p368-22">ᾖ om. a ὅτι a</note>
               <lb n="24" xml:id="p368-23"/>συμβεβηκός. καὶ φησίν, ἐφ’ ὧν πραγμάτων αἰτιατῶν λαμβάνομεν τὸ προσεχὲς<note type="apparatus" n="24" target="#p368-23">αἰτιατῶν] ατῶν evan. C</note>
               <lb n="25" xml:id="p368-24"/>τούτων αἴτιον καὶ οὐσιῶδες, ὅτε καθαρὰν τὴν τοῦ εἰ ἔστι γνῶσιν<note type="apparatus" n="25" target="#p368-24">ὅτι a εἰ om. a</note>
-              <lb n="26" xml:id="p368-25"/>ἔχομεν ἢ τοῦ ὅτι ἔστιν, ἔχομέν τι καὶ τοῦ τί ἐστιν, ἤγουν ἔχομεν συγαναφαινομένην
+              <lb n="26" xml:id="p368-25"/>ἔχομεν ἢ τοῦ ὅτι ἔστιν, ἔχομέν τι καὶ τοῦ τί ἐστιν, ἤγουν ἔχομεν συναναφαινομένην
               <lb n="27" xml:id="p368-26"/>καὶ τὴν γνῶσιν τοῦ τί ἐστι τῇ τοῦ εἰ ἔστι γνώσει. τὸ μὲν
               <lb n="28" xml:id="p368-27"/>οὖν ζητεῖν, ἆρα ἐκλείπει ἡ σελήνη ἢ οὔ, οὐκ ἄλλο τί ἐστιν ἀλλ’ ἢ εἰ τὸ<note type="apparatus" n="28" target="#p368-27">ἡ σελήνη ἐκλείπει E εἰ om. a</note><milestone type="alt-edition" unit="line" ed="Aldina 1534" n="15"/>
               <lb n="29" xml:id="p368-28"/>Β, ἤγουν ὁ μέσος ὅρος, αἴτιός ἐστι τῆς ἐκλείψεως τῆς σελήνης, ἤγουν ἡ<note type="apparatus" n="29" target="#p368-28">ἡ om. a</note>
@@ -16745,7 +16746,7 @@
               <lb n="29" xml:id="p375-28"/>ἄλλων. ἀντὶ δὲ τοῦ εἰπεῖν εἰδικὸν αἴτιον’ εἶπε τὸ τί ἦν εἶναι· τὸ γὰρ
               <lb n="30" xml:id="p375-29"/>τί ἦν εἶναι ὁρισμός ἐστιν οὐσιώδης· ὁ δὲ ὁρισμὸς ὁ οὐσιώδης εἰδικὸν<note type="apparatus" n="30" target="#p375-29">ὁ alt. om. EFa οὐσιώδης alt. post δὲ colloc. a</note>
               <lb n="31" xml:id="p375-30"/>αἴτιόν ἐστιν ὡς τὸ εἶδος καὶ τὴν οὐσίαν παριστῶν τοῦ πράγματος· τὸ τί<note type="apparatus" n="31" target="#p375-30">ἐστὶν om. E</note>
-              <lb n="32" xml:id="p375-31"/>ἦν ἄρα εἶναι εἰδικὸν αἴτιόν ἐστιν. ἀντὶ δὲ τοῦ εἰπεῖν ὑλικόν’ εἶπε τὸ
+              <lb n="32" xml:id="p375-31"/>ἦν ἄρα εἶναι εἰδικὸν αἴτιόν ἐστιν. ἀντὶ δὲ τοῦ εἰπεῖν <choice><sic>ὑλικόν</sic><corr>‘ὑλικόν</corr></choice>᾽ εἶπε τὸ
             </p>
             <pb n="376" facs="https://archive.org/download/commentariaina13pt3akaduoft/page/n411.jpg"/>
             <p>
@@ -17337,7 +17338,7 @@
           <div type="textpart" subtype="lemma" n="109">
             <milestone unit="bekker" n="95a29"/>
             <quote type="lemma">
-              <lb n="17" xml:id="p388-16"/>Διὸ καὶ ἐπὶ τῶν γινομένων ὡαύτως.
+              <lb n="17" xml:id="p388-16"/>Διὸ καὶ ἐπὶ τῶν γινομένων <choice><sic>ὡαύτως</sic><corr>ὡσαύτως</corr></choice>.
             </quote>
             <p>
               <lb n="18" xml:id="p388-17"/>Ἤγουν ὥσπερ ἐπὶ τῶν γεγονότων συλλογιζόμενοι ἀπὸ τοῦ ὑστέρου
@@ -17525,7 +17526,7 @@
               <lb n="27" xml:id="p391-26"/>τοῦ Σωκράτους, μὴ συνεχεῖς εἶναι, ἀλλ’ ἵνα δείξῃ ταύτας ἐφεξῆς οὔσας.<note type="apparatus" n="27" target="#p391-26">τοῦ CEF: τὴν a</note><milestone type="alt-edition" unit="line" ed="Aldina 1534" n="30"/>
               <lb n="28" xml:id="p391-27"/>εἰ γὰρ συνεχεῖς ἦσαν, τὰ αἴτια τοῖς αἰτιατοῖς οὐκ ἀμέσως ἠκολούθησαν,
               <lb n="29" xml:id="p391-28"/>οὔτε μὴν ἡ γένεσις τῇ γενέσει, ἀλλ’ ἐπ’ ἄπειρον μεταξὺ τούτων ἦν λαβεῖν
-              <lb n="30" xml:id="p391-29"/>μέσα, καὶ οὐδέποτε ἔστη ἡ τομὴ τῶν προτάσεων· ἀπὸ δὲ ἐμμέσων ἀποδειξις
+              <lb n="30" xml:id="p391-29"/>μέσα, καὶ οὐδέποτε ἔστη ἡ τομὴ τῶν προτάσεων· ἀπὸ δὲ ἐμμέσων ἀπόδειξις
               <lb n="31" xml:id="p391-30"/>οὐ γίνεται. ἐπεὶ δὲ αἱ γενέσεις τῶν αἰτίων καὶ αἰτιατῶν ἐφεξῆς<note type="apparatus" n="31" target="#p391-30">οὐ om. a αἱ CEF: ὡς a</note>
             </p>
             <pb n="392" facs="https://archive.org/download/commentariaina13pt3akaduoft/page/n427.jpg"/>
@@ -18074,7 +18075,7 @@
               <lb n="21" xml:id="p402-20"/>Πρῶτον μὲν ἐν τοῖς Ἀναλυτικοῖς καὶ ἐν τούτῳ τῷ βιβλίῳ διέσυρε<note type="apparatus" n="21" target="#p402-20">ἐν τοῖς Ἀναλυτ.] c. 31 p. 46a 31 sq. ἐν τούτῳ τῷ βιβλ.] c. 5 p. 91b 12 sq.</note>
               <lb n="22" xml:id="p402-21"/>τὴν διαίρεσιν ὡς ἀσυντελῆ καὶ ἄχρηστον εἰς τὴν εὕρεσιν τῶν ὁρισμῶν,<milestone type="alt-edition" unit="line" ed="Aldina 1534" n="5"/>
               <lb n="23" xml:id="p402-22"/>ᾗ πρὸς τούτους ἐχρῶντο οἱ περὶ τὸν Πλάτωνα. ἐνταῦθα δὲ δέχεται τὴν<note type="apparatus" n="23-24" target="#p402-22 #p402-23">ᾗ— ὁρισμῶν om. a</note><note type="apparatus" n="23" target="#p402-22">ᾗ C: οἳ EF τούτους EF: τούτω C</note>
-              <lb n="24" xml:id="p402-23"/>διαίρεσιν ὡς συμβαλλομένην εἰς τὴν εὕρεσιν τῶν ὁρισμῶν, ἀλλ’ εἴ τις ταύτὴν
+              <lb n="24" xml:id="p402-23"/>διαίρεσιν ὡς συμβαλλομένην εἰς τὴν εὕρεσιν τῶν ὁρισμῶν, ἀλλ’ εἴ τις ταύτην
               <lb n="25" xml:id="p402-24"/>μεταχειρίσαιτο ὡς μέλλει εἰπεῖν οὗτος, οὐ μέντοι γε δὲ ὡς οἱ περὶ<note type="apparatus" n="25" target="#p402-24">δὲ ὡς om. a</note>
               <lb n="26" xml:id="p402-25"/>τὸν Πλάτωνα ταύτην μετεχειρίζοντο.<note type="apparatus" n="26" target="#p402-25">τὸν om. a</note>
               <lb n="27" xml:id="p402-26"/>Τὸ λέγειν διαιρέσεις κατὰ τὰς διαφορὰς ἢ διὰ τῶν διαφορῶν<note type="apparatus" n="27" target="#p402-26">διὰ om. a</note>
@@ -18101,7 +18102,7 @@
               <lb n="10" xml:id="p403-9"/>λέγοντα διὰ τῆς διαιρέσεως συλλογίζεσθαι καὶ ἀποδεικνύειν τὰ μέρη τοῦ<milestone type="alt-edition" unit="line" ed="Aldina 1534" n="15"/>
               <lb n="11" xml:id="p403-10"/>ὁρισμοῦ τὰ ἐν τοῖς ὁριστοῖς θεωρούμενα. καίτοι δόξειεν ἂν ἡ διαίρεσις<note type="apparatus" n="11" target="#p403-10">post ἂν add. οὐδέν a</note>
               <lb n="12" xml:id="p403-11"/>οὐδὲν συλλογιστικῶς ἀποδεικνύειν τὰ μέρη τοῦ ὁρισμοῦ ὑπάρχειν τοῖς
-              <lb n="13" xml:id="p403-12"/>ὁριστοῖς, ἀλλ’ αἰτεῖσθαι τὸ ἐν ἀρχῇ καὶ λαμβάνειν εὐθὺς ἁπάντα ὡς<note type="apparatus" n="13" target="#p403-12">λαβεῖν a</note><note type="apparatus" n="13-14" target="#p403-12 #p403-13">ἁπάντων, ἤγουν ὁμολογουμένως a</note>
+              <lb n="13" xml:id="p403-12"/>ὁριστοῖς, ἀλλ’ αἰτεῖσθαι τὸ ἐν ἀρχῇ καὶ λαμβάνειν εὐθὺς <choice><sic>ἁπάντα</sic><corr>ἅπαντα</corr></choice> ὡς<note type="apparatus" n="13" target="#p403-12">λαβεῖν a</note><note type="apparatus" n="13-14" target="#p403-12 #p403-13">ἁπάντων, ἤγουν ὁμολογουμένως a</note>
               <lb n="14" xml:id="p403-13"/>ὁμολογούμενα, ὥσπερ καὶ εἰ ἐξ ἀρχῆς ἐλάμβανέ τις αὐτὰ ἄνευ διαιρέσεως·<note type="apparatus" n="14" target="#p403-13">καὶ om. a</note>
               <lb n="15" xml:id="p403-14"/>ὡς γὰρ οὗτος οὐκ ἀποδεικνύει, οὐδ’ ἐκεῖνος.
             </p>
@@ -18649,7 +18650,7 @@
               <lb n="21" xml:id="p414-20"/>μεταβαίνειν καὶ μετάγειν τοὺς ὁρισμοὺς ἀπὸ τῶν καθ’ ἕκαστα ἐπὶ
               <lb n="22" xml:id="p414-21"/>τὰ καθόλου· ῥᾳδιώτερον γὰρ τοῦτο. εἶτα λέγει καὶ τὴν αἰτίαν δι’ ἣν ἐκ
               <lb n="23" xml:id="p414-22"/>τῶν καθ’ ἕκαστα ἐκλεγόμεθα τοὺς ὁρισμούς, καὶ φησίν· ὁ ὁρισμὸς σαφὴς
-              <lb n="24" xml:id="p414-23"/>ὀφείλει εἶναι· εἰ δὲ ὁμώνυμος λέξις κεῖται ἐν τῷ ὁρισμῷ, ἡ παροῦσα ὁμωνυμος<note type="apparatus" n="24" target="#p414-23">post δὲ add. ὡς C</note><note type="apparatus" n="24-25" target="#p414-23 #p414-24">immo ὁμωνυμία</note>
+              <lb n="24" xml:id="p414-23"/>ὀφείλει εἶναι· εἰ δὲ ὁμώνυμος λέξις κεῖται ἐν τῷ ὁρισμῷ, ἡ παροῦσα ὁμώνυμος<note type="apparatus" n="24" target="#p414-23">post δὲ add. ὡς C</note><note type="apparatus" n="24-25" target="#p414-23 #p414-24">immo ὁμωνυμία</note>
               <lb n="25" xml:id="p414-24"/>ἀσαφῆ ποιεῖ τὸν ὁρισμόν. καὶ ἐπεὶ ἐν τοῖς καθ’ ἕκαστα ὁμωνυμία<milestone type="alt-edition" unit="line" ed="Aldina 1534" n="50"/>
               <lb n="26" xml:id="p414-25"/>οὐ παρεμπίπτει, οὐδ’ ἔστι πλανηθῆναι ἐξ αὐτῶν· αἰσθητὰ γὰρ ὄντα καὶ
               <lb n="27" xml:id="p414-26"/>ταῖς αἰσθήσεσιν ἡμῶν ἐμπίπτοντα ἐναργεῖς ποιοῦσι τὰς διαφορὰς τῶν ὁρωμένων<note type="apparatus" n="27" target="#p414-26">ἐμπίπτοντα ἡμῶν EF</note>
@@ -19136,7 +19137,7 @@
             </p>
             <pb n="425" facs="https://archive.org/download/commentariaina13pt3akaduoft/page/n460.jpg"/>
             <p>
-              <lb n="1" xml:id="p425-0"/>ἔπεται τὸ αἴτιον. οἷον ὁ ἄνθρωπος ζῷον, τὸ ζῷον οὐκ ἐξ ἀνάγκης ἐστὶ<note type="apparatus" n="1" target="#p425-0">τὸ αἰτιατόν (quod correxit Waitz l. c.) a</note>
+              <lb n="1" xml:id="p425-0"/>ἕπεται τὸ αἴτιον. οἷον ὁ ἄνθρωπος ζῷον, τὸ ζῷον οὐκ ἐξ ἀνάγκης ἐστὶ<note type="apparatus" n="1" target="#p425-0">τὸ αἰτιατόν (quod correxit Waitz l. c.) a</note>
               <lb n="2" xml:id="p425-1"/>λογικόν, ἀλλ’ ἐνδέχεται ἢ λογικὸν εἶναι ἢ ἄλογον, ἤγουν ἐνδέχεται πλείω<note type="apparatus" n="2" target="#p425-1">εἶναι post ἄλογον colloc. C ἤγουν a: ἢ CEF</note>
               <lb n="3" xml:id="p425-2"/>αἴτια εἶναι τοῦ ἑνὸς πράγματος· καὶ γὰρ τὸ αὐτό, ἤγουν τὸ ζῷον, κατηγορεῖται<note type="apparatus" n="3" target="#p425-2">ἤγουν τὸ om. a</note><milestone type="alt-edition" unit="line" ed="Aldina 1534" n="20"/>
               <lb n="4" xml:id="p425-3"/>κατὰ πλειόνων μέσων πρώτως, ἤγουν ἀμέσως. καὶ γὰρ τὸ Α,
@@ -19449,7 +19450,7 @@
               <lb n="8" xml:id="p431-7"/>Γ, δι’ οὗ Γ ἅπαντα ἐκεῖνα τὰ ἐν τῷ Ε ἐπισυναφθήσεται τῷ Α. εἰ γὰρ<note type="apparatus" n="8-9" target="#p431-7 #p431-8">ἐπισυναφθήσεται—ἐν τῷ ε̄ om. a</note>
               <lb n="9" xml:id="p431-8"/>μὴ, ἤγουν εἰ μὴ ἔστι τι αἴτιον τὸ ἐπισυνάπτον τὰ ἐν τῷ Ε τῷ Α ἀλλὰ
               <lb n="10" xml:id="p431-9"/>διὰ μέσου τοῦ Β καὶ ταῦτα ἐπισυνάπτονται, πῶς ἔσται τὸ Α ἐπὶ πλέον
-              <lb n="11" xml:id="p431-10"/>τοῦ Ε ὥστε καὶ μὴ ἀντιστρέφειν αὐτῷ; τὸ γὰρ Α παντὶ μὲν ὑπάρχει ῳ<note type="apparatus" n="11-12" target="#p431-10 #p431-11">ὥστε—τὸ δὲ ε om. a</note><note type="apparatus" n="11" target="#p431-10">αὐτῷ C: αὐτὸ EF</note>
+              <lb n="11" xml:id="p431-10"/>τοῦ Ε ὥστε καὶ μὴ ἀντιστρέφειν αὐτῷ; τὸ γὰρ Α παντὶ μὲν ὑπάρχει <choice><sic>ῳ</sic><corr>ᾧ</corr></choice><note type="apparatus" n="11-12" target="#p431-10 #p431-11">ὥστε—τὸ δὲ ε om. a</note><note type="apparatus" n="11" target="#p431-10">αὐτῷ C: αὐτὸ EF</note>
               <lb n="12" xml:id="p431-11"/>τὸ Ε, ἤγουν παντὶ τῷ Ε· τὸ δὲ Ε οὐ παντί ἐστιν ᾧ τὸ Α, ἤγουν παντὶ<note type="apparatus" n="12" target="#p431-11">τὸ ᾱ om. a</note>
               <lb n="13" xml:id="p431-12"/>τῷ Α. διὰ τί γὰρ οὐκ ἔσται τι αἴτιον μεταξὺ τοῦ Α καὶ Ε ἕτερον τοῦ Β,
               <lb n="14" xml:id="p431-13"/>οἷον τὸ Α ἐστὶ πᾶσι τοῖς Δ, ἤγουν ὥσπερ τὸ Β αἴτιόν ἐστι τοῦ τὸ Α
@@ -19555,7 +19556,7 @@
               <lb n="15" xml:id="p433-14"/>ἡμῖν, καὶ ἀγνοοῦντες διατελοῦμεν ὅτι ταύτας ἔχομεν. εἰ μὲν δὴ ἔχομεν<note type="apparatus" n="15-16" target="#p433-14 #p433-15">ἐν τῇ— ἔχομεν om. a, in qua εἰ μὲν—κατὰ ἀκρίβειαν (b 26—34) lemmatis loco sunt</note>
               <lb n="16" xml:id="p433-15"/>αὐτὰς ἐν τῇ ψυχῇ καὶ ἀγνοοῦμεν ὅτι ταύτας ἔχομεν, ἄτοπον. πῶς γὰρ οὐκ
               <lb n="17" xml:id="p433-16"/>ἄτοπον τὸ ἀγνοεῖν ὃ ἔχομεν; καὶ συμβαίνει λανθάνειν ἡμᾶς ὅτι ἔχομεν τὰς<note type="apparatus" n="17" target="#p433-16">ὃ εἴλομεν a</note>
-              <lb n="18" xml:id="p433-17"/>γνώσεις τῶν ἀρχῶν, αἳ ἀκριβέστεραι τῶν ἀποδείξεών εἰσιν. ἡ μὲν γὰρ ἀποδειξις<note type="apparatus" n="18" target="#p433-17">εἰσὶν ex ἔστιν corr. E¹</note>
+              <lb n="18" xml:id="p433-17"/>γνώσεις τῶν ἀρχῶν, αἳ ἀκριβέστεραι τῶν ἀποδείξεών εἰσιν. ἡ μὲν γὰρ ἀπόδειξις<note type="apparatus" n="18" target="#p433-17">εἰσὶν ex ἔστιν corr. E¹</note>
               <lb n="19" xml:id="p433-18"/>ἐπιστήμη ἐστὶν ἐξ ἑτέρων τὸ πρᾶγμα ἀποδεικνύουσα· ἡ δὲ γνῶσις τῶν
               <lb n="20" xml:id="p433-19"/>ἀρχῶν κρείττων ἐστὶν ἢ κατὰ ἀπόδειξιν, ἤγουν οὐ δι’ ἀποδείξεως γίνεται<note type="apparatus" n="20" target="#p433-19">κρείττων a: κρεῖττον CEF</note><milestone type="alt-edition" unit="line" ed="Aldina 1534" n="25"/>
               <lb n="21" xml:id="p433-20"/>ἀλλὰ ἀκριβεστέρα ταύτης ἐστὶ καὶ τιμιωτέρα. εἰ δὲ μὴ ἔχοντες τὰς ἕξεις,<note type="apparatus" n="21" target="#p433-20">ἀκριβεστέρα a: ἀκριβωτέρα CEF ἐστὶ ταύτης a</note>
@@ -19766,7 +19767,7 @@
               <lb n="23" xml:id="p437-22"/>αὐτοῖς (μερικὰ δὲ ἰδιώματά εἰσι τὸ τὸν μὲν εἶναι κομήτην καὶ λευκόν,<milestone type="alt-edition" unit="line" ed="Aldina 1534" n="30"/>
               <lb n="24" xml:id="p437-23"/>τὸν δὲ μὴ τοιοῦτον) καί τι τῶν ἐν αὐτοῖς θεωρουμένων κοινῶν, ἤγουν ἢ
               <lb n="25" xml:id="p437-24"/>ὅτι ζῷά εἰσιν ἢ ὅτι λογικὰ ἤ τι τοιοῦτον, παρέπεμψε τοῦτο πρώτως τῇ
-              <lb n="26" xml:id="p437-25"/>φαντασία· ὃ πρῶτον αἴσθημα ἐντυπωθὲν ἐν αὐτῇ ἐνεποίησε τῇ ψυχῇ<note type="apparatus" n="26" target="#p437-25">ἐποίησε a</note>
+              <lb n="26" xml:id="p437-25"/>φαντασίᾳ· ὃ πρῶτον αἴσθημα ἐντυπωθὲν ἐν αὐτῇ ἐνεποίησε τῇ ψυχῇ<note type="apparatus" n="26" target="#p437-25">ἐποίησε a</note>
               <lb n="27" xml:id="p437-26"/>καὶ γνῶσίν τινα ἀμυδρὰν τοῦ καθόλου. ὡσαύτως καὶ τὸ δεύτερον αἴσθημα<note type="apparatus" n="27" target="#p437-26">post ὡσαύτως add. δὲ C</note>
               <lb n="28" xml:id="p437-27"/>καὶ τὸ τρίτον καὶ τέταρτον ὅμοια ὄντα καὶ μετὰ τῶν ἰδιωμάτων καὶ συμβεβηκότων
               <lb n="29" xml:id="p437-28"/>τῶν ἐν τοῖς μερικοῖς ἔχοντά τι καὶ τῶν ἐν αὐτοῖς κοινῶν ἐντυπωθέντα<note type="apparatus" n="29" target="#p437-28">κοινωνιῶν a</note>
@@ -19875,7 +19876,7 @@
               <lb n="25" xml:id="p439-24"/>ἐπεὶ δὲ ἐν ταῖς λογικαῖς δυνάμεσι τῆς ψυχῆς ἀληθέστερα τῶν ἄλλων εἰσὶν<note type="apparatus" n="25" target="#p439-24">εἰσι ante τῶν colloc. a</note>
               <lb n="26" xml:id="p439-25"/>ἡ ἐπιστήμη καὶ ὁ νοῦς, ἐὰν οὖν ἡ ἐπιστήμη ἡ δι’ ἀποδείξεως γινομένη<note type="apparatus" n="26" target="#p439-25">γινομένη a: γενομένη CEF</note>
               <lb n="27" xml:id="p439-26"/>οὐ δύναται ἀποδεῖξαι τὰς προτάσεις, ἤγουν τὰς ἀρχάς, διὰ τὸ μηδὲ εἶναι
-              <lb n="28" xml:id="p439-27"/>δυνατὸν λαβεῖν ἀρχοειδέστρα τούτων ἐξ ὧν ὁ συλλογισμὸς προβαίη, νοῦς<note type="apparatus" n="28" target="#p439-27">προβαίνει a: non liquet C</note>
+              <lb n="28" xml:id="p439-27"/>δυνατὸν λαβεῖν <choice><sic>ἀρχοειδέστρα</sic><corr>ἀρχοειδέστερα</corr></choice> τούτων ἐξ ὧν ὁ συλλογισμὸς προβαίη, νοῦς<note type="apparatus" n="28" target="#p439-27">προβαίνει a: non liquet C</note>
               <lb n="29" xml:id="p439-28"/>ἄρα εἴη ὁ τὰς ἀρχὰς γινώσκων. ἡ γὰρ δόξα καὶ ὁ συλλογισμὸς περὶ τὰ<milestone type="alt-edition" unit="line" ed="Aldina 1534" n="25"/>
               <lb n="30" xml:id="p439-29"/>ἐνδεχόμενα καταγινόμενα καὶ ποτὲ μὲν ἀληθεύοντα ποτὲ δὲ ψευδόμενα<note type="apparatus" n="30" target="#p439-29">γίνεται a</note>
               <lb n="31" xml:id="p439-30"/>πῶς ἂν δύναιντο γνωρίζειν καὶ γινώσκειν τὰς ἀμέσους προτάσεις ἀεὶ ἀληθεῖς

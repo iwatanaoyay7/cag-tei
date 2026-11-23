@@ -58,6 +58,7 @@
       <change when="2026-10-23" who="#NI">Errors found by the accuracy evaluation (sample checked against the page images by student assistants, readings confirmed by the editor) corrected: 1 in the text.</change>
       <change when="2026-11-05" who="#NI">Apparatus entries printed out of numerical order (e.g. 33 … 32) separated from the preceding entry; words hyphenated across lines joined in Latin text as in Greek; words mixing Greek and Latin letters (OCR errors, about 130, including manuscript sigla) corrected on the page images; marginal folio marks left in the text removed; validated against TEI P5 version 4.12.0 (recorded in TEI/@version).</change>
       <change when="2026-11-05" who="#NI">Extent of the lemma quotations (quote[@type='lemma']) corrected: the automatic division had closed every lemma after its first printed line, leaving the remaining lines of lemmata printed over two or more lines at the head of the following paragraph. Candidates were found from the letter-spacing of the lines on the page images (lemmata are printed spaced) and from the line geometry (centred last line, indented paragraph start), and every candidate was decided on the page image (Claude work teams; about 7,700 places in the corpus); the lines so decided are now inside the quotation, with pb inside the quotation where a lemma runs on to the next page. Where the lemma runs on in the same line as the commentary (Stephanus in De interpretatione), the quotation ends after the last spaced word and the paragraph continues in the same line without a new lb; where no lemma is printed and the paraphrase follows the Bekker reference directly (Michael in De partibus animalium from p. 37), the quotation is dropped and the division kept; centred last lines the edition does not count are inside the quotation as unnumbered lines.</change>
+      <change when="2026-11-22" who="#NI">Readings questioned by the review of the translations collated on the page images (read independently, at least twice wherever the print does not have the proposed form, by a language model, Claude; the 28 places in all works that it could not settle were read by the editor): 3 errors of the transcription corrected.</change>
     </revisionDesc>
   </teiHeader>
   <text>
@@ -650,7 +651,7 @@
             </p>
             <pb n="558" facs="https://archive.org/download/commentariaina13pt3akaduoft/page/n593.jpg"/>
             <p>
-              <lb n="1" xml:id="p558-0"/>τούτου γε οὐ τὸν ὁρισμὸν δοκεῖ διὰ τούτου δεδειχέναι. λαβὼν γὰρ ὅτι<note type="apparatus" n="1" target="#p558-0">οὕτω γε L</note>
+              <lb n="1" xml:id="p558-0"/>τούτου γε οὗ τὸν ὁρισμὸν δοκεῖ διὰ τούτου δεδειχέναι. λαβὼν γὰρ ὅτι<note type="apparatus" n="1" target="#p558-0">οὕτω γε L</note>
               <lb n="2" xml:id="p558-1"/>τοῦ ἀγαθοῦ ὁρισμός ἐστι τὸ ἀδιαίρετον, οὕτω πάλιν δείξει τοῦ κακοῦ λόγον<note type="apparatus" n="2" target="#p558-1">οὕτω Ua: τοῦτο R: τοῦτο λαβὼν ἐξ ὑποθέσεως L καλοῦ R</note>
               <lb n="3" xml:id="p558-2"/>ὄντα τὸ διαιρετόν· δι’ ἀλλήλων ἄρα.<note type="apparatus" n="3" target="#p558-2">διάλληλον Ua</note>
             </p>
@@ -2456,7 +2457,7 @@
               <lb n="5" xml:id="p594-4"/>μὴ καθ’ αὑτὸ ἀλλὰ κατὰ συμβεβηκὸς ἢ σημεῖον λαμβάνεσθαι καὶ τὸ οὗ<note type="apparatus" n="5" target="#p594-4">ἢ L: om. RUa</note>
               <lb n="6" xml:id="p594-5"/>αἴτιον καὶ τὸ ᾧ. εἰπὼν δ’, ὅτι μὴ δοκεῖ τὰ τοιαῦτα προβλήματα,<note type="apparatus" n="6" target="#p594-5">ᾧτινι L: ὧν Ua ὅτι οὐ μὴν L</note>
               <lb n="7" xml:id="p594-6"/>προσέθηκε τὸ εἰ δὲ μή, ἀντὶ τοῦ ‘εἰ δὲ καὶ ταῦτα ζητοῖτο ὡς προβλήματα’,<note type="apparatus" n="7" target="#p594-6">ἀντὶ RUa: τουτέστι L ζητεῖται L</note><milestone type="alt-edition" unit="line" ed="Aldina 1534" n="15"/>
-              <lb n="8" xml:id="p594-7"/>ὁμοίως ἕξει τὸ μέσον, ἂν ἐν ὁμώνυμον ᾖ τὸ αἴτιον, τοιοῦτον<note type="apparatus" n="8" target="#p594-7">μὲν L: μὴ ὡς RUa ᾖ scripsi: εἴη L: ἓν RUa</note>
+              <lb n="8" xml:id="p594-7"/>ὁμοίως ἕξει τὸ μέσον, ἂν μὲν ὁμώνυμον ᾖ τὸ αἴτιον, τοιοῦτον<note type="apparatus" n="8" target="#p594-7">μὲν L: μὴ ὡς RUa ᾖ scripsi: εἴη L: ἓν RUa</note>
               <lb n="9" xml:id="p594-8"/>ἔσται καὶ τὸ αἴτιον, ἂν δὲ ὡς ἐν τῷ γένει, καὶ τὸ αἴτιον τοιοῦτον·
               <lb n="10" xml:id="p594-9"/>ὁμοίως καὶ εἰ κατὰ ἀναλογίαν.
             </p>
@@ -2598,7 +2599,7 @@
             <p>
               <lb n="1" xml:id="p597-0"/>οὕτως γὰρ γίνεται ἐπὶ πλέον τὸ Α τοῦ Ε, ἐὰν τῷ μὲν Ε τὸ Α παντί,<note type="apparatus" n="1" target="#p597-0">ε—τῷ om. R (non om. B) τῷ scripsi: τοῦ Β: τὸ Ua τῶ α (ante παντί) Ua</note>
               <lb n="2" xml:id="p597-1"/>μηκέτι δὲ καὶ ἀντιστρέφει· τοῦτο δὲ ἔσται, ἂν πλείοσιν αὐτὸ ὑπάρχον<note type="apparatus" n="2" target="#p597-1">ἀντιστρέφη conicio ἂν Ua: ἔν ἐν R ὑπάρχειν R</note>
-              <lb n="3" xml:id="p597-2"/>〈ἢ〉 ἢ τὸ Β. ἂν γὰρ μόνων ὧν τὸ Ε κατηγορεῖται, ἐπ’ ἴσης ἔσται τὸ Α<note type="apparatus" n="3" target="#p597-2">ᾗ addidi aut μόνοις aut κατηγορῆται scribendum censeo τῶ α Ua</note>
+              <lb n="3" xml:id="p597-2"/>〈ᾖ〉 ἢ τὸ Β. ἂν γὰρ μόνων ὧν τὸ Ε κατηγορεῖται, ἐπ’ ἴσης ἔσται τὸ Α<note type="apparatus" n="3" target="#p597-2">ᾗ addidi aut μόνοις aut κατηγορῆται scribendum censeo τῶ α Ua</note>
               <lb n="4" xml:id="p597-3"/>τοῖς ὧν κατηγορεῖται ὄντων ὑπὸ τὸ Β· ὥστε καὶ τῷ Α τὸ Ε παντί.<note type="apparatus" n="4" target="#p597-3">ὄντων Ua: οἷον τοῖς R τὸ α τῶ R</note>
               <lb n="5" xml:id="p597-4"/>ὁμοίως καὶ ἐπὶ τοῦ Δ. εἰπὼν δὲ τοῦτο καὶ δείξας ὅτι μὴ ὑπὸ τὸ<note type="apparatus" n="5" target="#p597-4">post ὁμοίως add. ὡς Ua ὑπὸ RUa: ὑπάρχει Β</note>
               <lb n="6" xml:id="p597-5"/>Β τὸ Ε ἔσται, ἐπιφέρει· διὰ τί γὰρ οὐκ ἔσται τι αἴτιον, οἷον<note type="apparatus" n="6" target="#p597-5">τῶ ε, om. ἔσται R</note><milestone type="alt-edition" unit="line" ed="Aldina 1534" n="25"/>

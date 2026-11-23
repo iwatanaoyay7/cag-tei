@@ -57,6 +57,7 @@
       <change when="2026-10-23" who="#NI">Quotation marks made uniform: opening single and double quotation marks, printed in the edition in the reversed (high-reversed-9) form, are encoded as ‘ and “, closing ones as ’ and ”, single and double kept as printed; opening marks read by the OCR as straight quotes, low quotes or spacing breathings, and spacing breathings or quotation marks doubled before a capital that already bears its breathing, corrected.</change>
       <change when="2026-11-05" who="#NI">Apparatus entries printed out of numerical order (e.g. 33 … 32) separated from the preceding entry; words hyphenated across lines joined in Latin text as in Greek; words mixing Greek and Latin letters (OCR errors, about 130, including manuscript sigla) corrected on the page images; marginal folio marks left in the text removed; validated against TEI P5 version 4.12.0 (recorded in TEI/@version).</change>
       <change when="2026-11-05" who="#NI">Extent of the lemma quotations (quote[@type='lemma']) corrected: the automatic division had closed every lemma after its first printed line, leaving the remaining lines of lemmata printed over two or more lines at the head of the following paragraph. Candidates were found from the letter-spacing of the lines on the page images (lemmata are printed spaced) and from the line geometry (centred last line, indented paragraph start), and every candidate was decided on the page image (Claude work teams; about 7,700 places in the corpus); the lines so decided are now inside the quotation, with pb inside the quotation where a lemma runs on to the next page. Where the lemma runs on in the same line as the commentary (Stephanus in De interpretatione), the quotation ends after the last spaced word and the paragraph continues in the same line without a new lb; where no lemma is printed and the paraphrase follows the Bekker reference directly (Michael in De partibus animalium from p. 37), the quotation is dropped and the division kept; centred last lines the edition does not count are inside the quotation as unnumbered lines.</change>
+      <change when="2026-11-22" who="#NI">Readings questioned by the review of the translations collated on the page images (read independently, at least twice wherever the print does not have the proposed form, by a language model, Claude; the 28 places in all works that it could not settle were read by the editor): 3 errors of the transcription corrected; 1 evident misprint of the edition given as choice/sic/corr.</change>
     </revisionDesc>
   </teiHeader>
   <text>
@@ -159,7 +160,7 @@
                 <lb n="34" xml:id="p2-33"/>καὶ μετὰ ταῦτα δεῖξαι τί καθ’ αὑτὸ πέφυκεν τῷ τριγώνῳ ὑπάρχειν, τοῦτ’
                 <lb n="35" xml:id="p2-34"/>ἔστιν ὅτι τὰς γωνίας δυσὶν ὀρθαῖς ἴσας ἔχει. καὶ πάλιν τὸν ἄνθρωπον<note type="apparatus" n="35" target="#p2-34">ὀρθαῖς ex ὀρθας (sic) corr. P¹</note>
                 <lb n="36" xml:id="p2-35"/>πρότερον ὁρίσασθαι δεῖ, καὶ οὕτως γνῶναι τί πέφυκεν τῷ ἀνθρώπῳ ὑπάρχειν.
-                <lb n="37" xml:id="p2-36"/>ἐνταῦθα δὲ δῆλον ὅτι τὸ θέσθαι ἐπὶ τοῦ ὁρίσασθαι ἔλαβεν, ἐπειδὴ πρόκεῖται
+                <lb n="37" xml:id="p2-36"/>ἐνταῦθα δὲ δῆλον ὅτι τὸ θέσθαι ἐπὶ τοῦ ὁρίσασθαι ἔλαβεν, ἐπειδὴ πρόκειται
               </p>
               <pb n="3" facs="https://archive.org/download/commentariaina18pt13akaduoft/page/n604.jpg"/>
               <p>
@@ -2487,7 +2488,7 @@
                 <lb n="22" xml:id="p48-21"/>δὲ οὐκ ἀνεῖλεν), ὥστε ἐξ ἀνάγκης ἔσονται ἄλλαι δύο ἀποφάσεις τῆς αὐτῆς
                 <lb n="23" xml:id="p48-22"/>καταφάσεως. εἰ γὰρ μόνον τὸ δίκαιον ἀνεῖλεν, μεμένηκεν δὲ ὁ ἄνθρωπος,
                 <lb n="24" xml:id="p48-23"/>δεῖται καὶ ἑτέρας ἀποφάσεως εἰς τὸ ἀνελεῖν τὸν ἄνθρωπον· καὶ ἔσονται<note type="apparatus" n="24" target="#p48-23">δέεται P</note>
-                <lb n="25" xml:id="p48-24"/>ἤτοι δύο ἀποφάσεις μιᾶς καταφάσεως, ὅπερ ἀδύνατον (εἴπομεν γὰρ ὅτι μιᾷ
+                <lb n="25" xml:id="p48-24"/>ἤτοι δύο ἀποφάσεις μιᾶς καταφάσεως, ὅπερ ἀδύνατον (εἴπομεν γὰρ ὅτι μία
                 <lb n="26" xml:id="p48-25"/>μιᾷ ἀντίκειται ἀντιφατικῶς μαχομένη), ἢ καὶ 〈ἡ〉 ἐξ ἀρχῆς κατάφασις οὐκ<note type="apparatus" n="26" target="#p48-25">μιᾷ scripsi: μιᾶς P</note>
                 <lb n="27" xml:id="p48-26"/>ἦν μία πρότασις ἀλλὰ δύο. ὡσαύτως δὲ καὶ ὅταν τῷ κατηγορουμένῳ
                 <lb n="28" xml:id="p48-27"/>συνθέτῳ ὄντι συνάπτεται, οἷον ‘Σωκράτης οὐκ ἄνθρωπος δίκαιός ἐστιν’· οὐ
@@ -2829,7 +2830,7 @@
                 <lb n="15" xml:id="p56-14"/>τὴν οὔ ἄρνησιν, ὡς πολλάκις εἴρηται. δεύτερον δὲ ὅτι, εἰ μὴ ποιήσωμεν
                 <lb n="16" xml:id="p56-15"/>οὕτως τὰς ἀποφάσεις, εὑρεθήσονται συναληθεύουσαι ἡ κατάφασις καὶ ἡ
                 <lb n="17" xml:id="p56-16"/>ἀπόφασις, ὅπερ ἀδύνατον. ἐὰν γὰρ εἴπω ‘δυνατὸν τέμνεσθαι τὸ ἱμάτιον’,
-                <lb n="18" xml:id="p56-17"/>“δυνατὸν μὴ τέμνεσθαι’, ἀμφότεραι ἀληθεῖς ἐπὶ τῆς ἐνδεχομένης ὕλης. εἰ
+                <lb n="18" xml:id="p56-17"/>‘δυνατὸν μὴ τέμνεσθαι’, ἀμφότεραι ἀληθεῖς ἐπὶ τῆς ἐνδεχομένης ὕλης. εἰ
                 <lb n="19" xml:id="p56-18"/>δὲ εἴπω ὅτι ‘δυνατὸν τέμνεσθαι τὸ ἱμάτιον’, ‘οὐ δυνατὸν τέμνεσθαι’, πάντως
                 <lb n="20" xml:id="p56-19"/>ἡ μὲν ἀληθεύει ἡ δὲ ψεύδεται. ὡς οὖν ἔχει ἐπὶ τοῦ δυνατοῦ, δῆλον ὅτι<milestone type="alt-edition" unit="folio" ed="cod. Parisinus gr. 2064" n="74r"/>
                 <lb n="21" xml:id="p56-20"/>καὶ ἐπὶ τοῦ ἐνδεχομένου καὶ ἀναγκαίου καὶ ἀδυνάτου ἕξει. κατὰ τὸν αὐτὸν
@@ -3540,7 +3541,7 @@
               </p>
               <ab type="head"><lb n="20" xml:id="p70-19"/>Ἀποφάσεις σὺν θεῷ ἀόριστοι ἐνδεχόμεναι</ab>
               <p>
-                <lb n="21" xml:id="p70-20"/>οὐ Σωράτης οὐ βαδίζει — — οὐ βαδίσει — — οὐκ ἐβάδισεν κτλ.
+                <lb n="21" xml:id="p70-20"/>οὐ <choice><sic>Σωράτης</sic><corr>Σωκράτης</corr></choice> οὐ βαδίζει — — οὐ βαδίσει — — οὐκ ἐβάδισεν κτλ.
               </p>
               <ab type="head"><lb n="22" xml:id="p70-21"/>Ἀναγκαῖαι</ab>
               <p>

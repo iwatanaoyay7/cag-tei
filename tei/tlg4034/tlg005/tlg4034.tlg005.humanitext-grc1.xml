@@ -56,6 +56,7 @@
       <change when="2026-10-23" who="#NI">Quotation marks made uniform: opening single and double quotation marks, printed in the edition in the reversed (high-reversed-9) form, are encoded as ‘ and “, closing ones as ’ and ”, single and double kept as printed; opening marks read by the OCR as straight quotes, low quotes or spacing breathings, and spacing breathings or quotation marks doubled before a capital that already bears its breathing, corrected.</change>
       <change when="2026-11-05" who="#NI">Apparatus entries printed out of numerical order (e.g. 33 … 32) separated from the preceding entry; words hyphenated across lines joined in Latin text as in Greek; words mixing Greek and Latin letters (OCR errors, about 130, including manuscript sigla) corrected on the page images; marginal folio marks left in the text removed; validated against TEI P5 version 4.12.0 (recorded in TEI/@version).</change>
       <change when="2026-11-05" who="#NI">Extent of the lemma quotations (quote[@type='lemma']) corrected: the automatic division had closed every lemma after its first printed line, leaving the remaining lines of lemmata printed over two or more lines at the head of the following paragraph. Candidates were found from the letter-spacing of the lines on the page images (lemmata are printed spaced) and from the line geometry (centred last line, indented paragraph start), and every candidate was decided on the page image (Claude work teams; about 7,700 places in the corpus); the lines so decided are now inside the quotation, with pb inside the quotation where a lemma runs on to the next page. Where the lemma runs on in the same line as the commentary (Stephanus in De interpretatione), the quotation ends after the last spaced word and the paragraph continues in the same line without a new lb; where no lemma is printed and the paraphrase follows the Bekker reference directly (Michael in De partibus animalium from p. 37), the quotation is dropped and the division kept; centred last lines the edition does not count are inside the quotation as unnumbered lines.</change>
+      <change when="2026-11-22" who="#NI">Readings questioned by the review of the translations collated on the page images (read independently, at least twice wherever the print does not have the proposed form, by a language model, Claude; the 28 places in all works that it could not settle were read by the editor): 5 errors of the transcription corrected; 3 evident misprints of the edition given as choice/sic/corr.</change>
     </revisionDesc>
   </teiHeader>
   <text>
@@ -425,7 +426,7 @@
               <lb n="12" xml:id="p144-11"/>κόλλης συνεχίζονται τὰ ὀργανικὰ μέρη, δύναμίς τις ἔνεστι ψυχικὴ ὡς
               <lb n="13" xml:id="p144-12"/>ἀρχὴ καὶ αἰτία αὐτοῖς οὖσα τοῦ κινεῖσθαι. αὗται δὲ πάλιν αἱ ψυχικαὶ
               <lb n="14" xml:id="p144-13"/>δυνάμεις καὶ ἀρχαὶ ἀνάγονται ὑπὸ μίαν τινὰ ἀρχήν, λέγω δὴ τὴν ἐν τῇ
-              <lb n="15" xml:id="p144-14"/>καρδία ἀρχὴν καὶ ψυχήν, ἀφ’ ἧς ὡς ἀπὸ κοινῆς ἀρχῆς καὶ ῥίζης καὶ
+              <lb n="15" xml:id="p144-14"/>καρδίᾳ ἀρχὴν καὶ ψυχήν, ἀφ’ ἧς ὡς ἀπὸ κοινῆς ἀρχῆς καὶ ῥίζης καὶ
               <lb n="16" xml:id="p144-15"/>μητρὸς διαδίδονται πρὸς τοὺς τόπους, ὑφ’ ὧν συνάπτονται πρὸς τὰ ὀργανικὰ<note type="apparatus" n="16" target="#p144-15">διαδίδοται PR τοὺς τόπους] τὰ τόπια PR: μόρια supr. v. P πρὸς ante τὰ om. PR</note>
               <lb n="17" xml:id="p144-16"/>μόρια, ἵνα κινῶσιν αὐτὰ αἱ ψυχικαὶ δυνάμεις. ὅτι δ’ εἰσὶ μόριά τινα, ὑφ’
               <lb n="18" xml:id="p144-17"/>ὧν ἑνοῦται καὶ συνεχίζεται τὰ ὀργανικὰ μέρη, δῆλον ἐκ τῆς Περὶ τὰ ζῷα<note type="apparatus" n="18-19" target="#p144-17 #p144-18">ἐκ τῆς—ἀνατομῶν] cf. Hist. anim. Γ 7, Bonitz Ind. Arist. p. 104 a 4 sqq.</note><note type="apparatus" n="18" target="#p144-17">περὶ τῶν ζώων S: περὶ ζώων a</note><milestone type="alt-edition" unit="line" ed="Aldina 1527" n="50"/>
@@ -450,7 +451,7 @@
               <lb n="3" xml:id="p145-2"/>καθ’ ὃ ὥσπερ ὑπό τινος κοινοῦ ὅρου συνεχίζονται ταῦτα τὰ μόρια, τουτέστι
               <lb n="4" xml:id="p145-3"/>τὰ ὀργανικά, δι’ ὧν τὴν κίνησιν πάντα τὰ κινούμενα δι’ ὀργάνων<note type="apparatus" n="4-5" target="#p145-3 #p145-4">post ὀργάνων add. καὶ a</note>
               <lb n="5" xml:id="p145-4"/>τὴν κατὰ τόπον ποιεῖται μεταβολήν, καὶ πρὸς τούτῳ ἐπεὶ ἐνταῦθα<note type="apparatus" n="5-6" target="#p145-4 #p145-5">ἀναγκαῖόν ἐστιν ἐνταῦθα coll. PR</note>
-              <lb n="6" xml:id="p145-5"/>ἀναγκαῖόν ἐστι, τουτέστιν ἐν τῷ κοινῷ, ὑφ’ οὗ συνεχίζονταί τὰ ὄργανικὰ<note type="apparatus" n="6" target="#p145-5">κοινῷ ὑφ’ οὗ in lit. P</note><milestone type="alt-edition" unit="line" ed="Aldina 1527" n="10"/>
+              <lb n="6" xml:id="p145-5"/>ἀναγκαῖόν ἐστι, τουτέστιν ἐν τῷ κοινῷ, ὑφ’ οὗ <choice><sic>συνεχίζονταί</sic><corr>συνεχίζονται</corr></choice> τὰ ὀργανικὰ<note type="apparatus" n="6" target="#p145-5">κοινῷ ὑφ’ οὗ in lit. P</note><milestone type="alt-edition" unit="line" ed="Aldina 1527" n="10"/>
               <lb n="7" xml:id="p145-6"/>δι’ ὧν, ὡς εἴρηται, ἡ κίνησις γίνεται, εἶναι δύναμίν τινα ψυχικὴν<note type="apparatus" n="7" target="#p145-6">ψυχική a</note>
               <lb n="8" xml:id="p145-7"/>καὶ ἀρχὴν τῆς ἑκάστου τῶν ὀργανικῶν μερῶν κινήσεως, ὁμοίως δὲ καὶ
               <lb n="9" xml:id="p145-8"/>στάσεως (τὸ γὰρ αἴτιον τοῦ κινεῖσθαι τοῦτό ἐστι καὶ τοῦ ἵστασθαι), ἐπεὶ
@@ -593,7 +594,7 @@
               <lb n="17" xml:id="p148-16"/>ἐπεὶ οὖν ταῦθ’ οὕτως ἔχει, δῆλον ὡς ἢ μόνοις ἢ μάλιστα, καὶ τὰ<note type="apparatus" n="17" target="#p148-16">τοῦθ’ οὕτως S</note><milestone type="alt-edition" unit="line" ed="Aldina 1527" n="10"/>
               <lb n="18" xml:id="p148-17"/>ἑξῆς. εἰπὼν δὲ ὅτι τὰ ἔναιμα κοινὴν μόνην ἀρχὴν ἔχει καὶ μίαν, ἣ<note type="apparatus" n="18" target="#p148-17">μόνην om. Sa ἢ] ἥτις PR</note>
               <lb n="19" xml:id="p148-18"/>ὁμοίως ἀφέστηκε τῶν ὑπ’ αὐτῆς τοῖς ὀργανικοῖς μέρεσιν ἐνδιδομένων δυνάμεων,
-              <lb n="20" xml:id="p148-19"/>ἐπήγαγεν ὁμολογεῖ δὲ τοῖς λεχθεῖσι καὶ τὰ συβαίνοντα περὶ
+              <lb n="20" xml:id="p148-19"/>ἐπήγαγεν ὁμολογεῖ δὲ τοῖς λεχθεῖσι καὶ τὰ <choice><sic>συβαίνοντα</sic><corr>συμβαίνοντα</corr></choice> περὶ
               <lb n="21" xml:id="p148-20"/>τὰ ζῷα, τουτέστι σημεῖον δὲ καὶ δεῖγμα ἐναργὲς ὅτι τὰ τέτρασι σημείοις<note type="apparatus" n="21" target="#p148-20">δεῖξις ἐναργὴς PRa</note>
               <lb n="22" xml:id="p148-21"/>κινούμενα κοινὴν ἀρχὴν ἔχει, καὶ τὸ συμβαῖνον περὶ τὰ ζῷα. τῶν μὲν<note type="apparatus" n="22" target="#p148-21">μὲν om. P</note>
               <lb n="23" xml:id="p148-22"/>γὰρ ἐναίμων οὐθὲν εἰς πλείω διαιρούμενον δύναται ζῆν τὰ διαιρεθέντα μέρη,
@@ -660,7 +661,7 @@
               <lb n="1" xml:id="p150-0"/>σημείοις κινεῖσθαι, ἀλλὰ δυσί, τῇ τε ἔμπροσθεν ἁφῇ καὶ τῇ ὕστερον,
               <lb n="2" xml:id="p150-1"/>τουτέστι τῇ τε ἔμπροσθεν καμπῇ, δι’ ἧς ἅπτεται τῆς γῆς, καὶ τῇ ὄπισθεν·
               <lb n="3" xml:id="p150-2"/>δοκεῖ οὖν δυσὶ κινεῖσθαι σημείοις διὰ τὴν στενότητα τοῦ σώματος. στενὸν<milestone type="alt-edition" unit="line" ed="Aldina 1527" n="30"/>
-              <lb n="4" xml:id="p150-3"/>γὰρ ἂν τὸ σῶμα αὐτοῦ καὶ μὴ πλατὺ δοκεῖ μήτε πλάγιον ἔχειν μήτε τὰ<note type="apparatus" n="4" target="#p150-3">πλάγια a</note><note type="apparatus" n="4-5" target="#p150-3 #p150-4">τὰ ἐν τοῖς PR</note>
+              <lb n="4" xml:id="p150-3"/>γὰρ ὂν τὸ σῶμα αὐτοῦ καὶ μὴ πλατὺ δοκεῖ μήτε πλάγιον ἔχειν μήτε τὰ<note type="apparatus" n="4" target="#p150-3">πλάγια a</note><note type="apparatus" n="4-5" target="#p150-3 #p150-4">τὰ ἐν τοῖς PR</note>
               <lb n="5" xml:id="p150-4"/>τοῖς πλαγίοις ἐνόντα δεξιὰ καὶ ἀριστερά. οὐκ ἔστιν οὖν ἡ κίνησις αὐτῶν
               <lb n="6" xml:id="p150-5"/>διὰ δύο σημείων, ἀλλ’ ὥσπερ τὰ τετράποδα κατὰ διάμετρον κινούμενα
               <lb n="7" xml:id="p150-6"/>προηγεῖται μὲν ὁ ἔμπροσθεν δεξιὸς πούς, ἕπεται δ’ αὐτῷ ὁ ὄπισθεν ἀριστερός,
@@ -821,7 +822,7 @@
               <lb n="33" xml:id="p153-32"/>σκέλος καὶ ἴσον τῷ ἀριστερῷ πρὸ τοῦ προβῆναι· φανερὸν ἄρα ὅτι ἐκάμφθη<note type="apparatus" n="33" target="#p153-32">καὶ om. PR</note>
               <lb n="34" xml:id="p153-33"/>τὸ ἀριστερὸν κατὰ τὸ γόνυ, καὶ γέγονεν ἐν τῇ συγκάμψει καὶ οἱονεὶ διπλώσει<note type="apparatus" n="34" target="#p153-33">διπλώσει] διπλασίω a</note>
               <lb n="35" xml:id="p153-34"/>ἔλαττον τοῦ δεξιοῦ. ἀνάγκη ἄρα κάμπτεσθαι τὸ ἱστάμενον σκέλος καὶ
-              <lb n="36" xml:id="p153-35"/>φέρον τὸ λοιπὸν ἅπαν σῶμα, καὶ τὸ μὲν ἀπὸ τοῦ γόνατος ἄχρι τῆς πτέρης
+              <lb n="36" xml:id="p153-35"/>φέρον τὸ λοιπὸν ἅπαν σῶμα, καὶ τὸ μὲν ἀπὸ τοῦ γόνατος ἄχρι τῆς <choice><sic>πτέρης</sic><corr>πτέρνης</corr></choice>
               <lb n="37" xml:id="p153-36"/>ἵστασθαι πρὸς ὀρθήν, τὸ δὲ ἀπὸ τοῦ ἰσχίου ἄχρι τοῦ γόνατος κάμπτεσθαι.<note type="apparatus" n="37" target="#p153-36">ὀρθὴν scripsi: ὀρ θ’ S: ὀρθόν PR: ὀρθάς a ἄχρι γονάτου PR</note>
             </p>
             <pb n="154" facs="https://archive.org/download/p1commentariaina22akaduoft/page/n365.jpg"/>
@@ -1073,7 +1074,7 @@
               <lb n="4" xml:id="p160-3"/>οὖν εἰ μὴ κάμψις ἦν καὶ τὰ ἑξῆς. δῆλον καὶ ὅτι ἐναντίως οἱ<note type="apparatus" n="4" target="#p160-3">κάμψις. ἦν καὶ τὰ ἑξῆς δῆλα. καὶ ὅτι a</note>
               <lb n="5" xml:id="p160-4"/>ἄνθρωποι <milestone type="alt-edition" unit="folio" ed="Aldina 1527" n="184r"/> δίποδες ὄντες καὶ οἱ ὄρνιθες τὴν τῶν σκελῶν ποιοῦνται
               <lb n="6" xml:id="p160-5"/>κάμψιν, καὶ τὰ ἑξῆς ἕως τοῦ ὁμοίως δὲ καὶ οἱ ὄρνιθες.
-              <lb n="7" xml:id="p160-6"/>καὶ προσυπακουστέον τὸ δῆλον, ἵν’ ᾖ τὸ πᾶν καὶ τὸ ἑξῆς τοῦ λόγου τοιοὗτον<note type="apparatus" n="7" target="#p160-6">τὸ δῆλα a: τοῦ δῆλον PR τοῦ λόγου] τῆς λέξεως PRa</note>
+              <lb n="7" xml:id="p160-6"/>καὶ προσυπακουστέον τὸ δῆλον, ἵν’ ᾖ τὸ πᾶν καὶ τὸ ἑξῆς τοῦ λόγου τοιοῦτον<note type="apparatus" n="7" target="#p160-6">τὸ δῆλα a: τοῦ δῆλον PR τοῦ λόγου] τῆς λέξεως PRa</note>
               <lb n="8" xml:id="p160-7"/>‘δῆλον δὲ καὶ ὅτι ἐναντίως οἱ ἄνθρωποι δίποδες ὄντες’, καὶ τὰ ἑξῆς.
             </p>
           </div>
@@ -1200,7 +1201,7 @@
               <lb n="8" xml:id="p163-7"/>αὐτοὺς ἀπὸ τῆς γῆς (εἶπε δὲ περὶ τῶν πρόσθεν ὅτι μικρὸν ἀπὸ τῆς γῆς<note type="apparatus" n="8" target="#p163-7">προσθίων PRa</note>
               <lb n="9" xml:id="p163-8"/>ἂν αὐτοὺς ἐμετεώριζον)· μικρὸν γὰρ ἀπὸ τῆς γῆς καὶ τούτοις ἂν ἐγίνετο<note type="apparatus" n="9" target="#p163-8">ἂν prius om. S ἂν alterum om. PR</note>
               <lb n="10" xml:id="p163-9"/>ἄρσις τοῦ μηροῦ καὶ καμπῆς, λέγων καμπὴν τὸ λοιπὸν μέρος τὸ μετὰ<note type="apparatus" n="10" target="#p163-9">λέγων] λέγει δὲ a</note>
-              <lb n="11" xml:id="p163-10"/>τὴν καμπήν. μικρὸν οὖν ἀπὸ τῆς γῆς ἐγίνετο’ ἂν καὶ τούτοις ἄρσις, καὶ<note type="apparatus" n="11" target="#p163-10">τὴν καμπήν] τὸν μηρὸν PR</note>
+              <lb n="11" xml:id="p163-10"/>τὴν καμπήν. μικρὸν οὖν ἀπὸ τῆς γῆς ἐγίνετο ἂν καὶ τούτοις ἄρσις, καὶ<note type="apparatus" n="11" target="#p163-10">τὴν καμπήν] τὸν μηρὸν PR</note>
               <lb n="12" xml:id="p163-11"/>εὐθὺς ὑπέπιπτον ὑπὸ τὸν τῆς γαστρὸς τόπον.
             </p>
           </div>

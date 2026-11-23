@@ -57,6 +57,7 @@
       <change when="2026-10-23" who="#NI">Errors found by the accuracy evaluation (sample checked against the page images by student assistants, readings confirmed by the editor) corrected: 1 in the text.</change>
       <change when="2026-11-05" who="#NI">Apparatus entries printed out of numerical order (e.g. 33 … 32) separated from the preceding entry; words hyphenated across lines joined in Latin text as in Greek; words mixing Greek and Latin letters (OCR errors, about 130, including manuscript sigla) corrected on the page images; marginal folio marks left in the text removed; validated against TEI P5 version 4.12.0 (recorded in TEI/@version).</change>
       <change when="2026-11-05" who="#NI">Extent of the lemma quotations (quote[@type='lemma']) corrected: the automatic division had closed every lemma after its first printed line, leaving the remaining lines of lemmata printed over two or more lines at the head of the following paragraph. Candidates were found from the letter-spacing of the lines on the page images (lemmata are printed spaced) and from the line geometry (centred last line, indented paragraph start), and every candidate was decided on the page image (Claude work teams; about 7,700 places in the corpus); the lines so decided are now inside the quotation, with pb inside the quotation where a lemma runs on to the next page. Where the lemma runs on in the same line as the commentary (Stephanus in De interpretatione), the quotation ends after the last spaced word and the paragraph continues in the same line without a new lb; where no lemma is printed and the paraphrase follows the Bekker reference directly (Michael in De partibus animalium from p. 37), the quotation is dropped and the division kept; centred last lines the edition does not count are inside the quotation as unnumbered lines.</change>
+      <change when="2026-11-22" who="#NI">Readings questioned by the review of the translations collated on the page images (read independently, at least twice wherever the print does not have the proposed form, by a language model, Claude; the 28 places in all works that it could not settle were read by the editor): 36 errors of the transcription corrected; 14 evident misprints of the edition given as choice/sic/corr; 3 evident misprints of the edition in a word broken at the line end (which cannot carry choice/sic/corr) corrected in the text.</change>
     </revisionDesc>
   </teiHeader>
   <text>
@@ -142,7 +143,7 @@
               <lb n="12" xml:id="p3-11"/>ἂν ἦμεν ἐν πλείοσι φαντασίαις καὶ τοσαύταις, ὅσων τὸν τύπον σῴζομεν.<milestone type="alt-edition" unit="line" ed="Aldina 1527" n="50"/>
               <lb n="13" xml:id="p3-12"/>ἔτι ἤτοι τὴν γινομένην νῦν τύπωσιν φαντασίαν λέγουσιν ἢ τὴν γεγονυῖαν<note type="apparatus" n="13" target="#p3-12">τύπω RP</note>
               <lb n="14" xml:id="p3-13"/>ἤδη καὶ οὖσαν. ἀλλ’ εἰ μὲν τὴν γινομένην νῦν, τὴν αἴσθησιν ἂν λέγοιεν<note type="apparatus" n="14" target="#p3-13">καὶ ἤδη a (ἤδη καὶ etiam Soph.) ἐγγινομένην CP Soph.</note>
-              <lb n="15" xml:id="p3-14"/>τὴν κατ’ ἐνέργειαν φαντασίαν, εἰ δὲ τὴν γε <milestone type="alt-edition" unit="folio" ed="Aldina 1527" n="127v"/> γονυῖαν καὶ σῳζομένην,
+              <lb n="15" xml:id="p3-14"/>τὴν κατ’ ἐνέργειαν φαντασίαν, εἰ δὲ τὴν γε<milestone type="alt-edition" unit="folio" ed="Aldina 1527" n="127v"/>γονυῖαν καὶ σῳζομένην,
               <lb n="16" xml:id="p3-15"/>τὴν μνήμην. ἀλλ’ εἴη ἂν ὡς ἐπὶ τῆς αἰσθήσεως· ὡς γὰρ ἐπ’ ἐκείνης<note type="apparatus" n="16" target="#p3-15">post μνήμην add. ἂν λέγοιεν φαντασίαν Sa (om. etiam Soph.)</note>
               <lb n="17" xml:id="p3-16"/>ἔστι μέν τι αἰσθητόν, ἔστι δέ τις καὶ δύναμις αἰσθητική, ἔστι δὲ καὶ ἐνέργεια<note type="apparatus" n="17" target="#p3-16">δὲ (ante καὶ) om. RP</note>
               <lb n="18" xml:id="p3-17"/>δυνάμεως περὶ τὸ αἰσθητόν, ἣν καλοῦμεν αἴσθησιν, ὁμοίως δὲ καὶ<note type="apparatus" n="18" target="#p3-17">καλοῦσι αἴσθησιν CRP</note>
@@ -150,7 +151,7 @@
               <lb n="20" xml:id="p3-19"/>τοῦ νοῦ περὶ τὸ νοητὸν ἐνέργεια, οὕτως δὲ ὑποληπτέον ἔχειν καὶ περὶ<note type="apparatus" n="20" target="#p3-19">οὕτω δὴ a</note><milestone type="alt-edition" unit="line" ed="Aldina 1527" n="5"/>
               <lb n="21" xml:id="p3-20"/>τῆς φαντασίας, τὸ μέν τι εἶναι φανταστόν (τοῦτο δ’ ἂν εἴη τὸ ἀπὸ τῆς<note type="apparatus" n="21" target="#p3-20">τὴν φαντασίαν CRP Soph. φανταστικὸν RP τοῦτο Sa: τοιοῦτον CRP</note><note type="apparatus" n="21-22" target="#p3-20 #p3-21">τῶν et αἰσθήσεων CRP</note>
               <lb n="22" xml:id="p3-21"/>κατ’ ἐνέργειαν αἰσθήσεως γινόμενον ἐγκατάλειμμα καὶ οἱονεὶ ζωγράφημα,<note type="apparatus" n="22" target="#p3-21">καὶ om. RP</note>
-              <lb n="23" xml:id="p3-22"/>ἀνάλογον ὂν τῷ αἰσθητῷ τε καὶ νοητῷ), τὸ δὲ φανταστικὴν δύναμιν, ἀνάλόγον<note type="apparatus" n="23" target="#p3-22">τῷ αἰσθητῷ—ἀνάλογον ὂν (24) a: om. ceteri, legisse vid. Soph.</note>
+              <lb n="23" xml:id="p3-22"/>ἀνάλογον ὂν τῷ αἰσθητῷ τε καὶ νοητῷ), τὸ δὲ φανταστικὴν δύναμιν, ἀνάλογον<note type="apparatus" n="23" target="#p3-22">τῷ αἰσθητῷ—ἀνάλογον ὂν (24) a: om. ceteri, legisse vid. Soph.</note>
               <lb n="24" xml:id="p3-23"/>ὂν καὶ αὐτὸ τῇ αἰσθητικῇ δυνάμει καὶ τῷ νῷ, τὸ δὲ φαντασίαν
               <lb n="25" xml:id="p3-24"/>οὖσαν καὶ αὐτὴν ἀνάλογον τῇ αἰσθήσει καὶ τῇ νοήσει, ἐνέργειαν οὖσαν τῆς<note type="apparatus" n="25" target="#p3-24">post ἐνέργειαν add. δὲ C</note>
               <lb n="26" xml:id="p3-25"/>φανταστικῆς δυνάμεως περὶ τὰ φανταστά· ὑπόκειται γὰρ τῇ φανταστικῇ
@@ -226,7 +227,7 @@
               <lb n="27" xml:id="p5-26"/>ὅταν πρὸς τῷ ἐνεργεῖν περὶ αὐτὸ αἰσθάνηται καὶ ὅτι ἀπ’ ἄλλου τινὸς γέγονε,<note type="apparatus" n="27" target="#p5-26">πρὸς τὸ Ca ὅτι om. SR</note>
               <lb n="28" xml:id="p5-27"/>καὶ ἔτι ὅτι τοῦτο, οὗ αἰσθάνεται, εἰκών ἐστι τοῦ ἐν τῷ πίνακι γεγραμμένου<note type="apparatus" n="28" target="#p5-27">ὅτι om. RP αἰσθάνεται Ca: αἰσθάνομαι SRP</note>
               <lb n="29" xml:id="p5-28"/>ζῴου. τοῦτο δὴ κἂν ἀπὸ ἀληθοῦς ζῴου γίνηται, ταὐτόν ἐστι. καὶ ἐπεὶ<note type="apparatus" n="29" target="#p5-28">δὴ] δὲ S γίνηται scripsi: γένηται libri</note>
-              <lb n="30" xml:id="p5-29"/>μνήμη καὶ φατασία ταὐτὸν τῷ ὑποκειμένῳ, φαντασία δὲ καὶ αἴσθησις<note type="apparatus" n="30" target="#p5-29">δὲ] τε S</note><milestone type="alt-edition" unit="line" ed="Aldina 1527" n="5"/>
+              <lb n="30" xml:id="p5-29"/>μνήμη καὶ <choice><sic>φατασία</sic><corr>φαντασία</corr></choice> ταὐτὸν τῷ ὑποκειμένῳ, φαντασία δὲ καὶ αἴσθησις<note type="apparatus" n="30" target="#p5-29">δὲ] τε S</note><milestone type="alt-edition" unit="line" ed="Aldina 1527" n="5"/>
               <lb n="31" xml:id="p5-30"/>ὁμοίως (αἱ αὐταὶ γὰρ καὶ αὗται τῷ ὑποκειμένῳ, ὡς ἤδη εἴρηται), καλῶς<note type="apparatus" n="31" target="#p5-30">εἴρηται] p. 2,17</note>
               <lb n="32" xml:id="p5-31"/>λέγεται, ὅτι ἐν ᾧ αἰσθάνεται, τούτῳ καὶ μνημονεύει τὰ μνημονεύοντα. ὡς<note type="apparatus" n="32" target="#p5-31">τούτου a: 〈ἐν〉 τούτῳ conicio, v. p. 2,19. 8,19</note>
               <lb n="33" xml:id="p5-32"/>γὰρ ἀπὸ τῆς αἰσθητικῆς δυνάμεως τῆς ψυχῆς τὸ αἰσθάνεσθαι, οὕτως ἀπ’
@@ -383,7 +384,7 @@
               <lb n="4" xml:id="p9-3"/>ὡς μαθησόμεθα τὴν λέξιν βασανίζοντες, καὶ ἄνευ ταύτης οὐδὲν νοεῖ· πίναξ<note type="apparatus" n="4" target="#p9-3">πινάκιον CRP</note>
               <lb n="5" xml:id="p9-4"/>γάρ ἐστιν ἡ φαντασία τῷ νῷ. τὰ γὰρ ἐν αὐτῇ ἐγγραφέντα καὶ ἐντυπωθέντα
               <lb n="6" xml:id="p9-5"/>ἀπὸ τῆς κατ’ ἐνέργειαν αἰσθήσεως ὁρῶν ὁ νοῦς ἀποσυλᾷ τοὺς καθόλου
-              <lb n="7" xml:id="p9-6"/>λόγους αὐτῶν. ὡς γὰρ ἄνευ τῆς κατ’ ἐνέργειαν αἰσθήσεως οὐκ ἔστι φανσασία,
+              <lb n="7" xml:id="p9-6"/>λόγους αὐτῶν. ὡς γὰρ ἄνευ τῆς κατ’ ἐνέργειαν αἰσθήσεως οὐκ ἔστι φαντασία,
               <lb n="8" xml:id="p9-7"/>οὕτως οὐδὲ ἄνευ φαντασίας λῆψις τοῦ καθόλου. ἀπὸ γὰρ τῶν ἐν
               <lb n="9" xml:id="p9-8"/>αὐτῇ τύπων καὶ ἐγκαταλειμμάτων, ὡς εἴρηται, συνάγει τοὺς καθόλου λόγους<note type="apparatus" n="9" target="#p9-8">αὐτῷ CRP (αὐτῇ etiam Soph.)</note>
               <lb n="10" xml:id="p9-9"/>ὁ νοῦς. ὑφ’ οὗ συνάγεται ἀναγκαίως, ὡς ἔχει τὸ ἐγκατάλειμμα καὶ ὁ<milestone type="alt-edition" unit="line" ed="Aldina 1527" n="45"/>
@@ -443,10 +444,10 @@
               <lb n="19" xml:id="p10-18"/>δὲ τῶν ἀλλοτρίων, καὶ τὸ γλυκὺ ὁμοίως. ὅτι δὲ μετὰ ποσότητος<note type="apparatus" n="19" target="#p10-18">δὲ ante ὁμοίως add. a</note>
               <lb n="20" xml:id="p10-19"/>ταῦτα νοεῖ, δῆλον· ἐπειδὰν γὰρ νοῇ λευκόν, μετὰ ἐπιφανείας ἢ σώματος<milestone type="alt-edition" unit="line" ed="Aldina 1527" n="25"/>
               <lb n="21" xml:id="p10-20"/>αὐτὸ νοεῖ· ἡ δὲ ἐπιφάνεια καὶ τὸ σῶμα ποσόν. ἐπεὶ οὖν ὁ νοῦς ὃ ἂν<note type="apparatus" n="21" target="#p10-20">ὃ δἂν (= δὴ ἂν) CRP</note>
-              <lb n="22" xml:id="p10-21"/>νοῇ μετὰ ποσοῦ τινος αὐτὸ νοεῖ, ταῦτα δὲ τῆς φαντασίας (αὕτη γὰρ παρἐμπίπτουσα<note type="apparatus" n="22" target="#p10-21">ταύτῃ R</note>
+              <lb n="22" xml:id="p10-21"/>νοῇ μετὰ ποσοῦ τινος αὐτὸ νοεῖ, ταῦτα δὲ τῆς φαντασίας (αὕτη γὰρ παρεμπίπτουσα<note type="apparatus" n="22" target="#p10-21">ταύτῃ R</note>
               <lb n="23" xml:id="p10-22"/>ταῖς τοῦ νοῦ νοήσεσιν, ὡς ὁ Πλάτων φησίν, οὐκ ἐᾷ νοῆσαι<note type="apparatus" n="23" target="#p10-22">Πλάτων] Phaedo p. 66 D (cf. Philop., Comm. XV 2,30. 542,12), male Soph. p. 260 D affert Spengel</note>
               <lb n="24" xml:id="p10-23"/>καθαρῶς, ὅπερ ἐστὶν ἕκαστον τῶν νοουμένων, ἀλλ’ εὐθὺς ὄγκους καὶ διαστάσεις<note type="apparatus" n="24" target="#p10-23">τῶν νοουμένων ἕκαστον CP</note>
-              <lb n="25" xml:id="p10-24"/>καὶ μεγέθη παρεμφαίνει), φανερὸν ὅτι οὐδέν τι νοεῖ χωρὶς φαντασματος.<note type="apparatus" n="25" target="#p10-24">τι om. P</note>
+              <lb n="25" xml:id="p10-24"/>καὶ μεγέθη παρεμφαίνει), φανερὸν ὅτι οὐδέν τι νοεῖ χωρὶς φαντάσματος.<note type="apparatus" n="25" target="#p10-24">τι om. P</note>
               <lb n="26" xml:id="p10-25"/>
             </p>
           </div>
@@ -574,7 +575,7 @@
           <div type="textpart" subtype="lemma" n="10">
             <milestone unit="bekker" n="450a25"/>
             <quote type="lemma">
-              <lb n="25" xml:id="p13-24"/>Ἀπορήσειε δ’ ἄν τις, πῶς ποτε τοῦ μὲν πάθους παρὄντος,
+              <lb n="25" xml:id="p13-24"/>Ἀπορήσειε δ’ ἄν τις, πῶς ποτε τοῦ μὲν πάθους παρόντος,
               <lb n="26" xml:id="p13-25"/>τοῦ δὲ πράγματος ἀπόντος μνημονεύει τὸ μὴ παρόν.<note type="apparatus" n="26" target="#p13-25">μνημονεύει cum Arist. LSU Soph. (μνημονεύεται MEY)</note>
             </quote>
             <p>
@@ -652,7 +653,7 @@
               <lb n="14" xml:id="p15-13"/>ὅτι μίμημά ἐστι τοιουδὶ ζῴου, τότε λέγεται ζῷον· ὅταν δὲ πρὸς τῷ ὁρᾶν
               <lb n="15" xml:id="p15-14"/>προσλογίζηται καὶ ὅτι μίμημά ἐστι λέοντος ἢ λύκου ἢ ἄλλου τινὸς ζῴου,<note type="apparatus" n="15" target="#p15-14">ὅτι] ὅτε a ζῴου om. CRP</note>
               <lb n="16" xml:id="p15-15"/>λέγεται τότε εἰκών. καὶ ἔστι τὸ αὐτὸ καὶ ἓν καὶ εἰκὼν καὶ ζῷον, ἄλλως<milestone type="alt-edition" unit="line" ed="Aldina 1527" n="50"/>
-              <lb n="17" xml:id="p15-16"/>μέντοι καὶ ἄλλως. ὡς οὖν ἐπὶ τούτων, οὕτω καὶ τὸ ἐν τῇ καρδίᾳ ἐγκαταλειμμα<note type="apparatus" n="17" target="#p15-16">τούτου RP</note>
+              <lb n="17" xml:id="p15-16"/>μέντοι καὶ ἄλλως. ὡς οὖν ἐπὶ τούτων, οὕτω καὶ τὸ ἐν τῇ καρδίᾳ ἐγκατάλειμμα<note type="apparatus" n="17" target="#p15-16">τούτου RP</note>
               <lb n="18" xml:id="p15-17"/>καὶ ζωγράφημα, ὅπερ αὐτὸς φάντασμα εἶπε, δεῖ ὑπολαβεῖν, ὡς ἔστι
               <lb n="19" xml:id="p15-18"/>καὶ αὐτό τι καθ’ αὑτὸ καὶ φύσις τις καὶ πρᾶγμα καὶ ἄλλου φάντασμα,<note type="apparatus" n="19" target="#p15-18">καὶ αὐτό τι Sa Soph. (Arist.): τι καὶ αὐτὸ CRP</note>
               <lb n="20" xml:id="p15-19"/>ὥσπερ καὶ τὸ ἐν τῷ τοίχῳ γεγραμμένον· ἔστι γὰρ καὶ τοῦτο αὐτό τι καθ’<note type="apparatus" n="20" target="#p15-19">τοίχῳ Sa: τοίχῳ τω C: τοιούτῳ RP τι] τὲ C</note>
@@ -731,7 +732,7 @@
               <lb n="1" xml:id="p17-0"/>ἐκτύπωμα ἢ τοιοῦτον, ἀλλ’ ὡς ἀπ’ ἄλλου τινὸς ἐγγινόμενον, ἐνίοτε οὐκ
               <lb n="2" xml:id="p17-1"/>ἴσμεν, εἰ κατὰ τὸ ᾐσθῆσθαι συμβαίνει. οἷον εἶδόν ποτε ζῷον ἢ ἤκουσα
               <lb n="3" xml:id="p17-2"/>φωνῆς ἢ λόγου ὑπό τινος σοφοῦ. ὕστερον δὲ μετὰ πολὺν χρόνον μέμνημαι<note type="apparatus" n="3" target="#p17-2">λόγον S</note>
-              <lb n="4" xml:id="p17-3"/>τοῦ λόγου, μὴ ἐνθυμούμενος ὑφ’ οὗ τοῦτον ἤκουσα, καὶ διὰ τὸ μὴ ἐνθυκεῖσθαι<milestone type="alt-edition" unit="line" ed="Aldina 1527" n="35"/>
+              <lb n="4" xml:id="p17-3"/>τοῦ λόγου, μὴ ἐνθυμούμενος ὑφ’ οὗ τοῦτον ἤκουσα, καὶ διὰ τὸ μὴ ἐνθυμεῖσθαι<milestone type="alt-edition" unit="line" ed="Aldina 1527" n="35"/>
               <lb n="5" xml:id="p17-4"/>ἀπορῶν λέγω· πότερον ἐγὼ τοῦτον νοῶ καὶ ἀπ’ ἐμαυτοῦ προβάλλομαι<note type="apparatus" n="5" target="#p17-4">πρότερον S νοῶ Sa: νῦν CRP</note><note type="apparatus" n="5-6" target="#p17-4 #p17-5">ἀπ’ ἐμαυτοῦ προβάλλομαι a: ἀφ’ ἑαυτοῦ προεβαλόμην ceteri</note>
               <lb n="6" xml:id="p17-5"/>τὸν λόγον ἢ ἄλλου του ἤκουσα τοῦτον λέγοντος; καὶ ταλαντεύομαι,
               <lb n="7" xml:id="p17-6"/>εἴτε μνήμη ἐστὶ καὶ μνημονευτὸς ὁ λόγος, εἴτε μή, ἀλλ’ ἐμὸν διανόημα.
@@ -936,7 +937,7 @@
               <lb n="8" xml:id="p22-7"/>δεύτερον ἐπιχείρημα τοῦ προτέρου· ἐν ἐκείνῳ μὲν γὰρ ἔλεγεν, ὅτι οὐκ
               <lb n="9" xml:id="p22-8"/>ἔστι μνήμη οὐδὲ μνημονεύειν λεγόμεθα, ὅτε τὰ πάθη καὶ τοὺς τύπους<note type="apparatus" n="9" target="#p22-8">ὅταν CRP</note>
               <lb n="10" xml:id="p22-9"/>λαμβάνομεν, οὔπω δὲ τελέως ἐλάβομεν, ἐν τούτῳ δὲ λέγει, ὅτι οὐδὲ ἐν τῷ<note type="apparatus" n="10" target="#p22-9">λαμβάνωμεν CRP</note>
-              <lb n="11" xml:id="p22-10"/>νῦν, ἐν ᾧ ἤδη τελέως τὸν τύπον ἐλάβομον, μνημονεύειν λέγομεν. οὐ<note type="apparatus" n="11" target="#p22-10">νῦν] νῶ RP τελείως SP</note><milestone type="alt-edition" unit="folio" ed="Aldina 1527" n="132r"/>
+              <lb n="11" xml:id="p22-10"/>νῦν, ἐν ᾧ ἤδη τελέως τὸν τύπον <choice><sic>ἐλάβομον</sic><corr>ἐλάβομεν</corr></choice>, μνημονεύειν λέγομεν. οὐ<note type="apparatus" n="11" target="#p22-10">νῦν] νῶ RP τελείως SP</note><milestone type="alt-edition" unit="folio" ed="Aldina 1527" n="132r"/>
               <lb n="12" xml:id="p22-11"/>γὰρ λέγομεν μνημονεύειν ὅπερ νῦν ἐμάθομεν, ἀλλ’ ὅπερ πρότερον. ὑπάρχει
               <lb n="13" xml:id="p22-12"/>γὰρ ἐν ἐμοὶ τῷ παθόντι τὸ πάθος καὶ ἡ ἐπιστήμη, ἥτις μοι νῦν
               <lb n="14" xml:id="p22-13"/>ἐγεγόνει. καὶ οὐκ ἔστι τοῦτο μνήμη, ἀλλ’ ὅταν χρονίσαν ἐν ἐμοὶ
@@ -1076,7 +1077,7 @@
               <lb n="24" xml:id="p25-23"/>ἑτέρους κινουμένους πολλάκις. εἰσὶ γάρ τινες ἐπιτηδείως ἔχοντες,<note type="apparatus" n="24" target="#p25-23">ἑτέρους legit cum Arist. LSU (ἄλλους EMY)</note>
               <lb n="25" xml:id="p25-24"/>ὥστε ἐθισθέντες ἐκ τοῦδε ἀναμιμνῄσκεσθαι τόδε ἅμα τῷ ἀναμνησθῆναι τὸ
               <lb n="26" xml:id="p25-25"/>πρῶτον ῥᾷστα ἀναμιμνῄσκεσθαι καὶ τὸ δεύτερον. τινὲς δὲ πολλάκις ἐθίσαντες
-              <lb n="27" xml:id="p25-26"/>ἑαυτοὺς ἐκ τοῦ ταύρου ἀναμιμνῄσκεσθαι τὸν Ταυρομενίτην τὸ ταυρος<note type="apparatus" n="27" target="#p25-26">ἀναμιμνήσκεσθαι a: ἀναμιμνήσκονται ceteri</note><milestone type="alt-edition" unit="line" ed="Aldina 1527" n="30"/>
+              <lb n="27" xml:id="p25-26"/>ἑαυτοὺς ἐκ τοῦ ταύρου ἀναμιμνῄσκεσθαι τὸν Ταυρομενίτην τὸ ταῦρος<note type="apparatus" n="27" target="#p25-26">ἀναμιμνήσκεσθαι a: ἀναμιμνήσκονται ceteri</note><milestone type="alt-edition" unit="line" ed="Aldina 1527" n="30"/>
               <lb n="28" xml:id="p25-27"/>λέγουσι, πόρρω δ’ οὐ προβαίνουσιν. ἢ τὸ ἐνίους ἐπὶ τῶν ἐν τῇ ψυχῇ
               <lb n="29" xml:id="p25-28"/>τύπων εἴρηται· τινὲς γὰρ τῶν τύπων γίνονται εὐμνημόνευτοι, τινὲς δ’ οὔ.
             </p>
@@ -1265,7 +1266,7 @@
               <lb n="7" xml:id="p30-6"/>λύραν, εἶτα ὅτι ἐτύφθη, καὶ οὕτως ὅτι ὑπὸ Σωκράτους (καίτοι ἀκόλουθον
               <lb n="8" xml:id="p30-7"/>ἦν μετὰ τὸ συμπόσιον εὐθὺς Σωκράτους ἀναμνησθῆναι, εἶτα ὅτι ἐτύφθη,<note type="apparatus" n="8" target="#p30-7">σωκράτην C</note>
               <lb n="9" xml:id="p30-8"/>εἶτα λύραν)· ἔστω γὰρ ὅτι μετὰ τῆς λύρας ἀντὶ ῥάβδου ἔτυψε τὸν τυφθέντα.<note type="apparatus" n="9" target="#p30-8">λύραν a: τὴν λύραν ceteri</note><milestone type="alt-edition" unit="line" ed="Aldina 1527" n="35"/>
-              <lb n="10" xml:id="p30-9"/>εἰπὼν δὲ ὅτι τὸ μέσον ἀρχῇ, ἔοικε, τὴν αἰτίαν τούτου τέθεικεν· ἐντεῦθεν<note type="apparatus" n="10" target="#p30-9">τέθεικεν Sa: τίθησιν εἰπὼν CRP</note>
+              <lb n="10" xml:id="p30-9"/>εἰπὼν δὲ ὅτι τὸ μέσον ἀρχῇ ἔοικε, τὴν αἰτίαν τούτου τέθεικεν· ἐντεῦθεν<note type="apparatus" n="10" target="#p30-9">τέθεικεν Sa: τίθησιν εἰπὼν CRP</note>
               <lb n="11" xml:id="p30-10"/>γὰρ ἐπ’ ἄμφω κινηθῆναι ἐνδέχεται· τὸ γὰρ Ε ὁδός ἐστι καὶ πρὸς<note type="apparatus" n="11" target="#p30-10">καὶ om. RP</note>
               <lb n="12" xml:id="p30-11"/>τὰ ἐφεξῆς αὐτῷ τὰ Ζ Η Θ καὶ πρὸς τὰ ὄπισθεν τὰ Δ Γ Β Α, καὶ δυνατόν<note type="apparatus" n="12" target="#p30-11">α β γ SCRP1</note>
               <lb n="13" xml:id="p30-12"/>ἐστιν ὥσπερ ἀπὸ τοῦ Θ ἢ τοῦ Η ἢ τοῦ Ζ ἀναμνησθῆναι ὃ βουλόμεθα,<note type="apparatus" n="13" target="#p30-12">δ—τῷ Α (14) om. RP</note>
@@ -1319,7 +1320,7 @@
               <lb n="22" xml:id="p31-21"/>τόδε μετὰ τόδε (φύσει γὰρ ἕπεται τῇ τοῦ πυρὸς ἀναμνήσει ἡ θερμότης·
               <lb n="23" xml:id="p31-22"/>ὁ γὰρ ἀναμνησθεὶς πῦρ εὐθὺς φύσει καὶ θερμότητα ἀνεμνήσθη), οὕτω καὶ<note type="apparatus" n="23" target="#p31-22">πυρὸς P φύσει Sa: ἤδη CRP θερμότητα a: θερμότητος C: comp. anceps SRP</note>
               <lb n="24" xml:id="p31-23"/>ἐνεργείᾳ, τουτέστιν ἔθει· εἰσὶ γὰρ καὶ ἐξ ἔθους τινά, ἅπερ ἀναμνησθέντες<note type="apparatus" n="24" target="#p31-23">καὶ om. CRP Soph.</note>
-              <lb n="25" xml:id="p31-24"/>εὐθὺς ἀναμιμνησκόμεθα καὶ τὰ μετ’ αὐτὰ ὄντα. εἶπε δὲ τὸ ἔθος ἐνεργειαν,
+              <lb n="25" xml:id="p31-24"/>εὐθὺς ἀναμιμνησκόμεθα καὶ τὰ μετ’ αὐτὰ ὄντα. εἶπε δὲ τὸ ἔθος ἐνέργειαν,
               <lb n="26" xml:id="p31-25"/>διότι ἐκ τῆς τοιαύτης ἐνεργείας συμβαίνει τὸ τοιόνδε ἔθος. τὸ δὴ<milestone type="alt-edition" unit="line" ed="Aldina 1527" n="20"/>
               <lb n="27" xml:id="p31-26"/>πολλάκις ἐθισθὲν φύσιν ποιεῖ. καὶ ἐπεὶ ἐν τοῖς φύσει γίνεται ἁμαρτία καὶ<note type="apparatus" n="27" target="#p31-26">φύσιν] φύσει C ἐγγίνεται CRP Soph. AB</note>
               <lb n="28" xml:id="p31-27"/>παρὰ φύσιν, ἐνδέχεται τοῦτο συμβαίνειν καὶ ἐν τοῖς δι’ ἔθος, καὶ μάλιστα
@@ -1582,7 +1583,7 @@
             </p>
             <pb n="38" facs="https://archive.org/download/p1commentariaina22akaduoft/page/n57.jpg"/>
             <p>
-              <lb n="1" xml:id="p38-0"/>ἡ τοῦ χρόνου χωρὶς τῆς τοῦ πράγματος. τὸν δὲ χρόνον ὁτὲ μὲν οὐ μεμνημεθα<note type="apparatus" n="1" target="#p38-0">τῆς τοῦ πράγματος χωρὶς S τοῦ δὲ χρόνου Sa αὐτόν cum Arist. SU (αὐτῶν LM, αὐτό EY) vid. legisse</note>
+              <lb n="1" xml:id="p38-0"/>ἡ τοῦ χρόνου χωρὶς τῆς τοῦ πράγματος. τὸν δὲ χρόνον ὁτὲ μὲν οὐ μεμνήμεθα<note type="apparatus" n="1" target="#p38-0">τῆς τοῦ πράγματος χωρὶς S τοῦ δὲ χρόνου Sa αὐτόν cum Arist. SU (αὐτῶν LM, αὐτό EY) vid. legisse</note>
               <lb n="2" xml:id="p38-1"/>ἀορίστως, ἀλλ’ ὡρισμένως, ὁτὲ δὲ οὐχ ὡρισμένως, ἀλλ’ ἀορίστως.<note type="apparatus" n="2" target="#p38-1">ἀορίστων a</note>
               <lb n="3" xml:id="p38-2"/>τὸ δὲ πότε τῷ ποσῷ μέτρῳ ἴσον ἐστὶ τῷ ‘ὡρισμένῳ μέτρῳ’.<note type="apparatus" n="3" target="#p38-2">πότε τῷ ποσῷ cum LSU legit</note><milestone type="alt-edition" unit="line" ed="Aldina 1527" n="50"/>
             </p>
@@ -1685,7 +1686,7 @@
           <div type="textpart" subtype="lemma" n="42">
             <milestone unit="bekker" n="453a26"/>
             <quote type="lemma">
-              <lb n="5" xml:id="p40-4"/>Διὸ καὶ ὀργαὶ καὶ φόβοι, ὅταν κινηθῶσιν, ἀντικινοῦντων<note type="apparatus" n="5" target="#p40-4">ὀργαὶ καὶ φόβοι S, cf. v. 15 (Arist. praeter U): αἱ ὀργαὶ καὶ οἱ φόβοι CRP: φόβοι καὶ ὀργαί a (Arist. U) ὅταν τι κινήσωσιν Arist. praeter SU</note>
+              <lb n="5" xml:id="p40-4"/>Διὸ καὶ ὀργαὶ καὶ φόβοι, ὅταν κινηθῶσιν, ἀντικινούντων<note type="apparatus" n="5" target="#p40-4">ὀργαὶ καὶ φόβοι S, cf. v. 15 (Arist. praeter U): αἱ ὀργαὶ καὶ οἱ φόβοι CRP: φόβοι καὶ ὀργαί a (Arist. U) ὅταν τι κινήσωσιν Arist. praeter SU</note>
               <lb n="6" xml:id="p40-5"/>πάλιν τούτων οὐ καθίστανται. <milestone type="alt-edition" unit="folio" ed="Aldina 1527" n="136r"/><note type="apparatus" n="6" target="#p40-5">τούτων ἀντικαθίσταται S</note>
             </quote>
             <p>
@@ -1873,7 +1874,7 @@
               <lb n="9" xml:id="p45-8"/>ὅταν ὑπερβάλλῃ τὸν χρόνον, ἀδυνατεῖ καὶ παύεται τοῦ ἐγρηγορεῖν· ἐναντίον<note type="apparatus" n="9" target="#p45-8">ὑπερβάλῃ CRP ἀδυνατήσει καὶ παύσεται CRP ἐνεργεῖν RP, e corr. C</note>
               <lb n="10" xml:id="p45-9"/>δὲ τῷ ἐγρηγορέναι τὸ καθεύδειν. τῶν δ’ ἀμέσων ἐναντίων, μᾶλλον δὲ τῶν
               <lb n="11" xml:id="p45-10"/>κατὰ στέρησιν καὶ ἕξιν ἂν θάτερον μὴ παρῇ, ἀνάγκη θάτερον εἶναι. ὥστε
-              <lb n="12" xml:id="p45-11"/>τῆς ἐγρηγόρσεως μὴ οὔσης ἀνάγκη τὸν ὕπνον παρεῖναι· ἅπαν ἄρα τὸ ἐγρηγορος<note type="apparatus" n="12" target="#p45-11">οὔσης] παρούσης RP Soph.</note><note type="apparatus" n="12-13" target="#p45-11 #p45-12">τὸ ἐγρηγορεῖν R</note>
+              <lb n="12" xml:id="p45-11"/>τῆς ἐγρηγόρσεως μὴ οὔσης ἀνάγκη τὸν ὕπνον παρεῖναι· ἅπαν ἄρα τὸ ἐγρηγορὸς<note type="apparatus" n="12" target="#p45-11">οὔσης] παρούσης RP Soph.</note><note type="apparatus" n="12-13" target="#p45-11 #p45-12">τὸ ἐγρηγορεῖν R</note>
               <lb n="13" xml:id="p45-12"/>ἀναγκαῖόν ἐστι καθεύδειν. οὐδὲν ἄρα ἐστίν, ὅπερ ἀεὶ ἐγρήγορεν. ἡ<milestone type="alt-edition" unit="line" ed="Aldina 1527" n="20"/>
               <lb n="14" xml:id="p45-13"/>μὲν οὖν τῶν λεγομένων διάνοια αὕτη, τὰ δὲ κατὰ τὴν λέξιν ὧδέ πως ἔχει.<note type="apparatus" n="14" target="#p45-13">τὰ Sa: ἡ CRP</note>
               <lb n="15" xml:id="p45-14"/>τὸ γὰρ ὅταν ὑπερβάλλῃ τὸν χρόνον ἤ τι ὧν δύναται ποιεῖν οὕτως<note type="apparatus" n="15" target="#p45-14">γὰρ] μὲν a ὅτε CRP ὑπερβάλῃ CR</note>
@@ -1975,7 +1976,7 @@
               <lb n="20" xml:id="p47-19"/>ἅμα αἰσθανόμενον καὶ μὴ αἰσθανόμενον· ὅπερ ἀδύνατον. ᾗ μὲν γὰρ καθεύδει,
               <lb n="21" xml:id="p47-20"/>ἔσται ἀναίσθητον (δεσμὸς γὰρ ὁ ὕπνος αἰσθήσεως), ᾗ δὲ αἰσθάνεται, ὡς
               <lb n="22" xml:id="p47-21"/>ἡ ὑπόθεσις, ἔσται αἰσθανόμενον. τοῦτο δὲ ταὐτόν ἐστι τῷ ‘ἔσται ἅμα<note type="apparatus" n="22" target="#p47-21">τούτῳ RP</note>
-              <lb n="23" xml:id="p47-22"/>ἐγρηγορὸς καὶ μὴ ἐγρηγορός’· ὅπερ ἀδύνατον. ὅτι δὲ οὔτε τῇ ὄψει κρινομεν
+              <lb n="23" xml:id="p47-22"/>ἐγρηγορὸς καὶ μὴ ἐγρηγορός’· ὅπερ ἀδύνατον. ὅτι δὲ οὔτε τῇ ὄψει κρίνομεν
               <lb n="24" xml:id="p47-23"/>ὅτι ὁρῶμεν οὔτε τῇ ἀκοῇ ὅτι ἀκούομεν, ἀλλὰ τῇ κοινῇ, ἥτις ἵδρυται<note type="apparatus" n="24" target="#p47-23">ὅτι (ante ὁρῶμεν) Sa, e corr. P: οὔτε CR, prius P ὅτι (ante ἀκούομεν) SPa: om. CR</note>
               <lb n="25" xml:id="p47-24"/>περὶ τὴν καρδίαν, δέδεικται ἐν τῷ δευτέρῳ βιβλίῳ τῶν Περὶ ψυχῆς, ἥτις<note type="apparatus" n="25" target="#p47-24">τῷ δευτέρῳ (immo Γ 2 p. 425 b 12 ss.) βιβλίῳ τῶν] τοῖς a, fort. recte</note>
               <lb n="26" xml:id="p47-25"/>κοινὴ αἴσθησις μία μέν ἐστι τῷ ὑποκειμένῳ, τῷ δὲ λόγῳ πλείους· ἐπεὶ<note type="apparatus" n="26" target="#p47-25">αἴσθησις om. a ἐστὶ om. CRP λόγῳ δὲ CRP</note><milestone type="alt-edition" unit="line" ed="Aldina 1527" n="50"/>
@@ -2086,7 +2087,7 @@
             </p>
             <pb n="50" facs="https://archive.org/download/p1commentariaina22akaduoft/page/n69.jpg"/>
             <p>
-              <lb n="1" xml:id="p50-0"/>ἢ φρόνησίς ἐστι· πᾶσα αἴσθησις καὶ πᾶσα φρόνησις τέλος· ἡ ἐγρήγο σις<note type="apparatus" n="1" target="#p50-0">καὶ ante ἡ add. CRP</note>
+              <lb n="1" xml:id="p50-0"/>ἢ φρόνησίς ἐστι· πᾶσα αἴσθησις καὶ πᾶσα φρόνησις τέλος· ἡ <choice><sic>ἐγρήγο σις</sic><corr>ἐγρήγορσις</corr></choice><note type="apparatus" n="1" target="#p50-0">καὶ ante ἡ add. CRP</note>
               <lb n="2" xml:id="p50-1"/>ἄρα τέλος. καὶ τὴν μὲν ἐλάττονα πρότασιν ὡς δήλην οὖσαν οὐ κατεσκεύασεν
               <lb n="3" xml:id="p50-2"/>(τίς γὰρ οὐκ οἶδεν ὅτι ὁ ἐγρηγορὼς αἰσθάνεται ἢ φρονεῖ;), τὴν δὲ μείζονα
               <lb n="4" xml:id="p50-3"/>τὴν λέγουσαν ὅτι ἡ αἴσθησις καὶ ἡ φρόνησις τέλος κατεσκεύασε διὰ τοῦ<milestone type="alt-edition" unit="line" ed="Aldina 1527" n="15"/>
@@ -2155,7 +2156,7 @@
           <div type="textpart" subtype="lemma" n="17">
             <milestone unit="bekker" n="456a15"/>
             <quote type="lemma">
-              <lb n="16" xml:id="p51-15"/>Ἐπεὶ δὲ κινεῖν μὲν ἡ ποιεῖν τι ἄνευ ἰσχύος ἀδύνατον,<note type="apparatus" n="16" target="#p51-15">ἐπεὶ δὲ] ἐπειδὴ C: ἐπειδὴ δὲ S μὲν ἢ ποιεῖν τι SC (Arist. SU), item, sed om. τι RP: μέντοι ἢ ποιεῖν a: μέν τι ἢ ποιεῖν Arist. EMYL</note>
+              <lb n="16" xml:id="p51-15"/>Ἐπεὶ δὲ κινεῖν μὲν ἢ ποιεῖν τι ἄνευ ἰσχύος ἀδύνατον,<note type="apparatus" n="16" target="#p51-15">ἐπεὶ δὲ] ἐπειδὴ C: ἐπειδὴ δὲ S μὲν ἢ ποιεῖν τι SC (Arist. SU), item, sed om. τι RP: μέντοι ἢ ποιεῖν a: μέν τι ἢ ποιεῖν Arist. EMYL</note>
               <lb n="17" xml:id="p51-16"/>ἰσχὺν δὲ ποιεῖ ἡ τοῦ πνεύματος κάθεξις.
             </quote>
             <p>
@@ -2228,7 +2229,7 @@
               <lb n="12" xml:id="p53-11"/>εἰ δὲ τοῦτο, ἔστιν ἄρα ὁ ὕπνος ἡ τυχοῦσα τῶν αἰσθήσεων ἀδυναμία. λύει
               <lb n="13" xml:id="p53-12"/>οὖν αὐτὴν λέγων· εἰ γὰρ ἐνδέχεται καταδαρθεῖν τὸν λειποψυχήσαντα<note type="apparatus" n="13" target="#p53-12">καταδαρθάνειν P, e corr. R: καταδαρθῆναι C</note>
               <lb n="14" xml:id="p53-13"/>καὶ τὰ ἑξῆς. ἔστι δὲ τὸ λεγόμενον· εἰ γὰρ ὑπνώττει ὁ λειποψυχῶν<note type="apparatus" n="14" target="#p53-13">γὰρ] δὲ CRP</note><milestone type="alt-edition" unit="line" ed="Aldina 1527" n="25"/>
-              <lb n="15" xml:id="p53-14"/>καὶ ὅλως ὕπνος ἐστὶν ἡ λειποψυχία, ἔσται καὶ τὸ φάντασμα τοῦ λειποψυγήσαντος<note type="apparatus" n="15" target="#p53-14">ἔστι C post ἔσται add. δὴ CRP καὶ cum Arist. EMY</note>
+              <lb n="15" xml:id="p53-14"/>καὶ ὅλως ὕπνος ἐστὶν ἡ λειποψυχία, ἔσται καὶ τὸ φάντασμα τοῦ λειποψυχήσαντος<note type="apparatus" n="15" target="#p53-14">ἔστι C post ἔσται add. δὴ CRP καὶ cum Arist. EMY</note>
               <lb n="16" xml:id="p53-15"/>ἐνύπνιον. ἀλλὰ τῶν μὲν ἐνυπνίων, εἰ καὶ μὴ πάντων, ἀλλὰ
               <lb n="17" xml:id="p53-16"/>τῶν πλείστων ἐγερθέντες μνημονεύομεν, οὐδενὸς δὲ τῶν ἐν ταῖς λειποψυχίαις
               <lb n="18" xml:id="p53-17"/>φαντασμάτων μετὰ τὴν ἀπαλλαγὴν μνημονεύουσι· πολλὰ γὰρ ἐν τῷ<note type="apparatus" n="18" target="#p53-17">μνημονεύουσι φαντάσματος μετὰ τὴν ἀπαλλαγὴν CRP Soph. (hic φαντασμάτων)</note>
@@ -2336,7 +2337,7 @@
               <lb n="2" xml:id="p56-1"/>ὥστε πολλῆς γινομένης ἄνω ἕπεται τὸ καὶ κάτω πολλὴν γίνεσθαι<note type="apparatus" n="2" target="#p56-1">καὶ τὸ S</note>
               <lb n="3" xml:id="p56-2"/>τὴν παλίρροιαν· τὸ δὲ πολὺ ἀπὸ τῆς αὐτῆς καὶ ἴσης θερμότητος βραδέως<note type="apparatus" n="3" target="#p56-2">ἀπὸ] οὐ C</note>
               <lb n="4" xml:id="p56-3"/>πέττεται καὶ κρατεῖται. <milestone type="alt-edition" unit="folio" ed="Aldina 1527" n="140v"/>
-              <lb n="5" xml:id="p56-4"/>Τὰ δὲ λοιπὰ σαφῆ. ὅτι δὲ σκληρὰ καὶ οἱονεὶ ξηρὰ τὰ τῶν μελαγγολικῶν
+              <lb n="5" xml:id="p56-4"/>Τὰ δὲ λοιπὰ σαφῆ. ὅτι δὲ σκληρὰ καὶ οἱονεὶ ξηρὰ τὰ τῶν μελαγχολικῶν
               <lb n="6" xml:id="p56-5"/>σώματα, δῆλον. οὐ γὰρ τρέφονται καλῶς διὰ τὸ μὴ δύνασθαι<note type="apparatus" n="6" target="#p56-5">καλῶς τρέφονται CRP</note>
               <lb n="7" xml:id="p56-6"/>πέττειν· ἐμποδίζει γὰρ τὴν πέψιν ἡ τοῦ σώματος ψυχρότης, καὶ ἔοικε τὰ
               <lb n="8" xml:id="p56-7"/>τῶν μελαγχολικῶν σώματα ξύλοις ἐν ἀνίκμῳ χώρᾳ οὖσιν. ὅτι δ’ ἡ χολὴ
@@ -2542,7 +2543,7 @@
             <p>
               <lb n="15" xml:id="p61-14"/>Δείκνυσιν ὅτι οὐδὲ τῇ δόξῃ τὰ ἐνύπνια αἰσθανόμεθα, ἤτοι οὐδὲ τῆς
               <lb n="16" xml:id="p61-15"/>δόξης εἰσὶ πάθη. τοῦτο δὲ ταὐτόν ἐστι τῷ ‘οὐδὲ τῆς διανοίας’· τὰ γὰρ
-              <lb n="17" xml:id="p61-16"/>διανούμενα δοξάζει. ἐπεὶ γὰρ ἐν τοῖς ὕπνοις οὐ μόνον φαμὲν καὶ συγκατατιθέμεθα,
+              <lb n="17" xml:id="p61-16"/><choice><sic>διανούμενα</sic><corr>διανοούμενα</corr></choice> δοξάζει. ἐπεὶ γὰρ ἐν τοῖς ὕπνοις οὐ μόνον φαμὲν καὶ συγκατατιθέμεθα,
               <lb n="18" xml:id="p61-17"/>ὅτι τὸ προσιὸν ἄνθρωπός ἐστιν (τὸ δὲ συγκατατίθεσθαι δόξης<note type="apparatus" n="18" target="#p61-17">ὁ ἄνθρωπος Ca τὸ δὲ—ἄνθρωπός ἐστιν (20) Sa: om. CRP</note>
               <lb n="19" xml:id="p61-18"/>ἐστίν· ἡ γὰρ δόξα οὐδὲν ἄλλο ἐστὶν ἢ ὑπόληψις περὶ τὰ ἐνδεχόμενα καὶ
               <lb n="20" xml:id="p61-19"/>ἄλλως ἔχειν), οὐ μόνον οὖν φαμεν ὅτι τὸ προσιὸν ἄνθρωπός ἐστιν ἢ ἵππος<milestone type="alt-edition" unit="line" ed="Aldina 1527" n="45"/>
@@ -2711,7 +2712,7 @@
               <lb n="17" xml:id="p65-16"/>δὲ δόξαν λέγει τὴν αἴσθησιν, ἢ οὐ κοινότερον τὴν αἴσθησιν λέγει, ἀλλ’<milestone type="alt-edition" unit="line" ed="Aldina 1527" n="30"/>
               <lb n="18" xml:id="p65-17"/>αὐτὴν τὴν διάνοιαν· καὶ γὰρ καὶ ἡ διάνοια, ἧς τὸ δοξάζειν, ἐν τοῖς ὕπνοις<note type="apparatus" n="18" target="#p65-17">καὶ (post γὰρ) om. RP</note>
               <lb n="19" xml:id="p65-18"/>ἐνεργεῖ), λέγει οὖν ἡ δόξα, ὅτι ψεῦδος τὸ ὁρώμενον· οὐ γάρ ἐστι
-              <lb n="20" xml:id="p65-19"/>τοῦτο ὁ Καλλίας, ἀλλ’ ὁ τοῦ Καλλίου τύπος. ὅτε δέ ἐστι πολλή, κατέγεται
+              <lb n="20" xml:id="p65-19"/>τοῦτο ὁ Καλλίας, ἀλλ’ ὁ τοῦ Καλλίου τύπος. ὅτε δέ ἐστι πολλή, κατέχεται
               <lb n="21" xml:id="p65-20"/>ὑπ’ αὐτῆς ἡ δόξα καὶ ἀκολουθεῖ τῷ φαντάσματι. ἐπεὶ δὲ
               <lb n="22" xml:id="p65-21"/>διὰ τοῦ πνεύματος, δι’ οὗ ὁ ὕπνος γίνεται, δι’ αὐτοῦ τούτου γίνονται καὶ<note type="apparatus" n="22" target="#p65-21">οἱ ὕπνοι γίνονται a γίνονται SC: γίνεται RPa</note>
               <lb n="23" xml:id="p65-22"/>τὰ ἐνύπνια, ὁ δὲ ὕπνος πάθος τοῦ αἰσθητικοῦ, δηλονότι καὶ τὰ ἐνύπνια
@@ -2858,7 +2859,7 @@
             <p>
               <lb n="24" xml:id="p68-23"/>Τὸ μὲν τῆς λέξεως συνεχὲς τοιοῦτον· δεῖ δὲ ὑπολαβεῖν ὥσπερ<milestone type="alt-edition" unit="line" ed="Aldina 1527" n="43"/>
               <lb n="25" xml:id="p68-24"/>τὰς μικρὰς δίνας τὰς ἐν τοῖς ποταμοῖς φερομένας πολλάκις μὲν
-              <lb n="26" xml:id="p68-25"/>ὁμοίας, πολλάκις δὲ διαλυμένας εἰς ἄλλα σχήματα διὰ τὴν ἀντίκρουσιν,
+              <lb n="26" xml:id="p68-25"/>ὁμοίας, πολλάκις δὲ <choice><sic>διαλυμένας</sic><corr>διαλυομένας</corr></choice> εἰς ἄλλα σχήματα διὰ τὴν ἀντίκρουσιν,
               <lb n="27" xml:id="p68-26"/>οὕτω καὶ τὴν κίνησιν ἑκάστην γίνεσθαι συνεχῶς. κίνησιν δὲ<note type="apparatus" n="27" target="#p68-26">καὶ a (κἀνταῦθα Soph.): om. ceteri</note><milestone type="alt-edition" unit="line" ed="Aldina 1527" n="45"/>
               <lb n="28" xml:id="p68-27"/>λέγει τὴν τοῦ εἰδώλου καὶ τύπου τοῦ ἐν τῇ καρδίᾳ, καθ’ ἣν κινεῖται ἡ ἐν
               <lb n="29" xml:id="p68-28"/>τῇ καρδίᾳ αἰσθητικὴ ψυχή. τὸ δὲ λεγόμενον τοιοῦτον· ὥσπερ, φησίν, ἡ
@@ -3014,7 +3015,7 @@
               <lb n="25" xml:id="p72-24"/>ἀναγκαῖον ἔλασσον εἶναι), ἐνεργοῦσιν οὖν ἐν τῷ λοιπῷ αἵματι, τῶν ἐν τοῖς<note type="apparatus" n="25" target="#p72-24">ἀνάγκη R ἐν τοῖς om. C, s. s. R</note>
               <lb n="26" xml:id="p72-25"/>αἰσθητηρίοις κινούντων ἔχουσαι ὁμοιώματα, τουτέστιν οὖσαι ὁμοιώματα<note type="apparatus" n="26" target="#p72-25">αἰσθητηρίων C ὁμοιότητα Arist. YL</note>
               <lb n="27" xml:id="p72-26"/>τῶν αἰσθητῶν τῶν ποιούντων κίνησιν ἐν τοῖς αἰσθητηρίοις. μεταβάλλουσι
-              <lb n="28" xml:id="p72-27"/>δὲ ταῦτα τὰ ὁμοιώματατα ταχέως, ὥσπερ τὰ ἐν τοῖς νέφεσιν, ἃ παρεικάζουσι
+              <lb n="28" xml:id="p72-27"/>δὲ ταῦτα τὰ <choice><sic>ὁμοιώματατα</sic><corr>ὁμοιώματα</corr></choice> ταχέως, ὥσπερ τὰ ἐν τοῖς νέφεσιν, ἃ παρεικάζουσι
               <lb n="29" xml:id="p72-28"/>κενταύροις καὶ ἀνθρώποις. καὶ ὥσπερ ταῦτα ἀπ’ ἄλλων
               <lb n="30" xml:id="p72-29"/>σχημάτων εἰς ἄλλα μεταβάλλει, τί κωλύει καὶ τὰς τοιαύτας κινήσεις ἀπὸ<milestone type="alt-edition" unit="line" ed="Aldina 1527" n="40"/>
               <lb n="31" xml:id="p72-30"/>ἄλλων εἰς ἄλλα μεταβάλλειν; ταῦτα εἰπὼν ἐπιφέρει· τούτων δέ, τῶν
@@ -3220,7 +3221,7 @@
               <lb n="19" xml:id="p78-18"/>δὲ τῇ ἡμέρᾳ οὐ γίνονται; ἤ φησιν, ὅτι γίνονται καὶ ἐν τῇ ἡμέρᾳ. <milestone type="alt-edition" unit="folio" ed="Aldina 1527" n="147r"/> αἱ
               <lb n="20" xml:id="p78-19"/>γὰρ μεθ’ ἡμέραν, τουτέστιν αἱ ἐν τῇ ἡμέρᾳ, γινόμεναι κινήσεις, ἂν<note type="apparatus" n="20" target="#p78-19">καθ’ ἡμέραν CRP ἐὰν Arist. EMY</note>
               <lb n="21" xml:id="p78-20"/>μὴ σφόδρα μεγάλαι ὦσι καὶ ἰσχυραί, λανθάνουσι. γίνονται οὖν,<note type="apparatus" n="21" target="#p78-20">ὦσι μεγάλαι CRP</note>
-              <lb n="22" xml:id="p78-21"/>φησί, καὶ ἐν τῇ ἡμέρᾳ τοιοῦται κινήσεις, ἀλλὰ διὰ τὸ μὴ εἶναι μεγάλας<note type="apparatus" n="22" target="#p78-21">φησιν ἐν CRP μὴ om. S</note>
+              <lb n="22" xml:id="p78-21"/>φησί, καὶ ἐν τῇ ἡμέρᾳ <choice><sic>τοιοῦται</sic><corr>τοιαῦται</corr></choice> κινήσεις, ἀλλὰ διὰ τὸ μὴ εἶναι μεγάλας<note type="apparatus" n="22" target="#p78-21">φησιν ἐν CRP μὴ om. S</note>
               <lb n="23" xml:id="p78-22"/>λανθάνουσιν ἡμᾶς· ἐκκρούονται γάρ, ὡς εἴρηται, ὑπὸ τῶν μεθ’ ἡμέραν<note type="apparatus" n="23" target="#p78-22">εἴρηται] p. 460 b 32 μεθ’ ἡμέραν a: om. ceteri</note>
               <lb n="24" xml:id="p78-23"/>κινήσεων μεγάλων οὐσῶν τῶν γινομένων ἐν τοῖς αἰσθητηρίοις ὑπὸ τῶν
               <lb n="25" xml:id="p78-24"/>αἰσθητῶν. ἂν γὰρ μὴ ὦσι, φησί, σφόδρα μεγάλαι καὶ ἰσχυραί, ἀλλὰ<milestone type="alt-edition" unit="line" ed="Aldina 1527" n="5"/>
@@ -3503,7 +3504,7 @@
               <lb n="14" xml:id="p85-13"/>ἐπάγων φησί· συμβαίνει δὲ τοῦτο διὰ τὸ μάλιστα τοὺς γνωρίμους
               <lb n="15" xml:id="p85-14"/>ὑπὲρ ἀλλήλων φροντίζειν. ἔστι δὲ τὸ δέ τινας εὐθυονείρους εἶναι<note type="apparatus" n="15" target="#p85-14">〈τὸ〉 τὸ conicio</note>
               <lb n="16" xml:id="p85-15"/>καὶ τοὺς γνωρίμους περὶ τῶν γνωρίμων μάλιστα προορᾶν ἴσον<note type="apparatus" n="16" target="#p85-15">τὸ ante τοὺς add. a, v. ad v. 1</note>
-              <lb n="17" xml:id="p85-16"/>τῷ ‘τὸ δέ τινας μάλιστα εὐθυονειρεῖν περὶ τῶν γνωρίμων’· εὐθυοοειροῦμεν<note type="apparatus" n="17" target="#p85-16">τὸ om. RP</note>
+              <lb n="17" xml:id="p85-16"/>τῷ ‘τὸ δέ τινας μάλιστα εὐθυονειρεῖν περὶ τῶν γνωρίμων’· <choice><sic>εὐθυοοειροῦμεν</sic><corr>εὐθυονειροῦμεν</corr></choice><note type="apparatus" n="17" target="#p85-16">τὸ om. RP</note>
               <lb n="18" xml:id="p85-17"/>γὰρ καὶ περὶ ἄλλων τινῶν ἀγνώστων καὶ ἀσυνήθων, ἀλλὰ μάλιστα περὶ<milestone type="alt-edition" unit="line" ed="Aldina 1527" n="30"/>
               <lb n="19" xml:id="p85-18"/>τῶν γνωρίμων. ὅτι δὲ καὶ πόρρω ὄντων τῶν φίλων τάχιστα γνωρίζομεν<note type="apparatus" n="19" target="#p85-18">καὶ om. C μάλιστα RP (Arist. EMY)</note>
               <lb n="20" xml:id="p85-19"/>καὶ μᾶλλον αὐτούς, δῆλον ἐκ τῆς πείρας.
@@ -3577,8 +3578,8 @@
               <lb n="4" xml:id="p87-3"/>Ἀριστοτέλους δῆλος. ζητεῖ γάρ, πόθεν καὶ πῶς τὰ μέν εἰσι μακρόβια, τὰ
               <lb n="5" xml:id="p87-4"/>δὲ βραχύβια. μέμνηται δὲ ἐν αὐτῷ πρῶτον ὡς εἰρηκὼς μὲν περὶ ὕπνου,<note type="apparatus" n="5" target="#p87-4">μὲν om. CRP</note>
               <lb n="6" xml:id="p87-5"/>ἐρῶν δὲ περὶ ὑγείας καὶ νόσου καὶ περὶ νεότητος καὶ ζωῆς, ὡς τελευταίων<note type="apparatus" n="6" target="#p87-5">ἐρῶν] ἔτι S ante ζωῆς add. γήρως καὶ ὅλως περὶ CRP</note>
-              <lb n="7" xml:id="p87-6"/>τούτων ὄντων τῆς φυσικῆς ζητήσεως. καὶ πρῶτον ζητεῖ ἐν τῷ παρόντιβιβλίῳ,<note type="apparatus" n="7" target="#p87-6">ὄντων τούτων CRP τῆς φυσικῆς ζητήσεως] cf. Alex. De sensu p. 6,17 We.</note><milestone type="alt-edition" unit="line" ed="Aldina 1527" n="40"/>
-              <lb n="8" xml:id="p87-7"/>τί τὸ εὔφθαρτον· τούτου γὰρ γνωσθέντος δῆλον γενήσεται καὶ τὸ<note type="apparatus" n="8" target="#p87-7">τί om. CRP τούτου—εὔφθαρτον (9) om. CRP τί post καὶ add. S</note>
+              <lb n="7" xml:id="p87-6"/>τούτων ὄντων τῆς φυσικῆς ζητήσεως. καὶ πρῶτον ζητεῖ ἐν τῷ παρόντι<note type="apparatus" n="7" target="#p87-6">ὄντων τούτων CRP τῆς φυσικῆς ζητήσεως] cf. Alex. De sensu p. 6,17 We.</note><milestone type="alt-edition" unit="line" ed="Aldina 1527" n="40"/>
+              <lb n="8" xml:id="p87-7"/>βιβλίῳ, τί τὸ εὔφθαρτον· τούτου γὰρ γνωσθέντος δῆλον γενήσεται καὶ τὸ<note type="apparatus" n="8" target="#p87-7">τί om. CRP τούτου—εὔφθαρτον (9) om. CRP τί post καὶ add. S</note>
               <lb n="9" xml:id="p87-8"/>μὴ εὔφθαρτον. ᾧ ἕπεται τὸ τί τὸ μακρόβιον καὶ διὰ τί, καὶ περὶ τῶν<note type="apparatus" n="9" target="#p87-8">τὸ (ante τί) om. CP</note>
               <lb n="10" xml:id="p87-9"/>μακροβιωτέρων κατά τε τὰ γένη καὶ τοὺς τόπους. εἶτα τὰ φυτὰ διὰ τί<note type="apparatus" n="10" target="#p87-9">κατά—μακροβιώτερα (11) om. RP τε] γε C διὰ τί τὰ φυτὰ C</note>
               <lb n="11" xml:id="p87-10"/>τῶν ζῴων μακροβιώτερα, καὶ ἐν τοῖς φυτοῖς ἄλλα ἄλλων. τὸ δ’ ἀκριβές,
@@ -3719,7 +3720,7 @@
               <lb n="3" xml:id="p91-2"/>συμφθείρηται, ὁ δ’ αἰθὴρ καὶ τὰ λοιπὰ στοιχεῖα οὐδενὶ συμβεβήκασιν<milestone type="alt-edition" unit="line" ed="Aldina 1527" n="30"/>
               <lb n="4" xml:id="p91-3"/>(οὐδεμία γὰρ οὐσία τῶν ἐν ὑποκειμένῳ), οὐκ ἂν φθείροιντο κατὰ
               <lb n="5" xml:id="p91-4"/>συμβεβηκός. τούτου γάρ ἐστι δηλωτικὸν τὸ κατὰ συμβεβηκὸς δ’ οὐθὲν<note type="apparatus" n="5" target="#p91-4">δ’ οὐθὲν a (Arist.): οὐδὲν ceteri</note>
-              <lb n="6" xml:id="p91-5"/>τῶν ἐν ταῖς οὐσίαις ἐναντίων φθείρεται; λέγων οὐσίας τὰ ζῷα καὶ
+              <lb n="6" xml:id="p91-5"/>τῶν ἐν ταῖς οὐσίαις ἐναντίων <choice><sic>φθείρεται;</sic><corr>φθείρεται·</corr></choice> λέγων οὐσίας τὰ ζῷα καὶ
               <lb n="7" xml:id="p91-6"/>πάντα τὰ σύνθετα, ἐν αὐταῖς δὲ ἐναντία τὰ τέσσαρα στοιχεῖα. ἐπεὶ οὖν<note type="apparatus" n="7" target="#p91-6">ὃ P</note>
               <lb n="8" xml:id="p91-7"/>πᾶν τὸ κατὰ συμβεβηκὸς φθειρόμενον τῶν ἐν ὑποκειμένῳ ἐστίν, οὐδὲν δὲ
               <lb n="9" xml:id="p91-8"/>τῶν σωματικῶν στοιχείων ἐν ὑποκειμένῳ ἐστίν, οὐδὲν ἂν στοιχεῖον κατὰ
@@ -3766,7 +3767,7 @@
               <lb n="6" xml:id="p92-5"/>ἀπὸ τοῦ πρώτου δυνάμει εἰς τὸ δεύτερον. τούτων οὕτως ἐχόντων
               <lb n="7" xml:id="p92-6"/>πάνυ ἀκριβῶς πρόσκειται τὸ πῶς ἐν τῇ λέξει τῇ ἀδύνατον γὰρ τῷ<note type="apparatus" n="7" target="#p92-6">πρόσκειται om. CRP</note>
               <lb n="8" xml:id="p92-7"/>ὕλην ἔχοντι μὴ ὑπάρχειν πῶς τὸ ἐναντίον. οὐ γὰρ ἁπλῶς ἐστιν<milestone type="alt-edition" unit="line" ed="Aldina 1527" n="5"/>
-              <lb n="9" xml:id="p92-8"/>ἡ ὕλη ἡ ὕλη ἐναντίον τῷ τοῦ πυρὸς εἴδει, οἷον τῇ θερμότητι καὶ ξηρότητι,<note type="apparatus" n="9" target="#p92-8">post καὶ add. τῇ CRP</note>
+              <lb n="9" xml:id="p92-8"/>ἡ ὕλη ᾗ ὕλη ἐναντίον τῷ τοῦ πυρὸς εἴδει, οἷον τῇ θερμότητι καὶ ξηρότητι,<note type="apparatus" n="9" target="#p92-8">post καὶ add. τῇ CRP</note>
               <lb n="10" xml:id="p92-9"/>ἀλλ’ ᾗ σύνεστιν ἐν αὐτῇ ἡ τῶν ἄλλων στέρησις, καὶ ᾗ ἡ μέν ἐστι<note type="apparatus" n="10" target="#p92-9">σύνεστιν] ἐστιν a αὐτῶ SC</note>
               <lb n="11" xml:id="p92-10"/>δύναμις, τὸ δὲ ἐνέργεια, καὶ ᾗ πέφυκεν ἀποπτύειν μὲν τόδε τὸ εἶδος,<note type="apparatus" n="11" target="#p92-10">τὸ δὲ Ca: ἡ δὲ SRP ἐνεργεία RP</note>
               <lb n="12" xml:id="p92-11"/>δέχεσθαι δὲ ἄλλο, καὶ ᾗ ποιωθεῖσα μᾶλλον ἐστι δυνάμει. ἡ γὰρ τοιαδὶ<note type="apparatus" n="12" target="#p92-11">post ἄλλο add. εἶδος CRP post ποιωθεῖσα add. δέχεται CRP</note>
@@ -3895,7 +3896,7 @@
               <lb n="10" xml:id="p95-9"/>γῇ πάντα ἀφθαρτότερα τῶν ἐνύδρων (καὶ γὰρ ἔνια καὶ φυτὰ καὶ πεζὰ<note type="apparatus" n="10" target="#p95-9">καὶ (post ἔνια) om. CRP</note>
               <lb n="11" xml:id="p95-10"/>ζῷα ἐπέτειά ἐστιν), οὔτε τὰ ἔνυδρα πάντα (ταῦτα γὰρ εἶπε τὰ ἐν τῇ<note type="apparatus" n="11" target="#p95-10">εἶπε τὰ a: εἶπεν ceteri</note>
               <lb n="12" xml:id="p95-11"/>θαλάττῃ) πάντων τῶν ἐν τῇ γῇ ἀφθαρτότερα· τὰ γὰρ ὀστρακηρὰ καὶ<note type="apparatus" n="12" target="#p95-11">ὀστρακηρὰ cum Arist.] ὀστρακόδερμα a</note><milestone type="alt-edition" unit="line" ed="Aldina 1527" n="50"/>
-              <lb n="13" xml:id="p95-12"/>τὰ μαλάκια βραχύβια. ταῦτα εἰπὼν ἐπάγει· ὅλως δὲ καὶ πρώτως τὰ μακρόβιώτερα<note type="apparatus" n="13-14" target="#p95-12 #p95-13">μακροβιώτατα CRP (Arist.)</note>
+              <lb n="13" xml:id="p95-12"/>τὰ μαλάκια βραχύβια. ταῦτα εἰπὼν ἐπάγει· ὅλως δὲ καὶ πρώτως τὰ μακροβιώτερα<note type="apparatus" n="13-14" target="#p95-12 #p95-13">μακροβιώτατα CRP (Arist.)</note>
               <lb n="14" xml:id="p95-13"/>ἐν τοῖς φυτοῖς ἐστιν (ὁ γὰρ φοῖνιξ τὸ φυτὸν μακροβιώτατον), δευτέρως<note type="apparatus" n="14" target="#p95-13">τοῖς φυτοῖς] τούτοις S</note>
               <lb n="15" xml:id="p95-14"/>δὲ ἐν τοῖς ἐναίμοις μᾶλλον ἢ ἐν τοῖς ἀναίμοις καὶ ἐν τοῖς πεζοῖς<note type="apparatus" n="15" target="#p95-14">alt. ἐν τοῖς om. a</note>
               <lb n="16" xml:id="p95-15"/>ἢ ἐν τοῖς ἐνύδροις. ὥστ’ ἐπεὶ μᾶλλον ἐν τοῖς ἐναίμοις καὶ ἐν τοῖς πεζοῖς<note type="apparatus" n="16" target="#p95-15">ἀναίμοις Ca</note>
@@ -4163,7 +4164,7 @@
               <lb n="17" xml:id="p101-16"/>τὸν λόγον.
             </quote>
             <p>
-              <lb n="18" xml:id="p101-17"/>Πρῶτον τὴν ἀπὸ τῆς αἰθήσεως ἐνάργειαν μαρτύρεται, ὅτι ἐν τῷ μέσῳ<note type="apparatus" n="18" target="#p101-17">πρώτην C</note>
+              <lb n="18" xml:id="p101-17"/>Πρῶτον τὴν ἀπὸ τῆς <choice><sic>αἰθήσεως</sic><corr>αἰσθήσεως</corr></choice> ἐνάργειαν μαρτύρεται, ὅτι ἐν τῷ μέσῳ<note type="apparatus" n="18" target="#p101-17">πρώτην C</note>
               <lb n="19" xml:id="p101-18"/>ἐστὶν ἡ θρεπτικὴ ψυχή, καὶ οὕτως ἐπάγει τὰς ἀπὸ τοῦ λόγου πίστεις. λέγει<note type="apparatus" n="19" target="#p101-18">ἀπὸ λόγου RP: κατὰ τὸν λόγον S</note><milestone type="alt-edition" unit="line" ed="Aldina 1527" n="45"/>
               <lb n="20" xml:id="p101-19"/>οὖν ὅτι πολλὰ τῶν ζῴων ὁρῶμεν ἀφαιρουμένων ἑκατέρων τῶν μορίων,<note type="apparatus" n="20" target="#p101-19">τῶν ζῴων πολλὰ RP</note>
               <lb n="21" xml:id="p101-20"/>τῆς τε κεφαλῆς καὶ τοῦ κάτω τῆς καρδίας (κάτωθεν γὰρ τῆς καρδίας ἡ
@@ -4470,7 +4471,7 @@
               <lb n="25" xml:id="p108-24"/>ἐπεὶ γὰρ ὁ θώραξ ἐστὶ τὸ τοῦ ζῴου ἀναγκαιότατον σῶμα καὶ οὗ ἄνευ οὐ
               <lb n="26" xml:id="p108-25"/>δύναται εἶναι, χωρὶς δὲ τῶν ἄλλων τοῦτο (πολλὰ γὰρ τῶν ζῴων οὔτε
               <lb n="27" xml:id="p108-26"/>κεφαλὴν ἔχει ὡς καρκίνοι, οὔτε πόδας ὡς τὰ ἄποδα, οὔτε χεῖρας), δηλονότι<note type="apparatus" n="27-28" target="#p108-26 #p108-27">δηλονότι τἄλλα τοῦ θώρακός εἰσι χάριν RP</note>
-              <lb n="28" xml:id="p108-27"/>χάριν τοῦ θώρακός εἰσι καὶ τὰ ἄλλα καὶ τῆς ἐν τούτῳ δυνάμεως προσπεφυκεν.<note type="apparatus" n="28-29" target="#p108-27 #p108-28">προσπεφύκασιν C</note>
+              <lb n="28" xml:id="p108-27"/>χάριν τοῦ θώρακός εἰσι καὶ τὰ ἄλλα καὶ τῆς ἐν τούτῳ δυνάμεως προσπέφυκεν.<note type="apparatus" n="28-29" target="#p108-27 #p108-28">προσπεφύκασιν C</note>
               <lb n="29" xml:id="p108-28"/>εἰ δὲ τοῦτο δῆλον, τὸ μὲν χρώμενόν ἐστι τὸ μέσον, οἷς δὲ χρῆται<note type="apparatus" n="29" target="#p108-28">δῆλον] δῆλον ὡς C: δῆλον ὅτι RP, tum τἄλλα—δῆλον ὅτι rep. P</note>
               <lb n="30" xml:id="p108-29"/>τὰ λοιπά. κρείττων δὲ ὁ τρόπος τοῦ χρωμένου, καθ’ ὅσον τὸ χρώμενον
               <lb n="31" xml:id="p108-30"/>ποιεῖ καὶ κινεῖ καὶ ἄρχει, τὰ δὲ πάσχουσι καὶ κινοῦνται καὶ ἄρχονται.<milestone type="alt-edition" unit="line" ed="Aldina 1527" n="25"/>
@@ -4618,7 +4619,7 @@
             </p>
             <pb n="112" facs="https://archive.org/download/p1commentariaina22akaduoft/page/n131.jpg"/>
             <p>
-              <lb n="1" xml:id="p112-0"/>ὁ γὰρ ἐν τῇ κοιλίᾳ ἀὴρ ἀκίνητος ὢν θερμαίνεται, τῆς δὲ τροφῆς εἰσιοὔσης<note type="apparatus" n="1" target="#p112-0">ἐν τῷ κοίλῳ C δὲ om. C</note>
+              <lb n="1" xml:id="p112-0"/>ὁ γὰρ ἐν τῇ κοιλίᾳ ἀὴρ ἀκίνητος ὢν θερμαίνεται, τῆς δὲ τροφῆς εἰσιούσης<note type="apparatus" n="1" target="#p112-0">ἐν τῷ κοίλῳ C δὲ om. C</note>
               <lb n="2" xml:id="p112-1"/>καταψύχει, τουτέστι καταψύχεται. ἐξαυαίνεται δὲ καὶ διὰ ψῦχος<note type="apparatus" n="2" target="#p112-1">καταψύχεται Arist. L</note><note type="apparatus" n="2-3" target="#p112-1 #p112-2">ψύχους καὶ διὰ καύματος δένδρα RP</note>
               <lb n="3" xml:id="p112-2"/>καὶ διὰ καῦμα τὰ δένδρα, διὰ μὲν τὸ ψύχος, ὅτι σβέννυται τὸ ἔμφυτον<note type="apparatus" n="3-4" target="#p112-2 #p112-3">ἡ ἔμφυτος θερμότης C</note>
               <lb n="4" xml:id="p112-3"/>θερμὸν τῇ ψύξει, διὰ δὲ τὸ καῦμα, ὅτι κατακαίεται ἡ τροφή, ἐξ ἧς τρέφεται.<note type="apparatus" n="4" target="#p112-3">τὸ om. a κατακάεται S</note><milestone type="alt-edition" unit="line" ed="Aldina 1527" n="25"/>
@@ -4703,7 +4704,7 @@
               <lb n="4" xml:id="p114-3"/>ὅταν γὰρ εἰσπνεύσωσιν, ᾗ εἰσέπνευσαν, δεῖ πάλιν ἐκπνεῦσαι· ἀνάγκη<note type="apparatus" n="4" target="#p114-3">ἢ CR (cf. Arist.): ἢ SPa εἰσπνευσαν a</note>
               <lb n="5" xml:id="p114-4"/>γὰρ τὸν εἰσπνεύσαντα καὶ ἐκπνεῦσαι παραλλάξ, τουτέστι παρὰ μέρος·<note type="apparatus" n="5" target="#p114-4">τουτέστι] ἤτοι RP</note>
               <lb n="6" xml:id="p114-5"/>εἴσπνευσις γάρ, εἶτα ἔκπνευσις, εἶτα πάλιν εἴσπνευσις καὶ πάλιν ἔκπνευσις.
-              <lb n="7" xml:id="p114-6"/>ταῦτα ἀναμνήσας ἐλέγχει τὸ δόγμα λέγων· ὥστε συμβαίνει ἅμα δέγεσθαι<note type="apparatus" n="7" target="#p114-6">συμβαίνειν Arist. MZ</note><milestone type="alt-edition" unit="line" ed="Aldina 1527" n="45"/>
+              <lb n="7" xml:id="p114-6"/>ταῦτα ἀναμνήσας ἐλέγχει τὸ δόγμα λέγων· ὥστε συμβαίνει ἅμα δέχεσθαι<note type="apparatus" n="7" target="#p114-6">συμβαίνειν Arist. MZ</note><milestone type="alt-edition" unit="line" ed="Aldina 1527" n="45"/>
               <lb n="8" xml:id="p114-7"/>τὸ ὕδωρ κατὰ τὸ στόμα καὶ ἐκπνεῖν. ἔστι δὲ τὸ λεγόμενον<note type="apparatus" n="8" target="#p114-7">τὸ (ante στόμα) om. RP (Arist. SZ)</note>
               <lb n="9" xml:id="p114-8"/>δυνάμει· ἐπειδή, ὡς ἐκεῖνοι λέγουσιν, ἐξερχομένου τοῦ ὕδατος ἐκ τοῦ στόματος<note type="apparatus" n="9" target="#p114-8">ἐκ] ἀπὸ CRP</note>
               <lb n="10" xml:id="p114-9"/>εἰσέρχεται ὁ ἀὴρ καὶ γίνεται ἡ εἰσπνοή, δηλονότι εἰσερχομένου τοῦ<note type="apparatus" n="10" target="#p114-9">ἀναπνοή P</note>
@@ -4875,7 +4876,7 @@
               <lb n="3" xml:id="p118-2"/>ξυνέπεται τῷ πνεύματι, καὶ τοῦτο ἅμα πᾶν οἷον τροχοῦ περιαγομένου γίνεται<note type="apparatus" n="3" target="#p118-2">συνέπεται SR: συνάπτεται P ἅμα om. a τροχῶ C περιαγόμενον RP</note>
               <lb n="4" xml:id="p118-3"/>διὰ τὸ κενὸν μηδὲν εἶναι. διὸ δὴ τὸ τῶν στηθῶν καὶ τοῦ πνεύμονος<note type="apparatus" n="4" target="#p118-3">δὴ] δεῖ C πλεύμονος Plato, sed cf. Rawack, De Platonis Timaeo Quaest. p. 75</note>
               <lb n="5" xml:id="p118-4"/>ἔξω μεθιὲν τὸ πνεῦμα πάλιν ὑπὸ τοῦ περὶ τὸ σῶμα ἀέρος, εἴσω διὰ μανῶν
-              <lb n="6" xml:id="p118-5"/>τῶν σαρκῶν δυομένου καὶ περιελαυνομένου, γίνεται πλῆρες. αὖθις δὲ ἀπότρεπόμενος<milestone type="alt-edition" unit="line" ed="Aldina 1527" n="25"/>
+              <lb n="6" xml:id="p118-5"/>τῶν σαρκῶν δυομένου καὶ περιελαυνομένου, γίνεται πλῆρες. αὖθις δὲ ἀποτρεπόμενος<milestone type="alt-edition" unit="line" ed="Aldina 1527" n="25"/>
               <lb n="7" xml:id="p118-6"/>ὁ ἀὴρ καὶ διὰ τοῦ στόματος ἐξιὼν εἴσω τὴν ἀναπνοὴν περιωθεῖ<note type="apparatus" n="7" target="#p118-6">σώματος e Platone coniecio ἔξω ἰὼν Plato</note>
               <lb n="8" xml:id="p118-7"/>κατὰ τὴν τοῦ στόματος καὶ τῶν μυκτήρων δίοδον. τὴν δ’ αἰτίαν τῆς<note type="apparatus" n="8" target="#p118-7">τὴν ante τῶν add. Plato</note>
               <lb n="9" xml:id="p118-8"/>ἀρχῆς αὐτῶν θετέον τήνδε· πᾶν ζῷον ἑαυτοῦ τὰ ἐντὸς περὶ τὸ αἷμα καὶ<note type="apparatus" n="9" target="#p118-8">ἑαυτοῦ παντὸς RP (nonnulli Platonis codd.) σῶμα a</note>
@@ -5000,7 +5001,7 @@
               <lb n="10" xml:id="p121-9"/>πρότερον γὰρ γίνεται ἡ ὑπερβολὴ τοῦ θερμοῦ, δι’ ὃ γίνεται ἡ εἰσπνοή.
               <lb n="11" xml:id="p121-10"/>καὶ ἐπεὶ διὰ τὴν κατάψυξιν τοῦ ἐν ἡμῖν θερμοῦ, ἥτις κατάψυξις αἰτία ἐστὶ<note type="apparatus" n="11" target="#p121-10">post ἐπεὶ add. δὴ C</note><milestone type="alt-edition" unit="line" ed="Aldina 1527" n="5"/>
               <lb n="12" xml:id="p121-11"/>τῆς ἐκπνοῆς, γίνεται ἡ εἰσπνοή, διὰ τὴν ἐκπνοὴν γίνεται ἡ εἰσπνοή· προτέρα<note type="apparatus" n="12" target="#p121-11">γίνεται—ἐκπνοῆς (14) om. RP διὰ—εἰσπνοή SC: om. a</note>
-              <lb n="13" xml:id="p121-12"/>ἄρα ἡ ἐκπνοὴ ὡς αἰτία τῆς εἰσπνοῆς ὡς αἰτιατοῦ. ὅτι δ’ ἡ καταψυξις<note type="apparatus" n="13" target="#p121-12">ὡς αἰτιατοῦ om. C</note>
+              <lb n="13" xml:id="p121-12"/>ἄρα ἡ ἐκπνοὴ ὡς αἰτία τῆς εἰσπνοῆς ὡς αἰτιατοῦ. ὅτι δ’ ἡ κατάψυξις<note type="apparatus" n="13" target="#p121-12">ὡς αἰτιατοῦ om. C</note>
               <lb n="14" xml:id="p121-13"/>αἰτία ἐστὶ τῆς ἐκπνοῆς, αὐτὸς ἐρεῖ πρὸς τῷ τέλει τοῦ βιβλίου. εἰσελθὼν<note type="apparatus" n="14" target="#p121-13">ante αὐτὸς add. ὡς P cf. p. 480 a 30</note>
               <lb n="15" xml:id="p121-14"/>γὰρ ὁ ἐκτὸς ἀὴρ ψυχρὸς ὢν καὶ προσπεσὼν τῷ ἐν τῷ πνεύμονι
               <lb n="16" xml:id="p121-15"/>θερμῷ τῷ αἴροντι τὸν πνεύμονα συστέλλεται· οὗ συστελλομένου συστέλλεται<note type="apparatus" n="16" target="#p121-15">συστέλλει αὐτό. οὗ C ὃ συστελλόμενον RP</note>
@@ -5095,7 +5096,7 @@
               <lb n="10" xml:id="p123-9"/>τραχείας ἀρτηρίας γινομένην. ἡ γὰρ διὰ τῶν μυκτήρων οὐ κυρία· γίνεται
               <lb n="11" xml:id="p123-10"/>γὰρ καὶ διὰ τοῦ στόματος. ὅτι δὲ διὰ τῆς ἀρτηρίας ἐκ τῶν στηθῶν γίνεται<note type="apparatus" n="11" target="#p123-10">καὶ om. C</note>
               <lb n="12" xml:id="p123-11"/>ἡ ἀναπνοή, οὐκ ἄδηλον· ὁ γὰρ πνεύμων, δι’ οὗ ἡ ἀναπνοὴ γίνεται,
-              <lb n="13" xml:id="p123-12"/>ἐν τῷ στήθει ἐστίν. ὥστε ἀντὶ τοῦ εἰπεῖν ‘διὰ τῆς ἀρτηρίας ἐκ τοῦ πνεύμόνος’
+              <lb n="13" xml:id="p123-12"/>ἐν τῷ στήθει ἐστίν. ὥστε ἀντὶ τοῦ εἰπεῖν ‘διὰ τῆς ἀρτηρίας ἐκ τοῦ πνεύμονος’
               <lb n="14" xml:id="p123-13"/>εἶπε διὰ τῆς ἀρτηρίας ἐκ τῶν στηθῶν. γίνεται οὖν ἐκ τῶν<note type="apparatus" n="14" target="#p123-13">ἐκ] ἡ R, e corr. P, ἡ διὰ Arist.</note><milestone type="alt-edition" unit="line" ed="Aldina 1527" n="10"/>
               <lb n="15" xml:id="p123-14"/>μυκτήρων ἐκ τῶν στηθῶν διὰ τῆς ἀρτηρίας ἀναπνοή. ὥστε αὕτη ἐστὶν<note type="apparatus" n="15" target="#p123-14">post μυκτήρων add. καὶ C</note>
               <lb n="16" xml:id="p123-15"/>ἡ κυρία ἀναπνοή. καὶ ἐπεὶ πάντα τὰ ζῷα δέχεται τὸ πνεῦμα πρὸς σωτηρίαν<note type="apparatus" n="16" target="#p123-15">δέχεται τὰ ζῷα C</note>
@@ -5172,7 +5173,7 @@
               <lb n="7" xml:id="p125-6"/>στενὰ στόματα τέτρηνται καὶ ἐπίκεινται διαμπερὲς τὰ ἔσχατα τῶν ῥινῶν<note type="apparatus" n="7" target="#p125-6">σώματα SC</note>
               <lb n="8" xml:id="p125-7"/>τέρθρα. τὰ γὰρ τῶν ῥινῶν ἔσχατα ἐν τοῖς τῶν φλεβίων ἔλεγε κεῖσθαι<note type="apparatus" n="8" target="#p125-7">τέρθρα Sa</note>
               <lb n="9" xml:id="p125-8"/>στόμασιν. ἃ δὴ στόματα τῶν φλεβῶν τὸ μὲν αἷμα κεύθουσι καὶ κωλύουσιν
-              <lb n="10" xml:id="p125-9"/>ἐξέρχεσθαι διὰ τὴν στενότητα, αἰθέρι δ’ εὐπορίαν διόδοισι τετμησθαι,<note type="apparatus" n="10" target="#p125-9">αἰθέρι] ἀέρι SC</note><milestone type="alt-edition" unit="line" ed="Aldina 1527" n="5"/>
+              <lb n="10" xml:id="p125-9"/>ἐξέρχεσθαι διὰ τὴν στενότητα, αἰθέρι δ’ εὐπορίαν διόδοισι τετμῆσθαι,<note type="apparatus" n="10" target="#p125-9">αἰθέρι] ἀέρι SC</note><milestone type="alt-edition" unit="line" ed="Aldina 1527" n="5"/>
               <lb n="11" xml:id="p125-10"/>τουτέστι τῷ δ’ αἰθέρι διδόασι δίοδον. εἰσὶν οὖν τοιαῦτα, ὥστε τὸ
               <lb n="12" xml:id="p125-11"/>μὲν αἷμα κωλύειν ἐξέρχεσθαι, τὸν δ’ αἰθέρα μὴ κωλύειν εἰσιέναι. τὸ οὖν<note type="apparatus" n="12" target="#p125-11">κωλύει S: κωλύουσιν RP</note><milestone type="alt-edition" unit="line" ed="Aldina 1527" n="35"/>
               <lb n="13" xml:id="p125-12"/>τετμῆσθαι ἀντὶ τοῦ διδόναι. ἔνθεν ἔπειτα ὁπόταν μὲν ὁρμήσῃ τὸ<note type="apparatus" n="13" target="#p125-12">ὁπότε RP: ὅταν C ὁρμήσει RP ἀπαΐξῃ legit</note>
@@ -5229,7 +5230,7 @@
               <lb n="28" xml:id="p126-27"/>εἰσπνοή, αἴρει δὲ αὐτὸ τὸ θερμόν, τὸ δὲ θερμὸν ἐν τῷ αἵματι, τὸ μετὰ<note type="apparatus" n="28" target="#p126-27">αὐτὸ a: αὐτὸν ceteri</note>
               <lb n="29" xml:id="p126-28"/>τοῦτο δῆλον, ὅτι τῇ τοῦ αἵματος ἐκτάσει γίνεται ἡ εἰσπνοή, ἀλλ’ οὐ τῇ
               <lb n="30" xml:id="p126-29"/>συστολῇ· ὁμοίως καὶ ἡ ἐκπνοὴ τῇ συστολῇ καὶ οὐ τῇ ἐκτάσει, ὡς Ἐμπεδοκλῆς<note type="apparatus" n="30" target="#p126-29">prius καὶ a: om. ceteri</note>
-              <lb n="31" xml:id="p126-30"/>οἴεται. καὶ γὰρ καὶ αἱ ἐν ταῖς χαλκείοις φῦσαι τῇ μὲν ἐκτάσει
+              <lb n="31" xml:id="p126-30"/>οἴεται. καὶ γὰρ καὶ αἱ ἐν <choice><sic>ταῖς</sic><corr>τοῖς</corr></choice> χαλκείοις φῦσαι τῇ μὲν ἐκτάσει
               <lb n="32" xml:id="p126-31"/>δέχονται τὸ πνεῦμα, τῇ δὲ συστολῇ καὶ συνιζήσει ἐκπέμπουσι, τοῦτο μόνον<note type="apparatus" n="32" target="#p126-31">τῇ συστολῇ δὲ CRP καὶ om. R</note>
               <lb n="33" xml:id="p126-32"/>διαφέροντα, ὅτι ἐπὶ μὲν τῶν φυσῶν ἀπὸ τῶν ὀπῶν τῶν ἐν ταῖς σανίσιν<note type="apparatus" n="33" target="#p126-32">διαφέροντες C</note>
             </p>
@@ -5307,7 +5308,7 @@
             </quote>
             <p>
               <lb n="16" xml:id="p128-15"/>Ἔστι δὲ τὸ μὲν συνεχὲς τοιοῦτον· τυγχάνει γὰρ ἐπ’ ἀμφότερα ὄντα<milestone type="alt-edition" unit="line" ed="Aldina 1527" n="25"/>
-              <lb n="17" xml:id="p128-16"/>μικρᾶς ῥοπῆς, τὸ δὲ λεγόμενόν ἐστι· τυγχάνει τὰ τοιαῦτα τῶν ζῴων ὑπάργοντα<note type="apparatus" n="17" target="#p128-16">ἔστι δὲ τὸ λεγόμενον S: ἤγουν C</note>
+              <lb n="17" xml:id="p128-16"/>μικρᾶς ῥοπῆς, τὸ δὲ λεγόμενόν ἐστι· τυγχάνει τὰ τοιαῦτα τῶν ζῴων ὑπάρχοντα<note type="apparatus" n="17" target="#p128-16">ἔστι δὲ τὸ λεγόμενον S: ἤγουν C</note>
               <lb n="18" xml:id="p128-17"/>μικρᾶς ῥοπῆς, τῆς οὔσης καὶ ῥεπούσης ἐπ’ ἀμφότερα, τό τε φθείρεσθαι<note type="apparatus" n="18" target="#p128-17">ῥεούσης C</note>
               <lb n="19" xml:id="p128-18"/>ῥᾳδίως καὶ τὸ καταψύχεσθαι· τὸ δὲ καταψύχεσθαι ταὐτόν ἐστι τῷ
               <lb n="20" xml:id="p128-19"/>σῴζεσθαι ῥᾳδίως. οὕτως δ’ ἐπῆκται τὸ παρόν, ὥσπερ ὅταν λέγωμεν· τάδε<note type="apparatus" n="20" target="#p128-19">οὕτως] τοῦτο C</note>
@@ -5446,8 +5447,8 @@
               <lb n="29" xml:id="p131-28"/>αὐτόν, πότερον διὰ τοῦ στόματος εἰσέρχεται τὸ ὕδωρ καὶ καταψύχει
               <lb n="30" xml:id="p131-29"/>ἢ ἐκτὸς ὂν τῇ ἁφῇ τὴν κατάψυξιν ποιεῖ. εἰ μὲν οὖν εἰσιόν, πῶς<note type="apparatus" n="30" target="#p131-29">ὃν] ὢν S οὖν C: om. Sa</note>
               <lb n="31" xml:id="p131-30"/>οὐ πνίγεται; εἰ δ’ οὐκ εἰσιόν, ἀλλ’ ἐκτὸς καὶ ἁπτόμενον, πάλιν οὐκ ἀναπνεῖ.
-              <lb n="32" xml:id="p131-31"/>φθείρονται δὲ ὑπὸ τῶν λίαν [ὑγρῶν] θερμῶν ἢ ψυχρῶν διὰ τὸ μαραίνε<note type="apparatus" n="32" target="#p131-31">ὑγρῶν delevi, v. Arist. post ψυχρῶν add. ὄντων C 9*</note>
-              <lb n="33" xml:id="p131-32"/>σθαι τὸ ἔμφυτον θερμὸν τῇ ὑπερβολῇ τῆς θερμότητος ἢ σβέννυσθαι τῇ
+              <lb n="32" xml:id="p131-31"/>φθείρονται δὲ ὑπὸ τῶν λίαν [ὑγρῶν] θερμῶν ἢ ψυχρῶν διὰ τὸ μαραίνεσθαι<note type="apparatus" n="32" target="#p131-31">ὑγρῶν delevi, v. Arist. post ψυχρῶν add. ὄντων C 9*</note>
+              <lb n="33" xml:id="p131-32"/>τὸ ἔμφυτον θερμὸν τῇ ὑπερβολῇ τῆς θερμότητος ἢ σβέννυσθαι τῇ
             </p>
             <pb n="132" facs="https://archive.org/download/p1commentariaina22akaduoft/page/n151.jpg"/>
             <p>
@@ -5473,7 +5474,7 @@
               <lb n="20" xml:id="p132-19"/>Τὸ δὲ οὐ μὴν εἰς τέλος γε διαρκεῖ πρὸς τὸ ζῆν διὰ τὸ ὀλιγόθερμα<note type="apparatus" n="20" target="#p132-19">τὸ δὲ et (21) τοιοῦτόν ἐστι om., lemma posuit a ζῆν διὰ τὸ om. Arist. MZ</note><milestone type="alt-edition" unit="line" ed="Aldina 1527" n="38"/>
               <lb n="21" xml:id="p132-20"/>εἶναι τοιοῦτόν ἐστι· <milestone type="alt-edition" unit="folio" ed="Aldina 1527" n="170v"/> πρὸς μὲν τὸ ζῆν ἄχρι τινὸς ἐν τῷ
               <lb n="22" xml:id="p132-21"/>ἀέρι ἱκανή ἐστιν ἡ ὀλιγοθερμία αὐτῶν (χορηγεῖ γὰρ αὐτοῖς δύναμίν τινα),<note type="apparatus" n="22" target="#p132-21">ἡ om. S</note><milestone type="alt-edition" unit="line" ed="Aldina 1527" n="21"/>
-              <lb n="23" xml:id="p132-22"/>διὰ τέλους δ’ οὐχ ἱκανή. ἀλλὰ καὶ τὸ εὑρίσκονται ὀρυττόμενοι τοιοὗτον<note type="apparatus" n="23" target="#p132-22">ὀρυττόμενα C</note>
+              <lb n="23" xml:id="p132-22"/>διὰ τέλους δ’ οὐχ ἱκανή. ἀλλὰ καὶ τὸ εὑρίσκονται ὀρυττόμενοι τοιοῦτον<note type="apparatus" n="23" target="#p132-22">ὀρυττόμενα C</note>
               <lb n="24" xml:id="p132-23"/>ἄν, οἶμαι, εἴη· ἄν τις ἐν τῇ γῇ καταχώσειεν ἰχθῦς ζῶντας, εἶτα
               <lb n="25" xml:id="p132-24"/>διορύξειεν, εὕροι ἂν αὐτοὺς ζῶντας.<note type="apparatus" n="25" target="#p132-24">ὀρύξειεν SC</note>
               <lb n="26" xml:id="p132-25"/>Τὰ δ’ ἑξῆς δῆλα. ζῳοτοκοῦσι δὲ ἐν ἑαυτοῖς ἄνθρωποι, ἵπποι, θύραθεν<note type="apparatus" n="26" target="#p132-25">αὐτοῖς C ἵπποι om. S φ</note>
@@ -5483,7 +5484,7 @@
               <lb n="30" xml:id="p132-29"/>ἐν ἑαυτοῖς, ἔναιμον ἔχει τὸν πνεύμονα, τὰ δὲ ᾠοτοκοῦντα σομφόν· δι’
               <lb n="31" xml:id="p132-30"/>ἣν σομφότητα καὶ χρῆται τῇ ἀναπνοῇ μανότερον, τουτέστι βραδύτερον<note type="apparatus" n="31" target="#p132-30">μανώτερον a: μανώδει C</note>
               <lb n="32" xml:id="p132-31"/>καὶ ὡς εἰπεῖν χαυνότερον, ἀλλ’ οὐ σφοδρότερον ὥσπερ τὰ ἄλλα. χρῶνται
-              <lb n="33" xml:id="p132-32"/>δέ, φησί, τῇ ἀναπνοῇ καὶ αἱ χελῶναι καὶ αἱ ὕδραι, ὑπερέχοντα, τουτἐστιν<note type="apparatus" n="33" target="#p132-32">καὶ (post ἀναπνοῇ) om. C ὑπερανέχοντα C</note>
+              <lb n="33" xml:id="p132-32"/>δέ, φησί, τῇ ἀναπνοῇ καὶ αἱ χελῶναι καὶ αἱ ὕδραι, ὑπερέχοντα, τουτέστιν<note type="apparatus" n="33" target="#p132-32">καὶ (post ἀναπνοῇ) om. C ὑπερανέχοντα C</note>
             </p>
             <pb n="133" facs="https://archive.org/download/p1commentariaina22akaduoft/page/n152.jpg"/>
             <p>
@@ -5629,7 +5630,7 @@
               <lb n="4" xml:id="p136-3"/>θερμότερα’ προσυπακούειν δεῖ τοῦ ‘καὶ καθαρώτερα’, ἵν’ ᾖ ἀντιστρέφων ὁ<note type="apparatus" n="4" target="#p136-3">θερμότερον C προσυπακουστέον τὸ καὶ καθαρώτερον C καὶ] ἢ S καθαρωτέρου S</note>
               <lb n="5" xml:id="p136-4"/>λόγος οὕτως· ὅσῳ τιμιώτερα, τοσούτῳ θερμότερον καὶ καθαρώτερον ἔχουσι<note type="apparatus" n="5" target="#p136-4">τιμιώτερα a</note>
               <lb n="6" xml:id="p136-5"/>τὸ αἷμα, καὶ ὅσῳ θερμότερον καὶ καθαρώτερον ἔχουσι τὸ αἷμα, τοσούτῳ<note type="apparatus" n="6" target="#p136-5">καὶ ὅσῳ—αἷμα om. C</note>
-              <lb n="7" xml:id="p136-6"/>εἰσὶ τιμιώτερα. ὅτι δὲ οὐ τὸ θερμὸν ἁπλῶς ἐστιν αἴτιον τοῦ εἶναι φρονικώτερα<note type="apparatus" n="7" target="#p136-6">ὅτι—τιμιώτερα (8) om. C</note><note type="apparatus" n="7-8" target="#p136-6 #p136-7">φρονιμώτερον καὶ τιμιώτερον S</note><milestone type="alt-edition" unit="line" ed="Aldina 1527" n="25"/>
+              <lb n="7" xml:id="p136-6"/>εἰσὶ τιμιώτερα. ὅτι δὲ οὐ τὸ θερμὸν ἁπλῶς ἐστιν αἴτιον τοῦ εἶναι φρονιμώτερα<note type="apparatus" n="7" target="#p136-6">ὅτι—τιμιώτερα (8) om. C</note><note type="apparatus" n="7-8" target="#p136-6 #p136-7">φρονιμώτερον καὶ τιμιώτερον S</note><milestone type="alt-edition" unit="line" ed="Aldina 1527" n="25"/>
               <lb n="8" xml:id="p136-7"/>καὶ τιμιώτερα, ἄκουσον τί φησιν ἐν τῇ Περὶ ζῴων μορίων πραγματείᾳ·<note type="apparatus" n="8" target="#p136-7">post ἄκουσον add. δὲ C Περὶ ζῴων μορίων] B 4 p. 651 a 12</note>
               <lb n="9" xml:id="p136-8"/>“πολλῶν δ’ ἐστὶν αἰτία ἡ τοῦ αἵματος φύσις καὶ κατὰ τὸ ἦθος<note type="apparatus" n="9" target="#p136-8">δ’ ἐστὶν αἰτία C (Arist.): δ’ αἰτία ἐστὶν Sa</note>
               <lb n="10" xml:id="p136-9"/>τοῦ ζῴου καὶ κατὰ τὴν αἴσθησιν εὐλόγως· ὕλη γάρ ἐστι παντὸς τοῦ σώματος·<note type="apparatus" n="10" target="#p136-9">τοῖς ζῴοις Arist. κατὰ C Arist.: om. Sa αἵματος SC</note>
@@ -5736,20 +5737,20 @@
               <lb n="29" xml:id="p138-28"/>ἐστιν, οὐ ζητητέον. τοῦτο γάρ ἐστιν ἡ φύσις αὐτοῦ, καὶ ἐν τούτῳ οὐσίωται,<note type="apparatus" n="29" target="#p138-28">ἔστιν om. SC</note><milestone type="alt-edition" unit="line" ed="Aldina 1527" n="50"/>
               <lb n="30" xml:id="p138-29"/>ἐν τῷ ἔχειν ὑπερβολὴν ἑνὸς τῶν τριῶν στοιχείων, ὥστε φθαρήσεται ὑπὸ<note type="apparatus" n="30" target="#p138-29">τριῶν om. C</note>
               <lb n="31" xml:id="p138-30"/>τοῦ ἐναντίου. οὐ δεῖ οὖν ζητεῖν τὸν ἐναντίον τόπον, ἀλλὰ μενετέον ἐν τῷ
-              <lb n="32" xml:id="p138-31"/>τῆς ὕλης τόπῳ, ἀφ’ ἧς τὴν ὑπερβολὴν ἔχει. σῴζει γὰρ ἕκαστον τῶν στοιγείων<note type="apparatus" n="32" target="#p138-31">ἧς] οὗ S</note>
+              <lb n="32" xml:id="p138-31"/>τῆς ὕλης τόπῳ, ἀφ’ ἧς τὴν ὑπερβολὴν ἔχει. σῴζει γὰρ ἕκαστον τῶν στοιχείων<note type="apparatus" n="32" target="#p138-31">ἧς] οὗ S</note>
               <lb n="33" xml:id="p138-32"/>ὁ οἰκεῖος τόπος· ἕκαστον γὰρ τούτων μᾶλλον εἰδοποιεῖται καὶ 〈τὸ〉<note type="apparatus" n="33" target="#p138-32">τούτω a τὸ addidi</note>
             </p>
             <pb n="139" facs="https://archive.org/download/p1commentariaina22akaduoft/page/n158.jpg"/>
             <p>
               <lb n="1" xml:id="p139-0"/>τόδε τι εἶναι ἀπολαμβάνει, ὅταν εἰς τὸν οἰκεῖον τόπον γένηται. περὶ οὗ
-              <lb n="2" xml:id="p139-1"/>πολλάκις εἴρηται ἔν τε τῷ θῆτα τῆς Φυτικῆς ἀκροάσεως καὶ ἐν ἄλλοις<note type="apparatus" n="2" target="#p139-1">τε om. C Φυσικῆς ἀκροάσεως] θ</note><milestone type="alt-edition" unit="folio" ed="Aldina 1527" n="172v"/>
+              <lb n="2" xml:id="p139-1"/>πολλάκις εἴρηται ἔν τε τῷ θῆτα τῆς <choice><sic>Φυτικῆς</sic><corr>Φυσικῆς</corr></choice> ἀκροάσεως καὶ ἐν ἄλλοις<note type="apparatus" n="2" target="#p139-1">τε om. C Φυσικῆς ἀκροάσεως] θ</note><milestone type="alt-edition" unit="folio" ed="Aldina 1527" n="172v"/>
               <lb n="3" xml:id="p139-2"/>πλείοσιν. ἀλλ’ εἰ μὲν ταὐτὸν ἦσαν ἥ τε ὕλη καὶ ἡ ἐκ ταύτης ἀποτελουμένη<note type="apparatus" n="3" target="#p139-2">p. 253 b 33</note>
               <lb n="4" xml:id="p139-3"/>ἕξις καὶ διάθεσις, εἶχεν ἂν ἡ Ἐμπεδόκλειος δόξα τὸ εὔλογον· οὐκ
               <lb n="5" xml:id="p139-4"/>εἰσὶ δὲ ταὐτόν. αὐτὸς δὲ καὶ λίαν σαφῶς διὰ χαριεστάτων καὶ γλαφυρωτάτων
               <lb n="6" xml:id="p139-5"/>ὑποδειγμάτων τὸν λόγον ἐλέγχει· ὁ γὰρ κηρὸς ὑγρὸς ὢν καὶ ψυχρὸς
               <lb n="7" xml:id="p139-6"/>(τῷ γὰρ ψυχρῷ ἐπάγη), εἴπερ ἦν ὕλη ζῴου, οὐκ ἂν ἡ φύσις τὸ ἐκ κηροῦ<note type="apparatus" n="7" target="#p139-6">ψυχρῷ] θερμῷ C</note>
               <lb n="8" xml:id="p139-7"/>ζῷον ἐν θερμῷ θεῖσα διέσωσεν· ἐφθάρη γὰρ ἂν τὸ μὲν ὑγρὸν τῇ τοῦ<milestone type="alt-edition" unit="line" ed="Aldina 1527" n="5"/>
-              <lb n="9" xml:id="p139-8"/>πυρὸς ξηρότητι, τὸ δὲ ψυχρὸν τῇ θερμότητι; ὅτι δὲ ὑλικὰ μὲν καὶ παθητικὰ<note type="apparatus" n="9-10" target="#p139-8 #p139-9">ὑλικὸν καὶ παθητικὸν C</note>
+              <lb n="9" xml:id="p139-8"/>πυρὸς ξηρότητι, τὸ δὲ ψυχρὸν τῇ <choice><sic>θερμότητι;</sic><corr>θερμότητι.</corr></choice> ὅτι δὲ ὑλικὰ μὲν καὶ παθητικὰ<note type="apparatus" n="9-10" target="#p139-8 #p139-9">ὑλικὸν καὶ παθητικὸν C</note>
               <lb n="10" xml:id="p139-9"/>τὸ ὑγρὸν καὶ ξηρόν, εἰδικὰ δὲ καὶ ποιητικὰ τὸ θερμὸν καὶ ψυχρόν,<note type="apparatus" n="10" target="#p139-9">θερμὸν] ὑγρὸν C ψυχρόν] θερμὸν C</note>
               <lb n="11" xml:id="p139-10"/>καὶ μᾶλλον τὸ θερμόν, εἴρηται ἐν τῇ Περὶ γενέσεως καὶ φθορᾶς.<note type="apparatus" n="11" target="#p139-10">Περὶ γενέσεως καὶ φθορᾶς] B 2 p. 329 b 24</note>
             </p>
@@ -6101,8 +6102,8 @@
             <p>
               <lb n="1" xml:id="p147-0"/>καὶ τὸ πῦρ, ἕως ἂν ἔχῃ ὕλην, τὸ οὖν ἐν τῇ καρδίᾳ θερμὸν ἀεὶ τρεφόμενον<note type="apparatus" n="1" target="#p147-0">ἕως ἔχει C τὸ—θερμὸν om. C</note>
               <lb n="2" xml:id="p147-1"/>ὑπὸ τῆς προσιούσης ἀεὶ ἐν τῇ καρδίᾳ ἀτμίδος, ἐξ ἧς καὶ τὴν σφύξιν<note type="apparatus" n="2" target="#p147-1">ἀεὶ προσιούσης C</note><milestone type="alt-edition" unit="line" ed="Aldina 1527" n="31"/>
-              <lb n="3" xml:id="p147-2"/>ἐλέγομον γίνεσθαι, ἐξ ἧς καὶ τὸ αἷμα, ἀεὶ οὖν τρεφόμενον ἀεὶ αὔξεται.
-              <lb n="4" xml:id="p147-3"/>ἀεὶ δὲ αὐξόμενον, ἀεὶ αὔξεται καὶ τὸ τοῦ πνεύμονος θερμὸν διὰ τὴν συνέγειαν<note type="apparatus" n="4" target="#p147-3">αὐξανόμενον ἀεὶ αὔξει C</note>
+              <lb n="3" xml:id="p147-2"/><choice><sic>ἐλέγομον</sic><corr>ἐλέγομεν</corr></choice> γίνεσθαι, ἐξ ἧς καὶ τὸ αἷμα, ἀεὶ οὖν τρεφόμενον ἀεὶ αὔξεται.
+              <lb n="4" xml:id="p147-3"/>ἀεὶ δὲ αὐξόμενον, ἀεὶ αὔξεται καὶ τὸ τοῦ πνεύμονος θερμὸν διὰ τὴν συνέχειαν<note type="apparatus" n="4" target="#p147-3">αὐξανόμενον ἀεὶ αὔξει C</note>
               <lb n="5" xml:id="p147-4"/>(συνεχὲς γὰρ τὸ τῆς καρδίας θερμὸν τῷ τοῦ πνεύμονος θερμῷ·
               <lb n="6" xml:id="p147-5"/>συντέτρηνται γὰρ ἐκ τῆς καρδίας πόροι φλεβονευρώδεις πρὸς τὸν πνεύμονα,<note type="apparatus" n="6" target="#p147-5">πρὸς τὸν πνεύμονα πόροι φλεβώδεις C</note>
               <lb n="7" xml:id="p147-6"/>δι’ ὧν συνεχίζεται τὸ ἀπὸ τῆς καρδίας πνεῦμα πρὸς τὸ τοῦ πνεύμονος),<milestone type="alt-edition" unit="line" ed="Aldina 1527" n="35"/>
@@ -6127,7 +6128,7 @@
               <lb n="26" xml:id="p147-25"/>τινα τήν τε συνέχειαν καὶ ταχυτῆτα αὐτῶν ἀπαγγεῖλαι, φαίνεται ὅτι ἅμα<note type="apparatus" n="26" target="#p147-25">τε om. C</note>
               <lb n="27" xml:id="p147-26"/>πάντα γίνεται. ἀλλὰ τοῦτο μὲν εἰρήσθω μεταξύ, ἐξελθόντος δὲ τοῦ ἀέρος
               <lb n="28" xml:id="p147-27"/>ἐν τῇ ἐκπνεύσει, πάλιν ἀναγκαῖον ἅμα τῇ ἐκπνεύσει αἴρεσθαι τὸ θερμὸν<milestone type="alt-edition" unit="line" ed="Aldina 1527" n="50"/>
-              <lb n="29" xml:id="p147-28"/>καὶ διὰ τοῦτο τὸν πνεύμονα, καὶ γίνεσθαι εἴσπνευσιν, καὶ οὕτως ἀεὶ συνεγως.
+              <lb n="29" xml:id="p147-28"/>καὶ διὰ τοῦτο τὸν πνεύμονα, καὶ γίνεσθαι εἴσπνευσιν, καὶ οὕτως ἀεὶ συνεχῶς.
               <lb n="30" xml:id="p147-29"/>ἡ μὲν οὖν διάνοια τῶν λεγομένων τοιαύτη ἂν εἴη, τὰ δὲ κατὰ τὴν
               <lb n="31" xml:id="p147-30"/>λέξιν· ὥσπερ γάρ, φησί, τὰ ἄλλα πάντα μόρια δεῖται τροφῆς, οὕτω καὶ τὸ
               <lb n="32" xml:id="p147-31"/>ἔμφυτον θερμόν, ὅπερ θερμὸν πλέον γινόμενον αἴρει τὸν πνεύμονα· τοῦτον<note type="apparatus" n="32" target="#p147-31">ὁ καὶ πλέον C 10*</note>
@@ -6177,7 +6178,7 @@
             <pb n="149" facs="https://archive.org/download/p1commentariaina22akaduoft/page/n168.jpg"/>
             <p>
               <lb n="1" xml:id="p149-0"/>ἐστιν ἡ φυσικὴ τῇ ἰατρικῇ, τούτου μὲν πέπαυται τοῦ βιβλίου· τὰ δ’ ἑξῆς<note type="apparatus" n="1" target="#p149-0">τὰ δ’ ἑξῆς] ἐφεξῆς P</note>
-              <lb n="2" xml:id="p149-1"/>ἔδει μὲν ἔχειν τὸν περὶ γάλακτος λόγον· πάλαι γὰρ ἐσύστερον ἐρεῖν ὑπερεθετο.<note type="apparatus" n="2" target="#p149-1">ἔχειν τὸν] εἰπεῖν P λόγον om. P</note>
+              <lb n="2" xml:id="p149-1"/>ἔδει μὲν ἔχειν τὸν περὶ γάλακτος λόγον· πάλαι γὰρ ἐσύστερον ἐρεῖν ὑπερέθετο.<note type="apparatus" n="2" target="#p149-1">ἔχειν τὸν] εἰπεῖν P λόγον om. P</note>
               <lb n="3" xml:id="p149-2"/>ἐν ᾧ καὶ περὶ πέψεως καὶ ἀπεψίας εἰπεῖν ἁρμόττει. τούτοις δ’<note type="apparatus" n="3" target="#p149-2">ἥρμοττε P</note>
               <lb n="4" xml:id="p149-3"/>οἰκεῖος καὶ ὁ περὶ ὑγείας καὶ νόσου. τῆς γὰρ τροφῆς κρατουμένης μὲν<note type="apparatus" n="4" target="#p149-3">post νόσου add. λόγος P</note><milestone type="alt-edition" unit="line" ed="Aldina 1527" n="35"/>
               <lb n="5" xml:id="p149-4"/>εἰκὸς ὑγείαν, ἀπέπτου δὲ γενομένης τὰς νόσους γεννᾶσθαι. ταῦτα δὲ καὶ<note type="apparatus" n="5" target="#p149-4">ὑγίειαν CP γινομένης P: μενούσης C τὰς νόσους] νόσον P ante ταῦτα add. ἀλλὰ P δὲ] δὴ P</note>

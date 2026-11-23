@@ -58,6 +58,7 @@
       <change when="2026-10-23" who="#NI">Errors found by the accuracy evaluation (sample checked against the page images by student assistants, readings confirmed by the editor) corrected: 1 in the text.</change>
       <change when="2026-11-05" who="#NI">Apparatus entries printed out of numerical order (e.g. 33 … 32) separated from the preceding entry; words hyphenated across lines joined in Latin text as in Greek; words mixing Greek and Latin letters (OCR errors, about 130, including manuscript sigla) corrected on the page images; marginal folio marks left in the text removed; validated against TEI P5 version 4.12.0 (recorded in TEI/@version).</change>
       <change when="2026-11-05" who="#NI">Extent of the lemma quotations (quote[@type='lemma']) corrected: the automatic division had closed every lemma after its first printed line, leaving the remaining lines of lemmata printed over two or more lines at the head of the following paragraph. Candidates were found from the letter-spacing of the lines on the page images (lemmata are printed spaced) and from the line geometry (centred last line, indented paragraph start), and every candidate was decided on the page image (Claude work teams; about 7,700 places in the corpus); the lines so decided are now inside the quotation, with pb inside the quotation where a lemma runs on to the next page. Where the lemma runs on in the same line as the commentary (Stephanus in De interpretatione), the quotation ends after the last spaced word and the paragraph continues in the same line without a new lb; where no lemma is printed and the paraphrase follows the Bekker reference directly (Michael in De partibus animalium from p. 37), the quotation is dropped and the division kept; centred last lines the edition does not count are inside the quotation as unnumbered lines.</change>
+      <change when="2026-11-22" who="#NI">Readings questioned by the review of the translations collated on the page images (read independently, at least twice wherever the print does not have the proposed form, by a language model, Claude; the 28 places in all works that it could not settle were read by the editor): 7 errors of the transcription corrected; 4 evident misprints of the edition given as choice/sic/corr; 2 evident misprints of the edition in a word broken at the line end (which cannot carry choice/sic/corr) corrected in the text.</change>
     </revisionDesc>
   </teiHeader>
   <text>
@@ -698,7 +699,7 @@
                 <lb n="1" xml:id="p99-0"/>γένος καὶ ἡ διαφορὰ καὶ τὸ εἶδος προτερεύουσι τοῦ τε ἰδίου καὶ τοῦ συμβεβηκότος·
                 <lb n="2" xml:id="p99-1"/>τὸ γὰρ οὐσιῶδες τιμιώτερον τοῦ ἐπουσιώδους ἐστίν, εἴ γε τὸ<note type="apparatus" n="2" target="#p99-1">τιμιώτερον Paris. 2089: ἰδιαίτερον KT: ἰδιώτερον V (cf. vs. 18) ἐστι τοῦ ἐπουσ. colloc. V</note>
                 <lb n="3" xml:id="p99-2"/>μὲν οὐσιῶδες παρὸν μὲν σῴζει ἀπὸν δὲ φθείρει (καὶ γὰρ τὸ λογικὸν παρὸν
-                <lb n="4" xml:id="p99-3"/>μὲν συνίστησι τὸν ἄνθρωπων ἀπὸν δὲ φθείρει αὐτόν· τοῦ γὰρ λογικοῦ
+                <lb n="4" xml:id="p99-3"/>μὲν συνίστησι τὸν <choice><sic>ἄνθρωπων</sic><corr>ἄνθρωπον</corr></choice> ἀπὸν δὲ φθείρει αὐτόν· τοῦ γὰρ λογικοῦ
                 <lb n="5" xml:id="p99-4"/>ἀπόντος οὐδὲ ἄνθρωπός ἐστι), τὸ δὲ ἐπουσιῶδες ἤγουν τὸ ἐπὶ τῆς οὐσίας<note type="apparatus" n="5" target="#p99-4">οὐδὲ V¹: οὔτε KTV²</note>
                 <lb n="6" xml:id="p99-5"/>ὄν, τοῦτ’ ἔστι τὸ συμβεβηκός, οὔτε παρὸν σῴζει οὔτε ἀπὸν φθείρει· καὶ
                 <lb n="7" xml:id="p99-6"/>γὰρ τὸ λευκὸν οὔτε παρὸν συνίστησι τὸν ἄνθρωπον οὔτε ἀπὸν φθείρει
@@ -771,7 +772,7 @@
                 <lb n="1" xml:id="p101-0"/>ὡς ἡ ὑγίεια καὶ δι’ ἑαυτὴν μὲν ἐστιν αἱρετή (οὐδὲν γὰρ ἔχει ἀποβολῆς<note type="apparatus" n="1" target="#p101-0">ἡ (post ὡς) om. K ὑγεία V post ὑγίεια add. καὶ γὰρ ὑγίεια K</note>
                 <lb n="2" xml:id="p101-1"/>ἄξιον), καὶ δι’ ἕτερον δὲ αἱρετή ἐστι, διὰ τὰς ψυχικὰς ἐνεργείας· αἱ γὰρ<note type="apparatus" n="2" target="#p101-1">δὲ om. T</note>
                 <lb n="3" xml:id="p101-2"/>ψυχικαὶ ἐνέργειαι διὰ τῆς ὑγιείας προέρχονται. αἱ δὲ πέντε φωναὶ καὶ δι’<note type="apparatus" n="3" target="#p101-2">ὑγείας TV</note>
-                <lb n="4" xml:id="p101-3"/>ἑαυτάς εἰσιν ἀρεταί, ἐπειδὴ πάντως ὀφείλομεν <milestone type="alt-edition" unit="folio" ed="cod. Marcianus gr. 599" n="170r"/> γινώσκειν τί ἐστιν ἑκάστη
+                <lb n="4" xml:id="p101-3"/>ἑαυτάς εἰσιν <choice><sic>ἀρεταί</sic><corr>αἱρεταί</corr></choice>, ἐπειδὴ πάντως ὀφείλομεν <milestone type="alt-edition" unit="folio" ed="cod. Marcianus gr. 599" n="170r"/> γινώσκειν τί ἐστιν ἑκάστη
                 <lb n="5" xml:id="p101-4"/>αὐτῶν, ἀλλὰ καὶ δι’ ἕτερόν εἰσιν αἱρεταί· συμβάλλονται γὰρ ἡμῖν καὶ εἰς<note type="apparatus" n="5" target="#p101-4">γὰρ] δὲ V</note>
                 <lb n="6" xml:id="p101-5"/>τὰς Κατηγορίας Ἀριστοτέλους καὶ εἰς πᾶσαν τὴν φιλοσοφίαν καὶ τὰ τοιαῦτα.
                 <lb n="7" xml:id="p101-6"/>Δεύτερον δὲ ἀπὸ τοιᾶσδε διαιρέσεως· τῶν ὄντων τὰ μέν ἐστι δι’ ἑαυτὰ
@@ -882,7 +883,7 @@
                 <lb n="26" xml:id="p103-25"/>χυμῶν, οἱ χυμοὶ ἐκ τῶν τροφῶν, αἱ τροφαὶ ἐκ τῶν καρπῶν, οἱ καρποὶ ἐκ<note type="apparatus" n="26" target="#p103-25">αἱ τροφαὶ—καρπῶν om. V</note>
                 <lb n="27" xml:id="p103-26"/>τῶν φυτῶν, τὰ φυτὰ ἐκ τῶν τεσσάρων στοιχείων, τὰ τέσσαρα στοιχεῖα ἐξ
                 <lb n="28" xml:id="p103-27"/>ὕλης καὶ εἴδους. λέγομεν πρὸς τοῦτο ὅτι τριττὴ ἡ παρὰ τοῖς φιλοσόφοις<note type="apparatus" n="28" target="#p103-27">καὶ λέγομεν T ἡ om. K</note>
-                <lb n="29" xml:id="p103-28"/>ἀνάλυσις· ἔστι γὰρ ἡ φυσικὴ ἢ λογική, καὶ αὕτη διττή. καὶ φυσικὴ μὲν<note type="apparatus" n="29" target="#p103-28">ἡ φυσικὴ ἢ λογική K: ἡ φυσικὴ ἢ λογική V καὶ αὕτη διττή] ἡ συλλογιστική V</note>
+                <lb n="29" xml:id="p103-28"/>ἀνάλυσις· ἔστι γὰρ ἢ φυσικὴ ἢ λογική, καὶ αὕτη διττή. καὶ φυσικὴ μὲν<note type="apparatus" n="29" target="#p103-28">ἡ φυσικὴ ἢ λογική K: ἡ φυσικὴ ἢ λογική V καὶ αὕτη διττή] ἡ συλλογιστική V</note>
                 <lb n="30" xml:id="p103-29"/>ἐστιν οἷον εἴπομεν τρόπον. λογικὴ δὲ ἢ ἐν προτάσεσιν ἢ ἐν συλλογισμοῖς.<note type="apparatus" n="30" target="#p103-29">ἐστὶν om. V τρόπον] τὸ πρῶτον V ἢ (prius)] ἡ K ἐν (ante συλλ.) om. T</note>
                 <lb n="31" xml:id="p103-30"/>καὶ ἐν μὲν προτάσεσιν, ὅταν τὴν δοθεῖσαν πρότασιν ἀναλύῃ εἰς τοὺς ὅρους,
                 <lb n="32" xml:id="p103-31"/>οἷον ‘Σωκράτης φιλοσοφεῖ’. ταύτην τὴν πρότασιν ἀναλύει εἰς τὸ ‘Σωκράτης’<note type="apparatus" n="32" target="#p103-31">ταύτην—εἰς τὸ φιλοσοφεῖ (33) om. KT</note>
@@ -1567,7 +1568,7 @@
                 <lb n="8" xml:id="p121-7"/>συγγράμμασιν ἐβουλήθη δεῖξαι. ἄξιον δὲ ζητήσεως ὑπάρχει διὰ τί Περιπατητικοὶ<note type="apparatus" n="8" target="#p121-7">συγγρ.] γράμμασιν V ἠβουλήθη T ἄξιον δέ ἐστιν ὡς ὑπάρχει V</note>
                 <lb n="9" xml:id="p121-8"/>καλοῦνται οἱ Ἀριστοτελικοί· φασὶν ὅτι διὰ τοῦτο Περιπατητικὸς<note type="apparatus" n="9" target="#p121-8">καλοῦνται] ἐκαλοῦντο Brand. φασὶ δὲ K</note>
                 <lb n="10" xml:id="p121-9"/>ἐκαλεῖτο ὁ Ἀριστοτέλης, ἐπειδὴ περιπατῶν τὰς συνουσίας ἐποιεῖτο τῇ πρὸς<note type="apparatus" n="10" target="#p121-9">ὁ om. T</note>
-                <lb n="11" xml:id="p121-10"/>τὸν διδάσκαλον αἰδοῖ.· οὐκ ἐτόλμα γὰρ Πλάτωνος περιόντος ἐν καθέδρᾳ<note type="apparatus" n="11" target="#p121-10">post γὰρ add. ἔτι T περιόντος scripsi: περιόντος libri (cf. Amm. p. 46,6)</note>
+                <lb n="11" xml:id="p121-10"/>τὸν διδάσκαλον <choice><sic>αἰδοῖ.·</sic><corr>αἰδοῖ·</corr></choice> οὐκ ἐτόλμα γὰρ Πλάτωνος περιόντος ἐν καθέδρᾳ<note type="apparatus" n="11" target="#p121-10">post γὰρ add. ἔτι T περιόντος scripsi: περιόντος libri (cf. Amm. p. 46,6)</note>
                 <lb n="12" xml:id="p121-11"/>ποιεῖσθαι τὰς συνουσίας. ἄλλοι δέ φασιν ὅτι ψευδές ἐστι· τοὐναντίον γὰρ
                 <lb n="13" xml:id="p121-12"/>ἠναντιοῦτο αὐτῷ. τολμῶσι δὲ οἱ τοιοῦτοι ψέγειν· οὐδὲ γὰρ ἠναντιοῦτο<note type="apparatus" n="13" target="#p121-12">ψέγειν scripsi: λέγειν KT: λέγειν τι V</note>
                 <lb n="14" xml:id="p121-13"/>αὐτῷ, ἀλλ’ ἔσεβεν αὐτὸν ἀεί, ὡς δηλοῖ τὸ εἰς τὸν τάφον Πλάτωνος Ἀριστοτέλους<note type="apparatus" n="14-15" target="#p121-13 #p121-14">Ἀριστοτέλους ἐπιγρ.] cf. Olymp. in Plat. Gorg. p. 395 (Jahn) vit. Marc. p. 432,5 (Rose) Philop. pseudepigr. p. 11b29 (Brand.)</note>
@@ -1697,7 +1698,7 @@
                 <lb n="29" xml:id="p124-28"/>τὸ ζῷον· τοῦτο γὰρ ἐξαπλοῦται ἐπὶ πολλά· διήκει γὰρ ἐπὶ ἄνθρωπον
                 <lb n="30" xml:id="p124-29"/>καὶ κύνα καὶ ἄλλα. ἔοικε δὲ τοῦτο τοῖς δύο τοῖς προηγουμένοις. καὶ τῷ
                 <lb n="31" xml:id="p124-30"/>μὲν λέγοντι ‘τὸ ἀφ’ ἑνὸς παρονομασθὲν καὶ προελθόν’ ἔοικε, καθὸ πολλὰ<note type="apparatus" n="31" target="#p124-30">τὸ—προελθὸν Paris. 2089: τοῦ (ἀπὸ τοῦ V) ἀφ’ ἑνὸς παρωνομάσθαι καὶ προελθεῖν KTV (cf. p. 123,22 125,2)</note>
-                <lb n="32" xml:id="p124-31"/>περιέχει ἐν ἑαυτῷ· ὥσπερ γὰρ ὁ Ἡρακλῆς ἅπαν τὸ ὑπ’ αὐτὸν γένος περιἔχει,<note type="apparatus" n="32" target="#p124-31">ἑαυτῷ] αὐτῶ V</note>
+                <lb n="32" xml:id="p124-31"/>περιέχει ἐν ἑαυτῷ· ὥσπερ γὰρ ὁ Ἡρακλῆς ἅπαν τὸ ὑπ’ αὐτὸν γένος περιέχει,<note type="apparatus" n="32" target="#p124-31">ἑαυτῷ] αὐτῶ V</note>
               </p>
               <pb n="125" facs="https://archive.org/download/commentariaina18pt13akaduoft/page/n480.jpg"/>
               <p>
@@ -2252,7 +2253,7 @@
                 <lb n="19" xml:id="p139-18"/>Διάκρισιν ποιεῖται τῆς σημαντικῆς, ἵνα δείξῃ πῶς διακρίνει τὸ γένος
                 <lb n="20" xml:id="p139-19"/>ἐκ τῶν σημαινουσῶν φωνῶν. ἥμαρτε δέ, ὡς εἴπομεν, μὴ διακρίνων τὴν<note type="apparatus" n="20" target="#p139-19">δὲ om. V</note>
                 <lb n="21" xml:id="p139-20"/>ἄσημον πρῶτον ἐκ τῆς σημαντικῆς, καὶ εἶθ’ οὕτως τὴν σημαντικὴν ἐκ τῆς<note type="apparatus" n="21" target="#p139-20">ἐκ τῆς] ἐν τοῖς V</note>
-                <lb n="22" xml:id="p139-21"/>κατὰ πλειόνων καὶ καθ’ ἑνός. εἴπομεν δὲ ὅτι καλῶς εἶπε καθ’ ἑνὸς καὶ
+                <lb n="22" xml:id="p139-21"/>κατὰ πλειόνων καὶ καθ’ ἑνός. εἴπομεν δὲ ὅτι καλῶς εἶπε καθ’ <choice><sic>ἑνὸς καὶ</sic><corr>ἑνὸς</corr></choice>
                 <lb n="23" xml:id="p139-22"/>καὶ οὐχὶ μερικήν· ἔμελλε γὰρ ἐᾶν τὴν καθ’ ἕκαστα λέγων τὴν μερικήν.<note type="apparatus" n="23" target="#p139-22">ἔμελλε—μερικήν om. KT</note>
               </p>
             </div>
@@ -2426,7 +2427,7 @@
                 <lb n="2" xml:id="p143-1"/>προτάξαι ὀφείλομεν ὥσπερ ἐν τοῖς ἄνω, ἢ τὸ εἶδος ὤφειλεν ἐν τοῖς ἄνω
                 <lb n="3" xml:id="p143-2"/>προτάσσεσθαι τῆς διαφορᾶς· τὸ γὰρ προτάττειν τοῦ εἴδους ἐν τοῖς ἄνω τὴν<note type="apparatus" n="3" target="#p143-2">ἀνωτάτω (priore loco) K (cf. Porph. p. 1,4)</note>
                 <lb n="4" xml:id="p143-3"/>διαφορὰν καὶ ὧδε τῆς διαφορᾶς τὸ εἶδος ἀκατάλληλον ποιεῖ τὸν λόγον.
-                <lb n="5" xml:id="p143-4"/>φαμὲν δὲ ὅτι δικαίως ἔχει μὲν τὴν διαφορὰν προέταξεν ὧδε δὲ τὸ εἶδος·<note type="apparatus" n="5" target="#p143-4">μὲν om. V alt. δὲ om. V</note>
+                <lb n="5" xml:id="p143-4"/>φαμὲν δὲ ὅτι δικαίως ἐκεῖ μὲν τὴν διαφορὰν προέταξεν ὧδε δὲ τὸ εἶδος·<note type="apparatus" n="5" target="#p143-4">μὲν om. V alt. δὲ om. V</note>
                 <lb n="6" xml:id="p143-5"/>ἐπεὶ γὰρ ἐκεῖσε πρώτη τάξις ὑπάρχει, εὐλόγως τῇ διαφορᾷ ἡ πρώτη τάξις
                 <lb n="7" xml:id="p143-6"/>ἐδόθη ἐκ τῆς φύσεως· φυσικῶς γὰρ προτάττεται τοῦ εἴδους· καθολικωτέρα<note type="apparatus" n="7" target="#p143-6">καθολικὸν V</note>
                 <lb n="8" xml:id="p143-7"/>γάρ ἐστι τοῦ εἴδους ὡς ἁπλουστέρα. ἀλλὰ μὴν καὶ αἰτία αὐτοῦ ἐστιν·<note type="apparatus" n="8" target="#p143-7">τοῦ εἴδους ὡς] τὸ εἶδος V</note>
@@ -2572,7 +2573,7 @@
               <milestone unit="bekker" n="4,9"/>
               <p>
                 <lb n="15" xml:id="p146-14"/>p. 4,9 Ἀποδιδόασιν.
-                <lb n="16" xml:id="p146-15"/>Αντὶ τοῦ ὁρίζουσιν.
+                <lb n="16" xml:id="p146-15"/>Ἀντὶ τοῦ ὁρίζουσιν.
               </p>
             </div>
             <div type="textpart" subtype="lemma" n="9">
@@ -3208,7 +3209,7 @@
               </p>
               <pb n="163" facs="https://archive.org/download/commentariaina18pt13akaduoft/page/n518.jpg"/>
               <p>
-                <lb n="1" xml:id="p163-0"/>τῇ φύσει οὔτε γνώσει πεπέρασται, οὐχ ὡς δὲ ἐν τῇ θεωρίᾳ ἐλέγομεν, ἄπειρα<note type="apparatus" n="1" target="#p163-0">δὲ om. V λέγομεν V (cf. p. 160,7)</note>
+                <lb n="1" xml:id="p163-0"/>φύσει οὔτε γνώσει πεπέρασται, οὐχ ὡς δὲ ἐν τῇ θεωρίᾳ ἐλέγομεν, ἄπειρα<note type="apparatus" n="1" target="#p163-0">δὲ om. V λέγομεν V (cf. p. 160,7)</note>
                 <lb n="2" xml:id="p163-1"/>αὐτὰ διὰ τὸ ἀεὶ <milestone type="alt-edition" unit="folio" ed="cod. Marcianus gr. 599" n="195r"/> γεννᾶσθαι (οὕτως φασὶ καὶ οἱ ἐξηγηταί), ἀλλὰ τὰ ἐν τῷ<note type="apparatus" n="2" target="#p163-1">τῷ om. K</note>
                 <lb n="3" xml:id="p163-2"/>μέσῳ ἄπειρα εἶναι ἔλεγον, ἄπειρα δὲ λέγει τὰ ἀόριστα· διττὸν γὰρ τὸ ἄπειρον,<note type="apparatus" n="3" target="#p163-2">λέγει] an λέγειν ?</note>
                 <lb n="4" xml:id="p163-3"/>τὸ μὲν ἀδιεξίτητον τὸ δὲ ἀόριστον. ἔλεγον οὖν ὅτι οὐ διὰ τὰ ἐσόμενά ἐστιν
@@ -3258,7 +3259,7 @@
             <div type="textpart" subtype="lemma" n="4">
               <milestone unit="bekker" n="6,13"/>
               <p>
-                <lb n="14" xml:id="p164-13"/>p. 6,13 Διὸ ἄχρι τῶν εἰδικωτάτων ἀπὸ τῶν γενικωτάτων κατἰόντας
+                <lb n="14" xml:id="p164-13"/>p. 6,13 Διὸ ἄχρι τῶν εἰδικωτάτων ἀπὸ τῶν γενικωτάτων κατιόντας
                 <lb n="15" xml:id="p164-14"/>παρεκελεύετο ὁ Πλάτων παύεσθαι.
                 <lb n="16" xml:id="p164-15"/>Ἰδοὺ ὁ πρῶτος τρόπος Πλάτωνος· φησὶ γὰρ ἀπὸ τῶν γενικωτάτων
                 <lb n="17" xml:id="p164-16"/>μέχρι τῶν εἰδικωτάτων ποιεῖσθαι τὴν διαίρεσιν, περαιτέρω δὲ μηκέτι.
@@ -3675,7 +3676,7 @@
               </p>
               <pb n="174" facs="https://archive.org/download/commentariaina18pt13akaduoft/page/n529.jpg"/>
               <p>
-                <lb n="1" xml:id="p174-0"/>πρώτη ταύτην τὴν διαίρεσιν· ἐν μὲν γὰρ τῇ πρώτῃ πάντα τὰ πράγματα<note type="apparatus" n="1" target="#p174-0">τὴν (post ταύτην) om. V</note>
+                <lb n="1" xml:id="p174-0"/>πρώτῃ ταύτην τὴν διαίρεσιν· ἐν μὲν γὰρ τῇ πρώτῃ πάντα τὰ πράγματα<note type="apparatus" n="1" target="#p174-0">τὴν (post ταύτην) om. V</note>
                 <lb n="2" xml:id="p174-1"/>διελάβομεν εἰς οὐσίαν καὶ συμβεβηκότα καὶ τὰ συμβεβηκότα εἰς χωριστὰ<note type="apparatus" n="2" target="#p174-1">καὶ τὰ συμβεβηκότα om. V</note>
                 <lb n="3" xml:id="p174-2"/>καὶ ἀχώριστα, ἐν δὲ τῇ δευτέρᾳ εἰς χωριστὰ καὶ ἀχώριστα, τὰ ἀχώριστα<note type="apparatus" n="3" target="#p174-2">ἐν iter. V</note>
                 <lb n="4" xml:id="p174-3"/>δὲ εἰς συμβεβηκότα καὶ οὐσίαν. φθάνει οὖν ἐν τῇ πρώτῃ τὰ συμβεβηκότα
@@ -4142,7 +4143,7 @@
             <div type="textpart" subtype="lemma" n="9">
               <milestone unit="bekker" n="9,18"/>
               <p>
-                <lb n="7" xml:id="p185-6"/>p. 9,18 Οὔτε γὰρ τὸ γένος μᾶλλον καὶ ἧττον κατηγορεῖται, οὐ<note type="apparatus" n="7" target="#p185-6">τὸ γένος ex τὰ γένη corr. T</note>
+                <lb n="7" xml:id="p185-6"/>p. 9,18 Οὔτε γὰρ τὸ γένος μᾶλλον καὶ ἧττον κατηγορεῖται, οὗ<note type="apparatus" n="7" target="#p185-6">τὸ γένος ex τὰ γένη corr. T</note>
                 <lb n="8" xml:id="p185-7"/>ἂν ᾖ γένος, οὔθ’ αἱ τοῦ γένους διαφοραί.<note type="apparatus" n="8" target="#p185-7">ᾖ] εἴη K</note>
                 <lb n="9" xml:id="p185-8"/>Φησὶν ὅτι τὸ ζῷον οὐκ ἔστι μᾶλλον ἵππου ἤπερ ἀνθρώπου οὔτε τὸ<note type="apparatus" n="9" target="#p185-8">pr. τὸ om. V</note>
                 <lb n="10" xml:id="p185-9"/>λογικόν, ὃ λέγεται οὐσιῶδες, μᾶλλόν ἐστι Σωκράτους ἤπερ Πλάτωνος. διὰ<note type="apparatus" n="10" target="#p185-9">ὃ om. V τὸ οὐσιῶδες V σωκρ. ἐστιν colloc. V</note>
@@ -4426,7 +4427,7 @@
             <div type="textpart" subtype="lemma" n="1">
               <milestone unit="bekker" n="10,22"/>
               <p>
-                <lb n="9" xml:id="p192-8"/>p. 10,22 Ἃς δὴ καὶ ὁριζόμενοί φασι· διαφορά ἐστιν ἡ περιττεύει
+                <lb n="9" xml:id="p192-8"/>p. 10,22 Ἃς δὴ καὶ ὁριζόμενοί φασι· διαφορά ἐστιν ᾗ περιττεύει
                 <lb n="10" xml:id="p192-9"/>τὸ εἶδος τοῦ γένους.<note type="apparatus" n="10" target="#p192-9">τὸ γένος τοῦ εἴδους KT</note>
                 <lb n="11" xml:id="p192-10"/>Ὁρισμὸς οὐκ ἔστι Πορφυρίου· διὰ τοῦτο λέγει ἃς καὶ ὁριζόμενοι
                 <lb n="12" xml:id="p192-11"/>καὶ οὐ λέγει ‘ὁρίζομαι’, ἵνα δείξῃ ὅτι τῶν Περιπατητικῶν ἐστι. δεικνύει<note type="apparatus" n="12" target="#p192-11">οὐ λέγει] οὐκέτι V</note>

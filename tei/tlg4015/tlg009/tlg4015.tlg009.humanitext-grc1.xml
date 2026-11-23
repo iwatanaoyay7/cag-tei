@@ -59,6 +59,7 @@
       <change when="2026-10-23" who="#NI">Errors found by the accuracy evaluation (sample checked against the page images by student assistants, readings confirmed by the editor) corrected: 1 in the text.</change>
       <change when="2026-11-05" who="#NI">Apparatus entries printed out of numerical order (e.g. 33 … 32) separated from the preceding entry; words hyphenated across lines joined in Latin text as in Greek; words mixing Greek and Latin letters (OCR errors, about 130, including manuscript sigla) corrected on the page images; marginal folio marks left in the text removed; validated against TEI P5 version 4.12.0 (recorded in TEI/@version).</change>
       <change when="2026-11-05" who="#NI">Extent of the lemma quotations (quote[@type='lemma']) corrected: the automatic division had closed every lemma after its first printed line, leaving the remaining lines of lemmata printed over two or more lines at the head of the following paragraph. Candidates were found from the letter-spacing of the lines on the page images (lemmata are printed spaced) and from the line geometry (centred last line, indented paragraph start), and every candidate was decided on the page image (Claude work teams; about 7,700 places in the corpus); the lines so decided are now inside the quotation, with pb inside the quotation where a lemma runs on to the next page. Where the lemma runs on in the same line as the commentary (Stephanus in De interpretatione), the quotation ends after the last spaced word and the paragraph continues in the same line without a new lb; where no lemma is printed and the paraphrase follows the Bekker reference directly (Michael in De partibus animalium from p. 37), the quotation is dropped and the division kept; centred last lines the edition does not count are inside the quotation as unnumbered lines.</change>
+      <change when="2026-11-22" who="#NI">Readings questioned by the review of the translations collated on the page images (read independently, at least twice wherever the print does not have the proposed form, by a language model, Claude; the 28 places in all works that it could not settle were read by the editor): 96 errors of the transcription corrected; 23 evident misprints of the edition given as choice/sic/corr; 13 evident misprints of the edition in a word broken at the line end (which cannot carry choice/sic/corr) corrected in the text; 13 lines that are not text (letters of a diagram, a mark at the foot of the page, a line of the apparatus) taken out of the text.</change>
     </revisionDesc>
   </teiHeader>
   <text>
@@ -187,7 +188,7 @@
               <lb n="6" xml:id="p4-5"/>ἀκόλουθον τίθησι. τοῦτο δέ ἐστιν ὅτι, ἐπειδὴ ἡ φυσιολογία γινώσκεται τῶν<note type="apparatus" n="6" target="#p4-5">γινώσκεται om. L</note>
               <lb n="7" xml:id="p4-6"/>ἀρχῶν γνωσθεισῶν, ὅπερ ἐκ τοῦ συλλογισμοῦ συνεπεράνθη, πειρατέον διορίσαι<milestone type="alt-edition" unit="line" ed="Trincavelli 1535" n="35"/>
               <lb n="8" xml:id="p4-7"/>τὰς ἀρχὰς τῆς φυσιολογίας. ὁ μὲν οὖν Ἀριστοτέλης οὕτως, Θεόφραστος<note type="apparatus" n="8" target="#p4-7">οὖν om. L cf. p. 7,13 Θεόφραστος] cf. Simplic. p. 9,7</note>
-              <lb n="9" xml:id="p4-8"/>δὲ καὶ ὅλον τὸν συλλογισμὸν ἔθηκεν ἐν τῇ ἰδίᾳ. Περὶ φύσεως πραγματείᾳ,<note type="apparatus" n="9" target="#p4-8">πραγμάτων primitus L</note>
+              <lb n="9" xml:id="p4-8"/>δὲ καὶ ὅλον τὸν συλλογισμὸν ἔθηκεν ἐν τῇ ἰδίᾳ Περὶ φύσεως πραγματείᾳ,<note type="apparatus" n="9" target="#p4-8">πραγμάτων primitus L</note>
               <lb n="10" xml:id="p4-9"/>παραμυθίας τινὸς ἀξιώσας καὶ τὴν ἐλάττονα πρότασιν τὴν ὅτιπερ τῆς φυσιολογίας
               <lb n="11" xml:id="p4-10"/>εἰσὶν ἀρχαὶ καὶ αἴτια καὶ στοιχεῖα. τοῦτο γὰρ οὐ πρόδηλον. κατασκευάζει
               <lb n="12" xml:id="p4-11"/>οὖν αὐτὴν τοῦτον τὸν τρόπον· τὰ φυσικά, φησί, πράγματα ἢ σώματά
@@ -500,7 +501,7 @@
               <lb n="15" xml:id="p12-14"/>ὂν μηδαμῶς ἄλλῳ τινὶ ἐφαρμόζειν δύνασθαι, τοῦτο δὲ διὰ τὸ ἀόριστον<note type="apparatus" n="15" target="#p12-14">οὐδαμῶς Mt</note><note type="apparatus" n="15-16" target="#p12-14 #p12-15">δύνασθαι — δύνασθαι K: δύνασθαι — δύναται L: δύναται — δύναται Mt</note>
               <lb n="16" xml:id="p12-15"/>εἶναι δύνασθαι πλείοσιν ἐφαρμόζειν. πρῶτον μὲν οὖν, ὅπερ εἶπον,
               <lb n="17" xml:id="p12-16"/>οὐδὲ τὰ παραδείγματα τὸ ἐν τοῖς πολλοῖς γένος σημαίνει, ἔπειτα τὸ ἐν<milestone type="alt-edition" unit="line" ed="Trincavelli 1535" n="50"/>
-              <lb n="18" xml:id="p12-17"/>τοῖς πολλοῖς γένος, εἰ καὶ τῇ ὄντι τῇ μερικῇ φύσει καὶ ὕστερόν ἐστι καὶ
+              <lb n="18" xml:id="p12-17"/>τοῖς πολλοῖς γένος, εἰ καὶ τῷ ὄντι τῇ μερικῇ φύσει καὶ ὕστερόν ἐστι καὶ
               <lb n="19" xml:id="p12-18"/>ἀσαφέστερον (τοῦτο γὰρ οἶδεν ἡ φύσις ὃ καὶ ποιεῖ, ποιεῖ δὲ τῶν καθόλου<note type="apparatus" n="19" target="#p12-18">σαφέστερον K</note>
               <lb n="20" xml:id="p12-19"/>οὐδέν, ἀλλὰ μόνως τὰ καθ’ ἕκαστα, εἶτα ὕστερον ἐκ τοῦ ἀθροίσματος τούτων<note type="apparatus" n="20-21" target="#p12-19 #p12-20">τούτων τὰ Mt: τούτου τὸ L: τὰ K qui mox ἵσταται (sic) τούτων</note>
               <lb n="21" xml:id="p12-20"/>τὰ καθόλου συνίσταται), ἀλλ’ οὐδὲν ἧττον καὶ ἡμῖν ὕστερόν ἐστι κατὰ τὴν<note type="apparatus" n="21" target="#p12-20">καὶ ἡμῖν ὕστερον om. L ὕστερον scripsi: ὕστερα KMt: ὕστερον post γνῶσιν ex correctione (‘quid scripserit manus prima non liquet’) L² ἐστὶ] εἶναι K</note>
@@ -1251,7 +1252,6 @@
               <lb n="23" xml:id="p32-22"/>καὶ μὴ φυσικοῦ τὸ πρὸς τούτους διαλέγεσθαι, ἀλλ’ οὖν * ἔχει τινὰ φιλοσοφίαν<note type="apparatus" n="23" target="#p32-22">post ἀλλ’ οὖν lacunam indicavi: ὅτι inserit L: equidem ἐπειδὴ praefero quod post alterum ἀλλ’ οὖν (v. 25) perperam delatum uncis inclusi</note><note type="apparatus" n="23-24" target="#p32-22 #p32-23">ἀπορίαν καὶ φιλοσοφίαν Mt</note>
               <lb n="24" xml:id="p32-23"/>ἡ σκέψις, οὐ χεῖρον ἐπὶ σμικρὸν διαλεχθῆναι πρὸς αὐτούς, καὶ<note type="apparatus" n="24" target="#p32-23">μικρὸν Mt</note>
               <lb n="25" xml:id="p32-24"/>ἄλλως διότι κἂν μὴ περὶ φύσεώς τι λέγωσιν, ἀλλ’ οὖν [ἐπειδὴ] φυσικὰς<note type="apparatus" n="25" target="#p32-24">ἄλλως] ἁπλῶς L διότι om. Mt φύσεως λέγουσιν (om. τι) K</note>
-              <lb n="26" xml:id="p32-25"/>κτʹ
             </p>
             <pb n="33" facs="https://archive.org/download/commentariaina16akaduoft/page/n58.jpg"/>
             <p>
@@ -1448,7 +1448,7 @@
               <lb n="1" xml:id="p38-0"/>οὐκέτι προσέθηκε, λέγω δὴ τῇ ὑποτιθεμένῃ συνυπάρχειν τῷ ποσῷ<note type="apparatus" n="1" target="#p38-0">προσέθηκε LK: ἐπήγαγε Mt</note>
               <lb n="2" xml:id="p38-1"/>τὴν οὐσίαν. λέξει μὲν οὖν καὶ ἐφεξῆς, ἤδη δὲ καὶ ἔφθη αὐτὸ εἰρηκὼς<note type="apparatus" n="2" target="#p38-1">λέγει Mt δὲ om. K</note>
               <lb n="3" xml:id="p38-2"/>προσεχῶς· “εἰ μὲν γὰρ ἔσται” φησί “καὶ οὐσία καὶ ποιὸν καὶ ποσόν, καὶ<note type="apparatus" n="3" target="#p38-2">καὶ ποσὸν καὶ ποιὸν (cf. ad p. 36, 21) Mt</note>
-              <lb n="4" xml:id="p38-3"/>ταῦτα εἴτε ἀπολελυμένα ἀλλήλων εἴτη μή, πολλὰ τὰ ὄντα”. κἀνταῦθα γάρ,<note type="apparatus" n="4" target="#p38-3">ἀπ’ ἀλλήλων Aristoteles εἴτε μή LK Aristot.: εἴτε καὶ μὴ Mt</note><note type="apparatus" n="4-5" target="#p38-3 #p38-4">γάρ εἰσιν ὑπάρχει K</note>
+              <lb n="4" xml:id="p38-3"/>ταῦτα εἴτε ἀπολελυμένα ἀλλήλων <choice><sic>εἴτη</sic><corr>εἴτε</corr></choice> μή, πολλὰ τὰ ὄντα”. κἀνταῦθα γάρ,<note type="apparatus" n="4" target="#p38-3">ἀπ’ ἀλλήλων Aristoteles εἴτε μή LK Aristot.: εἴτε καὶ μὴ Mt</note><note type="apparatus" n="4-5" target="#p38-3 #p38-4">γάρ εἰσιν ὑπάρχει K</note>
               <lb n="5" xml:id="p38-4"/>εἰ συνυπάρχει τῷ ποσῷ ἡ οὐσία, πολλὰ τὰ ὄντα καὶ οὐχ ἕν, καὶ τὰς<note type="apparatus" n="5" target="#p38-4">ἡ οὐσία τῷ ποσῷ Mt</note>
               <lb n="6" xml:id="p38-5"/>ἑαυτῶν ἀναιροῦσιν ὑποθέσεις. πάντα γὰρ καθ’ ὑποκειμένου λέγεται<note type="apparatus" n="6-7" target="#p38-5 #p38-6">τῆς οὐσίας λέγεται Arist. cod. E</note>
               <lb n="7" xml:id="p38-6"/>τῆς οὐσίας. τὸ καθ’ ὑποκειμένου ὃ νῦν εἶπεν ἀντὶ τοῦ ἐν ὑποκειμένῳ<note type="apparatus" n="7-8" target="#p38-6 #p38-7">τὸ—εἴρηκεν om. K</note><note type="apparatus" n="7" target="#p38-6">τοῦ] τῷ t</note>
@@ -1670,7 +1670,7 @@
             </p>
             <pb n="44" facs="https://archive.org/download/commentariaina16akaduoft/page/n69.jpg"/>
             <p>
-              <lb n="1" xml:id="p44-0"/>ἕν, τῷ δὲ λόγῳ πολλά. οἷον τῷ μὲν ὑποκειμένῳ ἓν καὶ τῷ λόγῳ πολλὰ b r<note type="apparatus" n="1" target="#p44-0">καὶ τῷ LK: τῷ δὲ rectius Mt</note>
+              <lb n="1" xml:id="p44-0"/>ἕν, τῷ δὲ λόγῳ πολλά. οἷον τῷ μὲν ὑποκειμένῳ ἓν καὶ τῷ λόγῳ πολλὰ<note type="apparatus" n="1" target="#p44-0">καὶ τῷ LK: τῷ δὲ rectius Mt</note>
               <lb n="2" xml:id="p44-1"/>τὸ λευκὸν καὶ τὸ θερμόν· ταῦτα γὰρ τῷ μὲν ὑποκειμένῳ ἓν καὶ ταὐτόν<note type="apparatus" n="2" target="#p44-1">ταῦτα μὲν τῷ μὲν K</note>
               <lb n="3" xml:id="p44-2"/>εἰσιν (ἐν τῷ αὐτῷ γὰρ σώματι ἄμφω, οἷον τῷ Σωκράτει), τῷ λόγῳ δὲ<note type="apparatus" n="3" target="#p44-2">οἷον τοῦ σω K</note><milestone type="alt-edition" unit="line" ed="Trincavelli 1535" n="50"/>
               <lb n="4" xml:id="p44-3"/>ἕτερα (ἕτερος γὰρ ὁ τοῦ θερμοῦ λόγος καὶ ἕτερος ὁ τοῦ λευκοῦ). ἀνάπαλιν
@@ -1809,7 +1809,7 @@
               <lb n="19" xml:id="p47-18"/>εἴτε ἕτερον, οὐ δοκεῖ τοῦ παρόντος λόγου οἰκεῖον εἶναι. διὰ τί δὲ αὐτῆς
               <lb n="20" xml:id="p47-19"/>μέμνηται καὶ πῶς ἔχει σχέσιν τινὰ πρὸς τὴν προκειμένην θεωρίαν, εἴπομεν<milestone type="alt-edition" unit="line" ed="Trincavelli 1535" n="10"/>
               <lb n="21" xml:id="p47-20"/>ἐν τῇ ἀρχῇ. καὶ ὅλως ἐπειδὴ τῆς εἰς τὰ μέρη τοῦ συνεχοῦς διαιρέσεως
-              <lb n="22" xml:id="p47-21"/>ἐμνήσθη, οὐκ ἀνηρτημένη τοῦ προκειμένου ἡ τοιαύτη ζήτησις· τὸν γὰρ<note type="apparatus" n="22" target="#p47-21">ἀνηρτημένη Mt: ἂν ἠρτημένη K: ἂν εἴη μὴ ἠρτημένη L: scribendum ἀπηρτημένη</note>
+              <lb n="22" xml:id="p47-21"/>ἐμνήσθη, οὐκ <choice><sic>ἀνηρτημένη</sic><corr>ἀπηρτημένη</corr></choice> τοῦ προκειμένου ἡ τοιαύτη ζήτησις· τὸν γὰρ<note type="apparatus" n="22" target="#p47-21">ἀνηρτημένη Mt: ἂν ἠρτημένη K: ἂν εἴη μὴ ἠρτημένη L: scribendum ἀπηρτημένη</note>
               <lb n="23" xml:id="p47-22"/>λέγοντα διαιρεῖσθαί τι εἰς μέρη, δεῖ ἔννοιαν ἔχειν τῆς τε τοῦ ὅλου φύσεως<note type="apparatus" n="23" target="#p47-22">εἰς τὰ μέρη Mt</note>
               <lb n="24" xml:id="p47-23"/>καὶ τῆς τῶν μερῶν.
             </p>
@@ -2143,7 +2143,7 @@
               <lb n="10" xml:id="p56-9"/>ἐν ἡμῖν ἡ ἕνωσις· ἥμερον γὰρ καὶ κοινωνικὸν ζῷον ὁ ἄνθρωπος· ἐν ἐκείνοις
               <lb n="11" xml:id="p56-10"/>δὲ μᾶλλον ἡ διάκρισις. πάλιν καὶ ἐν ἡμῖν καὶ ἐν τοῖς οὐρανίοις ὁρᾶται<note type="apparatus" n="11" target="#p56-10">ἡ διάκρισις add. corr. L</note>
               <lb n="12" xml:id="p56-11"/>καὶ ἕνωσις καὶ διάκρισις, ἀλλ’ ἐν ἐκείνοις μᾶλλον ἡμῶν ἐπικρατεῖ ἡ<note type="apparatus" n="12" target="#p56-11">καὶ (ante ἕνωσις) om. L post καὶ διάκρισις expunxit ἀλλ’ ἀεὶ τὸ κρεῖττον (e v. 7 huc delata) L² ἡμῶν om. L</note><milestone type="alt-edition" unit="line" ed="Trincavelli 1535" n="20"/>
-              <lb n="13" xml:id="p56-12"/>ἡ ἕνωσις. ὁμοίως καὶ ἐν τοῖς νοητοῖς πάντων μᾶλλον ἐπικεκράτηκεν ἡ<note type="apparatus" n="13" target="#p56-12">post μᾶλλον iterat πάντων K ἐπικράτηκεν t</note>
+              <lb n="13" xml:id="p56-12"/><choice><sic>ἡ ἕνωσις</sic><corr>ἕνωσις</corr></choice>. ὁμοίως καὶ ἐν τοῖς νοητοῖς πάντων μᾶλλον ἐπικεκράτηκεν ἡ<note type="apparatus" n="13" target="#p56-12">post μᾶλλον iterat πάντων K ἐπικράτηκεν t</note>
               <lb n="14" xml:id="p56-13"/>ἕνωσις), ἐπεὶ οὖν ἑώρων αὐτὰ κεκρατημένα τῇ ἑνώσει, καὶ οἱονεὶ διὰ<note type="apparatus" n="14" target="#p56-13">ἐπεὶ] ἐπὶ K</note>
               <lb n="15" xml:id="p56-14"/>πάντων τὴν κοινὴν καὶ μίαν πάντων ἀρχὴν ὁρωμένην διὰ τὴν πρὸς αὐτὴν<note type="apparatus" n="15" target="#p56-14">πάντων (post μίαν) LK: πάντως Mt</note>
               <lb n="16" xml:id="p56-15"/>ἕνωσιν, ἕν τε ἔλεγον εἶναι τὸ νοητὸν πᾶν καὶ ἄναρχον, μὴ διαστέλλοντες<note type="apparatus" n="16" target="#p56-15">ἕν] ἐν K et ante corr. L εἶναι om. L</note><note type="apparatus" n="16-18" target="#p56-15 #p56-16 #p56-17">μὴ διαστέλλοντες — ἄναρχον post ἀποπερατούμενον (v. 20) collocat L</note>
@@ -2514,7 +2514,7 @@
               <lb n="7" xml:id="p66-6"/>πολλαχῶς. εἴπομεν δὲ ὅτι καὶ ἡ μείζων πρότασις ψευδής
               <lb n="8" xml:id="p66-7"/>ἐστι. τὸ μὲν ψεῦδος ἐν ταῖς προτάσεσι τοιοῦτον, τὸ δὲ ἀσυμπέραντον οὐκ<note type="apparatus" n="8" target="#p66-7">ἐστι om. K ἀσυμπέραστον libri</note><milestone type="alt-edition" unit="line" ed="Trincavelli 1535" n="5"/>
               <lb n="9" xml:id="p66-8"/>ἔοικε διὰ τὴν ἀντιστροφὴν λαμβάνειν ὁ Ἀριστοτέλης· ἔχει γὰρ ἡ λέξις<note type="apparatus" n="9-12" target="#p66-8 #p66-9 #p66-10 #p66-11">pro ἔχει — τουτέστι habet καὶ γὰρ ὅπερ φησὶ ις’ ο τοιοῦτον ἐστὶ K</note><note type="apparatus" n="9" target="#p66-8">λέξις L: compend. λξ’ M: λύσις t</note>
-              <lb n="10" xml:id="p66-9"/>οὕτως· ἀσυμπέραντος δὲ ὅτι, εἰ μόνα τὰ λευκὰ ληφθείη σημαινοντος<note type="apparatus" n="10" target="#p66-9">ἀσυμπέραντ M: ἀσυμπέραντον L: ἀσυμπέραστος t ὅτι om. M λειφθείη L</note><note type="apparatus" n="10-11" target="#p66-9 #p66-10">σημαίνοντος] litteras ση add. M²</note>
+              <lb n="10" xml:id="p66-9"/>οὕτως· ἀσυμπέραντος δὲ ὅτι, εἰ μόνα τὰ λευκὰ ληφθείη σημαίνοντος<note type="apparatus" n="10" target="#p66-9">ἀσυμπέραντ M: ἀσυμπέραντον L: ἀσυμπέραστος t ὅτι om. M λειφθείη L</note><note type="apparatus" n="10-11" target="#p66-9 #p66-10">σημαίνοντος] litteras ση add. M²</note>
               <lb n="11" xml:id="p66-10"/>ἓν τοῦ λευκοῦ, οὐδὲν ἧττον πολλὰ τὰ λευκὰ καὶ οὐχ ἕν.
               <lb n="12" xml:id="p66-11"/>τουτέστι κἂν συγχωρήσωμεν αὐτῷ ἀληθῆ λαβεῖν τὴν ἐλάττονα πρότασιν<note type="apparatus" n="12" target="#p66-11">τουτέστιν t κἂν LKM: ἂν t λαμβάνειν K</note>
               <lb n="13" xml:id="p66-12"/>καὶ τὸ ὂν ἕν τι σημαίνειν, οἷον τὸ λευκόν, ἀληθὲς μὲν τὸ εἰπεῖν ὅτι τὸ<note type="apparatus" n="13" target="#p66-12">ἕν τι M</note><note type="apparatus" n="13-14" target="#p66-12 #p66-13">ὅτι τὸ παρὰ ex ὅτιπερ corr. M²</note><milestone type="alt-edition" unit="line" ed="Trincavelli 1535" n="10"/>
@@ -2737,7 +2737,7 @@
             </p>
             <pb n="72" facs="https://archive.org/download/commentariaina16akaduoft/page/n97.jpg"/>
             <p>
-              <lb n="1" xml:id="p72-0"/>οὐσίαν ὑποθώμεθα εἶναι καὶ ταύτην ἀριθμῷ μίαν καὶ μηδ’ ὅλως ὑπάρχειν b<note type="apparatus" n="1" target="#p72-0">μὴ δόλως M</note>
+              <lb n="1" xml:id="p72-0"/>οὐσίαν ὑποθώμεθα εἶναι καὶ ταύτην ἀριθμῷ μίαν καὶ μηδ’ ὅλως ὑπάρχειν<note type="apparatus" n="1" target="#p72-0">μὴ δόλως M</note>
               <lb n="2" xml:id="p72-1"/>αὐτῇ τὰ συμβεβηκότα, καὶ οὕτως δειχθήσεται οὐδὲν ἧττον πολλὰ τὰ ὄντα<milestone type="alt-edition" unit="line" ed="Trincavelli 1535" n="11"/>
               <lb n="3" xml:id="p72-2"/>καὶ οὐχ ἕν. λέγει δὲ δυνάμει ταῦτα· πότερον διδάσκετε ἡμᾶς περὶ τῆς οὐσίας<note type="apparatus" n="3" target="#p72-2">διδάσκεται et rursus in insequentibus διδάσκεται et ἀξιοῦται K</note>
               <lb n="4" xml:id="p72-3"/>ταύτης ἢ οὔ; εἰ μὲν οὖν οὐδὲν ἡμᾶς διδάσκετε, ἀλλ’ ἀξιοῦτε ἡμᾶς<note type="apparatus" n="4" target="#p72-3">οὖν om. K οὐδὲν om. L</note><note type="apparatus" n="4-5" target="#p72-3 #p72-4">ἀλλ’ ἀξιοῦτε — εἰ δὲ διδάσκετε om. L</note>
@@ -2745,7 +2745,7 @@
               <lb n="6" xml:id="p72-5"/>ὀνόματος πάντως ἡμᾶς διδάσκετε, ἢ διὰ λόγου. εἰ μὲν οὖν δι’ ὀνόματος<note type="apparatus" n="6" target="#p72-5">ἡμᾶς] ὑμᾶς L</note><note type="apparatus" n="6-7" target="#p72-5 #p72-6">ἢ διὰ λόγου — ἡμᾶς διδάσκετε om. K</note>
               <lb n="7" xml:id="p72-6"/>ἡμᾶς διδάσκετε, οὐ πεφύκασι τὰ ὀνόματα τὴν φύσιν τῶν πραγμάτων ἡμῖν<note type="apparatus" n="7" target="#p72-6">post πεφύκασι addit δὲ K</note>
               <lb n="8" xml:id="p72-7"/>παριστᾶν· ὁ γὰρ τὴν τοῦ ἀνθρώπου μαθεῖν θέλων φύσιν οὐδὲν πλέον εἴσεται<milestone type="alt-edition" unit="line" ed="Trincavelli 1535" n="15"/>
-              <lb n="9" xml:id="p72-8"/>διὰ τῆς ‘ἀνθρώπου’ φωνῆς. καὶ ἄλλως εἰ τὰ ὀνόματα τῶν πραγμάτῶν<note type="apparatus" n="9" target="#p72-8">ἀνθρώπου LK: ἄνθρωπος fort. recte Mt</note>
+              <lb n="9" xml:id="p72-8"/>διὰ τῆς ‘ἀνθρώπου’ φωνῆς. καὶ ἄλλως εἰ τὰ ὀνόματα τῶν πραγμάτων<note type="apparatus" n="9" target="#p72-8">ἀνθρώπου LK: ἄνθρωπος fort. recte Mt</note>
               <lb n="10" xml:id="p72-9"/>ἱκανὰ ἦν εἰς παράστασιν τῆς οὐσίας αὐτῶν, πάντες ἄνθρωποι ὁμοίως
               <lb n="11" xml:id="p72-10"/>ἦμεν ἐπιστήμονες, ὁμοίως εἰδότες τί ὑφ’ ἑκάστου τῶν ὀνομάτων σημαίνεται.<note type="apparatus" n="11" target="#p72-10">fort. ἦμεν ἂν</note>
               <lb n="12" xml:id="p72-11"/>εἰ δὲ διὰ λόγου, ἢ δι’ ὁρισμοῦ πάντως ἢ δι’ ὑπογραφῆς. καὶ καθόλου
@@ -2964,7 +2964,7 @@
               <lb n="23" xml:id="p77-22"/>ἀδύνατα· ἀεί τε γὰρ δίπουν ὁ ἄνθρωπος καὶ λογικὸν καὶ οὐκ ἐν τῷ ὁρισμῷ<note type="apparatus" n="23" target="#p77-22">καὶ λογικόν om. Mt</note><milestone type="alt-edition" unit="line" ed="Trincavelli 1535" n="30"/>
               <lb n="24" xml:id="p77-23"/>τῶν μερῶν τὰ ὅλα παραλαμβάνεται. ἀλλ’ ἔμπαλιν εἰς τὸν τῶν ὅλων τὰ<note type="apparatus" n="24" target="#p77-23">τῶν ὅλων] τοῦ ὅλου L</note>
               <lb n="25" xml:id="p77-24"/>μέρη. τὸ δὲ ἑξῆς· ἀνάγκη χωριστὸν εἶναι αὐτό, ἢ ἐν τῷ λόγῳ τῷ<note type="apparatus" n="25" target="#p77-24">ἑξῆς (sic), ἀνάγκη K: ἐξ ἀνάγκης LMt</note>
-              <lb n="26" xml:id="p77-25"/>τοῦ δίποδους ἐνέσται ὁ τοῦ ἀνθρώπου λόγος, τουτέστιν ἀνάγκη ἢ<note type="apparatus" n="26" target="#p77-25">ἐνέσται Mt: ἔν ἔσται L: ἥνεσται ut vid. ex ἔνεσται K</note>
+              <lb n="26" xml:id="p77-25"/>τοῦ <choice><sic>δίποδους</sic><corr>δίποδος</corr></choice> ἐνέσται ὁ τοῦ ἀνθρώπου λόγος, τουτέστιν ἀνάγκη ἢ<note type="apparatus" n="26" target="#p77-25">ἐνέσται Mt: ἔν ἔσται L: ἥνεσται ut vid. ex ἔνεσται K</note>
               <lb n="27" xml:id="p77-26"/>χωριστὸν συμβεβηκὸς εἶναι αὐτὸ τοῦ ἀνθρώπου, ἢ ἀχώριστον.<note type="apparatus" n="27" target="#p77-26">συμβέβηκεν K</note>
             </p>
           </div>
@@ -3189,7 +3189,7 @@
               <lb n="21" xml:id="p83-20"/>τὴν τῶν μεγεθῶν τομήν· καταλήγειν γὰρ εἰς ἀτόμους γραμμὰς τεμνομένην<note type="apparatus" n="21" target="#p83-20">μεγέθων K</note><note type="apparatus" n="21-22" target="#p83-20 #p83-21">καταλήγειν—γραμμήν om. L</note><note type="apparatus" n="21" target="#p83-20">καταλήγειν scripsi cl. Simplic. p. 140, 10: compend. καταλ’ M: καταλήσειν(si modo recte enotavi)K: καταλύσειν t</note><milestone type="alt-edition" unit="line" ed="Trincavelli 1535" n="40"/>
               <lb n="22" xml:id="p83-21"/>τὴν γραμμήν. ἠγνόησε δὲ καὶ οὗτος ἀντιφάσει περιπεσὼν διὰ τοῦ<note type="apparatus" n="22" target="#p83-21">ἠγνώησε K</note>
               <lb n="23" xml:id="p83-22"/>δοκεῖν φεύγειν τὴν ἀντίφασιν· τὸ αὐτὸ μὲν γὰρ ἓν καὶ πολλὰ εἶναι οὐκ<note type="apparatus" n="23" target="#p83-22">τὴν ἀντίφασι (sic) K εἶναι] εισιν K</note>
-              <lb n="24" xml:id="p83-23"/>ἀδύνατον, οὐδὲ ἀντίφασις τὸ τοιοῦτον, εἰ τὸ μὲν ᾖ δύναμει τὸ δὲ ἐνεργείᾳ,<note type="apparatus" n="24" target="#p83-23">ᾗ LKM: εἴη t</note>
+              <lb n="24" xml:id="p83-23"/>ἀδύνατον, οὐδὲ ἀντίφασις τὸ τοιοῦτον, εἰ τὸ μὲν ᾖ <choice><sic>δύναμει</sic><corr>δυνάμει</corr></choice> τὸ δὲ ἐνεργείᾳ,<note type="apparatus" n="24" target="#p83-23">ᾗ LKM: εἴη t</note>
               <lb n="25" xml:id="p83-24"/>ταὐτὸν δὲ ποιεῖν γραμμήν τε καὶ ἀδιαίρετον, ἄντικρυς ποιεῖν ἐστι τὴν<note type="apparatus" n="25" target="#p83-24">ταὐτὸν κτλ.] ex Themist. p. 122, 26</note>
               <lb n="26" xml:id="p83-25"/>γραμμὴν οὐ γραμμὴν καὶ τὸ μέγεθος οὐ μέγεθος, εἴ γε ἐπ’ ἄπειρον διαιρετόν
               <lb n="27" xml:id="p83-26"/>ἐστι τὸ μέγεθος.
@@ -4175,7 +4175,7 @@
               <lb n="18" xml:id="p107-17"/>οὐ καλῶς δὲ οὐδὲ τὸ ἐκ τοῦ μὴ ὄντος μὴ γενέσθαι τι ἐλάμβανεν· ἐκ 〈γὰρ〉<note type="apparatus" n="18" target="#p107-17">μὴ γίνεσθαι L distinxi post ἐλάμβανεν et addidi γὰρ</note>
               <lb n="19" xml:id="p107-18"/>τοῦ μηδαμῇ μηδαμῶς μὴ ὄντος ὡς ἐξ ὕλης οὐκ ἂν γένοιτό τι, ἐκ τοῦ<note type="apparatus" n="19" target="#p107-18">τι om. K</note>
               <lb n="20" xml:id="p107-19"/>τὶ δὲ μὴ ὄντος ἀνάγκη τὴν γένεσιν εἶναι. καὶ γὰρ κατὰ τὸ ὑλικὸν αἴτιον<note type="apparatus" n="20" target="#p107-19">τὶ δὲ] τόδε L</note>
-              <lb n="21" xml:id="p107-20"/>ἐκ τὶ μὴ ὄντος γίνεται (τὸ γὰρ σπέρμα τὶ μὴ ὄν· οὐκ ἄνθρωπος γάρ), καὶ<note type="apparatus" n="21" target="#p107-20">ἐκ LK: ἐκ τοῦ Mt fort. γίνεται τι</note>
+              <lb n="21" xml:id="p107-20"/>ἐκ τὶ μὴ ὄντος γίνεται (τὸ γὰρ σπέρμα τὶ μὴ ὄν· οὐκ ἄνθρωπος γάρ), <choice><sic>καὶ</sic><corr></corr></choice><note type="apparatus" n="21" target="#p107-20">ἐκ LK: ἐκ τοῦ Mt fort. γίνεται τι</note>
               <lb n="22" xml:id="p107-21"/>καὶ κατὰ τὸ ποιητικόν· τὸ γὰρ αἴτιον ἐξ ἀνάγκης δεῖ διαφέρειν τοῦ αἰτιατοῦ,
               <lb n="23" xml:id="p107-22"/>εἰ καὶ κατ’ οὐδὲν ἄλλο, ἀλλ’ οὖν πάντως κατ’ αὐτὸ τὸ αἴτιον καὶ<milestone type="alt-edition" unit="line" ed="Trincavelli 1535" n="5"/>
               <lb n="24" xml:id="p107-23"/>αἰτιατόν. ὥστε ἔστι τὶ μὴ ὂν τὸ αἴτιον· οὐκ ἔστι γὰρ ὅπερ τὸ αἰτιατόν.
@@ -4273,7 +4273,6 @@
               <lb n="33" xml:id="p109-32"/>ὅτι ἀνάγκη τὰς εἰδικὰς ἀρχὰς ἐναντίας εἶναι. ὅτι οὖν ἐναντίαι εἰσί, πιστοῦται<note type="apparatus" n="33" target="#p109-32">ἰδικὰς Κ οὖν et mox τε om. Κ</note>
               <lb n="34" xml:id="p109-33"/>ἔκ τε τῆς τῶν παλαιῶν μαρτυρίας καὶ ἐκ τοῦ λόγου· καὶ γὰρ πάντες, φησί,<note type="apparatus" n="34" target="#p109-33">ἐκ om. L</note>
               <lb n="35" xml:id="p109-34"/>τὰς ἀρχὰς ἐναντίας ὑπέθεντο καὶ οἱ ἓν καὶ οἱ πλείω λέγοντες τὰ ὄντα.
-              <lb n="36" xml:id="p109-35"/>τ’
             </p>
             <pb n="110" facs="https://archive.org/download/commentariaina16akaduoft/page/n135.jpg"/>
             <p>
@@ -4604,7 +4603,7 @@
               <lb n="18" xml:id="p118-17"/>κάτω πάλιν ἐκ τῶν ἄνωθεν, καὶ ἐπὶ πάντων ὁμοίως. εἰ μή τις λαμβάνει<note type="apparatus" n="18" target="#p118-17">λαμβάνη M: num λαμβάνοι? ἂν (vel ἐὰν) μή τις λαμβάνῃ Arist. libri</note><milestone type="alt-edition" unit="line" ed="Trincavelli 1535" n="40"/>
               <lb n="19" xml:id="p118-18"/>κατὰ συμβεβηκός. ἀδύνατον, φησί, μὴ ἐξ ἐναντίου εἰς ἐναντίον εἶναι<note type="apparatus" n="19" target="#p118-18">κατὰ συμ: (sic) K ἐναντίου LK: ἐναντίων Mt</note>
               <lb n="20" xml:id="p118-19"/>τὴν γένεσιν, εἰ μή τι κατὰ συμβεβηκός· οἷον εἰ γίνεταί τι λευκὸν ἐκ μέλανος,<note type="apparatus" n="20" target="#p118-19">εἰ (post οἷον) om. K</note>
-              <lb n="21" xml:id="p118-20"/>συμβέβηκε δὲ τὸ μέλαν εἶναι καὶ θερμόν, λέγοιτο ἂν κατὰ συμβέβηκὸς
+              <lb n="21" xml:id="p118-20"/>συμβέβηκε δὲ τὸ μέλαν εἶναι καὶ θερμόν, λέγοιτο ἂν κατὰ συμβεβηκὸς
               <lb n="22" xml:id="p118-21"/>ἐκ θερμοῦ τὸ λευκὸν γεγονέναι, διότι ἐξ οὗ γέγονε τοῦ μέλανος<note type="apparatus" n="22" target="#p118-21">λευκὸν γεγονέναι Mt: μέλαν γενέσθαι LK τοῦ μέλανος] τὸ μέλαν L</note>
               <lb n="23" xml:id="p118-22"/>συνέβη θερμὸν εἶναι. ὁμοίως καὶ ὁ μουσικὸς εἰ θερμαίνοιτο, κατὰ συμβεβηκὸς<note type="apparatus" n="23" target="#p118-22">θερμῷ εἶναι L</note>
               <lb n="24" xml:id="p118-23"/>ἐκ μουσικοῦ θερμὸν λέγεται γεγονέναι, διότι τὸ ψυχρὸν ἐξ οὗ γέγονε
@@ -4696,7 +4695,7 @@
               <lb n="26" xml:id="p120-25"/>καὶ τούτων οὐ τῶν τυχόντων οὔτε ἀναρμοστίας οὔτε ἀσυνθεσίας οὔτε<note type="apparatus" n="26" target="#p120-25">καὶ LK: κἀκ Mt οὐ] ἐκ K</note>
               <lb n="27" xml:id="p120-26"/>ἀταξίας οὔτε τοῦ ἀσχηματίστου, ἀλλὰ τῶν προσεχῶς ἑκάστῃ συνθέσει ἢ
               <lb n="28" xml:id="p120-27"/>ἁρμονίᾳ ἢ τῶν ἄλλων τινὶ ἀντικειμένων. εἴη γὰρ ἂν ἀσυνθεσία ὡς πρὸς
-              <lb n="29" xml:id="p120-28"/>τὴν σύνθεσιν τῆς οἰκίας ἢ τῆς νεὼς ἢ ἡ τοῦ ἀνδριάντος· ἀλλ’ οὐχ οἷόν<note type="apparatus" n="29" target="#p120-28">ἡ τῆς Mt: ἢ τῆς LK ἡ (post ἤ) om. L</note>
+              <lb n="29" xml:id="p120-28"/>τὴν σύνθεσιν τῆς οἰκίας ἡ τῆς νεὼς ἢ ἡ τοῦ ἀνδριάντος· ἀλλ’ οὐχ οἷόν<note type="apparatus" n="29" target="#p120-28">ἡ τῆς Mt: ἢ τῆς LK ἡ (post ἤ) om. L</note>
               <lb n="30" xml:id="p120-29"/>τε ἐκ ταύτης γενέσθαι οἰκίαν· ὥστε ὡρισμένην τινὰ ἀνάγκη εἶναι ἀσυνθεσίαν<note type="apparatus" n="30 et 31" target="#p120-29 #p120-30">τινὰ et 31 καὶ (post εἰ) om. L</note>
               <lb n="31" xml:id="p120-30"/>ἐξ ἧς ἡ οἰκία, εἰ καὶ μὴ κατὰ ἄτομόν τι, ἀλλ’ ἐν πλάτει· πλὴν<note type="apparatus" n="31" target="#p120-30">πλάτει (in M nescio quid correctum) KM: πλατεῖ (L) t</note><milestone type="alt-edition" unit="line" ed="Trincavelli 1535" n="40"/>
             </p>
@@ -4862,7 +4861,7 @@
               <lb n="4" xml:id="p125-3"/>τοῦ ἀγαθοῦ καὶ τοῦ κακοῦ ἀφεστήκασιν, ἀλλὰ τὸ μὲν μᾶλλον τὸ δὲ ἧττον),<note type="apparatus" n="4" target="#p125-3">κακοῦ] κακ_ (sic) K</note>
               <lb n="5" xml:id="p125-4"/>ἀλλὰ πάντες τὰ τὴν αὐτὴν ἀπόστασιν ἀφεστηκότα τοῦ ἀγαθοῦ καὶ τοῦ<note type="apparatus" n="5" target="#p125-4">ἀπόφασιν ante corr. M</note>
               <lb n="6" xml:id="p125-5"/>κακοῦ ταῦτα λαμβάνουσι. τῷ οὖν πάντας ἐκ τῆς αὐτῆς συστοιχίας<note type="apparatus" n="6" target="#p125-5">κακοῦ] κακ_ K</note>
-              <lb n="7" xml:id="p125-6"/>λαμβάνειν τὴν καθ’ αὑτοὺς ἐναντίωσιν, ταύτῃ πάντης τὰ αὐτὰ λέγουσιν,<note type="apparatus" n="7" target="#p125-6">αὐτοὺς (cf. Simplic. p. 189,35 τὰς οἰκείας ἀντιθέσεις, ut correxit Diels) scripsi: αὐτὴν L: αὐτῶν K: αὐτὸ Mt</note>
+              <lb n="7" xml:id="p125-6"/>λαμβάνειν τὴν καθ’ αὑτοὺς ἐναντίωσιν, ταύτῃ <choice><sic>πάντης</sic><corr>πάντες</corr></choice> τὰ αὐτὰ λέγουσιν,<note type="apparatus" n="7" target="#p125-6">αὐτοὺς (cf. Simplic. p. 189,35 τὰς οἰκείας ἀντιθέσεις, ut correxit Diels) scripsi: αὐτὴν L: αὐτῶν K: αὐτὸ Mt</note>
               <lb n="8" xml:id="p125-7"/>ἕτερα δὲ τῷ τοὺς μὲν τῷ λόγῳ γνώριμα μᾶλλον τοὺς δὲ τῇ αἰσθήσει,<note type="apparatus" n="8" target="#p125-7">τῷ λόγῳ] τὸ λόγω K</note>
               <lb n="9" xml:id="p125-8"/>καὶ τοὺς μὲν καθολικώτερα τοὺς δὲ μερικώτερα. ἐπεὶ οὖν κοινὰς πάντων<note type="apparatus" n="9" target="#p125-8">μικρώτερα K</note><milestone type="alt-edition" unit="line" ed="Trincavelli 1535" n="10"/>
               <lb n="10" xml:id="p125-9"/>ἀρχὰς ζητοῦμεν, δῆλον ὅτι κατορθοῦσι μᾶλλον οἱ τὰς καθολικωτέρας ἐναντιώσεις
@@ -6556,7 +6555,7 @@
               <lb n="17" xml:id="p168-16"/>ὕλη αὐθυπόστατόν τι πρᾶγμά ἐστι, τὸ δ’ εἶδος ἄνευ ὕλης εἶναι οὐ δύναται,<note type="apparatus" n="17" target="#p168-16">αὐθυπότατόν (sic) Μ</note>
               <lb n="18" xml:id="p168-17"/>τῆς ὕλης μηδὲν δεομένης τοῦ εἴδους εἰς τὸ εἶναι· μᾶλλον δὲ πάλιν
               <lb n="19" xml:id="p168-18"/>τὸ εἶδος οὐσία ἤπερ ἡ ὕλη, διότι ἡ μὲν κοσμεῖται καὶ τάττεται καὶ ὁρίζεται<note type="apparatus" n="19" target="#p168-18">ἤπερ Μ: εἴπερ (item v. 22 et 23) Κ</note><milestone type="alt-edition" unit="line" ed="Trincavelli 1535" n="25"/>
-              <lb n="20" xml:id="p168-19"/>τῇ παρουσίᾳ τοῦ εἴδος, τὸ δ’ ὁρίζει καὶ κοσμεῖ, καὶ ὅτι ἕκαστον τῶν<note type="apparatus" n="20" target="#p168-19">ὅτι om. Κ</note>
+              <lb n="20" xml:id="p168-19"/>τῇ παρουσίᾳ τοῦ <choice><sic>εἴδος</sic><corr>εἴδους</corr></choice>, τὸ δ’ ὁρίζει καὶ κοσμεῖ, καὶ ὅτι ἕκαστον τῶν<note type="apparatus" n="20" target="#p168-19">ὅτι om. Κ</note>
               <lb n="21" xml:id="p168-20"/>ὄντων οὐ κατὰ τὴν ὕλην ἀλλὰ κατὰ τὸ εἶδος χαρακτηρίζεται. ὥστε κατά<note type="apparatus" n="21" target="#p168-20">ὄντων] οὕτων Κ ἀλλὰ om. superser. L</note>
               <lb n="22" xml:id="p168-21"/>τι μὲν μᾶλλον οὐσία ἡ ὕλη ἤπερ τὸ εἶδος, κατά τι δὲ πάλιν μᾶλλον οὐσία<note type="apparatus" n="22" target="#p168-21">μᾶλλον (post πάλιν) om. L</note>
               <lb n="23" xml:id="p168-22"/>τὸ εἶδος ἤπερ ἡ ὕλη.
@@ -6980,13 +6979,13 @@
             <p>
               <lb n="1" xml:id="p180-0"/>σπέρματος ἢ ἐκ τῆς ὕλης. ὥσπερ οὖν, φησίν, ἐπὶ τούτων ἔχει, οὕτως καὶ
               <lb n="2" xml:id="p180-1"/>ἐπὶ τοῦ ὄντος εἰ γίνοιτό τι ἁπλῶς ὄν, οὐκ ἐξ ὄντος γενήσεται (ἤδη γὰρ<note type="apparatus" n="2" target="#p180-1">γένοιτο K</note><note type="apparatus" n="2-3" target="#p180-1 #p180-2">post ἤδη γὰρ ἔστιν addit ἀλλ’ ἐκ τοῦ τὶ μὲν ὄντος τὶ δὲ μὴ ὄντος· ἡ γὰρ ὕλη ἐστὶ μὲν αὐτὸ δὴ τοῦτο ὁ (h. e. ὃ) ἐστίν· ἄνος δὲ οὐκ ἔστιν L</note>
-              <lb n="3" xml:id="p180-2"/>ἔστιν), ἀλλ’ ἐκ τοῦ πάντῃ μὴ ὄντος. ἀλλ’ οὐδὲ ἐκ μὴ ὄντος ἁπλῶς δυνα<note type="apparatus" n="3" target="#p180-2">ἀλλ’ ἐκ] ἀλλ’ οὐκ L. ceterum cf. Themist. p. 152, 11 sqq. πάντι (sic) K</note>
-              <lb n="4" xml:id="p180-3"/>τὸν γενέσθαι· τὸ γὰρ κυρίως ἐκ μὴ ὄντος εἴπομεν σημαίνειν τὸ ᾗ μὴ ὄν,<note type="apparatus" n="4" target="#p180-3">εἴπομεν p. 177,</note>
+              <lb n="3" xml:id="p180-2"/>ἔστιν), ἀλλ’ ἐκ τοῦ πάντῃ μὴ ὄντος. ἀλλ’ οὐδὲ ἐκ μὴ ὄντος ἁπλῶς δυνατὸν<note type="apparatus" n="3" target="#p180-2">ἀλλ’ ἐκ] ἀλλ’ οὐκ L. ceterum cf. Themist. p. 152, 11 sqq. πάντι (sic) K</note>
+              <lb n="4" xml:id="p180-3"/>γενέσθαι· τὸ γὰρ κυρίως ἐκ μὴ ὄντος εἴπομεν σημαίνειν τὸ ᾗ μὴ ὄν,<note type="apparatus" n="4" target="#p180-3">εἴπομεν p. 177,</note>
               <lb n="5" xml:id="p180-4"/>τὸ δὲ καθ’ αὑτὸ εἴρηται τὸ μέρος γινόμενον τοῦ ὑποκειμένου· ἀδύνατον<note type="apparatus" n="5" target="#p180-4">sqq.</note>
               <lb n="6" xml:id="p180-5"/>ἄρα γενέσθαι τὸ ἁπλῶς ὄν, ἀλλὰ τὸ τὶ ὂν γίνεται ἐκ τινὸς μὴ ὄντος οὐ
-              <lb n="7" xml:id="p180-6"/>καθὸ μὴ ὂν (οὐδὲ γὰρ ὑπομένει τὸ ὂν τὸ μὴ ὄν), ἀλλ’ ᾗ κατὰ συμβεβη<note type="apparatus" n="7" target="#p180-6">ἀλλ’ ᾗ LM: ἀλλ’ εἰ K: ἀλλὰ t</note>
-              <lb n="8" xml:id="p180-7"/>κὸς μόνον. ζητήσεις δ’ εἰ καλῶς εἴρηται τὸ ἐκ τοῦ ζῴου ζῷον γίνε<note type="apparatus" n="8" target="#p180-7">μόνον om. K ζητήσεις Kt: ζητήσει LM</note><note type="apparatus" n="8-9" target="#p180-7 #p180-8">γίνεσθαι ζῷον L</note>
-              <lb n="9" xml:id="p180-8"/>σθαι, οἷον εἰ ἐξ ἵππου κύων γίνοιτο ἢ σφῆκες ἢ ἐκ ταύρων μέλισσαι·<note type="apparatus" n="9" target="#p180-8">εἰ om. superscr. M ἐξ ἵππου γίνοιτο κύων K: κύων ἐξ ἵππου γίνοιτο Aristotelis libri γένοιτο L ταύρου t</note>
+              <lb n="7" xml:id="p180-6"/>καθὸ μὴ ὂν (οὐδὲ γὰρ ὑπομένει τὸ ὂν τὸ μὴ ὄν), ἀλλ’ ᾗ κατὰ συμβεβηκὸς<note type="apparatus" n="7" target="#p180-6">ἀλλ’ ᾗ LM: ἀλλ’ εἰ K: ἀλλὰ t</note>
+              <lb n="8" xml:id="p180-7"/>μόνον. ζητήσεις δ’ εἰ καλῶς εἴρηται τὸ ἐκ τοῦ ζῴου ζῷον γίνεσθαι,<note type="apparatus" n="8" target="#p180-7">μόνον om. K ζητήσεις Kt: ζητήσει LM</note><note type="apparatus" n="8-9" target="#p180-7 #p180-8">γίνεσθαι ζῷον L</note>
+              <lb n="9" xml:id="p180-8"/>οἷον εἰ ἐξ ἵππου κύων γίνοιτο ἢ σφῆκες ἢ ἐκ ταύρων μέλισσαι·<note type="apparatus" n="9" target="#p180-8">εἰ om. superscr. M ἐξ ἵππου γίνοιτο κύων K: κύων ἐξ ἵππου γίνοιτο Aristotelis libri γένοιτο L ταύρου t</note>
               <lb n="10" xml:id="p180-9"/>οὐδὲ γὰρ ἐκ ζῴων ὄντων ταῦτα γίνεται, ἀλλ’ ὥσπερ καὶ ἐξ ἄλλης<note type="apparatus" n="10" target="#p180-9">ἐκ om. Mt ἐξ om. L</note>
               <lb n="11" xml:id="p180-10"/>τινὸς ὕλης φθαρέντος τοῦ ζῴου καὶ τῆς ὕλης αὐτοῦ ἀναλυθείσης καὶ οὕτως<note type="apparatus" n="11" target="#p180-10">καὶ ἐκ τῆς ὕλης L ἀναλυθήσης K</note>
               <lb n="12" xml:id="p180-11"/>ἄλλο εἶδος προσλαβούσης ζῴου. ὥστε ἐπὶ τούτων πάντων οὐχ ὡς ἐκ ζῴου<note type="apparatus" n="12" target="#p180-11">προλαβούσης L τούτων πάντων KMt: πάντων τούτων L</note>
@@ -6997,8 +6996,8 @@
               <lb n="17" xml:id="p180-16"/>ἐπὶ τούτου ἐρεῖς ἢ ἐφ’ ἡστινοσοῦν ἄλλης ὕλης; ἕκαστον γὰρ δύναταί ποτε<note type="apparatus" n="17-18" target="#p180-16 #p180-17">γὰρ ποτὲ δύναται γεγενῆσθαι ὕλη Mt</note>
               <lb n="18" xml:id="p180-17"/>ὕλη γεγενῆσθαι ζῴου. εἰ οὖν δεῖ πρὸς τὰ νῦν λεγόμενα οἰκειοτέροις<note type="apparatus" n="18" target="#p180-17">γεγενεῖσθαι K λεγόμενα om. Mt</note>
               <lb n="19" xml:id="p180-18"/>χρήσασθαι παραδείγμασι, χρησόμεθα τοῖς ἐκ σκωλήκων καὶ καμπῶν γινομένοις<note type="apparatus" n="19" target="#p180-18">χρησώμεθα K σκωλύκων K</note>
-              <lb n="20" xml:id="p180-19"/>πτηνοῖς· κάμπαι γάρ τινες πρότερον οὖσαι καὶ σκώληκες μὴ φθα<note type="apparatus" n="20" target="#p180-19">κάμπται K πρώτον L</note>
-              <lb n="21" xml:id="p180-20"/>ρεῖσαι ἐξ εἴδους εἰς εἶδος μεταβάλλουσι. καὶ ἔστιν ἐνταῦθα γένεσις ἐκ ζῴου
+              <lb n="20" xml:id="p180-19"/>πτηνοῖς· κάμπαι γάρ τινες πρότερον οὖσαι καὶ σκώληκες μὴ φθαρεῖσαι<note type="apparatus" n="20" target="#p180-19">κάμπται K πρώτον L</note>
+              <lb n="21" xml:id="p180-20"/>ἐξ εἴδους εἰς εἶδος μεταβάλλουσι. καὶ ἔστιν ἐνταῦθα γένεσις ἐκ ζῴου
               <lb n="22" xml:id="p180-21"/>εἰς ζῷον· μεῖναν γὰρ ζῷον γέγονεν ἕτερον ζῷον. καὶ δῆλον ὅτι ἐνταῦθα
               <lb n="23" xml:id="p180-22"/>οὐχ ᾗ ζῷον ἡ γένεσις. ἦν γὰρ ζῷον μηδὲν παρατρέψαν τῆς τοῦ ζῴου
               <lb n="24" xml:id="p180-23"/>οὐσίας· τὸν γὰρ αὐτὸν ὁρισμὸν τοῦ ζῴου καὶ ὅτε ἦν κάμπη ἢ σκώληξ<note type="apparatus" n="24" target="#p180-23">ἦν] ἡ M</note>
@@ -7659,7 +7658,7 @@
               <lb n="5" xml:id="p198-4"/>δῆλον ὅτι ὥσπερ τὸ εἶδος ἐν τοῖς ἐμψύχοις τρανέστερον, οὕτω καὶ ἡ τῆς<note type="apparatus" n="5" target="#p198-4">ἐν τῶν ἐμψύχων (sic) K</note><note type="apparatus" n="5-6" target="#p198-4 #p198-5">τῆς φύσεως] φύσις L</note>
               <lb n="6" xml:id="p198-5"/>φύσεως πρόνοια. δῆλον οὖν καὶ ἐντεῦθεν, ὅτι συμπεριλήψεται ὁ ὅρος καὶ
               <lb n="7" xml:id="p198-6"/>τὴν τῶν ἐμψύχων φύσιν, ἥτις ἐστὶν ἡ ψυχή· ἡ γὰρ τῶν ἐμψύχων ζωὴ<note type="apparatus" n="7" target="#p198-6">γὰρ τῶν] γὰρ τὰ L</note>
-              <lb n="8" xml:id="p198-7"/>οὐδὲν ἄλλο ἐστὶν ἡ ψυχή.<note type="apparatus" n="8" target="#p198-7">ψυχή in ras. L</note>
+              <lb n="8" xml:id="p198-7"/>οὐδὲν ἄλλο ἐστὶν ἢ ψυχή.<note type="apparatus" n="8" target="#p198-7">ψυχή in ras. L</note>
               <lb n="9" xml:id="p198-8"/>Ἀπορήσειε δ’ ἄν τις πρὸς τὸν ὁρισμὸν τῆς φύσεως, πῶς φαμεν αὐτὴν<note type="apparatus" n="9" target="#p198-8">αὐτὴν Mt: αὐτὴν K: αὐτὸν L</note>
               <lb n="10" xml:id="p198-9"/>εἶναι ἀρχὴν κινήσεως καὶ ἠρεμίας· εἰ γὰρ καὶ τὰ οὐράνια σώματα φυσικά,<note type="apparatus" n="10" target="#p198-9">φυσικὰ σώματα Mt</note><milestone type="alt-edition" unit="line" ed="Trincavelli 1535" n="20"/>
               <lb n="11" xml:id="p198-10"/>ἐκεῖνα δὲ στάσεως ἐν ἑαυτοῖς ἀρχὴν οὐκ ἔχει (ἀεικίνητα γάρ ἐστιν), ἔοικε
@@ -7791,7 +7790,7 @@
               <lb n="29" xml:id="p201-28"/>τῶν παρὰ φύσιν γινομένων· ὑποκείσθω γάρ τις κιθαρῳδὸς ἁρμόσας λύραν<note type="apparatus" n="29" target="#p201-28">γινομένων ex κινουμένων corr. M</note>
               <lb n="30" xml:id="p201-29"/>κατά τινα τῶν ἁρμονιῶν, εἶτα ἀνακρουέσθω τι μέλος, ἔξωθεν δέ τις ἐπιχαυνούτω<note type="apparatus" n="30" target="#p201-29">ἁρμονίων K ἀνακρούεσθαι t</note>
               <lb n="31" xml:id="p201-30"/>τινὰς ἢ πάσας τὰς χορδάς, ἢ γοῦν, ἵνα ἐγγυτέρω γενώμεθα τοῦ<note type="apparatus" n="31" target="#p201-30">ἢ γοῦν ex ἤγουν corr. M ἐγγυτέρω t</note>
-              <lb n="32" xml:id="p201-31"/>παραδείγματος, ὑγρότητι ἢ ξηρότητι τοῦ περιέχοντος παθοῦσαι μεθαρμόζέσθωσαν<note type="apparatus" n="32" target="#p201-31">παθοῦσα (L)t</note>
+              <lb n="32" xml:id="p201-31"/>παραδείγματος, ὑγρότητι ἢ ξηρότητι τοῦ περιέχοντος παθοῦσαι μεθαρμοζέσθωσαν<note type="apparatus" n="32" target="#p201-31">παθοῦσα (L)t</note>
               <lb n="33" xml:id="p201-32"/>αἱ χορδαί, εἶτα ὁ κιθαρῳδὸς κινείτω τὰς χορδὰς τοῖς δακτύλοις
               <lb n="34" xml:id="p201-33"/>οὕτως, ὡς μέλος τι τεχνικὸν ἀποτελέσαι ἄν, εἴ γε ἦσαν ἡρμοσμέναι κατὰ<note type="apparatus" n="34" target="#p201-33">οὕτω L ἀποτελέσαιαν K</note><milestone type="alt-edition" unit="line" ed="Trincavelli 1535" n="50"/>
             </p>
@@ -7874,7 +7873,7 @@
           <div type="textpart" subtype="lemma" n="4">
             <milestone unit="bekker" n="192b19"/>
             <quote type="lemma">
-              <lb n="1" xml:id="p204-0"/>Ἧι δὲ συμβέβηκεν αὐτοῖς λιθίνοις ἢ γηΐνοις ἢ μικτοῖς f<note type="apparatus" n="1" target="#p204-0">Ἧι om. (rubr. addend.) K λιθίνην K</note><note type="apparatus" n="1-2" target="#p204-0 #p204-1">ἢ γηΐνοις — τούτων om. K</note><note type="apparatus" n="1" target="#p204-0">γηΐνοις εἶναι t: num εἶναι post τούτων invenit Philoponus? cf. Aristotelis libri</note>
+              <lb n="1" xml:id="p204-0"/>Ἧι δὲ συμβέβηκεν αὐτοῖς λιθίνοις ἢ γηΐνοις ἢ μικτοῖς<note type="apparatus" n="1" target="#p204-0">Ἧι om. (rubr. addend.) K λιθίνην K</note><note type="apparatus" n="1-2" target="#p204-0 #p204-1">ἢ γηΐνοις — τούτων om. K</note><note type="apparatus" n="1" target="#p204-0">γηΐνοις εἶναι t: num εἶναι post τούτων invenit Philoponus? cf. Aristotelis libri</note>
               <lb n="2" xml:id="p204-1"/>ἐκ τούτων.
             </quote>
             <p>
@@ -7912,7 +7911,7 @@
               <lb n="15" xml:id="p204-14"/>πάντα οὐσίαι.<note type="apparatus" n="15" target="#p204-14">οὐσίαι M: οὐσία (L)t et Aristoteles</note>
             </quote>
             <p>
-              <lb n="16" xml:id="p204-15"/>Εἰπὼν τί ἐστι φύσις λέγει τί τὸ φύσιν ἔχον, καί φησιν ὅτι ὅσα ἐν f<note type="apparatus" n="16" target="#p204-15">φύσις LK: φύσει Mt</note><note type="apparatus" n="16-17" target="#p204-15 #p204-16">ἐναυτοῖς K</note><milestone type="alt-edition" unit="folio" ed="Trincavelli 1535" n="f 1v"/>
+              <lb n="16" xml:id="p204-15"/>Εἰπὼν τί ἐστι φύσις λέγει τί τὸ φύσιν ἔχον, καί φησιν ὅτι ὅσα ἐν<note type="apparatus" n="16" target="#p204-15">φύσις LK: φύσει Mt</note><note type="apparatus" n="16-17" target="#p204-15 #p204-16">ἐναυτοῖς K</note><milestone type="alt-edition" unit="folio" ed="Trincavelli 1535" n="f 1v"/>
               <lb n="17" xml:id="p204-16"/>ἑαυτοῖς ἀρχὴν τοιαύτην ἔχει οἵαν εἰρήκαμεν, λέγω δὴ κινήσεως καὶ ἠρεμίας,
               <lb n="18" xml:id="p204-17"/>τίνα δὲ ταῦτά ἐστιν ἐπήγαγεν εἰπὼν ὅτι οὐσίαι. πόθεν δ’ ὅτι
               <lb n="19" xml:id="p204-18"/>οὐσίαι, διὰ τῆς προσθήκης ὑπέμνησεν εἰπὼν ὅτι ὑποκείμενόν τί ἐστι
@@ -8080,12 +8079,11 @@
               <lb n="30" xml:id="p208-29"/>Ὅτι μὲν οὖν ἡ ὕλη φύσις, οὕτω δεδείχθω, ὅτι δὲ τὸ εἶδος φύσις<note type="apparatus" n="30" target="#p208-29">οὖν Kt: om. LM</note>
               <lb n="31" xml:id="p208-30"/>μᾶλλον τῆς ὕλης, διὰ πλειόνων ἐπιχειρημάτων ἀποδείκνυσι, καὶ πρῶτον<note type="apparatus" n="31" target="#p208-30">καὶ Κ: om. LMt πρῶτον L: α’ Κ: πρώτου Mt</note>
               <lb n="32" xml:id="p208-31"/>μὲν ἐκ τοῦ κατὰ τὰς τέχνας παραδείγματος. τότε, φησίν, ἕκαστον τῶν<note type="apparatus" n="32" target="#p208-31">παραδείγματα Κ</note>
-              <lb n="33" xml:id="p208-32"/>τεχνητῶν λέγεται εἶναι καὶ ἔχειν τὴν ἑαυτοῦ τέχνην, ὅταν ἐνεργείᾳ ᾖ τοιοῦη*<milestone type="alt-edition" unit="line" ed="Trincavelli 1535" n="45"/>
-              <lb n="34" xml:id="p208-33"/>
+              <lb n="33" xml:id="p208-32"/>τεχνητῶν λέγεται εἶναι καὶ ἔχειν τὴν ἑαυτοῦ τέχνην, ὅταν ἐνεργείᾳ ᾖ τοιοῦτον<milestone type="alt-edition" unit="line" ed="Trincavelli 1535" n="45"/>
             </p>
             <pb n="209" facs="https://archive.org/download/commentariaina16akaduoft/page/n234.jpg"/>
             <p>
-              <lb n="1" xml:id="p209-0"/>τὸν οἷον καὶ λέγεται, οὐχ ὅταν δυνάμει. λέγεται γὰρ τὴν τέχνην τοῦ
+              <lb n="1" xml:id="p209-0"/>οἷον καὶ λέγεται, οὐχ ὅταν δυνάμει. λέγεται γὰρ τὴν τέχνην τοῦ
               <lb n="2" xml:id="p209-1"/>ἀνδριάντος ἔχειν ἢ τῆς κλίνης οὐ τὸ δυνάμει ἀνδριὰς ἢ τὸ δυνάμει κλίνη,<note type="apparatus" n="2" target="#p209-1">ἀνδρειὰς K</note>
               <lb n="3" xml:id="p209-2"/>οἷον ὁ χαλκὸς ὅς ἐστιν ὕλη τοῦ ἀνδριάντος, ἢ τὸ ξύλον ὅπερ ἐστὶν ὕλη<note type="apparatus" n="3" target="#p209-2">ὁ om. K</note>
               <lb n="4" xml:id="p209-3"/>τῆς κλίνης· οὐ γὰρ ἐπειδὴ τὸ ξύλον δυνάμει ἐστὶ κλίνη, τὴν τέχνην φαμὲν
@@ -8539,7 +8537,6 @@
               <lb n="31" xml:id="p219-30"/>αὐτὰ πάσης ὕλης τῇ διανοίᾳ οὕτω τὰ συμβαίνοντα αὐτοῖς θεωρεῖ,
               <lb n="32" xml:id="p219-31"/>ὁ μέντοι φυσικὸς ἐπινοῶν τὸ σχῆμα καὶ τὰ λοιπὰ τῶν παθῶν, ὡς ἐν ὕλῃ<note type="apparatus" n="32" target="#p219-31">τὰ σχήματα K</note>
               <lb n="33" xml:id="p219-32"/>αὐτὰ θεωρεῖ· ἢ γὰρ ἐν οὐρανῷ ἢ ἐν ἡλίῳ ἢ ἐν γῇ ἢ ἐν ἄλλῳ τινὶ τῶν
-              <lb n="34" xml:id="p219-33"/>τ’
             </p>
             <pb n="220" facs="https://archive.org/download/commentariaina16akaduoft/page/n245.jpg"/>
             <p>
@@ -8833,7 +8830,7 @@
               <lb n="4" xml:id="p227-3"/>πάθη χωρὶς ὕλης ἐπινοούσης, ἡ ὀπτικὴ ὑφεστώσας λαμβάνει τὰς τοιαύτας<note type="apparatus" n="4" target="#p227-3">ὕλης om. Mt τὰς τοιαύτας λαμβάνει Mt</note>
               <lb n="5" xml:id="p227-4"/>γραμμὰς καὶ τὰ παρακολουθοῦντα αὐταῖς πάθη οὐκ ἄνευ κινήσεως καὶ<note type="apparatus" n="5" target="#p227-4">αὐταῖς K</note>
               <lb n="6" xml:id="p227-5"/>ὕλης· ὁμοίως καὶ 〈ἡ〉 ἀστρονομία τὰ ἐν τῷ οὐρανῷ σχήματα καὶ ὅσα ἄλλα<note type="apparatus" n="6" target="#p227-5">ἡ addidit t τὰ om. M</note>
-              <lb n="7" xml:id="p227-6"/>ἐπὶ τῆς κινήσεως αὐτῶν μαθηματικῶς δείκνυσιν, ἐπειδὴ ἐνεργείᾳ ὑφέστηκότα<note type="apparatus" n="7" target="#p227-6">αὐτῶν K</note><note type="apparatus" n="7-8" target="#p227-6 #p227-7">ταῦτα ὑφεστηκότα Mt</note><milestone type="alt-edition" unit="line" ed="Trincavelli 1535" n="25"/>
+              <lb n="7" xml:id="p227-6"/>ἐπὶ τῆς κινήσεως αὐτῶν μαθηματικῶς δείκνυσιν, ἐπειδὴ ἐνεργείᾳ ὑφεστηκότα<note type="apparatus" n="7" target="#p227-6">αὐτῶν K</note><note type="apparatus" n="7-8" target="#p227-6 #p227-7">ταῦτα ὑφεστηκότα Mt</note><milestone type="alt-edition" unit="line" ed="Trincavelli 1535" n="25"/>
               <lb n="8" xml:id="p227-7"/>ταῦτα λαμβάνει, μετὰ τῆς ὕλης αὐτὰ θεωρεῖ· πάλιν δὲ αὖ γεωμετρίας<note type="apparatus" n="8" target="#p227-7">μετὰ LK: καὶ μετὰ Mt</note><note type="apparatus" n="8-9" target="#p227-7 #p227-8">γεωμετρίας τε καὶ L</note>
               <lb n="9" xml:id="p227-8"/>καὶ ἀριθμητικῆς ἁπλῶς διπλάσιον ἡμιόλιον καὶ τὰ τοιαῦτα χωριστῶς σκοπούσης,<note type="apparatus" n="9" target="#p227-8">διπλάσιον K χωριστὰ L</note>
               <lb n="10" xml:id="p227-9"/>ἐπειδὴ ὁ ἁρμονικὸς ἐνεργείᾳ ὑπάρχοντας τοὺς τοιούτους θεωρεῖ<note type="apparatus" n="10" target="#p227-9">ἐπειδὴ om. t</note>
@@ -8902,7 +8899,6 @@
               <lb n="27" xml:id="p228-26"/>ἐποιήσαντο λόγον, ὅσοι δὲ καὶ ἐμνήσθησαν εἰδικοῦ αἰτίου ἐπὶ βραχὺ τούτου
               <lb n="28" xml:id="p228-27"/>ἐφρόντισαν, οὗτοι δέ εἰσι Δημόκριτός τε καὶ Ἐμπεδοκλῆς. ὁ μὲν γὰρ Δημόκριτος
               <lb n="29" xml:id="p228-28"/>ὕλην λέγων τὸ ὑποκείμενον ταῖς ἀτόμοις εἰδοποιοὺς αἰτίας ἔλεγε
-              <lb n="30" xml:id="p228-29"/>ε
             </p>
             <pb n="229" facs="https://archive.org/download/commentariaina16akaduoft/page/n254.jpg"/>
             <p>
@@ -9227,7 +9223,7 @@
             <milestone unit="bekker" n="194a33"/>
             <quote type="lemma">
               <lb n="9" xml:id="p237-8"/>Ἐπεὶ καὶ ποιοῦσιν αἱ τέχναι τὴν ὕλην αἱ μὲν ἁπλῶς<note type="apparatus" n="9-11" target="#p237-8 #p237-9 #p237-10">τὴν ὕλην — ὑπαρχόντων μβα τ om. K</note>
-              <lb n="10" xml:id="p237-9"/>αἱ δὲ εὐεργόν, καὶ χρώμεθα ὡς ἡμῶν ἕνεκα πάντων ὑπάρχόντων.
+              <lb n="10" xml:id="p237-9"/>αἱ δὲ εὐεργόν, καὶ χρώμεθα ὡς ἡμῶν ἕνεκα πάντων ὑπαρχόντων.
               <lb n="11" xml:id="p237-10"/>
             </quote>
             <p>
@@ -9279,7 +9275,7 @@
               <lb n="24" xml:id="p238-23"/>αἱ δὲ δύο περὶ τὸ εἶδος. ἐπεὶ οὖν ταῦτα εἰπὼν οὐ προσέθηκε τὸ<note type="apparatus" n="24-25" target="#p238-23 #p238-24">τὸ λοιπὸν (λεῖπον K) τῇ ἀπορίᾳ LK: τῇ ἀπορίᾳ τὸ λοιπὸν Mt</note>
               <lb n="25" xml:id="p238-24"/>λοιπὸν τῇ ἀπορίᾳ, τοῦτο δὲ ἦν ὅτι μήποτε οὖν καὶ ἐπὶ τῶν φυσικῶν οὐ<note type="apparatus" n="25" target="#p238-24">οὖν om. K</note>
               <lb n="26" xml:id="p238-25"/>τῆς αὐτῆς ἐστι φυσικῆς ἐπιστήμης περὶ τὴν ὕλην καὶ τὸ εἶδος καταγίνεσθαι,<note type="apparatus" n="26-27" target="#p238-25 #p238-26">καταγενέσθαι Mt</note>
-              <lb n="27" xml:id="p238-26"/>ἄλλα ἄλλης μὲν περὶ τὸ εἶδος ἄλλης δὲ περὶ τὴν ὕλην, διὰ τοῦτο<note type="apparatus" n="27" target="#p238-26">ἀλλὰ καὶ L</note><milestone type="alt-edition" unit="line" ed="Trincavelli 1535" n="10"/>
+              <lb n="27" xml:id="p238-26"/><choice><sic>ἄλλα</sic><corr>ἀλλὰ</corr></choice> ἄλλης μὲν περὶ τὸ εἶδος ἄλλης δὲ περὶ τὴν ὕλην, διὰ τοῦτο<note type="apparatus" n="27" target="#p238-26">ἀλλὰ καὶ L</note><milestone type="alt-edition" unit="line" ed="Trincavelli 1535" n="10"/>
               <lb n="28" xml:id="p238-27"/>ἀσάφειαν ἐνεποίησεν, ὅτι ἀπορίας ἕνεκεν ταῦτα ἐξέθετο, ἀλλὰ τῷ τὴν ἐπίλυσιν<note type="apparatus" n="28" target="#p238-27">ἀπορίας ταῦτα ἐξέθετο ἕνεκεν Mt</note>
               <lb n="29" xml:id="p238-28"/>ἐπαγαγεῖν, ὥσπερ εἴρηται, δήλην ἐποίησε τὴν ἑαυτοῦ διάνοιαν. εἰπὼν<note type="apparatus" n="29" target="#p238-28">ἀγαγεῖν L</note>
               <lb n="30" xml:id="p238-29"/>δὲ ὅτι καὶ ἡ κυβερνητικὴ ἀρχική ἐστι, μετά τινος προσδιορισμοῦ τοῦτο<note type="apparatus" n="30" target="#p238-29">ὅτι καὶ L: καὶ ὅτι Mt: ὅτι (om. καὶ) K ἀρχική] ἀρχιτεκτονικὴ K προσδιορισμένου L</note>
@@ -9359,7 +9355,7 @@
               <lb n="11" xml:id="p240-10"/>πράγματα· καὶ ὁ ἰατρὸς περὶ νεύρου σκοπῶν τὰς συμβαλλομένας
               <lb n="12" xml:id="p240-11"/>αὐτῷ ἐνεργείας εἰς τὴν ὑποκειμένην αὐτοῦ τέχνην σκοπήσει, φέρε εἰπεῖν<note type="apparatus" n="12" target="#p240-11">fort. αὐτῷ cl. p. 233,20 ἐπισκοπήσει L</note>
               <lb n="13" xml:id="p240-12"/>ὅτι κινήσεως αἴτιόν ἐστιν, οὐ μέντοι ζητήσει εἰ ἔστι τι εἶδος αὐτοῦ παρὰ<note type="apparatus" n="13" target="#p240-12">εἰ om. superscr. L</note>
-              <lb n="14" xml:id="p240-13"/>τῷ δημιουργῷ, ἢ ἐξ ὕλης καὶ εἴδος συνέστηκεν, ἀλλ’ ὅτι τῶν ἄλλων τυχὸν<note type="apparatus" n="14" target="#p240-13">τυχὸν τῶν ἄλλων Mt</note>
+              <lb n="14" xml:id="p240-13"/>τῷ δημιουργῷ, ἢ ἐξ ὕλης καὶ <choice><sic>εἴδος</sic><corr>εἴδους</corr></choice> συνέστηκεν, ἀλλ’ ὅτι τῶν ἄλλων τυχὸν<note type="apparatus" n="14" target="#p240-13">τυχὸν τῶν ἄλλων Mt</note>
               <lb n="15" xml:id="p240-14"/>ξηρότερόν ἐστιν ἢ ψυχρότερον· οὕτω καὶ ὁ φυσικὸς οὐ περὶ παντὸς ἁπλῶς<milestone type="alt-edition" unit="line" ed="Trincavelli 1535" n="50"/>
               <lb n="16" xml:id="p240-15"/>εἴδους διαλέξεται, ἀλλὰ μέχρι τινός, τοῦτο δέ ἐστιν ὅσον μὴ τῆς ὕλης κεχώρισται.
               <lb n="17" xml:id="p240-16"/>ἐρωτώμενος γὰρ τίνος ἕνεκεν, εἰ τύχοι, ἄνθρωπος ἔστιν, οὐκ<note type="apparatus" n="17" target="#p240-16">ἐρωτώμενοι M</note>
@@ -9510,7 +9506,7 @@
               <lb n="7" xml:id="p244-6"/>ὑπόκειται ἕτερόν τι, οἷον τὸ ὕδωρ, καὶ τὸ ὕδωρ ἄρα ὕλη τοῦ ἀνδριάντος·
               <lb n="8" xml:id="p244-7"/>ἀλλὰ καὶ τὸ τριχῇ διαστατόν, ὅπερ ὑπόκειται τῷ ὕδατι, καὶ ἡ πρώτη ὕλη,<note type="apparatus" n="8" target="#p244-7">ἀλλὰ — πρώτη in eras. K τὸ corr. ex τῶ M τριχῶς K καὶ ἡ] καὶ τῆ K</note>
               <lb n="9" xml:id="p244-8"/>ἥτις προσεχῶς τῷ τριχῇ διαστατῷ ὑπόκειται. εἴτε οὖν ἐξ ὕδατός τις ἡγοῖτο<note type="apparatus" n="9" target="#p244-8">ἡγεῖτο K</note>
-              <lb n="10" xml:id="p244-9"/>εἶναι τὸ τοῦ χαλκοῦ μέταλλον εἴτε ἐκ γῆς, οὐ δἂν ᾖ ὕλη ὁ χαλκός,<note type="apparatus" n="10" target="#p244-9">δἂν] δ’ ἂν libri cf. ad m 1 v 25</note>
+              <lb n="10" xml:id="p244-9"/>εἶναι τὸ τοῦ χαλκοῦ μέταλλον εἴτε ἐκ γῆς, οὗ δἂν ᾖ ὕλη ὁ χαλκός,<note type="apparatus" n="10" target="#p244-9">δἂν] δ’ ἂν libri cf. ad m 1 v 25</note>
               <lb n="11" xml:id="p244-10"/>τούτου καὶ τὰ τῷ χαλκῷ ὑποκείμενα εἴτε προσεχῶς εἴτε καὶ διὰ μέσων<note type="apparatus" n="11" target="#p244-10">καὶ τὰ] κατὰ K μέσον K</note>
               <lb n="12" xml:id="p244-11"/>πλειόνων ὕλη ἂν εἴη.
             </p>
@@ -10566,7 +10562,7 @@
               <lb n="24" xml:id="p270-23"/>δὲ καὶ προσεχέστερον μυρία καὶ ἀόριστα· καὶ γὰρ ἡ ἐπὶ λουτρὸν<note type="apparatus" n="24" target="#p270-23">μυρία] μορια (sic) K ε ἐπὶ τὸ λουτρὸν Mt</note>
               <lb n="25" xml:id="p270-24"/>πρόοδος τοῦ αὐτοῦ δύναιτ’ ἂν αἰτία εἶναι καὶ ἡ ἐπὶ ἱερὸν καὶ ἄλλα μυρία.<note type="apparatus" n="25" target="#p270-24">αἴτια K</note>
               <lb n="26" xml:id="p270-25"/>ὡσαύτως καὶ ἐπὶ τοῦ αὐτομάτου γενικώτερον μὲν τὴν φύσιν ἀποδώσεις
-              <lb n="27" xml:id="p270-26"/>πάλιν κατὰ συμβεβηκὸς ἐνεργοῦσαν περί τι δ μὴ σκοπὸς καὶ τέλος ἐστὶ
+              <lb n="27" xml:id="p270-26"/>πάλιν κατὰ συμβεβηκὸς ἐνεργοῦσαν περί τι ὃ μὴ σκοπὸς καὶ τέλος ἐστὶ
               <lb n="28" xml:id="p270-27"/>τῶν φυσικῶν λόγων, εἰδικώτερον δὲ ὡσαύτως μυρία καὶ ἀόριστα τὰ αἴτια.<note type="apparatus" n="28" target="#p270-27">τὰ om. Mt</note><milestone type="alt-edition" unit="line" ed="Trincavelli 1535" n="20"/>
               <lb n="29" xml:id="p270-28"/>Πρῶτον μὲν οὖν, ἐπειδὴ ὁρῶμεν τὰ μὲν ἀεὶ ὡσαύτως γινόμενα.<note type="apparatus" n="29-30" target="#p270-28 #p270-29">γινόμενα M</note>
               <lb n="30" xml:id="p270-29"/>ἡ πρώτη διαίρεσις ἡ εἰς τὰ ἐξ ἀνάγκης καὶ ἀεί, καὶ τὰ ἐπὶ πολύ,<note type="apparatus" n="30" target="#p270-29">ἐπὶ πολύ scripsi cum L (ubi ὡς ἐπὶ πολὺ et in proximis ὡς ἐπ’ ἔλαττον): ἐπίσης (ἐφίσης K) KMt at cf. p. 267,2 sqq.</note>
@@ -10970,7 +10966,6 @@
             </quote>
             <p>
               <lb n="24" xml:id="p279-23"/>Ὅταν τις περιτυχὼν μεγάλῳ κινδύνῳ ἐγγὺς γένηται τοῦ κινδυνεῦσαι<note type="apparatus" n="24" target="#p279-23">τις ὁ M περιπεσὼν L</note>
-              <lb n="25" xml:id="p279-24"/>ϑ’
             </p>
             <pb n="280" facs="https://archive.org/download/commentariaina16akaduoft/page/n305.jpg"/>
             <p>
@@ -11389,7 +11384,7 @@
             </p>
             <pb n="291" facs="https://archive.org/download/commentariaina16akaduoft/page/n316.jpg"/>
             <p>
-              <lb n="1" xml:id="p291-0"/>τινῶν οἷς καὶ αὐτοῖς ἕτερον οἰκεῖον ἠκολούθει τέλος, τότε τὰ μὲν προϋπαρξαντα
+              <lb n="1" xml:id="p291-0"/>τινῶν οἷς καὶ αὐτοῖς ἕτερον οἰκεῖον ἠκολούθει τέλος, τότε τὰ μὲν προϋπάρξαντα
               <lb n="2" xml:id="p291-1"/>μάτην λέγεται γεγονέναι, ὅτι μὴ γέγονεν ἐξ αὐτῶν ὃ προέκειτο τέλος,
               <lb n="3" xml:id="p291-2"/>τὰ δὲ ἐπισυμβάντα ἐκ ταὐτομάτου, ὅτι μὴ προυπαρξάσης ἐγένετο τῆς
               <lb n="4" xml:id="p291-3"/>οἰκείας ἀρχῆς. οἷον λίθος καταπεσὼν ἐπάταξε τὸν παριόντα· ἐνταῦθα γὰρ<note type="apparatus" n="4" target="#p291-3">καὶ τὸν L</note>
@@ -11520,7 +11515,7 @@
               <lb n="4" xml:id="p294-3"/>ἐστι τοῦ λούσασθαι καθ’ αὑτό, οὐ μέντοι καὶ τοῦ κομίσασθαι τὸ ἀργύριον,
               <lb n="5" xml:id="p294-4"/>ὅπερ ἀπὸ τύχης γέγονεν, αἴτιός ἐστι καθ’ αὑτὸ ὁ νοῦς· καὶ τὸ μὲν διψῆσαι
               <lb n="6" xml:id="p294-5"/>τὸν ἵππον αἴτιόν ἐστι τῷ ἵππῳ καθ’ αὑτὸ τῆς ἐκ τοῦ στρατοπέδου ἀναχωρήσεως,<note type="apparatus" n="6" target="#p294-5">ἐστι L: εἶναι KMt</note>
-              <lb n="7" xml:id="p294-6"/>τοῦ μέντοι ἀναχωρήσαντα σωθῆναι, ὅπερ ἐκ ταὐτομάτου γεγονεν,<note type="apparatus" n="7" target="#p294-6">τοῦ LK: τὸ Mt ἀναχωρήσαντας ὠθῆναι K ὥσπερ M</note>
+              <lb n="7" xml:id="p294-6"/>τοῦ μέντοι ἀναχωρήσαντα σωθῆναι, ὅπερ ἐκ ταὐτομάτου γέγονεν,<note type="apparatus" n="7" target="#p294-6">τοῦ LK: τὸ Mt ἀναχωρήσαντας ὠθῆναι K ὥσπερ M</note>
               <lb n="8" xml:id="p294-7"/>οὐκέτι ἡ δίψα ἢ ἡ ἀναχώρησις καθ’ αὑτό ἐστιν αἰτία, ἀλλὰ κατὰ<note type="apparatus" n="8" target="#p294-7">ἢ ἡ t: ἢ M: ἢ L: ἡ K</note><milestone type="alt-edition" unit="line" ed="Trincavelli 1535" n="10"/>
               <lb n="9" xml:id="p294-8"/>συμβεβηκός. ὥστε τὸ δεῖν μὲν τὸν νοῦν καὶ τὴν φύσιν αἴτια καθ’ αὑτὸ<note type="apparatus" n="9" target="#p294-8">post ὥστε add. καὶ Mt</note>
               <lb n="10" xml:id="p294-9"/>εἶναι ἄλλων τινῶν ἐκ τούτων δέδεικται, τοῦ μέντοι οὐρανοῦ εἰ τὸ αὐτόματον<note type="apparatus" n="10" target="#p294-9">τούτου L</note>
@@ -12100,7 +12095,7 @@
               <lb n="24" xml:id="p308-23"/>καὶ ἐσχημάτισεν, ὡς νῦν ὑπὸ τῆς τέχνης γίνονται· οὐ γὰρ ἔστι σοφώτερον<note type="apparatus" n="24" target="#p308-23">ὑπὸ LK: ἐπὶ Mt</note>
               <lb n="25" xml:id="p308-24"/>ἐπινοῆσαι. πάλιν εἰ τὰ ὑπὸ φύσεως γινόμενα ἠδύνατο καὶ ὑπὸ τέχνης γενέσθαι,<note type="apparatus" n="25" target="#p308-24">τὰ ὑπὸ Mt: ταὐτὸ K: τὰ ἀπὸ L at cf. p. 316, 7</note>
               <lb n="26" xml:id="p308-25"/>οὕτως ἂν αὐτὰ ἐποίησεν ἡ τέχνη ὡς νῦν ὑπὸ τῆς φύσεως γίνονται·<note type="apparatus" n="26" target="#p308-25">αὐτὰ K ἐποίησεν ἡ τέχνη LK: ἡ φύσις ἐποίησεν M: ἡ τέχνη ἐποίησεν t</note><note type="apparatus" n="26-27" target="#p308-25 #p308-26">ὡς νῦν ὑπὸ — τὰ φύσει ἐποίησεν LK: om. Mt</note>
-              <lb n="27" xml:id="p308-26"/>εἰ γὰρ μὴ οὕτως ἡ ἡ τέχνη τὰ φύσει ἐποίησεν ὡς ἡ φύσις αὐτὰ ποιεῖ (οἷον<note type="apparatus" n="27" target="#p308-26">αὐτὰ L et primitus M: αὐτὰ K: αὐτὸ corr. M et t</note>
+              <lb n="27" xml:id="p308-26"/>εἰ γὰρ μὴ οὕτως ἢ ἡ τέχνη τὰ φύσει ἐποίησεν ὡς ἡ φύσις αὐτὰ ποιεῖ (οἷον<note type="apparatus" n="27" target="#p308-26">αὐτὰ L et primitus M: αὐτὰ K: αὐτὸ corr. M et t</note>
               <lb n="28" xml:id="p308-27"/>ἄνθρωπος εἰ μὴ ὡς ἔχει ὑπὸ φύσεως νῦν οὕτως ἐποίησεν αὐτὸν ἡ τέχνη),<note type="apparatus" n="28" target="#p308-27">ἄνθρωπον L νῦν (post φύσεως) om. Mt αὐτὸν ἐποίησεν Mt</note>
               <lb n="29" xml:id="p308-28"/>καὶ ἡ φύσις τὰ τεχνητὰ ὡς νῦν ὑπὸ τῆς τέχνης γίνεται, οὐδ’ ἂν ὅλως<note type="apparatus" n="29" target="#p308-28">καὶ ἢ libri: immo ἢ ἡ ὡς] οὗ////ὡς L</note><milestone type="alt-edition" unit="line" ed="Trincavelli 1535" n="45"/>
               <lb n="30" xml:id="p308-29"/>ὑπέστησαν. τὰ μὲν ἀξιώματα ταῦτα, δείκνυσι δὲ [ἂν] ἐκ τούτων ὅτι ἡ φύσις<note type="apparatus" n="30" target="#p308-29">τὰ μὲν οὖν Mt ἂν delevit t cf. ad p. 18, 23</note>
@@ -12270,7 +12265,7 @@
               <lb n="13" xml:id="p313-12"/>ἀλλ’ ἔστιν ὅτε καὶ κατὰ συμβεβηκός. οἷον εἰ Πλάτωνος ἐξηγουμένου λόγους<note type="apparatus" n="13" target="#p313-12">πλάτωνος ἐξηγουμένου L: πλάτων ἐξηγούμενος KMt</note><milestone type="alt-edition" unit="line" ed="Trincavelli 1535" n="35"/>
               <lb n="14" xml:id="p313-13"/>ὠφελίμους ἐπί γ’ ἐκκλησίας, καὶ τοῦτο προθεμένου πάντας τοὺς ἀκροωμένους<note type="apparatus" n="14" target="#p313-13">ἐπιγεκκλησίας (sic) K: ἐπὶ ἐκκλησία L: ἐπὶ ἐκκλησίας Mt τοῦτο LK: τούτου Mt προθεμένου LMt: προθεμενον sine accentu K</note>
               <lb n="15" xml:id="p313-14"/>ὠφελῆσαι, παριών τις ἐπί τινα χρείαν ἄλλην εἰσέλθοι, μὴ τοῦτον τὸν
-              <lb n="16" xml:id="p313-15"/>σκοπὸν προθέμενος ἀλλὰ κατὰ τύχην, καὶ ἀκροασάμενος ὠφεληθείη, ὁ τοιοὗτος
+              <lb n="16" xml:id="p313-15"/>σκοπὸν προθέμενος ἀλλὰ κατὰ τύχην, καὶ ἀκροασάμενος ὠφεληθείη, ὁ τοιοῦτος
               <lb n="17" xml:id="p313-16"/>κατὰ συμβεβηκὸς ὠφελεῖται, τοῦ Πλάτωνος καθ’ αὑτὸ ὠφελήσαντος·<note type="apparatus" n="17" target="#p313-16">τοῦ] καὶ L ὠφελήσαντα (extremum α ex ος, ut videtur) K</note>
               <lb n="18" xml:id="p313-17"/>ὁ μὲν γὰρ οὐκ ἀπὸ σκοποῦ ὠφελεῖται ἀλλὰ κατὰ τύχην, Πλάτων δὲ ἀπὸ<note type="apparatus" n="18" target="#p313-17">ὁ] ἡ L</note>
               <lb n="19" xml:id="p313-18"/>σκοποῦ ὠφέλησε· τοῦτο γὰρ προὔθετο, πάντας ὅσοι ποτὲ ἂν ἀκροάσασθαι<note type="apparatus" n="19" target="#p313-18">ποτὲ (ποτ’ M) ἂν ἀκροάσασθαι LM: ποτὲ ἀνακροάσασθαι K: ποτ’ ἂν ἀνακροάσασθαι t</note>
@@ -12415,7 +12410,7 @@
               <lb n="14" xml:id="p316-13"/>ἂν ἐποίησε. καὶ πάλιν εἰ ἡ τέχνη τὰ φυσικὰ ἐποίει, ἕνεκά του δηλονότι<note type="apparatus" n="14" target="#p316-13">εἰ ἡ] εἴη K ἕνεκά του δηλονότι LK: δῆλον ὅτι ἕνεκά τοῦ Mt</note>
               <lb n="15" xml:id="p316-14"/>πάντα ἐποίει· καθόλου γὰρ ἡ τέχνη πάντα ἕνεκά του ποιεῖ. ἐπεὶ οὖν νῦν
               <lb n="16" xml:id="p316-15"/>ἡ φύσις ταῦτα ποιεῖ ὡς ἂν ἡ τέχνη αὐτὰ ἐποίησε, καὶ αὐτὴ δηλονότι ἕνεκά<note type="apparatus" n="16" target="#p316-15">ταῦτα ἡ φύσις Mt</note><milestone type="alt-edition" unit="line" ed="Trincavelli 1535" n="45"/>
-              <lb n="17" xml:id="p316-16"/>του πάντα ποιήσει. ἕνεκα ἄρα θατέρου θάτερον. τουτέστιν ἕνεκα του<note type="apparatus" n="17" target="#p316-16">ποιήσει] ποιεῖ fort. recte K ἄρα K</note>
+              <lb n="17" xml:id="p316-16"/>του πάντα ποιήσει. ἕνεκα ἄρα θατέρου θάτερον. τουτέστιν ἕνεκα τοῦ<note type="apparatus" n="17" target="#p316-16">ποιήσει] ποιεῖ fort. recte K ἄρα K</note>
               <lb n="18" xml:id="p316-17"/>τέλους τὰ πρὸ τοῦ τέλους· οὕτω γὰρ ἡ τέχνη πάντα ἐργάζεται.
             </p>
           </div>
@@ -12761,7 +12756,7 @@
           <div type="textpart" subtype="lemma" n="144">
             <milestone unit="bekker" n="199b28"/>
             <quote type="lemma">
-              <lb n="1" xml:id="p325-0"/>Καὶ εἰ ἐνῆν ἐν τῷ ξύλῳ ἡ ναυπηγική, ὁμοίως ἂν τῇ i1v<note type="apparatus" n="1" target="#p325-0">plenius lemma Ἄτοπον δὲ καὶ (sic) τὸ — βουλεύεται. καὶ t καὶ εἰ LKM et primitus Arist. cod. E: καὶ γὰρ εἰ t</note><note type="apparatus" n="1-2" target="#p325-0 #p325-1">ἡ ναυπηγική — ἐποίησεν om. K</note><note type="apparatus" n="1" target="#p325-0">τῇ om. primitus Arist. cod. E</note>
+              <lb n="1" xml:id="p325-0"/>Καὶ εἰ ἐνῆν ἐν τῷ ξύλῳ ἡ ναυπηγική, ὁμοίως ἂν τῇ<note type="apparatus" n="1" target="#p325-0">plenius lemma Ἄτοπον δὲ καὶ (sic) τὸ — βουλεύεται. καὶ t καὶ εἰ LKM et primitus Arist. cod. E: καὶ γὰρ εἰ t</note><note type="apparatus" n="1-2" target="#p325-0 #p325-1">ἡ ναυπηγική — ἐποίησεν om. K</note><note type="apparatus" n="1" target="#p325-0">τῇ om. primitus Arist. cod. E</note>
               <lb n="2" xml:id="p325-1"/>φύσει ἐποίησεν.<note type="apparatus" n="2" target="#p325-1">ἐποίησεν LM: ἐποίει t Aristoteles</note>
             </quote>
             <p>
@@ -12804,7 +12799,7 @@
             </p>
             <pb n="326" facs="https://archive.org/download/commentariaina16akaduoft/page/n351.jpg"/>
             <p>
-              <lb n="1" xml:id="p326-0"/>ἀπὸ Κριοῦ γίνεσθαι ἐν Ταύρῳ, καὶ ἐκ τούτου ἐν Διδύμοις, καὶ οὕτως i1v<note type="apparatus" n="1" target="#p326-0">γενέσθαι L</note>
+              <lb n="1" xml:id="p326-0"/>ἀπὸ Κριοῦ γίνεσθαι ἐν Ταύρῳ, καὶ ἐκ τούτου ἐν Διδύμοις, καὶ οὕτως<note type="apparatus" n="1" target="#p326-0">γενέσθαι L</note>
               <lb n="2" xml:id="p326-1"/>ἐφεξῆς κατὰ ἕνα τινὰ καὶ ἀναγκαῖον εἱρμὸν τοῖς προτέροις ἀεὶ τῶν δευτέρων<note type="apparatus" n="2" target="#p326-1">ἕνα] ἕναν K</note>
               <lb n="3" xml:id="p326-2"/>ἑπομένων), ἢ οὐχ οὕτω τὸ ἀναγκαῖον ἐν τοῖς φυσικοῖς, ἀλλ’ ἐξ ὑποθέσεως<note type="apparatus" n="3-4" target="#p326-2 #p326-3">ἑπομένων — δευτέρων om. K</note><milestone type="alt-edition" unit="line" ed="Trincavelli 1535" n="35"/>
               <lb n="4" xml:id="p326-3"/>τῶν δευτέρων ὑποτεθέντων ἐξ ἀνάγκης τὰ πρότερα ἕπεται. οἷον<note type="apparatus" n="4" target="#p326-3">ὑποτιθέντων M</note>
@@ -13819,7 +13814,7 @@
               <lb n="16" xml:id="p351-15"/>Ἐπεὶ δὲ ἔνια τούτων καὶ δυνάμει καὶ ἐντελεχείᾳ ἐστίν. <milestone type="alt-edition" unit="folio" ed="Trincavelli 1535" n="i 7r"/><note type="apparatus" n="16" target="#p351-15">δ’ ἔνια Mt τούτων (cf. Simplic. p. 417,29 cod. F) LKM: τὰ αὐτὰ (cf. p. 354,13 ex Arist. t</note>
             </quote>
             <p>
-              <lb n="17" xml:id="p351-16"/>Εἰπὼν τί ποτέ ἐστιν ἡ κίνησις, βούλεται νῦν δεῖξαι ὅτι ἔστι τινὰ ἃ i7r<note type="apparatus" n="17" target="#p351-16">ἡ om. Mt βούλεται νῦν KMt: νῦν βούλεται L</note>
+              <lb n="17" xml:id="p351-16"/>Εἰπὼν τί ποτέ ἐστιν ἡ κίνησις, βούλεται νῦν δεῖξαι ὅτι ἔστι τινὰ ἃ<note type="apparatus" n="17" target="#p351-16">ἡ om. Mt βούλεται νῦν KMt: νῦν βούλεται L</note>
               <lb n="18" xml:id="p351-17"/>πρὸς τῷ κινεῖσθαι καὶ κινεῖ. ἅμα δὲ καὶ ἀπορίαν τινὰ ἐπιλύεται ἐκ τούτων<note type="apparatus" n="18" target="#p351-17">τῷ] τὸ KM</note>
               <lb n="19" xml:id="p351-18"/>φερομένην εἰς τὸν περὶ κινήσεως λόγον· εἰ γάρ ἐστι τὰ κινοῦντα ἅμα καὶ<note type="apparatus" n="19" target="#p351-18">τὰ] τὸ M</note>
               <lb n="20" xml:id="p351-19"/>κινούμενα, τὸ δὲ κινοῦν καθὸ κινεῖ ἐνεργείᾳ ἐστί, τινὰ ἄρα τῶν κινουμένων<note type="apparatus" n="20" target="#p351-19">τίνα M κινουμένων corr. L² M² et t: κινούντων KLM</note>
@@ -13907,7 +13902,7 @@
             </note>
             <pb n="354" facs="https://archive.org/download/commentariaina16akaduoft/page/n379.jpg"/>
             <p>
-              <lb n="1" xml:id="p354-0"/>τέχνῃ ἀπειληφότα γε ἅπαξ τὸ εἶδος. λείπεται οὖν ἐν τῷ μέσῳ χρόνῳ<note type="apparatus" n="1" target="#p354-0">ἀπειληφότος L</note>
+              <lb n="1" xml:id="p354-0"/>τέχνη ἀπειληφότα γε ἅπαξ τὸ εἶδος. λείπεται οὖν ἐν τῷ μέσῳ χρόνῳ<note type="apparatus" n="1" target="#p354-0">ἀπειληφότος L</note>
               <lb n="2" xml:id="p354-1"/>εἶναι τὴν κίνησιν, ἔνθα ἐκίνει τὸν χαλκὸν ἡ διαπλαστικὴ τέχνη καὶ ἦγεν<note type="apparatus" n="2" target="#p354-1">ἐκείνει ante corr. M</note><milestone type="alt-edition" unit="folio" ed="Trincavelli 1535" n="i 7v"/>
               <lb n="3" xml:id="p354-2"/>ἐκ τῆς δυνάμεως ἐπὶ τὸ εἶδος, ἔτι τοῦ δυνάμει ἐν τῷ χαλκῷ σῳζομένου.
               <lb n="4" xml:id="p354-3"/>ὁμοίως δὲ καὶ ἐπὶ δυνάμει οἰκίας κινεῖσθαί φαμεν τὴν οἰκίαν οὔτε ὅτε<note type="apparatus" n="4" target="#p354-3">ἐπὶ δυνάμεως L οἰκίας· οὐ γὰρ κινεῖσθαι φαμὲν t</note>
@@ -14103,7 +14098,7 @@
             <p>
               <lb n="13" xml:id="p358-12"/>Τουτέστιν ὅτι ἡ κίνησις τοῦτό ἐστιν ὅπερ ἡμεῖς εἰρήκαμεν, ἐντελέχεια<note type="apparatus" n="13" target="#p358-12">ὅπερ] ὅτι ὅπερ L ἐντελέχεια L: sine accentu K: ἐντελεχεία Mt</note>
               <lb n="14" xml:id="p358-13"/>τοῦ δυνάμει ᾗ τοιοῦτόν ἐστι. καὶ ὅτι συμβαίνει τότε κινεῖσθαι, ὅταν<note type="apparatus" n="14" target="#p358-13">ὅτι τότε συμβαίνει L</note>
-              <lb n="15" xml:id="p358-14"/>ἡ ἐντελέχεια ᾗ αὕτη, τουτέστιν ὅτι τότε μόνον ἡ κίνησις γίνεται, ὅταν<note type="apparatus" n="15" target="#p358-14">ἡ ἐντελέχεια ᾗ (ἡ K) LK: ἢ ἡ ἐντελέχεια Mt αὕτη L: αὐτή KMt post αὕτη iterat (ex v. 4 sq.) τῷ μὲν γὰρ ὑποκειμένῳ τὰ αὐτὰ· ὁ δὲ λόγος — τὸ μὲν (γὰρ deletum) χρῶμα ἐστὶ τὸ κινητικὸν τοῦ κατὰ τὴν ἐνέργειαν — συμβέβηκεν αὐτῷ L</note><note type="apparatus" n="15-16" target="#p358-14 #p358-15">ὅταν τὸ LK: ὅτι τὸ M: ὅτε τὸ t</note>
+              <lb n="15" xml:id="p358-14"/>ἡ ἐντελέχεια ᾖ αὕτη, τουτέστιν ὅτι τότε μόνον ἡ κίνησις γίνεται, ὅταν<note type="apparatus" n="15" target="#p358-14">ἡ ἐντελέχεια ᾗ (ἡ K) LK: ἢ ἡ ἐντελέχεια Mt αὕτη L: αὐτή KMt post αὕτη iterat (ex v. 4 sq.) τῷ μὲν γὰρ ὑποκειμένῳ τὰ αὐτὰ· ὁ δὲ λόγος — τὸ μὲν (γὰρ deletum) χρῶμα ἐστὶ τὸ κινητικὸν τοῦ κατὰ τὴν ἐνέργειαν — συμβέβηκεν αὐτῷ L</note><note type="apparatus" n="15-16" target="#p358-14 #p358-15">ὅταν τὸ LK: ὅτι τὸ M: ὅτε τὸ t</note>
               <lb n="16" xml:id="p358-15"/>τὸ δυνάμει, καθὸ δυνάμει ἐστίν, ἀπολάβοι τὴν ἑαυτοῦ ἐνέργειαν, καὶ οὔτε
               <lb n="17" xml:id="p358-16"/>πρὶν ἀπολαβεῖν ὅταν μόνως ἐστὶ δυνάμει, οὔτε μετὰ τὸ ἀπολαβεῖν ὅταν<note type="apparatus" n="17" target="#p358-16">ὅταν — ὅταν] malim (cl. p. 353,30. 354, 4 sqq.) utrobique ὅτε cf. ad p. 13,2</note><milestone type="alt-edition" unit="line" ed="Trincavelli 1535" n="35"/>
               <lb n="18" xml:id="p358-17"/>μόνως ἐστὶν ἡ ἐνέργεια.
@@ -14266,13 +14261,13 @@
               <lb n="30" xml:id="p362-29"/>κατὰ τὸν αὐτὸν λόγον. οἷον τὸ θερμὸν ψυχρῷ παρακείμενον θερμαίνει μὲν
               <lb n="31" xml:id="p362-30"/>ἐκεῖνο καθὸ ἐνεργείᾳ ἐστὶ θερμὸν ἐκείνου δυνάμει ὄντος θερμοῦ, ἀντιπάσχει
               <lb n="32" xml:id="p362-31"/>δὲ ὑπ’ αὐτοῦ καθὸ αὐτὸ μὲν δυνάμει ἐστὶ ψυχρὸν ἐκεῖνο δὲ ἐνεργείᾳ.
-              <lb n="33" xml:id="p362-32"/>μετὰ ταῦτα ὁρίζεται τὴν κίνησιν τελειότερον, ὅτι ἐστὶν ἡ κίνησις ἐντέλεχεια<note type="apparatus" n="33" target="#p362-32">ἡ om. L</note><note type="apparatus" n="33-34" target="#p362-32 #p362-33">ἐντελεχείᾳ LMt</note>
+              <lb n="33" xml:id="p362-32"/>μετὰ ταῦτα ὁρίζεται τὴν κίνησιν τελειότερον, ὅτι ἐστὶν ἡ κίνησις ἐντελέχεια<note type="apparatus" n="33" target="#p362-32">ἡ om. L</note><note type="apparatus" n="33-34" target="#p362-32 #p362-33">ἐντελεχείᾳ LMt</note>
               <lb n="34" xml:id="p362-33"/>τοῦ κινητοῦ ᾗ κινητόν· ὁ μὲν γὰρ πρότερος ὁρισμός, ὁ λέγων<note type="apparatus" n="34" target="#p362-33">πρῶτος L</note><milestone type="alt-edition" unit="line" ed="Trincavelli 1535" n="20"/>
               <lb n="35" xml:id="p362-34"/>ὅτι ἐστὶν ‘ἐντελέχεια τοῦ δυνάμει, ᾗ τοιοῦτόν ἐστι’, περιλαμβάνοι
             </p>
             <pb n="363" facs="https://archive.org/download/commentariaina16akaduoft/page/n388.jpg"/>
             <p>
-              <lb n="1" xml:id="p363-0"/>ἄν καὶ τὴν τελείαν ἐνέργειαν. καὶ γὰρ δύναμις καὶ ἡ προτέρα λέγεται, ἡ k lr
+              <lb n="1" xml:id="p363-0"/>ἄν καὶ τὴν τελείαν ἐνέργειαν. καὶ γὰρ δύναμις καὶ ἡ προτέρα λέγεται, ἡ
               <lb n="2" xml:id="p363-1"/>κατὰ τὴν ἐπιτηδειότητα, καὶ ἡ δευτέρα, ἡ κατὰ τὴν τάξιν, ἧς ἡ ἐνέργεια<note type="apparatus" n="2" target="#p363-1">τάξιν] ἕξιν L</note>
               <lb n="3" xml:id="p363-2"/>οὐ κίνησίς ἐστιν ἀλλὰ τελεία τοῦ εἴδους ἀπόληψις, κίνησις δὲ ἡ ἐκ τοῦ<note type="apparatus" n="3" target="#p363-2">ἀπόλειψις L</note>
               <lb n="4" xml:id="p363-3"/>προτέρου δυνάμει εἰς τὸ πρότερον ἐνεργείᾳ μεταβολή. ὥστε κυριώτερος ὁ<note type="apparatus" n="4" target="#p363-3">εἰς τὴν προτέραν ἐνεργείᾳ μεταβολήν L λ’ ἐνέργεια μεταβο M</note>
@@ -14320,7 +14315,7 @@
           <div type="textpart" subtype="lemma" n="33">
             <milestone unit="bekker" n="201b21"/>
             <quote type="lemma">
-              <lb n="1" xml:id="p364-0"/>Ὧν οὐδὲν ἀναγκαῖον κινεῖσθαι, οὐδ’ ἂν ἕτερα εἴη οὐδ’ k lr<note type="apparatus" n="1" target="#p364-0">οὐθὲν Mt</note><note type="apparatus" n="1-2" target="#p364-0 #p364-1">οὐδ’ (οὐδὲ Κ) ἂν ἕτερα εἴη οὐδ’ (οὐδὲ Κ) ἄνισα LKM: οὔτ’ ἂν ἕτερα ἦ, οὔτ’ ἂν ἄνισα ex Arist. t</note>
+              <lb n="1" xml:id="p364-0"/>Ὧν οὐδὲν ἀναγκαῖον κινεῖσθαι, οὐδ’ ἂν ἕτερα εἴη οὐδ’<note type="apparatus" n="1" target="#p364-0">οὐθὲν Mt</note><note type="apparatus" n="1-2" target="#p364-0 #p364-1">οὐδ’ (οὐδὲ Κ) ἂν ἕτερα εἴη οὐδ’ (οὐδὲ Κ) ἄνισα LKM: οὔτ’ ἂν ἕτερα ἦ, οὔτ’ ἂν ἄνισα ex Arist. t</note>
               <lb n="2" xml:id="p364-1"/>〈ἂν〉 ἄνισα οὐδ’ ἂν οὐκ ὄντα.<note type="apparatus" n="2" target="#p364-1">οὐδ’ ἂν οὐκ ὄντα L: οὐδὲ ἀνίχοντα Κ: om. Μ: οὔτ’ ἂν οὐκ ὄντα ex Arist. t</note>
             </quote>
             <p>
@@ -14417,7 +14412,7 @@
             </quote>
             <p>
               <lb n="7" xml:id="p366-6"/>Δείξας ὅτι οὐχ ὑγιῶς τὸν περὶ κινήσεως οἱ παλαιοὶ λόγον ἀποδεδώκασι,<note type="apparatus" n="7" target="#p366-6">οἱ παλαιοὶ τὸν περὶ κινήσεως L οἱ πάλαι K</note>
-              <lb n="8" xml:id="p366-7"/>καὶ ἐκ ποίας ἐννοίας εἰς τοῦτο ἦλθον, νῦν τὸ λοιπὸν τῶν προβληματων
+              <lb n="8" xml:id="p366-7"/>καὶ ἐκ ποίας ἐννοίας εἰς τοῦτο ἦλθον, νῦν τὸ λοιπὸν τῶν προβλημάτων
               <lb n="9" xml:id="p366-8"/>κατασκευάζει, ὅτι μηδὲ ἄλλως αὐτὴν δυνατὸν ὁρίσαι· εἰ γὰρ συγχωρήσειέ
               <lb n="10" xml:id="p366-9"/>τις εἰς δύναμιν καὶ ἐνέργειαν καὶ στέρησιν τὰ ὄντα διαιρεθῆναι,<milestone type="alt-edition" unit="line" ed="Trincavelli 1535" n="30"/>
               <lb n="11" xml:id="p366-10"/>εἰς οὐδὲν τούτων δυνατὸν θεῖναι τὴν κίνησιν. καὶ ὅτι μὲν οὔτε εἰς δύναμιν
@@ -15548,8 +15543,6 @@
               <lb n="25" xml:id="p393-24"/>μέχρις οὗ ποιεῖς τὴν σύνθεσιν, τοῦτον εὑρήσεις πλευρὰν τοῦ γενομένου<note type="apparatus" n="25" target="#p393-24">μέχριος οὗ K: μέχρις οὖν L</note>
               <lb n="26" xml:id="p393-25"/>τετραγώνου· ὁ γὰρ βʹ τοῦ δ’ πλευρά, ὁμοίως τοῦ θ’ ὁ γ’ (ἕως γὰρ τοῦ<note type="apparatus" n="26" target="#p393-25">πλευραί LK</note>
               <lb n="27" xml:id="p393-26"/>γ’ συνθέντες ἀνεποδίσαμεν), καὶ οὕτως ἐπ’ ἄπειρον. τοῦτο μὲν οὖν ἔξω<note type="apparatus" n="27" target="#p393-26">ἀνεποδίσαμεν K: ἐνεποδίσαμεν L</note><milestone type="alt-edition" unit="line" ed="Trincavelli 1535" n="20"/>
-              <lb n="28" xml:id="p393-27"/>α α α α
-              <lb n="29" xml:id="p393-28"/>α α α α
             </p>
             <pb n="394" facs="https://archive.org/download/commentariaina16akaduoft/page/n419.jpg"/>
             <p>
@@ -16470,12 +16463,12 @@
             </quote>
             <p>
               <lb n="9" xml:id="p416-8"/>Ἐπειδὴ ἔδειξεν ὅτι οὐ δυνατὸν τὸ ἄπειρον οὐσίαν εἶναι, ἄπειρον λέγων<milestone type="alt-edition" unit="line" ed="Trincavelli 1535" n="25"/>
-              <lb n="10" xml:id="p416-9"/>τὸ κατὰ τὸν ἔκτασιν, οὐ τοιοῦτον δ’ ἄπειρον ἐκεῖνοι ἐν ταῖς ἰδέαις ἀπετίθεντο,<note type="apparatus" n="10" target="#p416-9">δ’ om. K ἐκεῖνοι ἄπειρον Mt</note><note type="apparatus" n="10-11" target="#p416-9 #p416-10">ἀπετίθεντο K: ὑπετίθεντο LMt at cf. p. 391,14</note>
+              <lb n="10" xml:id="p416-9"/>τὸ κατὰ <choice><sic>τὸν</sic><corr>τὴν</corr></choice> ἔκτασιν, οὐ τοιοῦτον δ’ ἄπειρον ἐκεῖνοι ἐν ταῖς ἰδέαις ἀπετίθεντο,<note type="apparatus" n="10" target="#p416-9">δ’ om. K ἐκεῖνοι ἄπειρον Mt</note><note type="apparatus" n="10-11" target="#p416-9 #p416-10">ἀπετίθεντο K: ὑπετίθεντο LMt at cf. p. 391,14</note>
               <lb n="11" xml:id="p416-10"/>τὸ περὶ τούτου, φησί, ζητεῖν εἰ ἔστιν οὐσία τις ἀπείρου καὶ αὕτη<note type="apparatus" n="11" target="#p416-10">αὕτη L: αὐτὴ (K)Mt</note>
               <lb n="12" xml:id="p416-11"/>εἴτε ἐν τοῖς μαθήμασίν ἐστιν εἴτε ἐν τοῖς εἴδεσι, κοινοτέρας ἂν εἴη πραγματείας
               <lb n="13" xml:id="p416-12"/>ζητῆσαι τῆς σκοπούσης περὶ τῶν ἀρχῶν πάντων τῶν ὄντων ᾗ ὄντα
               <lb n="14" xml:id="p416-13"/>ἐστί, τῆς δὲ προκειμένης μεθόδου ἴδιον φυσικῆς οὔσης τὸ ζητῆσαι εἰ ἔστι
-              <lb n="15" xml:id="p416-14"/>σῶμα ἄπειρον κατὰ τὸν ἔκτασιν, μήτε ἀρχὴν ἔχον κατὰ μέγεθος μήτε<note type="apparatus" n="15" target="#p416-14">ἔχον (ἔχων ante corr.) κατὰ τὸ L</note>
+              <lb n="15" xml:id="p416-14"/>σῶμα ἄπειρον κατὰ <choice><sic>τὸν</sic><corr>τὴν</corr></choice> ἔκτασιν, μήτε ἀρχὴν ἔχον κατὰ μέγεθος μήτε<note type="apparatus" n="15" target="#p416-14">ἔχον (ἔχων ante corr.) κατὰ τὸ L</note>
               <lb n="16" xml:id="p416-15"/>πέρας. ὅτι οὖν οὐκ ἔστι τοιοῦτόν τι σῶμα, οἷον καὶ οἱ φυσικοὶ ὑπετίθεντο,<milestone type="alt-edition" unit="line" ed="Trincavelli 1535" n="30"/>
               <lb n="17" xml:id="p416-16"/>ἐφεξῆς προτίθεται δεῖξαι.
             </p>
@@ -16710,7 +16703,7 @@
               <lb n="27" xml:id="p422-26"/>εἰρημένον τρόπον τῇ τοῦ ὁμοειδοῦς πολλοῦ ὄντος βοηθείᾳ· ὡς εἰ καὶ ἀσθενέστερον<note type="apparatus" n="27" target="#p422-26">πολλῇ L</note><milestone type="alt-edition" unit="line" ed="Trincavelli 1535" n="10"/>
               <lb n="28" xml:id="p422-27"/>ᾖ, οὐδὲν πείσεται κἂν ἄπειρον ᾖ. ἐπεὶ καὶ τῇ γῇ παρακειμένη<note type="apparatus" n="28" target="#p422-27">παρὰ κείμ K</note>
               <lb n="29" xml:id="p422-28"/>λυχνιαία φλὸξ δρᾷ μὲν εἰς αὐτήν, πάσχει δὲ οὐδέν. καίτοι γε εἰ σφοδρότερον
-              <lb n="30" xml:id="p422-29"/>ἐγίνετο τῇ τοῦ ποσοῦ αὐξήσει τὸ ποιόν, ἐπεὶ τὸ μηδέν ἐστιν ἡ λυχνινιαία
+              <lb n="30" xml:id="p422-29"/>ἐγίνετο τῇ τοῦ ποσοῦ αὐξήσει τὸ ποιόν, ἐπεὶ τὸ μηδέν ἐστιν ἡ λυχνιαία
               <lb n="31" xml:id="p422-30"/>φλὸξ πρὸς ὅλην τὴν γῆν, ἔδει πολλαπλασίονα εἶναι τὴν ὅλης τῆς γῆς
               <lb n="32" xml:id="p422-31"/>ψῦξιν τῆς λυχνιαίας θερμότητος, ὅπερ οὐχ ὁρῶμεν γινόμενον. καὶ τοῦτο
               <lb n="33" xml:id="p422-32"/>εἰκότως· οὔτε γὰρ ὁ ἀὴρ οὔτε ἡ γῆ καθ’ ὅλα ἑαυτὰ δρῶσιν εἰς τὰ παρακείμενα,<note type="apparatus" n="33" target="#p422-32">καθόλου M</note><note type="apparatus" n="33-34" target="#p422-32 #p422-33">εἰς τὰ περικείμενα L</note>
@@ -17111,7 +17104,7 @@
               <lb n="5" xml:id="p434-4"/>δείξομεν, ἐκ πολλοῦ δεικνὺς τοῦ περιόντος ὅτι ἓν εἶναι καὶ ἁπλοῦν<note type="apparatus" n="5" target="#p434-4">περιόντως M et t</note>
               <lb n="6" xml:id="p434-5"/>τὸ ἄπειρον ἀδύνατον, εἴ γε μηδὲ ὅλως ἓν εἶναι τὸ στοιχεῖον οἷόν τε, εἴτε<note type="apparatus" n="6" target="#p434-5">οἷόν τε LK: οἷόν τε εἴπ M: οἷόν τε εἰπεῖν t</note>
               <lb n="7" xml:id="p434-6"/>ἄπειρον εἴη εἴτε πεπερασμένον· εἰ γὰρ ἕν τι εἴη τὸ στοιχεῖον, ἀναιρεθήσεται<note type="apparatus" n="7" target="#p434-6">εἴη (post ἄπειρον) LK: εἶναι M: om. t γὰρ δὴ L ἕν τι εἴη τὸ στοιχεῖον M. huiusmodi errores, quibus in hac extrema libri tertii parte scatet codex M, hinc tum tantum adnotabo quum necessarium erit ad explicandam scripturam quam exhibet t</note>
-              <lb n="8" xml:id="p434-7"/>καθόλου γένεσις καὶ πᾶσα μεταβολή, εἰ δὲ τοῦτο ἄτοπον, οὐκ ἄρα ἑνδέχεται<milestone type="alt-edition" unit="line" ed="Trincavelli 1535" n="15"/>
+              <lb n="8" xml:id="p434-7"/>καθόλου γένεσις καὶ πᾶσα μεταβολή, εἰ δὲ τοῦτο ἄτοπον, οὐκ ἄρα ἐνδέχεται<milestone type="alt-edition" unit="line" ed="Trincavelli 1535" n="15"/>
               <lb n="9" xml:id="p434-8"/>ἓν εἶναι τὸ στοιχεῖον. εἰ μὲν γὰρ ἕν τι τῶν τεσσάρων εἴη, οἷον<note type="apparatus" n="9" target="#p434-8">οἷον om. L</note>
               <lb n="10" xml:id="p434-9"/>τὸ πῦρ κατὰ Ἡράκλειτον ἢ εἴ τι ἄλλο, ἕξει μὲν ἐν ἑαυτῷ ἐναντιότητός<note type="apparatus" n="10" target="#p434-9">post πῦρ addit φέρε in ras. L²</note><note type="apparatus" n="10-11" target="#p434-9 #p434-10">ἐναντιότη τὸ μόριον M</note>
               <lb n="11" xml:id="p434-10"/>τι μόριον, οἷον τὸ θερμόν, καὶ οὕτω γε οὐδὲν ἴσως αὐτὸ κωλύσει μεταβάλλειν<note type="apparatus" n="11-19" target="#p434-10 #p434-11 #p434-12 #p434-13 #p434-14 #p434-15 #p434-16 #p434-17 #p434-18">καὶ οὕτω—ὁ ἀὴρ εἰς τὸ πῦρ paucis immutatis ex Themist. p. 231,23 sqq.</note><note type="apparatus" n="11" target="#p434-10">γε] τε M ἴσως om. L</note><note type="apparatus" n="11-12" target="#p434-10 #p434-11">μεταβάλειν primitus M</note>
@@ -17188,7 +17181,7 @@
             </quote>
             <p>
               <lb n="10" xml:id="p436-9"/>Δείξας ἐκ τῶν φυσικῶν δυνάμεων ὅτι ἀδύνατον εἶναί τι σῶμα ἄπειρον,
-              <lb n="11" xml:id="p436-10"/>νῦν βούλεται καὶ ἐκ τῶν φυσικῶν τόπων κατασκευάσαι τὸ αὐτὸ τοῦτο. κεχρηται<note type="apparatus" n="11" target="#p436-10">τὸ om. K</note><milestone type="alt-edition" unit="line" ed="Trincavelli 1535" n="50"/>
+              <lb n="11" xml:id="p436-10"/>νῦν βούλεται καὶ ἐκ τῶν φυσικῶν τόπων κατασκευάσαι τὸ αὐτὸ τοῦτο. κέχρηται<note type="apparatus" n="11" target="#p436-10">τὸ om. K</note><milestone type="alt-edition" unit="line" ed="Trincavelli 1535" n="50"/>
               <lb n="12" xml:id="p436-11"/>δὲ πάλιν τῇ αὐτῇ διαιρέσει, ὅτι τὸ ἄπειρον ἤτοι ἁπλοῦν ἐστιν ἢ
               <lb n="13" xml:id="p436-12"/>σύνθετον, καὶ πρότερον δείκνυσιν ὅτι οὐ δυνατὸν ἁπλοῦν εἶναι. πρότερον<note type="apparatus" n="13" target="#p436-12">δείκνυσι M</note>
               <lb n="14" xml:id="p436-13"/>δὲ δύο τινὰ προλαμβάνει ἀξιώματα, πρῶτον μὲν ὅτι πᾶν τὸ αἰσθητὸν σῶμα,
@@ -17437,7 +17430,7 @@
               <lb n="16" xml:id="p443-15"/>λέγοιτο ἐν παντὶ τούτῳ τῷ τόπῳ κινεῖσθαι, ὡς ἐκ τῆς ἐπιφανείας τοῦ οὐρανοῦ<note type="apparatus" n="16" target="#p443-15">λέγοιτο om. L ἐν Kt: om. M: τῶ ἐν τῶ L qui mox τῷ om. περιφανείας superscr. M²</note>
               <lb n="17" xml:id="p443-16"/>πεφυκέναι φέρεσθαι μέχρι τοῦ κέντρου, ὀρθῶς λέγεται, εἰ δὲ λέγοις<note type="apparatus" n="17" target="#p443-16">λέγεις Mt: fort. λέγοις 〈ὅτι〉</note><milestone type="alt-edition" unit="line" ed="Trincavelli 1535" n="20"/>
               <lb n="18" xml:id="p443-17"/>διὰ τὸ περιέχειν τὴν γῆν πάντα καὶ τὸν ἄνω καὶ τὸν κάτω τόπον, διὰ
-              <lb n="19" xml:id="p443-18"/>τοῦτο καὶ ἡ βῶλος πάντῃ φέρεσθαι ὀφείλει ὁμοίως ἄνω, τε καὶ κάτω, διὰ<note type="apparatus" n="19" target="#p443-18">πάντη φέρε πάντη φέρεσθαι L ὠφείλει primitus M</note>
+              <lb n="19" xml:id="p443-18"/>τοῦτο καὶ ἡ βῶλος πάντῃ φέρεσθαι ὀφείλει ὁμοίως ἄνω τε καὶ κάτω, διὰ<note type="apparatus" n="19" target="#p443-18">πάντη φέρε πάντη φέρεσθαι L ὠφείλει primitus M</note>
               <lb n="20" xml:id="p443-19"/>τὸ πάντῃ εἶναι τὴν ὁλότητα αὐτῆς, οὐκέτι εὔλογον. οὐδὲ γὰρ νῦν ἐπειδὴ<note type="apparatus" n="20" target="#p443-19">γὰρ K: om. (L)Mt</note>
               <lb n="21" xml:id="p443-20"/>ἡ ὁλότης τῆς γῆς μέχρι τῆς ἐπιφανείας τοῦ περιέχοντος αὐτὴν ἀέρος διήκει,<note type="apparatus" n="21" target="#p443-20">μέχρι τῆς M</note>
               <lb n="22" xml:id="p443-21"/>καὶ ἔστι τῆς ὅλης τόπος ὁ ἐντεῦθεν μέχρι τοῦ κέντρου, διὰ τοῦτο<note type="apparatus" n="22" target="#p443-21">τῆς ὅλης LKM: αὐτῆς τῆς ὅλης M²t</note>
@@ -17458,7 +17451,7 @@
               <lb n="8" xml:id="p444-7"/>ἐκεῖνον δὲ μή; ὡς γὰρ αὐτὸς ἐν τοῖς ἔμπροσθεν εἶπε, πῶς ἔστι τοῦ<note type="apparatus" n="8" target="#p444-7">ἐκείνῳ superscr. M2</note>
               <lb n="9" xml:id="p444-8"/>ἀπείρου τὸ μὲν ἄνω εἰπεῖν τὸ δὲ κάτω, ἢ ἔμπροσθεν καὶ ὄπισθεν; πάντῃ<note type="apparatus" n="9" target="#p444-8">εἰπεῖν τὸ μὲν ἄνω L πάντη K: πάντως L: ταῦ M: ταῦτα t</note>
               <lb n="10" xml:id="p444-9"/>γὰρ πρὸς ἑαυτὸ τὸ ἄπειρον ὁμοίως ἔχει. οὐκ ἄρα ἔστι τοῦ ἀπείρου τόπου<note type="apparatus" n="10" target="#p444-9">τὸ L: om. KMt τόπος L</note>
-              <lb n="11" xml:id="p444-10"/>ἀφορίσαντα μοριόν τι ἢ σημεῖον εἰπεῖν ὡς οὗτος εἴη ὁ κατὰ φύσιν τοῦ<note type="apparatus" n="11" target="#p444-10">ἀφορίσαν M: ἀφορίσαντο (sic) t</note><note type="apparatus" n="11-12" target="#p444-10 #p444-11">τόπος τοῦ ἀπείρου σώματος Mt</note>
+              <lb n="11" xml:id="p444-10"/>ἀφορίσαντα <choice><sic>μοριόν</sic><corr>μόριόν</corr></choice> τι ἢ σημεῖον εἰπεῖν ὡς οὗτος εἴη ὁ κατὰ φύσιν τοῦ<note type="apparatus" n="11" target="#p444-10">ἀφορίσαν M: ἀφορίσαντο (sic) t</note><note type="apparatus" n="11-12" target="#p444-10 #p444-11">τόπος τοῦ ἀπείρου σώματος Mt</note>
               <lb n="12" xml:id="p444-11"/>ἀπείρου σώματος τόπος, ὥσπερ νῦν φαμεν τὸ κέντρον τῶν βαρέων εἶναι
               <lb n="13" xml:id="p444-12"/>τὸν κατὰ φύσιν τόπον. λείπεται οὖν τὸν ἄπειρον πάντα τόπον κατὰ φύσιν<note type="apparatus" n="13" target="#p444-12">τὸν (ante κατὰ) L: τῶν (K)Mt τόπων (priore loco) compend. M</note><milestone type="alt-edition" unit="line" ed="Trincavelli 1535" n="35"/>
               <lb n="14" xml:id="p444-13"/>εἶναι λέγειν τόπον τοῦ ἀπείρου σώματος· εἰ δὲ πᾶς εἴη αὐτοῦ κατὰ φύσιν,<note type="apparatus" n="14" target="#p444-13">αὐτοῦ scripsi: αὐτὸς L et ante corr. M: αὐτῶ (K)t et corr. M</note>
@@ -17666,7 +17659,7 @@
               <lb n="21" xml:id="p448-20"/>ἵνα μὴ ταύτῃ εὐθὺς καὶ πεπερασμένον ποιήσῃ), ἀλλ’ αἴτιον εἶναι αὐτῷ τῆς
               <lb n="22" xml:id="p448-21"/>ἀκινησίας τὸ αὐτὸ ἑαυτὸ στηρίζειν, τουτέστιν ἑαυτῷ ἀντιβαίνειν καὶ εἰς<note type="apparatus" n="22" target="#p448-21">αὐτὸ ἑαυτὸς K ἑαυτῷ] ἑαυτὸ M</note>
               <lb n="23" xml:id="p448-22"/>ἑαυτὸ ἐπερείδεσθαι, τοῦτο δὲ ὑπάρχειν αὐτῷ διὰ τὸ μηδὲ ἔν τινι εἶναι<note type="apparatus" n="23" target="#p448-22">τούτῳ δὲ ὑπάρχῃ αὐτὸ ante corr. M ἔν t</note>
-              <lb n="24" xml:id="p448-23"/>μηδὲ περιέχεσθαι, ἀλλ’ αὐτὸ ἐν ἑαυτῷ εἶναι καὶ αὐτὸ ἑαυτοῦ τόπον ὑπάργειν.<note type="apparatus" n="24" target="#p448-23">περιέρχεσθαι ἀλλ’ αὐτὸ ἐναὐτὸ M τόπου K</note><milestone type="alt-edition" unit="line" ed="Trincavelli 1535" n="25"/>
+              <lb n="24" xml:id="p448-23"/>μηδὲ περιέχεσθαι, ἀλλ’ αὐτὸ ἐν ἑαυτῷ εἶναι καὶ αὐτὸ ἑαυτοῦ τόπον ὑπάρχειν.<note type="apparatus" n="24" target="#p448-23">περιέρχεσθαι ἀλλ’ αὐτὸ ἐναὐτὸ M τόπου K</note><milestone type="alt-edition" unit="line" ed="Trincavelli 1535" n="25"/>
             </p>
             <note type="footnote">
               λ
@@ -18351,7 +18344,7 @@
               <lb n="8" xml:id="p467-7"/>ἐὰν γοῦν λάβω πάντα τὸν γενόμενον χρόνον μέχρι σήμερον ἢ πάντας τοὺς<note type="apparatus" n="8" target="#p467-7">post ἐὰν tres fere literae erasae K γοῦν LK: γὰρ Mt τῆς σήμερον L</note>
               <lb n="9" xml:id="p467-8"/>ἀνθρώπους, οὐκ ἂν εἴη ὁ τούτων ἀριθμὸς πεπερασμένος, μέρους ὄντων τῶν<note type="apparatus" n="9" target="#p467-8">μέρους LKM: μερῶν t</note>
               <lb n="10" xml:id="p467-9"/>καθ’ ἑαυτὰ ἀπείρων. ἢ τοίνυν οὐκ ἄναρχος ὁ κόσμος, ἵνα μὴ ἄπειρος ᾖ<note type="apparatus" n="10" target="#p467-9">καθεαυτρ τῶν M</note>
-              <lb n="11" xml:id="p467-10"/>ἐπὶ θάτερα ὁ χρόνος καὶ ὁ τῶν ἀνθρώπων ἀριθμὸς καὶ ἐξῆ λαμβάνειν<note type="apparatus" n="11" target="#p467-10">θάτερα K: θα LM: θάτερον t. eadem varietas constanter (v.</note>
+              <lb n="11" xml:id="p467-10"/>ἐπὶ θάτερα ὁ χρόνος καὶ ὁ τῶν ἀνθρώπων ἀριθμὸς καὶ ἐξῇ λαμβάνειν<note type="apparatus" n="11" target="#p467-10">θάτερα K: θα LM: θάτερον t. eadem varietas constanter (v.</note>
               <lb n="12" xml:id="p467-11"/>ἡμῖν τοῦ ἀπείρου μόριόν τι καὶ αὐτὸ ἄπειρον, ἢ καὶ ἐπὶ θάτερα καίτοι
               <lb n="13" xml:id="p467-12"/>ἀδυνάτου ὄντος ἢ κατὰ ἀριθμὸν ἐπὶ θάτερα λαμβάνειν ἄπειρον ἢ κατὰ
               <lb n="14" xml:id="p467-13"/>τὴν διαίρεσιν τῶν μεγεθῶν· εἰ γὰρ ἀριθμὸν ἐξὸν λαβεῖν ἐπὶ θάτερα ἄπειρον,<note type="apparatus" n="14" target="#p467-13">θάτερα KMt) in eis quae sequuntur usque ad v. 25 καὶ ἑξῆς scripsi: καὶ ἕξει (ἕξει M) LKM: ἢ ἕξεστι t λαμβά (sic) L 12. 13 ἢ (scripsi: εἰ LK) καὶ ἐπὶ θάτερα, καίτοι — λαμβάνειν ἄπειρον om. Mt, sed verba ἢ κατ’ ἀριθμὸν coniectura supplevit t</note><note type="apparatus" n="14" target="#p467-13">ἐξὸν LM: ἐξόν (item v. 18) K: ἔξεστι t</note><milestone type="alt-edition" unit="line" ed="Trincavelli 1535" n="15"/>
@@ -19111,7 +19104,7 @@
               <lb n="9" xml:id="p486-8"/>δυνάμει λέγω καὶ οὐκ ἐνεργείᾳ, καὶ ἀπὸ μέρους καὶ οὐκ ἀθρόον, διὰ τοῦτο
               <lb n="10" xml:id="p486-9"/>οὐδὲν ἄτοπον μηδὲ τὴν νόησιν ἐπιλιπεῖν· οὐδὲ γὰρ αὐτὴ δύναται ἀθρόον<note type="apparatus" n="10" target="#p486-9">ἐπιλείπειν K</note>
               <lb n="11" xml:id="p486-10"/>αὐτὸ νοῆσαι, ἐπεὶ πεπερασμένον αὐτὸ ἐνόει, ἀλλ’ ἀεὶ τῷ ληφθέντι πεπερασμένῳ<note type="apparatus" n="11" target="#p486-10">αὐτὸ (ante νοῆσαι) L: αὐτὸν K: om. Mt ἐνόει KM: ἐννοεῖ fort. recte (L)t ἀλλὰ εἰ K</note><note type="apparatus" n="11-12" target="#p486-10 #p486-11">πεπερασμένῳ] πεπερασμένων K</note>
-              <lb n="12" xml:id="p486-11"/>ὄντι πεπερασμένον ἐπιπρόστιθησι, μέχρις ἂν ἀποκαμοῦσα παύσηται·<note type="apparatus" n="12-13" target="#p486-11 #p486-12">παύσητε M</note>
+              <lb n="12" xml:id="p486-11"/>ὄντι πεπερασμένον <choice><sic>ἐπιπρόστιθησι</sic><corr>ἐπιπροστίθησι</corr></choice>, μέχρις ἂν ἀποκαμοῦσα παύσηται·<note type="apparatus" n="12-13" target="#p486-11 #p486-12">παύσητε M</note>
               <lb n="13" xml:id="p486-12"/>ὥστε συγχωρήσομεν αὐτῇ δυνάμει μὲν ἐπ’ ἄπειρον αὔξειν, ἐνεργείᾳ<note type="apparatus" n="13" target="#p486-12">συγχωρήσωμεν L cf. Themist. p. 252,21</note>
               <lb n="14" xml:id="p486-13"/>δὲ οὔ, καὶ πεπερασμένον μὲν ἀεὶ εἶναι τὸ λαμβανόμενον, ἄπειρον δὲ οὐδέποτε.<note type="apparatus" n="14" target="#p486-13">ἀεὶ τὸ εἶναι τὸ Mt</note><milestone type="alt-edition" unit="line" ed="Trincavelli 1535" n="40"/>
               <lb n="15" xml:id="p486-14"/>
@@ -19457,7 +19450,7 @@
             </quote>
             <p>
               <lb n="23" xml:id="p493-22"/>Τῶν ἀπόρων, φησίν, ἐξ ὧν τὸ ἄπειρον εἶναι ἐδόκει, τὰ μὲν οὐδὲν<note type="apparatus" n="23" target="#p493-22">ἐδόκει L: δοκεῖ (K)Mt</note>
-              <lb n="24" xml:id="p493-23"/>ἔχει ἀναγκαστικὸν εἰς τὸ εἶναι τὸ ἄπειρον, τὰ δὲ καὶ ἀληθείας τινὸς ἔχετὰ<note type="apparatus" n="24" target="#p493-23">τὰ δὲ (om. καὶ) ἀλη τινα ἔχονται L</note>
+              <lb n="24" xml:id="p493-23"/>ἔχει ἀναγκαστικὸν εἰς τὸ εἶναι τὸ ἄπειρον, τὰ δὲ καὶ ἀληθείας τινὸς ἔχεται<note type="apparatus" n="24" target="#p493-23">τὰ δὲ (om. καὶ) ἀλη τινα ἔχονται L</note>
               <lb n="25" xml:id="p493-24"/>καὶ οὐκ ἐναντιοῦται οἷς ἡμεῖς περὶ τοῦ ἀπείρου διεξεταζόμεθα. οὔτε<note type="apparatus" n="25" target="#p493-24">ἐναντιοῦνται L διεξεταζόμεθα KMt: ἐξεταζόμεθα L</note>
               <lb n="26" xml:id="p493-25"/>γὰρ ὅπως ἡ γένεσις μὴ ἐπιλίπῃ. ὅτι οὐκ ἀνάγκη διὰ τὸ ἀεὶ εἶναι<note type="apparatus" n="26" target="#p493-25">ὅπως] ἵνα Aristoteles ἡ γένεσις om. L γέννησις M ἐπιλείπει L</note>
               <lb n="27" xml:id="p493-26"/>τὴν γένεσιν τὸ ἄπειρον εἰσάγεσθαι· δυνατὸν γὰρ καὶ πεπερασμένου ὄντος<milestone type="alt-edition" unit="line" ed="Trincavelli 1535" n="10"/>
@@ -19807,7 +19800,7 @@
           <div type="textpart" subtype="lemma" n="6">
             <milestone unit="bekker" n="208b19"/>
             <quote type="lemma">
-              <lb n="23" xml:id="p502-22"/>Οὐ γὰρ’ ὅ τι ἔτυχέν ἐστι τὸ ἄνω, ἀλλ’ ὅπου φέρεται<note type="apparatus" n="23" target="#p502-22">ἔτυχέν ἐστι τὸ ἄνω KM: ἔτυχε τὸ ἄνω ἐστὶν t et Arist. cod. F</note><note type="apparatus" n="23-24" target="#p502-22 #p502-23">ἀλλ’—πῦρ om. K</note>
+              <lb n="23" xml:id="p502-22"/>Οὐ γὰρ ὅ τι ἔτυχέν ἐστι τὸ ἄνω, ἀλλ’ ὅπου φέρεται<note type="apparatus" n="23" target="#p502-22">ἔτυχέν ἐστι τὸ ἄνω KM: ἔτυχε τὸ ἄνω ἐστὶν t et Arist. cod. F</note><note type="apparatus" n="23-24" target="#p502-22 #p502-23">ἀλλ’—πῦρ om. K</note>
               <lb n="24" xml:id="p502-23"/>τὸ πῦρ.
             </quote>
             <p>
@@ -19916,7 +19909,6 @@
               <lb n="27" xml:id="p504-26"/>τὸ τοῦ τόπου γένος. ἀνάγκη οὖν τὸν τόπον ἢ σῶμα εἶναι ἢ ἀσώματον.<note type="apparatus" n="27" target="#p504-26">γένος KMG : γένος G² : γένος ζητεῖν t</note><milestone type="alt-edition" unit="line" ed="Trincavelli 1535" n="35"/>
               <lb n="28" xml:id="p504-27"/>πρότερον οὖν δείκνυσιν ὅτι ἀσώματος οὐκ ἔστι, διὰ τοῦ δεικνύναι<note type="apparatus" n="28" target="#p504-27">ἀσώματος KM : ἀσώματον Gt</note>
               <lb n="29" xml:id="p504-28"/>ὅτι ἀνάγκη σῶμα εἶναι τὸν τόπον. εἰ γὰρ τὸ σῶμα ᾗ σῶμά ἐστιν ἐν τόπῳ
-              <lb n="30" xml:id="p504-29"/>τ
             </p>
             <pb n="505" facs="https://archive.org/download/commentariaina17akaduoft/page/n22.jpg"/>
             <p>
@@ -20000,7 +19992,7 @@
               <lb n="13" xml:id="p507-12"/>δυνατὸν λέγειν τινὰ διαφοράν, κἂν σῶμα ὑπάρχῃ ὁ τόπος, ὅτι τὸ μὲν<note type="apparatus" n="13" target="#p507-12">ὑπάρχει ΚΜ</note>
               <lb n="14" xml:id="p507-13"/>τοπικὸν σῶμα ἄποιόν ἐστι, τὸ δὲ ἐν τόπῳ πεποιωμένον, στιγμῆς δὲ καὶ
               <lb n="15" xml:id="p507-14"/>τοπικῆς στιγμῆς οὐδὲ ἐπινοῆσαι διαφορὰν δυνατόν. δυνατὸν μὲν οὖν ἦν τὸ<note type="apparatus" n="15" target="#p507-14">τυπικῆς Μ ἐπινοήσαι t δυνατὸν διαφορὰν traicit M οὖν om. G</note>
-              <lb n="16" xml:id="p507-15"/>αὐτὸ τοῦτο καὶ 〈ἐπὶ〉 ἐπιφανείας εἰπεῖν καὶ γραμμῆς, ἀλλ’ ὡς ἐπὶ σαφεστὲρου<note type="apparatus" n="16" target="#p507-15">prius ἐπὶ addidit t et, si silentio fides, K ἐπὶ φανείας Μ</note>
+              <lb n="16" xml:id="p507-15"/>αὐτὸ τοῦτο καὶ 〈ἐπὶ〉 ἐπιφανείας εἰπεῖν καὶ γραμμῆς, ἀλλ’ ὡς ἐπὶ σαφεστέρου<note type="apparatus" n="16" target="#p507-15">prius ἐπὶ addidit t et, si silentio fides, K ἐπὶ φανείας Μ</note>
               <lb n="17" xml:id="p507-16"/>μᾶλλον αὐτὸς ἐπὶ τοῦ σημείου γυμνάζει τὸν λόγον. καὶ ἄλλως εἰ<note type="apparatus" n="17" target="#p507-16">σημείου] σείου (sic) Κ</note><milestone type="alt-edition" unit="line" ed="Trincavelli 1535" n="35"/>
               <lb n="18" xml:id="p507-17"/>στιγμῆς ἔστι τόπος, ἐπειδὴ τόπου διαφοραὶ κυριώταται μὲν αἱ δύο, τὸ ἄνω<note type="apparatus" n="18" target="#p507-17">κυριώταται Κ μὲν αἱ ΚΜ: om. Gt</note>
               <lb n="19" xml:id="p507-18"/>καὶ τὸ κάτω, διὰ ταύτας δὲ καὶ αἱ λοιπαὶ τέσσαρες, καὶ οὐδὲ κατ’ ἐπίνοιαν<note type="apparatus" n="19" target="#p507-18">ταύτας (hoc accentu) KM: ταῦτα Gt οὐδὲν ΚΜ</note>
@@ -20126,7 +20118,7 @@
               <lb n="28" xml:id="p510-27"/>οἷς ὁρίζεται σῶμα πᾶν. <milestone type="alt-edition" unit="folio" ed="Trincavelli 1535" n="n 4r"/>
             </quote>
             <p>
-              <lb n="29" xml:id="p510-28"/>Διὰ μὲν οὖν τοῦ διαστήματα ἔχει τρία τὴν ἐλάττονα πρότασιν n<note type="apparatus" n="29" target="#p510-28">ἔχει τρία K: τρία ἔχειν Gt</note><milestone type="alt-edition" unit="line" ed="Trincavelli 1535" n="4"/>
+              <lb n="29" xml:id="p510-28"/>Διὰ μὲν οὖν τοῦ διαστήματα ἔχει τρία τὴν ἐλάττονα πρότασιν<note type="apparatus" n="29" target="#p510-28">ἔχει τρία K: τρία ἔχειν Gt</note><milestone type="alt-edition" unit="line" ed="Trincavelli 1535" n="4"/>
             </p>
             <pb n="511" facs="https://archive.org/download/commentariaina17akaduoft/page/n28.jpg"/>
             <p>
@@ -20364,7 +20356,7 @@
               <lb n="15" xml:id="p516-14"/>φυσικῶν εἰδῶν ἂν εἴη, ὡς δεκτικὴ αὐτῶν καὶ ἄνευ αὐτῆς συστῆναι μὴ<note type="apparatus" n="15" target="#p516-14">καὶ om. Μ</note>
               <lb n="16" xml:id="p516-15"/>δυναμένων. ἀναλογεῖ γὰρ τὸ μὲν χωριστὸν καὶ ἐξῃρημένον εἶδος πατρί,
               <lb n="17" xml:id="p516-16"/>μητρὶ δὲ ἡ ὕλη, σπέρματι δὲ οἱ δημιουργικοὶ λόγοι, οἱ ἐκ τοῦ χωριστοῦ<note type="apparatus" n="17" target="#p516-16">ἡ δὲ ὕλη μητρί Gt</note>
-              <lb n="18" xml:id="p516-17"/>εἴδους ἐνδιδόμενοι εἰς τὴν ὕλην, κυήματι δὲ τὰ ἐκ τῶν λόγων τῶν δημιουργγικῶν<note type="apparatus" n="18" target="#p516-17">κυήματα Κ</note><note type="apparatus" n="18-19" target="#p516-17 #p516-18">δημιουργῶν (sic) Κ: διμιουργιβ α κῶν t</note><milestone type="alt-edition" unit="line" ed="Trincavelli 1535" n="10"/>
+              <lb n="18" xml:id="p516-17"/>εἴδους ἐνδιδόμενοι εἰς τὴν ὕλην, κυήματι δὲ τὰ ἐκ τῶν λόγων τῶν δημιουργικῶν<note type="apparatus" n="18" target="#p516-17">κυήματα Κ</note><note type="apparatus" n="18-19" target="#p516-17 #p516-18">δημιουργῶν (sic) Κ: διμιουργιβ α κῶν t</note><milestone type="alt-edition" unit="line" ed="Trincavelli 1535" n="10"/>
               <lb n="19" xml:id="p516-18"/>ἀναβλαστάνοντα ἐν τῇ ὕλῃ φυσικὰ εἴδη. διὰ τοῦτο μητέρα τὴν ὕλην<note type="apparatus" n="19" target="#p516-18">φυσικὰ εἴδη ἐν τῇ ὕλῃ Κ μητέρα κτλ. vide ad p. 5,9</note>
               <lb n="20" xml:id="p516-19"/>τιθήνην τε καὶ δεξαμενὴν ὁ Τίμαιος ἐκάλεσε, καλεῖ δὲ καὶ μεταληπτικὸν<note type="apparatus" n="20" target="#p516-19">τιθήνην Gt: τιθηνὴν KM μεταληπτικὴν KM</note>
               <lb n="21" xml:id="p516-20"/>τὴν ὕλην, ὡς τὰ εἴδη πάντα μεταλαμβάνουσαν καὶ δεχομένην, καὶ μόνως<note type="apparatus" n="21" target="#p516-20">μεταλαμβάνουσαν—μόνως om. G</note>
@@ -20372,8 +20364,8 @@
               <lb n="23" xml:id="p516-22"/>μικρὸν αὐτὴν ἐκάλει, πολλάκις εἴρηται, ὅτι ὡς δεκτικὴν τῶν ἐναντίων,<note type="apparatus" n="23" target="#p516-22">πολλάκις velut p. 93,9 sqq.</note>
               <lb n="24" xml:id="p516-23"/>πρώτη δὲ ἐναντίωσις καὶ γενικωτάτη ἡ κατὰ τὸ μέγα καὶ τὸ μικρόν,
               <lb n="25" xml:id="p516-24"/>ἐπειδὴ καὶ πρῶτον ὀγκοῦται ἡ ὕλη ποσωθεῖσα, τοῦ δὲ ποσοῦ πρώτη
-              <lb n="26" xml:id="p516-25"/>ἀντίθεσις ἡ κατὰ τὸ μέγα καὶ τὸ μικρόνΟὕτως<note type="apparatus" n="26" target="#p516-25">ἡ ἀντίθεσις ἡ Μ</note><milestone type="alt-edition" unit="line" ed="Trincavelli 1535" n="15"/>
-              <lb n="27" xml:id="p516-26"/>οὖν ἐκ τῶν ὑπαρχόντων τῷ τόπῳ δείξας ἐκ τίνων μὲν ὕλη δόξειεν<note type="apparatus" n="27" target="#p516-26">μὲν om. Μ</note>
+              <lb n="26" xml:id="p516-25"/>ἀντίθεσις ἡ κατὰ τὸ μέγα καὶ τὸ μικρόν.<note type="apparatus" n="26" target="#p516-25">ἡ ἀντίθεσις ἡ Μ</note><milestone type="alt-edition" unit="line" ed="Trincavelli 1535" n="15"/>
+              <lb n="27" xml:id="p516-26"/>Οὕτως οὖν ἐκ τῶν ὑπαρχόντων τῷ τόπῳ δείξας ἐκ τίνων μὲν ὕλη δόξειεν<note type="apparatus" n="27" target="#p516-26">μὲν om. Μ</note>
               <lb n="28" xml:id="p516-27"/>〈ἂν〉 εἶναι, ἐκ τίνων δὲ εἶδος, ἐφεξῆς διὰ πλειόνων ἐπιχειρημάτων δείκνυσιν,<note type="apparatus" n="28" target="#p516-27">ἂν addidi</note>
               <lb n="29" xml:id="p516-28"/>ὅτι οὔτε ὕλην δυνατὸν εἶναι τὸν τόπον οὔτε εἶδος. εἰσὶ δὲ ἀριθμοῦντι<note type="apparatus" n="29" target="#p516-28">ὕλην δυνατὸν εἶναι τὸν τόπον KM: ὕλη δύναται εἶναι ὁ τόπος Gt δὲ KM: γὰρ Gt</note>
               <lb n="30" xml:id="p516-29"/>τὰ πάντα ἐπιχειρήματα ὀκτώ. διὰ μὲν οὖν τοῦ πρώτου ἐπιχειρήματος<note type="apparatus" n="30" target="#p516-29">τὰ πάντα om. Μ</note>
@@ -20557,7 +20549,7 @@
             </p>
             <pb n="521" facs="https://archive.org/download/commentariaina17akaduoft/page/n38.jpg"/>
             <p>
-              <lb n="1" xml:id="p521-0"/>ἡ δὲ χώρα ὁ τόπος ἐστίν· ὥστε ταὐτόν φησιν εἶναι τὴν ὕλην τῷ τόπῳ. R<note type="apparatus" n="1" target="#p521-0">ὁ om. Gt ὥστε αὐτὸν φησιν K</note>
+              <lb n="1" xml:id="p521-0"/>ἡ δὲ χώρα ὁ τόπος ἐστίν· ὥστε ταὐτόν φησιν εἶναι τὴν ὕλην τῷ τόπῳ.<note type="apparatus" n="1" target="#p521-0">ὁ om. Gt ὥστε αὐτὸν φησιν K</note>
               <lb n="2" xml:id="p521-1"/>μεταληπτικὸν δὲ καλεῖ τὴν ὕλην, ὡς ἤδη εἶπον, ὡς τῶν εἰδῶν μεταλαμβάνουσαν,
               <lb n="3" xml:id="p521-2"/>καὶ μόνως μεταλαμβάνουσαν, οὐδαμῶς δὲ μεταλαμβανομένην.<note type="apparatus" n="3" target="#p521-2">μόνον (compendio incerto) M</note>
               <lb n="4" xml:id="p521-3"/>εἴπομεν δὲ πῶς αὐτὴν καὶ χώραν καλεῖ, ὅτι κατὰ ἀναλογίαν, ὥσπερ καὶ<note type="apparatus" n="4" target="#p521-3">εἴπομεν p. 516,3 sqq.</note>
@@ -20572,7 +20564,7 @@
               <lb n="8" xml:id="p521-7"/>ἐν τοῖς λεγομένοις ἀγράφοις δόγμασιν. <milestone type="alt-edition" unit="folio" ed="Trincavelli 1535" n="n 6r"/>
             </quote>
             <p>
-              <lb n="9" xml:id="p521-8"/>Τουτέστιν ἄλλως ἐν τῷ Τιμαίῳ τὴν ὕλην ὀνομάζων καὶ ἄλλως ἐν τοῖς R
+              <lb n="9" xml:id="p521-8"/>Τουτέστιν ἄλλως ἐν τῷ Τιμαίῳ τὴν ὕλην ὀνομάζων καὶ ἄλλως ἐν τοῖς
               <lb n="10" xml:id="p521-9"/>ἀγράφοις δόγμασι, τουτέστιν ἐν ταῖς ἀγράφοις συνουσίαις· ἐν μὲν 〈γὰρ〉 ταῖς<note type="apparatus" n="10" target="#p521-9">ἐν ταῖς] ἐν τοῖς K</note><note type="apparatus" n="10-11" target="#p521-9 #p521-10">ἐν μὲν ταῖς ἀγράφοις συνουσίαις KM: om. G: ἐν αὐταῖς γὰρ t</note>
               <lb n="11" xml:id="p521-10"/>ἀγράφοις συνουσίαις μέγα καὶ μικρὸν ἐκάλει τὴν ὕλην, ὡς ἐν τοῖς ἔμπροσθεν<note type="apparatus" n="11-12" target="#p521-10 #p521-11">ἔμπροσθεν ex. gr. A 4 p, 187 a 17</note>
               <lb n="12" xml:id="p521-11"/>ὁ Ἀριστοτέλης εἶπε, καὶ εἴπομεν διὰ τί μέγα καὶ μικρὸν ἡ ὕλη, ἐν<note type="apparatus" n="12-13" target="#p521-11 #p521-12">καὶ μικρὸν—καλεῖ τὴν om. K</note>
@@ -21123,7 +21115,7 @@
             </p>
             <pb n="534" facs="https://archive.org/download/commentariaina17akaduoft/page/n51.jpg"/>
             <p>
-              <lb n="1" xml:id="p534-0"/>γὰρ τοσαῦτά ἐστι τὰ τοῦ ἔν τινι σημαινόμενα, ὅσα ἀπηριθμησάμεθα, ἐν n Sr<note type="apparatus" n="1" target="#p534-0">εἰσὶ Gt</note>
+              <lb n="1" xml:id="p534-0"/>γὰρ τοσαῦτά ἐστι τὰ τοῦ ἔν τινι σημαινόμενα, ὅσα ἀπηριθμησάμεθα, ἐν<note type="apparatus" n="1" target="#p534-0">εἰσὶ Gt</note>
               <lb n="2" xml:id="p534-1"/>οὐδενὶ δὲ οἷόν τε εἶναι αὐτό τι ἐν ἑαυτῷ, ἔοικεν ἄρα μηδὲ εἶναι τι ὅλως<note type="apparatus" n="2" target="#p534-1">μηδὲν M</note>
               <lb n="3" xml:id="p534-2"/>αὐτὸ ἐν ἑαυτῷ· πάντα γὰρ τὰ τοῦ ἔν τινι σημαινόμενα ἄλλο ἐν ἄλλῳ
               <lb n="4" xml:id="p534-3"/>ἐστίν. οὐδὲ γὰρ ὅταν λέγωμεν τὸ ὅλον ἐν τοῖς μορίοις, αὐτὸ ἐν ἑαυτῷ<note type="apparatus" n="4" target="#p534-3">οὐδὲ κτλ.] cf. Themist. p. 263,25 ὅταν λέγομεν K</note>
@@ -21320,7 +21312,7 @@
             </p>
             <pb n="539" facs="https://archive.org/download/commentariaina17akaduoft/page/n56.jpg"/>
             <p>
-              <lb n="1" xml:id="p539-0"/>οὐκ ἐλεγχθήσεται διὰ τῶν νῦν λεγομένων, ἀλλὰ διὰ τῶν ἐκεῖσε εἰρημένων· ο<note type="apparatus" n="1" target="#p539-0">ἐλεγχθήσεται KM</note>
+              <lb n="1" xml:id="p539-0"/>οὐκ ἐλεγχθήσεται διὰ τῶν νῦν λεγομένων, ἀλλὰ διὰ τῶν ἐκεῖσε εἰρημένων·<note type="apparatus" n="1" target="#p539-0">ἐλεγχθήσεται KM</note>
               <lb n="2" xml:id="p539-1"/>οὐ γὰρ συγχωρήσομεν τῇ προτάσει, ὅτι “πᾶν τὸ ὂν ἐν τόπῳ”.<note type="apparatus" n="2" target="#p539-1">συγχωρήσωμεν t</note>
             </p>
           </div>
@@ -21361,7 +21353,7 @@
               <lb n="18" xml:id="p539-17"/>Ἐντεῦθεν λοιπὸν τί ποτέ ἐστιν ὁ τόπος βουλόμενος ἀποδοῦναι, πρότερον<note type="apparatus" n="18" target="#p539-17">ποτέ om. Gt</note><milestone type="alt-edition" unit="line" ed="Trincavelli 1535" n="53"/>
               <lb n="19" xml:id="p539-18"/>ἐκτίθεται τὰ κατὰ κοινὴν ἔννοιαν ὑπάρχοντα τῷ τόπῳ, εἶτα ἐρεῖ πόθεν<note type="apparatus" n="19" target="#p539-18">τὰ] τινὰ K κατὰ τὴν κοινὴν Mt εἶτα αἱρεῖ K</note>
               <lb n="20" xml:id="p539-19"/>ὅλως κινηθέντες οἱ ἄνθρωποι ἤλθομεν εἰς ἔννοιαν τοῦ τόπου, καὶ <milestone type="alt-edition" unit="folio" ed="Trincavelli 1535" n="o 1v"/>
-              <lb n="21" xml:id="p539-20"/>εἰπὼν τὴν αἰτίαν ἀκόλουθά τινα ταύτῃ θεωρήματα προθήσει, εἶτα λοιπὸν ο<note type="apparatus" n="21" target="#p539-20">προσθήσει K</note>
+              <lb n="21" xml:id="p539-20"/>εἰπὼν τὴν αἰτίαν ἀκόλουθά τινα ταύτῃ θεωρήματα προθήσει, εἶτα λοιπὸν<note type="apparatus" n="21" target="#p539-20">προσθήσει K</note>
               <lb n="22" xml:id="p539-21"/>ἀποδώσει τοιοῦτον τὸν περὶ τοῦ τόπου λόγον, ὃς καὶ τὰς φερομένας ἀπορίας
               <lb n="23" xml:id="p539-22"/>πρὸς τὸν τόπον, ὡς αὐτός φησιν, ἐπιλύεται, καὶ τὰ κατὰ κοινὴν<note type="apparatus" n="23" target="#p539-22">et p. 540,1 τὰ om. KG (addit G²)</note><note type="apparatus" n="23" target="#p539-22">τὴν κοινὴν t</note>
               <lb n="24" xml:id="p539-23"/>ἔννοιαν καθ’ αὑτὸ ὑπάρχοντα τῷ τόπῳ δείξει ὑπάρχοντα, καὶ τὸ αἴτιον τῆς<note type="apparatus" n="24" target="#p539-23">ἔνοιαν K ὑπάρχοντα (post δείξει) om. M</note>
@@ -21402,7 +21394,7 @@
             </p>
             <pb n="541" facs="https://archive.org/download/commentariaina17akaduoft/page/n58.jpg"/>
             <p>
-              <lb n="1" xml:id="p541-0"/>γὰρ καὶ τοῦτον ἀπολείπει, ἀλλ’ οὖν πάντως ἐν ἄλλῳ τινί ἐστι, καὶ τόπου ο
+              <lb n="1" xml:id="p541-0"/>γὰρ καὶ τοῦτον ἀπολείπει, ἀλλ’ οὖν πάντως ἐν ἄλλῳ τινί ἐστι, καὶ τόπου
               <lb n="2" xml:id="p541-1"/>ἁπλῶς οὐδέποτε ἀπολείπεται. τὸ δὲ χωριστὸν εἶναι κατὰ τὴν γραφὴν<note type="apparatus" n="2" target="#p541-1">χωριστόν ἐστι K de εἶναι post χωριστὸν cf. p. 540,23. p 3r4 et 48</note>
               <lb n="3" xml:id="p541-2"/>ταύτην ἀντὶ τοῦ μηδὲν εἶναι τοῦ πράγματος, ἀλλ’ ἐκτὸς εἶναι τῆς οὐσίας<milestone type="alt-edition" unit="line" ed="Trincavelli 1535" n="26"/>
               <lb n="4" xml:id="p541-3"/>αὐτοῦ καὶ μηδὲν εἰς αὐτὴν συντελεῖν. τέταρτον τὸ τὸν πάντα τόπον<note type="apparatus" n="4" target="#p541-3">εἰς αὐτὴν συντελεῖν KM: εἶναι εἰς αὐτὴν συντελεῖν (συντελοῦν t) Gt τὸν πάντα] πάντα Aristoteles (cf. p. 543,7)</note>
@@ -21436,7 +21428,7 @@
             </p>
             <pb n="542" facs="https://archive.org/download/commentariaina17akaduoft/page/n59.jpg"/>
             <p>
-              <lb n="1" xml:id="p542-0"/>ἐστι, φησίν, ὡς δύνασθαι καὶ καθ’ αὑτὰ κινεῖσθαι, ὡς ὁ πλωτήρ, φησί, καὶ ὁ . v
+              <lb n="1" xml:id="p542-0"/>ἐστι, φησίν, ὡς δύνασθαι καὶ καθ’ αὑτὰ κινεῖσθαι, ὡς ὁ πλωτήρ, φησί, καὶ
               <lb n="2" xml:id="p542-1"/>ὁ ἐν τῷ πλοίῳ ἧλος καὶ τὰ μόρια τοῦ ὅλου· καὶ γὰρ ὁ πλωτὴρ καὶ
               <lb n="3" xml:id="p542-2"/>ὁ τοῦ πλοίου ἧλος κατὰ συμβεβηκὸς κινεῖται κινουμένου τοῦ πλοίου, καὶ<note type="apparatus" n="3-4" target="#p542-2 #p542-3">κινουμένου τοῦ πλοίου — κινεῖται om. G</note>
               <lb n="4" xml:id="p542-3"/>τὰ μόρια δὲ κατὰ συμβεβηκὸς κινεῖται κινουμένου τοῦ ὅλου. ἀλλὰ ταῦτα
@@ -21531,7 +21523,7 @@
           <div type="textpart" subtype="lemma" n="64">
             <milestone unit="bekker" n="211a14"/>
             <quote type="lemma">
-              <lb n="1" xml:id="p544-0"/>Ταύτης δὲ τὸ μὲν φορά, τὸ δὲ αὔξησις καὶ φθίσις. ο<note type="apparatus" n="1" target="#p544-0">τὸ δ’ αὔξησις t</note>
+              <lb n="1" xml:id="p544-0"/>Ταύτης δὲ τὸ μὲν φορά, τὸ δὲ αὔξησις καὶ φθίσις.<note type="apparatus" n="1" target="#p544-0">τὸ δ’ αὔξησις t</note>
             </quote>
             <p>
               <lb n="2" xml:id="p544-1"/>Ταύτης, οὐ τῆς κινήσεως ἁπλῶς, ἀλλὰ τῆς κατὰ τόπον κινήσεως.<note type="apparatus" n="2" target="#p544-1">Ταύτης— κατὰ τόπον κινήσεως om. G</note>
@@ -21552,7 +21544,7 @@
               <lb n="10" xml:id="p544-9"/>Ἐπειδὴ εἶπεν ὅτι ἐκ τῶν κατὰ τόπον κινουμένων εἰς τὴν τοῦ τόπου<milestone type="alt-edition" unit="line" ed="Trincavelli 1535" n="53"/>
               <lb n="11" xml:id="p544-10"/>ἤλθομεν ἔννοιαν, εἰπὼν τίς ποτέ ἐστιν ἡ κατὰ τόπον κίνησις βούλεται καὶ
               <lb n="12" xml:id="p544-11"/>τῶν κατὰ τόπον κινουμένων διαίρεσιν ποιήσασθαι, ἐπεὶ μὴ πάντα τὰ ὁπωσοῦν<note type="apparatus" n="12" target="#p544-11">τὰ om. G</note>
-              <lb n="13" xml:id="p544-12"/>λεγόμενα κατὰ τόπον κινεῖσθαι εἰς τὴν τοῦ τόπου συμβάλλεται ἔννοιαν, ο<milestone type="alt-edition" unit="folio" ed="Trincavelli 1535" n="o 2v"/>
+              <lb n="13" xml:id="p544-12"/>λεγόμενα κατὰ τόπον κινεῖσθαι εἰς τὴν τοῦ τόπου συμβάλλεται ἔννοιαν,<milestone type="alt-edition" unit="folio" ed="Trincavelli 1535" n="o 2v"/>
               <lb n="14" xml:id="p544-13"/>ἵνα δείξῃ ποῖα μὲν συμβάλλεται ποῖα δὲ οὔ. φησὶν οὖν ὅτι τῶν ἐν τόπῳ<note type="apparatus" n="14" target="#p544-13">οὖν om. K</note>
               <lb n="15" xml:id="p544-14"/>κινουμένων τὰ μὲν καθ’ αὑτὸ κινεῖται, τὰ δὲ κατὰ συμβεβηκός. οὐδὲν οὖν<note type="apparatus" n="15-16" target="#p544-14 #p544-15">οὐδὲν οὖν τῶν κατὰ συμβεβηκὸς om. G</note>
               <lb n="16" xml:id="p544-15"/>τῶν κατὰ συμβεβηκὸς κινουμένων συντελεῖ εἰς τὴν τοῦ τόπου ἔννοιαν, ἀλλὰ<note type="apparatus" n="16" target="#p544-15">τοῦ om. M</note>
@@ -21629,7 +21621,7 @@
             </p>
             <pb n="546" facs="https://archive.org/download/commentariaina17akaduoft/page/n63.jpg"/>
             <p>
-              <lb n="1" xml:id="p546-0"/>τουτέστιν ἅμα καὶ κατὰ ταὐτὸν ἅπτονται τοῖς πέρασι τὰ ἁπτόμενα, ο<note type="apparatus" n="1" target="#p546-0">καὶ om. G κατ’ αὐτὸν K</note>
+              <lb n="1" xml:id="p546-0"/>τουτέστιν ἅμα καὶ κατὰ ταὐτὸν ἅπτονται τοῖς πέρασι τὰ ἁπτόμενα,<note type="apparatus" n="1" target="#p546-0">καὶ om. G κατ’ αὐτὸν K</note>
               <lb n="2" xml:id="p546-1"/>πέρατα δὲ τῶν σωμάτων ἐπιφάνειαι. ἐπεὶ οὖν ἐφαρμόζουσιν ἀλλήλαις αἱ<note type="apparatus" n="2" target="#p546-1">τῶν om. M</note><milestone type="alt-edition" unit="line" ed="Trincavelli 1535" n="31"/>
               <lb n="3" xml:id="p546-2"/>ἐπιφάνειαι, ἐφαρμόσει δηλονότι ἡ τοπικὴ ἐπιφάνεια τῇ τοῦ ἐν τόπῳ, ἐφαρμοζουσῶν
               <lb n="4" xml:id="p546-3"/>δὲ μία γίνεται, ὥστε ἐν ταὐτῷ ἄμφω· εἰ δὲ καὶ ἐν ταὐτῷ, καὶ<note type="apparatus" n="4" target="#p546-3">γίνεται scripsi: γὰρ GKM: om. t δὲ καὶ KM: δὲ (om. καὶ) Gt</note>
@@ -21640,7 +21632,7 @@
           <div type="textpart" subtype="lemma" n="70">
             <milestone unit="bekker" n="211a34"/>
             <quote type="lemma">
-              <lb n="7" xml:id="p546-6"/>Καὶ συνεχὲς μὲν ὂν οὐκ ἐν ἐκείνῳ κινεῖται ἀλλὰ μετ<note type="apparatus" n="7-8" target="#p546-6 #p546-7">οὐκ ἐν ἐκείνῳ—ἐν ἐκείνῳ om. K</note>
+              <lb n="7" xml:id="p546-6"/>Καὶ συνεχὲς μὲν ὂν οὐκ ἐν ἐκείνῳ κινεῖται ἀλλὰ <choice><sic>μετ</sic><corr>μετ’</corr></choice><note type="apparatus" n="7-8" target="#p546-6 #p546-7">οὐκ ἐν ἐκείνῳ—ἐν ἐκείνῳ om. K</note>
               <lb n="8" xml:id="p546-7"/>ἐκείνου, διῃρημένον δὲ ἐν ἐκείνῳ.
             </quote>
             <p>
@@ -21681,11 +21673,11 @@
             </p>
             <pb n="547" facs="https://archive.org/download/commentariaina17akaduoft/page/n64.jpg"/>
             <p>
-              <lb n="1" xml:id="p547-0"/>τῷ τόπῳ προαγόμεθα εἰς τὸ νομίζειν αὐτὸν ἢ ὕλην εἶναι ἢ εἶδος ἢ ο<note type="apparatus" n="1" target="#p547-0">προσαγόμεθα G</note>
+              <lb n="1" xml:id="p547-0"/>τῷ τόπῳ προαγόμεθα εἰς τὸ νομίζειν αὐτὸν ἢ ὕλην εἶναι ἢ εἶδος ἢ<note type="apparatus" n="1" target="#p547-0">προσαγόμεθα G</note>
               <lb n="2" xml:id="p547-1"/>τὸ μεταξὺ τῶν περάτων τοῦ περιέχοντος διάστημα, οἷον τὸ διάστημα τὸ
               <lb n="3" xml:id="p547-2"/>μεταξὺ τῆς κοίλης ἐπιφανείας τοῦ κεράμου, ἢ αὐτὰ τὰ πέρατα τοῦ περιέχοντος,<note type="apparatus" n="3" target="#p547-2">τοῦ κεράμου ἐπιφανείας M</note>
               <lb n="4" xml:id="p547-3"/>οἷον αὐτὴν τὴν κοίλην τοῦ κεράμου ἐπιφάνειαν. ᾗ μὲν γὰρ περιέχει<note type="apparatus" n="4" target="#p547-3">αὐτήν τε τὴν κοίλην τὴν τοῦ (om. οἷον) M ᾗ] ἢ K</note>
-              <lb n="5" xml:id="p547-4"/>ὁ τόπος καὶ ὁρίζει τὸ ἐν τόπῳ ὄν <milestone type="alt-edition" unit="folio" ed="Trincavelli 1535" n="o 3r"/> καὶ ἴσος ἐστὶ τῷ πέρατι αὐτοῦ, εἶδος ο
+              <lb n="5" xml:id="p547-4"/>ὁ τόπος καὶ ὁρίζει τὸ ἐν τόπῳ ὄν <milestone type="alt-edition" unit="folio" ed="Trincavelli 1535" n="o 3r"/> καὶ ἴσος ἐστὶ τῷ πέρατι αὐτοῦ, εἶδος
               <lb n="6" xml:id="p547-5"/>εἶναι νομίζεται· ἡ γὰρ ἑκάστου περιγραφὴ καὶ τὸ πέρας εἶδος ἑκάστου
               <lb n="7" xml:id="p547-6"/>ἐστίν, εἶδος δὲ λέγω τὸ κατὰ τὸ σχῆμα καὶ τὴν μορφήν. ᾗ δὲ μένων εἷς
               <lb n="8" xml:id="p547-7"/>καὶ ὁ αὐτὸς ἄλλοτε ἄλλα σώματα δέχεται, ἡ ὕλη δοκεῖ εἶναι· ὕλης γὰρ<note type="apparatus" n="8" target="#p547-7">ὁ om. K ἡ deleverim, at cf. p. 548,7</note>
@@ -22074,12 +22066,12 @@
             </p>
             <pb n="557" facs="https://archive.org/download/commentariaina17akaduoft/page/n74.jpg"/>
             <p>
-              <lb n="1" xml:id="p557-0"/>ἀλλὰ περιφορά. εἴ τι μὲν οὖν κινητὸν κατὰ φοράν, τοῦτο πάντως ἐν ο<note type="apparatus" n="1" target="#p557-0">εἴ τι] ὅτι K</note>
+              <lb n="1" xml:id="p557-0"/>ἀλλὰ περιφορά. εἴ τι μὲν οὖν κινητὸν κατὰ φοράν, τοῦτο πάντως ἐν<note type="apparatus" n="1" target="#p557-0">εἴ τι] ὅτι K</note>
               <lb n="2" xml:id="p557-1"/>τόπῳ, οὐκ εἴ τι ἐν τόπῳ μέν, τοῦτο κινητὸν κατὰ φοράν· αἱ γὰρ ἐντὸς<note type="apparatus" n="2" target="#p557-1">οὐκ KM: οὐ μὴν Gt</note>
               <lb n="3" xml:id="p557-2"/>σφαῖραι τῆς ἀπλανοῦς ἐν τόπῳ μέν, οὐ κινηταὶ δὲ κατὰ φοράν. πῶς δὲ<note type="apparatus" n="3" target="#p557-2">κινηταὶ KM: κινεῖται G: κινοῦνται t</note>
               <lb n="4" xml:id="p557-3"/>βούλεται εἶναι τὴν ἀπλανῆ ἐν τόπῳ καὶ πῶς οὔ, αὐτοῦ λέγοντος μετ’<note type="apparatus" n="4" target="#p557-3">καὶ πῶς μὴ τοῦ αὐτοῦ M</note><note type="apparatus" n="4-5" target="#p557-3 #p557-4">μετ’ ὀλίγον c. 5</note>
               <lb n="5" xml:id="p557-4"/>ὀλίγον ὀψόμεθα, τὸν δὲ ἐντελῆ περὶ τούτων λόγον ἄλλης ἂν εἴη πραγματείας<note type="apparatus" n="5" target="#p557-4">ὀψόμεθα GKM: ἀκουσόμεθα t τούτου M</note>
-              <lb n="6" xml:id="p557-5"/>ἐπισκέψασθαι, λέγω δὴ ὅπως ἔχει ὁ οὐρανὸς κατά τε τὰ μόρια ο<note type="apparatus" n="6" target="#p557-5">ἔχοι K τε om. M</note><milestone type="alt-edition" unit="folio" ed="Trincavelli 1535" n="o 5r"/>
+              <lb n="6" xml:id="p557-5"/>ἐπισκέψασθαι, λέγω δὴ ὅπως ἔχει ὁ οὐρανὸς κατά τε τὰ μόρια<note type="apparatus" n="6" target="#p557-5">ἔχοι K τε om. M</note><milestone type="alt-edition" unit="folio" ed="Trincavelli 1535" n="o 5r"/>
               <lb n="7" xml:id="p557-6"/>καὶ κατὰ τὰ ὅλα.<note type="apparatus" n="7" target="#p557-6">ὅλα] ἀλλα K ante v.</note>
             </p>
           </div>
@@ -22112,7 +22104,7 @@
             </p>
             <pb n="558" facs="https://archive.org/download/commentariaina17akaduoft/page/n75.jpg"/>
             <p>
-              <lb n="1" xml:id="p558-0"/>ποιότητι σωματικῇ πεποιωμένων, σκληρότητι ἢ μαλακότητι ἢ ὅλως<note type="apparatus" n="1-2" target="#p558-0 #p558-1">σκληρότητι — εἴτε] μήτε Μ</note>
+              <lb n="1" xml:id="p558-0"/>ποιότητι σωματικῇ <choice><sic>πεποιωμένων</sic><corr>πεποιωμένον</corr></choice>, σκληρότητι ἢ μαλακότητι ἢ ὅλως<note type="apparatus" n="1-2" target="#p558-0 #p558-1">σκληρότητι — εἴτε] μήτε Μ</note>
               <lb n="2" xml:id="p558-1"/>ἀντιτυπίᾳ εἴτε ἄλλῃ τινὶ τοιαύτῃ δυνάμει, διαίρεσιν ἐμποιήσει ἐν τοῖς σώμασιν;<note type="apparatus" n="2" target="#p558-1">δυνάμει τοιαύτῃ Κ</note><milestone type="alt-edition" unit="line" ed="Trincavelli 1535" n="20"/>
               <lb n="3" xml:id="p558-2"/>ὥσπερ οὖν ἐπιφάνεια ἐφαρμόζουσα ἐπιφανείᾳ οὐδεμίαν διαίρεσιν
               <lb n="4" xml:id="p558-3"/>ἐμποιεῖ, ἀλλὰ κἂν μυρίαι ἐφαρμοσθῶσιν ἀλλήλαις ἐπιφάνειαι, οὔτε αὔξησίν
@@ -22133,7 +22125,7 @@
               <lb n="19" xml:id="p558-18"/>οὐδὲ ἡ ὅλη τῇ ὅλῃ. ἔσται οὖν ἐνεργείᾳ τὸ ἄπειρον. καὶ οὔ τι λέγω ὅτι<note type="apparatus" n="19" target="#p558-18">οὔ τι KM: οὐ Gt</note>
               <lb n="20" xml:id="p558-19"/>ὡς ἐν τόπῳ ἔσται ἡ μία ἐπιφάνεια τῇ ἑτέρᾳ· κἂν γὰρ μὴ ὡς ἐν τόπῳ<note type="apparatus" n="20" target="#p558-19">ἐπιφανείᾳ Κ ἐν τῇ ἑτέρᾳ t</note>
               <lb n="21" xml:id="p558-20"/>ᾖ, ἀλλ’ οὖν ἐφαρμόζουσί γε ἀλλήλαις. καθὸ οὖν ἐφαρμόζουσιν, ἐχώρησαν<note type="apparatus" n="21" target="#p558-20">ἀλλήλοις KM ἐχώρησε KM</note>
-              <lb n="22" xml:id="p558-21"/>δι’ ἀλλήλων, ὥστε καὶ διαιρήσουσιν ἀλλήλας. ἢ τοίνυν οὔτε γραμμὴν δύνατὸν<note type="apparatus" n="22" target="#p558-21">ἀλλήλας Gt: ἀλλήλαις KM ἢ om. G</note><note type="apparatus" n="22-23" target="#p558-21 #p558-22">οὔτε γραμμὴν δυνατὸν ἑτέρᾳ γραμμῇ (ἑτέραν γραμμὴν Κ) KM: οὔτε γραμμὴ δύναται οὔτε γραμμῇ G: οὔτε γραμμὴ γραμμῇ δύναται t</note>
+              <lb n="22" xml:id="p558-21"/>δι’ ἀλλήλων, ὥστε καὶ διαιρήσουσιν ἀλλήλας. ἢ τοίνυν οὔτε γραμμὴν δυνατὸν<note type="apparatus" n="22" target="#p558-21">ἀλλήλας Gt: ἀλλήλαις KM ἢ om. G</note><note type="apparatus" n="22-23" target="#p558-21 #p558-22">οὔτε γραμμὴν δυνατὸν ἑτέρᾳ γραμμῇ (ἑτέραν γραμμὴν Κ) KM: οὔτε γραμμὴ δύναται οὔτε γραμμῇ G: οὔτε γραμμὴ γραμμῇ δύναται t</note>
               <lb n="23" xml:id="p558-22"/>ἑτέρᾳ γραμμῇ ἐφαρμόζειν, οὔτε ἐπιφάνειαν ἐπιφανείᾳ, ἢ εἰ ταύτας<note type="apparatus" n="23" target="#p558-22">ἐπιφάνειαν ἐπιφανείᾳ Κ: ἐπιφάνειαν Μ: ἐπιφάνεια ἐπιφανείᾳ Gt</note><note type="apparatus" n="23-24" target="#p558-22 #p558-23">ταύτας (sic) KM</note>
               <lb n="24" xml:id="p558-23"/>δυνατόν, διὰ τί μὴ καὶ τριχῇ διαστατὸν ἀσώματόν γε ὂν τριχῇ διαστατῷ<note type="apparatus" n="24" target="#p558-23">διαστατὸν] δυνατὸν Μ</note><note type="apparatus" n="24-25" target="#p558-23 #p558-24">διαστατῷ] διαστατῶν Κ</note><milestone type="alt-edition" unit="line" ed="Trincavelli 1535" n="35"/>
               <lb n="25" xml:id="p558-24"/>ἐφαρμόσει; τίς γὰρ ἡ ἀποκλήρωσις μῆκος μὲν μήκει ἐφαρμόζειν
@@ -22142,12 +22134,11 @@
               <lb n="28" xml:id="p558-27"/>εἶναι ἔχει, ἀλλ’ ὅμως ἐφαρμόζουσι τοῖς ὁμοίοις ἀσώματά γε αὐτὰ ὄντα,
               <lb n="29" xml:id="p558-28"/>τὸ δὲ διάστημα τὸ τοπικὸν ἀσώματόν ἐστι καὶ χωριστὸν σώματος καὶ καθ’<note type="apparatus" n="29" target="#p558-28">τὸ (ante τοπικὸν) om. Μ</note><note type="apparatus" n="29-30" target="#p558-28 #p558-29">χωριστὸν φύσεως καθ’ αὐτὸ ἐφεστηκός Μ</note>
               <lb n="30" xml:id="p558-29"/>αὐτὸ ὑφεστηκός, οὐκ ἐν ὑποκειμένῳ τινὶ τὸ εἶναι ἔχον· πολλῷ οὖν μᾶλλον
-              <lb n="31" xml:id="p558-30"/>ἐφαρμόσαι δυνήσεται τῷ σώματι, ἀπαθὲς φυλάττον αὐτό. εἰ γὰρ τὸ διάβ<note type="apparatus" n="31" target="#p558-30">φυλάττων GK αὐτό scripsi: αὐτό libri</note><milestone type="alt-edition" unit="line" ed="Trincavelli 1535" n="40"/>
-              <lb n="32" xml:id="p558-31"/>α
+              <lb n="31" xml:id="p558-30"/>ἐφαρμόσαι δυνήσεται τῷ σώματι, ἀπαθὲς φυλάττον αὐτό. εἰ γὰρ τὸ διάστημα<note type="apparatus" n="31" target="#p558-30">φυλάττων GK αὐτό scripsi: αὐτό libri</note><milestone type="alt-edition" unit="line" ed="Trincavelli 1535" n="40"/>
             </p>
             <pb n="559" facs="https://archive.org/download/commentariaina17akaduoft/page/n76.jpg"/>
             <p>
-              <lb n="1" xml:id="p559-0"/>στημα ᾗ διάστημά ἐστιν ἁπλῶς ἐφαρμόζον ἄλλῳ διαστήματι εὐθὺς καὶ ο<note type="apparatus" n="1" target="#p559-0">ἁπλῶς ἢ διάστημά ἐστιν Μ ἄλλο Κ</note>
+              <lb n="1" xml:id="p559-0"/>ᾗ διάστημά ἐστιν ἁπλῶς ἐφαρμόζον ἄλλῳ διαστήματι εὐθὺς καὶ<note type="apparatus" n="1" target="#p559-0">ἁπλῶς ἢ διάστημά ἐστιν Μ ἄλλο Κ</note>
               <lb n="2" xml:id="p559-1"/>διῄρει αὐτό, μᾶλλον δὲ διῃροῦντο ὑπ’ ἀλλήλων ἄμφω τὰ διαστήματα, καὶ<note type="apparatus" n="2" target="#p559-1">δὲ GKM: ἂν t</note>
               <lb n="3" xml:id="p559-2"/>ἡ γραμμὴ ἡ τῇ γραμμῇ ἐφαρμόζουσα καὶ ἡ ἐπιφάνεια 〈ἡ〉 τῇ ἐπιφανείᾳ<note type="apparatus" n="3" target="#p559-2">ἡ (ante γραμμὴ) om. M ἡ (post γραμμὴ) om. Gt ἡ (post ἐπιφάνεια) addidi</note>
               <lb n="4" xml:id="p559-3"/>τὸ αὐτὸ ἂν ἐποίησαν (διαστήματα γὰρ καὶ ταῦτα), εἰ δὲ μηδὲν τοιοῦτον<note type="apparatus" n="4" target="#p559-3">ἐποίησε KM</note>
@@ -22168,7 +22159,7 @@
               <lb n="19" xml:id="p559-18"/>Ἐγὼ δὲ κἀκεῖνό φημι, ὅτι κἂν τριχῇ ὢν διαστατὸς ὁ τόπος σῶμα ἦν,<note type="apparatus" n="19" target="#p559-18">ὃν Κ</note>
               <lb n="20" xml:id="p559-19"/>οὐδεμία ἦν ἀνάγκη χωροῦντος ἐν αὐτῷ τοῦ ἐν τόπῳ γινομένου ἢ καὶ αὐτοῦ<note type="apparatus" n="20" target="#p559-19">ἐν αὐτῷ τοῦ om. M</note><note type="apparatus" n="20-21" target="#p559-19 #p559-20">ἐν τόπῳ γινομένου ἢ καὶ αὐτοῦ iterat M: ter habet K</note>
               <lb n="21" xml:id="p559-20"/>δι’ ἐκείνου χωροῦντος ἀκολουθεῖν τοῦτο τὸ ἄτοπον, τὸ διῃρῆσθαι ἐπ’<note type="apparatus" n="21-22" target="#p559-20 #p559-21">τὸ ἄτοπον — δι’ ἀλλήλων om. M</note>
-              <lb n="22" xml:id="p559-21"/>ἄπειρον τὰ χωρήσαντα <milestone type="alt-edition" unit="folio" ed="Trincavelli 1535" n="o 5v"/> δι’ ἀλλήλων, ἀλλ’ εἵπετο μὲν τὸ χωρῆσαι σῶμα ο<note type="apparatus" n="22" target="#p559-21">τὸ KM: ἢ τὸ Gt</note>
+              <lb n="22" xml:id="p559-21"/>ἄπειρον τὰ χωρήσαντα <milestone type="alt-edition" unit="folio" ed="Trincavelli 1535" n="o 5v"/> δι’ ἀλλήλων, ἀλλ’ εἵπετο μὲν τὸ χωρῆσαι σῶμα<note type="apparatus" n="22" target="#p559-21">τὸ KM: ἢ τὸ Gt</note>
               <lb n="23" xml:id="p559-22"/>διὰ σώματος, ὅπερ προφανῶς ἀδύνατον, ἢ θάτερον τῶν σωμάτων ὅλον εἶναι
               <lb n="24" xml:id="p559-23"/>κενόν, ἵνα οὕτω τὸ λοιπὸν δύνηται δι’ αὐτοῦ χωρῆσαι. καὶ αὐτὸς γοῦν ὁ<note type="apparatus" n="24" target="#p559-23">οὕτω] αὐτῷ Μ οὖν Μ</note>
               <lb n="25" xml:id="p559-24"/>Ἀριστοτέλης τῷ λέγειν σῶμα διὰ σώματος χωρεῖν οὐδέποτε εἶπεν ἕπεσθαι
@@ -22235,7 +22226,7 @@
               <lb n="16" xml:id="p561-15"/>τὸ γὰρ ἄπειρον ἐν τῷ ποσῷ, οὐσίαν δὲ ἄπειρον ποιεῖν ἢ ποιότητα ἢ πάθος<note type="apparatus" n="16" target="#p561-15">ποιεῖν] εἶναι Aristoteles</note>
               <lb n="17" xml:id="p561-16"/>οὐκ ἐνδέχεται εἰ μὴ κατὰ συμβεβηκός, εἰ ἅμα καὶ ποσὰ ἄττα εἶεν· ὁ γὰρ<note type="apparatus" n="17" target="#p561-16">ἅμα Mt: ἄλα K: ἄρα G πόσα K ἄττα libri</note>
               <lb n="18" xml:id="p561-17"/>τοῦ ἀπείρου λόγος τῷ ποσῷ προσκέχρηται, ἀλλ’ οὐκ οὐσίᾳ οὐδὲ τῷ ποιῷ.”<note type="apparatus" n="18" target="#p561-17">προσχρῆται K Aristoteles</note>
-              <lb n="19" xml:id="p561-18"/>σαφῶς οὖν διὰ τούτων ὁ Ἀριστοτέλης συμβεβηκέναι τῇ οὐσίᾳ φησὶ τὸ πόσόν,
+              <lb n="19" xml:id="p561-18"/>σαφῶς οὖν διὰ τούτων ὁ Ἀριστοτέλης συμβεβηκέναι τῇ οὐσίᾳ φησὶ τὸ ποσόν,
               <lb n="20" xml:id="p561-19"/>τὸ δὲ τριχῇ διαστατὸν τοῦ ποσοῦ, τὸ τριχῇ ἄρα διαστατὸν συμβέβηκε
               <lb n="21" xml:id="p561-20"/>τῇ οὐσίᾳ· τὸ δὲ σῶμα οὐσία, τῷ σώματι ἄρα συμβέβηκε τὸ τριχῇ διαστατόν.<note type="apparatus" n="21" target="#p561-20">σῶμα ἐστὶν οὐσία M</note><note type="apparatus" n="21-22" target="#p561-20 #p561-21">διαστατόν (ante εἰ) KM: διαστατὸν εἶναι G: διαστατῷ εἶναι t</note><milestone type="alt-edition" unit="line" ed="Trincavelli 1535" n="45"/>
               <lb n="22" xml:id="p561-21"/>εἰ τοίνυν τῷ σώματι συμβέβηκε τὸ τριχῇ διαστατόν, οὐκ ἄρα τὸ<note type="apparatus" n="22" target="#p561-21">εἰ τοίνυν τῷ σώματι συμβέβηκε τὸ τριχῇ διαστατὸν om. M</note>
@@ -22322,7 +22313,7 @@
               <lb n="3" xml:id="p564-2"/>εἶναι; τὰ πέρατα γὰρ μόνον τοῦ σώματός εἰσι τὰ ἐν τῇ ἐπιφανείᾳ. ἔτι<note type="apparatus" n="3" target="#p564-2">μόνα Μ</note>
               <lb n="4" xml:id="p564-3"/>εἰ δεῖ τὸν τόπον ἴσον εἶναι τῷ ἐν τόπῳ (τοῦτο γὰρ ἓν τῶν κοινῶν ἐστι<note type="apparatus" n="4" target="#p564-3">κοινῶν (ex κενῶν) corr. G²</note>
               <lb n="5" xml:id="p564-4"/>περὶ τοῦ τόπου ὁμολογημάτων), οὐκ ἂν εἴη ἡ ἐπιφάνεια τόπος· πῶς γὰρ<note type="apparatus" n="5" target="#p564-4">τοῦ om. t</note>
-              <lb n="6" xml:id="p564-5"/>ἂν ἐπιφάνειαν σώματι ἴσην εἶναι ἐνδέχεται; εἰ δὲ λέγοι τις ὅτι ἴσον λέγω<note type="apparatus" n="6" target="#p564-5">ἂν recte om. Gt: an ἐνδέχοιτο? σώματος G εἶναι ἴσην Μ λέγει τις primitus M</note>
+              <lb n="6" xml:id="p564-5"/>ἂν ἐπιφάνειαν σώματι ἴσην εἶναι ἐνδέχεται; εἰ δὲ λέγοι τις ὅτι ‘ἴσον λέγω<note type="apparatus" n="6" target="#p564-5">ἂν recte om. Gt: an ἐνδέχοιτο? σώματος G εἶναι ἴσην Μ λέγει τις primitus M</note>
               <lb n="7" xml:id="p564-6"/>τὸν τόπον τῷ ἐν τόπῳ τῷ ἐφαρμόζειν τὸν τόπον τῷ πέρατι τοῦ περιεχομένου’,
               <lb n="8" xml:id="p564-7"/>ἴστω ἴσον λέγων οὐ τῷ ἐν τόπῳ τὸν τόπον, ἀλλὰ τῷ πέρατι τοῦ<note type="apparatus" n="8" target="#p564-7">ἴστω] εἰς τὸ G λέγων οὖν τῶ ἐν τῶ τόπω G</note><milestone type="alt-edition" unit="line" ed="Trincavelli 1535" n="45"/>
               <lb n="9" xml:id="p564-8"/>ἐν τόπῳ, ὅπερ οὐδὲ καθ’ αὑτό ἐστιν ἐν τόπῳ. εἰ δὲ ἀληθὴς ὁ λόγος ὁ
@@ -22351,11 +22342,11 @@
             </p>
             <pb n="565" facs="https://archive.org/download/commentariaina17akaduoft/page/n82.jpg"/>
             <p>
-              <lb n="1" xml:id="p565-0"/>περιέχοντος ὁ τόπος ἐστίν. ἔτι εἰ πᾶσα κίνησις ἢ κατ’ ἀλλοίωσίν ἐστιν, ο<note type="apparatus" n="1" target="#p565-0">εἰ et ἐστὶν om. G</note>
+              <lb n="1" xml:id="p565-0"/>περιέχοντος ὁ τόπος ἐστίν. ἔτι εἰ πᾶσα κίνησις ἢ κατ’ ἀλλοίωσίν ἐστιν,<note type="apparatus" n="1" target="#p565-0">εἰ et ἐστὶν om. G</note>
               <lb n="2" xml:id="p565-1"/>ἢ κατ’ αὔξησιν καὶ μείωσιν, ἢ κατὰ τόπον (αὐτὸς γὰρ ἔδειξεν ὁ Ἀριστοτέλης,<note type="apparatus" n="2" target="#p565-1">ἔδειξεν Phys. E</note><note type="apparatus" n="2" target="#p565-1">p. 226a 24</note>
               <lb n="3" xml:id="p565-2"/>ὅτι ἡ κίνησις κατὰ τὰς τρεῖς μόνας γίνεται κατηγορίας, κατὰ ποσὸν<note type="apparatus" n="3" target="#p565-2">ἡ κίνησις ἢ κατὰ K</note>
               <lb n="4" xml:id="p565-3"/>κατὰ ποιὸν καὶ τὴν τοῦ ποῦ κατηγορίαν), ἣν καὶ καλεῖ φοράν, ταύτης δὲ<note type="apparatus" n="4" target="#p565-3">καὶ τὴν KM: κατὰ τὴν G: καὶ κατὰ τὴν t τοῦ om. M ἣν κτλ. cf. Phys. Θ</note>
-              <lb n="5" xml:id="p565-4"/>ἡ μέν ἐστι κύκλῳ ἡ δὲ κατ’ εὐθεῖαν, ὡς αὐτὸς πολλαχοῦ διορίζεται, ἡ ἡ<milestone type="alt-edition" unit="line" ed="Trincavelli 1535" n="10"/>
+              <lb n="5" xml:id="p565-4"/>ἡ μέν ἐστι κύκλῳ ἡ δὲ κατ’ εὐθεῖαν, ὡς αὐτὸς πολλαχοῦ διορίζεται, ἢ ἡ<milestone type="alt-edition" unit="line" ed="Trincavelli 1535" n="10"/>
               <lb n="6" xml:id="p565-5"/>μὲν φορὰ ἡ δὲ περιφορά, ὡς ἐν τούτῳ τῷ λόγῳ δοκεῖ λέγειν, κινεῖται δὲ<note type="apparatus" n="6" target="#p565-5">δοκεῖ λέγειν] cf. p. 556,28</note>
               <lb n="7" xml:id="p565-6"/>ἡ ἐξωτάτω σφαῖρα κύκλῳ, κατὰ τόπον ἄρα κινεῖται. ἐπεὶ ποίαν κινηθείη<note type="apparatus" n="7" target="#p565-6">p. 260 a 28 καὶ (post ἣν) om. M διαφορὰν (sed δια delevit) M</note><note type="apparatus" n="7" target="#p565-6">ἐξωτάτω K: ἔξω ταύτης M: ἐξωτάτη Gt</note>
               <lb n="8" xml:id="p565-7"/>ἂν κίνησιν; ποῖος οὖν ἂν εἴη τῆς ἀπλανοῦς τόπος μηδενὸς ἔξωθεν αὐτὴν<note type="apparatus" n="8" target="#p565-7">πόσος G</note>
@@ -22384,8 +22375,8 @@
             </p>
             <pb n="566" facs="https://archive.org/download/commentariaina17akaduoft/page/n83.jpg"/>
             <p>
-              <lb n="1" xml:id="p566-0"/>κυρτὴν ἑαυτῆς ἐπιφάνειαν) καὶ τόπος ἐστὶ τῆς ἀπλανοῦς καὶ ἐν τόπῳ ἐστὶν ο<note type="apparatus" n="1" target="#p566-0">αὐτῆς Κ</note>
-              <lb n="2" xml:id="p566-1"/>ἐκείνη. καὶ πῶς ἂν τὸ αὐτὸ καὶ τόπος εἴη ἄλλου καὶ τόπον ἐκεῖνο αὐτὸ<note type="apparatus" n="2" target="#p566-1">καὶ (ante τόπος) om. Gt</note>
+              <lb n="1" xml:id="p566-0"/>κυρτὴν ἑαυτῆς ἐπιφάνειαν) καὶ τόπος ἐστὶ τῆς ἀπλανοῦς καὶ ἐν τόπῳ ἐστὶν<note type="apparatus" n="1" target="#p566-0">αὐτῆς Κ</note>
+              <lb n="2" xml:id="p566-1"/>ἐκείνῃ. καὶ πῶς ἂν τὸ αὐτὸ καὶ τόπος εἴη ἄλλου καὶ τόπον ἐκεῖνο αὐτὸ<note type="apparatus" n="2" target="#p566-1">καὶ (ante τόπος) om. Gt</note>
               <lb n="3" xml:id="p566-2"/>ἔχοι, οὗ τόπος ἐστί; πῶς γὰρ ἄν τὸ αὐτὸ πρὸς τὸ αὐτὸ τὰς ἀντικειμένας<note type="apparatus" n="3" target="#p566-2">ἔχει Μ ἂν τὸ om. Μ</note>
               <lb n="4" xml:id="p566-3"/>δυνατὸν ἀναδέξασθαι σχέσεις; τὸν γὰρ αὐτὸν τοῦ αὐτοῦ καὶ πατέρα<note type="apparatus" n="4" target="#p566-3">δύναιτο?</note>
               <lb n="5" xml:id="p566-4"/>εἶναι καὶ υἱὸν ἀδύνατον σῳζομένης τῆς ὀρθῆς περὶ τῆς σχέσεως,<milestone type="alt-edition" unit="line" ed="Trincavelli 1535" n="30"/>
@@ -22458,7 +22449,7 @@
             </p>
             <pb n="568" facs="https://archive.org/download/commentariaina17akaduoft/page/n85.jpg"/>
             <p>
-              <lb n="1" xml:id="p568-0"/>εἶναι τὸν τόπον. καὶ αὐτὸ δὲ καθ’ αὑτὸ δειχθείη ἂν ὅτι ἔστι τι ο<note type="apparatus" n="1" target="#p568-0">τι] τὸ M</note>
+              <lb n="1" xml:id="p568-0"/>εἶναι τὸν τόπον. καὶ αὐτὸ δὲ καθ’ αὑτὸ δειχθείη ἂν ὅτι ἔστι τι<note type="apparatus" n="1" target="#p568-0">τι] τὸ M</note>
               <lb n="2" xml:id="p568-1"/>τοιοῦτον διάστημα ἕτερον πάντῃ παρὰ τὰ ἐγγινόμενα ἐν αὐτῷ σώματα,<note type="apparatus" n="2" target="#p568-1">τοιοῦτον om. t ἕτερον om. Gt</note>
               <lb n="3" xml:id="p568-2"/>καὶ πρῶτον μὲν ἐκ τοῦ ἔναγχος εἰρημένου, λέγω δὴ τῆς ἀντιμεταστάσεως<note type="apparatus" n="3" target="#p568-2">μὲν om. Gt</note><note type="apparatus" n="3-4" target="#p568-2 #p568-3">ἐκ τοῦ— γ εἰ om. M</note><note type="apparatus" n="3" target="#p568-2">ἔναχος K</note><note type="apparatus" n="3-4" target="#p568-2 #p568-3">λέγω—φαμεν K: λέγων τις ceteris omissis G: λέγοντος t</note>
               <lb n="4" xml:id="p568-3"/>τῶν σωμάτων. πῶς γάρ φαμεν ἀντιμεθίστασθαι ἀλλήλοις τὰ σώματα; εἰ
@@ -22591,7 +22582,7 @@
             </p>
             <pb n="572" facs="https://archive.org/download/commentariaina17akaduoft/page/n89.jpg"/>
             <p>
-              <lb n="1" xml:id="p572-0"/>ἐπιφανείας, καὶ δῆλον πάλιν ὅτι οὔτε κενὴν οὔτε πλήρη εἶναι τὴν ἔξωτάτω
+              <lb n="1" xml:id="p572-0"/>ἐπιφανείας, καὶ δῆλον πάλιν ὅτι οὔτε κενὴν οὔτε πλήρη εἶναι τὴν ἐξωτάτω
               <lb n="2" xml:id="p572-1"/>ἐπιφάνειαν νοῦν ἔχων τις ἐρεῖ. εἰ οὖν ἐπιφάνειά ἐστιν ὁ τόπος, καὶ<note type="apparatus" n="2" target="#p572-1">ἔχον K</note>
               <lb n="3" xml:id="p572-2"/>μὴ ἔστι τι διάστημα τῷ ἰδίῳ λόγῳ κενόν, τίς ἐστιν ἡ ἐν τῇ φύσει δύναμις<note type="apparatus" n="3" target="#p572-2">τι] τὸ M ἡ om. Gt</note>
               <lb n="4" xml:id="p572-3"/>ἐπὶ τὸ παρὰ φύσιν κινοῦσα πολλάκις τὰ σώματα, ἵνα μὴ κενὸν γένηται,<note type="apparatus" n="4" target="#p572-3">τὰ σώματα πολλάκις Gt</note>
@@ -22657,7 +22648,7 @@
             </p>
             <pb n="574" facs="https://archive.org/download/commentariaina17akaduoft/page/n91.jpg"/>
             <p>
-              <lb n="1" xml:id="p574-0"/>μὴ καὶ τὸ ἐν τῷ ἀσκῷ γενόμενον σῶμα οὐδενὸς δεῖται τοῦ χωρήσοντος; ο<note type="apparatus" n="1" target="#p574-0">τὸ om. M γενόμενον K: γενώμενον G: γινόμενον Mt χωρήσαντος KM</note>
+              <lb n="1" xml:id="p574-0"/>μὴ καὶ τὸ ἐν τῷ ἀσκῷ γενόμενον σῶμα οὐδενὸς δεῖται τοῦ χωρήσοντος;<note type="apparatus" n="1" target="#p574-0">τὸ om. M γενόμενον K: γενώμενον G: γινόμενον Mt χωρήσαντος KM</note>
               <lb n="2" xml:id="p574-1"/>τὸ γὰρ ἅπτεσθαι σῶμα σώματος κατὰ συμβεβηκὸς ὑπάρχει τοῖς σώμασι,
               <lb n="3" xml:id="p574-2"/>διὰ τὸ μὴ συνεχὲς εἶναι τὸ πᾶν, ἀλλὰ διῃρημένον. ταύτῃ κατὰ τὸν Ἀριστοτέλην<note type="apparatus" n="3" target="#p574-2">μὴ om. K</note><note type="apparatus" n="3-4" target="#p574-2 #p574-3">ἀριστοτέλη Gt</note>
               <lb n="4" xml:id="p574-3"/>καὶ ἄλλο ἄλλου τόπος ἐστίν, οὐ διὰ τοῦτο γινόμενον, ἵνα ᾖ αὐτοῦ<note type="apparatus" n="4" target="#p574-3">ἄλλο om. G: ἄλλου ἄλλο traicit t γενόμενον M</note><note type="apparatus" n="4-5" target="#p574-3 #p574-4">ἵνα μὴ δι’ αὐτοῦ G</note>
@@ -22727,7 +22718,7 @@
             </p>
             <pb n="576" facs="https://archive.org/download/commentariaina17akaduoft/page/n93.jpg"/>
             <p>
-              <lb n="1" xml:id="p576-0"/>μὴ ἡ φύσις τοῦτο ἔχει, δεδόσθω μοι τῷ λόγῳ μὴ συμπεσεῖν τὸν χαλκόν, ο<note type="apparatus" n="1" target="#p576-0">ἡ om. K τούτω M δεδόσθω μοι τῷ λόγῳ KM: πάλιν λέγω G: πάλιν λόγῳ ληπτέον t</note>
+              <lb n="1" xml:id="p576-0"/>μὴ ἡ φύσις τοῦτο ἔχει, δεδόσθω μοι τῷ λόγῳ μὴ συμπεσεῖν τὸν χαλκόν,<note type="apparatus" n="1" target="#p576-0">ἡ om. K τούτω M δεδόσθω μοι τῷ λόγῳ KM: πάλιν λέγω G: πάλιν λόγῳ ληπτέον t</note>
               <lb n="2" xml:id="p576-1"/>μεταβάλλειν δὲ τὸν ἐντὸς ἀέρα εἰς γῆν, καὶ ὄψει ὡς ἔστι τι μεταξὺ διάστημα
               <lb n="3" xml:id="p576-2"/>ἕτερον παρὰ τὰ ἐν αὐτῷ σώματα. τί γὰρ ἄτοπον, ὥσπερ τὴν ὕλην
               <lb n="4" xml:id="p576-3"/>χωρίζομεν τῷ λόγῳ πάντων εἰδῶν εἰς τὸ τὴν φύσιν αὐτῆς ἐπισκέψασθαι,<note type="apparatus" n="4" target="#p576-3">πάντων τῶν εἰδῶν M</note>
@@ -22761,7 +22752,7 @@
             </p>
             <pb n="577" facs="https://archive.org/download/commentariaina17akaduoft/page/n94.jpg"/>
             <p>
-              <lb n="1" xml:id="p577-0"/>εἰ ἔστι τι μεταξὺ ἢ μή. εἰ δὲ ὅλως οἴει ὅτι ἐξελθόντος τοῦ ὕδατος, ο<note type="apparatus" n="1" target="#p577-0">οἴει M: εἴη t</note>
+              <lb n="1" xml:id="p577-0"/>εἰ ἔστι τι μεταξὺ ἢ μή. εἰ δὲ ὅλως οἴει ὅτι ἐξελθόντος τοῦ ὕδατος,<note type="apparatus" n="1" target="#p577-0">οἴει M: εἴη t</note>
               <lb n="2" xml:id="p577-1"/>ἐὰν μὴ ὑποθώμεθα ἕτερόν τι εἰσιὸν σῶμα, συμβαίνει εἶναί τι μεταξὺ διάστημα<note type="apparatus" n="2" target="#p577-1">μὴ GKM: οὖν t ἕτερόν τι KM: ἕτερόν γε (γε μή t) Gt εἰσιὼν K τι μεταξὺ εἶναι Gt</note>
               <lb n="3" xml:id="p577-2"/>κεχωρισμένον, αὐτὸς τοῖς σαυτοῦ πτεροῖς ἥλως· εἶναι γὰρ λέγεις<note type="apparatus" n="3" target="#p577-2">αὐτὸς τοῖς σαυτοῦ M: αὐτὸς τοῖς αὐτοῖς αὐτοῦ K: αὐτοῖς τοῖς ἑαυτοῦ G: ὥστε αὐτοῖς τοῖς σεαυτοῦ t εἶναι γὰρ (γὰρ om. K) λέγεις GKM: λέγεις γὰρ εἶναι t</note>
               <lb n="4" xml:id="p577-3"/>ἄλλο τι διάστημα μεταξύ, οὐδέποτε μέντοι τοῦτο κενὸν σώματος εἶναι,<milestone type="alt-edition" unit="line" ed="Trincavelli 1535" n="50"/>
@@ -22787,7 +22778,7 @@
               <lb n="24" xml:id="p577-23"/>ἐν τῷ σώματι, ἀλλὰ τὸ σῶμα τὸ ἐγγινόμενον ἐν τῷ κενῷ, ὥσπερ<note type="apparatus" n="24" target="#p577-23">ἀλλὰ τῷ σῶμα t</note><milestone type="alt-edition" unit="line" ed="Trincavelli 1535" n="10"/>
               <lb n="25" xml:id="p577-24"/>ἤδη εἶπον. εἰ μὲν γὰρ ἦν σωματικὸν διάστημα ὁ τόπος καὶ ἐγίνετο ἐν<note type="apparatus" n="25" target="#p577-24">μὲν Gt: μὴ KM</note>
               <lb n="26" xml:id="p577-25"/>αὐτῷ σῶμά τι, χωρεῖν ἀνάγκη ἦν δι’ ἀλλήλων τὰ διαστήματα, ἐπειδὴ δὲ<note type="apparatus" n="26" target="#p577-25">σῶμά τι scripsi: σώματι GKM: τῷ σώματι t</note>
-              <lb n="27" xml:id="p577-26"/>καθ’ αὑτὸν ὁ τόπος κενόν ἐστιν, οὐκ ἂν εὐλόγως εἴποιέ τις χωρεῖν αὐτὸ<note type="apparatus" n="27" target="#p577-26">εὐλογῶν M εἴποιέ GM: εἴποιεν K: εἴποι corrigit t, at cf. p. 590,1 al.</note>
+              <lb n="27" xml:id="p577-26"/>καθ’ αὑτὸν ὁ τόπος κενόν ἐστιν, οὐκ ἂν εὐλόγως <choice><sic>εἴποιέ</sic><corr>εἴποι</corr></choice> τις χωρεῖν αὐτὸ<note type="apparatus" n="27" target="#p577-26">εὐλογῶν M εἴποιέ GM: εἴποιεν K: εἴποι corrigit t, at cf. p. 590,1 al.</note>
               <lb n="28" xml:id="p577-27"/>διὰ τοῦ σώματος, ἀλλὰ τὸ σῶμα δι’ αὐτοῦ χωρεῖν· πλήρωσις γὰρ μόνον<note type="apparatus" n="28" target="#p577-27">τοῦ om. M</note>
               <lb n="29" xml:id="p577-28"/>γίνεται τοῦ σώματος ἐν αὐτῷ γενομένου, οὐ μέντοι χώρησις δι’ ἀλλήλων.<note type="apparatus" n="29" target="#p577-28">γινομένου t δι’ ἀλλήλων τὰ διαστήματα M</note>
               <lb n="30" xml:id="p577-29"/>διὰ τοῦτο δὲ οὐδὲ τὸ μόριον ἔσται καθ’ αὑτὸ ἐν τόπῳ· εἰ μὲν γὰρ διῃρεῖτο<note type="apparatus" n="30" target="#p577-29">δὲ οὐδὲ t: δὲ KM: οὐδὲ G μόριον — διῃρεῖτο om. G ἐν τόπῳ καθ’ αὑτὸ et διαιρεῖτο K</note>
@@ -23275,7 +23266,7 @@
           <div type="textpart" subtype="lemma" n="88">
             <milestone unit="bekker" n="212a21"/>
             <quote type="lemma">
-              <lb n="21" xml:id="p590-20"/>Καὶ διὰ τοῦτο τὸ μέσον τοῦ οὐρανοῦ καὶ τὸ ἔσχατο
+              <lb n="21" xml:id="p590-20"/>Καὶ διὰ τοῦτο τὸ μέσον τοῦ οὐρανοῦ καὶ τὸ <choice><sic>ἔσχατο</sic><corr>ἔσχατον</corr></choice>
               <lb n="22" xml:id="p590-21"/>τὸ πρὸς ἡμᾶς τῆς κύκλῳ φορᾶς δοκεῖ τὸ μὲν ἄνω εἶναι, τὸ δὲ<note type="apparatus" n="22" target="#p590-21">τὸ πρὸς] τῆς πρὸς M τὸ μὲν ἄνω εἶναι M: εἶναι τὸ μὲν ἄνω t Aristoteles</note>
               <lb n="23" xml:id="p590-22"/>κάτω.<note type="apparatus" n="23" target="#p590-22">κάτω, μάλιστα πᾶσι κυρίως continuat ex Aristotele t</note>
             </quote>
@@ -23649,7 +23640,7 @@
               <lb n="15" xml:id="p600-14"/>ὕδωρ, ὁ δὲ ἀὴρ εἶδός τι καὶ ἐνέργεια τοῦ ὕδατος καὶ οἷον συναμφότερον.<note type="apparatus" n="15-16" target="#p600-14 #p600-15">τοῦ ὕδατος καὶ οἷον συναμφότερον. διὸ KM: om. Gt</note>
               <lb n="16" xml:id="p600-15"/>διὸ καὶ ἡ μὲν τοῦ ὕδατος εἰς ἀέρα μεταβολὴ γένεσίς ἐστιν, ὡς ἐν τοῖς<note type="apparatus" n="16" target="#p600-15">καὶ ἡ μὲν KMt: ἡ G</note>
               <lb n="17" xml:id="p600-16"/>Περὶ γενέσεως εἴρηται, ἡ δὲ τοῦ ἀέρος εἰς τὸ ὕδωρ φθορά. δοκεῖ δὲ καὶ<note type="apparatus" n="17" target="#p600-16">Περὶ] παρὰ M Περὶ γενέσεως cf. A 3 p. 318b27 sqq. φορά G δοκεῖ KM: κινεῖ G: θέλῃ (sic) t</note>
-              <lb n="18" xml:id="p600-17"/>ἡ ὕλη καὶ τὸ εἶδος μέρη τοῦ συναμφοτέρου εἶναι. ὥστε εἰ ὕλη ἀναλογεῖ<note type="apparatus" n="18" target="#p600-17">εἶδος] ὕδος K εἰ K et (ex ἡ) corr. M: τῇ G</note><milestone type="alt-edition" unit="line" ed="Trincavelli 1535" n="30"/>
+              <lb n="18" xml:id="p600-17"/>ἡ ὕλη καὶ τὸ εἶδος μέρη τοῦ συναμφοτέρου εἶναι. ὥστε εἰ ὕλῃ ἀναλογεῖ<note type="apparatus" n="18" target="#p600-17">εἶδος] ὕδος K εἰ K et (ex ἡ) corr. M: τῇ G</note><milestone type="alt-edition" unit="line" ed="Trincavelli 1535" n="30"/>
               <lb n="19" xml:id="p600-18"/>τὸ ὕδωρ, εἴδει δὲ ἢ συναμφοτέρῳ ὁ ἀήρ, ἡ δὲ ὕλη μέρος τοῦ συναμφοτέρου,<note type="apparatus" n="19" target="#p600-18">τὸ ὕδωρ om. M, qui mox εἶ (sic) pro εἴδει ἡ ὕλη δὲ transponunt Gt</note>
               <lb n="20" xml:id="p600-19"/>καλῶς ἄρα εἴρηται ὅτι τὸ περιεχόμενον πρὸς τὸ περιέχον οἷον διαιρετὸν<note type="apparatus" n="20" target="#p600-19">οἷον om. Gt διαιρετικὸν M</note>
               <lb n="21" xml:id="p600-20"/>μέρος πρὸς ὅλον ἐστί. τὸ δὲ μέρος ἐν τῇ ἑαυτοῦ θέλει μένειν ὁλότητι·<note type="apparatus" n="21-22" target="#p600-20 #p600-21">πρὸς ὅλον—ἕκαστον om. M</note>
@@ -24171,7 +24162,7 @@
               <lb n="19" xml:id="p612-18"/>ὀπαῖς τετρημένον. τὸ δὲ ἐναπολαμβάνοντες, ἤτοι τὸ πνεῦμα ἐναπολαμβάνοντες<note type="apparatus" n="19" target="#p612-18">τετρημένον G(K)t</note><note type="apparatus" n="19-20" target="#p612-18 #p612-19">ἐναπολαυάνοντες et mox ἐναπολαυάνοντος K: ἐναπολαβάνοντες altero loco M. similiter in proximis</note>
               <lb n="20" xml:id="p612-19"/>διὰ τοῦ φράξαι τὸ στόμα· ὅταν γὰρ κενοῦ ὄντος τοῦ<note type="apparatus" n="20" target="#p612-19">διὰ τὸ φράξαι t</note>
               <lb n="21" xml:id="p612-20"/>ἀγγείου ὕδατος ἀποφράξαντες τὸ στόμα καθίωμεν εἰς ὕδωρ, οὐ πληροῦται<note type="apparatus" n="21" target="#p612-20">εἰς τὸ ὕδωρ M</note>
-              <lb n="22" xml:id="p612-21"/>ὕδατος τοῦ πνεύματος ἐναπειλημμένου, διὰ τὴν εἰρημένην αἰτίαν (ἡ γὰρ<note type="apparatus" n="22" target="#p612-21">διὰ τὴν κτλ.] cf. p. 608,4 sqq.</note>
+              <lb n="22" xml:id="p612-21"/>ὕδατος τοῦ πνεύματος ἐναπειλημμένου, διὰ τὴν εἰρημένην αἰτίαν (ἢ γὰρ<note type="apparatus" n="22" target="#p612-21">διὰ τὴν κτλ.] cf. p. 608,4 sqq.</note>
               <lb n="23" xml:id="p612-22"/>οὐδὲν ὅλως δέχεται, ἢ πάνυ βραχύ), ὅταν δὲ πλῆρες ᾖ ὕδατος, ἐναπολαμβάνοντες<milestone type="alt-edition" unit="line" ed="Trincavelli 1535" n="10"/>
               <lb n="24" xml:id="p612-23"/>τὸ ὕδωρ τῷ αὐτῷ τρόπῳ δεικνύουσιν ὅτι ἔστιν ὁ ἀήρ· εἰ μὴ γὰρ<note type="apparatus" n="24" target="#p612-23">δείκνυσιν primitus M</note>
               <lb n="25" xml:id="p612-24"/>ἦν, τί δήποτε ἀποφράττοντες μὲν τὴν τοῦ ἀέρος εἴσοδον κωλύομεν τὴν τοῦ<note type="apparatus" n="25" target="#p612-24">καὶ λύομεν M</note>
@@ -24431,7 +24422,7 @@
               <lb n="7" xml:id="p619-6"/>ἔστιν ὁ τόπος διάστημα, διὰ τῶν αὐτῶν δείξομεν ὅτι οὐδὲ τὸ κενόν ἐστιν·
               <lb n="8" xml:id="p619-7"/>εἰ γὰρ εἴη τοιοῦτό τι κενόν, ὅταν ἐγγένηται ἐν αὐτῷ σῶμα, χωρήσουσι<note type="apparatus" n="8" target="#p619-7">τοιοῦτόν τι t σῶμα ἐν αὐτῷ traic. Gt</note>
               <lb n="9" xml:id="p619-8"/>δι’ ἀλλήλων τὰ διαστήματα, καὶ διαιρήσουσιν ἄλληλα εἰς ἄπειρα, καὶ ὅσα<note type="apparatus" n="9" target="#p619-8">τὰ M: εἰς τὰ GKt ἀλλήλοις (om. εἰς ἄπειρα) G</note>
-              <lb n="10" xml:id="p619-9"/>ἄλλα καὶ ἐν τῷ λόγῳ τῷ περὶ τοῦ τόπου συνήγετο. οὐκοῦν καὶ ἡμεῖς δι<note type="apparatus" n="10" target="#p619-9">ἄλλα] ἄλλα ἄπειρα G: conicias ἄλλα ἄτοπα, sed verisimilius est ἄπειρα ex proximis irrepsisse καὶ ἐν GK: ἐν Mt</note><note type="apparatus" n="10-13" target="#p619-9 #p619-10 #p619-11 #p619-12">οὐκοῦν — λόγῳ, ἠλέγξαμεν om. KM</note>
+              <lb n="10" xml:id="p619-9"/>ἄλλα καὶ ἐν τῷ λόγῳ τῷ περὶ τοῦ τόπου συνήγετο. οὐκοῦν καὶ ἡμεῖς <choice><sic>δι</sic><corr>δι’</corr></choice><note type="apparatus" n="10" target="#p619-9">ἄλλα] ἄλλα ἄπειρα G: conicias ἄλλα ἄτοπα, sed verisimilius est ἄπειρα ex proximis irrepsisse καὶ ἐν GK: ἐν Mt</note><note type="apparatus" n="10-13" target="#p619-9 #p619-10 #p619-11 #p619-12">οὐκοῦν — λόγῳ, ἠλέγξαμεν om. KM</note>
               <lb n="11" xml:id="p619-10"/>ὧν ἠλέγξαμεν τοὺς λόγους τοὺς ἀναιροῦντας διάστημα εἶναι τὸν τόπον,
               <lb n="12" xml:id="p619-11"/>διὰ τούτων καὶ τοὺς ἀναιροῦντας τὸ οὕτω κενόν, ὅσον ἐπὶ τῷ ἰδίῳ λόγῳ,<note type="apparatus" n="12" target="#p619-11">διὰ τούτων t: διατοῦτο G</note><milestone type="alt-edition" unit="line" ed="Trincavelli 1535" n="40"/>
               <lb n="13" xml:id="p619-12"/>ἠλέγξαμεν. οὕτω μὲν οὖν καὶ διὰ τῶν ἤδη εἰρημένων ἐλέγχοιτ’ ἂν τὸ<note type="apparatus" n="13" target="#p619-12">fort. ἐλέγξομεν ante οὕτω exhibet πλὴν ὅτι ἐπληρώθη τὰ κατ’ ἐνέργειαν G, quae, fortasse truncata, non satis intellego. certe non huc sed ante ea quae KM omittere adnotavi pertinent ἤδη] ἤ (sic) M ἐλέγχειτ’ ἂν K</note>
@@ -25024,7 +25015,7 @@
             <p>
               <lb n="4" xml:id="p634-3"/>Ὅτι οὐκ ἔστι ποιητικὸν αἴτιον κινήσεως τὸ κενόν. εἰ ἕκαστον, φησίν,<note type="apparatus" n="4" target="#p634-3">Ὅτι — κενόν fortasse recte om. GK post φησίν addit τῶν λεγομένων ἁπλῶν σωμάτων t</note>
               <lb n="5" xml:id="p634-4"/>οἰκείαν τινὰ φορὰν ἔχει κατὰ φύσιν διαφέρουσαν τῶν λοιπῶν, οὐκ ἂν εἴη<note type="apparatus" n="5" target="#p634-4">οἰκείαν K τινὰ om. M λοιπῶν] λεγομένων G</note>
-              <lb n="6" xml:id="p634-5"/>τὸ κενὸν ποιητικὸν αἴτιον τῆς κινήσεως· τῶν γὰρ διαφόρων κινήσεων διάφορὰ<note type="apparatus" n="6" target="#p634-5">τὸ ποιητικὸν κενὸν G τῆς om. superser. M</note><milestone type="alt-edition" unit="line" ed="Trincavelli 1535" n="25"/>
+              <lb n="6" xml:id="p634-5"/>τὸ κενὸν ποιητικὸν αἴτιον τῆς κινήσεως· τῶν γὰρ διαφόρων κινήσεων διάφορα<note type="apparatus" n="6" target="#p634-5">τὸ ποιητικὸν κενὸν G τῆς om. superser. M</note><milestone type="alt-edition" unit="line" ed="Trincavelli 1535" n="25"/>
               <lb n="7" xml:id="p634-6"/>δεῖ εἶναι καὶ τὰ αἴτια, τὸ δὲ κενὸν ἀδιάφορον, οὐκ ἄρα αἴτιον τῶν<note type="apparatus" n="7" target="#p634-6">τὰ om. M</note>
               <lb n="8" xml:id="p634-7"/>φυσικῶν κινήσεων τὸ κενόν. τίνος οὖν, φησίν, αἴτιον ἂν εἴη κινήσεως;<note type="apparatus" n="8" target="#p634-7">εἴη ἀν (sic) M</note>
               <lb n="9" xml:id="p634-8"/>εἰ γὰρ ἧς μάλιστα δοκεῖ εἶναι, λέγω δὴ τῆς κατὰ τόπον, ταύτης δέδεικται
@@ -25405,7 +25396,7 @@
             </p>
             <pb n="644" facs="https://archive.org/download/commentariaina17akaduoft/page/n161.jpg"/>
             <p>
-              <lb n="1" xml:id="p644-0"/>ὁμοίως δὲ οὐδὲ ἡ νευρὰ μεταξὺ ἑαυτῆς καὶ τοῦ βέλους, ἀλλ’ ἐφαρμόζουσιν q<note type="apparatus" n="1" target="#p644-0">ἡ νευρὰ Gt: πνεῦμα K et compend. M</note>
+              <lb n="1" xml:id="p644-0"/>ὁμοίως δὲ οὐδὲ ἡ νευρὰ μεταξὺ ἑαυτῆς καὶ τοῦ βέλους, ἀλλ’ ἐφαρμόζουσιν<note type="apparatus" n="1" target="#p644-0">ἡ νευρὰ Gt: πνεῦμα K et compend. M</note>
               <lb n="2" xml:id="p644-1"/>αἱ ἐπιφάνειαι ἀλλήλαις, ἥ τε τοῦ ῥιπτοῦντος καὶ ἡ τοῦ ῥιπτουμένου,<note type="apparatus" n="2" target="#p644-1">ἡ (post καὶ) om. M</note><note type="apparatus" n="2-3" target="#p644-1 #p644-2">ῥιπτομένου utrobique K</note>
               <lb n="3" xml:id="p644-2"/>πότερον πρὶν ἅψασθαι τοῦ ῥιπτουμένου ὄπισθεν τὸν ἀέρα, καὶ οὕτως ὠθῆσαι
               <lb n="4" xml:id="p644-3"/>αὐτό, γίνεται τις κίνησις τῷ λίθῳ ὑπ’ αὐτῆς τῆς χειρὸς ἀμέσως ἢ<note type="apparatus" n="4" target="#p644-3">αὐτό Mt: αὐτῷ G: αὐ K</note><note type="apparatus" n="4-5" target="#p644-3 #p644-4">ἢ τῷ KM: ὥσπερ τῷ Gt</note>
@@ -25489,7 +25480,7 @@
             </p>
             <pb n="646" facs="https://archive.org/download/commentariaina17akaduoft/page/n163.jpg"/>
             <p>
-              <lb n="1" xml:id="p646-0"/>οἷον ὅτι αἴτιον τὸ κενὸν ὡς δι’ αὐτοῦ φερομένων τῶν σωμάτων, η<note type="apparatus" n="1" target="#p646-0">αὐτοῦ Mt: αὐτῶ K: αὐτῶν G φερομένων (φερόμενον G) τῶν σωμάτων GKM: τὰ σώματα φέρεσθαι t</note>
+              <lb n="1" xml:id="p646-0"/>οἷον ὅτι αἴτιον τὸ κενὸν ὡς δι’ αὐτοῦ φερομένων τῶν σωμάτων,<note type="apparatus" n="1" target="#p646-0">αὐτοῦ Mt: αὐτῶ K: αὐτῶν G φερομένων (φερόμενον G) τῶν σωμάτων GKM: τὰ σώματα φέρεσθαι t</note>
               <lb n="2" xml:id="p646-1"/>ὥσπερ νῦν δι’ ἀέρος ἢ δι’ ὕδατος ἡ τῶν σωμάτων γίνεται κίνησις. εἰ<milestone type="alt-edition" unit="line" ed="Trincavelli 1535" n="5"/>
               <lb n="3" xml:id="p646-2"/>γὰρ δειχθῇ ὅτι οὐδ’ οὕτως ἐστὶ κινήσεως αἴτιον, οὐδὲ ἐνδέχεται κενοῦ<note type="apparatus" n="3" target="#p646-2">δειχθῇ M: διχθῆ K: δειχθείη Gt</note>
               <lb n="4" xml:id="p646-3"/>ὄντος κίνησιν δι’ αὐτοῦ γενέσθαι τὴν κατὰ φύσιν. δέδεικται δὲ ὅτι οὐδὲ
@@ -25617,7 +25608,7 @@
               <lb n="28" xml:id="p649-27"/>χρόνῳ τὸ αὐτὸ μέγεθος κινεῖσθαι· ἵνα δὲ μή τις εἴπῃ ‘ἀλλ’ εἰ καὶ ἐν<note type="apparatus" n="28" target="#p649-27">εἴποι K</note>
               <lb n="29" xml:id="p649-28"/>τῷ αὐτῷ χρόνῳ καὶ διὰ πλήρους ἐκινήθη καὶ διὰ κενοῦ, ἀλλ’ οὐ τὰ αὐτὰ<milestone type="alt-edition" unit="line" ed="Trincavelli 1535" n="30"/>
               <lb n="30" xml:id="p649-29"/>διαστήματα· τὸ τέταρτον γὰρ τοῦ ἀέρος ὑπεθέμεθα κεκινῆσθαι ἐν τῷ αὐτῷ<note type="apparatus" n="30" target="#p649-29">τοῦ ἀέρος om. G κεκινεῖσθαι K</note>
-              <lb n="31" xml:id="p649-30"/>χρόνῳ, ἐν ᾧ τὸ πᾶν κενὸν ἐκινήθη, ἴσον δὲ τῷ ὅλῳ ἀέρι τὸ κενόν’ τετραπλάσιον
+              <lb n="31" xml:id="p649-30"/>χρόνῳ, ἐν ᾧ τὸ πᾶν κενὸν ἐκινήθη, ἴσον δὲ τῷ ὅλῳ ἀέρι τὸ κενόν· τετραπλάσιον
               <lb n="32" xml:id="p649-31"/>ἄρα διάστημα διὰ τοῦ κενοῦ ἐκινήθη ἐν τῷ αὐτῷ χρόνῳ, καὶ
               <lb n="33" xml:id="p649-32"/>τοῦτό γε οὐδὲν ἄτοπον 〈τὸ〉 τὸ μεῖζον, λεπτομερέστερον δέ, ἐν ἴσῳ χρόνῳ<note type="apparatus" n="33" target="#p649-32">γε om. M prius τὸ addidit t</note>
               <lb n="34" xml:id="p649-33"/>τῷ ἐλάττονι καὶ παχυτέρῳ τὸ αὐτὸ μέγεθος κινηθῆναι’, διὰ τοῦτο ἐφεξῆς
@@ -25950,7 +25941,7 @@
               <lb n="19" xml:id="p657-18"/>πλῆρές τε καὶ κενὸν τὸν αὐτὸν ἕξουσι λόγον πρὸς ἄλληλα, λέγω δὴ τὸ ζ̄
               <lb n="20" xml:id="p657-19"/>καὶ τὸ θ̄, ὅπερ ἄτοπον· ὃν γὰρ λόγον ἔχει τὸ θ̄ πρὸς τὸ δ̄, λέγω δὴ τὸ
               <lb n="21" xml:id="p657-20"/>μέρος τοῦ ἀέρος πρὸς ὅλον τὸν ἀέρα, τοῦτον τὸν λόγον ἕξει καὶ τὸ ζ̄ πρὸς<note type="apparatus" n="21-22" target="#p657-20 #p657-21">τοῦτον—ὅλον ἀέρα om. M</note><note type="apparatus" n="21" target="#p657-20">ἕξει K: ἔχει Gt</note>
-              <lb n="22" xml:id="p657-21"/>πρὸς τὸ δ̄, λέγω δὴ τὸ κενὸν πρὸς τὸν ὅλον ἀέρα, ἐπειδὴ καὶ ὁ χρόνος
+              <lb n="22" xml:id="p657-21"/><choice><sic>πρὸς τὸ</sic><corr>τὸ</corr></choice> δ̄, λέγω δὴ τὸ κενὸν πρὸς τὸν ὅλον ἀέρα, ἐπειδὴ καὶ ὁ χρόνος
               <lb n="23" xml:id="p657-22"/>τοῦ ζ̄ καὶ τοῦ θ̄, ὅσπερ ἐστὶν ὁ η̄, τὸν αὐτὸν λόγον ἔχει πρὸς τὸν χρόνον<note type="apparatus" n="23" target="#p657-22">ὅσπερ GKM: ὅς t</note>
               <lb n="24" xml:id="p657-23"/>τοῦ δ̄, ὅσπερ ἐστὶν ὁ ε̄, ὃν δ’ ἂν ἔχωσιν οἱ χρόνοι πρὸς ἀλλήλους λόγον,<note type="apparatus" n="24" target="#p657-23">λόγον ante ἔχωσιν traicit t</note>
               <lb n="25" xml:id="p657-24"/>τοῦτον καὶ τὰ δι’ οὗ ἔχουσι· τὸν αὐτὸν ἄρα λόγον ἔχουσι τὸ ζ̄ καὶ τὸ θ̄<note type="apparatus" n="25" target="#p657-24">τὰ (cf. ad p. 648,30. 677,15. 684,20) G: τὸ M: τὸν K: πρὸς τὸ t ἔχωσι (ante τὸ ζ̄) primitus M</note><milestone type="alt-edition" unit="line" ed="Trincavelli 1535" n="25"/>
@@ -26054,7 +26045,7 @@
             </p>
             <pb n="660" facs="https://archive.org/download/commentariaina17akaduoft/page/n177.jpg"/>
             <p>
-              <lb n="1" xml:id="p660-0"/>τὸ ἄτοπον, διότι δεδωκότες ἐν κενῷ κίνησιν γίνεσθαι δίδομεν εὐθὺς καὶ τὸ r1r<note type="apparatus" n="1" target="#p660-0">τοῦ ἀτόπου G δεδωκότης (sic) K δίδωμεν G: διδόαμεν t</note>
+              <lb n="1" xml:id="p660-0"/>τὸ ἄτοπον, διότι δεδωκότες ἐν κενῷ κίνησιν γίνεσθαι δίδομεν εὐθὺς καὶ τὸ<note type="apparatus" n="1" target="#p660-0">τοῦ ἀτόπου G δεδωκότης (sic) K δίδωμεν G: διδόαμεν t</note>
               <lb n="2" xml:id="p660-1"/>κενὸν λόγον ἔχειν πρὸς πλῆρες· ἀνάγκη γὰρ πάσης κινήσεως πρὸς κίνησιν<note type="apparatus" n="2" target="#p660-1">πρὸς τὸ πλῆρες Gt</note>
               <lb n="3" xml:id="p660-2"/>λόγον ἐχούσης, διότι ἐν χρόνῳ πᾶσα κίνησις, καὶ τοῦ χρόνου πρὸς τὸν
               <lb n="4" xml:id="p660-3"/>χρόνον ἀκολούθως καὶ τὸ κενὸν πρὸς τὸ πλῆρες λόγον ἔχειν. ἐπεὶ οὖν<milestone type="alt-edition" unit="line" ed="Trincavelli 1535" n="20"/>
@@ -26202,7 +26193,7 @@
               <lb n="16" xml:id="p663-15"/>Καθ’ αὑτό, τουτέστι χωρὶς τῆς κατὰ τόπον κινήσεως· ἀνωτέρω<note type="apparatus" n="16" target="#p663-15">τότ’ ἔστι K</note><milestone type="alt-edition" unit="line" ed="Trincavelli 1535" n="50"/>
               <lb n="17" xml:id="p663-16"/>γὰρ ἐκ τοῦ μὴ δύνασθαι δι’ αὐτοῦ γενέσθαι τὴν κατὰ τόπον κίνησιν ἀνῄρει
               <lb n="18" xml:id="p663-17"/>ὅτι ἔστι κενόν, νῦν δὲ οὕτως αὐτὸ σκοπεῖ, ὡς ἂν εἰ καὶ μὴ ἦν ἡ κατὰ<note type="apparatus" n="18" target="#p663-17">οὕτως αὐτὸς K: αὐτὸ οὕτως M</note>
-              <lb n="19" xml:id="p663-18"/>τόπον κίνησις. ἢ ἐπειδὴ εἶπεν ὅτι οἱ λέγοντες εἶναι τὸ κενὸν διὰ τὸ κινησιν<note type="apparatus" n="19" target="#p663-18">λέγοντις t</note><note type="apparatus" n="19-20" target="#p663-18 #p663-19">διὰ τὴν κίνησιν M</note>
+              <lb n="19" xml:id="p663-18"/>τόπον κίνησις. ἢ ἐπειδὴ εἶπεν ὅτι οἱ λέγοντες εἶναι τὸ κενὸν διὰ τὸ κίνησιν<note type="apparatus" n="19" target="#p663-18">λέγοντις t</note><note type="apparatus" n="19-20" target="#p663-18 #p663-19">διὰ τὴν κίνησιν M</note>
               <lb n="20" xml:id="p663-19"/>εἶναι “ἀποκεκριμένον” καὶ <milestone type="alt-edition" unit="folio" ed="Trincavelli 1535" n="r 2r"/> καθ’ αὑτὸ ὑπάρχον τὸ κενὸν ὑποτίθενται,<note type="apparatus" n="20" target="#p663-19">ἀποκεκριμένον] ἀποκρινόμενον typothetae errore in Bekkeri Aristotele (p. 216 a 24)</note>
               <lb n="21" xml:id="p663-20"/>οἱ δὲ τοῦτο λέγοντες οὐδὲν διαφέρουσι τῶν τὸν τόπον διάστημα<note type="apparatus" n="21" target="#p663-20">τὸν om. K</note>
               <lb n="22" xml:id="p663-21"/>εἶναι λεγόντων, ὥστε δεδειγμένου τοῦ μὴ εἶναι τὸν τόπον διάστημά τι<note type="apparatus" n="22" target="#p663-21">τοῦ] τὸ K μὴ δὲ εἶναι G</note>
@@ -26344,8 +26335,8 @@
               <lb n="27" xml:id="p666-26"/>Ἄλλη ἐπιχείρησις. ἕκαστον, φησί, τῶν σωμάτων κινούμενον καὶ<milestone type="alt-edition" unit="line" ed="Trincavelli 1535" n="23"/>
               <lb n="28" xml:id="p666-27"/>μεταβαλλόμενον κατὰ τόπον συμμεταφέρει ἑαυτῷ καὶ τὸ οἰκεῖον διάστημα·
               <lb n="29" xml:id="p666-28"/>εἰ τοίνυν τὸ ἐν ἑκάστῳ διάστημα χωριζόμενον τῷ λόγῳ τῶν παθῶν
-              <lb n="30" xml:id="p666-29"/>οὐδὲν διαφέρει τοῦ κενοῦ, κινούμενα δὲ τὰ σώματα σὺν τοῖς οἰκείοις κινεῖ<milestone type="alt-edition" unit="line" ed="Trincavelli 1535" n="25"/>
-              <lb n="31" xml:id="p666-30"/>ται διαστήμασι, τί δεῖ τοῖς σώμασιν ἄλλων τοιούτων ἔξωθεν διαστημάτων;
+              <lb n="30" xml:id="p666-29"/>οὐδὲν διαφέρει τοῦ κενοῦ, κινούμενα δὲ τὰ σώματα σὺν τοῖς οἰκείοις κινεῖται<milestone type="alt-edition" unit="line" ed="Trincavelli 1535" n="25"/>
+              <lb n="31" xml:id="p666-30"/>διαστήμασι, τί δεῖ τοῖς σώμασιν ἄλλων τοιούτων ἔξωθεν διαστημάτων;
               <lb n="32" xml:id="p666-31"/>εἰ γὰρ τὸ διάστημα ὁ τόπος, ἕκαστον δὲ ἐν ἑαυτῷ ἔχει τὸ οἰκεῖον διάστημα,<note type="apparatus" n="32" target="#p666-31">δὲ ἔχει ἐν ἑαυτῷ traicit t</note>
             </p>
             <pb n="667" facs="https://archive.org/download/commentariaina17akaduoft/page/n184.jpg"/>
@@ -26636,7 +26627,7 @@
             </p>
             <pb n="674" facs="https://archive.org/download/commentariaina17akaduoft/page/n191.jpg"/>
             <p>
-              <lb n="1" xml:id="p674-0"/>καὶ τοῖς κούφοις ἡ φύσις εἰς τὴν ἄνω φορὰν ἐξήρκεσε καὶ οὐδὲν τοῦ κενοῦ r
+              <lb n="1" xml:id="p674-0"/>καὶ τοῖς κούφοις ἡ φύσις εἰς τὴν ἄνω φορὰν ἐξήρκεσε καὶ οὐδὲν τοῦ κενοῦ
               <lb n="2" xml:id="p674-1"/>ἐδεήθησαν· ἤλεγξε δὲ ἐν ἄλλοις τοῦτον τὸν λόγον ἱκανῶς ὁ Ἀριστοτέλης.<note type="apparatus" n="2" target="#p674-1">ἐν KM: καὶ ἐν Gt ἐν ἄλλοις] de Caelo Δ</note><note type="apparatus" n="2" target="#p674-1">p. 309a5 sqq.</note>
             </p>
           </div>
@@ -26839,7 +26830,6 @@
               <lb n="28" xml:id="p678-27"/>ἀνάγκη πᾶσα ἄνισον γενέσθαι καὶ τὴν διὰ τοῦ κενοῦ κίνησιν· ὥστε<note type="apparatus" n="28" target="#p678-27">τοῦ om. Mt</note>
               <lb n="29" xml:id="p678-28"/>καὶ εἰ κενὸν ἦν, οὐκ ἀνῄρητο ἡ ἄνισος κίνησις. καὶ ἄλλως εἰ μὴ αὐτὰ<note type="apparatus" n="29" target="#p678-28">ἀνήρηται t</note><milestone type="alt-edition" unit="line" ed="Trincavelli 1535" n="15"/>
               <lb n="30" xml:id="p678-29"/>καθ’ αὑτὰ τὰ ἄνισα σώματα, κἂν μὴ διὰ σώματος κινῶνται ἀλλὰ διὰ κενοῦ,
-              <lb n="31" xml:id="p678-30"/>τοʹ
             </p>
             <pb n="679" facs="https://archive.org/download/commentariaina17akaduoft/page/n196.jpg"/>
             <p>
@@ -26851,7 +26841,7 @@
               <lb n="6" xml:id="p679-5"/>ὅτι αἱ ῥοπαὶ τῶν σωμάτων πεφυκυῖαι ἡ μὲν μᾶλλον φέρεσθαι κάτω ἡ δὲ<milestone type="alt-edition" unit="line" ed="Trincavelli 1535" n="20"/>
               <lb n="7" xml:id="p679-6"/>ἧττον, ταύτῃ τὴν διαφορὰν τῆς ἀνίσου κινήσεως ἴσχουσιν· ἡ γὰρ μᾶλλον<note type="apparatus" n="7" target="#p679-6">ταύτῃ KM: ταύτην Gt</note>
               <lb n="8" xml:id="p679-7"/>κατώφορος μᾶλλον διαιρεῖ. τίνα γὰρ ἄλλην ἀποδώσομεν αἰτίαν τοῦ θᾶττον
-              <lb n="9" xml:id="p679-8"/>διαιρεῖσθαι ὑπὸ τοῦ βαρυτέρου τὸν ἀέρα, ἢ ὅτι τὰ μείζονα ἔχον τὴν ῥοπὴν
+              <lb n="9" xml:id="p679-8"/>διαιρεῖσθαι ὑπὸ τοῦ βαρυτέρου τὸν ἀέρα, ἢ ὅτι <choice><sic>τὰ</sic><corr>τὸ</corr></choice> μείζονα ἔχον τὴν ῥοπὴν
               <lb n="10" xml:id="p679-9"/>τὴν βαρεῖαν μᾶλλον κατώφορόν ἐστι κατὰ τὴν ἑαυτοῦ φύσιν, κἂν
               <lb n="11" xml:id="p679-10"/>μὴ διὰ σώματος κινῆται; μᾶλλον δὲ κατώφορον ὂν μᾶλλον ὠθεῖ τὸν ἀέρα<note type="apparatus" n="11" target="#p679-10">κινεῖται K</note>
               <lb n="12" xml:id="p679-11"/>τῇ βίᾳ τῆς ῥύμης, μᾶλλον δὲ ὠθούμενος ὁ ἀὴρ θᾶττον ὑπεξίσταται.<note type="apparatus" n="12" target="#p679-11">θᾶττον] μᾶλλον G</note>
@@ -26877,7 +26867,6 @@
               <lb n="32" xml:id="p679-31"/>ἡ γὰρ ἀνεχομένη βῶλος ἢ κρεμαμένη ἐν τῷ ἀέρι, ἐν τῷ παρὰ φύσιν οὖσα<note type="apparatus" n="32" target="#p679-31">βῶλος K ἢ] ἡ G</note>
               <lb n="33" xml:id="p679-32"/>τόπῳ, ὅμως οὐ φέρεται ἐπὶ τὸ κάτω διὰ τὸ ἐμποδίζον. καὶ ἐν τῷ ὕδατι<milestone type="alt-edition" unit="line" ed="Trincavelli 1535" n="40"/>
               <lb n="34" xml:id="p679-33"/>δὲ τὸ ξύλον οὐ πέφυκε κινεῖσθαι καὶ φέρεσθαι ἐπὶ τὸ κάτω, ἀλλ’ ἐποχεῖται<note type="apparatus" n="34" target="#p679-33">δὲ t: διὰ KM: om. G ἐποχεῖται GK: ὑποχεῖται M: ἐπίκειται t</note>
-              <lb n="35" xml:id="p679-34"/>v
             </p>
             <pb n="680" facs="https://archive.org/download/commentariaina17akaduoft/page/n197.jpg"/>
             <p>
@@ -27076,7 +27065,7 @@
               <lb n="11" xml:id="p685-10"/>καὶ τὸ πλῆρες, οἷον <milestone type="alt-edition" unit="folio" ed="Trincavelli 1535" n="r 6v"/> πηχυαῖα ἢ σταδιαῖα, ἔχουσι λόγον πρὸς ἄλληλα
               <lb n="12" xml:id="p685-11"/>καθ’ αὑτὰ μόνα τὰ ἀσώματα μεγέθη καὶ αὐτὸ τὸ ποσόν (καὶ γὰρ καὶ οἱ
               <lb n="13" xml:id="p685-12"/>χρόνοι τῶν δι’ αὐτῶν κινουμένων ὡς διὰ τοσῶνδε ἁπλῶς διαστημάτων<note type="apparatus" n="13" target="#p685-12">διὰ τῶν σῶν δὲ K διαστήμ/ M: διαστήματος G</note>
-              <lb n="14" xml:id="p685-13"/>ἔχουσι πρὸς ἀλλήλους λόγον), εἰ μέντοι τὸ μὲν πεπληρωμένον εἴη σῶματος<note type="apparatus" n="14" target="#p685-13">μὲν] κενὸν M</note>
+              <lb n="14" xml:id="p685-13"/>ἔχουσι πρὸς ἀλλήλους λόγον), εἰ μέντοι τὸ μὲν πεπληρωμένον εἴη σώματος<note type="apparatus" n="14" target="#p685-13">μὲν] κενὸν M</note>
               <lb n="15" xml:id="p685-14"/>τὸ δὲ κενόν, οὐκέτι ἀνάγκη τὸ πεπληρωμένον λόγον τινὰ ἔχειν πρὸς<note type="apparatus" n="15" target="#p685-14">ἀνάγκη om. G</note>
               <lb n="16" xml:id="p685-15"/>τὸ κενὸν κατ’ αὐτὴν τὴν ὑπόστασιν καὶ οἷον παχυμέρειαν καὶ σωματότητα,<note type="apparatus" n="16" target="#p685-15">παχυμερείαν K</note>
               <lb n="17" xml:id="p685-16"/>ἐπειδὴ μηδὲ χρόνοι εἰσὶ τούτων αὐτῶν δι’ αὐτά, ᾗ τοιαῦτά ἐστι, συγκρινόμενοι<note type="apparatus" n="17" target="#p685-16">ἐπεὶ G</note><milestone type="alt-edition" unit="line" ed="Trincavelli 1535" n="5"/>
@@ -28393,7 +28382,7 @@
               <lb n="11" xml:id="p716-10"/>Ἅμα γὰρ κινήσεως αἰσθανόμεθα καὶ χρόνου.<note type="apparatus" n="11" target="#p716-10">lemma habet G αἰσθανόμεθα καὶ χρόνου om. K</note>
             </quote>
             <p>
-              <lb n="12" xml:id="p716-11"/>Αναλαμβάνει πάλιν τὸν αὐτὸν λόγον, ὅτι συνεπινοοῦνται ἀλλήλοις ἡ<note type="apparatus" n="12" target="#p716-11">γὰρ πάλιν t</note>
+              <lb n="12" xml:id="p716-11"/>Ἀναλαμβάνει πάλιν τὸν αὐτὸν λόγον, ὅτι συνεπινοοῦνται ἀλλήλοις ἡ<note type="apparatus" n="12" target="#p716-11">γὰρ πάλιν t</note>
               <lb n="13" xml:id="p716-12"/>κίνησις καὶ ὁ χρόνος.
             </p>
           </div>
@@ -29071,7 +29060,7 @@
               <lb n="25" xml:id="p731-24"/>μεταξύ. καὶ τοῦ φερομένου δὲ ἀριθμός, τὸ νῦν, οὐχ ᾗ φερόμενόν ἐστιν,
               <lb n="26" xml:id="p731-25"/>ἀλλ’ ᾗ ἐν προτέρῳ καὶ ὑστέρῳ τινὶ λαμβάνεται· ἡ γὰρ λῆψις τοῦ προτέρου
               <lb n="27" xml:id="p731-26"/>καὶ ὑστέρου καθ’ ἃ γίνεται, ταῦτά ἐστι <milestone type="alt-edition" unit="folio" ed="Trincavelli 1535" n="s 8r"/> τὰ νῦν. τὸ γὰρ νῦν, καθ’<note type="apparatus" n="27" target="#p731-26">κα γίνεται K</note>
-              <lb n="28" xml:id="p731-27"/>δ ἐν Κριῷ γέγονεν ὁ ἥλιος, καὶ πάλιν τὸ νῦν, καθ’ δ γέγονεν ἐν Ταύρῳ,<note type="apparatus" n="28" target="#p731-27">γίνεται ὁ ἥλιος Gt</note>
+              <lb n="28" xml:id="p731-27"/>ὃ ἐν Κριῷ γέγονεν ὁ ἥλιος, καὶ πάλιν τὸ νῦν, καθ’ ὃ γέγονεν ἐν Ταύρῳ,<note type="apparatus" n="28" target="#p731-27">γίνεται ὁ ἥλιος Gt</note>
               <lb n="29" xml:id="p731-28"/>ἀριθμὸς ἂν εἴη αὐτοῦ τοῦ ἡλίου, ὡς ἐν προτέρῳ τινὶ καὶ ὑστέρῳ γινομένου,<note type="apparatus" n="29" target="#p731-28">ὥσπερ t</note><note type="apparatus" n="29-30" target="#p731-28 #p731-29">γενομένου Gt</note>
               <lb n="30" xml:id="p731-29"/>ἐοικὸς ταῖς ἐν τῷ ἀριθμῷ μονάσιν. ὥσπερ γὰρ τῇ μονάδι τὸν ἀριθμὸν<note type="apparatus" n="30" target="#p731-29">ἐοικὼς t</note><note type="apparatus" n="30-31" target="#p731-29 #p731-30">ἀριθμὸν om. K</note>
               <lb n="31" xml:id="p731-30"/>ἀριθμοῦμεν, ἢ ἁπλῶς τὸ ἀριθμητὸν ὅτι ποτ’ ἂν ᾖ (τοὺς γὰρ δέκα<note type="apparatus" n="31" target="#p731-30">τὸ γὰρ ἀριθμητὸν G</note>
@@ -29342,7 +29331,7 @@
             </p>
             <pb n="738" facs="https://archive.org/download/commentariaina17akaduoft/page/n255.jpg"/>
             <p>
-              <lb n="1" xml:id="p738-0"/>ἐν τοῖς ἑτερογενέσι (μία γὰρ καὶ ἡ αὐτὴ δεκὰς ἐν τοῖς δέκα ἵπποις καὶ †1r<note type="apparatus" n="1" target="#p738-0">δέκα (ante ἵπποις) om. K</note>
+              <lb n="1" xml:id="p738-0"/>ἐν τοῖς ἑτερογενέσι (μία γὰρ καὶ ἡ αὐτὴ δεκὰς ἐν τοῖς δέκα ἵπποις καὶ<note type="apparatus" n="1" target="#p738-0">δέκα (ante ἵπποις) om. K</note>
               <lb n="2" xml:id="p738-1"/>δέκα ὄνοις καὶ δέκα ξύλοις καὶ ὅσαι ἄλλαι ἂν εἶεν δεκάδες, καὶ ᾗ μὲν<note type="apparatus" n="2" target="#p738-1">ἐν τοῖς δέκα ὄνοις καὶ ξύλοις Gt</note>
               <lb n="3" xml:id="p738-2"/>δέκα, οὐ τὰ αὐτά, ᾗ μέντοι δεκάς, μία ἐπὶ πάντων), οὕτω δὲ καὶ τὰ νῦν
               <lb n="4" xml:id="p738-3"/>ὡς μὲν ἀριθμὸς λαμβανόμενα χρόνος τέ εἰσι 〈καὶ εἷς〉 καὶ ὁ αὐτὸς πανταχοῦ,<note type="apparatus" n="4" target="#p738-3">ἀριθμοὶ Gt λαμβανόμενος K χρόνοι G καὶ εἷς addidi</note>
@@ -29424,7 +29413,7 @@
             </p>
             <pb n="740" facs="https://archive.org/download/commentariaina17akaduoft/page/n257.jpg"/>
             <p>
-              <lb n="1" xml:id="p740-0"/>τοῦ μεγέθους ἀνάγκη καὶ τὴν κίνησιν συνεχῆ εἶναι, καὶ διὰ ταύτην τὸν t<note type="apparatus" n="1-2" target="#p740-0 #p740-1">τὸν χρόνον (priore loco) Mt: τοῦ χρόνου Κ</note>
+              <lb n="1" xml:id="p740-0"/>τοῦ μεγέθους ἀνάγκη καὶ τὴν κίνησιν συνεχῆ εἶναι, καὶ διὰ ταύτην τὸν<note type="apparatus" n="1-2" target="#p740-0 #p740-1">τὸν χρόνον (priore loco) Mt: τοῦ χρόνου Κ</note>
               <lb n="2" xml:id="p740-1"/>χρόνον, ἐπειδὴ πρὸς ταῦτα ἠπόρησεν ἄν τις πῶς οἷόν τε τὸν χρόνον καὶ<milestone type="alt-edition" unit="line" ed="Trincavelli 1535" n="10"/>
               <lb n="3" xml:id="p740-2"/>συνεχῆ εἶναι καὶ ἀριθμὸν (ἐναντία γὰρ ταῦτα ἀλλήλοις. ὁ μὲν γὰρ χρόνος<note type="apparatus" n="3" target="#p740-2">ἀριθμεῖν compend. Κ γὰρ (post μὲν) om. Μ</note>
               <lb n="4" xml:id="p740-3"/>συνεχής, ὁ δὲ ἀριθμὸς οὐ συνεχής· οὐκ ἄρα ἀριθμὸς ὁ χρόνος· εἰ γὰρ
@@ -29468,7 +29457,7 @@
               <lb n="4" xml:id="p741-3"/>ἕτερον γὰρ τὸ νῦν ὅθεν ἤρξατο ἡ παρελθοῦσα, καὶ ἕτερον ὅθεν ἄρξεται ἡ<milestone type="alt-edition" unit="line" ed="Trincavelli 1535" n="35"/>
               <lb n="5" xml:id="p741-4"/>μέλλουσα. ὁμοίως καὶ ἐπὶ τοῦ νῦν, εἰς ὃ λήγει ἑκατέρα. τῶν οὖν νῦν<note type="apparatus" n="5" target="#p741-4">ἑκάτερα KM</note>
               <lb n="6" xml:id="p741-5"/>ἑτέρων ὄντων καὶ οἱ περιεχόμενοι ὑπὸ τῶν νῦν χρόνοι ἕτεροι· εἰ μὲν γὰρ<note type="apparatus" n="6" target="#p741-5">ὑπὸ τοῦ νῦν M</note>
-              <lb n="7" xml:id="p741-6"/>ὁ ἀριθμῶν ἀριθμὸς ἢ ὁ χρόνος, εἷς ἦν καὶ ὁ αὐτός (εἷς γὰρ καὶ ὁ αὐτὸς<note type="apparatus" n="7" target="#p741-6">ἦ M: ᾖ GK: ἦν t εἷς ἂν ἦν t ὁ (post καὶ) utrumque om. M</note>
+              <lb n="7" xml:id="p741-6"/>ὁ ἀριθμῶν ἀριθμὸς ᾖ ὁ χρόνος, εἷς ἦν καὶ ὁ αὐτός (εἷς γὰρ καὶ ὁ αὐτὸς<note type="apparatus" n="7" target="#p741-6">ἦ M: ᾖ GK: ἦν t εἷς ἂν ἦν t ὁ (post καὶ) utrumque om. M</note>
               <lb n="8" xml:id="p741-7"/>ὢν ὁ ἐν τῇ ψυχῇ ἀριθμός, οἷον ἡ δεκάς, ἀριθμεῖ τοὺς δέκα ἵππους ἢ
               <lb n="9" xml:id="p741-8"/>τοὺς δέκα ἀνθρώπους καὶ πάντα τὰ ἄλλα, ἡ μέντοι ἐν τοῖς ἵπποις δεκὰς<note type="apparatus" n="9" target="#p741-8">τὰ ἄλλα πάντα t ἡ] εἰ K δεκὰς om. G</note>
               <lb n="10" xml:id="p741-9"/>ἑτέρα ἐστὶ παρὰ τὴν ἐν ἀνθρώποις ἢ ἐν λίθοις· ἕτερα γὰρ τὰ ὑποκείμενα),
@@ -29808,7 +29797,7 @@
               <lb n="1" xml:id="p749-0"/>γὰρ ἔχει μείζονα ἑαυτῶν χρόνον. καὶ τούτου, φησί, σημεῖον τὸ μηδὲ<note type="apparatus" n="1" target="#p749-0">τοῦτο K</note>
               <lb n="2" xml:id="p749-1"/>πάσχειν αὐτὰ ὑπὸ τοῦ χρόνου. εἰ γὰρ τὰ ἐν χρόνῳ πάσχει ὑπὸ χρόνου,<note type="apparatus" n="2" target="#p749-1">τοῦ K: om. Gt</note>
               <lb n="3" xml:id="p749-2"/>τὰ ἄρα μὴ πάσχοντα ὑπὸ χρόνου οὐκ ἂν εἴη ἐν χρόνῳ· οὐ πάσχει δὲ
-              <lb n="4" xml:id="p749-3"/>ὑπὸ χρόνου τὰ ἀνὰ πάντα τὸν χρόνον ὄντα· οὐδ’ ἄρα ἐν χρόνῳ τὰ τοιαὐτά
+              <lb n="4" xml:id="p749-3"/>ὑπὸ χρόνου τὰ ἀνὰ πάντα τὸν χρόνον ὄντα· οὐδ’ ἄρα ἐν χρόνῳ τὰ τοιαῦτά
               <lb n="5" xml:id="p749-4"/>ἐστιν.
               <lb n="6" xml:id="p749-5"/>Ἐπεὶ δὲ ἐστιν ὁ χρόνος μέτρον κινήσεως καὶ τοῦ κινεῖσθαι.<note type="apparatus" n="6" target="#p749-5">Ἐπεὶ — κινήσεως καὶ τοῦ κινεῖσθαι om. G δ’ ἐστὶν ὁ (sic) t κινήσεως καὶ τοῦ κινεῖσθαι M: om. Kt</note>
               <lb n="7" xml:id="p749-6"/>εἰπὼν τῆς κινήσεως ἐπήγαγε καὶ τοῦ κινεῖσθαι, τὸ κινεῖσθαι ἤτοι<note type="apparatus" n="7" target="#p749-6">τῆς deleverim τὸ κινεῖσθαι om. M</note>
@@ -29975,7 +29964,7 @@
             <milestone unit="bekker" n="221a23"/>
             <quote type="lemma">
               <lb n="1" xml:id="p753-0"/>Ἀλλὰ τοῦτο μὲν συμβέβηκεν, ἐκεῖνο δ’ ἀνάγκη παρακολουθεῖν<note type="apparatus" n="1" target="#p753-0">Ἀλλὰ — συμβέβηκεν superiori lemmati addita om. hic t</note><note type="apparatus" n="1-3" target="#p753-0 #p753-1 #p753-2">ἐκεῖνο — κἀκεῖνό ἐστι om. K</note>
-              <lb n="2" xml:id="p753-1"/>καὶ τῷ ὄντι ἐν χρόνῳ εἶναί τινα χρόνον, ὅτε κἀκείνό
+              <lb n="2" xml:id="p753-1"/>καὶ τῷ ὄντι ἐν χρόνῳ εἶναί τινα χρόνον, ὅτε κἀκεῖνό
               <lb n="3" xml:id="p753-2"/>ἐστι.
             </quote>
             <p>
@@ -30243,7 +30232,7 @@
             </p>
             <pb n="759" facs="https://archive.org/download/commentariaina17akaduoft/page/n276.jpg"/>
             <p>
-              <lb n="1" xml:id="p759-0"/>ὄντων, ταῦτα οὐκ ἔστιν ἐν χρόνῳ, ὅσα δὲ ἐνδεχομένως οὐκ ἔστι, ταῦτά ἐστιν t5v
+              <lb n="1" xml:id="p759-0"/>ὄντων, ταῦτα οὐκ ἔστιν ἐν χρόνῳ, ὅσα δὲ ἐνδεχομένως οὐκ ἔστι, ταῦτά ἐστιν
               <lb n="2" xml:id="p759-1"/>ἐν χρόνῳ.
             </p>
           </div>
@@ -30853,7 +30842,7 @@
             <milestone unit="bekker" n="223a5"/>
             <quote type="lemma">
               <lb n="19" xml:id="p772-18"/>Πρότερον γὰρ καὶ ὕστερον λέγομεν κατὰ τὴν πρὸς τὸ<note type="apparatus" n="19-20" target="#p772-18 #p772-19">om. κατὰ—ἀπόστασιν K; v.</note>
-              <lb n="20" xml:id="p772-19"/>νυν ἀπόστασιν.
+              <lb n="20" xml:id="p772-19"/>νῦν ἀπόστασιν.
             </quote>
             <p>
               <lb n="21" xml:id="p772-20"/>Ὅτι τὸ πρότερον καὶ τὸ ὕστερον ἐν χρόνῳ, διὰ τούτων κατασκευάζει.<note type="apparatus" n="21" target="#p772-20">alterum τὸ et διὰ τούτων om. K): Ἀλλὰ μὴν τό γε πρότερον ἐν χρόνῳ ἐστίν (ἐν—ἐστὶν om. t). Ὅτι (δὲ add. t) τὸ πρότερον καὶ ὕστερον ἐν χρόνῳ, διὰ τούτων κατασκευάζει. πρότερον γὰρ καὶ ὕστερον λέγομεν (φησι add. t) κατὰ — ἀπόστασιν. εἰ ὅρος ἐστὶ τῶν (τοῦ add. t) χρόνου μερῶν — ἄρα τὸ νῦν (haec εἰ — ἄρα τὸ νῦν in margine habet G). τὸ δὲ (γὰρ t) νῦν (φησιν add. t) ὅρος — μέλλοντος. (εἶτα ἐπάγει add. t), ὥστε ἐπεὶ τὰ νῦν ἐν χρόνῳ, καὶ τὸ πρότερον καὶ (τὸ add. t) ὕστερον ἐν χρόνῳ ἔσται. (τοῦτο δέ ἐστιν add. t) ἡ μείζων πρότασις — καὶ τὸ ὕστερον ἐν χρόνῳ (τοῦ νῦν ὄντος ἐν χρόνῳ add. t) ἐφεξῆς κατασκευάζει Gt, sed haec omnia usque ad ἐν χρόνῳ ἔσται diductis litteris (quibus utitur in describendo Aristotelis textu) scribit G</note>
@@ -31040,7 +31029,7 @@
               <lb n="9" xml:id="p776-8"/>εἴδη, αὔξησις μείωσις ἀλλοίωσις γένεσις καὶ φθορά, ποίας ἐστὶ κινήσεως<note type="apparatus" n="9" target="#p776-8">καὶ om. M</note>
               <lb n="10" xml:id="p776-9"/>ἀριθμὸς ὁ χρόνος; καί φησιν ὅτι πάσης ἐστὶ κινήσεως ἀριθμός, ᾗ κινήσεις<note type="apparatus" n="10" target="#p776-9">καί — ἀριθμός om. M ἐστὶ κινήσεως GK: κινήσεώς ἐστιν t</note>
               <lb n="11" xml:id="p776-10"/>εἰσίν. οὐ γὰρ ᾗ αὔξησις ἡ αὔξησις μετρητικός ἐστιν αὐτῆς ὁ χρόνος,<note type="apparatus" n="11" target="#p776-10">ᾗ — ᾗ] ἡ — ᾗ KM. item v.</note>
-              <lb n="12" xml:id="p776-11"/>οὐδὲ ἡ ἀλλοίωσις ἡ ἀλλοίωσις, ἀλλ’ ᾗ κίνησίς ἐστιν ἑκάστη τούτων, ταύτῃ<note type="apparatus" n="12" target="#p776-11">M 11 μετρητικόν t</note>
+              <lb n="12" xml:id="p776-11"/>οὐδὲ ᾗ ἀλλοίωσις ἡ ἀλλοίωσις, ἀλλ’ ᾗ κίνησίς ἐστιν ἑκάστη τούτων, ταύτῃ<note type="apparatus" n="12" target="#p776-11">M 11 μετρητικόν t</note>
               <lb n="13" xml:id="p776-12"/>μετρεῖται ὑπὸ τοῦ χρόνου. ὥστε πάσης ἐστὶ κινήσεως μετρητικός· ὡς
               <lb n="14" xml:id="p776-13"/>γὰρ διάστασιν ἁπλῶς ἑκάστην αὐτῶν μετρεῖ· ὥστε κατὰ τὸ κοινὸν τὸ ἐν<note type="apparatus" n="14" target="#p776-13">ἑκάστης t</note><milestone type="alt-edition" unit="line" ed="Trincavelli 1535" n="20"/>
               <lb n="15" xml:id="p776-14"/>αὐταῖς μετροῦνται ὑπὸ τοῦ χρόνου, οὐ κατὰ τὸ ἰδίᾳ ὑπάρχον. ταύτῃ
@@ -31079,7 +31068,7 @@
               <lb n="14" xml:id="p777-13"/>αὐτοῦ εἰς τὸ αὐτὸ διὰ τριάκοντα ἐτῶν, ἡ δὲ διὰ δώδεκα, ἡ δὲ δι’ ἐνιαυτοῦ,<note type="apparatus" n="14" target="#p777-13">sq. 11 οἷαί] αἱ δὲ M ἐν om. G</note><note type="apparatus" n="14" target="#p777-13">ιβ’ t</note><milestone type="alt-edition" unit="line" ed="Trincavelli 1535" n="40"/>
               <lb n="15" xml:id="p777-14"/>καὶ ἄλλη ἄλλως, ἡ δέ τίς ἐστι πασῶν τῶν ἄλλων θάττων τε καὶ<note type="apparatus" n="15" target="#p777-14">θᾶττον K</note>
               <lb n="16" xml:id="p777-15"/>γνωριμωτέρα, ἥτις ἐστὶν ἡ τῆς ἀπλανοῦς, δι’ εἴκοσι καὶ τεσσάρων ὡρῶν
-              <lb n="17" xml:id="p777-16"/>(λέγω δὴ τοῦ ἡμερονυκτίου) περιαγομένη εἰς τὸ αὐτό. ἐπεὶ οὖν τὸ μετρον<note type="apparatus" n="17" target="#p777-16">τὸ (post οὖν) om. K</note>
+              <lb n="17" xml:id="p777-16"/>(λέγω δὴ τοῦ ἡμερονυκτίου) περιαγομένη εἰς τὸ αὐτό. ἐπεὶ οὖν τὸ μέτρον<note type="apparatus" n="17" target="#p777-16">τὸ (post οὖν) om. K</note>
               <lb n="18" xml:id="p777-17"/>καὶ ἐλάχιστόν ἐστι καὶ γνώριμον, εἰκότως καὶ ὁ ὑπὸ ταύτης τῆς κινήσεως
               <lb n="19" xml:id="p777-18"/>ὁριζόμενος χρόνος, λέγω δὴ ἡ μία ἡμέρα (τοῦτο δέ ἐστι τὸ ἡμερονύκτιον),
               <lb n="20" xml:id="p777-19"/>τοῦτό ἐστι τὸ συγγενὲς τοῦ χρόνου μέτρον, ᾧ ὁ πᾶς χρόνος
@@ -31483,7 +31472,7 @@
             <milestone unit="bekker" n="224a6"/>
             <quote type="lemma">
               <lb n="20" xml:id="p785-19"/>Ταὐτὸν γὰρ λέγεται οὗ μὴ διαφέρει διαφορᾷ, ἀλλ’ οὐχὶ<note type="apparatus" n="20" target="#p785-19">λέγει K διαφορὰ K</note>
-              <lb n="21" xml:id="p785-20"/>οὐ διαφέρει.
+              <lb n="21" xml:id="p785-20"/>οὗ διαφέρει.
             </quote>
             <p>
               <lb n="22" xml:id="p785-21"/>Ἐπὶ τὸν καθολικὸν ἀναβαίνει λόγον παραδιδοὺς κανόνα, τίνα μέν<note type="apparatus" n="22" target="#p785-21">Ἐπεὶ K κανόνα παραδιδοὺς Gt</note><milestone type="alt-edition" unit="line" ed="Trincavelli 1535" n="15"/>
@@ -31665,7 +31654,7 @@
             <p>
               <lb n="21" xml:id="p789-20"/>Οὐδὲ γὰρ πάντως δεῖ τῷ μεταβάλλοντι κατὰ τὰ πρός τι κινήσεως,<note type="apparatus" n="21-29" target="#p789-20 #p789-21 #p789-22 #p789-23 #p789-24 #p789-25 #p789-26 #p789-27 #p789-28">cf. Alexander ap. Simpl. f. 196 v 38 sqq.</note>
               <lb n="22" xml:id="p789-21"/>ἀλλ’ ἀκίνητον [μὲν] μεταβάλλει· εἰ γὰρ κινηθείη ὁ ἀριστερὸς καὶ τὸν<note type="apparatus" n="22" target="#p789-21">μὲν delevi</note>
-              <lb n="23" xml:id="p789-22"/>δεξιὸν καταλάβοι τόπον τοῦ δεξιοῦ ἀκινήτου μείναντος, γέγονεν ὁ δεξιὸς ἀριστερος<note type="apparatus" n="23" target="#p789-22">μείναντος (εί ex έ corr.)</note>
+              <lb n="23" xml:id="p789-22"/>δεξιὸν καταλάβοι τόπον τοῦ δεξιοῦ ἀκινήτου μείναντος, γέγονεν ὁ δεξιὸς ἀριστερὸς<note type="apparatus" n="23" target="#p789-22">μείναντος (εί ex έ corr.)</note>
               <lb n="24" xml:id="p789-23"/>αὐτὸς μὴ κινηθείς. εἰ τοίνυν πρὸς τὸ ἀναδέξασθαι τὴν τῶν πρός τι
               <lb n="25" xml:id="p789-24"/>σχέσιν μὴ πάντως δεῖ τῷ δεχομένῳ τὴν σχέσιν κινήσεως, δῆλον ὅτι,
               <lb n="26" xml:id="p789-25"/>ὅταν κινηθῇ μεταβάλλον κατὰ τὰ πρός τι, κατὰ συμβεβηκὸς κινεῖται· ὁ
@@ -33301,13 +33290,13 @@
           <div type="textpart" subtype="lemma" n="93">
             <milestone unit="bekker" n="240a12"/>
             <p>
-              <lb n="2" xml:id="p818-1"/>Τουτέστι τὸν χρόνον ἐν ᾧ πάντα τὰ ἁ διεξελήλυθεν, τὰ γ δὲ διπλασίονα
+              <lb n="2" xml:id="p818-1"/>Τουτέστι τὸν χρόνον ἐν ᾧ πάντα τὰ ᾱ διεξελήλυθεν, τὰ γ δὲ διπλασίονα
               <lb n="3" xml:id="p818-2"/>εἶναι τοῦ ἐν ᾧ τὰ ἐφ’ οὗ τὰ ββ διελήλυθεν τὰ ἡμίσεα τῶν αα.
               <lb n="4" xml:id="p818-3"/>ἑκάτερον δὲ τῶν κινουμένων παρ’ ἕκαστα τῶν παρ’ ἃ κινοῦνται παραβαλλόμενα
               <lb n="5" xml:id="p818-4"/>ἴσα ἐστίν. εἰ οὖν τὸ ἐφ’ οὗ τὰ γ ἴσον τῷ ἐφ’ οὗ τὰ β, καὶ
               <lb n="6" xml:id="p818-5"/>ἅπαντα τὰ β διεξελήλυθεν καὶ ὅλον παρ’ ὅλον παραβέβληται, καὶ τὸ ἐφ’
               <lb n="7" xml:id="p818-6"/>οὗ τὰ γ ἄρα παραβεβλημένον ἔσται. ὥστε εἰ πάντα τὰ β διεξελήλυθεν,
-              <lb n="8" xml:id="p818-7"/>καὶ τὰ ἁ πάντα διεξεληλυθὸς ἂν εἴη ἐν ᾧ χρόνῳ τὰ ἡμίσεα τῶν αα
+              <lb n="8" xml:id="p818-7"/>καὶ τὰ ᾱ πάντα διεξεληλυθὸς ἂν εἴη ἐν ᾧ χρόνῳ τὰ ἡμίσεα τῶν αα
               <lb n="9" xml:id="p818-8"/>διεξῄει.
             </p>
           </div>
@@ -33580,7 +33569,7 @@
           <div type="textpart" subtype="lemma" n="6">
             <milestone unit="bekker" n="252a24"/>
             <p>
-              <lb n="25" xml:id="p823-24"/>Τουτέστιν ἀναπόδεικτον. — Τῶν γὰρ ἀξιωμάτων τὰ μέν ἐστιν αὐτόπιστὰ
+              <lb n="25" xml:id="p823-24"/>Τουτέστιν ἀναπόδεικτον. — Τῶν γὰρ ἀξιωμάτων τὰ μέν ἐστιν αὐτόπιστα
             </p>
             <pb n="824" facs="https://archive.org/download/commentariaina17akaduoft/page/n341.jpg"/>
             <p>
@@ -33797,7 +33786,7 @@
           <div type="textpart" subtype="lemma" n="27">
             <milestone unit="bekker" n="254a10"/>
             <p>
-              <lb n="25" xml:id="p827-24"/>Τὴν τῆς οὐσίαν γένεσιν ἀναιρεῖ, διότι ἡ φύσις μετὰ σκοποῦ εἴς τι<note type="apparatus" n="25-27" target="#p827-24 #p827-25 #p827-26">Τὴν — γένεσις habet etiam B, qui γένεσιν (om. ἀναιρεῖ) διότι ἡ φύσις οὐκ ἀσκοπός ἐστιν ἀλλ’ εἴς τι εἶδος et mox εἰ τοίνυν μὴ exhibet</note>
+              <lb n="25" xml:id="p827-24"/>Τὴν τῆς <choice><sic>οὐσίαν</sic><corr>οὐσίας</corr></choice> γένεσιν ἀναιρεῖ, διότι ἡ φύσις μετὰ σκοποῦ εἴς τι<note type="apparatus" n="25-27" target="#p827-24 #p827-25 #p827-26">Τὴν — γένεσις habet etiam B, qui γένεσιν (om. ἀναιρεῖ) διότι ἡ φύσις οὐκ ἀσκοπός ἐστιν ἀλλ’ εἴς τι εἶδος et mox εἰ τοίνυν μὴ exhibet</note>
               <lb n="26" xml:id="p827-25"/>εἶδος ὡρισμένον ἄγει τὰ πράγματα, εἰς ὃ ἀγαγοῦσα ἵστησιν αὐτά. εἰ οὖν
               <lb n="27" xml:id="p827-26"/>μὴ ἔστι τὸ ποτὲ μὲν κινούμενον ποτὲ δὲ ἠρεμοῦν, οὐκ ἔστιν οὐσίας γένεσις.<note type="apparatus" n="27" target="#p827-26">τὸ B: τὰ (sic) E</note>
               <lb n="28" xml:id="p827-27"/>[[εἰ γὰρ καὶ μὴ ἔστι κίνησις οὐσίας γένεσις, ἀλλ’ οὐκ ἄνευ κινήσεως, παυσαμένης<note type="apparatus" n="28-30" target="#p827-27 #p827-28 #p827-29">εἰ γὰρ καὶ μὴ ἔστι κίνησις — ἐστὶ φθορά addidi ex B</note>
@@ -33888,7 +33877,7 @@
               <lb n="15" xml:id="p829-14"/>διάφορον κίνησιν τοῦ ζῴου καὶ τὸ στοιχεῖον ἐξ οὗ σύγκειται τὸ σῶμα. εἰ
               <lb n="16" xml:id="p829-15"/>μὲν γὰρ πλεονάζει τὸ γεῶδες, ἡ μὲν ἐπὶ τὸ ἄνω κίνησις τοῦ ζῴου, οἷον
               <lb n="17" xml:id="p829-16"/>ὅταν κουφίζῃ τὸν πόδα, παρὰ φύσιν ἐστὶ τῷ σώματι, ὅταν δὲ φέρῃ τὸν πόδα
-              <lb n="18" xml:id="p829-17"/>κάτω, κατὰ φύσιν· εἰ δὲ πύριον ἢ ἀέριον ἢ τὸ τοῦ ζῴου σῶμα, ἔμπαλιν.<note type="apparatus" n="18" target="#p829-17">ἢ] ἢ εἴη</note>
+              <lb n="18" xml:id="p829-17"/>κάτω, κατὰ φύσιν· εἰ δὲ πύριον ἢ ἀέριον ᾖ τὸ τοῦ ζῴου σῶμα, ἔμπαλιν.<note type="apparatus" n="18" target="#p829-17">ἢ] ἢ εἴη</note>
             </p>
           </div>
           <div type="textpart" subtype="lemma" n="35">
@@ -34306,7 +34295,7 @@
             <p>
               <lb n="7" xml:id="p836-6"/>Ἐπειδὴ δυνατὸν πολλὰ εἶναι τὰ μεταξὺ κινοῦντα καὶ κινούμενα, ἔσχατον
               <lb n="8" xml:id="p836-7"/>δέ ἐστι τὸ μόνως κινούμενον, διὰ τοῦτο, εἴπερ ἄρα καὶ δυνατὸν διὰ
-              <lb n="9" xml:id="p836-8"/>πλειόνων ἀφικέσθαι εἰς τὸ Ῡ ὃ μόνως κινεῖται, ὅμως νῦν ὑποκείσθω δι’
+              <lb n="9" xml:id="p836-8"/>πλειόνων ἀφικέσθαι εἰς τὸ γ̄ ὃ μόνως κινεῖται, ὅμως νῦν ὑποκείσθω δι’
               <lb n="10" xml:id="p836-9"/>ἑνὸς κινουμένου καὶ κινοῦντος· εἰ γὰρ δειχθείη ὅτι οὐδὲ ἓν ἐξ ἀνάγκης
               <lb n="11" xml:id="p836-10"/>εἶναι δεῖ καὶ κινούμενον καὶ κινοῦν, πολλῷ μᾶλλον οὐδὲ πλείονα.
             </p>
@@ -34367,7 +34356,7 @@
               <lb n="16" xml:id="p837-15"/>ὥστε τὰ μέρη δυνάμει εἰσὶν ἐν τῷ ὅλῳ, οὐκ ἐνεργείᾳ. εἰ μὲν οὖν ἦν
               <lb n="17" xml:id="p837-16"/>ἐνεργείᾳ τὰ μέρη, εἶτα ἀφαιρεθέντος τοῦ κατ’ ἐνέργειαν ὄντος μέρους ἔμενε
               <lb n="18" xml:id="p837-17"/>τὸ λοιπὸν αὐτοκίνητον, τῷ ὄντι οὐκ ἦν τὸ ἐξ ἀρχῆς πρώτως αὐτοκίνητον,
-              <lb n="19" xml:id="p837-18"/>ὥσπερ ἐπὶ τῆς ἀφαιρέσεως ἔχει τοῦ ἱματίου, ἐπειδὴ δὲ δυνάμει εἰσὶ. τὰ
+              <lb n="19" xml:id="p837-18"/>ὥσπερ ἐπὶ τῆς ἀφαιρέσεως ἔχει τοῦ ἱματίου, ἐπειδὴ δὲ δυνάμει εἰσὶ τὰ
               <lb n="20" xml:id="p837-19"/>μέρη, ἔστι μὲν καὶ τὸ ὅλον αὐτοκίνητον, ὅταν δὲ ἀφαιρεθῇ τὸ μέρος, ἕτερον<note type="apparatus" n="20" target="#p837-19">καὶ] κατὰ BF</note>
               <lb n="21" xml:id="p837-20"/>γίνεται αὐτοκίνητον· τὸ γὰρ ἐξ ἀρχῆς ὅλον οὐκέτι σῴζεται. ὥστε
               <lb n="22" xml:id="p837-21"/>δυνάμει ἔνεισι πολλὰ αὐτοκίνητα ἐν τῷ ὅλῳ, ὅταν δὲ ἐνεργείᾳ διαιρεθῇ<note type="apparatus" n="22" target="#p837-21">fort. ἀφαιρεθῇ</note>
@@ -34405,7 +34394,7 @@
             <pb n="838" facs="https://archive.org/download/commentariaina17akaduoft/page/n355.jpg"/>
             <p>
               <lb n="1" xml:id="p838-0"/>ἀπογινομένας ὡμολόγηται, ἔστω, φησί, τοῦτο δεδομένον καὶ τῶν τοιούτων
-              <lb n="2" xml:id="p838-1"/>ἀρχῶν μὴ ἀϊδίους εἶναι * * * καὶ ταύτας εἰς τὸ εἶναι καὶ τὸ μὴ εἶναι παραγεσθαι<note type="apparatus" n="2" target="#p838-1">lacunam signavi</note>
+              <lb n="2" xml:id="p838-1"/>ἀρχῶν μὴ ἀϊδίους εἶναι * * * καὶ ταύτας εἰς τὸ εἶναι καὶ τὸ μὴ εἶναι παράγεσθαι<note type="apparatus" n="2" target="#p838-1">lacunam signavi</note>
               <lb n="3" xml:id="p838-2"/>διὰ γενέσεως καὶ φθορᾶς. πᾶσα γὰρ γένεσις μεριστοῦ τινός ἐστι
               <lb n="4" xml:id="p838-3"/>πράγματος καὶ ἐν χρόνῳ τινί, διὰ τὸ μὴ ἀθρόως εἰς τὸ εἶναι παράγεσθαι
               <lb n="5" xml:id="p838-4"/>τὸ μεριστόν, ἀλλὰ κατὰ μέρος. ὁμοίως δὲ φθορὰ πᾶσα μεριστοῦ τινός
@@ -35798,7 +35787,7 @@
             <milestone unit="bekker" n="231b4"/>
             <p>
               <lb n="11" xml:id="p861-9"/>Εἰ γὰρ ὅλαι ὅλων αἱ στιγμαὶ ἅπτονται, ἐφαρμόζοιεν ἂν καὶ οὐδὲν μέγεθος
-              <lb n="12" xml:id="p861-10"/>ποιήσουσι· τοῦτο γάρ, φησί, συνεχὲς οὐκ ἔστιν ἀμερές, ἀλλ’ ἔχει διαφορα
+              <lb n="12" xml:id="p861-10"/>ποιήσουσι· τοῦτο γάρ, φησί, συνεχὲς οὐκ ἔστιν ἀμερές, ἀλλ’ ἔχει διάφορα
               <lb n="13" xml:id="p861-11"/>μόρια.
             </p>
           </div>
@@ -35878,7 +35867,7 @@
               <lb n="32" xml:id="p862-31"/>ἀμερῶν ἡ κίνησις, συμβήσεται τὴν κίνησιν μὴ κίνησιν εἶναι, καὶ εἶναί τι
               <lb n="33" xml:id="p862-32"/>κεκινημένον μηδέποτε κινηθέν. εἰ γὰρ ἐν ἑκάστῳ τῶν ἀμερῶν οὐ κινεῖται
               <lb n="34" xml:id="p862-33"/>ἀλλὰ κεκίνηται, μηδὲ κινηθὲν ἄρα κεκινημένον ἔσται, καὶ ἢ ἀνάγκη ἠρεμεῖν
-              <lb n="35" xml:id="p862-34"/>ἐν ἑκάστῳ τῶν ἀμερῶν, ἢ κινεῖσθαι· οὐ κινεῖται δέ· ἠρεμεῖ ἄρα. συγκειται
+              <lb n="35" xml:id="p862-34"/>ἐν ἑκάστῳ τῶν ἀμερῶν, ἢ κινεῖσθαι· οὐ κινεῖται δέ· ἠρεμεῖ ἄρα. σύγκειται
               <lb n="36" xml:id="p862-35"/>δὲ ἐξ αὐτῶν ἡ κίνησις· ἐξ ἠρεμιῶν ἄρα ἡ κίνησις.
             </p>
             </div>
@@ -36863,7 +36852,7 @@
               <lb n="34" xml:id="p880-33"/>ἤγουν τὴν διπλασίαν ναῦν, τὸ ἥμισυ τοῦ διαστήματος κινῆσαι· ἐνίοτε γὰρ
               <lb n="35" xml:id="p880-34"/>οὐδ’ ὅλως κινήσουσιν. οὐδὲ πάλιν τὴν αὐτὴν ναῦν ἡ ἡμίσεια δύναμις τῶν
               <lb n="36" xml:id="p880-35"/>ιʹ ἀνδρῶν, τουτέστιν οἱ εʹ, ἐν τῷ αὐτῷ χρόνῳ τὸ ἥμισυ κινήσει διάστημα·
-              <lb n="37" xml:id="p880-36"/>εἰ γὰρ τοῦτο, καὶ ὁ εἷς δυνηθείη ἂν ἑλκύσαι τὴν ναῦν τὸ ἀνάλογον διαστημα.
+              <lb n="37" xml:id="p880-36"/>εἰ γὰρ τοῦτο, καὶ ὁ εἷς δυνηθείη ἂν ἑλκύσαι τὴν ναῦν τὸ ἀνάλογον διάστημα.
               <lb n="38" xml:id="p880-37"/>ἀλλ’ ἀδύνατον· οὐ γὰρ τέμνεται, φησίν, ἡ τῶν νεωλκῶν ἰσχὺς κατὰ
             </p>
             <pb n="881" facs="https://archive.org/download/commentariaina17akaduoft/page/n398.jpg"/>
@@ -37582,10 +37571,9 @@
               <lb n="27" xml:id="p895-26"/>ἅψασθαι ἀλλήλων τὸ ποιοῦν καὶ τὸ πάσχον), ὥστε χρεία πρὸς τὴν
               <lb n="28" xml:id="p895-27"/>ἀλλοίωσιν τῆς κατὰ τόπον μεταβολῆς. δεῖ γὰρ πλησιάσαι τὸ θερμαῖνον
               <lb n="29" xml:id="p895-28"/>τῷ θερμαινομένῳ καὶ ἁπλῶς τὸ ποιοῦν τῷ πάσχοντι· οὐ γὰρ ἀεὶ ὁμοίως<note type="apparatus" n="29" target="#p895-28">ἀεὶ ὁμοίως FB: ὁμοίως ἀεὶ Fm</note>
-              <lb n="30" xml:id="p895-29"/>ἔχει τὸ ποιοῦν πρὸς τὸ πάσχον, ἀλλ’ ὁτὲ μὲν ἀφέστηκην αὐτοῦ ὁτὲ δὲ
+              <lb n="30" xml:id="p895-29"/>ἔχει τὸ ποιοῦν πρὸς τὸ πάσχον, ἀλλ’ ὁτὲ μὲν <choice><sic>ἀφέστηκην</sic><corr>ἀφέστηκεν</corr></choice> αὐτοῦ ὁτὲ δὲ
               <lb n="31" xml:id="p895-30"/>πλησιάζει αὐτῷ, ὡς ὁ ἥλιος τοῖς τῇδε, τὸ δὲ ἀφεστηκέναι καὶ πλησιάζειν<note type="apparatus" n="31" target="#p895-30">αὐτῷ om. Fm τοῖς τῇδε om. BFm</note>
               <lb n="32" xml:id="p895-31"/>μεταβολή ἐστι κατὰ τόπον· χρεία ἄρα πρὸς τὴν ἀλλοίωσιν τῆς κατὰ τόπον
-              <lb n="33" xml:id="p895-32"/>τ’
             </p>
             <pb n="896" facs="https://archive.org/download/commentariaina17akaduoft/page/n413.jpg"/>
             <p>

@@ -57,6 +57,7 @@
       <change when="2026-10-23" who="#NI">Errors found by the accuracy evaluation (sample checked against the page images by student assistants, readings confirmed by the editor) corrected: 1 in the text.</change>
       <change when="2026-11-05" who="#NI">Apparatus entries printed out of numerical order (e.g. 33 … 32) separated from the preceding entry; words hyphenated across lines joined in Latin text as in Greek; words mixing Greek and Latin letters (OCR errors, about 130, including manuscript sigla) corrected on the page images; marginal folio marks left in the text removed; validated against TEI P5 version 4.12.0 (recorded in TEI/@version).</change>
       <change when="2026-11-05" who="#NI">Extent of the lemma quotations (quote[@type='lemma']) corrected: the automatic division had closed every lemma after its first printed line, leaving the remaining lines of lemmata printed over two or more lines at the head of the following paragraph. Candidates were found from the letter-spacing of the lines on the page images (lemmata are printed spaced) and from the line geometry (centred last line, indented paragraph start), and every candidate was decided on the page image (Claude work teams; about 7,700 places in the corpus); the lines so decided are now inside the quotation, with pb inside the quotation where a lemma runs on to the next page. Where the lemma runs on in the same line as the commentary (Stephanus in De interpretatione), the quotation ends after the last spaced word and the paragraph continues in the same line without a new lb; where no lemma is printed and the paraphrase follows the Bekker reference directly (Michael in De partibus animalium from p. 37), the quotation is dropped and the division kept; centred last lines the edition does not count are inside the quotation as unnumbered lines.</change>
+      <change when="2026-11-22" who="#NI">Readings questioned by the review of the translations collated on the page images (read independently, at least twice wherever the print does not have the proposed form, by a language model, Claude; the 28 places in all works that it could not settle were read by the editor): 73 errors of the transcription corrected; 5 evident misprints of the edition given as choice/sic/corr; 2 evident misprints of the edition in a word broken at the line end (which cannot carry choice/sic/corr) corrected in the text; 2 lines that are not text (letters of a diagram, a mark at the foot of the page, a line of the apparatus) taken out of the text.</change>
     </revisionDesc>
   </teiHeader>
   <text>
@@ -340,7 +341,7 @@
               <lb n="29" xml:id="p7-28"/>σχήματα εἰς ἄλληλα μεταβάλλει τῷ κοινὸν αὐτοῖς τὸν κηρὸν ὑποκεῖσθαι,
               <lb n="30" xml:id="p7-29"/>ὁμοίως δὲ καὶ τὰ ἐκ χαλκοῦ, καὶ καθόλου ἡ τῶν ἐναντίων εἰς τὰ ἐναντία<note type="apparatus" n="30-31" target="#p7-29 #p7-30">ὁμοίως — ὑποκείμενον om. I</note>
               <lb n="31" xml:id="p7-30"/>γίνεται μεταβολὴ τῷ κοινὸν αὐτοῖς εἶναι τὸ ὑποκείμενον.<milestone type="alt-edition" unit="line" ed="Aldina 1527" n="25"/>
-              <lb n="32" xml:id="p7-31"/>Ὑπομνήσας δὲ τοῦ ὅτι τὰ στοιχεῖα εἰς ἄλληλα μεταβάλλει, χρησιμον<note type="apparatus" n="32" target="#p7-31">δὲ om. a</note><milestone type="alt-edition" unit="line" ed="Aldina 1527" n="45"/>
+              <lb n="32" xml:id="p7-31"/>Ὑπομνήσας δὲ τοῦ ὅτι τὰ στοιχεῖα εἰς ἄλληλα μεταβάλλει, χρήσιμον<note type="apparatus" n="32" target="#p7-31">δὲ om. a</note><milestone type="alt-edition" unit="line" ed="Aldina 1527" n="45"/>
               <lb n="33" xml:id="p7-32"/>πρὸς τὰ προκείμενα ἐσομένην αὐτῷ προαπορεῖ τινα ἀπορίαν. ἔστι δὲ<note type="apparatus" n="33" target="#p7-32">προσαπορεῖ I</note>
               <lb n="34" xml:id="p7-33"/>αὕτη, τίς ἡ τοῦ ἀέρος φύσις καὶ τίνι τῶν ἄλλων σωμάτων διαφέρει, ἐξ ὧν
               <lb n="35" xml:id="p7-34"/>ὁ περίγειος κόσμος ἐστίν· ἔτι τε τίνα τάξιν τέτακται πρὸς τὰ ἄλλα τὰ καὶ<note type="apparatus" n="35" target="#p7-34">post τέτακται add. καὶ Wa</note><note type="apparatus" n="35-36" target="#p7-34 #p7-35">τὰ ἄλλα καὶ πρὸς αὐτὰ τὰ καλούμενα a</note>
@@ -607,7 +608,7 @@
               <lb n="16" xml:id="p14-15"/>ἢ ἐν μὲν τῷ μέσῳ τὴν γῆν εἶπε μέσον τόπον οὐ τὸ κέντρον λέγων, ἀλλὰ<note type="apparatus" n="16" target="#p14-15">μὲν om. I μέσον δὲ τόπον I</note>
               <lb n="17" xml:id="p14-16"/>τὸ περὶ τὸ κέντρον, περὶ δὲ τὸ μέσον τὸ ὕδωρ· τοῦτο γὰρ περικέχυται τῇ<note type="apparatus" n="17" target="#p14-16">τὸν περὶ AWa</note>
               <lb n="18" xml:id="p14-17"/>γῇ. ὡς δὲ ἑπομένου τῷ ψυχρῷ τοῦ βαρέος εἶπε τὸ βαρύτατον καὶ<note type="apparatus" n="18" target="#p14-17">ἑπομένω W βαρέως a</note><note type="apparatus" n="18-19" target="#p14-17 #p14-18">ψυχρότατον καὶ βαρύτατον AWa</note>
-              <lb n="19" xml:id="p14-18"/>ψυχρότατον. περὶ δὲ ταῦτα καὶ ἐχόμενα τούτων ὅτι ὁ ἀήρ τε καὶ ὁ διὰ<note type="apparatus" n="19" target="#p14-18">καὶ τὰ ἐχόμενα W ὅτι ὁ om. AWa</note><milestone type="alt-edition" unit="line" ed="Aldina 1527" n="30"/>
+              <lb n="19" xml:id="p14-18"/>ψυχρότατον. περὶ δὲ ταῦτα καὶ ἐχόμενα τούτων ὅτι ὁ ἀήρ τε καὶ ὃ διὰ<note type="apparatus" n="19" target="#p14-18">καὶ τὰ ἐχόμενα W ὅτι ὁ om. AWa</note><milestone type="alt-edition" unit="line" ed="Aldina 1527" n="30"/>
               <lb n="20" xml:id="p14-19"/>συνήθειαν καλοῦμεν πῦρ, οὐκ ἔστι δὲ πῦρ. τοῦτο γὰρ εἶπε διὰ τοῦ περὶ<note type="apparatus" n="20" target="#p14-19">οὐκ — πῦρ om. I</note>
               <lb n="21" xml:id="p14-20"/>δὲ ταῦτα καὶ τὰ ἐχόμενα τούτων· οὐ γὰρ ὡς ἄλλων τινῶν πρὸ τοῦ<note type="apparatus" n="21" target="#p14-20">τὰ om. Aa</note>
               <lb n="22" xml:id="p14-21"/>ἀέρος ἐχομένων τῆς τε γῆς καὶ τοῦ ὕδατος εἶπεν, ἀλλ’ ὡς τούτου μετ’
@@ -754,7 +755,7 @@
             <p>
               <lb n="1" xml:id="p18-0"/>τοῦτο, ὡς ἐξάπτεσθαί τινα δύνασθαι ἐν αὐτῷ καὶ ἐκπυροῦσθαι. αἱ γὰρ
               <lb n="2" xml:id="p18-1"/>φαινόμεναι τῶν ἄστρων διαδρομαὶ διὰ τοιοῦτον πάθος γίνονται, ὡς ὀλίγον<note type="apparatus" n="2" target="#p18-1">τοιοῦτον] τοῦτο τὸ a</note>
-              <lb n="3" xml:id="p18-2"/>προελθὼν ἐρεῖ. τοῦ δὲ μὴ εἶναι ἐκ πυρὸς ἐκεῖνα τὰ σώματα σημεῖον παρέγεται
+              <lb n="3" xml:id="p18-2"/>προελθὼν ἐρεῖ. τοῦ δὲ μὴ εἶναι ἐκ πυρὸς ἐκεῖνα τὰ σώματα σημεῖον παρέχεται
               <lb n="4" xml:id="p18-3"/>καὶ τὸ τὸν ἥλιον, ὃς μάλιστα δοκεῖ θερμὸς εἶναι, λευκὸν ἀλλὰ μὴ
               <lb n="5" xml:id="p18-4"/>πυρώδη φαίνεσθαι· μόνον γὰρ πυρώδης φαίνεται δυόμενός τε καὶ ἀνατέλλων,
               <lb n="6" xml:id="p18-5"/>ὅτι τότε διὰ τῆς περὶ τὴν γῆν παχείας ἀναθυμιάσεως ὁρᾶται, διαρθεὶς δὲ<note type="apparatus" n="6" target="#p18-5">post ἀναθυμιάσεως add. οὕτως AWa διαρθεὶς] ἀρθεὶς AWa</note><milestone type="alt-edition" unit="line" ed="Aldina 1527" n="45"/>
@@ -891,7 +892,7 @@
               <lb n="18" xml:id="p21-17"/>λέγει τὴν διαφοράν· ὅταν γὰρ πλέον μὲν ᾖ τὸ ὑπέκκαυμα κατὰ τὸ μῆκος,
               <lb n="19" xml:id="p21-18"/>ἔλαττον δὲ κατὰ τὸ πλάτος, καιόμενον δὲ κατὰ τὰ πλάγια ἐκπυρώσεις<note type="apparatus" n="19" target="#p21-18">καιόμενοι A</note>
               <lb n="20" xml:id="p21-19"/>τινὰς καὶ ἐκδρομὰς τῆς ἐξάψεως ποιῆται μὴ καθ’ αὑτάς, ἀλλὰ συνημμένας<note type="apparatus" n="20" target="#p21-19">τινὰς] τε AWa, sed post ἐκδρομὰς add. τινας ποιεῖται a</note>
-              <lb n="21" xml:id="p21-20"/>τῷ ὅλῳ τῷ καιομένῳ σώματι, ὡς δοκεῖν ἐκεῖνο ἀποσπινθηρίζειν, αἷς τὸ
+              <lb n="21" xml:id="p21-20"/>τῷ ὅλῳ τῷ καιομένῳ σώματι, ὡς δοκεῖν ἐκεῖνο ἀποσπινθηρίζειν, αἲξ τὸ
               <lb n="22" xml:id="p21-21"/>τοιοῦτον καλεῖται· ὅταν δὲ μόνον ἐπὶ τὸ μῆκος ᾖ ἐξημμένον, μηκέτι<note type="apparatus" n="22" target="#p21-21">ἢ] τί I</note>
               <lb n="23" xml:id="p21-22"/>δὲ καὶ ἀποσπινθηρίζον, δαλός. ἐὰν δὲ μὴ ἓν καὶ συνεχὲς τὸ μῆκος<note type="apparatus" n="23" target="#p21-22">δὲ post μηκέτι om. A ἀποσπινθηρίζῃ AWa</note>
               <lb n="24" xml:id="p21-23"/>τοῦ ὑπεκκαύματος ᾖ, ἀλλὰ διαστήματα ἔχον, ἃ διαστήματα ἔχει λεπτήν<milestone type="alt-edition" unit="line" ed="Aldina 1527" n="45"/>
@@ -925,7 +926,7 @@
               <lb n="16" xml:id="p22-15"/>ψυχομένου καὶ εἰς ἓν ἀθροιζόμενον ἐξαφθὲν ἐξεθλίβη μετὰ βίας καὶ φέρεται<note type="apparatus" n="16" target="#p22-15">ψυχόμενον AWa</note><milestone type="alt-edition" unit="line" ed="Aldina 1527" n="20"/>
               <lb n="17" xml:id="p22-16"/>ὥσπερ τὰ ἐκπυρηνιζόμενα ῥιπτούμενον, τὸ αὐτὸ μένον πῦρ ἀλλ’ οὐ τὸ<note type="apparatus" n="17" target="#p22-16">τὰ—πῦρ] τὸ ἐκπυρηνιζόμενον ῥιπτούμενον δὲ γίνεται τὸ πῦρ I</note>
               <lb n="18" xml:id="p22-17"/>ἐφεξῆς ἐξάπτον· ἀμφοτέρως γὰρ αὐτῷ δοκοῦσιν οἱ διᾴσσειν δοκοῦντες<note type="apparatus" n="18" target="#p22-17">δοκοῦντας AWa</note>
-              <lb n="19" xml:id="p22-18"/>ἀστέρες γίνεθαι. τοῦτο μέντοι τὸ ἐκκρίσει γινόμενον πῦρ πολλάκις εἰς τὸ<note type="apparatus" n="19" target="#p22-18">τὸ τῇ ἐκκρίσει γεννώμενον AWa</note>
+              <lb n="19" xml:id="p22-18"/>ἀστέρες <choice><sic>γίνεθαι</sic><corr>γίνεσθαι</corr></choice>. τοῦτο μέντοι τὸ ἐκκρίσει γινόμενον πῦρ πολλάκις εἰς τὸ<note type="apparatus" n="19" target="#p22-18">τὸ τῇ ἐκκρίσει γεννώμενον AWa</note>
               <lb n="20" xml:id="p22-19"/>κάτω μέρος θλιβὲν καὶ εἰς γῆν καὶ εἰς θάλασσαν καταφέρεται αἰθρίας οὔσης<note type="apparatus" n="20" target="#p22-19">καὶ εἰς γῆν om. I γῆς a εἰς τὴν θάλατταν I καταφέρεσθαι AW</note>
               <lb n="21" xml:id="p22-20"/>καὶ νύκτωρ καὶ μετ’ ἡμέραν. τότε δὲ φέρεται κάτω, ὅταν ἀπὸ τοῦ ἄνωθεν<note type="apparatus" n="21" target="#p22-20">ὑπὸ AW</note>
               <lb n="22" xml:id="p22-21"/>μέρους ἡ τοῦ ἀέρος πύκνωσίς τε καὶ ψῦξις ἀρξαμένη τὸ ἐναπειλημμένον<note type="apparatus" n="22" target="#p22-21">ἀρξάμενον I</note>
@@ -1644,9 +1645,9 @@
               <lb n="12" xml:id="p41-11"/>ταύτῃ διαφέροντες τῆς ἅλω, ὅτι ἐκείνη μὲν ἐξ ἀνακλάσεως φωτίζεται, οἱ
               <lb n="13" xml:id="p41-12"/>δὲ κομῆται ἐν αὑτοῖς τὸ φῶς ἔχουσιν, ὡς προείρηκεν, ἐπεὶ ἄμφω γε ἀναθυμιάσεις<note type="apparatus" n="13" target="#p41-12">αὐτοῖς AIa</note>
               <lb n="14" xml:id="p41-13"/>πυκναί τε καὶ ξηραί· ἀλλὰ καὶ τὸ γάλα ὁμοία τις ἀναθυμίασις<note type="apparatus" n="14" target="#p41-13">ἀναθυμιάσεις a</note><milestone type="alt-edition" unit="line" ed="Aldina 1527" n="5"/>
-              <lb n="15" xml:id="p41-14"/>τῇ κόμῃ. ὁ γὰρ ἐπ’ ἐκείνων ἡ περὶ ἓν ἄστρον ἀναθυμίασις τοιαύτη
+              <lb n="15" xml:id="p41-14"/>τῇ κόμῃ. ὃ γὰρ ἐπ’ ἐκείνων ἡ περὶ ἓν ἄστρον ἀναθυμίασις τοιαύτη
               <lb n="16" xml:id="p41-15"/>γενομένη κομήτην ποιεῖ, τοῦτο περὶ τοὺς ἀστέρας ἅμα γενόμενον τοὺς<note type="apparatus" n="16" target="#p41-15">γινομένη A γινόμενον AWa</note>
-              <lb n="17" xml:id="p41-16"/>καθ’ ὃ τὸ γάλα φαίνεται τὸν καλούμενον ποιεῖ γαλαξίαν κύκλον. ὁ γὰρ περὶ<note type="apparatus" n="17" target="#p41-16">τὸ om. I ὃ γὰρ — γίνεσθαι (18)] ἀέρα τε καὶ διακρίνει διὰ τὸ τοῦ κύκλου μέγεθος A</note>
+              <lb n="17" xml:id="p41-16"/>καθ’ ὃ τὸ γάλα φαίνεται τὸν καλούμενον ποιεῖ γαλαξίαν κύκλον. ὃ γὰρ περὶ<note type="apparatus" n="17" target="#p41-16">τὸ om. I ὃ γὰρ — γίνεσθαι (18)] ἀέρα τε καὶ διακρίνει διὰ τὸ τοῦ κύκλου μέγεθος A</note>
               <lb n="18" xml:id="p41-17"/>ἕνα ἀστέρα γίνεται, τοῦτο καὶ περὶ ὅλον τὸν οὐρανὸν ὑποληπτέον γίνεσθαι,
               <lb n="19" xml:id="p41-18"/>τουτέστι τὸ κυκλοφορικὸν σῶμα· τοῦτο γὰρ ἐδήλωσεν εἰπὼν καὶ τὴν ἄνω
               <lb n="20" xml:id="p41-19"/>φορὰν ἅπασαν. ἐπεὶ γὰρ οὐρανὸς καὶ ὁ σύμπας κόσμος καλεῖται, καλεῖται<note type="apparatus" n="20" target="#p41-19">καὶ γὰρ οὐρανὸς coll. I καλεῖται semel AWa</note>
@@ -1674,7 +1675,7 @@
               <lb n="7" xml:id="p42-6"/>φέρονται· οὐ γὰρ ἐκβαίνουσι τὸν ζῳδιακόν, ὃς τῶν τροπικῶν ἐφάπτεται
               <lb n="8" xml:id="p42-7"/>μόνον. ὅτι δὲ εὐλόγως ὑφ’ ὃν οἱ πλάνητες κινοῦνται, ὑπὸ τοῦτον οὐ γίνεται<note type="apparatus" n="8" target="#p42-7">μόνων AI τούτων A¹</note>
               <lb n="9" xml:id="p42-8"/>τὸ γάλα, σημεῖον παρέθετο τὸ μηδὲ ὑπὸ τὸν ἥλιον ποτὲ μηδὲ ὑπὸ τὴν<note type="apparatus" n="9" target="#p42-8">τὸ ante γάλα om. a μηδὲ τὴν ὑπὸ τὴν W</note>
-              <lb n="10" xml:id="p42-9"/>σελήνην κόμην συνίστασθαι, τῷ θᾶττον διακρίνεσθαι ὑπὸ τούτων τὰς τοιαὐτὰς<note type="apparatus" n="10" target="#p42-9">τῷ] τὸ W τούτων] τῶν τοιούτων I</note>
+              <lb n="10" xml:id="p42-9"/>σελήνην κόμην συνίστασθαι, τῷ θᾶττον διακρίνεσθαι ὑπὸ τούτων τὰς τοιαύτας<note type="apparatus" n="10" target="#p42-9">τῷ] τὸ W τούτων] τῶν τοιούτων I</note>
               <lb n="11" xml:id="p42-10"/>ἀναθυμιάσεις ὡς πάνυ θερμῶν, ὡς κωλύεσθαι τὴν σύστασιν αὐτῶν.<note type="apparatus" n="11" target="#p42-10">ὡς — θερμῶν om. I post αὐτῶν add. εἶναι AWa</note><milestone type="alt-edition" unit="line" ed="Aldina 1527" n="25"/>
               <lb n="12" xml:id="p42-11"/>εἰ δὲ ὑπὸ τούτους μὴ γίνεται τοιαύτη σύστασις, οὐδ’ ἂν κατὰ τὸν κύκλον
               <lb n="13" xml:id="p42-12"/>τοῦτον γίνοιτο, καθ’ ὃν οὗτοι περιφέρονται, οὐχ εἷς ἀλλὰ πάντες. ὁ δὲ<note type="apparatus" n="13" target="#p42-12">γένοιτο AWa οὐχ — πάντες om. I</note>
@@ -1704,7 +1705,7 @@
               <lb n="3" xml:id="p43-2"/>φορὰν τοῦ τὸν γαλαξίαν ποιοῦντος φέγγους γινομένου. εἰ γὰρ γίνεται τε<note type="apparatus" n="3" target="#p43-2">φέγγου a τε om. I</note>
               <lb n="4" xml:id="p43-3"/>ἐν τῷ κύκλῳ τούτῳ, ἐν ᾧ πλεῖστα ὁρᾶται ἄστρα, καὶ αὐτοῦ τούτου πάλιν
               <lb n="5" xml:id="p43-4"/>πλεῖον γίνεται ἐν ᾧ πλείους τε καὶ μείζους οἱ ἀστέρες, εὔλογον τὰ ἄστρα<note type="apparatus" n="5" target="#p43-4">πλείω AI οἱ om. AWa</note>
-              <lb n="6" xml:id="p43-5"/>καὶ τὴν τούτων κίνησιν τοῦ πάθους τοῦ κατὰ τὸν γαλαξίαν καὶ τῆς τοιαὐτῆς
+              <lb n="6" xml:id="p43-5"/>καὶ τὴν τούτων κίνησιν τοῦ πάθους τοῦ κατὰ τὸν γαλαξίαν καὶ τῆς τοιαύτης
               <lb n="7" xml:id="p43-6"/>συστάσεως αἴτια εἶναι. ἑξῆς δὲ καὶ διὰ καταγραφῆς πειρᾶται<note type="apparatus" n="7" target="#p43-6">αἰτίαν I</note><milestone type="alt-edition" unit="line" ed="Aldina 1527" n="45"/>
               <lb n="8" xml:id="p43-7"/>δεικνύναι τόν τε κύκλον τὸν ὑφ’ ὃν ὁ γαλαξίας συνίσταται καὶ τὰ ἐν
               <lb n="9" xml:id="p43-8"/>αὐτῷ ἄστρα, σύμφωνα δεικνὺς τοῖς φαινομένοις τὰ εἰρημένα. ἐπεὶ δὲ οἱ<note type="apparatus" n="9" target="#p43-8">σύμφωνα om. a δεικνύναι I</note>
@@ -2014,9 +2015,9 @@
               <lb n="7" xml:id="p51-6"/>ὑπολειπόμενον ἐν τοῖς νέφεσιν ὑπὸ τοῦ ἀνάγοντος τὴν τοιαύτην ἀναθυμίασιν,<milestone type="alt-edition" unit="line" ed="Aldina 1527" n="15"/>
               <lb n="8" xml:id="p51-7"/>ὄντος πλείονος, εἰς τὸ βάθος ὑπὸ τῆς προσπιπτούσης ἔξωθεν ψυχρότητος
               <lb n="9" xml:id="p51-8"/>ἀπωθούμενόν τε καὶ ἀθροιζόμενον ἐν τῇ μετὰ βίας ἐκκρίσει καὶ ἐκπυροῦται<note type="apparatus" n="9" target="#p51-8">καὶ post ἐκκρίσει om. a</note>
-              <lb n="10" xml:id="p51-9"/>πολλάκις, ὅταν ᾖ τοσοῦτον, ὡς ἐρεῖ καὶ αὐτὸς προελθών, ἐπείδὰν
+              <lb n="10" xml:id="p51-9"/>πολλάκις, ὅταν ᾖ τοσοῦτον, ὡς ἐρεῖ καὶ αὐτὸς προελθών, ἐπειδὰν
               <lb n="11" xml:id="p51-10"/>λέγῃ περὶ ἀστραπῶν τε καὶ κεραυνῶν, οὕτως ἔμπαλιν, ὅταν θερμὸν<note type="apparatus" n="11" target="#p51-10">λέγει Ia τε om. a</note>
-              <lb n="12" xml:id="p51-11"/>ᾖ τὸν περιέχον, τὸ ψυχρὸν τὸ ἐν τοῖς νέφεσι κατισχόμενον εἰς τὸ βάθος
+              <lb n="12" xml:id="p51-11"/>ᾖ <choice><sic>τὸν</sic><corr>τὸ</corr></choice> περιέχον, τὸ ψυχρὸν τὸ ἐν τοῖς νέφεσι κατισχόμενον εἰς τὸ βάθος
               <lb n="13" xml:id="p51-12"/>ἀπωθεῖται, καὶ ἀθροισθὲν τὰς εἰς τὸ ὕδωρ μεταβολὰς τῶν νεφῶν ἀθροωτέρας<note type="apparatus" n="13" target="#p51-12">ἀπωθῆται A¹W ἀθροισθὲν] ἀθροῖσαν I</note>
               <lb n="14" xml:id="p51-13"/>ποιεῖται καὶ τὰς πήξεις τοῦ γεννηθέντος ὕδατος ἀπ’ αὐτοῦ, ὅταν ᾖ<note type="apparatus" n="14" target="#p51-13">ποιῆται W</note>
               <lb n="15" xml:id="p51-14"/>τοσοῦτον. εἰπὼν δὲ ταῦτα ἐναντίως φησὶν ἔχειν τὰ γινόμενα τῇ προκαταβεβλημένῃ<milestone type="alt-edition" unit="line" ed="Aldina 1527" n="20"/>
@@ -2082,7 +2083,7 @@
             <pb n="53" facs="https://archive.org/download/commentariaina03pt2akaduoft/page/n74.jpg"/>
             <p>
               <lb n="1" xml:id="p53-0"/>ὕδωρ ἔν τε ταῖς ὥραις καὶ ταῖς χώραις ταῖς ἀλεειναῖς. ἐπιζητήσαι<note type="apparatus" n="1" target="#p53-0">χώραις καὶ ταῖς ὥραις Arist. cod. E Bekk. καὶ χώραις W post ἀλεειναῖς add. ὅθεν Wa</note>
-              <lb n="2" xml:id="p53-1"/>ἄν τις, τίνος χάριν εἴρηκε τοῦτο· δοκεῖ γὰρ ἀπηρτῆσθαι τοῦ προεἰρημένου.
+              <lb n="2" xml:id="p53-1"/>ἄν τις, τίνος χάριν εἴρηκε τοῦτο· δοκεῖ γὰρ ἀπηρτῆσθαι τοῦ προειρημένου.
               <lb n="3" xml:id="p53-2"/>ἢ πρὸς τὸ πρῶτον ἀπέδωκε, τὸ διὸ πολλοί, ὅταν ψῦξαι ταχὺ<note type="apparatus" n="3" target="#p53-2">post πρῶτον add. τοῦτο AWa</note>
               <lb n="4" xml:id="p53-3"/>βουληθῶσιν, εἰς τὸν ἥλιον τιθέασι πρῶτον· τούτῳ γὰρ ἀκόλουθον τὸ θερμὸν<note type="apparatus" n="4" target="#p53-3">τούτῳ] τοῦτο AI</note><note type="apparatus" n="4-5" target="#p53-3 #p53-4">post θερμὸν add. δὲ AWa</note>
               <lb n="5" xml:id="p53-4"/>γίνεται ταχὺ τὸ συνιστάμενον. λέγει τε καὶ περὶ τὴν Ἀραβίαν τε
@@ -2161,7 +2162,7 @@
               <lb n="3" xml:id="p55-2"/>ὑπὸ τοῦ ἡλίου καὶ ἀτμισθὲν πάλιν συστὰν καὶ μεταβαλὸν εἰς ὕδωρ καὶ<note type="apparatus" n="3" target="#p55-2">post ἡλίου add. ὕδωρ AWa</note>
               <lb n="4" xml:id="p55-3"/>ὑσθὲν ἀθροισθὲν ὑπὸ γῆν ῥεῖν ἐκ κοιλίας τινὸς οὔσης ἐν τῇ γῇ ὡς ἐξ<note type="apparatus" n="4" target="#p55-3">ῥεῖ A</note>
               <lb n="5" xml:id="p55-4"/>ἀγγείου μεγάλου, ἢ πάντας μιᾶς ἢ ἄλλον ἄλλης· οὐ γὰρ γίνεσθαι ἐν γῇ<note type="apparatus" n="5" target="#p55-4">ἐν τῇ γῇ AWa</note>
-              <lb n="6" xml:id="p55-5"/>ὕδωρ, ἀλλὰ τὸ ἀθροισθὲν ἀπὸ τῶν ὑετῶν καὶ τῶν χειμώνων ἐν ταῖς τοιαὐταῖς
+              <lb n="6" xml:id="p55-5"/>ὕδωρ, ἀλλὰ τὸ ἀθροισθὲν ἀπὸ τῶν ὑετῶν καὶ τῶν χειμώνων ἐν ταῖς τοιαύταις
               <lb n="7" xml:id="p55-6"/>κατὰ γῆς ὑποδοχαῖς, τοῦτο τὴν χορηγίαν τῶν ποταμῶν εἶναι.
               <lb n="8" xml:id="p55-7"/>οὗ σημεῖον ποιοῦνται τὸ καὶ ῥεῖν αὐτοὺς μείζους μὲν τοῦ χειμῶνος, ἐλάττους<note type="apparatus" n="8" target="#p55-7">ποιεῖται AW</note>
               <lb n="9" xml:id="p55-8"/>δὲ τοῦ θέρους, καὶ τοὺς μὲν αὐτῶν ἀενάους εἶναι, ὅσοι ἐκ κοιλιῶν<note type="apparatus" n="9 et 10" target="#p55-8 #p55-9">ἀεννάους I ut Arist. FHN 9 ὅσοι—ἠθροισμένου (10) om. I ὅσους AW</note><milestone type="alt-edition" unit="line" ed="Aldina 1527" n="35"/>
@@ -2191,7 +2192,7 @@
               <lb n="28" xml:id="p55-27"/>Ἔτι δὲ τοῦ μὴ γινομένου ἀλλ’ ὑπάρχοντος.
             </quote>
             <p>
-              <lb n="29" xml:id="p55-28"/>Εἰπὼν γίνεσθαι καὶ ὑπὸ γῆν ὕδωρ κατὰ μεταβολὴν ἀτμίδος διὰ ψυγρότητα,
+              <lb n="29" xml:id="p55-28"/>Εἰπὼν γίνεσθαι καὶ ὑπὸ γῆν ὕδωρ κατὰ μεταβολὴν ἀτμίδος διὰ ψυχρότητα,
               <lb n="30" xml:id="p55-29"/>ὥσπερ καὶ ὑπὲρ γῆς, λέγει ὅτι ἀλλὰ καὶ τοῦ μὴ γινομένου ἀλλὰ<note type="apparatus" n="30" target="#p55-29">ὑπὲρ γῆν AWa ἀλλὰ post ὅτι om. a</note>
               <lb n="31" xml:id="p55-30"/>ὑπάρχοντος (τὸ δὲ καθ’ ἡμέραν τῷ ὑπάρχοντος προσέθηκεν ἀντιδιαστέλλων<note type="apparatus" n="31" target="#p55-30">τῷ] τὸ I</note>
               <lb n="32" xml:id="p55-31"/>τὸ οὐ καθ’ ἡμέραν τῷ καθ’ ἡμέραν γινομένῳ· λέγοι δ’ ἂν ὑπάρχον<note type="apparatus" n="32" target="#p55-31">τῷ οὐ I</note>
@@ -2226,7 +2227,7 @@
               <lb n="25" xml:id="p56-24"/>ἀποδιδόναι ὅπερ ἐν αὑτοῖς ἀπὸ τοῦ ὑετοῦ ὕδωρ δεχόμενα φυλάττει διὰ<note type="apparatus" n="25" target="#p56-24">ὅπερ] ὅτι Wa αὐτοῖς libri</note>
               <lb n="26" xml:id="p56-25"/>πυκνότητα· οὐδὲν γὰρ διαφέρειν ἢ κοίλην καὶ ὑπτίαν ποιεῖν τὴν γῆν δεχομένην<note type="apparatus" n="26" target="#p56-25">διαφέρει AWa</note>
               <lb n="27" xml:id="p56-26"/>τὸ ἄνωθεν κατιὸν ὕδωρ καὶ φυλάττουσαν, ἢ πρηνῆ τε καὶ κυρτὴν<note type="apparatus" n="27" target="#p56-26">τε om. AWa</note>
-              <lb n="28" xml:id="p56-27"/>ἔχουσαν τὴν περιφέρειαν, ὡς σπογγιὰν δυναμένην εἰς αὑτὴν τὸ ὕδωρ δέγεσθαι,
+              <lb n="28" xml:id="p56-27"/>ἔχουσαν τὴν περιφέρειαν, ὡς σπογγιὰν δυναμένην εἰς αὑτὴν τὸ ὕδωρ δέχεσθαι,
               <lb n="29" xml:id="p56-28"/>ὡς μὴ περιρρεῖν· ἀμφοτέρως γὰρ τὸ ἴσον ὑποδέξεται. ἔτι τε καὶ<note type="apparatus" n="29" target="#p56-28">ὑποδέχεται I1: corr. I2 ἔτι δὲ a</note>
               <lb n="30" xml:id="p56-29"/>τὴν ἀνιοῦσαν ἀπὸ γῆς ἀτμίδα δι’ αὐτῶν τὰ τοιαῦτα χωρία ψύχει τε καὶ<note type="apparatus" n="30" target="#p56-29">ψύχει scripsi: ψύξει libri</note>
               <lb n="31" xml:id="p56-30"/>μεταβάλλει εἰς ὕδωρ, ὡς καὶ τοῦτο τὸ γινόμενον, μὴ μόνον τὸ ὑόμενον<note type="apparatus" n="31" target="#p56-30">μεταβαλεῖ AWa</note><milestone type="alt-edition" unit="line" ed="Aldina 1527" n="15"/>
@@ -2280,7 +2281,7 @@
           <div type="textpart" subtype="lemma" n="29">
             <milestone unit="bekker" n="350b22"/>
             <quote type="lemma">
-              <lb n="4" xml:id="p58-3"/>Ὅτι μὲν οὖν οὐ δεῖ νομίζειν οὕτω γίνεσθαι τὰς ἀργὰς
+              <lb n="4" xml:id="p58-3"/>Ὅτι μὲν οὖν οὐ δεῖ νομίζειν οὕτω γίνεσθαι τὰς ἀρχὰς
               <lb n="5" xml:id="p58-4"/>τῶν ποταμῶν.
             </quote>
             <p>
@@ -2349,7 +2350,7 @@
               <lb n="27" xml:id="p59-25"/>τοσαύταις ἡλίου προσόδοις, τούτων καὶ ἡ μείωσις καὶ ἡ φθίσις τοσαῖσδε<note type="apparatus" n="27" target="#p59-25">μείωσις τε καὶ φθίσις AWa</note>
               <lb n="28" xml:id="p59-26"/>ἀφόδοις. ὡς οὖν ταῦτα διὰ τὴν τοῦ ἡλίου περιφορὰν αὔξεταί τε καὶ<note type="apparatus" n="28" target="#p59-26">οὖν ταῦτα] ἐνταῦθα AW τε om. I</note><milestone type="alt-edition" unit="line" ed="Aldina 1527" n="40"/>
               <lb n="29" xml:id="p59-27"/>φθίνει, οὕτω καὶ τὰ τῆς γῆς μέρη παρὰ τῆς προσόδου τε τοῦ ἡλίου καὶ<note type="apparatus" n="29" target="#p59-27">τε om. a</note><note type="apparatus" n="29-30" target="#p59-27 #p59-28">καὶ ἀφόδου τοῦ ἡλίου coll. a</note>
-              <lb n="30" xml:id="p59-28"/>ἀφόδου, καὶ ὅλως παρὰ τῆς ἐκείνου περιφορᾶς τήν τε ἀκμὴν καὶ τὴν παρἀκμὴν<note type="apparatus" n="30" target="#p59-28">ὅλως περὶ τῆς a</note>
+              <lb n="30" xml:id="p59-28"/>ἀφόδου, καὶ ὅλως παρὰ τῆς ἐκείνου περιφορᾶς τήν τε ἀκμὴν καὶ τὴν παρακμὴν<note type="apparatus" n="30" target="#p59-28">ὅλως περὶ τῆς a</note>
               <lb n="31" xml:id="p59-29"/>λαμβάνει, ὡς μέχρι μέν τινος δύνασθαι ἀκμάζειν τε καὶ ἔνυγρα διαμένειν,<note type="apparatus" n="31" target="#p59-29">post δύνασθαι add. καὶ A</note>
               <lb n="32" xml:id="p59-30"/>εἶτα ξηραίνεσθαί τε καὶ γηράσκειν πάλιν. γῆρας δὲ τῆς γῆς εἶπε
               <lb n="33" xml:id="p59-31"/>τὴν ξηρότητα, μετενεγκὼν ἀπὸ τῶν ζῴων. ἕπεται δὲ τὸ τῶν μὲν τόπων<note type="apparatus" n="33" target="#p59-31">τὸ] τῷ AWa</note>
@@ -2461,7 +2462,7 @@
               <lb n="26" xml:id="p62-25"/>γένηται, ὡς πολλὰ ἐπικλύσαι καὶ ἀοίκητα δι’ ὑγρότητα ποιῆσαι, νομίζειν<note type="apparatus" n="26" target="#p62-25">ἐπικλῦσαι I</note>
               <lb n="27" xml:id="p62-26"/>χρὴ ταύτην τὴν ὑγρότητα ἐπὶ πολὺν διαρκεῖν τε καὶ διαμένειν χρόνον, καὶ<note type="apparatus" n="27" target="#p62-26">πολὺ I</note><milestone type="alt-edition" unit="line" ed="Aldina 1527" n="50"/>
               <lb n="28" xml:id="p62-27"/>ὡς τῶν ποταμῶν τινες ἀέναοί εἰσι διὰ τὴν πλείω χορηγίαν τὴν γενομένην<note type="apparatus" n="28 et 30" target="#p62-27 #p62-29">ἀένναοι IW</note>
-              <lb n="29" xml:id="p62-28"/>αὐτοῖς ἀπὸ τῶν ὑπερκειμένων αὐτῶν πηγῶν καὶ τῶν ὀρῶν ὃν προειρήκαμὲν<note type="apparatus" n="29" target="#p62-28">τῶν post καὶ om. AWa</note>
+              <lb n="29" xml:id="p62-28"/>αὐτοῖς ἀπὸ τῶν ὑπερκειμένων αὐτῶν πηγῶν καὶ τῶν ὀρῶν ὃν προειρήκαμεν<note type="apparatus" n="29" target="#p62-28">τῶν post καὶ om. AWa</note>
               <lb n="30" xml:id="p62-29"/>τρόπον, οὕτως δὲ καὶ μετὰ τὰς τοιαύτας ἐπομβρίας ἀέναοί τινες ὑγρότητες
               <lb n="31" xml:id="p62-30"/>περὶ τοὺς τόπους τούτους ἐπὶ πολὺ διαμένουσι, τῆς ἐπιτηδείου πρὸς<note type="apparatus" n="31" target="#p62-30">τῆς] γῆς AWa</note>
               <lb n="32" xml:id="p62-31"/>τοῦτο γῆς δεξαμένης ἐν αὑτῇ τὴν ὑγρότητα καὶ ἐπὶ πολὺ διαμενούσης<note type="apparatus" n="32" target="#p62-31">γῆς om. AWa</note>
@@ -2625,7 +2626,7 @@
               <lb n="24" xml:id="p67-23"/>Ἐκθέμενος διὰ βραχέων τὰς προκαταβεβλημένας δόξας τὰς περὶ θαλάσσης<note type="apparatus" n="24" target="#p67-23">τὰς post δόξας om. AWa</note><milestone type="alt-edition" unit="line" ed="Aldina 1527" n="15"/>
               <lb n="25" xml:id="p67-24"/>λέγει πρὸς τὴν τῶν θεολόγων, οἳ οἰκείας τινὰς πηγὰς ἀϊδίους ἐποίουν<note type="apparatus" n="25" target="#p67-24">θεολογικῶν AWa</note>
               <lb n="26" xml:id="p67-25"/>τῆς θαλάσσης, ἵν’ αὐτοῖς ἡ θάλασσα ἀγένητος ᾖ. ὅτι δὲ ἀδύνατον πηγὰς<note type="apparatus" n="26" target="#p67-25">ἀγέννητος I ὅτι δὴ AWa</note>
-              <lb n="27" xml:id="p67-26"/>εἶναι τῆς θαλάσσης, διὰ τῶν ὑπαρχόντων ἤδη δεῖν φησι θεωρεῖν, ὑπάργοντα<note type="apparatus" n="27-28" target="#p67-26 #p67-27">δεῖν — ὑπάρχοντα ἤδη om. AWa</note>
+              <lb n="27" xml:id="p67-26"/>εἶναι τῆς θαλάσσης, διὰ τῶν ὑπαρχόντων ἤδη δεῖν φησι θεωρεῖν, ὑπάρχοντα<note type="apparatus" n="27-28" target="#p67-26 #p67-27">δεῖν — ὑπάρχοντα ἤδη om. AWa</note>
               <lb n="28" xml:id="p67-27"/>ἤδη λέγων ἤτοι ἀντὶ τοῦ ἤδη δεῖ θεωρεῖν διὰ τῶν ὑπαρχόντων τῇ<note type="apparatus" n="28" target="#p67-27">ἤτοι om. AWa</note>
               <lb n="29" xml:id="p67-28"/>θαλάσσῃ, ἢ διὰ τῶν ὑπαρχόντων ἤδη ἀντὶ τοῦ διὰ τῶν ἤδη δεδειγμένων τε<note type="apparatus" n="29" target="#p67-28">ἤδη ὑπαρχόντων coll. AWa</note>
               <lb n="30" xml:id="p67-29"/>καὶ εἰρημένων ὑπάρχειν τῷ τε ὕδατι καὶ ταῖς πηγαῖς· συγχρῆται γὰρ
@@ -2785,8 +2786,8 @@
               <lb n="25" xml:id="p71-24"/>ἐστί, τί δήποτε οὐκ ἔστι πότιμον ἀλλ’ ἁλμυρόν· αὕτη γὰρ ὕδατος εἰλικρινοῦς
               <lb n="26" xml:id="p71-25"/>καὶ ἀμίκτου φύσις. τὸ δὲ αἴτιον τῆς ἁλμυρότητος ῥηθέν, φησίν,
               <lb n="27" xml:id="p71-26"/>ἅμα τε ταύτης τῆς ἀπορίας λύσις ἔσται τῆς ἀπορούσης διὰ τί μὴ πότιμον<milestone type="alt-edition" unit="line" ed="Aldina 1527" n="15"/>
-              <lb n="28" xml:id="p71-27"/>τὸ τῆς θαλάσσης ὕδωρ, καὶ αἰτία ἡμῖν ἔσται τοῦ περὶ θαλάσσης τὴν ἀργὴν<note type="apparatus" n="28" target="#p71-27">ἡμῖν ἔσται] ἢ ἔστι μία I</note>
-              <lb n="29" xml:id="p71-28"/>καὶ τὴν πρώτην ὑπόληψιν λαβεῖν ὀρθήν. ἢ τὸ τὴν πρώτην προσἔθηκεν,
+              <lb n="28" xml:id="p71-27"/>τὸ τῆς θαλάσσης ὕδωρ, καὶ αἰτία ἡμῖν ἔσται τοῦ περὶ θαλάσσης τὴν ἀρχὴν<note type="apparatus" n="28" target="#p71-27">ἡμῖν ἔσται] ἢ ἔστι μία I</note>
+              <lb n="29" xml:id="p71-28"/>καὶ τὴν πρώτην ὑπόληψιν λαβεῖν ὀρθήν. ἢ τὸ τὴν πρώτην προσέθηκεν,
               <lb n="30" xml:id="p71-29"/>ὅτι νῦν μὲν ἁπλούστερόν τε καὶ κοινότερον τὴν αἰτίαν τῆς ἁλμυρότητος<note type="apparatus" n="30" target="#p71-29">τε om. AWa</note>
               <lb n="31" xml:id="p71-30"/>ἐρεῖ, προϊὼν δὲ πόθεν ἡ ἁλμυρότης αὕτη ἀκριβέστερον ζητήσει τε<note type="apparatus" n="31" target="#p71-30">αὐτὴ I</note>
               <lb n="32" xml:id="p71-31"/>καὶ ἀποδώσει. τοῦ γὰρ ὕδατος περιτεταμένου τε καὶ περικεχυμένου<note type="apparatus" n="32" target="#p71-31">περιαποτεταμένου I</note>
@@ -2796,7 +2797,7 @@
             </p>
             <pb n="72" facs="https://archive.org/download/commentariaina03pt2akaduoft/page/n93.jpg"/>
             <p>
-              <lb n="1" xml:id="p72-0"/>καὶ ἐν γενέσει καὶ φθορᾷ· ὅτι δὲ σφαιρικὰ τὰ τῶν τεσσάρων στοιγείων<note type="apparatus" n="1" target="#p72-0">γενέσει καὶ ex γενέσθαι corr. I</note>
+              <lb n="1" xml:id="p72-0"/>καὶ ἐν γενέσει καὶ φθορᾷ· ὅτι δὲ σφαιρικὰ τὰ τῶν τεσσάρων στοιχείων<note type="apparatus" n="1" target="#p72-0">γενέσει καὶ ex γενέσθαι corr. I</note>
               <lb n="2" xml:id="p72-1"/>σώματα, ἔδειξε καὶ ἐν τοῖς Περὶ οὐρανοῦ. εἰπὼν δὲ τοῦτο γάρ<note type="apparatus" n="2" target="#p72-1">ἐν τοῖς Περὶ οὐρανοῦ] Β 4</note>
               <lb n="3" xml:id="p72-2"/>ἐστι τούτων ἔσχατον προσέθηκεν εἴτε ὡς οἱ πλεῖστοι λέγουσιν<note type="apparatus" n="3" target="#p72-2">τούτων] sic etiam Arist. FHN: πάντων Arist. Ε οἱ ante πλεῖστοι om. a</note>
               <lb n="4" xml:id="p72-3"/>εἴθ’ ὡς ἡμεῖς· οἱ μὲν γὰρ πλεῖστοι πάντων αὐτὸ τῶν σωμάτων ἔσχατόν
@@ -2961,17 +2962,17 @@
               <lb n="16" xml:id="p76-15"/>ἀπὸ τῶν κάτωθεν ἄνω φερόμενα, συμβαίνοι τ’ ἂν τὸ λεγόμενον ἐν τῇ<note type="apparatus" n="16" target="#p76-15">τῶν] τοῦ Wa: om. A</note><note type="apparatus" n="16-17" target="#p76-15 #p76-16">ἐν τῇ παροιμίᾳ] cf. Eurip. Med. v. 410 Kirchhoff, v. etiam Ideler comm. in Meteorol. I p. 517 sq.</note>
               <lb n="17" xml:id="p76-16"/>παροιμίᾳ “ἄνω ποταμῶν χωροῦσι πηγαί,” ὅπερ ἐστὶν ἀδύνατον. ἢ οὐκ<note type="apparatus" n="17" target="#p76-16">ὅπερ ἐστὶν — ἀδύνατον (26) om. I</note>
               <lb n="18" xml:id="p76-17"/>ἂν εἴη τοῦτο λεγόμενον· προείρηκεν γὰρ ὁ Πλάτων, ὡς καὶ αὐτὸς εἴρηκεν εἰπὼν<note type="apparatus" n="18" target="#p76-17">εἴη] ἦ AW</note>
-              <lb n="19" xml:id="p76-18"/>εἶναι δὲ μέχρι τοῦ μέσου τὴν κάθεσιν· τὸ γὰρ λοιπὸν πρὸς ἀναντες<milestone type="alt-edition" unit="line" ed="Aldina 1527" n="20"/>
+              <lb n="19" xml:id="p76-18"/>εἶναι δὲ μέχρι τοῦ μέσου τὴν κάθεσιν· τὸ γὰρ λοιπὸν πρὸς ἄναντες<milestone type="alt-edition" unit="line" ed="Aldina 1527" n="20"/>
               <lb n="20" xml:id="p76-19"/>ἤδη πάλιν εἶναι τὴν φοράν· ἀλλ’ ἴσως ἂν εἴη λέγων ὅτι εἰ οἱ ποταμοὶ<note type="apparatus" n="20" target="#p76-19">πάλιν] πᾶσιν Arist vulg. ἴσως — εἴη] εἴη ἂν a εἰ om. W</note>
               <lb n="21" xml:id="p76-20"/>εἰς τὸ μέσον καὶ εἰς τὸν Τάρταρον εἰσρέουσι, καὶ οὐκ ἀεὶ διὰ τῶν
               <lb n="22" xml:id="p76-21"/>αὐτῶν, ἀλλὰ πολλάκις διὰ τῶν ἐναντίων ἐξῄεσαν, συμβήσεται αὐτοὺς συρρεύσαντας
               <lb n="23" xml:id="p76-22"/>εἰς τὰ κοῖλα τῆς γῆς πάλιν ἀπὸ τούτων εἰς ὑψηλότερα ῥεῖν,
               <lb n="24" xml:id="p76-23"/>ὅπως περιελθόντες ἔλθωσιν εἰς τὰ ἀντικείμενα τῶν ἀφ’ ὧν ἀνέσχον· οὕτως
               <lb n="25" xml:id="p76-24"/>δ’ ἂν εἶεν πρὸς ἄναντες ῥέοντες, καὶ ἔσται τὸ “ἄνω τῶν ποταμῶν ῥέουσι<note type="apparatus" n="25" target="#p76-24">τῶν om. a</note>
-              <lb n="26" xml:id="p76-25"/>πηγαί”, ὃν ἀδύνατον· ἔτι δὲ καὶ τοῦτο ἄτοπον· εἰ γὰρ τὸ αὐτὸ ὕδωρ<note type="apparatus" n="26" target="#p76-25">post δὲ add. φησὶ Aa</note><milestone type="alt-edition" unit="line" ed="Aldina 1527" n="25"/>
+              <lb n="26" xml:id="p76-25"/>πηγαί”, ὂν ἀδύνατον· ἔτι δὲ καὶ τοῦτο ἄτοπον· εἰ γὰρ τὸ αὐτὸ ὕδωρ<note type="apparatus" n="26" target="#p76-25">post δὲ add. φησὶ Aa</note><milestone type="alt-edition" unit="line" ed="Aldina 1527" n="25"/>
               <lb n="27" xml:id="p76-26"/>ἀεὶ στρέφεταί τε καὶ ῥέον ἀπὸ τῆς ἀρχῆς ἐπ’ αὐτὴν πάλιν καταφέρεται,<note type="apparatus" n="27" target="#p76-26">τρέφεταί τε I μετ’ αὐτὴν I</note>
               <lb n="28" xml:id="p76-27"/>τὸ γινόμενόν τε καὶ ὑόμενον ὕδωρ καὶ τὸ πάλιν ἀτμιζόμενόν τε καὶ ἀναθυμιώμενον<note type="apparatus" n="28" target="#p76-27">ἀτμίζον a</note>
-              <lb n="29" xml:id="p76-28"/>πόθεν ἔσται; τοῦτο γὰρ ὅλον ἐξαιρεῖ ὁ λόγος καὶ τὴν τοιαύτὴν<note type="apparatus" n="29" target="#p76-28">ὅλον om. AWa</note>
+              <lb n="29" xml:id="p76-28"/>πόθεν ἔσται; τοῦτο γὰρ ὅλον ἐξαιρεῖ ὁ λόγος καὶ τὴν τοιαύτην<note type="apparatus" n="29" target="#p76-28">ὅλον om. AWa</note>
               <lb n="30" xml:id="p76-29"/>γένεσίν τε τοῦ ὕδατος καὶ μεταβολὴν ὁ λέγων ἀεὶ τὸ αὐτὸ σωζόμενον
               <lb n="31" xml:id="p76-30"/>περιφέρεσθαι, καὶ τὸ ἀπορρέον ἀπὸ τῆς ἀρχῆς πάλιν ἐπιρρεῖν ἐπ’ αὐτήν.<note type="apparatus" n="31" target="#p76-30">ἀπὸ — αὐτήν] πάλιν ἀπὸ τῆς ἀρχῆς ἐπ’ αὐτὴν ἀπορρεῖν a post αὐτὴν add. μεγάλοι δὲ γίνονται τῶν ποταμῶν· ὅσοι φησὶ πόρρω θαλάσσης τὰς πηγὰς ἔχουσιν, οὗτοι μεγάλοι εἰσίν. οἱ γὰρ ὑψηλοτέραν ἔχοντες τὴν θέσιν ὡς εἰς κοιλοτέρους ἐμβάλλουσιν εἰς αὐτούς. ὑποτέμνοντες μὲν οὖν οἱ μεγάλοι ποταμοὶ τούτων τῶν εἰσρεόντων εἰς αὐτοὺς τὴν ὁδὸν τὴν ἐπὶ θάλασσαν, μέγεθος προσλαμβάνουσιν a</note>
             </p>
@@ -3038,7 +3039,7 @@
               <lb n="21" xml:id="p78-20"/>ὡς τὰ ὄρη τῆς γῆς φανερὰ γενέσθαι, τὸ δὲ δεύτερον τὰς νήσους,<note type="apparatus" n="21" target="#p78-20">γίνεσθαι AW</note>
               <lb n="22" xml:id="p78-21"/>τὸ δὲ τρίτον ῥοφήσασα παντελῶς τὴν γῆν ξηρὰν ποιήσει. ἀλλ’ ἐκείνῳ μὲν
               <lb n="23" xml:id="p78-22"/>ἥρμοζεν ὀργιζομένῳ πρὸς τὸν πορθμέα διὰ τοῦ τοιούτου μύθου αὐτὸν φοβεῖν·<note type="apparatus" n="23" target="#p78-22">τοῦ om. Ia</note>
-              <lb n="24" xml:id="p78-23"/>ἧττον δὲ πρέπει τοῖς τὴν ἀλήθειαν ζητοῦσι μύθους λέγειν· ὅτι γὰρ ψευδος<note type="apparatus" n="24" target="#p78-23">post γὰρ add. φησὶ A</note>
+              <lb n="24" xml:id="p78-23"/>ἧττον δὲ πρέπει τοῖς τὴν ἀλήθειαν ζητοῦσι μύθους λέγειν· ὅτι γὰρ ψεῦδος<note type="apparatus" n="24" target="#p78-23">post γὰρ add. φησὶ A</note>
               <lb n="25" xml:id="p78-24"/>καὶ μυθῶδες τὸ λεγόμενον, ἑξῆς λέγει. δι’ ἣν γὰρ αἰτίαν τὸ πρῶτον<milestone type="alt-edition" unit="line" ed="Aldina 1527" n="40"/>
               <lb n="26" xml:id="p78-25"/>ἀνάγοντος τοῦ ἡλίου τὰς ἀναθυμιάσεις ἔμεινεν ἡ θάλασσα καὶ οὐκ ἀνηλώθη,<note type="apparatus" n="26" target="#p78-25">ἔμεινεν] μένει AWa</note>
               <lb n="27" xml:id="p78-26"/>εἴτε διὰ βάρος, ὡς ἡμεῖς τε εἰρήκαμεν καί τινες καὶ τῶν ἀρχαίων
@@ -3215,8 +3216,8 @@
               <lb n="9" xml:id="p83-8"/>κατ’ αὐτὸν τὰ τῇδε.
               <lb n="10" xml:id="p83-9"/>Κειμένου δὲ καὶ δεδειγμένου τοῦ καὶ τὰ τῆς θαλάσσης μόρια τὰ μὲν<note type="apparatus" n="10" target="#p83-9">δὲ] φησὶ a</note>
               <lb n="11" xml:id="p83-10"/>φθείρεσθαι τὰ δὲ γίνεσθαι, πειρατέον, φησίν, ἀποδοῦναι καὶ τῆς ἁλμυρότητος
-              <lb n="12" xml:id="p83-11"/>τῆς θαλάσσης τὴν αἰτίαν. φανερὸν δή φησιν εἶναι ὅτι γίνεται ὁ τοιοὗτος
-              <lb n="13" xml:id="p83-12"/>χυμὸς διὰ μῖξίν τινος. ἔν τε γὰρ τοῖς τῶν ζῴων σώμασι τὸ
+              <lb n="12" xml:id="p83-11"/>τῆς θαλάσσης τὴν αἰτίαν. φανερὸν δή φησιν εἶναι ὅτι γίνεται ὁ τοιοῦτος
+              <lb n="13" xml:id="p83-12"/>χυμὸς διὰ μῖξίν τινος. ἔν τε γὰρ τοῖς τῶν ζῴων σώμασι τὸ
               <lb n="14" xml:id="p83-13"/>ἀπεπτότατον ἁλμυρόν τε καὶ πικρόν· τὸ γὰρ περίττωμα τοιοῦτον, ὃ δι’
               <lb n="15" xml:id="p83-14"/>ἀπεψίαν ὑπομένει. πᾶσα μὲν γὰρ ἡ <milestone type="alt-edition" unit="folio" ed="Aldina 1527" n="97r"/> ὑπόστασις καὶ πᾶν τὸ περίττωμα
               <lb n="16" xml:id="p83-15"/>ἄπεπτον, μάλιστα δὲ τὸ εἰς τὴν κύστιν ἀθροιζόμενον, ὅπερ ἐστὶ τὸ οὖρον.<note type="apparatus" n="16" target="#p83-15">συναθροιζόμενον AWa</note>
@@ -3268,7 +3269,7 @@
               <lb n="26" xml:id="p84-25"/>ἀναθυμίασιν γινομένην ἀπὸ τῆς ἀπέπτου γῆς καὶ διὰ τοῦτο πικρᾶς ἀεὶ
               <lb n="27" xml:id="p84-26"/>συγκαταμίγνυσθαι τῷ ὑομένῳ ὕδατι, ταύτην φησὶν εἶναι γένεσιν τοῦ ἐν τῷ<note type="apparatus" n="27" target="#p84-26">ἐγκαταμίγνυσθαι a</note>
               <lb n="28" xml:id="p84-27"/>ὕδατι ἁλμυροῦ. πιστοῦται δὲ τὸ τὴν τοιαύτην ἀναθυμίασιν αἰτίαν εἶναι
-              <lb n="29" xml:id="p84-28"/>τῆς ἐν τῷ ὕδατι ἐνυπαρχούσης ἁλμυρότητος διὰ τοῦ ὅτε πλείστη ἡ τοιαὕτη<note type="apparatus" n="29" target="#p84-28">ἡ om. AWa</note>
+              <lb n="29" xml:id="p84-28"/>τῆς ἐν τῷ ὕδατι ἐνυπαρχούσης ἁλμυρότητος διὰ τοῦ ὅτε πλείστη ἡ τοιαύτη<note type="apparatus" n="29" target="#p84-28">ἡ om. AWa</note>
               <lb n="30" xml:id="p84-29"/>γίνεται ἀναθυμίασις, τότε τὸ ὑόμενον ὕδωρ ἐπιδήλως πλατύτερον εἶναι.<note type="apparatus" n="30" target="#p84-29">τὸ om. A</note>
               <lb n="31" xml:id="p84-30"/>γίνεται δὲ πλείστη ἡ ξηρὰ ἀναθυμίασις τοῖς τε νοτίοις καταστήμασι,<note type="apparatus" n="31" target="#p84-30">τε] γε AWa</note>
               <lb n="32" xml:id="p84-31"/>καὶ κατ’ ἀρχὰς τοῦ μετοπώρου. ὧν τὰς αἰτίας παρατίθεται. ὁ μὲν γὰρ<milestone type="alt-edition" unit="line" ed="Aldina 1527" n="40"/>
@@ -3533,11 +3534,11 @@
               <lb n="17" xml:id="p91-16"/>καπνώδη, ὁτὲ μὲν ἔπομβρα τὰ ἔτη γίνεται καὶ ὑγρά, ὁτὲ δὲ ἀνεμώδη τε
               <lb n="18" xml:id="p91-17"/>καὶ ξηρὰ καὶ αὐχμηρά. ποτὲ μὲν οὖν φησι συμβαίνειν ὡς ἅμα πολλὴν<milestone type="alt-edition" unit="line" ed="Aldina 1527" n="50"/>
               <lb n="19" xml:id="p91-18"/>χώραν ἢ ἐπομβρίαν ἔχειν ἢ ἀνέμους καὶ αὐχμούς, ὁτὲ δὲ καὶ κατὰ μέρη, ὡς<note type="apparatus" n="19" target="#p91-18">ἢ post χώραν om. AWa κατὰ] τὰ I</note>
-              <lb n="20" xml:id="p91-19"/>μέρος τι ἐγκείμενόν τινι χώρᾳ ἐπομβρίαν ἐχούσῃ αὐτὸ ἐν αὐχμῷ εἶναι, ἢ ἀνάπάλιν.<note type="apparatus" n="20" target="#p91-19">τι om. I ἐχούσης a et fort. A</note>
+              <lb n="20" xml:id="p91-19"/>μέρος τι ἐγκείμενόν τινι χώρᾳ ἐπομβρίαν ἐχούσῃ αὐτὸ ἐν αὐχμῷ εἶναι, ἢ ἀνάπαλιν.<note type="apparatus" n="20" target="#p91-19">τι om. I ἐχούσης a et fort. A</note>
               <lb n="21" xml:id="p91-20"/>οὐ φησιν αἴτιον εἶναι τὸ ὡς μὲν ἐπὶ τὸ πλεῖστον εἰκὸς εἶναι τὸ αὐτὸ πάθος<note type="apparatus" n="21" target="#p91-20">τὸ ante αὐτὸ om. I</note>
               <lb n="22" xml:id="p91-21"/>ἐπὶ πλείω χώραν διήκειν, διὰ τὸ ὁμοίαν θέσιν ἔχειν πρὸς τὸν ἥλιον
               <lb n="23" xml:id="p91-22"/>τὰ ἐγγὺς ἀλλήλων, τὸν αἴτιον τῶν ἀναθυμιάσεων, εἰ μή τι διά τινα θέσιν
-              <lb n="24" xml:id="p91-23"/>ἰδίαν διαφοράν τινες ἔχουσι τόποι πρὸς τὸν ἥλιον παρὰ τοὺς οἷς παράκεῖνται· <milestone type="alt-edition" unit="folio" ed="Aldina 1527" n="100r"/><note type="apparatus" n="24" target="#p91-23">διαφοράς AWa</note>
+              <lb n="24" xml:id="p91-23"/>ἰδίαν διαφοράν τινες ἔχουσι τόποι πρὸς τὸν ἥλιον παρὰ τοὺς οἷς παράκεινται· <milestone type="alt-edition" unit="folio" ed="Aldina 1527" n="100r"/><note type="apparatus" n="24" target="#p91-23">διαφοράς AWa</note>
               <lb n="25" xml:id="p91-24"/>οὐ μὴν ἀλλὰ συμβαίνει ἐνίοτε κατὰ μὲν τόδε τὸ μέρος τὴν ξηρὰν
               <lb n="26" xml:id="p91-25"/>πλεονεκτεῖν ἀναθυμίασιν, κατὰ δὲ τὸ παρακείμενον τὴν ὑγράν. καὶ τούτου<note type="apparatus" n="26" target="#p91-25">πλεονεκτεῖν] γίνεσθαι AW</note>
               <lb n="27" xml:id="p91-26"/>δέ φησιν αἴτιον εἶναι τὸ ποτὲ μὲν ἀφ’ ἧς ἡ ξηρὰ ἀναφέρεται, κατὰ ταύτην<note type="apparatus" n="27" target="#p91-26">ἀναφαίνεται A</note>
@@ -3573,7 +3574,7 @@
               <lb n="19" xml:id="p92-18"/>ἀναθυμιάσεως οἱ ἄνεμοι γίνονται, σημεῖον τὸ μάλιστα γίνεσθαι πνεύματα
               <lb n="20" xml:id="p92-19"/>καὶ πλεῖστα ἀπὸ τῆς ἄρκτου καὶ τῆς μεσημβρίας· πλεῖστοι γὰρ τῶν<note type="apparatus" n="20" target="#p92-19">ἀπό τε τῆς W</note>
               <lb n="21" xml:id="p92-20"/>ἀνέμων βορέαι καὶ νότοι πνέουσιν, ἀπὸ τῆς ἄρκτου μὲν οἱ βορέαι, ἀπὸ
-              <lb n="22" xml:id="p92-21"/>δὲ τῆς μεσημβρίας οἱ νότοι. τῷ γὰρ τὸν ἥλιον τούτους μόνους μὴ ἐπέργεσθαι
+              <lb n="22" xml:id="p92-21"/>δὲ τῆς μεσημβρίας οἱ νότοι. τῷ γὰρ τὸν ἥλιον τούτους μόνους μὴ ἐπέρχεσθαι
               <lb n="23" xml:id="p92-22"/>τοὺς τόπους (μέχρι γὰρ τῶν τροπικῶν κατὰ τούτους ἡ πρόοδος<note type="apparatus" n="23" target="#p92-22">ἡ κατὰ τοῦτο πρόοδος AWa</note>
               <lb n="24" xml:id="p92-23"/>αὐτῷ γίνεται, ἔπειτα ἀπὸ τούτων τροπὰς ποιεῖται· διὸ εἶπε πρὸς τούτους<milestone type="alt-edition" unit="line" ed="Aldina 1527" n="25"/>
               <lb n="25" xml:id="p92-24"/>αὐτὸν καὶ ἀπὸ τούτων κινεῖσθαι· ἐπὶ μέντοι τὰς δυσμὰς καὶ τὰς ἀνατολὰς
@@ -3596,7 +3597,7 @@
               <lb n="4" xml:id="p93-3"/>τῶν χλωρῶν ξύλων (τά τε γὰρ χλωρὰ ξύλα πυρούμενα πλεῖστον καπνὸν<note type="apparatus" n="4" target="#p93-3">τῶν om. a γὰρ om. I</note>
               <lb n="5" xml:id="p93-4"/>ἀφίησιν, ὃς καπνός ἐστιν ἀναθυμίασις ξηρά, ἥ τε πολλὴ ὑομένη γῆ θερμαινομένη<note type="apparatus" n="5" target="#p93-4">ὑομένη] ὑποκαιομένη AWa</note><note type="apparatus" n="5-6" target="#p93-4 #p93-5">γῆ θερμαινομένη om. AWa</note>
               <lb n="6" xml:id="p93-5"/>ὑπό τε τοῦ ἐν αὐτῇ θερμοῦ καὶ ὑπὸ τοῦ ἡλίου παραπλησίαν<note type="apparatus" n="6" target="#p93-5">καὶ ἀπὸ τοῦ a</note>
-              <lb n="7" xml:id="p93-6"/>ἀναδίδωσιν ἀναθυμίασιν τῇ ἀπὸ τῶν ξυλῶν) καπνώδης δέ τις ἀναθυμίασις<note type="apparatus" n="7" target="#p93-6">ἀναθυμίασιν om. a δέ scripsi: γάρ libri</note>
+              <lb n="7" xml:id="p93-6"/>ἀναδίδωσιν ἀναθυμίασιν τῇ ἀπὸ τῶν <choice><sic>ξυλῶν</sic><corr>ξύλων</corr></choice>) καπνώδης δέ τις ἀναθυμίασις<note type="apparatus" n="7" target="#p93-6">ἀναθυμίασιν om. a δέ scripsi: γάρ libri</note>
               <lb n="8" xml:id="p93-7"/>τὸ σῶμα τοῦ ἀνέμου ἐστίν, ὡς προείρηκεν ἤδη· διὸ εὐλόγως ἀπὸ τούτων
               <lb n="9" xml:id="p93-8"/>τῶν τόπων τὰ πλεῖστα καὶ κυριώτατα γίνεται τῶν πνευμάτων· τοιαῦτα<milestone type="alt-edition" unit="line" ed="Aldina 1527" n="40"/>
               <lb n="10" xml:id="p93-9"/>γὰρ τά τε νότια καὶ τὰ βόρεια. καλεῖσθαι δέ φησι βορρᾶς μὲν τοὺς ἀπὸ
@@ -3718,7 +3719,7 @@
             </p>
             <pb n="96" facs="https://archive.org/download/commentariaina03pt2akaduoft/page/n117.jpg"/>
             <p>
-              <lb n="1" xml:id="p96-0"/>Τὸν δὲ ἥλιόν φησι καὶ παύειν τὰ πνεύματα καὶ αὔξειν τε καὶ συνἐξορμᾶν.<note type="apparatus" n="1" target="#p96-0">φασι AW τὰ πνεύματα post συνεξορμᾶν (l. 2) exh. a</note><milestone type="alt-edition" unit="line" ed="Aldina 1527" n="25"/>
+              <lb n="1" xml:id="p96-0"/>Τὸν δὲ ἥλιόν φησι καὶ παύειν τὰ πνεύματα καὶ αὔξειν τε καὶ συνεξορμᾶν.<note type="apparatus" n="1" target="#p96-0">φασι AW τὰ πνεύματα post συνεξορμᾶν (l. 2) exh. a</note><milestone type="alt-edition" unit="line" ed="Aldina 1527" n="25"/>
               <lb n="2" xml:id="p96-1"/>ἂν μὲν γὰρ ἀσθενεῖς ὦσι καὶ ὀλίγαι αἱ ἀναθυμιάσεις, μαραίνονται
               <lb n="3" xml:id="p96-2"/>ὑπὸ τοῦ ἀπὸ τοῦ ἡλίου θερμοῦ ὄντος πλείονος καὶ διακρίνονται. ἀλλὰ
               <lb n="4" xml:id="p96-3"/>καὶ τὴν γῆν αὐτήν, ὅθεν αἱ ἀναθυμιάσεις, φθάνει ξηραίνων πολλάκις, πρὶν
@@ -3794,7 +3795,7 @@
               <lb n="24" xml:id="p97-23"/>θερινὰς καὶ κυνὸς ἀνατολὴν πνέουσιν, ὅτι πλησίον μὲν ὢν ὁ ἥλιος (ἔστι
               <lb n="25" xml:id="p97-24"/>δὲ πλησίον προσιών τε ταῖς θεριναῖς τροπαῖς καὶ κατ’ αὐτὰς ὤν) διὰ τὴν<note type="apparatus" n="25" target="#p97-24">τε om. a τροπαῖς om. AW καὶ—αὐτὰς I: κατὰ ταύτας AWa</note>
               <lb n="26" xml:id="p97-25"/>ἐγγύτητα φθάνει ξηραίνων τὴν γῆν, πρὶν γενέσθαι τὴν ἀπ’ αὐτῆς ἀναθυμίασιν,
-              <lb n="27" xml:id="p97-26"/>ὀλίγον δὲ ἀπελθόντος σύμμετρος ἤδη γίνεται ἡ ἀπ’ αὐτοῦ θερμοτης,
+              <lb n="27" xml:id="p97-26"/>ὀλίγον δὲ ἀπελθόντος σύμμετρος ἤδη γίνεται ἡ ἀπ’ αὐτοῦ θερμότης,
               <lb n="28" xml:id="p97-27"/>ὡς τήκειν τὰ πεπηγότα ὕδατα, ἃ δεχομένη ἡ γῆ κἄπειτα ξηραινομένη<note type="apparatus" n="28" target="#p97-27">post τήκειν add. τὸ W post ἃ add. καὶ A</note><milestone type="alt-edition" unit="line" ed="Aldina 1527" n="25"/>
               <lb n="29" xml:id="p97-28"/>ὑπό τε τῆς ἐν αὑτῇ θερμότητος καὶ τῆς ἀπὸ τοῦ ἡλίου οἷον τύφεται<note type="apparatus" n="29" target="#p97-28">post καὶ add. ὑπὸ AWa</note>
               <lb n="30" xml:id="p97-29"/>καὶ θυμιᾶται καὶ ἀνίησι τὴν τῶν ἀνέμων χορηγίαν. ἀπορήσειε δ’ ἄν τις,<note type="apparatus" n="30" target="#p97-29">ἀνίεισι I ἀπορῆσαι a</note>
@@ -3865,7 +3866,7 @@
               <lb n="20" xml:id="p99-19"/>τροπάς. οὐ συνεχεῖς δὲ οἱ ἄνεμοι οὗτοι πνέουσι, διότι τὰ μὲν
               <lb n="21" xml:id="p99-20"/>ἀσθενῆ καὶ ἐπιπολῆς τότε ἀποκρίνεται περὶ τὴν ἑβδομηκοστὴν μετὰ χειμερινὰς
               <lb n="22" xml:id="p99-21"/>τροπάς, ὡς εἴρηκεν, ἡμέραν, τὰ δὲ μᾶλλον πεπηγότα καὶ πλείονος
-              <lb n="23" xml:id="p99-22"/>δεόμενα θερμότητος πρὸς τὸ λυθῆναι μετὰ πλείονα χρόνον λύεται προσἰόντος<note type="apparatus" n="23-24" target="#p99-22 #p99-23">προσιὸν W</note>
+              <lb n="23" xml:id="p99-22"/>δεόμενα θερμότητος πρὸς τὸ λυθῆναι μετὰ πλείονα χρόνον λύεται προσιόντος<note type="apparatus" n="23-24" target="#p99-22 #p99-23">προσιὸν W</note>
               <lb n="24" xml:id="p99-23"/>τοῦ ἡλίου τοῖς τόποις, ἀφ’ ὧν ὁ νότος πνεῖ. καὶ διὰ τοῦτο διαλείποντες<note type="apparatus" n="24" target="#p99-23">post προσιόντος add. γὰρ A</note>
               <lb n="25" xml:id="p99-24"/>καὶ οὐ συνεχεῖς οὗτοι πνέουσιν οἱ ἄνεμοι καὶ οὕτως, ὡς ἄν εἰ<note type="apparatus" n="25-26" target="#p99-24 #p99-25">εἰ καὶ οἱ ἐτησίαι πάλιν ἔπνεον μετὰ τὰς θερινὰς τροπὰς coll. AWa</note>
               <lb n="26" xml:id="p99-25"/>καὶ πάλιν μετὰ τὰς θερινὰς τροπὰς ἔπνεον οἱ ἐτησίαι πλεῖον ἀπελθόντος<milestone type="alt-edition" unit="line" ed="Aldina 1527" n="25"/>
@@ -3914,7 +3915,7 @@
               <lb n="30" xml:id="p100-29"/>δῆλον ὡς πόρρω ὁ ἥλιος τούτων τῶν μερῶν ἐστι μετὰ τὰς χειμερινὰς
               <lb n="31" xml:id="p100-30"/>τροπάς. διὸ μετὰ ἑβδομήκοντα ἡμέρας ἄρχονται πνεῖν οἱ νότοι, δοκοῦντες<note type="apparatus" n="31" target="#p100-30">ἄρχεται A¹</note>
               <lb n="32" xml:id="p100-31"/>μὲν πρὸς ἡμᾶς φέρεσθαι ἀπὸ τῶν χειμερινῶν τροπῶν, ὅτι ἀπὸ τούτων
-              <lb n="33" xml:id="p100-32"/>τῶν μερῶν καὶ ἀπὸ ταύτης τῆς πλευρᾶς πνέουσι πρὸς ἡμᾶς, ἢ ἀνάλογόν<note type="apparatus" n="33" target="#p100-32">ῥέουσι AI ἢ] ᾗ A: ἣ W</note>
+              <lb n="33" xml:id="p100-32"/>τῶν μερῶν καὶ ἀπὸ ταύτης τῆς πλευρᾶς πνέουσι πρὸς ἡμᾶς, ἣ ἀνάλογόν<note type="apparatus" n="33" target="#p100-32">ῥέουσι AI ἢ] ᾗ A: ἣ W</note>
             </p>
             <pb n="101" facs="https://archive.org/download/commentariaina03pt2akaduoft/page/n122.jpg"/>
             <p>
@@ -4004,17 +4005,17 @@
               <lb n="5" xml:id="p103-4"/>ἐπιζευγνυμένων ἐπ’ αὐτὸν εὐθειῶν κῶνον εἰπών. δείξας δὲ διὰ τῆς
               <lb n="6" xml:id="p103-5"/>καταγραφῆς τὰ τυμπανοειδῆ ἐκτμήματα
               <lb n="7" xml:id="p103-6"/>μετὰ ταῦτα λέγει ὅτι ταῦτα<note type="apparatus" n="7" target="#p103-6">post λέγει add. καὶ Wa</note>
-              <lb n="8" xml:id="p103-7"/>μόνα τῆς γῆς οἰκεῖσθαι δυνατόν. Ε Ι
+              <lb n="8" xml:id="p103-7"/>μόνα τῆς γῆς οἰκεῖσθαι δυνατόν.
               <lb n="9" xml:id="p103-8"/>καὶ λέγει περὶ τῆς καθ’ ἡμᾶς οἰκουμένης,<milestone type="alt-edition" unit="line" ed="Aldina 1527" n="5"/>
               <lb n="10" xml:id="p103-9"/>ᾗ ἀνάλογόν ἐστι καὶ ἡ ἑτέρα,<note type="apparatus" n="10" target="#p103-9">ᾗ om. I</note>
-              <lb n="11" xml:id="p103-10"/>καὶ δείκνυσιν ὅτι αὕτη μεταξύ ἐστι Α Γ
-              <lb n="12" xml:id="p103-11"/>τοῦ τε ἀεὶ φανεροῦ καὶ τοῦ θερινοῦ Ν
+              <lb n="11" xml:id="p103-10"/>καὶ δείκνυσιν ὅτι αὕτη μεταξύ ἐστι
+              <lb n="12" xml:id="p103-11"/>τοῦ τε ἀεὶ φανεροῦ καὶ τοῦ θερινοῦ
               <lb n="13" xml:id="p103-12"/>τροπικοῦ, καὶ οὔτε ἐπέκεινα τῶν τροπικῶν
               <lb n="14" xml:id="p103-13"/>οἷόν τε ταύτην εἶναι· οὗ πίστιν<note type="apparatus" n="14" target="#p103-13">αὐτὴν εἶναι AWa</note>
               <lb n="15" xml:id="p103-14"/>φέρει τὸ εἰ ἦν ἐπέκεινα τοῦ θερινοῦ
-              <lb n="16" xml:id="p103-15"/>τροπικοῦ οἰκούμενά τινα, οὐκ ἂν ἦν Ζ Κ
+              <lb n="16" xml:id="p103-15"/>τροπικοῦ οἰκούμενά τινα, οὐκ ἂν ἦν
               <lb n="17" xml:id="p103-16"/>ἐκείνων ἡ σκιὰ πρὸς ἄρκτον τετραμμένη<milestone type="alt-edition" unit="line" ed="Aldina 1527" n="10"/>
-              <lb n="18" xml:id="p103-17"/>ἀεί. ὅτε γὰρ κατὰ τὰ ἀρκτικὰ μέρη ὁ ἥλιος αὐτῶν γένοιτο, ἀνάγκη τὴν Θ Δ Μ<note type="apparatus" n="18" target="#p103-17">τὰ om. I αὐτῶν om. a</note>
+              <lb n="18" xml:id="p103-17"/>ἀεί. ὅτε γὰρ κατὰ τὰ ἀρκτικὰ μέρη ὁ ἥλιος αὐτῶν γένοιτο, ἀνάγκη τὴν<note type="apparatus" n="18" target="#p103-17">τὰ om. I αὐτῶν om. a</note>
               <lb n="19" xml:id="p103-18"/>γινομένην ἀπ’ αὐτῶν σκιὰν πρὸς μεσημβρίαν πίπτειν διὰ τὸ ἀνάγκην εἶναι<note type="apparatus" n="19" target="#p103-18">ἀνάγκη Aa</note>
               <lb n="20" xml:id="p103-19"/>τὴν ἀπὸ τοῦ φωτιζομένου σκιὰν ὑπό τινος γινομένην ἐπὶ θάτερα μέρη πίπτειν<milestone type="alt-edition" unit="line" ed="Aldina 1527" n="15"/>
               <lb n="21" xml:id="p103-20"/>ἢ καθ’ ἃ τὸ φωτίζον ἐστί. νῦν δὲ ἀοίκητοι πρότερον οἱ τόποι προϊόντων<note type="apparatus" n="21" target="#p103-20">καθ’ ἃ scripsi: κατὰ libri</note><note type="apparatus" n="21-22" target="#p103-20 #p103-21">προϊόντος a</note>
@@ -4201,7 +4202,7 @@
               <lb n="1" xml:id="p108-0"/>ἐναντίον δὲ τούτῳ καὶ κατὰ διάμετρον τὸ Β ἀνατολὴν ἰσημερινήν. εἰλήφθω<note type="apparatus" n="1" target="#p108-0">ἐναντίον — ἰσημερινήν om. I</note><milestone type="alt-edition" unit="line" ed="Aldina 1527" n="15"/>
               <lb n="2" xml:id="p108-1"/>οὖν τὰ εἰρημένα σημεῖα καὶ διήχθω ἡ ΑΒ διάμετρος. ἄλλη δέ,<note type="apparatus" n="2" target="#p108-1">οὖν om. AWa</note>
               <lb n="3" xml:id="p108-2"/>φησίν, ἤχθω διάμετρος ἐν τῷ κύκλῳ πρὸς ὀρθὰς τέμνουσα τὴν ΑΒ διάμετρον,
-              <lb n="4" xml:id="p108-3"/>ἡ ΗΘ, ἧς τὸ μὲν πρὸς τὸ Η ἔστω ἄρκτος, τὸ δὲ Θ, ὃν ἐξ ἐνἀντίας<note type="apparatus" n="4" target="#p108-3">πρὸς τῷ AW ἔσται AWa</note>
+              <lb n="4" xml:id="p108-3"/>ἡ ΗΘ, ἧς τὸ μὲν πρὸς τὸ Η ἔστω ἄρκτος, τὸ δὲ Θ, ὂν ἐξ ἐναντίας<note type="apparatus" n="4" target="#p108-3">πρὸς τῷ AW ἔσται AWa</note>
               <lb n="5" xml:id="p108-4"/>αὐτῷ, μεσημβρία. πάλιν δὲ λαμβάνει ἐπὶ τοῦ κύκλου σημεῖον
               <lb n="6" xml:id="p108-5"/>μεταξὺ τοῦ Η καὶ τοῦ Β τὸ Ζ, ὃ ὑποτίθεται εἶναι ἀνατολὴν θερινήν· ᾧ
               <lb n="7" xml:id="p108-6"/>Ζ καταντικρὺ κείμενον τὸ Ε οὐ κατὰ διάμετρον, 〈ἀλλ’ ἐπ’ εὐθείας〉 λαμβάνει<note type="apparatus" n="7" target="#p108-6">ἀλλ’ ἐπ’ εὐθείας addidi coll. v. 10</note>
@@ -4267,7 +4268,7 @@
               <lb n="13" xml:id="p110-12"/>φησὶ δὴ τούτου αἰτίαν εἶναι πρώτην μὲν τὸ τὴν οἰκουμένην ὑφ’ ἡμῶν
               <lb n="14" xml:id="p110-13"/>πλησίον κεῖσθαι τῶν τόπων τούτων· πάντα γὰρ τὰ γινόμενα πνεύματα ἀπ’<note type="apparatus" n="14" target="#p110-13">τὸν τόπον τοῦτον AW</note>
               <lb n="15" xml:id="p110-14"/>αὐτῶν φανερὰ γίνεται καὶ οὐ λανθάνει. δευτέραν δὲ ὅτι εἰς τοῦτον τὸν<note type="apparatus" n="15" target="#p110-14">δὲ om. I</note>
-              <lb n="16" xml:id="p110-15"/>τόπον, ἅτε πόρρω ὄντα τοῦ ἡλίου, πολλῷ πλείω ὕδατά τε καὶ νέφη συνὠθεῖται<note type="apparatus" n="16" target="#p110-15">πολλὰ ὕδατα Ι</note><milestone type="alt-edition" unit="line" ed="Aldina 1527" n="10"/>
+              <lb n="16" xml:id="p110-15"/>τόπον, ἅτε πόρρω ὄντα τοῦ ἡλίου, πολλῷ πλείω ὕδατά τε καὶ νέφη συνωθεῖται<note type="apparatus" n="16" target="#p110-15">πολλὰ ὕδατα Ι</note><milestone type="alt-edition" unit="line" ed="Aldina 1527" n="10"/>
               <lb n="17" xml:id="p110-16"/>καὶ χιόνες πήγνυνται· ὁ γὰρ μεσημβρινὸς τόπος ἐλάττω ταῦτα<note type="apparatus" n="17" target="#p110-16">τὰ αὐτὰ AWa</note>
               <lb n="18" xml:id="p110-17"/>ἔχει διὰ τὸ ὑποκεῖσθαι τῇ τοῦ ἡλίου φορᾷ. γίνεται μὲν γὰρ καὶ ἐν
               <lb n="19" xml:id="p110-18"/>ἐκείνῳ ὕδατά τε καὶ ἀναθυμιάσεις ὑγραὶ κατὰ τὰς ἀποχωρήσεις τοῦ ἡλίου<note type="apparatus" n="19" target="#p110-18">ὑγρὰ a</note>
@@ -4420,7 +4421,7 @@
               <lb n="5" xml:id="p114-4"/>τούτου τοῦ γένους ἤτοι ταύτης τῆς πραγματείας ἢ τούτου τοῦ γένους
               <lb n="6" xml:id="p114-5"/>τοῦ περὶ τῶν ἀνέμων· ἡ γὰρ αὐτὴ ἀναθυμίασις, ὡς προϊὼν δείξει,
               <lb n="7" xml:id="p114-6"/>τῶν τε ἀνέμων καὶ τῶν σεισμῶν ἐστιν αἰτία. πρῶτον δὲ πάλιν καὶ
-              <lb n="8" xml:id="p114-7"/>ἐνταῦθα κατὰ τὸ σύνηθες αὐτῷ, τὰς προκαταβεβλημένας τε καὶ προεἰρημένας<milestone type="alt-edition" unit="line" ed="Aldina 1527" n="30"/>
+              <lb n="8" xml:id="p114-7"/>ἐνταῦθα κατὰ τὸ σύνηθες αὐτῷ, τὰς προκαταβεβλημένας τε καὶ προειρημένας<milestone type="alt-edition" unit="line" ed="Aldina 1527" n="30"/>
               <lb n="9" xml:id="p114-8"/>ὑπό τινων περὶ τῶν σεισμῶν δόξας τίθησί τε καὶ ἐξετάζει.<note type="apparatus" n="9" target="#p114-8">ὑπό τινων post σεισμῶν exh. a τῶν om. Aa</note>
               <lb n="10" xml:id="p114-9"/>τρεῖς δέ φησιν εἶναι μέχρις αὐτοῦ δόξας εἰρημένας περὶ σεισμῶν, καὶ<note type="apparatus" n="10" target="#p114-9">δὴ AWa</note>
               <lb n="11" xml:id="p114-10"/>παρὰ τριῶν. καὶ πρῶτος μὲν Ἀναξιμένης ὁ Μιλήσιος, δεύτερος δὲ Ἀναξαγόρας<note type="apparatus" n="11" target="#p114-10">παρὰ] περὶ a καὶ om. AWa post μὲν add. γὰρ Aa post δὲ add. ὁ A</note>
@@ -4480,7 +4481,7 @@
               <lb n="27" xml:id="p115-26"/>ἀντιλέγων δὲ πρὸς ταύτην τὴν δόξαν φησὶν πρῶτον μὲν ὅτι ἔδει<note type="apparatus" n="27" target="#p115-26">ὅτι ante πρῶτον exh. AWa</note>
               <lb n="28" xml:id="p115-27"/>ὑπὸ τῶν ὑδάτων συμβαίνοντος τούτου ὑπονοστοῦσαν καὶ καθαιρουμένην<note type="apparatus" n="28" target="#p115-27">ὑπὸ τῶν ὑδάτων om. a ἀπὸ ex ὑπὸ corr. I τοῦτο I καθαιρομένην AW</note>
               <lb n="29" xml:id="p115-28"/>κατὰ πολλὰ φαίνεσθαι τὴν γῆν, ἀεὶ τῶν ὑψηλοτέρων ἀπορρηγνυμένων καὶ<note type="apparatus" n="29" target="#p115-28">πολλοὺς a ἀεὶ τὴν γῆν coll. AWa</note>
-              <lb n="30" xml:id="p115-29"/>ἐμπιπτόντων τοῖς κοιλοτέρος αὐτῆς. ἔτι δὲ διὰ ποίαν αἰτίαν πολλάκις<note type="apparatus" n="30" target="#p115-29">αὐτῆς ex αὐτοῖς corr. I 8*</note><milestone type="alt-edition" unit="line" ed="Aldina 1527" n="30"/>
+              <lb n="30" xml:id="p115-29"/>ἐμπιπτόντων τοῖς <choice><sic>κοιλοτέρος</sic><corr>κοιλοτέροις</corr></choice> αὐτῆς. ἔτι δὲ διὰ ποίαν αἰτίαν πολλάκις<note type="apparatus" n="30" target="#p115-29">αὐτῆς ex αὐτοῖς corr. I 8*</note><milestone type="alt-edition" unit="line" ed="Aldina 1527" n="30"/>
             </p>
             <pb n="116" facs="https://archive.org/download/commentariaina03pt2akaduoft/page/n137.jpg"/>
             <p>
@@ -4529,7 +4530,7 @@
               <lb n="5" xml:id="p117-4"/>ἐντὸς ῥεύσας ὄντος πνεύματος σεισμὸν ποιῆσαι. πλὴν ἐλάττους φησὶ
               <lb n="6" xml:id="p117-5"/>γίνεσθαι τούτους τὸ μέγεθος, τῷ τὴν ἀρχὴν καὶ τὴν αἰτίαν αὐτῶν τὴν<note type="apparatus" n="6" target="#p117-5">τούτους γίνεσθαι coll. a</note>
               <lb n="7" xml:id="p117-6"/>ποιητικὴν διῃρῆσθαι. τοῦτο δ’ ἂν δεικτικὸν εἴη τοῦ καὶ τοὺς ἅμα πνέοντας
-              <lb n="8" xml:id="p117-7"/>ἀνέμους μὴ πάνυ γίνεσθαι σφοδρούς· καὶ γὰρ ἐκείνων ἡ ἀρχὴ διῃρηται.<note type="apparatus" n="8" target="#p117-7">μὴ in lit. W</note>
+              <lb n="8" xml:id="p117-7"/>ἀνέμους μὴ πάνυ γίνεσθαι σφοδρούς· καὶ γὰρ ἐκείνων ἡ ἀρχὴ διῄρηται.<note type="apparatus" n="8" target="#p117-7">μὴ in lit. W</note>
               <lb n="9" xml:id="p117-8"/>λέγει δὲ καὶ νυκτὸς τοὺς πλείστους τε καὶ μείζους τῶν σεισμῶν
               <lb n="10" xml:id="p117-9"/>γίνεσθαι, τῶν δὲ τῆς ἡμέρας γινομένων τοὺς πλείστους πάλιν περὶ μεσημβρίαν.
               <lb n="11" xml:id="p117-10"/>οὗ αἰτία τὸ νηνεμωτάτας εἶναι τὰς μεσημβρίας διὰ τὸ τὸν ἥλιον<milestone type="alt-edition" unit="line" ed="Aldina 1527" n="30"/>
@@ -4757,7 +4758,7 @@
               <lb n="7" xml:id="p123-6"/>αἴτιον, ὥσπερ καὶ τῶν κυμάτων οἱ ἄνεμοι. ὡς γὰρ τὰ πνεύματα ἐξ ἐπιπολῆς<milestone type="alt-edition" unit="line" ed="Aldina 1527" n="5"/>
               <lb n="8" xml:id="p123-7"/>βιαζόμενα τὸ ὕδωρ κινεῖ τε αὐτὸ καὶ ποιεῖ τὰ κύματα, οὕτω<note type="apparatus" n="8" target="#p123-7">βιαζόμενον AIW κύματα ex πνεύματα corr. I</note>
               <lb n="9" xml:id="p123-8"/>πολλάκις καὶ ἐν τοῖς σεισμοῖς τὸ κάτωθεν πνεῦμα βιαζόμενον καὶ τὸ ὑπὸ
-              <lb n="10" xml:id="p123-9"/>τῇ γῇ κινεῖ ὕδωρ. ὡς γὰρ τὰ κύματα ὑπὸ τοῦ πνεύματος ἀλλ’ οὐκ ἀνάπάλιν<note type="apparatus" n="10" target="#p123-9">τὴν γῆν AWa</note>
+              <lb n="10" xml:id="p123-9"/>τῇ γῇ κινεῖ ὕδωρ. ὡς γὰρ τὰ κύματα ὑπὸ τοῦ πνεύματος ἀλλ’ οὐκ ἀνάπαλιν<note type="apparatus" n="10" target="#p123-9">τὴν γῆν AWa</note>
               <lb n="11" xml:id="p123-10"/>κινεῖται, οὕτω καὶ τῶν ἀναρρηγνυμένων ἐν τοῖς σεισμοῖς ὑδάτων τὸ
               <lb n="12" xml:id="p123-11"/>πνεῦμα αἴτιον, ἀλλ’ οὐκ ἐκεῖνα τοῦ πνεύματος. ἐναργὲς δὲ ἐποίησε τὸ
               <lb n="13" xml:id="p123-12"/>λεγόμενον τῇ τῆς γῆς παραθέσει· ἀνατρέπεται γὰρ ἐν τοῖς σεισμοῖς πολλάκις
@@ -4933,7 +4934,7 @@
               <lb n="32" xml:id="p127-31"/>προειρημένοις τῆς εἰς τὸ κάτω βιαίου φορᾶς. ἡ μὲν γὰρ ἐκκρινομένη ἐκ
               <lb n="33" xml:id="p127-32"/>τῆς ἀναθυμιάσεως θερμότης, τουτέστι θερμὴ ἀναθυμίασις, εἰς τὸ ἄνω<note type="apparatus" n="33" target="#p127-32">post τουτέστι add. ἡ a</note>
               <lb n="34" xml:id="p127-33"/>φέρεταί τε καὶ διασπείρεται κατὰ φύσιν ἀνεμποδίστως φερομένη· ὅση δὲ<note type="apparatus" n="34" target="#p127-33">φερομένης A</note>
-              <lb n="35" xml:id="p127-34"/>τῆς ξηρᾶς ἀναθυμιάσεως ἐναπολαμβάνεται ἐν τῇ ψυχομένῃ τε καὶ συνισταμένη
+              <lb n="35" xml:id="p127-34"/>τῆς ξηρᾶς ἀναθυμιάσεως ἐναπολαμβάνεται ἐν τῇ ψυχομένῃ τε καὶ συνισταμένῃ
             </p>
             <pb n="128" facs="https://archive.org/download/commentariaina03pt2akaduoft/page/n149.jpg"/>
             <p>
@@ -5112,7 +5113,7 @@
               <lb n="3" xml:id="p132-2"/>μᾶλλον δ’ εἶπε γίνεσθαι νύκτωρ, ὅτι γίνεται τις τοιαύτη καὶ μεθ’ ἡμέραν
               <lb n="4" xml:id="p132-3"/>ἔμφασις, ὥσπερ ἐπὶ τῆς ἴριδος ἐν τῷ μετὰ τοῦτο βιβλίῳ δείξει ὡς ἡ<note type="apparatus" n="4" target="#p132-3">ὥσπερ] ὡς AWa ὡς om. AWa post ἡ add. γὰρ a</note>
               <lb n="5" xml:id="p132-4"/>ἔμφασις ἐκείνη πρὸς μένον γίνεται, ἀλλ’ οὐ πλησσόμενον, ἡ δὲ στιλβηδὼν<note type="apparatus" n="5" target="#p132-4">ἡ δὲ — πλησσομένων (6) om. Wa</note>
-              <lb n="6" xml:id="p132-5"/>ἐπὶ τῶν πλησσομένων, ἢ τῆς ἡμέρας οὐχ ὁρᾶται· διὸ καὶ αὐτὸς προσέθηκε<note type="apparatus" n="6" target="#p132-5">ἢ τῆς] ἥτις AWa</note>
+              <lb n="6" xml:id="p132-5"/>ἐπὶ τῶν πλησσομένων, ἣ τῆς ἡμέρας οὐχ ὁρᾶται· διὸ καὶ αὐτὸς προσέθηκε<note type="apparatus" n="6" target="#p132-5">ἢ τῆς] ἥτις AWa</note>
               <lb n="7" xml:id="p132-6"/>τὸ πλησσόμενον. ὥστε εἰ καὶ ἡ ἀστραπὴ οὕτως γίνεται, ἔδει νυκτὸς
               <lb n="8" xml:id="p132-7"/>αὐτὴν φαίνεσθαι. ἔτι εἰ αἱ μὲν τοιαῦται στιλβηδόνες ἐν τῷ ὕδατι δι’
               <lb n="9" xml:id="p132-8"/>ἀνάκλασιν γίνονται, οἱ δὲ μηδὲν εἶπον περὶ ἀνακλάσεως, οὐδὲν ἂν εἶεν<note type="apparatus" n="9" target="#p132-8">εἰπόντες I</note>
@@ -5210,7 +5211,7 @@
               <lb n="19" xml:id="p134-18"/>τῶν δύο τῶν δυνάμει ὄντων ἐν τῷ νέφει, ὡς τὴν εἰς αὐτὸ μεταβολὴν<note type="apparatus" n="19" target="#p134-18">ὡς τὴν — νέφει (20) om. a</note>
               <lb n="20" xml:id="p134-19"/>γίνεσθαι, ἀκολουθεῖ πᾶν τὸ τῆς αὐτῆς φύσεως ὂν ἐν τῷ νέφει καὶ εἰς τὸ<note type="apparatus" n="20" target="#p134-19">τὸ ante αὐτὸ om. a 12 δ’] ἂν a</note>
               <lb n="21" xml:id="p134-20"/>αὐτὸ μεταβάλλειν δυνάμενον, ὁποτέρας δ’ ἀναθυμιάσεως ᾖ πλέον ἐν τῷ
-              <lb n="22" xml:id="p134-21"/>νέφει, ταύτῃ ἀρξαμένη μεταβάλλειν ἀκολουθεῖ καὶ τὸ λοιπὸν αὐτῆς συμμεταβάλλον,<note type="apparatus" n="22" target="#p134-21">ταύτης ἀρξαμένης I</note>
+              <lb n="22" xml:id="p134-21"/>νέφει, ταύτῃ ἀρξαμένῃ μεταβάλλειν ἀκολουθεῖ καὶ τὸ λοιπὸν αὐτῆς συμμεταβάλλον,<note type="apparatus" n="22" target="#p134-21">ταύτης ἀρξαμένης I</note>
               <lb n="23" xml:id="p134-22"/>καὶ γίνεται, ἂν μὲν ἡ ὑγρὰ πλεονάζῃ, μεταβολῆς τινος εἰς ὕδωρ
               <lb n="24" xml:id="p134-23"/>γενομένης καὶ ἀρχῆς τοιαύτης, ὑετὸς συνεχής τε καὶ πολύς, ἂν δὲ ἡ ξηρὰ
               <lb n="25" xml:id="p134-24"/>τοιαύτη ᾖ, τὸ ἐπακολουθοῦν τῇ πρώτῃ τοῦ πνεύματος ἐκκρίσει πνεῦμα
@@ -5459,7 +5460,7 @@
               <lb n="13" xml:id="p140-12"/>τὰ προειρημένα ἢ ἀνιόντος καὶ προϊόντος ἐπὶ τὴν μεσημβρίαν τοῦ<note type="apparatus" n="13" target="#p140-12">εἰρημένα a</note>
               <lb n="14" xml:id="p140-13"/>ἡλίου ἢ πάλιν καταφερομένου ἐπὶ δυσμάς, τὰ δὲ πλεῖστα πρὸς δυσμαῖς<note type="apparatus" n="14" target="#p140-13">πρὸς δυσμὰς BW</note>
               <lb n="15" xml:id="p140-14"/>ὄντος, ὡς κατὰ τὴν μεσημβρίαν καὶ μεσουρανοῦντος μὴ γινομένων αὐτῶν,
-              <lb n="16" xml:id="p140-15"/>ἢ εἴ ποτε, σπανίως, ὡς ἱστορεῖ ἐν Βοσπόρῳ ποτὲ γενέσθαι· δύο γὰρ παρἡλίους<note type="apparatus" n="16-17" target="#p140-15 #p140-16">παρηλίου a</note>
+              <lb n="16" xml:id="p140-15"/>ἢ εἴ ποτε, σπανίως, ὡς ἱστορεῖ ἐν Βοσπόρῳ ποτὲ γενέσθαι· δύο γὰρ παρηλίους<note type="apparatus" n="16-17" target="#p140-15 #p140-16">παρηλίου a</note>
               <lb n="17" xml:id="p140-16"/>συνανασχόντας τῷ ἡλίῳ διαμεῖναι ἕως δυσμῶν. οὐκ ἐπεὶ δὲ ὁ<note type="apparatus" n="17" target="#p140-16">οὐκ ἐπεὶ δὲ] δὲ om. W: οὐ γὰρ ἐπεὶ a</note>
               <lb n="18" xml:id="p140-17"/>ἥλιος πανταχοῦ καὶ οὐκ ἐν Βοσπόρῳ μόνῳ ἦν, διὰ τοῦτο ἔδει καὶ τὰ<milestone type="alt-edition" unit="line" ed="Aldina 1527" n="25"/>
               <lb n="19" xml:id="p140-18"/>προειρημένα ἁπανταχοῦ· ταῦτα γὰρ γίνεται κατὰ τὴν πρὸς αὐτὸν ἀνάκλασιν,<note type="apparatus" n="19" target="#p140-18">γὰρ ταῦτα Wa</note>
@@ -5488,7 +5489,7 @@
             <p>
               <lb n="3" xml:id="p141-2"/>Οὐκ ἀρέσκεται μὲν τῇ δόξῃ τῇ δι’ ἀκτίνων ἐκχύσεως ὁρᾶν ἡμᾶς
               <lb n="4" xml:id="p141-3"/>λεγούσῃ, καθά φασιν οἱ ἀπὸ τῶν μαθημάτων, ᾗ δόξῃ ἀκόλουθός ἐστι καὶ
-              <lb n="5" xml:id="p141-4"/>ἢ δι’ ἀνακλάσεως τῶν αὐτῶν τούτων ἀκτίνων ὁρᾶν ἡμᾶς πάντα τὰ δι’
+              <lb n="5" xml:id="p141-4"/>ἡ δι’ ἀνακλάσεως τῶν αὐτῶν τούτων ἀκτίνων ὁρᾶν ἡμᾶς πάντα τὰ δι’
               <lb n="6" xml:id="p141-5"/>ἐμφάσεως ὁρώμενα λέγουσα· οὔτε γὰρ ἀπὸ τῆς ὄψεως ἀκτῖνάς τινας ἐκχεομένας
               <lb n="7" xml:id="p141-6"/>καὶ προσπιπτούσας τῷ ὁρατῷ τοῦ ὁρᾶν αἰτίας ἡμῖν οἷόν τε γίνεσθαι
               <lb n="8" xml:id="p141-7"/>οὔτε τὰς αὐτὰς ταύτας ἀνακλωμένας ἀπὸ τῶν κατόπτρων καὶ πάντων<milestone type="alt-edition" unit="line" ed="Aldina 1527" n="50"/>
@@ -5574,7 +5575,7 @@
               <lb n="13" xml:id="p143-12"/>δόξαι περὶ τῆς ἅλω ψευδεῖς, ἱκανῶς ὁ διδάσκαλος ἡμῶν Σωσιγένης<milestone type="alt-edition" unit="line" ed="Aldina 1527" n="10"/>
               <lb n="14" xml:id="p143-13"/>ἐν τῷ ὀγδόῳ Περὶ ὄψεως ἔδειξεν. ὁ δὲ Ἀριστοτέλης εἰπὼν γίνεσθαι τὴν<note type="apparatus" n="14" target="#p143-13">περὶ τῆς ὄψεως a</note>
               <lb n="15" xml:id="p143-14"/>ἀνάκλασιν ἀπὸ τῆς συνισταμένης ἀτμίδος εἰς νέφος, ἂν ὁμαλή τε καὶ<note type="apparatus" n="15" target="#p143-14">ὁμαλὴς B²</note>
-              <lb n="16" xml:id="p143-15"/>μικρομερὴς συνισταμένη τύχη, καὶ χρώμενος τῇ κατὰ ἀνάκλασιν τῆς ὄψεως
+              <lb n="16" xml:id="p143-15"/>μικρομερὴς συνισταμένη τύχῃ, καὶ χρώμενος τῇ κατὰ ἀνάκλασιν τῆς ὄψεως
               <lb n="17" xml:id="p143-16"/>ὁρᾶν λεγούσῃ τὰ τοιαῦτα δόξῃ, τὸ ἀπὸ τῆς τοιαύτης συστάσεως τὴν τῆς
               <lb n="18" xml:id="p143-17"/>ἅλω φαντασίαν γίνεσθαι συνιστὰς λέγει τὴν μὲν σύστασιν τοῦ νέφους, ἀφ’
               <lb n="19" xml:id="p143-18"/>οὗ ἡ ἅλως, σημεῖον ὕδατος εἶναι (δῆλον γὰρ ὅτι συνίσταται τὸ νέφος τὸ<milestone type="alt-edition" unit="line" ed="Aldina 1527" n="15"/>
@@ -5833,7 +5834,7 @@
             </p>
             <pb n="150" facs="https://archive.org/download/commentariaina03pt2akaduoft/page/n171.jpg"/>
             <p>
-              <lb n="1" xml:id="p150-0"/>ὁρᾶσθαι βλέπηται μείζονι γωνίᾳ, τῷ δὲ ἀμυδρὸν ὁρᾶσθαι φαντασίαν ἀποτελῆ<note type="apparatus" n="1" target="#p150-0">μείζων ἡ γωνία I</note><note type="apparatus" n="1-2" target="#p150-0 #p150-1">ἀποτελῇ] ἀποστελλῇ B¹: ἀποτελεῖ B²: ἀποστέλλῃ W: ἀποστέλλει I</note><milestone type="alt-edition" unit="line" ed="Aldina 1527" n="40"/>
+              <lb n="1" xml:id="p150-0"/>ὁρᾶσθαι βλέπηται μείζονι γωνίᾳ, τῷ δὲ ἀμυδρὸν ὁρᾶσθαι φαντασίαν ἀποτελῇ<note type="apparatus" n="1" target="#p150-0">μείζων ἡ γωνία I</note><note type="apparatus" n="1-2" target="#p150-0 #p150-1">ἀποτελῇ] ἀποστελλῇ B¹: ἀποτελεῖ B²: ἀποστέλλῃ W: ἀποστέλλει I</note><milestone type="alt-edition" unit="line" ed="Aldina 1527" n="40"/>
               <lb n="2" xml:id="p150-1"/>ὡς ὁρώμενον ἀπὸ τοῦ πολλοῦ διαστήματος, μεῖζον ἢ ἔστι φαίνεται<note type="apparatus" n="2" target="#p150-1">τοῦ om. BWa</note>
               <lb n="3" xml:id="p150-2"/>τῇ ὄψει, τῷ ἀφ’ οὗ διαστήματος εἰ ἀληθῶς ἑωρᾶτο, ὁρᾶσθαι ἂν αὐτὸ ἐλάττονι<note type="apparatus" n="3" target="#p150-2">ἑωρᾶτο ex corr. B² αὐτὸν W ὁρᾶσθαι] exspectas ἑωρᾶτο</note>
               <lb n="4" xml:id="p150-3"/>γωνίᾳ, [καὶ] ἀπὸ τούτου δοκεῖν ὁρᾶσθαι τοῦ διαστήματος διὰ τὴν ἀμυδρότητα<note type="apparatus" n="4" target="#p150-3">καὶ delevi καὶ ἀπὸ — μείζονι (5) om. B¹W: in marg. add. B²</note>
@@ -6000,7 +6001,7 @@
               <lb n="3" xml:id="p154-2"/>διὸ καὶ τὸ ὁρώμενον χρῶμα ἔγγιον τῷ μέλανι· ἔτι δὲ μᾶλλον τοιοῦτον<note type="apparatus" n="3" target="#p154-2">post ἔγγιον add. σχεδὸν B2a τοιοῦτον μᾶλλον coll. a</note>
               <lb n="4" xml:id="p154-3"/>φαίνεται τοῖς ὑγροὺς τοὺς ὀφθαλμοὺς ἔχουσι, διὰ τὸ τὴν τούτων ὄψιν<note type="apparatus" n="4" target="#p154-3">τὸ om. B1W</note>
               <lb n="5" xml:id="p154-4"/>ταχὺ καὶ ἀπὸ τοῦ τυχόντος ἀνακλᾶσθαι, ὡς λέγει, εἴ τε μὴ γίνεται τῆς<milestone type="alt-edition" unit="line" ed="Aldina 1527" n="15"/>
-              <lb n="6" xml:id="p154-5"/>ὄψεως ἀνάκλασις, ἀλλὰ διὰ τὸ ἀσθενεστέρᾳ οὔσῃ τῇ τούτων ὄψει ἀμαυροτερα
+              <lb n="6" xml:id="p154-5"/>ὄψεως ἀνάκλασις, ἀλλὰ διὰ τὸ ἀσθενεστέρᾳ οὔσῃ τῇ τούτων ὄψει ἀμαυρότερα
               <lb n="7" xml:id="p154-6"/>καὶ ἀσθενέστερα προσπίπτειν τὰ ὁρώμενα· τὸ δ’ ἀσθενὲς εἰς τὸ
               <lb n="8" xml:id="p154-7"/>μελάντερον μεταβάλλει· τοῦτο γὰρ ἐναντίον τῷ λευκῷ τε καὶ λαμπρῷ, ὃ<note type="apparatus" n="8" target="#p154-7">μέλαν BWa</note>
               <lb n="9" xml:id="p154-8"/>μάλιστά ἐστιν ὁρατόν. διὰ τοῦτο τοῖς οὕτως ἔχουσι βαθύτερον τὸ πορφυροῦν
@@ -6014,7 +6015,7 @@
               <lb n="17" xml:id="p154-16"/>τὴν ἀνάκλασιν ἀπὸ τῶν μικροτάτων μὲν πυκνῶν δὲ ῥανίδων καὶ πλησίον<note type="apparatus" n="17" target="#p154-16">πυκνῶν] μικρῶν a</note>
               <lb n="18" xml:id="p154-17"/>ἀλλήλαις κειμένων (διὰ τοῦτο γὰρ εἶπε συνεχῶν δέ), αἵτινες ὕδωρ εἰσὶν
               <lb n="19" xml:id="p154-18"/>ἤδη ἀποκεκριμένον, ἀλλ’ οὐχ ὥσπερ ἐπὶ τῆς ἐν τῷ οὐρανῷ ἀπὸ μέλλοντος<note type="apparatus" n="19" target="#p154-18">ἐπὶ om. I</note><milestone type="alt-edition" unit="line" ed="Aldina 1527" n="25"/>
-              <lb n="20" xml:id="p154-19"/>ὕδατος. διὸ μελάντεραι καὶ αὗται ἐκείνων, ἅτε ἀπὸ μελαντέρου γινομεναι<note type="apparatus" n="20" target="#p154-19">καὶ μελάντεραι coll. Ba</note><note type="apparatus" n="20-21" target="#p154-19 #p154-20">γινόμενα a</note>
+              <lb n="20" xml:id="p154-19"/>ὕδατος. διὸ μελάντεραι καὶ αὗται ἐκείνων, ἅτε ἀπὸ μελαντέρου γινόμεναι<note type="apparatus" n="20" target="#p154-19">καὶ μελάντεραι coll. Ba</note><note type="apparatus" n="20-21" target="#p154-19 #p154-20">γινόμενα a</note>
               <lb n="21" xml:id="p154-20"/>κατόπτρου. διὰ μὲν οὖν τὴν μικρότητα τῶν ῥανίδων καὶ ἐπὶ ταύτης<note type="apparatus" n="21" target="#p154-20">τὴν om. I</note>
               <lb n="22" xml:id="p154-21"/>τῆς ἴριδος τὸ χρῶμα μόνον ἐμφαίνεται τοῦ ἡλίου χωρὶς τοῦ σχήματος·
               <lb n="23" xml:id="p154-22"/>διὰ δὲ τὴν πυκνότητα καὶ τὸ πλησίον αὐτὰς ἀλλήλων εἶναι ὡς ἀπὸ ἑνὸς
@@ -6089,7 +6090,7 @@
               <lb n="8" xml:id="p156-7"/>φοινικοῦν χρῶμα ἔχουσαν φαίνεσθαι διὰ ἰσχὺν τῆς ὄψεως· ἰσχυροτέρα γὰρ<milestone type="alt-edition" unit="line" ed="Aldina 1527" n="25"/>
               <lb n="9" xml:id="p156-8"/>ἀπὸ ταύτης ἡ τῆς ὄψεως πρὸς τὸν ἥλιον ἀνάκλασις. οὗ καὶ αἰτίαν ἀπέδωκεν<note type="apparatus" n="9" target="#p156-8">καὶ om. BWa</note>
               <lb n="10" xml:id="p156-9"/>ὅτι ἀπὸ μεγίστης περιφερείας γίνεται, ἀπὸ δὲ τῆς μεγίστης πλείστη
-              <lb n="11" xml:id="p156-10"/>ἡ ἀνάκλασις· πλείστη οὖν ἀπὸ ταύτης ἡ πρὸς τὸν ἥλιον τῆς ὄψεως ἀνάκλάσις,<note type="apparatus" n="11" target="#p156-10">γοῦν I</note>
+              <lb n="11" xml:id="p156-10"/>ἡ ἀνάκλασις· πλείστη οὖν ἀπὸ ταύτης ἡ πρὸς τὸν ἥλιον τῆς ὄψεως ἀνάκλασις,<note type="apparatus" n="11" target="#p156-10">γοῦν I</note>
               <lb n="12" xml:id="p156-11"/>διὸ καὶ ἰσχυροτέρα. ἰσχυροτέρα δὲ οὖσα ἧττον ὁρᾷ τὸ λευκὸν
               <lb n="13" xml:id="p156-12"/>μέλαν· διὸ μᾶλλον προσάγουσα τῷ λευκῷ φοινικοῦν ὁρᾷ τὸ λευκὸν διὰ τὸ<note type="apparatus" n="13" target="#p156-12">τῷ λευκῷ] τὸ λευκὸν a</note>
               <lb n="14" xml:id="p156-13"/>κάτοπτρον. ἡ δὲ μετὰ τὴν πρώτην περιφέρειαν πράσινον τὸ χρῶμα ἔχει·
@@ -6111,7 +6112,7 @@
               <lb n="30" xml:id="p156-29"/>ἑκατέραν οὖν φησιν ἐν τρισὶ χρώμασιν οὖσαν ὁρᾶσθαι, ἐναντίως μέντοι<note type="apparatus" n="30" target="#p156-29">σχήμασιν B¹W</note><milestone type="alt-edition" unit="line" ed="Aldina 1527" n="40"/>
               <lb n="31" xml:id="p156-30"/>ἔχειν αὐτὰς τὴν τῶν χρωμάτων θέσιν. ἐχούσης γὰρ τῆς πρώτης, ἥτις
               <lb n="32" xml:id="p156-31"/>ἐστὶν ἡ ἐνδοτέρω, τὴν μὲν πρώτην περιφέρειαν φοινικῆν, τὴν δὲ δευτέραν<note type="apparatus" n="32" target="#p156-31">ἐνδοτέρα I φοινικοῦν a</note>
-              <lb n="33" xml:id="p156-32"/>πράσινον, τὴν δὲ τρίτην ἁλουργήν, ἡ δευτέρα καὶ ἐξωτέρα τὴν μὲν ἔξωτέραν<note type="apparatus" n="33" target="#p156-32">πρασίνην I ἁλουργῆ B¹W ἡ δευτέρα — ἁλουργήν (157,1) om. B μὲν ἐξωτέρω BWa</note>
+              <lb n="33" xml:id="p156-32"/>πράσινον, τὴν δὲ τρίτην ἁλουργήν, ἡ δευτέρα καὶ ἐξωτέρα τὴν μὲν ἐξωτέραν<note type="apparatus" n="33" target="#p156-32">πρασίνην I ἁλουργῆ B¹W ἡ δευτέρα — ἁλουργήν (157,1) om. B μὲν ἐξωτέρω BWa</note>
             </p>
             <pb n="157" facs="https://archive.org/download/commentariaina03pt2akaduoft/page/n178.jpg"/>
             <p>
@@ -6154,7 +6155,7 @@
               <lb n="30" xml:id="p157-29"/>γινομένη οὐδὲ μόνα ἔχουσα τὰ προειρημένα τρία χρώματα), ἀλλὰ<milestone type="alt-edition" unit="line" ed="Aldina 1527" n="25"/>
               <lb n="31" xml:id="p157-30"/>διὰ τὴν παρ’ ἄλληλα φαντασίαν τοῦ τε φοινικοῦ καὶ τοῦ πρασίνου ἀπογεννᾶται
               <lb n="32" xml:id="p157-31"/>ἡ τοῦ ξανθοῦ φαντασία χρώματος· τὸ γὰρ φοινικοῦν χρῶμα παρὰ
-              <lb n="33" xml:id="p157-32"/>τὸ πράσινον ὁρώμενον λευκὸν φαίνεται. τοῦ δὲ τὴν παράθεσιν τῶν προεἰρημένων<note type="apparatus" n="33" target="#p157-32">τοῦ δὲ τὴν—χρώματα (158,19) in marg. B²</note>
+              <lb n="33" xml:id="p157-32"/>τὸ πράσινον ὁρώμενον λευκὸν φαίνεται. τοῦ δὲ τὴν παράθεσιν τῶν προειρημένων<note type="apparatus" n="33" target="#p157-32">τοῦ δὲ τὴν—χρώματα (158,19) in marg. B²</note>
             </p>
             <pb n="158" facs="https://archive.org/download/commentariaina03pt2akaduoft/page/n179.jpg"/>
             <p>
@@ -6189,7 +6190,7 @@
               <lb n="29" xml:id="p158-28"/>ἐν γὰρ τοῖς ὑφάσμασιν ἡ τῶν διαφερόντων ἀνθῶν παράθεσις πλείστην
               <lb n="30" xml:id="p158-29"/>ποιεῖ διαφοράν. οὐ γὰρ ταὐτὸν τὸ πορφυροῦν φαίνεται λευκῷ τε καὶ μέλανι<note type="apparatus" n="30" target="#p158-29">τὸ ex τω corr. I: om. B¹W ἐμφαίνεται B¹ (ἐμ supr. vers.) a</note>
               <lb n="31" xml:id="p158-30"/>παρατιθέμενον ἢ ἄλλῳ τινὶ χρώματι· διὸ καὶ αἱ πορφύραι οὐχ αἱ αὐταὶ
-              <lb n="32" xml:id="p158-31"/>πᾶσιν ἁρμόζουσι τοῖς χρώμασιν. ἀλλὰ καὶ ἐν αὐγῇ τοιᾳδὶ ἢ τοιαδὶ τιθεμενα<note type="apparatus" n="32" target="#p158-31">ἢ τοιαδὶ om. B¹W</note><milestone type="alt-edition" unit="line" ed="Aldina 1527" n="50"/>
+              <lb n="32" xml:id="p158-31"/>πᾶσιν ἁρμόζουσι τοῖς χρώμασιν. ἀλλὰ καὶ ἐν αὐγῇ τοιᾳδὶ ἢ τοιᾳδὶ τιθέμενα<note type="apparatus" n="32" target="#p158-31">ἢ τοιαδὶ om. B¹W</note><milestone type="alt-edition" unit="line" ed="Aldina 1527" n="50"/>
               <lb n="33" xml:id="p158-32"/>οὐχ ὅμοια φαίνεται· τὰ γοῦν ταωνικὰ καλούμενα ἀπὸ τοῦ χρώματος<note type="apparatus" n="33" target="#p158-32">παονικὰ B¹W</note>
               <lb n="34" xml:id="p158-33"/>ἱμάτια ἐν ταῖς πρὸς τὴν αὐγὴν περιστροφαῖς παντοδαπῶν χρωμάτων φαντασίας
             </p>
@@ -6378,7 +6379,7 @@
               <lb n="1" xml:id="p164-0"/>καὶ κατὰ ἀναλογίαν τῆς ἀπὸ τοῦ ὁρίζοντος ἀποστάσεως ἀεὶ ἔλαττον,<note type="apparatus" n="1" target="#p164-0">ἀποστάσεως — ὁρίζοντος (2) om. B¹W: in marg. add. ἀποστάσεως — δὲ B²</note>
               <lb n="2" xml:id="p164-1"/>ἐλάχιστον δὲ τμῆμα κύκλου ἔσεσθαι τὸ ὑπὸ τοῦ ὁρίζοντος [τὸ] ἀποτεμνόμενον,<note type="apparatus" n="2" target="#p164-1">τμῆμα — ἀποτεμνόμενον (2. 3) om. a τὸ delevi</note>
               <lb n="3" xml:id="p164-2"/>ὅταν ᾖ τὸ ἄστρον, ἐφ’ ὃ ἡ ἀνάκλασις, ἐπὶ τοῦ μεσημβρινοῦ κύκλου.
-              <lb n="4" xml:id="p164-3"/>ταῦτα διὰ τῆς προτάσεως προειπὼν ἑξῆς μέτεισιν ἐπὶ τὸ δεικνύναι τὰ προεἰρημένα.
+              <lb n="4" xml:id="p164-3"/>ταῦτα διὰ τῆς προτάσεως προειπὼν ἑξῆς μέτεισιν ἐπὶ τὸ δεικνύναι τὰ προειρημένα.
               <lb n="5" xml:id="p164-4"/>
             </p>
           </div>
@@ -6388,7 +6389,7 @@
               <lb n="6" xml:id="p164-5"/>Ἔστω γάρ, φησίν, ἐπ’ ἀνατολῆς πρῶτον, οὗ τὸ Η. <milestone type="alt-edition" unit="folio" ed="Aldina 1527" n="122r"/>
             </quote>
             <p>
-              <lb n="7" xml:id="p164-6"/>Εἰπὼν ὅτι ἂν μὲν τὸ ἄστρον, ἐφ’ δ ἡ ἀνάκλασις γίνεται, οὗ τὸ
+              <lb n="7" xml:id="p164-6"/>Εἰπὼν ὅτι ἂν μὲν τὸ ἄστρον, ἐφ’ ὃ ἡ ἀνάκλασις γίνεται, οὗ τὸ
               <lb n="8" xml:id="p164-7"/>χρῶμα ἐμφαινόμενον τῷ νέφει ἶριν ποιεῖ, ἐπ’ ἀνατολῆς ἢ δύσεως ᾖ,<note type="apparatus" n="8" target="#p164-7">post νέφει add. τὴν BWa ᾖ] ἢ I</note>
               <lb n="9" xml:id="p164-8"/>ἡμικύκλιον ἀποληφθήσεσθαι ὑπὲρ γῆς ὑπὸ τοῦ ὁρίζοντος τοῦ κύκλου τοῦ<note type="apparatus" n="9" target="#p164-8">ἀπολειφθήσεσθαι I τοῦ ante κύκλου om. I, exp. B</note><note type="apparatus" n="9-10" target="#p164-8 #p164-9">κύκλον τὸν γινόμενον B²</note>
               <lb n="10" xml:id="p164-9"/>γινομένου ὑπὸ τῶν Μ, καθ’ ἃ ἡ ἀνάκλασις, ἐὰν δὲ ἀνωτέρω ᾖ τοῦ<note type="apparatus" n="10" target="#p164-9">τὸ μ καθ’ ὃ I</note>
@@ -6409,7 +6410,7 @@
               <lb n="25" xml:id="p164-24"/>ἐκβαλλομένου ἐπιπέδου ὁ μέγιστος κύκλος. τὸ γὰρ ἐν τῇ σφαίρᾳ διὰ τοῦ<note type="apparatus" n="25" target="#p164-24">post σφαίρᾳ supr. vers. add. τὸ I</note>
               <lb n="26" xml:id="p164-25"/>κέντρου ἐκβαλλόμενον ἐπίπεδον εἰς ἴσα τέμνει τὴν σφαῖραν· ἡ δὲ τοιαύτη<note type="apparatus" n="26" target="#p164-25">ἴσας I τέμνει ex τέμνεσθαι corr. B</note><milestone type="alt-edition" unit="line" ed="Aldina 1527" n="15"/>
               <lb n="27" xml:id="p164-26"/>τῆς σφαίρας τομὴ κατὰ τὸν μέγιστον γίνεται κύκλον· μέγιστος γὰρ ὁ διὰ
-              <lb n="28" xml:id="p164-27"/>τοῦ τῆς σφαίρας κέντρου, ὃν ὑποτίθεται εἶναι Α. εἰπὼν δὲ τοῦτο προσἔθηκε
+              <lb n="28" xml:id="p164-27"/>τοῦ τῆς σφαίρας κέντρου, ὃν ὑποτίθεται εἶναι Α. εἰπὼν δὲ τοῦτο προσέθηκε
               <lb n="29" xml:id="p164-28"/>διοίσει γὰρ οὐδέν, ἐὰν ὁποιονοῦν τῶν ἐπὶ τῆς ΗΚ<note type="apparatus" n="29" target="#p164-28">ὁποιανοῦν Arist.</note>
               <lb n="30" xml:id="p164-29"/>κατὰ τὸ τρίγωνον ἐκβληθῇ τὸ ἐπίπεδον. ἔστι δὲ τὸ λεγόμενον· ἐπεὶ<note type="apparatus" n="30" target="#p164-29">ἐκβληθῇ post ΗΚ (29) coll. a τὸ ante ἐπίπεδον om. BWa, ut Arist. H</note>
             </p>
@@ -6444,34 +6445,32 @@
             <p>
               <lb n="1" xml:id="p166-0"/>τοῦ κέντρου ἀμφότεραι· ἴση ἄρα καὶ ἡ ΝΗ τῇ ΜΗ. ἀλλὰ καὶ μείζων·<note type="apparatus" n="1" target="#p166-0">ΝΗ] ηρ̄ a μείζω I</note>
               <lb n="2" xml:id="p166-1"/>ὑπὸ γὰρ τὴν μείζω γωνίαν ὑποτείνει καὶ ἔστιν ἐγγυτέρω τῇ διαμέτρῳ·<note type="apparatus" n="2" target="#p166-1">καὶ ἔστιν] τὴν ὑπὸ η κ ρ̄ δηλονότι. ἡ γὰρ ημ ὑπὸ τὴν ηκμ̄ ὑποτείνει. ἔστι δὲ καὶ a</note><milestone type="alt-edition" unit="line" ed="Aldina 1527" n="45"/>
-              <lb xml:id="p166-2"/>M
-              <lb xml:id="p166-3"/>N
-              <lb n="3" xml:id="p166-4"/>ὅπερ ἀδύνατον. ὅμοιος ὁ λόγος, κἂν ἄλλαι τινὲς ληφθῶσιν ἐν τῷ αὐτῷ
-              <lb n="4" xml:id="p166-5"/>ἡμικυκλίῳ ὡς τὸν αὐτὸν λόγον ἔχουσαι πρὸς ἀλλήλας τῷ τῆς ΗΜ πρὸς<note type="apparatus" n="4" target="#p166-5">ΗΜ] κμ I</note><milestone type="alt-edition" unit="line" ed="Aldina 1527" n="50"/>
-              <lb n="5" xml:id="p166-6"/>τὴν ΜΚ. τοῦτο μὲν οὖν, ὡς εἶπον, ὡς γνώριμον παρείασε. δείκνυσι δὲ
-              <lb n="6" xml:id="p166-7"/>ἑξῆς, πῶς ἐπὶ κύκλου περιφερείας ἡ ἀνάκλασις γίνεται τῶν ἀπὸ τῶν ΗΚ
-              <lb n="7" xml:id="p166-8"/>ἀνακλωμένων ἐν τῷ αὐτῷ λόγῳ, ὃν ἔχει ἡ ΗΜ πρὸς τὴν ΜΚ, καί φησιν
-              <lb n="8" xml:id="p166-9"/>ἐπεὶ γὰρ τά τε ΚΗ σημεῖα δέδοται, καὶ ἡ ΗΚ δεδομένη ἂν εἴη
-              <lb n="9" xml:id="p166-10"/>καὶ ἡ ΜΗ. <milestone type="alt-edition" unit="folio" ed="Aldina 1527" n="122v"/>
-              <lb n="10" xml:id="p166-11"/>Ἔστι δὲ τὸ λεγόμενον· ἦν τὸ Η δεδομένον τῇ θέσει· τοῦτο γὰρ ἦν
-              <lb n="11" xml:id="p166-12"/>τὸ ἐπὶ τῆς ἀνατολῆς εἰλημμένον σημεῖον· ἀλλὰ καὶ τὸ Κ, τὸ κέντρον τοῦ<note type="apparatus" n="11" target="#p166-12">σημεῖον εἰλημμένον coll. BWa</note>
-              <lb n="12" xml:id="p166-13"/>κύκλου. τούτων δὲ ὄντων δεδομένων τῇ θέσει δεδομένη γίνεται τῷ τε μεγέθει
-              <lb n="13" xml:id="p166-14"/>καὶ τῇ θέσει ἡ ΚΗ γραμμή. καὶ ἐπεὶ ἴση ἐστὶ τῇ ΚΗ ἡ ΚΜ (ἐκ<note type="apparatus" n="13" target="#p166-14">ἐπεὶ] ἐπὶ a ἐκ] ἐν I</note>
-              <lb n="14" xml:id="p166-15"/>γὰρ τοῦ κέντρου ἀμφότεραι), δεδομένη γίνεται καὶ αὐτὴ τῷ μεγέθει· ἡ<note type="apparatus" n="14" target="#p166-15">ἀμφότερα IW</note>
-              <lb n="15" xml:id="p166-16"/>γὰρ ἴση τῇ δεδομένῃ δεδομένη τῷ μεγέθει καὶ αὐτή. αὐτὸς δὲ τὸ μὲν
-              <lb n="16" xml:id="p166-17"/>καὶ ταύτην δεδόσθαι ὡς ἐναργὲς ὂν παρείασεν, ἔλαβε δὲ δεδόσθαι καὶ τὴν<note type="apparatus" n="16-17" target="#p166-17 #p166-18">τὴν κμ̄ I</note>
-              <lb n="17" xml:id="p166-18"/>ΗΜ διὰ τὸ δεδομένην εἶναι τὴν ΚΗ. γίνεται δὲ ἡ ΗΜ καὶ αὐτὴ δεδομένη<note type="apparatus" n="17-18" target="#p166-18 #p166-19">δεδομένη a</note><milestone type="alt-edition" unit="line" ed="Aldina 1527" n="10"/>
-              <lb n="18" xml:id="p166-19"/>τῷ μεγέθει διὰ τὸ γενέσθαι καὶ τὴν ὑπὸ τῶν ΗΚΜ περιεχομένην<note type="apparatus" n="18" target="#p166-19">τῷ μεγέθει post καὶ αὐτὴ (17) coll. BWa γενέσθαι] γίνεσθαι BWa τῶν om. I</note>
-              <lb n="19" xml:id="p166-20"/>γωνίαν δεδομένην διὰ τὸ τὰς ἀπὸ τοῦ Κ κατὰ κῶνον ὡς περὶ ἄξονα τὴν
-              <lb n="20" xml:id="p166-21"/>ΗΚ ἐκπιπτούσας ἐν κύκλῳ οὕτως, ὡς ἕνα κῶνον ποιεῖν, ἀεὶ τὴν ἴσην
-              <lb n="21" xml:id="p166-22"/>φυλάττειν ἐν τῇ περιφορᾷ τε καὶ τῇ τοῦ κώνου συστάσει γωνίαν· τὸ γὰρ
-              <lb n="22" xml:id="p166-23"/>κατὰ κῶνον ἐκπίπτειν τοῦτο ἦν. εἰ δὲ δεδομένη ἡ ΗΜ καὶ δεδομένον τὸ<note type="apparatus" n="22" target="#p166-23">εἰ] ἡ I δὲ om. B ἡ ΗΜ] ἦν B: om. I: ἡ om. W</note>
-              <lb n="23" xml:id="p166-24"/>Η σημεῖον, ἡ ΗΜ κύκλου περιφερείας ἐφάψεται, οὗ κέντρον μὲν τὸ Κ,<note type="apparatus" n="23" target="#p166-24">τὸ K et KM (24)] littera K falsa est: τὸ ō et ομ̄ corr. B²</note>
-              <lb n="24" xml:id="p166-25"/>διάστημα δὲ ἡ ΚΜ. ἔστω οὖν ὁ κύκλος ὁ ΜΝ. ἐφάπτεται δέ γε καὶ ἡ ΜΚ<note type="apparatus" n="24" target="#p166-25">KM] μκν̄ I οὖν ex νῦν corr. I: om. BWa</note><milestone type="alt-edition" unit="line" ed="Aldina 1527" n="15"/>
-              <lb n="25" xml:id="p166-26"/>κατὰ τὸ Μ κύκλου περιφερείας, οὗ κέντρον μὲν τὸ Κ, κορυφὴ δὲ τὸ Μ,
-              <lb n="26" xml:id="p166-27"/>ὅς ἐστιν ὁ κείμενος ἀπ’ ἀρχῆς, ὁ ὁρίζων, διὰ τὸ δεδομένον τε εἶναι τὸ<note type="apparatus" n="26" target="#p166-27">ὅς] ὅ I ὁ ante ὁρίζων om. a: del. B²</note>
-              <lb n="27" xml:id="p166-28"/>Κ σημεῖον καὶ τὴν ΜΚ καὶ αὐτὴν δεδομένην. ἐπεὶ τοίνυν δύο κύκλων<note type="apparatus" n="27" target="#p166-28">καὶ αὐτὴν — ΜΚ (28) om. a</note>
-              <lb n="28" xml:id="p166-29"/>ἐφάπτονται αἱ ΜΚ ΗΜ κατὰ τὸ Μ σημεῖον, κατὰ κοινὴν τομὴν αὐτῶν ἐφάψονται.<note type="apparatus" n="28" target="#p166-29">post M add. οὖν a</note>
+              <lb n="3" xml:id="p166-2"/>ὅπερ ἀδύνατον. ὅμοιος ὁ λόγος, κἂν ἄλλαι τινὲς ληφθῶσιν ἐν τῷ αὐτῷ
+              <lb n="4" xml:id="p166-3"/>ἡμικυκλίῳ ὡς τὸν αὐτὸν λόγον ἔχουσαι πρὸς ἀλλήλας τῷ τῆς ΗΜ πρὸς<note type="apparatus" n="4" target="#p166-3">ΗΜ] κμ I</note><milestone type="alt-edition" unit="line" ed="Aldina 1527" n="50"/>
+              <lb n="5" xml:id="p166-4"/>τὴν ΜΚ. τοῦτο μὲν οὖν, ὡς εἶπον, ὡς γνώριμον παρείασε. δείκνυσι δὲ
+              <lb n="6" xml:id="p166-5"/>ἑξῆς, πῶς ἐπὶ κύκλου περιφερείας ἡ ἀνάκλασις γίνεται τῶν ἀπὸ τῶν ΗΚ
+              <lb n="7" xml:id="p166-6"/>ἀνακλωμένων ἐν τῷ αὐτῷ λόγῳ, ὃν ἔχει ἡ ΗΜ πρὸς τὴν ΜΚ, καί φησιν
+              <lb n="8" xml:id="p166-7"/>ἐπεὶ γὰρ τά τε ΚΗ σημεῖα δέδοται, καὶ ἡ ΗΚ δεδομένη ἂν εἴη
+              <lb n="9" xml:id="p166-8"/>καὶ ἡ ΜΗ. <milestone type="alt-edition" unit="folio" ed="Aldina 1527" n="122v"/>
+              <lb n="10" xml:id="p166-9"/>Ἔστι δὲ τὸ λεγόμενον· ἦν τὸ Η δεδομένον τῇ θέσει· τοῦτο γὰρ ἦν
+              <lb n="11" xml:id="p166-10"/>τὸ ἐπὶ τῆς ἀνατολῆς εἰλημμένον σημεῖον· ἀλλὰ καὶ τὸ Κ, τὸ κέντρον τοῦ<note type="apparatus" n="11" target="#p166-10">σημεῖον εἰλημμένον coll. BWa</note>
+              <lb n="12" xml:id="p166-11"/>κύκλου. τούτων δὲ ὄντων δεδομένων τῇ θέσει δεδομένη γίνεται τῷ τε μεγέθει
+              <lb n="13" xml:id="p166-12"/>καὶ τῇ θέσει ἡ ΚΗ γραμμή. καὶ ἐπεὶ ἴση ἐστὶ τῇ ΚΗ ἡ ΚΜ (ἐκ<note type="apparatus" n="13" target="#p166-12">ἐπεὶ] ἐπὶ a ἐκ] ἐν I</note>
+              <lb n="14" xml:id="p166-13"/>γὰρ τοῦ κέντρου ἀμφότεραι), δεδομένη γίνεται καὶ αὐτὴ τῷ μεγέθει· ἡ<note type="apparatus" n="14" target="#p166-13">ἀμφότερα IW</note>
+              <lb n="15" xml:id="p166-14"/>γὰρ ἴση τῇ δεδομένῃ δεδομένη τῷ μεγέθει καὶ αὐτή. αὐτὸς δὲ τὸ μὲν
+              <lb n="16" xml:id="p166-15"/>καὶ ταύτην δεδόσθαι ὡς ἐναργὲς ὂν παρείασεν, ἔλαβε δὲ δεδόσθαι καὶ τὴν<note type="apparatus" n="16-17" target="#p166-15 #p166-16">τὴν κμ̄ I</note>
+              <lb n="17" xml:id="p166-16"/>ΗΜ διὰ τὸ δεδομένην εἶναι τὴν ΚΗ. γίνεται δὲ ἡ ΗΜ καὶ αὐτὴ δεδομένη<note type="apparatus" n="17-18" target="#p166-16 #p166-17">δεδομένη a</note><milestone type="alt-edition" unit="line" ed="Aldina 1527" n="10"/>
+              <lb n="18" xml:id="p166-17"/>τῷ μεγέθει διὰ τὸ γενέσθαι καὶ τὴν ὑπὸ τῶν ΗΚΜ περιεχομένην<note type="apparatus" n="18" target="#p166-17">τῷ μεγέθει post καὶ αὐτὴ (17) coll. BWa γενέσθαι] γίνεσθαι BWa τῶν om. I</note>
+              <lb n="19" xml:id="p166-18"/>γωνίαν δεδομένην διὰ τὸ τὰς ἀπὸ τοῦ Κ κατὰ κῶνον ὡς περὶ ἄξονα τὴν
+              <lb n="20" xml:id="p166-19"/>ΗΚ ἐκπιπτούσας ἐν κύκλῳ οὕτως, ὡς ἕνα κῶνον ποιεῖν, ἀεὶ τὴν ἴσην
+              <lb n="21" xml:id="p166-20"/>φυλάττειν ἐν τῇ περιφορᾷ τε καὶ τῇ τοῦ κώνου συστάσει γωνίαν· τὸ γὰρ
+              <lb n="22" xml:id="p166-21"/>κατὰ κῶνον ἐκπίπτειν τοῦτο ἦν. εἰ δὲ δεδομένη ἡ ΗΜ καὶ δεδομένον τὸ<note type="apparatus" n="22" target="#p166-21">εἰ] ἡ I δὲ om. B ἡ ΗΜ] ἦν B: om. I: ἡ om. W</note>
+              <lb n="23" xml:id="p166-22"/>Η σημεῖον, ἡ ΗΜ κύκλου περιφερείας ἐφάψεται, οὗ κέντρον μὲν τὸ Κ,<note type="apparatus" n="23" target="#p166-22">τὸ K et KM (24)] littera K falsa est: τὸ ō et ομ̄ corr. B²</note>
+              <lb n="24" xml:id="p166-23"/>διάστημα δὲ ἡ ΚΜ. ἔστω οὖν ὁ κύκλος ὁ ΜΝ. ἐφάπτεται δέ γε καὶ ἡ ΜΚ<note type="apparatus" n="24" target="#p166-23">KM] μκν̄ I οὖν ex νῦν corr. I: om. BWa</note><milestone type="alt-edition" unit="line" ed="Aldina 1527" n="15"/>
+              <lb n="25" xml:id="p166-24"/>κατὰ τὸ Μ κύκλου περιφερείας, οὗ κέντρον μὲν τὸ Κ, κορυφὴ δὲ τὸ Μ,
+              <lb n="26" xml:id="p166-25"/>ὅς ἐστιν ὁ κείμενος ἀπ’ ἀρχῆς, ὁ ὁρίζων, διὰ τὸ δεδομένον τε εἶναι τὸ<note type="apparatus" n="26" target="#p166-25">ὅς] ὅ I ὁ ante ὁρίζων om. a: del. B²</note>
+              <lb n="27" xml:id="p166-26"/>Κ σημεῖον καὶ τὴν ΜΚ καὶ αὐτὴν δεδομένην. ἐπεὶ τοίνυν δύο κύκλων<note type="apparatus" n="27" target="#p166-26">καὶ αὐτὴν — ΜΚ (28) om. a</note>
+              <lb n="28" xml:id="p166-27"/>ἐφάπτονται αἱ ΜΚ ΗΜ κατὰ τὸ Μ σημεῖον, κατὰ κοινὴν τομὴν αὐτῶν ἐφάψονται.<note type="apparatus" n="28" target="#p166-27">post M add. οὖν a</note>
             </p>
             <pb n="167" facs="https://archive.org/download/commentariaina03pt2akaduoft/page/n188.jpg"/>
             <p>
@@ -6629,7 +6628,7 @@
               <lb n="15" xml:id="p171-14"/>ἐστὶν ὅ τε πόλος τοῦ κύκλου καὶ τὸ κέντρον τοῦ κύκλου, οὗ πόλος ἐστὶ τὸ<note type="apparatus" n="15" target="#p171-14">ὅ τε πόλεμος I</note>
               <lb n="16" xml:id="p171-15"/>Π, καὶ ἡ ὄψις, ἥτις ἐστὶν ἐπὶ τοῦ Κ, ὅ ἐστι κέντρον τοῦ ὁρίζοντος, ἔσται τὸ
               <lb n="17" xml:id="p171-16"/>κέντρον τοῦ κύκλου, ἐφ’ οὗ ἡ ἶρις, τότε ἐπὶ τῆς ΚΠ εὐθείας μεταξὺ τοῦ τε<note type="apparatus" n="17" target="#p171-16">τῆς η̄π̄ I</note>
-              <lb n="18" xml:id="p171-17"/>Κ καὶ τοῦ Π· ὃν δὲ ἐπὶ ταύτης κατωτέρω ἔσται τῆς τοῦ ὁρίζοντος διαμέτρου.<note type="apparatus" n="18" target="#p171-17">τῆς om. W</note>
+              <lb n="18" xml:id="p171-17"/>Κ καὶ τοῦ Π· ὂν δὲ ἐπὶ ταύτης κατωτέρω ἔσται τῆς τοῦ ὁρίζοντος διαμέτρου.<note type="apparatus" n="18" target="#p171-17">τῆς om. W</note>
               <lb n="19" xml:id="p171-18"/>εἰ δὲ κατωτέρω, ἔλαττον ἡμικυκλίου ἔσται τὸ ὑπὲρ τὸν ὁρίζοντα<note type="apparatus" n="19" target="#p171-18">ἡ δὲ I ἐλάττων I τὸ] γὰρ I</note><milestone type="alt-edition" unit="line" ed="Aldina 1527" n="10"/>
               <lb n="20" xml:id="p171-19"/>τμῆμα τοῦ κύκλου· ἡμικύκλιον γὰρ ἐγίνετο, ὅτε ἐπὶ τοῦ ὁρίζοντος ἦν τὸ<note type="apparatus" n="20" target="#p171-19">τμῆμα τοῦ] τμήματα I</note>
               <lb n="21" xml:id="p171-20"/>κέντρον αὐτοῦ. κατ’ ἀναλογίαν δὲ τῆς ἀπὸ τοῦ ὁρίζοντος ἀποστάσεως
@@ -6718,7 +6717,7 @@
             </quote>
             <p>
               <lb n="33" xml:id="p173-32"/>Εἰπὼν περὶ ἅλω καὶ ἴριδος ἐπὶ τὸν περὶ παρηλίων καὶ ῥάβδων μέτεισι
-              <lb n="34" xml:id="p173-33"/>λόγον, καὶ λέγει ταὐτὰ δεῖν αἴτια ἡγεῖσθαι καὶ τούτων ἃ καὶ τῶν προεἰρημένων,<note type="apparatus" n="34" target="#p173-33">ταῦτα I δεῖν post ἡγεῖσθαι exh. BWa καὶ alterum om. BWa τούτων τε καὶ BWa</note>
+              <lb n="34" xml:id="p173-33"/>λόγον, καὶ λέγει ταὐτὰ δεῖν αἴτια ἡγεῖσθαι καὶ τούτων ἃ καὶ τῶν προειρημένων,<note type="apparatus" n="34" target="#p173-33">ταῦτα I δεῖν post ἡγεῖσθαι exh. BWa καὶ alterum om. BWa τούτων τε καὶ BWa</note>
             </p>
             <pb n="174" facs="https://archive.org/download/commentariaina03pt2akaduoft/page/n195.jpg"/>
             <p>
@@ -6800,11 +6799,11 @@
               <lb n="31" xml:id="p175-30"/>Τὸ ἄνω λέγοι ἂν τὸ ἐπ’ εὐθείας τῷ ἡλίῳ, καθ’ ἃ τὴν κίνησιν ποιεῖται·
               <lb n="32" xml:id="p175-31"/>κατὰ τοῦτο δὴ οὐ γίνονται αἱ συστάσεις αἱ τοὺς παρηλίους ἢ τὰς<note type="apparatus" n="32-33" target="#p175-31 #p175-32">τοὺς ῥάβδους I</note>
               <lb n="33" xml:id="p175-32"/>ῥάβδους ἢ τὰς ἅλως δεχόμεναι, ὅτι ἢ ἐγγὺς οὖσαι τοῦ ἡλίου διαλύονται,<note type="apparatus" n="33 et 34" target="#p175-32 #p175-33">οὖσα a</note>
-              <lb n="34" xml:id="p175-33"/>ἢ πόρρω οὖσαι οὐ σώζουσι τὴν ἀνάκλασιν· καὶ γὰρ ἀεὶ τὴν ἀρχὴν σύμμέτρον<note type="apparatus" n="34" target="#p175-33">ἀεὶ] δεῖ BWa</note><milestone type="alt-edition" unit="line" ed="Aldina 1527" n="45"/>
+              <lb n="34" xml:id="p175-33"/>ἢ πόρρω οὖσαι οὐ σώζουσι τὴν ἀνάκλασιν· καὶ γὰρ ἀεὶ τὴν ἀρχὴν σύμμετρον<note type="apparatus" n="34" target="#p175-33">ἀεὶ] δεῖ BWa</note><milestone type="alt-edition" unit="line" ed="Aldina 1527" n="45"/>
             </p>
             <pb n="176" facs="https://archive.org/download/commentariaina03pt2akaduoft/page/n197.jpg"/>
             <p>
-              <lb n="1" xml:id="p176-0"/>ἀφεστάνει δεῖ. προσιὼν γὰρ ὁ ἥλιος ἢ ἀπιὼν ἀπ’ αὐτῶν τῷ ἐπὶ<note type="apparatus" n="1" target="#p176-0">δεῖ om. BW a προσιὼν γὰρ] ἵνα μὴ προσιὼν BW a</note>
+              <lb n="1" xml:id="p176-0"/><choice><sic>ἀφεστάνει</sic><corr>ἀφεστάναι</corr></choice> δεῖ. προσιὼν γὰρ ὁ ἥλιος ἢ ἀπιὼν ἀπ’ αὐτῶν τῷ ἐπὶ<note type="apparatus" n="1" target="#p176-0">δεῖ om. BW a προσιὼν γὰρ] ἵνα μὴ προσιὼν BW a</note>
               <lb n="2" xml:id="p176-1"/>ταῦτα κινεῖσθαι ἢ ἐγγυτέρω ἔσται τῆς συμμετρίας ἢ πορρωτέρω· ἐν δὲ<note type="apparatus" n="2" target="#p176-1">ἔσται] ᾖ a</note>
               <lb n="3" xml:id="p176-2"/>τῷ πλαγίῳ ἔστιν εὑρεῖν σύμμετρον ἀπόστασιν, ἥτις πρὸς τῷ εἶναι σύμμετρος<note type="apparatus" n="3" target="#p176-2">post πλαγίῳ add. φησὶν BW a ἔστιν om. B¹ πρὸς τὸ B¹ I</note>
               <lb n="4" xml:id="p176-3"/>καὶ μένει ἐν τῇ αὐτῇ συμμετρίᾳ, μήτε προσιόντος αὐτῇ τοῦ ἡλίου
@@ -7005,7 +7004,7 @@
               <lb n="20" xml:id="p181-19"/>τούτων τῶν δυνάμεών ἐστιν ἔργον. τὴν γένεσίν φησι τὴν<note type="apparatus" n="20-21" target="#p181-19 #p181-20">φησὶ δὴ οὖν τὴν γένεσιν καθόλου a</note><note type="apparatus" n="20" target="#p181-19">τὴν post φησι om. BW</note>
               <lb n="21" xml:id="p181-20"/>καθόλου καὶ τὴν φυσικὴν μεταβολὴν ὑπὸ τούτων γίνεσθαι τῶν δυνάμεων<note type="apparatus" n="21" target="#p181-20">καθόλου om. W</note>
               <lb n="22" xml:id="p181-21"/>καὶ κατὰ ταύτας. ἁπλῆν δὲ γένεσιν εἶπεν ἀντὶ τοῦ τὴν κυρίως γένεσιν,<note type="apparatus" n="22" target="#p181-21">ἀντὶ τοῦ om. a κυρίων a</note>
-              <lb n="23" xml:id="p181-22"/>ἀλλ’ οὐ τὴν μετὰ προσθήκης· τὶς γὰρ γένεσις καὶ ἡ ἀλλοίωσις. προσἔθηκε
+              <lb n="23" xml:id="p181-22"/>ἀλλ’ οὐ τὴν μετὰ προσθήκης· τὶς γὰρ γένεσις καὶ ἡ ἀλλοίωσις. προσέθηκε
               <lb n="24" xml:id="p181-23"/>δὲ καὶ τὸ τὴν φυσικὴν μεταβολήν, ὅτι μὴ μόνη ἡ ἁπλῆ γένεσίς<note type="apparatus" n="24" target="#p181-23">δὲ supr. vers. B² τὸ om. a ἡ om. B¹Wa</note><milestone type="alt-edition" unit="line" ed="Aldina 1527" n="40"/>
               <lb n="25" xml:id="p181-24"/>ἐστι φυσικὴ μεταβολή, ἀλλὰ καὶ ἄλλαι τινές, αἵτινες καὶ αὐταὶ ὑπὸ τούτων<note type="apparatus" n="25" target="#p181-24">post ἔστιν add. ἡ BWa</note>
               <lb n="26" xml:id="p181-25"/>γίνονται τῶν δυνάμεων, ὡς αὐξήσεις καρπῶν μεταβολαί τε καὶ πέψεις<note type="apparatus" n="26" target="#p181-25">αὔξησις B¹W καρπῶν] φυτῶν a</note>
@@ -7016,7 +7015,7 @@
               <lb n="31" xml:id="p181-30"/>οὕτως γίνεται· οὐ γὰρ δὴ καὶ ἡ βίαιος, οἷον εἴ τις ξίφει πληγεὶς διαφθαρείη.<note type="apparatus" n="31" target="#p181-30">πληγῇ I</note><note type="apparatus" n="31-32" target="#p181-30 #p181-31">διαφθαρῇ B¹Wa</note>
               <lb n="32" xml:id="p181-31"/>αὗται μὲν οὖν τοῖς τε φυτοῖς ὑπάρχουσι καὶ τοῖς ζῴοις<note type="apparatus" n="32" target="#p181-31">ante αὗται add. ἡ BWa</note>
               <lb n="33" xml:id="p181-32"/>καὶ τοῖς μέρεσιν αὐτῶν. τὰς δυνάμεις λέγει τὰς τέσσαρας, καθ’ ἃς
-              <lb n="34" xml:id="p181-33"/>ἡ γένεσις καὶ ἡ φθορά· πασῶν γὰρ αὐτῶν ἕκαστον τῶν εἰρημένων μετἔχει,
+              <lb n="34" xml:id="p181-33"/>ἡ γένεσις καὶ ἡ φθορά· πασῶν γὰρ αὐτῶν ἕκαστον τῶν εἰρημένων μετέχει,
             </p>
             <pb n="182" facs="https://archive.org/download/commentariaina03pt2akaduoft/page/n203.jpg"/>
             <p>
@@ -7130,7 +7129,7 @@
               <lb n="27" xml:id="p184-26"/>τῆς ἐν τῷ περιέχοντι οὐ κρατεῖται ὑπ’ αὐτῆς· τὸ γὰρ πλεῖον θερμὸν τοῦ<milestone type="alt-edition" unit="line" ed="Aldina 1527" n="30"/>
               <lb n="28" xml:id="p184-27"/>ἐλάττονος κρατοῦν σβέννυσί τε αὐτὸ καὶ φθείρει. ἀλλὰ καὶ τὸ κινούμενον<note type="apparatus" n="28" target="#p184-27">post κινούμενον add. φησὶ BWa</note>
               <lb n="29" xml:id="p184-28"/>καὶ ῥέον ἧττον τοῦ ἀκινητίζοντος σήπεται. διὸ τὰ σταδαῖα ὕδατα τῶν<note type="apparatus" n="29" target="#p184-28">σήπεται om. B¹W διὸ τὰ] διὰ τὸ W</note>
-              <lb n="30" xml:id="p184-29"/>ῥεόντων εὐσηπτότερα· τῆς γὰρ ἐν τοῖς ῥέουσί τε καὶ κινουμένοις ἐνυαρχούσης<note type="apparatus" n="30" target="#p184-29">εὐσηπτότερα BW</note>
+              <lb n="30" xml:id="p184-29"/>ῥεόντων εὐσηπτότερα· τῆς γὰρ ἐν τοῖς ῥέουσί τε καὶ κινουμένοις ἐνυπαρχούσης<note type="apparatus" n="30" target="#p184-29">εὐσηπτότερα BW</note>
               <lb n="31" xml:id="p184-30"/>θερμότητος ὑπὸ τῆς κινήσεως ζωπυρουμένης ἀσθενεστέρα γίνεται
               <lb n="32" xml:id="p184-31"/>ἡ ἐν τῷ ἀέρι τῷ περιέχοντι θερμότης. διὰ τὴν αὐτὴν δὲ αἰτίαν καὶ τὸ
               <lb n="33" xml:id="p184-32"/>πλεῖον ἧττον τοῦ ὀλίγου σήπεται. εὐσηπτότερον γὰρ τὸ ἔλαττον τῷ<note type="apparatus" n="33" target="#p184-32">σήπεσθαι Wa</note>
@@ -7182,7 +7181,7 @@
               <lb n="28" xml:id="p185-27"/>ἃ καὶ αὐτὰ γίνεται ὑπὸ τῶν δυνάμεων τῶν προειρημένων. ταῦτα δ’ ἐστὶ<note type="apparatus" n="28" target="#p185-27">αὐτὰ] ταῦτα I</note>
               <lb n="29" xml:id="p185-28"/>τὰ δι’ ὧν αἱ εἰρημέναι δυνάμεις ἕκαστον ὧν ποιοῦσι ποιοῦσιν ἐν ταῖς ἤδη<note type="apparatus" n="29" target="#p185-28">ποιοῦσιν semel BI</note>
               <lb n="30" xml:id="p185-29"/>συνεστώσαις φυσικαῖς οὐσίαις· αὗται δ’ εἰσὶ τὰ σώματα τῶν τε ζῴων τε<note type="apparatus" n="30-31" target="#p185-29 #p185-30">ζῴων καὶ τῶν φυτῶν BWa</note>
-              <lb n="31" xml:id="p185-30"/>καὶ φυτῶν. ἔστι δὴ τούτων κοινὰ μέν, δι’ ὧν ἕκαστον τῶν ἐν τοῖς προεἰρημένοις<note type="apparatus" n="31" target="#p185-30">δὴ] δὲ Wa ἕκαστα BWa</note>
+              <lb n="31" xml:id="p185-30"/>καὶ φυτῶν. ἔστι δὴ τούτων κοινὰ μέν, δι’ ὧν ἕκαστον τῶν ἐν τοῖς προειρημένοις<note type="apparatus" n="31" target="#p185-30">δὴ] δὲ Wa ἕκαστα BWa</note>
               <lb n="32" xml:id="p185-31"/>γίνεται, πέψις καὶ ἀπεψία, ἀνάλογον ὄντα τὸ μὲν γενέσει, τὸ<note type="apparatus" n="32" target="#p185-31">ψέψις I</note>
             </p>
             <pb n="186" facs="https://archive.org/download/commentariaina03pt2akaduoft/page/n207.jpg"/>
@@ -7254,7 +7253,7 @@
               <lb n="27" xml:id="p187-26"/>πεσσομένοις, τὸ πέσσεσθαί τε καὶ πεπέφθαι τότε, ὅταν ἡ ὑποκειμένη ὕλη
               <lb n="28" xml:id="p187-27"/>τε καὶ ὑγρότης κρατηθῇ ὑπὸ τῆς φυσικῆς θερμότητος. ἕως γὰρ ἄν, φησίν,
               <lb n="29" xml:id="p187-28"/>ἐν τοῖς τοιούτοις ὑγροῖς πᾶσι τὸ θερμὸν τὸ ἐν αὐτοῖς ἐν ἀναλογίᾳ τινὶ ᾖ
-              <lb n="30" xml:id="p187-29"/>τοιαύτη πρὸς τὸ ὑγρόν, ὡς δύνασθαι κινεῖν αὐτὸ καὶ μεταβάλλειν, φύσις<milestone type="alt-edition" unit="line" ed="Aldina 1527" n="10"/>
+              <lb n="30" xml:id="p187-29"/>τοιαύτῃ πρὸς τὸ ὑγρόν, ὡς δύνασθαι κινεῖν αὐτὸ καὶ μεταβάλλειν, φύσις<milestone type="alt-edition" unit="line" ed="Aldina 1527" n="10"/>
               <lb n="31" xml:id="p187-30"/>αὐτῶν τοῦτο· ἡ γὰρ ἐν ἑκάστῳ ἀρχὴ κινητικὴ καθ’ αὑτὸ καὶ μὴ κατὰ<note type="apparatus" n="31" target="#p187-30">post μὴ add. οὐ W</note>
               <lb n="32" xml:id="p187-31"/>συμβεβηκός, ὡς ἐδείχθη ἐν τῇ Φυσικῇ ἀκροάσει, φύσις ἐκείνου. ὅτι δὲ<note type="apparatus" n="32" target="#p187-31">ἐδείχθη post ἀκροάσει coll. a ἐν τῇ Φυσικῇ ἀκροάσει] B 1 p. 192 b 21 sqq. φάσις I</note>
             </p>
@@ -7270,7 +7269,7 @@
               <lb n="8" xml:id="p188-7"/>καὶ εὐογκότερα καὶ ξηρότερα ἀποτελεῖ.<note type="apparatus" n="8" target="#p188-7">ξηρότερα ἀποτελεῖ] παχύτερα BWa</note>
               <lb n="9" xml:id="p188-8"/>Εἰπὼν δὲ τί ποτ’ ἐστὶν ἡ πέψις, ἑξῆς λέγει περὶ τοῦ ἐναντίου αὐτῇ·<note type="apparatus" n="9" target="#p188-8">δὲ om. a</note>
               <lb n="10" xml:id="p188-9"/>τοῦτο δ’ ἐστὶν ἡ ἀπεψία. φησὶ δὴ τὴν ἀπεψίαν εἶναι ἀτέλειαν δι’ ἔνδειαν
-              <lb n="11" xml:id="p188-10"/>τῆς οἰκείας θερμότητος· ἡ δὲ ἔνδεια τῆς οἰκείας θερμότητος οἰκεία ψυγρότης<note type="apparatus" n="11-12" target="#p188-10 #p188-11">ψυχρότης in ras. al. m. B</note>
+              <lb n="11" xml:id="p188-10"/>τῆς οἰκείας θερμότητος· ἡ δὲ ἔνδεια τῆς οἰκείας θερμότητος οἰκεία ψυχρότης<note type="apparatus" n="11-12" target="#p188-10 #p188-11">ψυχρότης in ras. al. m. B</note>
               <lb n="12" xml:id="p188-11"/>ἐστίν, ὥστε εἴη ἂν ἡ ἀπεψία ἀτέλεια δι’ οἰκείαν ψυχρότητα.<note type="apparatus" n="12" target="#p188-11">post οἰκείαν add. γινομένη BWa</note>
               <lb n="13" xml:id="p188-12"/>ὥσπερ δὲ τὴν πέψιν εἰπὼν τελειότητα προσέθηκε καὶ τὸ τίνων (τῶν γὰρ
               <lb n="14" xml:id="p188-13"/>ἀντικειμένων παθητικῶν, ταῦτα δ’ ἦν τὰ ὑποκείμενα τῇ πέψει, ὕλη ὄντα),<milestone type="alt-edition" unit="line" ed="Aldina 1527" n="25"/>
@@ -7304,7 +7303,7 @@
               <lb n="5" xml:id="p189-4"/>πέψεως καὶ καθ’ ἑκάστην πέψεως τελείωσιν, προσέθηκε περὶ τὰ ὁριζόμενα<note type="apparatus" n="5" target="#p189-4">πέψεως post ἑκάστην om. BWa περὶ om. BW</note>
               <lb n="6" xml:id="p189-5"/>ὑπὸ τῆς φυσικῆς θερμότητος καὶ ψυχρότητος, οὐχ ὡς<note type="apparatus" n="6" target="#p189-5">θερμότητός τε καὶ BW</note>
               <lb n="7" xml:id="p189-6"/>πέψεώς τινος γινομένης καὶ ὑπὸ ψυχρότητος (κεῖται γὰρ ἡ πέψις ὑπὸ
-              <lb n="8" xml:id="p189-7"/>θερμότητος γίνεσθαι), ἀλλ’ ὡς πρὸς τὴν πέψιν συντελούσης καὶ τῆς ψυγρότητος·
+              <lb n="8" xml:id="p189-7"/>θερμότητος γίνεσθαι), ἀλλ’ ὡς πρὸς τὴν πέψιν συντελούσης καὶ τῆς ψυχρότητος·
               <lb n="9" xml:id="p189-8"/>ἡ γὰρ <milestone type="alt-edition" unit="folio" ed="Aldina 1527" n="129r"/> θερμότης ὡς ὕλην τὸ ὑγρὸν καὶ τὸ ψυχρὸν ὁρίζει
               <lb n="10" xml:id="p189-9"/>ἐν τῇ πέψει κρατοῦσα. ὅτι δὲ καὶ τὰ ἄλλα, ἐφ’ ὧν δι’ ὁμοιότητα μεταφορικῶς<note type="apparatus" n="10" target="#p189-9">τὰ om. I ἀφ’ ὧν B¹W</note>
               <lb n="11" xml:id="p189-10"/>τὸ τῆς πεπάνσεως ὄνομα κατηγορεῖται, ὁμοειδῶς γίνεται καὶ
@@ -7621,7 +7620,7 @@
               <lb n="13" xml:id="p197-12"/>γεννώμενά τινα ζῷα, ὡς προείρηκεν, ὅτε ἔλεγε περὶ σήψεως· γεννώμενα δὲ<note type="apparatus" n="13" target="#p197-12">γεννώμενά om. BWa</note>
               <lb n="14" xml:id="p197-13"/>οὕτως τε καὶ ἐνταῦθα ἐπάνεισι πολλάκις ἐπὶ τὴν ἄνω κοιλίαν· ἔστι δὲ
               <lb n="15" xml:id="p197-14"/>ταῦτα αἵ τε λεγόμεναι τερηδόνες καὶ οἱ ἕλμινθες. διὸ πολλάκις ἐν ταῖς<note type="apparatus" n="15" target="#p197-14">post λεγόμεναι add. αἱ I τεριδόκες I</note><milestone type="alt-edition" unit="line" ed="Aldina 1527" n="40"/>
-              <lb n="16" xml:id="p197-15"/>νόσοις καὶ ἐμοῦνται. τὴν δὲ αἰτίαν τοῦ κάτω μὲν γεννᾶσθαι αὐτά, ἐπανἰέναι<note type="apparatus" n="16" target="#p197-15">γενέσθαι B¹W: γίνεσθαι a</note>
+              <lb n="16" xml:id="p197-15"/>νόσοις καὶ ἐμοῦνται. τὴν δὲ αἰτίαν τοῦ κάτω μὲν γεννᾶσθαι αὐτά, ἐπανιέναι<note type="apparatus" n="16" target="#p197-15">γενέσθαι B¹W: γίνεσθαι a</note>
               <lb n="17" xml:id="p197-16"/>δὲ πολλάκις καὶ ἐπὶ τὴν ἄνω κοιλίαν ἐν ἑτέροις εἰρῆσθαί φησιν· ἐν<note type="apparatus" n="17-18" target="#p197-16 #p197-17">ἐν τοῖς Προβλήμασι] cf. fragm. 231 p. 1519 b 10</note>
               <lb n="18" xml:id="p197-17"/>γὰρ τοῖς Προβλήμασι. κάτω μὲν γὰρ καὶ ἐν τῇ κάτω κοιλίᾳ, ὅτι ἐκ
               <lb n="19" xml:id="p197-18"/>σήψεως γίνεται, ἐνταῦθα δὲ ἡ σῆψις· ἐπάνεισι δὲ ἐν ταῖς νόσοις καὶ ἐπὶ<note type="apparatus" n="19" target="#p197-18">δὲ post ἐνταῦθα om. I</note>
@@ -7808,7 +7807,7 @@
               <lb n="25" xml:id="p201-24"/>τῶν σωματικῶν παθῶν λέγοντι. λέγων δὴ περὶ πήξεως περὶ τῶν αἰτίων<note type="apparatus" n="25" target="#p201-24">αἰτιῶν B1W</note>
               <lb n="26" xml:id="p201-25"/>ἀναλαβὼν λέγει. φησὶ δὴ τὰ παρὰ τὴν ὕλην αἴτια δύο εἶναι, τό τε ποιοῦν<note type="apparatus" n="26" target="#p201-25">ἀναλαβὼν om. B1Wa παρὰ I Arist. EN: περὶ BWa Arist. vulg.</note>
               <lb n="27" xml:id="p201-26"/>καὶ τὸ πάθος, πάθος λέγων τὸ γινόμενον εἶδος ὑπὸ τοῦ ποιοῦντος ἐν τῇ<note type="apparatus" n="27" target="#p201-26">πάθη λέγων B1W</note>
-              <lb n="28" xml:id="p201-27"/>ὕλη, ὡς εἶναι τὰ αἴτια τρία, ὕλην, εἶδος, ποιοῦν, ὡς τῷ εἴδει συναριθμουμένου<note type="apparatus" n="28" target="#p201-27">εἶδος ὕλην coll. I ὕλην εἰδοποιοῦν B1</note>
+              <lb n="28" xml:id="p201-27"/>ὕλῃ, ὡς εἶναι τὰ αἴτια τρία, ὕλην, εἶδος, ποιοῦν, ὡς τῷ εἴδει συναριθμουμένου<note type="apparatus" n="28" target="#p201-27">εἶδος ὕλην coll. I ὕλην εἰδοποιοῦν B1</note>
               <lb n="29" xml:id="p201-28"/>καὶ τοῦ τέλους· δοκεῖ γὰρ ἐν τοῖς γινομένοις φύσει τοῦτ’ εἶναι
               <lb n="30" xml:id="p201-29"/>τέλος. εἰ δὴ ἐν πᾶσι τοῖς γινομένοις τοσαῦτά τε καὶ ταῦτα τὰ αἴτια, καὶ<note type="apparatus" n="30" target="#p201-29">τέλος] εἶδος B2</note>
               <lb n="31" xml:id="p201-30"/>ἡ πῆξις δὲ τῶν γινομένων, εἴη ἂν καὶ πήξεως αἴτια ταῦτα, ὁμοίως καὶ<milestone type="alt-edition" unit="line" ed="Aldina 1527" n="10"/>
@@ -7906,7 +7905,7 @@
               <lb n="2" xml:id="p204-1"/>ξηραινόμενα ἢ ψυχόμενα ἢ θερμαινόμενα, καὶ πάντα, ὡς ἐδείχθη, θερμῷ,<note type="apparatus" n="2" target="#p204-1">post alterum ἢ add. γὰρ sed rursus exp. B</note>
               <lb n="3" xml:id="p204-2"/>ἢ τῷ ἐκτὸς θερμαίνοντι καὶ ἐξατμίζοντι τὸ ἐν τοῖς ξηραινομένοις ὑγρὸν ἢ<note type="apparatus" n="3" target="#p204-2">ἐκτὸς θερμῷ ὄντι I ἐξατμίζει I</note>
               <lb n="4" xml:id="p204-3"/>τῷ ἐντός, ὃ διὰ τὴν ψῦξιν ἐξατμιζόμενον ἐκ τοῦ ξηραινομένου συνεξατμίζει
-              <lb n="5" xml:id="p204-4"/>καὶ συνεξάγει καὶ τὸ ὑγρὸν τὸ ἐν αὐτῷ. ὑπὸ μὲν οὖν τῆς ἐκτὸς θερμοτητος
+              <lb n="5" xml:id="p204-4"/>καὶ συνεξάγει καὶ τὸ ὑγρὸν τὸ ἐν αὐτῷ. ὑπὸ μὲν οὖν τῆς ἐκτὸς θερμότητος
               <lb n="6" xml:id="p204-5"/>ξηραίνεται τὰ ξηραινόμενα οὕτως ὡς τὰ ἑψόμενα, ὑπὸ δὲ τῆς ἐντὸς
               <lb n="7" xml:id="p204-6"/>πάλιν οὕτως, ὡς ὅταν τῶν ἑψομένων ἀφαιρεθέντος τοῦ ἐκτὸς πυρὸς τὸ<note type="apparatus" n="7" target="#p204-6">ἑψομένων] supr. vers. add. litt. μ ψ υ I</note>
               <lb n="8" xml:id="p204-7"/>ὑγρὸν τὸ ἐν αὐτοῖς ἀναλωθῇ ὑπὸ τῆς ἐν αὐτοῖς θερμότητος ἀποπνεούσης<milestone type="alt-edition" unit="line" ed="Aldina 1527" n="25"/>
@@ -8558,7 +8557,7 @@
               <lb n="8" xml:id="p221-7"/>ὑπὸ πυρὸς τήκεται, ταῦτα ὑδατωδέστερα, ὅσα δὲ ὑπὸ ὕδατος, γῆς· ὅσα
               <lb n="9" xml:id="p221-8"/>δὲ μηδ’ ὑφ’ ἑτέρου, ἢ γῆς ἢ ἐξ ἀμφοῖν.<note type="apparatus" n="9" target="#p221-8">μὴ ὑφ’ a ἐξ om. W</note>
               <lb n="10" xml:id="p221-9"/>Ὄντων δή, φησί, πάντων τῶν ὁμοιομερῶν ἢ ὑγρῶν ἢ πεπηγότων,<note type="apparatus" n="10" target="#p221-9">δή] δὲ a</note><milestone type="alt-edition" unit="folio" ed="Aldina 1527" n="139v"/>
-              <lb n="11" xml:id="p221-10"/>ταῦτα δ’ ἐν τοῖς εἰρημένοις πάθεσίν ἐστι (τῶν μὲν γὰρ ὑγρῶν τὰ μὲν ἐξἀτμίζεται,<note type="apparatus" n="11" target="#p221-10">ταῦτα δ’] exspectas ταῦτα εἰ τῶν ex ὧν corr. W</note>
+              <lb n="11" xml:id="p221-10"/>ταῦτα δ’ ἐν τοῖς εἰρημένοις πάθεσίν ἐστι (τῶν μὲν γὰρ ὑγρῶν τὰ μὲν ἐξατμίζεται,<note type="apparatus" n="11" target="#p221-10">ταῦτα δ’] exspectas ταῦτα εἰ τῶν ex ὧν corr. W</note>
               <lb n="12" xml:id="p221-11"/>τὰ δ’ οὔ, καὶ τὰ μὲν ὑπὸ θερμοῦ παχύνεται, τὰ δ’ ὑπὸ ψυχροῦ,<note type="apparatus" n="12" target="#p221-11">ἀπὸ ψυχροῦ a</note>
               <lb n="13" xml:id="p221-12"/>τὰ δ’ ὑπ’ ἀμφοῖν, τῶν δὲ πεπηγότων τε καὶ σκληρῶν τὰ μὲν ὑπὸ ψυχροῦ<note type="apparatus" n="13" target="#p221-12">τῶν δὲ πεπηγότων — ἀμφοῖν (14) om. a</note>
               <lb n="14" xml:id="p221-13"/>πέπηγε, τὰ δ’ ὑπὸ θερμοῦ, τὰ δ’ ὑπ’ ἀμφοῖν, καὶ τὰ μὲν ὑπὸ πυρὸς
@@ -8615,7 +8614,7 @@
               <lb n="27" xml:id="p222-26"/>τε καὶ πηγνύμενα. οὕτως μὲν οὖν ἔχειν φησίν, ὡς προείρηται, ὡς ἐν
               <lb n="28" xml:id="p222-27"/>πᾶσιν αὐτοῖς τὸ ὑποκείμενον ψυχρὸν εἶναι· ὅμως δέ, ὥσπερ διώρισται καὶ<note type="apparatus" n="28" target="#p222-27">αὐτοῖς τὸ] αὐτὸ τοῦτο I</note>
               <lb n="29" xml:id="p222-28"/>προείρηται, ἐν οἷς μὲν ὕλη ὕδωρ, ταῦτα ὡς ἐπὶ τὸ πλεῖστον ψυχρά (τὸ
-              <lb n="30" xml:id="p222-29"/>γὰρ ὕδωρ ἀντίκειται μάλιστα τῷ πυρί, ὃν κατ’ ἀμφοτέρας τὰς δυνάμεις,
+              <lb n="30" xml:id="p222-29"/>γὰρ ὕδωρ ἀντίκειται μάλιστα τῷ πυρί, ὂν κατ’ ἀμφοτέρας τὰς δυνάμεις,
               <lb n="31" xml:id="p222-30"/>τήν τε ὑγρότητα καὶ τὴν ψυχρότητα, ἐναντίον αὐτῷ, ὄντι ξηρῷ τε καὶ<note type="apparatus" n="31" target="#p222-30">τὴν post καὶ om. BWa</note>
               <lb n="32" xml:id="p222-31"/>θερμῷ), ἐν οἷς δὲ ἡ ὕλη γῆς ἢ ἀέρος, ταῦτα θερμά. συμβαίνει δέ ποτε,
               <lb n="33" xml:id="p222-32"/>φησί, τὰ αὐτὰ γίνεσθαι καὶ ψυχρότατα καὶ θερμότατα, ἀλλοτρίαν προσλαμβάνοντα<note type="apparatus" n="33" target="#p222-32">ψυχρότητα καὶ θερμότητα Ia</note><milestone type="alt-edition" unit="line" ed="Aldina 1527" n="40"/>
@@ -8674,7 +8673,7 @@
               <lb n="13" xml:id="p224-12"/>τούτων δῆλον τὸ τίνος χάριν ἐστὶν ἕκαστον αὐτῶν, ἐν οἷς πλεῖστον τὸ τῆς<note type="apparatus" n="13" target="#p224-12">δηλονότι τινὸς χάριν I ἕκαστόν ἐστιν coll. BWa</note><milestone type="alt-edition" unit="line" ed="Aldina 1527" n="30"/>
               <lb n="14" xml:id="p224-13"/>ὕλης ἐστί, τουτέστιν ἐν τοῖς ἐγγυτέρω τῆς ὕλης· ἐγγυτάτω δὲ τῆς ὕλης
               <lb n="15" xml:id="p224-14"/>ἐστὶ τὰ πρῶτα ἐκ τῆς ὕλης γινόμενα, ἅπερ ἐστὶ τὰ στοιχεῖα· διὸ καὶ ὕλης<note type="apparatus" n="15" target="#p224-14">ἐστὶ καὶ στοιχεῖα BWa</note>
-              <lb n="16" xml:id="p224-15"/>ταῦτα λόγον ἐν τοῖς συνθέτοις ἔχει. ὥστε εἰ τὰ ἔσχατα ἐξ ὧν τὸ συνἀμφότερον
+              <lb n="16" xml:id="p224-15"/>ταῦτα λόγον ἐν τοῖς συνθέτοις ἔχει. ὥστε εἰ τὰ ἔσχατα ἐξ ὧν τὸ συναμφότερον
               <lb n="17" xml:id="p224-16"/>κατ’ ἰδίαν ληφθείη (ταῦτα δ’ ἐστὶν ἥ τε ὕλη καὶ τὸ εἶδος),
               <lb n="18" xml:id="p224-17"/>οὔτε ἡ ὕλη ἄλλο τι ἔστι παρ’ αὐτήν (αὕτη γὰρ ἡ ἐσχάτη ὕλη, ἥτις ἔστι<note type="apparatus" n="18" target="#p224-17">post οὔτε add. γὰρ B³ αὕτη] αὐτὴ B¹a</note>
               <lb n="19" xml:id="p224-18"/>τὸ πρῶτον ὑποκείμενον τοῖς σώμασιν· ἁπλῆ γὰρ φύσις ἡ τοιαύτη), ὁμοίως<note type="apparatus" n="19" target="#p224-18">post γὰρ add. τις BWa</note>

@@ -56,6 +56,7 @@
       <change when="2026-10-23" who="#NI">Quotation marks made uniform: opening single and double quotation marks, printed in the edition in the reversed (high-reversed-9) form, are encoded as ‘ and “, closing ones as ’ and ”, single and double kept as printed; opening marks read by the OCR as straight quotes, low quotes or spacing breathings, and spacing breathings or quotation marks doubled before a capital that already bears its breathing, corrected.</change>
       <change when="2026-11-05" who="#NI">Apparatus entries printed out of numerical order (e.g. 33 … 32) separated from the preceding entry; words hyphenated across lines joined in Latin text as in Greek; words mixing Greek and Latin letters (OCR errors, about 130, including manuscript sigla) corrected on the page images; marginal folio marks left in the text removed; validated against TEI P5 version 4.12.0 (recorded in TEI/@version).</change>
       <change when="2026-11-05" who="#NI">Extent of the lemma quotations (quote[@type='lemma']) corrected: the automatic division had closed every lemma after its first printed line, leaving the remaining lines of lemmata printed over two or more lines at the head of the following paragraph. Candidates were found from the letter-spacing of the lines on the page images (lemmata are printed spaced) and from the line geometry (centred last line, indented paragraph start), and every candidate was decided on the page image (Claude work teams; about 7,700 places in the corpus); the lines so decided are now inside the quotation, with pb inside the quotation where a lemma runs on to the next page. Where the lemma runs on in the same line as the commentary (Stephanus in De interpretatione), the quotation ends after the last spaced word and the paragraph continues in the same line without a new lb; where no lemma is printed and the paraphrase follows the Bekker reference directly (Michael in De partibus animalium from p. 37), the quotation is dropped and the division kept; centred last lines the edition does not count are inside the quotation as unnumbered lines.</change>
+      <change when="2026-11-22" who="#NI">Readings questioned by the review of the translations collated on the page images (read independently, at least twice wherever the print does not have the proposed form, by a language model, Claude; the 28 places in all works that it could not settle were read by the editor): 9 errors of the transcription corrected; 10 evident misprints of the edition given as choice/sic/corr; 1 evident misprint of the edition in a word broken at the line end (which cannot carry choice/sic/corr) corrected in the text.</change>
     </revisionDesc>
   </teiHeader>
   <text>
@@ -127,7 +128,7 @@
               <lb n="29" xml:id="p2-28"/>καὶ ἀναπτύξεις εἰσὶ τῶν φύσεων), δεῖ ἐκ τοῦ ὁρισμοῦ ἄρξασθαι· εἰς τοιαύτην<note type="apparatus" n="29" target="#p2-28">ἐκ] ἀπὸ P</note>
               <lb n="30" xml:id="p2-29"/>γὰρ ἀνάγκην κατήντησεν ὁ λόγος. τοῦ δὲ ὁρισμοῦ πρόσρημα τὸ τί ἐστιν·
               <lb n="31" xml:id="p2-30"/>ἐκ τούτου οὖν δεῖ ἄρξασθαι, ὡς ἔδειξεν ὁ λόγος. τίς δὲ ὁ ὁρισμὸς τῆς<note type="apparatus" n="31" target="#p2-30">alt. ὁ om. Cc</note><note type="apparatus" n="31-32" target="#p2-30 #p2-31">τῆς φιλοσοφίας om. Brand.</note>
-              <lb n="32" xml:id="p2-31"/>φιλοσοφίας, ἐν ἑτέρᾳ θεωρίᾳ εὐμενείᾳ τοῦ κρείττοντος παραστήσομεν.<milestone type="alt-edition" unit="line" ed="Cramer, Anecd. Paris. IV" n="10"/>
+              <lb n="32" xml:id="p2-31"/>φιλοσοφίας, ἐν ἑτέρᾳ θεωρίᾳ εὐμενείᾳ τοῦ <choice><sic>κρείττοντος</sic><corr>κρείττονος</corr></choice> παραστήσομεν.<milestone type="alt-edition" unit="line" ed="Cramer, Anecd. Paris. IV" n="10"/>
             </p>
             </div>
         </div>
@@ -465,7 +466,7 @@
               <lb n="21" xml:id="p11-20"/>ἄλλων ἁπάντων; καὶ λέγομεν ὅτι πάντα περιέλαβε· διττῶν γὰρ ὄντων πάντων,
               <lb n="22" xml:id="p11-21"/>ἢ ἀϊδίων ἢ φθαρτῶν, καὶ ἐν μὲν τοῖς ἀϊδίοις προὔχοντος τοῦ θείου,<note type="apparatus" n="22" target="#p11-21">ἢ ἀϊδίων—μὲν om. P</note><milestone type="alt-edition" unit="line" ed="Cramer, Anecd. Paris. IV" n="20"/>
               <lb n="23" xml:id="p11-22"/>ἐν δὲ τοῖς φθαρτοῖς τοῦ ἀνθρωπείου, ἀφ’ ἑκάστου τοῦ τιμιωτέρου μνησθεὶς<note type="apparatus" n="23" target="#p11-22">ἀνθρωπείου] ἀνθρώπου Cc</note>
-              <lb n="24" xml:id="p11-23"/>καὶ τὰ λοιπὰ εἰσήγαγεν. ἐφ’ οἷς ἀποροῦσιν ὅτι ‘διὰ τί κἀνταῦθα μὴ προσκειται<note type="apparatus" n="24" target="#p11-23">ἀφ’] οἷς P</note>
+              <lb n="24" xml:id="p11-23"/>καὶ τὰ λοιπὰ εἰσήγαγεν. ἐφ’ οἷς ἀποροῦσιν ὅτι ‘διὰ τί κἀνταῦθα μὴ πρόσκειται<note type="apparatus" n="24" target="#p11-23">ἀφ’] οἷς P</note>
               <lb n="25" xml:id="p11-24"/>τὸ ᾗ ὄντα ἐστί;’ καὶ λέγομεν ὅτι * * ὅλως ἔφη εἰς διαφορὰς<note type="apparatus" n="25" target="#p11-24">ante ὅλως defectum signavi, conicias ὅτι 〈διὰ τὸ ἐνταῦθα ἢ ὁ πρῶτος ὁρισμὸς〉 ὅλως ἔφη ἔφη] ἔφθην P</note>
               <lb n="26" xml:id="p11-25"/>ἐλθεῖν καὶ περιττὸν ἦν τὸ ᾗ ὄντα· μνησθεὶς γὰρ θείων ᾗ θεῖα αὐτὰ οἶδε,<milestone type="alt-edition" unit="line" ed="Cramer, Anecd. Paris. IV" n="25"/>
               <lb n="27" xml:id="p11-26"/>καὶ ἀνθρωπείων μνησθεὶς ᾗ ἀνθρώπεια αὐτὰ οἶδεν. πάλιν ἀποροῦσι ὅτι<note type="apparatus" n="27" target="#p11-26">post ἀποροῦσι add. τινὲς c</note>
@@ -533,7 +534,7 @@
               <lb n="13" xml:id="p13-12"/>ἀλλήλοις, εἶναι, μὴ εἶναι, εὖ εἶναι, κακῶς εἶναι, καὶ εἶναι μὲν ποιεῖ ἡ φυσικὴ<note type="apparatus" n="13" target="#p13-12">εἶναι, μὴ in ras. C²</note>
               <lb n="14" xml:id="p13-13"/>ζωή, μὴ εἶναι δὲ ὁ φυσικὸς θάνατος, εὖ εἶναι ὁ προαιρετικὸς θάνατος, κακῶς
               <lb n="15" xml:id="p13-14"/>εἶναι ἡ προαιρετικὴ ζωή. δύο δὲ οὐσῶν ἀντιθέσεων ἓξ γίνονται συμπλοκαί,<note type="apparatus" n="15" target="#p13-14">προερετικὴ C</note>
-              <lb n="16" xml:id="p13-15"/>ὧ αἱ μὲν τρεῖς συνίστανται, αἱ δὲ ἄλλαι τρεῖς ἀσύστατοί εἰσι, καθὼς τὸ
+              <lb n="16" xml:id="p13-15"/><choice><sic>ὧ</sic><corr>ὧν</corr></choice> αἱ μὲν τρεῖς συνίστανται, αἱ δὲ ἄλλαι τρεῖς ἀσύστατοί εἰσι, καθὼς τὸ
               <lb n="17" xml:id="p13-16"/>διάγραμμα τοῦτο δηλοῖ·<note type="apparatus" n="17" target="#p13-16">δίγραμμα C διλοῖ C</note><figure type="diagram"><list type="labels"><item>φυσικὴ ζωή</item><item n="φυσικὴ ζωή–φυσικὸς θάνατος">ἀσύστατον</item><item>φυσικὸς θάνατος</item><item n="φυσικὴ ζωή–προαιρετικὴ ζωή">συνίσταται</item><item n="φυσικὴ ζωή–προαιρετικὸς θάνατος">συνίσταται</item><item n="προαιρετικὴ ζωή–φυσικὸς θάνατος">συνίσταται</item><item n="φυσικὸς θάνατος–προαιρετικὸς θάνατος">ἀσύστατον</item><item>προαιρετικὴ ζωή</item><item n="προαιρετικὴ ζωή–προαιρετικὸς θάνατος">ἀσύστατον</item><item>προαιρετικὸς θάνατος</item></list></figure>
               <lb n="24" xml:id="p13-17"/>Θάνατον οὖν μελετητέον, οὐ τὸν μὴ εἶναι ποιοῦντα, ἀλλὰ τὸν εὖ<note type="apparatus" n="24" target="#p13-17">ἀλλὰ τὸ εὖ P</note><milestone type="alt-edition" unit="page" ed="Cramer, Anecd. Paris. IV" n="403"/>
               <lb n="25" xml:id="p13-18"/>εἶναι. ἔστι δὲ φυσικὴ μὲν ζωὴ καὶ προαιρετικὸς θάνατος, ὅταν τῆς ψυχῆς<note type="apparatus" n="25" target="#p13-18">ὅταν] ὅτε Cc (cf. v. 28. 32)</note>
@@ -590,7 +591,7 @@
             <pb n="15" facs="https://archive.org/download/commentariaina18pt13akaduoft/page/n54.jpg"/>
             <p>
               <lb n="1" xml:id="p15-0"/>γοῦν Πυθαγόρειον γύναιον ὑπὸ τυράννου<note type="apparatus" n="1" target="#p15-0">πυθάγορον Cc (cf. Zelleri Ph. Gr. I4 p. 288. 291 not. 1 297 not. 2) ἀναγκαζομένη P</note>
-              <lb n="2" xml:id="p15-1"/>ορχήσασθαι τὰ ἀπόρρητα, τοῦτ’ ἔστι τὴν αἰτίαν εἰπεῖν, δι’ ἣν οὐκ ἐσθίουσι<milestone type="alt-edition" unit="line" ed="Cramer, Anecd. Paris. IV" n="15"/>
+              <lb n="2" xml:id="p15-1"/><choice><sic>ορχήσασθαι</sic><corr>ὀρχήσασθαι</corr></choice> τὰ ἀπόρρητα, τοῦτ’ ἔστι τὴν αἰτίαν εἰπεῖν, δι’ ἣν οὐκ ἐσθίουσι<milestone type="alt-edition" unit="line" ed="Cramer, Anecd. Paris. IV" n="15"/>
               <lb n="3" xml:id="p15-2"/>κυάμους (ἦν γὰρ παρ’ αὐτοῖς τὸ<note type="apparatus" n="3" target="#p15-2">παρ’ om. P τὸ om. Brand.</note>
               <lb n="4" xml:id="p15-3"/>ἶσόν τοι κυάμους φαγέειν κεφαλάς τε τοκήων),<note type="apparatus" n="4" target="#p15-3">τοι] τὸ P</note>
               <lb n="5" xml:id="p15-4"/>ἔφη ‘φάγοιμι ἂν ἢ εἴποιμι,’ τοῦ δὲ φαγεῖν ἀναγκάζοντος πάλιν εἶπεν ‘εἴποιμι<note type="apparatus" n="5-6" target="#p15-4 #p15-5">ἤ] εἰ utrobique coni. Brand. (p. 8 a 1 not.): φάγοιμι ἂν ἢ εἴποιμι ἄν et εἴποιμι ἂν ἢ φάγοιμι ἄν Olympiodori meliores codd. (Finckhius utrobique haud recte εἰ pro ἤ; cf. Nauck ad Iambl. De Pythag. vita 193 sq. p. 139,9)</note><note type="apparatus" n="5" target="#p15-4">φαγεῖν om. Cc</note>
@@ -706,7 +707,7 @@
           <div type="textpart" subtype="lemma" n="0">
             <p>
               <lb n="2" xml:id="p18-1"/>Ἐπειδὴ μὴ ἠρκέσθη ὁ Πλάτων εἰπεῖν τὴν φιλοσοφίαν ὁμοίωσιν θεῷ<note type="apparatus" n="2" target="#p18-1">εἰρκέσθην P</note>
-              <lb n="3" xml:id="p18-2"/>κατὰ τὸ δυνατὸν ἀνθρώπῳ, ἀλλὰ καὶ τὸν τρόπον τῆς ὁμοιώσεως προσεθηκεν<note type="apparatus" n="3-4" target="#p18-2 #p18-3">προσέθηκεν] προσέοικεν P</note><milestone type="alt-edition" unit="line" ed="Cramer, Anecd. Paris. IV" n="25"/>
+              <lb n="3" xml:id="p18-2"/>κατὰ τὸ δυνατὸν ἀνθρώπῳ, ἀλλὰ καὶ τὸν τρόπον τῆς ὁμοιώσεως προσέθηκεν<note type="apparatus" n="3-4" target="#p18-2 #p18-3">προσέθηκεν] προσέοικεν P</note><milestone type="alt-edition" unit="line" ed="Cramer, Anecd. Paris. IV" n="25"/>
               <lb n="4" xml:id="p18-3"/>εἰπὼν ‘ὁμοίωσις δέ ἐστι δίκαιον καὶ ὅσιον γενέσθαι μετὰ φρονήσεως<note type="apparatus" n="4" target="#p18-3">εἰπὼν] cf. p. 16,16</note>
               <lb n="5" xml:id="p18-4"/>καὶ ταῦτα γινώσκειν’, φέρε τρία τινὰ ζητήσωμεν· πρῶτον μὲν διὰ τί
               <lb n="6" xml:id="p18-5"/>προσέθηκε τῷ δικαίῳ τὸ ὅσιον, δεύτερον διὰ τί τεσσάρων οὐσῶν ἀρετῶν<note type="apparatus" n="6" target="#p18-5">τί om. P</note>
@@ -1026,7 +1027,7 @@
               <lb n="4" xml:id="p26-3"/>σαρκοφάγα ἢ ποηφάγα. ὑποδιαίρεσις οὖν ἐστιν ἡ ἑνὸς τμήματος τῶν διαιρεθέντων
               <lb n="5" xml:id="p26-4"/>τομή.
               <lb n="6" xml:id="p26-5"/>Τούτων οὕτως προληφθέντων εἴπωμεν τὴν διαίρεσιν τῆς φιλοσοφίας.<milestone type="alt-edition" unit="page" ed="Cramer, Anecd. Paris. IV" n="417"/>
-              <lb n="7" xml:id="p26-6"/>διαιρεῖται τοίνυν ἡ φιλοσοφία εἰς τὸ θεωρητικὸν καὶ πρακτικόν. ταῦτα δὲ<note type="apparatus" n="7" target="#p26-6">τὸ om. P</note>
+              <lb n="7" xml:id="p26-6"/>διαιρεῖται τοίνυν ἡ φιλοσοφία εἰς τὸ θεωρητικὸν καὶ πρακτικόν. <choice><sic>ταῦτα δὲ</sic><corr>ταῦτα</corr></choice><note type="apparatus" n="7" target="#p26-6">τὸ om. P</note>
               <lb n="8" xml:id="p26-7"/>δὲ διαφέρουσιν ἀλλήλων καὶ τῷ ὑποκειμένῳ καὶ τῷ τέλει· τῷ μὲν γὰρ
               <lb n="9" xml:id="p26-8"/>θεωρητικῷ πάντα τὰ ὄντα ὑπόκειται εἰς γνῶσιν, τῷ δὲ πρακτικῷ οὐ πάντα<note type="apparatus" n="9" target="#p26-8">εἰς γνῶσιν — ὑπόκειται (10) om. P</note>
               <lb n="10" xml:id="p26-9"/>ὑπόκειται εἰς κατακόσμησιν, εἰ μὴ μόναι αἱ ἀνθρώπειαι ψυχαί· οὐδὲ γὰρ<milestone type="alt-edition" unit="line" ed="Cramer, Anecd. Paris. IV" n="5"/>
@@ -1046,7 +1047,7 @@
               <lb n="24" xml:id="p26-23"/>τις παρέθετο ξίφος τινί, ἄφνω δὲ μανεὶς αἰτεῖ τὴν παρακαταθήκην,
               <lb n="25" xml:id="p26-24"/>ἵνα ἢ ἑαυτὸν ἢ ἕτερόν τινα σφάξῃ, ὁ δὲ ἀρνεῖται καὶ ψεύδεται μέν, ἐπ’
               <lb n="26" xml:id="p26-25"/>ἀγαθῷ δέ, ὡς εἴ γε ἠλήθευσεν, ἐπὶ κακῷ ἠλήθευεν. δύναται δὲ μερικῶς
-              <lb n="27" xml:id="p26-26"/>καὶ ἀληθεύειν ὁ τοιοῦτος· ἄλλος γὰρ ἦν ὑγιαίνων ὁ τὸ ξίφος παραθέμενο·ς<milestone type="alt-edition" unit="line" ed="Cramer, Anecd. Paris. IV" n="25"/>
+              <lb n="27" xml:id="p26-26"/>καὶ ἀληθεύειν ὁ τοιοῦτος· ἄλλος γὰρ ἦν ὑγιαίνων ὁ τὸ ξίφος παραθέμενος<milestone type="alt-edition" unit="line" ed="Cramer, Anecd. Paris. IV" n="25"/>
               <lb n="28" xml:id="p26-27"/>καὶ ἄλλος μαινόμενος.
               <lb n="29" xml:id="p26-28"/>Ἵνα δὲ μὴ λάθωμεν ἑαυτοὺς κακοῦ μαγείρου δίκην παρὰ ἄρθρα τὰς<note type="apparatus" n="29" target="#p26-28">κακοῦ μαγείρου δίκην] cf. Plat. Phaedr. p. 265 E παρὰ C: περὶ c</note>
               <lb n="30" xml:id="p26-29"/>διαιρέσεις ποιούμενοι, ὅπου μὴ ἔστι διφυΐα, ὥσπερ οἱ πρίζοντες τὰ ξύλα
@@ -1329,7 +1330,7 @@
               <lb n="28" xml:id="p33-27"/>δηλοῖ τοὺς ὀλίγους, ταὐτὸν δὲ λέγειν τὸ οἰκονομικόν. ἐν δὲ τῷ Ἀ̓λκιβιάδῃ<note type="apparatus" n="28-29" target="#p33-27 #p33-28">ἐν δὲ τῷ Ἀλκιβιάδῃ] cf. Alcib. I p. 114 C. D</note>
               <lb n="29" xml:id="p33-28"/>φησὶν ὅτι ‘ὁ ἕνα πείθων καὶ ὀλίγους καὶ πολλοὺς πείθει, καὶ τοῦ αὐτοῦ<milestone type="alt-edition" unit="line" ed="Cramer, Anecd. Paris. IV" n="30"/>
               <lb n="30" xml:id="p33-29"/>ἕνα πείθειν καὶ πολλούς’. ἀλλ’ οὐκ ἀνάγκη, φησί τις, τὸν πείθοντα
-              <lb n="31" xml:id="p33-30"/>πολλοὺς καὶ ἕνα πείθειν, ἐὰν ᾖ ἰδιώτης ὁ εἷς. καὶ λέγομεν ὅτι ἐὰν ᾖ τοιοὗτος<note type="apparatus" n="31" target="#p33-30">pr. ᾖ] δὲ P alt. ᾖ scripsi: ἔστι τῷ Cc</note>
+              <lb n="31" xml:id="p33-30"/>πολλοὺς καὶ ἕνα πείθειν, ἐὰν ᾖ ἰδιώτης ὁ εἷς. καὶ λέγομεν ὅτι ἐὰν ᾖ τοιοῦτος<note type="apparatus" n="31" target="#p33-30">pr. ᾖ] δὲ P alt. ᾖ scripsi: ἔστι τῷ Cc</note>
               <lb n="32" xml:id="p33-31"/>οἷοι οἱ πολλοί, τότε πείθεται. καὶ πάλιν ἐν ἄλλῳ διαλόγῳ φησὶν ὁ<note type="apparatus" n="32" target="#p33-31">οἷον Cc ἐν ἄλλῳ διαλόγῳ] cf. Reipubl. II, 10 p. 368 D. E διαλόγῳ scripsi: λόγῳ CPc</note>
               <lb n="33" xml:id="p33-32"/>Πλάτων ὅτι ‘οὐδὲν διαφέρει ἡ ἐν μιᾷ πόλει δικαιοσύνη τῆς ἐν μιᾷ ψυχῇ.
             </p>
@@ -1828,7 +1829,7 @@
               <lb n="10" xml:id="p47-9"/>ἢ ὑφεστώτων ἢ ἐν μόναις ψιλαῖς ἐπινοίαις θεωρουμένων, ἠδυνάμην, φησίν,<note type="apparatus" n="10" target="#p47-9">ὑφεστότων C¹ ἐποινοίαις V¹ θεορουμένων C</note>
               <lb n="11" xml:id="p47-10"/>ζητεῖν τὰ γένη καὶ τὰ εἴδη ποτέροις μετείη. εὐλόγους δέ μοι τὰς ζητήσεις<note type="apparatus" n="11" target="#p47-10">μου C (cf. v. 28)</note>
               <lb n="12" xml:id="p47-11"/>ἐποίει καὶ ἡ τῶν παλαιῶν περὶ ταῦτα διαφωνία· οἱ μὲν γὰρ ἔλεγον<note type="apparatus" n="12" target="#p47-11">καὶ ἡ τῶν παλαιῶν] τῶν παλαιῶν ἡ (sed ἡ m.²) C περὶ] διὰ V (cf. v. 29)</note>
-              <lb n="13" xml:id="p47-12"/>ὑφεστάναι τὰ γένη καὶ τὰ εἴδη, ὡς Πλάτων καὶ Ἀριστοτέλης καὶ οἱ τοιοὗτοι,
+              <lb n="13" xml:id="p47-12"/>ὑφεστάναι τὰ γένη καὶ τὰ εἴδη, ὡς Πλάτων καὶ Ἀριστοτέλης καὶ οἱ τοιοῦτοι,
               <lb n="14" xml:id="p47-13"/>Ἀντισθένης δὲ ὁ Κυνικὸς ὁ τοῦ Διογένους διδάσκαλος ἔλεγεν μὴ<note type="apparatus" n="14" target="#p47-13">Ἀντισθ.] cf. Zelleri Ph. Gr. II³ p. 254 τοῦ om. V</note>
               <lb n="15" xml:id="p47-14"/>εἶναι τὰ καθόλου οὕτως ἐπιχειρῶν· ‘ἄνθρωπον ὁρῶ, ἀνθρωπότητα δὲ<note type="apparatus" n="15" target="#p47-14">post ὁρῶ add. λέγων V</note>
               <lb n="16" xml:id="p47-15"/>οὐχ ὁρῶ, καὶ ἵππον ὁρῶ, ἱππότητα δὲ οὐχ ὁρῶ’. ‘ἀλλ’, ὦ Ἀντίσθενες’,
@@ -2272,7 +2273,7 @@
               <lb n="21" xml:id="p58-20"/>ἐστι· οὐδέποτε γὰρ ἐν ἀποδόσει ὁρισμοῦ κέχρηται τῇ ὑπαλλήλῳ ἤτοι<note type="apparatus" n="21" target="#p58-20">ἐστὶ post ὑπογραφὴ transp. V κέχρηται (sic) V: χρῆται C (cf. v.</note>
               <lb n="22" xml:id="p58-21"/>διαλλήλῳ δείξει· εἰ οὖν κέχρηται ἐνταῦθα τῇ διαλλήλῳ δείξει, ὡς μικρὸν<note type="apparatus" n="22-27" target="#p58-21 #p58-22 #p58-23 #p58-24 #p58-25 #p58-26">p. 59,18) ὑπαλλήλῳ ἤτοι eicias ἀπαλλήλω V ἤτοι] ἢ τῇ V</note><note type="apparatus" n="22" target="#p58-21">χρῆται C</note>
               <lb n="23" xml:id="p58-22"/>ὕστερον μαθησόμεθα, φάσκων ἐν μὲν τῷ λόγῳ τοῦ γένους ‘γένος ἐστὶ τὸ
-              <lb n="24" xml:id="p58-23"/>διαιρούμενον εἰς εἴδη’ ἐν δὲ τῷ λόγῳ τοῦ εἴδους ‘εἶδός ἐστι τὸ ὑποκείμένον
+              <lb n="24" xml:id="p58-23"/>διαιρούμενον εἰς εἴδη’ ἐν δὲ τῷ λόγῳ τοῦ εἴδους ‘εἶδός ἐστι τὸ ὑποκείμενον
               <lb n="25" xml:id="p58-24"/>τῷ γένει’, αὕτη δὲ διάλληλός ἐστι δεῖξις, οὐ δύναται ὁ ἀποδοθεὶς
               <lb n="26" xml:id="p58-25"/>λόγος εἶναι ὁρισμός· οὐδὲ γάρ, ὡς εἴρηται, ἐν ὁρισμῷ εἰώθασιν οἱ φιλόσοφοι<note type="apparatus" n="26" target="#p58-25">εἰόθασιν C</note>
               <lb n="27" xml:id="p58-26"/>τῇ διαλλήλῳ δείξει κεχρῆσθαι. λείπεται οὖν τὸν ἀποδοθέντα τοῦ γένους<note type="apparatus" n="27" target="#p58-26">χρῆσθαι V</note>
@@ -2554,7 +2555,7 @@
             </p>
             <pb n="65" facs="https://archive.org/download/commentariaina18pt13akaduoft/page/n104.jpg"/>
             <p>
-              <lb n="1" xml:id="p65-0"/>θνητὸν ἢ καὶ ἐξ ὁμοίου ἑαυτῷ ἐγένετο, θνητὸν μὲν διὰ τὰ οὐράνια, ἐξ<note type="apparatus" n="1" target="#p65-0">θνητῶν (pr. l.) C an γένηται?</note>
+              <lb n="1" xml:id="p65-0"/>θνητὸν ᾖ καὶ ἐξ ὁμοίου ἑαυτῷ ἐγένετο, θνητὸν μὲν διὰ τὰ οὐράνια, ἐξ<note type="apparatus" n="1" target="#p65-0">θνητῶν (pr. l.) C an γένηται?</note>
               <lb n="2" xml:id="p65-1"/>ὁμοίου δὲ ἑαυτῷ διὰ τὰ ἐκ σήψεως γενόμενα· ταῦτα γὰρ οὐ γεννᾶται πάντα<note type="apparatus" n="2" target="#p65-1">ἑαυτῷ] αὐτῷ C γενόμενα V</note>
               <lb n="3" xml:id="p65-2"/>ἐξ ὁμοίων. τούτων οὕτως ἐχόντων φέρε καὶ τὴν διαίρεσιν ἔντεχνον ποιήσωμεν
               <lb n="4" xml:id="p65-3"/>καὶ διέλωμεν οὕτως· τὸ ἔμψυχον διαιρεῖται εἰς διωργανωμένον σῶμα<note type="apparatus" n="4" target="#p65-3">διοργανωμένον V</note>
@@ -2692,7 +2693,7 @@
               <lb n="23" xml:id="p68-22"/>τῶν ἄλλων τῇ φύσει· συναναιρεῖ γὰρ τὰ συμβεβηκότα καὶ οὐ συναναιρεῖται
               <lb n="24" xml:id="p68-23"/>αὐτοῖς· τῆς γὰρ οὐσίας ἀναιρουμένης συναναιρεῖται αὐτῇ τὰ συμβεβηκότα
               <lb n="25" xml:id="p68-24"/>(ἐν αὐτῇ γὰρ τὸ εἶναι ἔχουσι), τῶν δὲ συμβεβηκότων ἀναιρουμένων οὐ<note type="apparatus" n="25" target="#p68-24">αὐτῆς C</note>
-              <lb n="26" xml:id="p68-25"/>συναναιρεῖται ἡ οὐσία ὡς ἀνθυπόστατος. καὶ συνεισάγεται ἡ οὐσία τοῖς<note type="apparatus" n="26" target="#p68-25">συναιρεῖται C1 αὐθυπότακτος V συνισάγεται C1: συναγάγεται V τῇ οὐσίᾳ (alt. l.) C</note><note type="apparatus" n="26-27" target="#p68-25 #p68-26">τοῖς συμβεβηκόσιν C1: τὰ συμβεβηκότα C2</note>
+              <lb n="26" xml:id="p68-25"/>συναναιρεῖται ἡ οὐσία ὡς <choice><sic>ἀνθυπόστατος</sic><corr>αὐθυπόστατος</corr></choice>. καὶ συνεισάγεται ἡ οὐσία τοῖς<note type="apparatus" n="26" target="#p68-25">συναιρεῖται C1 αὐθυπότακτος V συνισάγεται C1: συναγάγεται V τῇ οὐσίᾳ (alt. l.) C</note><note type="apparatus" n="26-27" target="#p68-25 #p68-26">τοῖς συμβεβηκόσιν C1: τὰ συμβεβηκότα C2</note>
               <lb n="27" xml:id="p68-26"/>συμβεβηκόσιν, οὐ συνεισάγεται δὲ αὐτῇ τὰ συμβεβηκότα· ὄντων γὰρ τῶν<note type="apparatus" n="27" target="#p68-26">συνησάγεται (sic) C2: συνησάγει C: συναγάγει V τοῖς συμβεβηκόσι corr. C2</note>
               <lb n="28" xml:id="p68-27"/>συμβεβηκότων <milestone type="alt-edition" unit="folio" ed="cod. Coislinianus 387" n="75v"/> πάντως καὶ ἡ οὐσία ἔστιν (ἐν αὐτῇ γὰρ ὑφίσταται τὰ συμβεβηκότα),<note type="apparatus" n="28" target="#p68-27">πάντα C (cf. v. 29) ὑφίστανται V</note>
               <lb n="29" xml:id="p68-28"/>τῆς δὲ οὐσίας οὔσης οὐ πάντως εἰσὶ τὰ συμβεβηκότα· τῇ γὰρ<note type="apparatus" n="29" target="#p68-28">δὲ om. V post οὐσίας superscr. οὐκ C2</note>
@@ -2750,7 +2751,7 @@
               <lb n="6" xml:id="p70-5"/>ὂν εἰς τὰς δέκα κατηγορίας, ὁ Πλάτων ὡς γένος τὸ ὂν βούλεται διαιρεῖσθαι
               <lb n="7" xml:id="p70-6"/>κατασκευάζων οὕτως· ὅτι ‘ἃ λέγετε ὑμεῖς ἐπὶ τῶν γενῶν ὅτι<note type="apparatus" n="7" target="#p70-6">λέγεται C ὅτι (alterum) om. C</note>
               <lb n="8" xml:id="p70-7"/>οὐκ ἔστι τὸ πρότερον καὶ ὕστερον, τὰ αὐτὰ λέγω κἀγὼ ἐπὶ τῶν ὁμωνύμων<milestone type="alt-edition" unit="folio" ed="cod. Coislinianus 387" n="76v"/><note type="apparatus" n="8" target="#p70-7">post λέγω add. σοι C</note>
-              <lb n="9" xml:id="p70-8"/>ὅτι οὐκ ἔστιν οὐδὲ ἐπὶ τούτων τάξις· οὐδὲ γὰρ πρότερος ὁ ἔνυδρος οὐκ<note type="apparatus" n="9" target="#p70-8">τούτου C alt. οὐδὲ] οὐ V</note>
+              <lb n="9" xml:id="p70-8"/>ὅτι οὐκ ἔστιν οὐδὲ ἐπὶ τούτων τάξις· οὐδὲ γὰρ πρότερος ὁ ἔνυδρος κύων<note type="apparatus" n="9" target="#p70-8">τούτου C alt. οὐδὲ] οὐ V</note>
               <lb n="10" xml:id="p70-9"/>τοῦ χερσαίου. εἶτα πάλιν λέγετε ἐπὶ τῶν γενῶν ὅτι οὐκ ἀνάγκη ἑνὸς εἴδους<note type="apparatus" n="10" target="#p70-9">χαίρσαίου V λέγετε ex λέγεται corr. C</note>
               <lb n="11" xml:id="p70-10"/>ἀναιρουμένου καὶ τὰ λοιπὰ ἀναιρεῖσθαι· τὰ αὐτὰ δὲ κἀγὼ λέγω καὶ<note type="apparatus" n="11" target="#p70-10">ἀναιρουμένου καὶ τὰ λοιπὰ om. V</note>
               <lb n="12" xml:id="p70-11"/>ἐπὶ τῶν ὁμωνύμων ὅτι οὐκ ἀνάγκη τοῦ χερσαίου ἀναιρεθέντος καὶ τὸν<note type="apparatus" n="12" target="#p70-11">ἀναιρεθέντος V</note>
@@ -3018,7 +3019,7 @@
               <lb n="5" xml:id="p77-4"/>εἶδος συμπληροῦσα. καὶ ἔχομεν διὰ μὲν τοῦ πρώτου τὴν τάξιν τῶν πέντε,
               <lb n="6" xml:id="p77-5"/>γένους εἴδους διαφορᾶς ἰδίου καὶ συμβεβηκότος (προηγεῖται γὰρ ἀεὶ τὸ τί ἐστι
               <lb n="7" xml:id="p77-6"/>τοῦ ὁποῖόν τί ἐστι), διὰ δὲ τοῦ ἑτέρου τὴν τάξιν τῶν τριῶν, εἴδους καὶ<note type="apparatus" n="7" target="#p77-6">pr. τοῦ Marc. 201: τὸ C</note><note type="apparatus" n="7-8" target="#p77-6 #p77-7">γένους καὶ εἴδους collocandum videtur</note>
-              <lb n="8" xml:id="p77-7"/>γένους καὶ μέσης τούτων τῆς διαφορᾶς. ἀλλ’ ἐπεὶ καὶ ἡ διαφορὰ ὁμώνυκος
+              <lb n="8" xml:id="p77-7"/>γένους καὶ μέσης τούτων τῆς διαφορᾶς. ἀλλ’ ἐπεὶ καὶ ἡ διαφορὰ ὁμώνυμος
               <lb n="9" xml:id="p77-8"/>φωνή ἐστιν (ἐν γὰρ ταῖς δέκα κατηγορίαις θεωρεῖται), εἴπωμεν κἀνταῦθα
               <lb n="10" xml:id="p77-9"/>τῷ ἀνωτέρω κανόνι χρώμενοι πρῶτον μὲν τὰ σημαινόμενα, δεύτερον<note type="apparatus" n="10" target="#p77-9">ἀνωτέρω] p. 51,22</note>
               <lb n="11" xml:id="p77-10"/>περὶ ποίου σημαινομένου ὁ λόγος, τρίτον ὑπογραφῆς ἀξιώσομεν τοῦτο τὸ<note type="apparatus" n="11" target="#p77-10">σημαινομένου C</note>
@@ -3357,7 +3358,7 @@
               <lb n="16" xml:id="p86-15"/>δυνάμει λέγοντες εἶναι τὰς διαφορὰς ἐν τοῖς γένεσιν οὐ κατ’ ἐπιτηδειότητα<note type="apparatus" n="16" target="#p86-15">λέγουσιν τὰς διαφ. εἶναι V ἐπιτηδιότητα C</note>
               <lb n="17" xml:id="p86-16"/>αὐτὰς εἶναι λέγουσιν ἀλλὰ κατ’ ἐνέργειαν μὴ παροῦσαν, ὃ δύναται καὶ δυνάμει<note type="apparatus" n="17" target="#p86-16">ὃ] τοῦτο δὲ in ras. C²</note>
               <lb n="18" xml:id="p86-17"/>λέγεσθαι καὶ ἐνεργείᾳ, πρὸς ἄλλο μέντοι καὶ ἄλλο λαμβανόμενον·<note type="apparatus" n="18" target="#p86-17">λαμβανόμενον] παραβαλλόμενον V</note>
-              <lb n="19" xml:id="p86-18"/>ἐνεργείᾳ γὰρ λέγεται ὡς πρὸς τὸ ἀτελὲς τὸ πρῶτον τὸ κατ’ ἐπιτηδειότατα, <milestone type="alt-edition" unit="folio" ed="cod. Coislinianus 387" n="89r"/><note type="apparatus" n="19" target="#p86-18">γὰρ] δὲ V ἐντελὲς V</note>
+              <lb n="19" xml:id="p86-18"/>ἐνεργείᾳ γὰρ λέγεται ὡς πρὸς τὸ ἀτελὲς τὸ πρῶτον τὸ κατ’ <choice><sic>ἐπιτηδειότατα</sic><corr>ἐπιτηδειότητα</corr></choice>, <milestone type="alt-edition" unit="folio" ed="cod. Coislinianus 387" n="89r"/><note type="apparatus" n="19" target="#p86-18">γὰρ] δὲ V ἐντελὲς V</note>
               <lb n="20" xml:id="p86-19"/>δυνάμει δὲ ὡς 〈πρὸς〉 τὸ κατὰ προχείρισιν. τούτων οὖν οὕτως ἐχόντων καὶ<note type="apparatus" n="20" target="#p86-19">πρὸς inserui</note>
               <lb n="21" xml:id="p86-20"/>διττοῦ ὄντος τοῦ δυνάμει καὶ διττοῦ τοῦ ἐνεργείᾳ οὐ διαφωνεῖ Πλάτων
               <lb n="22" xml:id="p86-21"/>Ἀριστοτέλει, ἀλλ’ ἀμφοτέροις τὰ αὐτὰ δοκεῖ.<note type="apparatus" n="22" target="#p86-21">ἀριστοτέλης C¹ ἀφοτέροις C</note>
@@ -3516,7 +3517,7 @@
               <lb n="25" xml:id="p90-24"/>ἄνθρωπος καὶ ὁ ἄνθρωπος γελαστικόν, καὶ τὸ νοῦ καὶ ἐπιστήμης δεκτικὸν<note type="apparatus" n="25" target="#p90-24">ἄνθρωπος καὶ ὁ ἄνθρ. γελαστικὸν om. V</note>
               <lb n="26" xml:id="p90-25"/>ἄνθρωπος καὶ ὁ ἄνθρωπος νοῦ καὶ ἐπιστήμης δεκτικόν· τὰ δὲ πρός τι οὐ<note type="apparatus" n="26" target="#p90-25">ἄνθρωπος καὶ — δεκτικόν om. V</note>
               <lb n="27" xml:id="p90-26"/>λέγονται ὅπερ τὸ ἕτερον· ὁ γὰρ πατὴρ οὐ λέγεται υἱὸς οὐδὲ ὁ υἱὸς πατήρ.<note type="apparatus" n="27" target="#p90-26">ὁ υἱὸς Marc.: 201: υἱὸς CV</note>
-              <lb n="28" xml:id="p90-27"/>ταῦτα ἔχει ὁ πρᾶξις.
+              <lb n="28" xml:id="p90-27"/>ταῦτα ἔχει <choice><sic>ὁ</sic><corr>ἡ</corr></choice> πρᾶξις.
             </p>
             </div>
         </div>
@@ -3636,7 +3637,7 @@
               <lb n="32" xml:id="p93-31"/>ἡμεῖς προσθῶμεν καὶ ἄλλας δύο κοινωνίας αὐτῶν, ὅτι πᾶσαι <milestone type="alt-edition" unit="folio" ed="cod. Coislinianus 387" n="97v"/> φιλόσοφοί
               <lb n="33" xml:id="p93-32"/>εἰσὶ καὶ ὅτι μιᾶς ὁποιασοῦν ἀναιρουμένης καὶ αἱ λοιπαὶ ἀναιροῦνται· γένους
               <lb n="34" xml:id="p93-33"/>γὰρ ἀναιρεθέντος εἶδος οὐκ ἔστιν οὐδὲ διαφορά (συνεκλείπουσι γὰρ τῷ μὲν
-              <lb n="35" xml:id="p93-34"/>γένει αἱ διαιρετικαὶ διαφοραί, τῷ δὲ εἴδει αἱ συστατικαί), καὶ εἴδους μὴ ὄνὄντος
+              <lb n="35" xml:id="p93-34"/>γένει αἱ διαιρετικαὶ διαφοραί, τῷ δὲ εἴδει αἱ συστατικαί), καὶ εἴδους μὴ ὄντος
             </p>
             <pb n="94" facs="https://archive.org/download/commentariaina18pt13akaduoft/page/n133.jpg"/>
             <p>
@@ -3644,10 +3645,10 @@
               <lb n="2" xml:id="p94-1"/>οὐκ ἔστιν οὐδὲ συμβεβηκός. καὶ ἀντιστρόφως ἐὰν εἴπῃς, τὸ αὐτὸ εὑρήσεις.<note type="apparatus" n="2" target="#p94-1">εὑρήσης C¹</note>
               <lb n="3" xml:id="p94-2"/>αὗται μὲν αὐτῶν αἱ κοινωνίαι. ἔλθωμεν δὲ καὶ ἐπὶ τὰς διαφορὰς αὐτῶν.
               <lb n="4" xml:id="p94-3"/>διχῶς δὲ λαμβάνονται αὐτῶν αἱ διαφοραί· ἢ γὰρ κατὰ τὸ ὑποκείμενον ἢ
-              <lb n="5" xml:id="p94-4"/>κατὰ τὸ κατηγορούμενον. κατὰ μὲν τὸ τὸ ὑποκείμενον, ὅτι ἐπὶ πλέον ἐστὶ<note type="apparatus" n="5" target="#p94-4">πλέον Marc. 201: πλεῖον C (cf. v. 10. 17)</note>
+              <lb n="5" xml:id="p94-4"/>κατὰ τὸ κατηγορούμενον. κατὰ μὲν <choice><sic>τὸ τὸ</sic><corr>τὸ</corr></choice> ὑποκείμενον, ὅτι ἐπὶ πλέον ἐστὶ<note type="apparatus" n="5" target="#p94-4">πλέον Marc. 201: πλεῖον C (cf. v. 10. 17)</note>
               <lb n="6" xml:id="p94-5"/>τὸ γένος τῆς διαφορᾶς καὶ ἡ διαφορὰ τοῦ ἰδίου καὶ τὸ ἴδιον τοῦ εἴδους·
               <lb n="7" xml:id="p94-6"/>τὸ γὰρ ἴδιον καὶ τοῦ ἀνθρώπου τοῦ καθόλου κατηγορεῖται καὶ τῶν κατὰ
-              <lb n="8" xml:id="p94-7"/>μέρος ἀνθρώπων, ὁ δὲ καθόλου ἄνθρωπος μόνον τοῦ κατὰ μέρος ἀνθρώπων
+              <lb n="8" xml:id="p94-7"/>μέρος ἀνθρώπων, ὁ δὲ καθόλου ἄνθρωπος μόνον <choice><sic>τοῦ</sic><corr>τῶν</corr></choice> κατὰ μέρος ἀνθρώπων
               <lb n="9" xml:id="p94-8"/>κατηγορεῖται. οὐ δεῖ δὲ διὰ τοῦτο παραιτεῖσθαι τὸ λέγειν ἀντιστρέφειν
               <lb n="10" xml:id="p94-9"/>τὸ ἴδιον τῷ εἴδει διὰ τὸ δοκεῖν τὸ ἴδιον ἐπὶ πλέον εἶναι· εἰ γὰρ καὶ
               <lb n="11" xml:id="p94-10"/>ἀντιστρέφει τὸ ἴδιον τῷ εἴδει καὶ ταύτῃ νομίζεται ἐξισάζειν αὐτῷ, ἀλλ’<note type="apparatus" n="11" target="#p94-10">ἀντιστρέφει Marc. 201: ἀντιστρέφειν C</note>
@@ -4022,7 +4023,7 @@
               <lb n="19" xml:id="p103-18"/>ὧν οἱ ὅροι διάφοροι, καὶ αὐτὰ τοιαῦτα· ἐπειδὴ οὖν διάφοροι οἱ ὅροι εἴδους<note type="apparatus" n="19" target="#p103-18">τοιαῦτα scripsi: ταῦτα C Dav. alt. οἱ Dav.: om. C</note>
               <lb n="20" xml:id="p103-19"/>καὶ ἰδίου, ἀνάγκη καὶ αὐτὰ διάφορα εἶναι. ταῦτα μὲν καὶ περὶ εἴδους
               <lb n="21" xml:id="p103-20"/>καὶ ἰδίου.
-              <lb n="22" xml:id="p103-21"/>Ἐφ οἷς συγκρίνει εἶδος καὶ συμβεβηκὸς καὶ λέγει κοινὸν αὐτῶν ἓν τὸ ἐπὶ
+              <lb n="22" xml:id="p103-21"/><choice><sic>Ἐφ</sic><corr>Ἐφ’</corr></choice> οἷς συγκρίνει εἶδος καὶ συμβεβηκὸς καὶ λέγει κοινὸν αὐτῶν ἓν τὸ ἐπὶ
               <lb n="23" xml:id="p103-22"/>πολλῶν κατηγορεῖσθαι διὰ τὸ πλεῖστον ἀλλήλων διεστάναι τὸ συμβεβηκὸς
               <lb n="24" xml:id="p103-23"/>καὶ τὸ ᾧ συμβέβηκε· τῶν γὰρ πλεῖστον ἀλλήλων διεστώτων παντὸς μὲν<note type="apparatus" n="24" target="#p103-23">πλεῖστον Dav.: πλείστων C</note>
               <lb n="25" xml:id="p103-24"/>τὰς διαφορὰς εἰπεῖν, τὰς δὲ κοινωνίας μόνου ἐπιστήμονος, ὡς ἐπὶ μύρμηκος

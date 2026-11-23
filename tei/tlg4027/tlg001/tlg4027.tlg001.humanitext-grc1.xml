@@ -56,6 +56,7 @@
       <change when="2026-10-23" who="#NI">Quotation marks made uniform: opening single and double quotation marks, printed in the edition in the reversed (high-reversed-9) form, are encoded as ‘ and “, closing ones as ’ and ”, single and double kept as printed; opening marks read by the OCR as straight quotes, low quotes or spacing breathings, and spacing breathings or quotation marks doubled before a capital that already bears its breathing, corrected.</change>
       <change when="2026-11-05" who="#NI">Apparatus entries printed out of numerical order (e.g. 33 … 32) separated from the preceding entry; words hyphenated across lines joined in Latin text as in Greek; words mixing Greek and Latin letters (OCR errors, about 130, including manuscript sigla) corrected on the page images; marginal folio marks left in the text removed; validated against TEI P5 version 4.12.0 (recorded in TEI/@version).</change>
       <change when="2026-11-05" who="#NI">Extent of the lemma quotations (quote[@type='lemma']) corrected: the automatic division had closed every lemma after its first printed line, leaving the remaining lines of lemmata printed over two or more lines at the head of the following paragraph. Candidates were found from the letter-spacing of the lines on the page images (lemmata are printed spaced) and from the line geometry (centred last line, indented paragraph start), and every candidate was decided on the page image (Claude work teams; about 7,700 places in the corpus); the lines so decided are now inside the quotation, with pb inside the quotation where a lemma runs on to the next page. Where the lemma runs on in the same line as the commentary (Stephanus in De interpretatione), the quotation ends after the last spaced word and the paragraph continues in the same line without a new lb; where no lemma is printed and the paraphrase follows the Bekker reference directly (Michael in De partibus animalium from p. 37), the quotation is dropped and the division kept; centred last lines the edition does not count are inside the quotation as unnumbered lines.</change>
+      <change when="2026-11-22" who="#NI">Readings questioned by the review of the translations collated on the page images (read independently, at least twice wherever the print does not have the proposed form, by a language model, Claude; the 28 places in all works that it could not settle were read by the editor): 7 errors of the transcription corrected; 3 evident misprints of the edition given as choice/sic/corr; 1 evident misprint of the edition in a word broken at the line end (which cannot carry choice/sic/corr) corrected in the text.</change>
     </revisionDesc>
   </teiHeader>
   <text>
@@ -464,7 +465,7 @@
               <lb n="34" xml:id="p10-33"/>καὶ πρὸς τὴν εἰς τὰ γένη ἀναγωγὴν ἐκείνῃ συνέψονται, τὰς δὲ ἀποφάσεις
               <lb n="35" xml:id="p10-34"/>καὶ στερήσεις τῆς αὐτῆς τιθέναι κατηγορίας, ἧς καὶ τὰς ἕξεις καὶ καταφάσεις,<note type="apparatus" n="35" target="#p10-34">ὑστερήσεις L</note>
               <lb n="36" xml:id="p10-35"/>εὔλογον. τὸ γὰρ ἀνυποδετεῖν τῆς αὐτῆς ἐστι κατηγορίας, ἧς καὶ τὸ ὑποδεδέσθαι,
-              <lb n="37" xml:id="p10-36"/>καὶ ὁ οὐκ ἄνθρωπος τῆς αὐτῆς τῷ ἀνθρώπῳ. ὁ γὰρ ἡ κατάφασις<note type="apparatus" n="37" target="#p10-36">τῷ] τὸ L</note>
+              <lb n="37" xml:id="p10-36"/>καὶ ὁ οὐκ ἄνθρωπος τῆς αὐτῆς τῷ ἀνθρώπῳ. ὃ γὰρ ἡ κατάφασις<note type="apparatus" n="37" target="#p10-36">τῷ] τὸ L</note>
             </p>
             <pb n="11" facs="https://archive.org/download/commentariainari23akaduoft/page/n208.jpg"/>
             <p>
@@ -582,7 +583,7 @@
               <lb n="25" xml:id="p13-24"/>ἄλλα πάντα ἔχουσιν, οὕτω καὶ τὰ εἴδη καὶ τὰ γένη τῶν πρώτων οὐσιῶν πρὸς<note type="apparatus" n="25" target="#p13-24">ἔχει M</note>
               <lb n="26" xml:id="p13-25"/>τὰ λοιπὰ πάντα ἔχει· κατὰ τούτων γὰρ πάντα τὰ λοιπὰ κατηγορεῖται· τὸν
               <lb n="27" xml:id="p13-26"/>γὰρ τινὰ ἄνθρωπον ἐρεῖς γραμματικόν· οὐκοῦν καὶ ἄνθρωπον καὶ ζῶον γραμματικὸν
-              <lb n="28" xml:id="p13-27"/>ἐρεῖς
+              <lb n="28" xml:id="p13-27"/><choice><sic>ἐρεῖς</sic><corr>ἐρεῖς.</corr></choice>
               <lb n="29" xml:id="p13-28"/>Ἐπεὶ δὲ διείλομεν κατὰ τὴν τῶν πολλῶν δόξαν, πόσαι καὶ τίνες εἰσὶν<note type="apparatus" n="29" target="#p13-28">τῶν om. BL</note>
               <lb n="30" xml:id="p13-29"/>οὐσίαι, ὑπόλοιπον ἂν εἴη ζητεῖν τά τε κοινῶς προσόντα καὶ τὰ ἰδίως αὐτῇ.
               <lb n="31" xml:id="p13-30"/>εἰ μὲν γὰρ ἦν ὅρον ἑκάστου τῶν γενῶν ἀποδιδόναι, ἧττον ἔδει φροντίζειν τῆς
@@ -1146,9 +1147,9 @@
               <lb n="30" xml:id="p27-29"/>μέντοι στιγμὴ μηδεμιᾶς τῶν διαστάσεων ὑπολειπομένης μενεῖ ἀδιάστατος.
               <lb n="31" xml:id="p27-30"/>γένεσιν δὲ συνεχοῦς καὶ διωρισμένου καὶ ὅλως ποσοῦ ἄνωθεν οὕτω δεῖ θεωρεῖν.
               <lb n="32" xml:id="p27-31"/>ἡ τοῦ ἑνὸς δύναμις, ἀφ’ οὗ πᾶν τὸ ποσὸν ἀπογεννᾶται, διατείνεται δι’ ὅλων<note type="apparatus" n="32" target="#p27-31">πᾶν om. M</note>
-              <lb n="33" xml:id="p27-32"/>ἡ αὐτὴ καὶ ὁρίζει ἕκαστον προϊοῦσα ἀφ’ ἑαυτῆς. ἡ μὲν οὖν δι’ ὅλων διήκει<note type="apparatus" n="33" target="#p27-32">ἡ αὐτὴ] αὐτῆ LM</note>
-              <lb n="34" xml:id="p27-33"/>παντάπασιν ἀδιαιρέτως καὶ ἡ τὴν πρόοδον ποιεῖται μίαν καὶ ἀδιαίρετον, τὸ
-              <lb n="35" xml:id="p27-34"/>συνεχὲς ὑφίστησιν· ἡ δὲ προϊοῦσα ἵσταται καθ’ ἕκαστον τῶν εἰδῶν καὶ ὁρίζει<note type="apparatus" n="35" target="#p27-34">ἵσταται post εἰδῶν transponit M</note>
+              <lb n="33" xml:id="p27-32"/>ἡ αὐτὴ καὶ ὁρίζει ἕκαστον προϊοῦσα ἀφ’ ἑαυτῆς. ᾗ μὲν οὖν δι’ ὅλων διήκει<note type="apparatus" n="33" target="#p27-32">ἡ αὐτὴ] αὐτῆ LM</note>
+              <lb n="34" xml:id="p27-33"/>παντάπασιν ἀδιαιρέτως καὶ ᾗ τὴν πρόοδον ποιεῖται μίαν καὶ ἀδιαίρετον, τὸ
+              <lb n="35" xml:id="p27-34"/>συνεχὲς ὑφίστησιν· ᾗ δὲ προϊοῦσα ἵσταται καθ’ ἕκαστον τῶν εἰδῶν καὶ ὁρίζει<note type="apparatus" n="35" target="#p27-34">ἵσταται post εἰδῶν transponit M</note>
               <lb n="36" xml:id="p27-35"/>καὶ ἑνοποιεῖ, κατὰ τοῦτο τὸ διωρισμένον παράγει. κατὰ δὲ τὴν περιέχουσαν
               <lb n="37" xml:id="p27-36"/>ἅμα τὰς δύο ταύτας ἐνεργείας μίαν κυριωτάτην αἰτίαν τὰ δύο ποσὰ παράγει·
               <lb n="38" xml:id="p27-37"/>ἅμα γὰρ καὶ μένει καὶ πρόεισι. περιέχει γὰρ ἡ τῶν νοητῶν μέτρων δύναμις
@@ -1249,7 +1250,7 @@
               <lb n="7" xml:id="p30-6"/>ἄλλως ὁπωσοῦν πρὸς ἕτερον, καὶ οὐκ ἄλλο τι· ἡ γὰρ ἕξις τινὸς ἕξις λέγεται
               <lb n="8" xml:id="p30-7"/>καὶ ἡ ἐπιστήμη τινὸς ἐπιστήμη καὶ ἡ θέσις τινὸς θέσις, καὶ τἄλλα ὡσαύτως.
               <lb n="9" xml:id="p30-8"/>πρός τι οὖν ἐστι, ὅσα αὐτὰ ἅπερ ἐστὶν ἑτέρων εἶναι λέγεται, ἢ ὁπωσοῦν ἄλλως
-              <lb n="10" xml:id="p30-9"/>πρὸς ἕτερον, οἷον ὄρος μέγα λέγεται πρὸς ἕτερον ὄρος· πρός τι γὰρ μέγα λέλέγεται
+              <lb n="10" xml:id="p30-9"/>πρὸς ἕτερον, οἷον ὄρος μέγα λέγεται πρὸς ἕτερον ὄρος· πρός τι γὰρ μέγα λέγεται
               <lb n="11" xml:id="p30-10"/>τὸ ὄρος. καὶ τὸ ὅμοιον δὲ τινὶ ὅμοιον λέγεται, καὶ τἄλλα δὲ τὰ τοιαῦτα<note type="apparatus" n="11" target="#p30-10">τὸ (ante ὄρος) om. M</note>
               <lb n="12" xml:id="p30-11"/>ὡσαύτως πρός τι λέγεται. ἔστι δὲ καὶ ἡ ἀνάκλισις καὶ ἡ στάσις καὶ ἡ<note type="apparatus" n="12" target="#p30-11">καὶ ἡ στάσις om. M</note>
               <lb n="13" xml:id="p30-12"/>καθέδρα θέσεις τινές, ἡ δὲ θέσις τῶν πρός τι. τὸ δ’ ἀνακεκλίσθαι καὶ ἑστάναι<note type="apparatus" n="13" target="#p30-12">στάσεις τινές M</note>
@@ -1593,7 +1594,7 @@
               <lb n="25" xml:id="p38-24"/>Ποιότητα δὲ λέγω, καθ’ ἣν ποιοί τινες λέγονται, οἷον λευκότητα, θερμότητα,<note type="apparatus" n="25" target="#p38-24">περὶ ποιοῦ καὶ ποιότητος superscribunt libri</note><milestone unit="aristotle-chapter" n="8"/>
               <lb n="26" xml:id="p38-25"/>ψυχρότητα· λευκοὶ γὰρ καὶ θερμοὶ καὶ ψυχροὶ ἀπ’ αὐτῶν οἱ μετέχοντες
               <lb n="27" xml:id="p38-26"/>λέγονται. καὶ εἰσὶ ποιότητες μὲν τὰ μεθεκτά, ποιὰ δὲ τὰ μετέχοντα. τετάρτην
-              <lb n="28" xml:id="p38-27"/>δὲ ἀπὸ τῆς οὐσίας ἐν τῇ διδασκαλίᾳ κατηριθμήσαμεν τὴν ποιότητα, τοῦ Ἀργύτα
+              <lb n="28" xml:id="p38-27"/>δὲ ἀπὸ τῆς οὐσίας ἐν τῇ διδασκαλίᾳ κατηριθμήσαμεν τὴν ποιότητα, τοῦ Ἀρχύτα
               <lb n="29" xml:id="p38-28"/>μετὰ τὴν οὐσίαν τάξαντος (δευτέρα γὰρ ἡ ποιότης, ἐκεῖνός φησιν· ἄνευ<note type="apparatus" n="29" target="#p38-28">ἀποιότης L: ποιότης M</note>
               <lb n="30" xml:id="p38-29"/>γὰρ τοῦ τί ἐστιν ἦμεν ἀδύνατον ποιόν τι ἦμεν), διά τε τὴν πρότερον λεχθεῖσαν<note type="apparatus" n="30" target="#p38-29">προτέραν BL</note>
               <lb n="31" xml:id="p38-30"/>αἰτίαν καὶ διὰ τὴν ἤδη ῥηθήσεσθαι μέλλουσαν. ὡς γὰρ ἡ οὐσία τῶν ὅλων
@@ -2010,7 +2011,7 @@
               <lb n="6" xml:id="p49-5"/>σημαίνειν, ἔοικε δὲ ταῦτα ἀλλότρια εἶναι τῆς περὶ τὸ ποιὸν διαιρέσεως· θέσιν<note type="apparatus" n="6" target="#p49-5">τοῖς L</note>
               <lb n="7" xml:id="p49-6"/>γάρ τινα μᾶλλον φαίνεται τῶν μορίων ἑκάτερον δηλοῦν. πυκνὸν μὲν γὰρ τῷ<note type="apparatus" n="7" target="#p49-6">μὲν γὰρ scripsi: γὰρ μὲν libri</note><note type="apparatus" n="7-8" target="#p49-6 #p49-7">τῷ] τὸ L</note>
               <lb n="8" xml:id="p49-7"/>τὰ μόρια σύνεγγυς εἶναι ἀλλήλων, μανὸν δὲ τῷ διεστάναι ἀπ’ ἀλλήλων· καὶ
-              <lb n="9" xml:id="p49-8"/>λεῖον μὲν τῷ ἐπ’ εὐθείας πως τὰ μόρια κεῖσθαι, τραχὺ δὲ τῷ τὸ μὲν ὑπερἔχειν<note type="apparatus" n="9" target="#p49-8">τραχὺ μὲν M</note>
+              <lb n="9" xml:id="p49-8"/>λεῖον μὲν τῷ ἐπ’ εὐθείας πως τὰ μόρια κεῖσθαι, τραχὺ δὲ τῷ τὸ μὲν ὑπερέχειν<note type="apparatus" n="9" target="#p49-8">τραχὺ μὲν M</note>
               <lb n="10" xml:id="p49-9"/>τὸ δὲ ἐλλείπειν. εἰ δέ τις ἐνίσταιτο πρὸς τὸ θέσεις ταῦτα καθάπαξ εἶναι,
               <lb n="11" xml:id="p49-10"/>ἐκεῖνο λέγομεν ὡς διττὸν τὸ τοῦ μανοῦ καὶ πυκνοῦ σημαινόμενον, τὸ μὲν ἐν
               <lb n="12" xml:id="p49-11"/>τοῖς εἴδεσιν, ὃ καὶ δι’ ὅλου πάρεστι καὶ οὐσιῶδές ἐστι καὶ ἕξεως μᾶλλον οἰκεῖον<note type="apparatus" n="12" target="#p49-11">δι’ ὅλου] διό L οἰκεῖον om. M</note>
@@ -2054,7 +2055,7 @@
               <lb n="11" xml:id="p50-10"/>ἐπιστήμη. ἐπ’ ἐνίων δὲ καὶ παραλλάττουσιν αἱ τῶν ὀνομάτων σημασίαι παρὰ
               <lb n="12" xml:id="p50-11"/>τὴν τῶν πραγμάτων δήλωσιν διὰ τὴν ἀνωμαλίαν τῆς χρήσεως· ὁ γὰρ δίκαιος
               <lb n="13" xml:id="p50-12"/>κατὰ μὲν τὸ ὄνομα ἀπὸ τῆς δίκης παρείληπται, κατὰ δὲ τὰ πράγματα ἀπὸ<note type="apparatus" n="13" target="#p50-12">ἀπὸ] ἀπ’ L</note>
-              <lb n="14" xml:id="p50-13"/>τῆς δικαιοσύνης, ὥσπερ καὶ ὁ εὔφροσυνος ἀπὸ τῆς εὐφροσύνης, κατὰ δὲ τὰ<note type="apparatus" n="14" target="#p50-13">ὁ εὐφρόσυνος] ἡ εὐφροσύνη M</note>
+              <lb n="14" xml:id="p50-13"/>τῆς δικαιοσύνης, ὥσπερ καὶ ὁ εὐφρόσυνος ἀπὸ τῆς εὐφροσύνης, κατὰ δὲ τὰ<note type="apparatus" n="14" target="#p50-13">ὁ εὐφρόσυνος] ἡ εὐφροσύνη M</note>
               <lb n="15" xml:id="p50-14"/>πράγματα οὐκ ἔχει παράθεσιν. ποιὰ οὖν λέγεται τὰ παρωνύμως ἀπὸ τῶν εἰρημένων
               <lb n="16" xml:id="p50-15"/>ποιοτήτων λεγόμενα ἢ ὁπωσοῦν ἄλλως ἀπ’ αὐτῶν.
               <lb n="17" xml:id="p50-16"/>Ὡς ἂν δὲ καὶ κατ’ ἐπιστημονικὴν ὁδὸν ἡ διαίρεσις τῆς ποιότητος γένοιτο,
@@ -2241,7 +2242,7 @@
             <p>
               <lb n="1" xml:id="p55-0"/>συνεχέων, ὅτι τᾶς μὲν γραμμᾶς καὶ τῶ χωρίω καὶ τῶ τόπω τὰ μέρεα ὑφέστακεν,<note type="apparatus" n="1" target="#p55-0">ὑφέστηκεν L</note>
               <lb n="2" xml:id="p55-1"/>τῶ δὲ χρόνω τὰ μὲν γενόμενα ἔφθαρται, τὰ δὲ γενησόμενα φθαρήσεται.
-              <lb n="3" xml:id="p55-2"/>διόπερ ὁ χρόνος ἤτοι τὸ παράπαν οὐκ ἔστιν, ἢ ἀμυδρῶς καὶ μόλις ἐστίν· οὐ
+              <lb n="3" xml:id="p55-2"/>διόπερ ὁ χρόνος ἤτοι τὸ παράπαν οὐκ ἔστιν, ἢ ἀμυδρῶς καὶ μόλις ἐστίν· <choice><sic>οὖ</sic><corr>οὗ</corr></choice>
               <lb n="4" xml:id="p55-3"/>γὰρ τὸ μὲν παρεληλυθὸς οὐκέτι ἐστί, τὸ δὲ μέλλον οὐδέπω ἐστί, τὸ δὲ νῦν<note type="apparatus" n="4" target="#p55-3">οὐδέπω] οὐκέτι M</note>
               <lb n="5" xml:id="p55-4"/>ἀμερὲς καὶ ἀδιαίρετον, πῶς ἂν ὑπάρχοι τοῦτο κατ’ ἀλήθειαν;” καὶ φύσις μὲν<note type="apparatus" n="5" target="#p55-4">ὑπάρχοι Simpl.: ὑπάρχει BL: ὑπάρχη M</note>
               <lb n="6" xml:id="p55-5"/>χρόνου κατὰ τὸν Ἀρχύταν αὕτη, χρείαν δὲ τῷ παντὶ παρέχεται τήνδε· ὡς γὰρ
@@ -2272,7 +2273,7 @@
               <lb n="31" xml:id="p55-30"/>θεωρεῖται, ἃ καὶ κυρίως συμπληροῖ τὸ διάστημα τοῦ πρεσβυτάτου πάντων
               <lb n="32" xml:id="p55-31"/>χρόνου. διάστημα δὲ ἐνταῦθα λέγομεν οὐ τὸ κατὰ τὸν ὄγκον, οὐ τὸ κατὰ τὴν<note type="apparatus" n="32" target="#p55-31">δὲ om. L οὐδὲ τὸ M</note>
               <lb n="33" xml:id="p55-32"/>κίνησιν ἁπλῶς τὴν ἐκτός, ἀλλὰ τὸ κατὰ τὴν προυπάρχουσαν τῆς κινήσεως
-              <lb n="34" xml:id="p55-33"/>τάξιν, ἐν ᾗ τὸ πρότερον καὶ τὸ ὕστερον προδιατεταγμένα καὶ τοῖς πράξεσι καὶ
+              <lb n="34" xml:id="p55-33"/>τάξιν, ἐν ᾗ τὸ πρότερον καὶ τὸ ὕστερον προδιατεταγμένα καὶ <choice><sic>τοῖς</sic><corr>ταῖς</corr></choice> πράξεσι καὶ
               <lb n="35" xml:id="p55-34"/>ταῖς κινήσεσι τὴν τάξιν παρέχεται. καὶ περὶ μὲν τοῦ ποτὲ καὶ τοῦ χρόνου
               <lb n="36" xml:id="p55-35"/>ὡς ἐν εἰσαγωγαῖς ἀρκεῖ τοσαῦτα.<note type="apparatus" n="36" target="#p55-35">ταῦτα M</note>
               <lb n="37" xml:id="p55-36"/>Περὶ δὲ τοῦ ποῦ καὶ τοῦ τόπου κατὰ τὰ αὐτὰ διαλαβεῖν ὑπολείπεται. καὶ<note type="apparatus" n="37" target="#p55-36">Περὶ δὲ τοῦ ποῦ] περὶ τοῦ ποῦ ἐν ᾧ καὶ περὶ τόπου superscribunt BLM² δὲ om. M καὶ τοῦ τόπου om. B¹ κατὰ ταὐτὸν M</note>
