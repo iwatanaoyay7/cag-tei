@@ -5,6 +5,33 @@ Each file's `revisionDesc` records the changes to that file. Version numbers: th
 readings and numbers, the second for additions to the encoding or larger revisions of the divisions, the first for
 changes that affect how passages are cited.
 
+## 1.0.4 (2026-11-24)
+
+- Bekker references of 13 lemmata in four of the 15 hand-divided files corrected on the page images
+  (`milestone[@unit='bekker']/@n`; the text is unchanged). The divisions of these files had taken the reference from an
+  earlier reading, not from the line printed before the lemma; a comparison of all 1,234 references of the four files
+  with the print found these 13:
+  Alexander, *In Metaphysica* (`tlg0732.tlg004`) p. 64 `988b22`, p. 179 `996a1`, p. 286 `1007a23`, p. 654 `1062b33`,
+  p. 729 `1076b39`, p. 835 `1093b7`;
+  Ammonius, *In Categorias* (`tlg4016.tlg002`) p. 24 `1a16`;
+  Ammonius, *In De interpretatione* (`tlg4016.tlg003`) p. 54 `16b19`, p. 81 `17a26`, p. 188 `20a31`;
+  Syrianus, *In Metaphysica* (`tlg4017.tlg001`) p. 119 `1079b31`, p. 176 `1090a2`, p. 183 `1091b16`.
+- Bekker references misprinted in the CAG volumes themselves (15, found when the lemmata were linked to the text of
+  Aristotle and checked on the page images) are now kept and given with the right reference,
+  `<choice><sic><milestone unit="bekker" n="…"/></sic><corr><milestone unit="bekker" n="…"/></corr></choice>`
+  at the start of the lemma (see `docs/encoding.md` §3):
+  Ps.-Alexander, *In Sophisticos elenchos* (`tlg0732.tlgX01`) p. 141 `117a20` for `177a20`;
+  Olympiodorus, *In Meteorologica* (`tlg4019.tlg003`) p. 65 `324b26` for `344b26`, p. 140 `353a32` for `355a32`;
+  Philoponus, *In Analytica priora* (`tlg4015.tlg002`) p. 176 `33b14` for `34b14`, p. 476 `29a22` for `69a22`,
+  p. 477 `26a37` for `69a37`;
+  Philoponus, *In Analytica posteriora* (`tlg4015.tlg004`) p. 87 `73b27` for `74b27`, `73b28` for `74b28`,
+  p. 311 `38a16` for `88a16`;
+  Philoponus, *In Physica* (`tlg4015.tlg009`) p. 125 `288b28` for `188b28`, p. 280 `297a30` for `197a30`,
+  p. 863 `132b14` for `232b14`;
+  Eustratius et al., *In Ethica Nicomachea* (`tlg4031.tlg002`) p. 8 `194a3` for `1094a3`, p. 562 `1178a18` for `1175a18`;
+  Michael, *In Parva naturalia* (`tlg4034.tlg002`) p. 17 `151a8` for `451a8`.
+- Recorded in each file's `revisionDesc`. The counts are unchanged (a misprinted reference counts once).
+
 ## 1.0.3 (2026-11-23)
 
 - The Greek text of 57 of the 59 files corrected on the page images. The four translations made for the Humanitext

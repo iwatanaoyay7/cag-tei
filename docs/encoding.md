@@ -63,7 +63,9 @@ records the details of its production; what is said here holds for all 59 files.
   the quotation ends after the last spaced word and the paragraph continues in that line without a new `lb`. A lemma
   division with a Bekker reference but no printed lemma (Michael, In De partibus animalium from p. 37, where the
   paraphrase follows the reference directly) has no `quote`. `milestone unit="bekker"`: the Bekker reference printed
-  before the lemma (normalised, e.g. `24a10`).
+  before the lemma (normalised, e.g. `24a10`). A reference misprinted in the edition is kept and given with the
+  right one, at the start of the lemma (`choice` cannot stand between divisions):
+  `<quote type="lemma"><choice><sic><milestone unit="bekker" n="151a8"/></sic><corr><milestone unit="bekker" n="451a8"/></corr></choice>…`.
 - Headings inside a div (sub-headings, closing formulas, labels of tables) are `ab type="head"`.
 - The divisions of 15 works (the "pilot" set) were made by hand; those of the other 44 automatically and reviewed
   (see each header).

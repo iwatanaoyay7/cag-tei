@@ -1,6 +1,6 @@
 # CAG-TEI: the *Commentaria in Aristotelem Graeca* in TEI
 
-*Version 1.0.3 (2026-11-23). DOI of this version: [10.5281/zenodo.24463002](https://doi.org/10.5281/zenodo.24463002); DOI of the latest version: [10.5281/zenodo.24301130](https://doi.org/10.5281/zenodo.24301130).*
+*Version 1.0.4 (2026-11-24). DOI of this version: to be assigned on release; DOI of the latest version: [10.5281/zenodo.24301130](https://doi.org/10.5281/zenodo.24301130).*
 
 A TEI P5 edition of the 59 commentaries of the *Commentaria in Aristotelem Graeca* (CAG I–XXIII, Berlin: Reimer
 1882–1909; 57 Greek, 2 Latin), transcribed from page images and encoded with:

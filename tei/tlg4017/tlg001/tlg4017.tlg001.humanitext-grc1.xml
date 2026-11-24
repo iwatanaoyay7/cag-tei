@@ -52,6 +52,7 @@
       <change when="2026-11-05" who="#NI">Extent of the lemma quotations (quote[@type='lemma']) checked on the page images: lemmata closed before their last printed line (the quotation was closed when the collation text was covered, so a short centred last line could be left out) extended; abbreviated lemmata (Ἀλλὰ … γένη.) whose quotation had taken in the first line of the commentary shortened (11 places in the pilot works); candidates found from the letter-spacing of the lines on the page images and the line geometry and decided on the page images (Claude work teams).</change>
       <change when="2026-11-18" who="#NI">Bekker references of 2 lemmata misread by the OCR corrected on the page images: p. 146 (1804a2 → 1084a2), p. 148 (1804a18 → 1084a18).</change>
       <change when="2026-11-22" who="#NI">Readings questioned by the review of the translations collated on the page images (read independently, at least twice wherever the print does not have the proposed form, by a language model, Claude; the 28 places in all works that it could not settle were read by the editor): 29 errors of the transcription corrected; 5 evident misprints of the edition given as choice/sic/corr; 3 evident misprints of the edition in a word broken at the line end (which cannot carry choice/sic/corr) corrected in the text.</change>
+      <change when="2026-11-24" who="#NI">Bekker references of 3 lemmata corrected on the page images: p. 119 (1079a31 → 1079b31), p. 176 (1091a2 → 1090a2), p. 183 (1091a16 → 1091b16).</change>
     </revisionDesc>
   </teiHeader>
   <text>
@@ -5509,7 +5510,7 @@
             </div>
           <pb n="119" facs="https://archive.org/download/commentariaina06pt12akaduoft/page/n140.jpg"/>
           <div type="textpart" subtype="lemma" n="39">
-            <milestone unit="bekker" n="1079a31"/>
+            <milestone unit="bekker" n="1079b31"/>
             <quote type="lemma">
               <lb n="1" xml:id="p119-0"/>Ἔσται τε πλείω . . . αὐτοάνθρωπος.
             </quote>
@@ -8429,7 +8430,7 @@
             </p>
           </div>
           <div type="textpart" subtype="lemma" n="150">
-            <milestone unit="bekker" n="1091a2"/>
+            <milestone unit="bekker" n="1090a2"/>
             <quote type="lemma">
               <lb n="15" xml:id="p176-14"/>Ἐπιστήσειε . . . ἐλέχθη.
             </quote>
@@ -8768,7 +8769,7 @@
             </p>
           </div>
           <div type="textpart" subtype="lemma" n="163">
-            <milestone unit="bekker" n="1091a16"/>
+            <milestone unit="bekker" n="1091b16"/>
             <quote type="lemma">
               <lb n="9" xml:id="p183-8"/>Θαυμαστὸν δὲ εἰ . . . ἀγαθόν τι.
             </quote>

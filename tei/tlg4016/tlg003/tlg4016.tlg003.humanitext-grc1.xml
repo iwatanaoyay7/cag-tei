@@ -53,6 +53,7 @@
       <change when="2026-11-05" who="#NI">Extent of the lemma quotations (quote[@type='lemma']) checked on the page images: lemmata closed before their last printed line (the quotation was closed when the collation text was covered, so a short centred last line could be left out) extended; abbreviated lemmata (Ἀλλὰ … γένη.) whose quotation had taken in the first line of the commentary shortened (11 places in the pilot works); candidates found from the letter-spacing of the lines on the page images and the line geometry and decided on the page images (Claude work teams).</change>
       <change when="2026-11-18" who="#NI">Bekker references of 2 lemmata misread by the OCR corrected on the page images: p. 29 (16ai9 → 16a19), p. 266 (32b32 → 23b32).</change>
       <change when="2026-11-22" who="#NI">Readings questioned by the review of the translations collated on the page images (read independently, at least twice wherever the print does not have the proposed form, by a language model, Claude; the 28 places in all works that it could not settle were read by the editor): 43 errors of the transcription corrected; 28 evident misprints of the edition given as choice/sic/corr; 11 evident misprints of the edition in a word broken at the line end (which cannot carry choice/sic/corr) corrected in the text.</change>
+      <change when="2026-11-24" who="#NI">Bekker references of 3 lemmata corrected on the page images: p. 54 (16b → 16b19), p. 81 (17a2 → 17a26), p. 188 (20a3 → 20a31).</change>
     </revisionDesc>
   </teiHeader>
   <text>
@@ -2030,7 +2031,7 @@
             </p>
           </div>
           <div type="textpart" subtype="lemma" n="10">
-            <milestone unit="bekker" n="16b"/>
+            <milestone unit="bekker" n="16b19"/>
             <p>
               <lb n="23" xml:id="p54-22"/>φησὶν αὐτὰ μὲν οὖν καθ’ ἑαυτὰ λεγόμενα τὰ ῥήματα ὀνόματά
               <lb n="24" xml:id="p54-23"/>ἐστι καὶ σημαίνει τι, ὀνόματα λέγων ἀντὶ τοῦ σημαντικά, διὸ καὶ<note type="apparatus" n="24" target="#p54-23">ἐστὶ om. F τοῦ τὰ σημαντ. G1</note>
@@ -3027,7 +3028,7 @@
             </p>
           </div>
           <div type="textpart" subtype="lemma" n="18">
-            <milestone unit="bekker" n="17a2"/>
+            <milestone unit="bekker" n="17a26"/>
             <quote type="lemma">
               <lb n="3" xml:id="p81-2"/>Ἐπεὶ δὲ ἔστι καὶ τὸ ὑπάρχον ἀποφαίνεσθαι ὡς μὴ<note type="apparatus" n="3" target="#p81-2">ante ἐπεὶ add. titulo Περὶ καταφάσεως καὶ ἀποφάσεως anteposito Κατάφασις δέ ἐστιν ἀπόφανσίς τινος κατά τινος, ἀπόφασις δέ ἐστιν ἀπόφανσίς τινος ἀπό τινος. Πᾶσα κατάφασις ἢ ἀπόφασις τὸ ἀληθὲς καὶ τὸ ψεῦδος διαιρεῖ καὶ οὐ διαιρεῖ. διαιρεῖ μὲν ὡς ἐπὶ τῶν αὐτῶν ὅρων τοῦ τε κατηγορουμένου καὶ τοῦ ὑποκειμένου, οὐ διαιρεῖ δὲ ὁμωνύμως πρὸς ἄλλο καὶ ἄλλο κατ’ ἄλλο ἐν ἄλλῳ καὶ ἄλλῳ ἄλλως καὶ ἄλλως a μὴ — ἐνοχλήσεις (12) om. M</note>
               <lb n="4" xml:id="p81-3"/>ὑπάρχον καὶ τὸ μὴ ὑπάρχον ὡς ὑπάρχον καὶ τὸ ὑπάρχον ὡς<note type="apparatus" n="4" target="#p81-3">καὶ τὸ ὑπάρχον — ἐνοχλήσεις (12) om. a</note>
@@ -7064,7 +7065,7 @@
             </p>
           </div>
           <div type="textpart" subtype="lemma" n="41">
-            <milestone unit="bekker" n="20a3"/>
+            <milestone unit="bekker" n="20a31"/>
             <quote type="lemma">
               <lb n="15" xml:id="p188-14"/>Αἱ δὲ κατὰ τὰ ἀόριστα ἀντικείμεναι ὀνόματα καὶ ῥήματα,<note type="apparatus" n="15" target="#p188-14">ὀνόματα — προστεθῇ (20) om. M</note>
               <lb n="16" xml:id="p188-15"/>οἷον ἐπὶ τοῦ μὴ ἄνθρωπος καὶ μὴ δίκαιος, ὥσπερ ἀποφάσεις<note type="apparatus" n="16" target="#p188-15">οἷον — προστεθῇ (20) om. a τὸ F</note><milestone type="alt-edition" unit="line" ed="Venetiis 1545" n="20"/>

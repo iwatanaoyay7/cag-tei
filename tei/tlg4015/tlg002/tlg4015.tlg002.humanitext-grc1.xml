@@ -59,6 +59,7 @@
       <change when="2026-11-05" who="#NI">Extent of the lemma quotations (quote[@type='lemma']) corrected: the automatic division had closed every lemma after its first printed line, leaving the remaining lines of lemmata printed over two or more lines at the head of the following paragraph. Candidates were found from the letter-spacing of the lines on the page images (lemmata are printed spaced) and from the line geometry (centred last line, indented paragraph start), and every candidate was decided on the page image (Claude work teams; about 7,700 places in the corpus); the lines so decided are now inside the quotation, with pb inside the quotation where a lemma runs on to the next page. Where the lemma runs on in the same line as the commentary (Stephanus in De interpretatione), the quotation ends after the last spaced word and the paragraph continues in the same line without a new lb; where no lemma is printed and the paraphrase follows the Bekker reference directly (Michael in De partibus animalium from p. 37), the quotation is dropped and the division kept; centred last lines the edition does not count are inside the quotation as unnumbered lines.</change>
       <change when="2026-11-18" who="#NI">Bekker reference of 1 lemma misread by the OCR corrected on the page image: p. 379 (52a → 52a24).</change>
       <change when="2026-11-22" who="#NI">Readings questioned by the review of the translations collated on the page images (read independently, at least twice wherever the print does not have the proposed form, by a language model, Claude; the 28 places in all works that it could not settle were read by the editor): 28 errors of the transcription corrected; 14 evident misprints of the edition given as choice/sic/corr; 4 evident misprints of the edition in a word broken at the line end (which cannot carry choice/sic/corr) corrected in the text.</change>
+      <change when="2026-11-24" who="#NI">Bekker references of 3 lemmata misprinted in the edition, kept as printed and given with the right reference (sic/corr), checked on the page images: p. 176 (33b14 for 34b14), p. 476 (29a22 for 69a22), p. 477 (26a37 for 69a37).</change>
     </revisionDesc>
   </teiHeader>
   <text>
@@ -7587,8 +7588,7 @@
             </p>
           </div>
           <div type="textpart" subtype="lemma" n="86">
-            <milestone unit="bekker" n="33b14"/>
-            <quote type="lemma">
+            <quote type="lemma"><choice><sic><milestone unit="bekker" n="33b14"/></sic><corr><milestone unit="bekker" n="34b14"/></corr></choice>
               <lb n="6" xml:id="p176-5"/>Ἔτι ἔστω τὸ μὲν πρῶτον ζῷον, τὸ δὲ μέσον κινούμενον,<note type="apparatus" n="6 et 7" target="#p176-5 #p176-6">τὸν δὲ V</note>
               <lb n="7" xml:id="p176-6"/>τὸ δ’ ἔσχατον ἄνθρωπος.
             </quote>
@@ -22189,8 +22189,7 @@
             </p>
           </div>
           <div type="textpart" subtype="lemma" n="281">
-            <milestone unit="bekker" n="29a22"/>
-            <quote type="lemma">
+            <quote type="lemma"><choice><sic><milestone unit="bekker" n="29a22"/></sic><corr><milestone unit="bekker" n="69a22"/></corr></choice>
               <lb n="11" xml:id="p476-10"/>〈Ἔτι ἂν ὀλίγα ᾖ τὰ μέσα.〉<note type="apparatus" n="11" target="#p476-10">lemma addidi</note>
             </quote>
             <p>
@@ -22266,8 +22265,7 @@
             </p>
           </div>
           <div type="textpart" subtype="lemma" n="287">
-            <milestone unit="bekker" n="26a37"/>
-            <quote type="lemma">
+            <quote type="lemma"><choice><sic><milestone unit="bekker" n="26a37"/></sic><corr><milestone unit="bekker" n="69a37"/></corr></choice>
               <lb n="14" xml:id="p477-13"/>Ἔνστασις δέ ἐστι πρότασις προτάσει ἐναντία.<note type="apparatus" n="14" target="#p477-13">περὶ ἐνστάσεως inser. B δέ om. U post ἐστὶ del. πρὸς τὰς U πρότασις e προτάσεις corr. U</note>
             </quote>
             <p>

@@ -59,6 +59,7 @@
       <change when="2026-11-05" who="#NI">Apparatus entries printed out of numerical order (e.g. 33 … 32) separated from the preceding entry; words hyphenated across lines joined in Latin text as in Greek; words mixing Greek and Latin letters (OCR errors, about 130, including manuscript sigla) corrected on the page images; marginal folio marks left in the text removed; validated against TEI P5 version 4.12.0 (recorded in TEI/@version).</change>
       <change when="2026-11-05" who="#NI">Extent of the lemma quotations (quote[@type='lemma']) corrected: the automatic division had closed every lemma after its first printed line, leaving the remaining lines of lemmata printed over two or more lines at the head of the following paragraph. Candidates were found from the letter-spacing of the lines on the page images (lemmata are printed spaced) and from the line geometry (centred last line, indented paragraph start), and every candidate was decided on the page image (Claude work teams; about 7,700 places in the corpus); the lines so decided are now inside the quotation, with pb inside the quotation where a lemma runs on to the next page. Where the lemma runs on in the same line as the commentary (Stephanus in De interpretatione), the quotation ends after the last spaced word and the paragraph continues in the same line without a new lb; where no lemma is printed and the paraphrase follows the Bekker reference directly (Michael in De partibus animalium from p. 37), the quotation is dropped and the division kept; centred last lines the edition does not count are inside the quotation as unnumbered lines.</change>
       <change when="2026-11-22" who="#NI">Readings questioned by the review of the translations collated on the page images (read independently, at least twice wherever the print does not have the proposed form, by a language model, Claude; the 28 places in all works that it could not settle were read by the editor): 52 errors of the transcription corrected; 7 evident misprints of the edition given as choice/sic/corr; 5 evident misprints of the edition in a word broken at the line end (which cannot carry choice/sic/corr) corrected in the text.</change>
+      <change when="2026-11-24" who="#NI">Bekker references of 2 lemmata misprinted in the edition, kept as printed and given with the right reference (sic/corr), checked on the page images: p. 65 (324b26 for 344b26), p. 140 (353a32 for 355a32).</change>
     </revisionDesc>
   </teiHeader>
   <text>
@@ -3421,8 +3422,7 @@
               </p>
             </div>
             <div type="textpart" subtype="lemma" n="21">
-              <milestone unit="bekker" n="324b26"/>
-              <quote type="lemma">
+              <quote type="lemma"><choice><sic><milestone unit="bekker" n="324b26"/></sic><corr><milestone unit="bekker" n="344b26"/></corr></choice>
                 <lb n="7" xml:id="p65-6"/>Ὅταν μὲν οὖν πυκνὸν καὶ πλείους καὶ τὰ ἑξῆς.<note type="apparatus" n="7" target="#p65-6">πυκνοὶ Ar.</note>
               </quote>
               <p>
@@ -7475,8 +7475,7 @@
               </p>
             </div>
             <div type="textpart" subtype="lemma" n="17">
-              <milestone unit="bekker" n="353a32"/>
-              <quote type="lemma">
+              <quote type="lemma"><choice><sic><milestone unit="bekker" n="353a32"/></sic><corr><milestone unit="bekker" n="355a32"/></corr></choice>
                 <lb n="8" xml:id="p140-7"/>Τὸ μὲν οὖν πότιμον καὶ γλυκὺ διὰ κουφότητα πᾶν
                 <lb n="9" xml:id="p140-8"/>ἄγεται.<note type="apparatus" n="9" target="#p140-8">ἄγεται] ἀνάγεται Ar.</note>
               </quote>

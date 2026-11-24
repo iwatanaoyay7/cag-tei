@@ -60,6 +60,7 @@
       <change when="2026-11-05" who="#NI">Extent of the lemma quotations (quote[@type='lemma']) corrected: the automatic division had closed every lemma after its first printed line, leaving the remaining lines of lemmata printed over two or more lines at the head of the following paragraph. Candidates were found from the letter-spacing of the lines on the page images (lemmata are printed spaced) and from the line geometry (centred last line, indented paragraph start), and every candidate was decided on the page image (Claude work teams; about 7,700 places in the corpus); the lines so decided are now inside the quotation, with pb inside the quotation where a lemma runs on to the next page. Where the lemma runs on in the same line as the commentary (Stephanus in De interpretatione), the quotation ends after the last spaced word and the paragraph continues in the same line without a new lb; where no lemma is printed and the paraphrase follows the Bekker reference directly (Michael in De partibus animalium from p. 37), the quotation is dropped and the division kept; centred last lines the edition does not count are inside the quotation as unnumbered lines.</change>
       <change when="2026-11-18" who="#NI">Bekker references of 3 lemmata misread by the OCR corrected on the page images: p. 38 (1096a → 1096a5), p. 296 (1139b → 1139b33), p. 516 (1170a → 1170a25).</change>
       <change when="2026-11-22" who="#NI">Readings questioned by the review of the translations collated on the page images (read independently, at least twice wherever the print does not have the proposed form, by a language model, Claude; the 28 places in all works that it could not settle were read by the editor): 92 errors of the transcription corrected; 49 evident misprints of the edition given as choice/sic/corr; 17 evident misprints of the edition in a word broken at the line end (which cannot carry choice/sic/corr) corrected in the text; 1 line that is not text (letters of a diagram, a mark at the foot of the page, a line of the apparatus) taken out of the text.</change>
+      <change when="2026-11-24" who="#NI">Bekker references of 2 lemmata misprinted in the edition, kept as printed and given with the right reference (sic/corr), checked on the page images: p. 8 (194a3 for 1094a3), p. 562 (1178a18 for 1175a18).</change>
     </revisionDesc>
   </teiHeader>
   <text>
@@ -382,8 +383,7 @@
             </p>
           </div>
           <div type="textpart" subtype="lemma" n="2">
-            <milestone unit="bekker" n="194a3"/>
-            <quote type="lemma">
+            <quote type="lemma"><choice><sic><milestone unit="bekker" n="194a3"/></sic><corr><milestone unit="bekker" n="1094a3"/></corr></choice>
               <lb n="27" xml:id="p8-26"/>Διαφορὰ δέ τις φαίνεται τῶν τελῶν· τὰ μὲν γάρ εἰσιν
               <lb n="28" xml:id="p8-27"/>ἐνέργειαι, τὰ δὲ παρὰ ταύτας ἔργα τινά.
             </quote>
@@ -25512,8 +25512,7 @@
             </p>
           </div>
           <div type="textpart" subtype="lemma" n="26">
-            <milestone unit="bekker" n="1178a18"/>
-            <quote type="lemma">
+            <quote type="lemma"><choice><sic><milestone unit="bekker" n="1178a18"/></sic><corr><milestone unit="bekker" n="1175a18"/></corr></choice>
               <lb n="19" xml:id="p562-18"/>Πότερον δὲ διὰ τὴν ἡδονὴν αἱρούμεθα τὸ ζῆν ἢ διὰ<note type="apparatus" n="19" target="#p562-18">αἱρούμεθα τὸ ζῆν B: τὸ ζῆν αἱρούμεθα a et Aristoteles</note>
               <lb n="20" xml:id="p562-19"/>τὸ ζῆν τὴν ἡδονήν, ἀφείσθω.<note type="apparatus" n="20" target="#p562-19">rhesis usque ad δὴ ἡδοναί (1175a28) a</note>
             </quote>

@@ -60,6 +60,7 @@
       <change when="2026-11-05" who="#NI">Apparatus entries printed out of numerical order (e.g. 33 … 32) separated from the preceding entry; words hyphenated across lines joined in Latin text as in Greek; words mixing Greek and Latin letters (OCR errors, about 130, including manuscript sigla) corrected on the page images; marginal folio marks left in the text removed; validated against TEI P5 version 4.12.0 (recorded in TEI/@version).</change>
       <change when="2026-11-05" who="#NI">Extent of the lemma quotations (quote[@type='lemma']) corrected: the automatic division had closed every lemma after its first printed line, leaving the remaining lines of lemmata printed over two or more lines at the head of the following paragraph. Candidates were found from the letter-spacing of the lines on the page images (lemmata are printed spaced) and from the line geometry (centred last line, indented paragraph start), and every candidate was decided on the page image (Claude work teams; about 7,700 places in the corpus); the lines so decided are now inside the quotation, with pb inside the quotation where a lemma runs on to the next page. Where the lemma runs on in the same line as the commentary (Stephanus in De interpretatione), the quotation ends after the last spaced word and the paragraph continues in the same line without a new lb; where no lemma is printed and the paraphrase follows the Bekker reference directly (Michael in De partibus animalium from p. 37), the quotation is dropped and the division kept; centred last lines the edition does not count are inside the quotation as unnumbered lines.</change>
       <change when="2026-11-22" who="#NI">Readings questioned by the review of the translations collated on the page images (read independently, at least twice wherever the print does not have the proposed form, by a language model, Claude; the 28 places in all works that it could not settle were read by the editor): 96 errors of the transcription corrected; 23 evident misprints of the edition given as choice/sic/corr; 13 evident misprints of the edition in a word broken at the line end (which cannot carry choice/sic/corr) corrected in the text; 13 lines that are not text (letters of a diagram, a mark at the foot of the page, a line of the apparatus) taken out of the text.</change>
+      <change when="2026-11-24" who="#NI">Bekker references of 3 lemmata misprinted in the edition, kept as printed and given with the right reference (sic/corr), checked on the page images: p. 125 (288b28 for 188b28), p. 280 (297a30 for 197a30), p. 863 (132b14 for 232b14).</change>
     </revisionDesc>
   </teiHeader>
   <text>
@@ -4875,8 +4876,7 @@
             </p>
           </div>
           <div type="textpart" subtype="lemma" n="92">
-            <milestone unit="bekker" n="288b28"/>
-            <quote type="lemma">
+            <quote type="lemma"><choice><sic><milestone unit="bekker" n="288b28"/></sic><corr><milestone unit="bekker" n="188b28"/></corr></choice>
               <lb n="18" xml:id="p125-17"/>Καίπερ ἄνευ λόγου τιθέντες.<note type="apparatus" n="18" target="#p125-17">καίπερ ἄνε: (sic), omissis λόγου τιθέντες, K</note><milestone type="alt-edition" unit="line" ed="Trincavelli 1535" n="15"/>
             </quote>
             <p>
@@ -10989,8 +10989,7 @@
             </p>
           </div>
           <div type="textpart" subtype="lemma" n="92">
-            <milestone unit="bekker" n="297a30"/>
-            <quote type="lemma">
+            <quote type="lemma"><choice><sic><milestone unit="bekker" n="297a30"/></sic><corr><milestone unit="bekker" n="197a30"/></corr></choice>
               <lb n="18" xml:id="p280-17"/>Ἔτι ἀβέβαιος ἡ εὐτυχία εὐλόγως.<note type="apparatus" n="18-24" target="#p280-17 #p280-18 #p280-19 #p280-20 #p280-21 #p280-22 #p280-23">om. K</note><note type="apparatus" n="18" target="#p280-17">ἀβέβαιος L: ἀβέβαιον Mt at cf. Themist. p. 184,16 Simplic. p. 344,35</note><milestone type="alt-edition" unit="line" ed="Trincavelli 1535" n="5"/>
             </quote>
             <p>
@@ -35896,8 +35895,7 @@
             </p>
           </div>
           <div type="textpart" subtype="lemma" n="53">
-            <milestone unit="bekker" n="132b14"/>
-            <p>
+            <p><choice><sic><milestone unit="bekker" n="132b14"/></sic><corr><milestone unit="bekker" n="232b14"/></corr></choice>
               <lb n="17" xml:id="p863-16"/>Ἔτι τὸ αὐτὸ κατασκευάζει, ὅτι τὸ θᾶττον ἐν ἐλάττονι τὸ ἴσον κινεῖται,
               <lb n="18" xml:id="p863-17"/>ἁπλουστέρα δὲ τῷ ὄντι καὶ φυσικωτέρα αὕτη ἡ ἐπιχείρησις. πᾶν, φησί,
               <lb n="19" xml:id="p863-18"/>τὸ κινούμενον μίαν καὶ τὴν αὐτὴν γραμμήν, οἷον τὴν πηχυαίαν, ἢ ἐν ἴσῳ

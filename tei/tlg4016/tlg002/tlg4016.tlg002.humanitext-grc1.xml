@@ -50,6 +50,7 @@
       <change when="2026-11-05" who="#NI">Apparatus entries printed out of numerical order (e.g. 33 … 32) separated from the preceding entry; words hyphenated across lines joined in Latin text as in Greek; words mixing Greek and Latin letters (OCR errors, about 130, including manuscript sigla) corrected on the page images; marginal folio marks left in the text removed; validated against TEI P5 version 4.12.0 (recorded in TEI/@version).</change>
       <change when="2026-11-05" who="#NI">Extent of the lemma quotations (quote[@type='lemma']) checked on the page images: lemmata closed before their last printed line (the quotation was closed when the collation text was covered, so a short centred last line could be left out) extended; abbreviated lemmata (Ἀλλὰ … γένη.) whose quotation had taken in the first line of the commentary shortened (11 places in the pilot works); candidates found from the letter-spacing of the lines on the page images and the line geometry and decided on the page images (Claude work teams).</change>
       <change when="2026-11-22" who="#NI">Readings questioned by the review of the translations collated on the page images (read independently, at least twice wherever the print does not have the proposed form, by a language model, Claude; the 28 places in all works that it could not settle were read by the editor): 6 errors of the transcription corrected; 4 evident misprints of the edition given as choice/sic/corr; 3 evident misprints of the edition in a word broken at the line end (which cannot carry choice/sic/corr) corrected in the text.</change>
+      <change when="2026-11-24" who="#NI">Bekker reference of 1 lemma corrected on the page image: p. 24 (1a6 → 1a16).</change>
     </revisionDesc>
   </teiHeader>
   <text>
@@ -804,7 +805,7 @@
             </p>
           </div>
           <div type="textpart" subtype="lemma" n="13">
-            <milestone unit="bekker" n="1a6"/>
+            <milestone unit="bekker" n="1a16"/>
             <quote type="lemma">
               <lb n="13" xml:id="p24-12"/>Τῶν λεγομένων τὰ μὲν κατὰ συμπλοκήν. <note type="apparatus" n="13" target="#p24-12">ante lemma add. tit. ἀριστοτέλους περὶ τῶν λεγομένων F</note>
             </quote>

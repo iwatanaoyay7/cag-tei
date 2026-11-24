@@ -54,6 +54,7 @@
       <change when="2026-11-05" who="#NI">Extent of the lemma quotations (quote[@type='lemma']) checked on the page images: lemmata closed before their last printed line (the quotation was closed when the collation text was covered, so a short centred last line could be left out) extended; abbreviated lemmata (Ἀλλὰ … γένη.) whose quotation had taken in the first line of the commentary shortened (11 places in the pilot works); candidates found from the letter-spacing of the lines on the page images and the line geometry and decided on the page images (Claude work teams).</change>
       <change when="2026-11-18" who="#NI">Bekker references of 3 lemmata misread by the OCR corrected on the page images: p. 284 (100a8 → 1007a8), p. 547 (1024b9 → 1042b9), p. 683 (107a11 → 1071a11).</change>
       <change when="2026-11-22" who="#NI">Readings questioned by the review of the translations collated on the page images (read independently, at least twice wherever the print does not have the proposed form, by a language model, Claude; the 28 places in all works that it could not settle were read by the editor): 263 errors of the transcription corrected; 10 evident misprints of the edition given as choice/sic/corr; 8 evident misprints of the edition in a word broken at the line end (which cannot carry choice/sic/corr) corrected in the text.</change>
+      <change when="2026-11-24" who="#NI">Bekker references of 6 lemmata corrected on the page images: p. 64 (988b2 → 988b22), p. 179 (990a1 → 996a1), p. 286 (1007a27 → 1007a23), p. 654 (1062b23 → 1062b33), p. 729 (1076a39 → 1076b39), p. 835 (1093a7 → 1093b7).</change>
     </revisionDesc>
   </teiHeader>
   <text>
@@ -2523,7 +2524,7 @@
             </p>
           </div>
           <div type="textpart" subtype="lemma" n="66">
-            <milestone unit="bekker" n="988b2"/>
+            <milestone unit="bekker" n="988b22"/>
             <quote type="lemma">
               <lb n="13" xml:id="p64-12"/>Ὅσοι μὲν οὖν ἕν τε τὸ πᾶν καὶ μίαν τινὰ φύσιν ὡς<note type="apparatus" n="13-14" target="#p64-12 #p64-13">ὡς ὕλην scripsi coll. v.</note>
               <lb n="14" xml:id="p64-13"/>ὕλην τιθέασι, καὶ ταύτην σωματικὴν καὶ μέγεθος ἔχουσαν, δῆλον
@@ -6684,7 +6685,7 @@
             </p>
           </div>
           <div type="textpart" subtype="lemma" n="13">
-            <milestone unit="bekker" n="990a1"/>
+            <milestone unit="bekker" n="996a1"/>
             <quote type="lemma">
               <lb n="6" xml:id="p179-5"/>Ἔτι αἱ ἀρχαὶ πότερον ἀριθμῷ ἢ εἴδει ὡρισμέναι.
             </quote>
@@ -11371,7 +11372,7 @@
             </p>
           </div>
           <div type="textpart" subtype="lemma" n="41">
-            <milestone unit="bekker" n="1007a27"/>
+            <milestone unit="bekker" n="1007a23"/>
             <quote type="lemma">
               <lb n="25" xml:id="p286-24"/>p. 1007ᵃ 27 Εἰ δ’ ἔσται αὐτῷ τὸ ὅπερ ἀνθρώπῳ εἶναι.
             </quote>
@@ -27408,7 +27409,7 @@
             </p>
           </div>
           <div type="textpart" subtype="lemma" n="19">
-            <milestone unit="bekker" n="1062b23"/>
+            <milestone unit="bekker" n="1062b33"/>
             <quote type="lemma">
               <lb n="10" xml:id="p654-9"/>Τό γε μὴν ὁμοίως προσέχειν ταῖς δόξαις καὶ ταῖς<note type="apparatus" n="10" target="#p654-9">ταῖς δόξαις καὶ ταῖς L: om. A</note>
               <lb n="11" xml:id="p654-10"/>φαντασίαις τῶν πρὸς αὑτοὺς ἀμφισβητούντων εὔηθες.<note type="apparatus" n="11" target="#p654-10">τῶν πρὸς αὑτοὺς om. A αὑτοὺς Bonitz: αὐτοὺς LM εὔηθες om. L</note>
@@ -30810,7 +30811,7 @@
             </div>
           <pb n="729" facs="https://archive.org/download/p2commentariainari01bero/page/n336.jpg"/>
           <div type="textpart" subtype="lemma" n="4">
-            <milestone unit="bekker" n="1076a39"/>
+            <milestone unit="bekker" n="1076b39"/>
             <quote type="lemma">
               <lb n="1" xml:id="p729-0"/>Ἔτι ἅπερ καὶ ἐν τοῖς διαπορήμασιν ἐπήλθομεν πῶς<milestone type="alt-edition" unit="line" ed="Bonitz 1847" n="15"/>
               <lb n="2" xml:id="p729-1"/>ἐνδέχεται λύειν;
@@ -35548,7 +35549,7 @@
             </p>
           </div>
           <div type="textpart" subtype="lemma" n="25">
-            <milestone unit="bekker" n="1093a7"/>
+            <milestone unit="bekker" n="1093b7"/>
             <quote type="lemma">
               <lb n="21" xml:id="p835-20"/>Ἀλλ’ αἱ ἐν τοῖς ἀριθμοῖς φύσεις αἱ ἐπαινούμεναι
               <lb n="22" xml:id="p835-21"/>καὶ τὰ τούτοις ἐναντία καὶ ὅλως τὰ ἐν τοῖς μαθήμασι.
